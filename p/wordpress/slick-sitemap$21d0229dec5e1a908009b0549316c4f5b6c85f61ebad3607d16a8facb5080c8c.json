@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/slick-sitemap": {
+            "1.0.0": {
+                "name": "wordpress\/slick-sitemap",
+                "version": "1.0.0",
+                "version_normalized": "1.0.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/slick-sitemap.1.0.0.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>This simple plugin adds a slick HTML (Not XML) sitemap of you site by entering the shortcode [slick-sitemap] in the page content. This simple plugin is configured from the dashboard. Settings include the <code>menu<\/code>, <code>column<\/code>, <code>utility menu<\/code>. You can select a menu you created.<\/p>",
+                "uid": "29201"
+            }
+        }
+    }
+}

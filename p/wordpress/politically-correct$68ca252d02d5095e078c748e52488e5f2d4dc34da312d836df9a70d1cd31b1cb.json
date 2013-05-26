@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/politically-correct": {
+            "0.2": {
+                "name": "wordpress\/politically-correct",
+                "version": "0.2",
+                "version_normalized": "0.2.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/politically-correct.0.2.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p><em>NOTE: This plugin was meant to be funny, and to help me in learning more about creating WordPress plugins.  If you don't see the humor in it, you're taking yourself too seriously.  And who knows?  Someone might actually find it useful.<\/em><\/p>\n\n<p>Politically Correct swaps the occasional \"politically incorrect\" term with a more socially acceptable replacement.  For instance, if your author types \"shell-shock\",<\/p>\n\n<p>your viewers see \"post-traumatic stress disorder\". If your author types \"retarded\", your viewers see \"mentally challenged\".<\/p>\n\n<h4>Features<\/h4>\n\n<ul>\n<li>Admin options page<\/li>\n<li>Can be used as an input action or as an output filter<\/li>\n<li>Apply the plugin to all users or select specific users<\/li>\n<li>Apply the plugin for all categories, or select specific categories<\/li>\n<\/ul>\n\n<h4>Planned features:<\/h4>\n\n<ul>\n<li>Allow admins to define custom search terms and replacements<\/li>\n<\/ul>",
+                "uid": "79503"
+            }
+        }
+    }
+}

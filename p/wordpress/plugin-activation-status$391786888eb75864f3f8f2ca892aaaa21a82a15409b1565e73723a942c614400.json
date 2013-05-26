@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/plugin-activation-status": {
+            "0.2": {
+                "name": "wordpress\/plugin-activation-status",
+                "version": "0.2",
+                "version_normalized": "0.2.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/plugin-activation-status.0.2.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>Plugin Activation Status makes it easier for owners of multisite and multi-network WordPress installations to perform plugin audits on their installations. The plugin generates a list of plugins that are not currently active on any sites or networks. It generates a separate list of plugins that are active somewhere within the installation, and provides details about where and how those plugins are activated.<\/p>\n\n<p>This plugin first retrieves a full list of all of the plugins that are network-activated throughout your installation. Then, it loops through all of the sites in your installation, retrieving a list of all of the active plugins on each site. Next, it runs a diff between the full list of installed plugins and the list of all active plugins.<\/p>\n\n<p>Once it retrieves all of that information, it outputs two separate lists.<\/p>\n\n<p>The first list is the list of Inactive Plugins; all plugins that are installed, but not activated anywhere within WordPress will be listed there.",
+                "uid": "7991"
+            }
+        }
+    }
+}

@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/ajaxcoderender": {
+            "1.0": {
+                "name": "wordpress\/ajaxcoderender",
+                "version": "1.0",
+                "version_normalized": "1.0.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/ajaxcoderender.1.0.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>ajaxcoderender is a plugin to make your code in post looks pretty<\/p>\n\n<p>it is based on ajax and Geshi php library, so even if your wordpress is cached by some plugin(cos-html-cache) in static status,<\/p>\n\n<p>this plugin can make your code pretty<\/p>",
+                "uid": "96030"
+            }
+        }
+    }
+}

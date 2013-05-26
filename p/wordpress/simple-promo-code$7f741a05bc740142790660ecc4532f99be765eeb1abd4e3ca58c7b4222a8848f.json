@@ -1,0 +1,40 @@
+{
+    "packages": {
+        "wordpress\/simple-promo-code": {
+            "1.0": {
+                "name": "wordpress\/simple-promo-code",
+                "version": "1.0",
+                "version_normalized": "1.0.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/simple-promo-code.1.0.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>This plugin allows editors to request a promo code and optional email address from users to get access to a document and track its usage.<\/p>\n\n<p><em>Features for Editors<\/em><\/p>\n\n<ul>\n<li>a short code [promo] is provided that will display a form that requests a \npromo code and optionally an email address from your users and then takes them to a url.<\/li>\n<li>a summary of the accesses using this code is displayed to editors by the short code<\/li>\n<li>editors can clear the logging from the short code<\/li>\n<li>there is no back end admin page <\/li>\n<\/ul>\n\n<p><em>Short Code Arguments are:<\/em><\/p>\n\n<ul>\n<li>code= a string that must be entered  access the document, required<\/li>\n<li>document= a url to the document that you want to track, required<\/li>\n<li>name= the name to display for the document, required<\/li>\n<li>email= 'yes' to request the user's email<\/li>\n<li>id= the id on the form tag, useful for CSS, default is 'promo'<\/li>\n<li>promolabel= the label for the promo code input fiel",
+                "uid": "30105"
+            },
+            "1.0.1": {
+                "name": "wordpress\/simple-promo-code",
+                "version": "1.0.1",
+                "version_normalized": "1.0.1.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/simple-promo-code.1.0.1.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>This plugin allows editors to request a promo code and optional email address from users to get access to a document and track its usage.<\/p>\n\n<p><em>Features for Editors<\/em><\/p>\n\n<ul>\n<li>a short code [promo] is provided that will display a form that requests a \npromo code and optionally an email address from your users and then takes them to a url.<\/li>\n<li>a summary of the accesses using this code is displayed to editors by the short code<\/li>\n<li>editors can clear the logging from the short code<\/li>\n<li>there is no back end admin page <\/li>\n<\/ul>\n\n<p><em>Short Code Arguments are:<\/em><\/p>\n\n<ul>\n<li>code= a string that must be entered  access the document, required<\/li>\n<li>document= a url to the document that you want to track, required<\/li>\n<li>name= the name to display for the document, required<\/li>\n<li>email= 'yes' to request the user's email<\/li>\n<li>id= the id on the form tag, useful for CSS, default is 'promo'<\/li>\n<li>promolabel= the label for the promo code input fiel",
+                "uid": "30104"
+            }
+        }
+    }
+}

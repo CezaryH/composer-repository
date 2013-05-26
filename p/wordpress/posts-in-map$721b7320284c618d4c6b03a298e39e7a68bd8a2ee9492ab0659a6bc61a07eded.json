@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/posts-in-map": {
+            "0.3": {
+                "name": "wordpress\/posts-in-map",
+                "version": "0.3",
+                "version_normalized": "0.3.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/posts-in-map.0.3.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>Add short code [gmap] to insert in post a google map with advanced features (overlays, clusters, callbacks, events...) and place geolocalized post (with custom fields) in this map<\/p>\n\n<p>To view post in map, you use this custom field :\n* geolocation : set here GPS coordinates for post\n* marker : set here url for marker icon. (optional)<\/p>\n\n<p>To view map in a post, you use this short code ;\n[gmap width=w height=h border=b posttype=p taxonomy=t term=r maxpost=m centermap=c animate=a]<\/p>\n\n<p>where \n* w,h are size of map (default is 500px and 300px)\n* b is css-like style for map border (default is brown solid line)\n* p is post-type (default is post)\n* r is a term for taxonomy t to filter post (default is all post, without taxonomy filter)\n* m is max number of post view in map\n* c il gps coordinates of centre of map\n* a is 0 for not animated marker, 1 for drop marker, 2 for bouncing marker<\/p>\n\n<p>For more information visit <a href=\"http:\/\/gmap3.net\/\" rel=\"nofollow\">http:\/\/gmap3.net\/",
+                "uid": "14001"
+            }
+        }
+    }
+}

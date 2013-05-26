@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/atom-publishing-protocol": {
+            "1.0.1": {
+                "name": "wordpress\/atom-publishing-protocol",
+                "version": "1.0.1",
+                "version_normalized": "1.0.1.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/atom-publishing-protocol.1.0.1.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>Atom Publishing Protocol support for WordPress is still supported in this plugin.\nSupport for Atom was dropped in WordPress core in version 3.5.<\/p>",
+                "uid": "18480"
+            }
+        }
+    }
+}

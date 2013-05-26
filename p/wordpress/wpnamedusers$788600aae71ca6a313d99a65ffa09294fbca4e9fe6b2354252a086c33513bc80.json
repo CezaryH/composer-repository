@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/wpnamedusers": {
+            "0.5": {
+                "name": "wordpress\/wpnamedusers",
+                "version": "0.5",
+                "version_normalized": "0.5.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/wpnamedusers.0.5.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>Intranet \/ Extranet plugin for Wordpress that allows users to specify which users and\/or groups can access specific posts or pages.<\/p>\n\n<p>Current features:<\/p>\n\n<ul>\n<li>Select users and\/or groups who will have access to posts\/pages when writing\/editing.<\/li>\n<li>Hide content of protected posts\/pages.<\/li>\n<li>Exclude protected posts\/pages from appearing in the menu.<\/li>\n<li>Exclude protected posts\/pages from appearing in feeds.<\/li>\n<li>Copy permissions from one user to another.<\/li>\n<li>Quickly set\/clear permissions of many posts\/pages without opening each one.<\/li>\n<\/ul>",
+                "uid": "99173"
+            }
+        }
+    }
+}

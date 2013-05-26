@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/auto-redirect-404": {
+            "1.0": {
+                "name": "wordpress\/auto-redirect-404",
+                "version": "1.0",
+                "version_normalized": "1.0.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/auto-redirect-404.1.0.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>Auto Redirect 404 in 301 for Trashed Posts is a plugin that allows to treat the SEO of your website.<\/p>\n\n<p>Indeed, once an post is deleted or a taxonomy, the plugin automatically create a 301 redirect of your choice to avoid 404 errors and be penalized by Google.<\/p>\n\n<p>By default, the old posts and taxonomies are redirected to the home page of your site.\nYou can change the redirect URL for every Post Type, Taxonomy or Posts\/Pages<\/p>\n\n<p>Please note that posts that are present in the trash have a 302 temporary redirect.<\/p>\n\n<p>Translation: English, French<\/p>",
+                "uid": "11467"
+            }
+        }
+    }
+}

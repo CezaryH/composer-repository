@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/post-format-options": {
+            "0.1": {
+                "name": "wordpress\/post-format-options",
+                "version": "0.1",
+                "version_normalized": "0.1.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/post-format-options.0.1.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>Post Format Options is a simple plugin that allows administrators to granularly manage post formats.<\/p>\n\n<ul>\n<li>Completely disable post format usage. This will force everyone to use the standard format and make your post UI look like the pre-3.6 UI.<\/li>\n<li>Allow certain roles access to only certain formats. For example, one might only want the video post format available to contributors and up (Coming soon!).<\/li>\n<\/ul>\n\n<p>** This plugin requires at least WordPress 3.6!<\/p>",
+                "uid": "9034"
+            }
+        }
+    }
+}

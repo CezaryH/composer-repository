@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/google-pagerank-display": {
+            "1.4": {
+                "name": "wordpress\/google-pagerank-display",
+                "version": "1.4",
+                "version_normalized": "1.4.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/google-pagerank-display.1.4.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>Google PageRank Display shows your site pagerank instantly and you can change style from General Options.\nmore than 130+ pagerank buttons &#38; badges.\n * Install files\n * Activate the plugin\n * Go General Options [<code>options-general.php?page=gpdisplay<\/code>]\n * Choose style you like\n * Update option<\/p>\n\n<ul>\n<li>And add this code your theme \/\/ <code>&#60;?php show_gpdisplay() ?&#62;<\/code><\/li>\n<\/ul>\n\n<p>Features:<\/p>\n\n<ul>\n<li>Real Google Pagerank : Shows real google pagerank, not fake<\/li>\n<li>Many Style : There are 134 different pagerank button and badges<\/li>\n<li>Automatic : just you change style from option<\/li>\n<li>Fast : Loading pagerank fast, get image remotely.<\/li>\n<li>Get your site page rank instantly<\/li>\n<\/ul>\n\n<p>Details: <code><a href=\"http:\/\/www.getrank.org\" rel=\"nofollow\">http:\/\/www.getrank.org<\/a><\/code><\/p>",
+                "uid": "83190"
+            }
+        }
+    }
+}

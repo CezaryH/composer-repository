@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/simple-shortcodes": {
+            "0.2": {
+                "name": "wordpress\/simple-shortcodes",
+                "version": "0.2",
+                "version_normalized": "0.2.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/simple-shortcodes.0.2.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>Simple Shortcodes provides an easy to use mechanism for creating and using custom shortcodes.<\/p>\n\n<p>After installing and activating SimpleShortcodes, a Simple Shortcodes configuration item is added to your Settings menu.<\/p>\n\n<p>From the configuration page you can create new simple shortcodes and edit and delete existing simple shortcodes.<\/p>\n\n<p>The current version can only make simple substitutions.  Shortcode parameters ([shortcode parameter=\"value\"]) and content wrapping ([shortcode]some content[\/shortcode]) are currently not supported.<\/p>\n\n<p>Simple shortcodes are stored in a database table (MB&#095;SimpleShortcodes), which contains two fields (name, value).<\/p>\n\n<p>Beware: Use unique names for your shortcodes.  If you use the same shortcode name as that used by another plugin, one of the short code definitions will be overwritten by the other without any warning.<\/p>",
+                "uid": "95681"
+            }
+        }
+    }
+}

@@ -1,0 +1,40 @@
+{
+    "packages": {
+        "wordpress\/postmark": {
+            "1.0": {
+                "name": "wordpress\/postmark",
+                "version": "1.0",
+                "version_normalized": "1.0.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/postmark.1.0.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>Replaces Wordpress' wp_mail() function to send mail through Postmark's API<\/p>\n\n<p>Note: you need a Postmark account set up to use this plugin.<\/p>\n\n<p>Limitations:<\/p>\n\n<ul>\n<li>Email attachements are not supported<\/li>\n<li>Additional headers sent to the wp_mail function are not supported<\/li>\n<li>Only text based emails are supported<\/li>\n<\/ul>",
+                "uid": "62707"
+            },
+            "1.0.1": {
+                "name": "wordpress\/postmark",
+                "version": "1.0.1",
+                "version_normalized": "1.0.1.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/postmark.1.0.1.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>Replaces Wordpress' wp_mail() function to send mail through Postmark's API<\/p>\n\n<p>Note: you need a Postmark account set up to use this plugin.<\/p>\n\n<p>Limitations:<\/p>\n\n<ul>\n<li>Email attachements are not supported<\/li>\n<li>Additional headers sent to the wp_mail function are not supported<\/li>\n<li>Only text based emails are supported<\/li>\n<\/ul>",
+                "uid": "62706"
+            }
+        }
+    }
+}

@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/whisperfollow": {
+            "1.2.4": {
+                "name": "wordpress\/whisperfollow",
+                "version": "1.2.4",
+                "version_normalized": "1.2.4.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/whisperfollow.1.2.4.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>WhisperFollow turns your wordpress blog into a federated social web client.\nIn it's current form it aggregates RSS feeds in a page on your blog called \"following\" which it creates.\nThe links it aggregates are the ones from your blogroll with rss feed data.\nReblogs are automatically in the \"whispers\" category which can be excluded from pages if you like using plugins like <a href=\"http:\/\/wordpress.org\/extend\/plugins\/simply-exclude\/\">Simply-Exclude<\/a>.<\/p>\n\n<p>This plugin will be updated to be ostatus compatible working with the <a href=\"http:\/\/wordpress.org\/extend\/plugins\/ostatus-for-wordpress\/\">ostatus-for-wordpress<\/a> plugin.<\/p>",
+                "uid": "31458"
+            }
+        }
+    }
+}

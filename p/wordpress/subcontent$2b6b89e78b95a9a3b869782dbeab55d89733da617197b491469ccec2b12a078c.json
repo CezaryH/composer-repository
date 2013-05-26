@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/subcontent": {
+            "0.1": {
+                "name": "wordpress\/subcontent",
+                "version": "0.1",
+                "version_normalized": "0.1.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/subcontent.0.1.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>Adds another text editor below the editor in your post\/page\/custom-post-type edit page.<\/p>\n\n<ul>\n<li><a href=\"https:\/\/github.com\/ShinichiNishikawa\/subcontent\">GitHub<\/a><\/li>\n<li><a href=\"http:\/\/nskw-style.com\/2013\/wordpress\/plugin-downloads\/subcontent.html\">Plugin Homepage<\/a><\/li>\n<\/ul>\n\n<h4>Retriving and displaying in templates<\/h4>\n\n<p>Use <code>get_the_subcontent()<\/code> to retrieve and <code>the_subcontent()<\/code> to display.<\/p>\n\n<h4>Change label<\/h4>\n\n<p>By default the label of the input field is \"Subtitle\". There's a hook for changing it.<\/p>\n\n<pre><code>add_filter( &#039;nskw-sce-meta_label&#039;, &#039;nskw_changesubcontentlabel&#039; );\nfunction nskw_changesubcontentlabel() {\n    return &#039;Contact Information&#039;;\n}<\/code><\/pre>\n\n<h4>Change the height of the editor<\/h4>\n\n<p>Default it's 10.<\/p>\n\n<pre><code>add_filter( &#039;nskw-sce-row&#039;, &#039;change_subcontent_row&#039; );\nfunction change_subcontent_row() {\n&#160;&#160;&#160;&#160;return 20;\n}<\/code><\/pre>",
+                "uid": "8380"
+            }
+        }
+    }
+}

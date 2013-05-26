@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/av-csv-2-posts": {
+            "1.0": {
+                "name": "wordpress\/av-csv-2-posts",
+                "version": "1.0",
+                "version_normalized": "1.0.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/av-csv-2-posts.1.0.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>AV CSV 2 POST. Este plugin est&#225; dise&#241;ado para importar archivos en formato CSV y convertirlos en Posts.<\/p>\n\n<p><strong>Caracter&#237;sticas:<\/strong><\/p>\n\n<p><strong>Subida del archivo CSV:<\/strong><\/p>\n\n<ul>\n<li>Importar archivos CSV. <\/li>\n<li>Cada archivo subido se almacena en una nueva tabla intermedia (avit) en la bbdd. <\/li>\n<li>Cada l&#237;nea del archivo csv se contempla como un registro y se almacena en otra tabla intermedia la bbdd (avit_datos).<\/li>\n<\/ul>\n\n<p><strong>Creaci&#243;n de entradas:<\/strong><\/p>\n\n<ul>\n<li>Crear entradas (Posts) de forma autom&#225;tica. Recogiendo los datos de las tablas intermedias (procedentes de la subida de archivos csv).<\/li>\n<li>Asignar el contenido a un autor determinado. <\/li>\n<li>Seleccionar el Tipo de contenido (Post_type).<\/li>\n<li>Asignar un estado predeterminado para el status de las entradas (publicado - borrador).<\/li>\n<li>Asignar un estado predeterminado para el status de los comentarios (permitir - no permitir).<\/li>",
+                "uid": "30128"
+            }
+        }
+    }
+}

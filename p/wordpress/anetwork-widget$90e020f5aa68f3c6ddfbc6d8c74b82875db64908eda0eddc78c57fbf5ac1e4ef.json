@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/anetwork-widget": {
+            "1.0": {
+                "name": "wordpress\/anetwork-widget",
+                "version": "1.0",
+                "version_normalized": "1.0.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/anetwork-widget.1.0.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>This plugin uses the <a href=\"http:\/\/www.Anetwork.ir\">Anetwork<\/a> Javascript to return the ADs from your account. For more information about Anetwork visit <a href=\"http:\/\/www.Anetwork.ir\">HERE.<\/a><\/p>\n\n<p>To use you need your \"aduser\", to get that:<\/p>\n\n<ul>\n<li>sign up into anetwork.ir<\/li>\n<li>go to your <a href=\"http:\/\/anetwork.ir\/fa\/apanel\">panel<\/a>.<\/li>\n<li>add a website.<\/li>\n<li>in the code area, copy the aduser=\"xxxxxxx\"<\/li>\n<\/ul>",
+                "uid": "41001"
+            }
+        }
+    }
+}

@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/jd-redesign-images": {
+            "0.0.1": {
+                "name": "wordpress\/jd-redesign-images",
+                "version": "0.0.1",
+                "version_normalized": "0.0.1.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/jd-redesign-images.0.0.1.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>Everytime a post or page is published, updated, edited, or shown on your website, JD redesignImages would check for two things: hotlinked and oversized images. For every image that meets the criteria, it applies the filters set above. <a> and  tags would then be updated to point to the new images saved in your \u0093uploads folder\u0094 (images that are _suffixed according to your settings).<\/a><\/p>\n\n<p>Optionally, fitters like grayscale, tint, blur and others may also be applied.<\/p>",
+                "uid": "65467"
+            }
+        }
+    }
+}

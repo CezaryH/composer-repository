@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/proper-avatars": {
+            "1.0.2": {
+                "name": "wordpress\/proper-avatars",
+                "version": "1.0.2",
+                "version_normalized": "1.0.2.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/proper-avatars.1.0.2.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>WordPress does not have an option to remove calls to gravatar.com, nor to set default site avatars or add custom user avatars outside gravatar.com\nMany people claims that calls to gravatar.com slow down the sites and some are just bored of the silly default mystery man or the monsters.\nYou can disable Avatars completely but this plugin adds functionality to set your custom avatar and the site default one.<\/p>\n\n<p>**PLEASE upgrade to this version as the previous one had very poor sanitation of the user input **<\/p>\n\n<p><strong>This plugin adds the following functionality:<\/strong><\/p>\n\n<ol>\n<li>Show Avatars<\/li>\n<li>Remove calls to gravatar.com<\/li>\n<li>Use local default Avatar<\/li>\n<li>Add custom avatar for the blog users<\/li>\n<li>Display Custom avatar for blog users<\/li>\n<li>Display default avatar for unregistered commenter<\/li>\n<li>Display custom avatar for comment replies<\/li>\n<\/ol>",
+                "uid": "11747"
+            }
+        }
+    }
+}

@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/haskmask-for-wordpress": {
+            "0.9.1": {
+                "name": "wordpress\/haskmask-for-wordpress",
+                "version": "0.9.1",
+                "version_normalized": "0.9.1.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/haskmask-for-wordpress.0.9.1.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>A while ago, arc90 decided that having to submit a form to find out if you've entered the right password was inefficient, so they set about finding a quick and secure way of telling you if the password you've entered is correct. They came up with <a href=\"http:\/\/lab.arc90.com\/2009\/07\/hashmask.php\">Hashmask<\/a> which does that pretty well.<\/p>\n\n<p>When you enter your password into the field, you'll be shown a little graphic. Remember that graphic! That's the visual representation of your password. For instance, if I enter my password I see a green shape, with two peaks at the beginning. If I type it in, and that's not the graphic I see then I've typed it wrong and know to type it again (without wasting time submitting the page)!<\/p>\n\n<p>It's completely secure though. Even if someone sees what shape your password makes, there's nothing that can do to convert that image back to a real word.<\/p>",
+                "uid": "81853"
+            }
+        }
+    }
+}

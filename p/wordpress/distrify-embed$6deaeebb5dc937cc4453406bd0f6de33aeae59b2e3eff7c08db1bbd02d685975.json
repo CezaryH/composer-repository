@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/distrify-embed": {
+            "0.3": {
+                "name": "wordpress\/distrify-embed",
+                "version": "0.3",
+                "version_normalized": "0.3.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/distrify-embed.0.3.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>Extends WordPress's <a href=\"http:\/\/codex.wordpress.org\/Embeds\" title=\"WordPress Embeds\">Embeds<\/a> allowing bloggers to easily embed videos from Distrify. Just go to any Distrify film page or player and copy the URL. Paste that URL in any WordPress blog and it will automatically be converted to an embedded Distrify player. If you are logged in to <a href=\"http:\/\/distrify.com\/\">distrify.com<\/a> it will automatically add your affiliate tracking code to your embeds. Make sure you turn on Auto-embeds in your WP settings and also make sure that the URL is on its own line and not hyperlinked (clickable when viewing the post).<\/p>\n\n<p>The plugin also extracts the still image from the film and saves it as the <a href=\"http:\/\/codex.wordpress.org\/Post_Thumbnails\" title=\"WordPress Featured Images\">Featured Image<\/a> for the post. This actually works for any Embed (not just Distrify) that you embed into your WordPress blog.<\/p>",
+                "uid": "45544"
+            }
+        }
+    }
+}

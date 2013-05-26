@@ -1,0 +1,40 @@
+{
+    "packages": {
+        "wordpress\/gdata-importer": {
+            "1.0.0": {
+                "name": "wordpress\/gdata-importer",
+                "version": "1.0.0",
+                "version_normalized": "1.0.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/gdata-importer.1.0.0.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>A wordpress plugin I created for a client which imports Google Spreadsheet Data into the Wordpress Post using shortcode.\nYou have to provide Sheet Url, Worksheet Name, Username and Password in shortcode.<\/p>\n\n<p>Usage:\n[gdata_import sheet=\"sheeturl\" worksheet=\"workbookname\" user=\"yourusername\" pass=\"yourpassword\"]<\/p>\n\n<p>Example:\n[gdata_import sheet=\"https:\/\/spreadsheets.google.com\/feeds\/spreadsheets\/0AqJJ6fnIoHPYdE1qTFF 0OWtFX2xfRHU1OC1oY0JIeVV\"\nworksheet=\"Sheet1\" user=\"yourusername\" pass=\"yourpassword\"]<\/p>",
+                "uid": "29912"
+            },
+            "1.0.1": {
+                "name": "wordpress\/gdata-importer",
+                "version": "1.0.1",
+                "version_normalized": "1.0.1.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/gdata-importer.1.0.1.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>A wordpress plugin I created for a client which imports Google Spreadsheet Data into the Wordpress Post using shortcode.\nYou have to provide Sheet Url, Worksheet Name, Username and Password in shortcode.<\/p>\n\n<p>Usage:\n[gdata_import sheet=\"sheeturl\" worksheet=\"workbookname\" user=\"yourusername\" pass=\"yourpassword\"]<\/p>\n\n<p>Example:\n[gdata_import sheet=\"https:\/\/spreadsheets.google.com\/feeds\/spreadsheets\/0AqJJ6fnIoHPYdE1qTFF 0OWtFX2xfRHU1OC1oY0JIeVV\"\nworksheet=\"Sheet1\" user=\"yourusername\" pass=\"yourpassword\"]<\/p>",
+                "uid": "29911"
+            }
+        }
+    }
+}

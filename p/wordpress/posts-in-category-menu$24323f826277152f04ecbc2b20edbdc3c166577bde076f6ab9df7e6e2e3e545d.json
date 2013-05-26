@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/posts-in-category-menu": {
+            "0.2": {
+                "name": "wordpress\/posts-in-category-menu",
+                "version": "0.2",
+                "version_normalized": "0.2.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/posts-in-category-menu.0.2.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>Add sub menu items for all posts in a category menu item. For example if you have a category item in a menu this plugin will create child menu items for all posts in that category beneath that item.<\/p>\n\n<p>This will contain <strong>all<\/strong> the posts in this category sorted alphabetically. See Roadmap for more details on what comes next. <em>Code contributions welcome.<\/em><\/p>",
+                "uid": "30109"
+            }
+        }
+    }
+}

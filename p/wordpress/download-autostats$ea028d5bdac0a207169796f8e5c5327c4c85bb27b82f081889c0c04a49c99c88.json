@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/download-autostats": {
+            "1.1.6": {
+                "name": "wordpress\/download-autostats",
+                "version": "1.1.6",
+                "version_normalized": "1.1.6.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/download-autostats.1.1.6.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p><strong>DEPRECATED:<\/strong> <em>This plugin is deprecated and not maintained anymore and its use is not recommended as may be unestable.<\/em><\/p>\n\n<p>With this plugin, you just have to upload your files by FTP to start collecting your download stats. The uploaded files are added to the stats database the first time they are requested. You can change this and only be added to database if the first request is made by the administrator, or not added in anyway.<\/p>\n\n<p>Also, you can add the files in a bulk process from the files management page, where you can also add a title and excerpt to the file for your information (At this moment only title is showing to the user). To easy administrate the files, them can be filtered by folder in the management page and can be sorted by several fields (Date, Name, Hits and Title) and can be filtered by folder or status (Active or locked). Also, a file can be locked to prevent downloading it.<\/p>\n\n<p>The plugin supports multilevel folders, so, you",
+                "uid": "101678"
+            }
+        }
+    }
+}

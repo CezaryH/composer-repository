@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/improved-gallery": {
+            "1.0.5": {
+                "name": "wordpress\/improved-gallery",
+                "version": "1.0.5",
+                "version_normalized": "1.0.5.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/improved-gallery.1.0.5.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>This plugin improves the gallery template by making the following tweaks:<\/p>\n\n<ol>\n<li>Puts all the gallery css in a separte file, for easy customisation and <strong>faster page load<\/strong>.<\/li>\n<li>Adds an id attribute to the code, so that two or more galleries can have a <em>different<\/em> number of columns and still <strong>display correctly<\/strong> on the same page.<\/li>\n<\/ol>\n\n<p>Links: <a href=\"http:\/\/scribu.net\/wordpress\/improved-gallery\">Plugin News<\/a> &#124; <a href=\"http:\/\/scribu.net\">Author's Site<\/a><\/p>",
+                "uid": "103535"
+            }
+        }
+    }
+}

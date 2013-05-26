@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/wp2laconica": {
+            "1.0": {
+                "name": "wordpress\/wp2laconica",
+                "version": "1.0",
+                "version_normalized": "1.0.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/wp2laconica.1.0.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>WP2Laconica generates updates for laconica (you can add custom services based on Laconica ) when a new post is published.\nPlugin based on WordIdentica and was modified for personal use :)<\/p>",
+                "uid": "85027"
+            }
+        }
+    }
+}

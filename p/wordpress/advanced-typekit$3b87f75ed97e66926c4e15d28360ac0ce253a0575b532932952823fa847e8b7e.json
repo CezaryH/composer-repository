@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/advanced-typekit": {
+            "1.0.1": {
+                "name": "wordpress\/advanced-typekit",
+                "version": "1.0.1",
+                "version_normalized": "1.0.1.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/advanced-typekit.1.0.1.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>This plugin allows you to add Typekit fonts to your site, by targetting them to specific elements using css selectors from the admin panel. It uses the new Typekit API to fetch fonts' info from your account.<\/p>\n\n<p>Enter your Typekit API key from Settings -&#62; Advanced Typekit, and the plugin will fetch all the fonts you've added to your kit.\nEnter the css selectors you want to target for each font, along with any extra css.\nThe extra css is only applied when the browser has loaded the font.<\/p>\n\n<p>This plugin uses the Google WebFont Loader to load your Typekit fonts.<\/p>\n\n<p>Click on the Screenshot link above to preview the plugins admin page.<\/p>\n\n<p>Note: You need PHP5 on your server, and a Typekit account to use this plugin.<\/p>",
+                "uid": "64127"
+            }
+        }
+    }
+}

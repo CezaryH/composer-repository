@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/move-images-between-pages": {
+            "0.1": {
+                "name": "wordpress\/move-images-between-pages",
+                "version": "0.1",
+                "version_normalized": "0.1.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/move-images-between-pages.0.1.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>This plugin allows you to quickly reattach images to different pages in your WordPress installation. It places a simple drop-down menu in the edit media screen that lists all of the pages in your WordPress site and allows you to reattach the given image to a new page. Note that this plugin only works for images that are attached to pages. It ignores images that are attached to posts.<\/p>",
+                "uid": "52707"
+            }
+        }
+    }
+}

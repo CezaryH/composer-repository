@@ -1,0 +1,40 @@
+{
+    "packages": {
+        "wordpress\/widget-locationizer": {
+            "1.0.0": {
+                "name": "wordpress\/widget-locationizer",
+                "version": "1.0.0",
+                "version_normalized": "1.0.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/widget-locationizer.1.0.0.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>Widget Locationizer permits you to define where you want your widgets to appear.  You may specify \nthe tags, categories, and page\/post IDs for which a widget will be displayed.  It also provides an option \nto exclude the widget from being displayed on selected tags, categories, and post\/page IDs.  Furthermore, \nyou can assign a nofollow or dofollow status for a widget's contents too.<\/p>\n\n<p>The following is how the plugin decides if a widget should show or not:<\/p>\n\n<ul>\n<li>Is it a tag page and the tag is in the list of tags for which to show the widget?  If so, show the widget.<\/li>\n<li>Is it a category page and the tag is in the list of categories for which to show the widget?  If so, show the widget.<\/li>\n<li>Is the page a single page (a single post\/page, basically)?  If so, is the post\/page ID contained in the list of post\/page IDs that were entered (if any)?  If so, show the widget.<\/li>\n<li>Is the page a single page, no post\/page IDs have been entered for the widget, and the",
+                "uid": "94029"
+            },
+            "1.2.2": {
+                "name": "wordpress\/widget-locationizer",
+                "version": "1.2.2",
+                "version_normalized": "1.2.2.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/widget-locationizer.1.2.2.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>Widget Locationizer permits you to define where you want your widgets to appear.  You may specify \nthe tags, categories, and page\/post IDs for which a widget will be displayed.  It also provides an option \nto exclude the widget from being displayed on selected tags, categories, and post\/page IDs.  Furthermore, \nyou can assign a nofollow or dofollow status for a widget's contents too.<\/p>\n\n<p>The following is how the plugin decides if a widget should show or not:<\/p>\n\n<ul>\n<li>Is it a tag page and the tag is in the list of tags for which to show the widget?  If so, show the widget.<\/li>\n<li>Is it a category page and the tag is in the list of categories for which to show the widget?  If so, show the widget.<\/li>\n<li>Is the page a single page (a single post\/page, basically)?  If so, is the post\/page ID contained in the list of post\/page IDs that were entered (if any)?  If so, show the widget.<\/li>\n<li>Is the page a single page, no post\/page IDs have been entered for the widget, and the",
+                "uid": "94028"
+            }
+        }
+    }
+}

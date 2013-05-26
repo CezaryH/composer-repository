@@ -1,0 +1,40 @@
+{
+    "packages": {
+        "wordpress\/picgrab": {
+            "0.2": {
+                "name": "wordpress\/picgrab",
+                "version": "0.2",
+                "version_normalized": "0.2.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/picgrab.0.2.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>Picgrab is a plugin that download, resize and crop an image on the fly.<br \/>\nSimply add the &#8220;resize&#8221; attribute in the img tag you want to grab &#38; resize on your post.<\/p>\n\n<p>E.g.\n&#60;img src=\"http:\/\/farm4.static.flickr.com\/3532\/3243887563_700849f242.jpg\" resize=\"402&#215;200c;66y\" \/&#62;\nOnce activated, the plugin replaces the attribute &#8220;src&#8221; on img tags containing the \"resize\" attribute with something like:<\/p>\n\n<p><a href=\"http:\/\/yoursite\/wp-content\/plugins\/picgrab\/resize.php?url=&#60;coded\" rel=\"nofollow\">http:\/\/yoursite\/wp-content\/plugins\/picgrab\/resize.php?url=&#60;coded<\/a> characters&#62;&#38;size=&#60;coded characters&#62;\nand removes the \"resize\" attribute.<\/p>\n\n<p>The resize.php script included with plugin does the work to grab, crop and resize the image.\nIt also manages the cache.\nThe resize attribute format is:<\/p>\n\n<p>[(x0,y0,xs,ys)]&#60;xd&#62;x&#124;x&#60;yd&#62;&#124;&#60;xd&#62;x&#60;yd&#62;[c[&#60;crop&#62;]][;&#60;cachetime&#62;]<\/p>\n",
+                "uid": "92226"
+            },
+            "0.21": {
+                "name": "wordpress\/picgrab",
+                "version": "0.21",
+                "version_normalized": "0.21.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/picgrab.0.21.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>Picgrab is a plugin that download, resize and crop an image on the fly.<br \/>\nSimply add the &#8220;resize&#8221; attribute in the img tag you want to grab &#38; resize on your post.<\/p>\n\n<p>E.g.\n&#60;img src=\"http:\/\/farm4.static.flickr.com\/3532\/3243887563_700849f242.jpg\" resize=\"402&#215;200c;66y\" \/&#62;\nOnce activated, the plugin replaces the attribute &#8220;src&#8221; on img tags containing the \"resize\" attribute with something like:<\/p>\n\n<p><a href=\"http:\/\/yoursite\/wp-content\/plugins\/picgrab\/resize.php?url=&#60;coded\" rel=\"nofollow\">http:\/\/yoursite\/wp-content\/plugins\/picgrab\/resize.php?url=&#60;coded<\/a> characters&#62;&#38;size=&#60;coded characters&#62;\nand removes the \"resize\" attribute.<\/p>\n\n<p>The resize.php script included with plugin does the work to grab, crop and resize the image.\nIt also manages the cache.\nThe resize attribute format is:<\/p>\n\n<p>[(x0,y0,xs,ys)]&#60;xd&#62;x&#124;x&#60;yd&#62;&#124;&#60;xd&#62;x&#60;yd&#62;[c[&#60;crop&#62;]][;&#60;cachetime&#62;]<\/p>\n",
+                "uid": "92225"
+            }
+        }
+    }
+}

@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/wordpress-plugin-for-securepass": {
+            "0.1": {
+                "name": "wordpress\/wordpress-plugin-for-securepass",
+                "version": "0.1",
+                "version_normalized": "0.1.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/wordpress-plugin-for-securepass.0.1.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>A lot of web sites, even well known ones (newspapers, telcos, ...) adopts \nWordPress as their CMS. WordPress is a great platform, however it\ncan happen that password leaking or guessing might lead to unauthorized\naccess to the platform. A potential attacker can be therefore able to \nchange articles, part of the web site and\/or make the website unavailable,\nwith image and economic damages for a company or for a blogger.\nThis is even more true if your website is not SSL protected.<\/p>\n\n<p>SecurePass is a SaaS service offering an easy and affordable solution\nfor One Time Passwords (OTP) and strong authentication in general. They \noffer 5 users for free included with their standard (=basic) account, which\nis more than enough for standard blogs and web sites. Companies can purchase\nadditional users, if needed.<\/p>\n\n<p>More information on the section \"Setup and configure SecurePass\" in Other Notes.\nTo open a SecurePass account go to <a href=\"http:\/\/www.secure-pass.net\/open\" rel=\"nofollow\"",
+                "uid": "30596"
+            }
+        }
+    }
+}

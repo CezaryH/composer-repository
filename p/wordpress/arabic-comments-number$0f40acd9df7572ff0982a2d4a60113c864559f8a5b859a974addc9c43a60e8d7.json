@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/arabic-comments-number": {
+            "1.2": {
+                "name": "wordpress\/arabic-comments-number",
+                "version": "1.2",
+                "version_normalized": "1.2.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/arabic-comments-number.1.2.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>the idea of the plugin from <a href=\"http:\/\/wpaon.com\/?p=48\">this post<\/a><\/p>\n\n<p>bascally the plugin generats two functions you can use them in your theme<\/p>\n\n<p>the functions are:\n1.  comments_number_ar('\u0644\u0627 \u062a\u0648\u062c\u062f \u062a\u0639\u0644\u064a\u0642\u0627\u062a', '\u062a\u0639\u0644\u064a\u0642 \u0648\u0627\u062d\u062f', '\u062a\u0639\u0644\u064a\u0642\u0627\u0646', '% \u062a\u0639\u0644\u064a\u0642\u0627\u062a', '% \u062a\u0639\u0644\u064a\u0642' );<br \/>\n2.  comments_popup_link_ar('\u0644\u0627 \u062a\u0648\u062c\u062f \u062a\u0639\u0644\u064a\u0642\u0627\u062a', '\u062a\u0639\u0644\u064a\u0642 \u0648\u0627\u062d\u062f', '\u062a\u0639\u0644\u064a\u0642\u0627\u0646', '% \u062a\u0639\u0644\u064a\u0642\u0627\u062a', '% \u062a\u0639\u0644\u064a\u0642' );<\/p>\n\n<p>the functions are similar to functions comments_number () and comments_popup_link ()\nI just edit them to be correct with Arabic grammare.<\/p>\n\n<ul>\n<li><strong>For more information <a href=\"http:\/\/6efy.com\/blog\/?page_id=2222\" rel=\"nofollow\">http:\/\/6efy.com\/blog\/?page_id=2222<\/a><\/strong><\/li>\n<\/ul>",
+                "uid": "62188"
+            }
+        }
+    }
+}

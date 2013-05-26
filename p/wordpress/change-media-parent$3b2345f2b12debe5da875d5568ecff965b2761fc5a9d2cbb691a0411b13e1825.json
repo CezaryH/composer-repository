@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/change-media-parent": {
+            "0.1": {
+                "name": "wordpress\/change-media-parent",
+                "version": "0.1",
+                "version_normalized": "0.1.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/change-media-parent.0.1.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>Currently WordPress does not provide the ability to change the post that an item in the Media Library is attached to after it has been set. This plugin allows editors to change the parent post to another post.<\/p>",
+                "uid": "18042"
+            }
+        }
+    }
+}

@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/mingle-friend-requests": {
+            "1.03": {
+                "name": "wordpress\/mingle-friend-requests",
+                "version": "1.03",
+                "version_normalized": "1.03.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/mingle-friend-requests.1.03.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>Mingle Friend Requests widget currently displays the following:<\/p>\n\n<p>Widget to show the following in your sidebar:\nCurrent Users Image on all pages\nWelcomes Users with link to view their profile\nUsers last status update and time\nIf they have any friend requests. If so, it displays the requesters image, link, and ability to accept\/ignore<\/p>\n\n<p>This will only be shown to logged in users. If they are not logged in, it provides the mingle Login and Signup options.<\/p>",
+                "uid": "73095"
+            }
+        }
+    }
+}

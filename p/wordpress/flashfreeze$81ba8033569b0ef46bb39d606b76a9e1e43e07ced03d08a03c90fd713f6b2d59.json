@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/flashfreeze": {
+            "1.0": {
+                "name": "wordpress\/flashfreeze",
+                "version": "1.0",
+                "version_normalized": "1.0.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/flashfreeze.1.0.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>For many people, the <em>Flash<\/em> media uploader does not work properly.  I found it frustrating that this was the\ndefault option, requiring an extra step to get to the <em>Browser<\/em> media uploader.<\/p>\n\n<p>This plugin works by hooking into the 'flash_updater' filter and setting the variable to false.  This makes\nit seem to WordPress that the browser doesn't support flash.  Because of this, the option to switch to the\nflash version isn't shown.  Future versions may work around this if there is a need for it, but I would imagine\nthat if you don't want flash, you don't want it at all.<\/p>\n\n<p>There are also no setup options in this version.  It is turned on by activating the plugin and turned off by\ndeactivating it.  Easy, peasy!<\/p>",
+                "uid": "88440"
+            }
+        }
+    }
+}

@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/wordpress-copyscape-plugin": {
+            "0.2": {
+                "name": "wordpress\/wordpress-copyscape-plugin",
+                "version": "0.2",
+                "version_normalized": "0.2.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/wordpress-copyscape-plugin.0.2.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>The Wordpress copyscape plugin allows you to check posts and pages for duplicate content issues via the Copyscape API.<br \/>\nA link is added on the post and page listing page next to the \"Quick Edit\" link that allows you to check for Copyscape issues.\nLinks and examples of any Copyscape issues are returned.<\/p>",
+                "uid": "64969"
+            }
+        }
+    }
+}

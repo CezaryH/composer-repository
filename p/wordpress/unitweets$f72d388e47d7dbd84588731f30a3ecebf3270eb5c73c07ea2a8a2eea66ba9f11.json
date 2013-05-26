@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/unitweets": {
+            "0.1.0": {
+                "name": "wordpress\/unitweets",
+                "version": "0.1.0",
+                "version_normalized": "0.1.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/unitweets.0.1.0.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>UniTweets is a plugin for WordPress 2.8+ that allows tweets from an unlimited number of accounts to be \n added as posts to you blog. It doesn't just show your latest tweets in a list, but actually adds a whole \n new WordPress post that can then be edited and displayed however you choose. You can post all tweets from \n an account or optionally filter the tweets by an exact match string.<\/p>\n\n<ul>\n<li>Doesn't just list recent tweets, but actually adds them to your WordPress database.<\/li>\n<li>Add tweets from as many accounts as you want.<\/li>\n<li>Filter tweets by hashtag or any other exact string match.<\/li>\n<li>Uses built-in WordPress cron system to look for new tweets \"every hour\".<\/li>\n<li>Built on <a href=\"http:\/\/emmense.com\/php-twitter\/\" title=\"PHP Twitter\">PHP Twitter by Emmense Techologies<\/a><\/li>\n<\/ul>",
+                "uid": "79645"
+            }
+        }
+    }
+}

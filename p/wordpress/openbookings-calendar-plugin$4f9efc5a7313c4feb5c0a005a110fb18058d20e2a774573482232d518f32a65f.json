@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/openbookings-calendar-plugin": {
+            "1.0": {
+                "name": "wordpress\/openbookings-calendar-plugin",
+                "version": "1.0",
+                "version_normalized": "1.0.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/openbookings-calendar-plugin.1.0.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>The Openbookings Calendar Plugin displays booking availability of an object defined in your openbookings.org system.<\/p>\n\n<p>A full calendar year is displayed, with booked dates highlighted starting from now.<\/p>\n\n<p>You need to have installed openbookings.org on the same database as Wordpress\n(see <a href=\"http:\/\/openbookings.org\" rel=\"nofollow\">http:\/\/openbookings.org<\/a> &#169; for details<\/p>",
+                "uid": "30618"
+            }
+        }
+    }
+}

@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/yd-feedwordpress-content-filter": {
+            "0.2.0": {
+                "name": "wordpress\/yd-feedwordpress-content-filter",
+                "version": "0.2.0",
+                "version_normalized": "0.2.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/yd-feedwordpress-content-filter.0.2.0.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>This plugin is an add-on to the FeedWordPress RSS content syndication plugin.<\/p>\n\n<p>You need to have FeedWordPress installed and configured for content syndication.<\/p>\n\n<h4>Fetch images locally as attachments<\/h4>\n\n<p>If there are images in the syndicated content, they will be fetched as local attachments.<\/p>\n\n<h4>Automatically resolve redirected target URLs<\/h4>\n\n<p>Feed entries that point to 301 or 302 redirected URLs will be resolved and replaced with the final target URI.\nThis way you always get a link to the original source of the syndicated content instead of a link to some in-between redirection script.<\/p>\n\n<h4>Normalize content layout<\/h4>\n\n<p>The content of syndicated posts will be normalized: HTML tags will be removed, duplication of the title will be removed, \nimages will be processed to be moved at beginning of content block.<\/p>\n\n<p>White space and line breaks at beginning and end of content will be removed.<\/p>\n\n<p>Includes specific targeted filters for content fr",
+                "uid": "59433"
+            }
+        }
+    }
+}

@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/gamatam-tasks": {
+            "1.0": {
+                "name": "wordpress\/gamatam-tasks",
+                "version": "1.0",
+                "version_normalized": "1.0.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/gamatam-tasks.1.0.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>Gamatam Tasks tracks tasks between Worpress users, allowing users to edit the description, change the task status, change the priority and assign the task to a different user. It is not as comprehensive as most issue trackers (no work flow etc) by design, I found a lot of clients looking for something more useful than a spreadsheet or todo list, but not as complicated to use as bugzilla, trac et al.<\/p>\n\n<p>I've also streamlined the main user interface ('Current Tasks' in the admin section) to use AJAX to update the tasks. I've really minimized the amount of 'noise' a user would normally be subjected to, so some 'power users' might not approve.<\/p>\n\n<p>Gamatam Tasks has the following features:<\/p>\n\n<ul>\n<li>Uses Wordpress Users<\/li>\n<li>Status can be 'open', 'in progress', 'testing', 'closed' and 'deleted'<\/li>\n<li>Priority can be 'high', medium, 'low'<\/li>\n<li>Tasks with 'deleted' status are not removed from the database, put can be removed permanently<\/li>\n<li>Two main views of ta",
+                "uid": "72151"
+            }
+        }
+    }
+}

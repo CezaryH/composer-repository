@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/gas-injector": {
+            "1.2": {
+                "name": "wordpress\/gas-injector",
+                "version": "1.2",
+                "version_normalized": "1.2.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/gas-injector.1.2.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>GAS Injector for Wordpress is a plugin which makes it easy for you to start collecting statistics with Google Analytics on your WordPress blog. \nThis plugin make use of Google Analytics on Steriods (GAS) for more advanced analytics tracking eg. outbound links, forms, movies, mailto links etc.\nThis plugin is based on the GAS project on Github: <a href=\"https:\/\/github.com\/CardinalPath\/gas\" rel=\"nofollow\">https:\/\/github.com\/CardinalPath\/gas<\/a>\nAfter the installation of the plugin you just click on the \"GAS Injector\" in the \"Settings\" menu and add your \nGoogle Tracking code (eg. UA-xxxxx-1) and your domain (eg. .mydomain.com) in the admin form.<\/p>\n\n<p>This plugin also exclude the visits from the Administrator if he\/she is currently logged in.<\/p>",
+                "uid": "14295"
+            }
+        }
+    }
+}

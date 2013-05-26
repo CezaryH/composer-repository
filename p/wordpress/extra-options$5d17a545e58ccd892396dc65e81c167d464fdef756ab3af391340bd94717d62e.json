@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/extra-options": {
+            "1.0": {
+                "name": "wordpress\/extra-options",
+                "version": "1.0",
+                "version_normalized": "1.0.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/extra-options.1.0.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>This plugin is mainly for themes developers to save the themes data via a xml file.<\/p>\n\n<p>Or If you are a normal user know a little about the wordpress theme,and can code a little,this plugin will actually help you!<\/p>\n\n<p>Why roamfox extra options:\n1. use xml to save the data and add no extra date to your database. It is clean and green.\n2. define any date you want with no restrict in template even if you have no access to the user database<\/p>\n\n<p>I strongly recommand that you integrate this plugin into your themes.<\/p>",
+                "uid": "87916"
+            }
+        }
+    }
+}

@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/wp-webticker": {
+            "1.1": {
+                "name": "wordpress\/wp-webticker",
+                "version": "1.1",
+                "version_normalized": "1.1.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/wp-webticker.1.1.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>wp-webticker is a plugin that provides shortcode functionality to use the jQuery webTicker.<\/p>\n\n<p>The jQuery webTicker is a jQuery plugin that creates a ticker effect where posts slide from one side to another in a particular order\nonce the last item goes outside of the visible area it is queued back so that it will appear when the list finishes. The ticker can be used \nto show the users the latest posts in your blog\/website without having space consuming widgets on the sidebars.<\/p>\n\n<p>This makes creating web tickers on your wordpress blog quite easily. You can either use the shortcode in Advanced Text \nwidget plugin; or else include it in a post\/page or in the template itself using do_shortcode.<\/p>\n\n<p>Further information and an example can be found on the official <a href=\"http:\/\/jonmifsud.com\/web-tools\/wp-webticker\/\" title=\"Wordpress webTicker\">wp-webticker page<\/a>.<\/p>",
+                "uid": "44394"
+            }
+        }
+    }
+}

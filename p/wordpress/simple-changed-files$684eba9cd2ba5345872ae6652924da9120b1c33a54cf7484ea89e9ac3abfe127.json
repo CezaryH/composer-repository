@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/simple-changed-files": {
+            "1.0": {
+                "name": "wordpress\/simple-changed-files",
+                "version": "1.0",
+                "version_normalized": "1.0.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/simple-changed-files.1.0.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>This plugin allows administrators to view the names of code files changed after a given time or within a time range.\nThis can be useful for:<\/p>\n\n<ul>\n<li>detecting changes made by malware<\/li>\n<li>change management for developers and project managers<\/li>\n<li>running a preliminary scan before using a file monitoring system like \"WordPress File Monitor Plus\"<\/li>\n<\/ul>",
+                "uid": "35582"
+            }
+        }
+    }
+}

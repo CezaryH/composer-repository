@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/consume-this": {
+            "1.0": {
+                "name": "wordpress\/consume-this",
+                "version": "1.0",
+                "version_normalized": "1.0.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/consume-this.1.0.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>I made this plugin because I wanted a Delicious.com-like list of links I was looking at, music I was listening to, etc.  It's super simple: text, an optional link, and a tag.<\/p>\n\n<p>It works by creating a custom post type (\"Consumption\") and custom taxonomy (\"Consumable\"), and an optional bookmarklet.  You enter the name of what you're consuming, an optional link, and an optional tag (the \"Consumable\" taxonomy) and that's it.  You can then display this list anywhere on your site -- a list of consumables in a tag cloud, a page with a list of consumptions, etc.<\/p>\n\n<p>Github: <a href=\"https:\/\/github.com\/mintindeed\/consume-this\" rel=\"nofollow\">https:\/\/github.com\/mintindeed\/consume-this<\/a><\/p>\n\n<p>WordPress.org: <a href=\"http:\/\/wordpress.org\/extend\/plugins\/consume-this\/\" rel=\"nofollow\">http:\/\/wordpress.org\/extend\/plugins\/consume-this\/<\/a><\/p>\n\n<p>Image by <a href=\"http:\/\/www.flickr.com\/photos\/muehlinghaus\/3519033869\/\">Henning M&#252;hlinghaus<\/a>; some rights reserved.  See link for ",
+                "uid": "115255"
+            }
+        }
+    }
+}

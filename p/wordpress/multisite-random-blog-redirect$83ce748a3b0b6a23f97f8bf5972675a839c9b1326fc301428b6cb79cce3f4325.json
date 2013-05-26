@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/multisite-random-blog-redirect": {
+            "1.0": {
+                "name": "wordpress\/multisite-random-blog-redirect",
+                "version": "1.0",
+                "version_normalized": "1.0.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/multisite-random-blog-redirect.1.0.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>Allows you to randomly visit a blog in your multisite network by appending ?randomblog at the end of your URL string. \nYou can exclude by blog ID, mature or public status, and even change the string to whatever you like.\nView a working demo at <a href=\"http:\/\/www.bicycletouringhub.com?randomblog\">http:\/\/www.bicycletouringhub.com?randomblog<\/a><\/p>",
+                "uid": "30558"
+            }
+        }
+    }
+}

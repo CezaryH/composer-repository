@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/custom-field-finder": {
+            "0.1": {
+                "name": "wordpress\/custom-field-finder",
+                "version": "0.1",
+                "version_normalized": "0.1.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/custom-field-finder.0.1.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>Allows you to easily find the custom fields (including hidden custom fields) and their values for a post, page or custom\npost type post.<\/p>\n\n<p>Just go to Tools -&#62; Custom Field Finder, enter the post ID of any post and you'll see all the custom fields, including\nthe ones that start with an underscore ( _ ) that are normally hidden from the custom fields interface.<\/p>",
+                "uid": "8727"
+            }
+        }
+    }
+}

@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/wordbb": {
+            "0.3.1": {
+                "name": "wordpress\/wordbb",
+                "version": "0.3.1",
+                "version_normalized": "0.3.1.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/wordbb.0.3.1.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>WordBB's main feature is to create a thread for each blog post in a particular section, so that the forum can be used as a replacement to the blog comment system. \nThe WordPress side handles situations such as post editing and deletion. Similarly, the MyBB side takes account of the thread actions which are reflected on the corresponding WordPress post.<\/p>\n\n<p>WordBB also allows linking between WordPress authors and MyBB users. In this way, when a blog post gets published, a thread is automatically created by the correct user.<\/p>\n\n<p>Another cool feature is a WordPress sidebar widget that displays the latest discussions from your MyBB board. You can set the maximum number of entries, exclude specific forum categories, and choose whether to show posts or threads.<\/p>\n\n<p>WordBB does everything behind the scene and doesn't require any code modification or hack: just install the plugin and in a few seconds it will be up and running. \nMoreover it is fully customisable and fits nicely i",
+                "uid": "83092"
+            }
+        }
+    }
+}

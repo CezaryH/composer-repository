@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/images-lazyload-and-slideshow": {
+            "2.4": {
+                "name": "wordpress\/images-lazyload-and-slideshow",
+                "version": "2.4",
+                "version_normalized": "2.4.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/images-lazyload-and-slideshow.2.4.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>This plugin is highly intelligent and useful, it contains four gadgets:<\/p>\n\n<ol>\n<li>Customized css for content images, used to limit the image's max-width or add hover effect.<\/li>\n<li>Images True Lazyload realization, all images on the web page will be lazyloaded.<\/li>\n<li>Images slideshow effects.<\/li>\n<li>Tracking code setting, no longer worry about missing the code during theme changes.<\/li>\n<\/ol>\n\n<p>The four gadgets are all independent of each other, and can be enable and disabled separately.<\/p>\n\n<p>Currently Support Effects:\nFancyBox (adapters: two_galleries, one_gallery, single_image)\nprettyPhoto (adapters: two_galleries, one_gallery, single_image)\nslimbox2 (adapters: one_gallery, single_image)<\/p>\n\n<p>For licence reason, this plugin only support effects under the GPL or MIT licence.<\/p>",
+                "uid": "26527"
+            }
+        }
+    }
+}

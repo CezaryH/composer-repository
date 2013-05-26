@@ -1,0 +1,346 @@
+{
+    "packages": {
+        "wordpress\/php-liquid": {
+            "1.1": {
+                "name": "wordpress\/php-liquid",
+                "version": "1.1",
+                "version_normalized": "1.1.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/php-liquid.1.1.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>PHP Liquid is a WordPress plugin that allows you to add liquid tags to your stylesheet and page\/posts.<\/p>\n\n<p>After version 2.0, I've even included a handy GUI interface which allows you to create and edit your liquid tag variables.<\/p>\n\n<p>As part of this plugin, you can also create an image slider using liquid.<\/p>\n\n<p>To find out what liquid is please go to the following url:<\/p>\n\n<p><a href=\"http:\/\/liquidmarkup.org\/\" rel=\"nofollow\">http:\/\/liquidmarkup.org\/<\/a><\/p>\n\n<p>Please read the install instructions carefully. You need to replace bloginfo( 'stylesheet_url' ) with liquid_stylesheet_url() in your header.php if you want to use liquid in your stylesheet.<\/p>\n\n<p>If you write this method in your theme functions file:<\/p>\n\n<p>function override_mytheme_liquid_array() {<\/p>\n\n<p>return array('site_url' =&#62; get_option('siteurl'), \"items\" =&#62; array(\"1\",\"2\"));<\/p>\n\n<p>}<\/p>\n\n<p>and write the following lines in your style.css file:<\/p>\n\n<p>{% for item in items %}<\/p>\n\n<p>#banner_",
+                "uid": "17159"
+            },
+            "1.3": {
+                "name": "wordpress\/php-liquid",
+                "version": "1.3",
+                "version_normalized": "1.3.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/php-liquid.1.3.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>PHP Liquid is a WordPress plugin that allows you to add liquid tags to your stylesheet and page\/posts.<\/p>\n\n<p>After version 2.0, I've even included a handy GUI interface which allows you to create and edit your liquid tag variables.<\/p>\n\n<p>As part of this plugin, you can also create an image slider using liquid.<\/p>\n\n<p>To find out what liquid is please go to the following url:<\/p>\n\n<p><a href=\"http:\/\/liquidmarkup.org\/\" rel=\"nofollow\">http:\/\/liquidmarkup.org\/<\/a><\/p>\n\n<p>Please read the install instructions carefully. You need to replace bloginfo( 'stylesheet_url' ) with liquid_stylesheet_url() in your header.php if you want to use liquid in your stylesheet.<\/p>\n\n<p>If you write this method in your theme functions file:<\/p>\n\n<p>function override_mytheme_liquid_array() {<\/p>\n\n<p>return array('site_url' =&#62; get_option('siteurl'), \"items\" =&#62; array(\"1\",\"2\"));<\/p>\n\n<p>}<\/p>\n\n<p>and write the following lines in your style.css file:<\/p>\n\n<p>{% for item in items %}<\/p>\n\n<p>#banner_",
+                "uid": "17158"
+            },
+            "1.4": {
+                "name": "wordpress\/php-liquid",
+                "version": "1.4",
+                "version_normalized": "1.4.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/php-liquid.1.4.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>PHP Liquid is a WordPress plugin that allows you to add liquid tags to your stylesheet and page\/posts.<\/p>\n\n<p>After version 2.0, I've even included a handy GUI interface which allows you to create and edit your liquid tag variables.<\/p>\n\n<p>As part of this plugin, you can also create an image slider using liquid.<\/p>\n\n<p>To find out what liquid is please go to the following url:<\/p>\n\n<p><a href=\"http:\/\/liquidmarkup.org\/\" rel=\"nofollow\">http:\/\/liquidmarkup.org\/<\/a><\/p>\n\n<p>Please read the install instructions carefully. You need to replace bloginfo( 'stylesheet_url' ) with liquid_stylesheet_url() in your header.php if you want to use liquid in your stylesheet.<\/p>\n\n<p>If you write this method in your theme functions file:<\/p>\n\n<p>function override_mytheme_liquid_array() {<\/p>\n\n<p>return array('site_url' =&#62; get_option('siteurl'), \"items\" =&#62; array(\"1\",\"2\"));<\/p>\n\n<p>}<\/p>\n\n<p>and write the following lines in your style.css file:<\/p>\n\n<p>{% for item in items %}<\/p>\n\n<p>#banner_",
+                "uid": "17157"
+            },
+            "2.0": {
+                "name": "wordpress\/php-liquid",
+                "version": "2.0",
+                "version_normalized": "2.0.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/php-liquid.2.0.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>PHP Liquid is a WordPress plugin that allows you to add liquid tags to your stylesheet and page\/posts.<\/p>\n\n<p>After version 2.0, I've even included a handy GUI interface which allows you to create and edit your liquid tag variables.<\/p>\n\n<p>As part of this plugin, you can also create an image slider using liquid.<\/p>\n\n<p>To find out what liquid is please go to the following url:<\/p>\n\n<p><a href=\"http:\/\/liquidmarkup.org\/\" rel=\"nofollow\">http:\/\/liquidmarkup.org\/<\/a><\/p>\n\n<p>Please read the install instructions carefully. You need to replace bloginfo( 'stylesheet_url' ) with liquid_stylesheet_url() in your header.php if you want to use liquid in your stylesheet.<\/p>\n\n<p>If you write this method in your theme functions file:<\/p>\n\n<p>function override_mytheme_liquid_array() {<\/p>\n\n<p>return array('site_url' =&#62; get_option('siteurl'), \"items\" =&#62; array(\"1\",\"2\"));<\/p>\n\n<p>}<\/p>\n\n<p>and write the following lines in your style.css file:<\/p>\n\n<p>{% for item in items %}<\/p>\n\n<p>#banner_",
+                "uid": "17156"
+            },
+            "2.1": {
+                "name": "wordpress\/php-liquid",
+                "version": "2.1",
+                "version_normalized": "2.1.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/php-liquid.2.1.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>PHP Liquid is a WordPress plugin that allows you to add liquid tags to your stylesheet and page\/posts.<\/p>\n\n<p>After version 2.0, I've even included a handy GUI interface which allows you to create and edit your liquid tag variables.<\/p>\n\n<p>As part of this plugin, you can also create an image slider using liquid.<\/p>\n\n<p>To find out what liquid is please go to the following url:<\/p>\n\n<p><a href=\"http:\/\/liquidmarkup.org\/\" rel=\"nofollow\">http:\/\/liquidmarkup.org\/<\/a><\/p>\n\n<p>Please read the install instructions carefully. You need to replace bloginfo( 'stylesheet_url' ) with liquid_stylesheet_url() in your header.php if you want to use liquid in your stylesheet.<\/p>\n\n<p>If you write this method in your theme functions file:<\/p>\n\n<p>function override_mytheme_liquid_array() {<\/p>\n\n<p>return array('site_url' =&#62; get_option('siteurl'), \"items\" =&#62; array(\"1\",\"2\"));<\/p>\n\n<p>}<\/p>\n\n<p>and write the following lines in your style.css file:<\/p>\n\n<p>{% for item in items %}<\/p>\n\n<p>#banner_",
+                "uid": "17155"
+            },
+            "2.1.1": {
+                "name": "wordpress\/php-liquid",
+                "version": "2.1.1",
+                "version_normalized": "2.1.1.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/php-liquid.2.1.1.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>PHP Liquid is a WordPress plugin that allows you to add liquid tags to your stylesheet and page\/posts.<\/p>\n\n<p>After version 2.0, I've even included a handy GUI interface which allows you to create and edit your liquid tag variables.<\/p>\n\n<p>As part of this plugin, you can also create an image slider using liquid.<\/p>\n\n<p>To find out what liquid is please go to the following url:<\/p>\n\n<p><a href=\"http:\/\/liquidmarkup.org\/\" rel=\"nofollow\">http:\/\/liquidmarkup.org\/<\/a><\/p>\n\n<p>Please read the install instructions carefully. You need to replace bloginfo( 'stylesheet_url' ) with liquid_stylesheet_url() in your header.php if you want to use liquid in your stylesheet.<\/p>\n\n<p>If you write this method in your theme functions file:<\/p>\n\n<p>function override_mytheme_liquid_array() {<\/p>\n\n<p>return array('site_url' =&#62; get_option('siteurl'), \"items\" =&#62; array(\"1\",\"2\"));<\/p>\n\n<p>}<\/p>\n\n<p>and write the following lines in your style.css file:<\/p>\n\n<p>{% for item in items %}<\/p>\n\n<p>#banner_",
+                "uid": "17154"
+            },
+            "2.1.2": {
+                "name": "wordpress\/php-liquid",
+                "version": "2.1.2",
+                "version_normalized": "2.1.2.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/php-liquid.2.1.2.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>PHP Liquid is a WordPress plugin that allows you to add liquid tags to your stylesheet and page\/posts.<\/p>\n\n<p>After version 2.0, I've even included a handy GUI interface which allows you to create and edit your liquid tag variables.<\/p>\n\n<p>As part of this plugin, you can also create an image slider using liquid.<\/p>\n\n<p>To find out what liquid is please go to the following url:<\/p>\n\n<p><a href=\"http:\/\/liquidmarkup.org\/\" rel=\"nofollow\">http:\/\/liquidmarkup.org\/<\/a><\/p>\n\n<p>Please read the install instructions carefully. You need to replace bloginfo( 'stylesheet_url' ) with liquid_stylesheet_url() in your header.php if you want to use liquid in your stylesheet.<\/p>\n\n<p>If you write this method in your theme functions file:<\/p>\n\n<p>function override_mytheme_liquid_array() {<\/p>\n\n<p>return array('site_url' =&#62; get_option('siteurl'), \"items\" =&#62; array(\"1\",\"2\"));<\/p>\n\n<p>}<\/p>\n\n<p>and write the following lines in your style.css file:<\/p>\n\n<p>{% for item in items %}<\/p>\n\n<p>#banner_",
+                "uid": "17153"
+            },
+            "2.2": {
+                "name": "wordpress\/php-liquid",
+                "version": "2.2",
+                "version_normalized": "2.2.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/php-liquid.2.2.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>PHP Liquid is a WordPress plugin that allows you to add liquid tags to your stylesheet and page\/posts.<\/p>\n\n<p>After version 2.0, I've even included a handy GUI interface which allows you to create and edit your liquid tag variables.<\/p>\n\n<p>As part of this plugin, you can also create an image slider using liquid.<\/p>\n\n<p>To find out what liquid is please go to the following url:<\/p>\n\n<p><a href=\"http:\/\/liquidmarkup.org\/\" rel=\"nofollow\">http:\/\/liquidmarkup.org\/<\/a><\/p>\n\n<p>Please read the install instructions carefully. You need to replace bloginfo( 'stylesheet_url' ) with liquid_stylesheet_url() in your header.php if you want to use liquid in your stylesheet.<\/p>\n\n<p>If you write this method in your theme functions file:<\/p>\n\n<p>function override_mytheme_liquid_array() {<\/p>\n\n<p>return array('site_url' =&#62; get_option('siteurl'), \"items\" =&#62; array(\"1\",\"2\"));<\/p>\n\n<p>}<\/p>\n\n<p>and write the following lines in your style.css file:<\/p>\n\n<p>{% for item in items %}<\/p>\n\n<p>#banner_",
+                "uid": "17152"
+            },
+            "2.2.1": {
+                "name": "wordpress\/php-liquid",
+                "version": "2.2.1",
+                "version_normalized": "2.2.1.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/php-liquid.2.2.1.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>PHP Liquid is a WordPress plugin that allows you to add liquid tags to your stylesheet and page\/posts.<\/p>\n\n<p>After version 2.0, I've even included a handy GUI interface which allows you to create and edit your liquid tag variables.<\/p>\n\n<p>As part of this plugin, you can also create an image slider using liquid.<\/p>\n\n<p>To find out what liquid is please go to the following url:<\/p>\n\n<p><a href=\"http:\/\/liquidmarkup.org\/\" rel=\"nofollow\">http:\/\/liquidmarkup.org\/<\/a><\/p>\n\n<p>Please read the install instructions carefully. You need to replace bloginfo( 'stylesheet_url' ) with liquid_stylesheet_url() in your header.php if you want to use liquid in your stylesheet.<\/p>\n\n<p>If you write this method in your theme functions file:<\/p>\n\n<p>function override_mytheme_liquid_array() {<\/p>\n\n<p>return array('site_url' =&#62; get_option('siteurl'), \"items\" =&#62; array(\"1\",\"2\"));<\/p>\n\n<p>}<\/p>\n\n<p>and write the following lines in your style.css file:<\/p>\n\n<p>{% for item in items %}<\/p>\n\n<p>#banner_",
+                "uid": "17151"
+            },
+            "2.2.2": {
+                "name": "wordpress\/php-liquid",
+                "version": "2.2.2",
+                "version_normalized": "2.2.2.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/php-liquid.2.2.2.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>PHP Liquid is a WordPress plugin that allows you to add liquid tags to your stylesheet and page\/posts.<\/p>\n\n<p>After version 2.0, I've even included a handy GUI interface which allows you to create and edit your liquid tag variables.<\/p>\n\n<p>As part of this plugin, you can also create an image slider using liquid.<\/p>\n\n<p>To find out what liquid is please go to the following url:<\/p>\n\n<p><a href=\"http:\/\/liquidmarkup.org\/\" rel=\"nofollow\">http:\/\/liquidmarkup.org\/<\/a><\/p>\n\n<p>Please read the install instructions carefully. You need to replace bloginfo( 'stylesheet_url' ) with liquid_stylesheet_url() in your header.php if you want to use liquid in your stylesheet.<\/p>\n\n<p>If you write this method in your theme functions file:<\/p>\n\n<p>function override_mytheme_liquid_array() {<\/p>\n\n<p>return array('site_url' =&#62; get_option('siteurl'), \"items\" =&#62; array(\"1\",\"2\"));<\/p>\n\n<p>}<\/p>\n\n<p>and write the following lines in your style.css file:<\/p>\n\n<p>{% for item in items %}<\/p>\n\n<p>#banner_",
+                "uid": "17150"
+            },
+            "2.2.3": {
+                "name": "wordpress\/php-liquid",
+                "version": "2.2.3",
+                "version_normalized": "2.2.3.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/php-liquid.2.2.3.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>PHP Liquid is a WordPress plugin that allows you to add liquid tags to your stylesheet and page\/posts.<\/p>\n\n<p>After version 2.0, I've even included a handy GUI interface which allows you to create and edit your liquid tag variables.<\/p>\n\n<p>As part of this plugin, you can also create an image slider using liquid.<\/p>\n\n<p>To find out what liquid is please go to the following url:<\/p>\n\n<p><a href=\"http:\/\/liquidmarkup.org\/\" rel=\"nofollow\">http:\/\/liquidmarkup.org\/<\/a><\/p>\n\n<p>Please read the install instructions carefully. You need to replace bloginfo( 'stylesheet_url' ) with liquid_stylesheet_url() in your header.php if you want to use liquid in your stylesheet.<\/p>\n\n<p>If you write this method in your theme functions file:<\/p>\n\n<p>function override_mytheme_liquid_array() {<\/p>\n\n<p>return array('site_url' =&#62; get_option('siteurl'), \"items\" =&#62; array(\"1\",\"2\"));<\/p>\n\n<p>}<\/p>\n\n<p>and write the following lines in your style.css file:<\/p>\n\n<p>{% for item in items %}<\/p>\n\n<p>#banner_",
+                "uid": "17149"
+            },
+            "2.3": {
+                "name": "wordpress\/php-liquid",
+                "version": "2.3",
+                "version_normalized": "2.3.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/php-liquid.2.3.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>PHP Liquid is a WordPress plugin that allows you to add liquid tags to your stylesheet and page\/posts.<\/p>\n\n<p>After version 2.0, I've even included a handy GUI interface which allows you to create and edit your liquid tag variables.<\/p>\n\n<p>As part of this plugin, you can also create an image slider using liquid.<\/p>\n\n<p>To find out what liquid is please go to the following url:<\/p>\n\n<p><a href=\"http:\/\/liquidmarkup.org\/\" rel=\"nofollow\">http:\/\/liquidmarkup.org\/<\/a><\/p>\n\n<p>Please read the install instructions carefully. You need to replace bloginfo( 'stylesheet_url' ) with liquid_stylesheet_url() in your header.php if you want to use liquid in your stylesheet.<\/p>\n\n<p>If you write this method in your theme functions file:<\/p>\n\n<p>function override_mytheme_liquid_array() {<\/p>\n\n<p>return array('site_url' =&#62; get_option('siteurl'), \"items\" =&#62; array(\"1\",\"2\"));<\/p>\n\n<p>}<\/p>\n\n<p>and write the following lines in your style.css file:<\/p>\n\n<p>{% for item in items %}<\/p>\n\n<p>#banner_",
+                "uid": "17148"
+            },
+            "2.3.1": {
+                "name": "wordpress\/php-liquid",
+                "version": "2.3.1",
+                "version_normalized": "2.3.1.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/php-liquid.2.3.1.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>PHP Liquid is a WordPress plugin that allows you to add liquid tags to your stylesheet and page\/posts.<\/p>\n\n<p>After version 2.0, I've even included a handy GUI interface which allows you to create and edit your liquid tag variables.<\/p>\n\n<p>As part of this plugin, you can also create an image slider using liquid.<\/p>\n\n<p>To find out what liquid is please go to the following url:<\/p>\n\n<p><a href=\"http:\/\/liquidmarkup.org\/\" rel=\"nofollow\">http:\/\/liquidmarkup.org\/<\/a><\/p>\n\n<p>Please read the install instructions carefully. You need to replace bloginfo( 'stylesheet_url' ) with liquid_stylesheet_url() in your header.php if you want to use liquid in your stylesheet.<\/p>\n\n<p>If you write this method in your theme functions file:<\/p>\n\n<p>function override_mytheme_liquid_array() {<\/p>\n\n<p>return array('site_url' =&#62; get_option('siteurl'), \"items\" =&#62; array(\"1\",\"2\"));<\/p>\n\n<p>}<\/p>\n\n<p>and write the following lines in your style.css file:<\/p>\n\n<p>{% for item in items %}<\/p>\n\n<p>#banner_",
+                "uid": "17147"
+            },
+            "2.4": {
+                "name": "wordpress\/php-liquid",
+                "version": "2.4",
+                "version_normalized": "2.4.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/php-liquid.2.4.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>PHP Liquid is a WordPress plugin that allows you to add liquid tags to your stylesheet and page\/posts.<\/p>\n\n<p>After version 2.0, I've even included a handy GUI interface which allows you to create and edit your liquid tag variables.<\/p>\n\n<p>As part of this plugin, you can also create an image slider using liquid.<\/p>\n\n<p>To find out what liquid is please go to the following url:<\/p>\n\n<p><a href=\"http:\/\/liquidmarkup.org\/\" rel=\"nofollow\">http:\/\/liquidmarkup.org\/<\/a><\/p>\n\n<p>Please read the install instructions carefully. You need to replace bloginfo( 'stylesheet_url' ) with liquid_stylesheet_url() in your header.php if you want to use liquid in your stylesheet.<\/p>\n\n<p>If you write this method in your theme functions file:<\/p>\n\n<p>function override_mytheme_liquid_array() {<\/p>\n\n<p>return array('site_url' =&#62; get_option('siteurl'), \"items\" =&#62; array(\"1\",\"2\"));<\/p>\n\n<p>}<\/p>\n\n<p>and write the following lines in your style.css file:<\/p>\n\n<p>{% for item in items %}<\/p>\n\n<p>#banner_",
+                "uid": "17146"
+            },
+            "2.4.1": {
+                "name": "wordpress\/php-liquid",
+                "version": "2.4.1",
+                "version_normalized": "2.4.1.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/php-liquid.2.4.1.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>PHP Liquid is a WordPress plugin that allows you to add liquid tags to your stylesheet and page\/posts.<\/p>\n\n<p>After version 2.0, I've even included a handy GUI interface which allows you to create and edit your liquid tag variables.<\/p>\n\n<p>As part of this plugin, you can also create an image slider using liquid.<\/p>\n\n<p>To find out what liquid is please go to the following url:<\/p>\n\n<p><a href=\"http:\/\/liquidmarkup.org\/\" rel=\"nofollow\">http:\/\/liquidmarkup.org\/<\/a><\/p>\n\n<p>Please read the install instructions carefully. You need to replace bloginfo( 'stylesheet_url' ) with liquid_stylesheet_url() in your header.php if you want to use liquid in your stylesheet.<\/p>\n\n<p>If you write this method in your theme functions file:<\/p>\n\n<p>function override_mytheme_liquid_array() {<\/p>\n\n<p>return array('site_url' =&#62; get_option('siteurl'), \"items\" =&#62; array(\"1\",\"2\"));<\/p>\n\n<p>}<\/p>\n\n<p>and write the following lines in your style.css file:<\/p>\n\n<p>{% for item in items %}<\/p>\n\n<p>#banner_",
+                "uid": "17145"
+            },
+            "2.5": {
+                "name": "wordpress\/php-liquid",
+                "version": "2.5",
+                "version_normalized": "2.5.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/php-liquid.2.5.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>PHP Liquid is a WordPress plugin that allows you to add liquid tags to your stylesheet and page\/posts.<\/p>\n\n<p>After version 2.0, I've even included a handy GUI interface which allows you to create and edit your liquid tag variables.<\/p>\n\n<p>As part of this plugin, you can also create an image slider using liquid.<\/p>\n\n<p>To find out what liquid is please go to the following url:<\/p>\n\n<p><a href=\"http:\/\/liquidmarkup.org\/\" rel=\"nofollow\">http:\/\/liquidmarkup.org\/<\/a><\/p>\n\n<p>Please read the install instructions carefully. You need to replace bloginfo( 'stylesheet_url' ) with liquid_stylesheet_url() in your header.php if you want to use liquid in your stylesheet.<\/p>\n\n<p>If you write this method in your theme functions file:<\/p>\n\n<p>function override_mytheme_liquid_array() {<\/p>\n\n<p>return array('site_url' =&#62; get_option('siteurl'), \"items\" =&#62; array(\"1\",\"2\"));<\/p>\n\n<p>}<\/p>\n\n<p>and write the following lines in your style.css file:<\/p>\n\n<p>{% for item in items %}<\/p>\n\n<p>#banner_",
+                "uid": "17144"
+            },
+            "2.6": {
+                "name": "wordpress\/php-liquid",
+                "version": "2.6",
+                "version_normalized": "2.6.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/php-liquid.2.6.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>PHP Liquid is a WordPress plugin that allows you to add liquid tags to your stylesheet and page\/posts.<\/p>\n\n<p>After version 2.0, I've even included a handy GUI interface which allows you to create and edit your liquid tag variables.<\/p>\n\n<p>As part of this plugin, you can also create an image slider using liquid.<\/p>\n\n<p>To find out what liquid is please go to the following url:<\/p>\n\n<p><a href=\"http:\/\/liquidmarkup.org\/\" rel=\"nofollow\">http:\/\/liquidmarkup.org\/<\/a><\/p>\n\n<p>Please read the install instructions carefully. You need to replace bloginfo( 'stylesheet_url' ) with liquid_stylesheet_url() in your header.php if you want to use liquid in your stylesheet.<\/p>\n\n<p>If you write this method in your theme functions file:<\/p>\n\n<p>function override_mytheme_liquid_array() {<\/p>\n\n<p>return array('site_url' =&#62; get_option('siteurl'), \"items\" =&#62; array(\"1\",\"2\"));<\/p>\n\n<p>}<\/p>\n\n<p>and write the following lines in your style.css file:<\/p>\n\n<p>{% for item in items %}<\/p>\n\n<p>#banner_",
+                "uid": "17143"
+            },
+            "2.6.1": {
+                "name": "wordpress\/php-liquid",
+                "version": "2.6.1",
+                "version_normalized": "2.6.1.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/php-liquid.2.6.1.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>PHP Liquid is a WordPress plugin that allows you to add liquid tags to your stylesheet and page\/posts.<\/p>\n\n<p>After version 2.0, I've even included a handy GUI interface which allows you to create and edit your liquid tag variables.<\/p>\n\n<p>As part of this plugin, you can also create an image slider using liquid.<\/p>\n\n<p>To find out what liquid is please go to the following url:<\/p>\n\n<p><a href=\"http:\/\/liquidmarkup.org\/\" rel=\"nofollow\">http:\/\/liquidmarkup.org\/<\/a><\/p>\n\n<p>Please read the install instructions carefully. You need to replace bloginfo( 'stylesheet_url' ) with liquid_stylesheet_url() in your header.php if you want to use liquid in your stylesheet.<\/p>\n\n<p>If you write this method in your theme functions file:<\/p>\n\n<p>function override_mytheme_liquid_array() {<\/p>\n\n<p>return array('site_url' =&#62; get_option('siteurl'), \"items\" =&#62; array(\"1\",\"2\"));<\/p>\n\n<p>}<\/p>\n\n<p>and write the following lines in your style.css file:<\/p>\n\n<p>{% for item in items %}<\/p>\n\n<p>#banner_",
+                "uid": "17142"
+            },
+            "2.6.2": {
+                "name": "wordpress\/php-liquid",
+                "version": "2.6.2",
+                "version_normalized": "2.6.2.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/php-liquid.2.6.2.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>PHP Liquid is a WordPress plugin that allows you to add liquid tags to your stylesheet and page\/posts.<\/p>\n\n<p>After version 2.0, I've even included a handy GUI interface which allows you to create and edit your liquid tag variables.<\/p>\n\n<p>As part of this plugin, you can also create an image slider using liquid.<\/p>\n\n<p>To find out what liquid is please go to the following url:<\/p>\n\n<p><a href=\"http:\/\/liquidmarkup.org\/\" rel=\"nofollow\">http:\/\/liquidmarkup.org\/<\/a><\/p>\n\n<p>Please read the install instructions carefully. You need to replace bloginfo( 'stylesheet_url' ) with liquid_stylesheet_url() in your header.php if you want to use liquid in your stylesheet.<\/p>\n\n<p>If you write this method in your theme functions file:<\/p>\n\n<p>function override_mytheme_liquid_array() {<\/p>\n\n<p>return array('site_url' =&#62; get_option('siteurl'), \"items\" =&#62; array(\"1\",\"2\"));<\/p>\n\n<p>}<\/p>\n\n<p>and write the following lines in your style.css file:<\/p>\n\n<p>{% for item in items %}<\/p>\n\n<p>#banner_",
+                "uid": "17141"
+            },
+            "2.7.0": {
+                "name": "wordpress\/php-liquid",
+                "version": "2.7.0",
+                "version_normalized": "2.7.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/php-liquid.2.7.0.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>PHP Liquid is a WordPress plugin that allows you to add liquid tags to your stylesheet and page\/posts.<\/p>\n\n<p>After version 2.0, I've even included a handy GUI interface which allows you to create and edit your liquid tag variables.<\/p>\n\n<p>As part of this plugin, you can also create an image slider using liquid.<\/p>\n\n<p>To find out what liquid is please go to the following url:<\/p>\n\n<p><a href=\"http:\/\/liquidmarkup.org\/\" rel=\"nofollow\">http:\/\/liquidmarkup.org\/<\/a><\/p>\n\n<p>Please read the install instructions carefully. You need to replace bloginfo( 'stylesheet_url' ) with liquid_stylesheet_url() in your header.php if you want to use liquid in your stylesheet.<\/p>\n\n<p>If you write this method in your theme functions file:<\/p>\n\n<p>function override_mytheme_liquid_array() {<\/p>\n\n<p>return array('site_url' =&#62; get_option('siteurl'), \"items\" =&#62; array(\"1\",\"2\"));<\/p>\n\n<p>}<\/p>\n\n<p>and write the following lines in your style.css file:<\/p>\n\n<p>{% for item in items %}<\/p>\n\n<p>#banner_",
+                "uid": "17140"
+            }
+        }
+    }
+}

@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/wp-version-check": {
+            "0.1": {
+                "name": "wordpress\/wp-version-check",
+                "version": "0.1",
+                "version_normalized": "0.1.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/wp-version-check.0.1.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>This plugin allows you to manually check for new wordpress versions if \nyou don't want to wait up to half a day for the cron tasks to run.<\/p>\n\n<p>More info:<\/p>\n\n<ul>\n<li><a href=\"http:\/\/patchlog.com\/wordpress\/wp-version-check\/\">WP Version Check plugin<\/a>.<\/li>\n<li>Check out the other <a href=\"http:\/\/patchlog.com\/wordpress\/\">Wordpress plugins<\/a> by the same author.<\/li>\n<\/ul>",
+                "uid": "76410"
+            }
+        }
+    }
+}

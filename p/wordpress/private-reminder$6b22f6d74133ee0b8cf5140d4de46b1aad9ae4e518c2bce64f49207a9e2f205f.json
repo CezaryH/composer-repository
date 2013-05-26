@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/private-reminder": {
+            "1.0": {
+                "name": "wordpress\/private-reminder",
+                "version": "1.0",
+                "version_normalized": "1.0.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/private-reminder.1.0.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>This plugin will show a reminder message when you view a private post.\nI wrote this little plugin for the IQ2 Theme, because I always post in private first, do some post-processing and then make the post public. And sometimes I forgot that a post was still private. This plugin helps you to remind.<\/p>",
+                "uid": "87915"
+            }
+        }
+    }
+}

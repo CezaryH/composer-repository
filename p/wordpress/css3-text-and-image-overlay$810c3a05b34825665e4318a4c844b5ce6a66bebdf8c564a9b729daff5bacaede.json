@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/css3-text-and-image-overlay": {
+            "1.2": {
+                "name": "wordpress\/css3-text-and-image-overlay",
+                "version": "1.2",
+                "version_normalized": "1.2.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/css3-text-and-image-overlay.1.2.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "Stable: 1.2\n\n<p>\nCSS3 Text and Image Overlay aims to make a simple and easy way to add a rollover effect to images with use of shortcodes. \n\nexample of the shortcode used:<pre><code>[overlay image=&#34;http:\/\/farm6.static.flickr.com\/5095\/5540895982_0688039e58.jpg&#34; alt=&#34;cool image&#34; title=&#34;V&#237;t\u011bzslav Krej\u010d&#237;&#34;]\n&#60;h2&#62;Fokaflex by &#60;a href=&#34;http:\/\/www.flickr.com\/photos\/vkrejci\/5540895982\/in\/pool-34427469792@N01\/&#34;&#62;V&#237;t\u011bzslav Krej\u010d&#237;&#60;\/a&#62;&#60;\/h2&#62;\n&#60;coded_p&#62;Manufacturer Druopta Prague, 1946, inspired by the Voigtlander Brilliant. It looks like a SLR, but it&#039;s just a simple fix-focus plastic box. Shutter B, 1\/25, 1\/50, 1\/75, 1\/100; aperture f\/8, f\/11. Roll film 120, 6x6 format.&#60;\/coded_p&#62;\n[\/overlay]<\/code><\/pre>\n<\/p>\n\n<p>Updated as of 1.2:\nThere is now use for alt and title such as [overlay image=\"some.jpg\" alt=\"this is a jpg\" title=\"hello world\"]<\/p>\n\n<p>See it in live here: <a href=\"http:\/\/gfxcomplex.c",
+                "uid": "50832"
+            }
+        }
+    }
+}

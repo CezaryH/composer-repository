@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/logical-captcha": {
+            "1.0.3": {
+                "name": "wordpress\/logical-captcha",
+                "version": "1.0.3",
+                "version_normalized": "1.0.3.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/logical-captcha.1.0.3.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>Logical Captcha takes advantage of the TextCaptcha.com service, which provides logic-based textual questions instead of distorted images or audio to validate that the entity registering is a real live human being, and not a spam bot. It will provide protection against false registrations and the dreaded spam comments, etc.<\/p>\n\n<p>An example of such a question might be:<\/p>\n\n<p>Question:\nOut of a truck, a lion, the color purple, and the number forty-two, which has a door?<\/p>\n\n<p>Answer:\ntruck<\/p>\n\n<p>Textual logic-based captchas mean that your registration process will be accessible to everyone, including visually\/hearing impaired visitors who use access technology to surf the web. It requires a free API key from <a href=\"http:\/\/TextCaptcha.com\">TextCaptcha.com<\/a><\/p>\n\n<p>This plugin was developed by Josh de Lioncourt of <a href=\"http:\/\/maccessibility.net\">the Mac-cessibility Network<\/a>, a site dedicated to blind and visually impaired users of the Mac OS X operating system, the i",
+                "uid": "82300"
+            }
+        }
+    }
+}

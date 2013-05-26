@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/utf8ize": {
+            "1.0": {
+                "name": "wordpress\/utf8ize",
+                "version": "1.0",
+                "version_normalized": "1.0.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/utf8ize.1.0.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>Convert all your database character sets to utf8, trying to follow <strong><a href=\"http:\/\/codex.wordpress.org\/Converting_Database_Character_Sets\">Codex guides<\/a><\/strong>. You should use this if you are experiencing double utf8 encoding. You can check this by setting DB_CHARSET in your wp-config.php file to latin1 or commenting the line; if your characters look good now on your site than you are probably suffering from this issue.<\/p>\n\n<p>It works by scanning all you tables and columns and generating a list of SQL statements which allow you to convert to convert your content to uft8.<\/p>\n\n<p>!!! CAUTION !!!\nThe execution time of the next SQL statements may take a lot of time(even days), related to dimensions of your database and the amount of the content.<\/p>",
+                "uid": "9038"
+            }
+        }
+    }
+}

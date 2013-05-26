@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/wordpress-head-cleaner": {
+            "1.0": {
+                "name": "wordpress\/wordpress-head-cleaner",
+                "version": "1.0",
+                "version_normalized": "1.0.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/wordpress-head-cleaner.1.0.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>Removes unwanted tags from your WordPress header.<\/p>\n\n<p>The function wp_head; found in the header.php template file adds unnecessary tags to your WordPress template. These tags are the RSD, or Really Simple Discovery, link, the Windows Live Writer Link and the WordPress version number. This plugin will stop all 3 tags from being automatically added to your WordPress header.<\/p>",
+                "uid": "93787"
+            }
+        }
+    }
+}

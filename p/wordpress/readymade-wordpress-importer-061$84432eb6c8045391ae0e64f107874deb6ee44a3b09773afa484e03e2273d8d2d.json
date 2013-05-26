@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/readymade-wordpress-importer-061": {
+            "0.6.5": {
+                "name": "wordpress\/readymade-wordpress-importer-061",
+                "version": "0.6.5",
+                "version_normalized": "0.6.5.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/readymade-wordpress-importer-061.0.6.5.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>The ReadyMade WordPress Importer is a branch of the default WordPress importer. Our version modifies the default in three ways:<\/p>\n\n<ol>\n<li>If there is an attachment in the WXR and the importer is not able to determine the file type from the file name (ie missing extension), the patched version will make a light (body-less) request to the web server where the file is hosted for information we can use about the file. The things we're interested in are file type, size, and filename.<\/li>\n<li>If the importer is processing an attachment under the above situation, and it is able to determine the file type, then it will rewrite the local version of the file to have the appropriate file extension.<\/li>\n<li>When moving from one host to another, or from WordPress.com to a self-hosted site, you may setup hosting for your domain, let's call it \"yourdomain.com\" for example, before publicly directing the DNS to the new server. This is the correct thing to do if importing using WXR files. Howev",
+                "uid": "18050"
+            }
+        }
+    }
+}

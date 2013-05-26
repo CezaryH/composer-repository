@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/getrss": {
+            "0.0.6": {
+                "name": "wordpress\/getrss",
+                "version": "0.0.6",
+                "version_normalized": "0.0.6.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/getrss.0.0.6.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>A quick RSS puller for Wordpress. Use <code>&#60;?php getRSS('http:\/\/example.com\/feed\/', '5', '\n&#60;li&#62;', '&#60;\/li&#62;\n');?&#62;<\/code> to fetch a feed.<\/p>",
+                "uid": "114612"
+            }
+        }
+    }
+}

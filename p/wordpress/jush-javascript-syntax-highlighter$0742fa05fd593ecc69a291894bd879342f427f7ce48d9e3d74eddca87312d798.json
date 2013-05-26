@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/jush-javascript-syntax-highlighter": {
+            "1.2": {
+                "name": "wordpress\/jush-javascript-syntax-highlighter",
+                "version": "1.2",
+                "version_normalized": "1.2.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/jush-javascript-syntax-highlighter.1.2.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>JavaScript Syntax Highlighter can be used for client-side syntax highlighting of following languages: HTML, CSS, JavaScript, PHP, SQL, HTTP and SMTP protocol, php.ini and Apache config.<\/p>\n\n<ul>\n<li>Highlights languages embedded into each other<\/li>\n<li>Links to documentation of all languages<\/li>\n<li>Colors can be easily modified via CSS<\/li>\n<li>Recognizes complete PHP syntax including __halt_compiler, heredoc, backticks, {$} variables inside strings, namespaces<\/li>\n<li>Works in all major browsers including Internet Explorer, Firefox, Opera, Google Chrome<\/li>\n<\/ul>\n\n<p>The content of all &#60;pre class=\"jush\"&#62; elements in articles and sites will be highlighted.<\/p>",
+                "uid": "64307"
+            }
+        }
+    }
+}

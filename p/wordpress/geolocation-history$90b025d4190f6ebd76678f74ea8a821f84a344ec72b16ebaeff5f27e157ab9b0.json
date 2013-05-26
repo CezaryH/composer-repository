@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/geolocation-history": {
+            "1.0": {
+                "name": "wordpress\/geolocation-history",
+                "version": "1.0",
+                "version_normalized": "1.0.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/geolocation-history.1.0.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>This plugin allows the administrator to keep track of a history of geographical locations. It was developed for a travel blog and the geographical locations were drawn onto a Google Maps widget so that visitors could keep track of the blogger's traveling.<\/p>\n\n<p>A live example can be seen on <a href=\"http:\/\/yoranbrondsema.net\" title=\"Yoran Brondsema's travel blog\">the author's travel blog<\/a> (in Dutch).<\/p>\n\n<p>Its main features are:<\/p>\n\n<ul>\n<li>Add, edit and remove locations easily from the Admin panel<\/li>\n<li>Enter geographical coordinates manually or parse from a Google Maps URL<\/li>\n<li>Assign a date to each location for a true history of locations<\/li>\n<li>Assign a label to each location for easy identification<\/li>\n<li>Exposes a simple API to the front-end<\/li>\n<li>Dynamically request locations with AJAX<\/li>\n<\/ul>\n\n<p>The plugin is administrated from the admin (addition and removal of geolocations) and it exposes an API to the front-end. Once the plugin is installed, a t",
+                "uid": "13447"
+            }
+        }
+    }
+}

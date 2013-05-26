@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/posts-release-by-timing": {
+            "1.2": {
+                "name": "wordpress\/posts-release-by-timing",
+                "version": "1.2",
+                "version_normalized": "1.2.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/posts-release-by-timing.1.2.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>Posts Release By Timing Plugin achieve the \"draft\" posts in some categories timing and quantitative release by setting release time and release amount\/number.\nit need used together with \"WP Missed Schedule Fix Failed Future Posts\" Plugin which decided the timing posts release amounts and time.<\/p>",
+                "uid": "11563"
+            }
+        }
+    }
+}

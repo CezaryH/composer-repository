@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/page-specific-cssjs": {
+            "0.1": {
+                "name": "wordpress\/page-specific-cssjs",
+                "version": "0.1",
+                "version_normalized": "0.1.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/page-specific-cssjs.0.1.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>A very simple plugin that checks for CSS and javascript files matching the name of the current page and automatically includes the necessary markup in the  to include them in the page.<\/p>",
+                "uid": "92973"
+            }
+        }
+    }
+}

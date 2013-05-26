@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/force-user-login-multisite": {
+            "1.2.1": {
+                "name": "wordpress\/force-user-login-multisite",
+                "version": "1.2.1",
+                "version_normalized": "1.2.1.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/force-user-login-multisite.1.2.1.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>Makes your wordpress blog private unless the user is logged in, optionally setting a minium user level. Modified from <a href=\"http:\/\/wordpress.org\/extend\/plugins\/force-user-login\/\" rel=\"nofollow\">http:\/\/wordpress.org\/extend\/plugins\/force-user-login\/<\/a><\/p>",
+                "uid": "37547"
+            }
+        }
+    }
+}

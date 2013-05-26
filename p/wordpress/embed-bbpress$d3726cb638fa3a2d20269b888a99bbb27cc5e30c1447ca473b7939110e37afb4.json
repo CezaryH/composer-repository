@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/embed-bbpress": {
+            "0.8": {
+                "name": "wordpress\/embed-bbpress",
+                "version": "0.8",
+                "version_normalized": "0.8.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/embed-bbpress.0.8.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>technically, this plugin was built for embeding the external home page of BBpress, after the installation, in the easiest way i could think of. However, because the method is so simple, one can use it for embeding any HTML page he wants.&#60;br\/&#62;<\/p>\n\n<p>note: the purpose was the ease of use, and not elegancy. we could made it more complicated by trying to force the forum to have the site template or something like this. but we didn't.<\/p>",
+                "uid": "77295"
+            }
+        }
+    }
+}

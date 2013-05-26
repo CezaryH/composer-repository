@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/caspio-deployment-control": {
+            "1.0": {
+                "name": "wordpress\/caspio-deployment-control",
+                "version": "1.0",
+                "version_normalized": "1.0.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/caspio-deployment-control.1.0.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>The Caspio Deployment Control plugin disables wptexturize and convert_chars filters on the_content for Caspio Bridge PHP SEO deployment support.<\/p>\n\n<p>This plugin prevents WordPress from modifying the Caspio Bridge SEO deployment code. In order to deploy Caspio Bridge SEO DataPage in WordPress, you must have:<\/p>\n\n<p>*Caspio Bridge account with activated SEO deployment and properly configured DataPage\n*Installed and activated a PHP execution plugin for WordPress such as Exec-PHP (<a href=\"http:\/\/wordpress.org\/extend\/plugins\/exec-php\/\" rel=\"nofollow\">http:\/\/wordpress.org\/extend\/plugins\/exec-php\/<\/a>). \n*Installed and activated the Caspio Deployment Control plugin for WordPress. \n*Caspio PHP SEO deploy code for your DataPage placed in your WordPress post or page.<\/p>\n\n<p>For compatibility with SEO deployment code, the Caspio Deployment Control disables the following WordPress content filters on the_content:<\/p>\n\n<ul>\n<li>wptexturize<\/li>\n<li>convert_chars <\/li>\n<\/ul>\n\n<p>See details",
+                "uid": "77794"
+            }
+        }
+    }
+}

@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/paypal-api-subscriptions": {
+            "1.0": {
+                "name": "wordpress\/paypal-api-subscriptions",
+                "version": "1.0",
+                "version_normalized": "1.0.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/paypal-api-subscriptions.1.0.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>Paypal API Subscriptions is designed to allow your users to register on your blog and subscribe all at once.\nThe Paypal API keeps them on your blog and means that you simply have to skin the Wordpress Admin to suit your\nsite theme. Because it is fully integrated with Wordpress you can keep track of your users easily and effectively.<\/p>\n\n<p>This plugin defaults to the Paypal Sandbox for test results so you can test it for yourself.<\/p>\n\n<p>You really need SSL before you can begin to think of using it for real. Download Admin SSL here: <a href=\"http:\/\/www.kerrins.co.uk\/blog\/admin-ssl\/\" title=\"Admin SSL\">Admin SSL<\/a>.<\/p>\n\n<p>It's important to realise that you won't be able to test Express Checkout until you use your own developer API credentials.<\/p>\n\n<p>Features:<\/p>\n\n<ul>\n<li>Subscription button shortcode tags for your posts<\/li>\n<li>Use your Paypal API credentials<\/li>\n<li>Integrates with Wordpress registration seamlessly<\/li>\n<li>Use a Wordpress Admin Theme to make the user tran",
+                "uid": "101132"
+            }
+        }
+    }
+}

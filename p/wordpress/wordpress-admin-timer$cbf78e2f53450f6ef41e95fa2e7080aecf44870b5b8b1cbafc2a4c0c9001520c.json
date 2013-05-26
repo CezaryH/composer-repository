@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/wordpress-admin-timer": {
+            "0.1": {
+                "name": "wordpress\/wordpress-admin-timer",
+                "version": "0.1",
+                "version_normalized": "0.1.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/wordpress-admin-timer.0.1.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>Displays the time in microseconds that PHP took to create an admin page.  Used for theme and plugin development, to optimize PHP.  Uses Javascript to display the execution time in the upper left of the admin screen.  Creates some invalid HTML, but this is only for testing and dev purposes.  Technically it's not recording the PHP execution for the entire operation because the timer starts at the first available plugin hook, so some PHP core functions and processes have already occured, but you can't optimize these anyway.<\/p>",
+                "uid": "83168"
+            }
+        }
+    }
+}

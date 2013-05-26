@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/pixplugin-autoinsert": {
+            "1.0": {
+                "name": "wordpress\/pixplugin-autoinsert",
+                "version": "1.0",
+                "version_normalized": "1.0.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/pixplugin-autoinsert.1.0.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>PixPlugin (<a href=\"http:\/\/www.pixplugin.com\" rel=\"nofollow\">http:\/\/www.pixplugin.com<\/a>) is a simple service that provides free custom images inside your website or blog. You simply write HTML image tags for the images as if they exist, and they magically appear!<\/p>\n\n<p>This Auto-Inserter plugin for wordpress automatically creates a PixPlugin image tag in each of your posts. The terms for generating the image are extracted from the text of the post, to try and find a relevant image. This is a great way to give some color to an otherwise dull blog.<\/p>\n\n<p>Note that if you prefer more control of the images you can just use the PixPlugin service alone, without this auto-insert plugin.<\/p>",
+                "uid": "91058"
+            }
+        }
+    }
+}

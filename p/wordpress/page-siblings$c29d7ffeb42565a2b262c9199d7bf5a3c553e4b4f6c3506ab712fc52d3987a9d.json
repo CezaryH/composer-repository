@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/page-siblings": {
+            "1.0.1": {
+                "name": "wordpress\/page-siblings",
+                "version": "1.0.1",
+                "version_normalized": "1.0.1.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/page-siblings.1.0.1.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>Ever had to manage a WP install with many pages and subpages? This plugin does nothing more than adding\na metabox to every post type that is hierarchical (that is pages and any other custom post type!) with \na list of all page siblings, starting with the parent, so you can have:<\/p>\n\n<pre><code>News\n&#124;&#8212; History\n&#124;&#8212; Our Staff\n&#124;&#8212;&#8212; Employment Opportunities\n&#124;&#8212; Our Company<\/code><\/pre>",
+                "uid": "15594"
+            }
+        }
+    }
+}

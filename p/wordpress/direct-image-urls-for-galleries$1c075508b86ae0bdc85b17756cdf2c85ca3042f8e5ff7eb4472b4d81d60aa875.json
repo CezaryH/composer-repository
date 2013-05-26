@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/direct-image-urls-for-galleries": {
+            "1.0.0": {
+                "name": "wordpress\/direct-image-urls-for-galleries",
+                "version": "1.0.0",
+                "version_normalized": "1.0.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/direct-image-urls-for-galleries.1.0.0.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p><strong>This plugin is not needed as of WordPress 2.8. When you insert a gallery into a post, you can opt to have direct image links.<\/strong><\/p>\n\n<p>Modifies your <code>[gallery]<\/code> output so that the thumbnails link to the fullsize images rather than a page containing the medium thumbnail.<\/p>",
+                "uid": "100886"
+            }
+        }
+    }
+}

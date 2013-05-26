@@ -1,0 +1,40 @@
+{
+    "packages": {
+        "wordpress\/wp-janesguide": {
+            "0.2.1": {
+                "name": "wordpress\/wp-janesguide",
+                "version": "0.2.1",
+                "version_normalized": "0.2.1.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/wp-janesguide.0.2.1.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>Provides a simple-to-use widget and, if you want to use them, two template tags (theme functions): <code>wp_janesguide_award()<\/code> and <code>wp_janesguide_icon()<\/code>. These functions display an image of one of two awards in the case of the former or a generic JanesGuide.com linkback icon in the case of the latter. The widget can display any of these three options.<\/p>\n\n<p>Use <code>wp_janesguide_award()<\/code> if your site has received a \"quality\" (default) or a \"quality and original\" review from JanesGuide.com. For instance, to display a \"quality and original\" award icon, use code like this:<\/p>\n\n<pre><code>&#60;?php wp_janesguide_award('originalquality');?&#62;\n<\/code><\/pre>\n\n<p>Another version of the \"quality and original\" award icon can be used like this:<\/p>\n\n<pre><code>&#60;?php wp_janesguide_award('originalquality2');?&#62;\n<\/code><\/pre>\n\n<p>To display the 'quality' icon, use:<\/p>\n\n<pre><code>&#60;?php wp_janesguide_award();?&#62;\n<\/code><\/pre>\n\n<p>These template tags w",
+                "uid": "92362"
+            },
+            "0.3": {
+                "name": "wordpress\/wp-janesguide",
+                "version": "0.3",
+                "version_normalized": "0.3.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/wp-janesguide.0.3.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>Provides a simple-to-use widget and, if you want to use them, two template tags (theme functions): <code>wp_janesguide_award()<\/code> and <code>wp_janesguide_icon()<\/code>. These functions display an image of one of two awards in the case of the former or a generic JanesGuide.com linkback icon in the case of the latter. The widget can display any of these three options.<\/p>\n\n<p>Use <code>wp_janesguide_award()<\/code> if your site has received a \"quality\" (default) or a \"quality and original\" review from JanesGuide.com. For instance, to display a \"quality and original\" award icon, use code like this:<\/p>\n\n<pre><code>&#60;?php wp_janesguide_award('originalquality');?&#62;\n<\/code><\/pre>\n\n<p>Another version of the \"quality and original\" award icon can be used like this:<\/p>\n\n<pre><code>&#60;?php wp_janesguide_award('originalquality2');?&#62;\n<\/code><\/pre>\n\n<p>To display the 'quality' icon, use:<\/p>\n\n<pre><code>&#60;?php wp_janesguide_award();?&#62;\n<\/code><\/pre>\n\n<p>These template tags w",
+                "uid": "92361"
+            }
+        }
+    }
+}

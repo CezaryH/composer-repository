@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/versions": {
+            "1.0.1": {
+                "name": "wordpress\/versions",
+                "version": "1.0.1",
+                "version_normalized": "1.0.1.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/versions.1.0.1.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>Versions takes care of your cache issues of stylesheets and javascripts.<\/p>\n\n<p>A reoccuring issue when developing sites and making changes to css- and javascript-files is that they get cached and prevents visitors from experiencing what they're supposed to experience.<\/p>\n\n<p>Versions takes care of this reoccurring headache.\nThis is done by adding version numbers to your resources based on the timestamp of when the resource was most recently modified.<\/p>\n\n<p>Users with the ability to manage options are given the choices of switching between two different ways of filtering for resources. The two different functionalities are more closely explained in the FAQ.<\/p>",
+                "uid": "13790"
+            }
+        }
+    }
+}

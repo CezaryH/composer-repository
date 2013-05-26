@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/read-more-link": {
+            "1.5": {
+                "name": "wordpress\/read-more-link",
+                "version": "1.5",
+                "version_normalized": "1.5.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/read-more-link.1.5.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>This plugin allows you to use a \"[more...]\" tag in a post to display a preview of it on the homepage.\nThe preview will display the text of the post, up to the \"[more...]\" tag, while the rest will be replaced by a \"Read more...\" link (which redirects the user to the post detail).\nWhen viewing the post detail, the tag is removed automatically and the original, full post is displayed.\nIn the plugin settings you can easily configure the text of the \"Read more...\" link and the number of line breaks (\"&#60;br \/&#62;\" tags) displayed before the link.<\/p>",
+                "uid": "27799"
+            }
+        }
+    }
+}

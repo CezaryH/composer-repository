@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/linkedlist": {
+            "1.1.1": {
+                "name": "wordpress\/linkedlist",
+                "version": "1.1.1",
+                "version_normalized": "1.1.1.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/linkedlist.1.1.1.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>LinkedList <strong>was<\/strong> a simple WordPress plugin for sorting your blogroll in the order by which the sites on the blogroll were last updated. LinkedList <strong>did<\/strong> this by using Google's excellent <a href=\"http:\/\/code.google.com\/apis\/ajaxfeeds\/\">AJAX Feed API<\/a> to discover (if needed) and read the RSS\/Atom feeds of the sites on your blogroll.<\/p>",
+                "uid": "104798"
+            }
+        }
+    }
+}

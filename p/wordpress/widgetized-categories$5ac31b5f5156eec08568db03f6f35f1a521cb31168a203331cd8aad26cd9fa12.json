@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/widgetized-categories": {
+            "1.0": {
+                "name": "wordpress\/widgetized-categories",
+                "version": "1.0",
+                "version_normalized": "1.0.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/widgetized-categories.1.0.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>After user installs and activates the plugin the new widget will appear in the widget page of your WordPress website back-end.<\/p>\n\n<p>User can drag the widget in any of the sidebars and create as much instances of it as he\/she wants.<\/p>\n\n<p>Additional options that are available are:\n1) Categories to exclude - insert id's of the categories you want to exclude from the front end sidebar separated by comma\n2) Single category to display - if you want to display only one category with it's subcategories just enter it's id in this input field\n3) Display post count - if you choose yes the post count will show up next to the category name or if you choose no the post count won't be displayed<\/p>",
+                "uid": "8166"
+            }
+        }
+    }
+}

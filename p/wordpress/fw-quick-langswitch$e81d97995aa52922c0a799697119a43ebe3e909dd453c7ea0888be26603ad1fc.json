@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/fw-quick-langswitch": {
+            "1.0": {
+                "name": "wordpress\/fw-quick-langswitch",
+                "version": "1.0",
+                "version_normalized": "1.0.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/fw-quick-langswitch.1.0.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>Display flags to switch languages. This plugin only uses the locale files from wordress or buddypress and eventually your theme for user to have the interface in his language.<\/p>\n\n<p>When the user clicks on a flag, he is sent a cookie mentionning the language to use which will be destroyed when leaving his browser or updated when he clicks on another flag.<\/p>\n\n<p>It does not provide content localization features.<\/p>\n\n<p>I made this plugin as I needed my users to be able to switch from one language to another while viewing the full blog content which did not need to be localized. I had localized my theme and uploaded as many .mo language files as needed in my theme and wordpress languages directory.\nI have used this plugin on Buddypress as well.<\/p>",
+                "uid": "76941"
+            }
+        }
+    }
+}

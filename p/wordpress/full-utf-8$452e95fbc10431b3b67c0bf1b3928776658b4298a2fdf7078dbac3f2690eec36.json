@@ -1,0 +1,74 @@
+{
+    "packages": {
+        "wordpress\/full-utf-8": {
+            "1.0": {
+                "name": "wordpress\/full-utf-8",
+                "version": "1.0",
+                "version_normalized": "1.0.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/full-utf-8.1.0.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>WordPress does not support full UTF-8 characters because MySQL 5 doesn't either.<\/p>\n\n<p>This means that if you add unsupported UTF-8 characters to the content of a\npost, the following happens. Suppose you copy some text from a web pge and paste\nit into the WordPress editor, it works like a charm. Then you reformat it and \nsave. All seems fine, but as soon as the page is reloaded you see that your post \nhas been truncated at a random point. Well, it's not random of course but you\nwon't easily understand why it happened there. The reason is that right there\nappeared the first unsupported UTF-8 character. And all content starting from\nthat one up to the end of the post is unrecoverably gone, lost forever.<\/p>\n\n<p>For making WordPress (and MySQL 5) support the full range of UTF-8 characters, \nthis plugin escapes any character with a unicode code point between 0x10000 and \n0x10FFFF (1,048,576 supplementary characters in theory).<\/p>\n\n<p>Full UTF-8 version 1 supported all UTF-8 character",
+                "uid": "55264"
+            },
+            "1.0.1": {
+                "name": "wordpress\/full-utf-8",
+                "version": "1.0.1",
+                "version_normalized": "1.0.1.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/full-utf-8.1.0.1.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>WordPress does not support full UTF-8 characters because MySQL 5 doesn't either.<\/p>\n\n<p>This means that if you add unsupported UTF-8 characters to the content of a\npost, the following happens. Suppose you copy some text from a web pge and paste\nit into the WordPress editor, it works like a charm. Then you reformat it and \nsave. All seems fine, but as soon as the page is reloaded you see that your post \nhas been truncated at a random point. Well, it's not random of course but you\nwon't easily understand why it happened there. The reason is that right there\nappeared the first unsupported UTF-8 character. And all content starting from\nthat one up to the end of the post is unrecoverably gone, lost forever.<\/p>\n\n<p>For making WordPress (and MySQL 5) support the full range of UTF-8 characters, \nthis plugin escapes any character with a unicode code point between 0x10000 and \n0x10FFFF (1,048,576 supplementary characters in theory).<\/p>\n\n<p>Full UTF-8 version 1 supported all UTF-8 character",
+                "uid": "55263"
+            },
+            "1.0.2": {
+                "name": "wordpress\/full-utf-8",
+                "version": "1.0.2",
+                "version_normalized": "1.0.2.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/full-utf-8.1.0.2.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>WordPress does not support full UTF-8 characters because MySQL 5 doesn't either.<\/p>\n\n<p>This means that if you add unsupported UTF-8 characters to the content of a\npost, the following happens. Suppose you copy some text from a web pge and paste\nit into the WordPress editor, it works like a charm. Then you reformat it and \nsave. All seems fine, but as soon as the page is reloaded you see that your post \nhas been truncated at a random point. Well, it's not random of course but you\nwon't easily understand why it happened there. The reason is that right there\nappeared the first unsupported UTF-8 character. And all content starting from\nthat one up to the end of the post is unrecoverably gone, lost forever.<\/p>\n\n<p>For making WordPress (and MySQL 5) support the full range of UTF-8 characters, \nthis plugin escapes any character with a unicode code point between 0x10000 and \n0x10FFFF (1,048,576 supplementary characters in theory).<\/p>\n\n<p>Full UTF-8 version 1 supported all UTF-8 character",
+                "uid": "55262"
+            },
+            "2.0.0": {
+                "name": "wordpress\/full-utf-8",
+                "version": "2.0.0",
+                "version_normalized": "2.0.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/full-utf-8.2.0.0.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>WordPress does not support full UTF-8 characters because MySQL 5 doesn't either.<\/p>\n\n<p>This means that if you add unsupported UTF-8 characters to the content of a\npost, the following happens. Suppose you copy some text from a web pge and paste\nit into the WordPress editor, it works like a charm. Then you reformat it and \nsave. All seems fine, but as soon as the page is reloaded you see that your post \nhas been truncated at a random point. Well, it's not random of course but you\nwon't easily understand why it happened there. The reason is that right there\nappeared the first unsupported UTF-8 character. And all content starting from\nthat one up to the end of the post is unrecoverably gone, lost forever.<\/p>\n\n<p>For making WordPress (and MySQL 5) support the full range of UTF-8 characters, \nthis plugin escapes any character with a unicode code point between 0x10000 and \n0x10FFFF (1,048,576 supplementary characters in theory).<\/p>\n\n<p>Full UTF-8 version 1 supported all UTF-8 character",
+                "uid": "55261"
+            }
+        }
+    }
+}

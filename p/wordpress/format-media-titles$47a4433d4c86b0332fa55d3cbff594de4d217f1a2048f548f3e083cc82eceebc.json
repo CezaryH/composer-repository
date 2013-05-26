@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/format-media-titles": {
+            "0.1": {
+                "name": "wordpress\/format-media-titles",
+                "version": "0.1",
+                "version_normalized": "0.1.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/format-media-titles.0.1.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>It can be pretty tedious to have to manually edit the title for newly uploaded media items. This Plugin automates things by removing and replacing characters such as hyphens, and underscores, with spaces. The title can then be capitalized by a method of your choice:<\/p>\n\n<ul>\n<li>First letter of each word capitalized.<\/li>\n<li>First letter of first word capitalized only.<\/li>\n<li>All letters made uppercase.<\/li>\n<li>All letter made lower case.<\/li>\n<li>No capitalization. Title remains unchanged.<\/li>\n<\/ul>\n\n<p>You will especially benefit from this Plugin if your media files have descitpive names, as you won't have to manually edit them at all after uploading them!<\/p>\n\n<p>Future versions of this Plugin will include:<\/p>\n\n<ul>\n<li>More choice of characters to remove.<\/li>\n<li>Optionally mirror the formatted title to the Alt text too.<\/li>\n<li>Batch format media existing media library titles. <\/li>\n<\/ul>\n\n<p>Please rate 'Format Media Titles' if you find it useful, thanks.<\/p>\n\n<p>See ",
+                "uid": "36799"
+            }
+        }
+    }
+}

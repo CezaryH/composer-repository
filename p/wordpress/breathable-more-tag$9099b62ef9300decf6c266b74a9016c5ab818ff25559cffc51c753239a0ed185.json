@@ -1,0 +1,40 @@
+{
+    "packages": {
+        "wordpress\/breathable-more-tag": {
+            "1.0": {
+                "name": "wordpress\/breathable-more-tag",
+                "version": "1.0",
+                "version_normalized": "1.0.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/breathable-more-tag.1.0.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>If a post is saved with a <code>&#60;!--more--&#62;<\/code> tag that is immediately followed by a common block-level element (like a header, div, paragraph, list, and so forth), then two linebreaks will be placed after the more tag to ensure that the block-level element is not automatically wrapped in paragraph tags by WordPress' content parser.<\/p>\n\n<p>There is absolutely no reason to install this plugin unless you are using an external editor and having your whitespace stripped out when you save your posts. If you are editing through the WordPress admin screen, then this plugin will be worthless because you can easily control where the <code>&#60;!--more--&#62;<\/code> tag falls by hand.<\/p>",
+                "uid": "16394"
+            },
+            "1.0.1": {
+                "name": "wordpress\/breathable-more-tag",
+                "version": "1.0.1",
+                "version_normalized": "1.0.1.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/breathable-more-tag.1.0.1.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>If a post is saved with a <code>&#60;!--more--&#62;<\/code> tag that is immediately followed by a common block-level element (like a header, div, paragraph, list, and so forth), then two linebreaks will be placed after the more tag to ensure that the block-level element is not automatically wrapped in paragraph tags by WordPress' content parser.<\/p>\n\n<p>There is absolutely no reason to install this plugin unless you are using an external editor and having your whitespace stripped out when you save your posts. If you are editing through the WordPress admin screen, then this plugin will be worthless because you can easily control where the <code>&#60;!--more--&#62;<\/code> tag falls by hand.<\/p>",
+                "uid": "16393"
+            }
+        }
+    }
+}

@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/logmycalls-dashboard": {
+            "1.0": {
+                "name": "wordpress\/logmycalls-dashboard",
+                "version": "1.0",
+                "version_normalized": "1.0.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/logmycalls-dashboard.1.0.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>Easily track LogMyCalls call metrics from the comfort of your WP Dashboard. After entering your LogMyCalls API Credentials (Requires LogMyCalls <em>Enterprise<\/em> service) choose from a list of metrics to show over the past day\/lifetime:<\/p>\n\n<ul>\n<li>Total Calls<\/li>\n<li>Total Calls Answered<\/li>\n<li>Total Calls Unanswered<\/li>\n<li>Longest Call Duration<\/li>\n<li>Total Call Duration<\/li>\n<li>Average Call Duration<\/li>\n<\/ul>",
+                "uid": "9922"
+            }
+        }
+    }
+}

@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/eternus-dict": {
+            "1.0": {
+                "name": "wordpress\/eternus-dict",
+                "version": "1.0",
+                "version_normalized": "1.0.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/eternus-dict.1.0.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p><a href=\"http:\/\/www.eternus-dict.com\/\">Eternus dict<\/a> is plugin for simple text editing, works like a dictionary. This plugin allows you to place content anywhere on the web page, simply by adding call_key ('') into your template. Call key will be created when you enter a new word into the Eternus dict<\/p>\n\n<p>You can use this plugin for multilingual sites with <strong>WPML plugin<\/strong>. You only need to put call_key into your template file where you want to see some text and that's it. When you change the default language of your site, you automatically display call_key for that language. Example : Croatian site -&#62; Dobar dan svijete! English site -&#62; Hello world! ; different text but same call_key ('').<\/p>\n\n<p>Features:<\/p>\n\n<ul>\n<li>Automatically creates link in admin menu<\/li>\n<li>Allows you to enter a word<\/li>\n<li>Allows you to edit a word ( you can edit word without change call_key )<\/li>\n<li><strong>Full compatibility with WPML plugin<\/strong> ( for multilingual ",
+                "uid": "54060"
+            }
+        }
+    }
+}

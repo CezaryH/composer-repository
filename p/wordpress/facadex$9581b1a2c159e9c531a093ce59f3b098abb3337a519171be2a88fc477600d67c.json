@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/facadex": {
+            "1.0.0": {
+                "name": "wordpress\/facadex",
+                "version": "1.0.0",
+                "version_normalized": "1.0.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/facadex.1.0.0.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>If FacadeX is active, the public WordPress sites are sent with the xhtml mime type. The internal sites like the administration panel and the login screen, which have many xhtml syntax errors, are still sent with the standard mime type.<\/p>\n\n<p><strong>You must ensure that your public sites have valid XHTML, otherwise you will get parsing errors in your browser.<\/strong><\/p>",
+                "uid": "23430"
+            }
+        }
+    }
+}

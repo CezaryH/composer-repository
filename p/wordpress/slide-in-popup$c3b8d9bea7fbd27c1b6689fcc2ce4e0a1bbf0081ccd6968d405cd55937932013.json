@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/slide-in-popup": {
+            "0.1": {
+                "name": "wordpress\/slide-in-popup",
+                "version": "0.1",
+                "version_normalized": "0.1.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/slide-in-popup.0.1.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>This plugin will enable you to add any kind of slide in\/out popups to your Wordpress website.\nNew widget, called \"SlideIn Box\", is added. Each of these widgets can hold one slidein box content, whitch can be any HTML or PHP code. Inside these widgets you will have complete control over your slidein box layout.\nNew widgets sidebar, called \"SlideIn Boxes\", is added, where you should place all defined \"SlideIn Box\" widgets. After that, they will be selectable from the dropdown menu on Global SlideIn Options page, and inside page\/post meta boxes.<\/p>\n\n<ul>\n<li>You can control the position for each SlideIn box. <\/li>\n<li>You can control when will these SlideIn boxes display to your visitors.<\/li>\n<li>You can specify delay for each SlideIn box.<\/li>\n<li>With little HTML\/CSS knowleadge you can have your own styles for toggle and close buttons. <\/li>\n<li>Page\/post settings will override global settings for SlideIn boxes.<\/li>\n<\/ul>",
+                "uid": "76169"
+            }
+        }
+    }
+}

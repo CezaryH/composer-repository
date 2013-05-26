@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/wp-restrict-user-add-new-page-capability": {
+            "1.0": {
+                "name": "wordpress\/wp-restrict-user-add-new-page-capability",
+                "version": "1.0",
+                "version_normalized": "1.0.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/wp-restrict-user-add-new-page-capability.1.0.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>This plugin will disable all non-admin users (with capabilities), from creating and adding new pages in your blog.\nWorks very well with the 'WP Restrict User 'ADD NEW POST' Capability' plugin (to prevent non-admins from creating and adding new POSTS), to your blog. \nThe \"add new page\" submenu will also be hidden from the non-admin user.<\/p>",
+                "uid": "16501"
+            }
+        }
+    }
+}

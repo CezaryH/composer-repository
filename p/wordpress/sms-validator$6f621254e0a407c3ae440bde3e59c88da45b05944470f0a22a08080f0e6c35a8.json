@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/sms-validator": {
+            "2.0": {
+                "name": "wordpress\/sms-validator",
+                "version": "2.0",
+                "version_normalized": "2.0.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/sms-validator.2.0.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>SMS Validation Plugin allow you to protect your WordPress website by adding SMS verification functionality to User Registration and\/or Comments functions of your website. Apart from standard registration, user needs to enter valid mobile number during the registration. In just a couple of seconds, user receive SMS code to mobile device. In order to login, user needs to validate that code against SMS Validation form in login section.<\/p>\n\n<p>Plugin is using CS Networks HTTP API to send messages, meaning you will need a valid CS Networks username and password in order to be able to send SMS messages. Account can be obtained for free at <a href=\"http:\/\/www.cs-networks.net\" rel=\"nofollow\">http:\/\/www.cs-networks.net<\/a> with approximately 20-40 free messages to test the functionalities. After that, credits may be purchased from CS Networks website.<\/p>\n\n<p>For the complete list of covered mobile operators worldwide, please refer to: <a href=\"http:\/\/www.cs-networks.net\/index.php\/messaging",
+                "uid": "11058"
+            }
+        }
+    }
+}

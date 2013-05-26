@@ -1,0 +1,40 @@
+{
+    "packages": {
+        "wordpress\/force-user-login-modified": {
+            "1.0": {
+                "name": "wordpress\/force-user-login-modified",
+                "version": "1.0",
+                "version_normalized": "1.0.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/force-user-login-modified.1.0.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>This is a very small plugin that forces users to login before viewing any content. This is done by checking if the user is logged in, and if not, redirecting them to the login page. Users attempting to view blog content via RSS are also authenticated via HTTP Auth.<\/p>\n\n<p>Modification: use get_site_url() to redirect to the login page properly when Wordpress is located in a subdirectory.<\/p>",
+                "uid": "35913"
+            },
+            "1.0.1": {
+                "name": "wordpress\/force-user-login-modified",
+                "version": "1.0.1",
+                "version_normalized": "1.0.1.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/force-user-login-modified.1.0.1.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>This is a very small plugin that forces users to login before viewing any content. This is done by checking if the user is logged in, and if not, redirecting them to the login page. Users attempting to view blog content via RSS are also authenticated via HTTP Auth.<\/p>\n\n<p>Modification: use get_site_url() to redirect to the login page properly when Wordpress is located in a subdirectory.<\/p>",
+                "uid": "35914"
+            }
+        }
+    }
+}

@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/ustream-for-wordpress": {
+            "1.0": {
+                "name": "wordpress\/ustream-for-wordpress",
+                "version": "1.0",
+                "version_normalized": "1.0.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/ustream-for-wordpress.1.0.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>Ustream for WordPress is a plugin that enables the user to add tags on the format [ustream cid=\"xxxxx\"] or [ustream vid=\"xxxxx\"] in blog posts\/pages and have them replaced by their video content from UStream.<\/p>\n\n<p>This plugin automatically replaces the [ustream cid=\"xxxxx\"] or [ustream vid=\"xxxxx\"] tags with the embeded video related to the given cid or vid.<\/p>\n\n<p>The [ustream cid=\"xxxxx\"] tag is used when you want to tream a live broad cast and the [ustream vid=\"xxxxx\"] is used when to publish a recorded video.<\/p>",
+                "uid": "52637"
+            }
+        }
+    }
+}

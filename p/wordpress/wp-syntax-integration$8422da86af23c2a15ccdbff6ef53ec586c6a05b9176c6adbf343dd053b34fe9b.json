@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/wp-syntax-integration": {
+            "0.1": {
+                "name": "wordpress\/wp-syntax-integration",
+                "version": "0.1",
+                "version_normalized": "0.1.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/wp-syntax-integration.0.1.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>This plugin will add a button to both the visual and HTML WordPress Editor panel allowing you to easily insert code for WP-Syntax. WP-Syntax is a syntax highlighting plugin for WordPress which can be downloaded from <a href=\"http:\/\/wordpress.org\/extend\/plugins\/wp-syntax\/\" rel=\"nofollow\">http:\/\/wordpress.org\/extend\/plugins\/wp-syntax\/<\/a><\/p>\n\n<p><strong>Usage<\/strong><\/p>\n\n<ol>\n<li>Select the text you want to have highlighted by WP-Syntax<\/li>\n<li>Click the button pre (WP-Syntax) in HTML editing mode or the icon with colored lines in visual editing mode<\/li>\n<li>Enter the language and starting line separated by a comma. The later is optional.<\/li>\n<\/ol>",
+                "uid": "75560"
+            }
+        }
+    }
+}

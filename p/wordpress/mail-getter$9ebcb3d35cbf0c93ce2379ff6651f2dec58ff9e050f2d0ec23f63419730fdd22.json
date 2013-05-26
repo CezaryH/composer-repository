@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/mail-getter": {
+            "0.9": {
+                "name": "wordpress\/mail-getter",
+                "version": "0.9",
+                "version_normalized": "0.9.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/mail-getter.0.9.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>Mail Getter provides a comma separated list of emails from users which commented\nin one post.<\/p>\n\n<p>You enter the Post ID and the plugin will retrieve the emails.<\/p>\n\n<p>You can choose to get approved, pending or ALL comments<\/p>\n\n<p>Also in the next version I will try to improve the method to get the Post ID.<\/p>",
+                "uid": "41888"
+            }
+        }
+    }
+}

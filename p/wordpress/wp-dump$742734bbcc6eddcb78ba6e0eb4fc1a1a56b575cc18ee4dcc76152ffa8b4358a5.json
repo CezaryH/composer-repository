@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/wp-dump": {
+            "1.0": {
+                "name": "wordpress\/wp-dump",
+                "version": "1.0",
+                "version_normalized": "1.0.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/wp-dump.1.0.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>This plug-in lets you dump database and files to one final zip file.<\/p>\n\n<p>Key features:<\/p>\n\n<ul>\n<li>simple usage, just press one button<\/li>\n<li>dump your installation for backup or different usage (e.g. local XAMP)<\/li>\n<li>uses server side ZIP (faster than php)<\/li>\n<\/ul>",
+                "uid": "9176"
+            }
+        }
+    }
+}

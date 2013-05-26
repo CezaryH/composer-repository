@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/wp-post-corrector": {
+            "1.0.1": {
+                "name": "wordpress\/wp-post-corrector",
+                "version": "1.0.1",
+                "version_normalized": "1.0.1.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/wp-post-corrector.1.0.1.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>\"WP Post Corrector\" is a plugin, helpful you to correct your post data. \nIt contains mainly 3 modules. \n(1)Bulk Upload (Insert Mass Post Data)\n(2)Bulk Update (Update Mass Post Data) and\n(3)Download Complete Data Excel<\/p>\n\n<p>(1) Bulk Inset is useful for mass\/bulk post data insertion for your site via CSV file. Normally we using \"Microsoft CSV\" file only. First of all get Create Microsoft Excel file and save it as \"CSV(comma seperated format)\".  Download sample CSV file to get more help how to prepare the CSV file for Bulk Upload or Mass Upload.<\/p>\n\n<p>In the sample CSV as you can see some of the rule are common.<\/p>\n\n<p>--&#62;First column of CSV must be the title of the row.<\/p>\n\n<p>--&#62;All titles in the row may be changed as per your post custom fields, while post common information like title,content,tags,author,category will be same for any of csv sample data. It should never changed, if you really want to insert your data.\nHere ts.\n*  post_title : Post Title\n*  post_conten",
+                "uid": "52919"
+            }
+        }
+    }
+}

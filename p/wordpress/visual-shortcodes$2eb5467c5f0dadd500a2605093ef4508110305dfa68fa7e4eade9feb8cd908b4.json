@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/visual-shortcodes": {
+            "0.1": {
+                "name": "wordpress\/visual-shortcodes",
+                "version": "0.1",
+                "version_normalized": "0.1.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/visual-shortcodes.0.1.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>This is a utility plugin that will allow other plugins and themes to swap out shortcodes with custom images, in the same way that WordPress' native gallery shortcode does this. Replacement images can be clicked to reveal a 'delete' button.<\/p>\n\n<p>This works extremely well when your shortcode already has a tinymce button, but does work for manual shortcodes too.<\/p>\n\n<p>This plugin does not support multi-line shortcodes or non-self-closing shortcodes (e.g. it supports <code>[foo bar=\"baz\"]<\/code> but not <code>[foo]bar baz[\/foo]<\/code>). Honestly, I don't even know what would happen if you tried to use one. It may work, but it's entirely unsupported.<\/p>\n\n<p>To add your shortcode, hook onto the filter <code>'jpb_visual_shortcodes'<\/code>. That filter will pass one array as an argument. Each element of that array is an associative array which must contain values for the following keys:<\/p>\n\n<ul>\n<li><code>shortcode<\/code> The name of the shortcode to replace<\/li>\n<li><code>image<\/cod",
+                "uid": "41224"
+            }
+        }
+    }
+}

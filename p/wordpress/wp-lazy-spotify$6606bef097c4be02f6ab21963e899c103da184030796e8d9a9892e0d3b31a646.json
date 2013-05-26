@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/wp-lazy-spotify": {
+            "1.0": {
+                "name": "wordpress\/wp-lazy-spotify",
+                "version": "1.0",
+                "version_normalized": "1.0.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/wp-lazy-spotify.1.0.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>WP Lazy Spotify allows music sites to speed up their page loads by lazy loading each spotify track or playlist on a page. Your users can hover to load the track or allow WP Lazy Load to load them as the user scrolls.<\/p>\n\n<p>This plugin utilizes David Bushell's amazing SocialiteJS plugin [http:\/\/www.socialitejs.com\/].<\/p>",
+                "uid": "11799"
+            }
+        }
+    }
+}

@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/author-locations": {
+            "1.0": {
+                "name": "wordpress\/author-locations",
+                "version": "1.0",
+                "version_normalized": "1.0.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/author-locations.1.0.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>Allows authors to set their location, and then display it on a Google Map.<\/p>\n\n<p>Adds a template tag: <code>&#60;?php al_list_authors(); ?&#62;<\/code> with the following available arguments:<\/p>\n\n<ul>\n<li>include_protected_posts=1 : Include protected posts when calculating the latest post.<\/li>\n<li>echo=1 : Whether to write the map and listing into the page, or return it (so you can assign the HTML to a variable).<\/li>\n<\/ul>\n\n<p>The HTML output is fairly heavily classed, for ease of CSS styling, but if you need to adapt it you can. Create a directory in your <em>theme<\/em> called \"view\", and a directory within that one called \"author-listings\". Then copy the template files from <code>view\/author-location\/<\/code> in the plugin directory into your theme directory and amend as you need. If these files exist in these directories in your theme they will override the ones in the plugin directory. This is good because it means that when you update the plugin you can simply overwrite the ",
+                "uid": "98458"
+            }
+        }
+    }
+}

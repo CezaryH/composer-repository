@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/user-status-shortcode": {
+            "0.1": {
+                "name": "wordpress\/user-status-shortcode",
+                "version": "0.1",
+                "version_normalized": "0.1.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/user-status-shortcode.0.1.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>Easily allows you to display different content to your visitors that are logged in than those that are logged out via shortcode.  Tested in templates, pages, posts and text widgets.<\/p>\n\n<h4>Usage Example<\/h4>\n\n<ul>\n<li><p>[userloggedin]content[\/userloggedin]  \/\/returns content only to logged in users<\/p><\/li>\n<li><p>[userloggedout]content[\/userloggedout]  \/\/returns content only to logged out users<\/p><\/li>\n<\/ul>",
+                "uid": "7620"
+            }
+        }
+    }
+}

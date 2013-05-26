@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/mp3-tag": {
+            "1.1": {
+                "name": "wordpress\/mp3-tag",
+                "version": "1.1",
+                "version_normalized": "1.1.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/mp3-tag.1.1.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>Allows to include a downloadlink or flash player for mp3 files via a tag, e.g. [mp3player:myalbum\/mysong.mp3]\nDetailed examples see at <a href=\"http:\/\/narcanti.keyboardsamurais.de\/mp3-tag.html\" title=\"Homepage of MP3 Tag\">homepage of MP3 Tag<\/a><\/p>",
+                "uid": "94528"
+            }
+        }
+    }
+}

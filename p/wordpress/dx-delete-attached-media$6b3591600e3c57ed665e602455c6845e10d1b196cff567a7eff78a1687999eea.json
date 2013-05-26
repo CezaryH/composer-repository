@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/dx-delete-attached-media": {
+            "0.4": {
+                "name": "wordpress\/dx-delete-attached-media",
+                "version": "0.4",
+                "version_normalized": "0.4.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/dx-delete-attached-media.0.4.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>DX Delete Attached Media deletes all attached media files to posts once they get deleted from the system. The standard core behavior deletes posts alone without taking care of related images. Now you can maintain your install and get rid of all solo attachments getting into your posts via the Media button and used nowhere else.<\/p>",
+                "uid": "27106"
+            }
+        }
+    }
+}

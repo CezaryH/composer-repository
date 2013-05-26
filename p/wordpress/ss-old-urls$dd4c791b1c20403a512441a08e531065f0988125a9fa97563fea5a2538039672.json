@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/ss-old-urls": {
+            "1.0": {
+                "name": "wordpress\/ss-old-urls",
+                "version": "1.0",
+                "version_normalized": "1.0.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/ss-old-urls.1.0.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>SS Old URLs allows you to add URL redirects through the WP admin for old content URLs.<\/p>\n\n<p>For example, if your old site had its about page at \/about.html, but your new Wordpress site uses a nice URL like \/about\/, you can add the rule \/about.html ==&#62; \/about\/. This will preserve any existing links to the old URL. In addition, we perform our redirects as \"301\" redirects so you should maintain as much \"Google Juice\" as possible.<\/p>\n\n<p>This plugin is especially useful for developers and designers who are porting older websites to Wordpress. You can also use it if your move pages around or change URLs\/slugs for any reason.<\/p>",
+                "uid": "82210"
+            }
+        }
+    }
+}

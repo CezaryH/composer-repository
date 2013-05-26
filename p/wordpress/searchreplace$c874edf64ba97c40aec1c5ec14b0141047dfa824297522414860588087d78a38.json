@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/searchreplace": {
+            "1.0": {
+                "name": "wordpress\/searchreplace",
+                "version": "1.0",
+                "version_normalized": "1.0.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/searchreplace.1.0.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>Ever annoyed when you had to add that same opening sentence or image to a blogpost for the gazzilionth time? Or always wanted to have an easy way to insert youtube video's to your site? \nDespair no more, now there is searchReplace. Well, there probably are a number of similar plugins, but this one is different: it is mine. :-)<\/p>\n\n<p>The plugin makes it possible to search for certain texts and replace them, in both comments and posts. It does not alter your database contents. \nFor example, you could add the string \"[topicimage]\" to searchReplace and replace that with your default image tag. \nWhen changing your default image you only have to change the searchReplace item to change it site wide!<\/p>\n\n<p>The plugin supports regular expressions as well, which makes it possible to do url replacements, or other more advanced search and replace commands.<\/p>\n\n<p>Uses: Implementing BBcode (pre configured), replace foul language, easy YouTube insertion (pre configured) etc.<\/p>\n\n<p>It has t",
+                "uid": "69100"
+            }
+        }
+    }
+}

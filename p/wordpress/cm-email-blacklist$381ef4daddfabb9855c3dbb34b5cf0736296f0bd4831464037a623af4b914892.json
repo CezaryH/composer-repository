@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/cm-email-blacklist": {
+            "1.1": {
+                "name": "wordpress\/cm-email-blacklist",
+                "version": "1.1",
+                "version_normalized": "1.1.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/cm-email-blacklist.1.1.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>This plugin will check if a user trying to register to your WordPress site is using an email from a domain which is defined in blacklists.<\/p>\n\n<p><strong>Use-Cases<\/strong><\/p>\n\n<ul>\n<li>Beta - Control users in your beta release.<\/li>\n<li>Members Only - Restrict site registration from specific domains<\/li>\n<li>Control - Control sites users domains<\/li>\n<li>Spam - Prevent spam users from registration  <\/li>\n<\/ul>\n\n<p><strong>Features<\/strong><\/p>\n\n<ul>\n<li>Allow registration only by invitation code<\/li>\n<li>Use a list of free email domains downloaded from SpamAssassin<\/li>\n<li>Use <a href=\"http:\/\/www.spamhaus.org\/zen\/\">DNSBL online service<\/a><\/li>\n<li>Use user defined own domain Bloacklist and whitelist<\/li>\n<li>Admin can edit domain list<\/li>\n<li>Admin can define which combination of the above methods to use<\/li>\n<\/ul>\n\n<p><strong>More About this Plugin<\/strong><\/p>\n\n<p>You can find more information about CM Email Blacklist at <a href=\"http:\/\/www.cminds.com\/plugins\/\">CreativeMinds",
+                "uid": "11549"
+            }
+        }
+    }
+}

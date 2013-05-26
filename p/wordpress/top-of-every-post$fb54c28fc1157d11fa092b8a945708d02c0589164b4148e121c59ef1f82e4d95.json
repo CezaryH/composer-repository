@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/top-of-every-post": {
+            "1.0": {
+                "name": "wordpress\/top-of-every-post",
+                "version": "1.0",
+                "version_normalized": "1.0.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/top-of-every-post.1.0.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>This plugin does one thing, and that thing is to add some content to the beginning of each\nof your posts. This change happens on the fly, so if you deactivate or uninstall this\nplugin, the feature goes away.<\/p>\n\n<p>I created this plugin because I have a similar plugin called bottom of every post, and\nsomeone on twitter said they wanted one for the top.<\/p>",
+                "uid": "10830"
+            }
+        }
+    }
+}

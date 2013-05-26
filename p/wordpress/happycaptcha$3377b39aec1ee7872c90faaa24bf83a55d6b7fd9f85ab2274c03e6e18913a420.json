@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/happycaptcha": {
+            "1": {
+                "name": "wordpress\/happycaptcha",
+                "version": "1",
+                "version_normalized": "1.0.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/happycaptcha.1.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<h4>Notice<\/h4>\n\n<p>If anyone is interested in taking up development of this plugin, please contact me at <a href=\"mailto:support@happycaptcha.com\">support@happycaptcha.com<\/a>. I would be glad to provide access to the plugin repository. Preferably someone who has experience with the WP and WP multisite APIs (primarily their authorization and options APIs).<\/p>\n\n<h4>What is HappyCaptcha?<\/h4>\n\n<p><a href=\"http:\/\/happycaptcha.com\/\" title=\"HappyCaptcha\">HappyCaptcha<\/a> is an anti-spam method. Instead of randomly generating useless characters which users grow tired of continuosly typing in, risking the possibility that spammers will eventually write sophisticated spam bots which use <a href=\"http:\/\/en.wikipedia.org\/wiki\/Optical_character_recognition\" title=\"Optical Character Recognition - Wikipedia\">OCR<\/a> libraries to read the characters, HappyCaptcha uses a different approach.<\/p>\n\n<p>HappyCaptcha is probably the most popular and widely accepted HINT-CHALLENGE-RESPONSE CAPTCHA systems",
+                "uid": "27117"
+            }
+        }
+    }
+}

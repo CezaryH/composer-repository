@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/spamkit-plugin": {
+            "0.4": {
+                "name": "wordpress\/spamkit-plugin",
+                "version": "0.4",
+                "version_normalized": "0.4.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/spamkit-plugin.0.4.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>Prototype, uses <a href='http:\/\/webofshite.com\/?p=3'>Time-Based-Tokens<\/a> in the comment form [by <a href='http:\/\/webofshite.com\/'>Gerard Calderhead<\/a>]. If Wordpress receives a comment-post without the token, or with an invalid token the comment is held for moderation. In this version, there are no option pages or any visual aspects to this plugin.<\/p>",
+                "uid": "114290"
+            }
+        }
+    }
+}

@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/easy-calendar": {
+            "0.2.0": {
+                "name": "wordpress\/easy-calendar",
+                "version": "0.2.0",
+                "version_normalized": "0.2.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/easy-calendar.0.2.0.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>This is a handy calendar plugin which uses an .ini file storing your dates.<\/p>\n\n<p>Updating calendar events sometimes could be difficult, because you not only have to put new dates but also to delete some old ones.\nTo edit an ini file in this case should be much easier than editing data stored in a database.\nAlso in future versions its planned to use differend external backends.<\/p>\n\n<p>The file format is a standard ini file format:<\/p>\n\n<ul>\n<li><p>each line contains a <em><code>name = value<\/code><\/em> pair e.g.<\/p>\n\n<blockquote>\n  <p><em><code>28.05.2012 = \"holiday name\"<\/code><\/em><\/p>\n<\/blockquote><\/li>\n<li><p>in this version ini section <em><code>[section]<\/code><\/em> is ignored<\/p><\/li>\n<\/ul>",
+                "uid": "27949"
+            }
+        }
+    }
+}

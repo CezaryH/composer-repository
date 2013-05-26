@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/panicpress": {
+            "1.0": {
+                "name": "wordpress\/panicpress",
+                "version": "1.0",
+                "version_normalized": "1.0.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/panicpress.1.0.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>This plugin will automatically send you a text message whenever anyone attempts to access your administration section, allowing you to approve or reject them before they ever see your dashboard.  And if you ever worry that your blog has been or is being hacked, you can simply text \"panic\" to a special phone number and your whole blog administration section shuts down, leaving your actual blog untouched!<\/p>\n\n<blockquote>\n  <p>This plugin requires a <a href=\"https:\/\/www.panic-press.com\/account\/signup\">PanicPress account<\/a>.<\/p>\n<\/blockquote>\n\n<p>More information can be found at the PanicPress site:<\/p>\n\n<ul>\n<li><a href=\"http:\/\/www.panic-press.com\">Home page<\/a><\/li>\n<li><a href=\"http:\/\/www.panic-press.com\/blog\/who-am-i\">What (or who) is PanicPress?<\/a><\/li>\n<li><a href=\"http:\/\/www.panic-press.com\/faq\">Frequently Asked Questions<\/a><\/li>\n<li><a href=\"https:\/\/www.panic-press.com\/account\/signup\">Sign up!<\/a><\/li>\n<\/ul>",
+                "uid": "18658"
+            }
+        }
+    }
+}

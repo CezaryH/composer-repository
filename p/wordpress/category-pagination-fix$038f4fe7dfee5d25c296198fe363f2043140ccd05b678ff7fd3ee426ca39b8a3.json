@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/category-pagination-fix": {
+            "3.2.2": {
+                "name": "wordpress\/category-pagination-fix",
+                "version": "3.2.2",
+                "version_normalized": "3.2.2.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/category-pagination-fix.3.2.2.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>Fixes the bug in Wordpress 2.7 ( may be in lower version also) in category listing page pagination. When you are using permalink structure as %category%\/%postname% , second page URL of category listing page will be category-name\/page\/2 which Wordpress identify \"page\" as post name. And will return 404 error page. This plug-in will fix the issue. This also fix the next and previous buttons bug in while using custom permalink structure. Bug is still there in Wordpress 3 too. So I'm updated this one.<\/p>",
+                "uid": "88883"
+            }
+        }
+    }
+}

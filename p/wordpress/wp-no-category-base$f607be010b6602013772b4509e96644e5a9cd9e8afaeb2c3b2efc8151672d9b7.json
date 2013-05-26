@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/wp-no-category-base": {
+            "1.1.1": {
+                "name": "wordpress\/wp-no-category-base",
+                "version": "1.1.1",
+                "version_normalized": "1.1.1.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/wp-no-category-base.1.1.1.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>As the name suggests this plugin will completely remove the mandatory 'Category Base' from your category permalinks ( e.g. <code>myblog.com\/category\/my-category\/<\/code> to <code>myblog.com\/my-category\/<\/code> ).<\/p>\n\n<p>The plugin requires no setup or modifying core wordpress files and will not break any links. It will also take care of redirecting your old category links to the new ones.<\/p>\n\n<h4>Features<\/h4>\n\n<ol>\n<li>Better and logical permalinks like <code>myblog.com\/my-category\/<\/code> and <code>myblog.com\/my-category\/my-post\/<\/code>.<\/li>\n<li>Simple plugin - barely adds any overhead.<\/li>\n<li>Works out of the box - no setup needed.<\/li>\n<li>No need to modify wordpress files.<\/li>\n<li>Doesn't require other plugins to work.<\/li>\n<li>Compatible with sitemap plugins.<\/li>\n<li>Works with multiple sub-categories.<\/li>\n<li>Works with WordPress Multisite.<\/li>\n<li>Redirects old category permalinks to the new ones (301 redirect, good for SEO).<\/li>\n<\/ol>",
+                "uid": "91057"
+            }
+        }
+    }
+}

@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/optimized-dropdown-menus": {
+            "1.1": {
+                "name": "wordpress\/optimized-dropdown-menus",
+                "version": "1.1",
+                "version_normalized": "1.1.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/optimized-dropdown-menus.1.1.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>By using Optimized Dropdown Menus Widget, you&#8217;ll be able to create dropdown menus that are searchable or &#8220;spiderable&#8221; by search engine bots.<\/p>\n\n<h4>So how does it work?<\/h4>\n\n<p>Basically, it works like this:<\/p>\n\n<p>The menu's markup code is being printed as an ordinary nested menu. e.g.<\/p>\n\n<pre><code>&#60;ul&#62;\n    &#60;li&#62;&#60;a href=&#34;http:\/\/example.com\/page&#34;&#62;Some Random Page&#60;\/a&#62;&#60;\/li&#62;\n    &#60;li&#62;&#60;a href=&#34;http:\/\/example.com\/page-another&#34;&#62;Another Page&#60;\/a&#62;&#60;\/li&#62;\n    &#60;li&#62;&#60;a href=&#34;http:\/\/example.com\/yao&#34;&#62;Yet Another One&#60;\/a&#62;&#60;\/li&#62;\n&#60;\/ul&#62;<\/code><\/pre>\n\n<p>Since most browsers support JavaScript, using the widget, the markup would be translated into something like this<\/p>\n\n<pre><code>&#60;select&#62;\n    &#60;option value=&#34;http:\/\/example.com\/page&#34;&#62;Some Random Page&#60;\/option&#62;\n    ...\n    &#60;option value=&#34;http:\/\/example.com\/page&#",
+                "uid": "28575"
+            }
+        }
+    }
+}

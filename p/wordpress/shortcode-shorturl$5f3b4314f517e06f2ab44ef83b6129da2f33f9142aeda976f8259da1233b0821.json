@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/shortcode-shorturl": {
+            "1.1.1": {
+                "name": "wordpress\/shortcode-shorturl",
+                "version": "1.1.1",
+                "version_normalized": "1.1.1.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/shortcode-shorturl.1.1.1.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>With this Plugin you <strong>optimize your workflow<\/strong> as it enables you to auto-generate a shortened URL to your blog posts. So neither you nor your readers have to do it. These Short URLs are particular useful for twitter and alike as these services limit the messages of their users to a certain amount of characters - which leads to the situation that their users are forced to have an eye on what exactly they want to write. And by providing a very short URL it's easier for them to spread the word on your blog article as they have more characters left for personal remarks.<\/p>\n\n<p>Compared to other solutions <strong>this plugin caches the generated shortened URL<\/strong> - this makes it faster. If the permalink of the article changes, a new Short URL will be automatically generated. It also allows you to choose your favorite from a couple of Short URL Providers and lets you insert the shortened URL via a handy shortcode.<\/p>\n\n<h4>Usage:<\/h4>\n\n<ul>\n<li>Place <code>[shorturl]<\/",
+                "uid": "85298"
+            }
+        }
+    }
+}

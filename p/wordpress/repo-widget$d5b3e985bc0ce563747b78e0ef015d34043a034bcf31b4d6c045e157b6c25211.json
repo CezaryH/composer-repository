@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/repo-widget": {
+            "0.7.0": {
+                "name": "wordpress\/repo-widget",
+                "version": "0.7.0",
+                "version_normalized": "0.7.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/repo-widget.0.7.0.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>Use WordPress shortcode to embed GitHub repositories into your blog. The embededd repositories will show the latest\ninformation about the repository,<\/p>\n\n<ul>\n<li>Repo title<\/li>\n<li>Cloning URLs (HTTP, SSH, GIT)<\/li>\n<li>Repo description<\/li>\n<li>Last commit information<\/li>\n<\/ul>\n\n<p>ShortCode Example:<\/p>\n\n<pre><code>[repo user=&#34;octocat&#34; repo=&#34;Hello-World&#34;]<\/code><\/pre>",
+                "uid": "8319"
+            }
+        }
+    }
+}

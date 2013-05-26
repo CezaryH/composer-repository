@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/feedburner-anywhere": {
+            "1.1": {
+                "name": "wordpress\/feedburner-anywhere",
+                "version": "1.1",
+                "version_normalized": "1.1.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/feedburner-anywhere.1.1.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>This plugin allows you to output your feedburner subscriber count anywhere on your blog. All you need to do is put the [feedburner] tag in a post. It also gives you the ability to add a (text) widget that allows you to add the feedburner tag as well.<\/p>\n\n<p>This plugin integrates with Worpdress' built-in scheduling system to cache the subscriber count. This allows it to be displayed quickly and efficiently.<\/p>\n\n<p><a href=\"http:\/\/brandontreb.com\">http:\/\/brandontreb.com<\/a><\/p>\n\n<p>The URL below is demonstrating its use in the widget.<\/p>\n\n<p><strong>Note<\/strong> Sometimes the Feedburner API is unreliable and will return 0 results.  If it doesn't work the first time, just wait a while and try again.<\/p>",
+                "uid": "67389"
+            }
+        }
+    }
+}

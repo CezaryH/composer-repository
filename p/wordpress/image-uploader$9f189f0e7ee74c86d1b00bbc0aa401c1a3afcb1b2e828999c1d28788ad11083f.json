@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/image-uploader": {
+            "1.0.2": {
+                "name": "wordpress\/image-uploader",
+                "version": "1.0.2",
+                "version_normalized": "1.0.2.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/image-uploader.1.0.2.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>This plugin will allow users to upload images to the site, but they will be restricted to an exact size depending on the type of upload (graphics, websites, etc)<\/p>\n\n<p>It can be easily added to a page or post by using the code [imageuploaderform].<\/p>\n\n<p>A link to the file and the submission information entered will then be emailed to the specified person in the admin configuration settings.<\/p>",
+                "uid": "96746"
+            }
+        }
+    }
+}

@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/picasa": {
+            "1.5": {
+                "name": "wordpress\/picasa",
+                "version": "1.5",
+                "version_normalized": "1.5.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/picasa.1.5.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>Before trying out this plugin, please take a looking at DEMO: <a href=\"http:\/\/zhiqiang.org\/blog\/photo.html\" rel=\"nofollow\">http:\/\/zhiqiang.org\/blog\/photo.html<\/a><\/p>\n\n<p>This plugin uses PicasaWeb API to retrieval your albums information, cache them (but the photos themselves aren't cached), display them within blog. It looks like your own gallery service.<\/p>\n\n<h4>Features:<\/h4>\n\n<ul>\n<li>information are cached. very fast to navigate<\/li>\n<li>image preload, fast to navigate next photo.<\/li>\n<li>can use keyboard shortcut<\/li>\n<\/ul>\n\n<h4>Notice<\/h4>\n\n<ul>\n<li>This plugin is not for displaying album in post and page. It's different from lots of similar plugins.<\/li>\n<li>PHP 5 and higher is required (most web hostor has it)<\/li>\n<li>mod_rewrite is required and you must use permalink.<\/li>\n<li>You might need to do lots of work to customize this plugin to fit your own template. It's not recommanded if you don't know any knowledge about HTML and PHP.<\/li>\n<\/ul>",
+                "uid": "105729"
+            }
+        }
+    }
+}

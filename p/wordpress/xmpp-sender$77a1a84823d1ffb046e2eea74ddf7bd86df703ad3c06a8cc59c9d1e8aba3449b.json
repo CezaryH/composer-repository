@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/xmpp-sender": {
+            "0.9": {
+                "name": "wordpress\/xmpp-sender",
+                "version": "0.9",
+                "version_normalized": "0.9.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/xmpp-sender.0.9.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>XMPP sender allows to send  notifications about new comments in blog using XMPP protokol (you know it. This is a jabber. For example, it used in Google Talk).You can customize it to send notifications to blog admin or(and) post author about all comments. \n    Message can include comment author, his email, comment content, post title etc. The plugin includes a little template manager that give you possibility to make your own messages. You can change interface language (russian an english included).\n!!!---&#62; It can override email function to xmpp. You can use very good plugins like \"Wordpress Thread Comment\" or \"Subscribe to Comments\" to receive notifications about different events on XMPP!<\/p>\n\n<p>It should work with previouse versions of wordpress, but i didn't test it.<\/p>",
+                "uid": "94066"
+            }
+        }
+    }
+}

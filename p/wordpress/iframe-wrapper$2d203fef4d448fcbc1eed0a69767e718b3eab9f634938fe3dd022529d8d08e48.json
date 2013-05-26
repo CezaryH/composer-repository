@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/iframe-wrapper": {
+            "0.1.1": {
+                "name": "wordpress\/iframe-wrapper",
+                "version": "0.1.1",
+                "version_normalized": "0.1.1.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/iframe-wrapper.0.1.1.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>iframes get a bad wrap, and rightly so in many cases. But when you want to embed\none website inside of another one in a single step, they're a really easy way to make it work.<\/p>\n\n<h4>Usage<\/h4>\n\n<p>Inside whatever post or page you want to embed another site, use the short code<\/p>\n\n<p>[iframeWrapper url=http:\/\/example.com]<\/p>\n\n<p>This will put an iframe linking to example.com into your page. The width will\nbe 100% of the contain it's in and the height will automatically adjust to the\ncontents of the frame.<\/p>\n\n<p>This plugin was originally written to embed <a href=\"http:\/\/www.proofbuddy.com\">ProofBuddy<\/a>\nsites within a WordPress theme without much fuss. But it should work well to embed\nany site within a WordPress theme.<\/p>",
+                "uid": "30975"
+            }
+        }
+    }
+}

@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/slredirectplugin": {
+            "1.0": {
+                "name": "wordpress\/slredirectplugin",
+                "version": "1.0",
+                "version_normalized": "1.0.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/slredirectplugin.1.0.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>This plug-in can generate redirections to relocated pages or posts. Not found\ndocuments are searched by name only. If found, the request will be permanently\nredirected to the new location (returning HTTP status code 301). This option\nhelps, for instance, if the permalink structure has changed.<\/p>\n\n<p>Furthermore an alternative implementation of wp_redirect can be installed\nfor the case that the correct HTTP status code is not sent. This modified\nimplementation of function wp_redirect does not care about FastCGI. As a\nresult the correct HTTP status code is returned. Permanent redirections\nwill be enabled (HTTP status code 301). Please be careful with this option.\nUse it at your own risk.<\/p>\n\n<p>If you have any questions or if you need more information, please visit\n<a href=\"http:\/\/www.steffen-liersch.de\/wordpress\/\" title=\"Steffen Liersch Software Solutions\">http:\/\/www.steffen-liersch.de\/wordpress\/<\/a>.<\/p>",
+                "uid": "73768"
+            }
+        }
+    }
+}

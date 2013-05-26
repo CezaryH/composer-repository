@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/wpms-dashboard-blog": {
+            "1.0": {
+                "name": "wordpress\/wpms-dashboard-blog",
+                "version": "1.0",
+                "version_normalized": "1.0.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/wpms-dashboard-blog.1.0.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>This plugin brings back the missing dashboard blog feature that you may remember from the WPMU days. Also, it adds the user role as set on the settings page. The only difference is that it is missing the \"create dashboard\" feature. So, you must first create the dashboard blog, and then add the blogname on the network settings page.<\/p>",
+                "uid": "36241"
+            }
+        }
+    }
+}

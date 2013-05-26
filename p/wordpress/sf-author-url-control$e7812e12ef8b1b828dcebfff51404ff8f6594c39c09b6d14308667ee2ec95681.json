@@ -1,0 +1,40 @@
+{
+    "packages": {
+        "wordpress\/sf-author-url-control": {
+            "1.0.1": {
+                "name": "wordpress\/sf-author-url-control",
+                "version": "1.0.1",
+                "version_normalized": "1.0.1.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/sf-author-url-control.1.0.1.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>With this plugin, administrators can change the default author base in the registered users profile url, and the author slug of each user.\nChanging an author slug is a good thing for security (if your login is \"This Is Me\", your slug will be \"this-is-me\", a bit easy to guess).\nThe plugin adds 2 fields for this purpose, one in permalinks settings, the other in a user profile.<\/p>\n\n<ul>\n<li>Default: <em><a href=\"http:\/\/www.my-site.com\/author_base\/author_nicename\/\" rel=\"nofollow\">http:\/\/www.my-site.com\/author_base\/author_nicename\/<\/a><\/em><\/li>\n<li>Customized: <em><a href=\"http:\/\/www.my-site.com\/jedi\/obiwan\/\" rel=\"nofollow\">http:\/\/www.my-site.com\/jedi\/obiwan\/<\/a><\/em><\/li>\n<\/ul>\n\n<h4>How to edit the slugs<\/h4>\n\n<ul>\n<li>Go to <em>Settings<\/em> &#62; <em>Permalinks<\/em> to edit the author base: \"author_base\" =&#62; \"jedi\"<\/li>\n<li>Go to <em>Users<\/em> &#62; <em>\"Any user edit page\"<\/em> to edit the user slug: \"author_nicename\" =&#62; \"obiwan\"<\/li>\n<\/ul>\n\n<h4>Translations<\/h4>\n\n<ul>\n<li>",
+                "uid": "26802"
+            },
+            "1.0.2": {
+                "name": "wordpress\/sf-author-url-control",
+                "version": "1.0.2",
+                "version_normalized": "1.0.2.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/sf-author-url-control.1.0.2.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>With this plugin, administrators can change the default author base in the registered users profile url, and the author slug of each user.\nChanging an author slug is a good thing for security (if your login is \"This Is Me\", your slug will be \"this-is-me\", a bit easy to guess).\nThe plugin adds 2 fields for this purpose, one in permalinks settings, the other in a user profile.<\/p>\n\n<ul>\n<li>Default: <em><a href=\"http:\/\/www.my-site.com\/author_base\/author_nicename\/\" rel=\"nofollow\">http:\/\/www.my-site.com\/author_base\/author_nicename\/<\/a><\/em><\/li>\n<li>Customized: <em><a href=\"http:\/\/www.my-site.com\/jedi\/obiwan\/\" rel=\"nofollow\">http:\/\/www.my-site.com\/jedi\/obiwan\/<\/a><\/em><\/li>\n<\/ul>\n\n<h4>How to edit the slugs<\/h4>\n\n<ul>\n<li>Go to <em>Settings<\/em> &#62; <em>Permalinks<\/em> to edit the author base: \"author_base\" =&#62; \"jedi\"<\/li>\n<li>Go to <em>Users<\/em> &#62; <em>\"Any user edit page\"<\/em> to edit the user slug: \"author_nicename\" =&#62; \"obiwan\"<\/li>\n<\/ul>\n\n<h4>Translations<\/h4>\n\n<ul>\n<li>",
+                "uid": "26801"
+            }
+        }
+    }
+}

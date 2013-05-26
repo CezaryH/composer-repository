@@ -1,0 +1,40 @@
+{
+    "packages": {
+        "wordpress\/category-write-panels": {
+            "1.0.2": {
+                "name": "wordpress\/category-write-panels",
+                "version": "1.0.2",
+                "version_normalized": "1.0.2.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/category-write-panels.1.0.2.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>Easily manage multiple content types in your WordPress site. This plugin automatically creates separate write and edit panels for each category. Every top level category will have it's own top level menu with a write panel and an edit posts page. Subcategories can be used the way categories are normaly used, each write panel showing only it's sub categories.<\/p>\n\n<p>Basically this plugin does the base of what flutter and pods do, but 10 times faster, more reliable and simpler.<\/p>\n\n<p><strong>Developers:<\/strong><\/p>\n\n<p>Developers can manipulate write panels individually by getting the current main category ID. This can be done with the global variable <code>$cwp_postcat<\/code>. The category name can be obtained with <code>$cwp_postcatname<\/code>.<\/p>\n\n<p><strong>Warnings:<\/strong><\/p>\n\n<ul>\n<li>This plugin may (or may not) break if you are using any plugins that manipulate the default WordPress menus.<\/li>\n<li>This plugin will probably break if you have more then 16 top level cate",
+                "uid": "82363"
+            },
+            "1.03": {
+                "name": "wordpress\/category-write-panels",
+                "version": "1.03",
+                "version_normalized": "1.03.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/category-write-panels.1.03.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>Easily manage multiple content types in your WordPress site. This plugin automatically creates separate write and edit panels for each category. Every top level category will have it's own top level menu with a write panel and an edit posts page. Subcategories can be used the way categories are normaly used, each write panel showing only it's sub categories.<\/p>\n\n<p>Basically this plugin does the base of what flutter and pods do, but 10 times faster, more reliable and simpler.<\/p>\n\n<p><strong>Developers:<\/strong><\/p>\n\n<p>Developers can manipulate write panels individually by getting the current main category ID. This can be done with the global variable <code>$cwp_postcat<\/code>. The category name can be obtained with <code>$cwp_postcatname<\/code>.<\/p>\n\n<p><strong>Warnings:<\/strong><\/p>\n\n<ul>\n<li>This plugin may (or may not) break if you are using any plugins that manipulate the default WordPress menus.<\/li>\n<li>This plugin will probably break if you have more then 16 top level cate",
+                "uid": "82364"
+            }
+        }
+    }
+}

@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/mixcloud-embed": {
+            "1.6.3": {
+                "name": "wordpress\/mixcloud-embed",
+                "version": "1.6.3",
+                "version_normalized": "1.6.3.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/mixcloud-embed.1.6.3.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>The Mixcloud Embed plugin allows you to add the Mixcloud player into your WordPress blog or page, by using the [mixcloud] shortcode.\nYou can also display a playlist of the cloudcast.\nIn the last version there is the possibility to use a widget on your sidebar for view your Mixcloud profile.<\/p>\n\n<h4>Usage<\/h4>\n\n<p>As default you only need to copy the URL of the song from Mixcloud you wish to add into your WordPress post or page, and past it between <em>[mixcloud]<\/em> and <em>[\/mixcloud]<\/em><\/p>\n\n<pre><code>[mixcloud]http:\/\/www.mixcloud.com\/artist-name\/long-live-set-name\/[\/mixcloud]<\/code><\/pre>\n\n<p>Make sure it's the permalink (<em>&#8230;com\/artist-name\/dj-set-or-live-name\/<\/em>) instead of \"<em>&#8230;com\/bjtliveset\/<\/em>\".<\/p>\n\n<p>The optional parameters are height and width:<\/p>\n\n<pre><code>[mixcloud height=&#34;100&#34; width=&#34;400&#34;]http:\/\/www.mixcloud.com\/artist-name\/recorded-live-somewhere\/[\/mixcloud]<\/code><\/pre>\n\n<p>If you want display a cloudcast profile you must ",
+                "uid": "10161"
+            }
+        }
+    }
+}

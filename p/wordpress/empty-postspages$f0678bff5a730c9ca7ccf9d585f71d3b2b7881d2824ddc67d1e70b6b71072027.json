@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/empty-postspages": {
+            "1.0.0": {
+                "name": "wordpress\/empty-postspages",
+                "version": "1.0.0",
+                "version_normalized": "1.0.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/empty-postspages.1.0.0.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>Empty posts\/pages still get wrapped in tags, which makes them invalid.  This\nplugin fixes that.  It looks like 2.5 no longer places empty paragraph tags in\na post\/page, however it does still add a br tag.  For WordPress 2.5+, this\nplugin removes that br tag, which can be very nice when you expect to let a\ntemplate do all the formatting.  PHP5 Required.<\/p>",
+                "uid": "104453"
+            }
+        }
+    }
+}

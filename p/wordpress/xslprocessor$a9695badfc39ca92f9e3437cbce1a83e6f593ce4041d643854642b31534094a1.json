@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/xslprocessor": {
+            "0.5": {
+                "name": "wordpress\/xslprocessor",
+                "version": "0.5",
+                "version_normalized": "0.5.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/xslprocessor.0.5.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>The plugin aims to allow XML document transformed through parametrized XSLT to be outputted in a WordPress Page.<\/p>\n\n<p>Lots of small (or consolidated) plugins like this one could be usefull to implement inclusion of webservices output, html page and such. But this one is limited at the moment to XML and XSLT.<\/p>",
+                "uid": "89857"
+            }
+        }
+    }
+}

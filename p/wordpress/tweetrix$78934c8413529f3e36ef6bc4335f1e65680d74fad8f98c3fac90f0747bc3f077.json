@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/tweetrix": {
+            "1.0.2": {
+                "name": "wordpress\/tweetrix",
+                "version": "1.0.2",
+                "version_normalized": "1.0.2.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/tweetrix.1.0.2.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>The tweetrix widget\/plugin will allow you to display a word cloud from up to 200 tweets from a publicly accessible Twitter feed (preferably your own).  You can configure:<\/p>\n\n<ul>\n<li>the user (or the twitterapi feed by default)<\/li>\n<li>the number of tweets<\/li>\n<li>the minimum number of repetitions required to include a particular word<\/li>\n<li>the minimum number of letters required to include a particular word<\/li>\n<li>the minimum and maximum font sizes, the size increment, and their units<\/li>\n<li>a word filter to exclude common words or other undesirables<\/li>\n<li>filters for @usernames, links, and numbers<\/li>\n<li>a wrapper div for CSS convenience<\/li>\n<\/ul>",
+                "uid": "76220"
+            }
+        }
+    }
+}

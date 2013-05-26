@@ -1,0 +1,57 @@
+{
+    "packages": {
+        "wordpress\/thematic-html5": {
+            "0.3": {
+                "name": "wordpress\/thematic-html5",
+                "version": "0.3",
+                "version_normalized": "0.3.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/thematic-html5.0.3.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>This plugin will convert the markup of themes based on the Thematic theme framework to use html5 elements. Requires Thematic 1.0 or later. New filters were introduced in Thematic 1.0.2 that optimizes the use of this plugin, but it will work with Thematic 1.0 as well using an output buffer.<\/p>\n\n<p>It uses the built in filters of Thematic to change the markup in desired places. If you are using any <code>childtheme_override_*<\/code> functions they will still work, and will override this plugin's loops as well. You will then need to make sure that your override loops uses html5 yourself.<\/p>\n\n<p>The markup changes are:<\/p>\n\n<ul>\n<li>doctype changed to <code>&#60;!doctype html&#62;<\/code><\/li>\n<li>conditional comment classes from <a href=\"http:\/\/html5boilerplate.com\">html5boilerplate<\/a> are added to the opening <code>&#60;html&#62;<\/code> tag<\/li>\n<li>meta tag \"charset\" added to <code>&#60;head&#62;<\/code><\/li>\n<li>defunkt meta tag http-equiv=Content-type removed (replaced by meta tag",
+                "uid": "20138"
+            },
+            "0.4": {
+                "name": "wordpress\/thematic-html5",
+                "version": "0.4",
+                "version_normalized": "0.4.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/thematic-html5.0.4.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>This plugin will convert the markup of themes based on the Thematic theme framework to use html5 elements. Requires Thematic 1.0 or later. New filters were introduced in Thematic 1.0.2 that optimizes the use of this plugin, but it will work with Thematic 1.0 as well using an output buffer.<\/p>\n\n<p>It uses the built in filters of Thematic to change the markup in desired places. If you are using any <code>childtheme_override_*<\/code> functions they will still work, and will override this plugin's loops as well. You will then need to make sure that your override loops uses html5 yourself.<\/p>\n\n<p>The markup changes are:<\/p>\n\n<ul>\n<li>doctype changed to <code>&#60;!doctype html&#62;<\/code><\/li>\n<li>conditional comment classes from <a href=\"http:\/\/html5boilerplate.com\">html5boilerplate<\/a> are added to the opening <code>&#60;html&#62;<\/code> tag<\/li>\n<li>meta tag \"charset\" added to <code>&#60;head&#62;<\/code><\/li>\n<li>defunkt meta tag http-equiv=Content-type removed (replaced by meta tag",
+                "uid": "20137"
+            },
+            "0.4.1": {
+                "name": "wordpress\/thematic-html5",
+                "version": "0.4.1",
+                "version_normalized": "0.4.1.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/thematic-html5.0.4.1.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>This plugin will convert the markup of themes based on the Thematic theme framework to use html5 elements. Requires Thematic 1.0 or later. New filters were introduced in Thematic 1.0.2 that optimizes the use of this plugin, but it will work with Thematic 1.0 as well using an output buffer.<\/p>\n\n<p>It uses the built in filters of Thematic to change the markup in desired places. If you are using any <code>childtheme_override_*<\/code> functions they will still work, and will override this plugin's loops as well. You will then need to make sure that your override loops uses html5 yourself.<\/p>\n\n<p>The markup changes are:<\/p>\n\n<ul>\n<li>doctype changed to <code>&#60;!doctype html&#62;<\/code><\/li>\n<li>conditional comment classes from <a href=\"http:\/\/html5boilerplate.com\">html5boilerplate<\/a> are added to the opening <code>&#60;html&#62;<\/code> tag<\/li>\n<li>meta tag \"charset\" added to <code>&#60;head&#62;<\/code><\/li>\n<li>defunkt meta tag http-equiv=Content-type removed (replaced by meta tag",
+                "uid": "20136"
+            }
+        }
+    }
+}

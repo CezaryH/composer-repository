@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/supreme-google-webfonts": {
+            "1.1": {
+                "name": "wordpress\/supreme-google-webfonts",
+                "version": "1.1",
+                "version_normalized": "1.1.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/supreme-google-webfonts.1.1.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p><strong>UPDATE:<\/strong>\nAfter releasing this plugin, I have noticed calling the google webfont directory adds about two to three seconds to page load time.  This is because each font makes a separate call to google to access the font.  I am working on a method which will allow you to choose which fonts to include and not have to call the other, unnecessary fonts from google.<\/p>\n\n<p><strong>Update: (04-06-12)<\/strong>\nI have created a MUCH better custom Google webfonts plugin.  Find out more information by clicking the link below:\n<a href=\"http:\/\/www.plugins.joshlobe.com\/ultimate-tinymce-google-webfonts\/\" rel=\"nofollow\">http:\/\/www.plugins.joshlobe.com\/ultimate-tinymce-google-webfonts\/<\/a><\/p>",
+                "uid": "35700"
+            }
+        }
+    }
+}

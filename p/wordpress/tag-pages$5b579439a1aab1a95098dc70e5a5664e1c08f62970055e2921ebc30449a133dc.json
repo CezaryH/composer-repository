@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/tag-pages": {
+            "1.0": {
+                "name": "wordpress\/tag-pages",
+                "version": "1.0",
+                "version_normalized": "1.0.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/tag-pages.1.0.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>Add tags to a Page just as you would do with a Post.<\/p>\n\n<p>This plugin adds the 'post_tag' taxonomy to the Page post type. \nThis enables the tags metabox in the New or Edit Page interface. To show tagged \nPages on a tags archive page or in a feed, it uses the 'pre_get_posts' hook\nto change the post_type query parameter to 'any'.<\/p>\n\n<p>The plugin has no settings, does not alter the database and only uses hooks to \nachieve it's goal. It also should work perfectly fine with Multisite installations.<\/p>",
+                "uid": "21508"
+            }
+        }
+    }
+}

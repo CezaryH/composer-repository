@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/traffic-stats-widget": {
+            "1.0.1": {
+                "name": "wordpress\/traffic-stats-widget",
+                "version": "1.0.1",
+                "version_normalized": "1.0.1.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/traffic-stats-widget.1.0.1.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>TSW shows the number of visitors \/ hits \/ unique IPs in the past 24 hours, 7 days and 30 days. It also shows the number of users currently online.<\/p>\n\n<p>It provides a robots filter, but the automatic traffic could also be considered.<\/p>\n\n<p>Traffic Stats Widget offers language support and automatic log deletion.<\/p>",
+                "uid": "11384"
+            }
+        }
+    }
+}

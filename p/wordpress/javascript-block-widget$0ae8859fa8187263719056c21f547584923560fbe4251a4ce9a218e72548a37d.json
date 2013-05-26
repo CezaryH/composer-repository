@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/javascript-block-widget": {
+            "1": {
+                "name": "wordpress\/javascript-block-widget",
+                "version": "1",
+                "version_normalized": "1.0.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/javascript-block-widget.1.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>This is a very simple sidebar widget which places javascript code in the widget. You need to provide only the script (while editing the widget), this widget will place this code inside javascript blocks.<\/p>\n\n<p>You can also able to add JavaScript codes in text widget in sidebar. So you don't need this plugin.<\/p>",
+                "uid": "91371"
+            }
+        }
+    }
+}

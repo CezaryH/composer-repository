@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/search-by-file-type": {
+            "1.0": {
+                "name": "wordpress\/search-by-file-type",
+                "version": "1.0",
+                "version_normalized": "1.0.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/search-by-file-type.1.0.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>Break your search up by file types.  Implements methods for separating searches by type [post&#124;video&#124;audio&#124;image]<\/p>\n\n<p>todo:\n* restrict results to status = 'published'<\/p>",
+                "uid": "101524"
+            }
+        }
+    }
+}

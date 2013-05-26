@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/ewsel-lightbox-for-galleries": {
+            "1.0.5": {
+                "name": "wordpress\/ewsel-lightbox-for-galleries",
+                "version": "1.0.5",
+                "version_normalized": "1.0.5.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/ewsel-lightbox-for-galleries.1.0.5.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>Makes the native WordPress galleries use a lightbox script called <a href=\"http:\/\/colorpowered.com\/colorbox\/\">ColorBox<\/a> to display the fullsize images right there in the page. No modifications required.<\/p>\n\n<p>You can also make single non-<code>[gallery]<\/code> images use the lightbox by giving their links a class of \"lightbox\", like so:<\/p>\n\n<pre><code>&#60;a href=&#34;http:\/\/domian.com&#34; class=&#34;lightbox&#34;&#62;&#60;img src=&#34;..\/img.jpg&#34; alt=&#34;Demo&#34; \/&#62;&#60;\/a&#62;<\/code><\/pre>\n\n<p>developer version : <a href=\"https:\/\/github.com\/ewteam\/EWSEL-Lightbox-For-Galleries\">Github<\/a><\/p>",
+                "uid": "20314"
+            }
+        }
+    }
+}

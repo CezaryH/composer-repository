@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/bbboing": {
+            "1.0": {
+                "name": "wordpress\/bbboing",
+                "version": "1.0",
+                "version_normalized": "1.0.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/bbboing.1.0.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>Aoccdrnig to a rscheearch at Cmabrigde Uinervtisy, it deosn't mttaer in waht oredr the ltteers in a wrod are, the olny iprmoetnt tihng is taht the frist and lsat ltteer be at the rghit pclae.\nThe rset can be a toatl mses and you can sitll raed it wouthit porbelm.\nTihs is bcuseae the huamn mnid deos not raed ervey lteter by istlef but the wrod as a wlohe.<\/p>\n\n<p>This plugin implements a version of an algorithm that will produce text similar to the above.\nBasically it changes each word by randomising the order of the letters, leaving the first and last letter of each word the same.<\/p>\n\n<p>You implement this on your website using the [bbboing] shortcode.<\/p>\n\n<p>The syntax is:<\/p>\n\n<p>[bbboing\n  text=\"seed&#124;text - some text to obfuscate\"\n  form=\"N&#124;Y - display form to allow changes\"\n  both=\"N&#124;Y - display both original and output text\"]<\/p>\n\n<p>If you don't specify any parameters you get a 'bbboing'ed version of the original text.<\/p>\n\n<p>Examples:\n [bbboing text=\"code is",
+                "uid": "27402"
+            }
+        }
+    }
+}

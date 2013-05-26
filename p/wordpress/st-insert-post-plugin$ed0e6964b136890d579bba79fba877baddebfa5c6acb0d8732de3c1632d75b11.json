@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/st-insert-post-plugin": {
+            "1.0.3": {
+                "name": "wordpress\/st-insert-post-plugin",
+                "version": "1.0.3",
+                "version_normalized": "1.0.3.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/st-insert-post-plugin.1.0.3.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>A simple front end post form for all users, and as a bonus the ability to list subpages.<\/p>\n\n<p>Just insert [st_insert_post] into a page to display the front end post form.\nTo list a pages subpages, just insert [stls] into a page.\nSimple eh?<\/p>",
+                "uid": "38093"
+            }
+        }
+    }
+}

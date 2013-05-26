@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/utech-world-time-for-wp": {
+            "1.0": {
+                "name": "wordpress\/utech-world-time-for-wp",
+                "version": "1.0",
+                "version_normalized": "1.0.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/utech-world-time-for-wp.1.0.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>Creates digital real time world clocks on your posts or pages using simple shortcode. The customizable clocks show the name and current time of the location of your choice.<\/p>\n\n<ul>\n<li>The clocks display the current time, even if the user's computer clock is wrong.<\/li>\n<li>Automatic adjustment for Daylight Saving Time<\/li>\n<li>All major time zones supported<\/li>\n<li>Customizable and easy to use with shortcode<\/li>\n<\/ul>\n\n<p><strong>Quick Start<\/strong><\/p>\n\n<ul>\n<li><p>Put the following shortcode anywhere on your post or page to create a GMT\/UTC clock:<\/p>\n\n<pre><code>[worldtime]  \n<\/code><\/pre><\/li>\n<li><p>Use the 'places' parameter to specify the clock's time zone:<\/p>\n\n<pre><code>[worldtime places=\"Paris\"]  \n<\/code><\/pre><\/li>\n<li><p>List several places separated by a comma. This will create multiple world clocks in a stack (currently maximum 6)<\/p>\n\n<pre><code>[worldtime places=\"Rome, New York\"]  \n<\/code><\/pre><\/li>\n<\/ul>\n\n<p>The name of the location has to match exactly with",
+                "uid": "71235"
+            }
+        }
+    }
+}

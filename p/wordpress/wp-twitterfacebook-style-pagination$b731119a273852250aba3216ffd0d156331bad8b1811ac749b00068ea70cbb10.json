@@ -1,0 +1,40 @@
+{
+    "packages": {
+        "wordpress\/wp-twitterfacebook-style-pagination": {
+            "1.0.0": {
+                "name": "wordpress\/wp-twitterfacebook-style-pagination",
+                "version": "1.0.0",
+                "version_normalized": "1.0.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/wp-twitterfacebook-style-pagination.1.0.0.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p><a href=\"http:\/\/www.thewebgig.com\">Author Site<\/a>&#124;\n<a href=\"http:\/\/www.thewebgig.com\/wp-twitterfacebook-style-pagination\">Plugin Home Page<\/a><\/p>\n\n<p>WordPress plugin for implementing Twitter and Facebook style 'Load More' pagination.<\/p>\n\n<p>Some of its features are:<\/p>\n\n<ul>\n<li><p>Easy setup.<\/p><\/li>\n<li><p>Minimal Configuration.<\/p><\/li>\n<li><p>Option to define the file from which the posts\/content will be loaded. This can be defined individualy via the function parameter and globally via the admin options.<\/p><\/li>\n<li><p>Option to define the element to which the posts\/content will be rendered. This can be defined individualy via the function parameter and globally via the admin options.<\/p><\/li>\n<li><p>Option to override the output via action hook.Use 'twg_tfsp_query_posts' to add a custom hook.<\/p>\n\n<p>`add_action('twg_tfsp_query_posts','twg_tfsp_custom_query_posts');<\/p>\n\n<p>function twg_tfsp_custom_query_posts(){<\/p>\n\n<p>global $paged;<\/p>\n\nYou can add any paramete",
+                "uid": "43664"
+            },
+            "1.0.1": {
+                "name": "wordpress\/wp-twitterfacebook-style-pagination",
+                "version": "1.0.1",
+                "version_normalized": "1.0.1.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/wp-twitterfacebook-style-pagination.1.0.1.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p><a href=\"http:\/\/www.thewebgig.com\">Author Site<\/a>&#124;\n<a href=\"http:\/\/www.thewebgig.com\/wp-twitterfacebook-style-pagination\">Plugin Home Page<\/a><\/p>\n\n<p>WordPress plugin for implementing Twitter and Facebook style 'Load More' pagination.<\/p>\n\n<p>Some of its features are:<\/p>\n\n<ul>\n<li><p>Easy setup.<\/p><\/li>\n<li><p>Minimal Configuration.<\/p><\/li>\n<li><p>Option to define the file from which the posts\/content will be loaded. This can be defined individualy via the function parameter and globally via the admin options.<\/p><\/li>\n<li><p>Option to define the element to which the posts\/content will be rendered. This can be defined individualy via the function parameter and globally via the admin options.<\/p><\/li>\n<li><p>Option to override the output via action hook.Use 'twg_tfsp_query_posts' to add a custom hook.<\/p>\n\n<p>`add_action('twg_tfsp_query_posts','twg_tfsp_custom_query_posts');<\/p>\n\n<p>function twg_tfsp_custom_query_posts(){<\/p>\n\n<p>global $paged;<\/p>\n\nYou can add any paramete",
+                "uid": "43663"
+            }
+        }
+    }
+}

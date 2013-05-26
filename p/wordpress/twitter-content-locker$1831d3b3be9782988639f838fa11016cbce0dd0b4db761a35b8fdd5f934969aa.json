@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/twitter-content-locker": {
+            "1.28": {
+                "name": "wordpress\/twitter-content-locker",
+                "version": "1.28",
+                "version_normalized": "1.28.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/twitter-content-locker.1.28.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>Twitter Content Locker plugin is a good solution for website promotion via Twitter. With this plugin you can hide part of your content (for example, images, download links, passwords or other important information) from users. User must share your page on Twitter to view hidden content. Check out <a href=\"http:\/\/www.icprojects.net\/twitter-content-locker.html\">working demo<\/a>.<\/p>\n\n<p>Install the plugin and wrap any \"secret\" content with shortcodes [twitterlocker] ... [\/twitterlocker].<\/p>\n\n<p>You also can extend standard shortcode by using attribute \"message\". Example:\n[twitterlocker message=\"Type any message here to replace default message by yours!\"] ... [\/twitterlocker]<\/p>\n\n<p>Type shortcode manually or use special button with your WYSIWYG-editor to insert Twitter Content Locker shortcode.<\/p>\n\n<p>For more details please visit <a href=\"http:\/\/www.icprojects.net\/twitter-content-locker.html\">Twitter Content Locker<\/a> plugin page.<\/p>",
+                "uid": "28574"
+            }
+        }
+    }
+}

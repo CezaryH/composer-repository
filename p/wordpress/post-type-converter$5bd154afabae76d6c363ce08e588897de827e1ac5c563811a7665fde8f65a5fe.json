@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/post-type-converter": {
+            "0.1": {
+                "name": "wordpress\/post-type-converter",
+                "version": "0.1",
+                "version_normalized": "0.1.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/post-type-converter.0.1.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>Adds meta boxes to all post types and allows you to convert the post type of the current post you are editing to a different post type. This very useful when doing an import from another site into one post type that then needs to be filtered into different post types or even to fill dummy posts throughout multiple post types.<\/p>",
+                "uid": "33079"
+            }
+        }
+    }
+}

@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/ab-api-call-logger": {
+            "0.1": {
+                "name": "wordpress\/ab-api-call-logger",
+                "version": "0.1",
+                "version_normalized": "0.1.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/ab-api-call-logger.0.1.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>This is a very simple plugin that creates a new adminbar menu with a list of pertinent API calls used on a page.<\/p>\n\n<p>However, no good thing happens in a vacuum, and you good folks, are developers.<\/p>\n\n<p>In order to log API calls, you should invoke the <code>log_api_call()<\/code> method of the <code>$ab_api_logger<\/code> global object. Of course, if you prefer, you can instantiate your own object using the <code>AB_API_Logger<\/code> class.<\/p>\n\n<p>The <code>log_api_call()<\/code> method takes two properties. The first is an array of URLs that will be included as menu items (easy access, easy click to see responses). By default, the plugin maintains a property <code>$api_calls<\/code> with this array and uses it to  parse out the menu items.<\/p>\n\n<p>However, if you wish to maintain your own array, you can do that too. The plugin takes care of what it needs, and you can feel free to maintain what you need.<\/p>\n\n<p>The second argument for the <code>log_api_calls()<\/code> method is t",
+                "uid": "8246"
+            }
+        }
+    }
+}

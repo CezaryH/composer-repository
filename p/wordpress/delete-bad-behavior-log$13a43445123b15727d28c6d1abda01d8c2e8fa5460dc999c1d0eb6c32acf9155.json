@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/delete-bad-behavior-log": {
+            "0.5": {
+                "name": "wordpress\/delete-bad-behavior-log",
+                "version": "0.5",
+                "version_normalized": "0.5.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/delete-bad-behavior-log.0.5.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>This plugin deletes log entries created by Bad Behavior plugin. Bad Behavior plugin does not have option for deleting log entries.<\/p>",
+                "uid": "17857"
+            }
+        }
+    }
+}

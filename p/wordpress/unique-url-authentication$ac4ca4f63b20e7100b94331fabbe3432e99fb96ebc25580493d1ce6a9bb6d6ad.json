@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/unique-url-authentication": {
+            "1.1": {
+                "name": "wordpress\/unique-url-authentication",
+                "version": "1.1",
+                "version_normalized": "1.1.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/unique-url-authentication.1.1.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>The Unique URL Authentication plugin is a new plugin from Multinc that works with the Social Access Control plugin to add access control \nto syndicated feeds.  Since popular web feed readers such as Google Reader do not support private feeds that require a login and a password, \na common solution is to give each registered user their own unique and unguessable feed URL.  With this plugin installed, each user will have \nhis or her own feed and will receive a listing of only the feed items that he or she has access to.<\/p>\n\n<p>Also, the links contained in each feed item and each email notification that point back to the blog website can also benefit from password-less \nauthentication.  This allows sensitive posts to remain on the website rather than sent out, while giving authorized users single-click convenience.<\/p>",
+                "uid": "99363"
+            }
+        }
+    }
+}

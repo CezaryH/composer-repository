@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/wp-query-powered-adjacent-post-link": {
+            "1.0.0": {
+                "name": "wordpress\/wp-query-powered-adjacent-post-link",
+                "version": "1.0.0",
+                "version_normalized": "1.0.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/wp-query-powered-adjacent-post-link.1.0.0.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>WP_Query Powered Adjacent Post Link is a plugin for developers. It adds the function <code>wpqpapl();<\/code> to WordPress which can return information on the previous and next post to the current. It accepts arguments for use in the WP_Query class.<\/p>\n\n<p>WordPress developers should be familiar with WP_Query to use this plugin.<\/p>\n\n<p>I created this plugin is because I frequently have situations where my posts are organizied using 'orderby' options other than the default chronological. The WordPress built-in adjacent post link functions do not operate according to this order and there is no option to make them do so. With this plugin theme developers can create previous and next links to posts while passing WP_Query arguments to the plugin. It does the work and passes the information back.<\/p>\n\n<p>It works simply by creating a WP_Query with your arguments and passing back desired information about a previous or next post such as:<\/p>\n\n<ul>\n<li>ID<\/li>\n<li>Title<\/li>\n<li>Slug<\/li>\n",
+                "uid": "14438"
+            }
+        }
+    }
+}

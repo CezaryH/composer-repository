@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/hikari-tools": {
+            "1.07.05": {
+                "name": "wordpress\/hikari-tools",
+                "version": "1.07.05",
+                "version_normalized": "1.07.05.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/hikari-tools.1.07.05.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p><strong><a href=\"http:\/\/hikari.ws\/tools\/\">Hikari Tools Framework<\/a><\/strong> isn't a plugin with features for the end user. It's a development framework with tools to be used by other plugins, so that they don't need to duplicate the same code over and over again.<\/p>\n\n<p>It deeply decreases plugins development time, specially in building options pages. For that, instead of building the whole HTML for each plugin, we can just prepare an array and it's used to build the whole page.<\/p>\n\n<p>Another great feature this framework offers is options detection and reset. With the use of another simple array, in the bottom of options page it prints a table showing to plugin's users all kinds of options the plugins creates, being it wp_options, comment meta, post meta, and even network-wide options and user specific options (usermeta).<\/p>\n\n<p>Every kind of data your plugin stores in database is shown in a clear way, with its key so that users can easly search for them in database. But they ",
+                "uid": "59616"
+            }
+        }
+    }
+}

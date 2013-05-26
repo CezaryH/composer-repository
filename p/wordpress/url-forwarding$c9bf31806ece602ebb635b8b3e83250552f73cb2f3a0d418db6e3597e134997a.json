@@ -1,0 +1,40 @@
+{
+    "packages": {
+        "wordpress\/url-forwarding": {
+            "1.2": {
+                "name": "wordpress\/url-forwarding",
+                "version": "1.2",
+                "version_normalized": "1.2.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/url-forwarding.1.2.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>The plugin redirects legacy URLs a previous version of a websites that has since been converted into a Wordpress site. It can also be used for other redirecting, eg having a short URL that directs to a page as part of a campaign.<\/p>\n\n<p>For example:<\/p>\n\n<p><a href=\"http:\/\/www.example.com\/old-page.html\" rel=\"nofollow\">http:\/\/www.example.com\/old-page.html<\/a><\/p>\n\n<p>Can be directed to:<\/p>\n\n<p><a href=\"http:\/\/www.example.com\/2011\/04\/25\/new-page.html\" rel=\"nofollow\">http:\/\/www.example.com\/2011\/04\/25\/new-page.html<\/a><\/p>\n\n<p>Simply by adding 'old-page.html' as a custom field when editing new-page within Wordpress.<\/p>\n\n<p>Every time a 404 page is called, the Legacy URL plugin checks the database and if it find a legacy-url value that exactly matches the URL it will redirect to the new page.<\/p>\n\n<p>Please note that this plugin has no settings\/options pages within the Wordpress admin module.<\/p>",
+                "uid": "48268"
+            },
+            "1.3": {
+                "name": "wordpress\/url-forwarding",
+                "version": "1.3",
+                "version_normalized": "1.3.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/url-forwarding.1.3.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>The plugin redirects legacy URLs a previous version of a websites that has since been converted into a Wordpress site. It can also be used for other redirecting, eg having a short URL that directs to a page as part of a campaign.<\/p>\n\n<p>For example:<\/p>\n\n<p><a href=\"http:\/\/www.example.com\/old-page.html\" rel=\"nofollow\">http:\/\/www.example.com\/old-page.html<\/a><\/p>\n\n<p>Can be directed to:<\/p>\n\n<p><a href=\"http:\/\/www.example.com\/2011\/04\/25\/new-page.html\" rel=\"nofollow\">http:\/\/www.example.com\/2011\/04\/25\/new-page.html<\/a><\/p>\n\n<p>Simply by adding 'old-page.html' as a custom field when editing new-page within Wordpress.<\/p>\n\n<p>Every time a 404 page is called, the Legacy URL plugin checks the database and if it find a legacy-url value that exactly matches the URL it will redirect to the new page.<\/p>\n\n<p>Please note that this plugin has no settings\/options pages within the Wordpress admin module.<\/p>",
+                "uid": "48267"
+            }
+        }
+    }
+}

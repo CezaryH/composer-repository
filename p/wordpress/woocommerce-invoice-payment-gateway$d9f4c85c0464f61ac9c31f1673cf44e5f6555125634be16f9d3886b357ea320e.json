@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/woocommerce-invoice-payment-gateway": {
+            "1.0": {
+                "name": "wordpress\/woocommerce-invoice-payment-gateway",
+                "version": "1.0",
+                "version_normalized": "1.0.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/woocommerce-invoice-payment-gateway.1.0.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>Provides an Invoice Payment Gateway, mainly for B2B segment where instant payment via PayPal etc. is not a viable option.<\/p>\n\n<h4>Important note<\/h4>\n\n<p>As off WooCommerce 2.0 this plugin DOES NO LONGER WORK! It's no longer in development (it was\/is just a quick n' dirty fix) BUT if you're interested in making something with this I'm accepting pull requests over at Github (<a href=\"https:\/\/github.com\/davidpaulsson\/WooCommerce-Invoice-Payment-Gateway\" rel=\"nofollow\">https:\/\/github.com\/davidpaulsson\/WooCommerce-Invoice-Payment-Gateway<\/a>).<\/p>\n\n<p>This plugin does NOT create the invoices for you. It only completes the order and sends out the order confirmation emails. The actual invoices still needs to be created and sent to the customer.<\/p>",
+                "uid": "11673"
+            }
+        }
+    }
+}

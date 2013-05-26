@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/auto-post-posts": {
+            "1.0.1": {
+                "name": "wordpress\/auto-post-posts",
+                "version": "1.0.1",
+                "version_normalized": "1.0.1.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/auto-post-posts.1.0.1.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>APP (Auto Post Posts) enables you to automatically post your drafted wordpress posts.\nIt works this way;\nWhenever a user enters your website, the plugins check to see if it should publish a new drafted post.\nIf a number of seconds have passed since the plugin last published a post, it will publish a new one.\nOnce it publish a post, it will set a flag in the database that it published a post NOW, and the timer starts over.<\/p>\n\n<p>Simply download, activate and go to Settings -&#62; Auto Post Posts and fix the settings!<\/p>\n\n<p>Suggestions or questions? Email me at; henric-johansson [at] hotmail [dot] com or use the contact form at:\n<a href=\"http:\/\/www.keklabprogramming.com\" rel=\"nofollow\">http:\/\/www.keklabprogramming.com<\/a><\/p>",
+                "uid": "37414"
+            }
+        }
+    }
+}

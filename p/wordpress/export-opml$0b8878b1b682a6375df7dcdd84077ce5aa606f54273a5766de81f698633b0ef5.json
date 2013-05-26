@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/export-opml": {
+            "1.0": {
+                "name": "wordpress\/export-opml",
+                "version": "1.0",
+                "version_normalized": "1.0.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/export-opml.1.0.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>When you have a big blogroll and wan't to make it public this comes handy. It will export your visible blogroll links into a valid OPML file on blog root and then you just have to create a link to it in your theme.<\/p>",
+                "uid": "68749"
+            }
+        }
+    }
+}

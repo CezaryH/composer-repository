@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/sitewide-recent-images": {
+            "1.0": {
+                "name": "wordpress\/sitewide-recent-images",
+                "version": "1.0",
+                "version_normalized": "1.0.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/sitewide-recent-images.1.0.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>This plugin will add a widget that displays thumbnails of the most recently posted images from all the blogs in a network. It's highly optimized to be scalable for large networks, so it should need only about 100 database queries even for a network of thousands of sites. And to keep any performance drain as minimal as possible, the plugin utilizes caching with an adjustable update interval.<\/p>\n\n<ul>\n<li>Note that images are taken only from blogs and posts which don't have privacy options enabled (compatible with <a href=\"http:\/\/wordpress.org\/extend\/plugins\/more-privacy-options\/\">More Privacy Options<\/a>) and the image must be attached to a post. So essentially, only public images are shown.<\/li>\n<\/ul>\n\n<p>The widget formatting is completely customizable via a template and\/or CSS (if available). The template uses patterns that will plug in values for the following:<\/p>\n\n<ul>\n<li>Image Title<\/li>\n<li>Image Caption<\/li>\n<li>Image Description<\/li>\n<li>Image Thumbnail URL<\/li>\n<li>Full ",
+                "uid": "36019"
+            }
+        }
+    }
+}

@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/og-meta": {
+            "1.28": {
+                "name": "wordpress\/og-meta",
+                "version": "1.28",
+                "version_normalized": "1.28.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/og-meta.1.28.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>The Open Graph protocol enables any web page to become a rich object in a social graph. For instance, this is used on Facebook to allow any web page to have the same functionality as any other object on Facebook.<\/p>\n\n<p>To turn your posts and pages into graph objects, the plugin add the following metadata to webpage header:\nog:title - The title of your post\/page.\nog:description - The excerpt of your post\/page.\nog:image - URL of featured image (if exists) which represent your post\/page.\nog:site_name - The title of website.\nog:url - The canonical URL of your post\/page.<\/p>\n\n<p>Plugin support page: <a href=\"http:\/\/www.icprojects.net\/open-graph-meta.html\">Open Graph Meta<\/a>.<\/p>",
+                "uid": "31498"
+            }
+        }
+    }
+}

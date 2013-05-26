@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/codecogs-latex-equation-editor": {
+            "1.0.2": {
+                "name": "wordpress\/codecogs-latex-equation-editor",
+                "version": "1.0.2",
+                "version_normalized": "1.0.2.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/codecogs-latex-equation-editor.1.0.2.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>A Tiny MCE plugin which makes writing latex equation easy and WYSIWYG\uff08what you see is what you get\uff09. It converts latex code into image which shows real beautiful latex equations on your post.<\/p>\n\n<p>It adds an \"fx\" botton on the wordpress TinyMCE editor, on clicks it the codecogs latex equation editor pops up, where you can edit latex, then click the copy button to copy the equation image back in TinyMCE textarea.<\/p>\n\n<p>You can also use this editor to only input latex code and let plugins like quicklatex, mathjax or Latex for WordPess to convert it to equation image, you'd better change line 90 in editor_plugin.js \ntinyMCE.activeEditor.execCommand('mceInsertContent', false, '');\nto\ntinyMCE.activeEditor.execCommand('mceInsertContent', false, '&#092;['+latex+'&#092;]');\ninorder to only copy LaTex code to TinyMCE textarea when click the copy button.<\/p>\n\n<p>I just followed the tutorial written by Greg Winiarski(http:\/\/ditio.net\/2010\/08\/15\/adding-custom-buttons-to-wordpress-tinym",
+                "uid": "47988"
+            }
+        }
+    }
+}

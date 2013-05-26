@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/cpt-widget": {
+            "1.0": {
+                "name": "wordpress\/cpt-widget",
+                "version": "1.0",
+                "version_normalized": "1.0.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/cpt-widget.1.0.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>This plugin allows you to create a widget that displays a number of posts from a previously defined custom post type.<\/p>\n\n<p><strong>This plugin does not create any custom post types!<\/strong><\/p>\n\n<p>The widget options allow you to provide a custom title, choose which post type, what order to show them in, and \nwhether or not to show the excerpt.<\/p>",
+                "uid": "36807"
+            }
+        }
+    }
+}

@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/verve-ssl": {
+            "2.1": {
+                "name": "wordpress\/verve-ssl",
+                "version": "2.1",
+                "version_normalized": "2.1.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/verve-ssl.2.1.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>Verve SSL is a WordPress plugin that sets the WordPress login and Administration area to use HTTPS(SSL) and then after logging out of WordPress reverts back to HTTP automatically.  This plugin also allows for HTTPS(SSL) while viewing your WordPress blog while logged in.<\/p>\n\n<h3>Features<\/h3>\n\n<ul>\n<li>Automatic SSL for WP-Login.php and Administration area <\/li>\n<li>SSL security for entire logged in session -  Even when browsing blog while logged in. <\/li>\n<li>Automatically removes insecure content and updates it to secure while logged in.   <\/li>\n<li>PHP code only for better compatibility - No JavaScript code.  <\/li>\n<li>Easy installation - Just install the plugin on a site that has an SSL certificate and it works.  <\/li>\n<li>No changes to WP-Config.php required.  <\/li>\n<li>Compatible with WordPress 3.3.1 and higher.  <\/li>\n<li>Reverts back to HTTP when logged off.  <\/li>\n<li>Converts URLs to lowercase for better SEO.<\/li>\n<\/ul>",
+                "uid": "31031"
+            }
+        }
+    }
+}

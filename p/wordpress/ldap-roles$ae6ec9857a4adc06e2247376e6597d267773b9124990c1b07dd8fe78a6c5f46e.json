@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/ldap-roles": {
+            "1.0": {
+                "name": "wordpress\/ldap-roles",
+                "version": "1.0",
+                "version_normalized": "1.0.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/ldap-roles.1.0.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>This plugin allows to associate roles per blog based on the user inclusion in one of several LDAP groups.<\/p>\n\n<p>It builds upong the WPMU LDAP plugin available at <a href=\"http:\/\/wpmuldap.tuxdocs.net\/\" rel=\"nofollow\">http:\/\/wpmuldap.tuxdocs.net\/<\/a> .<\/p>",
+                "uid": "53634"
+            }
+        }
+    }
+}

@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/wp-http-compression": {
+            "1.0": {
+                "name": "wordpress\/wp-http-compression",
+                "version": "1.0",
+                "version_normalized": "1.0.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/wp-http-compression.1.0.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>This plugin allows your WordPress blog to output pages compressed in gzip \nformat if a browser supports compression.<\/p>\n\n<p>HTTP compression generally means a 60-80% REDUCTION in the size of your pages \n(broadband usage) as well as an INCREASE in download speeds of 3x to 4x.<\/p>\n\n<p>To test if your blog is using compression use the following link:<\/p>\n\n<p><a href=\"http:\/\/ismyblogworking.com\/\" rel=\"nofollow\">http:\/\/ismyblogworking.com\/<\/a><\/p>\n\n<p>Check \"Page GZip\" on the right hand size.\nCheck \"Bandwidth saved by compression\" on the left hand side.<\/p>\n\n<p>NOTE: This plugin should not be used alongside WP Super Cache or WP Cache\nsince those plugins are already implementing compression. Your blog\nwill keep working but those plugins will stop caching new pages.<\/p>\n\n<p>RECENT NEWS - 20 March 2010:<\/p>\n\n<p>Its been reported by a user that there is a conflict \nusing WP HTTP Compression together with Google Analytics Plugin (3.2.5). I'll\nto look into this and release a patch for next re",
+                "uid": "73355"
+            }
+        }
+    }
+}

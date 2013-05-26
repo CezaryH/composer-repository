@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/wordpress-requirements-check": {
+            "1.0": {
+                "name": "wordpress\/wordpress-requirements-check",
+                "version": "1.0",
+                "version_normalized": "1.0.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/wordpress-requirements-check.1.0.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>WordPress 3.2 will require PHP 5.2.4 and MySQL 5.0. This plugin preforms a simple check and lets you know if you're ready.<\/p>",
+                "uid": "49619"
+            }
+        }
+    }
+}

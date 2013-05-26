@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/looser-search-plugin": {
+            "1.0": {
+                "name": "wordpress\/looser-search-plugin",
+                "version": "1.0",
+                "version_normalized": "1.0.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/looser-search-plugin.1.0.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>The Looser Search Plugin modifies the way the built-in WordPress search finds posts and pages. It counts matches on key words rather than forcing an exact match of all words. It will almost always get a match on something and shows best matches first. Common English words are eliminated from the search to prevent too many inappropriate matches.\nIt is better that a user see too many hits than none at all.\nNote: This is looser search, as in loose or less constrained, not loser search. Bad choice of name, but it works well. There are no complicated configuration options. Just install activate and forget.<\/p>",
+                "uid": "76271"
+            }
+        }
+    }
+}

@@ -1,0 +1,40 @@
+{
+    "packages": {
+        "wordpress\/nextpage-buttons": {
+            "1.0": {
+                "name": "wordpress\/nextpage-buttons",
+                "version": "1.0",
+                "version_normalized": "1.0.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/nextpage-buttons.1.0.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>This is a simple plugin to put the <code>&#60;!--nextpage--&#62;<\/code> buttons back in the WordPress editor Toolbars.<\/p>\n\n<p>The only caveat to using this plugin is that it uses functionality that has been in the WordPress core but hidden since the NextPage button was removed not long ago. All the functionality for handling the <code>&#60;!--nextpage--&#62;<\/code> tag via the editor toolbar is there in the WordPress core. The JavaScript functions are loaded as well as the CSS, but the buttons are not added to the toolbar. This plugin adds those buttons to the toolbar.<\/p>\n\n<p>If you're OK with having functionality that could break in the next revision to WordPress then use this until anything does change in WordPress.<\/p>",
+                "uid": "76247"
+            },
+            "1.0.1": {
+                "name": "wordpress\/nextpage-buttons",
+                "version": "1.0.1",
+                "version_normalized": "1.0.1.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/nextpage-buttons.1.0.1.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>This is a simple plugin to put the <code>&#60;!--nextpage--&#62;<\/code> buttons back in the WordPress editor Toolbars.<\/p>\n\n<p>The only caveat to using this plugin is that it uses functionality that has been in the WordPress core but hidden since the NextPage button was removed not long ago. All the functionality for handling the <code>&#60;!--nextpage--&#62;<\/code> tag via the editor toolbar is there in the WordPress core. The JavaScript functions are loaded as well as the CSS, but the buttons are not added to the toolbar. This plugin adds those buttons to the toolbar.<\/p>\n\n<p>If you're OK with having functionality that could break in the next revision to WordPress then use this until anything does change in WordPress.<\/p>",
+                "uid": "76246"
+            }
+        }
+    }
+}

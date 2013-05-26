@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/reverse-proxy-comment-ip-fix": {
+            "0.1.0": {
+                "name": "wordpress\/reverse-proxy-comment-ip-fix",
+                "version": "0.1.0",
+                "version_normalized": "0.1.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/reverse-proxy-comment-ip-fix.0.1.0.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>Sets the comment IP to the client IP provided by the X-Forwarded-For header before the comment is saved to the database.<\/p>\n\n<p>TODO: Add more details.<\/p>",
+                "uid": "25717"
+            }
+        }
+    }
+}

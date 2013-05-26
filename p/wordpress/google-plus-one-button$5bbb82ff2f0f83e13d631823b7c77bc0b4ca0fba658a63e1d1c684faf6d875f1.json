@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/google-plus-one-button": {
+            "1.2": {
+                "name": "wordpress\/google-plus-one-button",
+                "version": "1.2",
+                "version_normalized": "1.2.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/google-plus-one-button.1.2.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>Google Plus One Button Plugin has two options for inserting the Google +1 button into your site:\n* Automatically either before or after your post content.\n* Manually by adding <code>&#60;?php if (function_exists('google_plus_one')) { google_plus_one(); } ?&#62;<\/code> where you'd like the button displayed. If placed inside \"The Loop\" the plugin will add the corresponding link to the button.<\/p>\n\n<p>Other Features:\nDynamic Button Preview\nChoose Button size\nAdd and Remove count total\nEasily add styles to the div containing the button<\/p>\n\n<p>** Notice **\nIf you've updated from version 1.0 you may need to deactivate and reactivate the plugin for the \"Styling\" feature to work.<\/p>",
+                "uid": "46037"
+            }
+        }
+    }
+}

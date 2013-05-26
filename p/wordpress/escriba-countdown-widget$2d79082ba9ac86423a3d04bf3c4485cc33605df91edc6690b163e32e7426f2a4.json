@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/escriba-countdown-widget": {
+            "0.1": {
+                "name": "wordpress\/escriba-countdown-widget",
+                "version": "0.1",
+                "version_normalized": "0.1.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/escriba-countdown-widget.0.1.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>Widget with an enhanced countdown timer with days, hours, minutes and seconds to an especified event. Full control over the widget option page.<\/p>\n\n<p>Plugin by C.Gurtner (www.escribalabs.com) based on the orignal countdown plugin by Vasquez, it&#180;s now enhanced, with all options direct in the widget window with no need to edit the php file anymore. When the timer comes to zero, the visitor receives an alert.<\/p>\n\n<p>In the widgets popup options in your admin panel, you can control:\n-The date and time of the event\n-The name of the event\n-The color of the clock\n-Day Unit\n-The message that will appear in the alert to visitor when timer comes to zero.\n-Etc<\/p>",
+                "uid": "111894"
+            }
+        }
+    }
+}

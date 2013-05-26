@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/random-related-posts": {
+            "1.0": {
+                "name": "wordpress\/random-related-posts",
+                "version": "1.0",
+                "version_normalized": "1.0.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/random-related-posts.1.0.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>The plugin provides a sidebar widget with customisable title and number of related posts to display.\nThe widget will display a random list of x number of posts ( selected in widget options ) together with a small tag including the publish date and author.\nIf used outside of a specific category the widget will default to all categories, whilst still displaying the selected number of random posts.<\/p>\n\n<p>Developed by <a href=\"http:\/\/www.catn.com\">PHP Hosting Experts CatN<\/a><\/p>",
+                "uid": "48293"
+            }
+        }
+    }
+}

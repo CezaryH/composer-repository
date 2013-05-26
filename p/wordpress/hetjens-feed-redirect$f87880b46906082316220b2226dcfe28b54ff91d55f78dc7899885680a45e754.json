@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/hetjens-feed-redirect": {
+            "0.4": {
+                "name": "wordpress\/hetjens-feed-redirect",
+                "version": "0.4",
+                "version_normalized": "0.4.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/hetjens-feed-redirect.0.4.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>This plug-in redirects requests to the main or comment feeds, and only theses two, to Feedburner or a similar service. In comparision to the original Feedsmith-plug-in is has three advantages:<\/p>\n\n<ol>\n<li><p>It redirects only the two main feeds of the blog and not all. The category, tag and author feeds are still accessible<\/p><\/li>\n<li><p>If you need access to the original blog feed you can add the URL parameter \"noredirect\" (i.e. \/feed\/?noredirect) to your feed address and it will not forward your request.<\/p><\/li>\n<li><p>The Plugin is more integrated into the administration interface. It adds its settings to the default \"reading\" settings pages and do not create an own page.<\/p><\/li>\n<\/ol>",
+                "uid": "68583"
+            }
+        }
+    }
+}

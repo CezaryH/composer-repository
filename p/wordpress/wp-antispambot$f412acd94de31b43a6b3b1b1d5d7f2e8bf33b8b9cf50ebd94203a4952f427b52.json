@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/wp-antispambot": {
+            "0.1": {
+                "name": "wordpress\/wp-antispambot",
+                "version": "0.1",
+                "version_normalized": "0.1.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/wp-antispambot.0.1.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>This plugin will add a shortcode that can be used to stop spambots from harvesting emails entered into your WordPress editor while creating pages or posts.<\/p>\n\n<p>To use, just wrap your email address in the [email] shortcode:<\/p>\n\n<p>[email]you@yourdomain.com[\/email]<\/p>\n\n<p>The result will be a hyperlinked email address that can be clicked on to send email.<\/p>\n\n<p>The plugin uses WordPress's built-in antispambot() function which converts email address characters to HTML entities which are not read by spambots, but can be viewed properly in the browser.  For more info on the WordPress function read up in the Codex - <a href=\"http:\/\/codex.wordpress.org\/Function_Reference\/antispambot\" rel=\"nofollow\">http:\/\/codex.wordpress.org\/Function_Reference\/antispambot<\/a><\/p>",
+                "uid": "10651"
+            }
+        }
+    }
+}

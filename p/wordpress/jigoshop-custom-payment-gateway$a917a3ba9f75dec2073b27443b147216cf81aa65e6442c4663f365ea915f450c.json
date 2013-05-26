@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/jigoshop-custom-payment-gateway": {
+            "1.0.1": {
+                "name": "wordpress\/jigoshop-custom-payment-gateway",
+                "version": "1.0.1",
+                "version_normalized": "1.0.1.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/jigoshop-custom-payment-gateway.1.0.1.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p><strong>Note: This plugin is no longer being maintained or supported. Download and use at your own risk.<\/strong><\/p>\n\n<p>The \"Cheque\" payment gateway could actually be quite useful, but it is limiting because you cannot customize it. This plugin adds a new payment gateway similar to the \"Cheque\" payment gateway but with a bunch of filters for customization. You can customize any part of the text, the icon displayed beside the gateway on the Checkout page, the default order status when using this gateway, etc.<\/p>\n\n<p>This plugin is useful if you need to do some sort of client billing or let the client handle the payment processing on their end. It has a business-to-business mindset.<\/p>\n\n<h4>Available Filters<\/h4>\n\n<p>The following is a list of available filters for you to use in your theme's functions.php file:<\/p>\n\n<ul>\n<li>tgm_jigoshop_custom_icon<\/li>\n<li>tgm_jigoshop_custom_gateway_title<\/li>\n<li>tgm_jigoshop_custom_gateway_description<\/li>\n<li>tgm_jigoshop_enable_custom_gatew",
+                "uid": "40998"
+            }
+        }
+    }
+}

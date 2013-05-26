@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/facebook-opengraph": {
+            "1.0": {
+                "name": "wordpress\/facebook-opengraph",
+                "version": "1.0",
+                "version_normalized": "1.0.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/facebook-opengraph.1.0.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>By default, when we like on a page, facebook it collects information from \nthe code itself, such as title, then paint it in the user profile. Typically, \nthe title and name of the site are things that usually get pretty good. But \nthere are others such as the associated image, which often does not work so well.<\/p>\n\n<p>If you have multiple images on the page, we have no control over which of \nthem painted. And with the description of something similar could happen to us \nif we do not put the target description in the header of the web, catch the \nfirst paragraph thereof, which may have little to do with what we share.<\/p>\n\n<p>To avoid such problems, facebook offers OpenGraph protocol. This protocol \ndefines a set of meta tags by which we can give additional information on \nour facebook page, such as product name, description, image or name \nassociated with the site. Thus, we can control how it displays information \nabout our product within facebook.<\/p>",
+                "uid": "51321"
+            }
+        }
+    }
+}

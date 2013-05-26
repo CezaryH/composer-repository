@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/cimy-navigator": {
+            "0.4.2": {
+                "name": "wordpress\/cimy-navigator",
+                "version": "0.4.2",
+                "version_normalized": "0.4.2.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/cimy-navigator.0.4.2.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>WordPress doesn't have a good way to generate pages or categories lists, this plug-in is inspirited by the one from Adi Sieker, that was a very good base to start.\nIt uses an array because it can provide better tag options than a simple string launch, but every option has a default value, so if the default one is the one desired can be omitted in the initialization.\nIf you have your custom css with this plug-in you can create also interactive menu or very useful site maps, see screenshots.<\/p>",
+                "uid": "95347"
+            }
+        }
+    }
+}

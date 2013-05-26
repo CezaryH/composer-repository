@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/serp-dashboard": {
+            "1.0.3": {
+                "name": "wordpress\/serp-dashboard",
+                "version": "1.0.3",
+                "version_normalized": "1.0.3.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/serp-dashboard.1.0.3.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>Serp Dashboard takes your 3 top blog tags, makes any combination and queries Google.<\/p>\n\n<p>You can add a custom search and schedule your searches.<\/p>\n\n<p>features :<\/p>\n\n<ul>\n<li>standard 3 tag permutation<\/li>\n<li>queries google in any language<\/li>\n<li>enter custom searches<\/li>\n<li>schedule searches<\/li>\n<li>jquery ajax admin page<\/li>\n<li>automated (uses \u0092shutdown\u0092 hook to trigger searches)<\/li>\n<li>uses its own tables<\/li>\n<li>preconfigured, runs on activation<\/li>\n<li>clean uninstall on deactivation<\/li>\n<\/ul>",
+                "uid": "81539"
+            }
+        }
+    }
+}

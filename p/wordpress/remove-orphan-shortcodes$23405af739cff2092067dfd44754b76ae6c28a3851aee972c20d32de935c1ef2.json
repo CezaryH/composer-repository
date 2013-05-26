@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/remove-orphan-shortcodes": {
+            "1.0": {
+                "name": "wordpress\/remove-orphan-shortcodes",
+                "version": "1.0",
+                "version_normalized": "1.0.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/remove-orphan-shortcodes.1.0.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>This is a simple plugin which automatically hides unused (orphan) shortcode tags added by previous themes and\/or plugins. You can best use it if you want to switch to another WordPress theme, and avoid manual removal of unused shortcode tags inside your content.<\/p>\n\n<p>This plugin is created by <a href=\"http:\/\/mekshq.com\">MeksHQ<\/a><\/p>",
+                "uid": "8122"
+            }
+        }
+    }
+}

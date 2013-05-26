@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/disable-xml-rpc": {
+            "1.0": {
+                "name": "wordpress\/disable-xml-rpc",
+                "version": "1.0",
+                "version_normalized": "1.0.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/disable-xml-rpc.1.0.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>Pretty simply, this plugin disables the XML-RPC API on a WordPress site running 3.5 or above.<\/p>\n\n<p>Beginning in 3.5, XML-RPC is enabled by default. Additionally, the option to disable\/enable XML-RPC was removed. For various reasons, site owners may wish to disable this functionality. This plugin provides an easy way to do so.<\/p>",
+                "uid": "17526"
+            }
+        }
+    }
+}

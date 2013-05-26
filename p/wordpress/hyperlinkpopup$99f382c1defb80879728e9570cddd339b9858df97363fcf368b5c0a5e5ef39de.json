@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/hyperlinkpopup": {
+            "1.1": {
+                "name": "wordpress\/hyperlinkpopup",
+                "version": "1.1",
+                "version_normalized": "1.1.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/hyperlinkpopup.1.1.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>open a hyperlink in a popup overlaying the parent page,  to use: add rel='pop' to the hyperlink tag<\/p>",
+                "uid": "54700"
+            }
+        }
+    }
+}

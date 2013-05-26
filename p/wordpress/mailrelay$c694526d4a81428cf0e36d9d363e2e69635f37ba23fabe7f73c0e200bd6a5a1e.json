@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/mailrelay": {
+            "1.1.1": {
+                "name": "wordpress\/mailrelay",
+                "version": "1.1.1",
+                "version_normalized": "1.1.1.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/mailrelay.1.1.1.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>This plugin allows you to sync all Wordpress users with one or more groups in Mailrelay allowing your website users to receive newsletters, notifications etc.<\/p>",
+                "uid": "12007"
+            }
+        }
+    }
+}

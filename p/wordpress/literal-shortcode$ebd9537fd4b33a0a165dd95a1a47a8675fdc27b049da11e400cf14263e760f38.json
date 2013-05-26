@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/literal-shortcode": {
+            "1.0.0": {
+                "name": "wordpress\/literal-shortcode",
+                "version": "1.0.0",
+                "version_normalized": "1.0.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/literal-shortcode.1.0.0.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>A shortcode used to display other shortcodes, html tags, and ascii characters without having them reverted by the WYSIWYG editor. Does [ ], &#60; &#62;, and custom chr codes with several easy to remember shortcodes for each.<\/p>",
+                "uid": "27240"
+            }
+        }
+    }
+}

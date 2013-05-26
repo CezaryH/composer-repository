@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/admins-debug-tool": {
+            "0.0.2": {
+                "name": "wordpress\/admins-debug-tool",
+                "version": "0.0.2",
+                "version_normalized": "0.0.2.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/admins-debug-tool.0.0.2.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>Admin's Debug Tool allows administrators to analyze page execution without executing\/displaying for non-admin users. \nThis can be useful when trying to track slow queries or badly performing plugins or widgets. \nThe admin-only nature of this plugin can also be useful when trying to track issues that only occur on production servers.<\/p>",
+                "uid": "16937"
+            }
+        }
+    }
+}

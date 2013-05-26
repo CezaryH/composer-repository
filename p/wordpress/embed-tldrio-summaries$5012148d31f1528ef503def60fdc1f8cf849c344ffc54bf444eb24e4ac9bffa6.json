@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/embed-tldrio-summaries": {
+            "0.0.1": {
+                "name": "wordpress\/embed-tldrio-summaries",
+                "version": "0.0.1",
+                "version_normalized": "0.0.1.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/embed-tldrio-summaries.0.0.1.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>Easily embed summaries of any article in your posts.<\/p>\n\n<p>Use the <code>[tldrio_embed]<\/code> shortcode to embed the summary of your own post.<\/p>\n\n<p>Use the <code>[tldrio_embed url]<\/code> shortcode to embed the summary of the article with URL <code>url<\/code>. For example, url can be <code><a href=\"http:\/\/paulgraham.com\/hw.html\" rel=\"nofollow\">http:\/\/paulgraham.com\/hw.html<\/a><\/code><\/p>\n\n<p>Click on the 'tldr.io' button in the Wordpress editor to include the default shortcode in your post.<\/p>",
+                "uid": "9259"
+            }
+        }
+    }
+}

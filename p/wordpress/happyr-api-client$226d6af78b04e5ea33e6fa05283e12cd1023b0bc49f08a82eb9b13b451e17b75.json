@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/happyr-api-client": {
+            "1.1.0": {
+                "name": "wordpress\/happyr-api-client",
+                "version": "1.1.0",
+                "version_normalized": "1.1.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/happyr-api-client.1.1.0.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>The plugin is a wordpress wrapper for the PHP API client for HappyRecruiting. It uses the composer.phar to\nget the libraries that we depend on. Everything is included, you just need to press the install button on the\nplugin's admin page.<\/p>",
+                "uid": "7619"
+            }
+        }
+    }
+}

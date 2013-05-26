@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/wp-debug-robot": {
+            "1.0": {
+                "name": "wordpress\/wp-debug-robot",
+                "version": "1.0",
+                "version_normalized": "1.0.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/wp-debug-robot.1.0.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>Have you ever wanted to get debug output sent to you from WordPress without interrupting the flow of the page?<br \/>\nDo you ever wish you could get debug output from <em>other users'<\/em> sessions so you don't have to:<\/p>\n\n<ul>\n<li>Log in as them<\/li>\n<li>Asking them to look at debug output themselves (bleh)<\/li>\n<li>Or try in vain to re-create their issue<\/li>\n<\/ul>\n\n<p>This plugin allows you to send debug messages via UDP to a <a href=\"https:\/\/github.com\/borkweb\/jabberbot\">Jabber Bot<\/a> that can then route\nthe debug information to your IM client.<\/p>\n\n<p><em>Note: This plugin sends the messages via UDP.  The receiving end doesn't necessarily need to be a Jabber bot...it could be anything you want\n(e.g. email bot, logger, whatever).  My implementation is a Jabber Bot on my local dev environment :)<\/em><\/p>\n\n<h4>Usage<\/h4>\n\n<p>To send debug messages, simply call:<\/p>\n\n<pre><code>do_action( &#039;debug_robot&#039;, $message [, $target ]);<\/code><\/pre>\n\n<ul>\n<li><strong>$message<\/st",
+                "uid": "18132"
+            }
+        }
+    }
+}

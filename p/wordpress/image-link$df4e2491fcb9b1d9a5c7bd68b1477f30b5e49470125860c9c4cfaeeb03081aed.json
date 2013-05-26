@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/image-link": {
+            "0.2": {
+                "name": "wordpress\/image-link",
+                "version": "0.2",
+                "version_normalized": "0.2.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/image-link.0.2.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>A plugin which looks for &#60;IMG&#62; tags in the excerpt and, if found, wraps them with a link to the post permalink.<\/p>\n\n<p>Helps with thumbnail images in the excerpt shown on the index page. There isn't any rocket science here - it's simply up to the post author to provide the image (and text) in the optional excerpt in WordPress' write a post form. However, the \"trick\" bit is to make that thumbnail image a hyper-link to the post. I've done this with this simple WordPress plug-in.<\/p>",
+                "uid": "110726"
+            }
+        }
+    }
+}

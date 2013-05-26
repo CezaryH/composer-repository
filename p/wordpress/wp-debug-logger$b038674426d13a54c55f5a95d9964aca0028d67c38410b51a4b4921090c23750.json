@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/wp-debug-logger": {
+            "0.1": {
+                "name": "wordpress\/wp-debug-logger",
+                "version": "0.1",
+                "version_normalized": "0.1.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/wp-debug-logger.0.1.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>This plugin logs the activity of supported plugins to a file, making it easier to figure out why there's a problem.<\/p>\n\n<p>If you have been asked to install this plugin because of a support issue then installing this plugin is just like installing any other plugin. Once installed, go to Settings-&#62;WP Logger and enable logging. If you have a number of supported plugins enable the one you are interested in.<\/p>\n\n<p>Developers who want to use this plugin to add logging to their own plugin should see the Developers section of this documentation.<\/p>\n\n<p>Mark Jaquith's <a href=\"http:\/\/wordpress.org\/extend\/plugins\/monitor-pages\/\">Monitor Pages<\/a> plugin was used as a template for this plugin. Thanks Mark!<\/p>\n\n<h4>Developers<\/h4>\n\n<p>Other plugins can use this plugin to record important events which are then dumped to a log file. Plugins must add the event to a global array in the following way:<\/p>\n\n<pre><code>$GLOBALS[ &#039;wp_log&#039; ][ &#039;name_of_plugin&#039; ][] = &#039;So",
+                "uid": "42785"
+            }
+        }
+    }
+}

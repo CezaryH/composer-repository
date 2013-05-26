@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/yapb-geotag": {
+            "1.0.1": {
+                "name": "wordpress\/yapb-geotag",
+                "version": "1.0.1",
+                "version_normalized": "1.0.1.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/yapb-geotag.1.0.1.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>Extract GPS data from Yet another photoblog plugin images and creates meta data for Geotag plugin.\nGeotag plugin is a great geotaggin solution, but it doesn't read exifs from YAPB images.\nThis plugin reads GPS data when you edit the post, and adds the metadata as if you entered in the Geotag fields.<\/p>\n\n<h4>Requriments<\/h4>\n\n<p>You need \n* <a href=\"http:\/\/wordpress.org\/extend\/plugins\/yet-another-photoblog\/\">Yet another photoblog plugin<\/a>\n* <a href=\"http:\/\/wordpress.org\/extend\/plugins\/geotag\/\">Geotag plugin<\/a><\/p>",
+                "uid": "62906"
+            }
+        }
+    }
+}

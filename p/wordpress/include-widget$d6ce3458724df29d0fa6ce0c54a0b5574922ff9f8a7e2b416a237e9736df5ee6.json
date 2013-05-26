@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/include-widget": {
+            "0.4": {
+                "name": "wordpress\/include-widget",
+                "version": "0.4",
+                "version_normalized": "0.4.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/include-widget.0.4.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>Includes a file's contents in the widget. Quick and dirty, all this does is use the PHP include function to include the specified file in the widget. There is NO checking done whatsoever on the file, so use it at your own risk. I wrote this because I couldn't find a widget to do this \u0096 plugins exist for using include in posts and pages, but not in widgets.<\/p>",
+                "uid": "56602"
+            }
+        }
+    }
+}

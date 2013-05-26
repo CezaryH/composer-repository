@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/picturegrid": {
+            "1.0": {
+                "name": "wordpress\/picturegrid",
+                "version": "1.0",
+                "version_normalized": "1.0.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/picturegrid.1.0.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>The Picturegrid wordpress plugin allows you to import your Flickr images into your sidebar, or onto any page. In fact you only need to call the function <code>&#60;?php picturegrid(); ?&#62;<\/code> inside any page template to show the grid using the settings set on the options page inside the wordpress dashboard.<\/p>\n\n<p>Picturegrid is also widget ready! If your theme supports widgets, just go to the widget admin panel and drag the picturgrid widget where you want it. The Picturegrid widget makes use of the default options!<\/p>\n\n<p>Options:<\/p>\n\n<ul>\n<li>Use a specific set (like your favourite photos) or your most recent photos.<\/li>\n<li>Limit the photos displayed (1 - 500).<\/li>\n<li>Display photos using a lightbox <em>if you have a lightbox plugin installed<\/em>.<\/li>\n<li>Style photo thumbnails with borders and margins.<\/li>\n<li>Widget ready!<\/li>\n<\/ul>\n\n<p>See the <a href=\"http:\/\/kierandelaney.net\/blog\/projects\/wp-picturegrid\/\" title=\"Project Page\">Plugin Project Page<\/a> for more",
+                "uid": "107395"
+            }
+        }
+    }
+}

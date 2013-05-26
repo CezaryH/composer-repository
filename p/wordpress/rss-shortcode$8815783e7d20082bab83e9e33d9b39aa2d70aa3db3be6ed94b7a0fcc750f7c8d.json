@@ -1,0 +1,40 @@
+{
+    "packages": {
+        "wordpress\/rss-shortcode": {
+            "0.1": {
+                "name": "wordpress\/rss-shortcode",
+                "version": "0.1",
+                "version_normalized": "0.1.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/rss-shortcode.0.1.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>Adds a simple to use [rss] shortcode with a couple of options:<\/p>\n\n<ul>\n<li>feed, to put in the feed URL<\/li>\n<li>num, to specify the number of items to show, defaults to 5<\/li>\n<li>excerpt (true&#124;false), whether to show an excerpt or not, defaults to true<\/li>\n<li>target (defaults to none), to make links open in a new page (might break your html validity if under a strict doctype)<\/li>\n<\/ul>\n\n<p>Example use:<\/p>\n\n<p>[rss feed=\"http:\/\/yoast.com\/feed\/\" num=\"10\" excerpt=\"false\"]<\/p>\n\n<p>Or:<\/p>\n\n<p>[rss feed=\"http:\/\/yoast.com\/feed\/\" num=\"5\" excerpt=\"true\" target=\"_blank\"]<\/p>\n\n<ul>\n<li>Find out more about the <a href=\"http:\/\/yoast.com\/wordpress\/rss-shortcode\/\">RSS Shortcode<\/a> plugin<\/li>\n<li>Check out the other <a href=\"http:\/\/yoast.com\/wordpress\/\">WordPress plugins<\/a> by the author<\/li>\n<\/ul>",
+                "uid": "85802"
+            },
+            "0.2": {
+                "name": "wordpress\/rss-shortcode",
+                "version": "0.2",
+                "version_normalized": "0.2.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/rss-shortcode.0.2.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>Adds a simple to use [rss] shortcode with a couple of options:<\/p>\n\n<ul>\n<li>feed, to put in the feed URL<\/li>\n<li>num, to specify the number of items to show, defaults to 5<\/li>\n<li>excerpt (true&#124;false), whether to show an excerpt or not, defaults to true<\/li>\n<li>target (defaults to none), to make links open in a new page (might break your html validity if under a strict doctype)<\/li>\n<\/ul>\n\n<p>Example use:<\/p>\n\n<p>[rss feed=\"http:\/\/yoast.com\/feed\/\" num=\"10\" excerpt=\"false\"]<\/p>\n\n<p>Or:<\/p>\n\n<p>[rss feed=\"http:\/\/yoast.com\/feed\/\" num=\"5\" excerpt=\"true\" target=\"_blank\"]<\/p>\n\n<ul>\n<li>Find out more about the <a href=\"http:\/\/yoast.com\/wordpress\/rss-shortcode\/\">RSS Shortcode<\/a> plugin<\/li>\n<li>Check out the other <a href=\"http:\/\/yoast.com\/wordpress\/\">WordPress plugins<\/a> by the author<\/li>\n<\/ul>",
+                "uid": "85801"
+            }
+        }
+    }
+}

@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/theme-visibility-manager": {
+            "2.1": {
+                "name": "wordpress\/theme-visibility-manager",
+                "version": "2.1",
+                "version_normalized": "2.1.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/theme-visibility-manager.2.1.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>The Theme Visibility Manager adds granular administrative control over which themes are visible in the themes menu for any given site. Themes can be made hidden or visible on a blog by blog basis (through the themes menu) or on a site-wide basis through the 'Theme Visibility Manager' page in the Super Admin menu.<\/p>\n\n<p>Themes can be active even if they are invisible, but this can only be controlled by Super Admins. Blog administrators only have control over visible themes.<\/p>\n\n<p>If you find this theme useful, you might also like the Plugin Visibility Manager.<\/p>",
+                "uid": "59154"
+            }
+        }
+    }
+}

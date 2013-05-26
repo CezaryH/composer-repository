@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/wp-universe": {
+            "0.1": {
+                "name": "wordpress\/wp-universe",
+                "version": "0.1",
+                "version_normalized": "0.1.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/wp-universe.0.1.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>WP-Universe creates a blog universe based on categories of a Wordpress blog.<\/p>\n\n<p>Blog universe is a Wordpress blog which serves more than one domain\/subdomain. WP-Universe does not require any coding\/template editing\nbut automaticly handles the universe-creation. To explain the concept universe;<\/p>\n\n<p>Let's assume we have a blog - <a href=\"http:\/\/www.myblog.com\" rel=\"nofollow\">http:\/\/www.myblog.com<\/a> - which is our main blog. Let's say we have categories gaming, coding and life.\nAfter enabling WP-Universe you can match categories to universe subdomains or domains;<\/p>\n\n<p>Category Gaming -&#62; <a href=\"http:\/\/gaming.myblog.com\" rel=\"nofollow\">http:\/\/gaming.myblog.com<\/a>\nCategory Coding -&#62; <a href=\"http:\/\/coding.myblog.com\" rel=\"nofollow\">http:\/\/coding.myblog.com<\/a>\nCategory Life   -&#62; <a href=\"http:\/\/life.myblog.com\" rel=\"nofollow\">http:\/\/life.myblog.com<\/a><\/p>\n\n<p>With a simple configuration your universe will be;<\/p>\n\n<ul>\n<li><a href=\"http:\/\/www.myblog.com\" rel",
+                "uid": "99038"
+            }
+        }
+    }
+}

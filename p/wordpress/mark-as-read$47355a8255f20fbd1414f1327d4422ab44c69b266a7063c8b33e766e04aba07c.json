@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/mark-as-read": {
+            "0.9": {
+                "name": "wordpress\/mark-as-read",
+                "version": "0.9",
+                "version_normalized": "0.9.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/mark-as-read.0.9.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>Mark as Read makes it easy for your users to keep track of changes on your blog. Whenever a post is published or updated the post will show up in this list. When a new comment is posted, the post will also go up in this list and will be marked as \"unread\".<\/p>\n\n<p>Features:<\/p>\n\n<pre><code>* Keeps track of which articles a logged in user has read.\n* Posts bump on new comments\n* Posts bump on published \/ updates\n* Customizable output\n* Lists per category or all categories\n* Usable non-output functions\n<\/code><\/pre>",
+                "uid": "86889"
+            }
+        }
+    }
+}

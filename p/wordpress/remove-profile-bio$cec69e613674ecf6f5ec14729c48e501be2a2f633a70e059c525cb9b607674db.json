@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/remove-profile-bio": {
+            "1.0": {
+                "name": "wordpress\/remove-profile-bio",
+                "version": "1.0",
+                "version_normalized": "1.0.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/remove-profile-bio.1.0.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>The Remove Profile Bio plugin allows you to quickly remove the biographical information field from the edit profile page on your site.<\/p>\n\n<p>Features:<\/p>\n\n<ul>\n<li>Simple install.  Activate, and the field disappears.<\/li>\n<li>Renames the section header from \"About Yourself\" to \"Password\"<\/li>\n<li>Does not use jQuery to hide the field.<\/li>\n<\/ul>",
+                "uid": "20595"
+            }
+        }
+    }
+}

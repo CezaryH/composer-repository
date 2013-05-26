@@ -1,0 +1,40 @@
+{
+    "packages": {
+        "wordpress\/widgets-admin-fix": {
+            "0.1": {
+                "name": "wordpress\/widgets-admin-fix",
+                "version": "0.1",
+                "version_normalized": "0.1.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/widgets-admin-fix.0.1.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>This plugin adds the ability to link to specific sidebars in the widgets admin page and have them open up automatically. In addition, by default when visiting the widgets admin page, none of the sidebars are open.<\/p>\n\n<pre>&#60;a href=\"&#60;?php echo admin_url( 'widgets.php' ) .'?sidebar=aside'; ?&#62;\"&#62;Add Widgets&#60;\/a&#62;<\/pre>\n\n<p>You'll need to know the IDs of the sidebars you'd like to have opened. For multiple sidebars, simply separate them with commas.<\/p>\n\n<pre>&#60;a href=\"&#60;?php echo admin_url( 'widgets.php' ) .'?sidebar=aside,body_open,before_the_loop'; ?&#62;\"&#62;Add Widgets&#60;\/a&#62;<\/pre>\n\n<p>Alternatively, you can use the <code>add_widgets_link()<\/code> function:<\/p>\n\n<pre>&#60;?php echo waf_widgets_link( 'aside', 'Add Widgets to Aside' ); ?&#62;\n&#60;?php echo waf_widgets_link( 'aside,body_open,before_the_loop' ); ?&#62;<\/pre>",
+                "uid": "82045"
+            },
+            "0.2": {
+                "name": "wordpress\/widgets-admin-fix",
+                "version": "0.2",
+                "version_normalized": "0.2.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/widgets-admin-fix.0.2.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>This plugin adds the ability to link to specific sidebars in the widgets admin page and have them open up automatically. In addition, by default when visiting the widgets admin page, none of the sidebars are open.<\/p>\n\n<pre>&#60;a href=\"&#60;?php echo admin_url( 'widgets.php' ) .'?sidebar=aside'; ?&#62;\"&#62;Add Widgets&#60;\/a&#62;<\/pre>\n\n<p>You'll need to know the IDs of the sidebars you'd like to have opened. For multiple sidebars, simply separate them with commas.<\/p>\n\n<pre>&#60;a href=\"&#60;?php echo admin_url( 'widgets.php' ) .'?sidebar=aside,body_open,before_the_loop'; ?&#62;\"&#62;Add Widgets&#60;\/a&#62;<\/pre>\n\n<p>Alternatively, you can use the <code>add_widgets_link()<\/code> function:<\/p>\n\n<pre>&#60;?php echo waf_widgets_link( 'aside', 'Add Widgets to Aside' ); ?&#62;\n&#60;?php echo waf_widgets_link( 'aside,body_open,before_the_loop' ); ?&#62;<\/pre>",
+                "uid": "82044"
+            }
+        }
+    }
+}

@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/google-news-links": {
+            "1.1": {
+                "name": "wordpress\/google-news-links",
+                "version": "1.1",
+                "version_normalized": "1.1.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/google-news-links.1.1.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>Google News Links is a plugin that allows the user to specify a Google news feed (rss) and then loads them into WordPress as links. The links can be loaded by manually running the plugin or setting it up on a cron.<\/p>",
+                "uid": "40093"
+            }
+        }
+    }
+}

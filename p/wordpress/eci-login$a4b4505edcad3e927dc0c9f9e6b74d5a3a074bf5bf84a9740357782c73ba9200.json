@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/eci-login": {
+            "1.1.0": {
+                "name": "wordpress\/eci-login",
+                "version": "1.1.0",
+                "version_normalized": "1.1.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/eci-login.1.1.0.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>This plugin allows you to customize the login screen of your site.  Fully\nconfigurable with various options.  Add a custom logo, custom message, change the\ncolors.<\/p>",
+                "uid": "54001"
+            }
+        }
+    }
+}

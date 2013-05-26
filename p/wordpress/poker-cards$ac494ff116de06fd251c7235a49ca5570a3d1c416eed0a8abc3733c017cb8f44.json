@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/poker-cards": {
+            "1.6": {
+                "name": "wordpress\/poker-cards",
+                "version": "1.6",
+                "version_normalized": "1.6.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/poker-cards.1.6.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>This is a simple plug-in to display playing cards in a more visual fashion.\nIt is looseley based on Chris Halverson's \"pokerhand\".<\/p>\n\n<p>Many people will describe poker hands by writing something like \"AsKh\". Using \nthe wrp-cards plug-in, you can easily display the playing cards in a graphical way\nby prefixing the cards by a ':'. Ex. :As :Kh.<\/p>\n\n<p>To view wrp-cards in action go to:\n<a href=\"http:\/\/www.WarRoomPoker.com\/wrpcards.php\" rel=\"nofollow\">http:\/\/www.WarRoomPoker.com\/wrpcards.php<\/a><\/p>\n\n<p>As an option, you can use the \"normal\" card color (red and black) or you can use\n4 color cards:\nDiamond : Blue\nHeart   : Red\nSpade   : Black\nClub    : Green<\/p>",
+                "uid": "97514"
+            }
+        }
+    }
+}

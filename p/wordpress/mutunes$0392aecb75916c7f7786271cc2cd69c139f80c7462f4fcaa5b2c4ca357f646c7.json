@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/mutunes": {
+            "0.1": {
+                "name": "wordpress\/mutunes",
+                "version": "0.1",
+                "version_normalized": "0.1.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/mutunes.0.1.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>A Multi-User \"Now Playing\" plugin that accepts input from iTunes, WinAmp, and many more.  Unlike other plugins, this saves your information to your DB and will accomodate multiple users.<\/p>",
+                "uid": "114795"
+            }
+        }
+    }
+}

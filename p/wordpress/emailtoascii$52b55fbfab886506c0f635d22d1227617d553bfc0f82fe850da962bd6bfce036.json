@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/emailtoascii": {
+            "1.5": {
+                "name": "wordpress\/emailtoascii",
+                "version": "1.5",
+                "version_normalized": "1.5.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/emailtoascii.1.5.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>Replace any email address in the content by theire ascii translation in order to avoid spam bots. The plugin is just a simple search and replace function hooked to a wordpress filter. No back end, no db, no mess.<\/p>",
+                "uid": "95739"
+            }
+        }
+    }
+}

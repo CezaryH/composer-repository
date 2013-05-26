@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/lookery-amplifier-wordpress": {
+            "1.0": {
+                "name": "wordpress\/lookery-amplifier-wordpress",
+                "version": "1.0",
+                "version_normalized": "1.0.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/lookery-amplifier-wordpress.1.0.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>Lookery Amplifier adds the necessary JavaScript code to enable Lookery logging on any WordPress blog. This eliminates the need to edit your template code to begin logging.<\/p>\n\n<p><strong>Features<\/strong><\/p>\n\n<p>Lookery Amplifier Has the Following Features:<\/p>\n\n<ul>\n<li>Inserts tracking code on all pages WordPress manages.<\/li>\n<li>Easy install: only need to know your Lookery tag.<\/li>\n<li>Option to disable tracking of WordPress administrators.<\/li>\n<li>Can include tracking code in the footer, speeding up load times.<\/li>\n<li>Complete control over options; disable any feature if needed.<\/li>\n<\/ul>\n\n<p><strong>Usage<\/strong><\/p>\n\n<p>In your WordPress administration page go to Options &#62; Lookery Amplifier. From there enter your Lookery tag and enable logging. Information on how to obtain your Lookery tag can be found on the options page.<\/p>\n\n<p>Once you save your settings the JavaScript code should now be appearing on all of your WordPress pages.<\/p>",
+                "uid": "99476"
+            }
+        }
+    }
+}

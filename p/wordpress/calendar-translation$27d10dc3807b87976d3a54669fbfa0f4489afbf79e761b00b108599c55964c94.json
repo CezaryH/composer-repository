@@ -1,0 +1,40 @@
+{
+    "packages": {
+        "wordpress\/calendar-translation": {
+            "0.1": {
+                "name": "wordpress\/calendar-translation",
+                "version": "0.1",
+                "version_normalized": "0.1.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/calendar-translation.0.1.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>With this plugin you can translate date and time, using the_time, get_the_time, the_date and get_the_date in your themes. For example: If your Wordpress installation is in English, you can translate just date and time to Brazilian Portuguese.<\/p>\n\n<p>In the file configuration.php you can set the locale, charset, and date \/ time format. The format key must follow the strftime format parameter (<a href=\"http:\/\/php.net\/manual\/en\/function.strftime.php\" rel=\"nofollow\">http:\/\/php.net\/manual\/en\/function.strftime.php<\/a>).<\/p>\n\n<p>You must call the_time, get_the_time, the_date or get_the_date in you theme, within The Loop. Parameters are going to be ignored.<\/p>\n\n<p>This plugin uses set_locale function and it will fail if you don't have the desired locale\/charset installed on your server. For more information, please read the manual (<a href=\"http:\/\/php.net\/manual\/en\/function.setlocale.php\" rel=\"nofollow\">http:\/\/php.net\/manual\/en\/function.setlocale.php<\/a>).<\/p>",
+                "uid": "50502"
+            },
+            "0.2": {
+                "name": "wordpress\/calendar-translation",
+                "version": "0.2",
+                "version_normalized": "0.2.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/calendar-translation.0.2.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>With this plugin you can translate date and time, using the_time, get_the_time, the_date and get_the_date in your themes. For example: If your Wordpress installation is in English, you can translate just date and time to Brazilian Portuguese.<\/p>\n\n<p>In the file configuration.php you can set the locale, charset, and date \/ time format. The format key must follow the strftime format parameter (<a href=\"http:\/\/php.net\/manual\/en\/function.strftime.php\" rel=\"nofollow\">http:\/\/php.net\/manual\/en\/function.strftime.php<\/a>).<\/p>\n\n<p>You must call the_time, get_the_time, the_date or get_the_date in you theme, within The Loop. Parameters are going to be ignored.<\/p>\n\n<p>This plugin uses set_locale function and it will fail if you don't have the desired locale\/charset installed on your server. For more information, please read the manual (<a href=\"http:\/\/php.net\/manual\/en\/function.setlocale.php\" rel=\"nofollow\">http:\/\/php.net\/manual\/en\/function.setlocale.php<\/a>).<\/p>",
+                "uid": "50501"
+            }
+        }
+    }
+}

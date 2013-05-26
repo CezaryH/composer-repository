@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/badge": {
+            "1.1": {
+                "name": "wordpress\/badge",
+                "version": "1.1",
+                "version_normalized": "1.1.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/badge.1.1.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>Display \"Badges\" in the side-panel which points to a web-site and an image which is then used to build the \"badge\".\nUsing the Widget you can choose whether to:<\/p>\n\n<ol>\n<li>(Optionally) display a Title<\/li>\n<li>Link to a site<\/li>\n<li>Required link to an image to mark that site (any size will work, but the \"standard\" seems to be 88 pixels wide by 31 pixels high)<\/li>\n<li>Pad the Badge (including centering the text); some people may prefer using their own CSS, so this is an optional configuration.<\/li>\n<li>Enable \"Display Badge in a Box\" (enabled by default)<\/li>\n<li>Enable the Displaying of a Drop-Shadow<\/li>\n<\/ol>\n\n<p>If more control is needed, or more badges need to be displayed, the <a href=\"http:\/\/wordpress.org\/extend\/plugins\/badges\/\" title=\"Wordpress Plugin\">badges plugin<\/a> on the Wordpress site might be a better fit.<\/p>",
+                "uid": "53288"
+            }
+        }
+    }
+}

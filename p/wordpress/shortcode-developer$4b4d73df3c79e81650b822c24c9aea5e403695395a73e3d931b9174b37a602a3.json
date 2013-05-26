@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/shortcode-developer": {
+            "1.0.0": {
+                "name": "wordpress\/shortcode-developer",
+                "version": "1.0.0",
+                "version_normalized": "1.0.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/shortcode-developer.1.0.0.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>The Shortcode Developer plugin provides a user friendly interface for creating custom shortcodes. Each shortcode consists of a name, a list of attributes (with names and default values) and the PHP code executed to return the html back to the shortcode placeholder.<\/p>\n\n<p>Editing the PHP code is powered by the great browser editor \"CodeMirror\"!<\/p>\n\n<p>A nice advantage of using this plugin over writing the shortcodes into the functions.php is that the shortcodes are not dependent on the theme. Also, this makes for a faster turn around for quick updates on live websites!<\/p>\n\n<h4>Tested on<\/h4>\n\n<ul>\n<li>Mac Firefox   :)<\/li>\n<li>Mac Safari    :)<\/li>\n<li>Mac Chrome    :)<\/li>\n<li>PC Firefox    Not yet<\/li>\n<li>PC ie7        Not yet<\/li>\n<\/ul>\n\n<h4>Please Vote and Enjoy<\/h4>\n\n<p>Your votes really make a difference! Thanks.<\/p>",
+                "uid": "20860"
+            }
+        }
+    }
+}

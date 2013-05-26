@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/hide-unwanted-shortcodes": {
+            "1.0": {
+                "name": "wordpress\/hide-unwanted-shortcodes",
+                "version": "1.0",
+                "version_normalized": "1.0.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/hide-unwanted-shortcodes.1.0.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>Have you ever switch theme or remove plugin and found that there is a lot of unwanted shortcodes left on blog, and they are showing up as <code>[shortcode id=\"1234\"]<\/code> ? In order to remove them, you will need risky database queries which is not what you want or what you can handle properly.<\/p>\n\n<p>Now you can use this plugin to prevent them from showing up on Blog. This plugin does not delete the shortcodes from your Database or Post Editor, instead it prevent them from showing up on Blog (Public View), by returning nothing to content.<\/p>\n\n<p>You can easily add and save the unwanted shortcode tag name into the plugin setting page, and the plugin will\ndo the rest. There is no need to write any functions or database queries, the plugin will hide them base on shortcode tag saved.<\/p>\n\n<p>For more information, please visit <a href=\"http:\/\/denzelchia.com\">denzelchia.com<\/a><\/p>",
+                "uid": "46112"
+            }
+        }
+    }
+}

@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/audio-player-widget": {
+            "1.0": {
+                "name": "wordpress\/audio-player-widget",
+                "version": "1.0",
+                "version_normalized": "1.0.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/audio-player-widget.1.0.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>Audio Player Widget is a small plugin that provides support for using the Audio-Player plugin in WordPress sidebars.<\/p>\n\n<p>The Audio Player Widget requires Martin Laine's WordPress Audio Player plugin.<\/p>\n\n<ul>\n<li>Homepage for Audio Player: <a href=\"http:\/\/wpaudioplayer.com\/\" rel=\"nofollow\">http:\/\/wpaudioplayer.com\/<\/a>.<\/li>\n<li>WordPress Plugin Page for Audio Player: <a href=\"http:\/\/wordpress.org\/extend\/plugins\/audio-player\/\" rel=\"nofollow\">http:\/\/wordpress.org\/extend\/plugins\/audio-player\/<\/a><\/li>\n<\/ul>\n\n<p>Using the Audio Player Widget is simple. If your theme supports widgets and you have the Audio Player plugin\ninstalled, you can drag the widget to the sidebar and specify a label and URL for an MP3 file. The widget\nwill render the Audio Player in the sidebar when the page is loaded by dynamically generating the [audio:URL] tag\nthe Audio Player plugin requires.<\/p>",
+                "uid": "52536"
+            }
+        }
+    }
+}

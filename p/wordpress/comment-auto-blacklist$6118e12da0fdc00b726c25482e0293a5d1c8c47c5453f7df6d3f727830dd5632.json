@@ -1,0 +1,40 @@
+{
+    "packages": {
+        "wordpress\/comment-auto-blacklist": {
+            "0.1": {
+                "name": "wordpress\/comment-auto-blacklist",
+                "version": "0.1",
+                "version_normalized": "0.1.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/comment-auto-blacklist.0.1.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>Comment Auto Blacklist automatically adds the IP of spam comments to the comment blacklist settings field.<\/p>\n\n<p>This allows you to get a proper list of IP addresses, usable to reject connexions with iptables for instance.<\/p>",
+                "uid": "8979"
+            },
+            "1.0": {
+                "name": "wordpress\/comment-auto-blacklist",
+                "version": "1.0",
+                "version_normalized": "1.0.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/comment-auto-blacklist.1.0.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>Comment Auto Blacklist automatically adds the IP of spam comments to the comment blacklist settings field.<\/p>\n\n<p>This allows you to get a proper list of IP addresses, usable to reject connexions with iptables for instance.<\/p>",
+                "uid": "8980"
+            }
+        }
+    }
+}

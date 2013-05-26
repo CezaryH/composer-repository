@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/ambrosite-body-class-enhanced": {
+            "1.3": {
+                "name": "wordpress\/ambrosite-body-class-enhanced",
+                "version": "1.3",
+                "version_normalized": "1.3.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/ambrosite-body-class-enhanced.1.3.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>When activated, this plugin causes the body_class template tag to output five additional classes.<\/p>\n\n<p>On single posts (is_single) :<\/p>\n\n<pre><code>postname-[permalink slug]\nsingle-[category slug]\nparent-[parent category slug] (all parent and grandparent categories in a hierarchy of any depth)<\/code><\/pre>\n\n<p>On pages (is_page) :<\/p>\n\n<pre><code>pagename-[permalink slug]<\/code><\/pre>\n\n<p>On category archives (is_archive and is_category) :<\/p>\n\n<pre><code>parent-category-[parent category slug] (all parent and grandparent categories in a hierarchy of any depth)<\/code><\/pre>\n\n<h4>Custom Taxonomies<\/h4>\n\n<p>As of version 1.3, the plugin now supports custom hierarchical taxonomies. The new body classes take the following form:<\/p>\n\n<p>On single posts (is_single) :<\/p>\n\n<pre><code>single-[taxonomy]-[term slug]\nparent-[taxonomy]-[parent term slug] (all parent and grandparent terms in a hierarchy of any depth)<\/code><\/pre>\n\n<p>On taxonomy archives (is_archive and is_tax) :<\/p>\n\n<pre><c",
+                "uid": "69761"
+            }
+        }
+    }
+}

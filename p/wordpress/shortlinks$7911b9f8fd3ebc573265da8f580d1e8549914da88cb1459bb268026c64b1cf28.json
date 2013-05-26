@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/shortlinks": {
+            "0.1": {
+                "name": "wordpress\/shortlinks",
+                "version": "0.1",
+                "version_normalized": "0.1.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/shortlinks.0.1.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>Shortlinks allows you to easily retrieve the shortlink for your WordPress posts, pages, categories, post_tags, attachments, custom post types, and custom taxonmies.<\/p>\n\n<p>By default, WordPress uses links a query string ( ie: <a href=\"http:\/\/blog.aizatto.com\/?page_id=3565\" rel=\"nofollow\">http:\/\/blog.aizatto.com\/?page_id=3565<\/a> ) to load up your posts, pages, categories, etc. But when you enable permalinks, the query string is hidden by the WordPress rewrite rules. Having pretty urls is great, but also makes the website less flexible. For example, changing a posts published date will change the URL.<\/p>\n\n<p>While we can't control how other people will link to our site, we can control how we link to our internal sites.<\/p>\n\n<p>By default, with permalinks enabled, when visiting WordPress with a shortlink, WordPress will redirect you to the permalink URL.<\/p>",
+                "uid": "70416"
+            }
+        }
+    }
+}

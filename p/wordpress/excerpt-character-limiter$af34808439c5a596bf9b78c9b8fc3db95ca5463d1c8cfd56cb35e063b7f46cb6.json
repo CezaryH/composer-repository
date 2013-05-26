@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/excerpt-character-limiter": {
+            "1.1": {
+                "name": "wordpress\/excerpt-character-limiter",
+                "version": "1.1",
+                "version_normalized": "1.1.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/excerpt-character-limiter.1.1.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>WordPress Excerpts should be short, you know.<\/p>\n\n<p>But when a user writes a lot, you might want to limit the number of characters for the excerpt panel: that's where the Excerpt Character Limiter plugin comes handy!<\/p>\n\n<p>It will basically add a character countdown to the panel titlebar, and it will truncate the text when available characters drop to zero.\nSimple but effective!<\/p>",
+                "uid": "65529"
+            }
+        }
+    }
+}

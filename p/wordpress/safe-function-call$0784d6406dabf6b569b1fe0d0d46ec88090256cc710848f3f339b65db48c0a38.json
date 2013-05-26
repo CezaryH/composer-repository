@@ -1,0 +1,159 @@
+{
+    "packages": {
+        "wordpress\/safe-function-call": {
+            "1.0.1": {
+                "name": "wordpress\/safe-function-call",
+                "version": "1.0.1",
+                "version_normalized": "1.0.1.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/safe-function-call.1.0.1.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>Safely and easily call functions that may not be available (such as those provided by a plugin that gets deactivated).<\/p>\n\n<p>Assuming you had something like this in a template:<\/p>\n\n<pre><code>&#60;?php list_cities( &#039;Texas&#039;, 3 ); ?&#62;<\/code><\/pre>\n\n<p>If you deactivated the plugin that provided <code>list_cities()<\/code>, your site would generate an error when that template is accessed.<\/p>\n\n<p>You can instead use <code>_sfc()<\/code>, which is provided by this plugin to call other functions, like so:<\/p>\n\n<pre><code>&#60;?php _sfc( &#039;list_cities&#039;, &#039;Texas&#039;, 3 ); ?&#62;<\/code><\/pre>\n\n<p>That will simply do nothing if the <code>list_cities()<\/code> function is not available.<\/p>\n\n<p>If you'd rather display a message when the function does not exist, use <code>_sfcm()<\/code> instead, like so:<\/p>\n\n<pre><code>&#60;?php _sfcm( &#039;list_cities&#039;, &#039;The cities listing is temporarily disabled.&#039;, &#039;Texas&#039;, 3 ); ?&#62;<\/code><\/pre>\n\n<p>I",
+                "uid": "86523"
+            },
+            "1.1": {
+                "name": "wordpress\/safe-function-call",
+                "version": "1.1",
+                "version_normalized": "1.1.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/safe-function-call.1.1.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>Safely and easily call functions that may not be available (such as those provided by a plugin that gets deactivated).<\/p>\n\n<p>Assuming you had something like this in a template:<\/p>\n\n<pre><code>&#60;?php list_cities( &#039;Texas&#039;, 3 ); ?&#62;<\/code><\/pre>\n\n<p>If you deactivated the plugin that provided <code>list_cities()<\/code>, your site would generate an error when that template is accessed.<\/p>\n\n<p>You can instead use <code>_sfc()<\/code>, which is provided by this plugin to call other functions, like so:<\/p>\n\n<pre><code>&#60;?php _sfc( &#039;list_cities&#039;, &#039;Texas&#039;, 3 ); ?&#62;<\/code><\/pre>\n\n<p>That will simply do nothing if the <code>list_cities()<\/code> function is not available.<\/p>\n\n<p>If you'd rather display a message when the function does not exist, use <code>_sfcm()<\/code> instead, like so:<\/p>\n\n<pre><code>&#60;?php _sfcm( &#039;list_cities&#039;, &#039;The cities listing is temporarily disabled.&#039;, &#039;Texas&#039;, 3 ); ?&#62;<\/code><\/pre>\n\n<p>I",
+                "uid": "86522"
+            },
+            "1.1.1": {
+                "name": "wordpress\/safe-function-call",
+                "version": "1.1.1",
+                "version_normalized": "1.1.1.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/safe-function-call.1.1.1.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>Safely and easily call functions that may not be available (such as those provided by a plugin that gets deactivated).<\/p>\n\n<p>Assuming you had something like this in a template:<\/p>\n\n<pre><code>&#60;?php list_cities( &#039;Texas&#039;, 3 ); ?&#62;<\/code><\/pre>\n\n<p>If you deactivated the plugin that provided <code>list_cities()<\/code>, your site would generate an error when that template is accessed.<\/p>\n\n<p>You can instead use <code>_sfc()<\/code>, which is provided by this plugin to call other functions, like so:<\/p>\n\n<pre><code>&#60;?php _sfc( &#039;list_cities&#039;, &#039;Texas&#039;, 3 ); ?&#62;<\/code><\/pre>\n\n<p>That will simply do nothing if the <code>list_cities()<\/code> function is not available.<\/p>\n\n<p>If you'd rather display a message when the function does not exist, use <code>_sfcm()<\/code> instead, like so:<\/p>\n\n<pre><code>&#60;?php _sfcm( &#039;list_cities&#039;, &#039;The cities listing is temporarily disabled.&#039;, &#039;Texas&#039;, 3 ); ?&#62;<\/code><\/pre>\n\n<p>I",
+                "uid": "86521"
+            },
+            "1.1.2": {
+                "name": "wordpress\/safe-function-call",
+                "version": "1.1.2",
+                "version_normalized": "1.1.2.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/safe-function-call.1.1.2.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>Safely and easily call functions that may not be available (such as those provided by a plugin that gets deactivated).<\/p>\n\n<p>Assuming you had something like this in a template:<\/p>\n\n<pre><code>&#60;?php list_cities( &#039;Texas&#039;, 3 ); ?&#62;<\/code><\/pre>\n\n<p>If you deactivated the plugin that provided <code>list_cities()<\/code>, your site would generate an error when that template is accessed.<\/p>\n\n<p>You can instead use <code>_sfc()<\/code>, which is provided by this plugin to call other functions, like so:<\/p>\n\n<pre><code>&#60;?php _sfc( &#039;list_cities&#039;, &#039;Texas&#039;, 3 ); ?&#62;<\/code><\/pre>\n\n<p>That will simply do nothing if the <code>list_cities()<\/code> function is not available.<\/p>\n\n<p>If you'd rather display a message when the function does not exist, use <code>_sfcm()<\/code> instead, like so:<\/p>\n\n<pre><code>&#60;?php _sfcm( &#039;list_cities&#039;, &#039;The cities listing is temporarily disabled.&#039;, &#039;Texas&#039;, 3 ); ?&#62;<\/code><\/pre>\n\n<p>I",
+                "uid": "86520"
+            },
+            "1.1.3": {
+                "name": "wordpress\/safe-function-call",
+                "version": "1.1.3",
+                "version_normalized": "1.1.3.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/safe-function-call.1.1.3.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>Safely and easily call functions that may not be available (such as those provided by a plugin that gets deactivated).<\/p>\n\n<p>Assuming you had something like this in a template:<\/p>\n\n<pre><code>&#60;?php list_cities( &#039;Texas&#039;, 3 ); ?&#62;<\/code><\/pre>\n\n<p>If you deactivated the plugin that provided <code>list_cities()<\/code>, your site would generate an error when that template is accessed.<\/p>\n\n<p>You can instead use <code>_sfc()<\/code>, which is provided by this plugin to call other functions, like so:<\/p>\n\n<pre><code>&#60;?php _sfc( &#039;list_cities&#039;, &#039;Texas&#039;, 3 ); ?&#62;<\/code><\/pre>\n\n<p>That will simply do nothing if the <code>list_cities()<\/code> function is not available.<\/p>\n\n<p>If you'd rather display a message when the function does not exist, use <code>_sfcm()<\/code> instead, like so:<\/p>\n\n<pre><code>&#60;?php _sfcm( &#039;list_cities&#039;, &#039;The cities listing is temporarily disabled.&#039;, &#039;Texas&#039;, 3 ); ?&#62;<\/code><\/pre>\n\n<p>I",
+                "uid": "86519"
+            },
+            "1.1.4": {
+                "name": "wordpress\/safe-function-call",
+                "version": "1.1.4",
+                "version_normalized": "1.1.4.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/safe-function-call.1.1.4.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>Safely and easily call functions that may not be available (such as those provided by a plugin that gets deactivated).<\/p>\n\n<p>Assuming you had something like this in a template:<\/p>\n\n<pre><code>&#60;?php list_cities( &#039;Texas&#039;, 3 ); ?&#62;<\/code><\/pre>\n\n<p>If you deactivated the plugin that provided <code>list_cities()<\/code>, your site would generate an error when that template is accessed.<\/p>\n\n<p>You can instead use <code>_sfc()<\/code>, which is provided by this plugin to call other functions, like so:<\/p>\n\n<pre><code>&#60;?php _sfc( &#039;list_cities&#039;, &#039;Texas&#039;, 3 ); ?&#62;<\/code><\/pre>\n\n<p>That will simply do nothing if the <code>list_cities()<\/code> function is not available.<\/p>\n\n<p>If you'd rather display a message when the function does not exist, use <code>_sfcm()<\/code> instead, like so:<\/p>\n\n<pre><code>&#60;?php _sfcm( &#039;list_cities&#039;, &#039;The cities listing is temporarily disabled.&#039;, &#039;Texas&#039;, 3 ); ?&#62;<\/code><\/pre>\n\n<p>I",
+                "uid": "86517"
+            },
+            "1.1.5": {
+                "name": "wordpress\/safe-function-call",
+                "version": "1.1.5",
+                "version_normalized": "1.1.5.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/safe-function-call.1.1.5.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>Safely and easily call functions that may not be available (such as those provided by a plugin that gets deactivated).<\/p>\n\n<p>Assuming you had something like this in a template:<\/p>\n\n<pre><code>&#60;?php list_cities( &#039;Texas&#039;, 3 ); ?&#62;<\/code><\/pre>\n\n<p>If you deactivated the plugin that provided <code>list_cities()<\/code>, your site would generate an error when that template is accessed.<\/p>\n\n<p>You can instead use <code>_sfc()<\/code>, which is provided by this plugin to call other functions, like so:<\/p>\n\n<pre><code>&#60;?php _sfc( &#039;list_cities&#039;, &#039;Texas&#039;, 3 ); ?&#62;<\/code><\/pre>\n\n<p>That will simply do nothing if the <code>list_cities()<\/code> function is not available.<\/p>\n\n<p>If you'd rather display a message when the function does not exist, use <code>_sfcm()<\/code> instead, like so:<\/p>\n\n<pre><code>&#60;?php _sfcm( &#039;list_cities&#039;, &#039;The cities listing is temporarily disabled.&#039;, &#039;Texas&#039;, 3 ); ?&#62;<\/code><\/pre>\n\n<p>I",
+                "uid": "86515"
+            },
+            "1.1.6": {
+                "name": "wordpress\/safe-function-call",
+                "version": "1.1.6",
+                "version_normalized": "1.1.6.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/safe-function-call.1.1.6.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>Safely and easily call functions that may not be available (such as those provided by a plugin that gets deactivated).<\/p>\n\n<p>Assuming you had something like this in a template:<\/p>\n\n<pre><code>&#60;?php list_cities( &#039;Texas&#039;, 3 ); ?&#62;<\/code><\/pre>\n\n<p>If you deactivated the plugin that provided <code>list_cities()<\/code>, your site would generate an error when that template is accessed.<\/p>\n\n<p>You can instead use <code>_sfc()<\/code>, which is provided by this plugin to call other functions, like so:<\/p>\n\n<pre><code>&#60;?php _sfc( &#039;list_cities&#039;, &#039;Texas&#039;, 3 ); ?&#62;<\/code><\/pre>\n\n<p>That will simply do nothing if the <code>list_cities()<\/code> function is not available.<\/p>\n\n<p>If you'd rather display a message when the function does not exist, use <code>_sfcm()<\/code> instead, like so:<\/p>\n\n<pre><code>&#60;?php _sfcm( &#039;list_cities&#039;, &#039;The cities listing is temporarily disabled.&#039;, &#039;Texas&#039;, 3 ); ?&#62;<\/code><\/pre>\n\n<p>I",
+                "uid": "86513"
+            },
+            "1.1.7": {
+                "name": "wordpress\/safe-function-call",
+                "version": "1.1.7",
+                "version_normalized": "1.1.7.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/safe-function-call.1.1.7.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>Safely and easily call functions that may not be available (such as those provided by a plugin that gets deactivated).<\/p>\n\n<p>Assuming you had something like this in a template:<\/p>\n\n<pre><code>&#60;?php list_cities( &#039;Texas&#039;, 3 ); ?&#62;<\/code><\/pre>\n\n<p>If you deactivated the plugin that provided <code>list_cities()<\/code>, your site would generate an error when that template is accessed.<\/p>\n\n<p>You can instead use <code>_sfc()<\/code>, which is provided by this plugin to call other functions, like so:<\/p>\n\n<pre><code>&#60;?php _sfc( &#039;list_cities&#039;, &#039;Texas&#039;, 3 ); ?&#62;<\/code><\/pre>\n\n<p>That will simply do nothing if the <code>list_cities()<\/code> function is not available.<\/p>\n\n<p>If you'd rather display a message when the function does not exist, use <code>_sfcm()<\/code> instead, like so:<\/p>\n\n<pre><code>&#60;?php _sfcm( &#039;list_cities&#039;, &#039;The cities listing is temporarily disabled.&#039;, &#039;Texas&#039;, 3 ); ?&#62;<\/code><\/pre>\n\n<p>I",
+                "uid": "86511"
+            }
+        }
+    }
+}

@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/import-blogroll-with-categories": {
+            "1.0": {
+                "name": "wordpress\/import-blogroll-with-categories",
+                "version": "1.0",
+                "version_normalized": "1.0.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/import-blogroll-with-categories.1.0.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>If you have ever been annoyed by the default blogroll (links, bookmarks) import functionality of WordPress forcing you \nto select <strong>one<\/strong> category to insert <strong>all<\/strong> links into, this plugin is for you.<\/p>\n\n<p>If you have an OPML feed that is categorized (like the standard WordPress OPML links export), you naturally want to \nimport the links into their proper categories.<\/p>\n\n<p>Here is what this plugin does:<\/p>\n\n<ul>\n<li>Adds a new importer ('Blogroll With Categories') to the Tools-&#62;Import page<\/li>\n<li>Adds a link directly to this improved importer in the Links sub-menu<\/li>\n<li>Adds a link to the blogroll export file (that is otherwise not referred to at all!) in the Links sub-menu<\/li>\n<\/ul>\n\n<p>If you fancy not adding those extra links to the Links sub-menu, I made it easy to disable this functionality in the top \nof the main plugin file. Personally, I like having all my Links tools in the same menu.<\/p>\n\n<p>When you want to import an OPML file or ",
+                "uid": "88993"
+            }
+        }
+    }
+}

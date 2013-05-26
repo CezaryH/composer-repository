@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/dx-remove-unused-custom-fields": {
+            "0.1": {
+                "name": "wordpress\/dx-remove-unused-custom-fields",
+                "version": "0.1",
+                "version_normalized": "0.1.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/dx-remove-unused-custom-fields.0.1.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>Delete all Custom Field entries assigned to posts that do not exist in the posts table.<\/p>\n\n<p>Navigate to Settings -&#62; Remove Unused CFs and delete all postmeta for non-existing posts.<\/p>",
+                "uid": "9090"
+            }
+        }
+    }
+}

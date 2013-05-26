@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/inpost-gallery": {
+            "1.1.5": {
+                "name": "wordpress\/inpost-gallery",
+                "version": "1.1.5",
+                "version_normalized": "1.1.5.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/inpost-gallery.1.1.5.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>Set gallery everywere on your site using shortcodes like [inpost_gallery post_id=1] in post (page and custom post types optional) or  in theme.\nEach gallery belongs to post or page or custom type page, but you can dispay it where you want by shortcode. To start using this plugin simply install it.\nGood for photographers. Supports multiple image uploading and adding.<\/p>\n\n<ul>\n<li>[inpost_gallery post_id=1 group=20].<\/li>\n<li>[inpost_gallery post_id=1 thumb_width=200 thumb_height=200].<\/li>\n<li>[inpost_gallery post_id=1 id=2,5,9,3 thumb_width=200 thumb_height=200].<\/li>\n<li>[inpost_gallery post_id=1 random=5 thumb_width=200 thumb_height=200].<\/li>\n<li>[inpost_gallery post_id=1 random=-1 thumb_width=200 thumb_height=200].<\/li>\n<li>[inpost_gallery post_id=1 random=-1 thumb_width=200 thumb_height=200 border=\"solid 1px #000\"].<\/li>\n<li>group - you can categorize gallery images by groups (numbers 1 - 100).<\/li>\n<li>thumb_width and thumb_height - works only in timthumb mode.<\/li>\n<li>id=2,",
+                "uid": "26157"
+            }
+        }
+    }
+}

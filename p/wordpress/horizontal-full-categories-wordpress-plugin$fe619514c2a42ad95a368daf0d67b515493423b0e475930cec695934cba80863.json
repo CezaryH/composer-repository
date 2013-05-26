@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/horizontal-full-categories-wordpress-plugin": {
+            "1.2": {
+                "name": "wordpress\/horizontal-full-categories-wordpress-plugin",
+                "version": "1.2",
+                "version_normalized": "1.2.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/horizontal-full-categories-wordpress-plugin.1.2.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>Categories Wordpress Plugin ~ Show top level categories and children of categories in horizontal table mode<\/p>\n\n<p>ByREV Fast Category Cloud Features:<\/p>\n\n<ul>\n<li>HTML code and CSS Cache Result. For fast loading and use less resources (default timeout cache = 360s)<\/li>\n<li>Inser CSS in header blog.  Result is fewer requests to the server, site load faster<\/li>\n<li>Exclude category with empty posts<\/li>\n<li>Exclude categories option list (by ID)<\/li>\n<li>Ability to use a custom CSS code<\/li>\n<li>Can change the default CSS properties (color, backgrounds, borders)<\/li>\n<li>Management setup menu<\/li>\n<\/ul>\n\n<p>Highly optimized for speed and memory<\/p>\n\n<ul>\n<li>Plugin is divided in two files: 1'st file used by inserting PHP code in template pages, and 2'nd file is used in the WordPress configuration page.<\/li>\n<li>Both files are under 100 lines of code,  each have exactly 96 lines each.<\/li>\n<li>Cache help to increase speed, conserve CPU resources and reduce requests to MySQL server",
+                "uid": "48478"
+            }
+        }
+    }
+}

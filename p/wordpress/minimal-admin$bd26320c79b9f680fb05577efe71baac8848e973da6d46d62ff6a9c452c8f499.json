@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/minimal-admin": {
+            "1.0.1": {
+                "name": "wordpress\/minimal-admin",
+                "version": "1.0.1",
+                "version_normalized": "1.0.1.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/minimal-admin.1.0.1.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>Very simple plugin to hide 'non essential' wp-admin functionality.<br \/>\nThis plugin is intended for select client projects where the client is an editor.<\/p>\n\n<p>Features include:<br \/>\n&#8226; Hides the dashboard and directs users to the edit pages screen<br \/>\n&#8226; Hides non essential menu items &#38; separators<br \/>\n&#8226; Hides columns on the edit page or post overview screens<br \/>\n&#8226; Hides the footer as well various other minor css changes<br \/>\n&#8226; Hides the WordPress admin bar (only front end)<\/p>\n\n<p>Options to:<br \/>\n&#8226; Hide Posts from the WordPress menu<br \/>\n&#8226; Hide screen options tab, help tab and the post filtering bar<\/p>\n\n<p>Works well with:<br \/>\n&#8226; WordPress SEO: Hides SEO columns from the edit page \/ edit posts screens<br \/>\n&#8226; Gravity Forms: Grants editor (client) access to manage Gravity Forms<\/p>",
+                "uid": "16489"
+            }
+        }
+    }
+}

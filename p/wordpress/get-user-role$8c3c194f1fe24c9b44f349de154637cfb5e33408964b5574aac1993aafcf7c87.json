@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/get-user-role": {
+            "1.0": {
+                "name": "wordpress\/get-user-role",
+                "version": "1.0",
+                "version_normalized": "1.0.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/get-user-role.1.0.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>This plugin doesn't do anything on the surface but if you call the get_user_role() function then you can achieve one of two results.<\/p>\n\n<p>Function<\/p>\n\n<p>Returns the role of the specified user.<\/p>\n\n<p>Usage<\/p>\n\n\n\n<p>Parameters<\/p>\n\n<p>$user_id\n(string)(optional) 'username'<\/p>\n\n<p>Return Values<\/p>\n\n<p>(string)  If no $user_id is specified in the function call the function will return the role of the currently logged in user, otherwise the role of the specified user will be returned.<\/p>\n\n<p>Examples<\/p>\n\n<p>$role = get_user_role(\"admin\");<\/p>\n\n<p>This will return \"administrator\".<\/p>\n\n<p>Notes<\/p>\n\n<p>This plugin may call the following global variables:<\/p>\n\n<p>$current_user\n$wp_roles\n$wpdb<\/p>\n\n<p>This plugin is designed to work with any correctly made custom roles.<\/p>",
+                "uid": "14466"
+            }
+        }
+    }
+}

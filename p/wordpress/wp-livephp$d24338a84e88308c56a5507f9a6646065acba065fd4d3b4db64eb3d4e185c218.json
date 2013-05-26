@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/wp-livephp": {
+            "1.6.1": {
+                "name": "wordpress\/wp-livephp",
+                "version": "1.6.1",
+                "version_normalized": "1.6.1.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/wp-livephp.1.6.1.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>This plugin was written to make Wordpress theme and plugin developers' life easier.\nInspired by the brilliant live.js script (written by Martin Kool),\nthis plugin will auto refresh your browser if you change any files in your wp-content\/themes\nor plugins directories. No need for Alt-Tab and manual refresh anymore.<\/p>\n\n<p>If you activate the WP Live Php plugin, it adds a small javascript file to your blog.\nIt will monitor your directories by calling wp-live.php every second. If any file changed\n(i.e. has a newer filemtime), the browser will be refreshed.<\/p>\n\n<p>With this plugin, it is also very easy to check your work in many browsers simultaneously.\nJust enable Frontend Monitoring, load the site in all your browsers and the rest goes automatically.<\/p>\n\n<p>Starting from v1.3 there is an option to enable admin bar integration, to conveniently enable or\ndisable Live.php monitoring directly on your frontend or backend with just one click.<\/p>\n\n<p>Since v1.5 with the content update fe",
+                "uid": "33892"
+            }
+        }
+    }
+}

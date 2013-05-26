@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/random-blog-article": {
+            "1.01": {
+                "name": "wordpress\/random-blog-article",
+                "version": "1.01",
+                "version_normalized": "1.01.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/random-blog-article.1.01.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>The random blog article was written to display links to some of my favourite blogs on the homepage of my site. \nI decided the blogroll took up too much space and wanted article titles on the site too.<\/p>\n\n<p>When the page loads the first blog and article is picked random and displayed. After this, every 15 seconds \n(by default) a new blog and article are randomly picked from your favourite blog list. The RSS feeds are cached so\nno need to worry about bandwidth usage or your blog being slowed down!<\/p>\n\n<p>The plugin just needs to be activated and a small peice of code put in a template file for where ever you'd \nlike it to appear. All settings can be controled in the wordpress admin panel and there is no need to edit any code.<\/p>",
+                "uid": "109039"
+            }
+        }
+    }
+}

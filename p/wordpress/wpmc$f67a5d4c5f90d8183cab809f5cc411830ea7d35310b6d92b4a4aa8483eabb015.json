@@ -1,0 +1,40 @@
+{
+    "packages": {
+        "wordpress\/wpmc": {
+            "0.98": {
+                "name": "wordpress\/wpmc",
+                "version": "0.98",
+                "version_normalized": "0.98.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/wpmc.0.98.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>Plugin that creates <em>automatic links<\/em> to you <em>MyMiniCity<\/em> and displays its data.\n<em>Many settings and editable output.<\/em><\/p>\n\n<p>The link to you city will be altered in regards of the city needs. Those needs are configurated by the thresholds.\nFor example: If you set an industry threshold of 5 unemployment up to 5% will be tolerated. But after this the industry link will be used to direct people to your city.<\/p>\n\n<p>The html output for content pages can be custimised in anyway you want. Just use the variables and build the html as you like.<\/p>\n\n<p>The varaibles available can be found in the backend.<\/p>\n\n<p>This plugin caches your cities XML. It will update <em>only every 5 minutes<\/em>. This is a caching mechanism to avoid calling to a different webpage everytime a page from your blog is loaded.<\/p>\n\n<p>If you just want a simple link to your city you can use:<\/p>\n\n<p><strong>{minicity_link}<\/strong><\/p>\n\n<p>If you want the full html output use:<\/p>\n\n<p><strong>{",
+                "uid": "106840"
+            },
+            "1": {
+                "name": "wordpress\/wpmc",
+                "version": "1",
+                "version_normalized": "1.0.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/wpmc.1.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>Plugin that creates <em>automatic links<\/em> to you <em>MyMiniCity<\/em> and displays its data.\n<em>Many settings and editable output.<\/em><\/p>\n\n<p>The link to you city will be altered in regards of the city needs. Those needs are configurated by the thresholds.\nFor example: If you set an industry threshold of 5 unemployment up to 5% will be tolerated. But after this the industry link will be used to direct people to your city.<\/p>\n\n<p>The html output for content pages can be custimised in anyway you want. Just use the variables and build the html as you like.<\/p>\n\n<p>The varaibles available can be found in the backend.<\/p>\n\n<p>This plugin caches your cities XML. It will update <em>only every 5 minutes<\/em>. This is a caching mechanism to avoid calling to a different webpage everytime a page from your blog is loaded.<\/p>\n\n<p>If you just want a simple link to your city you can use:<\/p>\n\n<p><strong>{minicity_link}<\/strong><\/p>\n\n<p>If you want the full html output use:<\/p>\n\n<p><strong>{",
+                "uid": "106839"
+            }
+        }
+    }
+}

@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/pssubpages": {
+            "1.0.0": {
+                "name": "wordpress\/pssubpages",
+                "version": "1.0.0",
+                "version_normalized": "1.0.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/pssubpages.1.0.0.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>This plugin provides a \"Sub Page\" widget. It lists all of the pages which are children of the current page. If there are no children, it will not display.<\/p>\n\n<p>Options include:\n - title (obviously)\n - \"No Sub-pages\" text instead of blank (configurable)\n - hide widget when no sub-pages\n - show siblings when no sub-pages<\/p>",
+                "uid": "9605"
+            }
+        }
+    }
+}

@@ -1,0 +1,57 @@
+{
+    "packages": {
+        "wordpress\/sj-hook-profiler": {
+            "0.1": {
+                "name": "wordpress\/sj-hook-profiler",
+                "version": "0.1",
+                "version_normalized": "0.1.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/sj-hook-profiler.0.1.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>WordPress and bbPress plugin developers use two functions to extend WordPress\/bbPress functionalty.\nThese are <code>add_action()<\/code> and <code>add_filter()<\/code>. They are used to set up a <em>hook<\/em> which is triggered by some event.<\/p>\n\n<p>The experience shows that hook execution takes signifacnt part of the page generation time.\nWhen there are few queries but the page generation is high, this plugin comes to the rescue.<\/p>\n\n<p>Unlike WP Tuner, which needs to specify the events to profile explicitly, SJ Hook Profiler\nautomatically detects <em>all<\/em> used hooks and sets up the handlers to measure their execution time.<\/p>\n\n<p>By default the plugin is active only for the Administrator (WordPress) or Key Master (bbPress).\nThis behavior can be changed by setting up a handler for <code>enable_hook_profiler<\/code> filter.\nThe handler should return <code>true<\/code> if the hook profiler should be activated, or <code>false<\/code> otherwise.<\/p>",
+                "uid": "78432"
+            },
+            "0.2": {
+                "name": "wordpress\/sj-hook-profiler",
+                "version": "0.2",
+                "version_normalized": "0.2.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/sj-hook-profiler.0.2.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>WordPress and bbPress plugin developers use two functions to extend WordPress\/bbPress functionalty.\nThese are <code>add_action()<\/code> and <code>add_filter()<\/code>. They are used to set up a <em>hook<\/em> which is triggered by some event.<\/p>\n\n<p>The experience shows that hook execution takes signifacnt part of the page generation time.\nWhen there are few queries but the page generation is high, this plugin comes to the rescue.<\/p>\n\n<p>Unlike WP Tuner, which needs to specify the events to profile explicitly, SJ Hook Profiler\nautomatically detects <em>all<\/em> used hooks and sets up the handlers to measure their execution time.<\/p>\n\n<p>By default the plugin is active only for the Administrator (WordPress) or Key Master (bbPress).\nThis behavior can be changed by setting up a handler for <code>enable_hook_profiler<\/code> filter.\nThe handler should return <code>true<\/code> if the hook profiler should be activated, or <code>false<\/code> otherwise.<\/p>",
+                "uid": "78431"
+            },
+            "0.2.1": {
+                "name": "wordpress\/sj-hook-profiler",
+                "version": "0.2.1",
+                "version_normalized": "0.2.1.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/sj-hook-profiler.0.2.1.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>WordPress and bbPress plugin developers use two functions to extend WordPress\/bbPress functionalty.\nThese are <code>add_action()<\/code> and <code>add_filter()<\/code>. They are used to set up a <em>hook<\/em> which is triggered by some event.<\/p>\n\n<p>The experience shows that hook execution takes signifacnt part of the page generation time.\nWhen there are few queries but the page generation is high, this plugin comes to the rescue.<\/p>\n\n<p>Unlike WP Tuner, which needs to specify the events to profile explicitly, SJ Hook Profiler\nautomatically detects <em>all<\/em> used hooks and sets up the handlers to measure their execution time.<\/p>\n\n<p>By default the plugin is active only for the Administrator (WordPress) or Key Master (bbPress).\nThis behavior can be changed by setting up a handler for <code>enable_hook_profiler<\/code> filter.\nThe handler should return <code>true<\/code> if the hook profiler should be activated, or <code>false<\/code> otherwise.<\/p>",
+                "uid": "78430"
+            }
+        }
+    }
+}

@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/contact-form-7-for-multiple-recipients": {
+            "3.0.2": {
+                "name": "wordpress\/contact-form-7-for-multiple-recipients",
+                "version": "3.0.2",
+                "version_normalized": "3.0.2.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/contact-form-7-for-multiple-recipients.3.0.2.1.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>This modified version extends the multiple recipient select that comes with Contact Form 7:<\/p>\n\n<pre><code>&#60;p&#62;Department&#60;br\/&#62;\n[select recipient &#34;General Contact&#124;test1@test.com&#34; &#34;Programs\/Services Information&#124;test2@test.com&#34; \n &#34;Support&#124;test3@test.com&#34;]&#60;\/p&#62;<\/code><\/pre>\n\n<p>And allows you to:<\/p>\n\n<ul>\n<li>Retrieve the label (i.e: General Contact) of the recipient the user selected with a shortage:<\/li>\n<\/ul>\n\n<pre><code>[recipient-label]<\/code><\/pre>\n\n<ul>\n<li>If you need to send the visitor a custom response depending on the recipient they selected, you can do it with:<\/li>\n<\/ul>\n\n<pre><code>[response-test1@test.com]\n\nThis is response 1.\n\n[\/response-test1@test.com]\n\n[response-test2@test.com]\n\nThis is response 2\n\nmeeeeeeeeeeeeeeeeh\n\n[\/response-test2@test.com]\n\n[response-test3@test.com]\n\nThis is response 3.\n\n[\/response-test3@test.com]<\/code><\/pre>\n\n<p>Maybe not the best way to do it, but it works.<\/p>\n\n<p>You can contact ",
+                "uid": "31456"
+            }
+        }
+    }
+}

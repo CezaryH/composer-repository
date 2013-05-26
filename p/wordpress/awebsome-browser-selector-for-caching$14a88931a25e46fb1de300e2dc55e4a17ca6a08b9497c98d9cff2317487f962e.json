@@ -1,0 +1,40 @@
+{
+    "packages": {
+        "wordpress\/awebsome-browser-selector-for-caching": {
+            "1.0": {
+                "name": "wordpress\/awebsome-browser-selector-for-caching",
+                "version": "1.0",
+                "version_normalized": "1.0.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/awebsome-browser-selector-for-caching.1.0.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<h4>Quick, Non-technical Overview<\/h4>\n\n<p>If you use the Awebsome! Broswer Selector plugin AND a caching plugin (e.g. WP SuperCache), the wrong body classes will be served to your site visitors and could cause your site to render incorrectly. This plugin overcomes that limitation of ABS!<\/p>\n\n<h4>Technical Details<\/h4>\n\n<p>ABS adds classes to the body of your site using Wordpress hooks; this is a problem for caching sites because you do not want those classes cached and served to other clients as they will be inaccurate (e.g. a Mozilla Firefox user could get served a page with body classes that indicate that they use Safari). The result can range from rendering your site incorrectly to the wrong code being executed. This plugin leverages some of the functionality of ABS to generate accurate classes <em>dynamically<\/em> on every page load and add them to the body class attribute using JavaScript and AJAX (leverages jQuery).<\/p>\n\n<h4>Please Note<\/h4>\n\n<p>This plugin <em>must<\/em> be ins",
+                "uid": "9008"
+            },
+            "1.0.2": {
+                "name": "wordpress\/awebsome-browser-selector-for-caching",
+                "version": "1.0.2",
+                "version_normalized": "1.0.2.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/awebsome-browser-selector-for-caching.1.0.2.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<h4>Quick, Non-technical Overview<\/h4>\n\n<p>If you use the Awebsome! Broswer Selector plugin AND a caching plugin (e.g. WP SuperCache), the wrong body classes will be served to your site visitors and could cause your site to render incorrectly. This plugin overcomes that limitation of ABS!<\/p>\n\n<h4>Technical Details<\/h4>\n\n<p>ABS adds classes to the body of your site using Wordpress hooks; this is a problem for caching sites because you do not want those classes cached and served to other clients as they will be inaccurate (e.g. a Mozilla Firefox user could get served a page with body classes that indicate that they use Safari). The result can range from rendering your site incorrectly to the wrong code being executed. This plugin leverages some of the functionality of ABS to generate accurate classes <em>dynamically<\/em> on every page load and add them to the body class attribute using JavaScript and AJAX (leverages jQuery).<\/p>\n\n<h4>Please Note<\/h4>\n\n<p>This plugin <em>must<\/em> be ins",
+                "uid": "9007"
+            }
+        }
+    }
+}

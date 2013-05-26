@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/sticky-comments": {
+            "1.0": {
+                "name": "wordpress\/sticky-comments",
+                "version": "1.0",
+                "version_normalized": "1.0.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/sticky-comments.1.0.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>This plugin allows you to do the following:<\/p>\n\n<ul>\n<li>Allow you to set comments as Sticky from the comment edit page<\/li>\n<li>Re-does the order in which the comments are shown, putting the sticky comments at the top. You can also change the order of comments ( newest first \/ oldest first )<\/li>\n<li>You can put either a text or an image on the left \/ right of the sticky comments author<\/li>\n<\/ul>",
+                "uid": "42744"
+            }
+        }
+    }
+}

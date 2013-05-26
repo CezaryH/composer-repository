@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/sudoku-wp-widget": {
+            "1.0": {
+                "name": "wordpress\/sudoku-wp-widget",
+                "version": "1.0",
+                "version_normalized": "1.0.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/sudoku-wp-widget.1.0.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<ul>\n<li>Introduction<\/li>\n<\/ul>\n\n<p>As the plugin name indicates, Sudoku Wordpress plugin allows to play the homonym game as a WordPress widget. This widget was specifically developed as multi-widget, it can displays an unlimited number of widgets, the limit, if one, is given by the combined capacity of memory and speed of the client computer. \nIt displays a grid 9x9 cells, composed by 9 sub-grids 3x3 cells. It generates a random sequence at the first sub-grid top left, then calculates the remaining 8 sub-grids. It fills the whole grid according to level of difficulty chosen through the appropriate plugin option.\nIt allows to regenerate the grid as much times as the user wishes just by reloading or refreshing the page. Once the grid is generated, displays two buttons, the first shows a hint, the other shows a complete solution.<\/p>\n\n<ul>\n<li>How it works<\/li>\n<\/ul>\n\n<p>The plugin starts by showing a grid 9x9 cells partially filled with numbers and partially with blank cells where the ",
+                "uid": "51610"
+            }
+        }
+    }
+}

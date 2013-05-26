@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/automatic-links": {
+            "1.1": {
+                "name": "wordpress\/automatic-links",
+                "version": "1.1",
+                "version_normalized": "1.1.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/automatic-links.1.1.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>A simple WordPress plugin that automatically adds HTML anchor tags to plain text links and email addresses embedded in the content of posts and pages (WordPress already does this by default for comments). It also gives you the option to set the rel=\"nofollow\" and target attributes on all automatically generated hyperlinks.<\/p>",
+                "uid": "91866"
+            }
+        }
+    }
+}

@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/member-status": {
+            "1.0.0": {
+                "name": "wordpress\/member-status",
+                "version": "1.0.0",
+                "version_normalized": "1.0.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/member-status.1.0.0.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>The plugin is useful if you have members\/staff whoose status you want to be shown.\nYou need to paste either %%STATUS-AVAILABLE%% or %%STATUS-UNAVAILABLE%% in your posts\/pages and\nthe status message will be inserted right there.<\/p>",
+                "uid": "44743"
+            }
+        }
+    }
+}

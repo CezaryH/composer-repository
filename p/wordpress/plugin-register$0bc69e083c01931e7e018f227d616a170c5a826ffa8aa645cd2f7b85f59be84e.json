@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/plugin-register": {
+            "0.6.1": {
+                "name": "wordpress\/plugin-register",
+                "version": "0.6.1",
+                "version_normalized": "0.6.1.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/plugin-register.0.6.1.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>If you are a Wordpress plugin developer the chances are your plugins are available for download from the Wordpress plugin repository. As part of that service the nice guys at Wordpress show you how many downloads of your plugin you get per day. Very useful, and if you're like me you check your downloads numbers too often.<\/p>\n\n<p>However what these stats don't show you is where your plugin is in use - which sites it is actually being activated on. Seeing that information would allow you to see exactly which sites are using your plugin, when they installed it, and what version the site is running. That is exactly what Plugin Register does.<\/p>\n\n<p>By including the Plugin_Register class and calling it with some simple code in your plugin, your Plugin Register database will be updated with the name and version of your plugin, and the site name and URL. A simple call is made to your website to save these details in the Plugin Register table, and you get some great statistics on who is i",
+                "uid": "70862"
+            }
+        }
+    }
+}

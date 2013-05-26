@@ -1,0 +1,40 @@
+{
+    "packages": {
+        "wordpress\/image-caption": {
+            "0.1": {
+                "name": "wordpress\/image-caption",
+                "version": "0.1",
+                "version_normalized": "0.1.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/image-caption.0.1.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>Extracts the <code>title<\/code> or <code>alt<\/code> attribute from images within your blog post and generates a neat caption directly underneath those images. Supports custom CSS styling for captions.<\/p>\n\n<p>Features:<\/p>\n\n<ul>\n<li>generates image caption using <code>img<\/code> tag&#8217;s <code>title<\/code> or <code>alt<\/code> attribute<\/li>\n<li>standards compliant: valid XHTML<\/li>\n<li>degrades gracefully when disabled<\/li>\n<li>supports images with links (e.g. to higher resolution of the same image)<\/li>\n<li>supports <a href=\"http:\/\/www.channel-ai.com\/blog\/plugins\/mycss\/\" title=\"MyCSS WordPress Plugin\">MyCSS<\/a> by disabling default CSS import<\/li>\n<li>supports custom CSS class for div image container<\/li>\n<li>automatically adds width and height attribute to your image<\/li>\n<li>does not write to your WordPress database<\/li>\n<\/ul>",
+                "uid": "106843"
+            },
+            "0.2": {
+                "name": "wordpress\/image-caption",
+                "version": "0.2",
+                "version_normalized": "0.2.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/image-caption.0.2.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>Extracts the <code>title<\/code> or <code>alt<\/code> attribute from images within your blog post and generates a neat caption directly underneath those images. Supports custom CSS styling for captions.<\/p>\n\n<p>Features:<\/p>\n\n<ul>\n<li>generates image caption using <code>img<\/code> tag&#8217;s <code>title<\/code> or <code>alt<\/code> attribute<\/li>\n<li>standards compliant: valid XHTML<\/li>\n<li>degrades gracefully when disabled<\/li>\n<li>supports images with links (e.g. to higher resolution of the same image)<\/li>\n<li>supports <a href=\"http:\/\/www.channel-ai.com\/blog\/plugins\/mycss\/\" title=\"MyCSS WordPress Plugin\">MyCSS<\/a> by disabling default CSS import<\/li>\n<li>supports custom CSS class for div image container<\/li>\n<li>automatically adds width and height attribute to your image<\/li>\n<li>does not write to your WordPress database<\/li>\n<\/ul>",
+                "uid": "106842"
+            }
+        }
+    }
+}

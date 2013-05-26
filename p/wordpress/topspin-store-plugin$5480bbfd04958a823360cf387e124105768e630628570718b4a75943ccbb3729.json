@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/topspin-store-plugin": {
+            "2.0": {
+                "name": "wordpress\/topspin-store-plugin",
+                "version": "2.0",
+                "version_normalized": "2.0.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/topspin-store-plugin.2.0.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>The Topspin Wordpress plug-in will work out-of-the-box with any Wordpress blog as long as your theme follows standard Wordpress coding requirements.  Not to worry -- most do.  The plug-in will function with Wordpress 2.9 and newer.<\/p>\n\n<p>We do not suggest you alter topspin.php or any files under the \/lib folder.  Even if you know what you're doing, changing the content of these files could lead to unpredictable results.<\/p>\n\n<h4>Requirements<\/h4>\n\n<ul>\n<li>Topspin account and API key<\/li>\n<li>Wordpress 2.9+<\/li>\n<li>PHP - Version 5.2+<\/li>\n<li>PHP - JSON enabled<\/li>\n<li>PHP - cURL enabled<\/li>\n<li>PHP - FTP enabled for automatic theme installer<\/li>\n<\/ul>",
+                "uid": "66835"
+            }
+        }
+    }
+}

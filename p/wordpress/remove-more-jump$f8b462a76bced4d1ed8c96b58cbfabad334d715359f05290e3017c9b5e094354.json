@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/remove-more-jump": {
+            "1.0": {
+                "name": "wordpress\/remove-more-jump",
+                "version": "1.0",
+                "version_normalized": "1.0.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/remove-more-jump.1.0.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>Usually when you click a permalink (\"read more\"-link) to a post, the link contains a \"#more-\" at the end, making the browser jump down to the \"readmore\" mark. You might not want this behaviour, so this plugin removes the anchor from the link.<\/p>",
+                "uid": "11115"
+            }
+        }
+    }
+}

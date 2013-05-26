@@ -1,0 +1,40 @@
+{
+    "packages": {
+        "wordpress\/user-access-expiration": {
+            "0.2": {
+                "name": "wordpress\/user-access-expiration",
+                "version": "0.2",
+                "version_normalized": "0.2.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/user-access-expiration.0.2.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>Expires a user's access to a site after a specified number of days. It uses the user registered date\/time and an admin configured number of days to determine when to expire the users access. The administrator can restore a user's access from the user's profile page.<\/p>",
+                "uid": "37879"
+            },
+            "0.4": {
+                "name": "wordpress\/user-access-expiration",
+                "version": "0.4",
+                "version_normalized": "0.4.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/user-access-expiration.0.4.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>Expires a user's access to a site after a specified number of days. It uses the user registered date\/time and an admin configured number of days to determine when to expire the users access. The administrator can restore a user's access from the user's profile page.<\/p>",
+                "uid": "37877"
+            }
+        }
+    }
+}

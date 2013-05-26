@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/add-to-bohemiaa-social": {
+            "1": {
+                "name": "wordpress\/add-to-bohemiaa-social",
+                "version": "1",
+                "version_normalized": "1.0.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/add-to-bohemiaa-social.1.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>This plugin adds a footer link to add the current post or page to a Bohemiaa.  While the plugin is activated a link will appear after the content of the post with the text \"Share on Bohemiaa\" or the Bohemiaa icon or both. Clicking this link will bring the user to the Bohemiaa site.  If the user isn't logged in they will be prompted to do so. Once logged into Bohemiaa the post will be added to the Mini-Feed of the account.<\/p>\n\n<p>This plugin is compatible with Wordpress 2.9+.<\/p>",
+                "uid": "64789"
+            }
+        }
+    }
+}

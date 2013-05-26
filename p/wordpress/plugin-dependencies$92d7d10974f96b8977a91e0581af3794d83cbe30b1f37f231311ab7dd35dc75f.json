@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/plugin-dependencies": {
+            "1.2": {
+                "name": "wordpress\/plugin-dependencies",
+                "version": "1.2",
+                "version_normalized": "1.2.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/plugin-dependencies.1.2.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>This meta-plugin allows regular plugins to specify other plugins that they depend upon.<\/p>\n\n<p>Example:<\/p>\n\n<pre><code>\/*\nPlugin Name: BuddyPress Debug\nDepends: BuddyPress, Debug Bar\n*\/<\/code><\/pre>\n\n<p>What this does:<\/p>\n\n<ul>\n<li>Disables activation of <em>BuddyPress Debug<\/em> until both <em>BuddyPress<\/em> and <em>Debug Bar<\/em> are already activated.<\/li>\n<li>When either <em>BuddyPress<\/em> or <em>Debug Bar<\/em> are deactivated, <em>BuddyPress Debug<\/em> will also be deactivated.<\/li>\n<\/ul>\n\n<p>Links: <a href=\"http:\/\/scribu.net\/wordpress\/plugin-dependencies\">Plugin News<\/a> &#124; <a href=\"http:\/\/scribu.net\">Author's Site<\/a><\/p>",
+                "uid": "59898"
+            }
+        }
+    }
+}

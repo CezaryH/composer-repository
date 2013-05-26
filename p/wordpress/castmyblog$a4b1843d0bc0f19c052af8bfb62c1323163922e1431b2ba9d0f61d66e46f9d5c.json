@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/castmyblog": {
+            "1.1": {
+                "name": "wordpress\/castmyblog",
+                "version": "1.1",
+                "version_normalized": "1.1.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/castmyblog.1.1.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>When you create a new post, it is automatically converted to audio using text to speech technology, and a podcast-compatible link is inserted into your post. It's all automatic - no messing around with settings and configurations.<\/p>\n\n<p>Please note that a short tag line about this service will be added on to the end of your MP3.<\/p>\n\n<p>The plugin only inserts a link to the MP3 and sets the enclosure for Podcasting. If you want to have a nice, pretty player I recommend you install the Blubrry PowerPress podcasting plugin, which comes with your own player and lets you customize other podcasting options like your feed description and logo. \nAny plugin which turns a MP3 enclosure to a player should work.<\/p>\n\n<p>What happens after I click Post?<\/p>\n\n<ul>\n<li>Your post contents are sent to the server and put into an encoding queue<\/li>\n<li>The text is automagically converted to MP3 audio<\/li>\n<li>The first time your post is viewed, the URL of the MP3 is grabbed from the server<\/li>\n<l",
+                "uid": "58456"
+            }
+        }
+    }
+}

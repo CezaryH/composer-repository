@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/twitter-tools-piwik-campaign-tagger": {
+            "0.1": {
+                "name": "wordpress\/twitter-tools-piwik-campaign-tagger",
+                "version": "0.1",
+                "version_normalized": "0.1.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/twitter-tools-piwik-campaign-tagger.0.1.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>This plugin helps integrate your blogs twittering into Piwik (<a href=\"http:\/\/www.piwik.org\" rel=\"nofollow\">http:\/\/www.piwik.org<\/a>) more tightly. Whenever you post a blog entry and Twitter Tools tweets your post, this plugin will add a \"piwik_campaign=twitter\" to your post's url and then shorten it. This way, you can keep track better of the visits that come to your site following your tweets.<\/p>\n\n<p>This plugin builds on Alex King's Twitter-Tools plugin (<a href=\"http:\/\/wordpress.org\/extend\/plugins\/twitter-tools\/\" rel=\"nofollow\">http:\/\/wordpress.org\/extend\/plugins\/twitter-tools\/<\/a>) and does not work without it.<\/p>",
+                "uid": "64323"
+            }
+        }
+    }
+}

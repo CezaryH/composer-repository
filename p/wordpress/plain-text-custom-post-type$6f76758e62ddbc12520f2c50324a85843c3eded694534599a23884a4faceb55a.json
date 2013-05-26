@@ -1,0 +1,40 @@
+{
+    "packages": {
+        "wordpress\/plain-text-custom-post-type": {
+            "0.1": {
+                "name": "wordpress\/plain-text-custom-post-type",
+                "version": "0.1",
+                "version_normalized": "0.1.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/plain-text-custom-post-type.0.1.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>Create plain text files through WordPress using a custom post type.<\/p>\n\n<p>This came about because I needed a way to edit a JavaScript file on a blog that's \npart of a multi site network setup, and I didn't want to do a child theme for \njust that one blog and keep up with updating the JS through FTP. This way I can\nedit it directly inside of WordPress as I need to without firing up Notepad++ or\nFileZilla.<\/p>\n\n<p>If you select either CSS or JavaScript as the file type you'll have the option\nfor the plugin to automatically link to the file within your page header, assuming\nyour theme supports the wp_head callback. The links are created using either \n <code>wp_register_script<\/code> \/ <code>wp_enqueue_script<\/code> or <code>wp_enqueue_style<\/code> \/ <code>wp_enqueue_style<\/code>.<\/p>\n\n<p>And a thank you goes out to Ted Devito for his \n<a href=\"http:\/\/teddevito.com\/demos\/textarea.html\">Tabby jQuery plugin<\/a> that allows \nthe capture of tabs inside the edit text area.<\/p>",
+                "uid": "22758"
+            },
+            "0.2": {
+                "name": "wordpress\/plain-text-custom-post-type",
+                "version": "0.2",
+                "version_normalized": "0.2.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/plain-text-custom-post-type.0.2.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>Create plain text files through WordPress using a custom post type.<\/p>\n\n<p>This came about because I needed a way to edit a JavaScript file on a blog that's \npart of a multi site network setup, and I didn't want to do a child theme for \njust that one blog and keep up with updating the JS through FTP. This way I can\nedit it directly inside of WordPress as I need to without firing up Notepad++ or\nFileZilla.<\/p>\n\n<p>If you select either CSS or JavaScript as the file type you'll have the option\nfor the plugin to automatically link to the file within your page header, assuming\nyour theme supports the wp_head callback. The links are created using either \n <code>wp_register_script<\/code> \/ <code>wp_enqueue_script<\/code> or <code>wp_enqueue_style<\/code> \/ <code>wp_enqueue_style<\/code>.<\/p>\n\n<p>And a thank you goes out to Ted Devito for his \n<a href=\"http:\/\/teddevito.com\/demos\/textarea.html\">Tabby jQuery plugin<\/a> that allows \nthe capture of tabs inside the edit text area.<\/p>",
+                "uid": "22757"
+            }
+        }
+    }
+}

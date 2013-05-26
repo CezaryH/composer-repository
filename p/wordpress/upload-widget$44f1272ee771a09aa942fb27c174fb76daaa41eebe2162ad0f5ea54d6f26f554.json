@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/upload-widget": {
+            "1.5": {
+                "name": "wordpress\/upload-widget",
+                "version": "1.5",
+                "version_normalized": "1.5.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/upload-widget.1.5.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>This plugin allows you to upload files in a folder.<\/p>\n\n<p>You can define:<\/p>\n\n<ul>\n<li>the title of the widget,<\/li>\n<li>the wp-role allowed to upload files,<\/li>\n<li>the target folder since '\/wp-content\/',<\/li>\n<li>the name of files you can upload (using wilcard characters),<\/li>\n<li>the max size of files.<\/li>\n<\/ul>\n\n<p>You can use multi-widgets.<\/p>",
+                "uid": "70784"
+            }
+        }
+    }
+}

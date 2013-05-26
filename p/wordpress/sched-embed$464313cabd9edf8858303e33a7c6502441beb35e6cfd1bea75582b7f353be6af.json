@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/sched-embed": {
+            "1.1": {
+                "name": "wordpress\/sched-embed",
+                "version": "1.1",
+                "version_normalized": "1.1.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/sched-embed.1.1.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>This plugin provides a shortcode which allows you to embed event content from sched.org into your WordPress site.<\/p>\n\n<p>Due to WordPress security restrictions, Authors and Contributors on your site will be unable to use the standard embed code provided by sched.org. If you use WordPress Multisite then nobody on your site will be able to use the standard embed code at all. This plugin allows you to embed event content from sched.org using a simple shortcode instead.<\/p>\n\n<p>Embedding event content into your WordPress site requires a paid account on sched.org. <a href=\"http:\/\/sched.org\/plans\">View available plans here.<\/a><\/p>\n\n<p>Plugin development was sponsored by <a href=\"http:\/\/internetretailing.net\">Internet Retailing<\/a>.<\/p>",
+                "uid": "11744"
+            }
+        }
+    }
+}

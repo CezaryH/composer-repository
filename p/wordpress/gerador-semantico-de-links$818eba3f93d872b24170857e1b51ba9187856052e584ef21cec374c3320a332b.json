@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/gerador-semantico-de-links": {
+            "1.3": {
+                "name": "wordpress\/gerador-semantico-de-links",
+                "version": "1.3",
+                "version_normalized": "1.3.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/gerador-semantico-de-links.1.3.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>Plugin desenvolvido para o projeto de uma rede de lojas em blos e sites <a href=\"http:\/\/tenhasualoja.secundum.com.br\/tenha-uma-loja-do-mercado-livre\/\">Superloja<\/a>, mas que pode ser usado por qualquer pessoa que precise criar links.<\/p>\n\n<p>O funcionamento &#233; bastante simples. Basta instalar e ativar. No menu do plugin, preencha a url que deseja linkar, as palavras, separadas por v&#237;rgulas, que est&#227;o sendo incorretamente linkadas e a classe css que deva ser atribu&#237;da aos links.<\/p>\n\n<p>A base do sistema &#233; reconhecer substantivos no texto, ver sua relev&#226;ncia, retirar os de uso comum na l&#237;ngua portuguesa e transform&#225;-los em links.<\/p>",
+                "uid": "96552"
+            }
+        }
+    }
+}

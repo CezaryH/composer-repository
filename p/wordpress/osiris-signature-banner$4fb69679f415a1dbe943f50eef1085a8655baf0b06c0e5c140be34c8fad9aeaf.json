@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/osiris-signature-banner": {
+            "0.5": {
+                "name": "wordpress\/osiris-signature-banner",
+                "version": "0.5",
+                "version_normalized": "0.5.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/osiris-signature-banner.0.5.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>Automatically creates an image banner with the heading of the latest post, for use on web sites or as a signature in discussion forums.<\/p>\n\n<p>The banner image is contstructed from a template image of any size, on top of which text with a user-selected typeface, color and placement is placed at each time a new post is published (or the latest post is updated).<\/p>\n\n<p>With the use of the image banner as a forum signature you can provide a way of always advertising your latest post on the discussion forums you frequent. The plugin automatically provides bbCode and HTML appropriate for use as signature code for most discussion boards.<\/p>",
+                "uid": "44343"
+            }
+        }
+    }
+}

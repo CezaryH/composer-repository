@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/static-feed-for-godaddy": {
+            "1.0": {
+                "name": "wordpress\/static-feed-for-godaddy",
+                "version": "1.0",
+                "version_normalized": "1.0.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/static-feed-for-godaddy.1.0.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>GoDaddy uses mod_layout to inject ads in pages. The thing is that it\ndoes that even for feeds.<\/p>\n\n<p>This plugin saves the feeds to \/articles.xml and \/comments.xml and keeps\nthem up to date.<\/p>\n\n<p>To get those two XMLs created you have a change in a post.<\/p>",
+                "uid": "56763"
+            }
+        }
+    }
+}

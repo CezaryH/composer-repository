@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/tags-page": {
+            "1.0": {
+                "name": "wordpress\/tags-page",
+                "version": "1.0",
+                "version_normalized": "1.0.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/tags-page.1.0.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>For Czech, see below \/ \u010cesk&#253; popis, viz n&#237;\u017ee<\/p>\n\n<p><strong>English<\/strong>: Standard installation of WordPress provides tags for posts and also Tag Cloud widget for 45 most common tags. Unfortunatelly there is no option to offer your web visitors list of all tags. And that is purpose of this plugin.<\/p>\n\n<p>This plugin adds a new shortcode <code>[get_tags]<\/code> that will generate a table with all tags. This table consists of two columns, in the first one you find tag name, which also serves as a link to the articles tagged in it. The second column contains count, how many times the tag is used.<\/p>\n\n<p>The table is sortable by both columns, just by clicking on the header of the column. Sorting is provided by JavaScript, so no reloading of page.<\/p>\n\n<p>Graphical style of the table is fully managed by CSS (cascade style sheets), so you can easily override the default lookout just by new CSS values after calling <code>wp_head();<\/code> in your theme header.<\/p>\n\n<p>Th",
+                "uid": "53009"
+            }
+        }
+    }
+}

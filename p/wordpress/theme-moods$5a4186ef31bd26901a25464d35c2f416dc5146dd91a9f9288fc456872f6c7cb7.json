@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/theme-moods": {
+            "0.1.0": {
+                "name": "wordpress\/theme-moods",
+                "version": "0.1.0",
+                "version_normalized": "0.1.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/theme-moods.0.1.0.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>Theme Moods plugin is intended to assist users of their themes to add as a bonus visualization to their themes increasing their fun factor.<\/p>\n\n<p>To include Theme Moods in your theme add with your post loop:<\/p>\n\n<pre><code>if (function_exists('frumph_show_mood_in_post')) frumph_show_mood_in_post();\n<\/code><\/pre>\n\n<p>The CSS to include in your style.css file is:<\/p>\n\n<pre><code>.post-mood, .post-moodname  \n<\/code><\/pre>\n\n<p>Where moodname would = the name of the mood file.<\/p>\n\n<p>Within your post loop where you would like the mood to appear.<\/p>\n\n<p>Future revisions will include more mood packs as well as the ability to make custom ones.<\/p>",
+                "uid": "79020"
+            }
+        }
+    }
+}

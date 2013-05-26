@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/remove-parents": {
+            "1.0": {
+                "name": "wordpress\/remove-parents",
+                "version": "1.0",
+                "version_normalized": "1.0.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/remove-parents.1.0.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>Sometimes you don't want to show parent directories in permalink because they are not really necessary or because you know that in the future your child directory will change it's parent.<\/p>\n\n<p>For example:\n+Work in progress\n--Site 1\n--Site 2\n+Work Finished\n--Site 3<\/p>\n\n<p>In this case Site 3 originally have been part of \"Work in progress\", and on job done it has been moved under \"Work Finished\".<\/p>\n\n<p>So if you install this plugin your link will be transformed in this way:<\/p>\n\n<p>domain.com\/parent_category\/child_directory\/post_name =&#62; domain.com\/child_directory\/post_name\ndomain.com\/category\/parent_category =&#62; domain.com\/parent_category\ndomain.com\/category\/parent_category\/child_directory =&#62; domain.com\/parent_category\/child_directory<\/p>",
+                "uid": "109989"
+            }
+        }
+    }
+}

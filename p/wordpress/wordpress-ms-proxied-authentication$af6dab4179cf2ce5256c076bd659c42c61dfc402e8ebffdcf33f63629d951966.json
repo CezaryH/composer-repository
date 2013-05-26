@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/wordpress-ms-proxied-authentication": {
+            "1.0": {
+                "name": "wordpress\/wordpress-ms-proxied-authentication",
+                "version": "1.0",
+                "version_normalized": "1.0.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/wordpress-ms-proxied-authentication.1.0.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>This plugin is for WordPress MS.  WPMS Proxied Authentication allows a site administrator to incorporate the last mile of proxying their site from a different domain by adding to the cookies sent back for a successful login to take the proxying domain and path into account.<\/p>\n\n<p>If you intend to serve several different domains and possibly subdirectories of those domains from one WPMS installation beyond a simple DNS pointer, you will need to use proxying, a commonly used server configuration that can mask the origin of a site from the browser.  Out of the box, WPMS will not accept this setup for security purposes; login authentication is achieved through cookies that are specifically set for the domain WPMS runs on itself, and so logging in to the proxied site will always fail.  WPMS Proxied Authentication adds cookies for the proxied site.<\/p>\n\n<p>For example, if you have WPMS installed at <code><a href=\"http:\/\/wpms.example.org\/\" rel=\"nofollow\">http:\/\/wpms.example.org\/<\/a><\/cod",
+                "uid": "64271"
+            }
+        }
+    }
+}

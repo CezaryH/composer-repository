@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/comment-menu-links": {
+            "1.0": {
+                "name": "wordpress\/comment-menu-links",
+                "version": "1.0",
+                "version_normalized": "1.0.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/comment-menu-links.1.0.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>This is a very simple plugin that adds links for each of the different comment statuses to the Comments menu. This includes links for:<\/p>\n\n<ul>\n<li>Approved<\/li>\n<li>Pending<\/li>\n<li>Spam<\/li>\n<li>Trash<\/li>\n<\/ul>",
+                "uid": "24627"
+            }
+        }
+    }
+}

@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/adjacent-archive-links": {
+            "2.0": {
+                "name": "wordpress\/adjacent-archive-links",
+                "version": "2.0",
+                "version_normalized": "2.0.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/adjacent-archive-links.2.0.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>After activating the plugin, you will have two new template tags at your disposal:<\/p>\n\n<pre><code>&#60;?php previous_archive_link( &#039;format&#039;, &#039;link&#039; ); ?&#62;<\/code><\/pre>\n\n<pre><code>&#60;?php next_archive_link( &#039;format&#039;, &#039;link&#039; ); ?&#62;<\/code><\/pre>\n\n<p>They adapt their output depending on whether the date archive is a day, a month,\nor a year, and they will only output a link for an adjacent time period in which you\nhave published posts. Both tags take two string parameters, <em>format<\/em> and <em>link<\/em>.<\/p>\n\n<p>The <em>format<\/em> parameter defines what comes before and after the link. In it, <code>%link<\/code> \nwill be replaced with whatever is declared in the link parameter below. <code>previous_archive_link<\/code> \ndefaults to \"<code>&#38;laquo; %link<\/code>\" and <code>next_archive_link<\/code> defaults to \"<code>%link &#38;raquo;<\/code>\".<\/p>\n\n<p>The <em>link<\/em> parameter defines the link text. Both tags default to \"<code>%date<\/",
+                "uid": "14544"
+            }
+        }
+    }
+}

@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/buddypress-group-topic-tags": {
+            "0.5": {
+                "name": "wordpress\/buddypress-group-topic-tags",
+                "version": "0.5",
+                "version_normalized": "0.5.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/buddypress-group-topic-tags.0.5.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>This humble plugin shows a tag cloud of all the topic tags for just a single buddypress group. It is displayed above the group forum directory. If You are using the default BP theme it will also show in the sidebar when viewing a single group.<\/p>\n\n<p>This plugin is still a work in progress. When you click the topic tag in the group it shows you ALL topics from all groups. in a future version this will be changed to just show you tagged topics in the current group.<\/p>",
+                "uid": "48417"
+            }
+        }
+    }
+}

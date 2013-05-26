@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/blog-tech-check": {
+            "1.0": {
+                "name": "wordpress\/blog-tech-check",
+                "version": "1.0",
+                "version_normalized": "1.0.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/blog-tech-check.1.0.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>Blog Tech Check is a plugin which will check if certain conditions are met by your Wordpress install, such as if specific plugins are installed, the permalink structure is not default, etc. In the current version, the following checks are made:<\/p>\n\n<ul>\n<li>If user called \"admin\" is present<\/li>\n<li>Permalink settings are not the default<\/li>\n<li>Folder permissions are correct<\/li>\n<\/ul>\n\n<p>Certain plugins installed and active:\n- WP DB Backup\n- XML Sitemap\n- All in One SEO\n- Subscribe to Comments\n- Akismet<\/p>\n\n<p>The plugin will suggest corrective actions to the user with on how to rectify any tested conditions which do not pass.<\/p>\n\n<p>Further checks for additional criteria will be added in future versions of the plugin. If you have suggestions, see the 'FAQ' section for contact details.<\/p>",
+                "uid": "82683"
+            }
+        }
+    }
+}

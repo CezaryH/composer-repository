@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/imdb-info-box": {
+            "1.0": {
+                "name": "wordpress\/imdb-info-box",
+                "version": "1.0",
+                "version_normalized": "1.0.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/imdb-info-box.1.0.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>This plugin helps to add movie information (from IMDB) in wordpress post using shortcode [imdb id=\"imdbmovieid\"].\n<strong>IMDB Info Box<\/strong> is using <a href=\"http:\/\/www.omdbapi.com\">omdbapi.com<\/a> API which provides information from Imdb.<\/p>\n\n<p>Read more how this plugin works <a href=\"http:\/\/toolspot.org\/get-movie-info-imdb.php\" rel=\"nofollow\">http:\/\/toolspot.org\/get-movie-info-imdb.php<\/a><\/p>\n\n<h4>Note<\/h4>\n\n<p>This plugin is not endorsed by or affiliated with IMDb.com<\/p>",
+                "uid": "8541"
+            }
+        }
+    }
+}

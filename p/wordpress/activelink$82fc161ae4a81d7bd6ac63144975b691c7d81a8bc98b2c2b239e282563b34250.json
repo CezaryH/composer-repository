@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/activelink": {
+            "0.1.0": {
+                "name": "wordpress\/activelink",
+                "version": "0.1.0",
+                "version_normalized": "0.1.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/activelink.0.1.0.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>ActiveLink allows you to set links to wikipedia articles by means of a wikipedia-style syntax when typing your posts.<\/p>\n\n<p>*Write \"{en:Post}\" to create a link to the english lemma of \"Post\".\n*Write \"{de:Post}office\" to get a link to the german definition of \"Post\", but let the link title display \"Postoffice\".\n*Write \"{en:Blog&#124;Wordpress}\" to create a link to the english definition of \"Blog\", but have the link display \"Wordpress\" instead.<\/p>\n\n<p>This plugin will be extended to also provide quick links to other services (like google search, technorati etc.) in the future.<\/p>",
+                "uid": "111324"
+            }
+        }
+    }
+}

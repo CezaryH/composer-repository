@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/imagerotate": {
+            "1.0": {
+                "name": "wordpress\/imagerotate",
+                "version": "1.0",
+                "version_normalized": "1.0.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/imagerotate.1.0.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>The php5-gd library on some Debian hosts doesn't include imagerotate() due to memory leaks.<\/p>\n\n<p>If you notice that rotating images does not work in the image editor, just install this plugin to supply an alternative imagerotate() function.<\/p>",
+                "uid": "73495"
+            }
+        }
+    }
+}

@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/valz-display-query-filters": {
+            "0.1": {
+                "name": "wordpress\/valz-display-query-filters",
+                "version": "0.1",
+                "version_normalized": "0.1.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/valz-display-query-filters.0.1.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>This plugin, once activated, spits out the information passed by each filter used in manipulating database queries, as a learning tool.<\/p>\n\n<p>The code itself is heavily documented and demonstrates best practices for working with those filters and actions to view \/ manipulate the query.<\/p>\n\n<p>It is very important to note that <strong>this plugin is not meant for a production environment<\/strong> as it will insert a lot of really ugly HTML throughout your page. You'll get the most use out of this plugin by looking at its code, and maybe previewing one or two pages on a sandbox, vanilla WordPress site.<\/p>",
+                "uid": "20246"
+            }
+        }
+    }
+}

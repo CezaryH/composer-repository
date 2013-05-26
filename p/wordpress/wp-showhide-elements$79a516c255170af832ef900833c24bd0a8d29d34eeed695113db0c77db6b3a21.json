@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/wp-showhide-elements": {
+            "0.1": {
+                "name": "wordpress\/wp-showhide-elements",
+                "version": "0.1",
+                "version_normalized": "0.1.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/wp-showhide-elements.0.1.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>Show and hide ID elements with a mouseclick. Could be used to create for example menus or menu tabs.<br \/><\/p>\n\n<h4>Example<\/h4>\n\n<p>&#60;div id=\"mytest\"&#62;myDiv&#60;\/div&#62;<br \/>\n&#60;a href=\"javascript:void(0);\" onclick=\"wp_showhide('mytest')\"&#62;my link&#60;\/a&#62;<\/p>\n\n<p><a href=\"http:\/\/www.jenst.se\/2008\/01\/31\/wp-showhide-elements\">Live demo example<\/a><\/p>",
+                "uid": "104899"
+            }
+        }
+    }
+}

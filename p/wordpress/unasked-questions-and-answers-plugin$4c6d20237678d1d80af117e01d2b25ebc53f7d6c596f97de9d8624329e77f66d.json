@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/unasked-questions-and-answers-plugin": {
+            "1.0": {
+                "name": "wordpress\/unasked-questions-and-answers-plugin",
+                "version": "1.0",
+                "version_normalized": "1.0.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/unasked-questions-and-answers-plugin.1.0.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>This plugin is used to access the Unasked.com api and allows the following usage:<\/p>\n\n<ol>\n<li>Allow your user to ask questions<\/li>\n<li>Allow your users to answer questions<\/li>\n<li>When a user asks a question, the question will be automatically inserted into UnAsked.com which allows our community to answer questions originating from your site. The question page on UnAsked will also show a link back to the original question page (on your site). For example, you will notice a link right below the question on the following URL: <a href=\"http:\/\/unasked.com\/question\/view\/id\/120476\" rel=\"nofollow\">http:\/\/unasked.com\/question\/view\/id\/120476<\/a>. This indicates that this question originated on HowToGetRidofStuff?.com<\/li>\n<li>When a question is answered, an email will be sent to the asker with a link to YOUR page. This means that visitors will come back to your site to see answers regardless of where the question was answered (whether it was answered on UnAsked.com or the originating que",
+                "uid": "82264"
+            }
+        }
+    }
+}

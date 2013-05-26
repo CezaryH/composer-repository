@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/url-path-shortcodes": {
+            "1.0": {
+                "name": "wordpress\/url-path-shortcodes",
+                "version": "1.0",
+                "version_normalized": "1.0.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/url-path-shortcodes.1.0.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>This is a simple plugin that allows you to use common WordPress URL's and Paths in the post editor using shortcodes.\nBelow is a list of available shortcodes:<\/p>\n\n<ul>\n<li>[home_url]<\/li>\n<li>[site_url]<\/li>\n<li>[admin_url]<\/li>\n<li>[network_home_url]<\/li>\n<li>[network_site_url]<\/li>\n<li>[network_admin_url]<\/li>\n<li>[content_url]<\/li>\n<li>[plugins_url]<\/li>\n<li>[wp_upload_dir]<\/li>\n<li>[get_template_directory_uri]<\/li>\n<li>[get_stylesheet_directory_uri]<\/li>\n<li>[get_stylesheet_uri]<\/li>\n<li>[get_theme_root_uri]<\/li>\n<li>[get_stylesheet_directory]<\/li>\n<li>[get_theme_root]<\/li>\n<li>[get_theme_roots]<\/li>\n<\/ul>\n\n<p>Note that you can pass in parameters that are available to the corresponding WordPress functions. For example:<\/p>\n\n<p>[home_url path=\"faq\" scheme=\"https\"]<\/p>",
+                "uid": "17248"
+            }
+        }
+    }
+}

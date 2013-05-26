@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/just-add-lipsum": {
+            "0.1": {
+                "name": "wordpress\/just-add-lipsum",
+                "version": "0.1",
+                "version_normalized": "0.1.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/just-add-lipsum.0.1.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>This is a simple plugin which creates a [lorem-ipsum] shortcode that can be used to add an arbitrary number of Lorem Ipsum paragraphs (default 2), each one of arbitrary length (default 40 words). There are some plugins out there which create dummy content (posts\/pages) filled with Lorem Ipsum, but this one just allows one to insert Lorem Ipsum into existing content, wherever shortcodes are accepted. I developed this to help place chunks of text into my test posts during theme development.<\/p>\n\n<p>Maximum length of each paragraph and the number of paragraphs can be specified in the shortcode.<\/p>\n\n<p>Features like paragraph length randomization and text start offset are supported but are not yet implemented in the admin interface. Currently, the length of each passage is randomized to 1\/3 of the specified maximum paragraph length (e.g. for a 60-word paragraph, the actual generated length could be anywhere from 60 to 80 words). Each paragraph will also start at a different point in th",
+                "uid": "58451"
+            }
+        }
+    }
+}

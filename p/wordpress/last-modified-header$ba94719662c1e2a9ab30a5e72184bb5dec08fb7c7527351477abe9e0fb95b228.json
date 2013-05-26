@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/last-modified-header": {
+            "1.0": {
+                "name": "wordpress\/last-modified-header",
+                "version": "1.0",
+                "version_normalized": "1.0.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/last-modified-header.1.0.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>Automatically send HTTP Header \"last-modified\".\nYou can use post last modification time or creation date... (settings in administration)<\/p>",
+                "uid": "11348"
+            }
+        }
+    }
+}

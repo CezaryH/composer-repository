@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/show-menu-shortcode": {
+            "1.0": {
+                "name": "wordpress\/show-menu-shortcode",
+                "version": "1.0",
+                "version_normalized": "1.0.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/show-menu-shortcode.1.0.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>Provides a [show-menu] <a href=\"http:\/\/codex.wordpress.org\/Shortcode_API\">shortcodes<\/a> for  displaying a menu within a post or page.  The shortcode accepts most parameters that you can pass to the <a href=\"http:\/\/codex.wordpress.org\/Template_Tags\/wp_nav_menu\">wp_nav_menu()<\/a> function.  For example, to show a menu add [show-menu menu=\"Main-menu\"] in the page body.<\/p>\n\n<h4>Usage<\/h4>\n\n<p><em>Show a menu<\/em><\/p>\n\n<pre><code>[show-menu menu=&#34;Main Menu&#34;]<\/code><\/pre>\n\n<h4>Please Note<\/h4>\n\n<p>The default values are the same as for the <a href=\"http:\/\/codex.wordpress.org\/Template_Tags\/wp_nav_menu\"><code>wp_nav_menu()<\/code><\/a>. 'theme-location' and 'walker' are not supported as they can not be used within the shortcode.<\/p>",
+                "uid": "47559"
+            }
+        }
+    }
+}

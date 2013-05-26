@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/macro-expander": {
+            "1.1": {
+                "name": "wordpress\/macro-expander",
+                "version": "1.1",
+                "version_normalized": "1.1.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/macro-expander.1.1.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>You invoke a macro by typing a special command in your blog post:<\/p>\n\n<p>[[keyword]]<\/p>\n\n<p>Upon reading this command, the PHP function named \"macro_keyword\" is called and \nits output is inserted on the page.<\/p>\n\n<p>You can also pass a parameter to the macro:<\/p>\n\n<p>[[keyword][param]]<\/p>\n\n<p>Or multiple parameters:<\/p>\n\n<p>[[keyword][param1][param2]]<\/p>\n\n<p>The parameters are separated by the ][ characters, or rather, you can look at it \nas a list of things in brackets surrounded by another pair of brackets.<\/p>\n\n<p>The PHP file for this plugin has an example function that shows you how to write \nmacros. It is called \"[[test]]\" and is defined in the function \"macro_test\". The \n\"test\" macro takes up to two parameters, both optional.<\/p>\n\n<p>New in 1.1: If you want to include the macros in RSS content, you will have to \ndefine a second function named \"macro_rss_keyword\". If this function is not \npresent, the macro will not be included in the RSS output.<\/p>",
+                "uid": "111211"
+            }
+        }
+    }
+}

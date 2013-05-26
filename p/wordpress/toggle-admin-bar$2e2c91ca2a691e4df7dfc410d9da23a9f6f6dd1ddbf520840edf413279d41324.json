@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/toggle-admin-bar": {
+            "1.0.2": {
+                "name": "wordpress\/toggle-admin-bar",
+                "version": "1.0.2",
+                "version_normalized": "1.0.2.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/toggle-admin-bar.1.0.2.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>Sometimes the admin bar is in the way. This toggles it out of view and back in when needed on click.<\/p>\n\n<p>Notes :<\/p>\n\n<ul>\n<li>Only works if admin bar is showing<\/li>\n<li>Can customize arrow image that shows the admin bar by replacing arrow-slide.png in the plugin folder.<\/li>\n<\/ul>",
+                "uid": "39362"
+            }
+        }
+    }
+}

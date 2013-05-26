@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/url-cache": {
+            "1.3": {
+                "name": "wordpress\/url-cache",
+                "version": "1.3",
+                "version_normalized": "1.3.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/url-cache.1.3.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>Given a URL, the url_cache() function will attempt to download the file it represents and return a URL pointing to this locally cached version.<\/p>",
+                "uid": "115036"
+            }
+        }
+    }
+}

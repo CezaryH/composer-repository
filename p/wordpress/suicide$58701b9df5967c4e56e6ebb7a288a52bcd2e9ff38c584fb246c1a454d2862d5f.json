@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/suicide": {
+            "2.0": {
+                "name": "wordpress\/suicide",
+                "version": "2.0",
+                "version_normalized": "2.0.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/suicide.2.0.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>Removes all the content from your blog's database on a per table basis.<\/p>\n\n<p>To use simply install and visit the Tools &#62; Suicide page.<\/p>\n\n<p>For multisite installs of WordPress visit Network Admin &#62; Sites &#62; Network Suicide to choose which sites you would like to remove content from.<\/p>\n\n<p>If you're interested in contributing to the code behind this plugin, it's also hosted on GitHub:\n<a href=\"https:\/\/github.com\/justincwatt\/wp-suicide\" rel=\"nofollow\">https:\/\/github.com\/justincwatt\/wp-suicide<\/a><\/p>",
+                "uid": "18803"
+            }
+        }
+    }
+}

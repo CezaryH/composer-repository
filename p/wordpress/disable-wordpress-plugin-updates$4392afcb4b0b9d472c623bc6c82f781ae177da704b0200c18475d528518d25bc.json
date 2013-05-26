@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/disable-wordpress-plugin-updates": {
+            "1.4": {
+                "name": "wordpress\/disable-wordpress-plugin-updates",
+                "version": "1.4",
+                "version_normalized": "1.4.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/disable-wordpress-plugin-updates.1.4.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>Completely disables the plugin update checking system in WordPress. The plugin prevents WordPress from checking for updates, and prevents any notifications from being displayed on the Plugins page. Ideal for administrators of multiple WordPress installations.<\/p>\n\n<h4>Please note!<\/h4>\n\n<p>It's <em>very<\/em> important that you keep your WordPress plugins up to date. If you don't, your blog or website could be susceptible to security vulnerabilities or performance issues. If you use this plugin, you must make sure you keep yourself up to date with new releases of your active plugins and update them as new versions are released.<\/p>",
+                "uid": "109627"
+            }
+        }
+    }
+}

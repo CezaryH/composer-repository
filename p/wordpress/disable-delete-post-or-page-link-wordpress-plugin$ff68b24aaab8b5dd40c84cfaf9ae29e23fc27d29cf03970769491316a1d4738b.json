@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/disable-delete-post-or-page-link-wordpress-plugin": {
+            "1.0": {
+                "name": "wordpress\/disable-delete-post-or-page-link-wordpress-plugin",
+                "version": "1.0",
+                "version_normalized": "1.0.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/disable-delete-post-or-page-link-wordpress-plugin.1.0.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>When handing over a WordPress install to the end-client, there are always certain pages that you may not want then to delete. It may be pages with temaplates based on the posts ID or for some reaspon that page is hooked into a navigation that is not dynamic.<\/p>\n\n<p>Whatever the reason is Our Disable Delete Post or Page Link Plugin removes the delete link in 2 places in the wordpress admin area:<\/p>\n\n<ol>\n<li>When viewing All Posts List or All Pages List<\/li>\n<li>When editing a post in the Publish meta box.<\/li>\n<\/ol>\n\n<p>The plugin dose not add anyhting to your current theme. It adds some css, jQuery and PHP in the admin area to hide the delete links in those areas.<\/p>\n\n<p>Note:\nTo use press screen options and select the check box called &#34;Remove Trash Link&#34;. Feel free to use and include in your WordPress Installs, please think of us if you need a custom theme or plugin developed!!<\/p>\n\n<p>For Plugin and Theme development requets email us at <a href=\"mailto:info@reactivedev",
+                "uid": "24153"
+            }
+        }
+    }
+}

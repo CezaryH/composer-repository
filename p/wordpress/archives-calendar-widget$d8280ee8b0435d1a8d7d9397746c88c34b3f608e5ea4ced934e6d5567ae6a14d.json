@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/archives-calendar-widget": {
+            "0.2.2": {
+                "name": "wordpress\/archives-calendar-widget",
+                "version": "0.2.2",
+                "version_normalized": "0.2.2.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/archives-calendar-widget.0.2.2.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>Archives widget that make your monthly archives look like a calendar on the sidebar. If you have a lot of archives that takes a lot of place on your sidebar this widget is for you. Displays your archives as a compact calendar, entirely customizable with CSS.<\/p>\n\n<h4>Features<\/h4>\n\n<ul>\n<li>Displays monthly archives as a compact year calendar<\/li>\n<li>Show\/hide monthly post count<\/li>\n<li>Entirely customizable with CSS<\/li>\n<li>jQuery animated with possibility to use your own JS code.<\/li>\n<\/ul>\n\n<p><strong>Not just a widget<\/strong>, if your theme does not support widgets, you can use this calendar by calling it's <strong>function<\/strong>:<\/p>\n\n<pre><code>archives_calendar();<\/code><\/pre>\n\n<p>you can also configure it:<\/p>\n\n<pre><code>$args= array(\n    &#039;next_text&#039; =&#62; &#039;&#62;&#039;,\n    &#039;prev_text&#039; =&#62; &#039;&#60;&#039;,\n    &#039;post_count&#039; =&#62; true,\n);\narchives_calendar($args);<\/code><\/pre>\n\n<p><strong>next_text:<\/strong> text showing on th",
+                "uid": "7674"
+            }
+        }
+    }
+}

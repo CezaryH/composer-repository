@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/easy-tagger": {
+            "1.0": {
+                "name": "wordpress\/easy-tagger",
+                "version": "1.0",
+                "version_normalized": "1.0.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/easy-tagger.1.0.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>Easy Tagger plugin lets subscribers to your blog add tags, search posts by them, display \nsearch results in nice image grid (for that one has to previusly set Featured Image\nfor each post to display), it also shows some basic statistics like most popular tags,\nmost active users, recent tags, etc.<\/p>\n\n<h4>Notice<\/h4>\n\n<p>Plugin creates tables <code>wp_users_blacklist<\/code> and <code>wp_users_terms_posts<\/code> for it own purposes\ncheck if those don`t already exist in your wordpress installation (some other plugin).<\/p>",
+                "uid": "39999"
+            }
+        }
+    }
+}

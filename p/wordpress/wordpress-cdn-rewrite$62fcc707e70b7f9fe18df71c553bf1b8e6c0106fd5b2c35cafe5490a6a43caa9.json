@@ -1,0 +1,40 @@
+{
+    "packages": {
+        "wordpress\/wordpress-cdn-rewrite": {
+            "1.0": {
+                "name": "wordpress\/wordpress-cdn-rewrite",
+                "version": "1.0",
+                "version_normalized": "1.0.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/wordpress-cdn-rewrite.1.0.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>For performance reasons, some websites host static content (images, CSS files, Javascript files, etc.) on something other than the main webserver. It could be as simple as separate, higher performance software running on the same server or a full-fledged CDN serving the files from multiple servers around the world.<\/p>\n\n<p>While many plugins like this already exist for WordPress, we couldn't find any that matched our needs. Furthermore, most required running a caching plugin in addition to the CDN plugin. In many cases, that's fine, but we don't always want to have caching.<\/p>\n\n<p>The following are rewritten if a rule matches:<\/p>\n\n<ol>\n<li>Values in <code>href<\/code> attributes of A tags<\/li>\n<li>Values in <code>href<\/code> attributes of LINK tags<\/li>\n<li>Values in <code>src<\/code> attributes of IMG tags<\/li>\n<li>Values in <code>src<\/code> attributes of SCRIPT tags<\/li>\n<\/ol>",
+                "uid": "31238"
+            },
+            "1.1": {
+                "name": "wordpress\/wordpress-cdn-rewrite",
+                "version": "1.1",
+                "version_normalized": "1.1.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/wordpress-cdn-rewrite.1.1.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>For performance reasons, some websites host static content (images, CSS files, Javascript files, etc.) on something other than the main webserver. It could be as simple as separate, higher performance software running on the same server or a full-fledged CDN serving the files from multiple servers around the world.<\/p>\n\n<p>While many plugins like this already exist for WordPress, we couldn't find any that matched our needs. Furthermore, most required running a caching plugin in addition to the CDN plugin. In many cases, that's fine, but we don't always want to have caching.<\/p>\n\n<p>The following are rewritten if a rule matches:<\/p>\n\n<ol>\n<li>Values in <code>href<\/code> attributes of A tags<\/li>\n<li>Values in <code>href<\/code> attributes of LINK tags<\/li>\n<li>Values in <code>src<\/code> attributes of IMG tags<\/li>\n<li>Values in <code>src<\/code> attributes of SCRIPT tags<\/li>\n<\/ol>",
+                "uid": "31237"
+            }
+        }
+    }
+}

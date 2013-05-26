@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/drgen-social": {
+            "1.0": {
+                "name": "wordpress\/drgen-social",
+                "version": "1.0",
+                "version_normalized": "1.0.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/drgen-social.1.0.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>Genera botones para el env&#237;o o la votaci&#243;n en distintas redes sociales: Facebook, Twitter, #CienciaLinks, Delicious, Meneame y Bitacoras.com. Opcionalmente puede mostrar contadores con el n&#250;mero de votos o veces que se ha compartido (seg&#250;n la red). Los botones se muestran &#250;nicamente en las entradas individuales.<\/p>\n\n<p>Tambi&#233;n genera autom&#225;ticamente las URLs cortas mediante Bit.ly al publicar las entradas (aparecen en una caja de la pantalla de edici&#243;n para poder consultarlas).<\/p>\n\n<p>Los botones pueden ser insertados de manera autom&#225;tica (por defecto) o manualmente (mediante la funci&#243;n <code>drgen-social_Buttons()<\/code> en single.php), y funcionan de la siguiente manera:<\/p>\n\n<ul>\n<li><strong>#CienciaLinks<\/strong>: permite enviar la entrada a #CienciaLinks o votarla si ya ha sido enviada.<\/li>\n<li><strong>Meneame<\/strong>: permite enviar la entrada a Meneame o votarla si ya ha sido enviada, pero si la entrada ha sido descartada ",
+                "uid": "47753"
+            }
+        }
+    }
+}

@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/foomark-wordpress-widget": {
+            "1.0": {
+                "name": "wordpress\/foomark-wordpress-widget",
+                "version": "1.0",
+                "version_normalized": "1.0.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/foomark-wordpress-widget.1.0.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>Foomark WordPress Widget uses Foomark's API to take a user's foomarks in JSON format and displays them in a widget. The two settings fields needed to make it work are a Foomark username and the number of foomarks you want to display.<\/p>\n\n<p>After Installing the plugin, go to Settings -&#62; Foomarks to enter your Foomark username and the number of foomarks to show in the widget.<\/p>",
+                "uid": "37175"
+            }
+        }
+    }
+}

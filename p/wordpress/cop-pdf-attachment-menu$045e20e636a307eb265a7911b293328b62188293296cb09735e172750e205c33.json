@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/cop-pdf-attachment-menu": {
+            "0.1.0": {
+                "name": "wordpress\/cop-pdf-attachment-menu",
+                "version": "0.1.0",
+                "version_normalized": "0.1.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/cop-pdf-attachment-menu.0.1.0.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>Adds a shortcode [pdfmenu] and a widget that defaults to displaying an unordered list of all pdf's attached to the current page or post.<\/p>\n\n<p>There are options for both altering the query to return a different set of attachments and for formatting the output.<\/p>\n\n<p>This plugin should always default to:<\/p>\n\n<pre><code>&#60;ul class=&#34;cop_pdfmenu&#34;&#62;\n    &#60;li class=&#34;attachment\/pdf&#34;&#62;&#60;a href=&#34;(direct uri to attachment)&#34; target=&#34;_blank&#34; title=&#34;(attachment title)&#34;&#62;(attachment title)&#60;\/a&#62;\n&#60;\/ul&#62;<\/code><\/pre>\n\n<p>The attachments will be ordered by date in the ascending order by default.<\/p>\n\n<h4>Shortcode Options include:<\/h4>\n\n<ul>\n    <li>Change list types ol, li, div (nested divs).<\/li>\n    <li>\n        <ul>\n            <li>[pdfmenu list_type=\"ul\"]<\/li>\n            <li>[pdfmenu list_type=\"ol\"]<\/li>\n            <li>[pdfmenu list_type=\"div\"]<\/li>\n        <\/ul>\n    <\/li>\n    <li>Set a different class on the containe",
+                "uid": "41372"
+            }
+        }
+    }
+}

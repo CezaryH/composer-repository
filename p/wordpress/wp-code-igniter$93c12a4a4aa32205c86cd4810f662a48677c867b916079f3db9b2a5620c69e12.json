@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/wp-code-igniter": {
+            "1.0": {
+                "name": "wordpress\/wp-code-igniter",
+                "version": "1.0",
+                "version_normalized": "1.0.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/wp-code-igniter.1.0.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>Use this plugin to integrate the CodeIgniter framework into Wordpress, making it available for both themes and other \nplugins.<\/p>\n\n<p>This plugin emulates a CI bootstrap, without any application environment (because Wordpress does that), and includes a \nconfiguration file for setting database connection parameters.<\/p>\n\n<p>CodeIgniter is a powerful PHP framework with a very small footprint, built for PHP coders who need a simple and elegant \ntoolkit to create full-featured web applications. It implements a popular application design pattern called \nmodel-view-controller (MVC). In this case, Wordpress becomes the 'view' instead of a CI application.<\/p>\n\n<p>This plugin will probably work with versions of Wordpress earlier than 3.2, but if you are running such an earlier \nversion check your version of PHP. CodeIgniter requires PHP 5.1.6 or later.<\/p>\n\n<p>Note: This is the first version of this plugin and it has not had extensive testing. Consider it experimental and use at \nyour own r",
+                "uid": "41179"
+            }
+        }
+    }
+}

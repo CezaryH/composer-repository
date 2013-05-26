@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/responsive-opt-out": {
+            "0.3": {
+                "name": "wordpress\/responsive-opt-out",
+                "version": "0.3",
+                "version_normalized": "0.3.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/responsive-opt-out.0.3.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>This simple setup creates a body class called \"responsive\" and \"fixed-width\" both are added to the body class of your Theme. These two classes are used to define whether or not the visitor wants a \"responsive\" environment.<\/p>",
+                "uid": "12487"
+            }
+        }
+    }
+}

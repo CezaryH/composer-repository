@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/post-content-slider": {
+            "1.0.1": {
+                "name": "wordpress\/post-content-slider",
+                "version": "1.0.1",
+                "version_normalized": "1.0.1.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/post-content-slider.1.0.1.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>A plugin which allows you to put posts of a specific category (you can use even all the categories) in a widget. You can use more that one widget at the same time and configure different time transictions between two posts. You're able to change the quantity of posts in each widget as well. When there are too many posts to be loaded, the plugin loads the first ten and, when the first transiction is triggered (between the first and the second posts) the 11th is loaded and put in the queue. When the second transiction is triggered, the 12th post is loaded and the plugin keeps doing it until all posts are loaded. When it happens, the plugin stops making ajax requests to the server and the page runs normally.<\/p>\n\n<p>You can find a demo on <a href=\"http:\/\/www.polvo.com.br\/plugins\/post-content-slider\" rel=\"nofollow\">http:\/\/www.polvo.com.br\/plugins\/post-content-slider<\/a>. There are two widgets configured on the right. The first one is set to change the post every 4 seconds and the second",
+                "uid": "10573"
+            }
+        }
+    }
+}

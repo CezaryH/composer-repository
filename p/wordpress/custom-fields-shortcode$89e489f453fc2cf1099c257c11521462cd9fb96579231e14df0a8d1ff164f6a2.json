@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/custom-fields-shortcode": {
+            "0.1": {
+                "name": "wordpress\/custom-fields-shortcode",
+                "version": "0.1",
+                "version_normalized": "0.1.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/custom-fields-shortcode.0.1.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>USAGE:\nuse [cf] shortcode in your post content to show the custom field value without edit your theme files.<\/p>\n\n<p>EXAMPLE:\n[cf]somekey[\/cf]\nreturns value of 'somekey' custom-filed.<\/p>",
+                "uid": "93278"
+            }
+        }
+    }
+}

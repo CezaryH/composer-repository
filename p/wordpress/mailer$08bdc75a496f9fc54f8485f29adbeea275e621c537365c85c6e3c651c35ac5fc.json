@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/mailer": {
+            "1.1.0": {
+                "name": "wordpress\/mailer",
+                "version": "1.1.0",
+                "version_normalized": "1.1.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/mailer.1.1.0.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>Mailer intercepts emails sent from your blog, stores them on disk and\ndelivers them slowly to never hit the provider limits and risk a ban.<\/p>\n\n<p>Mailer is compatible with WordPress and every plugin that use the wp_mail()\nfunction.<\/p>\n\n<p>Some features:<\/p>\n\n<ul>\n<li>configurable delivering speed<\/li>\n<li>alternative sender email and name settings<\/li>\n<li>SMTP ready<\/li>\n<li>email grouping (extension for 3rd party plugins)<\/li>\n<li>email priority (extension for 3rd party plugins)<\/li>\n<\/ul>\n\n<p>Offial page: <a href=\"http:\/\/www.satollo.net\/plugins\/mailer\">Mailer<\/a>.<\/p>",
+                "uid": "15038"
+            }
+        }
+    }
+}

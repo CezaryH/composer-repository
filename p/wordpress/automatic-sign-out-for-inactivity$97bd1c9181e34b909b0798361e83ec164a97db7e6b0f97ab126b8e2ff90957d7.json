@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/automatic-sign-out-for-inactivity": {
+            "1.0": {
+                "name": "wordpress\/automatic-sign-out-for-inactivity",
+                "version": "1.0",
+                "version_normalized": "1.0.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/automatic-sign-out-for-inactivity.1.0.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>This plugin helps to minimize certain security risks involved with session stealing. It allows you to automatically sign a user out after he has been inactive for a specified period of time. This plugin also works with BuddyPress. The default time period is set to one day. This means that if a user was logged into your site  and did not come back after 24 hours, he would be logged out due to inactivity. However, if he performed any sort of activity on your site (e.g. browsed a new page) between his latest activity and 24 hours after that, then he would not be logged out. You can change this time period to whatever suits your needs. Additionally, you can specify a page where the user will be redirected to when he gets logged out (e.g. a landing page to notify the user he has been logged out for inactivity). However, this is optional and you can make the user not be redirected when he gets automatically logged out. No redirection is the default setting.<\/p>",
+                "uid": "28037"
+            }
+        }
+    }
+}

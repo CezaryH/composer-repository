@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/gallery-only": {
+            "1.1": {
+                "name": "wordpress\/gallery-only",
+                "version": "1.1",
+                "version_normalized": "1.1.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/gallery-only.1.1.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>This plugin makes major alterations to the standard Wordpress Gallery. It creates a much more attractive gallery which can be controlled in a variety of ways and has a range of transitional effects built in.<\/p>\n\n<p>You can control the flow of the carousel so that it is either automatic or controlled via an index, next\/pre buttons, left and right keys on the keyboard.<\/p>\n\n<p>The are a range of other tweaks also available.<\/p>\n\n<p>It is possible to alter the height and width of the gallery area. It is highly recommended that you edit the images you wish to use in the gallery so that they all have the same height. This will give the best effect.<\/p>\n\n<p>You can also edit the CSS if you wish. The CSS elements that you are able to edit include:<\/p>\n\n<pre><code>- .go_gallery\n- .go_gallery ul\n- .go_gallery li\n- .moodular_itemList\n- .moodular_itemList li\n- .go_next\n- .go_prev\n- img.go_gallery_images\n- .go_loading_image\n- .go_clear\n<\/code><\/pre>\n\n<p>NB this plugin relies on Wordpress's bui",
+                "uid": "37212"
+            }
+        }
+    }
+}

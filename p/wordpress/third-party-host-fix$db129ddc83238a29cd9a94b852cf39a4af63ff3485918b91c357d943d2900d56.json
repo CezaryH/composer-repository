@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/third-party-host-fix": {
+            "1.1": {
+                "name": "wordpress\/third-party-host-fix",
+                "version": "1.1",
+                "version_normalized": "1.1.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/third-party-host-fix.1.1.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>Fixes Wordpress' inability to find the install directory when it's not in the root folder. This includes hosting services such as 5Gigs and Bytehost. This is a plugin workaround of the \"Cannot find Content directory (WP-Content)\" or \"Unable to locate WordPress Root directory. Installation Failed\" errors to get the following built in features working : Plugin Installation, Theme Installation and Wordpress AutoUpdate.<\/p>",
+                "uid": "79466"
+            }
+        }
+    }
+}

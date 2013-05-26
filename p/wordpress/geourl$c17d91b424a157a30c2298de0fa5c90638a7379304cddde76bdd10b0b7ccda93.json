@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/geourl": {
+            "0.1": {
+                "name": "wordpress\/geourl",
+                "version": "0.1",
+                "version_normalized": "0.1.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/geourl.0.1.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>This plugin allows you to insert the meta tags into your blog so that it can be located by <a href=\"http:\/\/geourl.org\/\">GeoURL<\/a>. It then invites you to ping the GeoURL server to get yourself added to the database.<\/p>\n\n<p>For interest's sake, the meta tags look like this:<\/p>\n\n<pre><code>&#60;meta name=\"ICBM\" content=\"51.50038, -0.15482\" \/&#62;\n&#60;meta name=\"DC.Title\" content=\"Your blog name\" \/&#62;\n<\/code><\/pre>\n\n<p>I thank Nikolay Kolev (kolev) whose MyOpenID plugin provided all the knowledge i needed to write this.<\/p>",
+                "uid": "94101"
+            }
+        }
+    }
+}

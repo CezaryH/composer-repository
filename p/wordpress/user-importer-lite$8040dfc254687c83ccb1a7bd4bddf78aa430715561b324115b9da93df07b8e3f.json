@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/user-importer-lite": {
+            "0.0.1": {
+                "name": "wordpress\/user-importer-lite",
+                "version": "0.0.1",
+                "version_normalized": "0.0.1.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/user-importer-lite.0.0.1.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>User Importer Lite Plugin that helps you to import the Users and their details from a CSV file with few clicks.<\/p>\n\n<ol>\n<li>Admin can import the data's from any csv file. <\/li>\n<li>Import unlimited user data's with few clicks.<\/li>\n<li>Help details button will help to get the user role id.<\/li>\n<\/ol>\n\n<p>Note:  Your CSV headers should have the separate columns for the following<\/p>\n\n<ul>\n<li>uil_user_name<\/li>\n<li>uil_first_name<\/li>\n<li>uil_last_name<\/li>\n<li>uil_nick_name<\/li>\n<li>uil_email_id<\/li>\n<li>uil_role<\/li>\n<li>uil_website_name<\/li>\n<li>uil_aim_id<\/li>\n<li>uil_yahoo_id<\/li>\n<li>uil_gtalk_id<\/li>\n<li>uil_bio_information<\/li>\n<\/ul>\n\n<p>Important Note: \n    Your CSV must have columns for \"uil_user_name\", \"uil_email_id\", \"uil_role\". These are mandatory field in default. Otherwise UIL Importer won't consider your CSV when you try to import.<\/p>\n\n<pre><code>    For quick response and reply please create issues in our [support](https:\/\/bitbucket.org\/cubesoftsolution\/user-impor",
+                "uid": "8514"
+            }
+        }
+    }
+}

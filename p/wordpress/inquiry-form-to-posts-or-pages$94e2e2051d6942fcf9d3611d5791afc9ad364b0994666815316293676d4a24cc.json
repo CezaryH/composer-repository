@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/inquiry-form-to-posts-or-pages": {
+            "1.0": {
+                "name": "wordpress\/inquiry-form-to-posts-or-pages",
+                "version": "1.0",
+                "version_normalized": "1.0.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/inquiry-form-to-posts-or-pages.1.0.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>This Simple Plugin will add an Inquiry form for a Post or page. Site Administrator will be allowed to customize this inquiry form as he\/she wants to show it to site visitors.\nThe plugin will support both short code and php code for adding the inquiry form in to your wordpress site.<\/p>\n\n<p>short code - [inquiry_form]\nphp code - [?php if (function_exists('inquiry_form')) echo inquiry_form();?]<\/p>\n\n<p>author's website : <a href=\"http:\/\/www.mclanka.com\/\" rel=\"nofollow\">http:\/\/www.mclanka.com\/<\/a><\/p>",
+                "uid": "27902"
+            }
+        }
+    }
+}

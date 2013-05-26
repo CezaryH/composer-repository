@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/bbhttp2https": {
+            "1.0": {
+                "name": "wordpress\/bbhttp2https",
+                "version": "1.0",
+                "version_normalized": "1.0.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/bbhttp2https.1.0.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>bbHTTP2HTTPS is a tiny plugin that updates all active(!) WordPress Mu blogs in one installation to use https instead\nhttp. It does NOT change the guid or post content with regards to the links used in there. So you might still \nhave to change some links in your content after switching from http to https. As always, first make a backup of\nyour WordPress Mu install before using this plugin. This plugin might working in previous versions of WordPress Mu \nas well, but this has not been tested. Please contact me if you have verified the plugin on a pre 2.9.2 WordPress Mu install.<\/p>",
+                "uid": "63804"
+            }
+        }
+    }
+}

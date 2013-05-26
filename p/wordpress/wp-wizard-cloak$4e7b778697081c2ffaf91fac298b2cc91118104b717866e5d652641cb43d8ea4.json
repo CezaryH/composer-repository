@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/wp-wizard-cloak": {
+            "1.0": {
+                "name": "wordpress\/wp-wizard-cloak",
+                "version": "1.0",
+                "version_normalized": "1.0.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/wp-wizard-cloak.1.0.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<h4>Shorten your links. Turn long URLs into your-domain.com\/short-url. Great for affiliate marketers who want to cloak their links, or anyone else who wants to have pretty URLs and track their outbound traffic.<\/h4>\n\n<p>Here's how it works:<\/p>\n\n<p>1) Click on 'Create Link' in the WP Wizard Cloak section of WordPress admin panel.<\/p>\n\n<p>2) Enter a name for the link (for management purposes) and a 'slug' name for the URL (for example, <a href=\"http:\/\/www.your-domain.com\/slug-name\" rel=\"nofollow\">http:\/\/www.your-domain.com\/slug-name<\/a>).<\/p>\n\n<p>3) Enter the destination URL for the cloaked link, i.e. <a href=\"http:\/\/www.some-external-url.com\/some-page\" rel=\"nofollow\">http:\/\/www.some-external-url.com\/some-page<\/a><\/p>\n\n<p>4) Click 'Save Link.'<\/p>\n\n<p><strong>After that, you can use the WP Wizard Cloak-powered cloaked link everywhere you would have used the original URL.<\/strong><\/p>\n\n<p>WP Wizard Cloak will track clicks on your links, providing a detailed summary and information on ind",
+                "uid": "25124"
+            }
+        }
+    }
+}

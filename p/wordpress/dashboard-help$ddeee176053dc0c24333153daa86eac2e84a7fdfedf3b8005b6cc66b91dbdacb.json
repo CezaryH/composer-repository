@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/dashboard-help": {
+            "1.0": {
+                "name": "wordpress\/dashboard-help",
+                "version": "1.0",
+                "version_normalized": "1.0.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/dashboard-help.1.0.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>Every wordpress install is unique in some way. Administrators need a way to deliver site specific recources\/helps to the user. This plugin accomplishes this by adding a help button to the dashboard. When the help button is clicked the customizable help menu appears. Users can click the button again to hide the help menu.<\/p>",
+                "uid": "45702"
+            }
+        }
+    }
+}

@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/draft-notify": {
+            "1.2": {
+                "name": "wordpress\/draft-notify",
+                "version": "1.2",
+                "version_normalized": "1.2.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/draft-notify.1.2.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>I run multiple blogs and have the ability for people to sign up and write content for me. I was disappointed that WordPress does not have anything built it to alert me with an email notification when a new author writes something. I don\ufffdt log into the sites unless I have to, so new content may sit for a while without being noticed. I did find 1 plugin that would accomplish the email, but it was buggy. So I\ufffdve written my own and am willing to share it with you. Specifically this plugin is designed to email you when an author saves a draft. Now there are some additional settings, but check them out below. As always, suggestions are welcome, just leave them in the comments along with any bugs you might encounter.<\/p>\n\n<h4>Draft Notify Features<\/h4>\n\n<ul>\n<li>Emails when a Draft is saved.<\/li>\n<li>Can email a specific email address or all users above a certain access level.<\/li>\n<li>Can email out whenever a revision is saved, or it can ignore revisions and only email when the first ",
+                "uid": "10650"
+            }
+        }
+    }
+}

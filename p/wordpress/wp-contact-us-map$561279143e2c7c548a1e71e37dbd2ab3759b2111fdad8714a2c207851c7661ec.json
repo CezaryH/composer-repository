@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/wp-contact-us-map": {
+            "1.0": {
+                "name": "wordpress\/wp-contact-us-map",
+                "version": "1.0",
+                "version_normalized": "1.0.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/wp-contact-us-map.1.0.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>This plugin is about the simplest way to get a Google Map, displayed with your customized icon\/marker. It provides a simple code that you can add into any post\/page of your WordPress website to display the map, such as [WP_Contact_Us_Map id=\"WP_Contact_Us_Map_1\" zoom=\"4\" lat=\"-26.8369\" lon=\"147.0524\" w=\"600\" h=\"450\" icon=\"\" popinfo=\"\" popinfodefaultopen='1']. You can change the Map id to allow display more maps displayed on the same page. That \"lat\" and \"lon\" means the coordinates of the position you want to be marked on the map. In the \"icon\" filed you can fill in a customized icon by adding whatever URL of that icon.<\/p>\n\n<p>No Google Maps API, JavaScript downloads, etc. are required. You can visit <a href=\"http:\/\/www.joomlacreator.com\/downloads\/wordpress-extensions\/wp-contact-us-map\" rel=\"nofollow\">http:\/\/www.joomlacreator.com\/downloads\/wordpress-extensions\/wp-contact-us-map<\/a> for more information.<\/p>",
+                "uid": "14584"
+            }
+        }
+    }
+}

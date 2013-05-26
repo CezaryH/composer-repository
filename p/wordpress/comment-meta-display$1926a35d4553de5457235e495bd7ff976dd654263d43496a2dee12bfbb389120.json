@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/comment-meta-display": {
+            "1.0": {
+                "name": "wordpress\/comment-meta-display",
+                "version": "1.0",
+                "version_normalized": "1.0.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/comment-meta-display.1.0.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>View comment meta beneath the comment on the admin edit screen.<\/p>\n\n<p>Note that this is display-only and doesn't add or save comment meta.<\/p>",
+                "uid": "40932"
+            }
+        }
+    }
+}

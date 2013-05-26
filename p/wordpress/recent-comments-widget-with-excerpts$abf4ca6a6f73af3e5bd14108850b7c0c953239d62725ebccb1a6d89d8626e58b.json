@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/recent-comments-widget-with-excerpts": {
+            "0.11": {
+                "name": "wordpress\/recent-comments-widget-with-excerpts",
+                "version": "0.11",
+                "version_normalized": "0.11.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/recent-comments-widget-with-excerpts.0.111017.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>This plugin creates a widget similar to the default recent comments widget. Instead of the format \"username on post title,\" the widget will display \"username said comment excerpt.\"<\/p>\n\n<p>Choose whether or not to include admin user comments.<\/p>\n\n<p>Customize the character length of the comment excerpt.<\/p>",
+                "uid": "58487"
+            }
+        }
+    }
+}

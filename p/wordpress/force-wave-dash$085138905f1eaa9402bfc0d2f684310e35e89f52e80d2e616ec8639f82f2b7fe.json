@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/force-wave-dash": {
+            "1.0.0": {
+                "name": "wordpress\/force-wave-dash",
+                "version": "1.0.0",
+                "version_normalized": "1.0.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/force-wave-dash.1.0.0.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p><a href=\"http:\/\/wppluginsj.sourceforge.jp\/force-wave-dash\/\">\u65e5\u672c\u8a9e\u3067\u8aad\u3080<\/a><\/p>\n\n<p>When using Unicode in Japanese, there is \"WAVE DASH Problem\", \"FULLWIDTH HYPHEN Problem\":\na problem which similar-glyph but different-code-character are used in Unicode texts.\nBelow are invalid (left) and prefered (right) pairs:<\/p>\n\n<ul>\n<li>\"\uff5e\" U+FF5E FULLWIDTH TILD         -&#62; \"\u301c\" U+301C WAVE DASH<\/li>\n<li>\"\u2015\" U+2015 HORIZONTAL BAR         -&#62; \"&#8212;\" U+2014 EM DASH<\/li>\n<li>\"\uff0d\" U+FF0D FULLWIDTH HYPHEN-MINUS -&#62; \"&#8722;\" U+2212 MINUS SIGN<\/li>\n<li>\"\uffe0\" U+FFE0 FULLWIDTH CENT SIGN    -&#62; \"&#162;\" U+00A2 CENT SIGN<\/li>\n<li>\"\uffe1\" U+FFE1 FULLWIDTH POUND SIGN   -&#62; \"&#163;\" U+00A3 POUND SIGN<\/li>\n<li>\"\uffe2\" U+FFE2 FULLWIDTH NOT SIGN     -&#62; \"&#172;\" U+00AC NOT SIGN<\/li>\n<\/ul>\n\n<p>For example, the punctuation called wave dash \"\u301c\" is used for various purposes:<\/p>\n\n<ul>\n<li>growing the end of the word (e.g. \"\u3048\u301c\")<\/li>\n<li>showing range between two words (e.g. \"\u6771",
+                "uid": "75720"
+            }
+        }
+    }
+}

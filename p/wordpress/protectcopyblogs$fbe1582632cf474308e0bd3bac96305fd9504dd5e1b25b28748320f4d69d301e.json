@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/protectcopyblogs": {
+            "2.1": {
+                "name": "wordpress\/protectcopyblogs",
+                "version": "2.1",
+                "version_normalized": "2.1.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/protectcopyblogs.2.1.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>This plugin is alternative for wp-preventcopyblogs plugin.<\/p>\n\n<p>If you have installed wp-preventcopyblogs or wp-Zoom-CopyProtect plugins earlier, you must deactivate them and then use this plugin.All development and support will be provided only for this plugin.<\/p>\n\n<p>This plugin can,<\/p>\n\n<p>1.Track the visitors who try to copy your content.<\/p>\n\n<p>2.Record the ip of the user who tries to do fraudulent copy with their landing url of your site and referral url.This can help you to do necessary measures if you notice something bad.<\/p>\n\n<p>3.Enable Message displayed to your user upon user&#8217;s choice.<\/p>\n\n<p>4.Disable Selection of you text and Right Click for users depending on the option.<\/p>\n\n<p>In version 2.1,<\/p>\n\n<p>Disabling of right click without alert option is allowed,depending on user's choice.<\/p>",
+                "uid": "57085"
+            }
+        }
+    }
+}

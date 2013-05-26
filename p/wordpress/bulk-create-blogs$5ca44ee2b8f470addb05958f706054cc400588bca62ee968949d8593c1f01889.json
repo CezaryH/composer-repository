@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/bulk-create-blogs": {
+            "2.0": {
+                "name": "wordpress\/bulk-create-blogs",
+                "version": "2.0",
+                "version_normalized": "2.0.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/bulk-create-blogs.2.0.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>This WPMU plugin creates under the Site Admin menu called \"Bulk Create Blogs\" where you can bulk create\/add users to blogs.<\/p>\n\n<p>To use the plugin you must create correctly formatted data. The plugin takes\nCSV formatted data where each row contains the following data.<\/p>\n\n<pre><code>domain, user_id, blog_title, blog_topic,\n<\/code><\/pre>\n\n<p>Each of these fields is described below.<\/p>\n\n<ul>\n<li>blog_domain (Mandatory): the domain name of the blog, this should only contain alphanumeric characters and be in all lowercase. If the blog domain is empty then users will be added to the site's root blog.<\/li>\n<li>user_name (Mandatory): the login id of the user to be added to the blog.<\/li>\n<li>blog_title (Optional): the title of the blog.<\/li>\n<li>blog_topic (Optional): the name of the blog topic that this blog will be categorised under. These topics are setup under the 'Blog Topic Management' tab. A blog_title must be chosen if you wish to set the blog topic. (Requires cets_blog_topics",
+                "uid": "65719"
+            }
+        }
+    }
+}

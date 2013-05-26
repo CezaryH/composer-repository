@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/wp-ssl": {
+            "1.0.0": {
+                "name": "wordpress\/wp-ssl",
+                "version": "1.0.0",
+                "version_normalized": "1.0.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/wp-ssl.1.0.0.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>Helps you make the site available via https and http with no effort. Just install and activate\nand say good bye to SSL errors without forcing users to access via http or https only.<\/p>",
+                "uid": "9479"
+            }
+        }
+    }
+}

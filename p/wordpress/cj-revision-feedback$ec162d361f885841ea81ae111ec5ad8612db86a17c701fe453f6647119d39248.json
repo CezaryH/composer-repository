@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/cj-revision-feedback": {
+            "1.0.2": {
+                "name": "wordpress\/cj-revision-feedback",
+                "version": "1.0.2",
+                "version_normalized": "1.0.2.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/cj-revision-feedback.1.0.2.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>This plugin provides the ability to add comment blocks mid post. The use case for this is: WP is used to show clients creative documents, a single post is dedicated to a single project. Each revision is appended to the post. Adding in the CJ Revision Feedback tag will allow clients to provide feedback for a specific revision. Admin users can mark the feedback as completed and approved while adding sub-comments, and close out feedback on a revision. The plugin includes multiple customizable elements including: look and feel, email notifications, and post-specific email notifications.<\/p>\n\n<p>Developed on version 2.8.6 so any previous versions haven't been tested<\/p>",
+                "uid": "73822"
+            }
+        }
+    }
+}

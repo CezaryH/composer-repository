@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/remove-posts-from-admin": {
+            "1": {
+                "name": "wordpress\/remove-posts-from-admin",
+                "version": "1",
+                "version_normalized": "1.0.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/remove-posts-from-admin.1.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>This wil not remove posts functionality but remove the link from the Admin menu. \nUse it when using custom post types and not the standard posts<\/p>\n\n<p>You can find the plugin home page (and leave comments) <a href=\"http:\/\/reciprocity.be\/cms-menu\/\">here<\/a>.<\/p>",
+                "uid": "57694"
+            }
+        }
+    }
+}

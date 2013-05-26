@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/reactivate-theme": {
+            "1.0": {
+                "name": "wordpress\/reactivate-theme",
+                "version": "1.0",
+                "version_normalized": "1.0.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/reactivate-theme.1.0.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>WordPress plugin that can reactivate the current theme.<\/p>\n\n<p>Useful primarily for helping with development, the plugin will allow you to swiftly trigger code that is hooked into the 'after_switch_theme' and 'switch_theme' actions. Before, you had to switch to an alternative theme and back to the original, now you only need to find Tools &#62; Reactivate Theme.<\/p>",
+                "uid": "10647"
+            }
+        }
+    }
+}

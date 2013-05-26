@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/vimeo-html5-shortcode": {
+            "1.0": {
+                "name": "wordpress\/vimeo-html5-shortcode",
+                "version": "1.0",
+                "version_normalized": "1.0.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/vimeo-html5-shortcode.1.0.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>Allows the user to embed Vimeo movie clips by entering a shortcode (<code>[vimeo  ]<\/code>) into the post area. Vimeo's options are supported as short code attributes.<\/p>",
+                "uid": "63440"
+            }
+        }
+    }
+}

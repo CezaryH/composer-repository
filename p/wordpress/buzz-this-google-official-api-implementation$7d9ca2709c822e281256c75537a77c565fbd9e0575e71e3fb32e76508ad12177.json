@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/buzz-this-google-official-api-implementation": {
+            "1.0": {
+                "name": "wordpress\/buzz-this-google-official-api-implementation",
+                "version": "1.0",
+                "version_normalized": "1.0.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/buzz-this-google-official-api-implementation.1.0.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>This plugin displays Buzz this button and you can set all allowed options (counter, language, style etc) inside plugin administration<\/p>\n\n<p>Features:<\/p>\n\n<p>All this data will be autoamticly set \n* data-message - The message or annotation that accompanies the Buzz post. By default, this is blank.\n* data-url - The destination URL that will be posted to Buzz. Omitting this parameter will cause this value to default to the current page. This should almost always be set when used on index or summary pages that contain multiple content entries.\n* data-imageurl  -  This is the URL of an image to attach to the Buzz post. A thumbnail of the image will be displayed with the post.\n* data-locale   -  The language code for the locale to use when displaying the UI for posting to Buzz. This defaults to the value of the Accept-Language HTTP header that is sent by the visitor\u0092s browser.\n* data-button-style\n     normal-count\n     small-count\n     normal-button\n     small-button\n     link<\/p>",
+                "uid": "70363"
+            }
+        }
+    }
+}

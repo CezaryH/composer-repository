@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/mw-auth": {
+            "1.1": {
+                "name": "wordpress\/mw-auth",
+                "version": "1.1",
+                "version_normalized": "1.1.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/mw-auth.1.1.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>This plugin allows only users to authenticate to WordPress.\n* Subscriber can't see dashboad.\n* Subscriber can't see Admin Bar.\n* Add 'Disallow: \/' in robots.txt<\/p>\n\n<p>\u3053\u306e\u30d7\u30e9\u30b0\u30a4\u30f3\u306fWordPress\u3067\u8a8d\u8a3c\u3055\u308c\u305f\u30e6\u30fc\u30b6\u30fc\u306e\u307f\u8a31\u53ef\u3057\u307e\u3059\u3002\n\u30fb\u300c\u8cfc\u8aad\u8005\u300d\u306f\u30c0\u30c3\u30b7\u30e5\u30dc\u30fc\u30c9\u306b\u5165\u308c\u306a\u3044\u3088\u3046\u306b\u3057\u307e\u3059\u3002\n\u30fb\u300c\u8cfc\u8aad\u8005\u300d\u306b\u306f\u7ba1\u7406\u30d0\u30fc\u3092\u8868\u793a\u3057\u307e\u305b\u3093\u3002\n\u30fbrobots.txt \u306b 'Disallow: \/' \u3092\u8ffd\u52a0\u3057\u307e\u3059\u3002<\/p>",
+                "uid": "8270"
+            }
+        }
+    }
+}

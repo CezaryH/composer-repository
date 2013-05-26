@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/graphicmail-wp-plugin": {
+            "1.2": {
+                "name": "wordpress\/graphicmail-wp-plugin",
+                "version": "1.2",
+                "version_normalized": "1.2.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/graphicmail-wp-plugin.1.2.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>This GraphicMail plugin allows you to easily add a newsletter signup form to your Wordpress 2.3 (or higher) website, to allow subsciptions to your GraphicMail hosted mailing lists. Please note: You'll need the OpenSSL PHP extension to be installed on the server that hosts your wordpress.<\/p>",
+                "uid": "28903"
+            }
+        }
+    }
+}

@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/one-click-child-theme": {
+            "1.2": {
+                "name": "wordpress\/one-click-child-theme",
+                "version": "1.2",
+                "version_normalized": "1.2.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/one-click-child-theme.1.2.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p><a href=\"http:\/\/terrychay.com\/wordpress-plugins\/one-click-child-theme\">Plugin homepage<\/a>.<\/p>\n\n<p>Useful for shared hosts, this allows you to easily create child themes from any\ntheme just by clicking.<\/p>\n\n<p>In the current version of WordPress, you shouldn&#8217;t modify CSS of any downloaded themes\nbecause if you update the theme, your changes will be destroyed. What you should\ninstead do is create a child theme and edit the CSS there, this way updates to the\nparent theme will be inherited instead of destroy your changes. The problem is that\ncurrently the only way to child theme something is edit files on the filesystem. This\nis non-intuitive for shared-hosting sites with one-click WordPress installs (it\nusually involves a &#8220;shell account&#8221; or learning how to use FTP).<\/p>\n\n<p>This attempts to get around that issue, by adding a button to the themes page to allow\nyou to child theme the page. (It&#8217;s not really one-click, though.)<\/p>\n\n<p>Inspired by @janeforshort&#",
+                "uid": "40844"
+            }
+        }
+    }
+}

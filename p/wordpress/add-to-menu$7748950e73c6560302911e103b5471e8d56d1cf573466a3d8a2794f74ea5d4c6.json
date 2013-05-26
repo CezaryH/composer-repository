@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/add-to-menu": {
+            "0.1.0": {
+                "name": "wordpress\/add-to-menu",
+                "version": "0.1.0",
+                "version_normalized": "0.1.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/add-to-menu.0.1.0.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>Quickly add Pages, Posts, or any custom post type posts to any of your menus while you are editing the post. Check the checkbox for the menu to add a menu item to, save, and then go to the admin menu page to see the new menu item.<\/p>\n\n<p>On the edit page, down along the side is a 'Add to menu' box that has a list of the menus you have setup with checkboxes. If the post has already been added, then the checkbox is checked and disabled. If it has not been added to the menu, you can check the checkbox and save the post to add it. Afterwards, go to the Menu admin page to move (if wish) and publish the new menu item.<\/p>\n\n<p>You can control which post types get the box by going to the 'Settings &#62; Add to menu' page.<\/p>\n\n<p>If the post type has hierarchal structure (such as parent Pages), this will try to place the new menu item underneath a menu item that links to an ancestor post (if menu item exists).<\/p>",
+                "uid": "55867"
+            }
+        }
+    }
+}

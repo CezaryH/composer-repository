@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/clima": {
+            "7": {
+                "name": "wordpress\/clima",
+                "version": "7",
+                "version_normalized": "7.0.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/clima.7.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>Este plugin te permite traer los datos del clima de yahoo clima, vas a levantar la temperatura pudiendo eleigir entre\nCelcius o farenheit, y la imagen asociada a segun como este el tiempo, lluvia, despejado, nublado, etc. Podes mostrar esto mediante\nun widget o con la funcion <code>&#60;?php show_clima();?&#62;<\/code> A&#241;adido recientemente, podes traer por separado los valores, de temperatura, humedad, maxima, minima, etc. Usando  funciones como <code>&#60;?php show_clima(humedad);?&#62;<\/code> mas info en seccion instalacion.<\/p>\n\n<p>This plugin allows you to bring data from yahoo weather climate, you can raise the temperature to between eleigir\nCelsius or Fahrenheit, and the image associated with depending on how this time, rain, clouds, cloudy, etc. You can show by\n     or use the widget. You can show temerature, humydity, wind direction, speed and more using functions like\n     more info in installation section.<\/p>",
+                "uid": "78001"
+            }
+        }
+    }
+}

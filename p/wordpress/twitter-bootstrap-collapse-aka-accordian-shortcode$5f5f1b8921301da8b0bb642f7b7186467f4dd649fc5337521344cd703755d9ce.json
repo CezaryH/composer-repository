@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/twitter-bootstrap-collapse-aka-accordian-shortcode": {
+            "1.0": {
+                "name": "wordpress\/twitter-bootstrap-collapse-aka-accordian-shortcode",
+                "version": "1.0",
+                "version_normalized": "1.0.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/twitter-bootstrap-collapse-aka-accordian-shortcode.1.0.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>This plugin adds [collapse_group] and [collapse] shortcode to generate twitter bootstrap's collapse aka accordian.<\/p>\n\n<p>Usage:<\/p>\n\n<pre><code>[collapse_group id=\"optional_group_1\" class=\"optional_class\"]\n    [collapse title=\"my heading1\" id=\"optional_id\" open=\"y\/n\"]some text[\/collapse]\n    [collapse title=\"my heading2\" id=\"optional_id\" open=\"y\/n\"]some text[\/collapse]\n[\/collapse_group]\n<\/code><\/pre>\n\n<p>See output of this code in Screenshots<\/p>",
+                "uid": "13419"
+            }
+        }
+    }
+}

@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/weekday-stats": {
+            "0.1": {
+                "name": "wordpress\/weekday-stats",
+                "version": "0.1",
+                "version_normalized": "0.1.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/weekday-stats.0.1.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>To display WeekdayStats, add <code>&#60;?php weekday_stats_posts(400, 200); ?&#62;<\/code> or <code>&#60;?php weekday_stats_comments(400, 200); ?&#62;<\/code> in your template where 400 and 200 are the width and height respectively.<\/p>",
+                "uid": "112486"
+            }
+        }
+    }
+}

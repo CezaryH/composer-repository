@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/recipe-finder": {
+            "1.10": {
+                "name": "wordpress\/recipe-finder",
+                "version": "1.10",
+                "version_normalized": "1.10.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/recipe-finder.1.10.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>The plugin 'Recipe Finder' was created to easily search and display recipes from two major recipe search engines: <a href=\"http:\/\/recipe-finder.com\">Recipe-Finder.com<\/a> (English) and  <a href=\"http:\/\/povaru.com\">Povaru.com<\/a> (Russian). The search index contains about a million recipes from the most trusted cooking portals and recipe databases. The sidebar widget supports skins and is easily configurable to fit any custom blog design.<\/p>",
+                "uid": "53946"
+            }
+        }
+    }
+}

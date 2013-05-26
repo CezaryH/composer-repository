@@ -1,0 +1,57 @@
+{
+    "packages": {
+        "wordpress\/feedburner-circulation": {
+            "1.0.1": {
+                "name": "wordpress\/feedburner-circulation",
+                "version": "1.0.1",
+                "version_normalized": "1.0.1.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/feedburner-circulation.1.0.1.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>Returns a database stored Feedburner Circulation Count in plain text or number format. Reduces the Feedburner API calls by only updating the circulation count hourly and serving a database cached result in between. The account you're attempting to get a \"Circulation Count\" from must have the awareness API turned on.<\/p>\n\n<p>You can use the function <code>&#60;?php circulation_count( $ids, $default, $echo, $format ); ?&#62;<\/code> in your theme files. The following is an explanation of the parameters the function excepts.<\/p>\n\n<ul>\n<li>@param array $ids an array of Feedburner Feed IDs<\/li>\n<li>@param int $default your fallback circulation count during a zero result: default 0<\/li>\n<li>@param bool $echo return or echo: default true (echo)<\/li>\n<li>@param bool $format return as plain integer or number formatted: default true (number format)<\/li>\n<\/ul>\n\n<p>For example, if I was Psdtuts+ and wanted to echo out a circulation count that had a fallback or default circulation count in the un",
+                "uid": "86253"
+            },
+            "1.1": {
+                "name": "wordpress\/feedburner-circulation",
+                "version": "1.1",
+                "version_normalized": "1.1.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/feedburner-circulation.1.1.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>Returns a database stored Feedburner Circulation Count in plain text or number format. Reduces the Feedburner API calls by only updating the circulation count hourly and serving a database cached result in between. The account you're attempting to get a \"Circulation Count\" from must have the awareness API turned on.<\/p>\n\n<p>You can use the function <code>&#60;?php circulation_count( $ids, $default, $echo, $format ); ?&#62;<\/code> in your theme files. The following is an explanation of the parameters the function excepts.<\/p>\n\n<ul>\n<li>@param array $ids an array of Feedburner Feed IDs<\/li>\n<li>@param int $default your fallback circulation count during a zero result: default 0<\/li>\n<li>@param bool $echo return or echo: default true (echo)<\/li>\n<li>@param bool $format return as plain integer or number formatted: default true (number format)<\/li>\n<\/ul>\n\n<p>For example, if I was Psdtuts+ and wanted to echo out a circulation count that had a fallback or default circulation count in the un",
+                "uid": "86252"
+            },
+            "1.2": {
+                "name": "wordpress\/feedburner-circulation",
+                "version": "1.2",
+                "version_normalized": "1.2.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/feedburner-circulation.1.2.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>Returns a database stored Feedburner Circulation Count in plain text or number format. Reduces the Feedburner API calls by only updating the circulation count hourly and serving a database cached result in between. The account you're attempting to get a \"Circulation Count\" from must have the awareness API turned on.<\/p>\n\n<p>You can use the function <code>&#60;?php circulation_count( $ids, $default, $echo, $format ); ?&#62;<\/code> in your theme files. The following is an explanation of the parameters the function excepts.<\/p>\n\n<ul>\n<li>@param array $ids an array of Feedburner Feed IDs<\/li>\n<li>@param int $default your fallback circulation count during a zero result: default 0<\/li>\n<li>@param bool $echo return or echo: default true (echo)<\/li>\n<li>@param bool $format return as plain integer or number formatted: default true (number format)<\/li>\n<\/ul>\n\n<p>For example, if I was Psdtuts+ and wanted to echo out a circulation count that had a fallback or default circulation count in the un",
+                "uid": "86251"
+            }
+        }
+    }
+}

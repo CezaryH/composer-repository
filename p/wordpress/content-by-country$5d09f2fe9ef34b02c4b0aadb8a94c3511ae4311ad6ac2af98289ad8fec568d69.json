@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/content-by-country": {
+            "1.00": {
+                "name": "wordpress\/content-by-country",
+                "version": "1.00",
+                "version_normalized": "1.00.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/content-by-country.1.00.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>Using [cbc][\/cbc] tags, you can set content to be included or excluded when a visitor views a post, depending on their\nIP's country of origin.<\/p>\n\n<p>Here is a typical example of the [cbc][\/cbc] tags being used:<\/p>\n\n<p>[cbc:+usa:+gb]My example content here.[\/cbc]<\/p>\n\n<p>Each country code used is in the tags is separated by a : and followed by either a + (to include a country) or - (to exclude a country) from\nviewing the content. The example above would only display the content between the tags to visitors with an IP address from the\nUSA or the UK.<\/p>",
+                "uid": "101869"
+            }
+        }
+    }
+}

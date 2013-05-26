@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/technorati-tag-cloud-for-wordpress-23": {
+            "1.2": {
+                "name": "wordpress\/technorati-tag-cloud-for-wordpress-23",
+                "version": "1.2",
+                "version_normalized": "1.2.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/technorati-tag-cloud-for-wordpress-23.1.2.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>This plugin allows the user to display a Technorati tag cloud instead of the native tags in WordPress 2.3. It uses WordPress 2.3's native tagging\/taxonomy system. The formatting of the output is the same as of the native tag cloud system: <code>wp_techtag_cloud();<\/code>.<\/p>\n\n<p>Update: The title tag in the links have been updated to reflect the name and not the number of articles with the tag.<\/p>",
+                "uid": "109104"
+            }
+        }
+    }
+}

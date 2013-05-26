@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/tags-in-feeds": {
+            "0.1": {
+                "name": "wordpress\/tags-in-feeds",
+                "version": "0.1",
+                "version_normalized": "0.1.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/tags-in-feeds.0.1.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>This is a simple plugin meant to make the crap dumped in rss2\/atom\nfeeds a little more complete. I take care choosing the tags on my\nposts; I want them to show up in the feeds.<\/p>\n\n<p>A more thorough plugin would allow you to customize which things\nshowed up in your feeds -- possibly categories, possibly tags, who\nknows what else?<\/p>\n\n<p>N.B. this is a total hack that takes advantage of how RSS\/Atom is\nimplemented in WP 2.8.4 or whatever I'm running. Basically, intercept\nthe calls that indicate what kind of feed it is, and then filter the\ncontent to look like it has a \"Filed under\" block at the top. I expect\nthis plugin to stop working arbitrarily soon, at which point your\nWordpress install will probably start behaving extremely badly.<\/p>\n\n<p>N.B. I couldn't find anything to intercept that would tell me if it\nwas \"just\" RSS (RSS 0.9), so this functionality probably won't work on\nthose feeds.<\/p>\n\n<p>If you haven't yet gotten the idea that this is extremely sloppy work,\nREAD AGAIN",
+                "uid": "78103"
+            }
+        }
+    }
+}

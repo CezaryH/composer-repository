@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/bp-system-report": {
+            "0.1": {
+                "name": "wordpress\/bp-system-report",
+                "version": "0.1",
+                "version_normalized": "0.1.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/bp-system-report.0.1.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>BP System Report records regular summaries of statistics related to your BuddyPress installation. You can then compare any two snapshots using the built-in comparison tool, which calculates percentage differences. The information currently gathered by the plugin:<\/p>\n\n<ul>\n<li><p>Members: total number, number active during report interval, percent active, total friendship connections, average friendships per member<\/p><\/li>\n<li><p>Groups: total number, number active, percent active, total group memberships, average group membership<\/p><\/li>\n<li><p>Public\/private\/hidden groups: total number, number active, percent active, total membership, average membership<\/p><\/li>\n<li><p>Blogs: total number, number active, percent active<\/p><\/li>\n<\/ul>\n\n<p>Future versions of this plugin will include:\n- more analytical data collected\n- CSV export\n- better admin control over report frequency<\/p>",
+                "uid": "69099"
+            }
+        }
+    }
+}

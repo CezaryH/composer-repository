@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/wp-post-encode": {
+            "1.0": {
+                "name": "wordpress\/wp-post-encode",
+                "version": "1.0",
+                "version_normalized": "1.0.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/wp-post-encode.1.0.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>Easily include raw markup languages (HTML, CSS, PHP, etc.) in posts using custom quicktags.  No need to encode, the filter does it\nfor you.  Creates convenient \"encode\" buttons for post authors in the HTML editor.<\/p>",
+                "uid": "66583"
+            }
+        }
+    }
+}

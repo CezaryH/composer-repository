@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/optional-content": {
+            "1.1": {
+                "name": "wordpress\/optional-content",
+                "version": "1.1",
+                "version_normalized": "1.1.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/optional-content.1.1.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>This plugin allows you to show or hide content on a page or post based on a simple shortcode. You don't need PHP knowledge, or a PHP enabling plugin. Simply use a button on the WYSIWYG editor to select under what condition you would like the content displayed. Fast, simple, and safe. Keep your template files clean by removing your PHP logic. Now allows shortcodes inside of the conditional content.<\/p>\n\n<p>Display content based on the following conditions:<\/p>\n\n<ul>\n<li>Manual on\/off setting<\/li>\n<li>Before, after, or between specific times (repeated daily)<\/li>\n<li>Before, after or between specific dates<\/li>\n<li>Based on if the visitor is logged in<\/li>\n<li>Based on a specific user (by user id) or multiple users (by user id)<\/li>\n<li>Based on GET variables (variables passed on the URL in the form of <a href=\"http:\/\/www.example.com\/about\/?test=value\" rel=\"nofollow\">http:\/\/www.example.com\/about\/?test=value<\/a> where the variable is 'test')<\/li>\n<li>Based on POST variables (variables ",
+                "uid": "72112"
+            }
+        }
+    }
+}

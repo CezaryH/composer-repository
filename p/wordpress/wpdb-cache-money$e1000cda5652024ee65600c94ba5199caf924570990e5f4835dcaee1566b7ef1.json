@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/wpdb-cache-money": {
+            "0.35": {
+                "name": "wordpress\/wpdb-cache-money",
+                "version": "0.35",
+                "version_normalized": "0.35.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/wpdb-cache-money.0.35.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>Cache Money stores all database result sets on the filesystem as serialized data, by using the oft-neglectged wp-content\/db.php to extend the normal $wpdb class.  Result sets will be updated as needed on a user by user basis when they do actions that perform update queries.<\/p>\n\n<p>Please note that this is not a full scale page cache, like WP-Cache or WP Super Cache, although this will work just fine in conjunction.  Cache Money is meant for sites with constantly changing content, where a full cache may not be suitable.<\/p>\n\n<p>Tested with Wordpress and Wordpress MU 2.8.0 ~ 3.1 \nRequires PHP 5, like all good PHP apps.<\/p>",
+                "uid": "80049"
+            }
+        }
+    }
+}

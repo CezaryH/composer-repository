@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/spidersquash": {
+            "0.6": {
+                "name": "wordpress\/spidersquash",
+                "version": "0.6",
+                "version_normalized": "0.6.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/spidersquash.0.6.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>SpiderSquash detects and blocks unauthorized automated access to your site by spiders, bots, crawlers, rippers, and scrapers.  These malicious clients are used to post spam, steal content, hack accounts, and harvest email addresses for spamming.<\/p>\n\n<p>SpiderSquash protects your content, your users, and your site.<\/p>\n\n<p>SpiderSquash uses advanced statistical analysis techniques and unique client fingerprinting technology to detect bad bots.  When a spider is squashed, the IP address and fingerprint of that client is added to our global database, and it is blocked across the entire network of sites protected by SpiderSquash.<\/p>\n\n<p>In order to access the SpiderSquash service, you must have a registered account.  Registration is free, and the SpiderSquash service is free for most small websites.<\/p>\n\n<p><a href=\"http:\/\/spidersquash.com\/useradd.php\">Subscribe to SpiderSquash<\/a><\/p>",
+                "uid": "69242"
+            }
+        }
+    }
+}

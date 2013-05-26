@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/wp-compress-html": {
+            "1.0": {
+                "name": "wordpress\/wp-compress-html",
+                "version": "1.0",
+                "version_normalized": "1.0.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/wp-compress-html.1.0.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>Coders like to use spaces, carriage returns, new lines, tabs and indentation to make their HTML documents human-readable. This helps collaboration and debugging of the HTML document. However, all these features add to the filesize of the resultant HTML document. This structural information is totally ignored by browsers.<\/p>\n\n<p>This plugin removes spaces, carriage returns, new lines and tabs from your HTML document. You can therefore freely use these features while writing HTML, safe in the knowledge that it will not bloat the final HTML document.<\/p>\n\n<p>With this plugin you can also mark areas of your HTML template where you want to preserve white space - for example - in areas containing Javascript which needs carriage returns and new lines to function correctly.<\/p>\n\n<p>HTML comments are not affected by this plugin.<\/p>",
+                "uid": "103473"
+            }
+        }
+    }
+}

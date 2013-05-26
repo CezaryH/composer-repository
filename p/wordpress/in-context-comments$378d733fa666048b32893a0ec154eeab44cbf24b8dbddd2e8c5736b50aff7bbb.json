@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/in-context-comments": {
+            "0.8.2": {
+                "name": "wordpress\/in-context-comments",
+                "version": "0.8.2",
+                "version_normalized": "0.8.2.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/in-context-comments.0.8.2.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>Comments are extremely critical for the success of a blog. All existing blog platform and commenting plugins only let readers add comments all the way at the bottom of a post, out of the context of the content in the post. When you write a long blog post with, say, 10 paragraphs, and readers are commenting on a particular statement or expression in paragraph 3, they have to scroll back and forth to read the context to figure out what the comments are about. The \"In-Context Comment\" plugin changes that: Now you can add an \"In-Context Comment\" icon using &#60;in-context-comment:here:tag&#62; (where \"tag\" is any word or words connected by hyphen ) at any place you want readers to comment on and they will be able to click and open a window to add comments right there, next to the context so other readers can see both the context and the comments in one glance. The comment window automatically closes when a reader clicks the cursor anywhere outside the comment window so it does not inter",
+                "uid": "36999"
+            }
+        }
+    }
+}

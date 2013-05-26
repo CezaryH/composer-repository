@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/findyourmp": {
+            "1.0": {
+                "name": "wordpress\/findyourmp",
+                "version": "1.0",
+                "version_normalized": "1.0.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/findyourmp.1.0.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>This plugin enables the retreival of information on United Kingdom Members of Parliament, based upon postcode.<\/p>\n\n<p>Insert shortcode [find-your-mp] into a post where you want the plugin to appear.<\/p>\n\n<p>Also ensure that you have a php.ini file in your root directory containing the line allow_url_fopen = true.<\/p>\n\n<p>The only setting required is an API key from TheyWorkForYou, see <a href=\"http:\/\/www.theyworkforyou.com\/api\/\" rel=\"nofollow\">http:\/\/www.theyworkforyou.com\/api\/<\/a>.<\/p>\n\n<p>There is no formal website or support, but I can answer occasional queries at <a href=\"mailto:rupert@AtheismUK.com\">rupert@AtheismUK.com<\/a>.<\/p>",
+                "uid": "59031"
+            }
+        }
+    }
+}

@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/admin-per-page-limits": {
+            "1.1": {
+                "name": "wordpress\/admin-per-page-limits",
+                "version": "1.1",
+                "version_normalized": "1.1.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/admin-per-page-limits.1.1.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p><strong>NOTE: This plugin is no longer necessary as of WordPress 2.8 as this functionality is now built-in under the \"Screen Options\" slide-down menu.<\/strong><\/p>\n\n<p>Control the number of posts per page, pages per page, and comments per page that appear in the admin listings of posts, pages, and comments.<\/p>\n\n<p>By default, WordPress lists only 15 posts in the admin listing of posts and 20 for pages and comments.  There is no built-in way to change how many posts\/pages\/comments to list.  This makes paging through the post\/page\/comment listings very cumbersome, and limits the number of posts\/pages\/comments you can see at any one time.  This plugin provides a dropdown selection field allowing a choice of 5, 15, 20, 25, 50, 100, or 250 per page limits.  Each section (post, page, comments) has its own limit separate from the others, and the limits are considered a user preference and not a global setting (so each admin\/author can set the limits to their liking without affecting other",
+                "uid": "86270"
+            }
+        }
+    }
+}

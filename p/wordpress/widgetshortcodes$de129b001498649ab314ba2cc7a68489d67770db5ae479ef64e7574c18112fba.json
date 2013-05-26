@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/widgetshortcodes": {
+            "1.0": {
+                "name": "wordpress\/widgetshortcodes",
+                "version": "1.0",
+                "version_normalized": "1.0.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/widgetshortcodes.1.0.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>Want to use shortcodes in your sidebar Text widgets?  Don't want to have to update the functions.php of the\ntheme to achieve this?  WidgetShortcodes comes to the rescue.  This plugin simply hooks shortcode_noautop and\ndo_shortcode to the widget_text filter to make this happen.  It keeps on working even if you change themes.<\/p>\n\n<p>There are no setup options in this version.  It is turned on by activating the plugin and turned off by\ndeactivating it.  Easy, peasy!<\/p>",
+                "uid": "68013"
+            }
+        }
+    }
+}

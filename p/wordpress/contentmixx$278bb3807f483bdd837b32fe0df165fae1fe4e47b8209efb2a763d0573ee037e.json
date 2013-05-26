@@ -1,0 +1,40 @@
+{
+    "packages": {
+        "wordpress\/contentmixx": {
+            "0.1": {
+                "name": "wordpress\/contentmixx",
+                "version": "0.1",
+                "version_normalized": "0.1.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/contentmixx.0.1.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>This plugin retrieves one or more random post\/page or both of them from your WordPress installation\n    Arguments:\n        from (string)\n            - show only posts, or pages, or both\n            - possible values: post &#124; page \n        numberposts (integer)\n            - number of posts\/pages to return\n        categories (integers, separated by commas)\n            - limits returned posts to posts filed under categories found in arguments\n        exclude (integers, separated by commas)\n            - limits returned posts to posts NOT filed under categories found in arguments<\/p>\n\n<pre><code>Sample Code:\n    &#60;?php\n    $myposts = contentmixx( 'from=post&#38;numberposts=2&#38;categories=8' );\n    foreach( $myposts as $post ) {\n        setup_postdata( $post ); \n    ?&#62;\n        &#60;div class=\"sideBarPost\"&#62;\n            &#60;h3&#62;&#60;a href=\"&#60;?php the_permalink() ?&#62;\"&#62;&#60;?php the_title() ?&#62;&#60;\/a&#62;&#60;\/h3&#62;\n            &#60;p&#62;&#60;?php the_",
+                "uid": "106765"
+            },
+            "0.2.1": {
+                "name": "wordpress\/contentmixx",
+                "version": "0.2.1",
+                "version_normalized": "0.2.1.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/contentmixx.0.2.1.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>This plugin retrieves one or more random post\/page or both of them from your WordPress installation\n    Arguments:\n        from (string)\n            - show only posts, or pages, or both\n            - possible values: post &#124; page \n        numberposts (integer)\n            - number of posts\/pages to return\n        categories (integers, separated by commas)\n            - limits returned posts to posts filed under categories found in arguments\n        exclude (integers, separated by commas)\n            - limits returned posts to posts NOT filed under categories found in arguments<\/p>\n\n<pre><code>Sample Code:\n    &#60;?php\n    $myposts = contentmixx( 'from=post&#38;numberposts=2&#38;categories=8' );\n    foreach( $myposts as $post ) {\n        setup_postdata( $post ); \n    ?&#62;\n        &#60;div class=\"sideBarPost\"&#62;\n            &#60;h3&#62;&#60;a href=\"&#60;?php the_permalink() ?&#62;\"&#62;&#60;?php the_title() ?&#62;&#60;\/a&#62;&#60;\/h3&#62;\n            &#60;p&#62;&#60;?php the_",
+                "uid": "106764"
+            }
+        }
+    }
+}

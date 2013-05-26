@@ -1,0 +1,40 @@
+{
+    "packages": {
+        "wordpress\/wp-columns": {
+            "1.0": {
+                "name": "wordpress\/wp-columns",
+                "version": "1.0",
+                "version_normalized": "1.0.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/wp-columns.1.0.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>There are similar plugins but they did not provide the ease of use I wanted.<\/p>\n\n<p>Creating columns is super easy, just include the column separator text in your page or post (by default <code>\/---\/<\/code>, configurable in the WP Column Settings page).<\/p>\n\n<p>HTML code will be generated with various CSS classes so you can easily style the columns in your Stylesheet.<\/p>\n\n<p><strong>Example<\/strong><\/p>\n\n<p>The following text in your page or post:<\/p>\n\n<pre><code>This text will be in the first column.\n\/---\/\nThis text will be in the second column.\n\/---\/\nThis text will be in the third column.\n<\/code><\/pre>\n\n<p>Will result in the following HTML code:<\/p>\n\n<pre><code>&#60;div class=\"wpcolumn-wrapper wpcolumn-wrapper-3\"&#62;\n&#60;div class=\"wpcolumn wpcolumn-1 wpcolumn-first\"&#62;This text will be in the first column.&#60;\/div&#62;\n&#60;div class=\"wpcolumn wpcolumn-2 wpcolumn-other\"&#62;This text will be in the second column.&#60;\/div&#62;\n&#60;div class=\"wpcolumn wpcolumn-3 wpcolumn-l",
+                "uid": "71272"
+            },
+            "1.1": {
+                "name": "wordpress\/wp-columns",
+                "version": "1.1",
+                "version_normalized": "1.1.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/wp-columns.1.1.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>There are similar plugins but they did not provide the ease of use I wanted.<\/p>\n\n<p>Creating columns is super easy, just include the column separator text in your page or post (by default <code>\/---\/<\/code>, configurable in the WP Column Settings page).<\/p>\n\n<p>HTML code will be generated with various CSS classes so you can easily style the columns in your Stylesheet.<\/p>\n\n<p><strong>Example<\/strong><\/p>\n\n<p>The following text in your page or post:<\/p>\n\n<pre><code>This text will be in the first column.\n\/---\/\nThis text will be in the second column.\n\/---\/\nThis text will be in the third column.\n<\/code><\/pre>\n\n<p>Will result in the following HTML code:<\/p>\n\n<pre><code>&#60;div class=\"wpcolumn-wrapper wpcolumn-wrapper-3\"&#62;\n&#60;div class=\"wpcolumn wpcolumn-1 wpcolumn-first\"&#62;This text will be in the first column.&#60;\/div&#62;\n&#60;div class=\"wpcolumn wpcolumn-2 wpcolumn-other\"&#62;This text will be in the second column.&#60;\/div&#62;\n&#60;div class=\"wpcolumn wpcolumn-3 wpcolumn-l",
+                "uid": "71271"
+            }
+        }
+    }
+}

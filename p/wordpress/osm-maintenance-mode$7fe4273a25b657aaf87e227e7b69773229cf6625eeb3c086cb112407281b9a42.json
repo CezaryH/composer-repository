@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/osm-maintenance-mode": {
+            "0.0.1": {
+                "name": "wordpress\/osm-maintenance-mode",
+                "version": "0.0.1",
+                "version_normalized": "0.0.1.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/osm-maintenance-mode.0.0.1.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>OSM Maintenance will allow you to put your WordPress site in Maintenance Mode so you can upgrade files without fear of bringing your site down.<\/p>\n\n<p>It works by blocking all IP Addresses except for a specific whitelist that you set.<\/p>",
+                "uid": "11164"
+            }
+        }
+    }
+}

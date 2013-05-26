@@ -1,0 +1,40 @@
+{
+    "packages": {
+        "wordpress\/youtube-privacy": {
+            "1.0": {
+                "name": "wordpress\/youtube-privacy",
+                "version": "1.0",
+                "version_normalized": "1.0.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/youtube-privacy.1.0.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>This is a lightweight plugin to embed youtube in a way that respects your readers privacy.<\/p>\n\n<p>It uses the standard wordpress syntax to embed youtube videos from <a href=\"https:\/\/www.youtube-nocookie.com\" rel=\"nofollow\">https:\/\/www.youtube-nocookie.com<\/a> instead of <a href=\"http:\/\/www.youtube.com\" rel=\"nofollow\">http:\/\/www.youtube.com<\/a> so the video is encrypted with https and no cookies are send to track the user.<\/p>\n\n<h4>Features<\/h4>\n\n<ul>\n<li><p>No special syntax. Just use automatic wordpress embedding introduced in WordPress 2.9. Put the video URL on a new line or (if you want to specify the size) between <code>[embed]<\/code> shorcode. <a href=\"http:\/\/codex.wordpress.org\/Embeds\">More info in the codex<\/a>.<\/p><\/li>\n<li><p>Uses HTTPS and youtube-nocookie.com for privacy.<\/p><\/li>\n<li>Mobile devices compatibility (HTML5 tag used if the device is compatible)<\/li>\n<\/ul>",
+                "uid": "35588"
+            },
+            "1.0.1": {
+                "name": "wordpress\/youtube-privacy",
+                "version": "1.0.1",
+                "version_normalized": "1.0.1.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/youtube-privacy.1.0.1.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>This is a lightweight plugin to embed youtube in a way that respects your readers privacy.<\/p>\n\n<p>It uses the standard wordpress syntax to embed youtube videos from <a href=\"https:\/\/www.youtube-nocookie.com\" rel=\"nofollow\">https:\/\/www.youtube-nocookie.com<\/a> instead of <a href=\"http:\/\/www.youtube.com\" rel=\"nofollow\">http:\/\/www.youtube.com<\/a> so the video is encrypted with https and no cookies are send to track the user.<\/p>\n\n<h4>Features<\/h4>\n\n<ul>\n<li><p>No special syntax. Just use automatic wordpress embedding introduced in WordPress 2.9. Put the video URL on a new line or (if you want to specify the size) between <code>[embed]<\/code> shorcode. <a href=\"http:\/\/codex.wordpress.org\/Embeds\">More info in the codex<\/a>.<\/p><\/li>\n<li><p>Uses HTTPS and youtube-nocookie.com for privacy.<\/p><\/li>\n<li>Mobile devices compatibility (HTML5 tag used if the device is compatible)<\/li>\n<\/ul>",
+                "uid": "35587"
+            }
+        }
+    }
+}

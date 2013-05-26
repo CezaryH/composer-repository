@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/easy-disable-visual-editor": {
+            "1.0": {
+                "name": "wordpress\/easy-disable-visual-editor",
+                "version": "1.0",
+                "version_normalized": "1.0.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/easy-disable-visual-editor.1.0.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>Easily disables the visual editor globally.<\/p>\n\n<p>Hooks the user_can_richedit filter and returns false so that the visual editor is never used.  Much more efficient, simple and reliable than the other disable visual editor plugin that requires you to delete the visual editor files from your install.<\/p>",
+                "uid": "98760"
+            }
+        }
+    }
+}

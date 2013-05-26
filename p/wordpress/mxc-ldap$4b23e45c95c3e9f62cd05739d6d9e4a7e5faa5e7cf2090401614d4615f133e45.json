@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/mxc-ldap": {
+            "1.1": {
+                "name": "wordpress\/mxc-ldap",
+                "version": "1.1",
+                "version_normalized": "1.1.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/mxc-ldap.1.1.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>This plugin provides LDAP authentification on Open LDAP server.<\/p>\n\n<p>When a ldap user is submited for the first time, it is created into wordpress database en authenticated trying LDAP and Database auth.<\/p>\n\n<p>Version History:\n1.2 - Correct some bugs (thanks to Duffy for report;)\n1.1 - Add password sync LDAP to Mysql\n1.0 - Original release.<\/p>\n\n<p>This plugin is based on simple-ldap-login by Clif GRIFIN\nFor the needs of our company, we wanted to use our openldap directory to authenticate our users on wordpress. In place of modify simple-ldap-plugin, i decided to do a new one making all we want, but based on simple-ldap-login that seduced me by its simplicity.<\/p>",
+                "uid": "97779"
+            }
+        }
+    }
+}

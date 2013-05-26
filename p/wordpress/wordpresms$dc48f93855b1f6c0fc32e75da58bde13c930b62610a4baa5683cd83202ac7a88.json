@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/wordpresms": {
+            "0.06": {
+                "name": "wordpress\/wordpresms",
+                "version": "0.06",
+                "version_normalized": "0.06.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/wordpresms.0.06.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>The WordpreSMS plugin allows you to use Wordpress as a mobile SMS content management system. You can set up a Keyword on a given Short Code. If users send that keyword to the short code, the system will reply with an up to 600 characters long SMS to the user. You need an account on <a href=\"http:\/\/www.wordpresms.com\" title=\"WordpreSMS\">http:\/\/www.wordpresms.com<\/a> to get started.<\/p>\n\n<p>Due to the nature of SMS services and short codes, the usage is limited to certain countries. At the moment, WordpreSMS is supported by mobile phone operators in:<\/p>\n\n<ul>\n<li>United Kingdom<\/li>\n<li>Germany<\/li>\n<li>Switzerland<\/li>\n<li>Austria<\/li>\n<\/ul>\n\n<p>Live demo under <a href=\"http:\/\/demo.wordpresms.com\" title=\"WordpreSMS Demo\">demo.wordpresms.com<\/a><\/p>\n\n<p><strong>Important:<\/strong> This project is still in Beta phase. All feedback, recommendations and ideas should be fed back to <a href=\"mailto:feedback@wordpresms.com\" title=\"WordpreSMS Feedback\">feedback@wordpresms.com<\/a><\/p>",
+                "uid": "74110"
+            }
+        }
+    }
+}

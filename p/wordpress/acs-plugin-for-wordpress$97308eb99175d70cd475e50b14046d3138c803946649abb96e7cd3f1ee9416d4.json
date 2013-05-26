@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/acs-plugin-for-wordpress": {
+            "1.0.1": {
+                "name": "wordpress\/acs-plugin-for-wordpress",
+                "version": "1.0.1",
+                "version_normalized": "1.0.1.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/acs-plugin-for-wordpress.1.0.1.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>The ACS WordPress Plugin allows WordPress hosts to enable federated login for their WordPress site using Windows Azure AppFabric Access Control Service (ACS) 2.0.<\/p>\n\n<p>WordPress administrators can use ACS to create trust relationships between their site and identity providers such as Windows Live ID, Facebook, Google, Yahoo!, and custom identity providers such as Microsoft Active Directory Federation Services 2.0. The ACS WordPress Plugin then renders a custom login page based on the ACS configuration, and enables end users to log in to the WordPress site using an identity provider of their choice.<\/p>\n\n<h4>Features<\/h4>\n\n<ul>\n<li><p>Authenticate to WordPress using Windows Live ID, Facebook, Google, Yahoo!, and custom web-based identity providers configured in ACS<\/p><\/li>\n<li><p>Easy registration for WordPress site subscribers<\/p><\/li>\n<li><p>Manage the WordPress site using a federated account<\/p><\/li>\n<li><p>Federated accounts are identical to normal user accounts and support f",
+                "uid": "49397"
+            }
+        }
+    }
+}

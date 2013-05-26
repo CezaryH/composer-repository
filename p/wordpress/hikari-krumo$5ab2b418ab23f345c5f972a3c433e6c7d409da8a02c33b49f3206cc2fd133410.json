@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/hikari-krumo": {
+            "0.02.04": {
+                "name": "wordpress\/hikari-krumo",
+                "version": "0.02.04",
+                "version_normalized": "0.02.04.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/hikari-krumo.0.02.04.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p><em>Krumo<\/em> is a debugging tool equivalent to print_r() and var_dump(), with the advantage of collapsing array and object values so that it takes less space and let us see only what we really need from complex data.<\/p>\n\n<p><strong><a href=\"http:\/\/hikari.ws\/krumo\/\">Hikari Krumo<\/a><\/strong> ports it to a Wordpress plugin, so that Krumo becomes easily available in any Wordpress page. Original Krumo has a few bugs fixed and has its options available in an admin page instead of requiring krumo.ini file edited directly.<\/p>\n\n<h4>Features<\/h4>\n\n<ul>\n<li>The simplicity of print_r() with the details of var_dump()<\/li>\n<li>Show any data, including its data type<\/li>\n<li>For arrays and objects, internal data are collapsed, so that it takes less space and you can expand to see only those values you really wanna see, spending much less space<\/li>\n<li>Works anywhere in Wordpress, backend and frontend<\/li>\n<li>Hide it from visitors and only those who really need to see dump be able to see it<",
+                "uid": "60361"
+            }
+        }
+    }
+}

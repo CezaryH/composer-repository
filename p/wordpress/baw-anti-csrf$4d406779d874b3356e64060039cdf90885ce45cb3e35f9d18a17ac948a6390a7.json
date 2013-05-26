@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/baw-anti-csrf": {
+            "1.2": {
+                "name": "wordpress\/baw-anti-csrf",
+                "version": "1.2",
+                "version_normalized": "1.2.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/baw-anti-csrf.1.2.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>The <a href=\"http:\/\/en.wikipedia.org\/wiki\/Cross-site_request_forgery\">CSRF<\/a> vulnerability is the most famous web vulnerability, since ... i do not remember, too long !<\/p>\n\n<p>Many WordPress plugin (about 70%) from this repository or elsewhere, even Premim plugins are vunerable to this flaw.<\/p>\n\n<p>To avoid get hacked because os this, just install this plugin, no settings, no tech. Just use your blog as usual.<\/p>\n\n<p>! ONLY FOR BACK-END USAGE !<\/p>",
+                "uid": "20262"
+            }
+        }
+    }
+}

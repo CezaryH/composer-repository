@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/no-spam-ip-geolocation": {
+            "0.1": {
+                "name": "wordpress\/no-spam-ip-geolocation",
+                "version": "0.1",
+                "version_normalized": "0.1.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/no-spam-ip-geolocation.0.1.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>I wanted my own twist and a somewhat more 'unique' way to deal with spam so I crafted this simple plugin which is originally based on WP No-Bot Question by edwardw (<a href=\"http:\/\/wordpress.org\/extend\/plugins\/wp-no-bot-question\/\" rel=\"nofollow\">http:\/\/wordpress.org\/extend\/plugins\/wp-no-bot-question\/<\/a>) - with the exception that my plugin uses the IP Geolocation provided by CloudFlare. So my plugin merely asks \"What is your country code\" and you'll have to reply with the correct one. The correct country code is printed on the same page, but this may be removed in future versions - or displayed in some other fashion.<\/p>\n\n<p>Do keep in mind that you need CloudFlare and IP Geolocation for this plugin to work.<\/p>\n\n<p>Plugin homepage: <a href=\"http:\/\/k0nsl.org\/blog\/plugins\/no-spam-ip-geolocation\/\" rel=\"nofollow\">http:\/\/k0nsl.org\/blog\/plugins\/no-spam-ip-geolocation\/<\/a><\/p>",
+                "uid": "14969"
+            }
+        }
+    }
+}

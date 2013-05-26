@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/ttlb-ecosystem-cache": {
+            "1.6": {
+                "name": "wordpress\/ttlb-ecosystem-cache",
+                "version": "1.6",
+                "version_normalized": "1.6.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/ttlb-ecosystem-cache.1.6.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>This is to replace the javascript tag that the <a href=\"http:\/\/www.truthlaidbear.com\/ecosystem.php\">TTLB Ecosystem<\/a> currently provides to display your sites current status in the Ecosystem.  It caches the results every 24 hours so as to reduce load times.<\/p>",
+                "uid": "114780"
+            }
+        }
+    }
+}

@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/shortcode-get-child-list": {
+            "0.4": {
+                "name": "wordpress\/shortcode-get-child-list",
+                "version": "0.4",
+                "version_normalized": "0.4.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/shortcode-get-child-list.0.4.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>With this plug-in, you can use shortcodes to output list of children pages or sitemap.\nWrite following shortcode in your post text.<\/p>\n\n<p>Generate a sitemap : [get_sitemap]\nGenerate a list of child and descendant pages: [get_childlist]<\/p>\n\n<p>You can also customize output with optional arguments:<\/p>\n\n<p>[get_childlist id=\"parentID (optional)\" add=\"additional element (optional)\" exclude=\"exclude page by id (optional, e.g. exclude=\"34,123,35,23\")\" exclude_by_slug=\"exclude page by slug (optional, e.g. exclude_by_slug=\"test,hoge,home\")]<\/p>",
+                "uid": "61933"
+            }
+        }
+    }
+}

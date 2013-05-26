@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/wp-multisite-mirror": {
+            "0.2": {
+                "name": "wordpress\/wp-multisite-mirror",
+                "version": "0.2",
+                "version_normalized": "0.2.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/wp-multisite-mirror.0.2.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>This is a simple plugin to mirror sites in WP Multisite installation(s). It can be used to populate multiple different WP Multisite sites with identical content. Posting on 1 site will update all other mirrors of it.<\/p>\n\n<p>I originally put this together for a website that has 2 near identical versions, one paid and one free, both are WP Multisite installation with multiple subsites. I'm posting it here so it can be useful for other developers.<\/p>\n\n<p>Some requirements:\n* The destination site and the site being mirrored must be in the same database.\n* Requires some working knowledge of WP database and WP in general (to use this and be able to mod it to your needs).<\/p>\n\n<p>Git repository:\n<a href=\"https:\/\/github.com\/kien\/wordpress-multisites-mirror\" rel=\"nofollow\">https:\/\/github.com\/kien\/wordpress-multisites-mirror<\/a><\/p>\n\n<p>Issues tracker:\n<a href=\"https:\/\/github.com\/kien\/wordpress-multisites-mirror\/issues\" rel=\"nofollow\">https:\/\/github.com\/kien\/wordpress-multisites-mirror\/issu",
+                "uid": "40531"
+            }
+        }
+    }
+}

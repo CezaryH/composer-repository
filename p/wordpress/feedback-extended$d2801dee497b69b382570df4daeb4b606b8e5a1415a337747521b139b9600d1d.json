@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/feedback-extended": {
+            "1.0.0": {
+                "name": "wordpress\/feedback-extended",
+                "version": "1.0.0",
+                "version_normalized": "1.0.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/feedback-extended.1.0.0.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>With Contact Form active under Jetpack (1.3 or higher) this plugin will add a\nnew option in the \"Feedback Management\" area to reply to each message sent.<\/p>\n\n<p>When a visitor send an email using the Contact Form, the message is sent to\nemail of the site's owner as well as stored under \"Feedback Management\" area.\nThis plugin lets users to reply directly from WP Admin using nice text editor.<\/p>\n\n<p>The emails are sent in HTML format and user can change the name and email\naddress the mail will be sent from.<\/p>",
+                "uid": "11552"
+            }
+        }
+    }
+}

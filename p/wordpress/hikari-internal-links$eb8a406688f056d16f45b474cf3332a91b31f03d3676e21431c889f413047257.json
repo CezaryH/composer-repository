@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/hikari-internal-links": {
+            "0.06.03": {
+                "name": "wordpress\/hikari-internal-links",
+                "version": "0.06.03",
+                "version_normalized": "0.06.03.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/hikari-internal-links.0.06.03.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>Don't worry anymore of linking a post or a category, to later change its title or slug, or changing your posts permalinks, and creating invalid links to your own site pages.<\/p>\n\n<p><strong>Hikari Internal Links<\/strong> provides a shortcode that dynamically generates links to most Wordpress resources. You can query these resources based on their ID or slug, and these links are generated dynamically. Therefore if you change a resource's title or permalink, its links will be updated automatically.<\/p>\n\n<h4>Features<\/h4>\n\n<ul>\n<li>A shortcode generates links to internal pages dynamically<\/li>\n<li>If the permalink changes, links are updated automatically<\/li>\n<li>You can get links based on resources ID or slug<\/li>\n<li>If resource isn't found, you get a warning text surrounded by class <code>wpdberror<\/code>, which is hidden from your visitors and shown to you with a yellow background so that it's easy to notice and fix<\/li>\n<\/ul>\n\n<h4>Available Resources<\/h4>\n\n<ul>\n<li>posts, pages an",
+                "uid": "66026"
+            }
+        }
+    }
+}

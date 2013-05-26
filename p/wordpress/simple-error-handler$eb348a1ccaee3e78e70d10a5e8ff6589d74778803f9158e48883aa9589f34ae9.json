@@ -1,0 +1,40 @@
+{
+    "packages": {
+        "wordpress\/simple-error-handler": {
+            "1.0": {
+                "name": "wordpress\/simple-error-handler",
+                "version": "1.0",
+                "version_normalized": "1.0.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/simple-error-handler.1.0.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>This plugin allows developers to debug PHP errors.<\/p>\n\n<p><em>Features for Developers<\/em><\/p>\n\n<ul>\n<li>You can get call stack trace when PHP errors are triggered.<\/li>\n<li>This is particularly helpful in finding errors that are triggered by the WordPress deprecation and \ndoing_it_wrong code.  These errors are reported in the WordPress core instead of at the location \nwhere the incorrect usage actually occurs. <\/li>\n<li>You can set the error level from the Settings page, the default is trap Notice and Deprecation errors<\/li>\n<\/ul>\n\n<p><em>Additional Features<\/em><\/p>\n\n<p>There are no additional features supported by Simple Error Handler.  The code is simple, small and well documented, \nso you can use it as a starting point for your own error reporting or logging plugin.<\/p>",
+                "uid": "31699"
+            },
+            "1.0.1": {
+                "name": "wordpress\/simple-error-handler",
+                "version": "1.0.1",
+                "version_normalized": "1.0.1.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/simple-error-handler.1.0.1.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>This plugin allows developers to debug PHP errors.<\/p>\n\n<p><em>Features for Developers<\/em><\/p>\n\n<ul>\n<li>You can get call stack trace when PHP errors are triggered.<\/li>\n<li>This is particularly helpful in finding errors that are triggered by the WordPress deprecation and \ndoing_it_wrong code.  These errors are reported in the WordPress core instead of at the location \nwhere the incorrect usage actually occurs. <\/li>\n<li>You can set the error level from the Settings page, the default is trap Notice and Deprecation errors<\/li>\n<\/ul>\n\n<p><em>Additional Features<\/em><\/p>\n\n<p>There are no additional features supported by Simple Error Handler.  The code is simple, small and well documented, \nso you can use it as a starting point for your own error reporting or logging plugin.<\/p>",
+                "uid": "31698"
+            }
+        }
+    }
+}

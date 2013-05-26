@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/https-oembed-providers": {
+            "1.1": {
+                "name": "wordpress\/https-oembed-providers",
+                "version": "1.1",
+                "version_normalized": "1.1.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/https-oembed-providers.1.1.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>Fix for WordPress oEmbeds for various services which now provide https URLs, these aren't recognised by the WP 3.4.2 list of oEmbed providers. Significant thanks to John James Jacoby for the code in his patch.<\/p>\n\n<p>Development for this plugin is managed in the <a href=\"https:\/\/github.com\/simonwheatley\/HTTPS-oEmbed-Providers\">Github repository<\/a>.<\/p>\n\n<p>See: <a href=\"http:\/\/core.trac.wordpress.org\/ticket\/20102\" rel=\"nofollow\">http:\/\/core.trac.wordpress.org\/ticket\/20102<\/a><\/p>",
+                "uid": "18120"
+            }
+        }
+    }
+}

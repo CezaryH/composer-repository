@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/url-auth": {
+            "0.2": {
+                "name": "wordpress\/url-auth",
+                "version": "0.2",
+                "version_normalized": "0.2.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/url-auth.0.2.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>Some (half-baked) feed readers do not support private blogs.\nThey will fail to retrieve content if you protect your site with either the regular WordPress signon or HTTP authentication.\nAs a work-around, it's useful to be able to create a URL that contains the login information.\nThat way, even the most basic feed reader will be able to show the private posts you have access to.\n(But see the warnings below).<\/p>",
+                "uid": "47680"
+            }
+        }
+    }
+}

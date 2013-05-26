@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/shortcode-detector": {
+            "1.0.1": {
+                "name": "wordpress\/shortcode-detector",
+                "version": "1.0.1",
+                "version_normalized": "1.0.1.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/shortcode-detector.1.0.1.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>Detects shortcodes before wp_head() call to allow selective enqueuing of scripts and styles (i.e. js and css files) that are specifically used for the shortcode.<\/p>\n\n<h4>How to use the plugin?<\/h4>\n\n<p>Make sure that the shortcode you want to detect is defined. If it is a Wordpress shortcode then there's no need to define it.<\/p>\n\n<pre><code>&#60;?php add_shortcode( &#039;my_shorcode&#039;, &#039;my_function&#039; ); ?&#62;<\/code><\/pre>\n\n<p>To detect the shortcode use the code below. Change 'my_shortcode' to the shortcode you want to detect.<\/p>\n\n<pre><code>&#60;?php add_action( &#039;shortcode_detected_my_shortcode&#039;, &#039;my_add_resources_function&#039; ); ?&#62;<\/code><\/pre>",
+                "uid": "9485"
+            }
+        }
+    }
+}

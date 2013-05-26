@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/adjustly-collapse": {
+            "1.0.0": {
+                "name": "wordpress\/adjustly-collapse",
+                "version": "1.0.0",
+                "version_normalized": "1.0.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/adjustly-collapse.1.0.0.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>Developed internally for our Adjustly theme, this plugin allows authors to link 2 html elements together as trigger and target.  When the trigger is clicked the target will immediately expand to reveal its content.<\/p>\n\n<h4>Try the Demo<\/h4>\n\n<p>If you're interested in seeing what a default installation of Adjustly Collapse has to offer, have a look at some samples on our site.<\/p>\n\n<p><a href=\"http:\/\/www.psdcovers.com\/adjustly-collapse\/\">http:\/\/www.psdcovers.com\/adjustly-collapse\/<\/a><\/p>\n\n<h4>Usage<\/h4>\n\n<p>The basic structure without any CSS bells and whistles looks like this:<\/p>\n\n<pre><code>&#60;a class=&#34;aj-collapse&#34; rel=&#34;myslidingcontent&#34;&#62;trigger&#60;\/a&#62;\n&#60;div class=&#34;aj-hidden&#34; id=&#34;myslidingcontent&#34;&#62;target: this content is hidden by default&#60;\/div&#62;<\/code><\/pre>\n\n<p>In the example above, the trigger is an href element and the target is a div element.  Note that the target can be any element you choose.<\/p>\n\n<h4>rel=\"[id]\"<\/h4",
+                "uid": "29696"
+            }
+        }
+    }
+}

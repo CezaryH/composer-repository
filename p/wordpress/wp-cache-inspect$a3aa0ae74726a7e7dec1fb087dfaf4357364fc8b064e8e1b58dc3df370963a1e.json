@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/wp-cache-inspect": {
+            "0.8.3": {
+                "name": "wordpress\/wp-cache-inspect",
+                "version": "0.8.3",
+                "version_normalized": "0.8.3.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/wp-cache-inspect.0.8.3.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>The aim of the plugin is to help people analyse the behaviour of the cache builtin to WordPress. It provides optional the administrator with a quick overview of how the cache is performing and allows the cache to be removed manually from an admin page.<\/p>\n\n<p>WP Cache Inspect-idea for WordPress is in originally in by <a href=\"http:\/\/blog.ftwr.co.uk\/wordpress\/wp-cache-inspect\/\" title=\"Peter Westwood\">Peter Westwood<\/a>. WP Cache Inspect is an newer version with more functions and new code, works also in WordPress 2.7.<\/p>\n\n<p>The plugin displays a small semi-transparent box in the top right hand corner of the page for all logged in administrator with the manage_cache capability. By default this capability is given to the Administrator user at plugin activation and removed from the Administrator user at plugin deactivation. Any user with the capabilty will also be able to clear the cache using the <code>Manage<\/code> -&#62; <code>Cache<\/code> page which appears in the administation i",
+                "uid": "97239"
+            }
+        }
+    }
+}

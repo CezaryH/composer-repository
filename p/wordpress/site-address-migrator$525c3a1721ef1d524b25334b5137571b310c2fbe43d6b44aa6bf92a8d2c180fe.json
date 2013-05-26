@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/site-address-migrator": {
+            "1.0": {
+                "name": "wordpress\/site-address-migrator",
+                "version": "1.0",
+                "version_normalized": "1.0.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/site-address-migrator.1.0.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>This plugin migrates urls when you change the Site Address:<\/p>\n\n<ul>\n<li>Updates matching links in the description, content and excerpts of all posts, pages and media (including custom types)<\/li>\n<li>Updates matching links in post and page option fields (supports serialized data)<\/li>\n<li>Updates matching links in the content of all comments<\/li>\n<li>Updates matching links in post category and tag descriptions<\/li>\n<li>Updates matching links in user descriptions<\/li>\n<li>Updates matching links in user website fields<\/li>\n<li>Updates matching links in WordPress and widget option fields (supports serialized data)<\/li>\n<\/ul>\n\n<p>To bypass any of the above, simply comment out the appropriate line in the PHP file (that calls the sf_mgr_update_table function).<\/p>\n\n<p>This plugin will work even if the protocol of the link doesn't match the Site Address (eg. the link uses \"https:\/\/\" instead of \"http:\/\/\", or if it is protocol-relative \"\/\/\"). When the protocol doesn't match the old Site Ad",
+                "uid": "8684"
+            }
+        }
+    }
+}

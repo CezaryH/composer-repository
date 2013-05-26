@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/remove-link-url": {
+            "1.0": {
+                "name": "wordpress\/remove-link-url",
+                "version": "1.0",
+                "version_normalized": "1.0.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/remove-link-url.1.0.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>This plugin removes the Link URL that is enabled by default when images are uploaded to your WordPress blog. This helps prevent accidentally linking to images. A screenshots is available to help clarify where this affects Wordpress.<\/p>\n\n<h4>Notes<\/h4>\n\n<ul>\n<li>This plugin removes links for image files ending with the following extensions: .jpg, .jpeg, .png, .gif, .bmp, .tiff, .tif<\/li>\n<li>Files with other extensions - such as PDF files - will continue to work normally<\/li>\n<li>If you have existing posts and want to remove the links from images: Wordpress actually stores the links as part of the post content, so removing the links would either require looping through the posts and running a regular expression, or perhaps cheating with jQuery and removing links after the post is rendered. In short, this plugin helps remove links from images that your users post <em>from now on<\/em>, but doesn't touch your existing posts :)<\/li>\n<\/ul>\n\n<p><a href=\"http:\/\/techblog.willshouse.com\/remo",
+                "uid": "31400"
+            }
+        }
+    }
+}

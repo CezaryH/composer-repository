@@ -1,0 +1,57 @@
+{
+    "packages": {
+        "wordpress\/category-shortcode-w-generator": {
+            "1.1": {
+                "name": "wordpress\/category-shortcode-w-generator",
+                "version": "1.1",
+                "version_normalized": "1.1.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/category-shortcode-w-generator.1.1.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>This plugin creates the [Category]] Shortcode.  The code takes 5 arguments:<\/p>\n\n<p>number: the number of posts to display.  0 equals the default number.  -1 equals the total available.<\/p>\n\n<p>Order: Ascending or Descending<\/p>\n\n<p>Display Method:  Full, Excerpt, Title<\/p>\n\n<p>Order By: Author, Date, Title, Modified, Parent, ID, Rand, None, or Comment Count.<\/p>\n\n<p>Category: this is the category id the category or categories that should be searched.  Multiple categories can be specified in a comma separated list.<\/p>\n\n<p>Example shortcode:<\/p>\n\n<p>[Category number='5' method='title' order='asc' id='11,45' orderby='comment_count']<\/p>\n\n<p>This will show 5 posts in ascending order of category 11 and 45 as arranged by comment_count and will display just the post titles.<\/p>",
+                "uid": "72659"
+            },
+            "1.2": {
+                "name": "wordpress\/category-shortcode-w-generator",
+                "version": "1.2",
+                "version_normalized": "1.2.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/category-shortcode-w-generator.1.2.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>This plugin creates the [Category]] Shortcode.  The code takes 5 arguments:<\/p>\n\n<p>number: the number of posts to display.  0 equals the default number.  -1 equals the total available.<\/p>\n\n<p>Order: Ascending or Descending<\/p>\n\n<p>Display Method:  Full, Excerpt, Title<\/p>\n\n<p>Order By: Author, Date, Title, Modified, Parent, ID, Rand, None, or Comment Count.<\/p>\n\n<p>Category: this is the category id the category or categories that should be searched.  Multiple categories can be specified in a comma separated list.<\/p>\n\n<p>Example shortcode:<\/p>\n\n<p>[Category number='5' method='title' order='asc' id='11,45' orderby='comment_count']<\/p>\n\n<p>This will show 5 posts in ascending order of category 11 and 45 as arranged by comment_count and will display just the post titles.<\/p>",
+                "uid": "72658"
+            },
+            "1.3": {
+                "name": "wordpress\/category-shortcode-w-generator",
+                "version": "1.3",
+                "version_normalized": "1.3.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/category-shortcode-w-generator.1.3.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>This plugin creates the [Category]] Shortcode.  The code takes 5 arguments:<\/p>\n\n<p>number: the number of posts to display.  0 equals the default number.  -1 equals the total available.<\/p>\n\n<p>Order: Ascending or Descending<\/p>\n\n<p>Display Method:  Full, Excerpt, Title<\/p>\n\n<p>Order By: Author, Date, Title, Modified, Parent, ID, Rand, None, or Comment Count.<\/p>\n\n<p>Category: this is the category id the category or categories that should be searched.  Multiple categories can be specified in a comma separated list.<\/p>\n\n<p>Example shortcode:<\/p>\n\n<p>[Category number='5' method='title' order='asc' id='11,45' orderby='comment_count']<\/p>\n\n<p>This will show 5 posts in ascending order of category 11 and 45 as arranged by comment_count and will display just the post titles.<\/p>",
+                "uid": "72656"
+            }
+        }
+    }
+}

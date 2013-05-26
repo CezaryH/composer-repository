@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/ip-only": {
+            "0.1": {
+                "name": "wordpress\/ip-only",
+                "version": "0.1",
+                "version_normalized": "0.1.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/ip-only.0.1.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>I created my first plugin when I created my CEO Blog. The problem is obvious: I am going to have a CEO blog where I can share my thoughts with the team frequently. I tried to write a different blog, and I found it is just impossible to maintain two. So I decided to put it on to my own personal blog.<\/p>\n\n<p>Although most of the articles are public in nature, I do have something that I hope to disclose to the general public later. I don't want to have complicated OAuth based verification. A simple IP based restriction is good enough. There is no simple solution so I wrote one myself.<\/p>",
+                "uid": "18271"
+            }
+        }
+    }
+}

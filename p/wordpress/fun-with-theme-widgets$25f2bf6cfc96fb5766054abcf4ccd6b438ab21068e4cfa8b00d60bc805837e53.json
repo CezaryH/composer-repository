@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/fun-with-theme-widgets": {
+            "1": {
+                "name": "wordpress\/fun-with-theme-widgets",
+                "version": "1",
+                "version_normalized": "1.0.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/fun-with-theme-widgets.1.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>This plugin searches the themes directory for .widget.php files. When it finds one it will add the contents of the file as a widget that can be added to any dynamic sidebar.<\/p>",
+                "uid": "96385"
+            }
+        }
+    }
+}

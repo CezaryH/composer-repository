@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/organize-stories": {
+            "0.2": {
+                "name": "wordpress\/organize-stories",
+                "version": "0.2",
+                "version_normalized": "0.2.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/organize-stories.0.2.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>Organize links to the latest posts on a story below each post<\/p>\n\n<p>Simply add the shortcode into the post or page of your choice, specifying a tag that groups all the related posts together. E.g.;\n[organize_stories tag=\"Copenhagen27\"]<\/p>\n\n<p>Documentation is available via <a href=\"http:\/\/konfeldt.com\/\">Konfeldt.com<\/a><\/p>",
+                "uid": "7970"
+            }
+        }
+    }
+}

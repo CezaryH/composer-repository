@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/activate-users-in-buddypress": {
+            "1.1": {
+                "name": "wordpress\/activate-users-in-buddypress",
+                "version": "1.1",
+                "version_normalized": "1.1.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/activate-users-in-buddypress.1.1.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>This plug-in is intended to assist developers in making sure all previous wordpress users have been correctly pulled into Buddypress. This very simple plug-in checks for the key user meta fields (X Profile, BP Activity, and Last Activity), provides a list of all your user and a legend as to which META exists. If any information is missing, a button enables administration to bring users into the BP member arena by adding these key fields. This plug-in is intended for migration from older version of Wordpress &#38; Buddypress where due to anomolies user meta has not been added correctly.<\/p>",
+                "uid": "20712"
+            }
+        }
+    }
+}

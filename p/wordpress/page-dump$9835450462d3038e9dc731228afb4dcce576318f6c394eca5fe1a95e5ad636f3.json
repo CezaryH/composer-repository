@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/page-dump": {
+            "1.0": {
+                "name": "wordpress\/page-dump",
+                "version": "1.0",
+                "version_normalized": "1.0.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/page-dump.1.0.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>This plugin allows you to dump the content of your Wordpress Pages onto a single webpage. Enable the plugin and append \"?page_dump=1\" to your site's URL like so: \"http:\/\/example.com\/?page_dump=1\" to see the results.<\/p>",
+                "uid": "113557"
+            }
+        }
+    }
+}

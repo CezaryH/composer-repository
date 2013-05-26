@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/wp-flash": {
+            "1.2": {
+                "name": "wordpress\/wp-flash",
+                "version": "1.2",
+                "version_normalized": "1.2.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/wp-flash.1.2.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>The WP-Flash plugin (developed by <a href=\"http:\/\/www.cyberseo.net\/\" title=\"CyberSEO.net\">CyberSEO.net<\/a>) allows you to easily insert the Adobe flash animation into WordPress blogs, using the following pseudo-code:<\/p>\n\n<pre><code>    [swf:url width height bgcolor wmode]\n<\/code><\/pre>\n\n<p>where:<\/p>\n\n<ul>\n<li>url - URL of the flash object (SWF file) which you want to embed;<\/li>\n<li>width - width of the flash object;<\/li>\n<li>height - height of the flash object;<\/li>\n<li>bgcolor - background color (optional);<\/li>\n<li>wmode - wmode, e.g. transparent (optional).<\/li>\n<\/ul>",
+                "uid": "37901"
+            }
+        }
+    }
+}

@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/google-safe-search": {
+            "1.0": {
+                "name": "wordpress\/google-safe-search",
+                "version": "1.0",
+                "version_normalized": "1.0.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/google-safe-search.1.0.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>This plugin helps solve the problem of hosting content intended for different audiences on the same blog.  It gives you the option to upload files to either the default location, or to a subdirectory named \"screen\".<\/p>\n\n<p>Separating uploads in this manner may be necessary because Google does not support the current ICRA standard for content rating.  Blogs containing a small number of images that are inappropriate for some audiences may have the entire domain blocked in Google's Image Search results unless those few images are separated from the others.<\/p>\n\n<p>According to Google employee Susan Moskwa, \"We filter at the site- or directory-level, not on individual images; so the best thing would be to put fully \"safe\" images in one folder, and \"moderate\" and\/or \"strict\" images in a different folder(s) ... If you had a particular folder that contained all the safe images (or all the unsafe images) we should be able to whitelist the clean stuff.\"<\/p>\n\n<p>For background information, s",
+                "uid": "73565"
+            }
+        }
+    }
+}

@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/uembedded": {
+            "1.0": {
+                "name": "wordpress\/uembedded",
+                "version": "1.0",
+                "version_normalized": "1.0.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/uembedded.1.0.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>You can embedded Youtube video on your post by adding shortcode [uEmbedded].<\/p>\n\n<h4>Attributes List:<\/h4>\n\n<ul>\n<li>vid (requered): Youtube Video ID.<\/li>\n<li>height (optional): video height. Default - 315.<\/li>\n<li>width (optional): video width. Default - 560.<\/li>\n<li>pemode (optional): privacy-enhanced mode. 'true' or 'false'. Default - false.<\/li>\n<li>ssv (optional): Show suggested videos. 'true' or 'false'. Default - false.<\/li>\n<\/ul>\n\n<h4>Example:-<\/h4>\n\n<pre><code>[uEmbedded vid=\"PYQBptoNvp0\"]\n\n[uEmbedded vid=\"PYQBptoNvp0\" height=400 width=600]\n\n[uEmbedded vid=\"PYQBptoNvp0\" pemode=true]\n\n[uEmbedded vid=\"PYQBptoNvp0\" ssv=true]\n\n[uEmbedded vid=\"PYQBptoNvp0\" height=400 width=600 pemode=true ssv=true]\n<\/code><\/pre>",
+                "uid": "13388"
+            }
+        }
+    }
+}

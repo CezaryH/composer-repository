@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/termmeta-api": {
+            "1.0": {
+                "name": "wordpress\/termmeta-api",
+                "version": "1.0",
+                "version_normalized": "1.0.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/termmeta-api.1.0.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>Adds an API allowing to store and query term meta as it is done with post meta using the next functions:<\/p>\n\n<ul>\n<li><code>add_term_meta<\/code><\/li>\n<li><code>update_term_meta<\/code><\/li>\n<li><code>delete_term_meta<\/code><\/li>\n<li><code>get_term_meta<\/code><\/li>\n<\/ul>\n\n<p>Also adds <code>meta_compare<\/code> option to get_terms call.<\/p>",
+                "uid": "46932"
+            }
+        }
+    }
+}

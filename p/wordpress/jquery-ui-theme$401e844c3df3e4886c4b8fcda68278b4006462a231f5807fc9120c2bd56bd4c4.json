@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/jquery-ui-theme": {
+            "1.0": {
+                "name": "wordpress\/jquery-ui-theme",
+                "version": "1.0",
+                "version_normalized": "1.0.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/jquery-ui-theme.1.0.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>A wordpress plugin that allows you to use jquery ui css within your plugins and themes.<\/p>\n\n<p>You can use the following lines of code within your template and plugins:<\/p>\n\n<p>wp_enqueue_style(\"jquery-ui\");<\/p>\n\n<p>wp_enqueue_style(\"jquery-ui-accordion\");<\/p>\n\n<p>wp_enqueue_style(\"jquery-ui-autocomplete\");<\/p>\n\n<p>wp_enqueue_style(\"jquery-ui-button\");<\/p>\n\n<p>wp_enqueue_style(\"jquery-ui-core\");<\/p>\n\n<p>wp_enqueue_style(\"jquery-ui-datepicker\");<\/p>\n\n<p>wp_enqueue_style(\"jquery-ui-dialog\");<\/p>\n\n<p>wp_enqueue_style(\"jquery-ui-menu\");<\/p>\n\n<p>wp_enqueue_style(\"jquery-ui-progressbar\");<\/p>\n\n<p>wp_enqueue_style(\"jquery-ui-resizable\");<\/p>\n\n<p>wp_enqueue_style(\"jquery-ui-selectable\");<\/p>\n\n<p>wp_enqueue_style(\"jquery-ui-slider\");<\/p>\n\n<p>wp_enqueue_style(\"jquery-ui-spinner\");<\/p>\n\n<p>wp_enqueue_style(\"jquery-ui-tabs\");<\/p>\n\n<p>wp_enqueue_style(\"jquery-ui-theme\");<\/p>\n\n<p>wp_enqueue_style(\"jquery-ui-tooltip\");<\/p>",
+                "uid": "9352"
+            }
+        }
+    }
+}

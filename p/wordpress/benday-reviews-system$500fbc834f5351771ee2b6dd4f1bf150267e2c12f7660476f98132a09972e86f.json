@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/benday-reviews-system": {
+            "1.2": {
+                "name": "wordpress\/benday-reviews-system",
+                "version": "1.2",
+                "version_normalized": "1.2.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/benday-reviews-system.1.2.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>Benday Reviews is a plugin that allows review data to be inserted in the meta data of a post for display in a sortable table on a page.  You essentially activate the plugin, create your categories for the review table, and then add review information (title, rating, and category) to posts as you go.  It allows you to use the plugin without having to manually edit your template code, though you will need some CSS skills if you want to change the style of the sortable review table.<\/p>\n\n<p>It has been tested in version 3.0 up, but it should work with versions 2.6 and up, though this has not been tested.<\/p>",
+                "uid": "33565"
+            }
+        }
+    }
+}

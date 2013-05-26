@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/adminbar-post-menus": {
+            "0.2": {
+                "name": "wordpress\/adminbar-post-menus",
+                "version": "0.2",
+                "version_normalized": "0.2.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/adminbar-post-menus.0.2.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>Features<\/p>\n\n<ul>\n<li>Simple and easy to use<\/li>\n<li>No complicated options menu(s)<\/li>\n<li>Easy to customize in your theme functions<\/li>\n<li>Modular<\/li>\n<li>Stand Alone (Removed AL.Manager dependency)<\/li>\n<\/ul>\n\n<h4>Usage<\/h4>\n\n<p>On install post and page menus are automatically created.<\/p>\n\n<p>To customize your Adminbar Post Menus drop this code in your functions.php file or the now popular way in you own \"theme-plugin\". Don't forget to modify the post_type array to match your custom post types. More documentation will be coming soon.<\/p>\n\n<pre><code>\/**\n * Customize your Adminbar Post Menus\n *\n *\/\nfunction apm_menus() {\n\n    \/\/Add a single item to the menu\n    Adminbar_Menu::factory()-&#62;node_item(&#039;item-id&#039;, &#039;http:\/\/mysite.com\/test-page&#039;, &#039;Menu Title&#039;);\n\n    \/\/create an post_type array(post_type, menu_title);\n    $post_types  =  array(&#039;post&#039; =&#62; &#039;Posts&#039;, &#039;page&#039; =&#62; &#039;Pages&#039;,&#039;cwp_article&#039;",
+                "uid": "23536"
+            }
+        }
+    }
+}

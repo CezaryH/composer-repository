@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/protected-site": {
+            "1.0": {
+                "name": "wordpress\/protected-site",
+                "version": "1.0",
+                "version_normalized": "1.0.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/protected-site.1.0.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>The Protected Site plugin for WordPress allows you to block incoming traffic from accessing a blog or a specific blog in a network. It requires visitors to log in before viewing the content of the blog. Only users with valid usernames and passwords will be permitted to access the blog in question.<\/p>",
+                "uid": "43863"
+            }
+        }
+    }
+}

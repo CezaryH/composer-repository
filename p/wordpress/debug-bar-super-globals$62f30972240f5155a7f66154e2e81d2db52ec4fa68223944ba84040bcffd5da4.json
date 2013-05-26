@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/debug-bar-super-globals": {
+            "0.1": {
+                "name": "wordpress\/debug-bar-super-globals",
+                "version": "0.1",
+                "version_normalized": "0.1.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/debug-bar-super-globals.0.1.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>Displays Super Global valiables for the current request.Like $_POST, $_GET, and $_COOKIE. Requires the debug bar plugin.<\/p>",
+                "uid": "17387"
+            }
+        }
+    }
+}

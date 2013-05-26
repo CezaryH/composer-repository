@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/mailchimp-newsletter-widget": {
+            "1.0": {
+                "name": "wordpress\/mailchimp-newsletter-widget",
+                "version": "1.0",
+                "version_normalized": "1.0.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/mailchimp-newsletter-widget.1.0.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>I wrote this plug-in mostly as an attempt to learn more about creating WordPress Plug-ins, but I think it is potentially useful for certain folks and so I am releasing it as an open-source, unsupported piece of software. I hope you enjoy it.<\/p>\n\n<p>The goal of the plug-in is to help a WordPress Site Administrator integrate a MailChimp mailing list into the WordPress site. Once the plug-in is installed, you must provide a MailChimp.com APIKey, then select a list to enroll your visitors to.<\/p>\n\n<p>The default widget is practical, but not very pretty. Basically, it includes a typical widget layout containing three input fields, one hidden field to track the page URL, and a submit button. The HTML for the widget can be customized to fit your site and WordPress theme. If you choose to do this, please don't try to change the input fields' NAME or ID attributes. It won't work if you change these.<\/p>",
+                "uid": "54102"
+            }
+        }
+    }
+}

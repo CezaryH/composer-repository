@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/upgrade-else-die": {
+            "1.1": {
+                "name": "wordpress\/upgrade-else-die",
+                "version": "1.1",
+                "version_normalized": "1.1.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/upgrade-else-die.1.1.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>This plugin is not for those who would like to give users the option of upgrading or viewing the site with their outdated browser. \nThe plugin will detect if the browser is IE6 first. If they are using IE6, the plugin kills loading of your site and displays a warning message. \nThe message reads as follows:<\/p>\n\n<p>WARNING!<br \/>\nYou are using Internet Explorer 6.0. Due to security risks associated\nwith this outdated browser, as well as its noncompliance with WC3\nstandards, I have disabled access for all Internet Explorer 6.0 users.<\/p>\n\n<p>I would love to share the content of this site with you, but unless\nyou upgrade your browser, this is impossible. There are too many\nsecurity risks posed by this outdated browser. Won't you please take\na moment and upgrade\u0097it's 100% free!<\/p>\n\n<p>If you are at your place of employment and do not have access or\npermission to upgrade your browser, please contact your company's IT\ndepartment and request an upgraded browser, which will keep your\ncomp",
+                "uid": "92363"
+            }
+        }
+    }
+}

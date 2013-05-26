@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/sibling-pages": {
+            "0.2": {
+                "name": "wordpress\/sibling-pages",
+                "version": "0.2",
+                "version_normalized": "0.2.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/sibling-pages.0.2.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<ul>\n<li>This plugin depends on setting some pages to have the same \"parent\" page.<\/li>\n<li>If page A, B and C all have the same parent page, then the plugin will generate a list of links to page A, B and C whenever you are on any one of those pages, or whenever you are on the parent page. <\/li>\n<li>The parent page will be listed first in the list of siblings, then the sibling pages in apha order by page title.<\/li>\n<\/ul>",
+                "uid": "32559"
+            }
+        }
+    }
+}

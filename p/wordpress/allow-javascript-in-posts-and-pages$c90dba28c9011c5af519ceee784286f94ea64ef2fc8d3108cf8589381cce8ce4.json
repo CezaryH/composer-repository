@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/allow-javascript-in-posts-and-pages": {
+            "0.0.1": {
+                "name": "wordpress\/allow-javascript-in-posts-and-pages",
+                "version": "0.0.1",
+                "version_normalized": "0.0.1.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/allow-javascript-in-posts-and-pages.0.0.1.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>Allow Javascript in posts and pages adds the functionality to include Javascript in wordpress posts and pages by adding a simple shortcode [js].code.[\/js]<\/p>\n\n<p>This plugin strips away the automatically generated wordpress &#60;p&#62; and &#60;br\/&#62; tags but still allows the addition of your own &#60;p&#62; and &#60;br\/&#62; tags by using [p] and [\/p] or [br\/] or [a href='void(0)']link[\/a]<\/p>\n\n<p>Please submit bugs<\/p>",
+                "uid": "52762"
+            }
+        }
+    }
+}

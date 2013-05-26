@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/series-tag": {
+            "0.1": {
+                "name": "wordpress\/series-tag",
+                "version": "0.1",
+                "version_normalized": "0.1.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/series-tag.0.1.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>Adds a shortcode, series-tag, that you can use to create a list of all posts \nthat are tagged with whatever tag you pass in.<\/p>\n\n<p>Series Tag was written to allow you to tag a series of posts with the same tag, \nand then easily link between them without having to manually create links at the \nbottom of each post.<\/p>\n\n<p>Links are created in date published order starting at the earliest date. All post \ntitles are links to the permalink of the post except for the current post which\njust has its title displayed.<\/p>\n\n<p>For help or more info, visit <a href=\"http:\/\/www.nutt.net\/tag\/series-tag\/\">Nutt.net<\/a><\/p>",
+                "uid": "27321"
+            }
+        }
+    }
+}

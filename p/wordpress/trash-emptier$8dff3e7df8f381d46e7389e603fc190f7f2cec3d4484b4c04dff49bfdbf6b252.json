@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/trash-emptier": {
+            "0.9": {
+                "name": "wordpress\/trash-emptier",
+                "version": "0.9",
+                "version_normalized": "0.9.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/trash-emptier.0.9.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>Once a day wordpress deletes all trashed items which had been in the trash for more then N days, where N stands for the value of EMPTY_TRASH_DAYS constant which may be defined in wp-config.php file.<\/p>\n\n<p>This plugin presents a different way to control the number of trashed days. Instead of manually editing wp-config.php which is usually not convenient and somewhat dangerous, you can set the number of days in a settings page.\nIn addition there is a tool to empty the cache from Items older the a specified number of days.<\/p>\n\n<p>Usage:\nGet to the settings page via the menu \"Options\" &#62;&#62; \"Empty trash\"\nGet to the delete trash tool page via the menu \"Tools\" &#62;&#62; \"Empty trash\"<\/p>\n\n<p>Network considerations:\nThe plugin was not tested in a network installation, but it should work gibing the individual site admin a control over his trash which is possibly different then other sites on the network.\nThe plugin do not have network wide settings<\/p>\n\n<p>Important:\nFor better or ",
+                "uid": "13988"
+            }
+        }
+    }
+}

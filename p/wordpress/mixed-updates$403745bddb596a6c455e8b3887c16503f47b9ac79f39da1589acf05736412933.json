@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/mixed-updates": {
+            "0.5": {
+                "name": "wordpress\/mixed-updates",
+                "version": "0.5",
+                "version_normalized": "0.5.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/mixed-updates.0.5.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>This plugin allows you to display the most recent posts from your favourite blogs somewhere on your site.<\/p>\n\n<p>It utilises the RSS link field from the blogroll for each of your links. If the RSS link exists it attempts to get the last posts from it.<\/p>\n\n<p>It then displays the most recent X number of posts depending on your settings, ordered by date.  This means that some blogs will contribute many more items to the list than others, simply because they post more frequently.<\/p>",
+                "uid": "12047"
+            }
+        }
+    }
+}

@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/gnuplot-wordpress-plugin": {
+            "1.0": {
+                "name": "wordpress\/gnuplot-wordpress-plugin",
+                "version": "1.0",
+                "version_normalized": "1.0.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/gnuplot-wordpress-plugin.1.0.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>GNUPlot plugin allows you to draw charts inside your wordpress\nposts. The plugin will search the post for tags [gplot] and\n[\/gplot]. Any thing in between will be used as a GNUPlot script, and\nresulting image will be placed in place of your tags.<\/p>\n\n<p>The plugin communicates with a special version of GNUPlot hosted at\nclker.com, which means that you don't need to have GNUPlot on your\nsystem.<\/p>\n\n<p>Not all the GNUPlot commands are allowed. All commands that will\nresult in execution, shell, reading or writing from the server are\ndisabled in the hosted version. The size of the chart is limited as\nwell to avoid excessive CPU usage.<\/p>\n\n<p>After your plot is generated, the plugin caches the result locally in\nwp-content\/cache. You will need to make sure that this directory\nexists and is writeable by your webserver.<\/p>",
+                "uid": "101169"
+            }
+        }
+    }
+}

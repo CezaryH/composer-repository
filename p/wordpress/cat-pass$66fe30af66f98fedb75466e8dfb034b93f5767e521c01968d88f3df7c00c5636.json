@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/cat-pass": {
+            "1.0": {
+                "name": "wordpress\/cat-pass",
+                "version": "1.0",
+                "version_normalized": "1.0.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/cat-pass.1.0.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>For some reason or other, you might want to allow access to certain posts only to certain people. You can use password-protection on Pages and Posts, but those need to be set individually.\nIt's far simpler to just write a Post, specify a category and all posts in that category are password protected. Or you might decide to protect a lot of old posts.\nImagine a family blog where certain posts are only visible to people who know the birthday of your first child, or remember your pet's name.\nCat-Pass is not for super-sensitive information, it's for casual use.<\/p>",
+                "uid": "15001"
+            }
+        }
+    }
+}

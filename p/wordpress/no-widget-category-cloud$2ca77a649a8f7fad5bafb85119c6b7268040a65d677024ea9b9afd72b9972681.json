@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/no-widget-category-cloud": {
+            "0.2": {
+                "name": "wordpress\/no-widget-category-cloud",
+                "version": "0.2",
+                "version_normalized": "0.2.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/no-widget-category-cloud.0.2.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>Creates a function that can be placed in a wordpress template for a category cloud that exists without the requirement of widgets or a widget ready theme.<\/p>\n\n<p>I created this plugin after I started using a single column theme that is not widget ready.  I found that there were multiple plugin widgets available, but no plugin that would allow me to just place a php function into my theme to display a category cloud.<\/p>\n\n<p>Some ideas for oter uses of this plugin:<\/p>\n\n<ol>\n<li>Install WP-Sticky and Exec-PHP.  Create a Sticky post which will stay at the top of your page and type the php code for this plugin in the post.  Now you have a Category Cloud that stays at the top of your page.<\/li>\n<\/ol>",
+                "uid": "108733"
+            }
+        }
+    }
+}

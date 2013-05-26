@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/wp-quote": {
+            "1.0": {
+                "name": "wordpress\/wp-quote",
+                "version": "1.0",
+                "version_normalized": "1.0.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/wp-quote.1.0.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>The WP Quote plugin (developed by <a href=\"http:\/\/www.cyberseo.net\/\" title=\"CyberSEO.net\">CyberSEO.net<\/a>) adds random quotes from famous people or whatever text you want to every post and page of your blog. With WP Quote you can add to your posts not just random text messages but any HTML code including banners, flash animation, embedded videos, iframes etc.<\/p>\n\n<ul>\n<li>The quotes are permanent for every post and page. In other words, they won't change when you refresh the post or page in the browser.<\/li>\n<li><p>Every quote is enclosed in the div block with \"wp_quote\" id, so you could assign them a custom style. E.g.:<\/p>\n\n<pre><code>&#60;div id=\"wp_quote\"&#62;Do, or do not. There is no 'try'.&#60;\/div&#62;\n<\/code><\/pre><\/li>\n<\/ul>",
+                "uid": "36850"
+            }
+        }
+    }
+}

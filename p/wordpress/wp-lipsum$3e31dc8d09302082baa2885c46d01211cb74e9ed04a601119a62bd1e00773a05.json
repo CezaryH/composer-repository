@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/wp-lipsum": {
+            "1.4": {
+                "name": "wordpress\/wp-lipsum",
+                "version": "1.4",
+                "version_normalized": "1.4.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/wp-lipsum.1.4.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>WP-Lipsum includes a collection of template fragments representing lots of common page types, from simple lorem ipsum paragraphs to demos of the WP comment system, and more. It works via a simple shortcode or template tag.<\/p>\n\n<h4>Using the Shortcode<\/h4>\n\n<pre><code>[lipsum]<\/code><\/pre>\n\n<p>This outputs the basic content block. You can edit this in wp-lipsum\/templates\/basic.php.<\/p>\n\n<pre><code>[lipsum template=aux]<\/code><\/pre>\n\n<p>This outputs the auxilary lipsum page, with tables, definition lists, and more. You can edit this in templates\/aux.php.<\/p>\n\n<pre><code>[lipsum repeat=4]<\/code><\/pre>\n\n<p>This outputs 4 simple paragphs of lorem ipsum text. You can edit the text in templates\/p.php.<\/p>\n\n<pre><code>[lipsum template=ol repeat=3]<\/code><\/pre>\n\n<p>This loads the ordered list template and displays it 3 times.<\/p>\n\n<pre><code>[lipsum t=ol r=3]<\/code><\/pre>\n\n<p>You can also use &#8220;t&#8221; and &#8220;r&#8221; as parameter shortcuts.<\/p>\n\n<h4>Lipsum Templates and Fragments",
+                "uid": "25698"
+            }
+        }
+    }
+}

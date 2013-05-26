@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/bhindb": {
+            "1.0": {
+                "name": "wordpress\/bhindb",
+                "version": "1.0",
+                "version_normalized": "1.0.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/bhindb.1.0.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>With BhinDB you are able to add Bhinneka.com products into your posts or pages.<\/p>\n\n<p><strong>Features:<\/strong>\n*   Show products by category\n*   Show or Hide product description per shortcode\n*   Set the number of products you would like to display per shortcode\n*   Choose between one, two or three columns mode<\/p>\n\n<p>The plugin uses a shortcode that you can easily insert into your posts, wherever you would like to.\nA sample shortcode [bhindb category='Micro Secure Digital \/ Micro SD Card' description='yes' column='2' maxitem='4']\nwill return 4 items in 2 columns, with product decription and products should be in 'Micro Secure Digital \/ Micro SD Card' category.<br \/>\nProducts Database is taken from my servers which update data frequently.<\/p>",
+                "uid": "8014"
+            }
+        }
+    }
+}

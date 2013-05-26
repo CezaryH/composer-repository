@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/drag-and-sort": {
+            "0.1": {
+                "name": "wordpress\/drag-and-sort",
+                "version": "0.1",
+                "version_normalized": "0.1.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/drag-and-sort.0.1.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>choose which posts you want to show in homepage, drag and sort them.\nit alter the main wp_query object so once activated and enabled you <em>must<\/em> choose what to display, or your homepage will be empty.<\/p>",
+                "uid": "21028"
+            }
+        }
+    }
+}

@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/html-as-admin-logo": {
+            "0.1": {
+                "name": "wordpress\/html-as-admin-logo",
+                "version": "0.1",
+                "version_normalized": "0.1.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/html-as-admin-logo.0.1.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>Replaces the Admin Logo in the login area with any arbitrary HTML snippet. Useful for using Google Web Fonts for logo instead of using an image as a WordPress administration logo.<\/p>\n\n<p>This has been created plug-in because I need a decent logo to replace the WordPress logo in the wp-admin login page. I have to compensate with my lack of graphics design skills and came up with this plug-in. Works execellent with your Google Web Font of choice.<\/p>",
+                "uid": "34464"
+            }
+        }
+    }
+}

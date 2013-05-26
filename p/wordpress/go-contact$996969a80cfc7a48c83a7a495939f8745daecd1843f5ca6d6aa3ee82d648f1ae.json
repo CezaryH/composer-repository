@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/go-contact": {
+            "1.0.1": {
+                "name": "wordpress\/go-contact",
+                "version": "1.0.1",
+                "version_normalized": "1.0.1.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/go-contact.1.0.1.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>Go-Contact is powerful plugin because it provides the admin to execute Javascript and PHP code when the form is submitted by the user.<\/p>\n\n<p>Also a facility to auto download a file when the user have submitted the form, all you have to do is provide the url of the file<\/p>\n\n<p>Note: Adding any javascript or php code which has bugs in it, will affect the working of the plugin. So use it carefully.<\/p>",
+                "uid": "16996"
+            }
+        }
+    }
+}

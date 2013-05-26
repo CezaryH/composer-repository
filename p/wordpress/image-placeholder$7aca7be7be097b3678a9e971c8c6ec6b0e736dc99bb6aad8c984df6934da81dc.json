@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/image-placeholder": {
+            "1.0": {
+                "name": "wordpress\/image-placeholder",
+                "version": "1.0",
+                "version_normalized": "1.0.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/image-placeholder.1.0.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<h4>Using the Shortcode<\/h4>\n\n<p>Using the short code <code>[image-placeholder]<\/code> without any of the optional attributes will generate a 300px wide by 200px high image using Holder's 'social' theme which defaults to a solid blue background with white text showing the size of the image ('300x200').<\/p>\n\n<h4>Set the width and height<\/h4>\n\n<p>You can set the width and height (in pixels) of your placeholder image:<\/p>\n\n<pre><code>[image-placeholder width=&#34;500&#34; height=&#34;100&#34;]<\/code><\/pre>\n\n<h4>Change the colors<\/h4>\n\n<p>You can change the background and text colors:<\/p>\n\n<pre><code>[image-placeholder colors=&#34;#000:#fff&#34;]<\/code><\/pre>\n\n<p>This will create an image with a black background and white text.<\/p>\n\n<h4>Change the text<\/h4>\n\n<p>By default holder.js uses the size of the image for the text.  You can change this:<\/p>\n\n<pre><code>[image-placeholder text=&#34;Foo bar&#34;]<\/code><\/pre>\n\n<h4>Remove the height and width styles<\/h4>\n\n<p>By default, holder.js will ",
+                "uid": "8540"
+            }
+        }
+    }
+}

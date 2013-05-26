@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/wp-main-menu": {
+            "0.2": {
+                "name": "wordpress\/wp-main-menu",
+                "version": "0.2",
+                "version_normalized": "0.2.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/wp-main-menu.0.2.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>With <strong>WP Main Menu<\/strong> you can create a great menu with links to categories, pages, posts, tags and more for WordPress. Currently WP Main Menu is a Beta, so you may find some bugs. If you found an error, please, report it immediately in <a href=\"http:\/\/foro.sumolari.com\/index.php\/board,47.0.html\">this page<\/a>.<\/p>\n\n<p>To show the menu, add this code in your theme:<\/p>\n\n<pre><code>&#60;?php wp_main_menu(); ?&#62;\n<\/code><\/pre>\n\n<p>WP Main Menu won't be updated anymore because WordPress 3.0 includes a menu manager. Thank you very much for using WP Main Menu and sorry for the inconvenience.<\/p>",
+                "uid": "80900"
+            }
+        }
+    }
+}

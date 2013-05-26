@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/meta-extensions": {
+            "1.0.3": {
+                "name": "wordpress\/meta-extensions",
+                "version": "1.0.3",
+                "version_normalized": "1.0.3.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/meta-extensions.1.0.3.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>This plugin takes a simple concept of giving you fields to enter information that use the meta tags built into \nWordpress and expands on it. Modifying conf.txt in the plugin directory will allow you to enter custom fields to \nthe Posts pages to add textfields, textarea, dropdown selections, checkboxes, and radio selections.<\/p>\n\n<p>On top of all this simplicity, it also integrates several popular Wordpress plugins. With gallery selection for \nNextGen Gallery you can select a gallery to save the id to a meta field for your post to pull in your theme. Support \nfor WordTube video selection is also added. WP-Download Manager is also supported in this initial release to get ids \nfor downloads as well.<\/p>\n\n<p>Now while that may seem enough to make this a popular plugin, there is more. Meta Extensions allows you mark the \nfields to auto add tags based on field title or content (explained in the readme). It also allows you to set up \ncheckboxes to add a post to\/remove from a category autom",
+                "uid": "67396"
+            }
+        }
+    }
+}

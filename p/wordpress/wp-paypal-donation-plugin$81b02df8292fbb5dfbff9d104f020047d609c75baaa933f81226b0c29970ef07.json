@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/wp-paypal-donation-plugin": {
+            "1.1": {
+                "name": "wordpress\/wp-paypal-donation-plugin",
+                "version": "1.1",
+                "version_normalized": "1.1.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/wp-paypal-donation-plugin.1.1.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>Wordpress plugin to recieve donation in multiple currencies in one click. Can be used in the sidebar, posts and pages.\nWordPress PayPal Donations Plugin uses IPN to ensure the values are correct and you can also chose to display your total donations to date.<\/p>\n\n<p>For screenshots, more information and updates, please visit:\n<a href=\"http:\/\/www.shrawasti.com\/about\/development-center\/\" rel=\"nofollow\">http:\/\/www.shrawasti.com\/about\/development-center\/<\/a><\/p>\n\n<p>Usage:\nThere are three ways you can use this plugin:<\/p>\n\n<ol>\n<li>Add the trigger text <!--WP_PAYPAL_DONATION_--> to a post or page<\/li>\n<li>Call the function from a template file: <\/li>\n<li>Use the WP Paypal Donation Widget from the Widgets menu.<\/li>\n<\/ol>",
+                "uid": "62903"
+            }
+        }
+    }
+}

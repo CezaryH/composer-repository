@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/download-per-mail": {
+            "0.1": {
+                "name": "wordpress\/download-per-mail",
+                "version": "0.1",
+                "version_normalized": "0.1.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/download-per-mail.0.1.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>Download Per Mail offers the possibility to let users download files via registration per mail.<\/p>\n\n<p>With this plugin, the backendusers can insert a predefined form into every post or page.<\/p>\n\n<p>Frontendusers can now register theirselfes to download a file (which the backenduser has uploaded or used through the medialib).\nThe Users get a link per mail on which they have to click to submit their registration and simultaniously get their download.<\/p>\n\n<p>The downloadfiles are protected and only downloadable within registration.<\/p>\n\n<p>In the backendinterface the backenduser can set a few constants. The mail subject and body of the mail, with which the frontenduser gets his link, a conversion-tracking-script,\nthe texts to inform the frontenduser, if his registration was done and correct, or not. Then the uploadbutton, where the backenduser can upload a file or use a existing file and insert it into the post.<\/p>\n\n<p>At the bottom the 20 latest email registrations with timestamp",
+                "uid": "65485"
+            }
+        }
+    }
+}

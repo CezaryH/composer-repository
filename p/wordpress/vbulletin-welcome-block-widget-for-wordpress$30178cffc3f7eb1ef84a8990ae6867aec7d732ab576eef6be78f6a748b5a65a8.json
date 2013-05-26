@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/vbulletin-welcome-block-widget-for-wordpress": {
+            "1.0": {
+                "name": "wordpress\/vbulletin-welcome-block-widget-for-wordpress",
+                "version": "1.0",
+                "version_normalized": "1.0.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/vbulletin-welcome-block-widget-for-wordpress.1.0.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>This plugin adds the vBulletin welcome block to your blog as a widget. If the user is logged in they will see their login username, avatar, messages and stats. If the user is not logged in they will see a login form and stats including new posts count.<\/p>\n\n<p>It works great along side the 'vbulletin\/wordpress bridge' plugin for that bit of extra integration. Now members can login from a wordpress page.<\/p>\n\n<p>Send feature suggestions or bug to: <a href=\"mailto:bugs@whatsuplift.net\">bugs@whatsuplift.net<\/a><\/p>\n\n<p>Known bugs:<\/p>\n\n<ol>\n<li>vBulletin 4 support may still be sketchy.<\/li>\n<\/ol>",
+                "uid": "55166"
+            }
+        }
+    }
+}

@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/foursquare-latest-checkins": {
+            "1.0": {
+                "name": "wordpress\/foursquare-latest-checkins",
+                "version": "1.0",
+                "version_normalized": "1.0.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/foursquare-latest-checkins.1.0.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>Displays venue names and icons of the latest Foursquare checkins.\nRequires Foursquare Username and Password filled out in the widget's settings.<\/p>",
+                "uid": "50388"
+            }
+        }
+    }
+}

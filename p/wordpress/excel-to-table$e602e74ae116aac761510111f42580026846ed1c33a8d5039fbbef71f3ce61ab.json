@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/excel-to-table": {
+            "1.4": {
+                "name": "wordpress\/excel-to-table",
+                "version": "1.4",
+                "version_normalized": "1.4.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/excel-to-table.1.4.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>Based on code from  php Excel Reader at <a href=\"http:\/\/code.google.com\/p\/php-excel-reader\/\" rel=\"nofollow\">http:\/\/code.google.com\/p\/php-excel-reader\/<\/a> this simple \nplugin convert all excel files in a specified folder in html table. You can chose to use it to view a tabel in a page.<\/p>\n\n<p>Let<\/p>\n\n<pre><code>myFaboluosExcelFile.xls \n<\/code><\/pre>\n\n<p>is the file you want to view as table<\/p>\n\n<p>Upload it via plugin manager, than use the shortcode<\/p>\n\n<pre><code>[excel_table fname=\"myFaboluosExcelFile\"]\n<\/code><\/pre>\n\n<p>to put a html table wherever you want in a page.<\/p>\n\n<p>This plugin also create a list of link of Excel file in a page where you put the tag<\/p>\n\n<pre><code>[excel_table] \n<\/code><\/pre>\n\n<p>and when you open one of it you could see a page with the table<\/p>",
+                "uid": "31483"
+            }
+        }
+    }
+}

@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/yd-webhook-to-xml-rpc": {
+            "0.1.0": {
+                "name": "wordpress\/yd-webhook-to-xml-rpc",
+                "version": "0.1.0",
+                "version_normalized": "0.1.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/yd-webhook-to-xml-rpc.0.1.0.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<h4>Implement incoming Webhooks in WordPress<\/h4>\n\n<p>This plugin implements a simple gateway to transform webhook calls into regular XML-RPC calls.<\/p>\n\n<p>WordPress has a very comprehensive XML-RPC API. This gateway will automatically accept webhook calls and convert them into XML-RPC.<\/p>\n\n<p>It listen to Webhooks to trigger XML-RPC methods in WordPress.<\/p>\n\n<p>It provides a simple short \/webhook URL for triggering WordPress events.<\/p>\n\n<p>From then on you can use the well-known and well-documented native WordPress XMLRPC API to respond to webhooks and implement needed features in your plugins and custom functions.<\/p>\n\n<p>The incoming webhook POST data payload will be transferred as-is to the XML-RPC method. It should be XML for it to work well.<\/p>\n\n<p>Needs PHP5.<\/p>\n\n<h4>Webhook syntax<\/h4>\n\n<p>If you are using pretty permalinks:<\/p>\n\n<pre><code><a href=\"http:\/\/your-site\/webhook?method=misc.method\" rel=\"nofollow\">http:\/\/your-site\/webhook?method=misc.method<\/a><\/code><\/pre>\n\n<p",
+                "uid": "48095"
+            }
+        }
+    }
+}

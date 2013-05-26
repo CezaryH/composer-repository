@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/show-your-akismet-count-as-plain-text": {
+            "1.0": {
+                "name": "wordpress\/show-your-akismet-count-as-plain-text",
+                "version": "1.0",
+                "version_normalized": "1.0.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/show-your-akismet-count-as-plain-text.1.0.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>This plugin creates a function called \"my_akismet_count();\" which will return a sentence like the following:<\/p>\n\n<p>Akismet has protected my blog from 468 spam comments. Nice try!<\/p>\n\n<p>Provided you have Akismet installed, it will return the number, although it is best for it to have caught at least one before you start using this, otherwise it won't work.<\/p>\n\n<p>At some point I will revise it to return a function with just a number.<\/p>",
+                "uid": "103800"
+            }
+        }
+    }
+}

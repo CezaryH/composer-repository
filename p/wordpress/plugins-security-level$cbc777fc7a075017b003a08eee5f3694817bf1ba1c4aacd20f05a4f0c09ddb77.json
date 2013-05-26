@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/plugins-security-level": {
+            "0.9": {
+                "name": "wordpress\/plugins-security-level",
+                "version": "0.9",
+                "version_normalized": "0.9.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/plugins-security-level.0.9.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>This plugin displays some information about the currently activated plugins to compliment the info in the plugin screen such as:<\/p>\n\n<ul>\n<li>Current intalled version of the plugin.<\/li>\n<li>Last version of the plugin available in the Wordpress.org repository.<\/li>\n<li>When was the plugin last updated.<\/li>\n<li>If the plugin is compatible with the Wordpress version you are using.<\/li>\n<\/ul>",
+                "uid": "8749"
+            }
+        }
+    }
+}

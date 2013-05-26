@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/socialcountdown": {
+            "1.1": {
+                "name": "wordpress\/socialcountdown",
+                "version": "1.1",
+                "version_normalized": "1.1.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/socialcountdown.1.1.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>SocialCountdown Wordpress plugin provides an easy way to integrate an existing SocialCountdown timer into a Wordpress webpage.<\/p>\n\n<p>To create a free SocialCountdown timer, navigate to <a href=\"https:\/\/socialcountdown.com\" rel=\"nofollow\">https:\/\/socialcountdown.com<\/a><\/p>\n\n<p>The plugin provides the short code: [sc_widget]<\/p>\n\n<p>To include a SocialCountdown timer on a Wordpress post, simply include the following short code:<\/p>\n\n<p>[sc_widget timerid=\"000-000-0000000\"]<\/p>\n\n<p>where \"000-000-0000000\" is the id of the countdown you are embedding. The short code will render a widget of the referenced countdown timer complete with the background image that was defined.<\/p>\n\n<p>To create a small widget, specify a size attribute with the value \"small\" as follows:<\/p>\n\n<p>[sc_widget timerid=\"000-000-0000000\" size=\"small\"]<\/p>",
+                "uid": "9673"
+            }
+        }
+    }
+}

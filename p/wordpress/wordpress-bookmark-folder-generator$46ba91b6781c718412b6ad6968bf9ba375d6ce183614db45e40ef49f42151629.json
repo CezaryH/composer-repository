@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/wordpress-bookmark-folder-generator": {
+            "0.2": {
+                "name": "wordpress\/wordpress-bookmark-folder-generator",
+                "version": "0.2",
+                "version_normalized": "0.2.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/wordpress-bookmark-folder-generator.0.2.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>This little plugin will output a bookmarks.html file with your entire WordPress Dashboard in folders, just as they appear on your panel.<\/p>\n\n<p>Having all your dashboard links in your Firefox bookmarks enables you to not only quickly and easily access any part of your management panels, but also gives you quick access to any part of the admin through the Awesomebar.<\/p>\n\n<p>That file is in the native Mozilla Firefox bookmarks.html format, which can be read by most modern browsers, with the following exceptions:<\/p>\n\n<ul>\n<li>While Internet Explorer has an option to import from file in the Import wizard, I failed to import the output file. I tested on IE6, and will be happy to receive feedback from IE7\/IE8 users on this.<\/li>\n<li>Google Chrome only allows import directly from a different browser installed on your system and not from a file.<\/li>\n<\/ul>",
+                "uid": "99045"
+            }
+        }
+    }
+}

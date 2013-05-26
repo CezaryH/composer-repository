@@ -1,0 +1,40 @@
+{
+    "packages": {
+        "wordpress\/custom-tag-list": {
+            "0.1": {
+                "name": "wordpress\/custom-tag-list",
+                "version": "0.1",
+                "version_normalized": "0.1.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/custom-tag-list.0.1.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>This plugin introduces a new template-tag called <code>ctl_the_tags()<\/code>. It's default default behaviour is identical to <code>the_tags()<\/code>. Anyhow, it allows the user to disable linking tags completely or use a different URI for the tags.<\/p>",
+                "uid": "109532"
+            },
+            "0.1.1": {
+                "name": "wordpress\/custom-tag-list",
+                "version": "0.1.1",
+                "version_normalized": "0.1.1.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/custom-tag-list.0.1.1.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>This plugin introduces a new template-tag called <code>ctl_the_tags()<\/code>. It's default default behaviour is identical to <code>the_tags()<\/code>. Anyhow, it allows the user to disable linking tags completely or use a different URI for the tags.<\/p>",
+                "uid": "109531"
+            }
+        }
+    }
+}

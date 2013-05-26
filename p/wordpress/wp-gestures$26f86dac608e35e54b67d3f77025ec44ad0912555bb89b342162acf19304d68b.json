@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/wp-gestures": {
+            "1.0": {
+                "name": "wordpress\/wp-gestures",
+                "version": "1.0",
+                "version_normalized": "1.0.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/wp-gestures.1.0.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>This plugin enable a feature that you can use mouse gestures to navigate to the next post or previous post or the home page when on a single post just like mouse gesture in Gmail.<\/p>\n\n<p>Be aware that this plugin may not work in a browser which internally has mouse gesture capacity.<\/p>",
+                "uid": "70734"
+            }
+        }
+    }
+}

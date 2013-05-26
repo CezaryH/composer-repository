@@ -1,0 +1,40 @@
+{
+    "packages": {
+        "wordpress\/folder-slideshow": {
+            "0.9": {
+                "name": "wordpress\/folder-slideshow",
+                "version": "0.9",
+                "version_normalized": "0.9.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/folder-slideshow.0.9.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>This plugin creates picture slideshow from a folder. \nThe pictures folder must be uploaded (using FTP) somewhere on the server (e.g. wp-content\/upload).<\/p>\n\n<p>To include a slideshow in a post or a page, you have to use the following shortcode :<\/p>\n\n<pre><code>[folderslideshow folder=\"local_path_to_folder\"]\n<\/code><\/pre>\n\n<p>You can customize the slideshow using the following attributes:<\/p>\n\n<ul>\n<li>Slideshow width (width) in px<\/li>\n<li>Picture border (border) in px (default 0)<\/li>\n<li>Padding around the picture (padding) in px (default 0)<\/li>\n<li>Slide duration (interval) in milliseconds (default 4000)<\/li>\n<li>Pagination display (pagination): true or false (default true)<\/li>\n<li>Transition effect (effect): fade or slide (default slide)<\/li>\n<\/ul>\n\n<p>Default slideshow width is set to the width of the container unless the width attribute is set.\nThe height is calculate from the first picture (to keep ratio).<\/p>\n\n<pre><code>[folderslideshow folder=\"path\" width=500 padding=5",
+                "uid": "11432"
+            },
+            "0.96": {
+                "name": "wordpress\/folder-slideshow",
+                "version": "0.96",
+                "version_normalized": "0.96.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/folder-slideshow.0.96.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>This plugin creates picture slideshow from a folder. \nThe pictures folder must be uploaded (using FTP) somewhere on the server (e.g. wp-content\/upload).<\/p>\n\n<p>To include a slideshow in a post or a page, you have to use the following shortcode :<\/p>\n\n<pre><code>[folderslideshow folder=\"local_path_to_folder\"]\n<\/code><\/pre>\n\n<p>You can customize the slideshow using the following attributes:<\/p>\n\n<ul>\n<li>Slideshow width (width) in px<\/li>\n<li>Picture border (border) in px (default 0)<\/li>\n<li>Padding around the picture (padding) in px (default 0)<\/li>\n<li>Slide duration (interval) in milliseconds (default 4000)<\/li>\n<li>Pagination display (pagination): true or false (default true)<\/li>\n<li>Transition effect (effect): fade or slide (default slide)<\/li>\n<\/ul>\n\n<p>Default slideshow width is set to the width of the container unless the width attribute is set.\nThe height is calculate from the first picture (to keep ratio).<\/p>\n\n<pre><code>[folderslideshow folder=\"path\" width=500 padding=5",
+                "uid": "11431"
+            }
+        }
+    }
+}

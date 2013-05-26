@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/youtube-cetera-cron": {
+            "1.0": {
+                "name": "wordpress\/youtube-cetera-cron",
+                "version": "1.0",
+                "version_normalized": "1.0.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/youtube-cetera-cron.1.0.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>This is plugin for reposting youtube videos on your site. Uses linux cron or wp_cron function and YouTube API v.2. It's pretty simple in everyday use.<\/p>\n\n<p><a href=\"http:\/\/cetera.ru\/\" title=\"cetera\">Plugin Developers page<\/a><\/p>",
+                "uid": "19573"
+            }
+        }
+    }
+}

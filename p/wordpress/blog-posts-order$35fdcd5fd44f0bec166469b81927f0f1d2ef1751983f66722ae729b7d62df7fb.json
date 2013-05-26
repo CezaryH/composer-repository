@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/blog-posts-order": {
+            "1.0": {
+                "name": "wordpress\/blog-posts-order",
+                "version": "1.0",
+                "version_normalized": "1.0.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/blog-posts-order.1.0.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>This plugin uses the WordPress's inbuilt functionality to apply ordering feature for the posts on the blog.<\/p>\n\n<p>Just like you order your pages on a menu, you can change the order of appearance of the posts on the blog.<\/p>\n\n<p>When this plugin is activated, it overrides the default ordering by published date and the posts are ordered according to the value provided in the order field for each of the posts.<\/p>",
+                "uid": "13800"
+            }
+        }
+    }
+}

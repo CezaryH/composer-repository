@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/global-content": {
+            "1.0": {
+                "name": "wordpress\/global-content",
+                "version": "1.0",
+                "version_normalized": "1.0.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/global-content.1.0.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>Global Content by BusinessBox allows you to define at only one place some content globally used all over your website.<\/p>\n\n<p>Hence it prevents from writing mutlitple times some hardly-maintenable text.<\/p>\n\n<p>Plain text as well as more complex HTML\/CSS code can be put in each of those global variables.<\/p>\n\n<p>Simply use this content in either your templates by using our PHP function <code>gcbb_get<\/code> or directly in the content of posts or pages using a modifiable tag such as <code>[GCBB#variable]<\/code>.<\/p>\n\n<h4>Further Reading<\/h4>\n\n<p>For more info, please visit the links below:<\/p>\n\n<ul>\n<li>Visit our <a href=\"http:\/\/www.businessbox.com.au\/\">website<\/a><\/li>\n<li>Follow our <a href=\"http:\/\/www.businessbox.com.au\/blogs\/blog\">blog<\/a><\/li>\n<li>Follow BusinessBox on <a href=\"http:\/\/www.linkedin.com\/in\/philippesoria\">LinkedIn<\/a>, <a href=\"https:\/\/twitter.com\/businessbox1\">Twitter<\/a> &#38; <a href=\"https:\/\/www.facebook.com\/pages\/Businessbox\/438966746178271\">Facebook<\/a><\/li>",
+                "uid": "115302"
+            }
+        }
+    }
+}

@@ -1,0 +1,40 @@
+{
+    "packages": {
+        "wordpress\/worldtag": {
+            "1.0": {
+                "name": "wordpress\/worldtag",
+                "version": "1.0",
+                "version_normalized": "1.0.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/worldtag.1.0.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>This reads posts from your blog, and identifies the wt: identifier, tuning them into links. The links go back to a database of pages that have used the same link. So you can collectivly see who is blogging about the same subject.<\/p>\n\n<p>For example, if you are writing about a new release of wordpress, you could write wt:wpthreepointtwo. This would link to a page that has a list of other blog entries about the same subject.<\/p>\n\n<p>Please understand that this plugin stores links to your blog in my databae. No personel information is stored, jsut a link to the blog, the host site, keyword used and the date it was entered.<\/p>",
+                "uid": "45282"
+            },
+            "1.1": {
+                "name": "wordpress\/worldtag",
+                "version": "1.1",
+                "version_normalized": "1.1.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/worldtag.1.1.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>This reads posts from your blog, and identifies the wt: identifier, tuning them into links. The links go back to a database of pages that have used the same link. So you can collectivly see who is blogging about the same subject.<\/p>\n\n<p>For example, if you are writing about a new release of wordpress, you could write wt:wpthreepointtwo. This would link to a page that has a list of other blog entries about the same subject.<\/p>\n\n<p>Please understand that this plugin stores links to your blog in my databae. No personel information is stored, jsut a link to the blog, the host site, keyword used and the date it was entered.<\/p>",
+                "uid": "45280"
+            }
+        }
+    }
+}

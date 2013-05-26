@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/sleekstore": {
+            "2.3": {
+                "name": "wordpress\/sleekstore",
+                "version": "2.3",
+                "version_normalized": "2.3.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/sleekstore.2.3.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<h4>What is sleekStore?<\/h4>\n\n<p>SleekStore is a plugin that extends WordPress with online store functionality .<\/p>\n\n<p>Functionality of the plug-in is based on the assumption that certain posts \nor pages are treated as products. Description of a product is defined \nby the content of the post with an added parameter &#8220;Price&#8221;. \nBy default, &#8220;Add to cart&#8221; button is displayed on each page\/post with defined price.<\/p>\n\n<p>sleekStore allows for adding products to the cart and handles order procedure. \nThe display and presentation of the products is not enforced in any way \nand the user decide whether products are defined as subpages or e.g. posts of a specific category.<\/p>\n\n<p>This solution is very flexible and does not require any additional skills beyond the basic wordpress editing.<\/p>\n\n<p>In addition, sleekStore contains configuration panel, panel to handle orders, shortcodes and other elements \nto improve the process and order management.<\/p>\n\n<p>You can visit p",
+                "uid": "12021"
+            }
+        }
+    }
+}

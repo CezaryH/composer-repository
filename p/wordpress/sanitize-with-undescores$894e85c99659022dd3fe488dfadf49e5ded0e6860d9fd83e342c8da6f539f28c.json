@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/sanitize-with-undescores": {
+            "1": {
+                "name": "wordpress\/sanitize-with-undescores",
+                "version": "1",
+                "version_normalized": "1.0.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/sanitize-with-undescores.1.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>When i decided to launch my blog, i made a little Wordpress's plug-in (i didn't find it) called \"Sanitize with underscores\": as you can imagine it allows to use undescores '_' in the permalink rather then default hyphen '-'.<\/p>\n\n<p>Before:\n    <a href=\"http:\/\/...\/name\" rel=\"nofollow\">http:\/\/...\/name<\/a> - of - post.html<\/p>\n\n<p>After:\n    <a href=\"http:\/\/...\/name\" rel=\"nofollow\">http:\/\/...\/name<\/a> _ of _ post.html<\/p>\n\n<p><a href=\"http:\/\/read.melodycode.com\/\" title=\"Author Homepage\">Author Homepage<\/a><\/p>\n\n<p><a href=\"http:\/\/read.melodycode.com\/news\/274\/sanitize_with_undescores.html\" title=\"Plugin Homepage\">Plugin Homepage<\/a><\/p>",
+                "uid": "112996"
+            }
+        }
+    }
+}

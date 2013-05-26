@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/simple-buzz": {
+            "0.6": {
+                "name": "wordpress\/simple-buzz",
+                "version": "0.6",
+                "version_normalized": "0.6.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/simple-buzz.0.6.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>Simply displays to the visitor the last Google Buzz status updates of a Google user.<\/p>\n\n<p>Usage: Insert anywhere in your theme the function <code>&#60;?php simple_buzz('ID_of_user', number_of_posts_to_show) ?&#62;<\/code> (Number of posts is optional [default=1]). If number of posts is larger than 1, they will be displayed in an unordered list.<\/p>",
+                "uid": "73749"
+            }
+        }
+    }
+}

@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/remove-my-account": {
+            "1.1": {
+                "name": "wordpress\/remove-my-account",
+                "version": "1.1",
+                "version_normalized": "1.1.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/remove-my-account.1.1.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p><a href=\"http:\/\/www.removemyaccount.com\">Remove my Account<\/a> allows specific WordPress roles (except administrator) to delete themselves on the <code>Users -&#62; Your Profile<\/code> subpanel or\non any Post or Page using the Shortcode <code>[plugin_remove_my_account \/]<\/code>. Settings for this plugin are found on the <code>Settings -&#62; Remove My Account<\/code> subpanel.<\/p>\n\n<p>You are able to choose a user to set as the author for deleted users content. When a user wants to delete their profile it doesn't mean you should lose their posts!<\/p>\n\n<p>You also have the ability to use the short code only and hide the profile deletion option from the user profile page.<\/p>\n\n<p>How it works:<\/p>\n\n<ul>\n<li><p>A user clicks the delete link, which by default says <code>Delete Profile<\/code>, but can be changed.<\/p><\/li>\n<li><p>User is prompted to confirm they want to delete themselves ( OK &#124; Cancel ).<\/p><\/li>\n<li><p>If (OK) the user is deleted. If you have chosen to assign deleted",
+                "uid": "15313"
+            }
+        }
+    }
+}

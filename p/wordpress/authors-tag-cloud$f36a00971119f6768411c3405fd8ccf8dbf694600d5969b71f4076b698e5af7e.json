@@ -1,0 +1,40 @@
+{
+    "packages": {
+        "wordpress\/authors-tag-cloud": {
+            "1.0": {
+                "name": "wordpress\/authors-tag-cloud",
+                "version": "1.0",
+                "version_normalized": "1.0.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/authors-tag-cloud.1.0.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>This plugin will create a tag cloud for a specific author.  This will allow a visitor on your site to drill deep down into an author&#8217;s specific content.<\/p>\n\n<p>It uses all of the same parameters as wp_tag_cloud(), but adds an additional one for the author_id.  When the author_id is passed an integer of a published author that has tagged his or her posts, a tag cloud will be generated.<\/p>\n\n<p>It will also create a new permalink structure on your site of<\/p>\n\n<p><a href=\"http:\/\/www.yoursite.com\/author\/author-slug\/tag\/tag-slug\" rel=\"nofollow\">http:\/\/www.yoursite.com\/author\/author-slug\/tag\/tag-slug<\/a><\/p>\n\n<p>***Note: that you must be using any custom permalink structure for this plugin to function.  Also, custom taxonomies is currently not functioning with this version, please look forward for this in a later version.<\/p>",
+                "uid": "45115"
+            },
+            "1.05": {
+                "name": "wordpress\/authors-tag-cloud",
+                "version": "1.05",
+                "version_normalized": "1.05.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/authors-tag-cloud.1.05.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>This plugin will create a tag cloud for a specific author.  This will allow a visitor on your site to drill deep down into an author&#8217;s specific content.<\/p>\n\n<p>It uses all of the same parameters as wp_tag_cloud(), but adds an additional one for the author_id.  When the author_id is passed an integer of a published author that has tagged his or her posts, a tag cloud will be generated.<\/p>\n\n<p>It will also create a new permalink structure on your site of<\/p>\n\n<p><a href=\"http:\/\/www.yoursite.com\/author\/author-slug\/tag\/tag-slug\" rel=\"nofollow\">http:\/\/www.yoursite.com\/author\/author-slug\/tag\/tag-slug<\/a><\/p>\n\n<p>***Note: that you must be using any custom permalink structure for this plugin to function.  Also, custom taxonomies is currently not functioning with this version, please look forward for this in a later version.<\/p>",
+                "uid": "45113"
+            }
+        }
+    }
+}

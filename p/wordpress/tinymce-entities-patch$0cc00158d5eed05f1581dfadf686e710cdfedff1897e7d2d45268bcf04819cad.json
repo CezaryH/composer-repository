@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/tinymce-entities-patch": {
+            "1.0": {
+                "name": "wordpress\/tinymce-entities-patch",
+                "version": "1.0",
+                "version_normalized": "1.0.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/tinymce-entities-patch.1.0.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<blockquote>\n  <blockquote>\n    <p><strong>Important Note: The recent release of WordPress 2.6 has fixed the disappearing entities bug this plugin was designed to fix, so once you upgrade to WordPress 2.6 please discontinue using this plugin.  I may release a new plugin that prevents spaces from being stripped from the beginning of lines sometime in the near future.<\/strong><\/p>\n  <\/blockquote>\n<\/blockquote>\n\n<p>After a few weeks of writing posts on WordPress, I was getting very irritated when all the HTML entities I added to my examples kept being converted into characters -- e.g. HTML entities like &#38;gt; &#38;lt; &#38;quot; would convert to &#62; &#60; &#34; -- when I saved the post I was working on.<\/p>\n\n<p>To make matters worse, all the spaces I was using to align my coding examples would disappear when switching between \"HTML\" mode and \"Visual\" mode, even if I used the &#38;nbsp; entity.<\/p>\n\n<p>So, I finally bit the bullet and wrote this little plugin to fix these problems.  I",
+                "uid": "101654"
+            }
+        }
+    }
+}

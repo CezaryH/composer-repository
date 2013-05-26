@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/image-cropper": {
+            "0.3.0": {
+                "name": "wordpress\/image-cropper",
+                "version": "0.3.0",
+                "version_normalized": "0.3.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/image-cropper.0.3.0.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>For cropping a post thumbnail image to 200x300 pixels:<\/p>\n\n<pre><code>&#60;?php\n    the_post();\n    img(200, 300);\n?&#62;\n<\/code><\/pre>\n\n<p>This will verify the existence of post thumbnail, crop the image, save it in uploads folder, and generate an image tag.<\/p>\n\n<p>To verify the existence of a post thumbnail, you can use <code>has_img()<\/code><\/p>\n\n<pre><code>&#60;?php if (has_img()): ?&#62;\n&#60;figure&#62;\n    &#60;?php img(200, 300) ?&#62;\n    &#60;figcaption&#62;Some text&#60;\/figcaption&#62;\n&#60;\/figure&#62;\n&#60;?php endif ?&#62;\n<\/code><\/pre>\n\n<p>To crop images that are not post thumbnails, you can use <code>crop($url, $size)<\/code><\/p>\n\n<pre><code>&#60;?php\n    $cropped_url= crop( get_bloginfo('url') . '\/wp-content\/uploads\/image.jpg', array(200, 300) );\n?&#62;\n&#60;img src=\"&#60;?php echo $cropped_url ?&#62;\"&#62;\n<\/code><\/pre>",
+                "uid": "43017"
+            }
+        }
+    }
+}

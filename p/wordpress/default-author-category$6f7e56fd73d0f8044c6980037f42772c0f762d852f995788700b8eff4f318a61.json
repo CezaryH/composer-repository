@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/default-author-category": {
+            "1.0": {
+                "name": "wordpress\/default-author-category",
+                "version": "1.0",
+                "version_normalized": "1.0.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/default-author-category.1.0.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>Allows each user profile to set a default category for whenever they create a post overriding the site wide default category.  Each profile will have a place to set that user's default category and then every time they create a new post, it will default to this category rather than the default category on the site level.<\/p>",
+                "uid": "49576"
+            }
+        }
+    }
+}

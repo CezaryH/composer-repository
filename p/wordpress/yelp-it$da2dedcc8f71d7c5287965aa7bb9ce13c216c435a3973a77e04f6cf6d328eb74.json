@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/yelp-it": {
+            "0.4.3": {
+                "name": "wordpress\/yelp-it",
+                "version": "0.4.3",
+                "version_normalized": "0.4.3.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/yelp-it.0.4.3.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "Displays a small Yelp profile for a specific business or a search: Name (link), Rating, Review Count, and Picture. Shortcode only for now.",
+                "uid": "59170"
+            }
+        }
+    }
+}

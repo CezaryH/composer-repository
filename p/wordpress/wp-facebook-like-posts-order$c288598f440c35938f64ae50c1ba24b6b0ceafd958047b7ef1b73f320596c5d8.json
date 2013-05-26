@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/wp-facebook-like-posts-order": {
+            "1.0": {
+                "name": "wordpress\/wp-facebook-like-posts-order",
+                "version": "1.0",
+                "version_normalized": "1.0.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/wp-facebook-like-posts-order.1.0.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>On WordPress you can order posts by date, title, random ecc. but imagine you set a Facebook Like button on your posts and you want them to be ordered by the total lkes number.<\/p>\n\n<p>This plugin allows you to order WordPress posts by their Facebook Likes number.<\/p>\n\n<p>Once installed the plugin, on every new entry you create, will be added a \"facebook_likes\" custom field.<\/p>\n\n<p>When you call <code>&#60;?php the_content(); ?&#62;<\/code> function, the plugin checks the number of likes of the post and updates this number.<\/p>\n\n<p>If you don't use <code>&#60;?php the_content(); ?&#62;<\/code> function, place this funcion inside your LOOP: <code>&#60;?php update_facebook_likes(); ?&#62;<\/code><\/p>\n\n<p>To list the posts ordered by facebook likes, your posts query (see the official reference) must be something like this: <code>&#60;?php query_posts('meta_key=facebook_likes&#38;orderby=meta_value'); ?&#62;<\/code><\/p>",
+                "uid": "43626"
+            }
+        }
+    }
+}

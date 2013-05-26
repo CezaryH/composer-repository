@@ -1,0 +1,40 @@
+{
+    "packages": {
+        "wordpress\/wp-cache-block": {
+            "0.1.0": {
+                "name": "wordpress\/wp-cache-block",
+                "version": "0.1.0",
+                "version_normalized": "0.1.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/wp-cache-block.0.1.0.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>Adds ability to globally cache certain segments of code.<\/p>\n\n<p>WP Cache and some other caching plugins work amazingly well, however, their benefits are limited in sites with a large percentage of logged in users.  While working on these projects, we, Voce Connect, found the need for a better caching solution.  We needed to easily cache rendered portions of the theme that were the same for each user without caching other portions that may have user specific content.  The solution was to come up with a plugin that could be easily integrated into a theme to help cache these blocks of content.<\/p>\n\n<p>Requirements:<\/p>\n\n<ul>\n<li>WordPress 2.8 or higher<\/li>\n<li>\"php5\" - I'm a big proponent of dropping the php4 compatibility of WordPress due to the improved OO support.  Because of this, I prefer to write my plugins in php5 form in hopes to help push the community along.<\/li>\n<\/ul>",
+                "uid": "67154"
+            },
+            "0.1.1": {
+                "name": "wordpress\/wp-cache-block",
+                "version": "0.1.1",
+                "version_normalized": "0.1.1.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/wp-cache-block.0.1.1.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>Adds ability to globally cache certain segments of code.<\/p>\n\n<p>WP Cache and some other caching plugins work amazingly well, however, their benefits are limited in sites with a large percentage of logged in users.  While working on these projects, we, Voce Connect, found the need for a better caching solution.  We needed to easily cache rendered portions of the theme that were the same for each user without caching other portions that may have user specific content.  The solution was to come up with a plugin that could be easily integrated into a theme to help cache these blocks of content.<\/p>\n\n<p>Requirements:<\/p>\n\n<ul>\n<li>WordPress 2.8 or higher<\/li>\n<li>\"php5\" - I'm a big proponent of dropping the php4 compatibility of WordPress due to the improved OO support.  Because of this, I prefer to write my plugins in php5 form in hopes to help push the community along.<\/li>\n<\/ul>",
+                "uid": "67152"
+            }
+        }
+    }
+}

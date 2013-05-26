@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/global-javascript": {
+            "1.0": {
+                "name": "wordpress\/global-javascript",
+                "version": "1.0",
+                "version_normalized": "1.0.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/global-javascript.1.0.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>Allows the user to create custom javascript for their Wordpress powered site on a global level.<\/p>\n\n<p>The Javascript made by the user of the plugin will be loaded after any other Javascript that is used by other plugins and\/or themes.<\/p>\n\n<p>PLUGIN FEATURES:<\/p>\n\n<p>Some of the features that are included in this plugin are:<\/p>\n\n<ul>\n<li><p>syntax highlighting<\/p><\/li>\n<li><p>code minification<\/p><\/li>\n<li><p>revisions<\/p><\/li>\n<li><p>grouping blocks of code<\/p><\/li>\n<li><p>including dependencies (libraries such as jQuery and backbone.js)<\/p><\/li>\n<li><p>elegant editor interface courtesy of ACE<\/p><\/li>\n<\/ul>\n\n<p>FUTURE ADDITIONS:<\/p>\n\n<p>Here are some of the things that I will be adding sometime in the future as the plugin grows :) :<\/p>\n\n<ul>\n<li><p>ability to choose your minifier of choice from the minify library<\/p><\/li>\n<li><p>ability to load different javascript files for each page\/post as decided by the plugin user<\/p><\/li>\n<li><p>ability to save additional javascript file",
+                "uid": "10205"
+            }
+        }
+    }
+}

@@ -1,0 +1,57 @@
+{
+    "packages": {
+        "wordpress\/taxonomy-metadata": {
+            "0.1": {
+                "name": "wordpress\/taxonomy-metadata",
+                "version": "0.1",
+                "version_normalized": "0.1.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/taxonomy-metadata.0.1.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>This plugin implements the metadata infrastructure for taxonomy terms, so you can add custom metadata (by key) to tags, categories, and other taxonomies. The majority of the code is from <a href=\"http:\/\/core.trac.wordpress.org\/ticket\/10142\">sirzooro's submission<\/a> to the WordPress Core Trac. The rest of the plugin is simply some hacky glue to make this work without modifying the Core. It <em>does not<\/em> implement any UI for taxonomy term metadata.<\/p>\n\n<p>The plugin implements the following functions, from which you can build your own custom UI and display code:<\/p>\n\n\n<pre><code>add_term_meta($term_id, $meta_key, $meta_value, $unique)<\/code><\/pre>\n\n<p>Add meta data field to a term.<\/p>\n\n\n\n<ul>\n<li>@param int $term_id Post ID.<\/li>\n<li>@param string $key Metadata name.<\/li>\n<li>@param mixed $value Metadata value.<\/li>\n<li>@param bool $unique Optional, default is false. Whether the same key should not be added.<\/li>\n<li>@return bool False for failure. True for success.<\/li>\n<\/ul>\n",
+                "uid": "72040"
+            },
+            "0.2": {
+                "name": "wordpress\/taxonomy-metadata",
+                "version": "0.2",
+                "version_normalized": "0.2.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/taxonomy-metadata.0.2.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>This plugin implements the metadata infrastructure for taxonomy terms, so you can add custom metadata (by key) to tags, categories, and other taxonomies. The majority of the code is from <a href=\"http:\/\/core.trac.wordpress.org\/ticket\/10142\">sirzooro's submission<\/a> to the WordPress Core Trac. The rest of the plugin is simply some hacky glue to make this work without modifying the Core. It <em>does not<\/em> implement any UI for taxonomy term metadata.<\/p>\n\n<p>The plugin implements the following functions, from which you can build your own custom UI and display code:<\/p>\n\n\n<pre><code>add_term_meta($term_id, $meta_key, $meta_value, $unique)<\/code><\/pre>\n\n<p>Add meta data field to a term.<\/p>\n\n\n\n<ul>\n<li>@param int $term_id Post ID.<\/li>\n<li>@param string $key Metadata name.<\/li>\n<li>@param mixed $value Metadata value.<\/li>\n<li>@param bool $unique Optional, default is false. Whether the same key should not be added.<\/li>\n<li>@return bool False for failure. True for success.<\/li>\n<\/ul>\n",
+                "uid": "72039"
+            },
+            "0.3": {
+                "name": "wordpress\/taxonomy-metadata",
+                "version": "0.3",
+                "version_normalized": "0.3.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/taxonomy-metadata.0.3.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>This plugin implements the metadata infrastructure for taxonomy terms, so you can add custom metadata (by key) to tags, categories, and other taxonomies. The majority of the code is from <a href=\"http:\/\/core.trac.wordpress.org\/ticket\/10142\">sirzooro's submission<\/a> to the WordPress Core Trac. The rest of the plugin is simply some hacky glue to make this work without modifying the Core. It <em>does not<\/em> implement any UI for taxonomy term metadata.<\/p>\n\n<p>The plugin implements the following functions, from which you can build your own custom UI and display code:<\/p>\n\n\n<pre><code>add_term_meta($term_id, $meta_key, $meta_value, $unique)<\/code><\/pre>\n\n<p>Add meta data field to a term.<\/p>\n\n\n\n<ul>\n<li>@param int $term_id Post ID.<\/li>\n<li>@param string $key Metadata name.<\/li>\n<li>@param mixed $value Metadata value.<\/li>\n<li>@param bool $unique Optional, default is false. Whether the same key should not be added.<\/li>\n<li>@return bool False for failure. True for success.<\/li>\n<\/ul>\n",
+                "uid": "72038"
+            }
+        }
+    }
+}

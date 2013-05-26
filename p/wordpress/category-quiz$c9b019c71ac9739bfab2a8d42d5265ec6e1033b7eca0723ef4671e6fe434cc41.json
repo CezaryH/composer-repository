@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/category-quiz": {
+            "1.0": {
+                "name": "wordpress\/category-quiz",
+                "version": "1.0",
+                "version_normalized": "1.0.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/category-quiz.1.0.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>This plugin implements a yes\/no quiz where each question is associated with a category and each \"yes\" response increases the count for that category. Each category must have the same number of questions. The questions are stored in the questions.csv file in the format question id,question category,question text. All questions must be answered for a valid submission, at which time the category results will be displayed as number of yes responses\/percentages, in decreasing order. The supplied questions.csv contains an enneagram quiz. Insert the quiz to any page using the shortcode [sbsquiz]<\/p>",
+                "uid": "27482"
+            }
+        }
+    }
+}

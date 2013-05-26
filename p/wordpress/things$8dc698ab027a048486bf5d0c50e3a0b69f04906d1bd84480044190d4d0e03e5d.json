@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/things": {
+            "0.1": {
+                "name": "wordpress\/things",
+                "version": "0.1",
+                "version_normalized": "0.1.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/things.0.1.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>An object-oriented approach to WordPress queries and custom post types. Un(der)documented beta.<\/p>\n\n<p>So, here's the idea: anywhere where you need a loop, use <code>get_things()<\/code>, which will return an array-like collection of Things. <code>get_things()<\/code> will return Things from the main query; <code>get_things($query_args)<\/code> will run a new query for you. Each Thing in the collection is a magical object that will make your life better.<\/p>\n\n<pre><code>foreach ( get_things() as $thing ):\n    \/\/ get an attribute (object or string)\n    $author = $thing-&#62;author;\n    \/\/ echo an attribute with the_* methods\n    $thing-&#62;the_title();\n    \/\/ get another Thing\n    $parent = $thing-&#62;parent;\nendforeach;\n<\/code><\/pre>\n\n<p>Each Thing automatically has properties and associated <code>the_*<\/code> methods for the standard WordPress data and taxonomies associated with that post type. Meta (custom field) properties are created when you specify <code>meta<\/code> in your cu",
+                "uid": "29499"
+            }
+        }
+    }
+}

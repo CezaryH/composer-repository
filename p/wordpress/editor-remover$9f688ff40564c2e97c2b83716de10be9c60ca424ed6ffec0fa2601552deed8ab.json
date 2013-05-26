@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/editor-remover": {
+            "0.1": {
+                "name": "wordpress\/editor-remover",
+                "version": "0.1",
+                "version_normalized": "0.1.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/editor-remover.0.1.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>It disable Post editor for Non Administrators and let you create posts only using Custom Fields (remember to configure them first!)\nIt uses: if ( ! current_user_can( 'install_plugins' ) )<\/p>\n\n<p>Actually there is no Admin Panel for this plugin if you would like to change minimum permission or role you'll have to change it manually via FTP<\/p>",
+                "uid": "28586"
+            }
+        }
+    }
+}

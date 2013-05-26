@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/relative-menu-item": {
+            "0.1": {
+                "name": "wordpress\/relative-menu-item",
+                "version": "0.1",
+                "version_normalized": "0.1.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/relative-menu-item.0.1.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>Create custom menu items with links relative to the root url of the current wordpress installation.<\/p>\n\n<p>Simply add a custom link as normal with the url prefixed by %ROOT%. e.g. to get <a href=\"http:\/\/mydomain.com\/wp\/myCustomPage\" rel=\"nofollow\">http:\/\/mydomain.com\/wp\/myCustomPage<\/a> if your wordpress lives at <a href=\"http:\/\/mydomain.com\/wp\" rel=\"nofollow\">http:\/\/mydomain.com\/wp<\/a> then you just write %ROOT%\/myCustomPage for your link url.<\/p>",
+                "uid": "28656"
+            }
+        }
+    }
+}

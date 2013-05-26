@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/wp-tasks": {
+            "0.1": {
+                "name": "wordpress\/wp-tasks",
+                "version": "0.1",
+                "version_normalized": "0.1.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/wp-tasks.0.1.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>orients new users to basic WordPress features and functionality.  features of wp-tasks:<\/p>\n\n<ul>\n<li>highlighting + scrolling makes it easy for users to follow<\/li>\n<li>multi-step tasks walk users through more complex procedures<\/li>\n<li>users can skip tasks, come back to them later<\/li>\n<li>tasks only show to users capable of completing them, and some tasks can only be completed globally(once)<\/li>\n<\/ul>\n\n<p>WordPress Tasks acts as an interface between common WP features and helping users learn how to use them.  Tasks operate on the backend but plan to operate on the frontend as well as offer more interoperability with 3rd party plugins.  Users click on a task link and are given instructions as well as highlighting specific to those instructions.  After completing a task, users are given further links and information to learn from.  Users may at any time skip tasks, allowing them to learn what is most convenient\/relevant to their needs.<\/p>",
+                "uid": "63736"
+            }
+        }
+    }
+}

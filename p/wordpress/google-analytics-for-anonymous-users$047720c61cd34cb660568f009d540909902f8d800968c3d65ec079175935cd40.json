@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/google-analytics-for-anonymous-users": {
+            "0.4": {
+                "name": "wordpress\/google-analytics-for-anonymous-users",
+                "version": "0.4",
+                "version_normalized": "0.4.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/google-analytics-for-anonymous-users.0.4.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>This plugin helps you insert Google Analytics code into your theme, but ONLY ENABLED FOR NOT-LOGGED-IN USERS. It is of great use if you are worring about Google's tracking of your own visits. So as long as you make sure you visit your own site as a logged-in user (admin, editor, etc), it will be just fine.<\/p>\n\n<p>Please note that if your wordpress blog is open for registeration, this plugin may result in a error of stat beacuse all logged in users will not be tracked.<\/p>\n\n<p>Chinese:<\/p>\n\n<p>\u8fd9\u4e2a\u63d2\u4ef6\u5e2e\u52a9\u4f60\u5728\u4e3b\u9898\u4e2d\u63d2\u5165 Google Analytics \u7edf\u8ba1\u4ee3\u7801\uff0c\u5e76\u4e14\u53ea\u5bf9\u533f\u540d\u8bbf\u95ee\u8005\u6709\u6548&#8212;&#8212;\u767b\u9646\u7528\u6237\u7684\u8bbf\u95ee\u4e0d\u4f1a\u88ab\u7edf\u8ba1\u3002\u8fd9\u4e2a\u63d2\u4ef6\u53ef\u4ee5\u907f\u514d Google \u7edf\u8ba1\u7f51\u7ad9\u6240\u6709\u8005\u81ea\u5df1\u5bf9\u7f51\u7ad9\u7684\u8bbf\u95ee\uff0c\u53ea\u8981\u4f60\u786e\u4fdd\u8bbf\u95ee\u7f51\u7ad9\u65f6\u662f\u767b\u9646\u72b6\u6001\u5373\u53ef\u3002<\/p>\n\n<p>\u8bf7\u6ce8\u610f\u5982\u679c\u4f60\u7684\u7f51\u7ad9\u5f00\u653e\u6ce8\u518c\uff0c\u90a3\u4e48\u53ef\u80fd\u4e0d\u9002\u7528\u672c\u63d2\u4ef6\u3002<\/p>",
+                "uid": "22159"
+            }
+        }
+    }
+}

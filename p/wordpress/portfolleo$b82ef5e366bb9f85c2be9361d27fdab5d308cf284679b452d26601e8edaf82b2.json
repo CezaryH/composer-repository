@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/portfolleo": {
+            "1.2": {
+                "name": "wordpress\/portfolleo",
+                "version": "1.2",
+                "version_normalized": "1.2.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/portfolleo.1.2.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>This plugin is very simple. Portfolleo is a plugin that was designed from\nthe ground up to be very easy to use. It creates a very sophisticated portfolio \nthat uses jquery, you don't have to do anything regarding jquery or html.<\/p>\n\n<p>To use:<\/p>\n\n<pre><code>1) Put the 'Portfolleo' folder in your 'plugins' folder in your \n   wordpress directory. \n\n2) Go into the wordpress admin panel and active the plugin the\n   plugin in the plugin's pane. \n\n3) Create a page called 'portfolio' and put &#60;div id=\"slidesContainer\"&#62;&#60;\/div&#62;\n   in it, this is very important. \n\n4) Go to the Portfolleo pane, the link should be in the nav menu in the \n   wordpress admin panel. \n\n5) Add your first portfolio item, e.g. Name =&#62; Portfolleo, Date Completed =&#62; 11\/11\/09\n   Descriptiom =&#62; An Amazing Plugin. \n\n6) Click 'Add To Portfolio'. Thats it, you now have a fully jquery'ed portfolio!\n\n7) Go to pages and click view under the portfolio page and your portfolio should appear.\n   If you ",
+                "uid": "77975"
+            }
+        }
+    }
+}

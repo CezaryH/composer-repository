@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/wp-feedlocations": {
+            "1.0": {
+                "name": "wordpress\/wp-feedlocations",
+                "version": "1.0",
+                "version_normalized": "1.0.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/wp-feedlocations.1.0.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>This plugin allows you to set the URLs of the RSS and Atom feeds for your posts. It's a very simple plugin that just adds a page to the 'Manage' admin menu called 'Feed Locations' and it provides you with five text boxes: RSS .92, RDF (a.k.a. RSS 1.0), RSS 2.0, Atom &#38; the Comments RSS 2.0 feed. You can change any or all of the locations, if you leave one blank it will stay as the default WordPress location for that feed.<\/p>\n\n<p>So what this means is that if you set your RSS 2.0 feed location to, say, a FeedBurner url, anywhere that your templates show a link to \/feed\/ (the default location of thye RSS 2.0 feed) it will be replaced with the FeedBurner address. No editing of the templates required. And it will remain no matter what template you use.<\/p>",
+                "uid": "114295"
+            }
+        }
+    }
+}

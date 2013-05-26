@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/user-spam-remover": {
+            "0.9.1": {
+                "name": "wordpress\/user-spam-remover",
+                "version": "0.9.1",
+                "version_normalized": "0.9.1.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/user-spam-remover.0.9.1.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>User Spam Remover is a plugin for WordPress that automatically removes spam user\nregistrations and other old, never-used user accounts. It also blocks the \nnotification e-mail that WordPress normally sends to the administrator whenever\na new user registers (annoying when that registration is spam!) and logs it \ninstead.<\/p>\n\n<p>The plugin adds a configuration panel so that all of these options can be turned\non or off, and it logs and fully backs up all user accounts that it deletes, so\nthat you can restore them if you need to.<\/p>\n\n<p>Features:<\/p>\n\n<ul>\n<li><p>Automatically deletes user registration spam and other orphaned, \nnever-used accounts.<\/p><\/li>\n<li><p>Very simple, enable and go! Doesn't interfere with the normal user \nregistration process in any way. So, it doesn't add captchas or activation\nor anything else -- you're free to use it alongside a plugin that does, if\nyou like.<\/p><\/li>\n<li><p>Blocks notification e-mail that WordPress normally sends to the\nadministrator ever",
+                "uid": "63332"
+            }
+        }
+    }
+}

@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/hidden-login": {
+            "1.0": {
+                "name": "wordpress\/hidden-login",
+                "version": "1.0",
+                "version_normalized": "1.0.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/hidden-login.1.0.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>Hidden Login provides easy and discrete access to the admin functionality of your site.  Pressing the set keystroke combination will activate Hidden Login, either displaying a modal login window or redirected to the admin area if you are already logged in.  Visit the Hidden Login Options to set what pages are enabled (All Pages or Homepage Only) and set your desired activation keystroke combination.<\/p>",
+                "uid": "59685"
+            }
+        }
+    }
+}

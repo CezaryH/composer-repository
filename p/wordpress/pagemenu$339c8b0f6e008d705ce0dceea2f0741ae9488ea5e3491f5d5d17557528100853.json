@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/pagemenu": {
+            "0.1": {
+                "name": "wordpress\/pagemenu",
+                "version": "0.1",
+                "version_normalized": "0.1.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/pagemenu.0.1.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>Pagemenu selects pages from the Wordpress database and presents them in a dropdown menu.<\/p>\n\n<p>\"Pagemenu\" for Wordpress came about when I needed a way to get page titles from the database for a dropdown menu. It is a horizontal dropdown menu based on css properties and includes a css file. No javascript is required.<\/p>",
+                "uid": "88767"
+            }
+        }
+    }
+}

@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/post-recycler": {
+            "1.0": {
+                "name": "wordpress\/post-recycler",
+                "version": "1.0",
+                "version_normalized": "1.0.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/post-recycler.1.0.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>This plugin allows for the automatic daily reposting of the oldest post.  The selected post has the oldest post_modified date.  The post_modified date is changed to the current time and Ping.fm and HelloTXT.com social notification networks are updated with information from this post.  Any 'Update Services' configured in the Writing Settings in your Wordpress installation are also notified of the repost.  Plugin was formerly known as rePost Oldest.<\/p>\n\n<p>Accounts on Ping.FM and HelloTXT.com are required for this plug-in to function.<\/p>\n\n<ul>\n<li>Format for the information sent is (see screenshot): \n(Preamble to the message) (Post title) (Post Link) (Post Content -truncated to keep message no larger than 140 characters) (Ellipse)<\/li>\n<li>Sample message would resemble:\nFlashback: Here is the Post Title: <a href=\"http:\/\/posturl.com\/post\" rel=\"nofollow\">http:\/\/posturl.com\/post<\/a> - This is the first several works of the past...<\/li>\n<\/ul>",
+                "uid": "76484"
+            }
+        }
+    }
+}

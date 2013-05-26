@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/url-tokens-in-post-content": {
+            "1.0": {
+                "name": "wordpress\/url-tokens-in-post-content",
+                "version": "1.0",
+                "version_normalized": "1.0.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/url-tokens-in-post-content.1.0.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>This plugin makes it easy to manage wordpress content for different environments like develeopment, staging and production. \nThe author of the post content just need to insert a URL token like %blog_url% or %upload_path% to refer to URLs that will work on all installs.<\/p>",
+                "uid": "77002"
+            }
+        }
+    }
+}

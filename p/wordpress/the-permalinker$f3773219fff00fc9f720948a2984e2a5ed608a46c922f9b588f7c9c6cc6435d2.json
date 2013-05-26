@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/the-permalinker": {
+            "1.7": {
+                "name": "wordpress\/the-permalinker",
+                "version": "1.7",
+                "version_normalized": "1.7.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/the-permalinker.1.7.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>Use short codes to dynamically link to your WordPress pages and posts. All you need is the ID. This can come in handy when developing content for WordPress sites. Makes for a cleaner migration with no need to manipulate content when moving from one subdirectory or domain to another.<\/p>\n\n<p>Attributes of <code>append<\/code> <code>class<\/code>, <code>rel<\/code>, and <code>target<\/code> are supported within the <code>[permalink]<\/code> opening tag. See FAQs. You can insert the token <code>%post_title%<\/code> to dynamically insert the post's title into anchor text (content between the opening and closing shortcode).<\/p>\n\n<p>A short code for <code>[template_uri]<\/code> exists if you'd like to dynamically grab the full URL to your current template directory (useful for adding images and other resources bundled in a template via the page\/post editor).<\/p>\n\n<p><em>Example 1: Create link.<\/em><\/p>\n\n<pre><code>[permalink id=2 rel=&#34;internal&#34;]Check out my latest post named %post_title%",
+                "uid": "85373"
+            }
+        }
+    }
+}

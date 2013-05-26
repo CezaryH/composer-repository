@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/mobli-image-gallery-widget": {
+            "1.0.0": {
+                "name": "wordpress\/mobli-image-gallery-widget",
+                "version": "1.0.0",
+                "version_normalized": "1.0.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/mobli-image-gallery-widget.1.0.0.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>Mobli.com is a photo and video sharing social network.<\/p>\n\n<p>The widget shows user's latest Mobli images in a widget. Images are linked to Mobli.com, where all the user's Mobli images are visible.<\/p>\n\n<p>This widget interacts with a service located on Mobdmin.com. The widget sends the user name, number of images to display and the image width. Then, the service returns a preformed HTML that is displayed in the widget area. The parameters details are not being saved by the service.<\/p>\n\n<p>The user can select to show his own stream or any other user stream.<\/p>\n\n<p>The widget is simple and allows the user to select the maximum width of each photo and number of photos with a limitation of 10.<\/p>\n\n<p>When the visitor will click on an image it will take him to the specific image page on Mobli.<\/p>",
+                "uid": "8763"
+            }
+        }
+    }
+}

@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/stl-viewer": {
+            "0.5": {
+                "name": "wordpress\/stl-viewer",
+                "version": "0.5",
+                "version_normalized": "0.5.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/stl-viewer.0.5.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>With a simple shortcode you can enable and embed a javascript viewer called thingiview. This plugin is still under development and things might change alot until version 1.0.<\/p>\n\n<p>In the current version:<\/p>\n\n<ul>\n<li>STL files have to be uploaded to \/wp-content\/uploads<\/li>\n<li>the viewer can't be used more than one time per page. This might be a feature because the viewer needs a lot of resources.<\/li>\n<\/ul>\n\n<p>This plugin uses thingiview. Check out the HowTo in the Installtion tab.<\/p>",
+                "uid": "8672"
+            }
+        }
+    }
+}

@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/lexicon": {
+            "1.0": {
+                "name": "wordpress\/lexicon",
+                "version": "1.0",
+                "version_normalized": "1.0.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/lexicon.1.0.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>This plugin is used to create a simple yet effective lexicon which\nmight be useful when you optimize your blog for search engines\nlike Google, Yahoo, etc...because it automatically replaces\nkeywords in your blog posts and links them to the appropriate \nlexicon entry page with content you defined before.<\/p>\n\nThe idea is simple:\n\n<p>Create lexicon entries for certain keywords in the wordpress\nadministration area and that's it. This plugin then will parse your\nblog entries when the content of the post is displayed to the \nbrowser and if a keyword, that you defined in the lexicon \nadministration area, is found, it will link this one to the \nlexicon entry.<\/p>",
+                "uid": "103940"
+            }
+        }
+    }
+}

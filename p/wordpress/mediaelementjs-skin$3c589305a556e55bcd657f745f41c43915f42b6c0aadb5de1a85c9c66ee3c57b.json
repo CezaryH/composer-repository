@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/mediaelementjs-skin": {
+            "1.0": {
+                "name": "wordpress\/mediaelementjs-skin",
+                "version": "1.0",
+                "version_normalized": "1.0.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/mediaelementjs-skin.1.0.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>The audio player skin from Premium Pixels ported to MediaElement.js.<\/p>\n\n<h3>Usage<\/h3>\n\n<p>After activation the skin option should automatically update to using the custom skin. If not, go to Settings &#62; MediaElement.js and set the skin to <code>Custom<\/code>.<\/p>\n\n<p>If you want to keep a different default skin, you can override individual players by setting the <code>skin<\/code> parameter like this:<\/p>\n\n<pre><code>[video src=\"http:\/\/example.com\/video.m4a\" skin=\"mejskin\"]\n<\/code><\/pre>\n\n<p>Check out <a href=\"http:\/\/wordpress.org\/extend\/plugins\/media-element-html5-video-and-audio-player\/\">the MediaElement.js plugin<\/a> for more documentation on how to use the player plugin.<\/p>",
+                "uid": "22183"
+            }
+        }
+    }
+}

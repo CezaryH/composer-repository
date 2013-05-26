@@ -1,0 +1,57 @@
+{
+    "packages": {
+        "wordpress\/loggy": {
+            "1.1": {
+                "name": "wordpress\/loggy",
+                "version": "1.1",
+                "version_normalized": "1.1.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/loggy.1.1.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "Instalation node.js\n\n<pre><code>npm install loggy\n<\/code><\/pre>\n\n<p>See example\/server.js if you want to use cluster or<\/p>\n\n<pre><code>var app = require(\"Loggy\");\napp.listen(3000);\nconsole.log(\"Loggy server listening on port %d\", app.address().port);\n<\/code><\/pre>\n\nUsage\n\n<p>Visit localhost:3000 install bookmarklet and activate it on wordpress installation(login to it first as admin). Then where you want to use it<\/p>\n\n<pre><code>global $Loggy;\n$Loggy-&#62;debug(string..array..object);    \n$Loggy-&#62;info(string..array..object);\n<\/code><\/pre>",
+                "uid": "47647"
+            },
+            "1.2": {
+                "name": "wordpress\/loggy",
+                "version": "1.2",
+                "version_normalized": "1.2.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/loggy.1.2.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "Instalation node.js\n\n<pre><code>npm install loggy\n<\/code><\/pre>\n\n<p>See example\/server.js if you want to use cluster or<\/p>\n\n<pre><code>var app = require(\"Loggy\");\napp.listen(3000);\nconsole.log(\"Loggy server listening on port %d\", app.address().port);\n<\/code><\/pre>\n\nUsage\n\n<p>Visit localhost:3000 install bookmarklet and activate it on wordpress installation(login to it first as admin). Then where you want to use it<\/p>\n\n<pre><code>global $Loggy;\n$Loggy-&#62;debug(string..array..object);    \n$Loggy-&#62;info(string..array..object);\n<\/code><\/pre>",
+                "uid": "47646"
+            },
+            "1.3": {
+                "name": "wordpress\/loggy",
+                "version": "1.3",
+                "version_normalized": "1.3.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/loggy.1.3.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "Instalation node.js\n\n<pre><code>npm install loggy\n<\/code><\/pre>\n\n<p>See example\/server.js if you want to use cluster or<\/p>\n\n<pre><code>var app = require(\"Loggy\");\napp.listen(3000);\nconsole.log(\"Loggy server listening on port %d\", app.address().port);\n<\/code><\/pre>\n\nUsage\n\n<p>Visit localhost:3000 install bookmarklet and activate it on wordpress installation(login to it first as admin). Then where you want to use it<\/p>\n\n<pre><code>global $Loggy;\n$Loggy-&#62;debug(string..array..object);    \n$Loggy-&#62;info(string..array..object);\n<\/code><\/pre>",
+                "uid": "47645"
+            }
+        }
+    }
+}

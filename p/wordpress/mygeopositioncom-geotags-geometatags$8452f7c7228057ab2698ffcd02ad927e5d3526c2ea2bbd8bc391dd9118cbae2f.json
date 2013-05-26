@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/mygeopositioncom-geotags-geometatags": {
+            "1.3.2": {
+                "name": "wordpress\/mygeopositioncom-geotags-geometatags",
+                "version": "1.3.2",
+                "version_normalized": "1.3.2.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/mygeopositioncom-geotags-geometatags.1.3.2.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>Create geo-posttags, geo-metatags, geo-feedtags, geo-microformats and maps for posts and pages. Display the geotagged location in form of a map before, after or within the post. An easy-to-use geopicker map with search, drag &#38; drop and optional auto-locating functionality helps entering locations.<\/p>\n\n<ul>\n<li>Add Geo-Metatags to posts &#38; pages<\/li>\n<li>Add Geo-Posttags to posts<\/li>\n<li>Add Geo-Feedtags to newsfeeds<\/li>\n<li>Add Geo-Microformats to posts &#38; pages<\/li>\n<li>Add map with geotagged location to posts &#38; pages<\/li>\n<li>Use geopicker map to search for a location and finetune result with drag &#38; drop (MyGeoPosition.com \/ Google Maps API)<\/li>\n<li>Let the browser detect your position automatically (W3C geolocation API, FF4+, IE9+)<\/li>\n<\/ul>\n\n<p>Supported geotagging:<\/p>\n\n<ul>\n<li>geo meta tags: geo.region, geo.placename, geo.position, geo.ICBM<\/li>\n<li>geo post tags: geotagged, geo:lat=xxx, geo:lon=xxx<\/li>\n<li>geo feed tags: geo(W3C geodata), geoRSS\/KML, ",
+                "uid": "36332"
+            }
+        }
+    }
+}

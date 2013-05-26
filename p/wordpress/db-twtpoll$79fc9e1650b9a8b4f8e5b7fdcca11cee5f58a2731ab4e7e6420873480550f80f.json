@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/db-twtpoll": {
+            "1.0.0": {
+                "name": "wordpress\/db-twtpoll",
+                "version": "1.0.0",
+                "version_normalized": "1.0.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/db-twtpoll.1.0.0.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p><a href=\"http:\/\/twtpoll.com\">Twtpoll<\/a> allows to easily create polls with your Twitter account.<\/p>\n\n<p>Twtpoll offers the possibility to embed your polls in a website. To make this a little more easy in WordPress this plugin adds a little shortcode to embed your polls.<\/p>\n\n<h4>Usage<\/h4>\n\n<p>To embed a poll in your post just add the shortcode [twtpoll] with the attribute \"id\", e.g. [twtpoll id=\"d6iby3\"]. If you don&#180;t add the attribute \"id\" no poll will be displayed.<\/p>",
+                "uid": "83070"
+            }
+        }
+    }
+}

@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/buddypressbbpress-email-notification": {
+            "1.0": {
+                "name": "wordpress\/buddypressbbpress-email-notification",
+                "version": "1.0",
+                "version_normalized": "1.0.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/buddypressbbpress-email-notification.1.0.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>Extend the features of a BuddyPress and bbPress installation. When a new topic is created in a BuddyPress Group, all members of the group will receive an email notification about the new topic. When new replies are added to the topic, anyone who has posted in that topic will receive an email to notify them about the new post.<\/p>",
+                "uid": "80086"
+            }
+        }
+    }
+}

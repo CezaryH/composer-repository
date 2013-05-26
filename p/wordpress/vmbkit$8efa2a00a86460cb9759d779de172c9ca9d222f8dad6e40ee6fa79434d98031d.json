@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/vmbkit": {
+            "0.1": {
+                "name": "wordpress\/vmbkit",
+                "version": "0.1",
+                "version_normalized": "0.1.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/vmbkit.0.1.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>This plugin assists with the creation of multi-blogs on top of Virtual Multiblog, so that all blogs are powered by a single WordPress code base. It also assists with proper Virtual Multiblog setup.<\/p>\n\n<p>Check out the <a href=\"http:\/\/hackadelic.com\/solutions\/wordpress\/vmbkit\" title=\"Hackadelic Multiblog Kit\">plug-in homepage<\/a> for in-depth information about the plug-in.<\/p>\n\n<h3>Change Log<\/h3>\n\n<h4>0.1 - Initial public beta release.<\/h4>\n\n<blockquote>\n  <p><strong>Attention<\/strong>:\n  This version has only been tested with a standard WordPress installation, <em>and it works well under such conditions<\/em>. However, it could have issues when a <em>wp-config.php<\/em> has been manually tweaked significantly, though this is quite unlikely.<\/p>\n  \n  <p>It also relies heavily on a specific work flow with Virtual Multiblog, so <em>it may not work propertly with manual VMB setups<\/em> that differ from the assumed work flow.<\/p>\n  \n  <p>Having said that, it is fairly safe to use the pl",
+                "uid": "87984"
+            }
+        }
+    }
+}

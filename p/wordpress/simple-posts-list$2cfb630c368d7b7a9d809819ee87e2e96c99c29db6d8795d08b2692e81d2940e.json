@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/simple-posts-list": {
+            "0.3": {
+                "name": "wordpress\/simple-posts-list",
+                "version": "0.3",
+                "version_normalized": "0.3.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/simple-posts-list.0.3.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>For search engine spiders is usefull to scan sitemaps of websites. Visitors similarly like to see list of all posts on blogs. Theses lists are much easier to browse and they are great for SEO.<\/p>\n\n<h3>Usage<\/h3>\n\n<p>Simple posts list generates list of all post or pages using shortcodes or function call from template. <pre>[posts]<\/pre> shortcode and you'll have them automagicly.<\/p>\n\n<p>\n<h4>Examples (for posts):<\/h4>\nGenerate post list using shortcode:\n<pre>[posts]<\/pre>\nGenerate post list using function call:\n<pre>&#60;?php posts_list (); ?&#62;<\/pre>\n<h4>Examples (for pages):<\/h4>\nGenerate list of pages using shortcode:\n<pre>[pages]<\/pre>\nGenerate list of pages using function call:\n<pre>&#60;?php pages_list (); ?&#62;<\/pre>\n<\/p>",
+                "uid": "72746"
+            }
+        }
+    }
+}

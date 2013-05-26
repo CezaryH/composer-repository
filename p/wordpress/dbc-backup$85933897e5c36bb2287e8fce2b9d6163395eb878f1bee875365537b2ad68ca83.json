@@ -1,0 +1,40 @@
+{
+    "packages": {
+        "wordpress\/dbc-backup": {
+            "1.0": {
+                "name": "wordpress\/dbc-backup",
+                "version": "1.0",
+                "version_normalized": "1.0.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/dbc-backup.1.0.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>DBC Backup, is a simple way to schedule daily database backups using the wp cron system. You can select when and where your backup will be generated. If your server has support you can select between three different compression formats: none, Gzip and Bzip2. The plugin will try to auto create the export directory, the .htaccess and an empty index.html file to protect your backups.<\/p>\n\n<p>The backup file is also protected by a small hash key which make it impossible for someone to guess the backup name and download it.<\/p>\n\n<p>During generation, a log will be generated which includes, the generation date, file, filesize, status amd the duration of the generation.<\/p>\n\n<p>Except the cron backup, you have also the ability to take backups immediately. The backups are identical of what phpmyadmin produces because DBC Backup is using the key procedures of phpmyadmin.<\/p>\n\n<p>DBC Backup was built to be fast, flexible and as simple as possible.<\/p>\n\n<p>= What's New=<\/p>\n\nVersion 1.1\n\n<ul>\n",
+                "uid": "103878"
+            },
+            "1.1": {
+                "name": "wordpress\/dbc-backup",
+                "version": "1.1",
+                "version_normalized": "1.1.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/dbc-backup.1.1.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>DBC Backup, is a simple way to schedule daily database backups using the wp cron system. You can select when and where your backup will be generated. If your server has support you can select between three different compression formats: none, Gzip and Bzip2. The plugin will try to auto create the export directory, the .htaccess and an empty index.html file to protect your backups.<\/p>\n\n<p>The backup file is also protected by a small hash key which make it impossible for someone to guess the backup name and download it.<\/p>\n\n<p>During generation, a log will be generated which includes, the generation date, file, filesize, status amd the duration of the generation.<\/p>\n\n<p>Except the cron backup, you have also the ability to take backups immediately. The backups are identical of what phpmyadmin produces because DBC Backup is using the key procedures of phpmyadmin.<\/p>\n\n<p>DBC Backup was built to be fast, flexible and as simple as possible.<\/p>\n\n<p>= What's New=<\/p>\n\nVersion 1.1\n\n<ul>\n",
+                "uid": "103877"
+            }
+        }
+    }
+}

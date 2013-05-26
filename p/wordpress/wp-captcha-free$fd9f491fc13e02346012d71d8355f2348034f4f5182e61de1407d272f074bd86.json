@@ -1,0 +1,40 @@
+{
+    "packages": {
+        "wordpress\/wp-captcha-free": {
+            "0.9.1": {
+                "name": "wordpress\/wp-captcha-free",
+                "version": "0.9.1",
+                "version_normalized": "0.9.1.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/wp-captcha-free.0.9.1.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>WP Captcha-Free blocks automated comment spam without resorting to CAPTCHAs. It does so by validating a hash based on time (and some other parameters) using AJAX when the form is posted. Comments posted via automated means will not have a hash or will have an expired hash and will be rejected. Unlike using a captcha, this does not place any burden on the commenter.<\/p>\n\n<h4>Features<\/h4>\n\n<ol>\n<li>Ensures that your commenters are human without inconviencing them with CAPTCHAs, challenge questions, etc.<\/li>\n<li>The plugin is very simple and adds almost zero overhead. You will notice its presence only by the absence of spam.<\/li>\n<li>Use of AJAX makes it compatible with all cache plugins (including WP-Cache) and adds another layer of security.<\/li>\n<li>Works out of the box without any configuration, setup, or editing .php files.<\/li>\n<\/ol>\n\n<h4>How It Works<\/h4>\n\n<p>WP Captcha-Free generates a hash (aka token) based on several parameters like time (with a some cushion), post id, IP a",
+                "uid": "106390"
+            },
+            "1.1": {
+                "name": "wordpress\/wp-captcha-free",
+                "version": "1.1",
+                "version_normalized": "1.1.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/wp-captcha-free.1.1.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>WP Captcha-Free blocks automated comment spam without resorting to CAPTCHAs. It does so by validating a hash based on time (and some other parameters) using AJAX when the form is posted. Comments posted via automated means will not have a hash or will have an expired hash and will be rejected. Unlike using a captcha, this does not place any burden on the commenter.<\/p>\n\n<h4>Features<\/h4>\n\n<ol>\n<li>Ensures that your commenters are human without inconviencing them with CAPTCHAs, challenge questions, etc.<\/li>\n<li>The plugin is very simple and adds almost zero overhead. You will notice its presence only by the absence of spam.<\/li>\n<li>Use of AJAX makes it compatible with all cache plugins (including WP-Cache) and adds another layer of security.<\/li>\n<li>Works out of the box without any configuration, setup, or editing .php files.<\/li>\n<\/ol>\n\n<h4>How It Works<\/h4>\n\n<p>WP Captcha-Free generates a hash (aka token) based on several parameters like time (with a some cushion), post id, IP a",
+                "uid": "106392"
+            }
+        }
+    }
+}

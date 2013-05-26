@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/wpmu-protect-pages": {
+            "1.0": {
+                "name": "wordpress\/wpmu-protect-pages",
+                "version": "1.0",
+                "version_normalized": "1.0.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/wpmu-protect-pages.1.0.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>Allows site administrator to list pages by page id that cannot be deleted by the users of your site.<\/p>\n\n<p>You are also given the ability to customize the error shown to the users when they try to delete a protected page.<\/p>",
+                "uid": "75566"
+            }
+        }
+    }
+}

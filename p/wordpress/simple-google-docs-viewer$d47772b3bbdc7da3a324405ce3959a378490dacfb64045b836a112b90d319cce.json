@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/simple-google-docs-viewer": {
+            "1.1": {
+                "name": "wordpress\/simple-google-docs-viewer",
+                "version": "1.1",
+                "version_normalized": "1.1.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/simple-google-docs-viewer.1.1.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>Enables you to easily embed documents with Google Docs Viewer - that are supported by Google Docs (PDF\/DOC\/DOCX\/PPTX\/etc) with a simple shortcode. <code>[gviewer]<\/code><\/p>\n\n<p>A full list of attributes:<\/p>\n\n<ul>\n<li><code>file<\/code> -- <strong>Required<\/strong>. The URL of the file you wish to show<\/li>\n<li><code>width<\/code> -- Optional. The desired width of the viewer in pixels. If nothing set, the value of the theme's <code>$content_width<\/code> will be used. If no value set, the height of 600 pixels will be used.<\/li>\n<li><code>height<\/code> -- Optional. The desired height of the viewer in pixels. If nothing set, the height will 1.2 times the width. So for instance, if the width was 100px, the height will be 120px.<\/li>\n<li><code>language<\/code> -- The language of the document. If the document is written in a RTL language (Hebrew, Arabic, etc) then specifying the language will also apply right-to-left settings.<\/li>\n<\/ul>\n\n<p>A yet another way to embed a Google Document is p",
+                "uid": "13313"
+            }
+        }
+    }
+}

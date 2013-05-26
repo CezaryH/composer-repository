@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/graceful-email-obfuscation": {
+            "0.2": {
+                "name": "wordpress\/graceful-email-obfuscation",
+                "version": "0.2",
+                "version_normalized": "0.2.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/graceful-email-obfuscation.0.2.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>Hiding email addresses from spammers has a long history. There are some obvious golden goals, like making the process seamless to your visitors, and be practicable to implement. The one that often gets left out is accessibility, but in some areas this is actually a legal requirement.[1]<\/p>\n\n<h4>The method<\/h4>\n\n<p>To my knowledge, this plugin implements the best method so far devised. Credit goes to Roel Van Gils for this technique, which he calls Graceful Email Obfuscation.[2] The basic idea is actually very simple: use PHP and JS to hide the address effectively, and make sure the fallback can be used easily by blind or visually impaired users by using a text-based CAPTCHA.<\/p>\n\n<p>The PHP code takes passed-in emails and generates simply-encoded string using alphabetic characters. It is therefore very hard to imagine what sort of spammer's parser could possibly detect it. The only way is to load the whole DOM and jQuery to run the decryption routine. As far as we know, no bots go ",
+                "uid": "70965"
+            }
+        }
+    }
+}

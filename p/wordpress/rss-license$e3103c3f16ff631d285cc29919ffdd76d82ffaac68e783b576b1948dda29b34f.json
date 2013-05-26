@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/rss-license": {
+            "0.1": {
+                "name": "wordpress\/rss-license",
+                "version": "0.1",
+                "version_normalized": "0.1.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/rss-license.0.1.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>This plugin will add a copyright footer to your feeds. Each footer contains a permalink, author info and the license.<\/p>\n\n<p>Currently footers are not appended to the excerpts as it's not common to steal these.<\/p>",
+                "uid": "75427"
+            }
+        }
+    }
+}

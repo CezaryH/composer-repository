@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/sideposts": {
+            "3.0.2": {
+                "name": "wordpress\/sideposts",
+                "version": "3.0.2",
+                "version_normalized": "3.0.2.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/sideposts.3.0.2.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>With this widget you select the category you want, and all entries with this category, will be shown on the sidebar instead the main blog. You will have then a small blog on the sidebar for those special entries. For each entry, you have the link to the post page. You can select the number of posts to show and if you want to show only the post excerpt or the full post content (Also excerpt with thumbnails can be shown or your out output template can be created).<\/p>\n\n<p>Another option is to set a widget to show only private posts. In this case, private posts are hidden only in the home page and nowhere else. When set to private posts, widget only shows to users with read_private_posts capability (By default Administrators and Editors). Each widget has foot links to the category archive and feed (except por private posts).. With this simple functions, you will have a small blog on the sidebar.<\/p>\n\n<h4>Features:<\/h4>\n\n<ul>\n<li>Have a mini-blog or foto-blog on the sidebar.<\/li>\n<li>Ch",
+                "uid": "102749"
+            }
+        }
+    }
+}

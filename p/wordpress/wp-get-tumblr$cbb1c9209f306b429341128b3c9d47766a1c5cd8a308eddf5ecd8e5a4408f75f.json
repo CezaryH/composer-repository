@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/wp-get-tumblr": {
+            "0.1": {
+                "name": "wordpress\/wp-get-tumblr",
+                "version": "0.1",
+                "version_normalized": "0.1.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/wp-get-tumblr.0.1.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>Import tumblr posts using tumblr api. Insert get_tumblr('tumblr id','number of posts'); where you want to show the posts.<\/p>",
+                "uid": "55290"
+            }
+        }
+    }
+}

@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/wp-security-enhancer": {
+            "1.0": {
+                "name": "wordpress\/wp-security-enhancer",
+                "version": "1.0",
+                "version_normalized": "1.0.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/wp-security-enhancer.1.0.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>Enhances the wordpress security with a login attempt counter an a file scanner<\/p>",
+                "uid": "15241"
+            }
+        }
+    }
+}

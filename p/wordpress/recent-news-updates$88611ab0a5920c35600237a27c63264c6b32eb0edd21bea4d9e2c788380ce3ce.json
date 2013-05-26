@@ -1,0 +1,40 @@
+{
+    "packages": {
+        "wordpress\/recent-news-updates": {
+            "1.0": {
+                "name": "wordpress\/recent-news-updates",
+                "version": "1.0",
+                "version_normalized": "1.0.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/recent-news-updates.1.0.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>This Plugin used to Post and display the News or Recent Information list. Admin have option to upload the News or Recent Information and we can display the news or Recent Information in user side using short code.<\/p>\n\n<p>After Installed and activated the plugin, we can see the admin menu called \"Recent Updates\". We can upload the information here. Using short code called [recent_news_updates] we can list the posted information in user side.<\/p>\n\n<p>Short codes:\n[recent_news_updates] = Use this short code for list the recent Updates. Default count for the list page is 10.<\/p>\n\n<p>[recent_news_updates count=X] = use count value with in the short code to control the list page default count. Replace the 'X' with your count with in the short code.<\/p>\n\n<p>[recent_news_updates cat=slug1,slug2] = Use this code for display the particular categories \"Recent Updates\". Replace the slug1 &#38; slug2 with your own categories slug.<\/p>\n\n<p>Eg Code : [recent_news_updates count=1 cat=run,stop] = r",
+                "uid": "17863"
+            },
+            "1.1": {
+                "name": "wordpress\/recent-news-updates",
+                "version": "1.1",
+                "version_normalized": "1.1.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/recent-news-updates.1.1.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>This Plugin used to Post and display the News or Recent Information list. Admin have option to upload the News or Recent Information and we can display the news or Recent Information in user side using short code.<\/p>\n\n<p>After Installed and activated the plugin, we can see the admin menu called \"Recent Updates\". We can upload the information here. Using short code called [recent_news_updates] we can list the posted information in user side.<\/p>\n\n<p>Short codes:\n[recent_news_updates] = Use this short code for list the recent Updates. Default count for the list page is 10.<\/p>\n\n<p>[recent_news_updates count=X] = use count value with in the short code to control the list page default count. Replace the 'X' with your count with in the short code.<\/p>\n\n<p>[recent_news_updates cat=slug1,slug2] = Use this code for display the particular categories \"Recent Updates\". Replace the slug1 &#38; slug2 with your own categories slug.<\/p>\n\n<p>Eg Code : [recent_news_updates count=1 cat=run,stop] = r",
+                "uid": "17862"
+            }
+        }
+    }
+}

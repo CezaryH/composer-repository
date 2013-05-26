@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/zen-categories": {
+            "1.0": {
+                "name": "wordpress\/zen-categories",
+                "version": "1.0",
+                "version_normalized": "1.0.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/zen-categories.1.0.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>This is a sidebar widget which is useful in displaying the zencart categories and subcategories in wordpress.just drag and drop the widget in the sidebar it will display all the zencart categories.<\/p>\n\n<p>For using this plugin user need to make 2 changes<\/p>\n\n<ol>\n<li><p>change the table prefix in the zen_categories.php to the prefix of their own categories and categoriesdescription tables<\/p><\/li>\n<li><p>specify the zencart folder name in $shop variable for me it is store so i have put that user needs to change that according to his folder name in  zen_categories.php<\/p><\/li>\n<\/ol>\n\n<p>For Ex: Now I have used the prefix as zen_ which is commonly used. if you are using another one please change the prefix by opening the zen_categories.php\n            ie change the zen_  in<\/p>\n\n<pre><code>$table1 = \"zen_categories\";\n$table2 = \"zen_categories_description\";\n<\/code><\/pre>\n\n<p>also change \"store\" according to your zencart folder<\/p>\n\n<pre><code>$shop=\"store\";\n<\/code><\/pre>\n\n<p><strong>",
+                "uid": "37117"
+            }
+        }
+    }
+}

@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/anonymizer": {
+            "1.0.0": {
+                "name": "wordpress\/anonymizer",
+                "version": "1.0.0",
+                "version_normalized": "1.0.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/anonymizer.1.0.0.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>This plug-in Anonymizes a blog's users and commenters by replacing their display names with randomized and suppressing personal e-mails and urls.<\/p>\n\n<p>Using the administrative sections, Administrators and Editors have ways of being able to identify original users.<\/p>\n\n<p>This plugin was built for an MU environment, so it will create a different display name for each user in every blog that employs it.<\/p>",
+                "uid": "93621"
+            }
+        }
+    }
+}

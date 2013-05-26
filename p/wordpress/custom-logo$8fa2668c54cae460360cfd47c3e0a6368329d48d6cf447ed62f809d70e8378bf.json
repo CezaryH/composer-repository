@@ -1,0 +1,40 @@
+{
+    "packages": {
+        "wordpress\/custom-logo": {
+            "2.1": {
+                "name": "wordpress\/custom-logo",
+                "version": "2.1",
+                "version_normalized": "2.1.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/custom-logo.2.1.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>Using Custom Logo you can replace WP default login\/register page logo by placing URL to custom logo \nyou have (in proper size of course ;)). It is done using JavaScript onload event. It is not ideal, because \nthere is small delay. I will try to improve it as soon as possible(I created it because of need for one small \nproject...). Reason for using approach is seamless WP upgrades without any need for backup wp-admin.css or \nchanged wordpress-logo.png.<\/p>",
+                "uid": "92897"
+            },
+            "2.2": {
+                "name": "wordpress\/custom-logo",
+                "version": "2.2",
+                "version_normalized": "2.2.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/custom-logo.2.2.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>Using Custom Logo you can replace WP default login\/register page logo by placing URL to custom logo \nyou have (in proper size of course ;)). It is done using JavaScript onload event. It is not ideal, because \nthere is small delay. I will try to improve it as soon as possible(I created it because of need for one small \nproject...). Reason for using approach is seamless WP upgrades without any need for backup wp-admin.css or \nchanged wordpress-logo.png.<\/p>",
+                "uid": "92896"
+            }
+        }
+    }
+}

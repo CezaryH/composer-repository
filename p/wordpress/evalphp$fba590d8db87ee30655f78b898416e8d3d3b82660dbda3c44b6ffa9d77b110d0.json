@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/evalphp": {
+            "0.1": {
+                "name": "wordpress\/evalphp",
+                "version": "0.1",
+                "version_normalized": "0.1.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/evalphp.0.1.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>With this plugin can added native PHP code within article and blog data. For logged-in user PHP error messages are shown for debugging the PHP code. Each\ncode block is run like a PHP function. Own functions can be added to the plugin and can be included on other calls. For article writers the execution of\nPHP code can be disabled, so the administrator can create different function, that can be used by the writers. Output of the PHP code are included\nwithin the article.<\/p>\n\n<h4>Features<\/h4>\n\n<ul>\n<li>inline code on articles \/ pages<\/li>\n<li>function define and include<\/li>\n<li>only execution of defined functions<\/li>\n<li>any PHP error message is passed to the author<\/li>\n<li>disabling PHP error messages<\/li>\n<li>execution can be denied by a keyword list<\/li>\n<\/ul>",
+                "uid": "16183"
+            }
+        }
+    }
+}

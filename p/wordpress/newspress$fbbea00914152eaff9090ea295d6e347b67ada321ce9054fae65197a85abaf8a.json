@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/newspress": {
+            "0.9.4": {
+                "name": "wordpress\/newspress",
+                "version": "0.9.4",
+                "version_normalized": "0.9.4.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/newspress.0.9.4.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>Newspress automatically syndicates posts made to your Wordpress blog directly to Newstex without having to worry about RSS\nfeeds. It's as simple as installing the plugin and entering your Newstex username\/password.<\/p>\n\n<p>Once your credentials are set up, every post you add\/edit will automatically be sent to Newstex and processed.<\/p>\n\n<p>After installing the plugin and entering your credentials, it is a good idea to edit an old post or create a new test post\nin order to ensure that the plugin is working properly.<\/p>",
+                "uid": "42498"
+            }
+        }
+    }
+}

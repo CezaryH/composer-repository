@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/do-not-load-jquery": {
+            "1.0": {
+                "name": "wordpress\/do-not-load-jquery",
+                "version": "1.0",
+                "version_normalized": "1.0.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/do-not-load-jquery.1.0.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>Some WordPress plugins will load jQuery into your header through the wp_head function, but at times it is not wanted. For example, you may load jQuery through Google, in which case, you will not want any of your plugins to load it. You can use this plugin rather than commenting out the code for every plugin or putting a function into each theme.<\/p>",
+                "uid": "53662"
+            }
+        }
+    }
+}

@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/dhresume": {
+            "1.0": {
+                "name": "wordpress\/dhresume",
+                "version": "1.0",
+                "version_normalized": "1.0.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/dhresume.1.0.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>DhResume can provide a directory service of resume coded in hResume microformat in your WordPress blog.\nJust give the URL of the XML-RPC service to users, then they can publish the CV in microformat hResume directory.\nThe directory provided a search engine and index display.<\/p>\n\n<p>The administration can delete, update or add a resume coded in hResume microformat.\nDhResume is compatible with LinkedIn<\/p>\n\n<p>To publish a resume in the directory, you need to have a resume in hResume microformat.\nUse the plugin My-hResume and add the URL of service in the end of the form.<\/p>",
+                "uid": "73677"
+            }
+        }
+    }
+}

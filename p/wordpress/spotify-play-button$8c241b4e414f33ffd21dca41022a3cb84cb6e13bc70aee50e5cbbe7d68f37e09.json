@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/spotify-play-button": {
+            "1.0": {
+                "name": "wordpress\/spotify-play-button",
+                "version": "1.0",
+                "version_normalized": "1.0.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/spotify-play-button.1.0.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>Easily add the Spotify Play Button to your post and pages in WordPress by using the short code <code>[spotify-play]<\/code>.<\/p>\n\n<h4>Examples<\/h4>\n\n<p>Simply track play (most basic requirement)<\/p>\n\n<pre><code>[spotify-play src=&#34;spotify:track:1PP5EnZyE465gO0XNDcW9D&#34;]<\/code><\/pre>\n\n<p>Change the theme to white (aka \"light\")<\/p>\n\n<pre><code>[spotify-play src=&#34;spotify:track:1PP5EnZyE465gO0XNDcW9D&#34; theme=&#34;white&#34;]<\/code><\/pre>\n\n<p>Use the compact size<\/p>\n\n<pre><code>[spotify-play src=&#34;spotify:track:1PP5EnZyE465gO0XNDcW9D&#34; size=&#34;compact&#34;]<\/code><\/pre>\n\n<p>View in cover art mode<\/p>\n\n<pre><code>[spotify-play src=&#34;spotify:track:1PP5EnZyE465gO0XNDcW9D&#34; view=&#34;coverart&#34;]<\/code><\/pre>\n\n<p>Cutomise the width and height<\/p>\n\n<pre><code>[spotify-play src=&#34;spotify:track:1PP5EnZyE465gO0XNDcW9D&#34; width=&#34;100&#34; height=&#34;50&#34;]<\/code><\/pre>\n\n<p>Mix and match<\/p>\n\n<pre><code>[spotify-play src=&#34;spotify:artist:5LfGQac0EIXyAN8aU",
+                "uid": "26958"
+            }
+        }
+    }
+}

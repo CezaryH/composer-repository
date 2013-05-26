@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/auto-seo-tags": {
+            "1.0": {
+                "name": "wordpress\/auto-seo-tags",
+                "version": "1.0",
+                "version_normalized": "1.0.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/auto-seo-tags.1.0.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>Auto SEO Tags takes incoming queries from search engines and adds these queries as tags to that post. There is a <a href=\"http:\/\/www.couponcomrade.com\/Auto-SEO-Tags\">sample page here<\/a>. To run just activate the plugin, no settings need to be adjusted.<\/p>\n\n<p>Input is sanitized but not moderated (you can manually remove tags once added, premoderation will be added in the next version), and to prevent overtagging no more than 20 tags are added to a post.<\/p>\n\n<p>Search Engines supported: Google, Yahoo, Bing, Altavista, Yandex.<\/p>",
+                "uid": "62645"
+            }
+        }
+    }
+}

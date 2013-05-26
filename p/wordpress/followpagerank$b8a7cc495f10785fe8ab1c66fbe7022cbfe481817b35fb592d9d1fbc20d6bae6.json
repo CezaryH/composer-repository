@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/followpagerank": {
+            "0.2": {
+                "name": "wordpress\/followpagerank",
+                "version": "0.2",
+                "version_normalized": "0.2.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/followpagerank.0.2.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>Checks commentator's website PageRank and removes nofollow attribute if its PageRank is higher than or equal to your website's PageRank.<\/p>\n\n<p>Purpose of this plugin is to overcome the bias caused by NoFollow. NoFollow should be used carefully to implicitly reduce comment spam that has not been filtered (e.g. Akismet) and to prevent useless internal pages (Usage Terms and such) from harming your blog's PageRank.<\/p>\n\n<p>The point is, many blogs apply NoFollow to ALL the web links of comment authors. This is not what NoFollow should be used for. But I do not expect bloggers to completely remove NoFollow as it may harm their PageRank. In order to break this vicious catch-22, this plugin removes NoFollow when the blog does not outrank the linked website.<\/p>\n\n<p>Wikipedia (it's not a blog though) uses NoFollow in a totally perverted way: ALL links to sites carrying important further information get NoFollowed.<\/p>\n\n<p>See <a href=\"http:\/\/www.google.com\/corporate\/tech.html\" rel=\"nofol",
+                "uid": "92827"
+            }
+        }
+    }
+}

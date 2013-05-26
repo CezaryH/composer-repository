@@ -1,0 +1,40 @@
+{
+    "packages": {
+        "wordpress\/featured-post": {
+            "2.0": {
+                "name": "wordpress\/featured-post",
+                "version": "2.0",
+                "version_normalized": "2.0.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/featured-post.2.0.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>Plugin for featured wordpress posts. This is a cool plugin that makes it easier to mark posts as featured posts (not using specific categories) and simple markup to show theme from your theme file.<\/p>\n\n<p>Add <code>&#60;?php query_posts($query_string.\"&#38;featured=yes\"); ?&#62;<\/code> before the post loop starts and manage the featured posts from the post edit list.<\/p>\n\n<p>Now added widget for listing featured post in sidebar widgets with custom number of post.<\/p>\n\n<p><em>Supports Custom Post Type<\/em><\/p>",
+                "uid": "66854"
+            },
+            "2.0.1": {
+                "name": "wordpress\/featured-post",
+                "version": "2.0.1",
+                "version_normalized": "2.0.1.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/featured-post.2.0.1.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>Plugin for featured wordpress posts. This is a cool plugin that makes it easier to mark posts as featured posts (not using specific categories) and simple markup to show theme from your theme file.<\/p>\n\n<p>Add <code>&#60;?php query_posts($query_string.\"&#38;featured=yes\"); ?&#62;<\/code> before the post loop starts and manage the featured posts from the post edit list.<\/p>\n\n<p>Now added widget for listing featured post in sidebar widgets with custom number of post.<\/p>\n\n<p><em>Supports Custom Post Type<\/em><\/p>",
+                "uid": "66853"
+            }
+        }
+    }
+}

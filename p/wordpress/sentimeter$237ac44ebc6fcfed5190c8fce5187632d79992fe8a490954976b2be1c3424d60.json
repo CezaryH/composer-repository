@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/sentimeter": {
+            "1.0": {
+                "name": "wordpress\/sentimeter",
+                "version": "1.0",
+                "version_normalized": "1.0.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/sentimeter.1.0.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>This plugin allows users to express sentiments (a la getsatisfaction.com, e.g. happy, neutral, outraged etc.) through the WordPress commenting system. Users can also associate their comment with a pre-defined 'topic'. Overall sentiment, and comment topics, can be viewed as pie charts in the admin system, within a user-defined date range. Additionally, comments (along with their sentiment, and topic, if specified) can be exported as a CSV for further offline analysis.<\/p>\n\n<p>Note that, in order to fully incorporate this plugin, you will need to modify your theme. This is so that theme developers have full control over the markup that is generated. The following <a href=\"http:\/\/codex.wordpress.org\/The_Loop\">Loop<\/a>-inspired template tags are provided in order to render the defined sentiments and topics:<\/p>\n\n<ul>\n<li><code>smtr_has_sentiments<\/code> - determines whether their are any sentiments to display<\/li>\n<li><code>smtr_the_sentiment<\/code> - initializes the current sentiment f",
+                "uid": "75864"
+            }
+        }
+    }
+}

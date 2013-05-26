@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/yet-another-glossary": {
+            "2.0.2": {
+                "name": "wordpress\/yet-another-glossary",
+                "version": "2.0.2",
+                "version_normalized": "2.0.2.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/yet-another-glossary.2.0.2.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>This plugin allows for the creation of a dictionary via an admin screen.  When the words in that dictionary are \nfound in the content of the post and\/or pages, the word has the ability to provide the definition in a hover.  The\nplugin allows for a glossary page to be created via a tag.<\/p>",
+                "uid": "23027"
+            }
+        }
+    }
+}

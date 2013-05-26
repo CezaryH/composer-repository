@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/wiki-append": {
+            "1": {
+                "name": "wordpress\/wiki-append",
+                "version": "1",
+                "version_normalized": "1.0.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/wiki-append.1.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>This plugin enables page or post authors to scrape content from mediawiki pages and appending it to their pages. \nIt works by scraping content from mediawiki pages by going to a special mediawiki page url.<\/p>\n\n<p>For example <a href=\"http:\/\/en.wikipedia.org\/wiki\/Wordpress?action=render\" rel=\"nofollow\">http:\/\/en.wikipedia.org\/wiki\/Wordpress?action=render<\/a><\/p>\n\n<p>The content rendered on the final page or post will always be the newest content, however it is not searchable via regular WordPress search form. <\/p>\n\n<p>Use case:\nThis plugin is great for adding documentation to your site. \nSince wordpress.org is using mediawiki for the codex you could potentially display wordpress codex pages on your site without much effort, just enter the full url of the specific wordpress codex page. <\/p>\n\n<p>Enjoy<\/p>",
+                "uid": "87211"
+            }
+        }
+    }
+}

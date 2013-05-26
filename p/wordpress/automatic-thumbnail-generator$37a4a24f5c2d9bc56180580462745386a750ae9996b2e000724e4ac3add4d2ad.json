@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/automatic-thumbnail-generator": {
+            "0.1": {
+                "name": "wordpress\/automatic-thumbnail-generator",
+                "version": "0.1",
+                "version_normalized": "0.1.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/automatic-thumbnail-generator.0.1.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>This plugin will scan your thumbnail-less posts and look for a suitable image to use as a thumbnail.\nIt will look for images linked in the post content and will download and add them to the local library.\nPost scanning is performed only when <code>the_post_thumbnail<\/code> or <code>get_the_post_thumbnail<\/code> are called for \nthat particular post.<\/p>\n\n<p>So you designed your new thumbnail-based template, but you have tons of thumbnail-less posts and\ndon't want to spend too much time on scraping your old posts for a thumbnail picture. Maybe you\nthink you will probably forget to set a thumbnail for your new posts. Maybe both, as was my case :).<\/p>\n\n<p>When a thumbnail for a post is queried and nothing is found this plugin will scrape the post for \nan <code>&#60;img&#62;<\/code> tag and its <code>href<\/code> property. Once a suitabile image is found (based on the configured \nsettings), it will be downloaded ad set as the post thumbnail. If no suitable image is found, \na default one w",
+                "uid": "59680"
+            }
+        }
+    }
+}

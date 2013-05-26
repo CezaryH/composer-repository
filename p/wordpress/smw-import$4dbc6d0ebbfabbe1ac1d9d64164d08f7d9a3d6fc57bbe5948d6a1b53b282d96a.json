@@ -1,0 +1,40 @@
+{
+    "packages": {
+        "wordpress\/smw-import": {
+            "0.1": {
+                "name": "wordpress\/smw-import",
+                "version": "0.1",
+                "version_normalized": "0.1.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/smw-import.0.1.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>This plugin synchronizes information of an Semantic Media Wiki \nwith a wordpress blog.<\/p>\n\n<p>It is supposed to be used in production without any downtime of the site. \nThe way SMW data is imported can be configured using a simple php mapping array.<\/p>\n\n<p>Until now it supports importing poss, categories, attachments, meta data,\nlinks and full galleries.\nOnly data which has actually changed will be imported, thus minimizing the \ntime on successive imports.<\/p>\n\n<p>The supported import format is JSON. Thus it could also be used\nfor data sources other than Semantic Media Wikis, as long as they export their\ndata in JSON format.<\/p>",
+                "uid": "44190"
+            },
+            "0.2": {
+                "name": "wordpress\/smw-import",
+                "version": "0.2",
+                "version_normalized": "0.2.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/smw-import.0.2.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>This plugin synchronizes information of an Semantic Media Wiki \nwith a wordpress blog.<\/p>\n\n<p>It is supposed to be used in production without any downtime of the site. \nThe way SMW data is imported can be configured using a simple php mapping array.<\/p>\n\n<p>Until now it supports importing poss, categories, attachments, meta data,\nlinks and full galleries.\nOnly data which has actually changed will be imported, thus minimizing the \ntime on successive imports.<\/p>\n\n<p>The supported import format is JSON. Thus it could also be used\nfor data sources other than Semantic Media Wikis, as long as they export their\ndata in JSON format.<\/p>",
+                "uid": "44189"
+            }
+        }
+    }
+}

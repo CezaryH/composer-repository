@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/authors-index-page": {
+            "1.0": {
+                "name": "wordpress\/authors-index-page",
+                "version": "1.0",
+                "version_normalized": "1.0.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/authors-index-page.1.0.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>With this plugin, you will be able to display an index with all your authorss, sort alphabeticaly.\nThe shortcode is <code>[authorsindex]<\/code>.<\/p>\n\n<p>Options are:\n    *ul =&#62; the class of you ul element (default = iapAlpha)\n    *li =&#62; the class of you li element (default = iapAlpha)\n    *letter =&#62; the class of you span element(the letters) (default = iapLetter)\n    *hide_empty =&#62; diplay authors that don't have any article (default = false)\n    *optioncount =&#62; display number of post of the author (default = true)\n    *show_fullname =&#62; show full name of the author (default = false)\n    *exclude_admin =&#62; exclude the admin (default = false)\n    *menu =&#62; show a menu of the index (buddypress-like) (default = true)\n    *listpost =&#62; display a list of the post of the author in a nice tooltip<\/p>",
+                "uid": "91356"
+            }
+        }
+    }
+}

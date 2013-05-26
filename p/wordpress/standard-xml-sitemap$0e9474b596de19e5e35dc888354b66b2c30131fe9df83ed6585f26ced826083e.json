@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/standard-xml-sitemap": {
+            "1.0": {
+                "name": "wordpress\/standard-xml-sitemap",
+                "version": "1.0",
+                "version_normalized": "1.0.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/standard-xml-sitemap.1.0.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>The plugin work like XML feed. It's no file generated. It's automatic generate when need. It's also add sitemap url into current robots.txt that allow search engine crawling. No option required just install and live.<\/p>",
+                "uid": "101402"
+            }
+        }
+    }
+}

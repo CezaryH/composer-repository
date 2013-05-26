@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/include-custom-files": {
+            "1.0": {
+                "name": "wordpress\/include-custom-files",
+                "version": "1.0",
+                "version_normalized": "1.0.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/include-custom-files.1.0.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>This plugin enables embedding of multiple stylesheets and javascript files on a per-post basis.<\/p>\n\n<p>Multiple file names should be separated by a ','. Extra whitespace after and before a ',' are automatically ignored.<\/p>\n\n<p>Relative paths to files are automatically prefixed by the \/css or \/js. These settings can be customized by editing values of the variables $css_folder and $js_folder in the plugin file.<\/p>\n\n<p>Absolute paths are directly hotlinked.<\/p>",
+                "uid": "68957"
+            }
+        }
+    }
+}

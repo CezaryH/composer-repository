@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/wp-engine-snapshot": {
+            "1.3.2": {
+                "name": "wordpress\/wp-engine-snapshot",
+                "version": "1.3.2",
+                "version_normalized": "1.3.2.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/wp-engine-snapshot.1.3.2.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>The WP Engine Snapshot plugin is used internally to migrate customers to <a href=\"http:\/\/wpengine.com\">WP Engine<\/a>. It can also be used by any user to provide on demand file and database archives.<\/p>",
+                "uid": "64221"
+            }
+        }
+    }
+}

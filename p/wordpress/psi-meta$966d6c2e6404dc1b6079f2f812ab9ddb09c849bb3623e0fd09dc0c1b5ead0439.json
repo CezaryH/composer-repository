@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/psi-meta": {
+            "1.0": {
+                "name": "wordpress\/psi-meta",
+                "version": "1.0",
+                "version_normalized": "1.0.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/psi-meta.1.0.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>We&#8217;ve created a WordPress Plugin which adds site-wide Keyword and Description meta-tags. We&#8217;re using it on this web site!<\/p>\n\n<p>The process is simple: define some site-wide description and keyword meta-tags. These will be used everywhere unless you (or your authors) choose to append keywords or override them completely for a particular post or page.<\/p>",
+                "uid": "47965"
+            }
+        }
+    }
+}

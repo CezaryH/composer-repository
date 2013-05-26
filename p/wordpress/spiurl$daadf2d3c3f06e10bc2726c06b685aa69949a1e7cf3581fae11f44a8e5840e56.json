@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/spiurl": {
+            "1.05": {
+                "name": "wordpress\/spiurl",
+                "version": "1.05",
+                "version_normalized": "1.05.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/spiurl.1.05.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>Static Profile Image Urls for Twitter.<\/p>\n\n<p>Serve Twitter profile images from your WordPress blog.<\/p>\n\n<p>Requires PHP 5<\/p>\n\n<p>This code can be used with WordPress or as a standalone caching application.<\/p>\n\n<p>Example Twitter profile image link:<\/p>\n\n<p>&#60;img src='http:\/\/{my wordpress blog}\/?spiurl_user={Twitter Username}' alt='' \/&#62;<\/p>\n\n<p>Other WordPress plugin authors can check for the existence of this plugin and use the same cache.<\/p>\n\n<p>Example for Plugin Authors:<\/p>\n\n<p>if(function_exists('spi_profile_image_get')) {\n        echo '&#60;img src=\"'.get_option('home').'\/?spiurl_user=ev\" alt=\"Ev\" \/&#62;';\n    }<\/p>\n\n<p>Changes in Version 1.05<\/p>\n\n<ul>\n<li>Added options to turn off the domain check and redirect to image files.<\/li>\n<\/ul>\n\n<p>Troubleshooting<\/p>\n\n<p>There are two options in the file.  Edit \/plugins\/spiurl\/spiurl.php<\/p>\n\n<p>$spiurl_domaincheck = 'Y';\n$spiurl_redirect = 'N';<\/p>\n\n<p>Turn off ('N') $spiurl_domaincheck if you want to test SPIURL.<\/p>",
+                "uid": "72526"
+            }
+        }
+    }
+}

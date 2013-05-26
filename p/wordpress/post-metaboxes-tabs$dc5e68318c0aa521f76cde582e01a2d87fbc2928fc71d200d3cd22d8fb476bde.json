@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/post-metaboxes-tabs": {
+            "0.1": {
+                "name": "wordpress\/post-metaboxes-tabs",
+                "version": "0.1",
+                "version_normalized": "0.1.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/post-metaboxes-tabs.0.1.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>When you have a lot of metaboxes in the post\/page edit screen, you end up scrolling which is confusing. Metaboxes\nrepresent a group of fields like Address, or Ingredients, etc. Imagine you are creating a deep CV for a person. \nSuddently you have <code>Addresses<\/code>, <code>Contacts<\/code>, <code>Profile<\/code>, <code>Education<\/code>, <code>Skills<\/code>, <code>Languages<\/code>, etc. But as you can see<\/p>\n\n<pre><code>Addresses<\/code><\/pre>\n\n<p>, <code>Contacts<\/code>, <code>Profile<\/code> can be categorized as `Personal Data.<\/p>\n\n<p>This plugin lets you group metaboxes by anything, just name each metabox as <code>Tab \/ Box name<\/code>. So the<\/p>\n\n<pre><code>Addresses<\/code><\/pre>\n\n<p>metabox should be named as <code>Personal Data \/ Addresses<\/code> and it will be grouped with <code>Personal Data \/ Contact<\/code>\nunder <code>Personal Data<\/code> tab.<\/p>\n\n<p>Notes:<\/p>\n\n<ul>\n<li>Both <code>Tab \/ Box name<\/code> and <code>Tab\/Box name<\/code> or <code>Tab\/ Box name<\/code> work<\/li",
+                "uid": "44950"
+            }
+        }
+    }
+}

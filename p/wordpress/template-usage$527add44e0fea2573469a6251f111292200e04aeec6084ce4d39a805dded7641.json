@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/template-usage": {
+            "1.0": {
+                "name": "wordpress\/template-usage",
+                "version": "1.0",
+                "version_normalized": "1.0.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/template-usage.1.0.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>This plugin gives you an overview of page templates in your site. You get both an overview of all templates and how many pages they have. You also get a detailed view of all the pages using a specific template.<\/p>\n\n<p>Usage for this can be to identify unused templates and to find pages using specific templates to change them in some way.<\/p>",
+                "uid": "31325"
+            }
+        }
+    }
+}

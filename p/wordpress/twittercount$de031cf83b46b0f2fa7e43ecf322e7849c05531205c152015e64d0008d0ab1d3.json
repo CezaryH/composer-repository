@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/twittercount": {
+            "0.2": {
+                "name": "wordpress\/twittercount",
+                "version": "0.2",
+                "version_normalized": "0.2.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/twittercount.0.2.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>Features:<\/p>\n\n<ul>\n<li>Easy installation and setup<\/li>\n<li>Use <code>&#60;?php echo twt_count() ?&#62;<\/code> to output the count. No unneeded options, no extra markup, place it wherever you want.<\/li>\n<li>If twitter counter cannot be retrieved, you can choose to display a custom 'N\/A' text or keep the last retrieved count.<\/li>\n<li>Performance optimized for retrieval and parsing of the result.<\/li>\n<li>Average count calculation between dates. Since twitter produces different readers count for each day, you can display to your users an average of, for example, the last 30 days.<\/li>\n<\/ul>",
+                "uid": "57648"
+            }
+        }
+    }
+}

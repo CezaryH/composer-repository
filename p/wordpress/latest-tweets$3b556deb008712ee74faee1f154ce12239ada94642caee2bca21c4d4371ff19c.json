@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/latest-tweets": {
+            "0.2": {
+                "name": "wordpress\/latest-tweets",
+                "version": "0.2",
+                "version_normalized": "0.2.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/latest-tweets.0.2.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>There is a wide choice of widgets which you can put in your Wordpress sidebar,\nbut I could not find one that would display a defined number of my latest tweets.\nFortunately, creating such an easy plugin does not take much time.\nI'm glad to present you my first public wordpress plugin \"latest tweets\".<\/p>\n\n<p>Requipments<\/p>\n\n<pre><code>* php5\n* wordpress 2.1\n* widgetized theme\n<\/code><\/pre>\n\n<p>Features<\/p>\n\n<pre><code>* Easily configured\n* Simple\n* Caches tweets in database\n* Automatically converts links and @replies\n<\/code><\/pre>",
+                "uid": "94723"
+            }
+        }
+    }
+}

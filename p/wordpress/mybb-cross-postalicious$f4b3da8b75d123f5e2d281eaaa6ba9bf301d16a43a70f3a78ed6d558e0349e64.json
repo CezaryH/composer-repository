@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/mybb-cross-postalicious": {
+            "1.0": {
+                "name": "wordpress\/mybb-cross-postalicious",
+                "version": "1.0",
+                "version_normalized": "1.0.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/mybb-cross-postalicious.1.0.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>I needed a plugin to:<\/p>\n\n<ul>\n<li>Automatically cross-post a new thread to MyBB when I publish a blog post or page<\/li>\n<li>Automatically link the newly created thread from my Wordpress post as a substitute for comments<\/li>\n<li>Display a widget to list recent topics, with forum ID whitelist<\/li>\n<li>Work on a multisite installation<\/li>\n<li>Keep MyBB as far away from Wordpress as possible (see notes below)<\/li>\n<\/ul>\n\n<p>So I scratched my itch and now share the result.<\/p>\n\n<p>A couple of notes:<\/p>\n\n<ul>\n<li>Tested with Wordpress 3.5 and MyBB 1.6<\/li>\n<li>Although at the time of writing MyBB seems like the best FOSS forum software no money can buy, the MyBB codebase, to me, seems like an unholy mess and rather dated. I didn't like working with it, I don't trust it and I don't want any of it to touch my Wordpress installation. I don't want the two to share databases and I don't want to interface directly with MyBB code. Therefore, I do a couple of simple database queries and when",
+                "uid": "13488"
+            }
+        }
+    }
+}

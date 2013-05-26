@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/nested-shortcodes": {
+            "1.0": {
+                "name": "wordpress\/nested-shortcodes",
+                "version": "1.0",
+                "version_normalized": "1.0.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/nested-shortcodes.1.0.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>A small plugin which allows you to use nested shortcodes (i.e. a shortcode within an enclosing shortcode) by implementing a simple \"do_shortcode\" filter as per the WordPress Codex to content and widgets - see <a href=\"http:\/\/codex.wordpress.org\/Shortcode_API#Nested_Shortcodes\" rel=\"nofollow\">http:\/\/codex.wordpress.org\/Shortcode_API#Nested_Shortcodes<\/a> and <a href=\"http:\/\/codex.wordpress.org\/Function_Reference\/do_shortcode\" rel=\"nofollow\">http:\/\/codex.wordpress.org\/Function_Reference\/do_shortcode<\/a><\/p>",
+                "uid": "40504"
+            }
+        }
+    }
+}

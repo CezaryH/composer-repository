@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/wp-favicon": {
+            "0.1": {
+                "name": "wordpress\/wp-favicon",
+                "version": "0.1",
+                "version_normalized": "0.1.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/wp-favicon.0.1.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>The \"WP Favicon\" plugin add a favicon to your site. Most of the themes just forgot to manage this small but nice feature.\nThe plugin just add - inside the HEAD section - the needed links to the favicon.\nIt supports, both the .ico and a .gif favicon.<\/p>\n\n<p>= Maximum Compatibility\nDue to the famous web browser from Redmond. The best approach is to have 2 separates favicon files located at the site root directory.\n1. The first  favicon file (favicon.ico) is either a 16x16 or a 32x32 icon. Nowadays, all modern browser supports both size.\n2. The second favicon file (favicon.gif) is a (reasonable) free size, and can be an animated GIF too!\nThe .gif version have precedence over the .ico. So, if the browser support animated favicon,\nthe animated will be displayed, else the static .ico will be used instead.\nNote that both favicon.ico and favicon.gif can be different pictures.<\/p>",
+                "uid": "83977"
+            }
+        }
+    }
+}

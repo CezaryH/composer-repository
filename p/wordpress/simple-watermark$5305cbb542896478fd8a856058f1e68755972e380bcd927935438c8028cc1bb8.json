@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/simple-watermark": {
+            "1.0": {
+                "name": "wordpress\/simple-watermark",
+                "version": "1.0",
+                "version_normalized": "1.0.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/simple-watermark.1.0.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>This plugin allows you to Automatically add a watermark to all images as they are viewed on your WordPress Website.\nWatermarks are not permenant, original images are not edited. \nThe plugin maintains a cached copy of the watermarked image, which can be cleared and regenerated at any time!<\/p>\n\n<p>The plugin uses PNG watermark images with transparency for precise control over the appearance of the watermarks.\nThis plugin also supports simple text watermarks with adjustable color, size and transparency.\nThe user friendly settings page allows for control over the appearance of your watermark.<br \/>\nThe watermark preview feature allows for easy testing of the plugin settings.\nThe watermark size is controlled as a percentage of the target image, 50% means the watermark will be half the width of the target image.<\/p>\n\n<p>This plugin needs to add to your .htaccess file, and will not work if you do not have a .htaccess file or mod_rewrite.<\/p>\n\n<p>NOTE:\nThis plugin may have a slight impact ",
+                "uid": "5484"
+            }
+        }
+    }
+}

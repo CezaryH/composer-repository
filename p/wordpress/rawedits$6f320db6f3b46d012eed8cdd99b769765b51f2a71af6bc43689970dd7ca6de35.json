@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/rawedits": {
+            "1.0": {
+                "name": "wordpress\/rawedits",
+                "version": "1.0",
+                "version_normalized": "1.0.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/rawedits.1.0.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>RawEdits integrates with default WP content editor - enabling you to edit content as is in database.\nI will be adding more features in the future so please feel free to suggest new ones using support tab.<\/p>\n\n<h4>Features<\/h4>\n\n<ul>\n<li>Integrates with native WP content editor.<\/li>\n<li>Eliminates any filtering on content you are editing.<\/li>\n<li>Integrates with <code>Update<\/code>, <code>Publish<\/code> and <code>Save Draft<\/code> actions.<\/li>\n<li>Supports native HTML5 fullscreen editing.<\/li>\n<li>Useful with php-exec type pages.<\/li>\n<li>Plugin settings page.<\/li>\n<\/ul>\n\n<h4>Settings<\/h4>\n\n<ul>\n<li>Enable it as default editor.<\/li>\n<li>Choose to capture keyboard tab or not.<\/li>\n<li>Capture tab as tab or as spaces.<\/li>\n<li>Allow only admins to raw edit.<\/li>\n<\/ul>",
+                "uid": "10210"
+            }
+        }
+    }
+}

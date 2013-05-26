@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/wpbackbutton": {
+            "0.2": {
+                "name": "wordpress\/wpbackbutton",
+                "version": "0.2",
+                "version_normalized": "0.2.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/wpbackbutton.0.2.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>wpbackbutton adds a \"Back\" button to your Wordpress blog which behaves like the javascript history.back() method. In contrast to history.back() it, of course, doesn't need Javascript &#38; makes it possible to have a working 'Back' button even if the user comes to your blog via direct link (the \"Back\" button then redirects to the frontpage).<\/p>",
+                "uid": "28767"
+            }
+        }
+    }
+}

@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/clean-admin-bar-removal": {
+            "1.0": {
+                "name": "wordpress\/clean-admin-bar-removal",
+                "version": "1.0",
+                "version_normalized": "1.0.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/clean-admin-bar-removal.1.0.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>Clean Admin Bar Removal offers a simple solution to a small problem in WordPress 3.2 and 3.3. In these new versions, the top \"admin bar\" is shown on the public site by default for all users. This has been inconvenient on some of the sites we manage, where the WordPress admin area is otherwise \"behind the scenes\" for some logged in users, or where the top admin bar is incompatible with the site&#8217;s layout.&#160;<\/p>\n\n<p>To solve this problem, Clean Admin Bar Removal disables the toolbar in existing users' preferences and changes the default setting for new users. Once a site administrator installs the plugin, they can choose which behavior to use on their site by user role. Users can restore the admin bar in their individual preferences by choosing \"Show Toolbar when viewing site\" if needed.<\/p>\n\n<p>I hope some of you find this plugin helpful. It is offered for free under the GPL-2 license with no support or warranty, but has already been put into production on several of our sit",
+                "uid": "32267"
+            }
+        }
+    }
+}

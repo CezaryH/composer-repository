@@ -1,0 +1,40 @@
+{
+    "packages": {
+        "wordpress\/skip-identical-revisions": {
+            "1.0": {
+                "name": "wordpress\/skip-identical-revisions",
+                "version": "1.0",
+                "version_normalized": "1.0.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/skip-identical-revisions.1.0.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>Disables saving a post revision if the title, content and excerpt fields are all unmodified. This helps prevent database bloat and needless overwriting of important revisions.<\/p>\n\n<p>No configuration needed, no UI and there are no plugin options to bother with. It can also be installed as a must-use plugin (<code>mu-plugins<\/code> directory).<\/p>\n\n<h4>Known Issue<\/h4>\n\n<p>Works best in HTML editor mode or, if in visual editor mode, new content is created from scratch in WordPress. When copying and pasting external content with extensive and poorly-indented HTML markup, underlying TinyMCE formatting can be uneven, so revisions could be saved even when content has not been modified.<\/p>\n\n<h4>To-dos<\/h4>\n\n<ul>\n<li>Add revision-related message to save notification.<\/li>\n<li>Workaround for visual editor auto-formatting when saving poorly indented, heavily marked-up content.<\/li>\n<\/ul>",
+                "uid": "35633"
+            },
+            "1.1": {
+                "name": "wordpress\/skip-identical-revisions",
+                "version": "1.1",
+                "version_normalized": "1.1.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/skip-identical-revisions.1.1.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>Disables saving a post revision if the title, content and excerpt fields are all unmodified. This helps prevent database bloat and needless overwriting of important revisions.<\/p>\n\n<p>No configuration needed, no UI and there are no plugin options to bother with. It can also be installed as a must-use plugin (<code>mu-plugins<\/code> directory).<\/p>\n\n<h4>Known Issue<\/h4>\n\n<p>Works best in HTML editor mode or, if in visual editor mode, new content is created from scratch in WordPress. When copying and pasting external content with extensive and poorly-indented HTML markup, underlying TinyMCE formatting can be uneven, so revisions could be saved even when content has not been modified.<\/p>\n\n<h4>To-dos<\/h4>\n\n<ul>\n<li>Add revision-related message to save notification.<\/li>\n<li>Workaround for visual editor auto-formatting when saving poorly indented, heavily marked-up content.<\/li>\n<\/ul>",
+                "uid": "35632"
+            }
+        }
+    }
+}

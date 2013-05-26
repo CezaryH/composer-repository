@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/google-wave-element": {
+            "0.1.1": {
+                "name": "wordpress\/google-wave-element",
+                "version": "0.1.1",
+                "version_normalized": "0.1.1.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/google-wave-element.0.1.1.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>A simple way to add the Wave Element to your site so visitors can see and interact with the wave on your blog. Based on <a href=\"http:\/\/www.google.com\/webelements\/wave\/\" rel=\"nofollow\">http:\/\/www.google.com\/webelements\/wave\/<\/a><\/p>\n\n<p>Parameters:<\/p>\n\n<ul>\n<li><p>WAVE: The Wave's ID you want to show. You will find it in the adress bar after create a new wave.<\/p><\/li>\n<li><p>WIDTH: Width in pixels of the element (default value is 300).<\/p><\/li>\n<li><p>HEIGHT: Height in pixels of the element (default value is 500).<\/p><\/li>\n<li><p>HEADER: Show\/Hide header [0 = false \/ 1 = true].<\/p><\/li>\n<li><p>TOOLBAR: Show\/Hide toolbar [0 = false \/ 1 = true].<\/p><\/li>\n<li><p>FOOTER: Show\/Hide footer [0 = false \/ 1 = true].<\/p><\/li>\n<\/ul>\n\n<p>How to use:<\/p>\n\n<p>1.- Use the short code to add the element in your posts and pages:<\/p>\n\n<pre><code>[gwe wave=\"WAVEID\" width=\"640\" height=\"500\" header=\"1\" toolbar=\"1\" footer=\"1\"]\n<\/code><\/pre>\n\n<p>2.- Include the element anywhere in your theme calling the ",
+                "uid": "69287"
+            }
+        }
+    }
+}

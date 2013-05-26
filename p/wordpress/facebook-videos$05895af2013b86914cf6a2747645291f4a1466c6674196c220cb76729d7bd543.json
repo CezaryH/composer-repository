@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/facebook-videos": {
+            "1.0": {
+                "name": "wordpress\/facebook-videos",
+                "version": "1.0",
+                "version_normalized": "1.0.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/facebook-videos.1.0.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>With this plugin it is easy to embed Facebook Video's on your WordPress website.\nYou can embed Facebook Video's code using this shortcode <code>[fbvideo id=\"xxx\"]<\/code>.<\/p>\n\n<p>It is possible to pass more arguments for the video size: <code>[fbvideo id=\"xxx\" height=\"403\" width=\"716\"]<\/code><\/p>\n\n<h4>Usage (allowed parameters)<\/h4>\n\n<ul>\n<li>id - facebook video id, extract from the url: eg <a href=\"http:\/\/www.facebook.com\/video\/video.php?v=313954715398\" rel=\"nofollow\">http:\/\/www.facebook.com\/video\/video.php?v=313954715398<\/a>, becomes <code>[fbvideo id=\"313954715398\"]<\/code><\/li>\n<li>width - width of the video in pixels <code>[fbvideo id=\"313954715398\" width=\"100%\"]<\/code> or <code>[fbvideo id=\"xxx\" width=\"640\"]<\/code> (by default width=\"716\");<\/li>\n<li>height - height of the video in pixels <code>[fbvideo id=\"313954715398\" height=\"480\"]<\/code> (by default height=\"403\");<\/li>\n<\/ul>",
+                "uid": "38893"
+            }
+        }
+    }
+}

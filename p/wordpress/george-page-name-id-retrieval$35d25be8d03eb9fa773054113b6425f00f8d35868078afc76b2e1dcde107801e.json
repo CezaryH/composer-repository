@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/george-page-name-id-retrieval": {
+            "1.1": {
+                "name": "wordpress\/george-page-name-id-retrieval",
+                "version": "1.1",
+                "version_normalized": "1.1.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/george-page-name-id-retrieval.1.1.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>You have a theme and you need to filter certain pages to either display uniquely or perform\nsome customized operation. In order to make these custom modifications in your theme, you need\nto get the page id, title or permalink and then when that page is loaded, you can act\nappropriately. Before \"George Page Name ID Retrieval,\" ther was no easy way of retrieving this\npage\/post information. George makes this task very easy. You can now retrieve this information\ndirectly in your theme files from PHP API's, or from your wordpress pages\/posts using shortcodes<\/p>\n\n<p><strong>Usage<\/strong><\/p>\n\n<p>You may use George either in you PHP\/Theme files or from your Wordpress posts\nand pages. To use the API, simple invoke the function that returns the page\ninformation requested. There are three API's for this purpose:<\/p>\n\n<ol>\n<li>george_get_post_id(); =&#62; Returns the Post ID of the current page\/post<\/li>\n<li>george_get_post_title(); =&#62; Returns the Page Title<\/li>\n<li>george_get_post_name",
+                "uid": "76242"
+            }
+        }
+    }
+}

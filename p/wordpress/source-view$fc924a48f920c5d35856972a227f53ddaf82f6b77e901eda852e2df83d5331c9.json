@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/source-view": {
+            "1.0": {
+                "name": "wordpress\/source-view",
+                "version": "1.0",
+                "version_normalized": "1.0.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/source-view.1.0.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>This plugin outputs a source code of the function\/class you specified.<\/p>\n\n<p>This plugin uses Syntaxhighlighter <a href=\"http:\/\/alexgorbatchev.com\/SyntaxHighlighter\/\" rel=\"nofollow\">http:\/\/alexgorbatchev.com\/SyntaxHighlighter\/<\/a><\/p>",
+                "uid": "26035"
+            }
+        }
+    }
+}

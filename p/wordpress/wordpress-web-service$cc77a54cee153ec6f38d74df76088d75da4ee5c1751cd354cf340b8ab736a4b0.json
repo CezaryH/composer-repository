@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/wordpress-web-service": {
+            "0.2.1": {
+                "name": "wordpress\/wordpress-web-service",
+                "version": "0.2.1",
+                "version_normalized": "0.2.1.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/wordpress-web-service.0.2.1.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>WordPress Web Service (WPWS) is used to access WordPress resources via WSDL and SOAP.\nIt allows you to connect WSDL enabled software like Adobe Flex \/ Flash Builder,\nMicrosoft Visual Studio, PHP, J2EE, etc. to WordPress resources like posts\nand pages.<\/p>\n\n<p>WPWS gives you also the opportunity to program alternative (graphical) interfaces\nfor your WordPress installation.<\/p>\n\n<p>Furthermore alternative interpretations of WordPress resources are possible.\nFor example you can interpret a post\/page as a gallery; a datatype consisting of\nall included images with the corresponding attributes.<\/p>\n\n<p>After installation simply open <a href=\"http:\/\/yoursite.com\/blog\/index.php\/wpws\" rel=\"nofollow\">http:\/\/yoursite.com\/blog\/index.php\/wpws<\/a> to test your plugin.\nThat is to add \"\/wpws\" to the index.php part in your WordPress' url.<\/p>\n\n<p>For more information visit:\n<a href=\"http:\/\/code.google.com\/p\/wordpress-web-service\/\">WordPress Web Service<\/a><\/p>\n\n<p>Developers willing to help developm",
+                "uid": "74261"
+            }
+        }
+    }
+}

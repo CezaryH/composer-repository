@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/wm-powertip": {
+            "1.1.1": {
+                "name": "wordpress\/wm-powertip",
+                "version": "1.1.1",
+                "version_normalized": "1.1.1.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/wm-powertip.1.1.1.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>For adding jquery power tooltips to your content.Use [wmpowertip][\/wmpowertip]. The attributes available are 'text'(for the text to be displayed),'placement' (position of the tip options: n, e, s, w, nw, ne, sw, or se), 'followmouse'(tooltip will follow the users mouse cursor options: true\/false) ,'smartplacement' (will try to keep the tip on screen options:true\/false),'fadeintime'(Tooltip fade-in time in milliseconds.default : 200) ,'fadeouttime'(Tooltip fade-out time in milliseconds.default : 200) ,  'closedelay' (in milliseconds. default:100). Please see the screenshots for full details<\/p>",
+                "uid": "13127"
+            }
+        }
+    }
+}

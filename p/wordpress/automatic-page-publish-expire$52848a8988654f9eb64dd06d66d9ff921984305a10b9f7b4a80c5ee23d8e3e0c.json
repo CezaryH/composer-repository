@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/automatic-page-publish-expire": {
+            "1.0": {
+                "name": "wordpress\/automatic-page-publish-expire",
+                "version": "1.0",
+                "version_normalized": "1.0.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/automatic-page-publish-expire.1.0.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>This plugin is very useful for those who want to display their pages (on front end) from some specific date (start date) to some specific date (end date). It creates a meta box in Edit Page where Admin user can add start &#38; end date\/time. After End date has been passed, the page will expire and is saved as 'draft'. Very fast, easy to use plugin for both single &#38; multi site installation. It uses GMT time format.<\/p>",
+                "uid": "40473"
+            }
+        }
+    }
+}

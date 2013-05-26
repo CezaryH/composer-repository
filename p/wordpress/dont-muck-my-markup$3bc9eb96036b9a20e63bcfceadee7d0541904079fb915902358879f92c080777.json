@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/dont-muck-my-markup": {
+            "1.0": {
+                "name": "wordpress\/dont-muck-my-markup",
+                "version": "1.0",
+                "version_normalized": "1.0.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/dont-muck-my-markup.1.0.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>If you've ever had a WordPress blog post or page in which you found yourself writing more than a little HTML, you've experienced the frustration of finding your beautiful markup surrounded in <code>&#60;p&#62;<\/code> tags. The problem only gets worse when you start throwing jQuery into the mix. Who on earth gave WordPress permission to throw in <code>&#60;br\/&#62;<\/code> tags inside a <code>&#60;script&#62;<\/code>, anyhow?!<\/p>\n\n<p>Up until now, we've only had a couple of options:<\/p>\n\n<ul>\n<li>First, we could use conditional logic to require an external PHP file. This was bad for several reasons. \n\n<ul>\n<li>It's not friendly for the end user. Who wants to have to edit a PHP file?<\/li>\n<li>The content is not in the WordPress database, which means it isn't searchable inside the dashboard, and it isn't backed up with the rest of the site.<\/li>\n<li>It removes framework functionality. Robust WordPress frameworks have places to add content above and below the main post content area, and ",
+                "uid": "12906"
+            }
+        }
+    }
+}

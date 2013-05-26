@@ -1,0 +1,40 @@
+{
+    "packages": {
+        "wordpress\/el-banners": {
+            "0.1": {
+                "name": "wordpress\/el-banners",
+                "version": "0.1",
+                "version_normalized": "0.1.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/el-banners.0.1.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>This plugin allow you to create widgets which will show banners, links or any other code from specified folder or file into a sidebar automatically.\nA widget will show content from a specified path. If this path is a directory the plugin will show content from all text files in the directory. If this path is a file the plugin will read content of this file, split it by empty lines and then will show banners. You may use custom HTML code templates for widget body and banners.<\/p>",
+                "uid": "31026"
+            },
+            "0.2": {
+                "name": "wordpress\/el-banners",
+                "version": "0.2",
+                "version_normalized": "0.2.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/el-banners.0.2.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>This plugin allow you to create widgets which will show banners, links or any other code from specified folder or file into a sidebar automatically.\nA widget will show content from a specified path. If this path is a directory the plugin will show content from all text files in the directory. If this path is a file the plugin will read content of this file, split it by empty lines and then will show banners. You may use custom HTML code templates for widget body and banners.<\/p>",
+                "uid": "31025"
+            }
+        }
+    }
+}

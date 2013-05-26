@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/spreaker-shortcode": {
+            "1.0": {
+                "name": "wordpress\/spreaker-shortcode",
+                "version": "1.0",
+                "version_normalized": "1.0.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/spreaker-shortcode.1.0.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>With this shortcode you can easily embed spreaker.com podcasts in your wordpress blog.<\/p>\n\n<p>Simple as [spreaker show_id=] or [spreaker episode_id=].<\/p>\n\n<p>Further configuration<\/p>\n\n<ul>\n<li><strong>type<\/strong> (player dimension: <em>standard<\/em> or <em>mini<\/em>. default <em>mini<\/em>)<\/li>\n<li><strong>color<\/strong> (player color: in hexadecimal format. <em>i.e. color=#ff0000<\/em>)<\/li>\n<li><strong>autoplay<\/strong> (whether or not the player should start play upon loading: <em>true<\/em> or <em>false<\/em>. default: <em>false<\/em>)<\/li>\n<li><strong>width<\/strong> (player width: px or percent)<\/li>\n<li><strong>debug<\/strong> (print debug information. useful if the player seems to render differently from the settings. default: <em>false<\/em>)<\/li>\n<\/ul>\n\n<p>If you have any issues please refer to the <a href=\"http:\/\/getsatisfaction.com\/spreaker\/\">support forum<\/a><\/p>",
+                "uid": "34986"
+            }
+        }
+    }
+}

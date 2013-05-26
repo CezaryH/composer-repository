@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/sequentitle": {
+            "1.0.0": {
+                "name": "wordpress\/sequentitle",
+                "version": "1.0.0",
+                "version_normalized": "1.0.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/sequentitle.1.0.0.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>Automatically creates a sequentially numbered post title of your choosing if the\ntitle is left blank when the post is published.  The plugin keeps track of what\nnumber to use and increments the number every time you publish a post with a\nblank title.  Additionally, the post slug\/url will be updated to reflect the new\ntitle if the author did not specify one manually.<\/p>\n\n<p>An options page is available to set the title you want to use or to tweak the\nincremental number, should it become necessary.  This plugin is <em>very<\/em> basic and\nis <strong>not<\/strong> multi-user aware.  If any author on the site publishes a post with a\nblank title, SequenTitle will do it's song and dance.<\/p>",
+                "uid": "89851"
+            }
+        }
+    }
+}

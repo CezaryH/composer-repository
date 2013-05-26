@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/custom-messages-in-rss-feed": {
+            "1.0": {
+                "name": "wordpress\/custom-messages-in-rss-feed",
+                "version": "1.0",
+                "version_normalized": "1.0.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/custom-messages-in-rss-feed.1.0.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>This Plugin allows you to insert custom messages at the start or the end of your blog entry in your RSS feed. Can be useful to put in source links if proper attribution is not being given to your content which is syndicated. You can also put in a small logo or icon of your blog which could link back to your site.<\/p>\n\n<p>You can specify the custom text or HTML that you want to add by going to the settings page at : Settings &#62; Message In RSS Feed.<\/p>",
+                "uid": "10273"
+            }
+        }
+    }
+}

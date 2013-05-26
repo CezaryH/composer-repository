@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/delay-print-css": {
+            "0.1": {
+                "name": "wordpress\/delay-print-css",
+                "version": "0.1",
+                "version_normalized": "0.1.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/delay-print-css.0.1.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>Many browsers will not render your webpage until the print.css is loaded. Delay Print CSS prevents this from happening. Once your page has fully rendered (including JavaScript, images, etc) your print stylesheets will be loaded.<\/p>\n\n<p>Using the methods described in a <a href=\"http:\/\/bigredtin.com\/behind-the-websites\/delay-loading-of-print-css\/\">recent blog post<\/a> this plugin uses JavaScript, with a non JavaScript fallback, to load your stylesheets last.<\/p>\n\n<p>If your WordPress site uses jQuery then it is used to load the stylesheets, otherwise the plugin outputs its own JavaScript.<\/p>",
+                "uid": "63122"
+            }
+        }
+    }
+}

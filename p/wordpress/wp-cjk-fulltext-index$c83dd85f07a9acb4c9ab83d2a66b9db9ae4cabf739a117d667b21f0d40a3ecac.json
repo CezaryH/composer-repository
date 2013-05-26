@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/wp-cjk-fulltext-index": {
+            "0.1": {
+                "name": "wordpress\/wp-cjk-fulltext-index",
+                "version": "0.1",
+                "version_normalized": "0.1.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/wp-cjk-fulltext-index.0.1.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>This plugin port the full text index search functionality from mediawiki (ver 1.19.0) to wordpress.<\/p>\n\n<p>It improve the searching speed by using MATCH AGAINST than LIKE and also solve the full text index problem with cjk (Chinese, Japanese, and Korean) words.<\/p>\n\n<p>This plugin will create a new database table with post ID and text content.<\/p>",
+                "uid": "24746"
+            }
+        }
+    }
+}

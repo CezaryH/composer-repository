@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/wp-app-framework": {
+            "0.1": {
+                "name": "wordpress\/wp-app-framework",
+                "version": "0.1",
+                "version_normalized": "0.1.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/wp-app-framework.0.1.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>WordPress App Framework provides the base class for developing web applications using WordPress.  This plugin alone does very little, in fact, the only noticable change is that users will be able to log in using their email address as their username.<\/p>\n\n<p>However, there's much more, if you use your imagination.  WP App Framework provides a basic app framework.  It creates a line off of which you can hang your functionality, then be able to access your functions and data from throughout your codebase.<\/p>\n\n<p>This is early in the process, a 0.1 release, but there will be many additions coming down the pipelines as WPAF Modules (plugins to the plugin)<\/p>\n\n<p>This plugin is intended for developers.  It will make no change to your site if you don't dig in and do some PHP work.<\/p>",
+                "uid": "21578"
+            }
+        }
+    }
+}

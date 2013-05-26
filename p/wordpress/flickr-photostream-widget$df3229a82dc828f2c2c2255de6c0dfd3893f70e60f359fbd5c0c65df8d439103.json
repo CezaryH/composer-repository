@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/flickr-photostream-widget": {
+            "1.0": {
+                "name": "wordpress\/flickr-photostream-widget",
+                "version": "1.0",
+                "version_normalized": "1.0.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/flickr-photostream-widget.1.0.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>Rather than linking to the authors profile, this widget modifies the link to connect to the authors flickr photostream. This was designed for photoblogs that have multiple authors\/photographers. \nIf the shadowbox JS plugin is install the Flickr Photostream is rendered in a Lightbox, otherwise it will goto the flickr website. Uses the Yahoo IM account if in user profile, otherwise uses nickname. By Greg Royal\/Bluecowhosting. Extends the Authors plugin from Gavriel Fleischer. Requires PHP 5.<\/p>",
+                "uid": "90072"
+            }
+        }
+    }
+}

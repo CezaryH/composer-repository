@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/force-fields": {
+            "1.0.0": {
+                "name": "wordpress\/force-fields",
+                "version": "1.0.0",
+                "version_normalized": "1.0.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/force-fields.1.0.0.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>Force Fields extends the wonderful <a href=\"http:\/\/wordpress.org\/extend\/plugins\/more-fields\/\">More Fields<\/a> plugin by allowing developers to hide or show input boxes created by More Fields on a per template basis.<\/p>\n\n<p><strong>Requires <a href=\"http:\/\/wordpress.org\/extend\/plugins\/more-fields\/\">More Fields<\/a> 2.0.5 or higher.<\/strong><\/p>\n\n<p>You can choose to only show specific boxes or omit specific boxes, on a per template basis. Default box sets can be set up in your theme's <code>page.php<\/code> file.<\/p>\n\n<h4>How to use<\/h4>\n\n<p>After installing <a href=\"http:\/\/wordpress.org\/extend\/plugins\/more-fields\/\">More Fields<\/a>, create as many boxes as you would like, assigning their <em>Used with post types<\/em> option to <em>Page<\/em>.<\/p>\n\n<p><strong>Showing specific boxes<\/strong><\/p>\n\n<p>Open one of your template files and edit the header comment, adding the <em>Fields<\/em> directive.<\/p>\n\n<pre><code>\/*\nTemplate Name: Example\nFields: &#039;Example More Fields Box&#039; &#039;",
+                "uid": "34704"
+            }
+        }
+    }
+}

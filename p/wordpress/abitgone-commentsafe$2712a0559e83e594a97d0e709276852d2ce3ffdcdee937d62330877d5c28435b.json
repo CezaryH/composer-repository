@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/abitgone-commentsafe": {
+            "1.0.0": {
+                "name": "wordpress\/abitgone-commentsafe",
+                "version": "1.0.0",
+                "version_normalized": "1.0.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/abitgone-commentsafe.1.0.0.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>CommentSafe is a really simple plugin that I've written for WordPress. Very simply, it takes a list \nof (X)HTML tags - which you can specify through the admin interface - and does one of three things \nwith those tags, when they're found in your comments:<\/p>\n\n<ol>\n<li>Strip tags (example: <code>A &#60;b&#62;bold&#60;\/b&#62; choice<\/code> becomes <code>A bold choice<\/code> - default)<\/li>\n<li>Convert tags (example: <code>A &#60;b&#62;bold&#60;\/b&#62;<\/code> choice becomes <code>A &#38;lt;b&#38;gt;bold&#38;lt;\/b&#38;gt; choice<\/code>)<\/li>\n<li>Remove tags and content (example: <code>A &#60;b&#62;bold&#60;\/b&#62; choice<\/code> becomes <code>A choice<\/code>)<\/li>\n<\/ol>\n\n<p>The comments are changed before being saved to your WordPress database so that, if you decide to \nuninstall or deactivate CommentSafe, your comments will remain sanitised and safe.<\/p>\n\n<p>For further information and updates, see <a href=\"http:\/\/abitgone.co.uk\/projects\/commentsafe\">http:\/\/abitgone.co.uk\/projects\/comme",
+                "uid": "92906"
+            }
+        }
+    }
+}

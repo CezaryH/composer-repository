@@ -1,0 +1,40 @@
+{
+    "packages": {
+        "wordpress\/safer-cookies": {
+            "1.1": {
+                "name": "wordpress\/safer-cookies",
+                "version": "1.1",
+                "version_normalized": "1.1.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/safer-cookies.1.1.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>Normally when you login to your blog WordPress will create a session cookie that is used to authenticate you. If someone was to steal the cookie they would be able to use it to get full access to your blog without having to know your password. This plugin prevents that from happening - it makes the cookie specific to your IP address, so it won't be usable from a different computer.<\/p>\n\n<p>Use this plugin if you have a static IP. If you have a dynamic IP address and it changes often you will get logged out frequently.<\/p>\n\n<p>A bit more info can be obtained from the <a href=\"http:\/\/w-shadow.com\/blog\/2008\/07\/12\/safer-cookies-plugin-for-wordpress\/\" title=\"Safer Cookies homepage\">Safer Cookies homepage<\/a><\/p>",
+                "uid": "101363"
+            },
+            "1.2": {
+                "name": "wordpress\/safer-cookies",
+                "version": "1.2",
+                "version_normalized": "1.2.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/safer-cookies.1.2.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>Normally when you login to your blog WordPress will create a session cookie that is used to authenticate you. If someone was to steal the cookie they would be able to use it to get full access to your blog without having to know your password. This plugin prevents that from happening - it makes the cookie specific to your IP address, so it won't be usable from a different computer.<\/p>\n\n<p>Use this plugin if you have a static IP. If you have a dynamic IP address and it changes often you will get logged out frequently.<\/p>\n\n<p>A bit more info can be obtained from the <a href=\"http:\/\/w-shadow.com\/blog\/2008\/07\/12\/safer-cookies-plugin-for-wordpress\/\" title=\"Safer Cookies homepage\">Safer Cookies homepage<\/a><\/p>",
+                "uid": "101362"
+            }
+        }
+    }
+}

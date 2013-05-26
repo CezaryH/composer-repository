@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/remove-author-column": {
+            "0.1": {
+                "name": "wordpress\/remove-author-column",
+                "version": "0.1",
+                "version_normalized": "0.1.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/remove-author-column.0.1.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>Removes the author column on Edit Posts page (for custom post types as well). The author column doesn't make sense on single author blogs. By removing it, you can save precious real estate and use other useful plugins like [Simply Show Ids] (<a href=\"http:\/\/wordpress.org\/extend\/plugins\/simply-show-ids\/\" rel=\"nofollow\">http:\/\/wordpress.org\/extend\/plugins\/simply-show-ids\/<\/a>) which will show the ID of the posts, categories, tags etc.<\/p>",
+                "uid": "63574"
+            }
+        }
+    }
+}

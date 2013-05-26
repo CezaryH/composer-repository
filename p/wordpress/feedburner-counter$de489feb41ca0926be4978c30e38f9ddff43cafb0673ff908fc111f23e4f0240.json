@@ -1,0 +1,40 @@
+{
+    "packages": {
+        "wordpress\/feedburner-counter": {
+            "0.1": {
+                "name": "wordpress\/feedburner-counter",
+                "version": "0.1",
+                "version_normalized": "0.1.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/feedburner-counter.0.1.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>Having trouble trying to find a simple plugin to show the amount of subscribers your FeedBurner account has? Looking for a plugin that will show the amount of subscribers in simple text, without having to go thru countless configuration options? This plugin is for you!<\/p>\n\n<p>FeedBurner Counter is a simple to install and simple to run plugin. It shows your number without any kind of formatting, so you can add it to your layout or post\/page as simple text and format it the way you want to.<\/p>\n\n<h4>Usage:<\/h4>\n\n<p>Place <code>&#60;?php xc_feedburner_counter('XXXXX'); ?&#62;<\/code> in your template where you want the code to be show. Change the XXXXX for your FeedBurner URI ( <a href=\"http:\/\/feeds.feedburner.com\/\" rel=\"nofollow\">http:\/\/feeds.feedburner.com\/<\/a><em>XXXXX<\/em>).<\/p>\n\n<p>You can also add the shortcode in your post or page:<\/p>\n\n<pre><code>[feedburner_counter feed=&#34;XXXXX&#34;]<\/code><\/pre>\n\n<p>This code will show as simple text, so you can put it in a span, div or wh",
+                "uid": "51120"
+            },
+            "0.2": {
+                "name": "wordpress\/feedburner-counter",
+                "version": "0.2",
+                "version_normalized": "0.2.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/feedburner-counter.0.2.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>Having trouble trying to find a simple plugin to show the amount of subscribers your FeedBurner account has? Looking for a plugin that will show the amount of subscribers in simple text, without having to go thru countless configuration options? This plugin is for you!<\/p>\n\n<p>FeedBurner Counter is a simple to install and simple to run plugin. It shows your number without any kind of formatting, so you can add it to your layout or post\/page as simple text and format it the way you want to.<\/p>\n\n<h4>Usage:<\/h4>\n\n<p>Place <code>&#60;?php xc_feedburner_counter('XXXXX'); ?&#62;<\/code> in your template where you want the code to be show. Change the XXXXX for your FeedBurner URI ( <a href=\"http:\/\/feeds.feedburner.com\/\" rel=\"nofollow\">http:\/\/feeds.feedburner.com\/<\/a><em>XXXXX<\/em>).<\/p>\n\n<p>You can also add the shortcode in your post or page:<\/p>\n\n<pre><code>[feedburner_counter feed=&#34;XXXXX&#34;]<\/code><\/pre>\n\n<p>This code will show as simple text, so you can put it in a span, div or wh",
+                "uid": "51119"
+            }
+        }
+    }
+}

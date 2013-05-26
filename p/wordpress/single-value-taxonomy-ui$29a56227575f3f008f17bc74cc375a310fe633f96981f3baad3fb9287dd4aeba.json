@@ -1,0 +1,57 @@
+{
+    "packages": {
+        "wordpress\/single-value-taxonomy-ui": {
+            "0.1": {
+                "name": "wordpress\/single-value-taxonomy-ui",
+                "version": "0.1",
+                "version_normalized": "0.1.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/single-value-taxonomy-ui.0.1.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>This infrastructure plugin adds basic UI for single-valued taxonomies, i.e. a taxonomy with presents a <code>select<\/code> widget.<\/p>\n\n<h4>Usage<\/h4>\n\n<p>When registering your custom taxonomy, add the argument <code>single_value<\/code> set to <code>true<\/code> to get the single value UI. If a selection of this term is required, also add <code>required<\/code> set to <code>true<\/code>.<\/p>\n\n<pre><code>register_taxonomy(\n    &#039;astrological_sign&#039;,\n    array( &#039;person&#039; ),\n    array(\n        &#039;hierarchical&#039; =&#62; false,\n        &#039;show_ui&#039; =&#62; true,\n        &#039;required&#039; =&#62; true,\n        &#039;single_value&#039; =&#62; true\n    )\n);<\/code><\/pre>\n\n<p>Development of this plugin supported by <a href=\"http:\/\/globalshakespeares.org\">MIT Global Shakespeares<\/a>.<\/p>",
+                "uid": "33998"
+            },
+            "0.2": {
+                "name": "wordpress\/single-value-taxonomy-ui",
+                "version": "0.2",
+                "version_normalized": "0.2.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/single-value-taxonomy-ui.0.2.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>This infrastructure plugin adds basic UI for single-valued taxonomies, i.e. a taxonomy with presents a <code>select<\/code> widget.<\/p>\n\n<h4>Usage<\/h4>\n\n<p>When registering your custom taxonomy, add the argument <code>single_value<\/code> set to <code>true<\/code> to get the single value UI. If a selection of this term is required, also add <code>required<\/code> set to <code>true<\/code>.<\/p>\n\n<pre><code>register_taxonomy(\n    &#039;astrological_sign&#039;,\n    array( &#039;person&#039; ),\n    array(\n        &#039;hierarchical&#039; =&#62; false,\n        &#039;show_ui&#039; =&#62; true,\n        &#039;required&#039; =&#62; true,\n        &#039;single_value&#039; =&#62; true\n    )\n);<\/code><\/pre>\n\n<p>Development of this plugin supported by <a href=\"http:\/\/globalshakespeares.org\">MIT Global Shakespeares<\/a>.<\/p>",
+                "uid": "33997"
+            },
+            "0.3": {
+                "name": "wordpress\/single-value-taxonomy-ui",
+                "version": "0.3",
+                "version_normalized": "0.3.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/single-value-taxonomy-ui.0.3.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>This infrastructure plugin adds basic UI for single-valued taxonomies, i.e. a taxonomy with presents a <code>select<\/code> widget.<\/p>\n\n<h4>Usage<\/h4>\n\n<p>When registering your custom taxonomy, add the argument <code>single_value<\/code> set to <code>true<\/code> to get the single value UI. If a selection of this term is required, also add <code>required<\/code> set to <code>true<\/code>.<\/p>\n\n<pre><code>register_taxonomy(\n    &#039;astrological_sign&#039;,\n    array( &#039;person&#039; ),\n    array(\n        &#039;hierarchical&#039; =&#62; false,\n        &#039;show_ui&#039; =&#62; true,\n        &#039;required&#039; =&#62; true,\n        &#039;single_value&#039; =&#62; true\n    )\n);<\/code><\/pre>\n\n<p>Development of this plugin supported by <a href=\"http:\/\/globalshakespeares.org\">MIT Global Shakespeares<\/a>.<\/p>",
+                "uid": "33996"
+            }
+        }
+    }
+}

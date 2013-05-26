@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/ics-comment-referrer": {
+            "0.2": {
+                "name": "wordpress\/ics-comment-referrer",
+                "version": "0.2",
+                "version_normalized": "0.2.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/ics-comment-referrer.0.2.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>Adds the referrering link from which a commenting user came from to comment notifications and Comments screen in the Admin panel of your site.<\/p>\n\n<p>This is an extended version of Donncha's <a href=\"http:\/\/wordpress.org\/extend\/plugins\/comment-referrers\/\">Comment Referrers<\/a> plugin<\/p>\n\n<p>ICS Comment Referrer:<\/p>\n\n<ul>\n<li>uses both server (HTTP Referer header) and client (works if JavaScript enabled) referrer identification;<\/li>\n<li>cryptographically protects the server-generated referrer field;<\/li>\n<li>adds referring links to comment notifications;<\/li>\n<li>shows referring links in Admin Panel &#187; Comments.<\/li>\n<\/ul>",
+                "uid": "57428"
+            }
+        }
+    }
+}

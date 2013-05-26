@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/categories-but-exclude-widget": {
+            "1.0": {
+                "name": "wordpress\/categories-but-exclude-widget",
+                "version": "1.0",
+                "version_normalized": "1.0.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/categories-but-exclude-widget.1.0.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>A simple plugin that displays a list of all categories except those selected in widget preferences. Unlike other similar plugins like \"Almost All Categories Widget\", Categories but exclude uses the latest version of Wordpress Widget API, which is multi-widget, which lets you use the wigdet more than once. Mostly, I created the plugin to use it with the plugin \"WPML\" along with \"Widget Logic\" to use the same widget for each language.<\/p>\n\n<p>This will allow you to create a custom category list which will show the categories you want, and will hide the categories you do not want. For example, say you have a particular category you don't want to be displayed named \"Announcements\". You can use this plugin to display all of your other categories, except the category \"Announcements\". You are not limited to just excluding one category; you can exclude multiple categories.<\/p>\n\n<p>Languages:<\/p>\n\n<ul>\n<li>Spanish (es_ES) - <a href=\"http:\/\/poselab.com\/\">PoseLab<\/a><\/li>\n<li>French (fr_FR) - ",
+                "uid": "23555"
+            }
+        }
+    }
+}

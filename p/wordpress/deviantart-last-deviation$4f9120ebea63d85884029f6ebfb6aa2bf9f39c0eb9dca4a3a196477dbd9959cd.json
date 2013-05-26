@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/deviantart-last-deviation": {
+            "0.1.1": {
+                "name": "wordpress\/deviantart-last-deviation",
+                "version": "0.1.1",
+                "version_normalized": "0.1.1.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/deviantart-last-deviation.0.1.1.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>This plug-in allows yout to put on your Word-Press blog a thumbnail\/text link\/thmbnail with text link to the last deviation on specified deviantArt account.<\/p>\n\n<p>Plugin waits 10 seconds for server response so if deviantArt is off-line after 10 seconds plugin would stop waiting for a response and allows to generate blog without last deviation image\/text-link.<\/p>\n\n<p>You can edit the way of displaying the thumbnail\/text link by editing lines 59-65 in da.php file.<\/p>\n\n<p>Plug-in uses cURL module (usually this module is on in PHP).<\/p>",
+                "uid": "111844"
+            }
+        }
+    }
+}

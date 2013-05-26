@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/last-updated-shortcode": {
+            "1.0.0": {
+                "name": "wordpress\/last-updated-shortcode",
+                "version": "1.0.0",
+                "version_normalized": "1.0.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/last-updated-shortcode.1.0.0.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>Creates the <code>[lastupdated]<\/code> shortcode to display the date and\/or time of the last update to a post or page. If used without any arguments, it will display the date in the format configured in the Settings &#62; General tab. It supports several optional arguments: format, before, and after. These options allow you to change how the date\/time is formatted and if anything should appear before or after the date\/time is displayed.<\/p>",
+                "uid": "26646"
+            }
+        }
+    }
+}

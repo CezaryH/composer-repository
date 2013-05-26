@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/kb-linker": {
+            "1.10": {
+                "name": "wordpress\/kb-linker",
+                "version": "1.10",
+                "version_normalized": "1.10.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/kb-linker.1.102.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>KB Linker will link phrases you specify to sites you specify. For example, you could make it so that whenever \"Wordpress\" occurs in a post it is automatically linked to wordpress.org. All you do is enter keyword\/URL pairs into the Options=&#62;KB Linker page in your admin menu.<\/p>\n\n<p>You'll find more detailed instructions on the admin page. But really, it's pretty easy. And KB Linker does the hard work of (a) making sure that words aren't already linked and (b) making sure only whole words, not partial words, get linked.<\/p>\n\n<p>The plugin file is commented extensively, so if you want to tweak its behavior, give it a go.<\/p>\n\n<h4>Support<\/h4>\n\n<p>If you post your support questions as comments below, I probably won't see them. If the notes in the plugin file doesn't answer your questions, you can post support questions at the <a href=\"http:\/\/adambrown.info\/b\/widgets\/kb-linker\/\">KB Linker plugin page<\/a> on my site.<\/p>",
+                "uid": "111186"
+            }
+        }
+    }
+}

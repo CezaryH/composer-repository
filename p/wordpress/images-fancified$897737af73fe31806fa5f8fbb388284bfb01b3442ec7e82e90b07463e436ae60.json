@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/images-fancified": {
+            "0.2": {
+                "name": "wordpress\/images-fancified",
+                "version": "0.2",
+                "version_normalized": "0.2.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/images-fancified.0.2.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>Images Fancified alters the default WordPress attachment behavior:<\/p>\n\n<ul>\n<li>Images can only be linked to their \"large\" versions (that way users reserve control over image size). Bigger versions of both individual images and gallery items are displayed using <a href=\"http:\/\/fancybox.net\/\">FancyBox<\/a> automatically.<\/li>\n<li>Attachment pages are disabled and entry points for linking to it are removed. Creating link to an attachment always creates a link to the file itself. Accessing an attachment page shows a 404.<\/li>\n<li>Gallery shortcode is also overridden to produce clearer syntax similar to the marvellous <a href=\"http:\/\/wordpress.org\/extend\/plugins\/cleaner-gallery\/\">Cleaner Gallery<\/a> plugin by Justin Tadlock.<\/li>\n<\/ul>",
+                "uid": "76046"
+            }
+        }
+    }
+}

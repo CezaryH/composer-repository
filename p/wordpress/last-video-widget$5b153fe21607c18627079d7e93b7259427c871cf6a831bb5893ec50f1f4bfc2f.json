@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/last-video-widget": {
+            "0.1": {
+                "name": "wordpress\/last-video-widget",
+                "version": "0.1",
+                "version_normalized": "0.1.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/last-video-widget.0.1.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>This plugin allows to place a widget on your sidebar, that will fetch the last post of the category you specify, and display it inside the widget. In addition, if that post contains a youtube video tag inserted by the Viper's Video Quicktags plugin, that video will be resized to the specified size, so you can fit it nicely in your sidebar width.<\/p>",
+                "uid": "77723"
+            }
+        }
+    }
+}

@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/wp-brightcove-video-plugin": {
+            "0.1": {
+                "name": "wordpress\/wp-brightcove-video-plugin",
+                "version": "0.1",
+                "version_normalized": "0.1.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/wp-brightcove-video-plugin.0.1.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>Brightcove Video WP Plugin is a plugin that helps to insert Brightcove videos in your wordpress posts. The method of use is very simple. It also has an option to view the last 20 videos uploaded to your Brightcove account, plus see some information related to these videos, such as thumbnail, how many times the video has been seen, how long it lasts.<\/p>\n\n<p>You can do searches, then get the video ID and copy the code that needs to be put in the post.<\/p>\n\n<p>For the plugin to work you need the token read, the write token. If you do not have a token write you can use the default the write token. You need the publisher id, player id, and the width and height of the video.<\/p>",
+                "uid": "42547"
+            }
+        }
+    }
+}

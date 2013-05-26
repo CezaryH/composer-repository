@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/wp-useragent": {
+            "1.0.2": {
+                "name": "wordpress\/wp-useragent",
+                "version": "1.0.2",
+                "version_normalized": "1.0.2.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/wp-useragent.1.0.2.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p><em>WP-UserAgent<\/em> is a simple plugin that allows you to display details about a computer's <a href=\"http:\/\/en.wikipedia.org\/wiki\/Operating_system\">operating system<\/a> or <a href=\"http:\/\/en.wikipedia.org\/wiki\/Web_browser\">web browser<\/a> that your visitors comment from.<\/p>\n\n<p>It uses the comment-&#62;agent property to access the <a href=\"http:\/\/en.wikipedia.org\/wiki\/User_agent\">User-Agent string<\/a>. Through a series of regular expresions, this plugin is able to detect the operating system and browser which can be integrated in comments or placed in custom places through your template(s).<\/p>\n\n<p>I&#8217;m adding new web browsers and operating systems frequently, as well as updating and optimizing the source code. Your feedback is very important, new features have been added by request, so if there&#8217;s something you would like to see in <em>WP-UserAgent<\/em>, <a href=\"http:\/\/kyleabaker.com\/goodies\/coding\/wp-useragent\/\">leave a comment<\/a>, and I&#8217;ll see what I can do.",
+                "uid": "86359"
+            }
+        }
+    }
+}

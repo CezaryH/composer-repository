@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/attach-files-widget": {
+            "2.1": {
+                "name": "wordpress\/attach-files-widget",
+                "version": "2.1",
+                "version_normalized": "2.1.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/attach-files-widget.2.1.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>Simple attachment widget that uses native Wordpress upload manager to add files link widgets to your site.<\/p>\n\n<ul>\n<li>Title and Description<\/li>\n<li>Attach Existing Files<\/li>\n<li>Upload New files<\/li>\n<li>Sort files<\/li>\n<\/ul>",
+                "uid": "9991"
+            }
+        }
+    }
+}

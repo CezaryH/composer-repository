@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/google-plus-page-shortcode": {
+            "0.1": {
+                "name": "wordpress\/google-plus-page-shortcode",
+                "version": "0.1",
+                "version_normalized": "0.1.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/google-plus-page-shortcode.0.1.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>Add a Google+ Page button easily with this plugin. The shortcode is <code>[googlepage]<\/code><\/p>\n\n<p>Usage: \n* Smallest icon: <code>[googlepage page=YOUR_PAGE_ID]<\/code>\n* Medium icon: <code>[googlepage size=32 page=YOUR_PAGE_ID]<\/code>\n* Biggest icon: <code>[googlepage size=64 page=YOUR_PAGE_ID]<\/code><\/p>\n\n<p>In page=x where x is your Google+ Page number.<\/p>",
+                "uid": "35818"
+            }
+        }
+    }
+}

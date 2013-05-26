@@ -1,0 +1,57 @@
+{
+    "packages": {
+        "wordpress\/cache-translation-object": {
+            "1.0": {
+                "name": "wordpress\/cache-translation-object",
+                "version": "1.0",
+                "version_normalized": "1.0.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/cache-translation-object.1.0.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>On every pageload a localized WordPress site spends a huge amount of time setting up the translation (l10n) object. Startup for a localized site can be almost four times slower than an untranslated one.<\/p>\n\n<p>This plugin stores the translation object between pageloads so it only has to be created once, resulting in significantly better performance (performance graph included with screenshot).<\/p>\n\n<p>Plugin supports caching multiple languages (if you use a multi-language plugin).<\/p>\n\n<p>Available storage: Plain file, APC (Alternative PHP Cache), or SHMOP (Shared Memory)<\/p>",
+                "uid": "79457"
+            },
+            "1.1": {
+                "name": "wordpress\/cache-translation-object",
+                "version": "1.1",
+                "version_normalized": "1.1.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/cache-translation-object.1.1.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>On every pageload a localized WordPress site spends a huge amount of time setting up the translation (l10n) object. Startup for a localized site can be almost four times slower than an untranslated one.<\/p>\n\n<p>This plugin stores the translation object between pageloads so it only has to be created once, resulting in significantly better performance (performance graph included with screenshot).<\/p>\n\n<p>Plugin supports caching multiple languages (if you use a multi-language plugin).<\/p>\n\n<p>Available storage: Plain file, APC (Alternative PHP Cache), or SHMOP (Shared Memory)<\/p>",
+                "uid": "79455"
+            },
+            "1.2": {
+                "name": "wordpress\/cache-translation-object",
+                "version": "1.2",
+                "version_normalized": "1.2.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/cache-translation-object.1.2.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>On every pageload a localized WordPress site spends a huge amount of time setting up the translation (l10n) object. Startup for a localized site can be almost four times slower than an untranslated one.<\/p>\n\n<p>This plugin stores the translation object between pageloads so it only has to be created once, resulting in significantly better performance (performance graph included with screenshot).<\/p>\n\n<p>Plugin supports caching multiple languages (if you use a multi-language plugin).<\/p>\n\n<p>Available storage: Plain file, APC (Alternative PHP Cache), or SHMOP (Shared Memory)<\/p>",
+                "uid": "79453"
+            }
+        }
+    }
+}

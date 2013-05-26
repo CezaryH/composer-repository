@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/admin-bar-toggle": {
+            "1.0": {
+                "name": "wordpress\/admin-bar-toggle",
+                "version": "1.0",
+                "version_normalized": "1.0.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/admin-bar-toggle.1.0.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>Admin Bar toggle adds a toggle switch to show\/hide the admin bar on the front-end. This is much less intrusive, but still allows you to use all the useful features of the admin bar.<\/p>\n\n<ul>\n<li>Hides the admin bar on the front-end by default. This is much less intrusive.<\/li>\n<li>Adds a small toggle button in the top right to activate the admin bar.<\/li>\n<li>Toggle remains in place to hide it again.<\/li>\n<\/ul>\n\n<p><strong>This plugin assumes that the admin bar is active, and hasn't been disabled in your user profile<\/strong><\/p>",
+                "uid": "30921"
+            }
+        }
+    }
+}

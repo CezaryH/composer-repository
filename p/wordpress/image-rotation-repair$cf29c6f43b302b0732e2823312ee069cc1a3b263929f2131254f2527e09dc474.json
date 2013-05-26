@@ -1,0 +1,40 @@
+{
+    "packages": {
+        "wordpress\/image-rotation-repair": {
+            "1.0": {
+                "name": "wordpress\/image-rotation-repair",
+                "version": "1.0",
+                "version_normalized": "1.0.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/image-rotation-repair.1.0.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>The Image Rotation Repair plugin simply fixes image orientation based on EXIF data.  This is primarily a patch for mis-oriented images delivered from iPhones.  Functionally it filters all uploads and if EXIF-&#62;Orientation is set to a number greater than 1, then the image is resaved with a new orientation before the image is processed by wordpress.<\/p>\n\n<p><em>NEW<\/em> - supports postie plugin!<\/p>",
+                "uid": "56606"
+            },
+            "1.1": {
+                "name": "wordpress\/image-rotation-repair",
+                "version": "1.1",
+                "version_normalized": "1.1.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/image-rotation-repair.1.1.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>The Image Rotation Repair plugin simply fixes image orientation based on EXIF data.  This is primarily a patch for mis-oriented images delivered from iPhones.  Functionally it filters all uploads and if EXIF-&#62;Orientation is set to a number greater than 1, then the image is resaved with a new orientation before the image is processed by wordpress.<\/p>\n\n<p><em>NEW<\/em> - supports postie plugin!<\/p>",
+                "uid": "56605"
+            }
+        }
+    }
+}

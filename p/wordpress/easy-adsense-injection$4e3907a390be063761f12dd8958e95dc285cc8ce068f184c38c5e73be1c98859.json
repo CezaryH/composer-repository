@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/easy-adsense-injection": {
+            "1.0": {
+                "name": "wordpress\/easy-adsense-injection",
+                "version": "1.0",
+                "version_normalized": "1.0.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/easy-adsense-injection.1.0.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>This WordPress plugin allows users to inject Google adsense in a wordpress post or in any part of WordPress theme quickly. You only need to add adsense code in the pugin settings and use shortcode or functions to add the ads in WordPress<\/p>\n\n<p>There are two ways you can use this plugin:<\/p>\n\n<p>Use these shortcodes within the post:<\/p>\n\n<ul>\n<li>[easy_ad_inject_1]<\/li>\n<li>[easy_ad_inject_2]<\/li>\n<li>[easy_ad_inject_3]<\/li>\n<li>[easy_ad_inject_4]<\/li>\n<li>[easy_ad_inject_5]<\/li>\n<\/ul>\n\n<p>use these functions to add ads in the theme.<\/p>\n\n<ul>\n<li>&#60;?php echo put_wp_ad_1(); ?&#62;<\/li>\n<li>&#60;?php echo put_wp_ad_2(); ?&#62;<\/li>\n<li>&#60;?php echo put_wp_ad_3(); ?&#62;<\/li>\n<li>&#60;?php echo put_wp_ad_4(); ?&#62;<\/li>\n<li>&#60;?php echo put_wp_ad_5(); ?&#62;<\/li>\n<\/ul>\n\n<p>Read More: <a href=\"http:\/\/webtips.in\/?p=5566\" rel=\"nofollow\">http:\/\/webtips.in\/?p=5566<\/a><\/p>",
+                "uid": "10019"
+            }
+        }
+    }
+}

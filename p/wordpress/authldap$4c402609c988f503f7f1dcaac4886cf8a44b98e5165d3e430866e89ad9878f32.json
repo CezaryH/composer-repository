@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/authldap": {
+            "1.2.1": {
+                "name": "wordpress\/authldap",
+                "version": "1.2.1",
+                "version_normalized": "1.2.1.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/authldap.1.2.1.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>Use your existing LDAP as authentication-backend for your wordpress!<\/p>\n\n<p>So what are the differences to other Wordpress-LDAP-Authentication-Plugins?<\/p>\n\n<ul>\n<li>Flexible: You are totaly free in which LDAP-backend to use. Due to the extensive configuration you can\nfreely decide how to do the authentication of your users. It simply depends on your\nfilters<\/li>\n<li>Independent: As soon as a user logs in, it is added\/updated to the Wordpress' user-database\nto allow wordpress to always use the correct data. You only have to administer your users once.<\/li>\n<li>Failsafe: Due to the users being created in Wordpress' User-database they can\nalso log in when the LDAP-backend currently is gone.<\/li>\n<li>Role-Aware: You can map Wordpress' roles to values of an existing LDAP-attribute.<\/li>\n<\/ul>\n\n<p>For more Information on the configuration have a look at <a href=\"http:\/\/andreas.heigl.org\/cat\/dev\/wp\/authldap\" rel=\"nofollow\">http:\/\/andreas.heigl.org\/cat\/dev\/wp\/authldap<\/a><\/p>",
+                "uid": "62889"
+            }
+        }
+    }
+}

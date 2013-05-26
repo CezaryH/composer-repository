@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/displet-theme-code-helper": {
+            "1.0": {
+                "name": "wordpress\/displet-theme-code-helper",
+                "version": "1.0",
+                "version_normalized": "1.0.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/displet-theme-code-helper.1.0.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>Numerous unsavvy theme developers have engaged in a bad practice of replacing WordPress' default Shortcode API formatting with a custom formatting function, which can produce unanticipated malformed plugin output. This plugin removes the faulty code that was unwisely suggested in a blog that unfortunately has been implemented by not-so-great theme developers.<\/p>\n\n<p>Read more about the bad practice and its origins: <a href=\"http:\/\/theandystratton.com\/2011\/shortcode-autoformatting-html-with-paragraphs-and-line-breaks\" rel=\"nofollow\">http:\/\/theandystratton.com\/2011\/shortcode-autoformatting-html-with-paragraphs-and-line-breaks<\/a><\/p>\n\n<p>Most of all, don't purchase a theme from ThemeForest - they're aware of the bad practice and have done nothing to proactively remove the faulty themes from their website. They say they're on the way to better quality control practices - well that starts with taking down the themes that utilize bad practices and they're not willing to even do that. Ug",
+                "uid": "9175"
+            }
+        }
+    }
+}

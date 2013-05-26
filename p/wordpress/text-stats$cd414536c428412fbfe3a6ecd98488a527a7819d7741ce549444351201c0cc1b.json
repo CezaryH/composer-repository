@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/text-stats": {
+            "1.0": {
+                "name": "wordpress\/text-stats",
+                "version": "1.0",
+                "version_normalized": "1.0.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/text-stats.1.0.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>Text Statistics shows several statistics to posts: \nFlesch-Kincaid Reading Ease, Flesch-Kincaid Grade Level, Gunning Fog Score, Coleman Liau Index, Smog Index, Automated Readability Index... it uses the amazing class Text Statistics developed by David Child (<a href=\"https:\/\/github.com\/DaveChild\/Text-Statistics\" rel=\"nofollow\">https:\/\/github.com\/DaveChild\/Text-Statistics<\/a>)<\/p>",
+                "uid": "18000"
+            }
+        }
+    }
+}

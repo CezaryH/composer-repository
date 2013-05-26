@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/woocommerce-map": {
+            "1.0": {
+                "name": "wordpress\/woocommerce-map",
+                "version": "1.0",
+                "version_normalized": "1.0.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/woocommerce-map.1.0.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>NOTE: You must install the main \"WooCommerce - excelling eCommerce\" plugin in order to use this plugin<\/p>\n\n<p>Woocommerce M.A.P. adds a Minimum Advertised Price field to the product edit admin.  If the product price is lower than the M.A.P. then the M.A.P. price is displayed instead.  On the product frontend page users can \"Click to View Our Price\" in order to be shown the real price.<\/p>\n\n<p>When products are added to cart they will be charged at the real price, the M.A.P. price is for display only in order to meet certain manufacturers requirements.<\/p>",
+                "uid": "8292"
+            }
+        }
+    }
+}

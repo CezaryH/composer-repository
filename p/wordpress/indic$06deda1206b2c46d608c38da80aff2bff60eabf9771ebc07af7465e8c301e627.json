@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/indic": {
+            "0.92": {
+                "name": "wordpress\/indic",
+                "version": "0.92",
+                "version_normalized": "0.92.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/indic.0.92.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>Indic enables Indic transliteration in the visual editor. In order to use it just choose the preferred script from the dropdown in the visual editor.<\/p>\n\n<p>The current script is saved in a cookie and it is recovered the next time you use the editor.<\/p>\n\n<p>Behind the scenes the plugin uses the <a href=\"http:\/\/www.var-x.com\/gamabhana\/\">Gamabhana library<\/a>.<\/p>",
+                "uid": "107491"
+            }
+        }
+    }
+}

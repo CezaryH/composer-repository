@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/easy-graphs": {
+            "1.0": {
+                "name": "wordpress\/easy-graphs",
+                "version": "1.0",
+                "version_normalized": "1.0.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/easy-graphs.1.0.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>Everyone likes data visualizations so I wrote a plugin that will make the quick and secure creation of Pie Charts, Bar Charts and Line Charts easy. The answer is: Easy Graphs.<\/p>\n\n<p>Easy graphs is very simple to use. It's a shortcode - [easy_graphs]<\/p>\n\n<p>Not just like that. The shortcode also requires one parameter \"data\". This parameter is a comma separated list of number values \"1,2,3,4,5,6,7\".<\/p>\n\n<p>You can also add a \"type\" parameter. The \"type\" can be \"line\", \"bar\" or \"pie\". \"bar\" is the default.<\/p>\n\n<p>For a Bar graph, you can optionally pass additional parameters: width, height, and color.<\/p>\n\n<p>Example: [easy_graphs height=\"200\" type=\"bar\" data=\"30,70,65\"]<\/p>\n\n<p>By default, width and height are populated from your media embed sizes that are set in your Settings &#62; Media menu inside WordPress. Color should be a hex color code.<\/p>\n\n<p>For a line graph, the options are similar: color1, color2, height and width.<\/p>\n\n<p>If you will: [easy_graphs height=\"200\" type",
+                "uid": "22695"
+            }
+        }
+    }
+}

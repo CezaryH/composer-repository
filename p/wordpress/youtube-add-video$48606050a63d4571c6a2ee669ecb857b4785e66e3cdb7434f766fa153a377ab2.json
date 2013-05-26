@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/youtube-add-video": {
+            "0.2": {
+                "name": "wordpress\/youtube-add-video",
+                "version": "0.2",
+                "version_normalized": "0.2.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/youtube-add-video.0.2.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>This plugin does two things:\n* Gives possibility to add YouTube video at end of post.\n* Gives possibility to show somewhere in template (eg. in sidebar) last added video this way<\/p>",
+                "uid": "81398"
+            }
+        }
+    }
+}

@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/dynamic-links": {
+            "0.1": {
+                "name": "wordpress\/dynamic-links",
+                "version": "0.1",
+                "version_normalized": "0.1.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/dynamic-links.0.1.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>When inserting an image into a posts Wordpress uses absolute urls (i.e. including domain name) for the src and href attributes of the image and associated link. This leads to problems if you change your domain (e.g. when moving from test to production environment) or if you change the base path of your upload directory. Also usage of relative URLs (i.e. absolute path to file without domain part) can reduce file size, but may not be used in feeds.<\/p>\n\n<p>Dynamic Links replaces all links to files in the upload directory with a placeholder which is replaced again with the base path to the upload dir when the content is viewed. This way image links are dynamically adapted to changes in domain name or upload base path.<\/p>\n\n<p>As additional option relative links can be used when content is display on your site to reduce page size (Though there are better options to do this. It's just included because it's possible). Images and links in feeds will always get the full path.<\/p>",
+                "uid": "33790"
+            }
+        }
+    }
+}

@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/wp-timer": {
+            "1.03": {
+                "name": "wordpress\/wp-timer",
+                "version": "1.03",
+                "version_normalized": "1.03.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/wp-timer.1.03.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>This is a small counter widget that simply shows how long it has bee since the counter was last reset. anyone is able to reset the counter using the button in the widget. This is my first wordpress widget an was used mainly as a way to teach myself how to write wordpress plugins.<\/p>",
+                "uid": "78726"
+            }
+        }
+    }
+}

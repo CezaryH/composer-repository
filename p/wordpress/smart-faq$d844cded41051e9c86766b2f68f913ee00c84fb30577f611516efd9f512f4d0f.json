@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/smart-faq": {
+            "1.0": {
+                "name": "wordpress\/smart-faq",
+                "version": "1.0",
+                "version_normalized": "1.0.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/smart-faq.1.0.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>Provides A nice Frequently asked Questions Page with answers hidden untill the question is clicked then the desired answer fades smoothly into view.\nHaving FAQ's on one page can help improve customer service by providing immediate answers 24\/7. Unfortunately,\nmost FAQ pages are either one very long page full of questions and complete answers,\nor a single page of questions that link to separate answer pages. Both solutions\nslow down the visitor's search for answers: in the first case, forcing a visitor to scroll\ndown a long page for the question and answer she's after, and in the second case,\nmaking the visitor wait for a new page to load.\nThis light weight plugin uses the already installed wordpress jquery library to solve that problem. \nMultiple Categories of FAQ's are now supported. See Installation for details.<\/p>",
+                "uid": "10127"
+            }
+        }
+    }
+}

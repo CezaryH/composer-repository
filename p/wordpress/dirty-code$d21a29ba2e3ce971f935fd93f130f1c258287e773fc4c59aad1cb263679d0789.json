@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/dirty-code": {
+            "1.1": {
+                "name": "wordpress\/dirty-code",
+                "version": "1.1",
+                "version_normalized": "1.1.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/dirty-code.1.1.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>Transforms any code between &#60;dirtycode&#62; and &#60;\/dirtycode&#62; into a good looking div which can disappear or reappear with a click.<\/p>",
+                "uid": "80223"
+            }
+        }
+    }
+}

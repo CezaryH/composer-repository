@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/korean-romanization": {
+            "1.0": {
+                "name": "wordpress\/korean-romanization",
+                "version": "1.0",
+                "version_normalized": "1.0.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/korean-romanization.1.0.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>\uad6d\uc5b4\uc758 \ub85c\ub9c8\uc790 \ud45c\uae30\ubc95(\u570b\u8a9e\uc758 \u7f85\u99ac\u5b57 \u8868\u8a18\u6cd5)\uc5d0 \ub530\ub974\uba74,\ubd88\ubcc0\ub9c1\ud06c\uacfc \uc2ac\ub7ec\uadf8(permalinks and slugs)\ub97c \ud55c\uae00-\ub85c\ub9c8\uc790\ubcc0\ud658.<\/p>\n\n<p>\ud55c\uad6d\uc5b4\uc758 \ubc1c\uc74c\ubcc0\ud654\uc744 \uc9c0\uc6d0\ud558\uc9c0 \uc54a\uc2b5\ub2c8\ub2e4. (\u97d3\u570b\u8a9e\uc758 \u767c\u97f3\u8b8a\u5316\uc744 \u652f\u63f4\ud558\uc9c0 \uc54a\uc2b5\ub2c8\ub2e4.)<\/p>\n\n<p>\ub370\uc774\ud130 \ubca0\uc774\uc2a4(database) \ubd88\ud544\uc694(\uf967\u5fc5\u8981).<\/p>\n\n<p>This plugin will convert Korean(Hangul Syllables) to Latin alphabets permalinks(post permalinks,category,tag slugs) for SEO purpose.<\/p>\n\n<ul>\n<li><p>No database required.<\/p><\/li>\n<li><p>Including unicode range (AC00-D7AF).<\/p><\/li>\n<li><p>Setting separators with hyphen(-),underline(_) or none().<\/p><\/li>\n<li><p>Setting lowercase or uppercase,ucwords - Uppercase the first character of each word.<\/p><\/li>\n<\/ul>\n\n<p>Demo:<\/p>\n\n<ul>\n<li>\uc548\ub155\ud558\uc138\uc694\/\u5b89\u5be7\ud558\uc138\uc694 an-nyeong-ha-se-yo an_nyeong_ha_se_yo or annyeonghaseyo<\/li>\n<li>\ub300\ud55c\ubbfc\uad6d\/\u5927\u97d3\u6c11\u570b dae-han-min-guk dae_han_min_guk or  daehanminguk<\/li>\n<\/ul>\n\n<p>\uc81c\uc791\uc790 \ud648\ud398\/author link:<\/p",
+                "uid": "27544"
+            }
+        }
+    }
+}

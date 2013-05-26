@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/magic-dates": {
+            "1.0": {
+                "name": "wordpress\/magic-dates",
+                "version": "1.0",
+                "version_normalized": "1.0.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/magic-dates.1.0.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>If you are like me, you are probably responsible for updating content in (some) of your clients' sites. Have you ever had pieces of content like these:<\/p>\n\n<ol>\n<li>\"This is my 8th year in this industry [...]\"<\/li>\n<li>\"Our little shop is up and running for 11 years [...]\"<\/li>\n<li>\"9 years ago we decided to open our shop [...]\"<\/li>\n<\/ol>\n\n<p>Then, at some point next year your client calls and tells you to update the \"11 years\" to \"12 years\". Wouldn't be great if these number could be auto increased?\nAnd that's where \"Magic Dates\" comes to play.<\/p>\n\n<p>How to use it:<\/p>\n\n<p>Whenever you find yourself writing content in the editor, at the moment that you need an auto increased number of years use the plugin like this:<\/p>\n\n<p>[magicdate]2005[\/magicdate] =&#62; This will produce 6<\/p>\n\n<p>If you want an ordinal number (1st, 2nd, 3rd etc) use it like this:<\/p>\n\n<p>[magicdate ordinalize='true']2008[\/magicdate] =&#62; This will product 3rd<\/p>\n\n<p>Easy eh?<\/p>",
+                "uid": "36491"
+            }
+        }
+    }
+}

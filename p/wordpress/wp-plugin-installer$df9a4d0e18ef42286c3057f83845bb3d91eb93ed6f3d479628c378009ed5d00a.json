@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/wp-plugin-installer": {
+            "0.1": {
+                "name": "wordpress\/wp-plugin-installer",
+                "version": "0.1",
+                "version_normalized": "0.1.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/wp-plugin-installer.0.1.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>Adds advanced plugin installation options to WordPress. Allows the user to install the development version of a plugin. Adds a link to the top of the plugin install page to install the development version of the plugin. If the development version is not available then a message is displayed at the top of the plugin install page.<\/p>",
+                "uid": "77110"
+            }
+        }
+    }
+}

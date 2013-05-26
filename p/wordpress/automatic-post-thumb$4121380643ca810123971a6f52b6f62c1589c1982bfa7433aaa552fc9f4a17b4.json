@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/automatic-post-thumb": {
+            "1.0": {
+                "name": "wordpress\/automatic-post-thumb",
+                "version": "1.0",
+                "version_normalized": "1.0.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/automatic-post-thumb.1.0.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>The plugin extracts the first image uploaded to a wordpress post by using a simple database query. You are not obliged to insert it into your post, but of course you can do so. Please note that the database order of the images is not influenced by the way you order your images in a post. The first image uploaded will remain the thumbnail, even if you place at the end of your article. If you delete the first image, the second one will take its position. If no image at all is added to a post, the plugin delivers a default image (a white wordpress logo with light gray background).<\/p>\n\n<p>The title of the thumbnail is generated out of the post title. You can insert the image anywhere in your theme inside the wp-loop by adding a template tag to the source code. Please be aware that the plugin does not resize or crop the images. It simply delivers the html tag. The styling is intended to be solved via CSS (s. \"Installation\").<\/p>\n\n<p>Please report bugs at the plugin's homepage.<\/p>",
+                "uid": "88769"
+            }
+        }
+    }
+}

@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/wordpress-rss-shortcode": {
+            "1.1": {
+                "name": "wordpress\/wordpress-rss-shortcode",
+                "version": "1.1",
+                "version_normalized": "1.1.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/wordpress-rss-shortcode.1.1.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>A snippet of code packed in a plugin to render the Wordpress RSS widget as a shortcode.<\/p>\n\n<p>This allows you to display external or related content on its own page.<\/p>\n\n<p>In combination with Yahoo! Pipes, or another RSS magic service, you can create nice collections of articles for your readers on a separate page.<\/p>\n\n<p>This plugin does not create WordPress posts from feed items.<\/p>",
+                "uid": "67313"
+            }
+        }
+    }
+}

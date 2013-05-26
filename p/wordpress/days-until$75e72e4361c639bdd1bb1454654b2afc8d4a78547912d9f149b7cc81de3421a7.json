@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/days-until": {
+            "1.1": {
+                "name": "wordpress\/days-until",
+                "version": "1.1",
+                "version_normalized": "1.1.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/days-until.1.1.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>Originally I used the \"Countdown Timer\" plugin written by Andrew Ferguson to accomplish what I wanted,\nhowever, his implementation to output in just days also outputted extraneous text that I was\nnot interested in. On top of that, the actual count algorithm was flawed. Rather than hack\nthis plugin to pieces to get the output I needed, I decided to just roll my own.<\/p>\n\n<p>This is a bare bones, no-frills plugin since this is my first attempt at it. This means no\nfancy options or configuration screens.<\/p>\n\n<p>To use the plugin, simply install it and then use the following shortcode to output the number\nof days until a given date in its place:<\/p>\n\n<p>[days_until date=\"SPECIFIC DATE\"]<\/p>\n\n<p>Where \"SPECIFIC DATE\" can be any text that that PHP's strtotime function can understand.<\/p>",
+                "uid": "29736"
+            }
+        }
+    }
+}

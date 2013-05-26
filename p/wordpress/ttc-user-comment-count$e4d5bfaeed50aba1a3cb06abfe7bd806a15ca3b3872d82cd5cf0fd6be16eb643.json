@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/ttc-user-comment-count": {
+            "2.21": {
+                "name": "wordpress\/ttc-user-comment-count",
+                "version": "2.21",
+                "version_normalized": "2.21.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/ttc-user-comment-count.2.21.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>This plugin creates a page under 'Manage'.  On this page is two lists, one for users who've registered and never commented.\nAnd one for users who've commented.  The lists show user name, clickable email address, date registered, number of comments and \nthe date of the last comment.  You can easily email users to find out why they haven't commented or why they haven't commented in \na while.<\/p>",
+                "uid": "103749"
+            }
+        }
+    }
+}

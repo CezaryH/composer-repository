@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/ucomment": {
+            "1.0.2": {
+                "name": "wordpress\/ucomment",
+                "version": "1.0.2",
+                "version_normalized": "1.0.2.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/ucomment.1.0.2.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>This plugin adds extra features to your wordpress comment system. Features include:<\/p>\n\n<ul>\n<li><p>Choose to clone comment form instead of moving it when the reply link on a comment is clicked.<\/p><\/li>\n<li><p>Add new comments without refreshing the entire page using AJAX.<\/p><\/li>\n<li><p>Validate the comment form with javascript before submitting.<\/p><\/li>\n<li><p>Add a option for the comment auhtor to be notified whenever a reply to his comment is posted.<\/p><\/li>\n<\/ul>",
+                "uid": "26244"
+            }
+        }
+    }
+}

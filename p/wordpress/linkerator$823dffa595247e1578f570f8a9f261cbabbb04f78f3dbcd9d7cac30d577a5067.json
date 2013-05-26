@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/linkerator": {
+            "0.1": {
+                "name": "wordpress\/linkerator",
+                "version": "0.1",
+                "version_normalized": "0.1.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/linkerator.0.1.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>This plugin will scan the content for triggers that you provide it.  When it finds a trigger it will replace it with a link to the URL associated with the trigger.  This is useful for links that you use a lot, but don't want to have to write the anchor tags every time, just let the plugin do it for you.  It uses preg_replace() to make the replacements so it is as quick and efficient as possible.  You can specify an &#60;a&#62; class to be used with that link every time it is parsed.<\/p>\n\n<p>Triggers can be added via the admin panel, or by creating triggers.txt in the same directory as the plugin.  Each entry should be on its own line, and fields separated with a pipe ('&#124;').  See the included triggers.txt for the correct format.<\/p>\n\n<p>If you have multiple WordPress blogs you can automatically export your triggers into <code>triggers.txt<\/code> and upload them to your other blog.<\/p>",
+                "uid": "81129"
+            }
+        }
+    }
+}

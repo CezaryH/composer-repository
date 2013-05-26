@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/media-library-shortcode": {
+            "1.0": {
+                "name": "wordpress\/media-library-shortcode",
+                "version": "1.0",
+                "version_normalized": "1.0.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/media-library-shortcode.1.0.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>The Media Library Shortcode plugin allows you to use a shortcode to create a list of documents using the document's corresponding ID. Example: [attachment id=\"1,2,3\"]. The list of ID's must be enclosed in quotes and comma separated. You can also sort documents by type and find document ID's in the media library.<\/p>\n\n<p>Features of this plugin include: Add the shortcode to pages, posts and widgets, sort media library documents by type and find document ID's in the media library.<\/p>",
+                "uid": "67470"
+            }
+        }
+    }
+}

@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/simple-sign-in": {
+            "1.0": {
+                "name": "wordpress\/simple-sign-in",
+                "version": "1.0",
+                "version_normalized": "1.0.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/simple-sign-in.1.0.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>SSI is designed to be a simple alternative to authentication systems such as OpenID. \nThe plugin is designed to work on most Wordpress installations, and it allows your \nWordpress installion to be both a provider(allows you to sign in to ssi sites) and a \nconsumer(allows others to sign in to yours). \nIt also allows you to manage your login information. In addition to that, those that post comments on your site\nafter signing in also have their avatars displayed and the comment form is autofilled for them.\nSSI is designed using <a href=\"http:\/\/peopletab.com\/restta.html\">RESTTA<\/a> , meaning that is a protocol\nopen to any application that implements it.<\/p>",
+                "uid": "105627"
+            }
+        }
+    }
+}

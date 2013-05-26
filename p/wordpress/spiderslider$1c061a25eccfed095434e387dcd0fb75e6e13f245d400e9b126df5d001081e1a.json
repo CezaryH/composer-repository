@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/spiderslider": {
+            "1.0": {
+                "name": "wordpress\/spiderslider",
+                "version": "1.0",
+                "version_normalized": "1.0.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/spiderslider.1.0.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>The Spider Slider is a plugin that allows site managers to build image carousels for their WP project.  Multiple Spider Sliders can appear on any page or post. They can also be inserted into widget areas.<\/p>\n\n<p>The Spider Slider is found in the admin area under the menu tab for Settings. From one page, the WP site manager can add images, include hyperlinks, adjust size, borders, transition directions, animation speed and border\/background colorings.<\/p>\n\n<p>Once a Spider Slider is configured to the site manager's satisfaction it is inserted into a WP post or page using an HTML comment code. The code is replaced when the page is loaded with the referenced Spider Slider. Multiple instances can occur at any one URL. This is accomplished with a javascript binary tree data structure.<\/p>\n\n<p>Super-imposed and centred over the images at the bottom are button links that will indicate the present carousel position. When clicked, the carousel jumps to the image position and the animation s",
+                "uid": "20172"
+            }
+        }
+    }
+}

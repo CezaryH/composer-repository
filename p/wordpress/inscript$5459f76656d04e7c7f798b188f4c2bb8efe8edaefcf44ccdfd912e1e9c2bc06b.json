@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/inscript": {
+            "1.7.4": {
+                "name": "wordpress\/inscript",
+                "version": "1.7.4",
+                "version_normalized": "1.7.4.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/inscript.1.7.4.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>At the simplest level, it is a generic pattern matcher that searches for specific patterns, or tags, and replaces them with something else.  However, instead of replacing these patterns with static text, you can replace them with variables, functions, and even PHP code.<\/p>\n\n<p>Some of the features that InScript provides are:<\/p>\n\n<ul>\n<li>Dynamic variables, which can be used in many places and are automatically updated<\/li>\n<li>Disable WordPress texturize functions across the whole blog, individual posts, or even individual words<\/li>\n<li>Conversely, enable texturize, textile, markdown, or any formatting on individual posts or words<\/li>\n<li>Embed well-defined scripts inside posts and any other part of WordPress, without modifying the theme<\/li>\n<\/ul>\n\n<p>The embedded scripts are very powerful, and allow you to do things like:<\/p>\n\n<ul>\n<li>Insert post &#38; author information<\/li>\n<li>Add HTTP meta-values and make them post-specific<\/li>\n<li>Customise the appearance of words, para",
+                "uid": "114720"
+            }
+        }
+    }
+}

@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/blog-birthday": {
+            "1.1": {
+                "name": "wordpress\/blog-birthday",
+                "version": "1.1",
+                "version_normalized": "1.1.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/blog-birthday.1.1.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p><a href=\"http:\/\/terrychay.com\/wordpress-plugins\/blog-birthday\">Plugin Homepage<\/a><\/p>\n\n<p>Inspired by @TwBirthday on Twitter, this shows a simple message in the admin panel on\ntheir blog birthday.<\/p>\n\n<p>\"Happy 3rd Blogger Birthday! You've been around since 11 August 2008.\"<\/p>\n\n<p>\"Happy 7th Blog Birthday! The first post on this blog was on 19 November 2004.\"<\/p>\n\n<p>\"Happy 1st Blog Birthday! This blog was first registered on 23 July 2010.\"<\/p>\n\n<p>Caveats:\n- Old WordPress admin accounts have a registration date of 0000-00-00 and never have a\n  blogger birthday. \n- Blog registration starts when you turn on WordPress multisite. If you did this, the\n  date may be off.\n- First post assumes that there a post_id=1 and uses the date off that.<\/p>",
+                "uid": "41332"
+            }
+        }
+    }
+}

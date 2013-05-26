@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/xwolf-protest-page": {
+            "1.0.5": {
+                "name": "wordpress\/xwolf-protest-page",
+                "version": "1.0.5",
+                "version_normalized": "1.0.5.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/xwolf-protest-page.1.0.5.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>Displays a black day with a notice. \nAs default it shows a (german) protest notice by the Pirate Party Germany \nabout the world day against cyber-censorship 2013 (as invoked by Reporter \nWithout Borders, <a href=\"http:\/\/en.rsf.org\/)\" rel=\"nofollow\">http:\/\/en.rsf.org\/)<\/a>.\nIt wont forbit the access to the website. Users can close it and continue \nreading.<\/p>\n\n<p>A cookie will be set for users after they saw the notice the first time. This\nwill prevent them to get spamed by the notice every time they come back\nat the same day.<\/p>\n\n<p>Within the backend options this plugin can be used for other protest days also.<\/p>\n\n<p>Notice: The protest page wont be displayed on screens below a solution of\n600 pixel.<\/p>",
+                "uid": "10233"
+            }
+        }
+    }
+}

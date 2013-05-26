@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/wpgalleryimage-shortcode": {
+            "1.1": {
+                "name": "wordpress\/wpgalleryimage-shortcode",
+                "version": "1.1",
+                "version_normalized": "1.1.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/wpgalleryimage-shortcode.1.1.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>Lets you add an image to a post or page from the WordPress gallery on your site using a shortcode.  Simply add the wppgalleryimage shortcode and specify the image you want to add by name or ID.<\/p>\n\n<p>When you insert an image using the built-in WordPress editor, the full URL to the image on your site is inserted into the page or post. Using the shortcode, all you need to specify is the name or ID of the image and the URL is generated automatically.<\/p>\n\n<p>When an image is uploaded to the gallery, the file is stored under wp-content\/uploads and metadata about the image is stored in the <code>wp_posts<\/code> table with a <code>post_type<\/code> of <code>attachment<\/code>.  The image is added to post or page within a <code>&#60;div&#62;<\/code> tag that specifies the <code>wpgalleryimage_shortcode<\/code> class, which allows you to define a style for all images added by the shortcode.<\/p>\n\n<h4>Parameters<\/h4>\n\n<ul>\n<li><p><strong>id<\/strong> - The ID of the image in the <code>wp_posts<\/",
+                "uid": "77986"
+            }
+        }
+    }
+}

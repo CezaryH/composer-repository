@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/wp-time-machine": {
+            "3.0.10": {
+                "name": "wordpress\/wp-time-machine",
+                "version": "3.0.10",
+                "version_normalized": "3.0.10.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/wp-time-machine.3.0.10.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>Create archives of all your WordPress data &#38; files and have them stored remotely. That's right! Remote storage of...<\/p>\n\n<ol>\n<li>Your data (from your WordPress MySQL database)<\/li>\n<li>Your files (and Uploads) -- everything in wp-content<\/li>\n<li>Your .htaccess file<\/li>\n<li>Instructions for a smooth recovery <\/li>\n<li>A shell script that can help automate recovery -- though this is still a \"work in progress\"<\/li>\n<\/ol>\n\n<p>You provide the remote account; this plugin provides a connection to the offsite facility you choose. Choose from...<\/p>\n\n<ol>\n<li>You can use Dropbox (if you don't have a dropbox use this referral link): <a href=\"https:\/\/www.dropbox.com\/referrals\/NTE0ODYwNjc5\" rel=\"nofollow\">https:\/\/www.dropbox.com\/referrals\/NTE0ODYwNjc5<\/a> <\/li>\n<li>Also, archives can be 'sent' to Amazon's AWS S3: <a href=\"https:\/\/s3.amazonaws.com\" rel=\"nofollow\">https:\/\/s3.amazonaws.com<\/a><\/li>\n<li>And, FTP is now supported as well (just provide an <em>offsite<\/em> host, username &#38;",
+                "uid": "70768"
+            }
+        }
+    }
+}

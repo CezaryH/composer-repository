@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/spicy-blogroll": {
+            "1.0.0": {
+                "name": "wordpress\/spicy-blogroll",
+                "version": "1.0.0",
+                "version_normalized": "1.0.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/spicy-blogroll.1.0.0.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>Spicy Blogroll will bring life to an otherwise static Blogroll. It shows a number of post excerpts for each link in your Blogroll using Ajax.<\/p>\n\n<p>When your visitor hovers over a Blogroll link the RSS feed from the site is discovered and a number of recent posts is shown dynamically in a popup box. Each post excerpt includes the post date, a clickable title and the excerpt. You choose the length of the excerpt and whether or not the click opens the post in the same or a new window\/tab.<\/p>\n\n<p>Spicy BlogRoll makes use of internal caching for feed discovery and WordPress caching for RSS feeds to make sure everything is smooth for your visitor.<\/p>\n\n<p>Practically everything can be customized in the options panel including pop-up width and height, number of posts to show, excerpt length, RSS timeout delay, opacity, link click option (open link in new or parent window) and all the text and error messages. The overall style mimics the existing theme of your blog.<\/p>\n\n<p>Spicy Blogro",
+                "uid": "60454"
+            }
+        }
+    }
+}

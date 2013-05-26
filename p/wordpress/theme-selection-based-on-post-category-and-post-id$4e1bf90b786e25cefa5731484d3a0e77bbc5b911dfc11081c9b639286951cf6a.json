@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/theme-selection-based-on-post-category-and-post-id": {
+            "1.1": {
+                "name": "wordpress\/theme-selection-based-on-post-category-and-post-id",
+                "version": "1.1",
+                "version_normalized": "1.1.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/theme-selection-based-on-post-category-and-post-id.1.1.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>Theme selection based on post category and post id. If it exists, themefile single-category-(category id).php and single-post-(post id).php is used<\/p>",
+                "uid": "11936"
+            }
+        }
+    }
+}

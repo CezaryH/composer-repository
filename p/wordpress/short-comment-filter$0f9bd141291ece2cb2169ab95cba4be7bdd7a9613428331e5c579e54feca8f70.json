@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/short-comment-filter": {
+            "2.2": {
+                "name": "wordpress\/short-comment-filter",
+                "version": "2.2",
+                "version_normalized": "2.2.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/short-comment-filter.2.2.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>Most short comments add little or nothing to a conversation.\nHaving to delete these spammy comments can become a pain for blog administrators.\nThe Short Comment Filter Plugin automatically filters comments that are too short.\nYou can specify whether filtered comments should be deleted or flagged as spam.<\/p>\n\n<h4>Features<\/h4>\n\n<p>Short Comment Filter Plugin is pretty flexible. Here are some things you can customize.<\/p>\n\n<ul>\n<li>Filter Type - This determines whether to apply a minimum word or minimum character filter<\/li>\n<li>Minimum Count - Sets the minimum number of words\/characters (depending on Filter Type) that comments can contain.<\/li>\n<li>Default Filter Action - This determines whether filtered comments are deleted, or simply flagged as spam<\/li>\n<li>Filter Registered Users - If turned off, registered users will not be filtered. They can create comments of any length.<\/li>\n<li>Check Client Side - If turned on, JavaScript will be used on the client side to make sure comment",
+                "uid": "9061"
+            }
+        }
+    }
+}

@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/ajax-loginregister": {
+            "0.1": {
+                "name": "wordpress\/ajax-loginregister",
+                "version": "0.1",
+                "version_normalized": "0.1.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/ajax-loginregister.0.1.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<h4>It has the following features:<\/h4>\n\n<ul>\n<li>This plugin provides a widget with 2 links (Login, Register) for the anonymous user.<\/li>\n<li>When the user clicks on Login or register the requested form appears in a nice ajax popup.<\/li>\n<li>The login and register forms can validate using ajax and not redirect on error.<\/li>\n<li>On success the plugin redirects to the welcome page.<\/li>\n<li>When user is logged in, the widget provides a Welcome !username message and a link to the user page and a logout link.<\/li>\n<li>This plugin integrates the thickbox plugin with the Ajax and provides a simple, easy to use and cool login and register widget.<\/li>\n<\/ul>",
+                "uid": "60633"
+            }
+        }
+    }
+}

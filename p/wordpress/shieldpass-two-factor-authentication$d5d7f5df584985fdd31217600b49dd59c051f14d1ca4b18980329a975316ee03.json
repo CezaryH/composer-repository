@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/shieldpass-two-factor-authentication": {
+            "2.2": {
+                "name": "wordpress\/shieldpass-two-factor-authentication",
+                "version": "2.2",
+                "version_normalized": "2.2.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/shieldpass-two-factor-authentication.2.2.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>ShieldPass is a highly secure two factor authentication system based on the <a href=\"http:\/\/www.passwindow.com\" rel=\"nofollow\">http:\/\/www.passwindow.com<\/a> authentication method. Users buy a low cost ShieldPass access card from <a href=\"https:\/\/www.shieldpass.com\" rel=\"nofollow\">https:\/\/www.shieldpass.com<\/a> with a secret unique visual key. \nOnce the plugin is configured and after the username and password is enter the user will be prompted to enter a dynamically changing one time password after superimposing their access card on the screen of their computer or mobile device.<\/p>\n\n<p>The same shieldpass access card can be configured by the user to work in multiple online access points such as other blogs or websites including joining the growing ShieldPass secured client networks.<\/p>\n\n<p>The ShieldPass transaction authenticated challenges are constructed in such a way so as to reduce the information loss from each challenge so that even a long term hacker analysis of the challeng",
+                "uid": "37556"
+            }
+        }
+    }
+}

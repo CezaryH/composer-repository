@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/wp-mailhide": {
+            "0.3": {
+                "name": "wordpress\/wp-mailhide",
+                "version": "0.3",
+                "version_normalized": "0.3.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/wp-mailhide.0.3.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>Automatically scans for emails and hides them from spammers using the reCAPTCHA Mailhide API. Nothing in the database is\nactually modified, it's just modified once it's been taken out of the database. See it in action <a href=\"http:\/\/www.jorgepena.be\/wp-mailhide\/\">here<\/a>.<\/p>",
+                "uid": "108087"
+            }
+        }
+    }
+}

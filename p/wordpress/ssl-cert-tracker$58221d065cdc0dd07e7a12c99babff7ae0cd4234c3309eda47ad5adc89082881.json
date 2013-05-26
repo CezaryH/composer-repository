@@ -1,0 +1,40 @@
+{
+    "packages": {
+        "wordpress\/ssl-cert-tracker": {
+            "1.0.1": {
+                "name": "wordpress\/ssl-cert-tracker",
+                "version": "1.0.1",
+                "version_normalized": "1.0.1.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/ssl-cert-tracker.1.0.1.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>This is a simple widget style plugin to track SSL Certificate expirations.\nIt will aquire the expiration date automatically when you enter a host name.<\/p>\n\n<p>For now, version 1.0 is very limited. I'd like to add the following features\nto future releases.<\/p>\n\n<ol>\n<li>Allow manual date entry (for tracking non-public certs)<\/li>\n<li>Allow port specification for non-standard ports<\/li>\n<li>Allow other types of certificates to be tracked (email, code signing, etc)<\/li>\n<\/ol>",
+                "uid": "59675"
+            },
+            "1.0.2": {
+                "name": "wordpress\/ssl-cert-tracker",
+                "version": "1.0.2",
+                "version_normalized": "1.0.2.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/ssl-cert-tracker.1.0.2.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>This is a simple widget style plugin to track SSL Certificate expirations.\nIt will aquire the expiration date automatically when you enter a host name.<\/p>\n\n<p>For now, version 1.0 is very limited. I'd like to add the following features\nto future releases.<\/p>\n\n<ol>\n<li>Allow manual date entry (for tracking non-public certs)<\/li>\n<li>Allow port specification for non-standard ports<\/li>\n<li>Allow other types of certificates to be tracked (email, code signing, etc)<\/li>\n<\/ol>",
+                "uid": "59674"
+            }
+        }
+    }
+}

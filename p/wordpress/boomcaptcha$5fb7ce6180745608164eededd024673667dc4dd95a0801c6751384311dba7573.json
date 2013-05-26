@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/boomcaptcha": {
+            "0.1": {
+                "name": "wordpress\/boomcaptcha",
+                "version": "0.1",
+                "version_normalized": "0.1.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/boomcaptcha.0.1.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>Input your own message as challenge text. It uses encrypted text and paired with matching web fonts so user will see clearly the challenge text. Great Captcha user experience.<\/p>\n\n<h4>Customizable Captcha challenge text.<\/h4>\n\n<p>You can input your own keywords as Captcha challenge text. For example, you can go to Admin, input &#8216;World Peace&#8217; and select 50%; input &#8216;omg super cool msg&#8217; and select 40%. When users visit your pages with Boomcaptcha the &#8216;World Peace&#8217; will be display 50% of the time and user will type &#8216;World Peace&#8217; 50% of the time. It is the same for &#8216;Omg cool msg&#8217;; except it is displayed 40% of the time and 10% will be random characters. Your visitors will be impressed with your &#8216;message&#8217; since they will type it, it&#8217;s better than keyword or banner advertisement.<\/p>\n\n<h4>Captcha analytics<\/h4>\n\n<p>You can check how many times the Captcha and your keywords being displayed.<\/p>\n\n<h4>Renew your enc",
+                "uid": "25466"
+            }
+        }
+    }
+}

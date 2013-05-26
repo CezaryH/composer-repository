@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/embed-mtv": {
+            "1.0": {
+                "name": "wordpress\/embed-mtv",
+                "version": "1.0",
+                "version_normalized": "1.0.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/embed-mtv.1.0.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>Embed MTV Videos using this simple plugin.<\/p>\n\n<p>Example usage is as follows: [mtv width=600 height=480]mtvcode[\/mtv].<\/p>\n\n<p>You can specify an alternate height and width by using the variables noted above. If you want to use only the default video size, just use the shorttag as follows: [mtv]mtvcode[\/mtv].<\/p>\n\n<p>To find the 'mtvcode', simply go to the web page that contains the video that you want to embed. In the example URL of Teen Mom, Season 1 Episode 1, you'll see this:<\/p>\n\n<p><a href=\"http:\/\/www.mtv.com\/videos\/teen-mom-ep1-looking-for-love\/1627635\/playlist.jhtml\" rel=\"nofollow\">http:\/\/www.mtv.com\/videos\/teen-mom-ep1-looking-for-love\/1627635\/playlist.jhtml<\/a><\/p>\n\n<p>The 'mtvcode' in this URL is 1627635 and the code to embed this video into your website is [mtv]1627635[\/mtv] Simple!<\/p>",
+                "uid": "58945"
+            }
+        }
+    }
+}

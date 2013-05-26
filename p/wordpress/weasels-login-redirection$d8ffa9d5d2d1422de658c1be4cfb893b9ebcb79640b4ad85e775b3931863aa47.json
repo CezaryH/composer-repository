@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/weasels-login-redirection": {
+            "2.0": {
+                "name": "wordpress\/weasels-login-redirection",
+                "version": "2.0",
+                "version_normalized": "2.0.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/weasels-login-redirection.2.0.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>Redirects user login attempts from going to your dashboard! Great for keeping the 'back end' private. Also allows alteration of the login\/logout link text.<\/p>\n\n<p>TECHNICAL BITS:<\/p>\n\n<p>Redirects user login from the <code>wp_loginout();<\/code> function to a page of your choice. Also allows changing the text of the <code>wp_register();<\/code> button.<\/p>\n\n<p>I strongly recommend you install the <a href=\"http:\/\/www.im-web-gefunden.de\/wordpress-plugins\/role-manager\/\">Role Manager plugin<\/a> for access control - many plugins use it and you get enhanced functionality out of this plugin if you do. As of this writing we are using v2.2.1.<\/p>\n\n<p>COMMON ISSUE:<\/p>\n\n<p>If your template does not use <code>wp_loginout();<\/code> or <code>wp_register();<\/code> you may want to adjust it so that it does.<\/p>",
+                "uid": "108211"
+            }
+        }
+    }
+}

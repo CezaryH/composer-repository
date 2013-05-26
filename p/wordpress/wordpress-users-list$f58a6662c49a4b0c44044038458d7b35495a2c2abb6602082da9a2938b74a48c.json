@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/wordpress-users-list": {
+            "1.1": {
+                "name": "wordpress\/wordpress-users-list",
+                "version": "1.1",
+                "version_normalized": "1.1.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/wordpress-users-list.1.1.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>This plugin for wordpress generate a list of  users of the current wordpress site according to a user level range.<\/p>\n\n<p>Checkboxes in settings allows posts and comments links for each user. This plugin is compatible with wordpress multisites.<\/p>",
+                "uid": "38894"
+            }
+        }
+    }
+}

@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/mediarss-with-post-thumbnail": {
+            "0.1": {
+                "name": "wordpress\/mediarss-with-post-thumbnail",
+                "version": "0.1",
+                "version_normalized": "0.1.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/mediarss-with-post-thumbnail.0.1.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>Adds &#60;media&#62; tags to your feeds with post thumbnail support which came with WP 2.9 version. This plugin is based on Andy's (<a href=\"http:\/\/andy.wordpress.com\/\" rel=\"nofollow\">http:\/\/andy.wordpress.com\/<\/a>) MediaRSS plugin. If you use that MediaRSS plugin unactivate it before activating this plugin.<\/p>\n\n<p>MediaRSS is a way of embedding media into your feeds. The specification at <a href=\"http:\/\/search.yahoo.com\/mrss\/\" rel=\"nofollow\">http:\/\/search.yahoo.com\/mrss\/<\/a> provides for many kinds of media: audio, video, etc. This plugin is equipped to locate img tags in your posts and generate XML code that can be used by feed readers.<\/p>\n\n<p>Also included are code samples demonstrating how to extend the plugin's functionality to meet your needs. Some PHP experience is assumed.<\/p>",
+                "uid": "70846"
+            }
+        }
+    }
+}

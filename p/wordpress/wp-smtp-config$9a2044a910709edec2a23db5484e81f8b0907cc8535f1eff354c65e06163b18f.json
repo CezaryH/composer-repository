@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/wp-smtp-config": {
+            "1.0": {
+                "name": "wordpress\/wp-smtp-config",
+                "version": "1.0",
+                "version_normalized": "1.0.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/wp-smtp-config.1.0.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>This plugin configures WordPress and WordPress MU to use a SMTP server when sending emails instead of the default PHP <code>mail()<\/code> function.<\/p>\n\n<p>You will configure your SMTP settings in your <code>wp-config.php<\/code> file instead of the settings page.\nThe advantage is that no admin of your blog can read the settings.\nAnd you only have to place your settings once in cases of a WordPress MU installation.<\/p>\n\n<p>A sample configuration:<\/p>\n\n<pre><code>\/**\n * WordPress SMTP server\n *\/\ndefine(&#039;WP_SMTP_HOST&#039;,       &#039;mail.example.com&#039;);\ndefine(&#039;WP_SMTP_PORT&#039;,       25);                   \/\/ obligatory - default: 25\ndefine(&#039;WP_SMTP_ENCRYPTION&#039;, &#039;tls&#039;);                \/\/ obligatory: &#039;tls&#039; or &#039;ssl&#039; - default: no encryption\ndefine(&#039;WP_SMTP_USER&#039;,       &#039;username&#039;);           \/\/ obligatory - default: no user\ndefine(&#039;WP_SMTP_PASSWORD&#039;,   &#039;password&#039;);           \/\/ obligatory ",
+                "uid": "33558"
+            }
+        }
+    }
+}

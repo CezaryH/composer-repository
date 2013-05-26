@@ -1,0 +1,40 @@
+{
+    "packages": {
+        "wordpress\/headjs-loader": {
+            "0.1.1": {
+                "name": "wordpress\/headjs-loader",
+                "version": "0.1.1",
+                "version_normalized": "0.1.1.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/headjs-loader.0.1.1.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>This plugin reformats your page to utilize <a href=\"http:\/\/headjs.com\" title=\"HeadJS\">Head JS<\/a> in your WordPress site.<\/p>\n\n<p><strong>Caution: this plugin can cause major issues with the javascript on your site if not implemented properly.  Please be sure to test on a development server first<\/strong><\/p>\n\n<p>It strips out all your old javascript declarations and puts them into head.js calls so that they are loaded in parallel (see the Head JS website for more details).<\/p>\n\n<p>Optionally you can wrap all your inline javascript with head.ready calls.<\/p>\n\n<p>For example, this:<\/p>\n\n<pre><code>&#60;script type=&#039;text\/javascript&#039; src=&#039;http:\/\/yoururl.com\/wp-includes\/js\/prototype.js?ver=1.6.1&#039;&#62;&#60;\/script&#62; \n&#60;script type=&#039;text\/javascript&#039; src=&#039;http:\/\/ajax.googleapis.com\/ajax\/libs\/jquery\/1.4\/jquery.min.js?ver=3.0.4&#039;&#62;&#60;\/script&#62; \n&#60;script type=&#039;text\/javascript&#039; src=&#039;http:\/\/yoururl.com\/wp-includes\/js\/scripta",
+                "uid": "54618"
+            },
+            "0.2": {
+                "name": "wordpress\/headjs-loader",
+                "version": "0.2",
+                "version_normalized": "0.2.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/headjs-loader.0.2.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>This plugin reformats your page to utilize <a href=\"http:\/\/headjs.com\" title=\"HeadJS\">Head JS<\/a> in your WordPress site.<\/p>\n\n<p><strong>Caution: this plugin can cause major issues with the javascript on your site if not implemented properly.  Please be sure to test on a development server first<\/strong><\/p>\n\n<p>It strips out all your old javascript declarations and puts them into head.js calls so that they are loaded in parallel (see the Head JS website for more details).<\/p>\n\n<p>Optionally you can wrap all your inline javascript with head.ready calls.<\/p>\n\n<p>For example, this:<\/p>\n\n<pre><code>&#60;script type=&#039;text\/javascript&#039; src=&#039;http:\/\/yoururl.com\/wp-includes\/js\/prototype.js?ver=1.6.1&#039;&#62;&#60;\/script&#62; \n&#60;script type=&#039;text\/javascript&#039; src=&#039;http:\/\/ajax.googleapis.com\/ajax\/libs\/jquery\/1.4\/jquery.min.js?ver=3.0.4&#039;&#62;&#60;\/script&#62; \n&#60;script type=&#039;text\/javascript&#039; src=&#039;http:\/\/yoururl.com\/wp-includes\/js\/scripta",
+                "uid": "54617"
+            }
+        }
+    }
+}

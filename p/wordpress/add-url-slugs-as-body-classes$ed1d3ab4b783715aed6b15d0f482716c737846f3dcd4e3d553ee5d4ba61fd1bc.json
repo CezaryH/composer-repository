@@ -1,0 +1,40 @@
+{
+    "packages": {
+        "wordpress\/add-url-slugs-as-body-classes": {
+            "1.0": {
+                "name": "wordpress\/add-url-slugs-as-body-classes",
+                "version": "1.0",
+                "version_normalized": "1.0.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/add-url-slugs-as-body-classes.1.0.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>This plug-in takes the URL, chops it into pieces, and adds each \"piece\" as an additional\nclass to the <code>body<\/code> tag.<\/p>\n\n<p>Meaning, if your page's URL is:\n<a href=\"http:\/\/aarontgrogg.com\/2012\/02\/24\/wordpress-plugin-add-url-slugs-as-body-classes\/\" rel=\"nofollow\">http:\/\/aarontgrogg.com\/2012\/02\/24\/wordpress-plugin-add-url-slugs-as-body-classes\/<\/a>\nYour page's <code>body<\/code> tag would have at least these classes:<\/p>\n\n<pre><code>2012 02 24 wordpress-plugin-add-url-slugs-as-body-classess<\/code><\/pre>\n\n<p>It gets much stronger when you start thinking about Categories or nested Pages:<\/p>\n\n<pre><code><a href=\"http:\/\/aarontgrogg.com\/category\/wordpress\/\" rel=\"nofollow\">http:\/\/aarontgrogg.com\/category\/wordpress\/<\/a><\/code><\/pre>\n\n<p>which would give you:<\/p>\n\n<pre><code>category wordpress<\/code><\/pre>\n\n<p>while:<\/p>\n\n<pre><code><a href=\"http:\/\/aarontgrogg.com\/movies\/star-trek\/wrath-of-khan\/\" rel=\"nofollow\">http:\/\/aarontgrogg.com\/movies\/star-trek\/wrath-of-khan\/<\/a><\/code><\/pre>\n\n",
+                "uid": "29419"
+            },
+            "1.1": {
+                "name": "wordpress\/add-url-slugs-as-body-classes",
+                "version": "1.1",
+                "version_normalized": "1.1.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/add-url-slugs-as-body-classes.1.1.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>This plug-in takes the URL, chops it into pieces, and adds each \"piece\" as an additional\nclass to the <code>body<\/code> tag.<\/p>\n\n<p>Meaning, if your page's URL is:\n<a href=\"http:\/\/aarontgrogg.com\/2012\/02\/24\/wordpress-plugin-add-url-slugs-as-body-classes\/\" rel=\"nofollow\">http:\/\/aarontgrogg.com\/2012\/02\/24\/wordpress-plugin-add-url-slugs-as-body-classes\/<\/a>\nYour page's <code>body<\/code> tag would have at least these classes:<\/p>\n\n<pre><code>2012 02 24 wordpress-plugin-add-url-slugs-as-body-classess<\/code><\/pre>\n\n<p>It gets much stronger when you start thinking about Categories or nested Pages:<\/p>\n\n<pre><code><a href=\"http:\/\/aarontgrogg.com\/category\/wordpress\/\" rel=\"nofollow\">http:\/\/aarontgrogg.com\/category\/wordpress\/<\/a><\/code><\/pre>\n\n<p>which would give you:<\/p>\n\n<pre><code>category wordpress<\/code><\/pre>\n\n<p>while:<\/p>\n\n<pre><code><a href=\"http:\/\/aarontgrogg.com\/movies\/star-trek\/wrath-of-khan\/\" rel=\"nofollow\">http:\/\/aarontgrogg.com\/movies\/star-trek\/wrath-of-khan\/<\/a><\/code><\/pre>\n\n",
+                "uid": "29418"
+            }
+        }
+    }
+}

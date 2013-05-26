@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/authanvil-wordpress-logon-agent": {
+            "1.0": {
+                "name": "wordpress\/authanvil-wordpress-logon-agent",
+                "version": "1.0",
+                "version_normalized": "1.0.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/authanvil-wordpress-logon-agent.1.0.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>This plugin enables two-factor authentication for WordPress using the AuthAnvil Strong Authentication Server.<br \/>\nTo use this plugin, you must have access to an AuthAnvil Server and have a user and a token configured.\nThe requirement to use AuthAnvil is set on a per-user basis, with the default set to not require two-factor authentication.<\/p>",
+                "uid": "55858"
+            }
+        }
+    }
+}

@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/site-pin": {
+            "1.0": {
+                "name": "wordpress\/site-pin",
+                "version": "1.0",
+                "version_normalized": "1.0.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/site-pin.1.0.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>Whenever a site is under development, or its content should remain private, you want to prevent to general public\nfrom reading it - whether deliberately or by accident.<\/p>\n\n<p>A comman way to do this is with <a href=\"http:\/\/httpd.apache.org\/docs\/2.4\/howto\/auth.html\">HTTP authorisation<\/a>,\nbut this has some problems:<\/p>\n\n<ul>\n<li>Each user of your site has two different sets of username and password, one for the authorisation and one for \nWordPress login. It's not uncommon for some users to find this confusing.<\/li>\n<li>To set up authorisation you need access to your web server's configuration (at least using the <code>.htaccess<\/code> file), \nwhich may not be available depending on your hosting supplier.\nYou also need to learn how to configure the authorisation correctly, and risk breaking the site if you get it wrong.<\/li>\n<li>When the time comes to remove the authorisation, you need to edit the configuration again.<\/li>\n<li>In certain circumstances, combining authorisation with",
+                "uid": "23045"
+            }
+        }
+    }
+}

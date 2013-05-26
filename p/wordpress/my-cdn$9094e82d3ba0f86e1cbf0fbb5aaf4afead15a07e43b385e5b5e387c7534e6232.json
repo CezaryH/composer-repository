@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/my-cdn": {
+            "1.2": {
+                "name": "wordpress\/my-cdn",
+                "version": "1.2",
+                "version_normalized": "1.2.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/my-cdn.1.2.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>Help you offloading javascript, css and theme files to your own CDN network. This plugin only handle url rewriting not actual file transferring.<\/p>\n\n<ul>\n<li>Rewrite your js, css and theme file's urls with your own prefix<\/li>\n<li>Support excluding url patterns<\/li>\n<li>Multiple destination url can be used to increase page loading speed<\/li>\n<li>Tested with SimpleCDn's Mirror bucket and Amazon CloudFront.<\/li>\n<\/ul>\n\n<p>Change Log:\n Version 1.2: Internal option page changes.\n Version 1.1: Support multiple destination urls.\n Version 1.0: Tight up some regular expression.<\/p>",
+                "uid": "92534"
+            }
+        }
+    }
+}

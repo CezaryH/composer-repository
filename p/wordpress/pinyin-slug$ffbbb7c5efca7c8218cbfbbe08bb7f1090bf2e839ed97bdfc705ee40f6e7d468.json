@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/pinyin-slug": {
+            "1.0.0": {
+                "name": "wordpress\/pinyin-slug",
+                "version": "1.0.0",
+                "version_normalized": "1.0.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/pinyin-slug.1.0.0.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>The Chinese PinYin Slug Wordpress plugin convert Chinese UTF-8 character into English PinYin character from a post slugs to improve  search engine optimization.<\/p>\n\n<p>For example, when you publish a post with a title like this: \"Chinese PinYin\"\nWordpress automatically assigns a long filename to your post, called a post slug: \/%e4%b8%ad%e6%96%87%e6%8b%bc%e9%9f%b3<\/p>\n\n<p>PinYin Slug plugin convert Chinese character into PinYin character. With Chinese PinYin plugin activated, the slug for our example blog post would look like this: \/zhongwenpinyin<\/p>\n\n<p>The slug is generated on saving a post (so you get a chance to look at it before publishing, and change it), or on publish. It won't overwrite an existing slug. You can force a new slug generation by deleting the existing one.<\/p>",
+                "uid": "28674"
+            }
+        }
+    }
+}

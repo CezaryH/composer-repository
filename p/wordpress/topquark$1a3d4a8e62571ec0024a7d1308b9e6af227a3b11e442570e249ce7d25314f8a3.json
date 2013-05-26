@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/topquark": {
+            "2.1.2": {
+                "name": "wordpress\/topquark",
+                "version": "2.1.2",
+                "version_normalized": "2.1.2.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/topquark.2.1.2.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "THE FRAMEWORK\n\n<p>The real purpose of this plugin, besides yet another gallery tool, is to provide a framework for rapid, database-driven, plugin development.  At this point, the framework is only used by a half dozen or so plugins that I've written (see <a href=\"http:\/\/www.topquark.com\" rel=\"nofollow\">http:\/\/www.topquark.com<\/a>).  I'm releasing it to the community to invite and encourage feedback and development using the framework.  A start to the requisite documentation is forthcoming.<\/p>\n\n<p>The framework provides the following services:<\/p>\n\n<ul>\n<li>The above mentioned Gallery package to handle images<\/li>\n<li>Generic Import\/Export services (multibyte friendly and scalable)<\/li>\n<li>Grant\/revoke permissions to WordPress users to access framework plugins <\/li>\n<li>A database object container class with a handy dandy and powerful whereClass class<\/li>\n<li>The Smarty templating engine<\/li>\n<li>Enough hooks (actions &#38; filters) to enable third-plugin add-ons to framework plugins",
+                "uid": "46133"
+            }
+        }
+    }
+}

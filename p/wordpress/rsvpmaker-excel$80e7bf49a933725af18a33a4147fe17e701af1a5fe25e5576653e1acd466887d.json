@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/rsvpmaker-excel": {
+            "1.0": {
+                "name": "wordpress\/rsvpmaker-excel",
+                "version": "1.0",
+                "version_normalized": "1.0.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/rsvpmaker-excel.1.0.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>This is an extension to the RSVPmaker event scheduling and RSVP tracking plugin for WordPress. It makes it possible to download RSVP reports to Excel, in addition to viewing them online.<\/p>\n\n<p>The Excel functions are based on the <a href=\"http:\/\/www.phpexcel.net\/\">PHPExcel<\/a> library. Several versions of RSVPMaker, prior to 2.5.4, had this functionality included. The idea behind splitting it out is to lighten the download for the base plugin, particularly for users who may not take advantage of the Excel function. The PHPExcel library is bigger than all the rest of the RSVPmaker code.<\/p>\n\n<p><a href=\"http:\/\/www.rsvpmaker.com\/\"><strong>RSVPmaker.com<\/strong><\/a><\/p>",
+                "uid": "20563"
+            }
+        }
+    }
+}

@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/clix-post-category-excluder-for-wordpress": {
+            "1.0": {
+                "name": "wordpress\/clix-post-category-excluder-for-wordpress",
+                "version": "1.0",
+                "version_normalized": "1.0.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/clix-post-category-excluder-for-wordpress.1.0.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>This plugin allows the author to exclude certain posts  from archive, \ntag, search and home page listings. Authors can also exclude posts to\nappear ONLY to logged in users, thereby forcing membership.  The \nexclusion check boxes appear directly on the edit post page,  no need to\naccess the program separately from the admin panel.  This is what makes \nthe plugin better than some of the other excluder plugins out there.<\/p>\n\n<p>The editing checkboxes on the post edit screen are: \n    Disable listing on home page; \n    Disable on tag listing; \n    Disable listing in archives; \n    Disable listing in search; \n    Disable listing for users not Logged In; \n    Disable but show available if Logged In.<\/p>\n\n<p>The last two options allow hidden content to exist in the system, where it will be displayed if the user is logged in.\nOn these posts that are excluded from listing or display, the author can specify:\n    (a.) Disable from listing if not logged in, or, \n    (b.) Disable from listing i",
+                "uid": "74192"
+            }
+        }
+    }
+}

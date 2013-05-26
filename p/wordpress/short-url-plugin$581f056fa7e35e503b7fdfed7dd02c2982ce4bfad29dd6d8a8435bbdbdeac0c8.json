@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/short-url-plugin": {
+            "2.8": {
+                "name": "wordpress\/short-url-plugin",
+                "version": "2.8",
+                "version_normalized": "2.8.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/short-url-plugin.2.8.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>Short URL allows you to create shorter URL's and keeps track of how many times a link has been clicked. It's useful for managing downloads, keeping track of outbound links and for masking URL's. Clicking the Clear All Clicks button will reset the count for each entry. Visit the plugin page for more information about this plugin.<\/p>\n\n<p>Version 2.8 has been updated for WordPress and updated a redundant function.\nVersion 2.7.1 includes pagination of links, easier setup of htaccess (permalinks) and allows admins to pass variables to their redirects. It also allows customisation of the permalink so you're no longer limited to \/u\/23.<\/p>\n\n<p>Modify u.php if you'd like a custom message when a redirect is not found.<\/p>",
+                "uid": "101843"
+            }
+        }
+    }
+}

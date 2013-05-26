@@ -1,0 +1,40 @@
+{
+    "packages": {
+        "wordpress\/widget-or-sidebar-per-shortcode": {
+            "0.1": {
+                "name": "wordpress\/widget-or-sidebar-per-shortcode",
+                "version": "0.1",
+                "version_normalized": "0.1.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/widget-or-sidebar-per-shortcode.0.1.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>This plugin implements 2 new shortcodes.<\/p>\n\n<p>[widget name=\"\" instance=\"\"] to use a widget per shortcode in the content area from a page\/post.<\/p>\n\n<p>name is the name of the widget, e.g.  Calendar.\ninstance are the attributs of the widget. e.g.  title=Hello,World!  so the complete shortcode is\n[widget name=\"Calendar\" instance=\"title=Hello,World!\"]<\/p>\n\n<p>For the instance list of the Wordpress builtin Widgets look at <a href=\"http:\/\/codex.wordpress.org\/Function_Reference\/the_widget\" rel=\"nofollow\">http:\/\/codex.wordpress.org\/Function_Reference\/the_widget<\/a>\nFor other Widgets look at the source code from the widget or ask the widget author.<\/p>\n\n<p>[sidebar name=\"\"] to use a sidebar (with all widgets) in the content area from a page\/post.<\/p>\n\n<p>name is the name of the sidebar e.g. Showcase Sidebar so the complete shortcode is\n[sidebar name=\"Showcase Sidebar\"]<\/p>\n\n<p>For own css styling, the plugin wraps the widgets in &#60; div id=\"Widget_Name\" class=\"widget_shortcode\"&#62; an",
+                "uid": "18573"
+            },
+            "0.2": {
+                "name": "wordpress\/widget-or-sidebar-per-shortcode",
+                "version": "0.2",
+                "version_normalized": "0.2.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/widget-or-sidebar-per-shortcode.0.2.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>This plugin implements 2 new shortcodes.<\/p>\n\n<p>[widget name=\"\" instance=\"\"] to use a widget per shortcode in the content area from a page\/post.<\/p>\n\n<p>name is the name of the widget, e.g.  Calendar.\ninstance are the attributs of the widget. e.g.  title=Hello,World!  so the complete shortcode is\n[widget name=\"Calendar\" instance=\"title=Hello,World!\"]<\/p>\n\n<p>For the instance list of the Wordpress builtin Widgets look at <a href=\"http:\/\/codex.wordpress.org\/Function_Reference\/the_widget\" rel=\"nofollow\">http:\/\/codex.wordpress.org\/Function_Reference\/the_widget<\/a>\nFor other Widgets look at the source code from the widget or ask the widget author.<\/p>\n\n<p>[sidebar name=\"\"] to use a sidebar (with all widgets) in the content area from a page\/post.<\/p>\n\n<p>name is the name of the sidebar e.g. Showcase Sidebar so the complete shortcode is\n[sidebar name=\"Showcase Sidebar\"]<\/p>\n\n<p>For own css styling, the plugin wraps the widgets in &#60; div id=\"Widget_Name\" class=\"widget_shortcode\"&#62; an",
+                "uid": "18572"
+            }
+        }
+    }
+}

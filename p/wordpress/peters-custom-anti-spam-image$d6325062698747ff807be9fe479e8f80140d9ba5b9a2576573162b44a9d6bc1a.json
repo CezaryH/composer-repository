@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/peters-custom-anti-spam-image": {
+            "3.2.0": {
+                "name": "wordpress\/peters-custom-anti-spam-image",
+                "version": "3.2.0",
+                "version_normalized": "3.2.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/peters-custom-anti-spam-image.3.2.0.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>Stop a lot of spambots from polluting your site by making visitors identify a random word displayed as an image before commenting and optionally before registering. You can customize the pool of words to display.<\/p>\n\n<h4>Features<\/h4>\n\n<ul>\n<li><p>Toggle whether registered users need to enter the word<\/p><\/li>\n<li><p>Random font display<\/p><\/li>\n<li><p>No cookies required<\/p><\/li>\n<li><p>No JavaScript required<\/p><\/li>\n<li><p>Auto-generated audio for visually impaired users<\/p><\/li>\n<li><p>Easy-to-read<\/p><\/li>\n<li><p>No mapping of words from the code -- words are used once or removed after 24 hours<\/p><\/li>\n<li><p>Reminder of what was entered if you get the word wrong<\/p><\/li>\n<li><p>Selective blocking of trackbacks, pingbacks<\/p><\/li>\n<li><p>Easy to translate<\/p><\/li>\n<li><p>Compatible with caching plugins<\/p><\/li>\n<\/ul>\n\n<h4>Negatives<\/h4>\n\n<ul>\n<li><p>Purposely no obscuring techniques so that the anti-spam word is easy to read<\/p><\/li>\n<li><p>The more people who use this plugin",
+                "uid": "111241"
+            }
+        }
+    }
+}

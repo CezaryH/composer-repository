@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/content-sort": {
+            "0.2": {
+                "name": "wordpress\/content-sort",
+                "version": "0.2",
+                "version_normalized": "0.2.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/content-sort.0.2.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>This plugin adds a grid under \"Posts\" in the admin where you can use drag drop to sort and publish posts to the first page.<\/p>\n\n<p>The \"mounted\" post will appear on top, so using this plugin your editors can controll exact whay to publish on the forst page.<\/p>\n\n<p><strong>Why is this nice?<\/strong>\nSo far the sorting is by date or you can use a sticky post, using \"Content Sort\" you can control all posts.\nThis creates a more CMS-like behaviour to Wordpress and gives you more controll.<\/p>",
+                "uid": "67921"
+            }
+        }
+    }
+}

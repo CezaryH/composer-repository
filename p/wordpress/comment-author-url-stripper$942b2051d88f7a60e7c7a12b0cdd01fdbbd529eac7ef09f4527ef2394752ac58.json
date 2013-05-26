@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/comment-author-url-stripper": {
+            "1.0": {
+                "name": "wordpress\/comment-author-url-stripper",
+                "version": "1.0",
+                "version_normalized": "1.0.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/comment-author-url-stripper.1.0.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>When writing comments, a lot of people type in google.com, yahoo.com, hotmail.com, and various other web sites which don't belong to them. This plugin strips out the comment author URL whenever it contains anything from a set of words that you specify in the Options screen. The URL will never make it to the database.<\/p>",
+                "uid": "106846"
+            }
+        }
+    }
+}

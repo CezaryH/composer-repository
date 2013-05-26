@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/peters-collaboration-e-mails": {
+            "1.9.2": {
+                "name": "wordpress\/peters-collaboration-e-mails",
+                "version": "1.9.2",
+                "version_normalized": "1.9.2.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/peters-collaboration-e-mails.1.9.2.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>Enhance the \"Submit for Review\" feature for Contributor users. This plugin enables automatic e-mails to the relevant users at the different post status transitions: when posts are pending; when they are approved or scheduled; and when their statuses are changed from \"pending\" back to \"draft\".<\/p>\n\n<h4>Features<\/h4>\n\n<ul>\n<li><p>When a Contributor user submits an article for review: The plugin e-mails a list of approvers of your choice, letting them know that there is a post ready for review, and giving them a link to edit the post.<\/p><\/li>\n<li><p>When a post is approved: The original Contributor user gets an e-mail saying that their post has been approved and who it was approved by. If the post was directly published, the author is given a link to read the post as the whole world sees it. If the post is scheduled to be published, the author is informed of the time that their post will go live. When the post does go live, the author will get another e-mail informing him \/ her of tha",
+                "uid": "108237"
+            }
+        }
+    }
+}

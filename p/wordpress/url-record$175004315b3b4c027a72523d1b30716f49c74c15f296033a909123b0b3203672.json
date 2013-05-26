@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/url-record": {
+            "1.1": {
+                "name": "wordpress\/url-record",
+                "version": "1.1",
+                "version_normalized": "1.1.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/url-record.1.1.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>This plugin will create an URL Record on your blog and will write all activity on your blog in main blog page.\nThe file report will found on <code>\/wp-content\/url-record\/data\/<\/code> you can analize it for prevent your blog from hacker or attacker.\nThis plugin is recomended for use if your hosting not use cpanel or etc.<\/p>",
+                "uid": "63118"
+            }
+        }
+    }
+}

@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/post-snippits": {
+            "1.0": {
+                "name": "wordpress\/post-snippits",
+                "version": "1.0",
+                "version_normalized": "1.0.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/post-snippits.1.0.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<ul>\n<li><p>Useful for inserting adverts in to certain posts, or other common pieces of code which you can manage centrally.<\/p><\/li>\n<li><p>Contact details or addresses can be set as a snippet and easily updated centrally rather than having to go through each post.<\/p><\/li>\n<li><p>Use the Post Snippits Settings page to define your snippits, then use the shortcode [snippit name] in your posts or pages where \"name\" is the name you have defined in the settings.<\/p><\/li>\n<\/ul>",
+                "uid": "19843"
+            }
+        }
+    }
+}

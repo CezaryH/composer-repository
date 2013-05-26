@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/root-wp-cookie": {
+            "1.1.1": {
+                "name": "wordpress\/root-wp-cookie",
+                "version": "1.1.1",
+                "version_normalized": "1.1.1.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/root-wp-cookie.1.1.1.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>This plugin is most useful when you have your blog under a Web site whose pages use different WordPress functions that\nrequires you to have logged in.<\/p>\n\n<p>For example, you'd like to use the <code>wp_loginout();<\/code> function to display the <em>login<\/em> link whenever you are logged out and\nthe <em>logout<\/em> link otherwise on all pages of your site, but WordPress is installed under <code>\/wp\/<\/code> where your blog also\nresides. Therefore, WordPress creates cookies under the <code>\/wp\/<\/code> directory only, making you seem logged out on the\ndirectories above the WordPress directory. This plugin will make WordPress create cookies on the root directory of your\ndomain to eliminate the problem.<\/p>",
+                "uid": "112898"
+            }
+        }
+    }
+}

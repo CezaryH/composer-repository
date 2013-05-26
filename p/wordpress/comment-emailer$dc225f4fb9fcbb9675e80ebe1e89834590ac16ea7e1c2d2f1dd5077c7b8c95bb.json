@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/comment-emailer": {
+            "1.0.5": {
+                "name": "wordpress\/comment-emailer",
+                "version": "1.0.5",
+                "version_normalized": "1.0.5.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/comment-emailer.1.0.5.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>Comment-Emailer allows you to customize the email wordpress automatically \nsends when a new comment, pingback or trackback has been approved. \nWith Commented-Emailer you can change the sending email address, message body,\nand enable or disable all of the default options such as including the authors\nname, ipaddress, website, comment or reply to address.<\/p>\n\n<p>After installation you will have a new tab under settings that \nwill give you access to change just about every access of your\nauto generated emails. Just make sure you enable Commented-Emailer<\/p>",
+                "uid": "72114"
+            }
+        }
+    }
+}

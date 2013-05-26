@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/scaleable-contact-form": {
+            "0.8.2": {
+                "name": "wordpress\/scaleable-contact-form",
+                "version": "0.8.2",
+                "version_normalized": "0.8.2.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/scaleable-contact-form.0.8.2.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>Scaleable Contact Form Plugin<\/p>\n\n<h4>A Plugin for ..<\/h4>\n\n<p>.. a very customizable contact form on your wordpress blog.<\/p>\n\n<h4>Features:<\/h4>\n\n<ul>\n<li>Uses Captcha but no Akismet (yet).<\/li>\n<li>Required, non required Fields can be configured.<\/li>\n<li>Five different Field Types: Textfield, Textarea, Select, Radios and Checkboxes.<\/li>\n<li>All labels and buttons can be modified.<\/li>\n<li>You can choose either a regular send formular or AJAX driven<\/li>\n<li>Optional confirmation mail to ser<\/li>\n<\/ul>\n\n<h4>Usage:<\/h4>\n\n<p>Either put <code>[scaleable-contact-form]<\/code> somewhere in a post or site or call <code>echo scf_print_contact_form()<\/code> directly from a template.<\/p>",
+                "uid": "89856"
+            }
+        }
+    }
+}

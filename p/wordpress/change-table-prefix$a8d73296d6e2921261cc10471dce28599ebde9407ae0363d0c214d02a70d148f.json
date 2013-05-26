@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/change-table-prefix": {
+            "1.1": {
+                "name": "wordpress\/change-table-prefix",
+                "version": "1.1",
+                "version_normalized": "1.1.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/change-table-prefix.1.1.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>This plugin is mainly useful if you have not changed the database prefix at the time of installation and want to change aftrewards to make your website more secure and protect from SQL injections. With the use of this plugin, you can easily replace your database default prefix to other prefix by a single click.<\/p>\n\n<p>As in most of the cases adminer are not changing the wordpress default database table prefix, it is easy for any hackers to inject to your database as all the default tables names are know for all. But if you modify your database tables prefix then your tables names are become unknown to outside world.<\/p>\n\n<p>Plugin URL: <a href=\"http:\/\/www.youngtechleads.com\/change-wordpress-table-prefix\/\">Change Table Prefix<\/a><\/p>\n\n<h4>Features<\/h4>\n\n<ul>\n<li>Can change database tables prefix in post installation.<\/li>\n<li>Tables prefix will change by single click.<\/li>\n<li>Works well for multi site present in a single database.<\/li>\n<li>Both the custom and randum generated prefi",
+                "uid": "19224"
+            }
+        }
+    }
+}

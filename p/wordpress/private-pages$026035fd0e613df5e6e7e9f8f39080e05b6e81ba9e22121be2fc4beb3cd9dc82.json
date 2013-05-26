@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/private-pages": {
+            "1": {
+                "name": "wordpress\/private-pages",
+                "version": "1",
+                "version_normalized": "1.0.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/private-pages.1.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>This plugin allows you to require users to log-in to see content, and also specify which pages and which roles are allowed to see that pages. You can contact me in <a href=\"http:\/\/www.codebox.es\">codebox.es<\/a><\/p>",
+                "uid": "47071"
+            }
+        }
+    }
+}

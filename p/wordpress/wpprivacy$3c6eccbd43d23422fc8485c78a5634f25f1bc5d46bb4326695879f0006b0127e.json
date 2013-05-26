@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/wpprivacy": {
+            "1.0.1": {
+                "name": "wordpress\/wpprivacy",
+                "version": "1.0.1",
+                "version_normalized": "1.0.1.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/wpprivacy.1.0.1.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>WPPrivacy to not log the IP address from the people that comment on your wordpress \ninstallation.<\/p>\n\n<p>This plugin will be useful to people that cannot\/or don't want to use <a href=\"http:\/\/riseuplabs.org\/privacy\/apache\/\" title=\"libapache2-mod-removeip\">libapache2-mod-removeip<\/a> (because you don't use \napache or don't want to wipe out the IP logging on all vhosts).<\/p>",
+                "uid": "10786"
+            }
+        }
+    }
+}

@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/mark-unread-comments": {
+            "0.2": {
+                "name": "wordpress\/mark-unread-comments",
+                "version": "0.2",
+                "version_normalized": "0.2.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/mark-unread-comments.0.2.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>When an user visits a post in your blog the plugin registers the time of the visit in a simple cookie. This allows that when the user comes back to the post searching for new comments these could be marked.<\/p>\n\n<p>To do so the plugin adds the 'unread' CSS class to the comment. You will only have to customize that 'unread' class to mark new comments.<\/p>\n\n<p>This plugin uses some code from: \nBrett Taylor (<a href=\"http:\/\/inner.geek.nz\/archives\/2005\/02\/11\/wordpress-plugin-smart-unread-comments\/\" rel=\"nofollow\">http:\/\/inner.geek.nz\/archives\/2005\/02\/11\/wordpress-plugin-smart-unread-comments\/<\/a>)\nUtkarsh Kukreti (<a href=\"http:\/\/wordpress.org\/extend\/plugins\/feature-comments\/\" rel=\"nofollow\">http:\/\/wordpress.org\/extend\/plugins\/feature-comments\/<\/a>)<\/p>",
+                "uid": "64401"
+            }
+        }
+    }
+}

@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/current-mood": {
+            "1.2.2": {
+                "name": "wordpress\/current-mood",
+                "version": "1.2.2",
+                "version_normalized": "1.2.2.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/current-mood.1.2.2.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>Adds a \"Current Mood\" icon to each post after the date. Unzip moods into wp-content\/plugins\/moods and activate plugin. Use the dropdown option to select a current mood.<\/p>",
+                "uid": "114422"
+            }
+        }
+    }
+}

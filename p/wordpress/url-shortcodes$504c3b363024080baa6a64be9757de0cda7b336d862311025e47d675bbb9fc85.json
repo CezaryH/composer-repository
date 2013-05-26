@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/url-shortcodes": {
+            "1.0": {
+                "name": "wordpress\/url-shortcodes",
+                "version": "1.0",
+                "version_normalized": "1.0.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/url-shortcodes.1.0.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>Sometimes you want to put the base URL (that of the blog, or that of the active template) in your content editor. Times when the template customising isn't quite flexible enough.\nWith this plugin you can use [url_base] to output the base URL of the blog (as set in your Settings). Or, you can use [url_template] to output the URL of the active template.<\/p>\n\n<p>For example <code>&#60;img src=\"[url_base]\/test.png \/&#62;<\/code> in your editor might output <code>&#60;img src=\"http:\/\/localhost\/wordpress\/test.png\" \/&#62;<\/code> (if <a href=\"http:\/\/localhost\/wordpress\" rel=\"nofollow\">http:\/\/localhost\/wordpress<\/a> is what you have configured as your blog URL in Settings).<\/p>\n\n<p>The supported short codes are as follows:\n* [url_base] - the configured blog URL (set in Settings). E.g. <a href=\"http:\/\/localhost\/wordpress\" rel=\"nofollow\">http:\/\/localhost\/wordpress<\/a>\n* [url_template] - the URL of the active template. E.g. <a href=\"http:\/\/localhost\/wordpress\/wp-content\/themes\/mytheme1\" rel=\"nof",
+                "uid": "72744"
+            }
+        }
+    }
+}

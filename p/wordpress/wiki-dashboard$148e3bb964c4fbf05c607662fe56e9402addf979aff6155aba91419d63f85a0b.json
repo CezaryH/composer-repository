@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/wiki-dashboard": {
+            "0.1": {
+                "name": "wordpress\/wiki-dashboard",
+                "version": "0.1",
+                "version_normalized": "0.1.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/wiki-dashboard.0.1.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>Wiki-Dashboard is a Wordpress plugin that allows to all registered user on a blog to share and edit a text like a wiki, and can be usefull even on mono-author blogs, giving a space to write notes.<\/p>\n\n<p>Features:<\/p>\n\n<pre><code>* Dashboard subpage with the text where to put notes\n* Text shared to all blog authors\n* bbCode parser for text formatting\n* Internationalization support\n<\/code><\/pre>",
+                "uid": "109577"
+            }
+        }
+    }
+}

@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/kanagawa-sms-alerts": {
+            "1.0": {
+                "name": "wordpress\/kanagawa-sms-alerts",
+                "version": "1.0",
+                "version_normalized": "1.0.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/kanagawa-sms-alerts.1.0.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<h4>Send text messages (SMS) to a group of people who can subscribe to your alerts just by sending you a text message.<\/h4>\n\n<h4>Ideal for:<\/h4>\n\n<ul>\n<li>Schools<\/li>\n<li>Sports Teams<\/li>\n<li>Churches<\/li>\n<li>Clubs<\/li>\n<li>Boy Scout Troops<\/li>\n<li>You!<\/li>\n<\/ul>\n\n<h4>Why Not Do SMS By Email?<\/h4>\n\n<ul>\n<li>Some plugins send their SMS as emails. This can be very confusing for your subscribers. James Dunn at WPMU.org explains why this is bad in his article, <a href=\"http:\/\/wpmu.org\/why-you-should-never-use-the-sms-plugins-in-the-wordpress-repository\/\">Why You Should Never Use the SMS Plugins in the WordPress Repository<\/a><\/li>\n<li>The carrier may add additional text. For example AT&#38;T adds \"FRM:\", \"SUBJ\" and \"BODY\" to text messages sent via email.<\/li>\n<li>Sending SMS as an email you need to know the cell provider for each subscriber. When your subscriber changes carrier, your alerts won't get delivered, because the phone's email address will change.<\/li>\n<li>The caller ID numb",
+                "uid": "12772"
+            }
+        }
+    }
+}

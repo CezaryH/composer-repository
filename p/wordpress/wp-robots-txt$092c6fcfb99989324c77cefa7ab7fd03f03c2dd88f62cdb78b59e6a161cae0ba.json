@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/wp-robots-txt": {
+            "1.0": {
+                "name": "wordpress\/wp-robots-txt",
+                "version": "1.0",
+                "version_normalized": "1.0.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/wp-robots-txt.1.0.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>WordPress, by default, includes a simple robots.txt file that's dynamically generated from within the WP application.  This is great! but maybe you want to change the content.<\/p>\n\n<p>Enter WP Robots Txt, a plugin that adds an additional field to the \"Privacy Settings\" admin page where you can do just that.<\/p>",
+                "uid": "28898"
+            }
+        }
+    }
+}

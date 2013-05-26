@@ -1,0 +1,74 @@
+{
+    "packages": {
+        "wordpress\/page-layout": {
+            "0.1": {
+                "name": "wordpress\/page-layout",
+                "version": "0.1",
+                "version_normalized": "0.1.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/page-layout.0.1.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p><strong>WARNING: USE ONLY WITH JAVASCRIPT! The backend of this plugin works only with browser with javascript enabled<\/strong><\/p>\n\n<p>This plugin allows to dynamically activate the widgets system on a WordPress page, creating complex layouts.<\/p>\n\n<p>You can define new layout via the function <code>register_layout()<\/code> in the function.php file of your theme.\nThe plugin define two sample defaults layouts that you can see in Screenshots section.<\/p>\n\n<p>e.g.<\/p>\n\n<pre><code>&#60;?php\n\/\/ &#60;your_theme&#62;\/function.php\nif ( function_exists('register_layout') ){\n    register_layout(array(\n        'name' =&#62; 'Name of Layout',\n        'zones' =&#62; array( 'name of zone one', 'name of zone two', 'name of zone three' [, ...] ),\n        'thumbnail' =&#62; 'thumbnail-of-layout.jpg', \/\/ with extension (jpg\/gif\/png)\n        'template' =&#62; 'name-of-php-template-file' \/\/ without extension\n    ));\n}\n?&#62;\n<\/code><\/pre>\n\n<p>The code of the new template plans to use a new property of ",
+                "uid": "69253"
+            },
+            "0.1.1": {
+                "name": "wordpress\/page-layout",
+                "version": "0.1.1",
+                "version_normalized": "0.1.1.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/page-layout.0.1.1.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p><strong>WARNING: USE ONLY WITH JAVASCRIPT! The backend of this plugin works only with browser with javascript enabled<\/strong><\/p>\n\n<p>This plugin allows to dynamically activate the widgets system on a WordPress page, creating complex layouts.<\/p>\n\n<p>You can define new layout via the function <code>register_layout()<\/code> in the function.php file of your theme.\nThe plugin define two sample defaults layouts that you can see in Screenshots section.<\/p>\n\n<p>e.g.<\/p>\n\n<pre><code>&#60;?php\n\/\/ &#60;your_theme&#62;\/function.php\nif ( function_exists('register_layout') ){\n    register_layout(array(\n        'name' =&#62; 'Name of Layout',\n        'zones' =&#62; array( 'name of zone one', 'name of zone two', 'name of zone three' [, ...] ),\n        'thumbnail' =&#62; 'thumbnail-of-layout.jpg', \/\/ with extension (jpg\/gif\/png)\n        'template' =&#62; 'name-of-php-template-file' \/\/ without extension\n    ));\n}\n?&#62;\n<\/code><\/pre>\n\n<p>The code of the new template plans to use a new property of ",
+                "uid": "69251"
+            },
+            "0.2": {
+                "name": "wordpress\/page-layout",
+                "version": "0.2",
+                "version_normalized": "0.2.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/page-layout.0.2.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p><strong>WARNING: USE ONLY WITH JAVASCRIPT! The backend of this plugin works only with browser with javascript enabled<\/strong><\/p>\n\n<p>This plugin allows to dynamically activate the widgets system on a WordPress page, creating complex layouts.<\/p>\n\n<p>You can define new layout via the function <code>register_layout()<\/code> in the function.php file of your theme.\nThe plugin define two sample defaults layouts that you can see in Screenshots section.<\/p>\n\n<p>e.g.<\/p>\n\n<pre><code>&#60;?php\n\/\/ &#60;your_theme&#62;\/function.php\nif ( function_exists('register_layout') ){\n    register_layout(array(\n        'name' =&#62; 'Name of Layout',\n        'zones' =&#62; array( 'name of zone one', 'name of zone two', 'name of zone three' [, ...] ),\n        'thumbnail' =&#62; 'thumbnail-of-layout.jpg', \/\/ with extension (jpg\/gif\/png)\n        'template' =&#62; 'name-of-php-template-file' \/\/ without extension\n    ));\n}\n?&#62;\n<\/code><\/pre>\n\n<p>The code of the new template plans to use a new property of ",
+                "uid": "69250"
+            },
+            "0.3": {
+                "name": "wordpress\/page-layout",
+                "version": "0.3",
+                "version_normalized": "0.3.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/page-layout.0.3.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p><strong>WARNING: USE ONLY WITH JAVASCRIPT! The backend of this plugin works only with browser with javascript enabled<\/strong><\/p>\n\n<p>This plugin allows to dynamically activate the widgets system on a WordPress page, creating complex layouts.<\/p>\n\n<p>You can define new layout via the function <code>register_layout()<\/code> in the function.php file of your theme.\nThe plugin define two sample defaults layouts that you can see in Screenshots section.<\/p>\n\n<p>e.g.<\/p>\n\n<pre><code>&#60;?php\n\/\/ &#60;your_theme&#62;\/function.php\nif ( function_exists('register_layout') ){\n    register_layout(array(\n        'name' =&#62; 'Name of Layout',\n        'zones' =&#62; array( 'name of zone one', 'name of zone two', 'name of zone three' [, ...] ),\n        'thumbnail' =&#62; 'thumbnail-of-layout.jpg', \/\/ with extension (jpg\/gif\/png)\n        'template' =&#62; 'name-of-php-template-file' \/\/ without extension\n    ));\n}\n?&#62;\n<\/code><\/pre>\n\n<p>The code of the new template plans to use a new property of ",
+                "uid": "69249"
+            }
+        }
+    }
+}

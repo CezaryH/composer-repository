@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/web-scraper-shortcode": {
+            "1.0.1": {
+                "name": "wordpress\/web-scraper-shortcode",
+                "version": "1.0.1",
+                "version_normalized": "1.0.1.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/web-scraper-shortcode.1.0.1.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>use the [web-scraper] shortcode where you want to display the contents of a a specific section of another web page or site.\nthe shortcode takes several parameters, url and target.\nThe url is the url of the page you would like to scrape.\nThe element is the target element of the content from the remote page you would like.\nYou could specify the body element if you would like the entire page, or you could specify something like div#div_id_name to get the contents of that specific div.\nThe limit is the maximum number of entries to display if your element is a class and has returned multiple results, the first n results will be displayed.<\/p>\n\n<p>Requirements:<\/p>\n\n<p>To-do:<\/p>",
+                "uid": "32833"
+            }
+        }
+    }
+}

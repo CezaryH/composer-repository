@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/atropos": {
+            "1.2": {
+                "name": "wordpress\/atropos",
+                "version": "1.2",
+                "version_normalized": "1.2.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/atropos.1.2.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>This plugin lets you set an expiration date for posts.  After that\ndate, the posts will be deleted.  This is done in a new subsection of the \nAdvanced Options section of the post edit page.<\/p>\n\n<p>Just pick your month and put in the date and year and your post will\nautomatically be deleted at the end of that day. Note that the expired\nposts are DELETED. Be sure that you want to do this. I disavow any\nresponsibility if you delete your entire blog because you weren't being\ncareful.<\/p>\n\n<p>This plugin uses WordPress's cron feature. This allows you to set a\ntime for things to happen, such as deleting a post. All well and good,\nexcept that it doesn't actually happen until someone looks at a page\nAFTER that time. And then it takes a few seconds to actually\nhappen. The net result for this plugin is that expired posts will\nstill be there for the first page view of the deletion day and\npossibly several more if there is a lot of traffic around\nmidnight. The post will be deleted, but not pre",
+                "uid": "100704"
+            }
+        }
+    }
+}

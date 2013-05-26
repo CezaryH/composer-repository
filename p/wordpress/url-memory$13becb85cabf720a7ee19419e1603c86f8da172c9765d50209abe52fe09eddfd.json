@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/url-memory": {
+            "1.1": {
+                "name": "wordpress\/url-memory",
+                "version": "1.1",
+                "version_normalized": "1.1.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/url-memory.1.1.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>If the URL of a page, post, existing is changed, all the internal links pointing to this page website, post must be updated automatically. Internal links only concern hierarchy and widgets. Links in content are not included and must be updated manually.<\/p>\n\n<p>In order to avoid the manual update in content, we will implement a plugin that will keep the URLs in \"life.\" This solution will make redirects from an old URL to a new one.<\/p>\n\n<p>Option Page : \n    - Delete all redirections by flushing table\n    - Import all your existing content<\/p>\n\n<p>Tools Page : \n    - Search in all redirections\n    - Manage every redirection by deleting them.<\/p>\n\n<p>Contribute on <a href=\"https:\/\/github.com\/asadowski10\/url-memory\" rel=\"nofollow\">https:\/\/github.com\/asadowski10\/url-memory<\/a><\/p>\n\n<p>This plugin is developped on WordPress 3.4, with the constant WP_DEBUG to TRUE.<\/p>",
+                "uid": "11551"
+            }
+        }
+    }
+}

@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/google-maps-hyperlink": {
+            "1.0": {
+                "name": "wordpress\/google-maps-hyperlink",
+                "version": "1.0",
+                "version_normalized": "1.0.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/google-maps-hyperlink.1.0.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>Converts a shortcode with the format [gmaplink name=\"description\" gps=\"x&#186;xx.xxxN,x&#186;xx.xxxW\"]  to a google maps query hyperlink in the format  <a href=\"http:\/\/maps.google.com\/maps?q=gps+(name)\" rel=\"nofollow\">http:\/\/maps.google.com\/maps?q=gps+(name)<\/a><\/p>\n\n<p>the gps field can be any format that the google maps query accepts.<\/p>",
+                "uid": "42200"
+            }
+        }
+    }
+}

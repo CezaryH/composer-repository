@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/collapsible-widget-area": {
+            "0.4": {
+                "name": "wordpress\/collapsible-widget-area",
+                "version": "0.4",
+                "version_normalized": "0.4.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/collapsible-widget-area.0.4.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>This plugin allows you to combine multiple widgets into a single tabbed\/accordion-style interface in your theme.<\/p>\n\n<h4>Usage<\/h4>\n\n<p>To use this plugin, simply drag widgets into the \"Collapsible Widget Area\" widget area in Appearance -&#62; Widgets within your admin area. Once you've done that, reload the Appearance -&#62; Widgets page and drag the Collapsible Widget into the sidebar in which you want it to appear. Do <em>not<\/em> drag a \"Collapsible Widget\" into any of the existing \"Collapsible Widget Area\" sidebars.<\/p>\n\n<h4>Options<\/h4>\n\n<ol>\n<li>Within the Collapsible Widget itself, you can specify whether you want to use a Tab interface or an Accordion interface.<\/li>\n<li>Under Settings -&#62; Collapsible Widget Options, you can choose the jQueryUI theme you want to apply to the collapsible widget container. All of the included jQueryUI themes are hosted on Google's CDN. If you already have a jQueryUI theme included in your WordPress theme, you can choose \"None\" from the op",
+                "uid": "31545"
+            }
+        }
+    }
+}

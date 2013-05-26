@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/wp-manage-plugins": {
+            "1.0.0": {
+                "name": "wordpress\/wp-manage-plugins",
+                "version": "1.0.0",
+                "version_normalized": "1.0.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/wp-manage-plugins.1.0.0.0.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>An easy way to give you more control over the plugins section of WordPress. This plugin features the following functionality:<\/p>\n\n<pre><code>* Disable upgrade notices for specific plugins\n* Hide the plugins page from all users except yourself\n* Hide the WP Manage Plugins settings page from all users except yourself\n* Automatically email the site admin when any plugin is added\/activated\/deactivated\n<\/code><\/pre>\n\n<p>This plugin should help anyone who is administering a WordPress website and needs more control over the powerful plugins section. This plugin is also great for blocking updates on plugins that you have modified.<\/p>",
+                "uid": "77445"
+            }
+        }
+    }
+}

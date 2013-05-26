@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/ezmigrate": {
+            "0.12": {
+                "name": "wordpress\/ezmigrate",
+                "version": "0.12",
+                "version_normalized": "0.12.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/ezmigrate.0.12.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>Tutorial on how to use the ezMigrate plugin: <a href=\"http:\/\/techblog.triptic.nl\/moving-wordpress-using-the-ezmigrate-plugin\/\">Moving wordpress using the ezmigrate plugin<\/a><\/p>\n\n<p>This plugin makes it easy to use and migrate your blog across different locations by detecting the current location and\nreplacing all absolute paths on the fly.\nWhile there are ways to move your blog around by replacing the locations within the database manually or through scripts,\nthey are very error prone and not very easy to do.\nOnce enabled, this plugin doesn't require you to do anything other than move your code and database to a new location\nwhen you want to. You can even access your blog through multiple urls at the same time when you need to.<\/p>\n\n<p>This plugin is useful when:<\/p>\n\n<ul>\n<li>You want to make your blog available through different urls<\/li>\n<li>You want to move your blog around<\/li>\n<li>You're staging the development of a blog with development, test and production environments whi",
+                "uid": "73498"
+            }
+        }
+    }
+}

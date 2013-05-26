@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/vox-importer": {
+            "0.7": {
+                "name": "wordpress\/vox-importer",
+                "version": "0.7",
+                "version_normalized": "0.7.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/vox-importer.0.7.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>Import posts, comments, tags, and attachments from a Vox.com blog.<\/p>\n\n<p>If you install this plugin on WordPress 2.9 you will need the WP_Importer base class. \nYou can download it here: <a href=\"http:\/\/wordpress.org\/extend\/plugins\/class-wp-importer\/\" rel=\"nofollow\">http:\/\/wordpress.org\/extend\/plugins\/class-wp-importer\/<\/a><\/p>",
+                "uid": "71211"
+            }
+        }
+    }
+}

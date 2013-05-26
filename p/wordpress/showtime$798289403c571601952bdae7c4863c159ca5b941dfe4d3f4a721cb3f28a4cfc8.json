@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/showtime": {
+            "3.0": {
+                "name": "wordpress\/showtime",
+                "version": "3.0",
+                "version_normalized": "3.0.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/showtime.3.0.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>The Showtime plugin allows you to easily manage and display a rotating programming schedule. It was originally built for a college radio station, but it could be used for any kind of schedule that repeats weekly.<\/p>\n\n<p>Showtime takes the current time and displays the name of whatever show\/event you've placed in the timeslot. If there's no show\/event, it displays a custom off-air message. You also have the option of displaying the name of the upcoming show\/event.<\/p>\n\nNew in 3.0\n\n<p>This release is a ground-up re-write, so the code is (hopefully) an awful lot better than it was before. The sorting method is better for the days of the week, and the front-end presentation is no longer a horrible, horrible jQuery hack! Everything is more efficient, better-looking, and the shortcode output doesn't sit on top of all the content anymore. Also, there's some snazzy new AJAX-ification stuff going on in the Schedule manager.<\/p>\n\n<p>Current 2.1 users, don't worry; there's a database upgrader",
+                "uid": "71029"
+            }
+        }
+    }
+}

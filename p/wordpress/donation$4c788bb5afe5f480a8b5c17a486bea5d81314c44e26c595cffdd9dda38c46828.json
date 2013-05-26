@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/donation": {
+            "1.0.0": {
+                "name": "wordpress\/donation",
+                "version": "1.0.0",
+                "version_normalized": "1.0.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/donation.1.0.0.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>A simple but effective plugin to allow blog visitors to make donations to the author. \nPayments are collected via PayPal and validated before the donor's message of thanks is \ndisplayed on a blog page.<\/p>\n\n<p>Features:<\/p>\n\n<ul>\n<li>Integrates with PayPal<\/li>\n<li>Displays a public list of donors and their messages<\/li>\n<li>Allows admin to hide\/mark unpaid donations in the admin panel<\/li>\n<li>Unsuccessful donation attempts are visible to admin in the admin panel<\/li>\n<li>Light and extensible, an ideal developers building block<\/li>\n<\/ul>",
+                "uid": "43312"
+            }
+        }
+    }
+}

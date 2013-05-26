@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/igreen-alexa-site-rank": {
+            "1.0": {
+                "name": "wordpress\/igreen-alexa-site-rank",
+                "version": "1.0",
+                "version_normalized": "1.0.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/igreen-alexa-site-rank.1.0.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>This Plugin lets you know your ALEXA RANK. This offer several ways to integrate in your blog you can use widgets , short code or plugin API.<\/p>\n\n<p>As using this you can get ALEXA RANK in php variable so you can easily integrate and customize look of your ALEXA RANK.<\/p>\n\n<ol>\n<li><p>To Print Alexa Rank using short code<\/p>\n\n<pre><code>[AlexaRank]\n<\/code><\/pre><\/li>\n<li><p>To Print Alexa Rank in your theme<\/p>\n\n<pre><code>echo getAlexaRank();\n\nor\n\nAlexaRank();\n<\/code><\/pre><\/li>\n<li><p>To Print Alexa Rank of a website using theme<\/p>\n\n<pre><code>echo getAlexaRankbySiteName(\"www.susheelonline.com\");\n\nor \n\nAlexaRankbySiteName(\"www.susheelonline.com\");\n<\/code><\/pre><\/li>\n<li><p>To print Alexa Rank in side bar<\/p>\n\n<pre><code>use widget Igreen Alexa Site Rank Widget\n<\/code><\/pre><\/li>\n<\/ol>",
+                "uid": "8107"
+            }
+        }
+    }
+}

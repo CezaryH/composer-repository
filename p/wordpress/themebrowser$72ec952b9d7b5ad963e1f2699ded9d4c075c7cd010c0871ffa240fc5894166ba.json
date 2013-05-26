@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/themebrowser": {
+            "0.3": {
+                "name": "wordpress\/themebrowser",
+                "version": "0.3",
+                "version_normalized": "0.3.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/themebrowser.0.3.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>If you run a WPMU (called Wordpress MultiSite in version 3 or above) webite where people can create their own blogs and choose a theme, it would be great to show off the available themes before people sign up. That's always a been a bit hard to do, until now. This very simple plugin allows you to add a shortcode - [themebrowser] - to any post or page where you want the full list of enabled themes to show.<\/p>\n\n<p>You can also paginate the themes by adding a \"perpage\" attribute to the shortcode, like this: [themebrowser perpage=\"10\"]<\/p>\n\n<p>The list does not include themes that you have disabled in Site Admin. The details shown are the theme name, description and a screenshot (themes without a screenshot are also not included).<\/p>",
+                "uid": "69664"
+            }
+        }
+    }
+}

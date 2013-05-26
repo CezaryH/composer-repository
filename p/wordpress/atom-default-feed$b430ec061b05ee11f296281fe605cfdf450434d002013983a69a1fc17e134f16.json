@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/atom-default-feed": {
+            "1.1": {
+                "name": "wordpress\/atom-default-feed",
+                "version": "1.1",
+                "version_normalized": "1.1.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/atom-default-feed.1.1.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>The default feed in WordPress is normally RSS. However, many companies, including Google, have thrown more support behind the Atom syndication format. Atom is better designed, more robust, well-defined, and supports publish capabilities as well.<\/p>\n\n<p>WordPress does support Atom, but not as the default feed. This plugin changes that, so that the default feed output is Atom format.<\/p>\n\n<p>WordPress also has support for out of date feed types (RDF and RSS 0.92). Many people encounter problems when they accidentally use one of these feed types. Therefore this plugin eliminates them and returns the proper RSS 2 feed format instead. Since that format is backward compatible with both of those, it will work in all cases that needed them anyway.<\/p>\n\n<p>Want regular updates? Become a fan of my sites on Facebook!\n<a href=\"http:\/\/www.facebook.com\/apps\/application.php?id=116002660893\" rel=\"nofollow\">http:\/\/www.facebook.com\/apps\/application.php?id=116002660893<\/a>\n<a href=\"http:\/\/www.faceboo",
+                "uid": "72457"
+            }
+        }
+    }
+}

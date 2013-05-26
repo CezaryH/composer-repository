@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/dashboard-message-for-wordpress": {
+            "1.0": {
+                "name": "wordpress\/dashboard-message-for-wordpress",
+                "version": "1.0",
+                "version_normalized": "1.0.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/dashboard-message-for-wordpress.1.0.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>Displays a custom message on the dashboard with full HTML\/PHP\/JavaScript support. Useful for administrator who have clients as users.<\/p>\n\n<p>The plugin will display anything that's in the message.php file in the plugin's directory. Since the plugin uses a simple include,\nany kind of content is supported.<\/p>",
+                "uid": "64913"
+            }
+        }
+    }
+}

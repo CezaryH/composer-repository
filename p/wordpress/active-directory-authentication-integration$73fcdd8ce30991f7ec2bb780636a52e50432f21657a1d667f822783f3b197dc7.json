@@ -1,0 +1,40 @@
+{
+    "packages": {
+        "wordpress\/active-directory-authentication-integration": {
+            "0.6": {
+                "name": "wordpress\/active-directory-authentication-integration",
+                "version": "0.6",
+                "version_normalized": "0.6.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/active-directory-authentication-integration.0.6.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>This plugin allows WordPress to authenticate, authorize, create and update against an Active Directory domain. This plugin is based heavily on the <a href=\"http:\/\/wordpress.org\/extend\/plugins\/active-directory-integration\/\">Active Directory Integration<\/a> plugin, but has been modified to work with Multi Site and even Multi Network installations of WordPress.<\/p>\n\n<p>Some of the features included in this plugin are:<\/p>\n\n<ul>\n<li>authenticate against more than one AD Server (for balanced load)<\/li>\n<li>authorize users by Active Directory group memberships<\/li>\n<li>auto create and update users that can authenticate against AD\nmapping of AD groups to WordPress roles<\/li>\n<li>use TLS (or LDAPS) for secure communication to AD Servers (recommended)<\/li>\n<li>use non standard port for communication to AD Servers<\/li>\n<li>protection against brute force attacks<\/li>\n<li>user and\/or admin e-mail notification on failed login attempts<\/li>\n<li>determine WP display name from AD attributes (sAMAcc",
+                "uid": "53559"
+            },
+            "0.6.1": {
+                "name": "wordpress\/active-directory-authentication-integration",
+                "version": "0.6.1",
+                "version_normalized": "0.6.1.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/active-directory-authentication-integration.0.6.1.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>This plugin allows WordPress to authenticate, authorize, create and update against an Active Directory domain. This plugin is based heavily on the <a href=\"http:\/\/wordpress.org\/extend\/plugins\/active-directory-integration\/\">Active Directory Integration<\/a> plugin, but has been modified to work with Multi Site and even Multi Network installations of WordPress.<\/p>\n\n<p>Some of the features included in this plugin are:<\/p>\n\n<ul>\n<li>authenticate against more than one AD Server (for balanced load)<\/li>\n<li>authorize users by Active Directory group memberships<\/li>\n<li>auto create and update users that can authenticate against AD\nmapping of AD groups to WordPress roles<\/li>\n<li>use TLS (or LDAPS) for secure communication to AD Servers (recommended)<\/li>\n<li>use non standard port for communication to AD Servers<\/li>\n<li>protection against brute force attacks<\/li>\n<li>user and\/or admin e-mail notification on failed login attempts<\/li>\n<li>determine WP display name from AD attributes (sAMAcc",
+                "uid": "53560"
+            }
+        }
+    }
+}

@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/jp-staticpagex": {
+            "2.1": {
+                "name": "wordpress\/jp-staticpagex",
+                "version": "2.1",
+                "version_normalized": "2.1.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/jp-staticpagex.2.1.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>This plugin creates a variety of new functionallity.<\/p>\n\n<p>Redirection features: Posts and pages may feature a meta redirect key which can\nredirect the user to a post\/page based on a specific id, the most recent in a\ngiven category or the most recent with a given title.<\/p>\n\n<p>Replace feature: The contents of an entire page may be replaced with a\nsingle PHP file.<\/p>\n\n<p>Include feature: You may use inline includes in your posts and pages to include\na php script or otherwise.<\/p>\n\n<p>Inline PHP: You may write PHP directly into your posts and pages. However ensure\nyou read the instructions carefully before doing this. Most importantly inline\nPHP must not echo or print output, all output must be returned. As the code is\nis passed through eval() there are some other niggles too.<\/p>",
+                "uid": "114744"
+            }
+        }
+    }
+}

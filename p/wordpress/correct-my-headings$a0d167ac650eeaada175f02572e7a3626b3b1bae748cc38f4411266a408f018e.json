@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/correct-my-headings": {
+            "1.0": {
+                "name": "wordpress\/correct-my-headings",
+                "version": "1.0",
+                "version_normalized": "1.0.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/correct-my-headings.1.0.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>If your subheadings appear on archive pages, they need to start from H3 (because H2 tags are used by the post titles on archive pages).<\/p>\n\n<p>This plugin dynamically corrects subheadings before they are displayed on your site -- for SEO and semantic markup purposes.<\/p>\n\n<p>You will be able to select one of the following two options (the first one being the default):<\/p>\n\n<ul>\n<li><p>My subheadings start from the H2 level: <strong>turn them down<\/strong> a level on archive pages.\n<em>H2's become H3's, H3's become H4's, H4's become H5's, H5's become H6's and H6's become paragraphs<\/em><\/p><\/li>\n<li><p>My subheadings start from the H3 level: <strong>turn them up<\/strong> a level on single posts or pages.\n<em>H3's become H2's, H4's become H3's, H5's become H4's and H6's become H5's<\/em><\/p><\/li>\n<\/ul>\n\n<p><strong>This plugin does not make any changes to your database<\/strong>: the subheadings will <strong>only be displayed differently<\/strong> on the front-end site. \nIf you disable t",
+                "uid": "27000"
+            }
+        }
+    }
+}

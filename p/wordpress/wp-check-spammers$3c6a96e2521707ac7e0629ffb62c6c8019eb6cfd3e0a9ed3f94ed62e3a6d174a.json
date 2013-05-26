@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/wp-check-spammers": {
+            "0.4": {
+                "name": "wordpress\/wp-check-spammers",
+                "version": "0.4",
+                "version_normalized": "0.4.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/wp-check-spammers.0.4.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>Check comment against the SpamBot Search Tool using the IP address, the email and the name \nof the poster as search criteria. If anyone has already reported the user a as a known \nspammer the plugin will not let the comment to be posted and an email will be set to the \nblog admin. You can use your own installation of SpamBot Search Tool or you can use the \nXavier Media server.<\/p>",
+                "uid": "70412"
+            }
+        }
+    }
+}

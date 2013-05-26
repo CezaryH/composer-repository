@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/history-tracker": {
+            "1.0": {
+                "name": "wordpress\/history-tracker",
+                "version": "1.0",
+                "version_normalized": "1.0.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/history-tracker.1.0.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>Ever wanted your users to see all the pages that they have previously visited. Well now you can!<\/p>\n\n<p>Here's how it works:<\/p>\n\n<p>The value of the current url and an appropriate title of the page are stored in the users cookie. \nAs the user browses the site more the number of links stored grows.<\/p>\n\n<p><a href=\"http:\/\/codex.wordpress.org\/Shortcode_API\" title=\"WordPress shortcode\">shortcode<\/a><\/p>\n\n<p>You can place the '[history-tracker size =\"5\" order=\"oldest\"]' shorcode into any page or post or \nIf order attribute is set to olderst the order will be reversed. \nThere is no description or title attribute.<\/p>",
+                "uid": "70467"
+            }
+        }
+    }
+}

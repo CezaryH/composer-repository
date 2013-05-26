@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/postcasa": {
+            "1.0": {
+                "name": "wordpress\/postcasa",
+                "version": "1.0",
+                "version_normalized": "1.0.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/postcasa.1.0.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>There are a lot of great plugins for using Picasa based photos on your blog. So, why write another one?<\/p>\n\n<p>Most don't allow you to actually add a simple, inline slideshow - rather, they add all the images to the post and have whizbang slimbox integration, etc.<\/p>\n\n<p>This humble plugin does nothing of the sort.  All it does is add the standard Picasa EMBED slideshow, without needing any of the fancy code. It is designed for simple, but flexible use.<\/p>\n\n<p>All you need to do is use the [postcasa] shortcode around the RSS feed URL for your Picasa album, and the plugin does the rest.<\/p>\n\n<p><em>Example:<\/em> [postcasa]http:\/\/picasaweb.google.com\/data\/feed\/base\/user\/miloandrew\/albumid\/5273127970894080577?alt=rss&#38;kind=photo&#38;authkey=VWY2bThuIvM&#38;hl=en_US[\/postcasa]<\/p>\n\n<p>It supports all of the standard Picasa embed options.<\/p>",
+                "uid": "96604"
+            }
+        }
+    }
+}

@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/wlw-login": {
+            "1.0": {
+                "name": "wordpress\/wlw-login",
+                "version": "1.0",
+                "version_normalized": "1.0.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/wlw-login.1.0.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>If you use a plugin like <a href=\"http:\/\/wordpress.org\/extend\/plugins\/private-wp\/\">Private WP<\/a> to make your blog available only to\nregistered users, then the auto-configuration ability of Windows Live Writer no longer works for your blog. To make Windows\nLive Writer work again, install this plugin. It will make sure that the configuration files for Windows Live Writer are linked\nfrom the login page, which does the trick.<\/p>",
+                "uid": "105679"
+            }
+        }
+    }
+}

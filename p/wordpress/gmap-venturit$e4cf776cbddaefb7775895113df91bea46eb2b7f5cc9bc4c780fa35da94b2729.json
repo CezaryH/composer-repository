@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/gmap-venturit": {
+            "1.1": {
+                "name": "wordpress\/gmap-venturit",
+                "version": "1.1",
+                "version_normalized": "1.1.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/gmap-venturit.1.1.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>Use short code;<\/p>\n\n<p>example: Place in a post or a page:<\/p>\n\n<p>[gmap a=\"505 East Michigan Avenue,Lansing, MI 48912-1148\" w=\"400\" h=\"400\" z=\"1\", i=\"near\"]<\/p>\n\n<p>a = the complete address\nh = height\nw = width\nz= zoom (number range: 1-16; where 1 is the coarsest, or furthest away )\ni = info bubble (options A =&#62; show, near =&#62; hide)<\/p>\n\n<p>Plugin URI: <a href=\"http:\/\/www.venturit.org\" rel=\"nofollow\">http:\/\/www.venturit.org<\/a>\nAuthor: Venturit Inc.\nVersion: 1.0\nAuthor URI:  <a href=\"http:\/\/www.venturit.com\" rel=\"nofollow\">http:\/\/www.venturit.com<\/a>\nCredits : Inspired by Google Map, Plugin by Shaon at dub3 dot intelisoftbd dot com<\/p>",
+                "uid": "73353"
+            }
+        }
+    }
+}

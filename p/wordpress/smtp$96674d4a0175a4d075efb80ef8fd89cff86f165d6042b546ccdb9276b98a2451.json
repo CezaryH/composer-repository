@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/smtp": {
+            "1.1.2": {
+                "name": "wordpress\/smtp",
+                "version": "1.1.2",
+                "version_normalized": "1.1.2.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/smtp.1.1.2.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>This plugin configures WordPress to use a SMTP server when sending emails instead of the default PHP <code>mail()<\/code> function.<\/p>\n\n<p>It also creates a settings page where you can enter the SMTP server details and authenticatin credentials if needed.<\/p>",
+                "uid": "44500"
+            }
+        }
+    }
+}

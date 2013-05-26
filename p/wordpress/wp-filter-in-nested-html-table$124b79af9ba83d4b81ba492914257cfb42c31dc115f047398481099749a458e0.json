@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/wp-filter-in-nested-html-table": {
+            "1.0": {
+                "name": "wordpress\/wp-filter-in-nested-html-table",
+                "version": "1.0",
+                "version_normalized": "1.0.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/wp-filter-in-nested-html-table.1.0.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>If you are interested in understanding or developing WordPress, sooner or later you might want to trace do_action('template_redirect'). With the knowledge from function's documentation, you know $wp_filter is involved. You may show array using val_dump or print_r, but it will take time for human eyes to read array in plain text directly. This plugin will show $wp_filter content in nested html table style for your easy reference. When activated you will see immediate result of your admin screen on every page.  Version: 1.0<\/p>",
+                "uid": "22065"
+            }
+        }
+    }
+}

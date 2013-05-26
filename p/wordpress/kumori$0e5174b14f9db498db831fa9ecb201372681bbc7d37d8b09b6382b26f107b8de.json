@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/kumori": {
+            "0.21": {
+                "name": "wordpress\/kumori",
+                "version": "0.21",
+                "version_normalized": "0.21.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/kumori.0.21.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>It's a plugin that lets the users upload video files and transcode them on-the-fly using AWS Elastic Transcoder and S3 Services.\nUsing Kumori is pretty simple, just select the presets you want, upload the file, and then your video file becomes kumori-fied!\nIt requires a subscription at AWS.<\/p>",
+                "uid": "10356"
+            }
+        }
+    }
+}

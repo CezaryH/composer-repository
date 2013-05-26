@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/plos-alm-widget": {
+            "1.0": {
+                "name": "wordpress\/plos-alm-widget",
+                "version": "1.0",
+                "version_normalized": "1.0.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/plos-alm-widget.1.0.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>PLOS ALM Widget will display PLOS article-level metrics (ALMs) based on the ALM 2.0 API. It can accommodate the display of ALMs for a single or multiple articles. Users will be able to add the widget plug-in to any Wordpress blog. To populate the widget, users enter a PLOS article DOI (e.g., 10.1371\/journal.pone.0000039) in the control panel. Once added, the widget displays the ALMs on the appropriate page. If any of the metrics have no data or 0 value, that metric will not display in the widget. If no metrics exist for an article, the entire article will not display. If there are no articles in the widget with ALMs, the widget will not display.<\/p>\n\n<p>Possible use cases for the widget include:<\/p>\n\n<ol>\n<li>A researcher with a Wordpress webpage who has published one or more articles with PLOS<\/li>\n<li>A lab webpage on Wordpress with multiple researchers who have published one or more articles with PLOS<\/li>\n<li>University department or funding agency  webpage on Wordpress with man",
+                "uid": "17865"
+            }
+        }
+    }
+}

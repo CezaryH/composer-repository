@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/gtm-data-layer": {
+            "1.1": {
+                "name": "wordpress\/gtm-data-layer",
+                "version": "1.1",
+                "version_normalized": "1.1.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/gtm-data-layer.1.1.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>This plugin will allow you to automatically insert the Google Tag Manager script in your wordpress installation and also make available a dataLayer set of contextual data that can be used inside Google Tag Manager.<\/p>\n\n<p>Supported data inside the dataLayer:\n- platform (default value: wordpress)\n- website name\n- page type\n- category for articles\n- wordcount for pages and articles<\/p>",
+                "uid": "9270"
+            }
+        }
+    }
+}

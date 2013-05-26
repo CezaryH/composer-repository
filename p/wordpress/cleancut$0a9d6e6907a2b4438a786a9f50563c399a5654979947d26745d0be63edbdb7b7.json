@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/cleancut": {
+            "1.2.0": {
+                "name": "wordpress\/cleancut",
+                "version": "1.2.0",
+                "version_normalized": "1.2.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/cleancut.1.2.0.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>A couple of simple php functions that, when passed a string of text and a length value, strips the text of html tags and markup, and cuts it to the specified length.<\/p>\n\n<p>clencut_w returns the given number of words or less, cleancut_c returns given number of characters or less. Only complete words are returned.<\/p>\n\n<p>They can be called as <code>cleancut_w($string,$length)<\/code> and <code>cleancut_c($string,$length=50)<\/code> from any template file.<\/p>\n\n<p>Example: <code>&#60;?php $text_clean = cleancut_w($sometext,50); echo $text_clean; ?&#62;<\/code>.<\/p>",
+                "uid": "50973"
+            }
+        }
+    }
+}

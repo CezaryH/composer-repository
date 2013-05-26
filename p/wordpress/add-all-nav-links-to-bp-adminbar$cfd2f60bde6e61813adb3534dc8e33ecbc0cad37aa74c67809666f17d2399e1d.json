@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/add-all-nav-links-to-bp-adminbar": {
+            "2.1.2": {
+                "name": "wordpress\/add-all-nav-links-to-bp-adminbar",
+                "version": "2.1.2",
+                "version_normalized": "2.1.2.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/add-all-nav-links-to-bp-adminbar.2.1.2.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>Do you, or your users, find having 2 navigation elements a bit confusing? This plugin can aggregate all Buddypress components and Wordpress pages\/menus into the BP Adminbar.<\/p>\n\n<p>It provides several user configuration options so you can customize your new admin\/navbar to your heart's content. As of this version, you can also use this plugin just to theme your existing bp-adminbar without adding anything to it. See the FAQ for more.<\/p>\n\n<p>When the \"Add Wordpress pages\" or \"Add Buddypress components\" features are enabled, all BP component directory pages (Members, Groups, Forums, etc.) are collected in a Community dropdown, including any from added plugins like BP-Links or BP-Gallery. All WP pages appear in dropdowns that respect whatever page order you have set in your WP backend. Under WP3, they will reflect the page order you set when creating your custom menus. Child and grandchild pages appear in flyout subnavs.<\/p>\n\n<p>The plugin code uses standard BP slugs, so if you've ch",
+                "uid": "64220"
+            }
+        }
+    }
+}

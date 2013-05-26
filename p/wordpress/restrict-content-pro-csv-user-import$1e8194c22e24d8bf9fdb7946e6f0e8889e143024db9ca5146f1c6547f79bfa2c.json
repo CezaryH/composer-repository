@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/restrict-content-pro-csv-user-import": {
+            "1.0": {
+                "name": "wordpress\/restrict-content-pro-csv-user-import",
+                "version": "1.0",
+                "version_normalized": "1.0.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/restrict-content-pro-csv-user-import.1.0.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>This plugin is an add-on for <a href=\"http:\/\/pippinsplugins.com\/restrict-content-pro-premium-content-plugin\/\">Restrict Content Pro<\/a>, a complete subscription and premium content manager plugin for WordPress.<\/p>\n\n<p>Once activated, this plugin will provide a new menu item under the Restrict menu called \"CSV Import\".<\/p>\n\n<p>In order to import correctly, you must preformat your CSV to match the requirements of the plugin. You CSV should have the following columns:<\/p>\n\n<p><strong>user_email, first_name, last_name, user_login<\/strong><\/p>\n\n<p>A sample CSV is included in the plugin's folder that you can use for reference.<\/p>\n\n<p>The user's email address is the only column that requires a value. If user_login is left blank, the user's email address will be used for their login name.<\/p>\n\n<p>When importing, every user has their password auto generated, so each user will need to go through the recover a lost password process.<\/p>\n\n<p><strong>Note:<\/strong> this plugin should be able to",
+                "uid": "18802"
+            }
+        }
+    }
+}

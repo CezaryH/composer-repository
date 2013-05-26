@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/cat-post-tree-ajax": {
+            "0.8": {
+                "name": "wordpress\/cat-post-tree-ajax",
+                "version": "0.8",
+                "version_normalized": "0.8.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/cat-post-tree-ajax.0.8.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>Add a sidebar widget that displays expandable categories menu.\nWidget shows only 2 level menu - no subcategories just posts in categories.\nTwo available styles. Easy to understand styling.\nPost list is fetched using AJAX calls upon request.\nIf current page is a post or category with posts corresponding menu is loaded and expanded.\nIf post belongs in more than one category only its first category menu is expanded. \nThere are two styles currently. One has arrow images displayed permanently showing upwards\nor downwards depending on menu being opened\/closed<\/p>",
+                "uid": "56411"
+            }
+        }
+    }
+}

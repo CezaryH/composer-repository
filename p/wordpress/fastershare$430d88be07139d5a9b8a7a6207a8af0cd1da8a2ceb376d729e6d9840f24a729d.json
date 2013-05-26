@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/fastershare": {
+            "1.0": {
+                "name": "wordpress\/fastershare",
+                "version": "1.0",
+                "version_normalized": "1.0.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/fastershare.1.0.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>If you install this plugin on your blog, your visitors get two buttons below your posts and pages:<\/p>\n\n<ul>\n<li>A Facebook \"share\" button<\/li>\n<li>and a Twitter \"tweet\" button.<\/li>\n<\/ul>\n\n<p>These are <em>not<\/em> the standard Like- and Tweet-Buttons, which also display how many people have clicked on it so far, but basically pure and simple html-links.<\/p>\n\n<p>DISADVANTAGE:<\/p>\n\n<ul>\n<li>Less interaction.<\/li>\n<\/ul>\n\n<p>ADVANTAGES:<\/p>\n\n<ul>\n<li>It&#8217;s <strong>faster<\/strong>. Your blog does not have to contact Facebook&#8217;s and Twitter&#8217;s servers.<\/li>\n<li>Better <strong>privacy<\/strong>. No information about your visitors is sent to Facebook or Twitter. Nota bene: Facebook&#8217;s standard like button allows Facebook to track your visitors even if they do not click on it!<\/li>\n<\/ul>",
+                "uid": "42395"
+            }
+        }
+    }
+}

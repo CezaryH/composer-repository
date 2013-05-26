@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/pinterest-repellent": {
+            "1.0": {
+                "name": "wordpress\/pinterest-repellent",
+                "version": "1.0",
+                "version_normalized": "1.0.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/pinterest-repellent.1.0.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>Extending the image attributes to include nopin=\"nopin\" within the &#60;img \/&#62; tag.  The nopin attribute blocks the specified image from being pinned when using the \"Pin It\" button.<\/p>\n\n<p>An example would look like: &#60;img src=\"yourimage.jpg\" nopin=\"nopin\" \/&#62;<\/p>\n\n<p>This plugin does not automatically add the nopin attribute to every image within your blog; it merely allows you to add it to your images without fear of Wordpress removing the tag when your post is published.<\/p>\n\n<p>PLEASE NOTE: This plugin overides current image tag attributes, thus if you use any other attributes other than the ones listed below, they will be removed from your image tags automatically once this plugin is activated.<\/p>\n\n<p>Available attributes:<\/p>\n\n<ul><li>src<\/li>\n<li>alt<\/li>\n<li>title<\/li>\n<li>class<\/li>\n<li>id<\/li>\n<li>style<\/li>\n<li>align<\/li>\n<li>border<\/li>\n<li>crossorigin<\/li>\n<li>height<\/li>\n<li>hspace<\/li>\n<li>ismap<\/li>\n<li>longdesc<\/li>\n<li>usemap<\/li>\n<li>vspace<\/li>\n<li>wi",
+                "uid": "8216"
+            }
+        }
+    }
+}

@@ -1,0 +1,40 @@
+{
+    "packages": {
+        "wordpress\/show-post-by-selective-category": {
+            "1.5": {
+                "name": "wordpress\/show-post-by-selective-category",
+                "version": "1.5",
+                "version_normalized": "1.5.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/show-post-by-selective-category.1.5.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>This plugin will allow you to show specific number of posts from a selective category. To use this plugin, you have to place a tag in the following format in your posts or pages:\n[pbc=CategoryID count=num_of_posts]<\/p>\n\n<p>Example<\/p>\n\n<p>To show 4 posts from category with ID 22 [pbc=22 count=4]\nTo show 100 posts from category with ID 6 [pbc=6 count=100]<\/p>",
+                "uid": "109128"
+            },
+            "1.50": {
+                "name": "wordpress\/show-post-by-selective-category",
+                "version": "1.50",
+                "version_normalized": "1.50.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/show-post-by-selective-category.1.50.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>This plugin will allow you to show specific number of posts from a selective category. To use this plugin, you have to place a tag in the following format in your posts or pages:\n[pbc=CategoryID count=num_of_posts]<\/p>\n\n<p>Example<\/p>\n\n<p>To show 4 posts from category with ID 22 [pbc=22 count=4]\nTo show 100 posts from category with ID 6 [pbc=6 count=100]<\/p>",
+                "uid": "109129"
+            }
+        }
+    }
+}

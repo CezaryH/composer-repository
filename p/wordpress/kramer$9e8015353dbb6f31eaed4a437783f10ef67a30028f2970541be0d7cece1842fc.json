@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/kramer": {
+            "0.7.7": {
+                "name": "wordpress\/kramer",
+                "version": "0.7.7",
+                "version_normalized": "0.7.7.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/kramer.0.7.7.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>Kramer will add inbound links to a post on your weblog as pingbacks without the need for the author of the post on blog A to send a ping to blog B by using both Technorati and by monitoring incoming referrers.<\/p>\n\n<p>What this means is that pingback, trackback and other post-pinging tools are no longer required, as all links to a post will be found and shown as pingbacks.  To show links to the main weblog, or to other pages in general, a function called <code>kramer_inbound()<\/code> is provided. It can be used in Wordpress templates to display a list of the latest inbound links to that page.  It is usually included in the sidebar of a blog and can be fully configured via the Kramer administration interface.<\/p>",
+                "uid": "114639"
+            }
+        }
+    }
+}

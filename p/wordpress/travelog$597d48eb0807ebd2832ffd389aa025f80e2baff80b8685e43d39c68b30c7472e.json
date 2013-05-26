@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/travelog": {
+            "2.5": {
+                "name": "wordpress\/travelog",
+                "version": "2.5",
+                "version_normalized": "2.5.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/travelog.2.5.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>Travelog adds a geographic dimension to WordPress by helping you keep track of the places you've been. You can create trips, add locations to posts (\"posted from...\") and easily create embedded <a href=\"http:\/\/maps.google.com\/\" title=\"GoogleMaps\">GoogleMaps<\/a> of any places\/trips in your Travelog.<\/p>",
+                "uid": "114531"
+            }
+        }
+    }
+}

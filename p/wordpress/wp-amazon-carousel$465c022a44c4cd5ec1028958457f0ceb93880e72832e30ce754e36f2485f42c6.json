@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/wp-amazon-carousel": {
+            "1.6": {
+                "name": "wordpress\/wp-amazon-carousel",
+                "version": "1.6",
+                "version_normalized": "1.6.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/wp-amazon-carousel.1.6.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>Add slick looking Amazon Carousel widgets to your blog posts in a brain-dead simple way! \nJust say <code>[carousel]<\/code> to add a Carousel anywhere on your blog.<\/p>\n\n<p>Amazon Widgets are small Flash-based mini-applications that bring Amazon's rich features right to your website. The Amazon Carousel is a cute looking Flash widget which lets you showcase products that are relevant to your blog post.<\/p>\n\n<p>There are many ways to create a Carousel. Here are some:<\/p>\n\n<ol>\n<li><p><code>[carousel]<\/code> <br \/>\nThis creates a Carousel containing the latest bestselling books from Amazon.<\/p><\/li>\n<li><p><code>[carousel marketplace=\"GB\"]<\/code> <br \/>\nThis creates a Carousel containing the latest bestselling books from Amazon.co.uk. Valid values for market place are: JP, FR, DE, GB, US, CA<\/p><\/li>\n<li><p><code>[carousel list=\"Bestsellers\" category=\"Jewelry\"]<\/code> &#60;br\/&#62;\nThis creates a Carousel containing the latest bestsellers from the Amazon Jewelry store (<a href=\"http:\/\/",
+                "uid": "99050"
+            }
+        }
+    }
+}

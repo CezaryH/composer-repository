@@ -1,0 +1,57 @@
+{
+    "packages": {
+        "wordpress\/biblegateway-votd": {
+            "2.2": {
+                "name": "wordpress\/biblegateway-votd",
+                "version": "2.2",
+                "version_normalized": "2.2.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/biblegateway-votd.2.2.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>Adds <a href=\"http:\/\/www.biblegateway.com\/\">BibleGateway.com<\/a>'s verse of the day as a sidebar widget, or inside a page or post using the shortcode <code>[biblevotd]<\/code>. Different Bible translations can be selected from the widget's page or as options in the shortcode.<\/p>\n\n<p>The plugin defaults to using the NIV translation. You can specify other translations in the widget settings or with the \"version\" option in the shortcode. For example, to use the KJV in a page or post, write:<\/p>\n\n<pre><code>[biblevotd version=&#34;KJV&#34;]<\/code><\/pre>\n\n<p>Version 3.0 of this plugin is a complete rewrite. It leverages several new methods for retrieving the verse to prevent any delays when visitors load your site. The plugin will attempt to retrieve and cache the verse behind the scenes. If it is available it will directly serve the cache. If it is not, it will fallback to using the jQuery JavaScript library. This includes the JavaScript code necessary to insert the verse but not execut",
+                "uid": "83845"
+            },
+            "2.3": {
+                "name": "wordpress\/biblegateway-votd",
+                "version": "2.3",
+                "version_normalized": "2.3.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/biblegateway-votd.2.3.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>Adds <a href=\"http:\/\/www.biblegateway.com\/\">BibleGateway.com<\/a>'s verse of the day as a sidebar widget, or inside a page or post using the shortcode <code>[biblevotd]<\/code>. Different Bible translations can be selected from the widget's page or as options in the shortcode.<\/p>\n\n<p>The plugin defaults to using the NIV translation. You can specify other translations in the widget settings or with the \"version\" option in the shortcode. For example, to use the KJV in a page or post, write:<\/p>\n\n<pre><code>[biblevotd version=&#34;KJV&#34;]<\/code><\/pre>\n\n<p>Version 3.0 of this plugin is a complete rewrite. It leverages several new methods for retrieving the verse to prevent any delays when visitors load your site. The plugin will attempt to retrieve and cache the verse behind the scenes. If it is available it will directly serve the cache. If it is not, it will fallback to using the jQuery JavaScript library. This includes the JavaScript code necessary to insert the verse but not execut",
+                "uid": "83844"
+            },
+            "3.0": {
+                "name": "wordpress\/biblegateway-votd",
+                "version": "3.0",
+                "version_normalized": "3.0.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/biblegateway-votd.3.0.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>Adds <a href=\"http:\/\/www.biblegateway.com\/\">BibleGateway.com<\/a>'s verse of the day as a sidebar widget, or inside a page or post using the shortcode <code>[biblevotd]<\/code>. Different Bible translations can be selected from the widget's page or as options in the shortcode.<\/p>\n\n<p>The plugin defaults to using the NIV translation. You can specify other translations in the widget settings or with the \"version\" option in the shortcode. For example, to use the KJV in a page or post, write:<\/p>\n\n<pre><code>[biblevotd version=&#34;KJV&#34;]<\/code><\/pre>\n\n<p>Version 3.0 of this plugin is a complete rewrite. It leverages several new methods for retrieving the verse to prevent any delays when visitors load your site. The plugin will attempt to retrieve and cache the verse behind the scenes. If it is available it will directly serve the cache. If it is not, it will fallback to using the jQuery JavaScript library. This includes the JavaScript code necessary to insert the verse but not execut",
+                "uid": "83843"
+            }
+        }
+    }
+}

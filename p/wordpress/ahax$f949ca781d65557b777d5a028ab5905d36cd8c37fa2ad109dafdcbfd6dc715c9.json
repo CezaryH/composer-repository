@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/ahax": {
+            "1.0": {
+                "name": "wordpress\/ahax",
+                "version": "1.0",
+                "version_normalized": "1.0.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/ahax.1.0.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>AHAX is a drop-in solution that allows theme or plug-in developers to take advantage of a very simple and streamlined way of making AJAX requests.<\/p>\n\n<p>The goal of this plugin is to make the process of setting up an AJAX request as simple as possible.<\/p>\n\n<p>This plugin centers AJAX requests around an \"action.\" This action is \"bound\" to a function (handler) on the back-end and called to from front-end via a custom JavaScript class method -- this process is demonstrated below.<\/p>\n\n<h4>Back-End<\/h4>\n\n<pre><code>ahax::bind( 'get_random_number', 'generate_number' );\nfunction generate_number($output) {\n    $max = abs( ( int ) $_POST['max'] );\n    $output = mt_rand( 0 , ( $max &#60;= 1000 ? $max : 1000 ) );\n    return $output;\n}\n<\/code><\/pre>\n\n<h4>Front-End<\/h4>\n\n<pre><code>var ahax = new AHAX();\nahax.post( 'get_random_number', { max : 1000 }, function( response ) {\n    jQuery( '#ahax_number' ).html( response );\n});\n<\/code><\/pre>\n\n<h4>Website<\/h4>\n\n<p><a href=\"http:\/\/dan.doezema.com\/",
+                "uid": "49193"
+            }
+        }
+    }
+}

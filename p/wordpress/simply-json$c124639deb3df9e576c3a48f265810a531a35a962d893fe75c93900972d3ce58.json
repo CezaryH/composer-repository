@@ -1,0 +1,57 @@
+{
+    "packages": {
+        "wordpress\/simply-json": {
+            "0.1": {
+                "name": "wordpress\/simply-json",
+                "version": "0.1",
+                "version_normalized": "0.1.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/simply-json.0.1.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>Um die Ausgabe als JSON zu aktivieren, muss an eine beliebige Wordpress-URL nur der GET Parameter \"json\" angeh&#228;ngt werden:<\/p>\n\n<p>?json<\/p>\n\n<p>\/category\/news\/?json  Posts innerhalb einer Kategorie auslesen. \n\/hello-world\/?json  Einen einzelnen Post auslesen.<\/p>\n\n<p>Es k&#246;nnen optional zwei GET Parameter &#252;bergeben werden:<\/p>\n\n<p>?json&#38;count=3  Durch den Parameter \"count\" kann die Anzahl der Posts in der R&#252;ckgabe limitiert werden.<\/p>\n\n<p>?json&#38;category=news  M&#246;glicherweise ist ein Filtern nach Katagorie auch per GET Parameter gefragt.<\/p>\n\n<p>Das JSON liefert allgemeine Informationen &#252;ber den Blog:<\/p>\n\n<ul>\n<li>blog_title <\/li>\n<li>blog_desc <\/li>\n<li>blog_url <\/li>\n<li>blog_rss <\/li>\n<\/ul>\n\n<p>...und Inhalte des Posts:<\/p>\n\n<ul>\n<li>id <\/li>\n<li>slug  (Teil des Permalink ohne die Domain) <\/li>\n<li>url  (Permalink) <\/li>\n<li>title <\/li>\n<li>excerpt <\/li>\n<li>author <\/li>\n<li>date  (wie in Wordpress konfiguriert) <\/li>\n<li>categories  (Array a",
+                "uid": "10736"
+            },
+            "0.2": {
+                "name": "wordpress\/simply-json",
+                "version": "0.2",
+                "version_normalized": "0.2.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/simply-json.0.2.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>Um die Ausgabe als JSON zu aktivieren, muss an eine beliebige Wordpress-URL nur der GET Parameter \"json\" angeh&#228;ngt werden:<\/p>\n\n<p>?json<\/p>\n\n<p>\/category\/news\/?json  Posts innerhalb einer Kategorie auslesen. \n\/hello-world\/?json  Einen einzelnen Post auslesen.<\/p>\n\n<p>Es k&#246;nnen optional zwei GET Parameter &#252;bergeben werden:<\/p>\n\n<p>?json&#38;count=3  Durch den Parameter \"count\" kann die Anzahl der Posts in der R&#252;ckgabe limitiert werden.<\/p>\n\n<p>?json&#38;category=news  M&#246;glicherweise ist ein Filtern nach Katagorie auch per GET Parameter gefragt.<\/p>\n\n<p>Das JSON liefert allgemeine Informationen &#252;ber den Blog:<\/p>\n\n<ul>\n<li>blog_title <\/li>\n<li>blog_desc <\/li>\n<li>blog_url <\/li>\n<li>blog_rss <\/li>\n<\/ul>\n\n<p>...und Inhalte des Posts:<\/p>\n\n<ul>\n<li>id <\/li>\n<li>slug  (Teil des Permalink ohne die Domain) <\/li>\n<li>url  (Permalink) <\/li>\n<li>title <\/li>\n<li>excerpt <\/li>\n<li>author <\/li>\n<li>date  (wie in Wordpress konfiguriert) <\/li>\n<li>categories  (Array a",
+                "uid": "10735"
+            },
+            "0.3": {
+                "name": "wordpress\/simply-json",
+                "version": "0.3",
+                "version_normalized": "0.3.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/simply-json.0.3.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>Um die Ausgabe als JSON zu aktivieren, muss an eine beliebige Wordpress-URL nur der GET Parameter \"json\" angeh&#228;ngt werden:<\/p>\n\n<p>?json<\/p>\n\n<p>\/category\/news\/?json  Posts innerhalb einer Kategorie auslesen. \n\/hello-world\/?json  Einen einzelnen Post auslesen.<\/p>\n\n<p>Es k&#246;nnen optional zwei GET Parameter &#252;bergeben werden:<\/p>\n\n<p>?json&#38;count=3  Durch den Parameter \"count\" kann die Anzahl der Posts in der R&#252;ckgabe limitiert werden.<\/p>\n\n<p>?json&#38;category=news  M&#246;glicherweise ist ein Filtern nach Katagorie auch per GET Parameter gefragt.<\/p>\n\n<p>Das JSON liefert allgemeine Informationen &#252;ber den Blog:<\/p>\n\n<ul>\n<li>blog_title <\/li>\n<li>blog_desc <\/li>\n<li>blog_url <\/li>\n<li>blog_rss <\/li>\n<\/ul>\n\n<p>...und Inhalte des Posts:<\/p>\n\n<ul>\n<li>id <\/li>\n<li>slug  (Teil des Permalink ohne die Domain) <\/li>\n<li>url  (Permalink) <\/li>\n<li>title <\/li>\n<li>excerpt <\/li>\n<li>author <\/li>\n<li>date  (wie in Wordpress konfiguriert) <\/li>\n<li>categories  (Array a",
+                "uid": "10734"
+            }
+        }
+    }
+}

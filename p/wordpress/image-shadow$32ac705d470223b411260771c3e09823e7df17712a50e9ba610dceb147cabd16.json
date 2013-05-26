@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/image-shadow": {
+            "1.1.0": {
+                "name": "wordpress\/image-shadow",
+                "version": "1.1.0",
+                "version_normalized": "1.1.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/image-shadow.1.1.0.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>Some WordPress themes style images frames and drop-shadows. The Image Shadow plugin lets you have such image styling without having to use a special theme. It automatically adds a soft, realistic drop-shadow to the jpeg images in your post content. You can choose the shadow's depth and orientation. You can even add frame to the image. You can let the image grow a shadow or you can ensure that the shadowed image fits in the same space as the original.<\/p>\n\n<p>Version 1.1 lets you add shadows to only those images with a given class attribute (the attribute must come after the src attribute). You can also have shadows with a transparent background by leaving the background colour blank.<\/p>\n\n<p>The shadowed images are cached on your server for fast delivery which means that your PHP setup must allow the creation of new files. You must also have the GD library installed.<\/p>\n\n<p><strong>NB<\/strong> I am aware that the settings screen, though functional, has problems in Internet Explorer",
+                "uid": "102161"
+            }
+        }
+    }
+}

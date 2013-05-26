@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/posts-categories-in-sidebar": {
+            "1.0": {
+                "name": "wordpress\/posts-categories-in-sidebar",
+                "version": "1.0",
+                "version_normalized": "1.0.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/posts-categories-in-sidebar.1.0.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>This plugin was created to show the categories for a single post in the sidebar.<\/p>\n\n<p>The categories will be displayed in an unordered list.<\/p>\n\n<p>You can choose the title for the widget in the sidebar if you wish.<\/p>\n\n<p><strong>If you're using the plugin, please drop the link to your blog <a href=\"http:\/\/wordpress.org\/support\/topic\/plugin-posts-categories-in-sidebar-using-this-widget\">here<\/a>.<\/strong><\/p>\n\n<p>Example:<\/p>\n\n<pre><code>&#60;li id=\"cz_post_cat-3\" class=\"widget-container widget_cz_post_cat\"&#62;\n    &#60;h3 class=\"widget-title\"&#62;Topics&#60;\/h3&#62;\n    &#60;div class=\"cz-post-cats\"&#62;\n        &#60;ul class=\"cz-cat-ul\"&#62;\n            &#60;li class=\"cz-cat-li\"&#62;&#60;a href=\"http:\/\/xxx.xxx.xxx\/topic\/facebook\/\"&#62;Facebook&#60;\/a&#62;&#60;\/li&#62;\n            &#60;li class=\"cz-cat-li\"&#62;&#60;a href=\"http:\/\/xxx.xxx.xxx\/topic\/jobs\/\"&#62;Jobs&#60;\/a&#62;&#60;\/li&#62;\n        &#60;\/ul&#62;\n    &#60;\/div&#62;\n&#60;\/li&#62;\n<\/code><\/pre>\n\n<p>It uses the <co",
+                "uid": "32700"
+            }
+        }
+    }
+}

@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/cloudflare-url-replacement": {
+            "0.7": {
+                "name": "wordpress\/cloudflare-url-replacement",
+                "version": "0.7",
+                "version_normalized": "0.7.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/cloudflare-url-replacement.0.7.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>Super simple URL replacer for CloudFlare CDN user.\nEasy way for optimize server load and gain perfomance on static file.<\/p>\n\n<h4>Current support for<\/h4>\n\n<ul>\n<li>Css and Js using enqueue system<\/li>\n<li>Images inside post and widget<\/li>\n<li>Images through get_the_post_thumbnail<\/li>\n<\/ul>\n\n<p>Source code here: <a href=\"https:\/\/gist.github.com\/2437025\" rel=\"nofollow\">https:\/\/gist.github.com\/2437025<\/a><\/p>\n\n<h4>Recommendations<\/h4>\n\n<p>This is a beta version - no guarantee for production use<\/p>",
+                "uid": "26226"
+            }
+        }
+    }
+}

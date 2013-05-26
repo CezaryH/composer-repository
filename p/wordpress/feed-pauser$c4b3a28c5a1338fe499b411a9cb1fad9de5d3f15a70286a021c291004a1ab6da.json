@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/feed-pauser": {
+            "1.0": {
+                "name": "wordpress\/feed-pauser",
+                "version": "1.0",
+                "version_normalized": "1.0.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/feed-pauser.1.0.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>Feed Pauser is a plugin I wrote to address a issue I have been facing for a long time, the option to delay publishing a post to a feed. Feed pauser, pauses a post from being made available through RSS.<\/p>\n\n<p>The reason was that several times, I would have made some mistakes in the post gramatically, spellings or even added a wrong link, with instant feed publishing the readers who already received the feeds may see wrong data, which can be avoided if we have a option to pause the feed for a certain amount of time.<\/p>\n\n<p>In addition to that when you apply styles to WordPress a test post is published which looks bad when your RSS readers see it, this can easily be avoided with a delay between publishing a post to your site and it being available through your feed.<\/p>\n\n<p>The newer version of Feed Pauser also allows users to disable individual posts from appearing in feeds.<\/p>\n\n<p><a href=\"http:\/\/forum.techie-buzz.com\/forum.php?id=9&#38;page\">Support<\/a> &#124;\n<a href=\"http:\/\/te",
+                "uid": "89283"
+            }
+        }
+    }
+}

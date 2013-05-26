@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/xwolf-progress-bar": {
+            "1.2": {
+                "name": "wordpress\/xwolf-progress-bar",
+                "version": "1.2",
+                "version_normalized": "1.2.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/xwolf-progress-bar.1.2.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>Displays one or more progress bars.\nAll progress bars get data by an external source (URL) and will be automatically \nupdated.<\/p>\n\n<h4>Use as widget<\/h4>\n\n<p>Simply add the progress bar widget to the sidebar you want to display it.\nWithin the widget you can set a title and an URL and other optional settings.<\/p>\n\n<h4>Use as shortcode within articles and pages<\/h4>\n\n<p>To use the progress bars add a shortcode like this:<\/p>\n\n<pre><code>[progressbar url=&#34;http:\/\/your.url\/data.csv&#34;]<\/code><\/pre>\n\n<p>Additional attributes:<\/p>\n\n<ul>\n<li>color - set a color out of green, blue, red, orange<\/li>\n<li>unitstr - string to add a unit <\/li>\n<li>rounded - make bars and box with rounded borders<\/li>\n<li>total - show total numbers<\/li>\n<li>numbers - show numbers of each bar<\/li>\n<li>numberbar - no break between bar and numbers<\/li>\n<li>html5 - use HTML5 progress-tag.<\/li>\n<\/ul>\n\n<h4>Examples<\/h4>\n\n<p>Default progress bar:<\/p>\n\n<pre><code>[progressbar url=&#34;http:\/\/your.url\/data.txt&#34; ",
+                "uid": "13528"
+            }
+        }
+    }
+}

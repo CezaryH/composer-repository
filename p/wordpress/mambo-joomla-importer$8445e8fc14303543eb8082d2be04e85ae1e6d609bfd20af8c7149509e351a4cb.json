@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/mambo-joomla-importer": {
+            "1.0": {
+                "name": "wordpress\/mambo-joomla-importer",
+                "version": "1.0",
+                "version_normalized": "1.0.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/mambo-joomla-importer.1.0.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>Before wordpress become what it is today, many of us use mambo and joomla. Then after mambo developer stop the development, we we forced to migrate to joomla and other wordpress.\nBut some of us , we make so many changes to the site, its worth thousands of article; which are a burden to migrate them.<\/p>\n\n<p>This plugin will do 2 things. By order :<\/p>\n\n<ul>\n<li>Retrieve data from the mambo \/ joomla database by using pure php. this data will be represented into strings which can be saved as a text-document.<\/li>\n<li>Convert the data retrieved from mambo \/ joomla into wordpress pages<\/li>\n<\/ul>\n\n<p>Limitation :\n* no support for media migration. no  image \/ document \/ pdf \/ etc  will be transfered into the wordpress site.<\/p>\n\n<p>in case you want to visit this plugin page on my site, click <a href=\"http:\/\/misterpah.com\/scripts\/import-mambo-into-wordpress\/\" title=\"import mambo joomla into wordpress\">here<\/a><\/p>",
+                "uid": "44750"
+            }
+        }
+    }
+}

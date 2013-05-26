@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/alan-partridge-random-quote": {
+            "0.1": {
+                "name": "wordpress\/alan-partridge-random-quote",
+                "version": "0.1",
+                "version_normalized": "0.1.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/alan-partridge-random-quote.0.1.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>Alan Partridge hits WordPress! To show a random quote on your site just put <code>&#60;?php alanpartridge_quote(); ?&#62;<\/code> in your template.<\/p>",
+                "uid": "84765"
+            }
+        }
+    }
+}

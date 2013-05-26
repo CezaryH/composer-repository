@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/entrecard-admanager": {
+            "2.1": {
+                "name": "wordpress\/entrecard-admanager",
+                "version": "2.1",
+                "version_normalized": "2.1.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/entrecard-admanager.2.1.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>Not all people will like to pay money for their advertisement. The Entrecard system allows you to accept credits as payment with the use of their Payment API (tax rate 12.5%). Once the plugin is configured all is done automatically.<\/p>\n\n<p>Features include:<\/p>\n\n<ul>\n<li>Payment API configured<\/li>\n<li>Choose your own price for one week<\/li>\n<li>Automatically creates all pages in private status<\/li>\n<li>Advertisers can choose between 1,2,3 or 4 weeks and pay accordingly<\/li>\n<li>One or two column ad display<\/li>\n<li>Show as many ads as you want<\/li>\n<li>If there is more than 1 open slot available, only one is shown. This prevents a whole list of open slots with the same image<\/li>\n<li>If two people are paying for the same last open spot, one of them is put in the waiting list.<\/li>\n<li>You can manually add advertisements (125*125).<\/li>\n<\/ul>",
+                "uid": "96860"
+            }
+        }
+    }
+}

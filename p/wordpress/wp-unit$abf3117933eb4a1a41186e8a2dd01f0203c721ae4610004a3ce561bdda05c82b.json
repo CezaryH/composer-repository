@@ -1,0 +1,40 @@
+{
+    "packages": {
+        "wordpress\/wp-unit": {
+            "1.0": {
+                "name": "wordpress\/wp-unit",
+                "version": "1.0",
+                "version_normalized": "1.0.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/wp-unit.1.0.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>Enables you to create unit tests for your plugins, run and check the results in a centralized way.\nSince version 2.0 it has phpunit bundled in so all you need to get started with unit testing is to install this plugin.<\/p>\n\n<p>Its based on the WordPress automated system but distributed as a plugin. Also it does not require a new database and a new configuration file so when you create your unit tests pay special attention to your database access so you keep a consistent database.<\/p>\n\n<p>Every unit test must extend PHPUnit_Framework_TestCase and be included in the testcase directory you will find under the wp-unit plugin directory.<\/p>\n\n<p>To run the tests go to the Unit Testing menu in the admin panel and press the Run buttom. The results will be displayed on the same page.<\/p>\n\n<p>Feel free to give us some feedback.<\/p>",
+                "uid": "55266"
+            },
+            "2.0": {
+                "name": "wordpress\/wp-unit",
+                "version": "2.0",
+                "version_normalized": "2.0.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/wp-unit.2.0.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>Enables you to create unit tests for your plugins, run and check the results in a centralized way.\nSince version 2.0 it has phpunit bundled in so all you need to get started with unit testing is to install this plugin.<\/p>\n\n<p>Its based on the WordPress automated system but distributed as a plugin. Also it does not require a new database and a new configuration file so when you create your unit tests pay special attention to your database access so you keep a consistent database.<\/p>\n\n<p>Every unit test must extend PHPUnit_Framework_TestCase and be included in the testcase directory you will find under the wp-unit plugin directory.<\/p>\n\n<p>To run the tests go to the Unit Testing menu in the admin panel and press the Run buttom. The results will be displayed on the same page.<\/p>\n\n<p>Feel free to give us some feedback.<\/p>",
+                "uid": "55265"
+            }
+        }
+    }
+}

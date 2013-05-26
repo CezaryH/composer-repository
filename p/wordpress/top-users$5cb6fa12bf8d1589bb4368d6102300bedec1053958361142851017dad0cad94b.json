@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/top-users": {
+            "0.11": {
+                "name": "wordpress\/top-users",
+                "version": "0.11",
+                "version_normalized": "0.11.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/top-users.0.110827.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>This plugin generates a table of the top X users ranked by comment count + post count. You can specify how many users to list and the output is easily styled with CSS.<\/p>",
+                "uid": "40672"
+            }
+        }
+    }
+}

@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/wp-dribbble-shots": {
+            "0.5": {
+                "name": "wordpress\/wp-dribbble-shots",
+                "version": "0.5",
+                "version_normalized": "0.5.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/wp-dribbble-shots.0.5.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>Adds a template function, get_the_shots(), which returns the latest shots of a Dribbble user.<\/p>\n\n<p>You can use the WP Dribble Shot Widget that is bundled into this plugin and uses <a href=\"http:\/\/jquery.malsup.com\/cycle\/\">jQuery Cycle<\/a> to cycle the latest shots.  This, as well as the example.php, just display a basic usage of the functionality of the plugin and is included to help you get started integrating into your theme.<\/p>\n\n<p>All of the available attributes of each shot is detailed within the <a href=\"http:\/\/dribbble.com\/api#get_player_shots\">Dribbble API<\/a> and can be viewed there and used with this plugin.<\/p>",
+                "uid": "32878"
+            }
+        }
+    }
+}

@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/edd-download-images": {
+            "1.0": {
+                "name": "wordpress\/edd-download-images",
+                "version": "1.0",
+                "version_normalized": "1.0.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/edd-download-images.1.0.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>This plugin requires <a href=\"http:\/\/wordpress.org\/extend\/plugins\/easy-digital-downloads\/\" title=\"Easy Digital Downloads\">Easy Digital Downloads<\/a>. This plugin allows you to add extra images to your downloads. Use the included shortcode or template tag to display the images on your website. Developers can also use this plugin to get an array of the images and display the images any way they wish (eg slideshow).<\/p>\n\n<h4>Shortcode Usage<\/h4>\n\n<pre><code>[edd_download_images]\n<\/code><\/pre>\n\n<h4>Template Tag Usage<\/h4>\n\n<pre><code>if( function_exists( 'edd_di_display_images') ) {\n    edd_di_display_images();\n}\n<\/code><\/pre>\n\n<h4>Filtering the HTML<\/h4>\n\n<p>To alter the HTML, the following filter is provided (example shows an extra <code>&#60;div&#62;<\/code> being added around image). Paste this into your functions.php and modify $html to your liking:<\/p>\n\n<pre><code>function themename_edd_di_display_images( $html, $download_image ) {\n    \/\/ here a div tag is wrapped around each image",
+                "uid": "9131"
+            }
+        }
+    }
+}

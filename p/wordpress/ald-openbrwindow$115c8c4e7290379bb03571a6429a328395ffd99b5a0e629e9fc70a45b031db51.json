@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/ald-openbrwindow": {
+            "1.2.2": {
+                "name": "wordpress\/ald-openbrwindow",
+                "version": "1.2.2",
+                "version_normalized": "1.2.2.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/ald-openbrwindow.1.2.2.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>Opens a new browser window containing the page specified using JavaScript.<\/p>\n\n<p>You have the option to choose the features as well as choose if you want it to be centered.<\/p>\n\n<p>Using JavaScript instead of the <code>target<\/code> attribute in links ensures that your site remains XHTML 1.1 \/ 1.0 Strict compliant.<\/p>\n\n<h4>Features<\/h4>\n\n<ul>\n<li>Easy to use and edit.<\/li>\n<li>Uses JavaScript to open the Window, hence keeps your site XHTML 1.0 Strict and XHTML 1.1 compliant.<\/li>\n<li>Function can be called multiple times on the same page.<\/li>\n<li>All features of the window to be opened can be set using JavaScript.<\/li>\n<li>If required, the window can be auto-centered on the screen.<\/li>\n<li>A title can be given to the new window, which is also used as alt and title attributes for the image.<\/li>\n<li>The window that is opened is perfectly XHTML compliant.<\/li>\n<li>It works perfectly if you serve your site as application\/xhtml+xml.<\/li>\n<li>You can use the Quicktags button to inse",
+                "uid": "114437"
+            }
+        }
+    }
+}

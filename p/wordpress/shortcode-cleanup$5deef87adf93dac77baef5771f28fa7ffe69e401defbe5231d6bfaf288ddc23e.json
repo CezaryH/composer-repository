@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/shortcode-cleanup": {
+            "0.5": {
+                "name": "wordpress\/shortcode-cleanup",
+                "version": "0.5",
+                "version_normalized": "0.5.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/shortcode-cleanup.0.5.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>The plugin provides four shortcode cleanup utilities.  The replace utility replaces occurences of selected shortcodes with replacement text\/html that you provide.  The wrap utility wraps shortcode in \"before\" and \"after\" text\/html that you provide.  The delete utility deletes selected shortcodes (and, if you want, the content inside the selected shortcodes as well).  The freeze utility replaces shortcodes with thier current static output.<\/p>",
+                "uid": "10964"
+            }
+        }
+    }
+}

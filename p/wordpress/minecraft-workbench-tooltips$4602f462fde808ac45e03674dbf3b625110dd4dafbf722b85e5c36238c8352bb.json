@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/minecraft-workbench-tooltips": {
+            "0.1.1": {
+                "name": "wordpress\/minecraft-workbench-tooltips",
+                "version": "0.1.1",
+                "version_normalized": "0.1.1.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/minecraft-workbench-tooltips.0.1.1.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>Easily turn links to Minecraft items into fancy pop-out tooltips. Simply link to the relevant item's page on <a href=\"http:\/\/www.minecraftwb.com\/\" rel=\"nofollow\">http:\/\/www.minecraftwb.com\/<\/a> and the script will do the rest.<\/p>\n\n<p>Caches data locally to minimise data transfer.<\/p>\n\n<p>Will eventually add the ability to link by item name through a shortcode, like [mcwb:Diamond Pick] or similar.<\/p>",
+                "uid": "59570"
+            }
+        }
+    }
+}

@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/smscoin-vip-group-based-on-smskey": {
+            "1.2": {
+                "name": "wordpress\/smscoin-vip-group-based-on-smskey",
+                "version": "1.2",
+                "version_normalized": "1.2.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/smscoin-vip-group-based-on-smskey.1.2.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>To the website page or blog post you need to add tags as follows [smscoin_vip] hidden content [\/smscoin_vip].\nTo access the content hidden between these tags user have to send an SMS to a short code first, then user is\nmoved to VIP group. VIP user will be able to access the content you hide between the following tags\n[smscoin_vip] hidden content [\/smscoin_vip].<\/p>\n\n<p>You choose your payment page by specifying in the text of the article or blog post the\nfollowing tag [SMSCOINPAY], and instead of the tag user will see the instructions to send an SMS.\nThe moment time limit in VIP group you set yourself in plugin settings expires, user no longer\ncan access the hidden content. User receives an e-mail written by you in plugin settings.<\/p>\n\n<p>To use the following you must register first on smscoin.net website and to connect\nsms:key service as well.<\/p>\n\n<p>sms:key service registration and setup process are absolutely free.<\/p>\n\n<p>Localization:<\/p>\n\n<pre><code>\u0420\u0443\u0441\u0441\u043a\u0438\u0439, English\n<",
+                "uid": "64469"
+            }
+        }
+    }
+}

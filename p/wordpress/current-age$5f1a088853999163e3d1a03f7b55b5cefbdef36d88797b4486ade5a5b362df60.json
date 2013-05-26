@@ -1,0 +1,40 @@
+{
+    "packages": {
+        "wordpress\/current-age": {
+            "1.0": {
+                "name": "wordpress\/current-age",
+                "version": "1.0",
+                "version_normalized": "1.0.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/current-age.1.0.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>This plugin shows the current age based upon birthdate passed through shortcode ([showcurrentage month=\"1\" day=\"1\" year=\"2000\"]) and dynamically updates based on current date.<\/p>\n\n<p>Can be used to show how old you, your kids, your pets are dynamically.  Can be also used to show how many years in business your company is dynamically.<\/p>\n\n<p>To use in your template files use <code>&#60;?php echo do_shortcode('[showcurrentage month=\"1\" day=\"1\" year=\"2000\"]'); ?&#62;<\/code><\/p>\n\n<p>Only outputs the number so you can customize whats around it.<\/p>",
+                "uid": "11678"
+            },
+            "1.1": {
+                "name": "wordpress\/current-age",
+                "version": "1.1",
+                "version_normalized": "1.1.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/current-age.1.1.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>This plugin shows the current age based upon birthdate passed through shortcode ([showcurrentage month=\"1\" day=\"1\" year=\"2000\"]) and dynamically updates based on current date.<\/p>\n\n<p>Can be used to show how old you, your kids, your pets are dynamically.  Can be also used to show how many years in business your company is dynamically.<\/p>\n\n<p>To use in your template files use <code>&#60;?php echo do_shortcode('[showcurrentage month=\"1\" day=\"1\" year=\"2000\"]'); ?&#62;<\/code><\/p>\n\n<p>Only outputs the number so you can customize whats around it.<\/p>",
+                "uid": "11679"
+            }
+        }
+    }
+}

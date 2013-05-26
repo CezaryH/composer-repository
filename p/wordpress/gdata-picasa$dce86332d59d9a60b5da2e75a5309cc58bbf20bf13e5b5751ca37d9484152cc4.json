@@ -1,0 +1,40 @@
+{
+    "packages": {
+        "wordpress\/gdata-picasa": {
+            "0.5": {
+                "name": "wordpress\/gdata-picasa",
+                "version": "0.5",
+                "version_normalized": "0.5.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/gdata-picasa.0.5.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>This plugin generates a thumbnail gallery from picasa pictures. To add a thumbnail\ngallery to a post or page just use the [gdata-picasa] tag and add your required paramters.<\/p>\n\n<p>Short example:<\/p>\n\n<p>[gdata-picasa q=\"boat\" max_results=\"12\"] will search picasa for 12 pictures that are related to boats.<\/p>\n\n<p>The Google Data Picasa API parameters can be used to build your gdata-picasa tag. See the Frequently Asked Questions for more information about the available parameters.<\/p>",
+                "uid": "78109"
+            },
+            "0.6": {
+                "name": "wordpress\/gdata-picasa",
+                "version": "0.6",
+                "version_normalized": "0.6.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/gdata-picasa.0.6.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>This plugin generates a thumbnail gallery from picasa pictures. To add a thumbnail\ngallery to a post or page just use the [gdata-picasa] tag and add your required paramters.<\/p>\n\n<p>Short example:<\/p>\n\n<p>[gdata-picasa q=\"boat\" max_results=\"12\"] will search picasa for 12 pictures that are related to boats.<\/p>\n\n<p>The Google Data Picasa API parameters can be used to build your gdata-picasa tag. See the Frequently Asked Questions for more information about the available parameters.<\/p>",
+                "uid": "78108"
+            }
+        }
+    }
+}

@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/line-break-shortcode": {
+            "1.0.1": {
+                "name": "wordpress\/line-break-shortcode",
+                "version": "1.0.1",
+                "version_normalized": "1.0.1.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/line-break-shortcode.1.0.1.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>Use this to force line breaks into your posts and pages. It is simple. [br] will add a line break. It won't be filtered out by TinyMCE.<\/p>\n\n<p>There are no attributes. Not much else to see here. I couldn't find a plugin that did this anywhere. Thought that was odd.<\/p>\n\n<p>Example time!<\/p>\n\n<p>If your text editor content looks like this:<\/p>\n\n<pre><code>Hello this is my \n[br]\nexample!<\/code><\/pre>\n\n<p>The HTML will end up:<\/p>\n\n<pre><code>&#60;p&#62;Hello this is my&#60;\/p&#62;\n&#60;p&#62;&#60;br \/&#62;&#60;\/p&#62;\n&#60;p&#62;example!&#60;\/p&#62;<\/code><\/pre>\n\n<p>Because the default styling of a paragraph tag adds an area of white space below it this may result in more of a break than you wanted. Solution:<\/p>\n\n<pre><code>Hello this is my [br] example!<\/code><\/pre>\n\n<p>Which results in the following HTML:<\/p>\n\n<pre><code>&#60;p&#62;Hello this is my &#60;br \/&#62; example!&#60;\/p&#62;<\/code><\/pre>\n\n<p>Question\/Comments: Please hit up the forum or drop me a line at <a href=\"mailto:R",
+                "uid": "52455"
+            }
+        }
+    }
+}

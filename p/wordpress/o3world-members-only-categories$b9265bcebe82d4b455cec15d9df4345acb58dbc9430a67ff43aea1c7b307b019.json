@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/o3world-members-only-categories": {
+            "1.03": {
+                "name": "wordpress\/o3world-members-only-categories",
+                "version": "1.03",
+                "version_normalized": "1.03.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/o3world-members-only-categories.1.03.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>If you'd like to make the content on your site visible only to certain users using categories, look no further!<\/p>\n\n<p>Designate certain categories as \"members-only\" via <strong>Privacy Settings<\/strong>.<\/p>\n\n<p>An administrator may then assign a user to them via <strong>Profile<\/strong>.<\/p>\n\n<p>Only content belonging to \"public\" categories (any top-level category you do not designate as \"members-only\"), and categories assigned to the logged-in user, and all subcategories of either, will be visible.<\/p>\n\n<p>I would like to thank the action hook <strong>pre_get_posts<\/strong>, without which this plugin would not have been possible.<\/p>",
+                "uid": "34088"
+            }
+        }
+    }
+}

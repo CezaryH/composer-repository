@@ -1,0 +1,40 @@
+{
+    "packages": {
+        "wordpress\/wp-registry": {
+            "0.1": {
+                "name": "wordpress\/wp-registry",
+                "version": "0.1",
+                "version_normalized": "0.1.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/wp-registry.0.1.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>The plugin provides a globally accessible container for storing values of any kind.\nThe Registry is a singleton and you can set values inside the registry like this:<\/p>\n\n<pre><code>WP_Registry::set( 'key', $value )\n<\/code><\/pre>\n\n<p>which can then be retrieved at any time like this:<\/p>\n\n<pre><code>WP_Registry::get( 'key' )\n<\/code><\/pre>",
+                "uid": "76883"
+            },
+            "0.2": {
+                "name": "wordpress\/wp-registry",
+                "version": "0.2",
+                "version_normalized": "0.2.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/wp-registry.0.2.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>The plugin provides a globally accessible container for storing values of any kind.\nThe Registry is a singleton and you can set values inside the registry like this:<\/p>\n\n<pre><code>WP_Registry::set( 'key', $value )\n<\/code><\/pre>\n\n<p>which can then be retrieved at any time like this:<\/p>\n\n<pre><code>WP_Registry::get( 'key' )\n<\/code><\/pre>",
+                "uid": "76882"
+            }
+        }
+    }
+}

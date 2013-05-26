@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/language-based-anti-spam-plugin": {
+            "1.1": {
+                "name": "wordpress\/language-based-anti-spam-plugin",
+                "version": "1.1",
+                "version_normalized": "1.1.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/language-based-anti-spam-plugin.1.1.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>This plugin has been developed by BlackMelvyn from this <a href=\"http:\/\/www.theblackmelvyn.com\/\" title=\"SEO Black Hat blog\">blog SEO Black Hat<\/a> thanks to a script coded by Tiger from <a href=\"http:\/\/www.seoblackout.com\/\" title=\"R&#233;f&#233;rencement Google\">Blog SEO BlackOut: Techniques r&#233;f&#233;rencement Google<\/a>.\nIt compares the language contained in the comment text to the languages that you allow in your admin panel for this blog.\nThere is a minimum confidence index that should be reached for the comment to be considered as valid.\nThen, if the comment is sorted a valid, it is held for moderation.\nOn the other hand, the plugin counts the number of links contained in the comment, and if there is a suspicion of comment spam, it blocks the comment and adds it to trash.\nFinally, you get rid of all these automated spam bots that try and spoil your blog with their nasty unuseful comments, you save database space and you save time as you do not have to sort out what is spam ",
+                "uid": "68750"
+            }
+        }
+    }
+}

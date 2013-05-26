@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/simple-form-with-captcha": {
+            "1.0": {
+                "name": "wordpress\/simple-form-with-captcha",
+                "version": "1.0",
+                "version_normalized": "1.0.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/simple-form-with-captcha.1.0.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>This plugin is designed to collect names and email addresses primarily for\nusers and organizations that use a third party to send email on their\nbehalf. Sign up validation is done using a captcha by securimage.<\/p>\n\n<p>A down-loadable csv file can be retrieved from the plugin admin page which\ncan then be sent to the third party email service.<\/p>",
+                "uid": "72681"
+            }
+        }
+    }
+}

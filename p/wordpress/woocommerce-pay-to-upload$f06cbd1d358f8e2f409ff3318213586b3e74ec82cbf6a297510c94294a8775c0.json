@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/woocommerce-pay-to-upload": {
+            "1.1.1": {
+                "name": "wordpress\/woocommerce-pay-to-upload",
+                "version": "1.1.1",
+                "version_normalized": "1.1.1.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/woocommerce-pay-to-upload.1.1.1.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>Allow customers to pay to upload a file. Once a WooCommerce order has been marked as processed, a file upload screen will appear on the order details page.<\/p>",
+                "uid": "22389"
+            }
+        }
+    }
+}

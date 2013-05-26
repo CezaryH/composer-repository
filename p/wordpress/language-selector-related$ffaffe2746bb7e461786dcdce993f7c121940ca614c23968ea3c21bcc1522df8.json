@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/language-selector-related": {
+            "1.0": {
+                "name": "wordpress\/language-selector-related",
+                "version": "1.0",
+                "version_normalized": "1.0.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/language-selector-related.1.0.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>This plugin allow <strong>relate blogs between they for relate contents in more languages<\/strong>. It add a link in your pages of blog that link between they and adds <strong>meta rel=\"alternate\" hreflang=\"xx\"<\/strong> and links in your posts, pages and tags that indicate that they have an other blog in other language.<\/p>\n\n<p><a href=\"http:\/\/rubenvasallo.co.uk\/who-am-i\/\">Contact<\/a><\/p>\n\n<p>Some features:<\/p>\n\n<ul>\n<li>Add meta rel=\"alternate\" hreflang=\"xx\" in all headers (posts, pages, categories, tags and home) that have link realteds in other languages<\/li>\n<li>Permit include links in sidebars with configurable widget.<\/li>\n<li>Permit multiple links in more languages.<\/li>\n<li>Include uninstaller that remove all information added to plugin for leave the blog as it was before plugin installation.<\/li>\n<\/ul>",
+                "uid": "10867"
+            }
+        }
+    }
+}

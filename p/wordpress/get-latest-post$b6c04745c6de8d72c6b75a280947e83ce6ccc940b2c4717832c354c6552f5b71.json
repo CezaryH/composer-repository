@@ -1,0 +1,40 @@
+{
+    "packages": {
+        "wordpress\/get-latest-post": {
+            "0.1": {
+                "name": "wordpress\/get-latest-post",
+                "version": "0.1",
+                "version_normalized": "0.1.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/get-latest-post.0.1.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>This plugin adds the ability to put a shortcode tag in any static page or post and have it display an excerpt from your latest blog post.<\/p>\n\n<p>There are no settings or options.<\/p>\n\n<p>It generates markup like this, which you can style as desired:<\/p>\n\n<pre><code>&#60;div class='latest-post'&#62;\n&#60;p class='title'&#62;&#60;a href='http:\/\/www.mysite.ca\/blog\/post'&#62;Look ma, no hands!&#60;\/a&#62;&#60;\/p&#62;\n&#60;p class='excerpt'&#62;Today I rode a bicycle &#38;hellip;&#60;a href=\"http:\/\/www.mysite.ca\/blog\/post\"&#62;Continue reading &#60;span class=\"meta-nav\"&#62;&#38;rarr;&#60;\/span&#62;&#60;\/a&#62;&#60;\/p&#62;\n&#60;\/div&#62;\n<\/code><\/pre>",
+                "uid": "53787"
+            },
+            "0.2": {
+                "name": "wordpress\/get-latest-post",
+                "version": "0.2",
+                "version_normalized": "0.2.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/get-latest-post.0.2.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>This plugin adds the ability to put a shortcode tag in any static page or post and have it display an excerpt from your latest blog post.<\/p>\n\n<p>There are no settings or options.<\/p>\n\n<p>It generates markup like this, which you can style as desired:<\/p>\n\n<pre><code>&#60;div class='latest-post'&#62;\n&#60;p class='title'&#62;&#60;a href='http:\/\/www.mysite.ca\/blog\/post'&#62;Look ma, no hands!&#60;\/a&#62;&#60;\/p&#62;\n&#60;p class='excerpt'&#62;Today I rode a bicycle &#38;hellip;&#60;a href=\"http:\/\/www.mysite.ca\/blog\/post\"&#62;Continue reading &#60;span class=\"meta-nav\"&#62;&#38;rarr;&#60;\/span&#62;&#60;\/a&#62;&#60;\/p&#62;\n&#60;\/div&#62;\n<\/code><\/pre>",
+                "uid": "53786"
+            }
+        }
+    }
+}

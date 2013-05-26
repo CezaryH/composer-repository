@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/wp-no-tag-base": {
+            "1.2.3": {
+                "name": "wordpress\/wp-no-tag-base",
+                "version": "1.2.3",
+                "version_normalized": "1.2.3.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/wp-no-tag-base.1.2.3.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>WP-No-tag-base will completely remove the mandatory tag base from your permalinks ( e.g. <code>wordimpressed.com\/tag\/my-tag\/<\/code> to <code>wordimpressed.com\/my-tag\/<\/code> ).<\/p>\n\n<p>The plugin requires no setup or modifying core WordPress files and should not break any links.   It will also take care of redirecting your old tag links to the new ones.<\/p>\n\n<h3>Important Links:<\/h3>\n\n<p><a href=\"http:\/\/www.wordimpressed.com\/plugins\/wp-admin-icons-plugin\" title=\"WP-Admin Icons Page\">WP-No-Tag-Base Page<\/a><\/p>\n\n<p><a href=\"http:\/\/www.wordimpressed.com\/\" title=\"WordImpress - Developer's Site\">WordImpressed<\/a><\/p>\n\n<h4>Features<\/h4>\n\n<ol>\n<li>Short and logical permalink structures.<\/li>\n<li>Simple plugin - barely adds any overhead.<\/li>\n<li>Works out of the box - no setup needed.<\/li>\n<li>No need to modify WordPress files.<\/li>\n<li>Doesn't require other plugins to work.<\/li>\n<li>Compatible with sitemap plugins.<\/li>\n<li>Redirects old tag permalinks to the new ones (301 redirect, good",
+                "uid": "59397"
+            }
+        }
+    }
+}

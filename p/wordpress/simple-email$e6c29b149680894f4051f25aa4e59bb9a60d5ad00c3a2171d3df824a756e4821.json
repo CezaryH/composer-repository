@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/simple-email": {
+            "0.1": {
+                "name": "wordpress\/simple-email",
+                "version": "0.1",
+                "version_normalized": "0.1.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/simple-email.0.1.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>Simple Email reconfigures WordPress' WP_Mail function to use Amazon's Simple Email Service <a href=\"http:\/\/aws.amazon.com\/ses\/\">http:\/\/aws.amazon.com\/ses\/<\/a>.<\/p>\n\n<p>Known limitations (your mileage may vary):<\/p>\n\n<ul>\n<li>Does not support attachments<\/li>\n<li>Emails will no longer come from <code><a href=\"mailto:wordpress@yourdomain.com\">wordpress@yourdomain.com<\/a><\/code> but from the authenticated address (see installation)<\/li>\n<\/ul>\n\n<p>Thank you to <a href=\"http:\/\/www.orderingdisorder.com\/aws\/ses\/\">Dan Myers<\/a> for the SES library used.<\/p>",
+                "uid": "52270"
+            }
+        }
+    }
+}

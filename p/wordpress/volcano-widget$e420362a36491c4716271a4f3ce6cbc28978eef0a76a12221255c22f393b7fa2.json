@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/volcano-widget": {
+            "1.1": {
+                "name": "wordpress\/volcano-widget",
+                "version": "1.1",
+                "version_normalized": "1.1.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/volcano-widget.1.1.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>The plugin creates a customizeable interactive map with active volcanoes and current earthquakes worldwide. \nThe map is loaded in an iframe and can be used as widget that can be placed in a sidebar of the layout.<\/p>\n\n<p>The map itself, which is being updated daily, contains interactive features:\n- click on each earthquake to see details (depth, magnitude, time, source of data and link to detail info)\n- submit a \"I felt the earthquake\" report straight from the earthquake list or the map\n- click on each volcano to see more details (status, last activity, link to more info)\n- access a list of latest volcano news<\/p>\n\n<p>The map display can be customized in may ways:\n- display only earthquakes or only volcanoes or both\n- select a geographic region \/ country from a list (e.g. Australia, British Isles, California, Germany)\n- select a custom geographic region defined by W-E and N-S boundaries\n- start with different zoom and geographical center\n- filter to show only quakes larger than a gi",
+                "uid": "13555"
+            }
+        }
+    }
+}

@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/wp-memcached-manager": {
+            "0.1": {
+                "name": "wordpress\/wp-memcached-manager",
+                "version": "0.1",
+                "version_normalized": "0.1.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/wp-memcached-manager.0.1.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>If you use Memcached, then sometimes it's handy to be able to administer your Memcached instances from inside WordPress.<\/p>\n\n<p>With this plugin you can check your Memcached server is running, some basic usage stats and initiate cache flushes. In future version you'll be able to do more useful Memcached admin things.<\/p>",
+                "uid": "77489"
+            }
+        }
+    }
+}

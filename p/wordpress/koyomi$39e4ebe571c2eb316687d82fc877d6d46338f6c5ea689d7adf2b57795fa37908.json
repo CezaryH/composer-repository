@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/koyomi": {
+            "0.0.4": {
+                "name": "wordpress\/koyomi",
+                "version": "0.0.4",
+                "version_normalized": "0.0.4.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/koyomi.0.0.4.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>To show current moon phase, dates, and Japanese old dates. Also, this shows Japanese 'roku-you' old six-day-based calendar with kanji character (you do not install Japanese font, it is graphic). Pointing it shows description.<\/p>\n\n<p>Now the date format is supported. Use option panel to setup your own date format with PHP date format such as 'M\/d\/Y' etc.<\/p>",
+                "uid": "95326"
+            }
+        }
+    }
+}

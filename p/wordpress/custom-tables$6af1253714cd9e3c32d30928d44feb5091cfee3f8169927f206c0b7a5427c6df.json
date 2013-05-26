@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/custom-tables": {
+            "3.7.1": {
+                "name": "wordpress\/custom-tables",
+                "version": "3.7.1",
+                "version_normalized": "3.7.1.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/custom-tables.3.7.1.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>With this Plugin, the Admin can very simply create an new Table in the Database.\nThe Table can filled in manually over the WordPress Admin Menu with new entries, or he can choose the way over Excel for MultiEditing all lines and reimport the data as CSV File.\nThe Plugin will create diffrent Shortcodes to add this Tables to the WordPress sites.<\/p>\n\n<p>The Demo Table can be added with <code>[wctable id=\"1\"]<\/code> or <code>[wctable]<\/code> to the page as example.\nAll Tables are full supprting HTML Code, therefor its not problem to add pictures or links to any specific Article or Page or upload them directly in the created fields.\nAlso it supports search and sort orders and caching functionalities for all output of the plugin to have a high performance on the WordPress installation.\nInstructions are added in the plugin itself, including pictures and demo db to see how everything is working! For new features, please read the changelog!<\/p>\n\n<p>You can add Search form <code>[wctsearch f",
+                "uid": "43569"
+            }
+        }
+    }
+}

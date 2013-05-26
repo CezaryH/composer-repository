@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/entrecard-popper": {
+            "1.2": {
+                "name": "wordpress\/entrecard-popper",
+                "version": "1.2",
+                "version_normalized": "1.2.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/entrecard-popper.1.2.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>Entrecard up to the top middle of the page when a user comes from a an Entrecard surfing site, other wise it stays where you put it.\nIt uses css to positon the your card so it will not be blocked by popup blockers.<\/p>",
+                "uid": "103380"
+            }
+        }
+    }
+}

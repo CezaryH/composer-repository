@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/quote-comments": {
+            "2.1.7": {
+                "name": "wordpress\/quote-comments",
+                "version": "2.1.7",
+                "version_normalized": "2.1.7.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/quote-comments.2.1.7.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>This plugin adds a tiny link that says \"Quote\" on each comment on your posts. Click it, and the contents of the comment is copied to the comment area, wrapped in blockquote tags.<\/p>\n\n<p>Note: Doesn't work with Jetpack comments.<\/p>",
+                "uid": "95826"
+            }
+        }
+    }
+}

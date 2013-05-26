@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/wp-allposts": {
+            "1.0": {
+                "name": "wordpress\/wp-allposts",
+                "version": "1.0",
+                "version_normalized": "1.0.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/wp-allposts.1.0.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>Adds ability to display list of all posts on a single page.<\/p>\n\n<p>Just install and write following shortcode on a page, you want to display posts:<\/p>\n\n<p>[wp-all-posts category=x orderby=y order=z]<\/p>\n\n<p>Example:<\/p>\n\n<p>[wp-all-posts category=15 orderby=title order=ASC]<\/p>\n\n<p>Where 'category' is the category of posts, you want to list, 'orderby' - the way URL's will be ordered\nand 'order'- the direction it will be ordered (ASC or DESC).<\/p>",
+                "uid": "46374"
+            }
+        }
+    }
+}

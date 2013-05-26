@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/wp-hashcash-extended": {
+            "4.7": {
+                "name": "wordpress\/wp-hashcash-extended",
+                "version": "4.7",
+                "version_normalized": "4.7.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/wp-hashcash-extended.4.7.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<h4>No More Spam<\/h4>\n\n<p>WP Hashcash is an antispam plugin that eradicates comment spam on Wordpress blogs. It works because your visitors must use obfuscated javascript to submit a proof-of-work that indicates they opened your website in a web browser, not a robot. If the javascript check fails, WP Hashcash now gives you three options; it can either put the comment into moderation (default), put the comment in the akismet queue, or delete it.<\/p>\n\n<p>You can read more at the <a href=\"http:\/\/azizmb.com\/2012\/04\/wp-hashcash-now-working-on-newer-wordpress-versions\/\">WP Hashcash plugin<\/a> page.  WP Hashcash is 100% GPL compatible.<\/p>\n\n<h4>Features<\/h4>\n\n<ol>\n<li>Blocks all comment spam, but not real comments<\/li>\n<li>Also prevents most trackback \/ pingback spam<\/li>\n<li>Also protects signup pages for Wordpress (WP), BuddyPress (BP), and Wordpress Multi-User (WPMU)<\/li>\n<li>Widget support to display spam statistics and edit the configuration<\/li>\n<li>Works with IE, Firefox, and Safari<\/l",
+                "uid": "26830"
+            }
+        }
+    }
+}

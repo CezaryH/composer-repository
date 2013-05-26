@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/plain-meta-tags": {
+            "1.0": {
+                "name": "wordpress\/plain-meta-tags",
+                "version": "1.0",
+                "version_normalized": "1.0.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/plain-meta-tags.1.0.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>This plugin adds meta information to posts and pages from custom fields \"description\" and \"keywords\"<\/p>\n\n<p>To add a meta description to a post or a page, edit your post and add a new custom field with \"Name: description\" and \"Value: your meta description here\"<\/p>\n\n<p>To add a meta keywords to a post or a page, edit your post and add a new custom field with \"Name: keywords\" and \"Value: keywords1,keyword2,keyword3\"<\/p>",
+                "uid": "48060"
+            }
+        }
+    }
+}

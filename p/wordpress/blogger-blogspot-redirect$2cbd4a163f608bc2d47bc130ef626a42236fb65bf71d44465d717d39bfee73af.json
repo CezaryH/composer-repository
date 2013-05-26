@@ -1,0 +1,40 @@
+{
+    "packages": {
+        "wordpress\/blogger-blogspot-redirect": {
+            "1.0": {
+                "name": "wordpress\/blogger-blogspot-redirect",
+                "version": "1.0",
+                "version_normalized": "1.0.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/blogger-blogspot-redirect.1.0.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>Based on a meta refresh tag on blogspot this plugin will redirect \nblogger permalinks to the correct wordpress post. Requires Blogger \nRedirector by Sam Wong \n(<a href=\"http:\/\/wordpress.org\/extend\/plugins\/blogger-redirector\/\" rel=\"nofollow\">http:\/\/wordpress.org\/extend\/plugins\/blogger-redirector\/<\/a>).<\/p>\n\n<p>Why this in addition to the Blogger Redirector plugin?<\/p>\n\n<p>Because Blogger changed the redirect for a custom domain and no longer \nreturns a proper 301-redirect. Thus the only way now to redirect both \nvisitors and search engines crawlers is to use a META refresh in \nblogspot.<\/p>",
+                "uid": "95561"
+            },
+            "1.0.1": {
+                "name": "wordpress\/blogger-blogspot-redirect",
+                "version": "1.0.1",
+                "version_normalized": "1.0.1.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/blogger-blogspot-redirect.1.0.1.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>Based on a meta refresh tag on blogspot this plugin will redirect \nblogger permalinks to the correct wordpress post. Requires Blogger \nRedirector by Sam Wong \n(<a href=\"http:\/\/wordpress.org\/extend\/plugins\/blogger-redirector\/\" rel=\"nofollow\">http:\/\/wordpress.org\/extend\/plugins\/blogger-redirector\/<\/a>).<\/p>\n\n<p>Why this in addition to the Blogger Redirector plugin?<\/p>\n\n<p>Because Blogger changed the redirect for a custom domain and no longer \nreturns a proper 301-redirect. Thus the only way now to redirect both \nvisitors and search engines crawlers is to use a META refresh in \nblogspot.<\/p>",
+                "uid": "95560"
+            }
+        }
+    }
+}

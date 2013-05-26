@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/email-obfuscator": {
+            "0.4.6": {
+                "name": "wordpress\/email-obfuscator",
+                "version": "0.4.6",
+                "version_normalized": "0.4.6.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/email-obfuscator.0.4.6.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>Email Obfuscator will obfuscate email addresses and mailto links in your content using ROT13.<\/p>\n\n<p>Write email addresses and mailto links as usual, the plugin will automatically find and encode the email addresses.\nROT13 decoding is performed by JavaScript. When JavaScript is disabled or not available, a noscript fallback will \ndisplay the email address as plain text in the form of: name AT domain DOT tld<\/p>",
+                "uid": "41249"
+            }
+        }
+    }
+}

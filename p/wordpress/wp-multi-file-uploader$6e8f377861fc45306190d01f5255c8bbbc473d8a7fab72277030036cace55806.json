@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/wp-multi-file-uploader": {
+            "1.0.0": {
+                "name": "wordpress\/wp-multi-file-uploader",
+                "version": "1.0.0",
+                "version_normalized": "1.0.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/wp-multi-file-uploader.1.0.0.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>Allows a user to submit multiple files from a form on your Wordpress site via AJAX to Wordpress default uploads folder and adds an attachment to the\nWordpress media gallery.  Includes a shortcode <code>[wp-multi-file-uploader]<\/code> for use in a form created in the post editor and a function for use in a form in a template file <code>wp_multi_file_uploader();<\/code>.<\/p>\n\n<p><strong>Plugin Home Page:<\/strong> <a href=\"http:\/\/danholloran.com\/wp-multi-file-uploader\/\">http:\/\/danholloran.com\/wp-multi-file-uploader\/<\/a><\/p>\n\n<p><strong>What this plugin does not do:<\/strong> This plugin does not make sure that the user is allowed to add a file but it does restrict the <a href=\"http:\/\/codex.wordpress.org\/Uploading_Files#About_Uploading_Files_on_Dashboard\">file types<\/a> to be the same as Wordpress and file size(2mb).  It also does not play nice at the moment with Wordpress form building plugins, if you integrate it with one please let me know and submit a pull request this is a feature I ",
+                "uid": "10357"
+            }
+        }
+    }
+}

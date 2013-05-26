@@ -1,0 +1,40 @@
+{
+    "packages": {
+        "wordpress\/joomla-to-wordpress-migrated-users-authentication-plugin": {
+            "1.0.0": {
+                "name": "wordpress\/joomla-to-wordpress-migrated-users-authentication-plugin",
+                "version": "1.0.0",
+                "version_normalized": "1.0.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/joomla-to-wordpress-migrated-users-authentication-plugin.1.0.0.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>Joomla encrypted passwords should be stored in user meta key \"joomlapass\".\nWhen user is authenticated first time after migration\npassword provided by user is encrypted by \"joomla way\"\nand compared with value in \"joomlapass\" meta key.\nIf password is correct WP user is udated - password encrypted by \"wordpress way\"\nis stored to \"user_pass\" field.\nThen user can be authenticated by standart wordpress authentication plugin.\nMeta key \"joomlapass\" is renamed to \"joomlapassbak\" to avoid repeatedly updating WP password.<\/p>",
+                "uid": "50876"
+            },
+            "1.0.1": {
+                "name": "wordpress\/joomla-to-wordpress-migrated-users-authentication-plugin",
+                "version": "1.0.1",
+                "version_normalized": "1.0.1.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/joomla-to-wordpress-migrated-users-authentication-plugin.1.0.1.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>Joomla encrypted passwords should be stored in user meta key \"joomlapass\".\nWhen user is authenticated first time after migration\npassword provided by user is encrypted by \"joomla way\"\nand compared with value in \"joomlapass\" meta key.\nIf password is correct WP user is udated - password encrypted by \"wordpress way\"\nis stored to \"user_pass\" field.\nThen user can be authenticated by standart wordpress authentication plugin.\nMeta key \"joomlapass\" is renamed to \"joomlapassbak\" to avoid repeatedly updating WP password.<\/p>",
+                "uid": "50874"
+            }
+        }
+    }
+}

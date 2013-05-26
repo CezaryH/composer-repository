@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/member-database": {
+            "1.0": {
+                "name": "wordpress\/member-database",
+                "version": "1.0",
+                "version_normalized": "1.0.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/member-database.1.0.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>This plugin allows you to manage a database of membership info for your club or association. You can add, edit, list, and delete members from the database, as well as export the membership information as a .csv file, which lets you import the data into a spreadsheet.<\/p>",
+                "uid": "55860"
+            }
+        }
+    }
+}

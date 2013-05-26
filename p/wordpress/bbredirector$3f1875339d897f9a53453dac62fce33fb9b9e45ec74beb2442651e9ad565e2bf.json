@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/bbredirector": {
+            "1.0": {
+                "name": "wordpress\/bbredirector",
+                "version": "1.0",
+                "version_normalized": "1.0.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/bbredirector.1.0.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>bbRedirector makes it easy to redirect a page to another location using absolute urls from within Wordpress. \nNo mod_rewrite nor .htaccess is needed. You just create a page, add a specific customfield and choose the\nredirect template included with this plugin. It even allows you to set the required http status code (302 or 301).\nYou can also set a default sitewide redirection or setup your own custom redirection.<\/p>\n\n<p>The included templates should give you an easy start using this plugin.<\/p>\n\n<p>Feature requests? Remarks? Questions? Patches?<br \/>\n<a href=\"http:\/\/www.burobjorn.nl\">Feel free to contact me<\/a>.<\/p>",
+                "uid": "77349"
+            }
+        }
+    }
+}

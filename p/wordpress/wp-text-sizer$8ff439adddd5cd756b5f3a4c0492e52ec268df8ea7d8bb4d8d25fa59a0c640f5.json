@@ -1,0 +1,40 @@
+{
+    "packages": {
+        "wordpress\/wp-text-sizer": {
+            "1.0": {
+                "name": "wordpress\/wp-text-sizer",
+                "version": "1.0",
+                "version_normalized": "1.0.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/wp-text-sizer.1.0.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>Provide visitors to your site the the option of increasing or decreasing the size of text by clicking on an icon which represents larger or smaller text.<\/p>\n\n<p>Usage is simple.  You can insert the code <code>&#60;?php if(function_exists('wptextsizerincutil')) { wptextsizerincutil(); } ?&#62;<\/code> where ever you would like the icons to appear.<\/p>\n\n<p><strong>NOTE: Some text will not resize if it uses an absolute size (pt) rather than a relative size in the CSS.<br \/>This plugin will only resize text elements within the \"content\" div tag.  If you are not using a div tag called \"content\" this plugin will not work for you.<\/strong><strong>NOTE: Some text will not resize if it uses an absolute size (pt) rather than a relative size in the CSS.<\/strong><\/p>\n\n<p>All the information (general, changelog, installation, upgrade, usage) you need about this plugin can be found here: <a href=\"http:\/\/kennedymedia.com\/wp-text-sizer\" title=\"WP-text-sizer Readme\">wp-text-sizer Readme<\/a>.<\/p>\n\n<p",
+                "uid": "88361"
+            },
+            "1.1": {
+                "name": "wordpress\/wp-text-sizer",
+                "version": "1.1",
+                "version_normalized": "1.1.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/wp-text-sizer.1.1.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>Provide visitors to your site the the option of increasing or decreasing the size of text by clicking on an icon which represents larger or smaller text.<\/p>\n\n<p>Usage is simple.  You can insert the code <code>&#60;?php if(function_exists('wptextsizerincutil')) { wptextsizerincutil(); } ?&#62;<\/code> where ever you would like the icons to appear.<\/p>\n\n<p><strong>NOTE: Some text will not resize if it uses an absolute size (pt) rather than a relative size in the CSS.<br \/>This plugin will only resize text elements within the \"content\" div tag.  If you are not using a div tag called \"content\" this plugin will not work for you.<\/strong><strong>NOTE: Some text will not resize if it uses an absolute size (pt) rather than a relative size in the CSS.<\/strong><\/p>\n\n<p>All the information (general, changelog, installation, upgrade, usage) you need about this plugin can be found here: <a href=\"http:\/\/kennedymedia.com\/wp-text-sizer\" title=\"WP-text-sizer Readme\">wp-text-sizer Readme<\/a>.<\/p>\n\n<p",
+                "uid": "88360"
+            }
+        }
+    }
+}

@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/shortandbuffer": {
+            "1.1": {
+                "name": "wordpress\/shortandbuffer",
+                "version": "1.1",
+                "version_normalized": "1.1.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/shortandbuffer.1.1.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>A WordPress plugin that shortens a post's URL on publish through CloudApp and sends an update containing the post's title + short-url to buffer.<\/p>\n\n<p>This plugin was built on-top of Francis Yaconiello's great WordPress Plugin Template (<a href=\"https:\/\/github.com\/fyaconiello\/wp_plugin_template\" rel=\"nofollow\">https:\/\/github.com\/fyaconiello\/wp_plugin_template<\/a>).<\/p>\n\n<p>This plugin uses CloudApp Wrapper by Matthias Plappert (<a href=\"https:\/\/github.com\/matthiasplappert\/CloudApp-API-PHP-wrapper\" rel=\"nofollow\">https:\/\/github.com\/matthiasplappert\/CloudApp-API-PHP-wrapper<\/a>).<\/p>\n\n<p>This plugin uses buffer class by Kevin Khandjian (<a href=\"https:\/\/github.com\/thewebguy\/bufferapp-php\" rel=\"nofollow\">https:\/\/github.com\/thewebguy\/bufferapp-php<\/a>).<\/p>\n\n<p>This plugin does not have super-cow powers.<\/p>",
+                "uid": "9988"
+            }
+        }
+    }
+}

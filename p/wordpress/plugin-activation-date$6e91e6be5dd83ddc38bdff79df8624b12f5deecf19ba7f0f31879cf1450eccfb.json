@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/plugin-activation-date": {
+            "1.1": {
+                "name": "wordpress\/plugin-activation-date",
+                "version": "1.1",
+                "version_normalized": "1.1.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/plugin-activation-date.1.1.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>Current features:<\/p>\n\n<ul>\n<li>Adds a new column on the plugins dashboard screen that shows when each plugin was activated, only if PAD was installed before<\/li>\n<li>Control whether you'd like to see a relative date or a \"regular\" date as set under Settings &#62; General<\/li>\n<\/ul>\n\n<p>While by default the date &#38; time settings are being used, you can always change the date format by filtering 'pad_date_time_format'. For instance:<\/p>\n\n<pre><code>&#60;?php\n\nadd_filter( &#039;pad_date_time_format&#039;, &#039;my_pad_date_time_format&#039; );\nfunction my_pad_date_time_format( $date_format ) {\n    return &#039;m-d-Y&#039;;\n}<\/code><\/pre>\n\n<p>Here's some more info on <a href=\"http:\/\/codex.wordpress.org\/Formatting_Date_and_Time\">date &#38; time formatting in WordPress<\/a><\/p>\n\n<p>Feel free to post your feature requests, issues and pull requests to <a href=\"https:\/\/github.com\/maor\/plugin-activation-date\" title=\"PAD on GitHub\">Plugin Activation Date on GitHub<\/a>.<\/p>",
+                "uid": "18795"
+            }
+        }
+    }
+}

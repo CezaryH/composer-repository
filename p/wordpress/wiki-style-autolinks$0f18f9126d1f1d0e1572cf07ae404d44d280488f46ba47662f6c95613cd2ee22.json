@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/wiki-style-autolinks": {
+            "0.2": {
+                "name": "wordpress\/wiki-style-autolinks",
+                "version": "0.2",
+                "version_normalized": "0.2.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/wiki-style-autolinks.0.2.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>Link automatically to any post or page on your site with the syntax [A:page-title] or [A:post-title].\nYou can too try to link to another predetermined site (read the installation setp 2)<\/p>\n\n<p>Features:<\/p>\n\n<ul>\n<li>decide to apply the default style, or set your own CSS style.<\/li>\n<li>decide if to add or not the rel=nofollow attribute to each link generated\n)<\/li>\n<\/ul>",
+                "uid": "95550"
+            }
+        }
+    }
+}

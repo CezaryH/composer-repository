@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/weasels-no-http-authors": {
+            "1.0": {
+                "name": "wordpress\/weasels-no-http-authors",
+                "version": "1.0",
+                "version_normalized": "1.0.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/weasels-no-http-authors.1.0.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>We've been running the anti-spam Akismet plugin for Wordpress, but still we get spam comments of a particular breed. This breed is one where the username is a URL, and the message body is an inoffensive message. Something like, \"Great news, thanks!\", which looks innocent enough at first! Until you go to see who posted it and it's some Viagra site.<\/p>\n\n<p>It appears other anti-spam plugins don't have the capability to really defend against a username attack, as they only scan the actual comment filler. This plugin attempts to fix this one specific spam attack.<\/p>\n\n<p>This plugin will scan the username listed on each comment and scan it for the phrase \"HTTP:\", indicating that the username is actually an HTML link. (Version 0.4u also looks for the phrase \"Goodwork\", a common WP spambot response). The plugin doesn't actually delete the spam or send it to some central database; it instead activates Akismet and do it's thing automatically. So essentially, my plugin just flips a little f",
+                "uid": "108127"
+            }
+        }
+    }
+}

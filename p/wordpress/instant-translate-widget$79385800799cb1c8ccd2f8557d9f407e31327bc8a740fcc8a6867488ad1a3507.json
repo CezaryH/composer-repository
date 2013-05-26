@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/instant-translate-widget": {
+            "1.2": {
+                "name": "wordpress\/instant-translate-widget",
+                "version": "1.2",
+                "version_normalized": "1.2.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/instant-translate-widget.1.2.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>Instant Translate Widget is my first attempt at a Word Press widget. It lives in the Widget menu, and uses jQuery and Google Translate to instantly translate text on my blog. It uses jQuery&#8217;s selector to determine what text you want to translate. For example, the selector I use is, &#8220;.post h2,.entry &#62; *:not(pre), .translate&#8221;. Which translates all of my titles, and entry text and not any thing within PRE tags. This lets me keep my code in English, but translate the explanation.<\/p>",
+                "uid": "63560"
+            }
+        }
+    }
+}

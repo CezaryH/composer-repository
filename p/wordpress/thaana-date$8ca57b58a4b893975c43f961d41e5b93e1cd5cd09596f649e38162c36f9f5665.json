@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/thaana-date": {
+            "1.1": {
+                "name": "wordpress\/thaana-date",
+                "version": "1.1",
+                "version_normalized": "1.1.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/thaana-date.1.1.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>This plugin replaces the english format of month and days in Wordpress to Thaana (Maldivian language) format.\nThis plugin uses Unicode character to display date and month. You are required to use Unicode Thaana font and set the direction to rtl.<\/p>",
+                "uid": "86689"
+            }
+        }
+    }
+}

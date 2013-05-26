@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/windows-azure-developer-library": {
+            "0.1": {
+                "name": "wordpress\/windows-azure-developer-library",
+                "version": "0.1",
+                "version_normalized": "0.1.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/windows-azure-developer-library.0.1.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>This plugin is for WordPress developers looking to tap into the power of Windows Azure from within WordPress plugins.<\/p>\n\n<p>To install this plugin simply copy the folder into your WordPress plugins folder, \nvisit the Plugins page in wp-admin and activate the plugin. The Windows Azure SDK for PHP \nlibrary will now be available for us in plugins.<\/p>\n\n<p>You are now able to immediately start utilizing the classes in the Windows Azure SDK for PHP.<\/p>\n\n<p>For information on using the Windows Azure SDK for PHP see the following links:<\/p>\n\n<ul>\n<li><a href=\"http:\/\/azurephp.interoperabilitybridges.com\/tutorials\" rel=\"nofollow\">http:\/\/azurephp.interoperabilitybridges.com\/tutorials<\/a><\/li>\n<li><a href=\"http:\/\/phpazure.codeplex.com\/\" rel=\"nofollow\">http:\/\/phpazure.codeplex.com\/<\/a><\/li>\n<\/ul>",
+                "uid": "28334"
+            }
+        }
+    }
+}

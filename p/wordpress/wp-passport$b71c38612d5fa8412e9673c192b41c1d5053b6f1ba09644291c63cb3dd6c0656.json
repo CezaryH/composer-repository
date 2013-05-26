@@ -1,0 +1,40 @@
+{
+    "packages": {
+        "wordpress\/wp-passport": {
+            "0.2": {
+                "name": "wordpress\/wp-passport",
+                "version": "0.2",
+                "version_normalized": "0.2.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/wp-passport.0.2.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>Places user information in the global session for use in other applications on the same domain.  Currently used by a Crossley Framework (<a href=\"http:\/\/bit.ly\/18hJsP\" rel=\"nofollow\">http:\/\/bit.ly\/18hJsP<\/a>) Auth module.  When used, a unauthenticated user can request an application page outside WP that requires authentication.  The module then forwards teh person to the WP Login page, which once authentication is finished, forwards the user back to the initial requested page.  Then the application can peer into who the user is as far as WP is concerned and decide what to do from there.<\/p>",
+                "uid": "70166"
+            },
+            "0.2.1": {
+                "name": "wordpress\/wp-passport",
+                "version": "0.2.1",
+                "version_normalized": "0.2.1.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/wp-passport.0.2.1.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>Places user information in the global session for use in other applications on the same domain.  Currently used by a Crossley Framework (<a href=\"http:\/\/bit.ly\/18hJsP\" rel=\"nofollow\">http:\/\/bit.ly\/18hJsP<\/a>) Auth module.  When used, a unauthenticated user can request an application page outside WP that requires authentication.  The module then forwards teh person to the WP Login page, which once authentication is finished, forwards the user back to the initial requested page.  Then the application can peer into who the user is as far as WP is concerned and decide what to do from there.<\/p>",
+                "uid": "70165"
+            }
+        }
+    }
+}

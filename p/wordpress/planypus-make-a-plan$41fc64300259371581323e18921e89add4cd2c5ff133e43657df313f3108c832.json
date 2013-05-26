@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/planypus-make-a-plan": {
+            "1.1": {
+                "name": "wordpress\/planypus-make-a-plan",
+                "version": "1.1",
+                "version_normalized": "1.1.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/planypus-make-a-plan.1.1.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>For blogs that publish events, let your users tell their friends about your event and join together online\nto make plans to attend, at Planypus (<a href=\"http:\/\/planyp.us\" rel=\"nofollow\">http:\/\/planyp.us<\/a>)\nBy default, post timestamp is used as scheduled time, and \"planypus_event_location\" custom field as street address, and \"planypus_event_location_name\" as the name of venue.\nIf you are using the Event Calendar 3 plugin (<a href=\"http:\/\/wpcal.firetree.net\" rel=\"nofollow\">http:\/\/wpcal.firetree.net<\/a>), install planypus_links_ev3.php to use the event schedulefor the date\/time.\nSupport for  calendaring plugins can be easily implmented.  See \"Planypus_links_ev3.php\" for an example.<\/p>\n\n<p>See php files for more info.<\/p>",
+                "uid": "105862"
+            }
+        }
+    }
+}

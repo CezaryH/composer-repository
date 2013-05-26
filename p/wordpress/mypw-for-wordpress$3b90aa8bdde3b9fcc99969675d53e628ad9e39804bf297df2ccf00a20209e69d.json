@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/mypw-for-wordpress": {
+            "0.21": {
+                "name": "wordpress\/mypw-for-wordpress",
+                "version": "0.21",
+                "version_normalized": "0.21.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/mypw-for-wordpress.0.21.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>MyPW for WordPress allows you to implement one-time passwords (OTP) with the current WordPress authentication system.  Users can receive their OTP via keychain token, SMS, or via using soft token applications available on Blackberry, iPhone, and Android.  MyPW for WordPress can be configured to require passwords in one of three ways:<\/p>\n\n<ul>\n<li>Login page with username, password, and your MyPW OTP value on separate fields<\/li>\n<li>Login page with username in one field and a password consisting of a concatenation of your password and MyPW OTP value<\/li>\n<li>Login page requiring just your username and your MyPW OTP value<\/li>\n<\/ul>\n\n<p>MyPW tokens can be obtained at the MyPW website:<\/p>\n\n<p><a href=\"https:\/\/www.mypw.com\/picktoken\/\" rel=\"nofollow\">https:\/\/www.mypw.com\/picktoken\/<\/a><\/p>",
+                "uid": "63061"
+            }
+        }
+    }
+}

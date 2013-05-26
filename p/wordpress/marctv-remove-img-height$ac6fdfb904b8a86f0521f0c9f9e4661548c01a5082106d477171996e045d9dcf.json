@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/marctv-remove-img-height": {
+            "1.1": {
+                "name": "wordpress\/marctv-remove-img-height",
+                "version": "1.1",
+                "version_normalized": "1.1.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/marctv-remove-img-height.1.1.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>Removes the height attribute from all images in the content with the help of a regex and the_content filter. Very usefull for responsive templates: <a href=\"http:\/\/marctv.de\/blog\/2012\/01\/06\/responsive-web-design\/\" rel=\"nofollow\">http:\/\/marctv.de\/blog\/2012\/01\/06\/responsive-web-design\/<\/a> (german)<\/p>",
+                "uid": "28290"
+            }
+        }
+    }
+}

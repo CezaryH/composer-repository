@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/microformatshiv": {
+            "1.0.0": {
+                "name": "wordpress\/microformatshiv",
+                "version": "1.0.0",
+                "version_normalized": "1.0.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/microformatshiv.1.0.0.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>Browsers should come with APIs to parse semantic content such as microformats, unfortunately this has yet to happen. The microformat shiv provides a simple to use, light-weight, cross-browser microformat API. It even works with modern mobile browsers and is backward compatible with Internet Explorer 6.\nThe microformat shiv is based on the microformat API for Mozilla's extensions. This is the same code base as the popular Operator plug-in.<\/p>",
+                "uid": "48616"
+            }
+        }
+    }
+}

@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/meta-shortcode": {
+            "0.1": {
+                "name": "wordpress\/meta-shortcode",
+                "version": "0.1",
+                "version_normalized": "0.1.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/meta-shortcode.0.1.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>The Meta Shortcode plugin allows you to easily insert meta values into your posts or pages without having to edit a theme file.<\/p>\n\n<p>Rather than having to use get_post_meta inside of your theme files or another plugin, you can just use the shortcode [ metafield ].<\/p>\n\n<p>For more info, you can visit <a href=\"http:\/\/www.nutt.net\/tag\/meta-shortcode\/\">my website<\/a>.<\/p>",
+                "uid": "15623"
+            }
+        }
+    }
+}

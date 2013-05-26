@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/wp-admin-error-handler": {
+            "0.1": {
+                "name": "wordpress\/wp-admin-error-handler",
+                "version": "0.1",
+                "version_normalized": "0.1.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/wp-admin-error-handler.0.1.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>Hate when you get those ugly errors and warnings in your WordPress admin area (especially when WP_DEBUG is turned on)?\nWP Admin Error Handler sorts that out by catching all the errors and warnings and displaying them neatly in the admin bar\nso you can read them at your convenience.<\/p>",
+                "uid": "25467"
+            }
+        }
+    }
+}

@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/email-me": {
+            "1.0": {
+                "name": "wordpress\/email-me",
+                "version": "1.0",
+                "version_normalized": "1.0.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/email-me.1.0.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>Creates an email link from the shortcode [emailme] that spam bots don't find. \nBy default it uses your wp admin email but you can specify as parameters either:\n  - 'name' (for the first portion of the email before the @ symbo)\n  - 'addr' for the full email\n  - 'display' for what the link should actually display in between the <a> tags.<\/a><\/p>\n\n<p>If your wp-admin panel email (check your General Setting panel) \nis: <a href=\"mailto:info@freedomonlineservices.net\">info@freedomonlineservices.net<\/a> then\nExamples: [emailme] =&#62; <a href=\"mailto:info@freedomonlineservices.net\">info@freedomonlineservices.net<\/a>\n          [emailme name='dave'] =&#62; <a href=\"mailto:dave@freedomonlineservices.net\">dave@freedomonlineservices.net<\/a>\n          [emailme addr='someoneelse@somewhereelse.fake'] =&#62; <a href=\"mailto:someoneelse@somewhereelse.fake\">someoneelse@somewhereelse.fake<\/a>\n          [emailme display=\"info at freedomonlineservices dot net\"] =&#62; info at freedomonlineservices dot n",
+                "uid": "12634"
+            }
+        }
+    }
+}

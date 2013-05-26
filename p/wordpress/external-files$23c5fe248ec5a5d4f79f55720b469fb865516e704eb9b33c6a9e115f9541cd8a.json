@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/external-files": {
+            "0.1": {
+                "name": "wordpress\/external-files",
+                "version": "0.1",
+                "version_normalized": "0.1.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/external-files.0.1.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>External files provides a shortcode <em>[external]<\/em> which can be used to insert the contents of a file or url into the current post or page. The plugin will automatically format the text based on the extension (for files) or mime type (for urls), using Alex Gorbatchevs' <a href=\"http:\/\/alexgorbatchev.com\" title=\"More about Syntax Highlighter\">Syntax Highlighter<\/a> javascript.<\/p>\n\n<p>The shortcode can accept three optional parameters:<\/p>\n\n<ul>\n<li><em>format<\/em> can be used to specify a highlighting format, rather than letting the plugin decide which format to use<\/li>\n<li><em>start<\/em> specifies a line number to output from, so sections of a file\/url can be shown<\/li>\n<li><em>end<\/em> specifies the line to stop at<\/li>\n<\/ul>\n\n<p>See the installation page for usage examples.<\/p>\n\n<p>The available formats are:<\/p>\n\n<ul>\n<li>AS3<\/li>\n<li>Bash<\/li>\n<li>Cpp<\/li>\n<li>CSharp<\/li>\n<li>Css<\/li>\n<li>Delphi<\/li>\n<li>Diff<\/li>\n<li>Groovy<\/li>\n<li>Java<\/li>\n<li>JavaFX<\/li>\n<li>JScript<\/",
+                "uid": "85928"
+            }
+        }
+    }
+}

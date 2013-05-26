@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/redlink-widget": {
+            "1.0": {
+                "name": "wordpress\/redlink-widget",
+                "version": "1.0",
+                "version_normalized": "1.0.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/redlink-widget.1.0.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>Wtyczka umo\u017cliwia wy\u015bwietlanie formularza zapisu do wybranej grupy kontakt&#243;w w systemie REDlink. Mo\u017cesz umie\u015bci\u0107 kilka formularzy zapisu na r&#243;\u017cne grupy jednocze\u015bnie. Poza adresem e-mail (pole obowi\u0105zkowe), formularz mo\u017ce zbiera\u0107 imi\u0119, nazwisko, nazw\u0119 firmy oraz telefon kom&#243;rkowy u\u017cytkownika (pola opcjonalne).<\/p>\n\n<p>Wtycznka u\u017cywa technologii AJAX, ale dzia\u0142a tak\u017ce przy wy\u0142\u0105czonej obs\u0142udze JavaScript w przegl\u0105darce u\u017cytkownika. Po udanym zapisaniu kontaktu w systemie REDlink wtyczka ustawia ciasteczko, aby u\u017cytkownik nie widzia\u0142 ponownie formularza zapisu na t\u0105 sam\u0105 list\u0119.<\/p>",
+                "uid": "44591"
+            }
+        }
+    }
+}

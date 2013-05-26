@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/debugging-translation": {
+            "2.2": {
+                "name": "wordpress\/debugging-translation",
+                "version": "2.2",
+                "version_normalized": "2.2.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/debugging-translation.2.2.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>This plugin enables to see the source and the target of each translation word\/phrase\/sentence. When you use other than English locale, all messages that are translated via gettext will be shown in both the source language and the target language. For example, \"error\" will be shown as \"error\" + \"erruer\"<\/p>\n\n<p>Since version 2.0, you can display glotpress links. Go to Settings -&#62; Reading, and you will find \"\nShow GlotPress link\" checkbox.<\/p>\n\n<p><a href=\"http:\/\/ounziw.com\/2011\/06\/28\/english-japanese\/\">Japanese description<\/a> is also available.<\/p>\n\n<p>CAUTION: This plugin is used for debug. DO NOT ACTIVATE ON A LIVE SITE!<\/p>",
+                "uid": "44503"
+            }
+        }
+    }
+}

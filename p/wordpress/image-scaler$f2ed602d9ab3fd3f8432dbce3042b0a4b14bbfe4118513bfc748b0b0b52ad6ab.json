@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/image-scaler": {
+            "1.1": {
+                "name": "wordpress\/image-scaler",
+                "version": "1.1",
+                "version_normalized": "1.1.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/image-scaler.1.1.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>ImageScaler resamples image files that have been resized in the post editor.<\/p>\n\n<p>When images are resized in the WordPress post editor, the images themselves stay the same and the browser \nis instructed to resize the images after downloading them. This wastes bandwidth, and results in ugly\nlooking resized images. To eliminate this problem, the ImageScaler plugin checks for the image sizes in\neach post and resizes the images if required. The original image is not modified, so it can still be\nused in other posts at full size.<\/p>\n\n<p>By default, an extra attribute is added to some of the image tags in each post. The attribute is non-standard,\nso it may cause (x)html validation to fail. If you require valid (x)html, the plugin has an option that\nstrips the non-standard output from the post before it is sent to the browser.<\/p>\n\n<p>This is the first version of ImageScaler. Please contact me at <code>paulgb at gmail dot com<\/code> if you find a bug\nor have unexpected results.<\/p>",
+                "uid": "111215"
+            }
+        }
+    }
+}

@@ -1,0 +1,40 @@
+{
+    "packages": {
+        "wordpress\/external-db-auth-reloaded": {
+            "1.0": {
+                "name": "wordpress\/external-db-auth-reloaded",
+                "version": "1.0",
+                "version_normalized": "1.0.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/external-db-auth-reloaded.1.0.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>I was looking for something that would allow users to use <a href=\"http:\/\/projectpress.org\/\">ProjectPress<\/a> as their login source for their WordPress site. The External DB Authentication plugin was the answer, but it needed to accomodate PHPass. Therefore, new life has been breathed into an old plugin. \nThis plugin allows the use of an external MySQL, PostgreSQL, or MSSQL database for authentication into WordPress.  It is required that you know the encryption method for the passwords stored in the external database and allows you to use MD5, SHA1, plaintext, PHPass, or enter the hash\/salt method yourself.  It disables password reset\/retrieval and account creation within the WordPress system on the user-end, and it doesn't allow updating from the WordPress end back into the external authentication source.<\/p>\n\n<p>In addition to authentication the plugin allows you to:\n* Choose additional fields, such as first name\/last name and website, to be imported into WordPress.\n* Enter a cust",
+                "uid": "15694"
+            },
+            "1.1": {
+                "name": "wordpress\/external-db-auth-reloaded",
+                "version": "1.1",
+                "version_normalized": "1.1.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/external-db-auth-reloaded.1.1.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>I was looking for something that would allow users to use <a href=\"http:\/\/projectpress.org\/\">ProjectPress<\/a> as their login source for their WordPress site. The External DB Authentication plugin was the answer, but it needed to accomodate PHPass. Therefore, new life has been breathed into an old plugin. \nThis plugin allows the use of an external MySQL, PostgreSQL, or MSSQL database for authentication into WordPress.  It is required that you know the encryption method for the passwords stored in the external database and allows you to use MD5, SHA1, plaintext, PHPass, or enter the hash\/salt method yourself.  It disables password reset\/retrieval and account creation within the WordPress system on the user-end, and it doesn't allow updating from the WordPress end back into the external authentication source.<\/p>\n\n<p>In addition to authentication the plugin allows you to:\n* Choose additional fields, such as first name\/last name and website, to be imported into WordPress.\n* Enter a cust",
+                "uid": "15693"
+            }
+        }
+    }
+}

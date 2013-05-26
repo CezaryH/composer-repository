@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/wp-w3-validation": {
+            "0.1": {
+                "name": "wordpress\/wp-w3-validation",
+                "version": "0.1",
+                "version_normalized": "0.1.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/wp-w3-validation.0.1.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>Places an image on a page or post showing its html and\/or css validity (only visible to the person editing the entry - just like the &#8220;Edit this entry&#8221; link). To use just add <code>&#60;?php if(function_exists('wp_w3_validation')) {wp_w3_validation();} ?&#62;<\/code> to your template php file, preferably right next to the function call <code>&#60;?php edit_post_link(&#8217;Edit this entry.&#8217; &#8221; &#8216; &#8216;); ?&#62;<\/code><\/p>",
+                "uid": "87062"
+            }
+        }
+    }
+}

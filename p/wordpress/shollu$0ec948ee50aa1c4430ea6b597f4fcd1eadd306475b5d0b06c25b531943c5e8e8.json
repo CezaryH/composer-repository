@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/shollu": {
+            "0.1": {
+                "name": "wordpress\/shollu",
+                "version": "0.1",
+                "version_normalized": "0.1.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/shollu.0.1.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>This plugin will show information about pray (shollu) times in your place. Times is given by calculating Longitude, Latitude of your location.<\/p>\n\n<p>It\u0092s may not suitable for extreme place like polar which has noon and night duration for months. So contact nearby mosque<\/p>",
+                "uid": "96941"
+            }
+        }
+    }
+}

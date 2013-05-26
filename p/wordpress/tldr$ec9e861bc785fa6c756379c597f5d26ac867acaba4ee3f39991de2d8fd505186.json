@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/tldr": {
+            "1.0": {
+                "name": "wordpress\/tldr",
+                "version": "1.0",
+                "version_normalized": "1.0.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/tldr.1.0.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>TLDR for WordPress provides short 350 character (+\/-) summaries of posts that replace the extract that WordPress uses by default. Readers will enjoy reading sentences from posts, rather than the first 55 words that WordPress generates. The TLDR WordPress Plugin inserts the summary when a draft is saved or published using the WordPress editor, as well as provides keywords and optimization tips for search. Tweak the summary to make it more attention grabbing, slightly vary the sentences from the main copy, or use the summary that was automatically generated. Wherever your templates displays the WordPress Extract, the TLDR summary will appear instead.<\/p>",
+                "uid": "11892"
+            }
+        }
+    }
+}

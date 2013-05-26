@@ -1,0 +1,40 @@
+{
+    "packages": {
+        "wordpress\/advanced-tag-list": {
+            "1.1": {
+                "name": "wordpress\/advanced-tag-list",
+                "version": "1.1",
+                "version_normalized": "1.1.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/advanced-tag-list.1.1.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>Display your popular tags in list format instead of cloud.<\/p>\n\n<p>For Themes that do not support Widgets, you can now put this code anywhere in your template: <code>&#60;?php if(function_exists('jme_taglist')) { jme_taglist(); } ?&#62;<\/code><\/p>\n\n<p>Options Include:<\/p>\n\n<ul>\n<li>Displaying tags in list format or dropdown menu<\/li>\n<li>Display tag count<\/li>\n<li>Order list by most popular or alphabetical <\/li>\n<li>Exclude tags and or include\/exclude from specific categories.<\/li>\n<\/ul>",
+                "uid": "65258"
+            },
+            "1.2": {
+                "name": "wordpress\/advanced-tag-list",
+                "version": "1.2",
+                "version_normalized": "1.2.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/advanced-tag-list.1.2.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>Display your popular tags in list format instead of cloud.<\/p>\n\n<p>For Themes that do not support Widgets, you can now put this code anywhere in your template: <code>&#60;?php if(function_exists('jme_taglist')) { jme_taglist(); } ?&#62;<\/code><\/p>\n\n<p>Options Include:<\/p>\n\n<ul>\n<li>Displaying tags in list format or dropdown menu<\/li>\n<li>Display tag count<\/li>\n<li>Order list by most popular or alphabetical <\/li>\n<li>Exclude tags and or include\/exclude from specific categories.<\/li>\n<\/ul>",
+                "uid": "65257"
+            }
+        }
+    }
+}

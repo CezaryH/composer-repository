@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/override-post-title-with-first-content-heading": {
+            "0.2.5": {
+                "name": "wordpress\/override-post-title-with-first-content-heading",
+                "version": "0.2.5",
+                "version_normalized": "0.2.5.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/override-post-title-with-first-content-heading.0.2.5.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p><em>This plugin is developed at\n<a href=\"http:\/\/www.shepherd-interactive.com\/\" title=\"Shepherd Interactive\nspecializes in web design and development in Portland, Oregon\">Shepherd\nInteractive<\/a> for the benefit of the community. No support is available.\nPlease post any questions to the <a href=\"http:\/\/wordpress.org\/tags\/override-post-title-with-first-content-heading?forum_id=10\">support\nforum<\/a>.<\/em><\/p>\n\n<p>On a singular post\/page, normally in The Loop <code>the_title()<\/code> returns \n    post_title; if, however, this needs to be overridden so that a\ncustom content heading is displayed (i.e. for SEO purposes), then an\n    h1 or <code>h2<\/code> element may be supplied at the beginning of\nthe <code>post_content<\/code> and the contents of this heading element\nwill be returned by <code>the_title()<\/code> instead of <code>post_title<\/code>.<\/p>\n\n<p>From a technical perspective, the site title in the main header should be\nan <code>h1<\/code> element and the page\/post title should in an",
+                "uid": "80534"
+            }
+        }
+    }
+}

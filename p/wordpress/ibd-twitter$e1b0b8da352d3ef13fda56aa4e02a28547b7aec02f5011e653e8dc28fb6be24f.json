@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/ibd-twitter": {
+            "1": {
+                "name": "wordpress\/ibd-twitter",
+                "version": "1",
+                "version_normalized": "1.0.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/ibd-twitter.1.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>IBD Twitter displays yours latest tweets in your WordPress blog.<\/p>\n\n<p><strong>Features<\/strong><\/p>\n\n<pre><code>*  Simply\n*  Customizable\n*  Widget support\n*  No options page (yes, its a feature)\n*  Uses Wordpress resources (no extra files needed)\n*  Detects URLs, e-mail address and @username replies\n<\/code><\/pre>\n\n<p><strong>Usage<\/strong><\/p>\n\n<p>If you use WordPress widgets, just drag the widget into your sidebar and configure. If widgets are not your thing, use the following code to display your public Twitter messages:<\/p>\n\n<pre><code>&#60;?php twitter_messages(\"username\"); ?&#62;\n<\/code><\/pre>\n\n<p>For more info (options, customization, etc.) visit <a href=\"http:\/\/www.ibrightdev.com\/wordpress-plugins\/twitter\" title=\"IBD Twitter\">the plugin homepage<\/a>.<\/p>\n\n<p><strong>Customization<\/strong><\/p>\n\n<p>The plug in provides the following CSS classes:<\/p>\n\n<pre><code>* ul.twitter: the main ul (if list is activated)\n* li.twitter-item: the ul items (if list is activated)\n* p.twitte",
+                "uid": "57541"
+            }
+        }
+    }
+}

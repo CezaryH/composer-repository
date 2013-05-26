@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/googl-url-shorter": {
+            "1.0.1": {
+                "name": "wordpress\/googl-url-shorter",
+                "version": "1.0.1",
+                "version_normalized": "1.0.1.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/googl-url-shorter.1.0.1.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>This WordPress plugin can short your long url via Goo.gl<\/p>\n\n<p>Use shortcode <code>[googl title=\"CodeCTO.com\" context=\"Go to CodeCTO.com\"]http:\/\/codecto.com[\/googl]<\/code> to get a Goo.gl short link in your blog posts!<\/p>",
+                "uid": "35484"
+            }
+        }
+    }
+}

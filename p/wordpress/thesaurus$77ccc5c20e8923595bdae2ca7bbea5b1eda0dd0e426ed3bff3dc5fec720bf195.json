@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/thesaurus": {
+            "1.0": {
+                "name": "wordpress\/thesaurus",
+                "version": "1.0",
+                "version_normalized": "1.0.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/thesaurus.1.0.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>I was shocked that in a world full of writers, there wasn't a simple thesaurus lookup tool.  With the help of an API written by words.bighugelabs.com, this is that tool.<\/p>\n\n<p>Very simple AJAX based interface, which allows for thesaurus lookups without leaving the page, so you can lookup a word before you lose the thought.<\/p>\n\n<p>Designed for use in the sidebar, but could probably work anywhere.<\/p>\n\n<p>Basic result limiting functionality is included, so you can return a maximum of N results.<\/p>",
+                "uid": "102640"
+            }
+        }
+    }
+}

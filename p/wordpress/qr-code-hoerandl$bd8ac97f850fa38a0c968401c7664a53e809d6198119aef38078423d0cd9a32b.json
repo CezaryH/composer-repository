@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/qr-code-hoerandl": {
+            "1.0": {
+                "name": "wordpress\/qr-code-hoerandl",
+                "version": "1.0",
+                "version_normalized": "1.0.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/qr-code-hoerandl.1.0.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>With a small code snippet you can generate individually QR-code graphics that placed directly into the content of your website.<\/p>\n\n<p>Possible Parameters:\n*   content\n*   pixel color\n*   background color\n*   bordersize\n*   css class\n*   alignment\n*   alt-attribute<\/p>\n\n<p>After installation and activation (!) you can use the plugin as following:<\/p>\n\n<p>Write a simple code snippet directly into the article to get an QR-Code contents the current URL:\n[qrcode_hoerandl]<\/p>\n\n<p>Usage with more parameters:\n[qrcode_hoerandl content=\"Hello World!\" color=\"000000\" bgcolor=\"FFFFFF\" size=\"100\" margin=\"1\" align=\"right\" class=\"image\" alt=\"QR-Code\"]<\/p>\n\n<p><em>More Informations on: <a href=\"http:\/\/www.hoerandl.com\/blog\/item\/qr-code-wordpress-shortcode-plugin\" title=\"Hoerandl.com ... pimp your website\">http:\/\/www.hoerandl.com<\/a><\/em><\/p>\n\n\n\n<p>German \/ Deutsch:<\/p>\n\n<p>Mit einem kleinen Code-Schnipsel k&#246;nnen individuelle QR-Code Grafiken erstellt werden, die direkt in den Inhalt der Webs",
+                "uid": "26693"
+            }
+        }
+    }
+}

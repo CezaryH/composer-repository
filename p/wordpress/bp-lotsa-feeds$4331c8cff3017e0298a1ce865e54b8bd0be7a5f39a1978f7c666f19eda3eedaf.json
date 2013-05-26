@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/bp-lotsa-feeds": {
+            "1.0": {
+                "name": "wordpress\/bp-lotsa-feeds",
+                "version": "1.0",
+                "version_normalized": "1.0.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/bp-lotsa-feeds.1.0.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>BP Lotsa Feeds adds a whole bunch of RSS feeds to your installation of BuddyPress. The following feeds are included with BP Lotsa Feeds (followed by the URL pattern where the feeds can be found):<\/p>\n\n<p>INDIVIDUAL MEMBERS<\/p>\n\n<ul>\n<li>Networkwide comments by an individual member (\/members\/username\/activity\/comments\/feed)<\/li>\n<li>Networkwide blog posts by an individual member (\/members\/username\/activity\/blogposts\/feed)<\/li>\n<li>Activity updates by an individual member (\/members\/username\/activity\/updates\/feed)<\/li>\n<li>An individual member's friendship connections (\/members\/username\/activity\/friendships\/feed)<\/li>\n<li>Forum topics started by an individual member (\/members\/username\/activity\/forumtopics\/feed)<\/li>\n<li>Forum replies by an individual member (\/members\/username\/activity\/forumreplies\/feed)<\/li>\n<li>All forum activity by a member (a combination of the previous two feeds) (\/members\/username\/activity\/forums\/feed)<\/li>\n<\/ul>\n\n<p>INDIVIDUAL GROUPS<\/p>\n\n<ul>\n<li>A group's activ",
+                "uid": "61232"
+            }
+        }
+    }
+}

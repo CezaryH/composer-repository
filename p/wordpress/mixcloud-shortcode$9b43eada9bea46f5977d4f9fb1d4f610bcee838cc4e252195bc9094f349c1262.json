@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/mixcloud-shortcode": {
+            "1.0": {
+                "name": "wordpress\/mixcloud-shortcode",
+                "version": "1.0",
+                "version_normalized": "1.0.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/mixcloud-shortcode.1.0.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>The Mixcloud Shortcode plugin allows you to add the Mixcloud player into your WordPress blog or page, by using the [mixcloud] shortcode.<\/p>\n\n<h4>Usage<\/h4>\n\n<p>As default you only need to copy the URL of the song from Mixcloud you wish to add into your WordPress post or page, and past it between <em>[mixcloud]<\/em> and <em>[\/mixcloud]<\/em><\/p>\n\n<pre><code>[mixcloud]http:\/\/www.mixcloud.com\/artist-name\/long-live-set-name\/[\/mixcloud]<\/code><\/pre>\n\n<p>Make sure it's the permalink (<em>&#8230;com\/artist-name\/dj-set-or-live-name\/<\/em>) instead of \"<em>&#8230;com\/pilayer\/<\/em>\".<\/p>\n\n<p>The optional parameters are height and width:<\/p>\n\n<pre><code>[mixcloud height=&#34;100&#34; width=&#34;400&#34;]http:\/\/www.mixcloud.com\/artist-name\/recorded-live-somewhere\/[\/mixcloud]<\/code><\/pre>\n\n<h4>Parameters<\/h4>\n\n<p>The first version accepts the following parameters:<\/p>\n\n<ul>\n<li>Height: integer value <\/li>\n<li>Width: integer value    <\/li>\n<\/ul>\n\n<h4>Examples<\/h4>\n\n<pre><code>[mixcloud]http:\/\/www.",
+                "uid": "39648"
+            }
+        }
+    }
+}

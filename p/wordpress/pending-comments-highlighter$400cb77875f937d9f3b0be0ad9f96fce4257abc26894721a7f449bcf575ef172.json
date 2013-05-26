@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/pending-comments-highlighter": {
+            "1.0": {
+                "name": "wordpress\/pending-comments-highlighter",
+                "version": "1.0",
+                "version_normalized": "1.0.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/pending-comments-highlighter.1.0.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>I have found a very annoying problem on the admin panel.<\/p>\n\n<p>Where the comments are listed, unapproved comments had lightyellow color (HEX:FFFFE0).\nIt is hard to make difference between unapproved and approved comments with this color.<\/p>\n\n<p>This plugin changes the background-color to black, and the author's name and his comment to white. This makes the comment approving system easier to see on all monitor types.<\/p>",
+                "uid": "55487"
+            }
+        }
+    }
+}

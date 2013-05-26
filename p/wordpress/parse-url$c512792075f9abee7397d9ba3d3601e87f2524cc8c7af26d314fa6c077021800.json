@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/parse-url": {
+            "2.0": {
+                "name": "wordpress\/parse-url",
+                "version": "2.0",
+                "version_normalized": "2.0.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/parse-url.2.0.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>URL Parse plugin will be responsible for fetching meta information along with 330 characters from the supplied website url.\nOptionally, it also takes the image parameter where we need to supply a specific uploaded image in the post. This parser takes care\nof url forwarding. Optionally this parser takes 2 parameters named url_name and tag_name. These parameters are stored in the database\nas key-value pair. url_name is the primary DNS and tag_name is the tag within which the actual text is stored.<\/p>\n\n<p>For example,\nIf the url = <a href=\"http:\/\/timesofindia.indiatimes.com\/india\/Italy-regrets-killing-of-Indian-fishermen\/articleshow\/11990083.cms\" rel=\"nofollow\">http:\/\/timesofindia.indiatimes.com\/india\/Italy-regrets-killing-of-Indian-fishermen\/articleshow\/11990083.cms<\/a>\nand if the text is actually under the tag \"div class=Normal\" then the shortcode can be used as follows:\n[url_parse url='http:\/\/timesofindia.indiatimes.com\/india\/Italy-regrets-killing-of-Indian-fishermen\/articleshow\/11",
+                "uid": "24048"
+            }
+        }
+    }
+}

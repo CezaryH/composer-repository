@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/bp-wiki": {
+            "1.0.2": {
+                "name": "wordpress\/bp-wiki",
+                "version": "1.0.2",
+                "version_normalized": "1.0.2.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/bp-wiki.1.0.2.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>NEW IN 1.0.0<\/p>\n\n<ul>\n<li>Wiki article comments now supported via the activity stream.<\/li>\n<li>Fixed the html list styling errors (thanks to those that contributed fixes - credits in css file)<\/li>\n<\/ul>\n\n<p>Optional: Install the bp-fadmin plugin to enable group administrators to move wiki pages between groups and have quick access to change the view\/edit\/etc settings of the wiki pages in all their groups.  <a href=\"http:\/\/wordpress.org\/extend\/plugins\/bp-fadmin\/\" rel=\"nofollow\">http:\/\/wordpress.org\/extend\/plugins\/bp-fadmin\/<\/a><\/p>\n\n<p>This is a completely new version of the BuddyPress Group Wikis plugin.<\/p>\n\n<p>The plugin is now based on the BuddyPress Skeleton Component and has been rewritten from the ground up to take advantage of internationalisation support, BuddyPress standards for ajax, function hooks and several months of BuddyPress\/wordpress experience (as compared to very little before writing the original group wiki plugin).<\/p>\n\n<p>Key features as compared to the orig",
+                "uid": "69536"
+            }
+        }
+    }
+}

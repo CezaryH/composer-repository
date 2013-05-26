@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/edshelf-widget": {
+            "0.2.1": {
+                "name": "wordpress\/edshelf-widget",
+                "version": "0.2.1",
+                "version_normalized": "0.2.1.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/edshelf-widget.0.2.1.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p><a href=\"http:\/\/edshelf.com\">edshelf<\/a> helps you find the most effective educational tools for your specific needs. You can also create collections of tools you like, or browse collections created by others.<\/p>\n\n<p>This plugin provides a shortcode so you can easily embed an edshelf widget onto your site.<\/p>\n\n<p>The shortcode is: <code>[edshelf-collection-widget id=\"NNNN\" height=\"YYY\" type=\"TTTT\"]<\/code><\/p>\n\n<p>The template tag is: <code>edshelf_collection_widget( NNNN, YYYY, 'TTTT' );<\/code><\/p>\n\n<p>Where <code>NNNN<\/code> is the ID of the collection you want to embed, <code>YYY<\/code> is the height of the widget in pixels, and <code>TTTT<\/code> is the type of widget. You can get this ID from the collection on edshelf, in the Widget module at the bottom of the right column. The choices for the type of widget are \"full\" (the default setting), \"compact\", or \"list\".<\/p>",
+                "uid": "12144"
+            }
+        }
+    }
+}

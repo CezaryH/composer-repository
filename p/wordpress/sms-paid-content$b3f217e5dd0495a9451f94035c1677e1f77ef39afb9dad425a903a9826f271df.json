@@ -1,0 +1,40 @@
+{
+    "packages": {
+        "wordpress\/sms-paid-content": {
+            "0.1": {
+                "name": "wordpress\/sms-paid-content",
+                "version": "0.1",
+                "version_normalized": "0.1.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/sms-paid-content.0.1.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>This Plugin allows you to hide any content on your blog, that will be visible only after user sends sms message.<\/p>\n\n<p>The sms:key is, from the implementational point of view, just a way of restricting user's ability to visit certain web-resources.\nIn order to allow a user to review the restricted content, individual access passwords are generated; \neach one of these passwords can have a time and\/or visit count limit, up to you.\nThe access for the certain password is denied when the time is up OR when the visit count limit is hit, whichever comes first.\nBe careful while adjusting the options thought: note that when you change your sms:key options,\nonly those users that signed up after the change are affected.<\/p>\n\n<p>For using this module you have to be registered at sms billing site:\n       English: <a href=\"http:\/\/smscoin.com\/account\/register\/\" rel=\"nofollow\">http:\/\/smscoin.com\/account\/register\/<\/a>\n       Russian: <a href=\"http:\/\/smscoin.com\/ru\/account\/register\/\" rel=\"nofollow\"",
+                "uid": "106255"
+            },
+            "1.2.0": {
+                "name": "wordpress\/sms-paid-content",
+                "version": "1.2.0",
+                "version_normalized": "1.2.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/sms-paid-content.1.2.0.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>This Plugin allows you to hide any content on your blog, that will be visible only after user sends sms message.<\/p>\n\n<p>The sms:key is, from the implementational point of view, just a way of restricting user's ability to visit certain web-resources.\nIn order to allow a user to review the restricted content, individual access passwords are generated; \neach one of these passwords can have a time and\/or visit count limit, up to you.\nThe access for the certain password is denied when the time is up OR when the visit count limit is hit, whichever comes first.\nBe careful while adjusting the options thought: note that when you change your sms:key options,\nonly those users that signed up after the change are affected.<\/p>\n\n<p>For using this module you have to be registered at sms billing site:\n       English: <a href=\"http:\/\/smscoin.com\/account\/register\/\" rel=\"nofollow\">http:\/\/smscoin.com\/account\/register\/<\/a>\n       Russian: <a href=\"http:\/\/smscoin.com\/ru\/account\/register\/\" rel=\"nofollow\"",
+                "uid": "106254"
+            }
+        }
+    }
+}

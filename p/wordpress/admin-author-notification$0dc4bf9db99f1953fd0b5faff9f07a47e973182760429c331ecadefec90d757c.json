@@ -1,0 +1,40 @@
+{
+    "packages": {
+        "wordpress\/admin-author-notification": {
+            "0.1": {
+                "name": "wordpress\/admin-author-notification",
+                "version": "0.1",
+                "version_normalized": "0.1.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/admin-author-notification.0.1.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>I had a client who wanted to notify an author by means of a Javascript alert that their submission had been successfully entered to 'Pending' status and which would also email the Administrator about this new pending submission. I firstly performed this in functions.php but realised it could easily be abstracted to a plugin - which it has :)<\/p>",
+                "uid": "37540"
+            },
+            "1.0": {
+                "name": "wordpress\/admin-author-notification",
+                "version": "1.0",
+                "version_normalized": "1.0.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/admin-author-notification.1.0.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>I had a client who wanted to notify an author by means of a Javascript alert that their submission had been successfully entered to 'Pending' status and which would also email the Administrator about this new pending submission. I firstly performed this in functions.php but realised it could easily be abstracted to a plugin - which it has :)<\/p>",
+                "uid": "37539"
+            }
+        }
+    }
+}

@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/paypal-responder": {
+            "1.0": {
+                "name": "wordpress\/paypal-responder",
+                "version": "1.0",
+                "version_normalized": "1.0.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/paypal-responder.1.0.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>PayPal Responder processes payment for a product via PayPal, then sends an email responder to the customer and returns them to a URL of your choice. That's it.<\/p>\n\n<p>You can use it to sell any type of product\/s on your website. There is no cart, checkout process or anything complicated - it just lets the user buy a single product in 1 click, then returns them to a URL of your choice, and emails them the auto-responder.<\/p>\n\n<h4>Example Usage<\/h4>\n\n<p>Let's say you're selling an eBook. User clicks \"Buy\" button &#62; user is directed through PayPal checkout &#62; once checkout it completed user is returned to a thank you URL and emailed the eBook.<\/p>\n\n<p>I developed this plugin for a usage similar to above example. I didn't want a fully fledged eCommerce system, and many other solutions include Add to Cart and then whole heap of other stop screens that hindered the transaction.<\/p>\n\n<h4>Key Features<\/h4>\n\n<ul>\n<li>Simple, light-weight PayPal plugin<\/li>\n<li>Can handle multiple prod",
+                "uid": "11096"
+            }
+        }
+    }
+}

@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/wp-rails-authenticate": {
+            "1.0": {
+                "name": "wordpress\/wp-rails-authenticate",
+                "version": "1.0",
+                "version_normalized": "1.0.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/wp-rails-authenticate.1.0.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>Many people use wordpress to run blogs alongside their Ruby on Rails applications. And many \nRuby on Rails applications use very similar login systems, derived from the restful_authentication \nor clearance plugins. This plugin provides hooks so that your wordpress blog can read your rails \napp's database.yml file, connect to that database and authenticate the user against your rails app.<\/p>\n\n<p>This plugin requires the syck PHP extension for parsing yaml. Instructions for installing syck are available at\n<a href=\"http:\/\/trac.symfony-project.org\/wiki\/InstallingSyck\" rel=\"nofollow\">http:\/\/trac.symfony-project.org\/wiki\/InstallingSyck<\/a><\/p>",
+                "uid": "75177"
+            }
+        }
+    }
+}

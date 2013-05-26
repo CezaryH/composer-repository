@@ -1,0 +1,57 @@
+{
+    "packages": {
+        "wordpress\/tag-images": {
+            "1.0": {
+                "name": "wordpress\/tag-images",
+                "version": "1.0",
+                "version_normalized": "1.0.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/tag-images.1.0.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>This plugin adds a panel to the Options screen in the admin that allows you to assign an image to a tag.<\/p>\n\n<p>In order to make use of the image, you must alter your theme to include it where appropriate. In it's simplest case, this is simply something like <code>echo get_tag_image($tag)<\/code> or <code>&#60;?php foreach (get_the_tags() as $tag) echo get_tag_image($tag); ?&#62;<\/code>, or something.<\/p>",
+                "uid": "88317"
+            },
+            "1.1": {
+                "name": "wordpress\/tag-images",
+                "version": "1.1",
+                "version_normalized": "1.1.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/tag-images.1.1.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>This plugin adds a panel to the Options screen in the admin that allows you to assign an image to a tag.<\/p>\n\n<p>In order to make use of the image, you must alter your theme to include it where appropriate. In it's simplest case, this is simply something like <code>echo get_tag_image($tag)<\/code> or <code>&#60;?php foreach (get_the_tags() as $tag) echo get_tag_image($tag); ?&#62;<\/code>, or something.<\/p>",
+                "uid": "88316"
+            },
+            "1.2": {
+                "name": "wordpress\/tag-images",
+                "version": "1.2",
+                "version_normalized": "1.2.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/tag-images.1.2.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>This plugin adds a panel to the Options screen in the admin that allows you to assign an image to a tag.<\/p>\n\n<p>In order to make use of the image, you must alter your theme to include it where appropriate. In it's simplest case, this is simply something like <code>echo get_tag_image($tag)<\/code> or <code>&#60;?php foreach (get_the_tags() as $tag) echo get_tag_image($tag); ?&#62;<\/code>, or something.<\/p>",
+                "uid": "88315"
+            }
+        }
+    }
+}

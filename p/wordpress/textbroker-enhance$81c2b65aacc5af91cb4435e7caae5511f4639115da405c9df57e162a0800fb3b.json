@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/textbroker-enhance": {
+            "1.0": {
+                "name": "wordpress\/textbroker-enhance",
+                "version": "1.0",
+                "version_normalized": "1.0.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/textbroker-enhance.1.0.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>It adds filters to the modified Textbroker wordpress plugin (<a href=\"http:\/\/akmdrei.github.com\/Textbroker-Wordpress-Plugin-Plus\/\" rel=\"nofollow\">http:\/\/akmdrei.github.com\/Textbroker-Wordpress-Plugin-Plus\/<\/a>).<\/p>\n\n<p>Note that the normal plugin from Textbroker does not support hooks, so you first need to install the modified version.<\/p>\n\n<p>These filters are:<\/p>\n\n<ol>\n<li><p>Enhance all SEO-Keywords from Textbroker with the HTML bold tag <\/p><\/li>\n<li><p>If you are using the All-In-One-SEO-Pack <a href=\"http:\/\/wordpress.org\/extend\/plugins\/all-in-one-seo-pack\/\" rel=\"nofollow\">http:\/\/wordpress.org\/extend\/plugins\/all-in-one-seo-pack\/<\/a> all SEO-Keywords from Textbroker\nwill automatically be added to the HTML-Keywords field of All-In-One-SEO-Pack<\/p><\/li>\n<\/ol>\n\n<p>This plugin is Multi-Site compatible!<\/p>",
+                "uid": "23192"
+            }
+        }
+    }
+}

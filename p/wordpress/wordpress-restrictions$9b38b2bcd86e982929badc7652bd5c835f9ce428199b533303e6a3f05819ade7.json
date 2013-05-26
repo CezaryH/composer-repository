@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/wordpress-restrictions": {
+            "0.2": {
+                "name": "wordpress\/wordpress-restrictions",
+                "version": "0.2",
+                "version_normalized": "0.2.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/wordpress-restrictions.0.2.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>WordPress Restrictions allows you to set restrictions on when and what content can be edited\/deleted on your WordPress Install.<\/p>\n\n<p><strong>Supported Features:<\/strong><\/p>\n\n<ul>\n    <li>Options to set a timeframe (in days) when editors \/ authors can delete or edit posts.<\/li>\n    <li>Options to set a timeframe (in days) when editors can delete or edit pages.<\/li>\n    <li>Options to exclude certain Users, Posts, and Pages from restrictions set within WordPress Restrictions.<\/li>\n    <li>Options to set a limit on the number of posts an author \/ edit may make each day.<\/li>\n<\/ul>\n\n<p>Official Documentations can be found at <a href=\"http:\/\/sonicedges.com\/plugins\/wordpress-restrictions\/\" title=\"WordPress Restrictions\">WordPress Restrictions<\/a>.<\/p>",
+                "uid": "40960"
+            }
+        }
+    }
+}

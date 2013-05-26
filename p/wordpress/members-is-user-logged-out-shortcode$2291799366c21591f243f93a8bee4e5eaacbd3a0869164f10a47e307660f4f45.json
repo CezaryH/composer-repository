@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/members-is-user-logged-out-shortcode": {
+            "0.1": {
+                "name": "wordpress\/members-is-user-logged-out-shortcode",
+                "version": "0.1",
+                "version_normalized": "0.1.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/members-is-user-logged-out-shortcode.0.1.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>To complement the [is_user_logged_in] shortcode I noticed a [is_user_logged_out] shortcode was missing from <a href=\"http:\/\/wordpress.org\/extend\/plugins\/members\/\">Members plugin<\/a>, soI  decided to write an \"extension plugin\" to add it. Maybe this can be added to <a href=\"http:\/\/wordpress.org\/extend\/plugins\/members\/\">Members<\/a> itself one day?<\/p>\n\n<p>The [is_user_logged_out] shortcode should be used to check if a user is currently logged out of the site. If not, the content will be hidden.<\/p>\n\n<p>Example:\n[is_user_logged_out]This content is only shown to logged-out users.[\/is_user_logged_out]<\/p>\n\n<p>This shortcode has no parameters.<\/p>",
+                "uid": "34219"
+            }
+        }
+    }
+}

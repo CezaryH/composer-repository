@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/section-subnav": {
+            "0.9": {
+                "name": "wordpress\/section-subnav",
+                "version": "0.9",
+                "version_normalized": "0.9.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/section-subnav.0.9.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>This is a simple plugin that was born out of working on several projects with sectional navigations.  For example, consider the following common navigation tree structure:<\/p>\n\n<ul>\n<li>Home<\/li>\n<li>Item<\/li>\n<li>About Us\n\n<ul>\n<li>Sub-item #1<\/li>\n<li>Sub-item #2<\/li>\n<\/ul><\/li>\n<li>Item<\/li>\n<li>Item<\/li>\n<\/ul>\n\n<p>Then, whenever on the \"About Us\" page or any of its sub-items, it would output that peice of the navigation:<\/p>\n\n<ul>\n<li>About Us\n\n<ul>\n<li>Sub-item #1<\/li>\n<li>Sub-item #2<\/li>\n<\/ul><\/li>\n<\/ul>\n\n<p>This is particularly useful for websites that have a top horizontal navigation which shows top-level items and want to show a vertical subnavigation in the sidebar.<\/p>\n\n<p>This plugin works by parsing the output of the <code>wp_nav_menu<\/code> function as XML and analyzing the CSS class hooks (current-menu-ancestor, current-menu-item, and current-menu-parent).  Because it uses PHP's SimpleXML library it therefore requires PHP 5+.  It uses the theme's registered menu loca",
+                "uid": "40529"
+            }
+        }
+    }
+}

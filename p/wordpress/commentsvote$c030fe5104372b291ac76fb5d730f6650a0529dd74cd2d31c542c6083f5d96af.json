@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/commentsvote": {
+            "1.0": {
+                "name": "wordpress\/commentsvote",
+                "version": "1.0",
+                "version_normalized": "1.0.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/commentsvote.1.0.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>This plug-in enables users of the website to vote comments up or down. This running tally can be displayed on the comment, and administrators have the ability to activate the collapsing of comments with a designated negative rating. The comment will still be available for viewing by clicking on a \"show comment\" link, which expands to show the collapsed comment's contents.<\/p>",
+                "uid": "95199"
+            }
+        }
+    }
+}

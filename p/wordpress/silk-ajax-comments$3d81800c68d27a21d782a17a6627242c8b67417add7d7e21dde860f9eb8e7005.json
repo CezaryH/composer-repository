@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/silk-ajax-comments": {
+            "1.0": {
+                "name": "wordpress\/silk-ajax-comments",
+                "version": "1.0",
+                "version_normalized": "1.0.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/silk-ajax-comments.1.0.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>Instead of taking you to a different page (wp-comments-post.php) which does not redirect this script just ads some quick text above your form to let your users know if there was an error or if the comment was posted successfully (if successful it then clears the form).<\/p>\n\n<p>There are a few plugins that do a simliar thing to this already but unfortunately most of the current AJAX commenting solutions I found in the plugin directory havent been updated in years or just didn't work, so following on from many \"how to AJAX'ify your wordpress comments\" blog posts I thought i'd make a simple plugin instead (which means no coding knowledge required).<\/p>\n\n<p>The script chooses the #commentform div\/form as this is default.<\/p>\n\n<p>Ill update this plugin when needed but I do not offer any warranty or support for it.<\/p>",
+                "uid": "21047"
+            }
+        }
+    }
+}

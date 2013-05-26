@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/convert-address-to-google-maps-link": {
+            "1.0": {
+                "name": "wordpress\/convert-address-to-google-maps-link",
+                "version": "1.0",
+                "version_normalized": "1.0.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/convert-address-to-google-maps-link.1.0.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>This simple plugin converts addresses in \"<code>&#60;address&#62;&#60;\/address&#62;<\/code>\" tags into links that open a Google Map in a new window.<\/p>\n\n<p>NOTE: You need to put the address inside the <code>&#60;address&#62;&#60;\/address&#62;<\/code> html tag for this plugin to work. For example, you would need to write the following into your code: <code>&#60;address&#62;112 1\/2 Beacon Street, Boston 02108&#60;\/address&#62;<\/code><\/p>\n\n<p>FYI: This plugin is great for themes with custom fields that supply the address, but is probably not too useful for themes that don't.  Thanks!<\/p>\n\n<p>Finally, many many thanks to <a href=\"http:\/\/www.mikedoesweb.com\/\">Mike Jasper<\/a> , who wrote the javascript that powers this plugin.  I merely repackaged his code.<\/p>",
+                "uid": "21231"
+            }
+        }
+    }
+}

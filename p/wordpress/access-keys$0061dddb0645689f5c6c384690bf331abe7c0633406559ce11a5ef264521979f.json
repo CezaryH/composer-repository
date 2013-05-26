@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/access-keys": {
+            "1.0": {
+                "name": "wordpress\/access-keys",
+                "version": "1.0",
+                "version_normalized": "1.0.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/access-keys.1.0.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>The WordPress Access Keys Plugin allows you to add access keys to pages and categories to improve accessibility of your WordPress website. This works with any page or category list that is called with <code>wp_list_pages<\/code> and <code>wp_list_categories<\/code> respectively.<\/p>\n\n<p>It is simple to use this this plugin. On the Admin panel it lists pages and categories with a current access key, and in a separate list it lists the pages and categories without access keys. Just add an access key just type a number or letter in a text box and click the save button. The categories or posts will then move to the top list, and you will feel great about be kind to your users.<\/p>",
+                "uid": "107182"
+            }
+        }
+    }
+}

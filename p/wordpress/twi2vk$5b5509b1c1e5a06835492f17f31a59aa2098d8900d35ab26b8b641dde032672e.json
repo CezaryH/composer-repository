@@ -1,0 +1,40 @@
+{
+    "packages": {
+        "wordpress\/twi2vk": {
+            "0.1": {
+                "name": "wordpress\/twi2vk",
+                "version": "0.1",
+                "version_normalized": "0.1.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/twi2vk.0.1.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>This plugin takes tweets from public profile and posts to VK.com(VKontekte).<\/p>\n\n<p>Plugin stores last 50 tweets.\nNew tweets are checked every 10 minytes (depends on WP-Cron) and every time you visit settings page.\nAll links appear unshorted.\nFirst link in tweet is parsed as attachement to VK Wall post.\nTwitter usernames will appear as a link to twitter profile.<\/p>",
+                "uid": "21233"
+            },
+            "0.1.1": {
+                "name": "wordpress\/twi2vk",
+                "version": "0.1.1",
+                "version_normalized": "0.1.1.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/twi2vk.0.1.1.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>This plugin takes tweets from public profile and posts to VK.com(VKontekte).<\/p>\n\n<p>Plugin stores last 50 tweets.\nNew tweets are checked every 10 minytes (depends on WP-Cron) and every time you visit settings page.\nAll links appear unshorted.\nFirst link in tweet is parsed as attachement to VK Wall post.\nTwitter usernames will appear as a link to twitter profile.<\/p>",
+                "uid": "21232"
+            }
+        }
+    }
+}

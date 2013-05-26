@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/disable-post-format-ui": {
+            "0.1.0": {
+                "name": "wordpress\/disable-post-format-ui",
+                "version": "0.1.0",
+                "version_normalized": "0.1.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/disable-post-format-ui.0.1.0.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>This plugin is fairly basic.  It simply disables the post format UI on the edit post screen.  There's nothing fancy here.  It just does this simple job.<\/p>",
+                "uid": "7076"
+            }
+        }
+    }
+}

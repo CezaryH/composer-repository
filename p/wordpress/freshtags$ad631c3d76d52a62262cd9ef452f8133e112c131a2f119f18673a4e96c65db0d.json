@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/freshtags": {
+            "0.21": {
+                "name": "wordpress\/freshtags",
+                "version": "0.21",
+                "version_normalized": "0.21.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/freshtags.0.21.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<ul>\n<li>Detects tags from search engines, wikis, or other blogs<\/li>\n<li>Auto-expands detected tags<\/li>\n<li>Shows related posts based on tags<\/li>\n<li>Provides JSON(P) feeds of tag results<\/li>\n<\/ul>",
+                "uid": "111845"
+            }
+        }
+    }
+}

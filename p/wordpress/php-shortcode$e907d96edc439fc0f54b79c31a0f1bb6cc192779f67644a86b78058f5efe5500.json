@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/php-shortcode": {
+            "1.3": {
+                "name": "wordpress\/php-shortcode",
+                "version": "1.3",
+                "version_normalized": "1.3.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/php-shortcode.1.3.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>Based on kukukuan's <a href=\"http:\/\/wordpress.org\/extend\/plugins\/inline-php\/\">Inline PHP<\/a>, this plugin allows you to embed and run PHP code in posts, pages or widgets* with a WordPress shortcode.<\/p>\n\n<p>(* Requires a shortcode enabled widget plugin, such as <a href=\"http:\/\/wordpress.org\/extend\/plugins\/section-widget\/\">Section Widget<\/a>.)<\/p>\n\n<h4>Usage<\/h4>\n\n<p>The plugin provides two pairs of shortcodes - <code>[php]code[\/php]<\/code> and <code>[echo]code[\/echo]<\/code>. these two pairs of shortcodes resembles the functionality of the <code>&#60;?php code ?&#62;<\/code> and <code>&#60;?= code ?&#62;<\/code> tags in a normal PHP script, respectively.<\/p>\n\n<p>For example:<\/p>\n\n<pre><code>The answer to the &#60;em&#62;ultimate&#60;\/em&#62; math challenge, &#60;strong&#62;1+2&#60;\/strong&#62;, is...\n[php]\n  $a = 1;\n  $b = 2;\n\n  echo $a + $b;\n[\/php]\n<\/code><\/pre>\n\n<p>Will become:<\/p>\n\n<pre><code>The answer to the &#60;em&#62;ultimate&#60;\/em&#62; math challenge, &#60;strong&#62;1+2&#60",
+                "uid": "83094"
+            }
+        }
+    }
+}

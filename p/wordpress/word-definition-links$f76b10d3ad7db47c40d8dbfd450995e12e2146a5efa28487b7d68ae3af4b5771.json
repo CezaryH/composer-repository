@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/word-definition-links": {
+            "1.1": {
+                "name": "wordpress\/word-definition-links",
+                "version": "1.1",
+                "version_normalized": "1.1.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/word-definition-links.1.1.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>This plugin will display a small \u0091?\u0092 icon that links to either the definition or the translation of the word.\nThe plugin is a no-brainer to use: [define:dog] will define the word \u0091dog\u0092 and [en2fr:dog] will translate the\nword \u0091dog\u0092 from english to french. [wikies:dog] will show the Wikipedia article for the given word in spanish (es).\nDictionary.com is used to define words, as it has definitions for technical terms too.\nTranslation works with Google's translation engine.<\/p>\n\n<p>For a list of 2-letter language code, see here: <a href=\"http:\/\/reference.sitepoint.com\/html\/lang-codes\" rel=\"nofollow\">http:\/\/reference.sitepoint.com\/html\/lang-codes<\/a><\/p>",
+                "uid": "64960"
+            }
+        }
+    }
+}

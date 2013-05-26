@@ -1,0 +1,635 @@
+{
+    "packages": {
+        "wordpress\/lexi": {
+            "0.5.2": {
+                "name": "wordpress\/lexi",
+                "version": "0.5.2",
+                "version_normalized": "0.5.2.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/lexi.0.5.2.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>Sometimes an RSS feed has a low bandwidth and during the page creation Wordpress has to wait after those RSS feeds had been downloaded. This plugin allows the site to read the RSS <em>after<\/em> the page was created, not <em>during<\/em> the process.<\/p>\n\n<p>To show a Feed in a post use <code>[lexi: configuration, rss, title, max_items]<\/code> or <code>lexiRSS($configuration, $rss, $title, $max_items)<\/code>.<\/p>\n\n<p>The configuration number can be calculated as follows:<\/p>\n\n<ul>\n<li>Add 1 if you want to save it in cache.<\/li>\n<li>Add 2 if you want to show the content.<\/li>\n<li>Add 4 if you want to show the title (this is the channel link too).<\/li>\n<li>Add 8 if you want to open it in a new page.<\/li>\n<li>Add 16 if you want to not show the RSS icon (this is the RSS link too).<\/li>\n<li>Add 32 if you want to show the author.<\/li>\n<li>Add 64 if you want to show the date.<\/li>\n<li>Add 128 if you want to paginate the results.<\/li>\n<li>Add 256 to not show items title.<\/li>\n<li>Add 512 to ",
+                "uid": "92611"
+            },
+            "0.5.3": {
+                "name": "wordpress\/lexi",
+                "version": "0.5.3",
+                "version_normalized": "0.5.3.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/lexi.0.5.3.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>Sometimes an RSS feed has a low bandwidth and during the page creation Wordpress has to wait after those RSS feeds had been downloaded. This plugin allows the site to read the RSS <em>after<\/em> the page was created, not <em>during<\/em> the process.<\/p>\n\n<p>To show a Feed in a post use <code>[lexi: configuration, rss, title, max_items]<\/code> or <code>lexiRSS($configuration, $rss, $title, $max_items)<\/code>.<\/p>\n\n<p>The configuration number can be calculated as follows:<\/p>\n\n<ul>\n<li>Add 1 if you want to save it in cache.<\/li>\n<li>Add 2 if you want to show the content.<\/li>\n<li>Add 4 if you want to show the title (this is the channel link too).<\/li>\n<li>Add 8 if you want to open it in a new page.<\/li>\n<li>Add 16 if you want to not show the RSS icon (this is the RSS link too).<\/li>\n<li>Add 32 if you want to show the author.<\/li>\n<li>Add 64 if you want to show the date.<\/li>\n<li>Add 128 if you want to paginate the results.<\/li>\n<li>Add 256 to not show items title.<\/li>\n<li>Add 512 to ",
+                "uid": "92607"
+            },
+            "0.6": {
+                "name": "wordpress\/lexi",
+                "version": "0.6",
+                "version_normalized": "0.6.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/lexi.0.6.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>Sometimes an RSS feed has a low bandwidth and during the page creation Wordpress has to wait after those RSS feeds had been downloaded. This plugin allows the site to read the RSS <em>after<\/em> the page was created, not <em>during<\/em> the process.<\/p>\n\n<p>To show a Feed in a post use <code>[lexi: configuration, rss, title, max_items]<\/code> or <code>lexiRSS($configuration, $rss, $title, $max_items)<\/code>.<\/p>\n\n<p>The configuration number can be calculated as follows:<\/p>\n\n<ul>\n<li>Add 1 if you want to save it in cache.<\/li>\n<li>Add 2 if you want to show the content.<\/li>\n<li>Add 4 if you want to show the title (this is the channel link too).<\/li>\n<li>Add 8 if you want to open it in a new page.<\/li>\n<li>Add 16 if you want to not show the RSS icon (this is the RSS link too).<\/li>\n<li>Add 32 if you want to show the author.<\/li>\n<li>Add 64 if you want to show the date.<\/li>\n<li>Add 128 if you want to paginate the results.<\/li>\n<li>Add 256 to not show items title.<\/li>\n<li>Add 512 to ",
+                "uid": "92605"
+            },
+            "0.6.1": {
+                "name": "wordpress\/lexi",
+                "version": "0.6.1",
+                "version_normalized": "0.6.1.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/lexi.0.6.1.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>Sometimes an RSS feed has a low bandwidth and during the page creation Wordpress has to wait after those RSS feeds had been downloaded. This plugin allows the site to read the RSS <em>after<\/em> the page was created, not <em>during<\/em> the process.<\/p>\n\n<p>To show a Feed in a post use <code>[lexi: configuration, rss, title, max_items]<\/code> or <code>lexiRSS($configuration, $rss, $title, $max_items)<\/code>.<\/p>\n\n<p>The configuration number can be calculated as follows:<\/p>\n\n<ul>\n<li>Add 1 if you want to save it in cache.<\/li>\n<li>Add 2 if you want to show the content.<\/li>\n<li>Add 4 if you want to show the title (this is the channel link too).<\/li>\n<li>Add 8 if you want to open it in a new page.<\/li>\n<li>Add 16 if you want to not show the RSS icon (this is the RSS link too).<\/li>\n<li>Add 32 if you want to show the author.<\/li>\n<li>Add 64 if you want to show the date.<\/li>\n<li>Add 128 if you want to paginate the results.<\/li>\n<li>Add 256 to not show items title.<\/li>\n<li>Add 512 to ",
+                "uid": "92602"
+            },
+            "0.7.0": {
+                "name": "wordpress\/lexi",
+                "version": "0.7.0",
+                "version_normalized": "0.7.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/lexi.0.7.0.1.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>Sometimes an RSS feed has a low bandwidth and during the page creation Wordpress has to wait after those RSS feeds had been downloaded. This plugin allows the site to read the RSS <em>after<\/em> the page was created, not <em>during<\/em> the process.<\/p>\n\n<p>To show a Feed in a post use <code>[lexi: configuration, rss, title, max_items]<\/code> or <code>lexiRSS($configuration, $rss, $title, $max_items)<\/code>.<\/p>\n\n<p>The configuration number can be calculated as follows:<\/p>\n\n<ul>\n<li>Add 1 if you want to save it in cache.<\/li>\n<li>Add 2 if you want to show the content.<\/li>\n<li>Add 4 if you want to show the title (this is the channel link too).<\/li>\n<li>Add 8 if you want to open it in a new page.<\/li>\n<li>Add 16 if you want to not show the RSS icon (this is the RSS link too).<\/li>\n<li>Add 32 if you want to show the author.<\/li>\n<li>Add 64 if you want to show the date.<\/li>\n<li>Add 128 if you want to paginate the results.<\/li>\n<li>Add 256 to not show items title.<\/li>\n<li>Add 512 to ",
+                "uid": "92598"
+            },
+            "0.7.1": {
+                "name": "wordpress\/lexi",
+                "version": "0.7.1",
+                "version_normalized": "0.7.1.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/lexi.0.7.1.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>Sometimes an RSS feed has a low bandwidth and during the page creation Wordpress has to wait after those RSS feeds had been downloaded. This plugin allows the site to read the RSS <em>after<\/em> the page was created, not <em>during<\/em> the process.<\/p>\n\n<p>To show a Feed in a post use <code>[lexi: configuration, rss, title, max_items]<\/code> or <code>lexiRSS($configuration, $rss, $title, $max_items)<\/code>.<\/p>\n\n<p>The configuration number can be calculated as follows:<\/p>\n\n<ul>\n<li>Add 1 if you want to save it in cache.<\/li>\n<li>Add 2 if you want to show the content.<\/li>\n<li>Add 4 if you want to show the title (this is the channel link too).<\/li>\n<li>Add 8 if you want to open it in a new page.<\/li>\n<li>Add 16 if you want to not show the RSS icon (this is the RSS link too).<\/li>\n<li>Add 32 if you want to show the author.<\/li>\n<li>Add 64 if you want to show the date.<\/li>\n<li>Add 128 if you want to paginate the results.<\/li>\n<li>Add 256 to not show items title.<\/li>\n<li>Add 512 to ",
+                "uid": "92595"
+            },
+            "0.7.2": {
+                "name": "wordpress\/lexi",
+                "version": "0.7.2",
+                "version_normalized": "0.7.2.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/lexi.0.7.2.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>Sometimes an RSS feed has a low bandwidth and during the page creation Wordpress has to wait after those RSS feeds had been downloaded. This plugin allows the site to read the RSS <em>after<\/em> the page was created, not <em>during<\/em> the process.<\/p>\n\n<p>To show a Feed in a post use <code>[lexi: configuration, rss, title, max_items]<\/code> or <code>lexiRSS($configuration, $rss, $title, $max_items)<\/code>.<\/p>\n\n<p>The configuration number can be calculated as follows:<\/p>\n\n<ul>\n<li>Add 1 if you want to save it in cache.<\/li>\n<li>Add 2 if you want to show the content.<\/li>\n<li>Add 4 if you want to show the title (this is the channel link too).<\/li>\n<li>Add 8 if you want to open it in a new page.<\/li>\n<li>Add 16 if you want to not show the RSS icon (this is the RSS link too).<\/li>\n<li>Add 32 if you want to show the author.<\/li>\n<li>Add 64 if you want to show the date.<\/li>\n<li>Add 128 if you want to paginate the results.<\/li>\n<li>Add 256 to not show items title.<\/li>\n<li>Add 512 to ",
+                "uid": "92593"
+            },
+            "0.7.3": {
+                "name": "wordpress\/lexi",
+                "version": "0.7.3",
+                "version_normalized": "0.7.3.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/lexi.0.7.3.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>Sometimes an RSS feed has a low bandwidth and during the page creation Wordpress has to wait after those RSS feeds had been downloaded. This plugin allows the site to read the RSS <em>after<\/em> the page was created, not <em>during<\/em> the process.<\/p>\n\n<p>To show a Feed in a post use <code>[lexi: configuration, rss, title, max_items]<\/code> or <code>lexiRSS($configuration, $rss, $title, $max_items)<\/code>.<\/p>\n\n<p>The configuration number can be calculated as follows:<\/p>\n\n<ul>\n<li>Add 1 if you want to save it in cache.<\/li>\n<li>Add 2 if you want to show the content.<\/li>\n<li>Add 4 if you want to show the title (this is the channel link too).<\/li>\n<li>Add 8 if you want to open it in a new page.<\/li>\n<li>Add 16 if you want to not show the RSS icon (this is the RSS link too).<\/li>\n<li>Add 32 if you want to show the author.<\/li>\n<li>Add 64 if you want to show the date.<\/li>\n<li>Add 128 if you want to paginate the results.<\/li>\n<li>Add 256 to not show items title.<\/li>\n<li>Add 512 to ",
+                "uid": "92592"
+            },
+            "0.7.4": {
+                "name": "wordpress\/lexi",
+                "version": "0.7.4",
+                "version_normalized": "0.7.4.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/lexi.0.7.4.2.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>Sometimes an RSS feed has a low bandwidth and during the page creation Wordpress has to wait after those RSS feeds had been downloaded. This plugin allows the site to read the RSS <em>after<\/em> the page was created, not <em>during<\/em> the process.<\/p>\n\n<p>To show a Feed in a post use <code>[lexi: configuration, rss, title, max_items]<\/code> or <code>lexiRSS($configuration, $rss, $title, $max_items)<\/code>.<\/p>\n\n<p>The configuration number can be calculated as follows:<\/p>\n\n<ul>\n<li>Add 1 if you want to save it in cache.<\/li>\n<li>Add 2 if you want to show the content.<\/li>\n<li>Add 4 if you want to show the title (this is the channel link too).<\/li>\n<li>Add 8 if you want to open it in a new page.<\/li>\n<li>Add 16 if you want to not show the RSS icon (this is the RSS link too).<\/li>\n<li>Add 32 if you want to show the author.<\/li>\n<li>Add 64 if you want to show the date.<\/li>\n<li>Add 128 if you want to paginate the results.<\/li>\n<li>Add 256 to not show items title.<\/li>\n<li>Add 512 to ",
+                "uid": "92591"
+            },
+            "0.7.95": {
+                "name": "wordpress\/lexi",
+                "version": "0.7.95",
+                "version_normalized": "0.7.95.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/lexi.0.7.95.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>Sometimes an RSS feed has a low bandwidth and during the page creation Wordpress has to wait after those RSS feeds had been downloaded. This plugin allows the site to read the RSS <em>after<\/em> the page was created, not <em>during<\/em> the process.<\/p>\n\n<p>To show a Feed in a post use <code>[lexi: configuration, rss, title, max_items]<\/code> or <code>lexiRSS($configuration, $rss, $title, $max_items)<\/code>.<\/p>\n\n<p>The configuration number can be calculated as follows:<\/p>\n\n<ul>\n<li>Add 1 if you want to save it in cache.<\/li>\n<li>Add 2 if you want to show the content.<\/li>\n<li>Add 4 if you want to show the title (this is the channel link too).<\/li>\n<li>Add 8 if you want to open it in a new page.<\/li>\n<li>Add 16 if you want to not show the RSS icon (this is the RSS link too).<\/li>\n<li>Add 32 if you want to show the author.<\/li>\n<li>Add 64 if you want to show the date.<\/li>\n<li>Add 128 if you want to paginate the results.<\/li>\n<li>Add 256 to not show items title.<\/li>\n<li>Add 512 to ",
+                "uid": "92588"
+            },
+            "0.7.96": {
+                "name": "wordpress\/lexi",
+                "version": "0.7.96",
+                "version_normalized": "0.7.96.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/lexi.0.7.96.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>Sometimes an RSS feed has a low bandwidth and during the page creation Wordpress has to wait after those RSS feeds had been downloaded. This plugin allows the site to read the RSS <em>after<\/em> the page was created, not <em>during<\/em> the process.<\/p>\n\n<p>To show a Feed in a post use <code>[lexi: configuration, rss, title, max_items]<\/code> or <code>lexiRSS($configuration, $rss, $title, $max_items)<\/code>.<\/p>\n\n<p>The configuration number can be calculated as follows:<\/p>\n\n<ul>\n<li>Add 1 if you want to save it in cache.<\/li>\n<li>Add 2 if you want to show the content.<\/li>\n<li>Add 4 if you want to show the title (this is the channel link too).<\/li>\n<li>Add 8 if you want to open it in a new page.<\/li>\n<li>Add 16 if you want to not show the RSS icon (this is the RSS link too).<\/li>\n<li>Add 32 if you want to show the author.<\/li>\n<li>Add 64 if you want to show the date.<\/li>\n<li>Add 128 if you want to paginate the results.<\/li>\n<li>Add 256 to not show items title.<\/li>\n<li>Add 512 to ",
+                "uid": "92587"
+            },
+            "0.7.97": {
+                "name": "wordpress\/lexi",
+                "version": "0.7.97",
+                "version_normalized": "0.7.97.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/lexi.0.7.97.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>Sometimes an RSS feed has a low bandwidth and during the page creation Wordpress has to wait after those RSS feeds had been downloaded. This plugin allows the site to read the RSS <em>after<\/em> the page was created, not <em>during<\/em> the process.<\/p>\n\n<p>To show a Feed in a post use <code>[lexi: configuration, rss, title, max_items]<\/code> or <code>lexiRSS($configuration, $rss, $title, $max_items)<\/code>.<\/p>\n\n<p>The configuration number can be calculated as follows:<\/p>\n\n<ul>\n<li>Add 1 if you want to save it in cache.<\/li>\n<li>Add 2 if you want to show the content.<\/li>\n<li>Add 4 if you want to show the title (this is the channel link too).<\/li>\n<li>Add 8 if you want to open it in a new page.<\/li>\n<li>Add 16 if you want to not show the RSS icon (this is the RSS link too).<\/li>\n<li>Add 32 if you want to show the author.<\/li>\n<li>Add 64 if you want to show the date.<\/li>\n<li>Add 128 if you want to paginate the results.<\/li>\n<li>Add 256 to not show items title.<\/li>\n<li>Add 512 to ",
+                "uid": "92586"
+            },
+            "0.7.98": {
+                "name": "wordpress\/lexi",
+                "version": "0.7.98",
+                "version_normalized": "0.7.98.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/lexi.0.7.98.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>Sometimes an RSS feed has a low bandwidth and during the page creation Wordpress has to wait after those RSS feeds had been downloaded. This plugin allows the site to read the RSS <em>after<\/em> the page was created, not <em>during<\/em> the process.<\/p>\n\n<p>To show a Feed in a post use <code>[lexi: configuration, rss, title, max_items]<\/code> or <code>lexiRSS($configuration, $rss, $title, $max_items)<\/code>.<\/p>\n\n<p>The configuration number can be calculated as follows:<\/p>\n\n<ul>\n<li>Add 1 if you want to save it in cache.<\/li>\n<li>Add 2 if you want to show the content.<\/li>\n<li>Add 4 if you want to show the title (this is the channel link too).<\/li>\n<li>Add 8 if you want to open it in a new page.<\/li>\n<li>Add 16 if you want to not show the RSS icon (this is the RSS link too).<\/li>\n<li>Add 32 if you want to show the author.<\/li>\n<li>Add 64 if you want to show the date.<\/li>\n<li>Add 128 if you want to paginate the results.<\/li>\n<li>Add 256 to not show items title.<\/li>\n<li>Add 512 to ",
+                "uid": "92585"
+            },
+            "0.7.99": {
+                "name": "wordpress\/lexi",
+                "version": "0.7.99",
+                "version_normalized": "0.7.99.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/lexi.0.7.99.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>Sometimes an RSS feed has a low bandwidth and during the page creation Wordpress has to wait after those RSS feeds had been downloaded. This plugin allows the site to read the RSS <em>after<\/em> the page was created, not <em>during<\/em> the process.<\/p>\n\n<p>To show a Feed in a post use <code>[lexi: configuration, rss, title, max_items]<\/code> or <code>lexiRSS($configuration, $rss, $title, $max_items)<\/code>.<\/p>\n\n<p>The configuration number can be calculated as follows:<\/p>\n\n<ul>\n<li>Add 1 if you want to save it in cache.<\/li>\n<li>Add 2 if you want to show the content.<\/li>\n<li>Add 4 if you want to show the title (this is the channel link too).<\/li>\n<li>Add 8 if you want to open it in a new page.<\/li>\n<li>Add 16 if you want to not show the RSS icon (this is the RSS link too).<\/li>\n<li>Add 32 if you want to show the author.<\/li>\n<li>Add 64 if you want to show the date.<\/li>\n<li>Add 128 if you want to paginate the results.<\/li>\n<li>Add 256 to not show items title.<\/li>\n<li>Add 512 to ",
+                "uid": "92584"
+            },
+            "0.8": {
+                "name": "wordpress\/lexi",
+                "version": "0.8",
+                "version_normalized": "0.8.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/lexi.0.8.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>Sometimes an RSS feed has a low bandwidth and during the page creation Wordpress has to wait after those RSS feeds had been downloaded. This plugin allows the site to read the RSS <em>after<\/em> the page was created, not <em>during<\/em> the process.<\/p>\n\n<p>To show a Feed in a post use <code>[lexi: configuration, rss, title, max_items]<\/code> or <code>lexiRSS($configuration, $rss, $title, $max_items)<\/code>.<\/p>\n\n<p>The configuration number can be calculated as follows:<\/p>\n\n<ul>\n<li>Add 1 if you want to save it in cache.<\/li>\n<li>Add 2 if you want to show the content.<\/li>\n<li>Add 4 if you want to show the title (this is the channel link too).<\/li>\n<li>Add 8 if you want to open it in a new page.<\/li>\n<li>Add 16 if you want to not show the RSS icon (this is the RSS link too).<\/li>\n<li>Add 32 if you want to show the author.<\/li>\n<li>Add 64 if you want to show the date.<\/li>\n<li>Add 128 if you want to paginate the results.<\/li>\n<li>Add 256 to not show items title.<\/li>\n<li>Add 512 to ",
+                "uid": "92583"
+            },
+            "0.8.1": {
+                "name": "wordpress\/lexi",
+                "version": "0.8.1",
+                "version_normalized": "0.8.1.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/lexi.0.8.1.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>Sometimes an RSS feed has a low bandwidth and during the page creation Wordpress has to wait after those RSS feeds had been downloaded. This plugin allows the site to read the RSS <em>after<\/em> the page was created, not <em>during<\/em> the process.<\/p>\n\n<p>To show a Feed in a post use <code>[lexi: configuration, rss, title, max_items]<\/code> or <code>lexiRSS($configuration, $rss, $title, $max_items)<\/code>.<\/p>\n\n<p>The configuration number can be calculated as follows:<\/p>\n\n<ul>\n<li>Add 1 if you want to save it in cache.<\/li>\n<li>Add 2 if you want to show the content.<\/li>\n<li>Add 4 if you want to show the title (this is the channel link too).<\/li>\n<li>Add 8 if you want to open it in a new page.<\/li>\n<li>Add 16 if you want to not show the RSS icon (this is the RSS link too).<\/li>\n<li>Add 32 if you want to show the author.<\/li>\n<li>Add 64 if you want to show the date.<\/li>\n<li>Add 128 if you want to paginate the results.<\/li>\n<li>Add 256 to not show items title.<\/li>\n<li>Add 512 to ",
+                "uid": "92582"
+            },
+            "0.8.2": {
+                "name": "wordpress\/lexi",
+                "version": "0.8.2",
+                "version_normalized": "0.8.2.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/lexi.0.8.2.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>Sometimes an RSS feed has a low bandwidth and during the page creation Wordpress has to wait after those RSS feeds had been downloaded. This plugin allows the site to read the RSS <em>after<\/em> the page was created, not <em>during<\/em> the process.<\/p>\n\n<p>To show a Feed in a post use <code>[lexi: configuration, rss, title, max_items]<\/code> or <code>lexiRSS($configuration, $rss, $title, $max_items)<\/code>.<\/p>\n\n<p>The configuration number can be calculated as follows:<\/p>\n\n<ul>\n<li>Add 1 if you want to save it in cache.<\/li>\n<li>Add 2 if you want to show the content.<\/li>\n<li>Add 4 if you want to show the title (this is the channel link too).<\/li>\n<li>Add 8 if you want to open it in a new page.<\/li>\n<li>Add 16 if you want to not show the RSS icon (this is the RSS link too).<\/li>\n<li>Add 32 if you want to show the author.<\/li>\n<li>Add 64 if you want to show the date.<\/li>\n<li>Add 128 if you want to paginate the results.<\/li>\n<li>Add 256 to not show items title.<\/li>\n<li>Add 512 to ",
+                "uid": "92581"
+            },
+            "0.8.3": {
+                "name": "wordpress\/lexi",
+                "version": "0.8.3",
+                "version_normalized": "0.8.3.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/lexi.0.8.3.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>Sometimes an RSS feed has a low bandwidth and during the page creation Wordpress has to wait after those RSS feeds had been downloaded. This plugin allows the site to read the RSS <em>after<\/em> the page was created, not <em>during<\/em> the process.<\/p>\n\n<p>To show a Feed in a post use <code>[lexi: configuration, rss, title, max_items]<\/code> or <code>lexiRSS($configuration, $rss, $title, $max_items)<\/code>.<\/p>\n\n<p>The configuration number can be calculated as follows:<\/p>\n\n<ul>\n<li>Add 1 if you want to save it in cache.<\/li>\n<li>Add 2 if you want to show the content.<\/li>\n<li>Add 4 if you want to show the title (this is the channel link too).<\/li>\n<li>Add 8 if you want to open it in a new page.<\/li>\n<li>Add 16 if you want to not show the RSS icon (this is the RSS link too).<\/li>\n<li>Add 32 if you want to show the author.<\/li>\n<li>Add 64 if you want to show the date.<\/li>\n<li>Add 128 if you want to paginate the results.<\/li>\n<li>Add 256 to not show items title.<\/li>\n<li>Add 512 to ",
+                "uid": "92580"
+            },
+            "0.8.4": {
+                "name": "wordpress\/lexi",
+                "version": "0.8.4",
+                "version_normalized": "0.8.4.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/lexi.0.8.4.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>Sometimes an RSS feed has a low bandwidth and during the page creation Wordpress has to wait after those RSS feeds had been downloaded. This plugin allows the site to read the RSS <em>after<\/em> the page was created, not <em>during<\/em> the process.<\/p>\n\n<p>To show a Feed in a post use <code>[lexi: configuration, rss, title, max_items]<\/code> or <code>lexiRSS($configuration, $rss, $title, $max_items)<\/code>.<\/p>\n\n<p>The configuration number can be calculated as follows:<\/p>\n\n<ul>\n<li>Add 1 if you want to save it in cache.<\/li>\n<li>Add 2 if you want to show the content.<\/li>\n<li>Add 4 if you want to show the title (this is the channel link too).<\/li>\n<li>Add 8 if you want to open it in a new page.<\/li>\n<li>Add 16 if you want to not show the RSS icon (this is the RSS link too).<\/li>\n<li>Add 32 if you want to show the author.<\/li>\n<li>Add 64 if you want to show the date.<\/li>\n<li>Add 128 if you want to paginate the results.<\/li>\n<li>Add 256 to not show items title.<\/li>\n<li>Add 512 to ",
+                "uid": "92579"
+            },
+            "0.9": {
+                "name": "wordpress\/lexi",
+                "version": "0.9",
+                "version_normalized": "0.9.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/lexi.0.9.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>Sometimes an RSS feed has a low bandwidth and during the page creation Wordpress has to wait after those RSS feeds had been downloaded. This plugin allows the site to read the RSS <em>after<\/em> the page was created, not <em>during<\/em> the process.<\/p>\n\n<p>To show a Feed in a post use <code>[lexi: configuration, rss, title, max_items]<\/code> or <code>lexiRSS($configuration, $rss, $title, $max_items)<\/code>.<\/p>\n\n<p>The configuration number can be calculated as follows:<\/p>\n\n<ul>\n<li>Add 1 if you want to save it in cache.<\/li>\n<li>Add 2 if you want to show the content.<\/li>\n<li>Add 4 if you want to show the title (this is the channel link too).<\/li>\n<li>Add 8 if you want to open it in a new page.<\/li>\n<li>Add 16 if you want to not show the RSS icon (this is the RSS link too).<\/li>\n<li>Add 32 if you want to show the author.<\/li>\n<li>Add 64 if you want to show the date.<\/li>\n<li>Add 128 if you want to paginate the results.<\/li>\n<li>Add 256 to not show items title.<\/li>\n<li>Add 512 to ",
+                "uid": "92578"
+            },
+            "0.9.1": {
+                "name": "wordpress\/lexi",
+                "version": "0.9.1",
+                "version_normalized": "0.9.1.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/lexi.0.9.1.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>Sometimes an RSS feed has a low bandwidth and during the page creation Wordpress has to wait after those RSS feeds had been downloaded. This plugin allows the site to read the RSS <em>after<\/em> the page was created, not <em>during<\/em> the process.<\/p>\n\n<p>To show a Feed in a post use <code>[lexi: configuration, rss, title, max_items]<\/code> or <code>lexiRSS($configuration, $rss, $title, $max_items)<\/code>.<\/p>\n\n<p>The configuration number can be calculated as follows:<\/p>\n\n<ul>\n<li>Add 1 if you want to save it in cache.<\/li>\n<li>Add 2 if you want to show the content.<\/li>\n<li>Add 4 if you want to show the title (this is the channel link too).<\/li>\n<li>Add 8 if you want to open it in a new page.<\/li>\n<li>Add 16 if you want to not show the RSS icon (this is the RSS link too).<\/li>\n<li>Add 32 if you want to show the author.<\/li>\n<li>Add 64 if you want to show the date.<\/li>\n<li>Add 128 if you want to paginate the results.<\/li>\n<li>Add 256 to not show items title.<\/li>\n<li>Add 512 to ",
+                "uid": "92577"
+            },
+            "0.9.10": {
+                "name": "wordpress\/lexi",
+                "version": "0.9.10",
+                "version_normalized": "0.9.10.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/lexi.0.9.105.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>Sometimes an RSS feed has a low bandwidth and during the page creation Wordpress has to wait after those RSS feeds had been downloaded. This plugin allows the site to read the RSS <em>after<\/em> the page was created, not <em>during<\/em> the process.<\/p>\n\n<p>To show a Feed in a post use <code>[lexi: configuration, rss, title, max_items]<\/code> or <code>lexiRSS($configuration, $rss, $title, $max_items)<\/code>.<\/p>\n\n<p>The configuration number can be calculated as follows:<\/p>\n\n<ul>\n<li>Add 1 if you want to save it in cache.<\/li>\n<li>Add 2 if you want to show the content.<\/li>\n<li>Add 4 if you want to show the title (this is the channel link too).<\/li>\n<li>Add 8 if you want to open it in a new page.<\/li>\n<li>Add 16 if you want to not show the RSS icon (this is the RSS link too).<\/li>\n<li>Add 32 if you want to show the author.<\/li>\n<li>Add 64 if you want to show the date.<\/li>\n<li>Add 128 if you want to paginate the results.<\/li>\n<li>Add 256 to not show items title.<\/li>\n<li>Add 512 to ",
+                "uid": "92563"
+            },
+            "0.9.2": {
+                "name": "wordpress\/lexi",
+                "version": "0.9.2",
+                "version_normalized": "0.9.2.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/lexi.0.9.2.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>Sometimes an RSS feed has a low bandwidth and during the page creation Wordpress has to wait after those RSS feeds had been downloaded. This plugin allows the site to read the RSS <em>after<\/em> the page was created, not <em>during<\/em> the process.<\/p>\n\n<p>To show a Feed in a post use <code>[lexi: configuration, rss, title, max_items]<\/code> or <code>lexiRSS($configuration, $rss, $title, $max_items)<\/code>.<\/p>\n\n<p>The configuration number can be calculated as follows:<\/p>\n\n<ul>\n<li>Add 1 if you want to save it in cache.<\/li>\n<li>Add 2 if you want to show the content.<\/li>\n<li>Add 4 if you want to show the title (this is the channel link too).<\/li>\n<li>Add 8 if you want to open it in a new page.<\/li>\n<li>Add 16 if you want to not show the RSS icon (this is the RSS link too).<\/li>\n<li>Add 32 if you want to show the author.<\/li>\n<li>Add 64 if you want to show the date.<\/li>\n<li>Add 128 if you want to paginate the results.<\/li>\n<li>Add 256 to not show items title.<\/li>\n<li>Add 512 to ",
+                "uid": "92576"
+            },
+            "0.9.3": {
+                "name": "wordpress\/lexi",
+                "version": "0.9.3",
+                "version_normalized": "0.9.3.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/lexi.0.9.3.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>Sometimes an RSS feed has a low bandwidth and during the page creation Wordpress has to wait after those RSS feeds had been downloaded. This plugin allows the site to read the RSS <em>after<\/em> the page was created, not <em>during<\/em> the process.<\/p>\n\n<p>To show a Feed in a post use <code>[lexi: configuration, rss, title, max_items]<\/code> or <code>lexiRSS($configuration, $rss, $title, $max_items)<\/code>.<\/p>\n\n<p>The configuration number can be calculated as follows:<\/p>\n\n<ul>\n<li>Add 1 if you want to save it in cache.<\/li>\n<li>Add 2 if you want to show the content.<\/li>\n<li>Add 4 if you want to show the title (this is the channel link too).<\/li>\n<li>Add 8 if you want to open it in a new page.<\/li>\n<li>Add 16 if you want to not show the RSS icon (this is the RSS link too).<\/li>\n<li>Add 32 if you want to show the author.<\/li>\n<li>Add 64 if you want to show the date.<\/li>\n<li>Add 128 if you want to paginate the results.<\/li>\n<li>Add 256 to not show items title.<\/li>\n<li>Add 512 to ",
+                "uid": "92575"
+            },
+            "0.9.4": {
+                "name": "wordpress\/lexi",
+                "version": "0.9.4",
+                "version_normalized": "0.9.4.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/lexi.0.9.4.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>Sometimes an RSS feed has a low bandwidth and during the page creation Wordpress has to wait after those RSS feeds had been downloaded. This plugin allows the site to read the RSS <em>after<\/em> the page was created, not <em>during<\/em> the process.<\/p>\n\n<p>To show a Feed in a post use <code>[lexi: configuration, rss, title, max_items]<\/code> or <code>lexiRSS($configuration, $rss, $title, $max_items)<\/code>.<\/p>\n\n<p>The configuration number can be calculated as follows:<\/p>\n\n<ul>\n<li>Add 1 if you want to save it in cache.<\/li>\n<li>Add 2 if you want to show the content.<\/li>\n<li>Add 4 if you want to show the title (this is the channel link too).<\/li>\n<li>Add 8 if you want to open it in a new page.<\/li>\n<li>Add 16 if you want to not show the RSS icon (this is the RSS link too).<\/li>\n<li>Add 32 if you want to show the author.<\/li>\n<li>Add 64 if you want to show the date.<\/li>\n<li>Add 128 if you want to paginate the results.<\/li>\n<li>Add 256 to not show items title.<\/li>\n<li>Add 512 to ",
+                "uid": "92574"
+            },
+            "0.9.5": {
+                "name": "wordpress\/lexi",
+                "version": "0.9.5",
+                "version_normalized": "0.9.5.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/lexi.0.9.5.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>Sometimes an RSS feed has a low bandwidth and during the page creation Wordpress has to wait after those RSS feeds had been downloaded. This plugin allows the site to read the RSS <em>after<\/em> the page was created, not <em>during<\/em> the process.<\/p>\n\n<p>To show a Feed in a post use <code>[lexi: configuration, rss, title, max_items]<\/code> or <code>lexiRSS($configuration, $rss, $title, $max_items)<\/code>.<\/p>\n\n<p>The configuration number can be calculated as follows:<\/p>\n\n<ul>\n<li>Add 1 if you want to save it in cache.<\/li>\n<li>Add 2 if you want to show the content.<\/li>\n<li>Add 4 if you want to show the title (this is the channel link too).<\/li>\n<li>Add 8 if you want to open it in a new page.<\/li>\n<li>Add 16 if you want to not show the RSS icon (this is the RSS link too).<\/li>\n<li>Add 32 if you want to show the author.<\/li>\n<li>Add 64 if you want to show the date.<\/li>\n<li>Add 128 if you want to paginate the results.<\/li>\n<li>Add 256 to not show items title.<\/li>\n<li>Add 512 to ",
+                "uid": "92573"
+            },
+            "0.9.6": {
+                "name": "wordpress\/lexi",
+                "version": "0.9.6",
+                "version_normalized": "0.9.6.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/lexi.0.9.6.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>Sometimes an RSS feed has a low bandwidth and during the page creation Wordpress has to wait after those RSS feeds had been downloaded. This plugin allows the site to read the RSS <em>after<\/em> the page was created, not <em>during<\/em> the process.<\/p>\n\n<p>To show a Feed in a post use <code>[lexi: configuration, rss, title, max_items]<\/code> or <code>lexiRSS($configuration, $rss, $title, $max_items)<\/code>.<\/p>\n\n<p>The configuration number can be calculated as follows:<\/p>\n\n<ul>\n<li>Add 1 if you want to save it in cache.<\/li>\n<li>Add 2 if you want to show the content.<\/li>\n<li>Add 4 if you want to show the title (this is the channel link too).<\/li>\n<li>Add 8 if you want to open it in a new page.<\/li>\n<li>Add 16 if you want to not show the RSS icon (this is the RSS link too).<\/li>\n<li>Add 32 if you want to show the author.<\/li>\n<li>Add 64 if you want to show the date.<\/li>\n<li>Add 128 if you want to paginate the results.<\/li>\n<li>Add 256 to not show items title.<\/li>\n<li>Add 512 to ",
+                "uid": "92572"
+            },
+            "0.9.7": {
+                "name": "wordpress\/lexi",
+                "version": "0.9.7",
+                "version_normalized": "0.9.7.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/lexi.0.9.7.1.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>Sometimes an RSS feed has a low bandwidth and during the page creation Wordpress has to wait after those RSS feeds had been downloaded. This plugin allows the site to read the RSS <em>after<\/em> the page was created, not <em>during<\/em> the process.<\/p>\n\n<p>To show a Feed in a post use <code>[lexi: configuration, rss, title, max_items]<\/code> or <code>lexiRSS($configuration, $rss, $title, $max_items)<\/code>.<\/p>\n\n<p>The configuration number can be calculated as follows:<\/p>\n\n<ul>\n<li>Add 1 if you want to save it in cache.<\/li>\n<li>Add 2 if you want to show the content.<\/li>\n<li>Add 4 if you want to show the title (this is the channel link too).<\/li>\n<li>Add 8 if you want to open it in a new page.<\/li>\n<li>Add 16 if you want to not show the RSS icon (this is the RSS link too).<\/li>\n<li>Add 32 if you want to show the author.<\/li>\n<li>Add 64 if you want to show the date.<\/li>\n<li>Add 128 if you want to paginate the results.<\/li>\n<li>Add 256 to not show items title.<\/li>\n<li>Add 512 to ",
+                "uid": "92571"
+            },
+            "0.9.8": {
+                "name": "wordpress\/lexi",
+                "version": "0.9.8",
+                "version_normalized": "0.9.8.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/lexi.0.9.8.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>Sometimes an RSS feed has a low bandwidth and during the page creation Wordpress has to wait after those RSS feeds had been downloaded. This plugin allows the site to read the RSS <em>after<\/em> the page was created, not <em>during<\/em> the process.<\/p>\n\n<p>To show a Feed in a post use <code>[lexi: configuration, rss, title, max_items]<\/code> or <code>lexiRSS($configuration, $rss, $title, $max_items)<\/code>.<\/p>\n\n<p>The configuration number can be calculated as follows:<\/p>\n\n<ul>\n<li>Add 1 if you want to save it in cache.<\/li>\n<li>Add 2 if you want to show the content.<\/li>\n<li>Add 4 if you want to show the title (this is the channel link too).<\/li>\n<li>Add 8 if you want to open it in a new page.<\/li>\n<li>Add 16 if you want to not show the RSS icon (this is the RSS link too).<\/li>\n<li>Add 32 if you want to show the author.<\/li>\n<li>Add 64 if you want to show the date.<\/li>\n<li>Add 128 if you want to paginate the results.<\/li>\n<li>Add 256 to not show items title.<\/li>\n<li>Add 512 to ",
+                "uid": "92569"
+            },
+            "0.9.9": {
+                "name": "wordpress\/lexi",
+                "version": "0.9.9",
+                "version_normalized": "0.9.9.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/lexi.0.9.9.3.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>Sometimes an RSS feed has a low bandwidth and during the page creation Wordpress has to wait after those RSS feeds had been downloaded. This plugin allows the site to read the RSS <em>after<\/em> the page was created, not <em>during<\/em> the process.<\/p>\n\n<p>To show a Feed in a post use <code>[lexi: configuration, rss, title, max_items]<\/code> or <code>lexiRSS($configuration, $rss, $title, $max_items)<\/code>.<\/p>\n\n<p>The configuration number can be calculated as follows:<\/p>\n\n<ul>\n<li>Add 1 if you want to save it in cache.<\/li>\n<li>Add 2 if you want to show the content.<\/li>\n<li>Add 4 if you want to show the title (this is the channel link too).<\/li>\n<li>Add 8 if you want to open it in a new page.<\/li>\n<li>Add 16 if you want to not show the RSS icon (this is the RSS link too).<\/li>\n<li>Add 32 if you want to show the author.<\/li>\n<li>Add 64 if you want to show the date.<\/li>\n<li>Add 128 if you want to paginate the results.<\/li>\n<li>Add 256 to not show items title.<\/li>\n<li>Add 512 to ",
+                "uid": "92568"
+            },
+            "0.9.99": {
+                "name": "wordpress\/lexi",
+                "version": "0.9.99",
+                "version_normalized": "0.9.99.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/lexi.0.9.99.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>Sometimes an RSS feed has a low bandwidth and during the page creation Wordpress has to wait after those RSS feeds had been downloaded. This plugin allows the site to read the RSS <em>after<\/em> the page was created, not <em>during<\/em> the process.<\/p>\n\n<p>To show a Feed in a post use <code>[lexi: configuration, rss, title, max_items]<\/code> or <code>lexiRSS($configuration, $rss, $title, $max_items)<\/code>.<\/p>\n\n<p>The configuration number can be calculated as follows:<\/p>\n\n<ul>\n<li>Add 1 if you want to save it in cache.<\/li>\n<li>Add 2 if you want to show the content.<\/li>\n<li>Add 4 if you want to show the title (this is the channel link too).<\/li>\n<li>Add 8 if you want to open it in a new page.<\/li>\n<li>Add 16 if you want to not show the RSS icon (this is the RSS link too).<\/li>\n<li>Add 32 if you want to show the author.<\/li>\n<li>Add 64 if you want to show the date.<\/li>\n<li>Add 128 if you want to paginate the results.<\/li>\n<li>Add 256 to not show items title.<\/li>\n<li>Add 512 to ",
+                "uid": "92564"
+            },
+            "1.0": {
+                "name": "wordpress\/lexi",
+                "version": "1.0",
+                "version_normalized": "1.0.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/lexi.1.0.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>Sometimes an RSS feed has a low bandwidth and during the page creation Wordpress has to wait after those RSS feeds had been downloaded. This plugin allows the site to read the RSS <em>after<\/em> the page was created, not <em>during<\/em> the process.<\/p>\n\n<p>To show a Feed in a post use <code>[lexi: configuration, rss, title, max_items]<\/code> or <code>lexiRSS($configuration, $rss, $title, $max_items)<\/code>.<\/p>\n\n<p>The configuration number can be calculated as follows:<\/p>\n\n<ul>\n<li>Add 1 if you want to save it in cache.<\/li>\n<li>Add 2 if you want to show the content.<\/li>\n<li>Add 4 if you want to show the title (this is the channel link too).<\/li>\n<li>Add 8 if you want to open it in a new page.<\/li>\n<li>Add 16 if you want to not show the RSS icon (this is the RSS link too).<\/li>\n<li>Add 32 if you want to show the author.<\/li>\n<li>Add 64 if you want to show the date.<\/li>\n<li>Add 128 if you want to paginate the results.<\/li>\n<li>Add 256 to not show items title.<\/li>\n<li>Add 512 to ",
+                "uid": "92557"
+            },
+            "1.0.1": {
+                "name": "wordpress\/lexi",
+                "version": "1.0.1",
+                "version_normalized": "1.0.1.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/lexi.1.0.1.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>Sometimes an RSS feed has a low bandwidth and during the page creation Wordpress has to wait after those RSS feeds had been downloaded. This plugin allows the site to read the RSS <em>after<\/em> the page was created, not <em>during<\/em> the process.<\/p>\n\n<p>To show a Feed in a post use <code>[lexi: configuration, rss, title, max_items]<\/code> or <code>lexiRSS($configuration, $rss, $title, $max_items)<\/code>.<\/p>\n\n<p>The configuration number can be calculated as follows:<\/p>\n\n<ul>\n<li>Add 1 if you want to save it in cache.<\/li>\n<li>Add 2 if you want to show the content.<\/li>\n<li>Add 4 if you want to show the title (this is the channel link too).<\/li>\n<li>Add 8 if you want to open it in a new page.<\/li>\n<li>Add 16 if you want to not show the RSS icon (this is the RSS link too).<\/li>\n<li>Add 32 if you want to show the author.<\/li>\n<li>Add 64 if you want to show the date.<\/li>\n<li>Add 128 if you want to paginate the results.<\/li>\n<li>Add 256 to not show items title.<\/li>\n<li>Add 512 to ",
+                "uid": "92556"
+            },
+            "1.0.2": {
+                "name": "wordpress\/lexi",
+                "version": "1.0.2",
+                "version_normalized": "1.0.2.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/lexi.1.0.2.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>Sometimes an RSS feed has a low bandwidth and during the page creation Wordpress has to wait after those RSS feeds had been downloaded. This plugin allows the site to read the RSS <em>after<\/em> the page was created, not <em>during<\/em> the process.<\/p>\n\n<p>To show a Feed in a post use <code>[lexi: configuration, rss, title, max_items]<\/code> or <code>lexiRSS($configuration, $rss, $title, $max_items)<\/code>.<\/p>\n\n<p>The configuration number can be calculated as follows:<\/p>\n\n<ul>\n<li>Add 1 if you want to save it in cache.<\/li>\n<li>Add 2 if you want to show the content.<\/li>\n<li>Add 4 if you want to show the title (this is the channel link too).<\/li>\n<li>Add 8 if you want to open it in a new page.<\/li>\n<li>Add 16 if you want to not show the RSS icon (this is the RSS link too).<\/li>\n<li>Add 32 if you want to show the author.<\/li>\n<li>Add 64 if you want to show the date.<\/li>\n<li>Add 128 if you want to paginate the results.<\/li>\n<li>Add 256 to not show items title.<\/li>\n<li>Add 512 to ",
+                "uid": "92555"
+            },
+            "1.0.3": {
+                "name": "wordpress\/lexi",
+                "version": "1.0.3",
+                "version_normalized": "1.0.3.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/lexi.1.0.3.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>Sometimes an RSS feed has a low bandwidth and during the page creation Wordpress has to wait after those RSS feeds had been downloaded. This plugin allows the site to read the RSS <em>after<\/em> the page was created, not <em>during<\/em> the process.<\/p>\n\n<p>To show a Feed in a post use <code>[lexi: configuration, rss, title, max_items]<\/code> or <code>lexiRSS($configuration, $rss, $title, $max_items)<\/code>.<\/p>\n\n<p>The configuration number can be calculated as follows:<\/p>\n\n<ul>\n<li>Add 1 if you want to save it in cache.<\/li>\n<li>Add 2 if you want to show the content.<\/li>\n<li>Add 4 if you want to show the title (this is the channel link too).<\/li>\n<li>Add 8 if you want to open it in a new page.<\/li>\n<li>Add 16 if you want to not show the RSS icon (this is the RSS link too).<\/li>\n<li>Add 32 if you want to show the author.<\/li>\n<li>Add 64 if you want to show the date.<\/li>\n<li>Add 128 if you want to paginate the results.<\/li>\n<li>Add 256 to not show items title.<\/li>\n<li>Add 512 to ",
+                "uid": "92554"
+            },
+            "1.0.4": {
+                "name": "wordpress\/lexi",
+                "version": "1.0.4",
+                "version_normalized": "1.0.4.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/lexi.1.0.4.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>Sometimes an RSS feed has a low bandwidth and during the page creation Wordpress has to wait after those RSS feeds had been downloaded. This plugin allows the site to read the RSS <em>after<\/em> the page was created, not <em>during<\/em> the process.<\/p>\n\n<p>To show a Feed in a post use <code>[lexi: configuration, rss, title, max_items]<\/code> or <code>lexiRSS($configuration, $rss, $title, $max_items)<\/code>.<\/p>\n\n<p>The configuration number can be calculated as follows:<\/p>\n\n<ul>\n<li>Add 1 if you want to save it in cache.<\/li>\n<li>Add 2 if you want to show the content.<\/li>\n<li>Add 4 if you want to show the title (this is the channel link too).<\/li>\n<li>Add 8 if you want to open it in a new page.<\/li>\n<li>Add 16 if you want to not show the RSS icon (this is the RSS link too).<\/li>\n<li>Add 32 if you want to show the author.<\/li>\n<li>Add 64 if you want to show the date.<\/li>\n<li>Add 128 if you want to paginate the results.<\/li>\n<li>Add 256 to not show items title.<\/li>\n<li>Add 512 to ",
+                "uid": "92553"
+            },
+            "1.1": {
+                "name": "wordpress\/lexi",
+                "version": "1.1",
+                "version_normalized": "1.1.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/lexi.1.1.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>Sometimes an RSS feed has a low bandwidth and during the page creation Wordpress has to wait after those RSS feeds had been downloaded. This plugin allows the site to read the RSS <em>after<\/em> the page was created, not <em>during<\/em> the process.<\/p>\n\n<p>To show a Feed in a post use <code>[lexi: configuration, rss, title, max_items]<\/code> or <code>lexiRSS($configuration, $rss, $title, $max_items)<\/code>.<\/p>\n\n<p>The configuration number can be calculated as follows:<\/p>\n\n<ul>\n<li>Add 1 if you want to save it in cache.<\/li>\n<li>Add 2 if you want to show the content.<\/li>\n<li>Add 4 if you want to show the title (this is the channel link too).<\/li>\n<li>Add 8 if you want to open it in a new page.<\/li>\n<li>Add 16 if you want to not show the RSS icon (this is the RSS link too).<\/li>\n<li>Add 32 if you want to show the author.<\/li>\n<li>Add 64 if you want to show the date.<\/li>\n<li>Add 128 if you want to paginate the results.<\/li>\n<li>Add 256 to not show items title.<\/li>\n<li>Add 512 to ",
+                "uid": "92552"
+            }
+        }
+    }
+}

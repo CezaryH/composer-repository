@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/wordpress-registry": {
+            "2.4": {
+                "name": "wordpress\/wordpress-registry",
+                "version": "2.4",
+                "version_normalized": "2.4.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/wordpress-registry.2.4.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>The main reason for building this plugin is because wordpress doesn't readily have a central registry system where things can be stored such as variable values, objects, arrays. Which can be retrieved from a global space. This plugin basically tries to  lessen the repeating declarations of variables and etc. It is something quite similar to Magento registry \"Mage_Registry\", but very light version.<\/p>\n\n<p>This plugin can also be used as GET and POST request parameters handler. The benefit is, you don't have to check isset($_GET['myparam']) or isset($_POST['myparam']). If the param is not set, it will return a default value you supplied in second param. By default, the default value is false.<\/p>\n\n<p>Handle the session data as easy as never before. Save to session, check existance, get, unset it easily using dynamic methods.<\/p>\n\n<p>Hope this could be of some use.<\/p>\n\n<p>Usage is very easy, neat and straight forward:<\/p>\n\n<p>Register a dynamic method on the fly:\n    registry()-&#62;",
+                "uid": "29417"
+            }
+        }
+    }
+}

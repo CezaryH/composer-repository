@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/image-boobox": {
+            "0.3": {
+                "name": "wordpress\/image-boobox",
+                "version": "0.3",
+                "version_normalized": "0.3.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/image-boobox.0.3.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>This WordPress plugin automatically inserts boo-box links in the images in your blog using alt and title tags as search terms for products.<\/p>\n\n<h4>How does it work?<\/h4>\n\n<ol>\n<li>When you are ready to insert an image in an article, remember to fill the alt or title tag for the image. The plugin automatically inserts the boo-box link in the image. When the user clicks on the content, boo-box will display the related products.<\/li>\n<\/ol>",
+                "uid": "103650"
+            }
+        }
+    }
+}

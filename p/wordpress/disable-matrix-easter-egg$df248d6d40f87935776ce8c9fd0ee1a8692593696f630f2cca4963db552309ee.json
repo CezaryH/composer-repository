@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/disable-matrix-easter-egg": {
+            "1.1": {
+                "name": "wordpress\/disable-matrix-easter-egg",
+                "version": "1.1",
+                "version_normalized": "1.1.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/disable-matrix-easter-egg.1.1.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>A so-called easter-egg (i.e. a hidden functionality) displays the message \"Self-comparison detected. Initiating infinite loop eschewal protocol. Self destruct in 3...2...1...Wake up. The Matrix has you. Follow the white rabbit. Don't let this happen again. Go back.\" whenever a user accidently compares a post revision to itself.<\/p>\n\n<p>This may irritate non-techy users.<\/p>\n\n<p>This plugin replaces the irritating message with a no-fuss error message.<\/p>\n\n<h4>Credits<\/h4>\n\n<p>Based upon code by Eric Mann. German translation by <a href=\"http:\/\/wetzlmayr.ch\/\">Robert Wetzlmayr; PHP-Programmierer<\/a>.<\/p>",
+                "uid": "59257"
+            }
+        }
+    }
+}

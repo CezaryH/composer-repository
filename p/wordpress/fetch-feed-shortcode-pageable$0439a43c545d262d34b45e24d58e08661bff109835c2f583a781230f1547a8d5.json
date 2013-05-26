@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/fetch-feed-shortcode-pageable": {
+            "1.1": {
+                "name": "wordpress\/fetch-feed-shortcode-pageable",
+                "version": "1.1",
+                "version_normalized": "1.1.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/fetch-feed-shortcode-pageable.1.1.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>This plugin uses the fetch_feed function to display external RSS Feeds on your Wordpress Blog \/ Site!\nThis plugin supports paging of the feed !\nWith this plugin you can configure four item elements to be displayed (like author, date, title, description)<\/p>\n\n<p>Paging code found here: <a href=\"http:\/\/www.phpbuilder.com\/board\/showthread.php?t=10353797\" rel=\"nofollow\">http:\/\/www.phpbuilder.com\/board\/showthread.php?t=10353797<\/a>\nThanks to joostdevalk for his plugin:\n<a href=\"http:\/\/wordpress.org\/extend\/plugins\/rss-shortcode\/\" rel=\"nofollow\">http:\/\/wordpress.org\/extend\/plugins\/rss-shortcode\/<\/a><\/p>\n\n<p>Features:<\/p>\n\n<ul>\n<li>Display external feeds in your posts or pages by using shortcode<\/li>\n<li>Set the URL of the feed by using the <code>feed<\/code> parameter<\/li>\n<li>Configure the number of items per page by using the <code>pagesize<\/code> parameter<\/li>\n<li>Configure the number of pages in the paging footer  by using the <code>pagenum<\/code> parameter<\/li>\n<li>Configure the numbe",
+                "uid": "37961"
+            }
+        }
+    }
+}

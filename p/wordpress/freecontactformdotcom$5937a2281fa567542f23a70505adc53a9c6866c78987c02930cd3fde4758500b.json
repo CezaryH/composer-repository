@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/freecontactformdotcom": {
+            "1.0": {
+                "name": "wordpress\/freecontactformdotcom",
+                "version": "1.0",
+                "version_normalized": "1.0.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/freecontactformdotcom.1.0.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>Simple free contact form with text-based spam prevention.<\/p>\n\n<p>Configuration Options:<\/p>\n\n<ul>\n<li>Email the results (Email Address)<\/li>\n<li>Set the spam prevention (anti-spam) question (challenge)<\/li>\n<li>Set the expected spam prevention answer<\/li>\n<li>Set a custom thank you message to display after the form has been submitted <\/li>\n<li>Link to the Authors plugin page from the bottom of your form.<\/li>\n<\/ul>",
+                "uid": "31133"
+            }
+        }
+    }
+}

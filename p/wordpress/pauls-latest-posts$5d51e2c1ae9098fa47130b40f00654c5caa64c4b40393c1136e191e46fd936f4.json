@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/pauls-latest-posts": {
+            "1.9": {
+                "name": "wordpress\/pauls-latest-posts",
+                "version": "1.9",
+                "version_normalized": "1.9.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/pauls-latest-posts.1.9.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>Pauls Latest Posts displays a list of your latest posts and comments in the sidebar with excerpts. Excerpts length can be modified or left out completely. Useful for sites that display one post on the main page, and want to link to previous posts.<\/p>",
+                "uid": "93211"
+            }
+        }
+    }
+}

@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/bloggercom-publisher": {
+            "0.1": {
+                "name": "wordpress\/bloggercom-publisher",
+                "version": "0.1",
+                "version_normalized": "0.1.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/bloggercom-publisher.0.1.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>Publishes posts with specific tags and\/or categories to blogger.com using the Zend gdata api.<\/p>\n\n<p>When active, this plugin publishes posts that you write or edit to blogger.com.  It is designed\nto allow you to pick a set of categories, and \/ or tags that will be published to a remote blog.<\/p>\n\n<p>I use this to publish blog on blogger.com that has only posts about the same topic on it. This is\nideal for me because I want to keep my main wordpress blog private, and low traffic, but still only\nwrite my blog in one place, and keep a copy of all my posts on word press.<\/p>\n\n<p>Blogger.com provides and API using Google's gdata protocol, this plugin publishes via the gdata php\nlibrary provided by the Zend framework.  It uses your google username and password to authenticate.<\/p>",
+                "uid": "100619"
+            }
+        }
+    }
+}

@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/embed-wistia-vid": {
+            "0.1": {
+                "name": "wordpress\/embed-wistia-vid",
+                "version": "0.1",
+                "version_normalized": "0.1.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/embed-wistia-vid.0.1.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>To use Plugin install and then on page you wish to place the Wistia Vid put shortcode [wistiavid id=xxxxx] xxxxx being the Wistia Video ID, this can be found in the URL of the video on Wistia.\nEg. <a href=\"http:\/\/smallbusinesswebsites.wistia.com\/medias\/q509p384zl\" rel=\"nofollow\">http:\/\/smallbusinesswebsites.wistia.com\/medias\/q509p384zl<\/a>\nThe ID of this video is q509p384zl therefore the shortcode for the video is [wistiavid id=q509p384zl] as found on this page: \n<a href=\"http:\/\/www.smallbusinesswebsites.org.au\/about-us\/\" rel=\"nofollow\">http:\/\/www.smallbusinesswebsites.org.au\/about-us\/<\/a><\/p>\n\n<p>Thanks<\/p>\n\n<p>Craig Lambie\nDeveloper<\/p>\n\n<p>Why I did this?\nThe Wistia Plugin caused me great pains.  I tried a few other code snippet plugins, but they then caused issues with \"other\" plugins.<\/p>\n\n<p>Known issues:\n- \"Add this\" plugin can cause an error with conflicts in Jquery or Wistia JS files\n<a href=\"http:\/\/wordpress.org\/extend\/plugins\/addthis\/\" rel=\"nofollow\">http:\/\/wordpress.org\/",
+                "uid": "8015"
+            }
+        }
+    }
+}

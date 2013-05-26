@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/imageshack-offloader": {
+            "1.0.4": {
+                "name": "wordpress\/imageshack-offloader",
+                "version": "1.0.4",
+                "version_normalized": "1.0.4.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/imageshack-offloader.1.0.4.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>Displaying a lot of images on your site is great. You'll notice, however, that they tend to eat up a lot of bandwidth. If your site is even remotely popular, this usually means you'll have to upgrade your hosting account.<\/p>\n\n<p><a href=\"http:\/\/imageshack.us\">ImageShack<\/a> is a service that offers <em>free<\/em> image hosting. So why not take advantage of it?<\/p>\n\n<p>You could start uploading the images manually and modify each post, or you can just install this plugin and be done with it. It will take care of sending copies of all your current (and future) attachments to ImageShack. It will also dynamically replace the URLs when the images are to be displayed.<\/p>\n\n<p>This way, if you decide you don't want to use ImageShack anymore, you can disable the plugin and everything goes back to how it was.<\/p>",
+                "uid": "88437"
+            }
+        }
+    }
+}

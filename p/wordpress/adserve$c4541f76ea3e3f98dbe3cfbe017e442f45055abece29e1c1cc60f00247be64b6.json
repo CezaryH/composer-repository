@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/adserve": {
+            "0.3": {
+                "name": "wordpress\/adserve",
+                "version": "0.3",
+                "version_normalized": "0.3.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/adserve.0.3.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>AdServe is the advertising server for WordPress. You could setup your banner campaigns\nusing different sized banners, set available impressions and count resulting clicks!\nOptionally AdServe links ads to blog users so that one could check the campaign results\nwithin the Dashboard!<\/p>\n\n<ul>\n<li>Unlimited number of advertisers, banners and zones.<br \/><\/li>\n<li>Advertisers have web access to real-time reports for their specific campaign.<br \/><\/li>\n<li>Launch a new browser when user clicks an ad, making it simple for them to return to your site.<br \/><\/li>\n<\/ul>\n\n<h4>USAGE<\/h4>\n\n<h4>Define your banners<\/h4>\n\n<p>Manage -&#62; Ads -&#62; New Ad<\/p>\n\n<ul>\n<li>title - Web site title<\/li>\n<li>url - Click destination URL (i.e. <a href=\"http:\/\/www.domain.com\/)\" rel=\"nofollow\">http:\/\/www.domain.com\/)<\/a><\/li>\n<li>src - Image URL (i.e. <a href=\"http:\/\/www.domain.com\/banner.jpg)\" rel=\"nofollow\">http:\/\/www.domain.com\/banner.jpg)<\/a><\/li>\n<li>blog user - (optional) Blog user who could check bann",
+                "uid": "108404"
+            }
+        }
+    }
+}

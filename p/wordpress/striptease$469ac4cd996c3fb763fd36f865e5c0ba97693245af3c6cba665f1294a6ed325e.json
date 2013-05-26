@@ -1,0 +1,40 @@
+{
+    "packages": {
+        "wordpress\/striptease": {
+            "1.1": {
+                "name": "wordpress\/striptease",
+                "version": "1.1",
+                "version_normalized": "1.1.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/striptease.1.1.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>The Striptease plugin changes WordPress's default \"Read More\" teaser links so that they link to full posts.<\/p>\n\n<p>WordPress makes it easy to break up long posts so you can save space on your home page. Simply insert the <code>&#60;!--more--&#62;<\/code> quicktag while editing a post, and WordPress will display the text that comes before it as a teaser followed by a Read More link to the rest of the post. When a reader follows the link, the single-post page is loaded and the browser \"jumps\" to the unread text.<\/p>\n\n<p>This jump can be disorienting, and some bloggers prefer to link their teasers to the full posts instead of the unread text.<\/p>\n\n<p>That's where the StripTease plugin comes in. It automatically strips the \"#more\" fragments from the end of your teaser links and turns them into links to your full posts.<\/p>",
+                "uid": "112637"
+            },
+            "2.0": {
+                "name": "wordpress\/striptease",
+                "version": "2.0",
+                "version_normalized": "2.0.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/striptease.2.0.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>The Striptease plugin changes WordPress's default \"Read More\" teaser links so that they link to full posts.<\/p>\n\n<p>WordPress makes it easy to break up long posts so you can save space on your home page. Simply insert the <code>&#60;!--more--&#62;<\/code> quicktag while editing a post, and WordPress will display the text that comes before it as a teaser followed by a Read More link to the rest of the post. When a reader follows the link, the single-post page is loaded and the browser \"jumps\" to the unread text.<\/p>\n\n<p>This jump can be disorienting, and some bloggers prefer to link their teasers to the full posts instead of the unread text.<\/p>\n\n<p>That's where the StripTease plugin comes in. It automatically strips the \"#more\" fragments from the end of your teaser links and turns them into links to your full posts.<\/p>",
+                "uid": "112636"
+            }
+        }
+    }
+}

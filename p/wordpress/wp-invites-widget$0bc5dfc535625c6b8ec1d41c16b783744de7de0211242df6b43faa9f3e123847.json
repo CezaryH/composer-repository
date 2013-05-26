@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/wp-invites-widget": {
+            "1.0": {
+                "name": "wordpress\/wp-invites-widget",
+                "version": "1.0",
+                "version_normalized": "1.0.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/wp-invites-widget.1.0.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<h4>Description<\/h4>\n\n<p>This is a widget written for the <a href=\"http:\/\/wordpress.org\/extend\/plugins\/wp-invites\/\">WP-Invites<\/a> plugin by Jehy. It simply adds a widget for your registered and logged in users to invite friends by their's e-mail-address. This widget requires an installation of <a href=\"http:\/\/wordpress.org\/extend\/plugins\/wp-invites\/\">WP-Invites<\/a>.<\/p>\n\n<p>The widget is very simple. The only thing the users will have to do is to write one or more email addresses in the a textfield. The plugin will do the rest. This is how it is done:<\/p>\n\n<ol>\n<li>The user adds one or more email addresses in the textfield.<\/li>\n<li>The form is sent through an ajax request to the server.<\/li>\n<li>The plugin loads the WP-Invites plugin and makes one invitation code.<\/li>\n<li>The invitation code, the inviter&#8217;s username and email address are added into the invitation email.<\/li>\n<li>A message is sent back to the widget informing the user that the email has successfully been sent.<\/",
+                "uid": "72782"
+            }
+        }
+    }
+}

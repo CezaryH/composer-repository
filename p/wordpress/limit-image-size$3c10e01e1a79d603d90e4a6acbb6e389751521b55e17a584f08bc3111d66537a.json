@@ -1,0 +1,40 @@
+{
+    "packages": {
+        "wordpress\/limit-image-size": {
+            "0.9": {
+                "name": "wordpress\/limit-image-size",
+                "version": "0.9",
+                "version_normalized": "0.9.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/limit-image-size.0.9.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>Most users like to upload their fresh shotted pictures to WordPress directly from their digital camera, and what happens? Full disk, reach bandwith limit and slowdown the site with heavy images.<\/p>\n\n<p>Limit Image Size is a smart plugin wich will limit the megapixel an image can have. When you upload an image, plugin will check if it have more megapixels than you limited, if so, the plugin will automatically resize the image to have that megapixel. This will save space in disk, site's bandwith and will make your site faster.<\/p>\n\n<p>Limit Image Size works with 3 methods to resize, not all of them will be enabled on your site but the plugin will choose the best one available for you. The 3 methods are:<\/p>\n\n<ul>\n<li>ImageMagick - The best method with the best performance, but requires that your host have installed the ImageMagick extension on your server.<\/li>\n<li>WebService - This method sends a copy of your image to a webservice which will resize it and sends it back to your site.",
+                "uid": "23065"
+            },
+            "1.0": {
+                "name": "wordpress\/limit-image-size",
+                "version": "1.0",
+                "version_normalized": "1.0.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/limit-image-size.1.0.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>Most users like to upload their fresh shotted pictures to WordPress directly from their digital camera, and what happens? Full disk, reach bandwith limit and slowdown the site with heavy images.<\/p>\n\n<p>Limit Image Size is a smart plugin wich will limit the megapixel an image can have. When you upload an image, plugin will check if it have more megapixels than you limited, if so, the plugin will automatically resize the image to have that megapixel. This will save space in disk, site's bandwith and will make your site faster.<\/p>\n\n<p>Limit Image Size works with 3 methods to resize, not all of them will be enabled on your site but the plugin will choose the best one available for you. The 3 methods are:<\/p>\n\n<ul>\n<li>ImageMagick - The best method with the best performance, but requires that your host have installed the ImageMagick extension on your server.<\/li>\n<li>WebService - This method sends a copy of your image to a webservice which will resize it and sends it back to your site.",
+                "uid": "23064"
+            }
+        }
+    }
+}

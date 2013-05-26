@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/wp-nonregcontent": {
+            "1.00": {
+                "name": "wordpress\/wp-nonregcontent",
+                "version": "1.00",
+                "version_normalized": "1.00.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/wp-nonregcontent.1.00.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>Use this to display a short synopsis to readers who are not logged in and logged in readers see the entire article minus the synopsis.  To display content for non logged in readers, text situated between the [r] and [\/] will be displayed.  To display content for logged in readers, text situated between the [n] and [&#093; will be shown.  This plugin allows you to hide portions of the post from both logged in and not logged in readers.  You can edit the single.php page to include a reminder that to read the entire post, you must login and\/or register.  This plug-in is based on UCanHide by Jeremy Poulain (<a href=\"http:\/\/betablog.free.fr\" rel=\"nofollow\">http:\/\/betablog.free.fr<\/a>) which was based on Hidethis by Mark Edwards (<a href=\"http:\/\/www.edwards.org\/tags\/Wordpress\" rel=\"nofollow\">http:\/\/www.edwards.org\/tags\/Wordpress<\/a>).<\/p>",
+                "uid": "102731"
+            }
+        }
+    }
+}

@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/easy-postmark-integration": {
+            "1.0": {
+                "name": "wordpress\/easy-postmark-integration",
+                "version": "1.0",
+                "version_normalized": "1.0.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/easy-postmark-integration.1.0.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>Replaces wp_mail to send email via the Postmark API.  Supports Reply-To for easy integration with common contact form plugins, including Contact Form 7 and Gravity Forms.<\/p>\n\n<p>This plugin is based on the \"Postmark Approved WordPress Plugin\".  Aside from being customers and fans, we're not affiliated with Postmark.<\/p>\n\n<p>You can create an account at <a href=\"http:\/\/www.PostmarkApp.com\" rel=\"nofollow\">http:\/\/www.PostmarkApp.com<\/a><\/p>",
+                "uid": "25097"
+            }
+        }
+    }
+}

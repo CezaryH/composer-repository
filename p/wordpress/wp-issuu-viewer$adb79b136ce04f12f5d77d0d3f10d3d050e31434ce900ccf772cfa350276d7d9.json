@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/wp-issuu-viewer": {
+            "3.0": {
+                "name": "wordpress\/wp-issuu-viewer",
+                "version": "3.0",
+                "version_normalized": "3.0.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/wp-issuu-viewer.3.0.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>This plugin uses the api to display each pdf-file(you can do some hacking to the file and add all formats) on your issuu.com-account.<\/p>\n\n<p>This will display as an embed object.<\/p>\n\n<p>You need flash activated for this to work.<\/p>\n\n<p>How to upload on issuu.com:<\/p>\n\n<p>Log on to issuu.com. In the top right corner, there is a button that says \"upload document\".<\/p>\n\n<p>There you can either upload a file from your computer or from an url. You need to fill in: Title, description, web name, keywords. You can also choose privacy etc.<\/p>\n\n<p>The file you upload needs to be a pdf and it doesn't matter where you save it. Remember though: It takes a while for the document to be uploaded and then it also needs to render it to a flash file.<\/p>\n\n<h4>Important!<\/h4>\n\n<p>This plugin doesn't use the pdfs you have on your wordpress installation.\nYou need to upload the documents to issuu.com<\/p>\n\n<h4>Future release<\/h4>\n\n<ul>\n<li>Add functionality to choose formats<\/li>\n<li>Change number of o",
+                "uid": "54881"
+            }
+        }
+    }
+}

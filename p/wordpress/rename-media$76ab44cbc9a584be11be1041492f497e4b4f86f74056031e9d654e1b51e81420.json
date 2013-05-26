@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/rename-media": {
+            "0.1.2": {
+                "name": "wordpress\/rename-media",
+                "version": "0.1.2",
+                "version_normalized": "0.1.2.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/rename-media.0.1.2.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>Enhances the WordPress media library by allowing you to rename the underlying media files. Any change to a media item's title will result in the media filename also being changed.<\/p>\n\n<p>See the screenshot for more details of where to rename media files.<\/p>\n\n<p>Note that all thumbnails will also be renamed. If you are using a caching plugin, such as WP Super Cache, then you will need to clear your cache so that any references are updated. This plugin does not update existing direct links to files (links inside a WordPress gallery will change).<\/p>",
+                "uid": "56967"
+            }
+        }
+    }
+}

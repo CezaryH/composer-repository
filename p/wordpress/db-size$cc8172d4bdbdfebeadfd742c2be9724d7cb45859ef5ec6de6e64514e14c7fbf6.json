@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/db-size": {
+            "1.0": {
+                "name": "wordpress\/db-size",
+                "version": "1.0",
+                "version_normalized": "1.0.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/db-size.1.0.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>This is a very simple plugin which just shows your DataBase size under the header of the admin control panel. Usefull for those who have database size limited by their host.\nDatabase size appears in green if under 4 MBytes by default, else in red if over this value.<\/p>",
+                "uid": "72767"
+            }
+        }
+    }
+}

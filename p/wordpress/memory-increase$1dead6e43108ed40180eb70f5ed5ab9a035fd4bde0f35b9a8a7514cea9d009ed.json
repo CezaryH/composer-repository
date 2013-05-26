@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/memory-increase": {
+            "1.0": {
+                "name": "wordpress\/memory-increase",
+                "version": "1.0",
+                "version_normalized": "1.0.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/memory-increase.1.0.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>'''WordPress 2.5''' fixes this issue, so this plugin shouldn't be used with WordPress 2.5. It can be used with WordPress 2.3.x and below to fix the issue in previous WordPress versions.<\/p>",
+                "uid": "103578"
+            }
+        }
+    }
+}

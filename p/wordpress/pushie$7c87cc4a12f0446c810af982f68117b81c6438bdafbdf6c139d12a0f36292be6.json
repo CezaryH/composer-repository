@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/pushie": {
+            "0.3.1": {
+                "name": "wordpress\/pushie",
+                "version": "0.3.1",
+                "version_normalized": "0.3.1.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/pushie.0.3.1.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>Pushie allows you to send push notifications from your self-hosted WordPress blog to your \ndevice.<\/p>\n\n<p>All you need at the moment is Boxcar installed on your device (only iOS at the moment), \nsetup an account then create a provider. With that API information, you can then get push \nnotifications sent to your device whenever you have a connection to the internet.<\/p>\n\n<p>Features\n* Instant push notifications to Boxcar\n* Notification on new comments\n* Notification on new pingbacks<\/p>\n\n<p>Requirements\n* Your WordPress installation needs cURL support<\/p>",
+                "uid": "51421"
+            }
+        }
+    }
+}

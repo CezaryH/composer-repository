@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/pixrss": {
+            "0.3": {
+                "name": "wordpress\/pixrss",
+                "version": "0.3",
+                "version_normalized": "0.3.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/pixrss.0.3.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<ul>\n<li>Early development stage.<\/li>\n<li>Uses SimpleXML to parse a selected users pix.ie recent uploads feed.<\/li>\n<li>Displays squared images in a unordered list so output can be styled using basic CSS.<\/li>\n<li>Links are opened in a new window\/ tab.<\/li>\n<li>Defaults to 4 images from my pix account.<\/li>\n<\/ul>",
+                "uid": "42806"
+            }
+        }
+    }
+}

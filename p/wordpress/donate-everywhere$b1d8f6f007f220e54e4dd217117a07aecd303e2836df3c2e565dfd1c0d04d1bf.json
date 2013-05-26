@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/donate-everywhere": {
+            "1.0.0": {
+                "name": "wordpress\/donate-everywhere",
+                "version": "1.0.0",
+                "version_normalized": "1.0.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/donate-everywhere.1.0.0.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>Sometimes readers just need a little reminder that you are providing them with useful information. The Donate Everywhere Plugin lets you remind them of that every time they use your website. By default, this plugin adds the line \"Did you find this information helpful? If you did, consider donating.\" to the end of every post, with a link to your PayPal donation page. Customize this message, enter your PayPal information, and wait for the donations to start rolling in. That's all there is to it.<\/p>\n\n<p>Multiple currencies are supported, and most advanced PayPal HTML variables are as well (e.g., notify, return, cbt).<\/p>\n\n<p>Donate Everywhere also includes a [donate] shortcode with the following attributes:<\/p>\n\n<ul>\n<li>email, Your PayPal email address.<\/li>\n<li>currency, The currency in which you would like to receive donations.<\/li>\n<li>amount, The donation amount.<\/li>\n<li>title, The name of the donation in the PayPal shopping cart.<\/li>\n<li>return, The URL to direct the user to a",
+                "uid": "74871"
+            }
+        }
+    }
+}

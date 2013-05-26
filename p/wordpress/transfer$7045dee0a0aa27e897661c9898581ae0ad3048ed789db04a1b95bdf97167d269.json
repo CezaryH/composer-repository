@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/transfer": {
+            "1.0.0": {
+                "name": "wordpress\/transfer",
+                "version": "1.0.0",
+                "version_normalized": "1.0.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/transfer.1.0.0.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>Allows users to submit posts to other WordPress installations instantly. To submit the post data the transfer plugin uses the XML-RPC publishing protocol. Images, categories and tags are automatically transfered to the other WordPress instance. After content changes the plugin updates this automaticallly on save.<\/p>\n\n<p>The plugin adds a checkbox to the edit post page, where the author can mark the current post to publish outside.<\/p>\n\n<p>Within the WordPress backend there is a settings page to configure the other Wordpress installation.<\/p>",
+                "uid": "93220"
+            }
+        }
+    }
+}

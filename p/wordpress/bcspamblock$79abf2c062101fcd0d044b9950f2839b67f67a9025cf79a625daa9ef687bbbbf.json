@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/bcspamblock": {
+            "1.4": {
+                "name": "wordpress\/bcspamblock",
+                "version": "1.4",
+                "version_normalized": "1.4.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/bcspamblock.1.4.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>bcSpamBlock is a simple way to protect your blog from comment spam.  It\nensures that the client is a human by using a small bit of javascript on the\ncomments page.   Users with Javascript enabled will never notice any\ndifference.  For users without Javascript, they will have to copy\/paste a\nshort code into a textbox to confirm.<\/p>\n\n<p>This plugin was designed to be as light and compatible as possible.  It doesn't require\nPHP sessions, a database table or file-based lookups.  It uses a bit of\ncryptography to have the visitor submit all of the information necessary to\nvalidate them.<\/p>\n\n<p>For trackbacks and pingbacks, it ensures that the IP requesting the pingback\nresolves back to the website it is saying that it is.   If so, it retrieves\nthe page that it says contains the link, and makes sure that it does, in-fact\nhave a like to this blog.<\/p>\n\n<p>How it works:\nEssentially, this generates one random value, and a crypted version of it with salt.\nThe crypted version is put directly ",
+                "uid": "109313"
+            }
+        }
+    }
+}

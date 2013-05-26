@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/sanitize-image-name": {
+            "0.1": {
+                "name": "wordpress\/sanitize-image-name",
+                "version": "0.1",
+                "version_normalized": "0.1.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/sanitize-image-name.0.1.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>this couple of filter functions allow to upload image files with <em>only<\/em> numbers in the filename, avoiding the 'attachment' in the URL.\nie: <a href=\"http:\/\/www.example.com\/category\/page\/img_1\/\" rel=\"nofollow\">http:\/\/www.example.com\/category\/page\/img_1\/<\/a> instead of <a href=\"http:\/\/www.example.com\/category\/page\/attachment\/1\/\" rel=\"nofollow\">http:\/\/www.example.com\/category\/page\/attachment\/1\/<\/a><\/p>",
+                "uid": "21230"
+            }
+        }
+    }
+}

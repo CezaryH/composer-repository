@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/badge-fever-shortcode": {
+            "1.0": {
+                "name": "wordpress\/badge-fever-shortcode",
+                "version": "1.0",
+                "version_normalized": "1.0.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/badge-fever-shortcode.1.0.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>Displaying badges from Badge Fever is even easier with Badge Fever Shortcode plugin.\nThis is minimalistic plugin, which adds customized shortcode to your Wordpress system to be used any place you wish to.\nThe shortcode works exactly same as in your posts.<\/p>\n\n<p>Simply write: [display_badges email=\"your@email.com\"]\nAnd badges will appear in your content.<\/p>\n\n<p>You can customize the shortcode functionality and appearance with following attributes:<\/p>\n\n<ul>\n<li>email - Email address for which you wish to display badges<\/li>\n<li>size - How big you want the badge images to be. Available size: small, medium, big<\/li>\n<li>offset - In case user achieved 100 badges, you can specify from which to begin<\/li>\n<li>limit - How many badges to display<\/li>\n<li>styles - Badge Fever Shortcode plugin comes with default styles. If you wish to use your own styles, you can swith that by this attribute (on\/off)<\/li>\n<\/ul>",
+                "uid": "11680"
+            }
+        }
+    }
+}

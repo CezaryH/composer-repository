@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/library-geek-girls-google-reader-subscription-list": {
+            "1.0": {
+                "name": "wordpress\/library-geek-girls-google-reader-subscription-list",
+                "version": "1.0",
+                "version_normalized": "1.0.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/library-geek-girls-google-reader-subscription-list.1.0.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>This plugin lets you choose to include or exclude links from your Google Reader subscriptions by adding parameters \nto the shortcode.<\/p>\n\n<pre><code>[lgg_reader]<\/code><\/pre>\n\n<p>will include all subscriptions, from all labels.<\/p>\n\n<pre><code>[lgg_reader include=&#34;label1,label 2&#34;]<\/code><\/pre>\n\n<p>will only list subscriptions in label1 and label 2. These are case-insensitive, but must be spaced and punctuated\njust like they are in Google Reader.<\/p>\n\n<pre><code>[lgg_reader exclude=&#34;label1&#34;]<\/code><\/pre>\n\n<p>will list everything <em>but<\/em> label1 items.<\/p>\n\n<p>Some notes on this:<\/p>\n\n<ul>\n<li>an \"include\" directive will moot an \"exclude\" directive, in every case, and only include what is listed.<\/li>\n<li>if you forget and use include=\"all\" or include=\"*\", it will DWYM, which is include=\"\".<\/li>\n<li>links that have no label in Google Reader are placed in the group \"unfiled\".<\/li>\n<\/ul>\n\n<pre><code>[lgg_reader include=&#34;friends&#34; hide_header=1]<\/code><\/pre>\n\n",
+                "uid": "15436"
+            }
+        }
+    }
+}

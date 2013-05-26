@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/genesis-style-shortcodes": {
+            "1.0": {
+                "name": "wordpress\/genesis-style-shortcodes",
+                "version": "1.0",
+                "version_normalized": "1.0.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/genesis-style-shortcodes.1.0.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>The Genesis Style Shortcodes plugin enables you to easily add button, content box, and column shortcodes to the posts \nand pages of your Genesis child theme. <a href=\"http:\/\/twerdy.net\/genesis-style-shortcodes\">View the demo.<\/a><\/p>\n\n<p>This plugin utilizes shortcodes. In this case, they are an alternative to adding the styles via CSS, which many people \nare not comfortable touching (I will soon add a page on how to add these same styles using the CSS, which I highly \nrecommend learning if you have the time).<\/p>\n\n<p><strong>Credit<\/strong>: The included column shortcodes are the same as used by the outstanding <a href=\"http:\/\/wordpress.org\/extend\/plugins\/column-shortcodes-for-genesis\/\">Column Shortcodes for Genesis Child Themes<\/a> plugin by Cathy Tibbles.<\/p>\n\n<p><strong>Available Shortcodes:<\/strong><\/p>\n\n<p>*[gss-button url=\"#\" target=\"_blank\" color=\"gray\"] Button Text [\/gss-button]\nColors: gray, brown, black, blue, orange, green, red\nTarget: _blank, _self<\/p>\n\n<p>Content Boxes",
+                "uid": "16669"
+            }
+        }
+    }
+}

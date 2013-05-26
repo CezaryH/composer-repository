@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/videojuicer-for-wordpress": {
+            "1.3.6": {
+                "name": "wordpress\/videojuicer-for-wordpress",
+                "version": "1.3.6",
+                "version_normalized": "1.3.6.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/videojuicer-for-wordpress.1.3.6.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>Allowing you to quickly embed video content from <a href=\"http:\/\/www.videojuicer.com\">Videojuicer<\/a> into any \nwordpress page or post.<\/p>\n\n<p>You can configure the plug-in to show the video's meta data in the post ( where available ) , as \nwell as default dimensions to display the video at and a default seed to use.<\/p>\n\n<p>The plugin also adds in the required meta data tags to support both open graph integration with facebook\nand Oembed integration.<\/p>\n\nUsage\n\n<p>There is also a PDF visual start guide inside the folder.<\/p>\n\n<p>Inserting the content is a simple as inserting [videojuicer {presentation id}] in to the post \/ page body \nfor example [videojuicer 16].<\/p>\n\n<p>For convenience there is also a button on the editor that allows you to insert the shortcode.<\/p>\n\n<p>You can setup other options in the shortcode to, ether by naming them of placing them in a certain order.<\/p>\n\n<p><strong>example<\/strong><\/p>\n\n<p>[videojuicer {presentation id} {width} {height} {seed id}]<\/p>\n\n<",
+                "uid": "22594"
+            }
+        }
+    }
+}

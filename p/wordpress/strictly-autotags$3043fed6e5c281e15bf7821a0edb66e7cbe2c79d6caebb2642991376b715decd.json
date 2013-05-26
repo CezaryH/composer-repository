@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/strictly-autotags": {
+            "2.8.4": {
+                "name": "wordpress\/strictly-autotags",
+                "version": "2.8.4",
+                "version_normalized": "2.8.4.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/strictly-autotags.2.8.4.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>Strictly AutoTags is a plugin that scans an English language post for words that could be used as tags and then orders them so that the most relevant\nwords get added against the post. Just because a word appears in a post that is already in your list of tags does not mean that it should\nautomatically be added against the article. Therefore the plugin orders all matching tags in descending order and picks only those that occur the most.<\/p>\n\n<p>As well as using existing tags to work out which words to tag posts with this plugin automatically detects new words to use as tags \nby using a simple rule of thumb I have discovered during my time using Wordpress as a blogging tool. I have found that over 90% of all\ntags I use fall into one of the following three categories: Acronyms e.g CIA, FBI, AIG, IT, SQL, ASP, names of people or places and countries.\nTherefore using the power of regular expressions I scan posts for words or sentences that match these three groups and then store them\nas ",
+                "uid": "69255"
+            }
+        }
+    }
+}

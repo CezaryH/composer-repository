@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/wp-undelete-restore-deleted-posts": {
+            "0.0.1": {
+                "name": "wordpress\/wp-undelete-restore-deleted-posts",
+                "version": "0.0.1",
+                "version_normalized": "0.0.1.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/wp-undelete-restore-deleted-posts.0.0.1.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p><strong>WP Undelete<\/strong> adds the ability to undelete\/restore deleted posts, even after emptying the trash or 'permanently deleting' them.<\/p>\n\n<p><em>Please note:<\/em> this plugin is a first-release version with many features 'missing' or not implemented yet. For now, it will allow you to restore only posts (custom post types\/pages support coming in next release!) and comments of deleted posts, as well as tags and category associations, are lost (again, this will be a feature of the next version!)<\/p>\n\n<p>I'm not the only person who's accidentally hit \"Delete Permanently\" or \"Empty Trash\" on posts - just recently a client of mine lost an entire day's work, some 80 items, after emptying the Trash without thinking. It got me thinking \"Man, I wish I could undelete stuff.\"<\/p>\n\n<p>WP Undelete is like a backup utility for stuff you delete. It operates in the background, without any input from you, and you won't even know it's there - until you need it.<\/p>\n\n<p>It's lightweight, simp",
+                "uid": "47931"
+            }
+        }
+    }
+}

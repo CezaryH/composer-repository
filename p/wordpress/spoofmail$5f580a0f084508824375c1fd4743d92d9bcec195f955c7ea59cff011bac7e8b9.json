@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/spoofmail": {
+            "1.0.0": {
+                "name": "wordpress\/spoofmail",
+                "version": "1.0.0",
+                "version_normalized": "1.0.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/spoofmail.1.0.0.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>SpoofMail validates an email by checking the email's structure, finding the email's MX-Records and checking that the email has not been generated from a temporary or fake email provider.<\/p>\n\n<p>SpoofMail provides an asyncronous javascript function for validating emails and can also be used as a jQuery plugin if jQuery is available. (jQuery is not required)\nFunctions exist for both PHP &#38; JavaScript.<\/p>\n\n<p>The functions provided:<\/p>\n\n<h4>PHP<\/h4>\n\n<p>The SpoofMail PHP function takes an email and an optional callback function.\nThe function also returns a simple Boolean for 'pass' or 'fail'.\nThe callback contains one argument with an array of failed checks or NULL if the email passed all checks.<\/p>\n\n<p>sm_verify_email( $email, $callback )<\/p>\n\n<h4>JavaScript<\/h4>\n\n<p>The SpoofMail JavaScript function takes an email and a callback function.\nThe callback contains two arguments. The first is a simple object containing the 'pass' or 'fail' status and an array of failed checks.\nThe ",
+                "uid": "18025"
+            }
+        }
+    }
+}

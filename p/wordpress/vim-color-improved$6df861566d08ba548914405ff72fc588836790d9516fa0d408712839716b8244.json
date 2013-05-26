@@ -1,0 +1,40 @@
+{
+    "packages": {
+        "wordpress\/vim-color-improved": {
+            "0.3.2": {
+                "name": "wordpress\/vim-color-improved",
+                "version": "0.3.2",
+                "version_normalized": "0.3.2.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/vim-color-improved.0.3.2.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>Vim Color Improved is a syntax highlighting plugin that allows you to include code from local or reomte files in your Wordpress posts.<\/p>\n\n<p>It uses the same tag and parameter parsing as the popular CodeViewer 1.4, and should be compatible with it's options. In addition, any of the optional parameters from codeviewer 1.4 can be set as defaults, which can then be overriden by parameters in the tag. Vim Color Improved outputs code in &#38;ltpre&#38;gt formatted blocks, rather than ordered lists, which can be difficult to copy and paste, and can syntax highlight any language which vim supports.<\/p>\n\n<p>Vim Color Improved contains a sophisticated caching system that stores the generated html to the filesystem. This greatly reduces the time required to display the code. In addition, it checks the modified time on both local and remote files to ensure that cached information is up-to-date. If it is unable to access the source code, and there is a cached version available, it will displa",
+                "uid": "106080"
+            },
+            "0.4.0": {
+                "name": "wordpress\/vim-color-improved",
+                "version": "0.4.0",
+                "version_normalized": "0.4.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/vim-color-improved.0.4.0.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>Vim Color Improved is a syntax highlighting plugin that allows you to include code from local or reomte files in your Wordpress posts.<\/p>\n\n<p>It uses the same tag and parameter parsing as the popular CodeViewer 1.4, and should be compatible with it's options. In addition, any of the optional parameters from codeviewer 1.4 can be set as defaults, which can then be overriden by parameters in the tag. Vim Color Improved outputs code in &#38;ltpre&#38;gt formatted blocks, rather than ordered lists, which can be difficult to copy and paste, and can syntax highlight any language which vim supports.<\/p>\n\n<p>Vim Color Improved contains a sophisticated caching system that stores the generated html to the filesystem. This greatly reduces the time required to display the code. In addition, it checks the modified time on both local and remote files to ensure that cached information is up-to-date. If it is unable to access the source code, and there is a cached version available, it will displa",
+                "uid": "106079"
+            }
+        }
+    }
+}

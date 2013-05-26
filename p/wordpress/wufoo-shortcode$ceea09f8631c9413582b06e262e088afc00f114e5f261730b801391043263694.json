@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/wufoo-shortcode": {
+            "1.41": {
+                "name": "wordpress\/wufoo-shortcode",
+                "version": "1.41",
+                "version_normalized": "1.41.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/wufoo-shortcode.1.41.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>Allows the use of a special short code [wufoo] for embedding Wufoo forms. It's best to grab the shortcode from the Wufoo Code Manager.<\/p>\n\n<p><strong>Example:<\/strong><\/p>\n\n<pre><code>[wufoo username=&#34;examples&#34; formhash=&#34;z7w4r7&#34; autoresize=&#34;true&#34; height=&#34;517&#34; header=&#34;show&#34; ssl=&#34;true&#34;]<\/code><\/pre>\n\n<p>For advanced users, you can pre-set Wufoo form values with an extra parameter:<\/p>\n\n<pre><code>defaultv=&#34;Field1=Bob&#38;Field2=Sandwich Eater&#34;<\/code><\/pre>",
+                "uid": "42023"
+            }
+        }
+    }
+}

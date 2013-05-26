@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/wpreplacer": {
+            "1.0.3": {
+                "name": "wordpress\/wpreplacer",
+                "version": "1.0.3",
+                "version_normalized": "1.0.3.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/wpreplacer.1.0.3.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>wpReplacer is a post rewrite plugin, it can automatic rewrite your posts or pages<\/p>\n\n<p>you can setting:<\/p>\n\n<p>Replace Level:\nGood replace the most terms\nBetter fewer replacements, higher quality\nBest fewest replacements, higher quality<\/p>\n\n<p>the percentage of replaceable words you would like to rewrite<\/p>\n\n<p>Negative Words: words that will not be replaced<\/p>",
+                "uid": "64840"
+            }
+        }
+    }
+}

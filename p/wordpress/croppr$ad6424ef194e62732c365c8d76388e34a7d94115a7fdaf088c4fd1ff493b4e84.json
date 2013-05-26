@@ -1,0 +1,40 @@
+{
+    "packages": {
+        "wordpress\/croppr": {
+            "1.0": {
+                "name": "wordpress\/croppr",
+                "version": "1.0",
+                "version_normalized": "1.0.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/croppr.1.0.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>Update : fixed bug which caused to display the \"no size specified\" error message.<\/p>\n\n<p>Croppr is a php script written to resize images without actually storing the new images somewhere on the server. This is very usefull to create temporary thumbnails of images, as in photo albums or other applications.\nCroppr has to be called from within an img tag, and will automaticly return an image with the size you specify.\nIn short, you can specify :\n*The url of the image you want to resize.\n*The new size for this image.\n*The side to which this new size will be applied.\n*Whether the resized imaged should be cropped to a square image, or be scaled proportionally.<\/p>\n\n<p><a href=\"http:\/\/bertramakers.com\/?page_id=44\" title=\"bertramakers.com - croppr\">More info...<\/a><\/p>",
+                "uid": "105253"
+            },
+            "1.1": {
+                "name": "wordpress\/croppr",
+                "version": "1.1",
+                "version_normalized": "1.1.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/croppr.1.1.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>Update : fixed bug which caused to display the \"no size specified\" error message.<\/p>\n\n<p>Croppr is a php script written to resize images without actually storing the new images somewhere on the server. This is very usefull to create temporary thumbnails of images, as in photo albums or other applications.\nCroppr has to be called from within an img tag, and will automaticly return an image with the size you specify.\nIn short, you can specify :\n*The url of the image you want to resize.\n*The new size for this image.\n*The side to which this new size will be applied.\n*Whether the resized imaged should be cropped to a square image, or be scaled proportionally.<\/p>\n\n<p><a href=\"http:\/\/bertramakers.com\/?page_id=44\" title=\"bertramakers.com - croppr\">More info...<\/a><\/p>",
+                "uid": "105252"
+            }
+        }
+    }
+}

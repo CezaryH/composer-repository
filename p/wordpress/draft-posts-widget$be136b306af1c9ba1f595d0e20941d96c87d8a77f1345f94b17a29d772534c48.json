@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/draft-posts-widget": {
+            "0.0.1": {
+                "name": "wordpress\/draft-posts-widget",
+                "version": "0.0.1",
+                "version_normalized": "0.0.1.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/draft-posts-widget.0.0.1.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>It's a simple widget that lists your draft posts. It's got one configurable option: the number of drafts to show. \nIf it's set to &#60; 1 it will show all the drafts. It's using the widget api, so I should integrate with your theme without any problems.<\/p>",
+                "uid": "102628"
+            }
+        }
+    }
+}

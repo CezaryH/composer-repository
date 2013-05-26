@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/twitterlock": {
+            "1.0.0": {
+                "name": "wordpress\/twitterlock",
+                "version": "1.0.0",
+                "version_normalized": "1.0.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/twitterlock.1.0.0.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>TwitterLock can be used for locking content on a page or post.<\/p>\n\n<p>Options for the plugin<\/p>\n\n<p>1) Unlock Type - Here you can set whether you want users to Tweet and unlock the content or Follow you on twitter and then unlock the content\n2) Tweet Message - This is the message which will be tweeted in user profile if you use the Tweet and Unlock content. \n3) Twitter user ID to follow - This user id will be followed if you select Follow and Unlock the content\n4) Locked Content Text - This content is displayed just above the Twitter button.<\/p>",
+                "uid": "34843"
+            }
+        }
+    }
+}

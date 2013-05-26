@@ -1,0 +1,74 @@
+{
+    "packages": {
+        "wordpress\/ip2country": {
+            "1.0.0": {
+                "name": "wordpress\/ip2country",
+                "version": "1.0.0",
+                "version_normalized": "1.0.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/ip2country.1.0.0.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<ul>\n<li>Code is based on: <a href=\"http:\/\/phpweby.com\/software\/ip2country\">phpweby.com\/software\/ip2country<\/a><\/li>\n<li>Ip2country database table is based on: <a href=\"http:\/\/maxmind.com\/\">maxmind.com<\/a><\/li>\n<li>Ip2country_info database table is based on: <a href=\"http:\/\/www.ip2nation.com\/\">ip2nation.com<\/a><\/li>\n<li>Last IP database update: 15-jan-2012<\/li>\n<li>Ip2country database is stored on your site.<\/li>\n<\/ul>\n\n<p>Get country code or country name:<\/p>\n\n<pre><code>&#60;?php\n$ip2country = ip2country();\necho &#039; Country code: &#039;.$ip2country-&#62;country_code;\necho &#039; Country name: &#039;.$ip2country-&#62;country_name;\n\/\/ or\n$ip2country2 = ip2country(&#039;212.113.46.148&#039;);\necho &#039; Country code: &#039;.$ip2country2-&#62;country_code;\necho &#039; Country name: &#039;.$ip2country2-&#62;country_name;\n?&#62;<\/code><\/pre>\n\n<p>Get additional info about the country by country code:<\/p>\n\n<pre><code>&#60;?php\n$ip2country_info = ip2country_info($ip2country-&#62;country_c",
+                "uid": "43989"
+            },
+            "1.1.0": {
+                "name": "wordpress\/ip2country",
+                "version": "1.1.0",
+                "version_normalized": "1.1.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/ip2country.1.1.0.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<ul>\n<li>Code is based on: <a href=\"http:\/\/phpweby.com\/software\/ip2country\">phpweby.com\/software\/ip2country<\/a><\/li>\n<li>Ip2country database table is based on: <a href=\"http:\/\/maxmind.com\/\">maxmind.com<\/a><\/li>\n<li>Ip2country_info database table is based on: <a href=\"http:\/\/www.ip2nation.com\/\">ip2nation.com<\/a><\/li>\n<li>Last IP database update: 15-jan-2012<\/li>\n<li>Ip2country database is stored on your site.<\/li>\n<\/ul>\n\n<p>Get country code or country name:<\/p>\n\n<pre><code>&#60;?php\n$ip2country = ip2country();\necho &#039; Country code: &#039;.$ip2country-&#62;country_code;\necho &#039; Country name: &#039;.$ip2country-&#62;country_name;\n\/\/ or\n$ip2country2 = ip2country(&#039;212.113.46.148&#039;);\necho &#039; Country code: &#039;.$ip2country2-&#62;country_code;\necho &#039; Country name: &#039;.$ip2country2-&#62;country_name;\n?&#62;<\/code><\/pre>\n\n<p>Get additional info about the country by country code:<\/p>\n\n<pre><code>&#60;?php\n$ip2country_info = ip2country_info($ip2country-&#62;country_c",
+                "uid": "43988"
+            },
+            "1.2": {
+                "name": "wordpress\/ip2country",
+                "version": "1.2",
+                "version_normalized": "1.2.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/ip2country.1.2.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<ul>\n<li>Code is based on: <a href=\"http:\/\/phpweby.com\/software\/ip2country\">phpweby.com\/software\/ip2country<\/a><\/li>\n<li>Ip2country database table is based on: <a href=\"http:\/\/maxmind.com\/\">maxmind.com<\/a><\/li>\n<li>Ip2country_info database table is based on: <a href=\"http:\/\/www.ip2nation.com\/\">ip2nation.com<\/a><\/li>\n<li>Last IP database update: 15-jan-2012<\/li>\n<li>Ip2country database is stored on your site.<\/li>\n<\/ul>\n\n<p>Get country code or country name:<\/p>\n\n<pre><code>&#60;?php\n$ip2country = ip2country();\necho &#039; Country code: &#039;.$ip2country-&#62;country_code;\necho &#039; Country name: &#039;.$ip2country-&#62;country_name;\n\/\/ or\n$ip2country2 = ip2country(&#039;212.113.46.148&#039;);\necho &#039; Country code: &#039;.$ip2country2-&#62;country_code;\necho &#039; Country name: &#039;.$ip2country2-&#62;country_name;\n?&#62;<\/code><\/pre>\n\n<p>Get additional info about the country by country code:<\/p>\n\n<pre><code>&#60;?php\n$ip2country_info = ip2country_info($ip2country-&#62;country_c",
+                "uid": "43986"
+            },
+            "1.3": {
+                "name": "wordpress\/ip2country",
+                "version": "1.3",
+                "version_normalized": "1.3.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/ip2country.1.3.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<ul>\n<li>Code is based on: <a href=\"http:\/\/phpweby.com\/software\/ip2country\">phpweby.com\/software\/ip2country<\/a><\/li>\n<li>Ip2country database table is based on: <a href=\"http:\/\/maxmind.com\/\">maxmind.com<\/a><\/li>\n<li>Ip2country_info database table is based on: <a href=\"http:\/\/www.ip2nation.com\/\">ip2nation.com<\/a><\/li>\n<li>Last IP database update: 15-jan-2012<\/li>\n<li>Ip2country database is stored on your site.<\/li>\n<\/ul>\n\n<p>Get country code or country name:<\/p>\n\n<pre><code>&#60;?php\n$ip2country = ip2country();\necho &#039; Country code: &#039;.$ip2country-&#62;country_code;\necho &#039; Country name: &#039;.$ip2country-&#62;country_name;\n\/\/ or\n$ip2country2 = ip2country(&#039;212.113.46.148&#039;);\necho &#039; Country code: &#039;.$ip2country2-&#62;country_code;\necho &#039; Country name: &#039;.$ip2country2-&#62;country_name;\n?&#62;<\/code><\/pre>\n\n<p>Get additional info about the country by country code:<\/p>\n\n<pre><code>&#60;?php\n$ip2country_info = ip2country_info($ip2country-&#62;country_c",
+                "uid": "43985"
+            }
+        }
+    }
+}

@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/instant4wordpress": {
+            "0.1": {
+                "name": "wordpress\/instant4wordpress",
+                "version": "0.1",
+                "version_normalized": "0.1.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/instant4wordpress.0.1.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>With this port of the Javascript \"instant\" who whas made by Christian Effenber (<a href=\"http:\/\/gernetzgesta.de\" rel=\"nofollow\">http:\/\/gernetzgesta.de<\/a>):<\/p>\n\n<ul>\n<li><p>instant.js version 1.5:\n Image Effect: Simulates an instant picture look including tilt! The script allows you to add individual colors, tiltings and shadows to images on your webpages. Requires no plugin\/extension or any other external resource!<\/p>\n\n<ul>\n<li>New since 1.5: Added support to preserve image aspect ratio\nIt uses unobtrusive javascript to keep your code clean and works in all the major browsers - Mozilla Firefox 1.5+, Opera 9+, IE6+ and Safari. On older browsers, it'll degrade and your visitors won't notice a thing.\nFor backwards compatibility, if this section is missing, the full length of the short description will be used, and\nMarkdown parsed.<\/li>\n<\/ul><\/li>\n<li><p>Php side of this plugin:<\/p>\n\n<ul>\n<li>NEW Parse every images who whas posted to add class=\"xxx\" to the image, you don't need to ad",
+                "uid": "100708"
+            }
+        }
+    }
+}

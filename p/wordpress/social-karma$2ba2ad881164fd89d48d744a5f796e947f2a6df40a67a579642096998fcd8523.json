@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/social-karma": {
+            "1.0": {
+                "name": "wordpress\/social-karma",
+                "version": "1.0",
+                "version_normalized": "1.0.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/social-karma.1.0.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>I&#8217;m writing a post and I want to mention Mark Bloomfield. I decide to link to his blog, his Twitter \nfeed and Facebook page. So the only way I can think of doing this now, is something along the lines of<\/p>\n\n<pre><code>blah blah Mark Bloomfield (Twitter, Facebook, Blog) blah blah\n<\/code><\/pre>\n\n<p>... A bit tedious, especially when you factor in the time it takes to select the word, click the chain \nicon, paste in the link, repeat.<\/p>\n\n<p>Here's where Social Karma makes it really easy... All you do is write a shortcode like this:<\/p>\n\n<p>[social blog=http:\/\/imod.co.za twitter=yellowllama facebook=yellowllama]Mark Bloomfield[\/social]<\/p>\n\n<p>Supported social profiles\/networks are:<\/p>\n\n<ul>\n<li>A blog URL<\/li>\n<li>Facebook<\/li>\n<li>Twitter<\/li>\n<li>Flickr<\/li>\n<li>LinkedIn<\/li>\n<li>Last.fm<\/li>\n<li>AboutMe<\/li>\n<li>Youtube<\/li>\n<li>Vimeo<\/li>\n<li>Delicious<\/li>\n<li>Digg<\/li>\n<li>Posterous<\/li>\n<li>Tumblr<\/li>\n<li>Dribbble<\/li>\n<\/ul>\n\n<p>*** IMPORTANT: Only the blog URL item r",
+                "uid": "51254"
+            }
+        }
+    }
+}

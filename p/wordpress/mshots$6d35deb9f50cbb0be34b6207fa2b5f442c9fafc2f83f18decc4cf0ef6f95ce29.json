@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/mshots": {
+            "0.1": {
+                "name": "wordpress\/mshots",
+                "version": "0.1",
+                "version_normalized": "0.1.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/mshots.0.1.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>WordPress.com has a service called mShots that allows you to easily insert screenshots of any website into your blog. This simple plugin lets you use mShots with a shortcode.<\/p>\n\n<p>Example Usage:<\/p>\n\n<pre><code>[mshot url=&#34;http:\/\/wpforchurch.com&#34; alt=&#34;WordPress plugins and themes for churches and ministries&#34; w=&#34;600&#34; h=&#34;&#34;300&#34;]<\/code><\/pre>\n\n<p>This will generate a screenshot (that gets updated automatically). The image will link to the url in a new window.<\/p>\n\n<p>Images will not always display instantly. Some take longer than others, but they'll show up eventually.<\/p>\n\n<p>The idea and code for this plugin comes from here: <a href=\"http:\/\/www.wprecipes.com\/wordpress-shortcode-display-a-thumbnail-of-any-website\/\" rel=\"nofollow\">http:\/\/www.wprecipes.com\/wordpress-shortcode-display-a-thumbnail-of-any-website\/<\/a><\/p>",
+                "uid": "41227"
+            }
+        }
+    }
+}

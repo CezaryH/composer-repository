@@ -1,0 +1,40 @@
+{
+    "packages": {
+        "wordpress\/qoate-content-expiration": {
+            "1.0": {
+                "name": "wordpress\/qoate-content-expiration",
+                "version": "1.0",
+                "version_normalized": "1.0.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/qoate-content-expiration.1.0.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<h4>Post Content Expiration<\/h4>\n\n<p>This plugin lets you put certain content between tags, so it will expire after a given date.\nYou can set the date in an added metabox below the post editor.\nAfter the content has expired it will be replaced with a custom message which you can set individually for each post.<\/p>\n\n<p>If you want certain content to expire just put it between <code>[exp]<\/code> and <code>[\/exp]<\/code> and set a valid expiration date (dd\/mm\/yy).\nAfter the expiration date your custom expiration message will show up, instead of the original content between the tags.<\/p>\n\n<p>You can also have custom messages, time or dates for content in the same post. Those will overrule the given dates\/messages in the box under the post editor.\nValid attributes are <code>message=\"This is a custom message for this line\"<\/code> , <code>date=\"03\/08\/2010\"<\/code> , <code>time=\"13:54:00\"<\/code>. \nUse the quotes and exact same formats as the examples above, so dates like <code>dd\/mm\/yyyy<\/code> ",
+                "uid": "64962"
+            },
+            "1.3": {
+                "name": "wordpress\/qoate-content-expiration",
+                "version": "1.3",
+                "version_normalized": "1.3.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/qoate-content-expiration.1.3.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<h4>Post Content Expiration<\/h4>\n\n<p>This plugin lets you put certain content between tags, so it will expire after a given date.\nYou can set the date in an added metabox below the post editor.\nAfter the content has expired it will be replaced with a custom message which you can set individually for each post.<\/p>\n\n<p>If you want certain content to expire just put it between <code>[exp]<\/code> and <code>[\/exp]<\/code> and set a valid expiration date (dd\/mm\/yy).\nAfter the expiration date your custom expiration message will show up, instead of the original content between the tags.<\/p>\n\n<p>You can also have custom messages, time or dates for content in the same post. Those will overrule the given dates\/messages in the box under the post editor.\nValid attributes are <code>message=\"This is a custom message for this line\"<\/code> , <code>date=\"03\/08\/2010\"<\/code> , <code>time=\"13:54:00\"<\/code>. \nUse the quotes and exact same formats as the examples above, so dates like <code>dd\/mm\/yyyy<\/code> ",
+                "uid": "64961"
+            }
+        }
+    }
+}

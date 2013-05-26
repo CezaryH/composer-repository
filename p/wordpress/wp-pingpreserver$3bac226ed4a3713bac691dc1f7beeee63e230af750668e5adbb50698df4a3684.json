@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/wp-pingpreserver": {
+            "0.4": {
+                "name": "wordpress\/wp-pingpreserver",
+                "version": "0.4",
+                "version_normalized": "0.4.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/wp-pingpreserver.0.4.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>For a while, I've been a bit annoyed with WordPress losing pings (those automatic links on your blog when someone links to you) anytime someone links to more than one of my posts. It turns out Wordpress's comment flood prevention is getting in the way. This plugin prevents Wordpress from discarding these pings.<\/p>",
+                "uid": "107572"
+            }
+        }
+    }
+}

@@ -1,0 +1,40 @@
+{
+    "packages": {
+        "wordpress\/voce-widget-cache": {
+            "1": {
+                "name": "wordpress\/voce-widget-cache",
+                "version": "1",
+                "version_normalized": "1.0.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/voce-widget-cache.1.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>This plugin does not cache widgets automatically! You must define which widgets get cached.<\/p>\n\n<p>Add a widget to the cache and designate which actions the cache gets flushed on.<\/p>\n\n<pre><code>$widget_cache = Voce_Widget_Cache::GetInstance();\n$widget_cache-&#62;cache_widget( &#039;Archive_Links_Widget&#039;, array( &#039;save_post&#039; ) );<\/code><\/pre>",
+                "uid": "14441"
+            },
+            "1.1": {
+                "name": "wordpress\/voce-widget-cache",
+                "version": "1.1",
+                "version_normalized": "1.1.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/voce-widget-cache.1.1.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>This plugin does not cache widgets automatically! You must define which widgets get cached.<\/p>\n\n<p>Add a widget to the cache and designate which actions the cache gets flushed on.<\/p>\n\n<pre><code>$widget_cache = Voce_Widget_Cache::GetInstance();\n$widget_cache-&#62;cache_widget( &#039;Archive_Links_Widget&#039;, array( &#039;save_post&#039; ) );<\/code><\/pre>",
+                "uid": "14440"
+            }
+        }
+    }
+}

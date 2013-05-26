@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/p2-by-email": {
+            "1.0": {
+                "name": "wordpress\/p2-by-email",
+                "version": "1.0",
+                "version_normalized": "1.0.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/p2-by-email.1.0.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>P2 By Email enables you to use P2 by email:<\/p>\n\n<ul>\n<li>Get instant notifications when posts or comments are published.<\/li>\n<li>Ensure you're always notified when your username is mentioned.<\/li>\n<li>Reply to posts or comments by email.<\/li>\n<li>Create new posts with a secret email address.<\/li>\n<\/ul>\n\n<p>Perfect for communicating with your team while on the go.<\/p>\n\n<p>Users can change their communication preferences from the default of all posts and comments using profile settings. A special setting can ensure they always receive an email when their username is mentioned.<\/p>\n\n<p>Want another feature added? <a href=\"https:\/\/github.com\/humanmade\/P2-By-Email\/\">Send us a pull request<\/a> and we'll consider it. Reply by email depends on a <a href=\"https:\/\/github.com\/humanmade\/What-The-Email\">young email reply parsing class<\/a> &#8212; there's the chance a comment will appear oddly, and we welcome improvements to the regex.<\/p>",
+                "uid": "7984"
+            }
+        }
+    }
+}

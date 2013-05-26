@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/snake": {
+            "1.0": {
+                "name": "wordpress\/snake",
+                "version": "1.0",
+                "version_normalized": "1.0.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/snake.1.0.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>Let your users play snake on your website!<\/p>\n\n<p>Just add <code>[snake]<\/code> to your post and there you go!<\/p>",
+                "uid": "9328"
+            }
+        }
+    }
+}

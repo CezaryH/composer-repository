@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/comment-probation": {
+            "0.1": {
+                "name": "wordpress\/comment-probation",
+                "version": "0.1",
+                "version_normalized": "0.1.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/comment-probation.0.1.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>Comment Probation allows you to put a comment author on \"probation.\"<\/p>\n\n<p>If you allow comments to automatically appear from authors who already have an approved comment,\nthis plugin gives you a bit more control. It lets you approve a comment but place the author\nunder probation, meaning that any future comments from that author will need to be moderated again.<\/p>\n\n<p>When approving a comment, you're given the option to \"Approve\" the comment, or \"Approve with Probation.\"\nIf a comment ended up in moderation because the author is on probation, \"approving\" the comment will\nremove the author from the probation list.<\/p>",
+                "uid": "24160"
+            }
+        }
+    }
+}

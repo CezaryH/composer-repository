@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/pagination-for-pages": {
+            "0.1.1": {
+                "name": "wordpress\/pagination-for-pages",
+                "version": "0.1.1",
+                "version_normalized": "0.1.1.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/pagination-for-pages.0.1.1.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p><strong>Pagination for Pages<\/strong> is a very simple plugin that creates navigation between pages (or any other custom post type) with the same parent.<\/p>\n\n<p>This plugin gives you one new function, <code>pagination_for_pages($getPagesQuery='sort_column=menu_order&#38;sort_order=asc')<\/code><\/p>\n\n<ol>\n<li><strong>getPagesQuery<\/strong> - Passed directly to <a href=\"http:\/\/codex.wordpress.org\/Function_Reference\/get_pages\">get_pages<\/a>, read the codex to find all available options. Defaults to menu_order ascending &#38; pages.<\/li>\n<\/ol>\n\n<p><a href=\"http:\/\/binarym.com\/2011\/pagination-for-pages\/\">More documentation for Pagination for Pages on BinaryM.com<\/a><\/p>",
+                "uid": "35715"
+            }
+        }
+    }
+}

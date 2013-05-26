@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/robokassa-shortcode": {
+            "1.4": {
+                "name": "wordpress\/robokassa-shortcode",
+                "version": "1.4",
+                "version_normalized": "1.4.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/robokassa-shortcode.1.4.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>Place the shortcode provide a description of payment and amount.<\/p>\n\n<p>[rk_button price=\"100\" sku=\"test\" description=\"Test payment\"]<\/p>\n\n<ul>\n<li>\u0412 Robokassa \u043f\u0440\u043e\u043f\u0438\u0441\u044b\u0432\u0430\u0435\u043c:<\/li>\n<li><\/li>\n<li>\u041e\u043f\u043e\u0432\u0435\u0449\u0435\u043d\u0438\u0435 \u043e \u043f\u043b\u0430\u0442\u0435\u0436\u0435 - [\u0438\u043c\u044f \u0441\u0430\u0439\u0442\u0430]\/rksc\/res.php<\/li>\n<li>\u0421\u0441\u044b\u043b\u043a\u0430 \u043e\u0431 \u0443\u0434\u0430\u0447\u043d\u043e\u043c \u043f\u043b\u0430\u0442\u0435\u0436\u0435 - [\u0438\u043c\u044f \u0441\u0430\u0439\u0442\u0430]\/rksc\/success.php<\/li>\n<li>\u0421\u0441\u044b\u043b\u043a\u0430 \u043e \u043d\u0435\u0443\u0434\u0430\u0447\u043d\u043e\u043c \u043f\u043b\u0430\u0442\u0435\u0436\u0435 - [\u0438\u043c\u044f \u0441\u0430\u0439\u0442\u0430]\/rksc\/fail.php<\/li>\n<\/ul>",
+                "uid": "22725"
+            }
+        }
+    }
+}

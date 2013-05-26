@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/dko-openid-delegation": {
+            "1.0.3": {
+                "name": "wordpress\/dko-openid-delegation",
+                "version": "1.0.3",
+                "version_normalized": "1.0.3.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/dko-openid-delegation.1.0.3.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>Please report issues, fork, etc. from the GitHub repository:\n<a href=\"https:\/\/github.com\/davidosomething\/dko-openid-delegation\" rel=\"nofollow\">https:\/\/github.com\/davidosomething\/dko-openid-delegation<\/a><\/p>\n\n<p>This plugin adds the relevant link and meta tags for OpenID server delegation\nto your WP_HEAD. <a href=\"https:\/\/www.myopenid.com\/help#own_domain\">See this\nMyOpenID page for more information<\/a>.<\/p>\n\n<p>If rewrite rules from a caching plugin, or custom rewrite rules, cause the page\nto do a 301 redirect, login will fail, at least for some sites. Remove these\nrewrites to fix it.<\/p>\n\n<h4>Other plugins that do OpenID delegation and their differences<\/h4>\n\n<ul>\n<li><a href=\"http:\/\/wordpress.org\/extend\/plugins\/wordpress-openid-delegation\/\">OpenID Delegation<\/a> by <a href=\"http:\/\/profiles.wordpress.org\/rodrigosprimo\/\">rodrigosprimo<\/a> - doesn't have the meta X-XRDS-Location tag, but does a cool thing and check if the provider you entered is actually a working OpenID provider.<\/l",
+                "uid": "12050"
+            }
+        }
+    }
+}

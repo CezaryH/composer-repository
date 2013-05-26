@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/wp-lessn": {
+            "1.0": {
+                "name": "wordpress\/wp-lessn",
+                "version": "1.0",
+                "version_normalized": "1.0.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/wp-lessn.1.0.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>The WP Lessn Plugin for WordPress uses Shaun Inman's Lessn to create a short URL for each new post you publish. The Lessn'd link is attached to the post meta data. You can insert the Lessn'd link into your blog post using short tags or into your theme template with some some PHP.<\/p>\n\n<p>Lessn, according to Shaun Inman, is \"an extremely simple, personal url shortener written in PHP with MySQL and mod_rewrite.\" If you are unfamiliar with Lessn, then this plugin will have little value to you until you read about it, download it, and install it on your own server. Lessn is free.<\/p>\n\n<p>WP Lessn was written by Jay Robinson. Please thank Shaun Inman for being awesome, not me. But <a href=\"mailto:jay@jayrobinson.org\">email me<\/a> for support, not him.<\/p>",
+                "uid": "76535"
+            }
+        }
+    }
+}

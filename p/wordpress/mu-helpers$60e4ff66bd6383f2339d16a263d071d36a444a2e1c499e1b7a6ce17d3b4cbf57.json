@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/mu-helpers": {
+            "0.8": {
+                "name": "wordpress\/mu-helpers",
+                "version": "0.8",
+                "version_normalized": "0.8.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/mu-helpers.0.8.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>Helper functions to make developing solutions with WordPress MU or BuddyPress easier. Right now there is a function to return all posts from all blogs, and one to return all comments on all blogs. The code is well commented with phpdoc blocks, so read the source for more info. This plugin is for developers and will do nothing on its own (except provide functions to developers that don't exist in the core API)<\/p>",
+                "uid": "67416"
+            }
+        }
+    }
+}

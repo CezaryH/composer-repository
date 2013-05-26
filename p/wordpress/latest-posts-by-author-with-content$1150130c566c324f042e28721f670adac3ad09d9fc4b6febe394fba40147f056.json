@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/latest-posts-by-author-with-content": {
+            "1.0": {
+                "name": "wordpress\/latest-posts-by-author-with-content",
+                "version": "1.0",
+                "version_normalized": "1.0.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/latest-posts-by-author-with-content.1.0.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>This Plugin is extended version of \"Latest Posts by Author\" Wordpress plugin. This plugin allows you to display an unordered list of links to a specific author's latest posts (or a list of multiple authors). It can be called either with a shortcode or from within a theme file.<\/p>\n\n<p>To call it with a shortcode, use <code>[latestbyauthor author=\"username\" show=\"3\"]<\/code> where \"username\" is the login name of the author (or a comma separated list of multiple authors) and \"3\" is the number of posts to display. If you don't specify an author or a display number, it will show the latest 5 posts from the author of the current page. If you want it to display the post excerpt as well, you can use the following code: <code>[latestbyauthor author=\"username\" show=\"3\" excerpt=\"true\"]<\/code> This will only show exerpts that you have entered manually.<\/p>\n\n<p>To call it from within a theme template, you have to wrap it in this PHP function: <code>&#60;?php echo do_shortcode('[latestbyauthor au",
+                "uid": "17139"
+            }
+        }
+    }
+}

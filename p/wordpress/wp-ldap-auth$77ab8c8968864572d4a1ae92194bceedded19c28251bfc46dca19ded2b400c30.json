@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/wp-ldap-auth": {
+            "1.0": {
+                "name": "wordpress\/wp-ldap-auth",
+                "version": "1.0",
+                "version_normalized": "1.0.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/wp-ldap-auth.1.0.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>Once installed, this plugin will authenticate against an LDAP server. It uses a user defined search\nfilter to lookup the users distinguished name (DN) and uses that for the final authentication.<\/p>\n\n<p>Additionally, it is able to synchronize users roles (i.e. Contributor, Administrator, etc.) for\nLDAP based users. Put them in a posixGroup, groupOfNames, organizationalRole, etc and map an\nattribute to be used as the final role. This mapping gets synchronized every time the user\nauthenticates himself to WordPress.<\/p>\n\n<p>Features:<\/p>\n\n<ul>\n<li>Userdefined user lookup filters<\/li>\n<li>Userdefined role lookup filters<\/li>\n<li>Enforce LDAP only roles<\/li>\n<li>Enforce LDAP only users (but keep local administrators)<\/li>\n<li>Fallback LDAP servers<\/li>\n<\/ul>",
+                "uid": "75344"
+            }
+        }
+    }
+}

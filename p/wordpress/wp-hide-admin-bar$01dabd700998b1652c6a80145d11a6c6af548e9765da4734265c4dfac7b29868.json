@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/wp-hide-admin-bar": {
+            "1.0": {
+                "name": "wordpress\/wp-hide-admin-bar",
+                "version": "1.0",
+                "version_normalized": "1.0.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/wp-hide-admin-bar.1.0.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>This plugin hide admin bar form front-end. It disable admin bar from fron end. if this plugin enable it hide admim bar. For show admin bar from front-end, disable this plugin<\/p>",
+                "uid": "9814"
+            }
+        }
+    }
+}

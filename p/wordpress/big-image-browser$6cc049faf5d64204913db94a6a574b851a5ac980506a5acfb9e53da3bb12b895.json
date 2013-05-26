@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/big-image-browser": {
+            "1.0": {
+                "name": "wordpress\/big-image-browser",
+                "version": "1.0",
+                "version_normalized": "1.0.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/big-image-browser.1.0.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>Show big (original) images from blogs post page. It get all link hrefs with image anchors\n(like <a href=\"some_big_image.jpg\"><\/a>) and then leafs through with big images in full screen.\nIt allows simple key (left, right, esc) and mouse navigating.<\/p>",
+                "uid": "29277"
+            }
+        }
+    }
+}

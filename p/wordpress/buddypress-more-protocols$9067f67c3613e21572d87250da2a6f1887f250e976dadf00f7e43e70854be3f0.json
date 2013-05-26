@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/buddypress-more-protocols": {
+            "1.0.2": {
+                "name": "wordpress\/buddypress-more-protocols",
+                "version": "1.0.2",
+                "version_normalized": "1.0.2.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/buddypress-more-protocols.1.0.2.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>Increases number of supported protocols for BuddyPress's users links.\nFor now additional supported protocols are only apt (ubuntu) and magnet (torrent), but suggestions are welcome :D<\/p>",
+                "uid": "47497"
+            }
+        }
+    }
+}

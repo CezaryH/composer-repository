@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/prerender-and-prefetch": {
+            "0.93": {
+                "name": "wordpress\/prerender-and-prefetch",
+                "version": "0.93",
+                "version_normalized": "0.93.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/prerender-and-prefetch.0.93.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>&#191;What is <a href=\"https:\/\/developers.google.com\/chrome\/whitepapers\/prerender\">Prerender<\/a> and <a href=\"http:\/\/en.wikipedia.org\/wiki\/Link_prefetching\">Prefetch<\/a>? Nice question. It's a new-navigators technique (ok i'm a liar, Mozilla do it from 2003!) that loads in background the next page you believe the visitor is going to visit.<\/p>\n\n<p>This plugin puts the required metatag in your WordPress pages, based on settings you can change, allowing those compatible navigators to do a pre-load of the next page. When the visitor try to visit that page Boom! it just appears without need to wait for it!<\/p>\n\n<h4>Testing Prerender and Prefetch Support in your navigator<\/h4>\n\n<p>You can <a href=\"http:\/\/prerender-test.appspot.com\/\">test here Chrome's prerender<\/a> with any page.<\/p>\n\n<h4>Install and after install<\/h4>\n\n<p>*When installing, remember to set the server's load limit on settings.\n*This is a plugin in development, feel free to ask questions in \"Support\" section and colaborate",
+                "uid": "15247"
+            }
+        }
+    }
+}

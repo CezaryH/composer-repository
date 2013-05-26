@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/shortcode-disabler": {
+            "0.1": {
+                "name": "wordpress\/shortcode-disabler",
+                "version": "0.1",
+                "version_normalized": "0.1.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/shortcode-disabler.0.1.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>Over time, plugins and themes tend to leave behind shortcodes.  Shortcode Disabler allows you to \"disable\" those old shortcodes by replacing them with nothing on the front end.<\/p>\n\n<p>Optionally, you can choose to display or hide the content of a shortcode.  In other words, this: <code>[some-shortcode]this is content[\/some-shortcode]<\/code> can become this: <code>this is content<\/code> on the frontend of your site.<\/p>",
+                "uid": "27903"
+            }
+        }
+    }
+}

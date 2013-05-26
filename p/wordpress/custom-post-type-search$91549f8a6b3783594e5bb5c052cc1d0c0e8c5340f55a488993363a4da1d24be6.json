@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/custom-post-type-search": {
+            "1.0": {
+                "name": "wordpress\/custom-post-type-search",
+                "version": "1.0",
+                "version_normalized": "1.0.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/custom-post-type-search.1.0.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<h4>Description<\/h4>\n\n<p>Search into your custom post type, taxonomies and metadata.<\/p>\n\n<h4>How to use<\/h4>\n\n<ol>\n<li>Include the code require_once(WP_CONTENT_DIR.'\/custom-post-type-search.php'); customPostType::searchForm(); in your single or page template.<\/li>\n<\/ol>\n\n<h4>Please Vote and Enjoy<\/h4>\n\n<p>Your votes really make a difference! Thanks.<\/p>",
+                "uid": "26216"
+            }
+        }
+    }
+}

@@ -1,0 +1,40 @@
+{
+    "packages": {
+        "wordpress\/topcollage": {
+            "0.5.1": {
+                "name": "wordpress\/topcollage",
+                "version": "0.5.1",
+                "version_normalized": "0.5.1.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/topcollage.0.5.1.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>This plugin will take images that have been attached to your post and create a css-based collage out of them.  The images within the collage are clickable.<\/p>\n\n<p>There are many options available to style your collage and you can change these settings globally for the whole site, or on a collage-by-collage basis.<\/p>\n\n<p>Usage - insert the <code>[topcollage]<\/code> shortcode into your post or page<\/p>\n\n<ul>\n<li>[topcollage] - will layout a collage of 5 photos (that's the default setting)<\/li>\n<li>[topcollage images=n] - will layout a collage of n photos (as shipped, n can be any number from 1 to 6 - code ninjas can add more layouts via a filters)<\/li>\n<li>[topcollage images=n start_with=s] - will layout a collage with n photos starting with the sth photo in the gallery (you can reorder images in the gallery by dragging and dropping)<\/li>\n<li>[topcollage layout=x] - will create a collage with layout number x (as shipped, x can be any number from 0 to 6).  To see examples of each lay",
+                "uid": "69101"
+            },
+            "2.0": {
+                "name": "wordpress\/topcollage",
+                "version": "2.0",
+                "version_normalized": "2.0.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/topcollage.2.0.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>This plugin will take images that have been attached to your post and create a css-based collage out of them.  The images within the collage are clickable.<\/p>\n\n<p>There are many options available to style your collage and you can change these settings globally for the whole site, or on a collage-by-collage basis.<\/p>\n\n<p>Usage - insert the <code>[topcollage]<\/code> shortcode into your post or page<\/p>\n\n<ul>\n<li>[topcollage] - will layout a collage of 5 photos (that's the default setting)<\/li>\n<li>[topcollage images=n] - will layout a collage of n photos (as shipped, n can be any number from 1 to 6 - code ninjas can add more layouts via a filters)<\/li>\n<li>[topcollage images=n start_with=s] - will layout a collage with n photos starting with the sth photo in the gallery (you can reorder images in the gallery by dragging and dropping)<\/li>\n<li>[topcollage layout=x] - will create a collage with layout number x (as shipped, x can be any number from 0 to 6).  To see examples of each lay",
+                "uid": "69102"
+            }
+        }
+    }
+}

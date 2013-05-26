@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/rl2": {
+            "0.2": {
+                "name": "wordpress\/rl2",
+                "version": "0.2",
+                "version_normalized": "0.2.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/rl2.0.2.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>The rl2 plugin collects and displays resources - that is names, addresses,\nURLs and so on. It accepts user input without login and stores the\ninformation in the database system. It uses a custom post type as well as\ncustom post meta and custom taxonomy (categories). A form can be supplied to\nusers to allow them to add to the resources database. Resources submited by\nusers are held in a non-visible state until the adminstrator marks them as\nvisible. The admin can edit the various fields and post content.<\/p>",
+                "uid": "26319"
+            }
+        }
+    }
+}

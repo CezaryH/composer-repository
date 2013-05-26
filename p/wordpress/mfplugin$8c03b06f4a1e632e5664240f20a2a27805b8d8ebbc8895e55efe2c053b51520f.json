@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/mfplugin": {
+            "1.0": {
+                "name": "wordpress\/mfplugin",
+                "version": "1.0",
+                "version_normalized": "1.0.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/mfplugin.1.0.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>This plugin allows you to insert download links to files hosted on MediaFire. Entering our username, password and MediaFire API will see a list of all our files released in MediaFire and insert them into our post with a single click.\nThis plugin requires you to count with an account on MediaFire, and get an API key so you can interact from WordPress to your account on MediaFire.<\/p>",
+                "uid": "23594"
+            }
+        }
+    }
+}

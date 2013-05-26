@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/bp-nextgen-gallery-integrate": {
+            "1.0": {
+                "name": "wordpress\/bp-nextgen-gallery-integrate",
+                "version": "1.0",
+                "version_normalized": "1.0.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/bp-nextgen-gallery-integrate.1.0.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>This plugin adds a \"My Gallery\" link to each user's profile. When selected, the link will display all galleries where the displayed user is the author.<\/p>\n\n<p>I am currently developing this plugin for my own use so, any feature requests will probably not be acted upon in a timely manner. If you are a PHP ninja and see ways that my code's efficiency can be increased, please let me know. Here is the current development roadmap (other features may come in between 1.x releases):\n<em>1.1<\/em>\n    * automatically add the nggallery.css to <code>&#60;head&#62;<\/code>\n    * add option to list non-NEXTGEN items where the displayed user is author\n<em>1.2<\/em>\n    <em>GUI\n*1.3<\/em>\n    *Automatically create gallery at user registration<\/p>\n\n<p><strong>Note:<\/strong> Permissions are far beyond the scope of this plugin (and the PHP skills of its creator). If you want to control permissions for galleries you will need something else such as Role Scoper.<\/p>\n\n<p>I hope this plugin helps.<\/p>",
+                "uid": "25668"
+            }
+        }
+    }
+}

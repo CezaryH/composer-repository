@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/deprecation-checker": {
+            "0.1": {
+                "name": "wordpress\/deprecation-checker",
+                "version": "0.1",
+                "version_normalized": "0.1.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/deprecation-checker.0.1.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>WP_DEBUG works well, however is not inclusive of all theme\/plugin files that might not be loaded during certain page loads. Deprecation Checker allows you to view all the deprecated functions complete with path, line number, deprecation function name, and the new recommended function to use.<\/p>\n\n<p><strong>Deprecated files are collated directly from WordPress core itself, so this plugin is scalable with future versions of WordPress.<\/strong><\/p>\n\n<p>We've included a couple handy filters and constants to make this plugin flexible for your own needs:<\/p>\n\n<ul>\n<li>Turn off plugin\/theme directory checks<\/li>\n<li>Add your own custom paths to check<\/li>\n<li>Add your own deprecated functions to the search<\/li>\n<\/ul>",
+                "uid": "29364"
+            }
+        }
+    }
+}

@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/wp-rir": {
+            "0.1": {
+                "name": "wordpress\/wp-rir",
+                "version": "0.1",
+                "version_normalized": "0.1.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/wp-rir.0.1.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>Uses the service from <a href=\"http:\/\/rir.li\">rir.li<\/a> to prevent you to do image hotlinking.<\/p>\n\n<p>Rir.li it's an improved clone of the old imgred.com service.<\/p>\n\n<p><strong>Usage<\/strong>:\nOnce it&#8217;s installed, you can use it to copy any images in the service of rir.li like this in your post text:<\/p>\n\n<p>&#60; rir &#62; <a href=\"http:\/\/www.turisbot.com\/images\/maastricht.jpg\" rel=\"nofollow\">http:\/\/www.turisbot.com\/images\/maastricht.jpg<\/a> &#60; \/ rir &#62;<\/p>\n\n<p>or<\/p>\n\n<p>[rir]http:\/\/www.turisbot.com\/images\/maastricht.jpg[\/rir]<\/p>\n\n<p>By doing this you will copy the targeted image in the service of rir.li and you will not be linking to the original image but to an exactly copy in the servers from rir.li.<\/p>\n\n<p><strong>Features<\/strong>:\n* Prevent you to do image hotlinking to other sites\n* Creates an exactly copy of the targeted image\n* It's for free<\/p>",
+                "uid": "75565"
+            }
+        }
+    }
+}

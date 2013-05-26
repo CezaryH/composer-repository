@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/flood-defender": {
+            "1.00": {
+                "name": "wordpress\/flood-defender",
+                "version": "1.00",
+                "version_normalized": "1.00.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/flood-defender.1.00.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>Some people like to post their comments, and post their second comments afterwards. Some people love saying \"Oh BTW, you rock!\" or \"Oh BTW, you suck!\" 30 seconds after they posted their initial comments. Blog admins who have lots of comments in one day HATE these kind of commenters.<\/p>\n\n<p>This plugin prevents commenters to repetetively post comments into a post. Once a comment shows up (must be approved), the commenter will not be able to post another comment below it - he\/she will have to wait until someone else posts another comment.<\/p>\n\n<p>The logic is easy: If the IP address of the last comment's commenter is the same as the person's IP address who's about to comment; WordPress gives an error and says \"You can't post one more comment after the one you just posted, sorry. Here's your comment: ...\"<\/p>\n\n<p>There are two options in this release:<\/p>\n\n<ul>\n<li>Option to change the error text.<\/li>\n<li>Option to show the second comment or not.<\/li>\n<\/ul>",
+                "uid": "76881"
+            }
+        }
+    }
+}

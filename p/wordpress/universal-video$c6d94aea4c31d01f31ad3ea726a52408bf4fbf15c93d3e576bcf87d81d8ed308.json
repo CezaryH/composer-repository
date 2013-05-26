@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/universal-video": {
+            "0.7": {
+                "name": "wordpress\/universal-video",
+                "version": "0.7",
+                "version_normalized": "0.7.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/universal-video.0.7.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>Embed HTML5 video and on your website using shortcodes. The plugin enables HTML5 native playback for users with compatible browsers while offering a simple degradation to other users through the use of the Flowplayer flash player.<\/p>\n\n<p>The plugin will make sure this does the following:<\/p>\n\n<ol>\n<li>If the user has HTML5 support for video, it will play the media natively in an appropriate format.<\/li>\n<li>Otherwise, if the user has Flash, it will play the media through Flowplayer.<\/li>\n<\/ol>\n\n<p>There is no settings panel for this plugin. All you need is the syntax for the shortcode explained below.<\/p>\n\n<p>Basic syntax: [video src=\"filename\"]<\/p>\n\n<p>Advanced syntax: [video src=\"filename\" width=\"pixel size\" height=\"pixel size\" poster=\"image file\"]<\/p>\n\n<p>Example:<\/p>\n\n<p>[video src=\"sample-video\" height=\"300\" width=\"450\" poster=\"sample.jpg\"]<\/p>\n\n<ul>\n<li>'src' is required. It must be the file name of the video without the file extension (\"sample-video\", in this example). The v",
+                "uid": "67726"
+            }
+        }
+    }
+}

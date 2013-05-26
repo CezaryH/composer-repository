@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/pad-article": {
+            "1.02": {
+                "name": "wordpress\/pad-article",
+                "version": "1.02",
+                "version_normalized": "1.02.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/pad-article.1.02.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>This plugin make possible to create article about software with only a <a href=\"http:\/\/pad.asp-software.org\/\">pad file<\/a> which is a xml file containing all data about a software.\nYou have just to enter a pad file url and the plugin grab all data needed to create an article whith :\n*Long Description as post content\n*short description as excerpt\n*Software name as title\n*software version\n*Price\n*OS supported\n*Language supported\n*Download url\n*Order url\n*Name and url to software editor\n*Screenshot\n*Earn money with regnow affiliate system<\/p>\n\n<p>With this you have a special template if the post is a software post, rich snippet for software application enabled, a Top download widget<\/p>\n\n<p>You can see a demo of a sofwtare post <a href=\"http:\/\/www.allsoft.fr\/spynomore-08-765\/\" title=\"pad_article demo\">here<\/a><\/p>",
+                "uid": "15685"
+            }
+        }
+    }
+}

@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/twounter": {
+            "1.0.2": {
+                "name": "wordpress\/twounter",
+                "version": "1.0.2",
+                "version_normalized": "1.0.2.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/twounter.1.0.2.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>Twounter simply returns the number of followers for a twitter username.<\/p>\n\n<p>You have two options to fetch the number of followers for a username.<\/p>\n\n<p>You can use the function <code>&#60;?php echo twounter('username') ?&#62;<\/code> in your template files or you can use the twounter \nshortcode <code>[twounter]username[\/twounter]<\/code>in post\/page editor to return the numbers of followers for the \nusername.<\/p>",
+                "uid": "88994"
+            }
+        }
+    }
+}

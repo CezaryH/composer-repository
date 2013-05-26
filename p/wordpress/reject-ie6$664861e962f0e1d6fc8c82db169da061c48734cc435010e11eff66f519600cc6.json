@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/reject-ie6": {
+            "0.1": {
+                "name": "wordpress\/reject-ie6",
+                "version": "0.1",
+                "version_normalized": "0.1.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/reject-ie6.0.1.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>You can install this plugin to inform your users that they are running an old browser.<\/p>\n\n<p>This is using the jreject jquery plugin. The wordpress plugin simply uses the wordpress hooks to insert jquery plugin into your theme.<\/p>",
+                "uid": "79522"
+            }
+        }
+    }
+}

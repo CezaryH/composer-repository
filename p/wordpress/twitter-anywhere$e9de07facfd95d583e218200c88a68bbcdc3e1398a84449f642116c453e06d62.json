@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/twitter-anywhere": {
+            "0.1": {
+                "name": "wordpress\/twitter-anywhere",
+                "version": "0.1",
+                "version_normalized": "0.1.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/twitter-anywhere.0.1.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>Add the Twitter @Anywhere functionality to your wordpress blog. Read more info about @Anywhere here : <a href=\"http:\/\/dev.twitter.com\/anywhere\/begin\" rel=\"nofollow\">http:\/\/dev.twitter.com\/anywhere\/begin<\/a><\/p>\n\n<p>The plugins supports the following @Anywhere features:<\/p>\n\n<ul>\n<li>Either \"Linkify\" or \"Hovercard\" Twitter usernames in your blog.<\/li>\n<li>Override the selector used to linkify<\/li>\n<li>Override the CSS class name used for auto-linkification.<\/li>\n<li>Ability to add a follow button with a shortcode.<\/li>\n<li>Ability to add a tweet box with a shortcode. You can specify %title% and %url% as default content to automatically pre-populate the tweet box with your post information. If %url% is used, then Bit.ly is used to shorten the post's url.<\/li>\n<\/ul>\n\n<p>PLEASE NOTE : You need to create a Twitter Application in order to use this plugin. Create an application at <a href=\"http:\/\/dev.twitter.com\/anywhere\/apps\/new\" rel=\"nofollow\">http:\/\/dev.twitter.com\/anywhere\/apps\/new<\/a>",
+                "uid": "70035"
+            }
+        }
+    }
+}

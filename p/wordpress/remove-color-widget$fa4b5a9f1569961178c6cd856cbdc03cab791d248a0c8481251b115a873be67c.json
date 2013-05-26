@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/remove-color-widget": {
+            "1.0": {
+                "name": "wordpress\/remove-color-widget",
+                "version": "1.0",
+                "version_normalized": "1.0.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/remove-color-widget.1.0.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>Javascript temporarily removes all background color and images from a blog page. Increases readability.<\/p>\n\n<p>Useful for vision impaired users on cluttered or low contrast themes.<\/p>\n\n<p>Useful for debugging themes.<\/p>\n\n<p>The effect is temporary and goes away on the next page or when the page is refreshed.<\/p>\n\n<p>It does not affect anything except background and text color.<\/p>",
+                "uid": "54392"
+            }
+        }
+    }
+}

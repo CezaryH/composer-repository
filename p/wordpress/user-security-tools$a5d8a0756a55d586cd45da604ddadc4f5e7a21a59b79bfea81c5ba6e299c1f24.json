@@ -1,0 +1,40 @@
+{
+    "packages": {
+        "wordpress\/user-security-tools": {
+            "1.1.1": {
+                "name": "wordpress\/user-security-tools",
+                "version": "1.1.1",
+                "version_normalized": "1.1.1.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/user-security-tools.1.1.1.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>User Security Tools provides some improvements to security in wordpress.<\/p>\n\n<ul>\n<li>Control for Brute Force: Adds a maximum of failed login attempts within a certain period of\ntime. If this maximum is achieved, the user is locked.<\/li>\n<li>Password Policy: Enforces the minimun and maximum length of the password, and the level of\npassword that can be: low, medium and high.<\/li>\n<li>Password History: Don't allow user to set password equals last 5 (in the next version this number\nwill be configurable).<\/li>\n<li>User Management: the network admin also can lock, unlock and reset user's password manually\n(in case of password reset, the user receives a new activation key and no data is lost).<\/li>\n<\/ul>",
+                "uid": "31142"
+            },
+            "1.1.2": {
+                "name": "wordpress\/user-security-tools",
+                "version": "1.1.2",
+                "version_normalized": "1.1.2.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/user-security-tools.1.1.2.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>User Security Tools provides some improvements to security in wordpress.<\/p>\n\n<ul>\n<li>Control for Brute Force: Adds a maximum of failed login attempts within a certain period of\ntime. If this maximum is achieved, the user is locked.<\/li>\n<li>Password Policy: Enforces the minimun and maximum length of the password, and the level of\npassword that can be: low, medium and high.<\/li>\n<li>Password History: Don't allow user to set password equals last 5 (in the next version this number\nwill be configurable).<\/li>\n<li>User Management: the network admin also can lock, unlock and reset user's password manually\n(in case of password reset, the user receives a new activation key and no data is lost).<\/li>\n<\/ul>",
+                "uid": "31141"
+            }
+        }
+    }
+}

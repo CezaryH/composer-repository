@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/second-factor": {
+            "1.0": {
+                "name": "wordpress\/second-factor",
+                "version": "1.0",
+                "version_normalized": "1.0.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/second-factor.1.0.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>This plugin prevents logged in users from doing anything on your wordpress.org blog until they have verified their second factor of authentication.  The process goes like this:<\/p>\n\n<ol>\n<li>A user logs into your blog.\n\n<ul>\n<li>Behind the scenes a bunch of cryptographic stuff happens and a key is generated and attached to that user. The key is overwritten with a new one every single time they log in. This key is emailed to that user (via the email address the user is registered under.)<\/li>\n<\/ul><\/li>\n<li>The user gets the email with the code.<\/li>\n<li>The user then enters the code at the page which is now presented to them when they are trying to access your blog\n\n<ul>\n<li>Behind the scenes the token is checked for validity, and a cookie is added to the users session.  They are now allowed access to your blog.  If the key changes (the user logs out, or is required to log in again) the cookie that they may have been using will no longer be valid and they will be asked to enter the ",
+                "uid": "58326"
+            }
+        }
+    }
+}

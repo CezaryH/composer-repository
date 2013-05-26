@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/query-debug-info": {
+            "0.5": {
+                "name": "wordpress\/query-debug-info",
+                "version": "0.5",
+                "version_normalized": "0.5.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/query-debug-info.0.5.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>Adds information about the query to the front end, including page type, post count, query vars, the query string and the\nwordpress sites constants<\/p>\n\n<p>You can track up to 3 queries with this plugin, usefull to debug custom loops.<\/p>",
+                "uid": "76418"
+            }
+        }
+    }
+}

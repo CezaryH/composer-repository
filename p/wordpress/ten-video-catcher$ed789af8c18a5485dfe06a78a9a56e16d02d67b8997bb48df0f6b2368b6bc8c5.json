@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/ten-video-catcher": {
+            "2.1": {
+                "name": "wordpress\/ten-video-catcher",
+                "version": "2.1",
+                "version_normalized": "2.1.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/ten-video-catcher.2.1.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>TEN - Video Catcher allow to embed Youtube and Dailymotion videos easily. The greatest advantage of this plugin is that your webpage will not nead three minutes to load ! That's the lightest plugin you can find for Wordpress<\/p>\n\n<p>It works with all the current YouTube or Dailymotion API parameters, including HD video, and produces XHTML valid output. It also, unlike many others similar plugins, works with videos with certain characters within their ID (e.g. double dashes).<\/p>\n\n<p>Over the coming instructions I'll take you through the various ways to embed video.<\/p>\n\n<p>To embed any Youtube or Dailymotion video what you have to do is very easy ! You just have to insert one of the following code:\n[dailymotion]VIDEO_ID[\/dailymotion]\n[youtube  ]VIDEO_ID[\/youtube]<\/p>\n\n<p>You can also specify one or two options for the video size:<\/p>\n\n<p>[youtube width=640 height=480 ]VIDEO_ID[\/youtube]\n[dailymotion height=480]VIDEO_ID[\/dailymotion]<\/p>\n\n<p>Replacing 'VIDEO_ID' by the id of the vide",
+                "uid": "36925"
+            }
+        }
+    }
+}

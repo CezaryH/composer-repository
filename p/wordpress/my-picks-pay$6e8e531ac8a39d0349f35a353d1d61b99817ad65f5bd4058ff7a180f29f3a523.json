@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/my-picks-pay": {
+            "1.0": {
+                "name": "wordpress\/my-picks-pay",
+                "version": "1.0",
+                "version_normalized": "1.0.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/my-picks-pay.1.0.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>This plugin allows advertisements in WordPress posts from My Picks Pay.\nIt replaces text in posts of the form:<\/p>\n\n<pre><code>[mypickspay width=w height=h id=ad_ID]\n<\/code><\/pre>\n\n<p>This text gets converted into HTML embed tags, so the\nvideo can be displayed directly in the post.\nw and h are the dimensions of the box, which should be provided\nalong with the ad_ID.  Note that the video will look odd and might\nnot display properly if you change the dimensions.<\/p>\n\n<p>Note that the syntax is very sensitive and any slight deviations\nfrom the above format will cause it to be left as plain text\ne.g. putting quotes around the arguments, putting an '@' in ad_ID,\nor putting anything other than numbers in for width and height.<\/p>",
+                "uid": "100277"
+            }
+        }
+    }
+}

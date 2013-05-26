@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/scrollto-bottom": {
+            "1.1.1": {
+                "name": "wordpress\/scrollto-bottom",
+                "version": "1.1.1",
+                "version_normalized": "1.1.1.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/scrollto-bottom.1.1.1.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>This plugin will display an icon in a corner of the page that, when clicked, will smoothly scroll the user's browser to the bottom of the page. The plugin comes with options such as which corner the icon should appear in, the distance from the corner, and which icon to use (you can also upload your own). Also, you can turn on the document scroll event to fade the icon in and out when the user scrolls far enough down the page and up again.<\/p>\n\n<p>Please note* This plugin will not display the icon in many mobile browsers due to their complete lack of support for position:fixed;<\/p>\n\n<p>Looking for the ScrollTo Top plugin? Check out the <a href=\"http:\/\/wordpress.org\/extend\/plugins\/scrollto-top\/\">sister plugin<\/a>.<\/p>",
+                "uid": "28490"
+            }
+        }
+    }
+}

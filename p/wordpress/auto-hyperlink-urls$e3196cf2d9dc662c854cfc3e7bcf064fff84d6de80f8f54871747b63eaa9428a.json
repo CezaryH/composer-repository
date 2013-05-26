@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/auto-hyperlink-urls": {
+            "4.0": {
+                "name": "wordpress\/auto-hyperlink-urls",
+                "version": "4.0",
+                "version_normalized": "4.0.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/auto-hyperlink-urls.4.0.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>Automatically hyperlink text URLs and email addresses originally written only as plaintext.<\/p>\n\n<p>This plugin seeks to replace and extend WordPress's default auto-hyperlinking function.  This plugin uses different pattern matching expressions than the WordPress default in order to prevent inappropriate adjacent characters from becoming part of the link (as WordPress has improved over the years, nowadays this is just a few edge cases like text links that are braced or bracketed) and it prevents invalid URIs (i.e. <a href=\"http:\/\/blah)\" rel=\"nofollow\">http:\/\/blah)<\/a> from becoming links.<\/p>\n\n<p>More significantly, this plugin adds configurability to the auto-hyperlinker such that you can configure:<\/p>\n\n<ul>\n<li>If you want text URLs to only show the hostname<\/li>\n<li>If you want text URLs truncated after N characters<\/li>\n<li>If you want auto-hyperlinked URLs to open in new browser window or not<\/li>\n<li>If you want the protocol (i.e. \"http:\/\/\") to be stripped for displayed links",
+                "uid": "115198"
+            }
+        }
+    }
+}

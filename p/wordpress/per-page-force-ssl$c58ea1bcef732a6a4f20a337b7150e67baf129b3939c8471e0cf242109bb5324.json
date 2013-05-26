@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/per-page-force-ssl": {
+            "1.1": {
+                "name": "wordpress\/per-page-force-ssl",
+                "version": "1.1",
+                "version_normalized": "1.1.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/per-page-force-ssl.1.1.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>This plugin will allow you to force an ssl(HTTPS) on a per page basis by adding the \"force_ssl\" custom field. It will jump back out of the SSL connection on other pages if it doesn't detect the custom field so that you can continue \nto use a standard http connection.<\/p>\n\n<p>See the FAQ for a list of commonly occuring issues and their fixes.<\/p>",
+                "uid": "70799"
+            }
+        }
+    }
+}

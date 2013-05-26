@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/multisite-switcher": {
+            "1.0": {
+                "name": "wordpress\/multisite-switcher",
+                "version": "1.0",
+                "version_normalized": "1.0.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/multisite-switcher.1.0.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>Don't Work in Wordpress MU. Wordpress 3 only.\nUsefull only if you have a multisite install and if some users manages more than one blog.<\/p>\n\n<p>This plugin adds a simple dropdown menu in administration header that allows you (and every site users) to switch \nbetween administration of every site they are member of (and so work for super-admin, admin, contributors,...).<\/p>\n\n<p>Work best if the plugin is <strong>Network Activate<\/strong>.<\/p>",
+                "uid": "65711"
+            }
+        }
+    }
+}

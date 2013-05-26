@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/dynamic-menu-item": {
+            "0.1": {
+                "name": "wordpress\/dynamic-menu-item",
+                "version": "0.1",
+                "version_normalized": "0.1.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/dynamic-menu-item.0.1.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>This plugin is meant to help you create \"dynamic\" menu items.  This is ideal for situations where you want to have custom pages that appear at certain times of the year or seasonal pages that need to change out every few months.  Requires you use the built in Appearance-&#62;Menu to setup your menu links and not simply default the menu to all pages on your site.  There are 2 types of dynamic menu items created, each work in conjunction with the other.<\/p>\n\n<p>Default :: This only requires a starting month to work.  What this does is assumes that all items within this section will be displayed without any gaps.  These ideal for seasons and will be displayed if there are no other dynamic posts.<\/p>\n\n<p>Set Dates :: This is ideal for things like holdiays or specials that you may only want to display for a set period of time (e.g., 1 day or a few weeks only, not the whole month).  These are displayed first and if none are active, the active Default page of the period is selected instead",
+                "uid": "10443"
+            }
+        }
+    }
+}

@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/support-plugin": {
+            "2.0": {
+                "name": "wordpress\/support-plugin",
+                "version": "2.0",
+                "version_normalized": "2.0.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/support-plugin.2.0.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>This plugin allows you to communicate with the Support plugin (server). You can send Support tickets, receive global messages and personal messages from\/to the Support plugin (server). The plugin uses XMLRPC to transfer (secured) information to the server. To make use of this plugin you will first need to set up the Support plugin (server). The Support plugin (server) can be downloaded <a href='http:\/\/www.cedricve.me\/index.php\/plugins\/id\/3'>here<\/a> and you can get more information about how it works and how you need to install it <a href='http:\/\/www.cedricve.me\/blog\/2011\/08\/23\/wordpress-support-plugin-1-0\/'>here<\/a>.<\/p>\n\n<p>New features include version 2.0:<\/p>\n\n<p>Blog post: <a href=\"http:\/\/www.cedricve.me\/2012\/11\/03\/wordpress-support-plugin-2-0\/\" rel=\"nofollow\">http:\/\/www.cedricve.me\/2012\/11\/03\/wordpress-support-plugin-2-0\/<\/a><\/p>\n\n<ul>\n<li>Email notification (support settings, admin e-mail)<\/li>\n<li>Semi-New design: Bootstrap layout<\/li>\n<li>Empty field detection<\/li>\n<\/ul>",
+                "uid": "40511"
+            }
+        }
+    }
+}

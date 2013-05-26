@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/strava-ride-details": {
+            "1.0": {
+                "name": "wordpress\/strava-ride-details",
+                "version": "1.0",
+                "version_normalized": "1.0.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/strava-ride-details.1.0.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>This plugin allows you to display Strava ride details from a specific ride in your posts and pages using a shortcode.<\/p>\n\n<p>The details displayed by default are:<\/p>\n\n<ul>\n<li>Ride Name<\/li>\n<li>Distance<\/li>\n<li>Elevation Gain<\/li>\n<li>Moving Time<\/li>\n<li>Location<\/li>\n<\/ul>\n\n<p>Each of the details can be turned on or off. The details are displayed in an unordered list so you can style the elements however you would like using CSS.<\/p>\n\n<p>By default all details are display using the shortcode <code>[strava id=\"ride_id\"]<\/code>, where ride_id is the string of digits at the end of the URL when viewing a single ride on Strava.<\/p>\n\n<p>If you would like to remove a detail, just set it to false in the shortcode. For example, if you would like to show only the distance, then use this shortcode:<\/p>\n\n<pre><code>[strava id=&#34;ride_id&#34; name=&#34;false&#34; elevation=&#34;false&#34; moving_time=&#34;false&#34; location=&#34;false&#34;]<\/code><\/pre>",
+                "uid": "11914"
+            }
+        }
+    }
+}

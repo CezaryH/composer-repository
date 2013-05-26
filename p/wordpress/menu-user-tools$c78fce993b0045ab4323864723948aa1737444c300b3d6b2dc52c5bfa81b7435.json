@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/menu-user-tools": {
+            "1.0": {
+                "name": "wordpress\/menu-user-tools",
+                "version": "1.0",
+                "version_normalized": "1.0.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/menu-user-tools.1.0.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>This plugin allows you to add the conditional Login\/Logout, and Register\/My Profile links to any \ncustom WordPress menu you've created. You can add them selectively, and\/or \nto more than one menu if necessary. (Requires more code, which I won't provide -yet.)<\/p>\n\n<p>I haven't coded an 'admin backend' for this plugin yet, it's simply the core functions as of now.\nI coded this for my own website <a href=\"http:\/\/webmasterguy.com\" rel=\"nofollow\">http:\/\/webmasterguy.com<\/a> in which I needed such a plugin.<\/p>\n\n<p>To edit which menu it selects through the plugins IF statement, open 'Menu User Tools.php' and find this code:<\/p>\n\n<p>** if($args-&#62;theme_location == 'top-menu') **<\/p>\n\n<p>Change top-menu to the menu slug of the menu you would like to have Menu User Tools hook onto.\nYou must have all the menus registered in your themes functions.php<\/p>\n\n<p>You can easily have Menu User Tools hook onto all menus, simply by removing the above IF statement in the plugin file.<\/p>\n\n<p>If you",
+                "uid": "43404"
+            }
+        }
+    }
+}

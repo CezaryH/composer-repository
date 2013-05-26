@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/wp-rounded-img": {
+            "1": {
+                "name": "wordpress\/wp-rounded-img",
+                "version": "1",
+                "version_normalized": "1.0.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/wp-rounded-img.1.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>WP Rounded Image puts rounded borders around your images.  It does it using HTML\/CSS markup only.<\/p>\n\n<p>When you post, any images contained in your post will receive rounding.  Image will be replaced with markup.<\/p>\n\n<p>This:<\/p>\n\n<pre><code>&#60;img src=&#34;thetest.jpg&#34; title=&#34;fantastico!&#34; \/ &#62;<\/code><\/pre>\n\n<p>Becomes this:<\/p>\n\n<pre><code>&#60;!-- wp-rounded-img begin --&#62;\n    &#60;div class=&#34;wp-rounded-img &#34;&#62;\n        &#60;div class=&#34;wp-rounded-img-corner wp-rounded-img-tl&#34;&#62;&#60;\/div&#62;\n        &#60;div class=&#34;wp-rounded-img-corner wp-rounded-img-tli&#34;&#62;&#60;\/div&#62;\n        &#60;div class=&#34;wp-rounded-img-side wp-rounded-img-t&#34;&#62;&#60;\/div&#62;\n        &#60;div class=&#34;wp-rounded-img-corner wp-rounded-img-tr&#34;&#62;&#60;\/div&#62;\n        &#60;div class=&#34;wp-rounded-img-corner wp-rounded-img-tri&#34;&#62;&#60;\/div&#62;\n        &#60;div class=&#34;wp-rounded-img-side wp-rounded-img-l&#34;&#62;&#60;\/div&#62",
+                "uid": "55866"
+            }
+        }
+    }
+}

@@ -1,0 +1,40 @@
+{
+    "packages": {
+        "wordpress\/set-front-page-post-count": {
+            "0.1": {
+                "name": "wordpress\/set-front-page-post-count",
+                "version": "0.1",
+                "version_normalized": "0.1.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/set-front-page-post-count.0.1.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>Adds a setting under Settings -&#62; Reading to allow the front page post count to be controlled independently of the main post count and adjusts paging to accomodate for this.<\/p>\n\n<p>Uses the <code>pre_get_posts<\/code> hook and checks for the <code>$wp_the_query<\/code> query being passed, so won't work with <code>query_posts()<\/code>.<\/p>",
+                "uid": "52061"
+            },
+            "0.1.1": {
+                "name": "wordpress\/set-front-page-post-count",
+                "version": "0.1.1",
+                "version_normalized": "0.1.1.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/set-front-page-post-count.0.1.1.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>Adds a setting under Settings -&#62; Reading to allow the front page post count to be controlled independently of the main post count and adjusts paging to accomodate for this.<\/p>\n\n<p>Uses the <code>pre_get_posts<\/code> hook and checks for the <code>$wp_the_query<\/code> query being passed, so won't work with <code>query_posts()<\/code>.<\/p>",
+                "uid": "52060"
+            }
+        }
+    }
+}

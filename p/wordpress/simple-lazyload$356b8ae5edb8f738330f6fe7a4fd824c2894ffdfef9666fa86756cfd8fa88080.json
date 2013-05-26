@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/simple-lazyload": {
+            "2.2": {
+                "name": "wordpress\/simple-lazyload",
+                "version": "2.2",
+                "version_normalized": "2.2.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/simple-lazyload.2.2.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>This plugin automatically copy image's src value to file attribute, replace src value with a blank image's url before showing, when the page is loaded, lazyload js will decide to load the images' actual content automatically, only when user wants to see them.<\/p>\n\n<p>This plugin has a more perfect performance working with the \"auto-highslide\" plugin.<\/p>\n\n<p>Also, you can use another combined pugin \"<a href=\"http:\/\/blog.brunoxu.info\/auto-lazyload-and-auto-highslide\/\">auto-lazyload-and-auto-highslide<\/a>\" instead of the two above.<\/p>\n\n<p>\/**********************************************************\/<\/p>\n\n<p><a href=\"http:\/\/webdev.brunoxu.info\/archives\/223.html\">View the true lazyload effect Example 1<\/a><\/p>\n\n<p><a href=\"http:\/\/webdev.brunoxu.info\/archives\/219.html\">View the true lazyload effect Example 2<\/a><\/p>\n\n<p><a href=\"http:\/\/webdev.brunoxu.info\/archives\/1115.html\">View the true lazyload effect Example 3<\/a><\/p>\n\n<p>\/**********************************************************\/<\/",
+                "uid": "26829"
+            }
+        }
+    }
+}

@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/wangguard-wysija-newsletter-connector": {
+            "1.0.0": {
+                "name": "wordpress\/wangguard-wysija-newsletter-connector",
+                "version": "1.0.0",
+                "version_normalized": "1.0.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/wangguard-wysija-newsletter-connector.1.0.0.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>Verify Wysija subscribers before adding them to your Wysija subscribers list by checking against the <a href=\"http:\/\/www.wangguard.com\/\">WangGuard<\/a> service that each new subscriber is not reported as a known Splogger or unwanted user.<\/p>\n\n<p><a href=\"http:\/\/wordpress.org\/extend\/plugins\/wangguard\">WangGuard plugin<\/a> version 1.5.3+ and <a href=\"http:\/\/wordpress.org\/extend\/plugins\/wysija-newsletters\/\">Wysija Neswletter<\/a> version 2.1.9+. is needed<\/p>\n\n<h4>Why use WangGuard - Wysija Newsletter Connector?<\/h4>\n\n<p>Well, connecting WangGuard and Wysija, you will be able send activations emails and newsletter only a real people, That means it will reduce greatly the risk of being flagged as spam server (Black listed).<\/p>\n\n<h4>Developers<\/h4>\n\n<p>You will find in this plugin a very easy way to connect your plugin with WangGuard plugin. If your plugin has a form, maybe you can be interested in use WangGuard. Please, never use WangGuard for check Trackbacks or Pingbacks.<\/p>",
+                "uid": "13418"
+            }
+        }
+    }
+}

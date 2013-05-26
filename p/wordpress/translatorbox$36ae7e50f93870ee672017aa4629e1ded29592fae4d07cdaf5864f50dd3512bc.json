@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/translatorbox": {
+            "0.1": {
+                "name": "wordpress\/translatorbox",
+                "version": "0.1",
+                "version_normalized": "0.1.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/translatorbox.0.1.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>The next shortcode is example of the simple usage of Translation Box:<\/p>\n\n<p>[translation_box languages=\"english,russian,german,spanish,french,chinese\" width=\"100%\" height=\"200px\" bgcolor=\"white\" txtcolor=\"#000000\"]<\/p>\n\n<p>The shortcode is [translation_box]. If you use it by itself it will default to showing all the languages from the full list at the end of the section and also will have width of 100%, height of 110px, bgcolor of white and txtcolor of black.<\/p>\n\n<pre><code>1.The first attribute is called languages and is equal to the list of languages (for full list of supported langugages check the bottom section !) you would like to include in your translation box. Make sure you use comma for separation of different languages.\n2.The second attribute is called width and it is used for setting up the width of the translation boxes. It can accept values in %, px, em, etc. .\n3.The third attribute is called height and it is used for setting up the width of the translation boxes. It",
+                "uid": "22407"
+            }
+        }
+    }
+}

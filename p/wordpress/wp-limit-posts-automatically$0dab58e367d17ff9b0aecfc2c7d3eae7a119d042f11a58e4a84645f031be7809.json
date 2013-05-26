@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/wp-limit-posts-automatically": {
+            "0.7": {
+                "name": "wordpress\/wp-limit-posts-automatically",
+                "version": "0.7",
+                "version_normalized": "0.7.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/wp-limit-posts-automatically.0.7.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<h4>Automatically limit posts<\/h4>\n\n<p>Is there a way to limit posts in Wordpress? You can always use the more-tag and if you use it you can manually insert a break-point to cut your posts where you like. What if you want to do it automatically? Then this plugin is the answer. You can choose where it should limit your posts (home, category, archive and search). You also have some other features, for example to choose the limit method (cut by letter, word or paragraph). If you already limit your post by a more tag, this plugin don't bother.<\/p>\n\n<h4>Options<\/h4>\n\n<ul>\n<li>Limit posts by letter, word or paragraph<\/li>\n<li>Limit posts in home, category, archive and search<\/li>\n<li>Choose number of letters to cut with<\/li>\n<li>Strip tags (disables images, videos and links when limit posts)<\/li>\n<\/ul>\n\n<p>See screenshots for an overview...<\/p>",
+                "uid": "108254"
+            }
+        }
+    }
+}

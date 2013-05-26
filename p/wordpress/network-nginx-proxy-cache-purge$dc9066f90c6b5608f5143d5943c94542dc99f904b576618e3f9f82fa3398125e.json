@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/network-nginx-proxy-cache-purge": {
+            "0.2": {
+                "name": "wordpress\/network-nginx-proxy-cache-purge",
+                "version": "0.2",
+                "version_normalized": "0.2.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/network-nginx-proxy-cache-purge.0.2.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>A flexible and customizable event driven cache purge plugin to work in conjuction with Nginx configured as a front end proxy to a WordPress install. For use with either single WP sites or in a WP network. If you have a single WP site without custom post types or mobile support the <a href=\"http:\/\/wordpress.org\/extend\/plugins\/nginx-proxy-cache-purge\/\">Nginx Proxy Cache Plugin<\/a> is simpler and will probably meet your needs.<\/p>\n\n<p><em>Features<\/em><\/p>\n\n<ul>\n<li>purge home, posts, blog page, feeds<\/li>\n<li>enable comment triggered purge via a filter<\/li>\n<li>purge taxonomy archives<\/li>\n<li>processing specific to post type and status<\/li>\n<li>7 filters for customizing purge behavior (see guide under Installation tab)<\/li>\n<li>on demand purge post action link<\/li>\n<li>mobile caching support<\/li>\n<li>auto detects WPtouch\/WPtouch Pro for mobile cache purging<\/li>\n<li>works in both networks and single sites<\/li>\n<li>includes <code>ranpcp_purge_urls( $array_of_urls )<\/code> function for",
+                "uid": "35128"
+            }
+        }
+    }
+}

@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/wp-apply-timezone": {
+            "0.1.0": {
+                "name": "wordpress\/wp-apply-timezone",
+                "version": "0.1.0",
+                "version_normalized": "0.1.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/wp-apply-timezone.0.1.0.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>Adds the option to apply the current blog's timezone retroactively to existing posts.<\/p>\n\n<p>Useful if you had the wrong timezone set for a period. Creates an \"Apply Timezone\" option to the Edit Post Bulk Action menu.<\/p>\n\n<p>This plugin has had limited testing. Make a full BACKUP before installing. The plugin has worked fine for me, but it comes with no guarantee whatsoever. Please be careful. You can use the <a href=\"http:\/\/wordpress.org\/extend\/plugins\/wp-db-backup\/\">WP-DB-Backup<\/a>.<\/p>",
+                "uid": "88753"
+            }
+        }
+    }
+}

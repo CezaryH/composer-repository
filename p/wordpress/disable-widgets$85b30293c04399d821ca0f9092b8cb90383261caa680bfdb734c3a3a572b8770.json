@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/disable-widgets": {
+            "1.0": {
+                "name": "wordpress\/disable-widgets",
+                "version": "1.0",
+                "version_normalized": "1.0.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/disable-widgets.1.0.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>Allows network admin to globally disable default or custom widgets.<\/p>\n\n<p>Very simple usage - setup via Network Admin -&#62; Themes -&#62; Disable Widgets.<\/p>\n\n<p>Developed for private use, but has perspective for more extensive usage. I can't guarantee any support in the future nor further development, but it is to be expected. Kindly inform me about bugs, if you find any, or propose new features: <a href=\"mailto:zaantar@zaantar.eu\">zaantar@zaantar.eu<\/a>.<\/p>",
+                "uid": "21925"
+            }
+        }
+    }
+}

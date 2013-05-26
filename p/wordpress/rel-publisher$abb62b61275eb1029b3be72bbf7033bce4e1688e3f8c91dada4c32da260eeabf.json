@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/rel-publisher": {
+            "1.0": {
+                "name": "wordpress\/rel-publisher",
+                "version": "1.0",
+                "version_normalized": "1.0.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/rel-publisher.1.0.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>Google+ pages can verify their URLs by adding <code>&#60;link rel=\"publisher\" href=\"your_plus_page_here\" \/&#62;<\/code> to the <code>&#60;head&#62;<\/code> section of a website.<\/p>\n\n<p>This plugin lets you do that.<\/p>\n\n<p><a href=\"http:\/\/support.google.com\/plus\/bin\/answer.py?hl=en&#38;answer=1713826\">More information<\/a> on the Google+ help pages.<\/p>",
+                "uid": "19357"
+            }
+        }
+    }
+}

@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/cron-debug-log": {
+            "0.1": {
+                "name": "wordpress\/cron-debug-log",
+                "version": "0.1",
+                "version_normalized": "0.1.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/cron-debug-log.0.1.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>When active, this plugin logs unsuccessful results of wp_remote_post calls from wp-cron to a sites's options table with an option name of ra_http_WP_Http_Streams + timestamp. The option_value contains the results of the call.<\/p>\n\n<p>This plugin is intended to be enabled only on sites that are experiencing cron issues as a troubleshooting aid. Once the cron issue had been identified and corrected, the plugin should be deactivated. When finished troubleshooting you should also remove the option records created by this plugin using your database management tool.<\/p>\n\n<p>In a WP network use the <a href=\"http:\/\/wordpress.org\/extend\/plugins\/plugin-premium-package-manager-for-wp-networks\/\">Plugin Manager<\/a> to hide this plugin and prevent site admins from activating it.<\/p>\n\n<p>This plugin was written by <a href=\"http:\/\/ronandandrea.com\/\">Ron Rennick<\/a> in collaboration with the <a href=\"http:\/\/dev.commons.gc.cuny.edu\/\">CUNY Academic Commons<\/a>.<\/p>",
+                "uid": "50202"
+            }
+        }
+    }
+}

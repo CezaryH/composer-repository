@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/vihv-speed-up": {
+            "2.5": {
+                "name": "wordpress\/vihv-speed-up",
+                "version": "2.5",
+                "version_normalized": "2.5.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/vihv-speed-up.2.5.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>Speed up you site by creating additional database indexes. No configuration needed, just install and activate. To remove additional indexes, just deactivate plugin. Vihv Speed Up is absolutely free.<\/p>",
+                "uid": "18024"
+            }
+        }
+    }
+}

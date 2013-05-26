@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/wp-developer-tools": {
+            "1.0.0": {
+                "name": "wordpress\/wp-developer-tools",
+                "version": "1.0.0",
+                "version_normalized": "1.0.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/wp-developer-tools.1.0.0.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>A needed plugin to help developers optimize their installation of wordpress. plugins and themes.\nThis plugin is an ongoing effort to incorporate tools to help the developer.<\/p>\n\n<p>The flagship tool to be incorporated first is a much needed PHP Profiler. Based on the open source code of the Quick PHP Profiler, as a nice but functional interface that helps to isolate the bootlenecks in your code. This code has been written to be safe for production deployment and can track issues such as database query time &#38; results,page load time, variables, and a lot more. \nIs you Wordpress installation taking too long to load pages?<\/p>\n\n<p>Are chasing bugs that you cannot find?<\/p>\n\n<p>Do you want to satisfy your curiousity of the performance of your wordpress installation?<\/p>\n\n<p>The WP-Developer-Tools is an ongoing collection of useful tools and components that assist the developer to fine tune and diagnose their wordpress installation. The first tool included is the migration of the PHP",
+                "uid": "43342"
+            }
+        }
+    }
+}

@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/custom-image-src": {
+            "0.31": {
+                "name": "wordpress\/custom-image-src",
+                "version": "0.31",
+                "version_normalized": "0.31.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/custom-image-src.0.31.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>If you&#8217;re sharing a link to a blog post on Facebook, having a thumbnail image makes for a much more effective share. If you have an image in the body of your post, Facebook will use that as the share image, but what if you don&#8217;t have any images in your post or want to specify an image you&#8217;re not using in the content? To solve this problem, I created a WordPress plugin that allows you to control which image shows when a link from your WordPress site is shared on Facebook.<\/p>\n\n<ul>\n<li>Thanks to <a href=\"http:\/\/www.farinspace.com\/wpalchemy-metabox\/\">Dimas Begunoff<\/a> for the amazingly helpful <a href=\"http:\/\/www.farinspace.com\/wpalchemy-metabox\/\">WPAlchemy MetaBox PHP Class<\/a>.<\/li>\n<li>I&#8217;m using the <code>&#60;link rel=\"image_src\" href=\"&#8230;\" \/&#62;<\/code> approach. If you&#8217;re adding more Open Graph meta tags to your <code>&#60;head&#62;<\/code>, you&#8217;d probably want to use <code>&#60;meta property=\"og:image\" content=\"&#8230;\" \/&#62;<\/code>, but",
+                "uid": "37753"
+            }
+        }
+    }
+}

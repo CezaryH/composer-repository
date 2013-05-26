@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/twitter-tools-search-tags": {
+            "1.0": {
+                "name": "wordpress\/twitter-tools-search-tags",
+                "version": "1.0",
+                "version_normalized": "1.0.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/twitter-tools-search-tags.1.0.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>Adds twitter search tags to the <a href=\"http:\/\/wordpress.org\/extend\/plugins\/twitter-tools\/\">Twitter Tools<\/a> \nautomatic \"New Blog Post\" status using Twitter Tool's <code>tweet_blog_post_url<\/code> hook. The plugin will \nadd post tags as twitter search tags to the \"New Blog Post\" twitter status message (and also shorten \nthe new post's url using <a href=\"http:\/\/is.gd\" rel=\"nofollow\">http:\/\/is.gd<\/a> API).<\/p>\n\n<p><strong>Requirements<\/strong><\/p>\n\n<ul>\n<li><a href=\"http:\/\/wordpress.org\/extend\/plugins\/twitter-tools\/\">Twitter Tools<\/a> be installed and activated<\/li>\n<li>PHP 5.2.0 or newer<\/li>\n<li>WordPress 2.7 or newer<\/li>\n<\/ul>",
+                "uid": "87162"
+            }
+        }
+    }
+}

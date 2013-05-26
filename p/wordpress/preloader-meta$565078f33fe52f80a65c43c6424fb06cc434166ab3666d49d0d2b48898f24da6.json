@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/preloader-meta": {
+            "1.0": {
+                "name": "wordpress\/preloader-meta",
+                "version": "1.0",
+                "version_normalized": "1.0.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/preloader-meta.1.0.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>Adds preloader header meta to wordpress so that Browsers loads possible next pages and User gets instand load when they click on links.\nWatch this view to see how Google implementation on Google Search on the plugin website<\/p>",
+                "uid": "44861"
+            }
+        }
+    }
+}

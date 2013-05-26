@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/mootools-libraries": {
+            "1.1": {
+                "name": "wordpress\/mootools-libraries",
+                "version": "1.1",
+                "version_normalized": "1.1.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/mootools-libraries.1.1.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>Enable <strong>mootools<\/strong> 1.2.x or later version in a flexible way.\nFeaturing for clientcide and mediaboxAdvance.<\/p>\n\n<p>The main purpose of the plugin is to correctly register mootools libraries into wordpress handle.\nYou can use this handle anywhere later in your plugins, shortcodes or templates.<\/p>\n\n<p>This system plugin target is for running mootools in front-end only.\nThis is basically only registering script and styles into the system.\nThus, you still have to download recent mootools manually.<\/p>\n\n\n\n<h3>Currently supported script are<\/h3>\n\n<ul>\n<li>mootools-core<\/li>\n<li>mootools-more<\/li>\n<li>clientcide<\/li>\n<li>mediabox-advance<\/li>\n<\/ul>\n\n<h3>Currently supported style is<\/h3>\n\n<ul>\n<li>mediabox-advance<\/li>\n<\/ul>\n\n<p>See more to download at <a href=\"http:\/\/iluni.org\/component\/phocadownload\/section\/4-\" title=\"Situs Berama Alumni\">iluni.org<\/a>.<\/p>",
+                "uid": "74569"
+            }
+        }
+    }
+}

@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/switch-site-rewrite": {
+            "1.0": {
+                "name": "wordpress\/switch-site-rewrite",
+                "version": "1.0",
+                "version_normalized": "1.0.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/switch-site-rewrite.1.0.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>Fixes permalinks when using 'switch_to_blog' on multi-site\/multi-network installation of WordPress.<\/p>",
+                "uid": "63796"
+            }
+        }
+    }
+}

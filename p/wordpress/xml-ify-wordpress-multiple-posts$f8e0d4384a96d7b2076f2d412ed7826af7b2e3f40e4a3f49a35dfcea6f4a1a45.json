@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/xml-ify-wordpress-multiple-posts": {
+            "1.0": {
+                "name": "wordpress\/xml-ify-wordpress-multiple-posts",
+                "version": "1.0",
+                "version_normalized": "1.0.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/xml-ify-wordpress-multiple-posts.1.0.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>After installing and activating the plugin, the XML file is generated simply by visiting your site's front page. The file generates each time someone visits your site's front page. This shouldn't be an issue with server overload, unless you get a LOT of traffic. If you notice slowness due to this plugin, let me know.<\/p>\n\n<p>The XML generated will be located in a folder called 'xmlfiles' within your wp-content folder. The file will be named multipost.xml.<\/p>",
+                "uid": "48614"
+            }
+        }
+    }
+}

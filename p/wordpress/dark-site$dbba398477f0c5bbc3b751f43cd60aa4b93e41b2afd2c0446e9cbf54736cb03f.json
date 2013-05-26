@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/dark-site": {
+            "1.0": {
+                "name": "wordpress\/dark-site",
+                "version": "1.0",
+                "version_normalized": "1.0.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/dark-site.1.0.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>This plugin is designed to keep a WordPress site dark. If a user comes to the site, it checks to see if they are logged in, if not the user is directed to the wp-admin login page. When you want to go live, just deactivate the Dark Site plugin.<\/p>\n\n<p>Plugin by Mako Web Design. Looking for <a href=\"http:\/\/makoweb.com\/website-design\/wordpress-design-and-development\/\">WordPress Consulting<\/a>?<\/p>",
+                "uid": "41015"
+            }
+        }
+    }
+}

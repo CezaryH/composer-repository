@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/contact-form-7-to-asana-extension": {
+            "1.0": {
+                "name": "wordpress\/contact-form-7-to-asana-extension",
+                "version": "1.0",
+                "version_normalized": "1.0.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/contact-form-7-to-asana-extension.1.0.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>This \"CF-Asana\" plugin saves contact form submissions as a new task within Asana.<\/p>\n\n<p>Once you've installed the plugin, and provided your Asana API key it will automatically begin to capture submissions from the Contact Form 7 (CF7) plugin.<\/p>\n\n<p>Email is nice, but Asana is better. Take control of your most important action items by automatically adding your site's form submissions into Asana as new task.<\/p>\n\n<p>Finding Admin Page<\/p>\n\n<ul>\n<li>If you have CF7 installed and activated, look under the \"Contact\" menu in the Admin area.<\/li>\n<\/ul>\n\n<p>Enter Your Asana API Key<\/p>\n\n<ul>\n<li>In order to function, this plugin requires your Asana API key in order to create tasks on your behalf. You may find you Asana API key within Asana by clicking your name in the bottom left of the main Asana screen, selecting \"Account Settings\", and clicking to the \"API tab\".<\/li>\n<\/ul>\n\n<p>Disclaimer: I have no involvement with the development or maintenance of the Contact Form 7 plugin.<\/p>",
+                "uid": "19330"
+            }
+        }
+    }
+}

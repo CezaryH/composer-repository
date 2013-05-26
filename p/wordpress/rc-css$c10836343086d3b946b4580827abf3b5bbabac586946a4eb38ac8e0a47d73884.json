@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/rc-css": {
+            "1.0": {
+                "name": "wordpress\/rc-css",
+                "version": "1.0",
+                "version_normalized": "1.0.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/rc-css.1.0.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>Rather than having several calls to several CSS, it is better for your visitors\nto have only one stylesheet. This speeds up load times, allows a more efficient cache management.<\/p>\n\n<p>But for developing the CSS, it is often preferable to manage multiple\nspecific files, specialized (one for reset, one for print version, another for small screens, etc..)<\/p>\n\n<p>The purpose of this plugin is to allow you to work with various files, but merge them into \none single file when the browser need it.<\/p>\n\n<p>It can be generate each time (during development) or use a cache-file when finished.<\/p>\n\n<p>It will optimize the CSS by removing all unnecessary characters that increase the \nCSS (tabs, spaces, line breaks ...).<\/p>\n\n<p>All comments will be deleted - but you can insert a few lines  at the top, to specify such a \ncopyright ...<\/p>",
+                "uid": "22647"
+            }
+        }
+    }
+}

@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/capsules-by-teleportd": {
+            "1.0": {
+                "name": "wordpress\/capsules-by-teleportd",
+                "version": "1.0",
+                "version_normalized": "1.0.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/capsules-by-teleportd.1.0.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>Capsules is designed to display the content of a capsule created via Teleportd on a WordPress site (you can request a Capsules account at <a href=\"http:\/\/teleportd.com)\" rel=\"nofollow\">http:\/\/teleportd.com)<\/a>.<\/p>\n\n<p>Features:<\/p>\n\n<ul>\n<li>Display the content of a capsule either by clicking the Capsules button in the editor toolbar and referencing its ID or by inserting the shortcode [capsule]ID[\/capsule] \n(e.g. [capsule]727adf105c9fb7311df7b670747ffd398e18e6d0[\/capsule]).<\/li>\n<li>[Optional] Set the width and height of the embedded capsule. Default ratio is set to a 500x500 square.<\/li>\n<\/ul>",
+                "uid": "21396"
+            }
+        }
+    }
+}

@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/easytag": {
+            "0.1": {
+                "name": "wordpress\/easytag",
+                "version": "0.1",
+                "version_normalized": "0.1.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/easytag.0.1.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>This add a link to words beginning with a # character to view all posts tagged with this word.\nThis has been tested only under 3.1, but should work with other version of Wordpress.<\/p>",
+                "uid": "59909"
+            }
+        }
+    }
+}

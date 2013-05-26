@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/fancy-cats": {
+            "1.1": {
+                "name": "wordpress\/fancy-cats",
+                "version": "1.1",
+                "version_normalized": "1.1.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/fancy-cats.1.1.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>This is an extended categories widget.<\/p>\n\n<p>When the user clicks on a category from the widget, rather than loading a page with all of the posts in that category, a space will expand within the widget, showing the titles of all posts in that category.<\/p>\n\n<p>There are several configurable settings, so that the widget will fit in with the look and feel of your blog. You can set:<\/p>\n\n<ul>\n<li>A limit on the height of the expanded area, so that a scroll bar will show if you have lots of posts in a category<\/li>\n<li>The indentation of the post items<\/li>\n<li>The title text, the instructional text, and the 'show all' text<\/li>\n<\/ul>\n\n<p>The expanding\/collapsing of category post lists is done via AJAX, so the entire page doesn't have to continuously reload to perform the operation.<\/p>\n\n<p>If there is an extra feature you would like added, or something that you don't like and want to be able to change yourself, contact me and I will see about adding it in the next version.<\/p>",
+                "uid": "40378"
+            }
+        }
+    }
+}

@@ -1,0 +1,57 @@
+{
+    "packages": {
+        "wordpress\/wp-shortcode-shield": {
+            "1.0": {
+                "name": "wordpress\/wp-shortcode-shield",
+                "version": "1.0",
+                "version_normalized": "1.0.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/wp-shortcode-shield.1.0.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>This plugin allows you to refer to a WordPress shortcode within the content of posts and pages without that shortcode being automagically expanded by WordPress. The plugin takes advantage of the fact that the <a href=\"http:\/\/codex.wordpress.org\/Shortcode_API\">WordPress ShortCode API<\/a> does not support nested shortcodes to allow this plugin's shortcode to wrap the shortcode being documented.<\/p>\n\n<blockquote>\n  <p>The shortcode parser uses a single pass on the post content. This means that if \n  the $content parameter of a shortcode handler contains another shortcode, it won't\n  be parsed<\/p>\n<\/blockquote>\n\n<p>The plugin supports both the self closing <code>[shortcode]<\/code> and enclosing <code>[shortcode]content[\/shortcode]<\/code> forms and supports a short form name of the shortcode, <code>[wp_scs]<\/code> as well as the more verbose <code>[wp_shortcode_shield]<\/code> form. For the sake of brevity, the remainder of this documentation will use the <code>[wp_scs]<\/code> short form ",
+                "uid": "26203"
+            },
+            "1.0.1": {
+                "name": "wordpress\/wp-shortcode-shield",
+                "version": "1.0.1",
+                "version_normalized": "1.0.1.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/wp-shortcode-shield.1.0.1.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>This plugin allows you to refer to a WordPress shortcode within the content of posts and pages without that shortcode being automagically expanded by WordPress. The plugin takes advantage of the fact that the <a href=\"http:\/\/codex.wordpress.org\/Shortcode_API\">WordPress ShortCode API<\/a> does not support nested shortcodes to allow this plugin's shortcode to wrap the shortcode being documented.<\/p>\n\n<blockquote>\n  <p>The shortcode parser uses a single pass on the post content. This means that if \n  the $content parameter of a shortcode handler contains another shortcode, it won't\n  be parsed<\/p>\n<\/blockquote>\n\n<p>The plugin supports both the self closing <code>[shortcode]<\/code> and enclosing <code>[shortcode]content[\/shortcode]<\/code> forms and supports a short form name of the shortcode, <code>[wp_scs]<\/code> as well as the more verbose <code>[wp_shortcode_shield]<\/code> form. For the sake of brevity, the remainder of this documentation will use the <code>[wp_scs]<\/code> short form ",
+                "uid": "26202"
+            },
+            "1.1.0": {
+                "name": "wordpress\/wp-shortcode-shield",
+                "version": "1.1.0",
+                "version_normalized": "1.1.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/wp-shortcode-shield.1.1.0.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>This plugin allows you to refer to a WordPress shortcode within the content of posts and pages without that shortcode being automagically expanded by WordPress. The plugin takes advantage of the fact that the <a href=\"http:\/\/codex.wordpress.org\/Shortcode_API\">WordPress ShortCode API<\/a> does not support nested shortcodes to allow this plugin's shortcode to wrap the shortcode being documented.<\/p>\n\n<blockquote>\n  <p>The shortcode parser uses a single pass on the post content. This means that if \n  the $content parameter of a shortcode handler contains another shortcode, it won't\n  be parsed<\/p>\n<\/blockquote>\n\n<p>The plugin supports both the self closing <code>[shortcode]<\/code> and enclosing <code>[shortcode]content[\/shortcode]<\/code> forms and supports a short form name of the shortcode, <code>[wp_scs]<\/code> as well as the more verbose <code>[wp_shortcode_shield]<\/code> form. For the sake of brevity, the remainder of this documentation will use the <code>[wp_scs]<\/code> short form ",
+                "uid": "26201"
+            }
+        }
+    }
+}

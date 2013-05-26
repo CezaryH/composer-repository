@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/locationmap": {
+            "1.0": {
+                "name": "wordpress\/locationmap",
+                "version": "1.0",
+                "version_normalized": "1.0.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/locationmap.1.0.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>Draws a map and inserts points on the location. Has the ability to draw multiple maps. Only accepts PNG as input and output.<\/p>\n\n<p>Loads a xml from the admin panel, which tells us the following:<\/p>\n\n<ul>\n<li>Image to load<\/li>\n<li>Image to use for plotting a location<\/li>\n<li>Locations\n\n<ul>\n<li>Title<\/li>\n<li>x,y<\/li>\n<\/ul><\/li>\n<\/ul>\n\n<p>a valid xml should look like the following:\n\n    \n        \n        \n        \n        \n        \n        \n        \n        \n        \n        \n    \n<\/p>\n\n<p>Want to show the map? Just put <code>&#60;?php locationmap(\"mapid\"); ?&#62;<\/code> in your template. Don't want to hack a new template or existing template together ?\nJust put the following in your post: %locationmap: mapid% .<\/p>\n\n<p>Font is the fine Semplice Regular from Style-Force.\n<a href=\"http:\/\/pixelfonts.style-force.net\/\" rel=\"nofollow\">http:\/\/pixelfonts.style-force.net\/<\/a><\/p>",
+                "uid": "95217"
+            }
+        }
+    }
+}

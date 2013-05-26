@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/view-category": {
+            "0.1": {
+                "name": "wordpress\/view-category",
+                "version": "0.1",
+                "version_normalized": "0.1.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/view-category.0.1.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>View Category adds a \"View Category\" button on the \"Edit Category\" page, next to the header and submit button. This works for Post Tags, and even custom taxonomies.<\/p>\n\n<p>By default WordPress, doesn't allow you to quickly go to the category page.<\/p>",
+                "uid": "69917"
+            }
+        }
+    }
+}

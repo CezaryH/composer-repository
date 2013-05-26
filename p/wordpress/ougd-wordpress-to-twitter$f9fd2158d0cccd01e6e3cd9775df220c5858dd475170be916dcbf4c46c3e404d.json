@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/ougd-wordpress-to-twitter": {
+            "1.4.2": {
+                "name": "wordpress\/ougd-wordpress-to-twitter",
+                "version": "1.4.2",
+                "version_normalized": "1.4.2.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/ougd-wordpress-to-twitter.1.4.2.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>ou.gd is a free URL shortener service you can use to shorten links and gain stats.<\/p>\n\n<p>This plugin is a bridge between ou.gd, Twitter and your blog: when you submit a new post or page, your blog will tap into the ou.gd API to generate a short URL for it, and will then tweet it.<\/p>\n\n<p>Requires PHP 5.<\/p>",
+                "uid": "67749"
+            }
+        }
+    }
+}

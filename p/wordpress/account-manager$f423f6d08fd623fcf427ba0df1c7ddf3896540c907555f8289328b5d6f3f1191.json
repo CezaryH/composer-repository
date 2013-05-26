@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/account-manager": {
+            "0.1": {
+                "name": "wordpress\/account-manager",
+                "version": "0.1",
+                "version_normalized": "0.1.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/account-manager.0.1.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>This plugin provides the Mozilla Labs <a href=\"https:\/\/mozillalabs.com\/blog\/2010\/03\/account-manager\/\">Account Manager<\/a> prototype with the data it needs to allow Firefox to log the user in and out of a WordPress blog.<\/p>\n\n<p>When a post or page hasn't been published, pressing Ctrl-S on your keyboard will save the page\/post as draft, if it has been published, then it will be updated.<\/p>\n\n<p>To extend the data presented in the AMC Document, play with the provided <code>mozlabs_amcd<\/code> filter.<\/p>",
+                "uid": "69741"
+            }
+        }
+    }
+}

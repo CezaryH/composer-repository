@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/nice-map": {
+            "0.1": {
+                "name": "wordpress\/nice-map",
+                "version": "0.1",
+                "version_normalized": "0.1.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/nice-map.0.1.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>Attention: <em><a href=\"http:\/\/www.developmentseed.org\/blog\/2009\/jan\/09\/just-released-nice-map-module-wordpress\">check out the launch blog post and screencast at developmentseed.org<\/a><\/em><\/p>\n\n<p>This is a Wordpress port of the <a href=\"http:\/\/drupal.org\/project\/nicemap\">Drupal Nice Map<\/a>\nmodule, which also provides an interface for an administrator to set up a WMS server \nwith various layers and projections.<\/p>\n\n<p>Please Read:<\/p>\n\n<p>Currently this module doesn't provide a method for actually inputting geo-information to your blog posts. Instead, it allows you to \npull information that has already been saved by [WP-Geo]((http:\/\/wordpress.org\/extend\/plugins\/wp-geo\/) or <a href=\"http:\/\/code.google.com\/p\/wordpress-geo-mashup\/\">geo-mashup<\/a>. The ability to input information may be added soon, but as it currently stands, either of the aforementioned plugins provide a nice way to select locations, while this plugin gives you ultimate flexibility to use different map data from d",
+                "uid": "94997"
+            }
+        }
+    }
+}

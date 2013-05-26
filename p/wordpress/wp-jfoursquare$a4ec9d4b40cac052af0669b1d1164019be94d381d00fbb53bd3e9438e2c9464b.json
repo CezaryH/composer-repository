@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/wp-jfoursquare": {
+            "0.8.1": {
+                "name": "wordpress\/wp-jfoursquare",
+                "version": "0.8.1",
+                "version_normalized": "0.8.1.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/wp-jfoursquare.0.8.1.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>A Widget that uses jQuery (if you want) and Foursquare to fade in\/out each checkin for any specific feed.  You can set how many checkins, how long they stay before they fade in\/out, or just list however many without the fadein\/out feature.<\/p>",
+                "uid": "14864"
+            }
+        }
+    }
+}

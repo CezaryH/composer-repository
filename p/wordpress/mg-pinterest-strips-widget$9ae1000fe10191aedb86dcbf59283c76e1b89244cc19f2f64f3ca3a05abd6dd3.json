@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/mg-pinterest-strips-widget": {
+            "0.1": {
+                "name": "wordpress\/mg-pinterest-strips-widget",
+                "version": "0.1",
+                "version_normalized": "0.1.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/mg-pinterest-strips-widget.0.1.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>Display Pinterests pins as vertical strips. See screenshots section or a <a href=\"http:\/\/mgiulio.altervista.org\" title=\"live demo\">live demo<\/a>.<\/p>\n\n<p>From the widget settings form it is possible to:<\/p>\n\n<ul>\n<li>Select which pins you'd like to display: all your pins or just the ones from a given board<\/li>\n<li>Choose the width of a strip and how many of them<\/li>\n<li>Set a limit on the pins you'd like to display<\/li>\n<li>A refresh time interval(in seconds), afther which the pins are re-read from Pinterest<\/li>\n<\/ul>\n\n<p>Other requirements:<\/p>\n\n<ul>\n<li>PHP 5.2.4+<\/li>\n<li>GD extension<\/li>\n<li>SimpleXML extension<\/li>\n<\/ul>",
+                "uid": "26928"
+            }
+        }
+    }
+}

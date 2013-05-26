@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/simple-openid-plugin": {
+            "0.1": {
+                "name": "wordpress\/simple-openid-plugin",
+                "version": "0.1",
+                "version_normalized": "0.1.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/simple-openid-plugin.0.1.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>Simple OpenID plugin is a plugin for Wordpress that enables visitors\nto use their OpenID if they want to post a comment instead of a \nregistering yet another local Wordpress account or typing their credentials\nover and again.<\/p>\n\n<p>In the OpenID lingo: the plugin acts as a consumer and checks the user&#8217;s \ncredentials which are stored on the OpenID provider he\/she&#8217;s registered with.<\/p>\n\n<p>What is OpenID? A blurb from the website (<a href=\"http:\/\/openid.net\" rel=\"nofollow\">http:\/\/openid.net<\/a>):<\/p>\n\n<p>OpenID is an open, decentralized, free framework for user-centric digital identity.<\/p>\n\n<p>How does it work? Instead registering 10 accounts at 10 different websites, \nOpenID makes it possible to use only 1 account. This means you only have to \nremember one username\/password combo.<\/p>\n\n<p>OpenID is a flexibel protocol. Most of the crypto-authentication stuff is done\nbehind the curtains. The only thing you have to do is type in your OpenID URI \n(i.e. your website or th",
+                "uid": "111780"
+            }
+        }
+    }
+}

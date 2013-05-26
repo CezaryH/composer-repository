@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/anonymise-feed": {
+            "1.0": {
+                "name": "wordpress\/anonymise-feed",
+                "version": "1.0",
+                "version_normalized": "1.0.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/anonymise-feed.1.0.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>This plugin removes the author names from the feeds in your site, replacing them with the title of the site. There are no options or settings screens.<\/p>\n\n<p>Plugin development is run on the <a href=\"https:\/\/github.com\/cftp\/anonymise-feed\">Github repository<\/a>.<\/p>",
+                "uid": "10927"
+            }
+        }
+    }
+}

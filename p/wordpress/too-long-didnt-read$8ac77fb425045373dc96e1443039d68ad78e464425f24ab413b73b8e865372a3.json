@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/too-long-didnt-read": {
+            "1.0": {
+                "name": "wordpress\/too-long-didnt-read",
+                "version": "1.0",
+                "version_normalized": "1.0.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/too-long-didnt-read.1.0.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>This fun plugin just replaces the \"Excerpt\" meta-box with something more meaningful for the Modern Redditor.<\/p>\n\n<p>Oh, also, it's a neat example of custom string replacement using a filter over gettext :)<\/p>",
+                "uid": "59900"
+            }
+        }
+    }
+}

@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/hoverswap": {
+            "1.0": {
+                "name": "wordpress\/hoverswap",
+                "version": "1.0",
+                "version_normalized": "1.0.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/hoverswap.1.0.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>On my language-learning blog, I have a feature that shows a translation inline by swapping out text when the mouse rolls over it. It&#8217;s very handy, and it occurred to me that I should make it a plugin, so other people can use it too!<\/p>\n\n<p>Hoverswap allows you to create swapping elements, whose content is swapped for its title when the user hovers over them.<\/p>\n\n<p>Excellent for foreign language learning and translation web sites.<\/p>\n\n<h4>Use<\/h4>\n\n<p>Version 1.0 has no configuration. That will be added later.\nFor now, in order to use the plugin, you create an EM tag containing the text you want to be active, and then you put the text for its hover state into     its title attribue.<\/p>\n\n<p>Then, to ensure that only the text you WANT to be swapped gets swapped, you must wrap that in an element of the class \"translate\".<\/p>\n\n<p>One example implementation would be create the following unordered list:\n&#60;UL class=\"translate\"&#62;\n&#60;LI&#62;&#60;EM title=\"How are you?\"&#62;",
+                "uid": "59865"
+            }
+        }
+    }
+}

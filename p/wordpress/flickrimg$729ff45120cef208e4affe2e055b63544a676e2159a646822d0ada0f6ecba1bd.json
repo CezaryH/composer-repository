@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/flickrimg": {
+            "1.0": {
+                "name": "wordpress\/flickrimg",
+                "version": "1.0",
+                "version_normalized": "1.0.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/flickrimg.1.0.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>Uses the flickr API to select a random image for a specified user.  This image is then displayed at the beginning of every blog post and saved so that each post always has the same image.<\/p>",
+                "uid": "61438"
+            }
+        }
+    }
+}

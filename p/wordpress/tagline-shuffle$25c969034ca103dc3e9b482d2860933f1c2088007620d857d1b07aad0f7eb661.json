@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/tagline-shuffle": {
+            "1.0": {
+                "name": "wordpress\/tagline-shuffle",
+                "version": "1.0",
+                "version_normalized": "1.0.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/tagline-shuffle.1.0.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>Picks a random tagline from a list every time a page is loaded. You can place a tagline anywhere in a template using\nthe included function, but you also have the option of automatically replacing all instances of the built-in static\ntagline with random ones.<\/p>",
+                "uid": "94817"
+            }
+        }
+    }
+}

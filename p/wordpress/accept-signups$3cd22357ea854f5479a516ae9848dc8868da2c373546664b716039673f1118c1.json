@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/accept-signups": {
+            "0.2": {
+                "name": "wordpress\/accept-signups",
+                "version": "0.2",
+                "version_normalized": "0.2.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/accept-signups.0.2.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>Accept signups by email. Logs email, IP and timestamp.<\/p>\n\n<p>Data available in real-time from admin panel in these formats:<\/p>\n\n<ul>\n<li>HTML table <\/li>\n<li>Comma separated email list for copy-and past operations<\/li>\n<li>XML<\/li>\n<li>CSV <\/li>\n<\/ul>\n\n<p>Intended for use with external subscription services, including email clients.<\/p>",
+                "uid": "56114"
+            }
+        }
+    }
+}

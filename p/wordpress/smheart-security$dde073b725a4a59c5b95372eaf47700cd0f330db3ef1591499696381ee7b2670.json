@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/smheart-security": {
+            "1.0": {
+                "name": "wordpress\/smheart-security",
+                "version": "1.0",
+                "version_normalized": "1.0.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/smheart-security.1.0.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>The Administrative User is presented with several independently selectable options for making their default installation increasingly secure.\n* Remove wp_generator meta information\n* Remove wlwmanifest_link meta information\n* Remove rsd_link meta information\n* Enable Comment HTML filter<\/p>",
+                "uid": "75679"
+            }
+        }
+    }
+}

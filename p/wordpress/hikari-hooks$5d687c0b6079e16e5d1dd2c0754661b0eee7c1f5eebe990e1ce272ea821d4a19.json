@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/hikari-hooks": {
+            "0.01.06": {
+                "name": "wordpress\/hikari-hooks",
+                "version": "0.01.06",
+                "version_normalized": "0.01.06.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/hikari-hooks.0.01.06.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p><strong>Hikari Hooks Troubleshooter<\/strong> creates a <em>draggable window<\/em> with informations about Wordpress hooks. It lists all <em>hooks<\/em> (actions and filters) that have at least a function hooked to them, and for each hook there's a list of <em>hooked functions<\/em>, sorted by <em>priority<\/em>!<\/p>\n\n<p>The window is visible only to registered users, and <strong>you can choose who will be able to see it<\/strong>, and set if it should be visible or not. It works in Wordpress page, be it frontend or admin area.<\/p>\n\n<p>When you are in an admin page, it also shows a list of special actions related to that specific page, helping plugin developers to attach features only to special admin pages, instead of the whole admin area! A list of all <em>conditional tags<\/em> is also available, informing which tags return true and which ones return false, for any page you want!<\/p>\n\n<p>The list of conditional tags and hooks is based on <a href=\"http:\/\/bueltge.de\">Frank Bueltge<\/a>'s <",
+                "uid": "70543"
+            }
+        }
+    }
+}

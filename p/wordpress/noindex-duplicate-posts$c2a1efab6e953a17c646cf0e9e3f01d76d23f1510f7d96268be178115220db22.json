@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/noindex-duplicate-posts": {
+            "1.0": {
+                "name": "wordpress\/noindex-duplicate-posts",
+                "version": "1.0",
+                "version_normalized": "1.0.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/noindex-duplicate-posts.1.0.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>To help your Wordpress installation be more optimized for search engines, this plugin will include a 'noindex' meta tag in the header of any duplicate posts.\nRobots will not index any posts with matching title tags, which is a known indicator of negative SEO. This is very useful for automated posting and working with a large amount of posts.<\/p>",
+                "uid": "13496"
+            }
+        }
+    }
+}

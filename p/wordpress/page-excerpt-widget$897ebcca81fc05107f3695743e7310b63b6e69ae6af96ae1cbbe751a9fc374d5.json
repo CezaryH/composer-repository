@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/page-excerpt-widget": {
+            "0.3": {
+                "name": "wordpress\/page-excerpt-widget",
+                "version": "0.3",
+                "version_normalized": "0.3.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/page-excerpt-widget.0.3.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>I have created a little WordPress plugin in the shape of a widget, which allows the user to display an excerpt of a page in a sidebar area of their choice.\nI wrote this to replace a little theme hack I did for a client, where the front page was supposed to have an excerpt of a page on the front page, of course linking to the full page. Instead of keeping it that way and hard coding the page-id, I wanted something where the end user could change which page was supposed to be linked. I hope it will be of use to someone.<\/p>\n\n<p>Right now you can:<\/p>\n\n<ul>\n<li>Define the amount of characters to use as an excerpt<\/li>\n<li>Select the page from all existing pages<\/li>\n<li>Link the title of the page, to the page<\/li>\n<li>Append a link to the page<\/li>\n<li>Decide a custom label for the read more link<\/li>\n<li>add multiple instances of the widget<\/li>\n<\/ul>\n\n<p>I plan to increase the functionality with:<\/p>\n\n<ul>\n<li>some internationalisation<\/li>\n<\/ul>",
+                "uid": "21726"
+            }
+        }
+    }
+}

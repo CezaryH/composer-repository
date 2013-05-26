@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/myblag-gallery": {
+            "1.0": {
+                "name": "wordpress\/myblag-gallery",
+                "version": "1.0",
+                "version_normalized": "1.0.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/myblag-gallery.1.0.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>This plugin gives you the ability to show links to MyBlag image gallerys from you or any other MyBlag user by specifiying a username.\nThis plugin uses the MyBlag API.<\/p>",
+                "uid": "90403"
+            }
+        }
+    }
+}

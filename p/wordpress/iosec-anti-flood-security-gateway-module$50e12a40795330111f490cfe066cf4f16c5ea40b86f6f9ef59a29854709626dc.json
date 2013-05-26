@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/iosec-anti-flood-security-gateway-module": {
+            "1.8.2": {
+                "name": "wordpress\/iosec-anti-flood-security-gateway-module",
+                "version": "1.8.2",
+                "version_normalized": "1.8.2.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/iosec-anti-flood-security-gateway-module.1.8.2.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>This module provides security enhancements against (HTTP) Flood &#38; Brute Force Attacks for Wordpress. \nMassive scanning tools (like vulnerability scanners), HTTP Flood tools can be blocked or detected by this module.\nThis module can be integrated with htaccess, any firewall, iptables or etc. via \"banlist\" file.<\/p>\n\n<p>To see a quick test page follow this link: <a href=\"http:\/\/www.iosec.org\/test.php\" rel=\"nofollow\">http:\/\/www.iosec.org\/test.php<\/a> for proof of concept.<\/p>\n\n<p>Watch the proof of concept video: <a href=\"http:\/\/youtu.be\/LzLY_SKLq9w\" rel=\"nofollow\">http:\/\/youtu.be\/LzLY_SKLq9w<\/a><\/p>\n\n<p>Note: Change the default configuration values before activating the plugin.<\/p>",
+                "uid": "24331"
+            }
+        }
+    }
+}

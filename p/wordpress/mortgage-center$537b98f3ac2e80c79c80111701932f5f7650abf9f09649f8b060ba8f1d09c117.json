@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/mortgage-center": {
+            "1.0": {
+                "name": "wordpress\/mortgage-center",
+                "version": "1.0",
+                "version_normalized": "1.0.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/mortgage-center.1.0.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p><strong>REQUIRES PHP 5<\/strong><\/p>\n\n<p>The Mortgage Center plug-in creates a mortgage resource center inside your WordPress blog. It includes:<\/p>\n\n<ul>\n<li>Real-time mortgage rates from Zillow&#8217;s GetRateSummary API<\/li>\n<li>A monthly payment calculator utilizing Zillow&#8217;s GetMonthlyPayments API<\/li>\n<li>Closing cost estimates (courtesy of <a href=\"http:\/\/www.closing.com\">Closing.com<\/a>)<\/li>\n<li>A few educational mortgage articles (courtesy of <a href=\"http:\/\/www.zillow.com\/mortgage\/help\/Main.htm\">Zillow.com Help Center<\/a>)<\/li>\n<li>Links to the latest blog posts from <a href=\"http:\/\/www.zillow.com\/blog\/mortgage\/\">Mortgages Unzipped<\/a>, \n<a href=\"http:\/\/themortgagereports.com\/\">Blown Mortgage<\/a>, and <a href=\"http:\/\/blownmortgage.com\/\">Mortgage Reports<\/a>.<\/li>\n<\/ul>\n\n<p>The data is presented on a single page, with the default being &#60;www.yourblog.com\/mortgage&#62;. However, you have the ability to\nchange that URL in the event that you already have a page on your",
+                "uid": "80245"
+            }
+        }
+    }
+}

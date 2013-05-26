@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/wpmu-no-nag": {
+            "1.0": {
+                "name": "wordpress\/wpmu-no-nag",
+                "version": "1.0",
+                "version_normalized": "1.0.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/wpmu-no-nag.1.0.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>WPMU has great themes and plugins. Unfortunately, many, if not most, come with a nag notice that admins see about installing their notifications dashboard plugin. If you've bought one plugin for your site this is probably overkill. If you're a developer you don't need this on your client's sites.<\/p>\n\n<p>This is a simple plugin that removes the notice.<\/p>\n\n<p>Note: If you do decide to you install the WPMU notifications plugin, please deactivate this one first. Errors may occur if you don't.<\/p>",
+                "uid": "9818"
+            }
+        }
+    }
+}

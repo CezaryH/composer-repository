@@ -1,0 +1,40 @@
+{
+    "packages": {
+        "wordpress\/language-taxonomy": {
+            "0.1": {
+                "name": "wordpress\/language-taxonomy",
+                "version": "0.1",
+                "version_normalized": "0.1.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/language-taxonomy.0.1.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>Adds a language taxonomy to posts, pages and other items.<\/p>\n\n<p>This will add a URL scheme (Your Blog)\/lang\/(slug).<\/p>\n\n<p>There is also a template tag for usage within the loop.<\/p>\n\n\n\n<p>Example:<\/p>\n\n<pre><code>&#60;?php if(function_exists(&#039;lt_the_language&#039;)): ?&#62;\n&#60;?php lt_the_language($post_id); ?&#62;\n&#60;?php endif; ?&#62;<\/code><\/pre>",
+                "uid": "66827"
+            },
+            "0.2": {
+                "name": "wordpress\/language-taxonomy",
+                "version": "0.2",
+                "version_normalized": "0.2.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/language-taxonomy.0.2.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>Adds a language taxonomy to posts, pages and other items.<\/p>\n\n<p>This will add a URL scheme (Your Blog)\/lang\/(slug).<\/p>\n\n<p>There is also a template tag for usage within the loop.<\/p>\n\n\n\n<p>Example:<\/p>\n\n<pre><code>&#60;?php if(function_exists(&#039;lt_the_language&#039;)): ?&#62;\n&#60;?php lt_the_language($post_id); ?&#62;\n&#60;?php endif; ?&#62;<\/code><\/pre>",
+                "uid": "66826"
+            }
+        }
+    }
+}

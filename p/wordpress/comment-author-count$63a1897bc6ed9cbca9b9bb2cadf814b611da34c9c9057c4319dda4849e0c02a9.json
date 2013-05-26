@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/comment-author-count": {
+            "1.0": {
+                "name": "wordpress\/comment-author-count",
+                "version": "1.0",
+                "version_normalized": "1.0.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/comment-author-count.1.0.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>Comment Author count adds total number of comments posted by the comment authors in the end of comments. It omits comment count for the Post author.<\/p>\n\n<p>It helps to display comment authors activity on you blog, which might also increase the click through rate of comment author's link.<\/p>",
+                "uid": "89090"
+            }
+        }
+    }
+}

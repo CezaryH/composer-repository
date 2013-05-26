@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/shortcode-disable": {
+            "0.1.0": {
+                "name": "wordpress\/shortcode-disable",
+                "version": "0.1.0",
+                "version_normalized": "0.1.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/shortcode-disable.0.1.0.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>Allows you to set some text inside the shortcode content so that it is shown as text rather than WordPress processing it as a shortcode. Good for developers of shortcode plugins so they can give examples of the code without it being rendered and it can also be used to talk about shortcode plugins.<\/p>\n\n<p>I origionally made this for myself as the developer of the Flattr Shortcode Widget to be able to give examples of how to use the plugin on my wordpress blog.<\/p>",
+                "uid": "58566"
+            }
+        }
+    }
+}

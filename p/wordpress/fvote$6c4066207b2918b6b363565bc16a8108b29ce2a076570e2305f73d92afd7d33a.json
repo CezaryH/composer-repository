@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/fvote": {
+            "0.5": {
+                "name": "wordpress\/fvote",
+                "version": "0.5",
+                "version_normalized": "0.5.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/fvote.0.5.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>Ever needed a voting plugin which acts like a question matrix?\nHere is your solution. You don't need any options in the backend and you can include this in any post or page.<\/p>\n\n<p>It is based on shortcodes:\n[fVote question=\"Do you like?\" subject=\"rats,cats,squirrels\" remarks=\"much,little,not\" button=\"vote for your pet!\" thanks=\"Thank you\"]<\/p>\n\n<p>and to see the results as percent.\n[fVote_results question=\"Do you like?\" total_votes=\"total votes\"]<\/p>\n\n<p>Hopefully somebody needs that for something.<\/p>",
+                "uid": "7677"
+            }
+        }
+    }
+}

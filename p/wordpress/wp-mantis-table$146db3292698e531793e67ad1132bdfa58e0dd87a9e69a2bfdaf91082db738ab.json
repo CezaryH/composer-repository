@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/wp-mantis-table": {
+            "0.1": {
+                "name": "wordpress\/wp-mantis-table",
+                "version": "0.1",
+                "version_normalized": "0.1.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/wp-mantis-table.0.1.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>This plugin for Wordpress 2.8 and above allows you to insert a simple table listing of issues from a Mantis Bug Tracker\ninto a wordpress page or post.  The plugin is perfect for projects which utilize WordPress for their news\/content\nmanagement, but also utilize Mantis for their bug tracking\/issue tracking<\/p>\n\n<p>Usage currently is simple:<\/p>\n\n<ul>\n<li>Set the URL to the Mantis API (usually <code><a href=\"http:\/\/example.com\/mantisbt\/api\/soap\/mantisconnect.php?wsdl\" rel=\"nofollow\">http:\/\/example.com\/mantisbt\/api\/soap\/mantisconnect.php?wsdl<\/a><\/code>)<\/li>\n<li>Set your base URL for links back to your tracker (e.g. <code><a href=\"http:\/\/example.com\/mantisbt\" rel=\"nofollow\">http:\/\/example.com\/mantisbt<\/a><\/code>)<\/li>\n<li>Set up a user in Mantis for wordpress connectivity - provide WP Mantis Tables with the username\/password<\/li>\n<li>Provide the project ID # for the project you want to view<\/li>\n<li>Place <code>[MantisTable]<\/code> in the page\/post where you want the table to appear.",
+                "uid": "82519"
+            }
+        }
+    }
+}

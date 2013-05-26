@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/search-by-category": {
+            "2.0.3": {
+                "name": "wordpress\/search-by-category",
+                "version": "2.0.3",
+                "version_normalized": "2.0.3.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/search-by-category.2.0.3.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>To help users find the posts they're looking for faster, this plugin allows them to search for articles or posts within certian categories, cutting back on the number of results the user needs to crawl through to find the article they want.<\/p>\n\n<p><strong>Change log<\/strong><\/p>\n\n<p>2.0.3\n - Fixed automatic category reselect<\/p>\n\n<p>2.0.2\n - Fixed inall_exclude use case failure<\/p>\n\n<p>2.0.1\n - Removes leftover debug code<\/p>\n\n<p>2.0\n - Exclude from categories from \"in all categories\"\n - No drop-down menu when using \"only_cat\" parameter\n - Added sbc() controls\n - Added shortcode controls<\/p>\n\n<p>1.5\n - Converted options storage from seperate rows to one array\n - Updated code to be more standardized and readable<\/p>\n\n<p>1.4.1\n - XSS security fix (by Manuel Razzari - <a href=\"http:\/\/ultimorender.com.ar\/funkascript\/)\" rel=\"nofollow\">http:\/\/ultimorender.com.ar\/funkascript\/)<\/a><\/p>\n\n<p>1.4\n - Search box retains searched value (by Manuel Razzari)\n - Default style usage on\/off fix (by Ma",
+                "uid": "86271"
+            }
+        }
+    }
+}

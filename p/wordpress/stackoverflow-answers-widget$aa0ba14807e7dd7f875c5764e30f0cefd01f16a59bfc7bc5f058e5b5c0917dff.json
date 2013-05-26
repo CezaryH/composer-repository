@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/stackoverflow-answers-widget": {
+            "0.5": {
+                "name": "wordpress\/stackoverflow-answers-widget",
+                "version": "0.5",
+                "version_normalized": "0.5.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/stackoverflow-answers-widget.0.5.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>Widget to display a summary of answers you have posted in StackOverflow (<a href=\"http:\/\/stackoverflow.com\/\" rel=\"nofollow\">http:\/\/stackoverflow.com\/<\/a>). It will display\nthe question's title, the answer's score, and the time the answer was last edited.<\/p>\n\n<p>You can limit the number of questions displaying and sort the list based on:<\/p>\n\n<ul>\n<li>Highest score.<\/li>\n<li>Oldest answer.<\/li>\n<li>Newest answer.<\/li>\n<\/ul>\n\n<p>ps. The widget uses StackOverflow API version 1.0.\n    The content of this widget is cached and updated every day.<\/p>",
+                "uid": "54056"
+            }
+        }
+    }
+}

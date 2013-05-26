@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/wordpress-text-message": {
+            "2.08": {
+                "name": "wordpress\/wordpress-text-message",
+                "version": "2.08",
+                "version_normalized": "2.08.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/wordpress-text-message.2.08.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>Wordpress Text Message<\/p>\n\n<p>Allows people to subscribe to SMS text message updates of your web site.  Manually send out texts, or every time a post is published.  Plugin has a widget that you can use in your sidebar or any widgitized area or your theme, also has the ability to use a shortcode if you don't want to use the widget.  That way you can add the subscriber signup form to any page or post using the shortcode [wp-text-message-register], you can also add an unsubscribe box using the shortcode [wp-text-message-unsubscribed] anywhere as well.<\/p>\n\n<p>Currently supports US based cell providers out of the box, the new version now allows you to add \/ edit \/ modify the cell phone gateways for your region.  For a list of SMS gateways you can use, please visit our plugin page here: <a href=\"http:\/\/www.totalbounty.com\/freebies\/wordpress-text-message\/\" title=\"Total Bounty: WordPress SMS Text Message Plugin\">Total Bounty: WordPress Text Message<\/a><\/p>\n\n<p>When users signup for update",
+                "uid": "50203"
+            }
+        }
+    }
+}

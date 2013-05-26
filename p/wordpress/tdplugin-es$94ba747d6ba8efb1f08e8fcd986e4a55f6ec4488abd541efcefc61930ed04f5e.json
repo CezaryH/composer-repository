@@ -1,0 +1,40 @@
+{
+    "packages": {
+        "wordpress\/tdplugin-es": {
+            "1.0": {
+                "name": "wordpress\/tdplugin-es",
+                "version": "1.0",
+                "version_normalized": "1.0.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/tdplugin-es.1.0.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>El plugin servir&#225; para la publicaci&#243;n autom&#225;tica de posts con anuncios. Funciona realizando una b&#250;squeda \nmediante unas palabras claves de productos en los cuales el afiliado est&#225; inscrito y public&#225;ndolos \nautom&#225;ticamente con 2 estilos distintos, manteni&#233;ndose el tracking para el afiliado.<\/p>\n\n<p>en el campo de texto para postear deberemos introducir:\n   [td tdquery=\"palabra clave aqu&#237;\" tdno=\"20\" tdpg=\"0\" tdmid=\"12345,234,189\" tdcat=\"68\" tdprice=\"20_200\" td_estilo=\"1 o 2\" prodfila=\"2\"]<\/p>\n\n<p>Donde:\n-   Tdquery: palabras clave sobre las que realizaremos la b&#250;squeda\n-   Tdno: n&#250;mero de resultados que queremos mostrar\n-   Tdpg: el n&#250;mero de resultado sobre el que queremos que se empiece a mostrar\n-   Tdmid: el identificador del comerciante, si son varios separados por comas.\n-   Tdcat: la categor&#237;a sobre la que realizar la b&#250;squeda (<a href=\"http:\/\/tdblog.es\/wp-content\/uploads\/2010\/01\/PF-categories-20091029.pdf\">L",
+                "uid": "75476"
+            },
+            "1.1": {
+                "name": "wordpress\/tdplugin-es",
+                "version": "1.1",
+                "version_normalized": "1.1.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/tdplugin-es.1.1.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>El plugin servir&#225; para la publicaci&#243;n autom&#225;tica de posts con anuncios. Funciona realizando una b&#250;squeda \nmediante unas palabras claves de productos en los cuales el afiliado est&#225; inscrito y public&#225;ndolos \nautom&#225;ticamente con 2 estilos distintos, manteni&#233;ndose el tracking para el afiliado.<\/p>\n\n<p>en el campo de texto para postear deberemos introducir:\n   [td tdquery=\"palabra clave aqu&#237;\" tdno=\"20\" tdpg=\"0\" tdmid=\"12345,234,189\" tdcat=\"68\" tdprice=\"20_200\" td_estilo=\"1 o 2\" prodfila=\"2\"]<\/p>\n\n<p>Donde:\n-   Tdquery: palabras clave sobre las que realizaremos la b&#250;squeda\n-   Tdno: n&#250;mero de resultados que queremos mostrar\n-   Tdpg: el n&#250;mero de resultado sobre el que queremos que se empiece a mostrar\n-   Tdmid: el identificador del comerciante, si son varios separados por comas.\n-   Tdcat: la categor&#237;a sobre la que realizar la b&#250;squeda (<a href=\"http:\/\/tdblog.es\/wp-content\/uploads\/2010\/01\/PF-categories-20091029.pdf\">L",
+                "uid": "75472"
+            }
+        }
+    }
+}

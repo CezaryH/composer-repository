@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/893-the-current-realtime-playlist": {
+            "1": {
+                "name": "wordpress\/893-the-current-realtime-playlist",
+                "version": "1",
+                "version_normalized": "1.0.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/893-the-current-realtime-playlist.1.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>Project home is <a href=\"http:\/\/scaredpanda.com\/893-the-current-playlist-widget\/\" title=\"89.3 The Current Realtime Playlist\">scaredpanda.com<\/a>.<\/p>\n\n<p>The Current is an independent music station in Minneapolis that I listen to all the time. It is part of Minnesota Public Radio and broadcasts an eclectic music format of independent artists and a solid rotation of songs by local artists. The station is comparable to KEXP in Seattle and WOXY in Cincinnati.<\/p>\n\n<p>The widget uses an XMLHttpRequest to checked against the Current\u0092s web service. This Interval can be configured in the getplaylist.php page. The widget will automatically update itself with the most current song being played, since its using a javascript ajax call the page does not need to be refreshed to see the updated song.<\/p>\n\n<p>Simply activate the plug in and choose where on your site the plug in should live. Once the the plug in has been actived the current song should be displayed with a link to The Currents \"Now",
+                "uid": "97625"
+            }
+        }
+    }
+}

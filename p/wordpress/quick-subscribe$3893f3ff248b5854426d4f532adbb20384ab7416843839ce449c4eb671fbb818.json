@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/quick-subscribe": {
+            "1.7.1": {
+                "name": "wordpress\/quick-subscribe",
+                "version": "1.7.1",
+                "version_normalized": "1.7.1.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/quick-subscribe.1.7.1.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>Allows visitors to quickly subscribe to your blog using only an email address.<\/p>\n\n<p>The widget will present a text field where the visitor will enter an email address. No email confirmation is sent to the visitor, a user name based on the email address (the email without the @) is created and the password is randomly generated.<\/p>\n\n<p>This is perfect if you want your readers to easily subscribe to your blog without the need of having an username and password. The ideia is to use the list of subscribers as a mailing to send news, updates or whatever you want to send to your readers.<\/p>\n\n<p>You can use it together with plugins such as Subcscribe2 and WPMailing<\/p>",
+                "uid": "107241"
+            }
+        }
+    }
+}

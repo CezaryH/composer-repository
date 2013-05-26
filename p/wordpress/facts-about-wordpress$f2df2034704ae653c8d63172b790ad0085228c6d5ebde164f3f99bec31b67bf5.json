@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/facts-about-wordpress": {
+            "1.0": {
+                "name": "wordpress\/facts-about-wordpress",
+                "version": "1.0",
+                "version_normalized": "1.0.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/facts-about-wordpress.1.0.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>I would like to mention that this being my first plugin, it is heavily based on Matt Mullenweg&#8217;s Hello Dolly plugin. The facts are taken from Wikipedia and I&#8217;m planning to add more to the list soon.<\/p>\n\n<p>This plugin ensures that all users who utilize this plugin can be updated with facts about Wordpress.<\/p>",
+                "uid": "49540"
+            }
+        }
+    }
+}

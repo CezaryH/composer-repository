@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/combat-comments-bot": {
+            "1.0": {
+                "name": "wordpress\/combat-comments-bot",
+                "version": "1.0",
+                "version_normalized": "1.0.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/combat-comments-bot.1.0.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>This plugin avoids bots posting comments directly on your site.<\/p>\n\n<h4>How to use<\/h4>\n\n<p>After installing and activating the plugin, go to Settings-&#62;General and enter your unique <code>Combat Comment Bot Secret Key<\/code><\/p>\n\n<h4>How it Works<\/h4>\n\n<p>This plugin adds <a href=\"http:\/\/markjaquith.wordpress.com\/2006\/06\/02\/wordpress-203-nonces\/\" title=\"nonces\">nonces<\/a> using the secret key to the comment form for unique validation.<\/p>\n\n<h4>Feedback &#38; Question<\/h4>\n\n<p>For questions or suggestions, tweet us <a href=\"http:\/\/twitter.com\/revood\" title=\"@revood\">@revood<\/a><\/p>",
+                "uid": "46784"
+            }
+        }
+    }
+}

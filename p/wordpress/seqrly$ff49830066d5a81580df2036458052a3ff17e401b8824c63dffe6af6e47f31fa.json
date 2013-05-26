@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/seqrly": {
+            "1.0": {
+                "name": "wordpress\/seqrly",
+                "version": "1.0",
+                "version_normalized": "1.0.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/seqrly.1.0.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>Seqrly is an innovative site that specializes in providing secure technology choices for users to secure their online logins. Seqrly puts the control of one's identity in the individual's hands, allowing them to secure their logins in their own way.<\/p>\n\n<p>Seqrly supports OpenID for logins. OpenID is an <a href=\"http:\/\/openid.net\/\">open standard<\/a> that allows users to authenticate to websites\nwithout having to create a new password.  This plugin allows users to login to\ntheir local WordPress account using an OpenID, as well as enabling commenters\nto leave authenticated comments with OpenID.  The plugin also includes an OpenID\nprovider, enabling users to login to OpenID-enabled sites using their\nown personal WordPress account. <a href=\"http:\/\/wordpress.org\/extend\/plugins\/xrds-simple\/\">XRDS-Simple<\/a> is required for the OpenID\nProvider and some features of the OpenID Consumer.<\/p>",
+                "uid": "12094"
+            }
+        }
+    }
+}

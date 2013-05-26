@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/misiek-photo-album": {
+            "1.4.3": {
+                "name": "wordpress\/misiek-photo-album",
+                "version": "1.4.3",
+                "version_normalized": "1.4.3.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/misiek-photo-album.1.4.3.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>Plugin allows you to add photo albums to your site using media library from your wordpress.<\/p>\n\n<p>Once album is created from administration menu it creates page or post using template or category.\nIt means each album has own page or post depend what you will select, also it means that you can specify your own template.<\/p>\n\n<p>Possible to add multiple albums on existing page or post content using syntax example:\n    [mpa:id=?] where '?' is id of the album.<\/p>\n\n<p>Possible to add all albums as widgets<\/p>\n\n<p>Supports mysql and sqlite.<\/p>\n\n<p>BUG FIXING:<\/p>\n\n<p>FOR 1.4.3 - - 5\/25\/2009<\/p>\n\n<ul>\n<li>fixed link to medium image for widgets<\/li>\n<\/ul>\n\n<p>FOR 1.4.2 - -4\/17\/2009:<\/p>\n\n<ul>\n<li>fixed widget formating to better fit in wordpress css<\/li>\n<\/ul>\n\n<p>FOR 1.4.1 - -2\/20\/2009:<\/p>\n\n<ul>\n<li>made all albums available as widgets<\/li>\n<li>fix formating <\/li>\n<\/ul>\n\n<p>FOR 1.4 - -2\/20\/2009:<\/p>\n\n<ul>\n<li>Fixed some formating<\/li>\n<li>Added more style to images<\/li>\n<li>Modified a",
+                "uid": "91361"
+            }
+        }
+    }
+}

@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/mend-sticky-posts": {
+            "1.1": {
+                "name": "wordpress\/mend-sticky-posts",
+                "version": "1.1",
+                "version_normalized": "1.1.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/mend-sticky-posts.1.1.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<ul>\n<li>Sticky posts are ordered the same way as non-sticky posts.<\/li>\n<li>Sticky posts do not reappear on subsequent pages.<\/li>\n<li>The first page of home will contain exactly the requested number of posts, rather than the requested number of posts plus the number of sticky posts.<\/li>\n<li>Allows more than one page of sticky posts.<\/li>\n<\/ul>\n\n<p>Simply injects the sticky post IDs into the actual mySQL order by clause, \ncausing posts to be ordered by sticky status then by what ever order is \nspecified, usually post_date DESC, and not to repeat on subsequent pages. \nI can't actually figure out why it isn't done like this by WP, perhaps \nearlier versions of mySQL don't support this. WP's default sticky ordering \ncraziness is turned off by returning an empty array for the next call to\nget_option('sticky_posts') which happens in WP_Query-&#62;get_posts().<\/p>\n\n<p>There is currently a ticket awaiting review on the Wordpress trac system to roll this functionality into the Wordpress core:",
+                "uid": "17758"
+            }
+        }
+    }
+}

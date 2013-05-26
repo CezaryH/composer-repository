@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/spamgone": {
+            "1.0": {
+                "name": "wordpress\/spamgone",
+                "version": "1.0",
+                "version_normalized": "1.0.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/spamgone.1.0.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<ul>\n<li>Want to get rid of all spammy blog comments once and for all?<\/li>\n<li>SpamGone eliminates 99% of spam<\/li>\n<li>No complicated settings<\/li>\n<li>No Captchas or annoying 'bot tests' for visitors to fill in<\/li>\n<li>Futureproof, will continue to work no matter how smart the spammers get<\/li>\n<li>No other plugins required, you can bin every other spam blocking plugin you have, this is the only one you need, it takes care of everything.<\/li>\n<\/ul>\n\n<h4>How does it work?<\/h4>\n\n<p>Blog spammers usually spam for one reason only.  To leave a link on your blog.  This plugin simply removes the 'URL' field from your comments box.<\/p>\n\n<p>If the spammer tries to send an automated POST request bypassing the comment form and it contains a URL, the plugin will detect it and immediately block the post.<\/p>\n\n<p>There is also a setting in the plugin that will allow the plugin to block comments containing a URL in the comment body itself.<\/p>",
+                "uid": "22903"
+            }
+        }
+    }
+}

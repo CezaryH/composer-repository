@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/third-column": {
+            "1.0": {
+                "name": "wordpress\/third-column",
+                "version": "1.0",
+                "version_normalized": "1.0.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/third-column.1.0.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>Adds a third column on the Edit Post and Edit Page pages (and the edit page for custom post types).\nThis is useful if you have a lot of boxes on your edit screen, from custom taxonomies and plugins.<\/p>",
+                "uid": "37388"
+            }
+        }
+    }
+}

@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/wp-choose-thumb": {
+            "1.3.6": {
+                "name": "wordpress\/wp-choose-thumb",
+                "version": "1.3.6",
+                "version_normalized": "1.3.6.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/wp-choose-thumb.1.3.6.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>A simple way to choose a default thumbnail for your post.<\/p>\n\n<p>Works alongside the featured image core functionality.<\/p>\n\n<p>For theme usage:<\/p>\n\n<h4>Add this function where you want the thumbnail to appear<\/h4>\n\n<pre><code>&#60;?php if(function_exists(&#039;wct_thumb&#039;)){ wct_thumb(); } ?&#62;<\/code><\/pre>",
+                "uid": "93662"
+            }
+        }
+    }
+}

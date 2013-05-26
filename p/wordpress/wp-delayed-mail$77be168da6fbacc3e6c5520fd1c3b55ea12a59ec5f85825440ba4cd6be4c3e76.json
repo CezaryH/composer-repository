@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/wp-delayed-mail": {
+            "1.0": {
+                "name": "wordpress\/wp-delayed-mail",
+                "version": "1.0",
+                "version_normalized": "1.0.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/wp-delayed-mail.1.0.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>Delay the sending of an email. <code>wp_delayed_mail<\/code> is the same as <code>wp_mail<\/code> except that the first argument passed to <code>wp_delayed_mail<\/code> is the UNIX epoch timestamp at which to send the email.<\/p>",
+                "uid": "69040"
+            }
+        }
+    }
+}

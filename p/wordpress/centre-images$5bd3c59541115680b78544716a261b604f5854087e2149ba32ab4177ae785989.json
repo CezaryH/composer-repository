@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/centre-images": {
+            "1.0": {
+                "name": "wordpress\/centre-images",
+                "version": "1.0",
+                "version_normalized": "1.0.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/centre-images.1.0.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>Centre Images inserts a class style <code>centre-images<\/code> to paragraph elements that contain only an image element. The image may be wrapped in an anchor (or link) element.<\/p>\n\n<p>Centre Images incorporates version 1.1 of the Simple HTML DOM parser (<a href=\"http:\/\/sourceforge.net\/projects\/simplehtmldom\/\" rel=\"nofollow\">http:\/\/sourceforge.net\/projects\/simplehtmldom\/<\/a>). Centre Images performs a simple check to see if the functions in this code have been defined so if you are using another plugin that relies on Simple HTML DOM it won't cause any conflicts.<\/p>",
+                "uid": "61142"
+            }
+        }
+    }
+}

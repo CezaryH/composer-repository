@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/hot-linked-image-cacher-with-keywords": {
+            "1.0": {
+                "name": "wordpress\/hot-linked-image-cacher-with-keywords",
+                "version": "1.0",
+                "version_normalized": "1.0.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/hot-linked-image-cacher-with-keywords.1.0.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>This plugin caches your hotlinked images from posts and saves it with provided keywords.<\/p>\n\n<p>How does this plugin work:<\/p>\n\n<ul>\n<li>After you activate the plugin, this plugin will automatically save all hotlinked image to your own server. <\/li>\n<li>Curl is required to download images to your server.<\/li>\n<li>Uses Wordpress default upload functions to upload the downloaded images to wordpress upload directory.<\/li>\n<li>You can process olders posts aswell in plugin's page.<\/li>\n<li>You can provide set of keywords to name the hotlinked image when saved to your server.<\/li>\n<\/ul>",
+                "uid": "29882"
+            }
+        }
+    }
+}

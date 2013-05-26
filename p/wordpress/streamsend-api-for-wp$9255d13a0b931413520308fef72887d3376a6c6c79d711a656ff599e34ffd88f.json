@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/streamsend-api-for-wp": {
+            "1.0": {
+                "name": "wordpress\/streamsend-api-for-wp",
+                "version": "1.0",
+                "version_normalized": "1.0.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/streamsend-api-for-wp.1.0.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>Grow your StreamSend list using the newly released Developer API! Add a StreamSend sign-up form as a widget or using a shrotcode. After entering the API information in the plugin admin area, and adding a signup form to the website, the subscriber will enter the required info and will be inserted inmediately to your StreamSend mailing list. You can configure if you want the signing up method (double or single Opt-in) and the fields that you want to display in the form. \nPlugin Requirements:<\/p>\n\n<ul>\n<li><p>Web host must have curl enabled.<\/p><\/li>\n<li><p>An active StreanSend account, if you don't have one, signup for a free trial <a href=\"http:\/\/www.streamsend.com\/463.html\" rel=\"nofollow\">here<\/a><\/p><\/li>\n<li><p>StreamSend API Login ID and Key, generate it for free once you have your StreamSend account.<\/p><\/li>\n<\/ul>",
+                "uid": "19980"
+            }
+        }
+    }
+}

@@ -1,0 +1,40 @@
+{
+    "packages": {
+        "wordpress\/force-non-ssl": {
+            "0.2": {
+                "name": "wordpress\/force-non-ssl",
+                "version": "0.2",
+                "version_normalized": "0.2.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/force-non-ssl.0.2.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>Redirects all HTTPS traffic to HTTP, except for specific exceptions. You might want to do this to minimize the number of times users would see an error if you don't have a valid SSL certificate setup, or if you want to make sure that the delay SSL adds is only experienced when necessary.<\/p>\n\n<p><strong>NOTE<\/strong>: This plugin requires PHP5. If you're still running PHP4 please ask your web host about upgrading.<\/p>",
+                "uid": "61471"
+            },
+            "0.3": {
+                "name": "wordpress\/force-non-ssl",
+                "version": "0.3",
+                "version_normalized": "0.3.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/force-non-ssl.0.3.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>Redirects all HTTPS traffic to HTTP, except for specific exceptions. You might want to do this to minimize the number of times users would see an error if you don't have a valid SSL certificate setup, or if you want to make sure that the delay SSL adds is only experienced when necessary.<\/p>\n\n<p><strong>NOTE<\/strong>: This plugin requires PHP5. If you're still running PHP4 please ask your web host about upgrading.<\/p>",
+                "uid": "61470"
+            }
+        }
+    }
+}

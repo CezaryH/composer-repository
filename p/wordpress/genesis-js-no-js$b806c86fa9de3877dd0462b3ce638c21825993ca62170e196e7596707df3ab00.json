@@ -1,0 +1,40 @@
+{
+    "packages": {
+        "wordpress\/genesis-js-no-js": {
+            "1.0": {
+                "name": "wordpress\/genesis-js-no-js",
+                "version": "1.0",
+                "version_normalized": "1.0.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/genesis-js-no-js.1.0.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>Make front-end styling easier for child themes on the <a href=\"http:\/\/genesis-theme-framework.com\/\">Genesis Framework<\/a> based on whether JavaScript is enabled or not.<\/p>\n\n<p>Adds a <code>no-js<\/code> body class to the front-end, and a script on <code>genesis_before<\/code> which immediately changes the class to <code>js<\/code> if JavaScript is enabled.\nThis is how WP does things on the back-end, to allow different styles for the same elements depending if JavaScript is active or not.<\/p>\n\n<p>This plugin is only useful if you're using a child theme of the <a href=\"http:\/\/genesis-theme-framework.com\/\">Genesis Framework<\/a> since it needs to use the <code>genesis_before<\/code> hook.<\/p>",
+                "uid": "46808"
+            },
+            "1.0.1": {
+                "name": "wordpress\/genesis-js-no-js",
+                "version": "1.0.1",
+                "version_normalized": "1.0.1.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/genesis-js-no-js.1.0.1.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>Make front-end styling easier for child themes on the <a href=\"http:\/\/genesis-theme-framework.com\/\">Genesis Framework<\/a> based on whether JavaScript is enabled or not.<\/p>\n\n<p>Adds a <code>no-js<\/code> body class to the front-end, and a script on <code>genesis_before<\/code> which immediately changes the class to <code>js<\/code> if JavaScript is enabled.\nThis is how WP does things on the back-end, to allow different styles for the same elements depending if JavaScript is active or not.<\/p>\n\n<p>This plugin is only useful if you're using a child theme of the <a href=\"http:\/\/genesis-theme-framework.com\/\">Genesis Framework<\/a> since it needs to use the <code>genesis_before<\/code> hook.<\/p>",
+                "uid": "46807"
+            }
+        }
+    }
+}

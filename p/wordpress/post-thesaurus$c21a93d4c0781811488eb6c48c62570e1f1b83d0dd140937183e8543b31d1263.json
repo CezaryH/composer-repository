@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/post-thesaurus": {
+            "1.0.0": {
+                "name": "wordpress\/post-thesaurus",
+                "version": "1.0.0",
+                "version_normalized": "1.0.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/post-thesaurus.1.0.0.1.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>Very simple little widget thats gets added to the 'Add new post' page that allows you to search for similar words.<\/p>\n\n<p>Features:<\/p>\n\n<ul>\n<li>Three types of words (if available in the API): Nouns, Verbs, Adjectives.<\/li>\n<li>Different relationships available: synonyms, antonyms, related terms, similar terms and user suggestion.<\/li>\n<li>Enter your own API key from words.bighugelabs.com if needed.<\/li>\n<li>Select which types of words are shown (admin page).<\/li>\n<li><p>Uninstall feature<\/p><\/li>\n<li><p><a href=\"http:\/\/nooshu.com\/wordpress-plug-in-post-thesaurus\/\">Support<\/a><\/p><\/li>\n<\/ul>\n\n<p><strong>TODO:<\/strong>\nNothing at the moment, why not suggets a feature.<\/p>",
+                "uid": "70415"
+            }
+        }
+    }
+}

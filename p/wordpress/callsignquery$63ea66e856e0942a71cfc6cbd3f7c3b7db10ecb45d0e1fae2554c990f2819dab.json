@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/callsignquery": {
+            "0.3": {
+                "name": "wordpress\/callsignquery",
+                "version": "0.3",
+                "version_normalized": "0.3.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/callsignquery.0.3.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>This widget places a search box for call sign information on your site.  Use\nthis search box to search information on remote websites.  You can use this to\nquery <a href=\"http:\/\/aprs.fi\/\" rel=\"nofollow\">http:\/\/aprs.fi\/<\/a>, <a href=\"http:\/\/www.qrz.com\/db\/\" rel=\"nofollow\">http:\/\/www.qrz.com\/db\/<\/a> or \n<a href=\"https:\/\/pi1utr.dstargateway.org\/cgi-bin\/dstar-regcheck\" rel=\"nofollow\">https:\/\/pi1utr.dstargateway.org\/cgi-bin\/dstar-regcheck<\/a>.\n<\/p>\n\n<p>The following aspects are customizeable:\n<ul>\n<li>Widget title<\/li>\n<li>Search button text<\/li>\n<li>Search field help text<\/li>\n<li>Search URL<\/li>\n<li>URL parameter value<\/li>\n<\/ul>\nThe following aspects are not *yet* customizeable:\n<ul>\n<li>The width of the text input<\/li>\n<\/ul>\n<\/p>\n\n<p>Pressing the search button pops open a new window with the search\nresults.<\/p>\n\n<p>To use the widget for QRZ lookup use:\n<ul>\n<li>Set URL to \"http:\/\/www.qrz.com\/db\/\"<\/li>\n<li>Set parameter value to \"callsign\"<\/li>\n<\/ul>\nTo use the widget for APRS.fi look",
+                "uid": "8805"
+            }
+        }
+    }
+}

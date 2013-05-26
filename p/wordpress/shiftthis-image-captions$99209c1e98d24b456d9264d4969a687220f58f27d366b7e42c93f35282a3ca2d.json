@@ -1,0 +1,40 @@
+{
+    "packages": {
+        "wordpress\/shiftthis-image-captions": {
+            "1.1": {
+                "name": "wordpress\/shiftthis-image-captions",
+                "version": "1.1",
+                "version_normalized": "1.1.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/shiftthis-image-captions.1.1.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>This plugin will create a caption under all Post &#38; Page images using the images's alt text. Javascript dynamically puts the image in a div with the alt text as the caption below. The images title attribute is then removed for redundancy and the alt attribute is set to blank. Captions are not displayed if no alt text is present or if the alt text matches the image name (Wordpress\u0092s default habit). It also dynamically switches the images align attribute to a float attribute on the div for proper web standards text wrapping. You can then style using the div's \u0093caption\u0094 class and the containing span element.<\/p>",
+                "uid": "111800"
+            },
+            "1.2": {
+                "name": "wordpress\/shiftthis-image-captions",
+                "version": "1.2",
+                "version_normalized": "1.2.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/shiftthis-image-captions.1.2.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>This plugin will create a caption under all Post &#38; Page images using the images's alt text. Javascript dynamically puts the image in a div with the alt text as the caption below. The images title attribute is then removed for redundancy and the alt attribute is set to blank. Captions are not displayed if no alt text is present or if the alt text matches the image name (Wordpress\u0092s default habit). It also dynamically switches the images align attribute to a float attribute on the div for proper web standards text wrapping. You can then style using the div's \u0093caption\u0094 class and the containing span element.<\/p>",
+                "uid": "111799"
+            }
+        }
+    }
+}

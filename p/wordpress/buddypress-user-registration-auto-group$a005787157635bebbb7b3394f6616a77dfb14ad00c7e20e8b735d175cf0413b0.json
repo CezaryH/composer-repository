@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/buddypress-user-registration-auto-group": {
+            "0.1": {
+                "name": "wordpress\/buddypress-user-registration-auto-group",
+                "version": "0.1",
+                "version_normalized": "0.1.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/buddypress-user-registration-auto-group.0.1.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>This plugin create a new Group when a new user sign up. By this way, new user will be one step ahead to send invitations to others for joining his group. You can fix group name, group description and group status from admin panel.<\/p>",
+                "uid": "26064"
+            }
+        }
+    }
+}

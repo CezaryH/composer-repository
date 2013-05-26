@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/carolyn-google-analytics": {
+            "0.1": {
+                "name": "wordpress\/carolyn-google-analytics",
+                "version": "0.1",
+                "version_normalized": "0.1.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/carolyn-google-analytics.0.1.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>This is a (very) simple plugin for embedding a Google Analytics (GA) tracking code in your site. It has two features:<\/p>\n\n<ul>\n<li>It stores the GA code as a site setting. This means no modifying theme files, which is especially useful in a Multisite context;<\/li>\n<li>The GA code is NOT inserted for logged-in users, meaning you won't run up your visitor counts as you administer your site;<\/li>\n<\/ul>\n\n<p>And that's it! It works with Google's \"Asynchronous\" tracking code, which goes in the page's head.<\/p>",
+                "uid": "15435"
+            }
+        }
+    }
+}

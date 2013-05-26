@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/titlematic": {
+            "0.2": {
+                "name": "wordpress\/titlematic",
+                "version": "0.2",
+                "version_normalized": "0.2.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/titlematic.0.2.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>This plugin automatically creates a title for posts that do not have one. If the post contains text, the title is set to the first few characters of the post. For posts without any text content, the title is set to a configurable untitled post string.<\/p>",
+                "uid": "64302"
+            }
+        }
+    }
+}

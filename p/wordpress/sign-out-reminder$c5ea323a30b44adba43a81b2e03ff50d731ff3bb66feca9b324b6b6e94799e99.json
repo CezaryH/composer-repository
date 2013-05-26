@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/sign-out-reminder": {
+            "0.2": {
+                "name": "wordpress\/sign-out-reminder",
+                "version": "0.2",
+                "version_normalized": "0.2.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/sign-out-reminder.0.2.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>This is a very straight forward plugin. It simply displays to every user who logs in a reminder to log out once they've finished using the admin interface. It's not going to guarantee that anyone logs out, but if the users of your blog are likely to be logging in on public computers then it serves as a handy reminder.<\/p>",
+                "uid": "110450"
+            }
+        }
+    }
+}

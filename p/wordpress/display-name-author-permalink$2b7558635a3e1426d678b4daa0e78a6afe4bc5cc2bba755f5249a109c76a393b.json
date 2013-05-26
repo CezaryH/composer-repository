@@ -1,0 +1,40 @@
+{
+    "packages": {
+        "wordpress\/display-name-author-permalink": {
+            "1.0": {
+                "name": "wordpress\/display-name-author-permalink",
+                "version": "1.0",
+                "version_normalized": "1.0.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/display-name-author-permalink.1.0.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>Replaces the username for author permalinks with the users display name.  Returns a 404 if the author permalink using the actual username is used.<\/p>\n\n<p>Allows authors to select what to display in the URL for their author permalink by use of the users display name.  Increments a counter on the end of duplicate display names to make them unique.<\/p>",
+                "uid": "88170"
+            },
+            "1.1": {
+                "name": "wordpress\/display-name-author-permalink",
+                "version": "1.1",
+                "version_normalized": "1.1.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/display-name-author-permalink.1.1.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>Replaces the username for author permalinks with the users display name.  Returns a 404 if the author permalink using the actual username is used.<\/p>\n\n<p>Allows authors to select what to display in the URL for their author permalink by use of the users display name.  Increments a counter on the end of duplicate display names to make them unique.<\/p>",
+                "uid": "88169"
+            }
+        }
+    }
+}

@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/page-blocker-seeya": {
+            "1.0": {
+                "name": "wordpress\/page-blocker-seeya",
+                "version": "1.0",
+                "version_normalized": "1.0.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/page-blocker-seeya.1.0.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>This Wordpress plugin allows you to block access to static pages by one or more security questions. First, you have to create and add some questions with answers to the main list. Answers are case insensitive. Then, associate questions from list you created with pages you need to block. After question is associated with a page - page becomes blocked until user provides correct answers on questions associated with a page, if he does - access will be granted during current session.<\/p>",
+                "uid": "13340"
+            }
+        }
+    }
+}

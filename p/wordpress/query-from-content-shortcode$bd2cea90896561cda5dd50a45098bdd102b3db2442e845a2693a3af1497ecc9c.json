@@ -1,0 +1,40 @@
+{
+    "packages": {
+        "wordpress\/query-from-content-shortcode": {
+            "0.1": {
+                "name": "wordpress\/query-from-content-shortcode",
+                "version": "0.1",
+                "version_normalized": "0.1.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/query-from-content-shortcode.0.1.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>Query from Content (QFC) is a simple shortcode plugin that allows you to target exactly the posts you're looking for and list them in your post content. Further, you can specify your own header, include your current CSS styles to format the list, specify the number of results, and even display thumbnails and excerpts.<\/p>\n\n<p>The most basic format of QFC shortcode would look like:<\/p>\n\n<p>[qfc]Here is a Basic List[\/qfc]<\/p>\n\n<p>The above shortcode would output a header reading \"Here is a Basic List\", below the header would be included your five latest posts, no formatting, no excerpt, no featured image. To customize your results, we can tell QFC to add some CSS as well as the posts' images and excerpts. That shortcode should be placed inside your post content like so:<\/p>\n\n<p>[qfc class=\"some-example-class\" id=\"some-example-id\" image=\"yes\" excerpt=\"yes\"]Some Bells and Whistles![\/qfc]<\/p>\n\n<p>Also, you can choose to add more than one CSS class or id to your results by adding id's and",
+                "uid": "17375"
+            },
+            "01": {
+                "name": "wordpress\/query-from-content-shortcode",
+                "version": "01",
+                "version_normalized": "01.0.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/query-from-content-shortcode.01.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>Query from Content (QFC) is a simple shortcode plugin that allows you to target exactly the posts you're looking for and list them in your post content. Further, you can specify your own header, include your current CSS styles to format the list, specify the number of results, and even display thumbnails and excerpts.<\/p>\n\n<p>The most basic format of QFC shortcode would look like:<\/p>\n\n<p>[qfc]Here is a Basic List[\/qfc]<\/p>\n\n<p>The above shortcode would output a header reading \"Here is a Basic List\", below the header would be included your five latest posts, no formatting, no excerpt, no featured image. To customize your results, we can tell QFC to add some CSS as well as the posts' images and excerpts. That shortcode should be placed inside your post content like so:<\/p>\n\n<p>[qfc class=\"some-example-class\" id=\"some-example-id\" image=\"yes\" excerpt=\"yes\"]Some Bells and Whistles![\/qfc]<\/p>\n\n<p>Also, you can choose to add more than one CSS class or id to your results by adding id's and",
+                "uid": "17374"
+            }
+        }
+    }
+}

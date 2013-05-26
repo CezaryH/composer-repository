@@ -1,0 +1,40 @@
+{
+    "packages": {
+        "wordpress\/auto-tweet": {
+            "2.0": {
+                "name": "wordpress\/auto-tweet",
+                "version": "2.0",
+                "version_normalized": "2.0.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/auto-tweet.2.0.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>Auto Tweet adds a check box to the Write Post editor (both the TinyMCE\/Visual Editor and the advanced editor).\nWhen this box is checked, publishing your post will also send the post to Twitter.\nIf a post is longer than 140 characters, it will be truncated.\nAuto Tweet creates a new column in the \"posts\" table of your database to mark which posts have already been submitted and will use that information to help prevent double-posting.<\/p>",
+                "uid": "108542"
+            },
+            "2.1": {
+                "name": "wordpress\/auto-tweet",
+                "version": "2.1",
+                "version_normalized": "2.1.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/auto-tweet.2.1.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>Auto Tweet adds a check box to the Write Post editor (both the TinyMCE\/Visual Editor and the advanced editor).\nWhen this box is checked, publishing your post will also send the post to Twitter.\nIf a post is longer than 140 characters, it will be truncated.\nAuto Tweet creates a new column in the \"posts\" table of your database to mark which posts have already been submitted and will use that information to help prevent double-posting.<\/p>",
+                "uid": "108541"
+            }
+        }
+    }
+}

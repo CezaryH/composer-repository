@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/harvest-reports": {
+            "1.0": {
+                "name": "wordpress\/harvest-reports",
+                "version": "1.0",
+                "version_normalized": "1.0.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/harvest-reports.1.0.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>If you use <a href=\"http:\/\/getharvest.com\/\">Harvest<\/a> to manage time tracking then you can easily show your current time tracking to other team members or your clients.<\/p>\n\n<p>You will need PHP5, because the plugin uses SimpleXML in PHP5 to parse the XML from the API.  Please visit the <a href=\"http:\/\/www.siolon.com\/2008\/harvest-reports-wordpress-plugin\/\">plugin page<\/a> for instructions on enabling PHP5 via your .htaccess.<\/p>",
+                "uid": "106062"
+            }
+        }
+    }
+}

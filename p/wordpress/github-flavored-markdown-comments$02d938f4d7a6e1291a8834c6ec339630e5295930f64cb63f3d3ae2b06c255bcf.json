@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/github-flavored-markdown-comments": {
+            "1.0": {
+                "name": "wordpress\/github-flavored-markdown-comments",
+                "version": "1.0",
+                "version_normalized": "1.0.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/github-flavored-markdown-comments.1.0.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>Comment forms allow some HTML, this plugin extends that to let users type in <a href=\"http:\/\/daringfireball.net\/projects\/markdown\/\">Markdown<\/a> and have it automatically converted to HTML.  It also extends Markdown with a couple features made popular <a href=\"https:\/\/github.com\/github\/github-flavored-markdown\">by GitHub<\/a>.  Conversion from Markdown to HTML is completely automated and doesn't require anything on the commenter's part.<\/p>\n\n<p>The feature additions from GitHub are:<\/p>\n\n<ul>\n<li>Single linebreaks are treated as new paragraphs<\/li>\n<li>Code \"fencing\" with three backticks (```)<\/li>\n<\/ul>\n\n<p>Two notable features from GitHub's Markdown implementation are missing:<\/p>\n\n<ul>\n<li>To do lists: Doing these well would require some front end interaction, which I decided is outside the scope of this plugin at least for now<\/li>\n<li>Repository autolinking (e.g. comments, issues, etc): These seemed a little <em>too<\/em> GitHub-specific.<\/li>\n<\/ul>\n\n<p>GitHub-Flavored Markdown C",
+                "uid": "10449"
+            }
+        }
+    }
+}

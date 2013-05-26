@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/wpmuldap": {
+            "4.0.2": {
+                "name": "wordpress\/wpmuldap",
+                "version": "4.0.2",
+                "version_normalized": "4.0.2.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/wpmuldap.4.0.2.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p><a href=\"http:\/\/wpmuldap.uservoice.com\/\" title=\"WPMU LDAP Authentication Feature Requests\">New Feature Request Site<\/a><\/p>\n\n<p><strong>Version 4.x introduces new installation instructions.<\/strong><\/p>\n\n<p>Once installed (see below for instructions), the system may be configured to automatically create local WordPress user accounts and blogs.  Both the automatic creation of users and the automatic creation of blogs are configurable options.<\/p>\n\n<p>LDAP authentication is configured on a site-wide (as opposed to per-blog) level, so only Network Admin accounts have access to the configuration to LDAP connection information.<\/p>\n\n<p>Please make sure you have PHP compiled with LDAP support.  This will show up as an LDAP section in your phpinfo() if it is correct.<\/p>\n\n<p>Remember - all the code for the plugin was contributed by volunteers, and you can show your gratitude by giving back to the community!<\/p>",
+                "uid": "23556"
+            }
+        }
+    }
+}

@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/bitly-retweet": {
+            "0.2": {
+                "name": "wordpress\/bitly-retweet",
+                "version": "0.2",
+                "version_normalized": "0.2.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/bitly-retweet.0.2.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p><em>Bit.ly Retweet<\/em> is a fine, high-performance and careful resource plugin with internal cache for Bit.ly shorten links.<\/p>\n\n<h4>Features<\/h4>\n\n<ul>\n<li>j.mp url support<\/li>\n<li>No database &#38; settings necessary<\/li>\n<li>Store the short Bit.ly link in the WordPress cache<\/li>\n<\/ul>\n\n<h4>Mode of operation<\/h4>\n\n<p>Add the function code <code>&#60;?php the_tweet_link() ?&#62;<\/code> to the desired location in your <code>single.php<\/code> template.<\/p>\n\n<h4>Example<\/h4>\n\n<pre><code>&#60;?php if (function_exists('the_tweet_link')) { ?&#62;\n  &#60;a href=\"&#60;?php the_tweet_link() ?&#62;\"&#62;ReTweet&#60;\/a&#62;\n&#60;?php } ?&#62;\n<\/code><\/pre>\n\n<p>Very simple.<\/p>\n\n<h4>Documentation<\/h4>\n\n<ul>\n<li><a href=\"http:\/\/playground.ebiene.de\/2188\/wordpress-tweet-this\/\" title=\"Bit.ly Retweet\"><em>Bit.ly Retweet<\/em> documentation in German<\/a><\/li>\n<li><a href=\"http:\/\/twitter.com\/wpSEO\" title=\"wpSEO on Twitter\">Follow us on Twitter for updates<\/a><\/li>\n<\/ul>",
+                "uid": "77811"
+            }
+        }
+    }
+}

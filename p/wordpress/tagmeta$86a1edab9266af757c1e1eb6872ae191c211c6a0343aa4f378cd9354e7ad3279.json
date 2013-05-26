@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/tagmeta": {
+            "1.1": {
+                "name": "wordpress\/tagmeta",
+                "version": "1.1",
+                "version_normalized": "1.1.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/tagmeta.1.1.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>TagMeta generates meta keywords using your most used tags.\nIt automatically gets the 10 most used tags out of your\nblog posts and pages and puts them into a valid meta-\nkeyword string. This string then appears in the header of\nthe home page of your theme. If you want to add tags per\npost, i suggest youre going to use the Headspace plugin.<\/p>",
+                "uid": "88836"
+            }
+        }
+    }
+}

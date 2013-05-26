@@ -1,0 +1,74 @@
+{
+    "packages": {
+        "wordpress\/no-sub-category-posts-in-loop": {
+            "0.1": {
+                "name": "wordpress\/no-sub-category-posts-in-loop",
+                "version": "0.1",
+                "version_normalized": "0.1.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/no-sub-category-posts-in-loop.0.1.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>Once activated, only posts from the current category are displayed in your loop (no posts from sub cats).\nThat's all it does. No options. If you find you need options, let me know and I'll build them into it.<\/p>\n\n<p>As of 0.4 I remove the filter after the main query is built so that it doesn't interfere with widgets.\nIf you have a custom query or call wp_query on a category archive template, you'll need to add and remove the filters before and after your query. Below is an example of how to do this if you use wp_query. Again, this is not necessary unless you have modified queries in a template file.<\/p>\n\n<pre><code>add_filter( &#039;posts_where&#039;, &#039;ft_nscp_mod_where&#039; );\nquery_posts( array( &#039;your-custom&#039; =&#62; &#039;args&#039; ) );\nremove_filter( &#039;posts_where&#039;, &#039;ft_nscp_mod_where&#039; );<\/code><\/pre>\n\n<p>Its important that you remove what you add.<\/p>",
+                "uid": "94324"
+            },
+            "0.2": {
+                "name": "wordpress\/no-sub-category-posts-in-loop",
+                "version": "0.2",
+                "version_normalized": "0.2.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/no-sub-category-posts-in-loop.0.2.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>Once activated, only posts from the current category are displayed in your loop (no posts from sub cats).\nThat's all it does. No options. If you find you need options, let me know and I'll build them into it.<\/p>\n\n<p>As of 0.4 I remove the filter after the main query is built so that it doesn't interfere with widgets.\nIf you have a custom query or call wp_query on a category archive template, you'll need to add and remove the filters before and after your query. Below is an example of how to do this if you use wp_query. Again, this is not necessary unless you have modified queries in a template file.<\/p>\n\n<pre><code>add_filter( &#039;posts_where&#039;, &#039;ft_nscp_mod_where&#039; );\nquery_posts( array( &#039;your-custom&#039; =&#62; &#039;args&#039; ) );\nremove_filter( &#039;posts_where&#039;, &#039;ft_nscp_mod_where&#039; );<\/code><\/pre>\n\n<p>Its important that you remove what you add.<\/p>",
+                "uid": "94322"
+            },
+            "0.3": {
+                "name": "wordpress\/no-sub-category-posts-in-loop",
+                "version": "0.3",
+                "version_normalized": "0.3.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/no-sub-category-posts-in-loop.0.3.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>Once activated, only posts from the current category are displayed in your loop (no posts from sub cats).\nThat's all it does. No options. If you find you need options, let me know and I'll build them into it.<\/p>\n\n<p>As of 0.4 I remove the filter after the main query is built so that it doesn't interfere with widgets.\nIf you have a custom query or call wp_query on a category archive template, you'll need to add and remove the filters before and after your query. Below is an example of how to do this if you use wp_query. Again, this is not necessary unless you have modified queries in a template file.<\/p>\n\n<pre><code>add_filter( &#039;posts_where&#039;, &#039;ft_nscp_mod_where&#039; );\nquery_posts( array( &#039;your-custom&#039; =&#62; &#039;args&#039; ) );\nremove_filter( &#039;posts_where&#039;, &#039;ft_nscp_mod_where&#039; );<\/code><\/pre>\n\n<p>Its important that you remove what you add.<\/p>",
+                "uid": "94321"
+            },
+            "0.4": {
+                "name": "wordpress\/no-sub-category-posts-in-loop",
+                "version": "0.4",
+                "version_normalized": "0.4.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/no-sub-category-posts-in-loop.0.4.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>Once activated, only posts from the current category are displayed in your loop (no posts from sub cats).\nThat's all it does. No options. If you find you need options, let me know and I'll build them into it.<\/p>\n\n<p>As of 0.4 I remove the filter after the main query is built so that it doesn't interfere with widgets.\nIf you have a custom query or call wp_query on a category archive template, you'll need to add and remove the filters before and after your query. Below is an example of how to do this if you use wp_query. Again, this is not necessary unless you have modified queries in a template file.<\/p>\n\n<pre><code>add_filter( &#039;posts_where&#039;, &#039;ft_nscp_mod_where&#039; );\nquery_posts( array( &#039;your-custom&#039; =&#62; &#039;args&#039; ) );\nremove_filter( &#039;posts_where&#039;, &#039;ft_nscp_mod_where&#039; );<\/code><\/pre>\n\n<p>Its important that you remove what you add.<\/p>",
+                "uid": "94319"
+            }
+        }
+    }
+}

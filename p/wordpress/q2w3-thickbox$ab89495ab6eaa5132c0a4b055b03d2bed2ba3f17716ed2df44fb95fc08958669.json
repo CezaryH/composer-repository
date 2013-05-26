@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/q2w3-thickbox": {
+            "1.1.2": {
+                "name": "wordpress\/q2w3-thickbox",
+                "version": "1.1.2",
+                "version_normalized": "1.1.2.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/q2w3-thickbox.1.1.2.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>Thickbox is a small javascript library for displaying images or other web content in a popup window. It is already bundled with Wordpress.\nYou may see how thickbox works on WordPress admin pages (all popup windows are thickbox-enabled there).<\/p>\n\n<p>This plugin allows you to enable thickbox for public WordPress pages.\nAs soon as plugin is installed, all your thumbnail images will be opened in popup window.\nWordPress galleries will also be thickbox supported, but in order to operate correctly, gallery shorttag should be used with link=&#34;file&#34; attribute ([&#160;gallery link=\"file\"&#160;]).\nIn gallery mode, popup window will have navigation links to next and previos images.<\/p>\n\n<p>Popup window title is taken from images \"alt\" attribute.<\/p>\n\n<p>What are the differences from other similar plugins?<\/p>\n\n<p>To enable thickbox window you must set class=\"thickbox\" attribute to a link element. \nI saw plugins with complex php functions to proccess post content for setting this attrib",
+                "uid": "77137"
+            }
+        }
+    }
+}

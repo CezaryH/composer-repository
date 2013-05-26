@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/tweet": {
+            "1.2": {
+                "name": "wordpress\/tweet",
+                "version": "1.2",
+                "version_normalized": "1.2.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/tweet.1.2.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>I wanted a quick and simple way to just automatically link to a Twitter userpage or Twitter search whenever I wrote them in a blog post.\nThe other plugins where full featured or only linked to the username in the sidebar or widget.\nWhenever you put an <code>@username<\/code> in a post, it will link to the matching twitter user page.\nWhenever you put a <code>#hashtag<\/code> in a post, it will link to the matching twitter search page.<\/p>",
+                "uid": "84335"
+            }
+        }
+    }
+}

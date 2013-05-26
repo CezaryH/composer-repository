@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/no2-htaccess-user-sync": {
+            "2.3": {
+                "name": "wordpress\/no2-htaccess-user-sync",
+                "version": "2.3",
+                "version_normalized": "2.3.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/no2-htaccess-user-sync.2.3.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>Description: This plugin syncs wordpress users with a .htusers file. Of course, this plugin is only compatible with Apache on Unix\/Linux. Optionaly, if the user is authenticated via htaccess, he will also get logged into the wordpress php session.<\/p>\n\n<p>This plugin was developed for an intranet site protected with an htaccess password.<\/p>",
+                "uid": "89257"
+            }
+        }
+    }
+}

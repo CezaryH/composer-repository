@@ -1,0 +1,91 @@
+{
+    "packages": {
+        "wordpress\/insitelogin": {
+            "0.3": {
+                "name": "wordpress\/insitelogin",
+                "version": "0.3",
+                "version_normalized": "0.3.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/insitelogin.0.3.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>This plugin insert the standard login procedure (login, logout, registration, password recovery) in a selected page of the site. This is made whith a few tricks:<\/p>\n\n<ul>\n<li><code>wp-login.php<\/code> is fully processed, and his output parsed replacing all links to <code>wp-login.php<\/code> with links to current page<\/li>\n<li>an \"init\" hook redirect to login page when <code>wp-login.php<\/code> is invoked<\/li>\n<li>a \"login_redirect\" filter send to login page on login and logout<\/li>\n<\/ul>\n\n<p>Login page can (and have to) be customized for logged in status: this is made through configuration subpanel under the Settings menu.<\/p>\n\n<p>From 0.6 version, the page for logged-in users contain a sidebar called \"insitelogin_sidebar\", placed <strong>after<\/strong> the text inserted into InsiteLogin options. Note that the generated sidebar will be parsed replacing any \"%%logout%%\" istance, so you can leave blank the option and use only the sidebar with a Text widget.<\/p>\n\n<p><strong>Pay attent",
+                "uid": "96901"
+            },
+            "0.4": {
+                "name": "wordpress\/insitelogin",
+                "version": "0.4",
+                "version_normalized": "0.4.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/insitelogin.0.4.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>This plugin insert the standard login procedure (login, logout, registration, password recovery) in a selected page of the site. This is made whith a few tricks:<\/p>\n\n<ul>\n<li><code>wp-login.php<\/code> is fully processed, and his output parsed replacing all links to <code>wp-login.php<\/code> with links to current page<\/li>\n<li>an \"init\" hook redirect to login page when <code>wp-login.php<\/code> is invoked<\/li>\n<li>a \"login_redirect\" filter send to login page on login and logout<\/li>\n<\/ul>\n\n<p>Login page can (and have to) be customized for logged in status: this is made through configuration subpanel under the Settings menu.<\/p>\n\n<p>From 0.6 version, the page for logged-in users contain a sidebar called \"insitelogin_sidebar\", placed <strong>after<\/strong> the text inserted into InsiteLogin options. Note that the generated sidebar will be parsed replacing any \"%%logout%%\" istance, so you can leave blank the option and use only the sidebar with a Text widget.<\/p>\n\n<p><strong>Pay attent",
+                "uid": "96899"
+            },
+            "0.5": {
+                "name": "wordpress\/insitelogin",
+                "version": "0.5",
+                "version_normalized": "0.5.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/insitelogin.0.5.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>This plugin insert the standard login procedure (login, logout, registration, password recovery) in a selected page of the site. This is made whith a few tricks:<\/p>\n\n<ul>\n<li><code>wp-login.php<\/code> is fully processed, and his output parsed replacing all links to <code>wp-login.php<\/code> with links to current page<\/li>\n<li>an \"init\" hook redirect to login page when <code>wp-login.php<\/code> is invoked<\/li>\n<li>a \"login_redirect\" filter send to login page on login and logout<\/li>\n<\/ul>\n\n<p>Login page can (and have to) be customized for logged in status: this is made through configuration subpanel under the Settings menu.<\/p>\n\n<p>From 0.6 version, the page for logged-in users contain a sidebar called \"insitelogin_sidebar\", placed <strong>after<\/strong> the text inserted into InsiteLogin options. Note that the generated sidebar will be parsed replacing any \"%%logout%%\" istance, so you can leave blank the option and use only the sidebar with a Text widget.<\/p>\n\n<p><strong>Pay attent",
+                "uid": "96897"
+            },
+            "0.6": {
+                "name": "wordpress\/insitelogin",
+                "version": "0.6",
+                "version_normalized": "0.6.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/insitelogin.0.6.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>This plugin insert the standard login procedure (login, logout, registration, password recovery) in a selected page of the site. This is made whith a few tricks:<\/p>\n\n<ul>\n<li><code>wp-login.php<\/code> is fully processed, and his output parsed replacing all links to <code>wp-login.php<\/code> with links to current page<\/li>\n<li>an \"init\" hook redirect to login page when <code>wp-login.php<\/code> is invoked<\/li>\n<li>a \"login_redirect\" filter send to login page on login and logout<\/li>\n<\/ul>\n\n<p>Login page can (and have to) be customized for logged in status: this is made through configuration subpanel under the Settings menu.<\/p>\n\n<p>From 0.6 version, the page for logged-in users contain a sidebar called \"insitelogin_sidebar\", placed <strong>after<\/strong> the text inserted into InsiteLogin options. Note that the generated sidebar will be parsed replacing any \"%%logout%%\" istance, so you can leave blank the option and use only the sidebar with a Text widget.<\/p>\n\n<p><strong>Pay attent",
+                "uid": "96895"
+            },
+            "0.7": {
+                "name": "wordpress\/insitelogin",
+                "version": "0.7",
+                "version_normalized": "0.7.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/insitelogin.0.7.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>This plugin insert the standard login procedure (login, logout, registration, password recovery) in a selected page of the site. This is made whith a few tricks:<\/p>\n\n<ul>\n<li><code>wp-login.php<\/code> is fully processed, and his output parsed replacing all links to <code>wp-login.php<\/code> with links to current page<\/li>\n<li>an \"init\" hook redirect to login page when <code>wp-login.php<\/code> is invoked<\/li>\n<li>a \"login_redirect\" filter send to login page on login and logout<\/li>\n<\/ul>\n\n<p>Login page can (and have to) be customized for logged in status: this is made through configuration subpanel under the Settings menu.<\/p>\n\n<p>From 0.6 version, the page for logged-in users contain a sidebar called \"insitelogin_sidebar\", placed <strong>after<\/strong> the text inserted into InsiteLogin options. Note that the generated sidebar will be parsed replacing any \"%%logout%%\" istance, so you can leave blank the option and use only the sidebar with a Text widget.<\/p>\n\n<p><strong>Pay attent",
+                "uid": "96893"
+            }
+        }
+    }
+}

@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/postlists": {
+            "2.0.2": {
+                "name": "wordpress\/postlists",
+                "version": "2.0.2",
+                "version_normalized": "2.0.2.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/postlists.2.0.2.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>This plugin is exactly what you need if you like to include a list of posts (latest posts, most commented posts, future posts, ...) in a page, post or widget very easy! This WordPress plugin provides placeholders for configurable dynamic lists of posts. The placeholders can be used in posts, pages or widgets, and will get replaced to the list of posts. Of course, it is also possible to use the lists directly in your template files. You can define the placeholders yourself and configure the list that should replace it.<\/p>\n\n<p>You can define multiple placeholders like %MYPLACEHOLDER%. \nFor each placeholder you can configure the list that replaces the placeholder if the page\/widget\/post gets viewed. \nYou can decide to list posts of a specific category, author or tag. You can configure how to order them or what status the post has to have for example. Of course you can set the maximum number of posts to display.\nYou can configure the html output for before and for after the list, custo",
+                "uid": "106841"
+            }
+        }
+    }
+}

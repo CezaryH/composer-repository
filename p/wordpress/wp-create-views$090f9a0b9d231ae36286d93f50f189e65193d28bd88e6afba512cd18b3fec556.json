@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/wp-create-views": {
+            "1.0": {
+                "name": "wordpress\/wp-create-views",
+                "version": "1.0",
+                "version_normalized": "1.0.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/wp-create-views.1.0.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>The Views plugin provides a flexible method for wordpress site designers to control how content of posts and comments are presented.\nThis tool is essentially a smart query builder that, given enough information, can build the proper query, execute it, and display the results.<\/p>\n\n<p>You need views if:\nYou like posts\/comments details to display the way you like.\nYou want a way to display most recent posts of some particular type.\nYou want to create post\/comments Links on your conditions.<\/p>\n\n<p>Example: \"Through the filter feature one can display only those posts which are posted by 'xyz' author, or posted before\/after a specific date such type of conditions are easily manageable.\" It gives the user an option to create a view for display posts and comments. This plugin also creates views for comments\/posts\/pages for display their links into the widget for sidebars.<\/p>",
+                "uid": "85197"
+            }
+        }
+    }
+}

@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/custom-fields-in-rss": {
+            "0.1": {
+                "name": "wordpress\/custom-fields-in-rss",
+                "version": "0.1",
+                "version_normalized": "0.1.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/custom-fields-in-rss.0.1.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>this plugin adds post custom fields in rss feed like this:<\/p>\n\n<pre><code>&#60;item&#62;\n...\n&#60;customfields&#62;\n&#60;key1&#62;value1&#60;\/key1&#62;\n&#60;key2&#62;value2&#60;\/key2&#62;\n...\n&#60;\/customfields&#62;\n...\n&#60;\/item&#62;<\/code><\/pre>",
+                "uid": "64273"
+            }
+        }
+    }
+}

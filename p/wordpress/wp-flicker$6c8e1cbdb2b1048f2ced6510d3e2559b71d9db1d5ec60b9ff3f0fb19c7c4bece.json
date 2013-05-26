@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/wp-flicker": {
+            "0.1": {
+                "name": "wordpress\/wp-flicker",
+                "version": "0.1",
+                "version_normalized": "0.1.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/wp-flicker.0.1.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>WP Flicker is a very easy to manage plugin to display nice Photo Gallery with flicker Images. You do not need any API key. Just use your Flicker User ID. WP Flicker will grab images from flicker feed. So you do not need to upload images on your server. You will a get shortcode with a lot of options and also a custom widget for single image gallery. PrettyPhoto jQuery plugin is used for image popup.<\/p>\n\n<p>Sample Usage:<\/p>\n\n<p>[flickergallery images='NUMBER_OF_IMAGE' flickerid=\"YOUR_FLICKER_USERID\"]<\/p>\n\n<p>Parameters:<\/p>\n\n<p>'images' : Number of image to display eg. 20\n'flickerid' : Your flicker ID, eg. 37304598@N02\n'theme'  : theme for image popup available form prettyphoto jQuery Plugin. You can use light_rounded, dark_rounded, dark_square, light_square, facebook\n'slideshow' : time of slideshow after popup, In milesecond eg.  6000,\n'imagesize' : Image size to display. 'small' and 'medium' available<\/p>\n\n<p>Simple Example:\n[flickergallery images='12' flickerid=\"83639076@N06\"]<\/p",
+                "uid": "11453"
+            }
+        }
+    }
+}

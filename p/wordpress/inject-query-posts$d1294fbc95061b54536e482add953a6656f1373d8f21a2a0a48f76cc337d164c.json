@@ -1,0 +1,125 @@
+{
+    "packages": {
+        "wordpress\/inject-query-posts": {
+            "2.0": {
+                "name": "wordpress\/inject-query-posts",
+                "version": "2.0",
+                "version_normalized": "2.0.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/inject-query-posts.2.0.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>Inject an array of posts into a WP query object as if queried, particularly useful to allow use of standard template tags.<\/p>\n\n<p>WordPress's template tags are intended to be used within 'the loop'.  The loop is managed by a WP_Query object which sets up various global variables and its own object variables for use by the various template tags.  The primary purpose of a WP_Query object is to actually query the database for the posts that match the currently specified criteria.  However, if you don't need to query for posts since you already have them by some other means, you can still take advantage of the template tags by injecting those posts into the WP_Query via this plugin.<\/p>\n\n<p>Depending on the template tags you are looking to use, or the logic you are hoping to employ within a loop, you may need to manually configure some of the query object's variables.<\/p>\n\n<p>Example:<\/p>\n\n<pre><code>&#60;?php \/\/ Say we&#039;re in the sidebar\n\n\/\/ We&#039;ve gotten some post object on o",
+                "uid": "61180"
+            },
+            "2.0.1": {
+                "name": "wordpress\/inject-query-posts",
+                "version": "2.0.1",
+                "version_normalized": "2.0.1.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/inject-query-posts.2.0.1.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>Inject an array of posts into a WP query object as if queried, particularly useful to allow use of standard template tags.<\/p>\n\n<p>WordPress's template tags are intended to be used within 'the loop'.  The loop is managed by a WP_Query object which sets up various global variables and its own object variables for use by the various template tags.  The primary purpose of a WP_Query object is to actually query the database for the posts that match the currently specified criteria.  However, if you don't need to query for posts since you already have them by some other means, you can still take advantage of the template tags by injecting those posts into the WP_Query via this plugin.<\/p>\n\n<p>Depending on the template tags you are looking to use, or the logic you are hoping to employ within a loop, you may need to manually configure some of the query object's variables.<\/p>\n\n<p>Example:<\/p>\n\n<pre><code>&#60;?php \/\/ Say we&#039;re in the sidebar\n\n\/\/ We&#039;ve gotten some post object on o",
+                "uid": "61179"
+            },
+            "2.0.2": {
+                "name": "wordpress\/inject-query-posts",
+                "version": "2.0.2",
+                "version_normalized": "2.0.2.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/inject-query-posts.2.0.2.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>Inject an array of posts into a WP query object as if queried, particularly useful to allow use of standard template tags.<\/p>\n\n<p>WordPress's template tags are intended to be used within 'the loop'.  The loop is managed by a WP_Query object which sets up various global variables and its own object variables for use by the various template tags.  The primary purpose of a WP_Query object is to actually query the database for the posts that match the currently specified criteria.  However, if you don't need to query for posts since you already have them by some other means, you can still take advantage of the template tags by injecting those posts into the WP_Query via this plugin.<\/p>\n\n<p>Depending on the template tags you are looking to use, or the logic you are hoping to employ within a loop, you may need to manually configure some of the query object's variables.<\/p>\n\n<p>Example:<\/p>\n\n<pre><code>&#60;?php \/\/ Say we&#039;re in the sidebar\n\n\/\/ We&#039;ve gotten some post object on o",
+                "uid": "61178"
+            },
+            "2.0.3": {
+                "name": "wordpress\/inject-query-posts",
+                "version": "2.0.3",
+                "version_normalized": "2.0.3.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/inject-query-posts.2.0.3.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>Inject an array of posts into a WP query object as if queried, particularly useful to allow use of standard template tags.<\/p>\n\n<p>WordPress's template tags are intended to be used within 'the loop'.  The loop is managed by a WP_Query object which sets up various global variables and its own object variables for use by the various template tags.  The primary purpose of a WP_Query object is to actually query the database for the posts that match the currently specified criteria.  However, if you don't need to query for posts since you already have them by some other means, you can still take advantage of the template tags by injecting those posts into the WP_Query via this plugin.<\/p>\n\n<p>Depending on the template tags you are looking to use, or the logic you are hoping to employ within a loop, you may need to manually configure some of the query object's variables.<\/p>\n\n<p>Example:<\/p>\n\n<pre><code>&#60;?php \/\/ Say we&#039;re in the sidebar\n\n\/\/ We&#039;ve gotten some post object on o",
+                "uid": "61177"
+            },
+            "2.0.4": {
+                "name": "wordpress\/inject-query-posts",
+                "version": "2.0.4",
+                "version_normalized": "2.0.4.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/inject-query-posts.2.0.4.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>Inject an array of posts into a WP query object as if queried, particularly useful to allow use of standard template tags.<\/p>\n\n<p>WordPress's template tags are intended to be used within 'the loop'.  The loop is managed by a WP_Query object which sets up various global variables and its own object variables for use by the various template tags.  The primary purpose of a WP_Query object is to actually query the database for the posts that match the currently specified criteria.  However, if you don't need to query for posts since you already have them by some other means, you can still take advantage of the template tags by injecting those posts into the WP_Query via this plugin.<\/p>\n\n<p>Depending on the template tags you are looking to use, or the logic you are hoping to employ within a loop, you may need to manually configure some of the query object's variables.<\/p>\n\n<p>Example:<\/p>\n\n<pre><code>&#60;?php \/\/ Say we&#039;re in the sidebar\n\n\/\/ We&#039;ve gotten some post object on o",
+                "uid": "61176"
+            },
+            "2.0.5": {
+                "name": "wordpress\/inject-query-posts",
+                "version": "2.0.5",
+                "version_normalized": "2.0.5.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/inject-query-posts.2.0.5.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>Inject an array of posts into a WP query object as if queried, particularly useful to allow use of standard template tags.<\/p>\n\n<p>WordPress's template tags are intended to be used within 'the loop'.  The loop is managed by a WP_Query object which sets up various global variables and its own object variables for use by the various template tags.  The primary purpose of a WP_Query object is to actually query the database for the posts that match the currently specified criteria.  However, if you don't need to query for posts since you already have them by some other means, you can still take advantage of the template tags by injecting those posts into the WP_Query via this plugin.<\/p>\n\n<p>Depending on the template tags you are looking to use, or the logic you are hoping to employ within a loop, you may need to manually configure some of the query object's variables.<\/p>\n\n<p>Example:<\/p>\n\n<pre><code>&#60;?php \/\/ Say we&#039;re in the sidebar\n\n\/\/ We&#039;ve gotten some post object on o",
+                "uid": "61175"
+            },
+            "2.1": {
+                "name": "wordpress\/inject-query-posts",
+                "version": "2.1",
+                "version_normalized": "2.1.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/inject-query-posts.2.1.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>Inject an array of posts into a WP query object as if queried, particularly useful to allow use of standard template tags.<\/p>\n\n<p>WordPress's template tags are intended to be used within 'the loop'.  The loop is managed by a WP_Query object which sets up various global variables and its own object variables for use by the various template tags.  The primary purpose of a WP_Query object is to actually query the database for the posts that match the currently specified criteria.  However, if you don't need to query for posts since you already have them by some other means, you can still take advantage of the template tags by injecting those posts into the WP_Query via this plugin.<\/p>\n\n<p>Depending on the template tags you are looking to use, or the logic you are hoping to employ within a loop, you may need to manually configure some of the query object's variables.<\/p>\n\n<p>Example:<\/p>\n\n<pre><code>&#60;?php \/\/ Say we&#039;re in the sidebar\n\n\/\/ We&#039;ve gotten some post object on o",
+                "uid": "61174"
+            }
+        }
+    }
+}

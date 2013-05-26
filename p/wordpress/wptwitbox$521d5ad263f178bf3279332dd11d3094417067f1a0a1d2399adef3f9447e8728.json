@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/wptwitbox": {
+            "0.5.1": {
+                "name": "wordpress\/wptwitbox",
+                "version": "0.5.1",
+                "version_normalized": "0.5.1.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/wptwitbox.0.5.1.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<h4>Twitter on WordPress<\/h4>\n\n<p>A collection of useful features designed for Twitter users. Most Twitter and Bit.ly features in one plugin.<\/p>\n\n<h4>Features<\/h4>\n\n<ul>\n<li>Twitter OAuth authentication<\/li>\n<li>Daily update for your twitter followers count<\/li>\n<li>Theme template: Display your twitter followers count via hook<\/li>\n<li>Auto Tweet: Twitter notification if new posts<\/li>\n<li>Convert links to Bit.ly links in incoming comments<\/li>\n<li>Keep post permalinks as cachable Bit.ly links<\/li>\n<li>Generate a \"Twit This\" link<\/li>\n<li>Option: Use J.mp instead of Bit.ly<\/li>\n<li>WordPress 3.0.x ready: Design as well as technical<\/li>\n<li>Clean up after uninstall the plugin<\/li>\n<\/ul>\n\n<h4>Template Output: Followers Count<\/h4>\n\n<pre><code>&#60;?php do_action(&#039;wptwitbox_followers_count&#039;); ?&#62;<\/code><\/pre>\n\n<p>Very simple.<\/p>\n\n<h4>Template Output: Twit This Link<\/h4>\n\n<pre><code>&#60;?php do_action(&#039;wptwitbox_tweet_link&#039;); ?&#62;<\/code><\/pre>\n\n<p>Very clear.<\/p",
+                "uid": "74484"
+            }
+        }
+    }
+}

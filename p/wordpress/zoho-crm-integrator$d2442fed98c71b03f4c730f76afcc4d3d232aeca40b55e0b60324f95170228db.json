@@ -1,0 +1,40 @@
+{
+    "packages": {
+        "wordpress\/zoho-crm-integrator": {
+            "1.0.0": {
+                "name": "wordpress\/zoho-crm-integrator",
+                "version": "1.0.0",
+                "version_normalized": "1.0.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/zoho-crm-integrator.1.0.0.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>A simple wordpress plugin to integrate Wordpress with Zoho CRM. This plugin will help you to insert a form in any page or post by inserting a short code \"[zoholead]\".\nPlugin supports the following fields in the form\nCompany,First Name,Last Name,Email,Title,Phone,Fax,Mobile,Comments.<\/p>\n\n<p>You can use the various attributes in the short code to enable the different features of the plugin.\nFor example to enable the recaptcha you can write the short code as  [zoholead recaptcha=\"enable\"].<\/p>\n\n<p>To send the form data to an email you can use the short code [zoholead sendemail=\"enable\" recaptcha=\"enable\"]<\/p>\n\n<p>By default it will display all the fields in the form. To show only particular fields, you can use the short code  [zoholead sendemail=\"enable\" recaptcha=\"enable\" fields=\"first_name,last_name,email,phone\"] where fields should contain the comma separated list of filed names. The various field names are company,first_name,last_name,email,title,phone,fax,mobile and comments.<\/p>",
+                "uid": "11834"
+            },
+            "1.1.0": {
+                "name": "wordpress\/zoho-crm-integrator",
+                "version": "1.1.0",
+                "version_normalized": "1.1.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/zoho-crm-integrator.1.1.0.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>A simple wordpress plugin to integrate Wordpress with Zoho CRM. This plugin will help you to insert a form in any page or post by inserting a short code \"[zoholead]\".\nPlugin supports the following fields in the form\nCompany,First Name,Last Name,Email,Title,Phone,Fax,Mobile,Comments.<\/p>\n\n<p>You can use the various attributes in the short code to enable the different features of the plugin.\nFor example to enable the recaptcha you can write the short code as  [zoholead recaptcha=\"enable\"].<\/p>\n\n<p>To send the form data to an email you can use the short code [zoholead sendemail=\"enable\" recaptcha=\"enable\"]<\/p>\n\n<p>By default it will display all the fields in the form. To show only particular fields, you can use the short code  [zoholead sendemail=\"enable\" recaptcha=\"enable\" fields=\"first_name,last_name,email,phone\"] where fields should contain the comma separated list of filed names. The various field names are company,first_name,last_name,email,title,phone,fax,mobile and comments.<\/p>",
+                "uid": "11833"
+            }
+        }
+    }
+}

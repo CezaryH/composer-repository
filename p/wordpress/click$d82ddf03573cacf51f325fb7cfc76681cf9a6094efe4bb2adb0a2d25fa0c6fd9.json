@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/click": {
+            "1.0": {
+                "name": "wordpress\/click",
+                "version": "1.0",
+                "version_normalized": "1.0.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/click.1.0.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>This plugin adds javascript to the end of every web page.\nIt then tracks and records the links visitors click on the pages you want it to. \nYou can then view where each visitor clicked to better enhance your website.\nClick can be seen by time of day\/week\/month and what browser type made the click.<\/p>",
+                "uid": "100710"
+            }
+        }
+    }
+}

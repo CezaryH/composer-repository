@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/wordpress-22-mailfix": {
+            "1.3": {
+                "name": "wordpress\/wordpress-22-mailfix",
+                "version": "1.3",
+                "version_normalized": "1.3.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/wordpress-22-mailfix.1.3.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>Fixes a bug in Wordpress 2.2 when sending HTML mails. Do not use this together with other mail-plugins like smtp-mail.<\/p>\n\n<p>If you installed Post Notification before October 2007 you probably already have got this plugin.<\/p>",
+                "uid": "109105"
+            }
+        }
+    }
+}

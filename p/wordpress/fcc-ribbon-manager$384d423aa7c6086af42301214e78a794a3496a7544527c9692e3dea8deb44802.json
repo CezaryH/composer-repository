@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/fcc-ribbon-manager": {
+            "0.2": {
+                "name": "wordpress\/fcc-ribbon-manager",
+                "version": "0.2",
+                "version_normalized": "0.2.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/fcc-ribbon-manager.0.2.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>The Ribbon Manager plugin give the ability to add a side ribbon on the blog without touching the template file or the css.\nPlease note that the plugin needs a theme with <code>wp_head();<\/code> and  <code>wp_footer();<\/code> enabled.<\/p>",
+                "uid": "110448"
+            }
+        }
+    }
+}

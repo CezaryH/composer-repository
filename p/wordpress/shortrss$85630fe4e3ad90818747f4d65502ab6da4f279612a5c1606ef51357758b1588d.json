@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/shortrss": {
+            "1.05": {
+                "name": "wordpress\/shortrss",
+                "version": "1.05",
+                "version_normalized": "1.05.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/shortrss.1.05.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>Reduce RSS-Content to a few words. Normaly 4 words are used, but you could configure at the option Page.<\/p>",
+                "uid": "83127"
+            }
+        }
+    }
+}

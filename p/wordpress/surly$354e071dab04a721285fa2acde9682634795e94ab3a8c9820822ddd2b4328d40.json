@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/surly": {
+            "1.0.3": {
+                "name": "wordpress\/surly",
+                "version": "1.0.3",
+                "version_normalized": "1.0.3.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/surly.1.0.3.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>Take a look at the <a href=\"http:\/\/sur.ly\/demo\/\">Plugin demo<\/a>.<\/p>\n\n<p>Sur.ly plugin protects your outbound links in comments and post (configurable) by replacing them with safe links. \nOnce a visitor clicks on a replaced link, he will be directed to a special interstitial page on <a href=\"http:\/\/sur.ly\">Sur.ly<\/a>. <a href=\"http:\/\/sur.ly\">Sur.ly<\/a> analyzes the target page and warns the visitor about any potential threats or adult content.<\/p>\n\n<p>Links published by users can be too long or contain some bad words. Optionally Sur.ly plugin allows to shorten links \nby replacing them with alphanumeric identifiers that look neat and convenient.<\/p>\n\n<p>Please note that additional request to <a href=\"http:\/\/sur.ly\">Sur.ly<\/a> will be sent when link shortening is enabled.<\/p>",
+                "uid": "12717"
+            }
+        }
+    }
+}

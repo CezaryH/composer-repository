@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/server-down": {
+            "1.0.9": {
+                "name": "wordpress\/server-down",
+                "version": "1.0.9",
+                "version_normalized": "1.0.9.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/server-down.1.0.9.1.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>This is a Webservice to test if your webservers return state 200. The service will send a notification email in worst case.<\/p>",
+                "uid": "52140"
+            }
+        }
+    }
+}

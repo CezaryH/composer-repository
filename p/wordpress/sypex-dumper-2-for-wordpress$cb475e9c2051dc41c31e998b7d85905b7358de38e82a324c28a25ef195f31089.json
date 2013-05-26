@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/sypex-dumper-2-for-wordpress": {
+            "1.0": {
+                "name": "wordpress\/sypex-dumper-2-for-wordpress",
+                "version": "1.0",
+                "version_normalized": "1.0.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/sypex-dumper-2-for-wordpress.1.0.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>Plugin integrates Sypex Dumper 2 in WordPress. Which can help you create a backup and restore of your MySQL database.\nSypex Dumper, unlike many similar scripts (plugins), is optimized for maximum performance, as well as for working with large databases of hundreds or thousands of megabytes.\nKey features, briefly: backup and restore of MySQL database without using third-party programs, just pure PHP; impressive performance; support for two formats file compression (Gzip and Bzip2); friendly Web 2.0 interface with AJAX; work in several stages (to bypass the time restrictions);  special file format with the meta-information; MySQL service functions (check, optimize, repair);  smart backup with post-processing.<\/p>\n\n<p>Sypex Dumper can work independently of WordPress, just go to the <code>wordpress\/sxd\/<\/code> and enter the MySQL Username and password.<\/p>",
+                "uid": "73022"
+            }
+        }
+    }
+}

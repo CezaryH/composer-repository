@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/wp-email-reminder": {
+            "0.2": {
+                "name": "wordpress\/wp-email-reminder",
+                "version": "0.2",
+                "version_normalized": "0.2.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/wp-email-reminder.0.2.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>WP Email Reminder adds a menu under the settings section that enables you to send emails with confirmation links to your temp member (i.e. people who forgot to complete their registration by clicking on the link sent by <a href=\"http:\/\/wpemailcapture.com\/\" title=\"WP Email Capture\">WP Email Capture<\/a>).<\/p>\n\n<p>Functionalities :<\/p>\n\n<ul>\n<li>choice between plain text or html email<\/li>\n<li>free selection of the recipients<\/li>\n<li>possibility of saving email templates for later use<\/li>\n<li>optional database cleanup<\/li>\n<\/ul>\n\n<p>Restrictions :<\/p>\n\n<ul>\n<li>this plugin makes sense only if you already use WP Email Capture on your blog<\/li>\n<li>to prevent spamming, no more than two reminders can to be send to the same recipient<\/li>\n<\/ul>",
+                "uid": "16562"
+            }
+        }
+    }
+}

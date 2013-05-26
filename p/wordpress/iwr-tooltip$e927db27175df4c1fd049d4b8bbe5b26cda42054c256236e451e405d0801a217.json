@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/iwr-tooltip": {
+            "1.0": {
+                "name": "wordpress\/iwr-tooltip",
+                "version": "1.0",
+                "version_normalized": "1.0.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/iwr-tooltip.1.0.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>iWR tooltip plugin lets you add tooltips to your post or page or in your template file via a shortcode \n[iwrtooltip title=\"this will show in a tooltip\"]hover over me to see tooltip[\/iwrtooltip] or via a HTML Tag\n&#60;a class=\"normalTip\" title=\"this will show in a tooltip\" href=\"#\"&#62;hover over me to see tooltip&#60;\/a&#62;<\/p>",
+                "uid": "11903"
+            }
+        }
+    }
+}

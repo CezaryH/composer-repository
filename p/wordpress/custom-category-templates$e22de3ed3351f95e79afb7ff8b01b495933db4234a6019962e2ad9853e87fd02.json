@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/custom-category-templates": {
+            "0.2": {
+                "name": "wordpress\/custom-category-templates",
+                "version": "0.2",
+                "version_normalized": "0.2.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/custom-category-templates.0.2.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>Just like the way you can create custom page templates, this plugin enables you to build category archive templates by adding this bit to the top of your file:<\/p>\n\n<pre><code>&#60;?php\n\/**\n * Category Template: Grid\n *\/\n?&#62;<\/code><\/pre>\n\n<p>and when you're adding or editing categories, you can choose the desired template file.<\/p>\n\n<p>You can safely include this plugin in your theme and ship custom templates for categories with the theme.<\/p>",
+                "uid": "34443"
+            }
+        }
+    }
+}

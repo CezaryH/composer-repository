@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/remove-prototype": {
+            "1.0": {
+                "name": "wordpress\/remove-prototype",
+                "version": "1.0",
+                "version_normalized": "1.0.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/remove-prototype.1.0.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>Removes the annoying prototype.js call from wp_head().\nThis is only to be used if prototype.js is unnecessarily included in wp_head() (hint: look at the source).\nRemoving the prototype.js call from wp_head may break some plugin functionality.\nUse with caution.<\/p>\n\n<p><a href=\"http:\/\/forum.john010117.com\/\">Support<\/a> &#124;<\/p>",
+                "uid": "97179"
+            }
+        }
+    }
+}

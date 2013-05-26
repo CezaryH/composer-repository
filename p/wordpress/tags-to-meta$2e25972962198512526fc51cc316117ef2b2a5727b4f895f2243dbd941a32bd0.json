@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/tags-to-meta": {
+            "1.0": {
+                "name": "wordpress\/tags-to-meta",
+                "version": "1.0",
+                "version_normalized": "1.0.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/tags-to-meta.1.0.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>Puts the category and tags of the post in the meta keywords tag in the html to increase SEO compatability.  If not tags are found, the full list of tags on the site are used.<\/p>",
+                "uid": "61665"
+            }
+        }
+    }
+}

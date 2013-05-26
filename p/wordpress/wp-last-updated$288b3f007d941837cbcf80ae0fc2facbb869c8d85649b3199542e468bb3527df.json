@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/wp-last-updated": {
+            "0.1": {
+                "name": "wordpress\/wp-last-updated",
+                "version": "0.1",
+                "version_normalized": "0.1.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/wp-last-updated.0.1.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>The shortcode to display when your site was last updated is [WPlastupdated text = \"\"] where you can enter any text in the \"\". Built by <a href=\"http:\/\/epicplugins.com\">Epic Plugins<\/a><\/p>",
+                "uid": "8900"
+            }
+        }
+    }
+}

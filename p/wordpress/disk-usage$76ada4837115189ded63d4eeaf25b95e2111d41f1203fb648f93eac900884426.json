@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/disk-usage": {
+            "2.0": {
+                "name": "wordpress\/disk-usage",
+                "version": "2.0",
+                "version_normalized": "2.0.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/disk-usage.2.0.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>Your webspace is overquota? Your backup files have grown massively?\nWant to know where the really big files are hidden? \nThis Plugin is a frontend for the Unix du command.<\/p>",
+                "uid": "110875"
+            }
+        }
+    }
+}

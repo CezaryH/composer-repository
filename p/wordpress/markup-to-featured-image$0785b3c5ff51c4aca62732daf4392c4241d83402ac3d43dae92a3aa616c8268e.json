@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/markup-to-featured-image": {
+            "1.0.0": {
+                "name": "wordpress\/markup-to-featured-image",
+                "version": "1.0.0",
+                "version_normalized": "1.0.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/markup-to-featured-image.1.0.0.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>Markup to Featured Image will automatically generate a featured image when you publish a post, with the intent of allowing you to publish posts with featured images from third-party clients like MarsEdit.<\/p>\n\n<p>To add a featured image to your post, include one of the following markup variants in your post's content:<\/p>\n\n<pre><code>&#60;img src=\"\/path\/to\/image.jpg\" data-featured-image=\"keep\" \/&#62;\n&#60;img src=\"\/path\/to\/image.jpg\" data-featured-image=\"strip\" \/&#62;\n&#60;!--featured-image:\/path\/to\/image\/.jpg--&#62;\n<\/code><\/pre>\n\n<p>If you use an <code>&#60;img&#62;<\/code> element, the values of the <code>data-featured-image<\/code> attribute specify whether the image should be displayed when the post is shown on your site (<code>keep<\/code>) or ignored when the post is displayed (<code>strip<\/code>). The order of attributes in your <code>&#60;img&#62;<\/code> tag (and whether you include other attributes, like width\/height, title, alt, etc.) doesn't matter. You can make it as compl",
+                "uid": "16785"
+            }
+        }
+    }
+}

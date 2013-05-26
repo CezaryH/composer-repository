@@ -1,0 +1,74 @@
+{
+    "packages": {
+        "wordpress\/single-post-widget": {
+            "0.1.0": {
+                "name": "wordpress\/single-post-widget",
+                "version": "0.1.0",
+                "version_normalized": "0.1.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/single-post-widget.0.1.0.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>Display single post from url on sidebar widget.<\/p>\n\n<p><a href=\"https:\/\/github.com\/miya0001\/single-post-widget\">This plugin maintained on GitHub.<\/a><\/p>\n\n<h4>Some features:<\/h4>\n\n<ul>\n<li>Display single post from url on sidebar widget.<\/li>\n<li>You can customize HTML output.<\/li>\n<li>You can customize default HTML template on your plugin.<\/li>\n<\/ul>\n\n<h4>filter hooks example<\/h4>\n\n<p>Filter for default template.<\/p>\n\n<pre><code>&#60;?php\n    add_filter(&#34;single-post-widget-template&#34;, &#34;my_template&#34;);\n    function my_template($template) {\n        return &#039;&#60;div class=&#34;%class%&#34;&#62;&#60;a href=&#34;%post_url%&#34;&#62;%post_thumb%&#60;\/a&#62;&#60;\/div&#62;&#039;;\n    }\n?&#62;<\/code><\/pre>\n\n<p>Filter for stylesheet URI.<\/p>\n\n<pre><code>&#60;?php\n    add_filter(&#34;single-post-widget-stylesheet&#34;, &#34;my_style&#34;);\n    function my_style($url) {\n        return &#039;http:\/\/example.com\/path\/to\/style.css&#039;;\n    }\n?&#62;<\/code><\/pre>\n\n<h4>Translator",
+                "uid": "37764"
+            },
+            "0.2.0": {
+                "name": "wordpress\/single-post-widget",
+                "version": "0.2.0",
+                "version_normalized": "0.2.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/single-post-widget.0.2.0.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>Display single post from url on sidebar widget.<\/p>\n\n<p><a href=\"https:\/\/github.com\/miya0001\/single-post-widget\">This plugin maintained on GitHub.<\/a><\/p>\n\n<h4>Some features:<\/h4>\n\n<ul>\n<li>Display single post from url on sidebar widget.<\/li>\n<li>You can customize HTML output.<\/li>\n<li>You can customize default HTML template on your plugin.<\/li>\n<\/ul>\n\n<h4>filter hooks example<\/h4>\n\n<p>Filter for default template.<\/p>\n\n<pre><code>&#60;?php\n    add_filter(&#34;single-post-widget-template&#34;, &#34;my_template&#34;);\n    function my_template($template) {\n        return &#039;&#60;div class=&#34;%class%&#34;&#62;&#60;a href=&#34;%post_url%&#34;&#62;%post_thumb%&#60;\/a&#62;&#60;\/div&#62;&#039;;\n    }\n?&#62;<\/code><\/pre>\n\n<p>Filter for stylesheet URI.<\/p>\n\n<pre><code>&#60;?php\n    add_filter(&#34;single-post-widget-stylesheet&#34;, &#34;my_style&#34;);\n    function my_style($url) {\n        return &#039;http:\/\/example.com\/path\/to\/style.css&#039;;\n    }\n?&#62;<\/code><\/pre>\n\n<h4>Translator",
+                "uid": "37763"
+            },
+            "0.3.0": {
+                "name": "wordpress\/single-post-widget",
+                "version": "0.3.0",
+                "version_normalized": "0.3.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/single-post-widget.0.3.0.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>Display single post from url on sidebar widget.<\/p>\n\n<p><a href=\"https:\/\/github.com\/miya0001\/single-post-widget\">This plugin maintained on GitHub.<\/a><\/p>\n\n<h4>Some features:<\/h4>\n\n<ul>\n<li>Display single post from url on sidebar widget.<\/li>\n<li>You can customize HTML output.<\/li>\n<li>You can customize default HTML template on your plugin.<\/li>\n<\/ul>\n\n<h4>filter hooks example<\/h4>\n\n<p>Filter for default template.<\/p>\n\n<pre><code>&#60;?php\n    add_filter(&#34;single-post-widget-template&#34;, &#34;my_template&#34;);\n    function my_template($template) {\n        return &#039;&#60;div class=&#34;%class%&#34;&#62;&#60;a href=&#34;%post_url%&#34;&#62;%post_thumb%&#60;\/a&#62;&#60;\/div&#62;&#039;;\n    }\n?&#62;<\/code><\/pre>\n\n<p>Filter for stylesheet URI.<\/p>\n\n<pre><code>&#60;?php\n    add_filter(&#34;single-post-widget-stylesheet&#34;, &#34;my_style&#34;);\n    function my_style($url) {\n        return &#039;http:\/\/example.com\/path\/to\/style.css&#039;;\n    }\n?&#62;<\/code><\/pre>\n\n<h4>Translator",
+                "uid": "37762"
+            },
+            "0.4.0": {
+                "name": "wordpress\/single-post-widget",
+                "version": "0.4.0",
+                "version_normalized": "0.4.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/single-post-widget.0.4.0.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>Display single post from url on sidebar widget.<\/p>\n\n<p><a href=\"https:\/\/github.com\/miya0001\/single-post-widget\">This plugin maintained on GitHub.<\/a><\/p>\n\n<h4>Some features:<\/h4>\n\n<ul>\n<li>Display single post from url on sidebar widget.<\/li>\n<li>You can customize HTML output.<\/li>\n<li>You can customize default HTML template on your plugin.<\/li>\n<\/ul>\n\n<h4>filter hooks example<\/h4>\n\n<p>Filter for default template.<\/p>\n\n<pre><code>&#60;?php\n    add_filter(&#34;single-post-widget-template&#34;, &#34;my_template&#34;);\n    function my_template($template) {\n        return &#039;&#60;div class=&#34;%class%&#34;&#62;&#60;a href=&#34;%post_url%&#34;&#62;%post_thumb%&#60;\/a&#62;&#60;\/div&#62;&#039;;\n    }\n?&#62;<\/code><\/pre>\n\n<p>Filter for stylesheet URI.<\/p>\n\n<pre><code>&#60;?php\n    add_filter(&#34;single-post-widget-stylesheet&#34;, &#34;my_style&#34;);\n    function my_style($url) {\n        return &#039;http:\/\/example.com\/path\/to\/style.css&#039;;\n    }\n?&#62;<\/code><\/pre>\n\n<h4>Translator",
+                "uid": "37761"
+            }
+        }
+    }
+}

@@ -1,0 +1,40 @@
+{
+    "packages": {
+        "wordpress\/memcached-redux": {
+            "0.1": {
+                "name": "wordpress\/memcached-redux",
+                "version": "0.1",
+                "version_normalized": "0.1.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/memcached-redux.0.1.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>Changes the famous Memcached WP Object Cache backend to actually use the Memcached class (not the Memcache class). Implements wp_cache_get_multi() and wp_cache_set_multi()<\/p>\n\n<pre><code>wp_cache_get_multi( array(\n    array( &#039;key&#039;, &#039;group&#039; ),\n    array( &#039;key&#039;, &#039;&#039; ),\n    array( &#039;key&#039;, &#039;group&#039; ),\n    &#039;key&#039;\n) );\n\nwp_cache_set_multi( array(\n    array( &#039;key&#039;, &#039;data&#039;, &#039;group&#039; ),\n    array( &#039;key&#039;, &#039;data&#039; )\n) );<\/code><\/pre>\n\n<p>Blog Post: <a href=\"http:\/\/scotty-t.com\/2012\/06\/05\/memcached-redux\/\">http:\/\/scotty-t.com\/2012\/06\/05\/memcached-redux\/<\/a><\/p>",
+                "uid": "23689"
+            },
+            "0.1.1": {
+                "name": "wordpress\/memcached-redux",
+                "version": "0.1.1",
+                "version_normalized": "0.1.1.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/memcached-redux.0.1.1.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>Changes the famous Memcached WP Object Cache backend to actually use the Memcached class (not the Memcache class). Implements wp_cache_get_multi() and wp_cache_set_multi()<\/p>\n\n<pre><code>wp_cache_get_multi( array(\n    array( &#039;key&#039;, &#039;group&#039; ),\n    array( &#039;key&#039;, &#039;&#039; ),\n    array( &#039;key&#039;, &#039;group&#039; ),\n    &#039;key&#039;\n) );\n\nwp_cache_set_multi( array(\n    array( &#039;key&#039;, &#039;data&#039;, &#039;group&#039; ),\n    array( &#039;key&#039;, &#039;data&#039; )\n) );<\/code><\/pre>\n\n<p>Blog Post: <a href=\"http:\/\/scotty-t.com\/2012\/06\/05\/memcached-redux\/\">http:\/\/scotty-t.com\/2012\/06\/05\/memcached-redux\/<\/a><\/p>",
+                "uid": "23688"
+            }
+        }
+    }
+}

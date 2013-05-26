@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/publicidad": {
+            "1.0": {
+                "name": "wordpress\/publicidad",
+                "version": "1.0",
+                "version_normalized": "1.0.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/publicidad.1.0.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>Gestiona los clicks de las publicidades de tu sito, colocandole un simple link que redirecciona a la web del \ncliente pero reconoce los clicks que se realicen en la publicidades que coloques en tu sitio.<\/p>",
+                "uid": "37690"
+            }
+        }
+    }
+}

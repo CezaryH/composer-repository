@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/mq-permalinks": {
+            "0.1.4": {
+                "name": "wordpress\/mq-permalinks",
+                "version": "0.1.4",
+                "version_normalized": "0.1.4.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/mq-permalinks.0.1.4.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>MQ Permalinks is a plugin for the wordpress blog to make permalinks modification-secure. Changing blog name, page name or category slug creates broken links on external pages because the url for a specific page is changed.<\/p>\n\n<p>MQPermalinks plugin creates modification-secure permalinks as follows:<\/p>\n\n<ul>\n<li>p57-postname<\/li>\n<li>a88-pagename<\/li>\n<li>c2-categoryslug<\/li>\n<\/ul>\n\n<p>Even if the names are modified for SEO reasons, older links will stay valid. Furthermore, if the page structure is modified, the permalinks for pages stay the same.<\/p>\n\n<p>Example:<\/p>\n\n<p>Above link urls can be uptimized for <em>keyword<\/em> as follows, leaving the old links still working:<\/p>\n\n<ul>\n<li>p57-<em>keyword<\/em>-postname<\/li>\n<li>a88-<em>keyword<\/em>-pagename<\/li>\n<li>c2-<em>keyword<\/em>-categoryslug<\/li>\n<\/ul>\n\n<p>Note:<\/p>\n\n<p>Changing a post name, page name or category slug, creates a new URL with identical content. Wordpress, however, includes a canonical link into the head section",
+                "uid": "9429"
+            }
+        }
+    }
+}

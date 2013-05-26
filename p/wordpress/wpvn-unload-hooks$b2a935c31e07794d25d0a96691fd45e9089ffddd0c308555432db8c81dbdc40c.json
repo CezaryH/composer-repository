@@ -1,0 +1,57 @@
+{
+    "packages": {
+        "wordpress\/wpvn-unload-hooks": {
+            "0.9": {
+                "name": "wordpress\/wpvn-unload-hooks",
+                "version": "0.9",
+                "version_normalized": "0.9.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/wpvn-unload-hooks.0.9.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p><em>This plugin is destined to advanced users.<\/em><\/p>\n\n<p><em>How to use?<\/em><\/p>\n\n<p>You just need to activate the plugin. Nothing changes for this release.\nYou have now two additional functions:\ncr_hook_remove($hooks_to_find = array(), $exact = false, $display = true, $detail = false)\ncr_hook_list($hookname = array(), $display = true, $detail = false) {<\/p>\n\n<p>These functions are case-sensitive for actions\/filters' names.<\/p>\n\n<p>The function to remove actions\/filters (cr_hook_remove) you should call before the hooked is made, or you cannot remove it. The best place is in functions.php of the theme, or even better, directly in the plugin file 'wpvn-unload-hooks.php'. (Be aware that calling in the plugin file should not print any output or you will mess up with Response HTTP header).\nThe function to list hooks and hooked actions\/filters, you can call anywhere you want.<\/p>\n\n<p><em>Example<\/em><\/p>\n\n<p>cr_hook_list(); shows you everything.\ncr_hook_list('wp_head'); shows you acti",
+                "uid": "89559"
+            },
+            "0.9.1": {
+                "name": "wordpress\/wpvn-unload-hooks",
+                "version": "0.9.1",
+                "version_normalized": "0.9.1.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/wpvn-unload-hooks.0.9.1.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p><em>This plugin is destined to advanced users.<\/em><\/p>\n\n<p><em>How to use?<\/em><\/p>\n\n<p>You just need to activate the plugin. Nothing changes for this release.\nYou have now two additional functions:\ncr_hook_remove($hooks_to_find = array(), $exact = false, $display = true, $detail = false)\ncr_hook_list($hookname = array(), $display = true, $detail = false) {<\/p>\n\n<p>These functions are case-sensitive for actions\/filters' names.<\/p>\n\n<p>The function to remove actions\/filters (cr_hook_remove) you should call before the hooked is made, or you cannot remove it. The best place is in functions.php of the theme, or even better, directly in the plugin file 'wpvn-unload-hooks.php'. (Be aware that calling in the plugin file should not print any output or you will mess up with Response HTTP header).\nThe function to list hooks and hooked actions\/filters, you can call anywhere you want.<\/p>\n\n<p><em>Example<\/em><\/p>\n\n<p>cr_hook_list(); shows you everything.\ncr_hook_list('wp_head'); shows you acti",
+                "uid": "89557"
+            },
+            "0.9.2": {
+                "name": "wordpress\/wpvn-unload-hooks",
+                "version": "0.9.2",
+                "version_normalized": "0.9.2.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/wpvn-unload-hooks.0.9.2.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p><em>This plugin is destined to advanced users.<\/em><\/p>\n\n<p><em>How to use?<\/em><\/p>\n\n<p>You just need to activate the plugin. Nothing changes for this release.\nYou have now two additional functions:\ncr_hook_remove($hooks_to_find = array(), $exact = false, $display = true, $detail = false)\ncr_hook_list($hookname = array(), $display = true, $detail = false) {<\/p>\n\n<p>These functions are case-sensitive for actions\/filters' names.<\/p>\n\n<p>The function to remove actions\/filters (cr_hook_remove) you should call before the hooked is made, or you cannot remove it. The best place is in functions.php of the theme, or even better, directly in the plugin file 'wpvn-unload-hooks.php'. (Be aware that calling in the plugin file should not print any output or you will mess up with Response HTTP header).\nThe function to list hooks and hooked actions\/filters, you can call anywhere you want.<\/p>\n\n<p><em>Example<\/em><\/p>\n\n<p>cr_hook_list(); shows you everything.\ncr_hook_list('wp_head'); shows you acti",
+                "uid": "89556"
+            }
+        }
+    }
+}

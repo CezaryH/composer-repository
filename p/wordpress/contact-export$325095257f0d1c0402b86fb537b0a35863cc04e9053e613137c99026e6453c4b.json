@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/contact-export": {
+            "1.5.0": {
+                "name": "wordpress\/contact-export",
+                "version": "1.5.0",
+                "version_normalized": "1.5.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/contact-export.1.5.0.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>This is a export plugin for the metainformation of every single post. You can select a category \nor search in the front panel and than you can download your choosen posts.<\/p>\n\n<p>For this Plugin is Flutter or Pods(perhaps in the future ;) ) very usefull. You can build a bridge between a wordpress CRM \nand Outlook, Thunderbird or other mail clients. But word for massmails are useful too.<\/p>\n\n<p>I'll try a Apache Camel integration as autmatic bridge between the systems next time.<\/p>",
+                "uid": "39628"
+            }
+        }
+    }
+}

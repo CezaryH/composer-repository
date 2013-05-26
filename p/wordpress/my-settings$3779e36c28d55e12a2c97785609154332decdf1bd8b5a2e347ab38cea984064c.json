@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/my-settings": {
+            "1.0": {
+                "name": "wordpress\/my-settings",
+                "version": "1.0",
+                "version_normalized": "1.0.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/my-settings.1.0.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>My Settings allows you to change default settings and change display of your site content.<\/p>\n\n<p>Features include:<\/p>\n\n<ol>\n<li><p>you can change default email settings of wordpress like sender name and from email.<\/p><\/li>\n<li><p>you can add custom login url and change redirect url after login and logout.<\/p><\/li>\n<li><p>you can hide plugin and theme editor from sub menu so that no one can change and see your theme and plugin files from admin.<\/p><\/li>\n<li><p>you can also highlight all the tags and post specific tags in the post and page descriptions which is affected by the_excerpt() and the_content() related functions.<\/p><\/li>\n<li><p>you can apply your custom html which apply before and after tags to highlight the tag.<\/p><\/li>\n<li><p>you can add the footer text which is shown through wp_footer() function.<\/p><\/li>\n<li><p>you can hide the admin tool bar for all users at front side.<\/p><\/li>\n<\/ol>\n\n<p>Note: This is the first version of this plugin so, there is very good featur",
+                "uid": "21048"
+            }
+        }
+    }
+}

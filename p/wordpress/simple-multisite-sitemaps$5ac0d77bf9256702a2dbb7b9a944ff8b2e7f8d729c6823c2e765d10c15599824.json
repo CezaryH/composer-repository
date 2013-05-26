@@ -1,0 +1,40 @@
+{
+    "packages": {
+        "wordpress\/simple-multisite-sitemaps": {
+            "1.0": {
+                "name": "wordpress\/simple-multisite-sitemaps",
+                "version": "1.0",
+                "version_normalized": "1.0.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/simple-multisite-sitemaps.1.0.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>This plugin, once activated, generates a sitemap.xml on-the-fly for every site in a multisite network. The sitemap of every site in the multisite only contains location entries which are related to that particular site. The individual sitemaps don't contain traces to other pages in the same network.<\/p>",
+                "uid": "19242"
+            },
+            "1.1": {
+                "name": "wordpress\/simple-multisite-sitemaps",
+                "version": "1.1",
+                "version_normalized": "1.1.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/simple-multisite-sitemaps.1.1.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>This plugin, once activated, generates a sitemap.xml on-the-fly for every site in a multisite network. The sitemap of every site in the multisite only contains location entries which are related to that particular site. The individual sitemaps don't contain traces to other pages in the same network.<\/p>",
+                "uid": "19241"
+            }
+        }
+    }
+}

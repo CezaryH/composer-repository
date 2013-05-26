@@ -1,0 +1,40 @@
+{
+    "packages": {
+        "wordpress\/smartlines": {
+            "1.0": {
+                "name": "wordpress\/smartlines",
+                "version": "1.0",
+                "version_normalized": "1.0.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/smartlines.1.0.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>Smartlines inserts HTML break elements inside paragraph text when a user has put the text on a new line and paragraph elements inside blockquotes.<\/p>\n\n<p>By default, WordPress will insert HTML paragraph elements when text is separated by a new line. But what if the user does not want a new paragraph but instead just wants a new line? Smartlines replaces single lines with break elements within a block of paragraph text. Because it only searches within blocks of paragraph text it does not unnecessary break elements.<\/p>\n\n<p>Similarly, WordPress does not insert paragraph elements into blockquotes (has this always been the case?). This can be confusing for the user since it will display in the visual editor that they are present. Smartlines adds them.<\/p>\n\n<p>Smartlines incorporates version 1.1 of the Simple HTML DOM parser (<a href=\"http:\/\/sourceforge.net\/projects\/simplehtmldom\/\" rel=\"nofollow\">http:\/\/sourceforge.net\/projects\/simplehtmldom\/<\/a>). Smartlines performs a simple check to ",
+                "uid": "63712"
+            },
+            "1.1": {
+                "name": "wordpress\/smartlines",
+                "version": "1.1",
+                "version_normalized": "1.1.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/smartlines.1.1.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>Smartlines inserts HTML break elements inside paragraph text when a user has put the text on a new line and paragraph elements inside blockquotes.<\/p>\n\n<p>By default, WordPress will insert HTML paragraph elements when text is separated by a new line. But what if the user does not want a new paragraph but instead just wants a new line? Smartlines replaces single lines with break elements within a block of paragraph text. Because it only searches within blocks of paragraph text it does not unnecessary break elements.<\/p>\n\n<p>Similarly, WordPress does not insert paragraph elements into blockquotes (has this always been the case?). This can be confusing for the user since it will display in the visual editor that they are present. Smartlines adds them.<\/p>\n\n<p>Smartlines incorporates version 1.1 of the Simple HTML DOM parser (<a href=\"http:\/\/sourceforge.net\/projects\/simplehtmldom\/\" rel=\"nofollow\">http:\/\/sourceforge.net\/projects\/simplehtmldom\/<\/a>). Smartlines performs a simple check to ",
+                "uid": "63710"
+            }
+        }
+    }
+}

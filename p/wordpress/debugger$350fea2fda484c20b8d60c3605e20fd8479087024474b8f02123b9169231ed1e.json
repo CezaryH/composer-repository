@@ -1,0 +1,57 @@
+{
+    "packages": {
+        "wordpress\/debugger": {
+            "1.1": {
+                "name": "wordpress\/debugger",
+                "version": "1.1",
+                "version_normalized": "1.1.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/debugger.1.1.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>You can use this plugin to manually log data or to capture logging on WordPress actions. You can capture load time, memory, backrace, data dumps, urls, and server IPs.<\/p>\n\n<p>This is designed to either be managed using wp-config.php and logging OR using the admin and debugbar plugin ( <a href=\"http:\/\/wordpress.org\/extend\/plugins\/debug-bar\/\" rel=\"nofollow\">http:\/\/wordpress.org\/extend\/plugins\/debug-bar\/<\/a> ). Most of the following documentation applies equally to the settings panel or the wp-config.php vars.  Either one works fine. The only exception is the DEBUG_LOG configuration which is only supported as a wp-config var.<\/p>\n\n<p>Firstly, you can manually log things using the following function:<\/p>\n\n<pre><code>do_action( &#039;log&#039;, $message, $group, $data );<\/code><\/pre>\n\n<p>The $group allows you to selectively output logging based on groups of log messages. The $message is the string you want to see in the log. $data is an optional parameter for the data that you want to d",
+                "uid": "11497"
+            },
+            "1.3": {
+                "name": "wordpress\/debugger",
+                "version": "1.3",
+                "version_normalized": "1.3.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/debugger.1.3.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>You can use this plugin to manually log data or to capture logging on WordPress actions. You can capture load time, memory, backrace, data dumps, urls, and server IPs.<\/p>\n\n<p>This is designed to either be managed using wp-config.php and logging OR using the admin and debugbar plugin ( <a href=\"http:\/\/wordpress.org\/extend\/plugins\/debug-bar\/\" rel=\"nofollow\">http:\/\/wordpress.org\/extend\/plugins\/debug-bar\/<\/a> ). Most of the following documentation applies equally to the settings panel or the wp-config.php vars.  Either one works fine. The only exception is the DEBUG_LOG configuration which is only supported as a wp-config var.<\/p>\n\n<p>Firstly, you can manually log things using the following function:<\/p>\n\n<pre><code>do_action( &#039;log&#039;, $message, $group, $data );<\/code><\/pre>\n\n<p>The $group allows you to selectively output logging based on groups of log messages. The $message is the string you want to see in the log. $data is an optional parameter for the data that you want to d",
+                "uid": "11496"
+            },
+            "1.4": {
+                "name": "wordpress\/debugger",
+                "version": "1.4",
+                "version_normalized": "1.4.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/debugger.1.4.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>You can use this plugin to manually log data or to capture logging on WordPress actions. You can capture load time, memory, backrace, data dumps, urls, and server IPs.<\/p>\n\n<p>This is designed to either be managed using wp-config.php and logging OR using the admin and debugbar plugin ( <a href=\"http:\/\/wordpress.org\/extend\/plugins\/debug-bar\/\" rel=\"nofollow\">http:\/\/wordpress.org\/extend\/plugins\/debug-bar\/<\/a> ). Most of the following documentation applies equally to the settings panel or the wp-config.php vars.  Either one works fine. The only exception is the DEBUG_LOG configuration which is only supported as a wp-config var.<\/p>\n\n<p>Firstly, you can manually log things using the following function:<\/p>\n\n<pre><code>do_action( &#039;log&#039;, $message, $group, $data );<\/code><\/pre>\n\n<p>The $group allows you to selectively output logging based on groups of log messages. The $message is the string you want to see in the log. $data is an optional parameter for the data that you want to d",
+                "uid": "11495"
+            }
+        }
+    }
+}

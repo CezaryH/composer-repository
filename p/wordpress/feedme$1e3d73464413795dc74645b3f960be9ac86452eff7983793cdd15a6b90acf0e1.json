@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/feedme": {
+            "1.0": {
+                "name": "wordpress\/feedme",
+                "version": "1.0",
+                "version_normalized": "1.0.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/feedme.1.0.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>Feedme is a simple and powerful tool that will surely enhance any WordPress install. As feed readers become more advanced and are capable of handling additional information, we found the default method of feeds within WordPress to lack content elements.<\/p>\n\n<h4>Global Feed Image<\/h4>\n\n<p>Through Feedme, you can assign an image to your global feed. This 'brands' your feed to all readers. Options include:<\/p>\n\n<ol>\n<li><strong>Show Single Image On Global Feed:<\/strong> Enable \/ Disable image from the feed.<\/li>\n<li><strong>Full URL To Custom Image:<\/strong> This is the full url path to your custom image. If left blank, it will use the plugin's default image.<\/li>\n<li><strong>Width x Height: Default:<\/strong> 75x75. Set this to the dimensions of your custom image.<\/li>\n<li><strong>Image Link: Default:<\/strong> WordPress Install URL. Override url of the default image when it is clicked.<\/li>\n<\/ol>\n\n<h4>Post Feed Images<\/h4>\n\n<p>Select the default image assigned to each post. Specify th",
+                "uid": "74382"
+            }
+        }
+    }
+}

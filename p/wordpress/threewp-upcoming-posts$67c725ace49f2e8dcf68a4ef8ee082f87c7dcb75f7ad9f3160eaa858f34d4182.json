@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/threewp-upcoming-posts": {
+            "1.0": {
+                "name": "wordpress\/threewp-upcoming-posts",
+                "version": "1.0",
+                "version_normalized": "1.0.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/threewp-upcoming-posts.1.0.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>Display upcoming posts in a widget.<\/p>\n\n<p>Choose the category, number of posts and display format.<\/p>\n\n<p>The display format can be configured. Leaving it blank will set it to the default value containing all keywords. The following keywords are available:<\/p>\n\n<ul>\n<li>%POST_TITLE% The post's title<\/li>\n<li>%POST_LINK% The href link to the post<\/li>\n<li>%POST_DATE% The post's scheduled date<\/li>\n<li>%POST_TIME% The post's scheduled time<\/li>\n<\/ul>\n\n<p>To completely uninstall, unselect the \"Enable linking\", save the widget and then delete it.<\/p>",
+                "uid": "62416"
+            }
+        }
+    }
+}

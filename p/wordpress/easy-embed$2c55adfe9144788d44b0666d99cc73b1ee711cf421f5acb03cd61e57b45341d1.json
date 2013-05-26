@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/easy-embed": {
+            "1.1": {
+                "name": "wordpress\/easy-embed",
+                "version": "1.1",
+                "version_normalized": "1.1.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/easy-embed.1.1.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>This plugin allows you to easily add code to your pages and posts without worrying about what the WordPress editor will do to it. You can embed HTML, video embed codes, Paypal forms, Google maps and more. Please note: this plugin will not allow you to run server side scripts such as PHP.<\/p>\n\n<p>To use the plugin, all you have to do is create a custom field (you can name it anything), place your code in the new custom field, and place the following shortcode into your post where you want the code to go:<\/p>\n\n<pre><code>[easyembed field=&#34;name-of-custom-field&#34;]<\/code><\/pre>",
+                "uid": "64738"
+            }
+        }
+    }
+}

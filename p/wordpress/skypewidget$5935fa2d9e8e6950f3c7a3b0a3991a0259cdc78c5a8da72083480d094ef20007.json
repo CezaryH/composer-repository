@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/skypewidget": {
+            "1.0": {
+                "name": "wordpress\/skypewidget",
+                "version": "1.0",
+                "version_normalized": "1.0.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/skypewidget.1.0.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>\nIn the Themes-&#62;Sidebar Widget you see in the available widgets section the SkypeWidget, which you can drag and drop on your side bar.<br \/> \nYou can add an Title which should be displayed in the title of the widget.<br \/>\nAdd the user account which should be used to retrieve the online state and functionality.<br \/>\nSelect which functionality should be visible on the widget.<br \/>\nThis widget creates the button html code which is also created from the <a href=\"http:\/\/www.skype.com\/share\/buttons\/wizard.html\">skype button page<\/a> \nand uses the buttons created by the skype pages.<br \/>\nTo activate the online state you need to configure your <a href=\"http:\/\/www.skype.com\/share\/buttons\/status.html\">skype account<\/a> to allow this.\n<\/p>",
+                "uid": "112487"
+            }
+        }
+    }
+}

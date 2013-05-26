@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/wp-ban-user": {
+            "1.0": {
+                "name": "wordpress\/wp-ban-user",
+                "version": "1.0",
+                "version_normalized": "1.0.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/wp-ban-user.1.0.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>This plugin allows you to banned certain username from making comment, particularly when you don't want to ban \nip addresses, but want to stop certain \"notorious\" misbehaving users.<\/p>\n\n<p>If your blog requires user registration, you should really try the \"members.0.1.1\" wordpress plugin.<\/p>",
+                "uid": "69354"
+            }
+        }
+    }
+}

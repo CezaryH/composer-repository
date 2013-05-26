@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/simple-term-meta": {
+            "0.9.1": {
+                "name": "wordpress\/simple-term-meta",
+                "version": "0.9.1",
+                "version_normalized": "0.9.1.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/simple-term-meta.0.9.1.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>WordPress offers meta data support for posts, users, and comments out of the box. But it's missing meta support for taxonomy terms (a tag, category, or custom taxonomy terms)!<\/p>\n\n<p>This plug-in adds full, efficient support for term meta based on the post meta framework built into WordPress. Adds a \"postmeta\" table, and post meta functions that should be familiar to anyone who has worked with WordPress post meta.<\/p>\n\n<p>New functions include <code>add_term_meta<\/code>, <code>delete_term_meta<\/code>, <code>get_term_meta<\/code>, <code>update_term_meta<\/code>, <code>get_term_custom<\/code>, <code>get_term_custom_keys<\/code>, <code>get_term_custom_values<\/code>, and more.<\/p>\n\n<p>The functions work just like their post meta counter parts (add_post_meta, et al) \u0096 just substitute the post_id with the term_id. Should work with any taxonomy! Take a look inside <code>simple-term-meta.php<\/code> for more complete function documentation.<\/p>\n\n<p>Check out <code>edit_category_custom_fields<\/",
+                "uid": "64452"
+            }
+        }
+    }
+}

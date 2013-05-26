@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/diccionario-de-terminos-y-definiciones-terms-and-definitions-dictionary": {
+            "1.5.3": {
+                "name": "wordpress\/diccionario-de-terminos-y-definiciones-terms-and-definitions-dictionary",
+                "version": "1.5.3",
+                "version_normalized": "1.5.3.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/diccionario-de-terminos-y-definiciones-terms-and-definitions-dictionary.1.5.3.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>This plugin creates a complete Dictionary on your site. It defines a new post type, Definitions, and its own taxonomy, Families (of Terms and Definitions).<\/p>\n\n<p>This plugin is very useful if you need to explain to your visitors technical words or something else, just moving their mouse over the word.<\/p>\n\n<p>It is fully configurable along its options page: color, size, movement, effects, autodetection...<\/p>\n\n<p>For adding a definition to your post, first, you must create the definition in the Definitions section. After that, go to your post, and write \"[def]Term[\/def]\", where Term is the title of your definition (or the slug, or the ID, if you have configured the plugin that way).<\/p>\n\n<p>It allows .mo and .po translation files. The plugin supports:<\/p>\n\n<ul>\n<li>English, Spanish.<\/li>\n<li>Italian, Brazilian Portuguese and Portuguese (Thanks to Javier Valenzuela!).<\/li>\n<\/ul>",
+                "uid": "13149"
+            }
+        }
+    }
+}

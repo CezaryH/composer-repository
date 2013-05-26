@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/sd-meeting-tool": {
+            "1.1": {
+                "name": "wordpress\/sd-meeting-tool",
+                "version": "1.1",
+                "version_normalized": "1.1.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/sd-meeting-tool.1.1.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>SD Meeting Tool can be used to administer meetings and conferences. It was originally written by the Sweden Democrat party for internal use.<\/p>\n\n<p>The plugin should be able to handle organizational and governmental meetings and conferences, by providing participant, voting, checkin, checkout, printing services, etc.<\/p>\n\n<h4>Requirements<\/h4>\n\n<ul>\n<li>At least one technically-minded person to administer the internals of the tool: creation of participants, lists, actions, registrations, etc.<\/li>\n<li>A Wordpress installation.<\/li>\n<li>Javascript for the administrators and, optionally, for visitors that want automatic refreshes.<\/li>\n<\/ul>\n\n<p>Some features, such as automatic updating of shortcodes for visitor pages, will require powerful hardware. The reason for this is that most shortcodes are completely dynamically generated without caching possibility. Having several hundred or thousand visitors requesting AJAX-updates of speaker lists or agendas will bog down Wordpress (being ",
+                "uid": "34333"
+            }
+        }
+    }
+}

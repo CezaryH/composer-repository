@@ -1,0 +1,40 @@
+{
+    "packages": {
+        "wordpress\/uploads-by-proxy": {
+            "1.0": {
+                "name": "wordpress\/uploads-by-proxy",
+                "version": "1.0",
+                "version_normalized": "1.0.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/uploads-by-proxy.1.0.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>This plugin is meant to be used by developers who work on sites in a local development environment before deploying changes to a production (live) server. It allows you skip downloading the contents of <code>wp-content\/uploads<\/code> to your local WordPress install. Instead, images missing from the uploads directory are loaded from the production server as needed.<\/p>\n\n<h4>Setup<\/h4>\n\n<p>In most cases, you should be able to activate the plugin and go. If the plugin does not work automatically, then you need to set the address of your live WordPress install in <code>wp-config.php<\/code>, like this:<\/p>\n\n<pre><code> define('UBP_SITEURL', 'http:\/\/example-live.com\/wordpress');\n<\/code><\/pre>\n\n<p>If you are on a staging server (not a local development environment) you may need to force the plugin to run with <code>define( 'UBP_IS_LOCAL', true );<\/code> in <code>wp-config.php<\/code>. Do not set this on a live site!<\/p>",
+                "uid": "16415"
+            },
+            "1.1": {
+                "name": "wordpress\/uploads-by-proxy",
+                "version": "1.1",
+                "version_normalized": "1.1.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/uploads-by-proxy.1.1.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>This plugin is meant to be used by developers who work on sites in a local development environment before deploying changes to a production (live) server. It allows you skip downloading the contents of <code>wp-content\/uploads<\/code> to your local WordPress install. Instead, images missing from the uploads directory are loaded from the production server as needed.<\/p>\n\n<h4>Setup<\/h4>\n\n<p>In most cases, you should be able to activate the plugin and go. If the plugin does not work automatically, then you need to set the address of your live WordPress install in <code>wp-config.php<\/code>, like this:<\/p>\n\n<pre><code> define('UBP_SITEURL', 'http:\/\/example-live.com\/wordpress');\n<\/code><\/pre>\n\n<p>If you are on a staging server (not a local development environment) you may need to force the plugin to run with <code>define( 'UBP_IS_LOCAL', true );<\/code> in <code>wp-config.php<\/code>. Do not set this on a live site!<\/p>",
+                "uid": "16414"
+            }
+        }
+    }
+}

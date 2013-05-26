@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/wp-automatic-spam-blacklister": {
+            "1.0.0": {
+                "name": "wordpress\/wp-automatic-spam-blacklister",
+                "version": "1.0.0",
+                "version_normalized": "1.0.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/wp-automatic-spam-blacklister.1.0.0.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>If you like total control of the comments on your Wordpress blog without having any extra overheads (like you get with 3rd party spam prevention software) then this is a great tool for you.<\/p>\n\n<h4>Features<\/h4>\n\n<ul>\n<li>Automatically placed IP address on comments blacklist if administrator marks comment as spam<\/li>\n<li>Will remove IP address from comments blacklist if spam item is marked as 'not spam'<\/li>\n<li>When activated, will review all spam comments and place the spammers IP address on the comments blacklist.<\/li>\n<\/ul>\n\n<h4>Support<\/h4>\n\n<p><a href=\"http:\/\/www.blueliquiddesigns.com.au\/index.php\/wp-automatic-spam-blacklister\/\">All support is provided through the plugin developer's website<\/a>.<\/p>",
+                "uid": "15994"
+            }
+        }
+    }
+}

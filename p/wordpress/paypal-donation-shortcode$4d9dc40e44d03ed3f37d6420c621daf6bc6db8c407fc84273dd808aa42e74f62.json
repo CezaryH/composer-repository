@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/paypal-donation-shortcode": {
+            "0.1": {
+                "name": "wordpress\/paypal-donation-shortcode",
+                "version": "0.1",
+                "version_normalized": "0.1.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/paypal-donation-shortcode.0.1.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>Makes it easy to display a link to your own PayPal donation page. Includes options to set a fixed amount and select your own currency.<\/p>\n\n<p>It adds a simple to use a [paypal] shortcode with a couple of options:<\/p>\n\n<ul>\n<li>text, the linking text<\/li>\n<li>email, the email address corresponding to your PayPal account<\/li>\n<li>amount, set a fixed amount of money in the donation form<\/li>\n<li>currency, the currency you would like to recieve donations in<\/li>\n<li>title, a small title that will be added to your donation<\/li>\n<\/ul>\n\n<p>Example usage of the plugin:<\/p>\n\n<pre><code>[paypal text=&#34;Do you like this plugin? Please reward it with a little donation.&#34; email=&#34;paypal@coenjacobs.net&#34; title=&#34;Donation for Paypal Donation Shortcode plugin&#34; currency=&#34;USD&#34;\/]<\/code><\/pre>\n\n<p>Read more about this plugin on the <a href=\"http:\/\/coenjacobs.net\/wordpress\/plugins\/paypal-donation-shortcode\">PayPal Donation Shortcode plugin<\/a> page.<\/p>",
+                "uid": "84085"
+            }
+        }
+    }
+}

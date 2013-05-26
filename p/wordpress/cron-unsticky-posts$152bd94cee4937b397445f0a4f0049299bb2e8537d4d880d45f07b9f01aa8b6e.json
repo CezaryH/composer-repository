@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/cron-unsticky-posts": {
+            "1.0": {
+                "name": "wordpress\/cron-unsticky-posts",
+                "version": "1.0",
+                "version_normalized": "1.0.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/cron-unsticky-posts.1.0.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "Overview Of The Plugin\n\n<p>The Cron Unsticky Posts Plugin is very simple to use.\nIt is on whenever this plugin is active so you should disable it if\nyou no longer want old posts to be unstickied.<\/p>\n\n<p>This plugin is the most for people who sticky a lot of posts but dont\nwant to have to go back a few days later and unsticky them one by one\njust so that they dont fill up their home page.<\/p>\n\n<p>If that sounds like you then this is the plugin for you!<\/p>\n\n<h3>Features<\/h3>\n\n<pre><code>* Unsticky posts automatically based on when they were posted\n* Set a global Unsticky Time (default: 3 days). After a posts is older than that Unsticky Time it will be unstickied automatically by this plugin\n* Set Unsticky Time on a per-post basis to allow certain posts more\/less time on the front page\n* Uses WPs Cron, no need to setup complex cron jobs. Great if you dont even have access to Cron from your host!\n* Turn it on and forget about it. It will keep on running till you disable the plugin.\n* Its",
+                "uid": "75230"
+            }
+        }
+    }
+}

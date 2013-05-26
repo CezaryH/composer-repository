@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/feed-tweetifier": {
+            "0.1": {
+                "name": "wordpress\/feed-tweetifier",
+                "version": "0.1",
+                "version_normalized": "0.1.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/feed-tweetifier.0.1.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>Feed Tweetifier will give you an extra RSS feed that has a nicely formatted title tag. This is great for using with Twitter RSS feed tools that can push your feed into your Twitter stream.<\/p>\n\n<p>You might have seen @techcrunch sends its tweets in the format: \"article title <a href=\"http:\/\/link.com\" rel=\"nofollow\">http:\/\/link.com<\/a> by @username\"<\/p>\n\n<p>This tool does very similar and you can customise how your feed looks by creating your own template.<\/p>\n\n<p>Once that is done you can see your feed at <a href=\"http:\/\/your-blog-url.com\/?feed=tweetified\" rel=\"nofollow\">http:\/\/your-blog-url.com\/?feed=tweetified<\/a><\/p>\n\n<p>BEWARE: This tool does not work if you have the FeedBurner redirection plugin.<\/p>",
+                "uid": "88299"
+            }
+        }
+    }
+}

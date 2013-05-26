@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/ip-dependent-cookies": {
+            "1.1": {
+                "name": "wordpress\/ip-dependent-cookies",
+                "version": "1.1",
+                "version_normalized": "1.1.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/ip-dependent-cookies.1.1.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>Each time you login to your blog WordPress creates a session cookie which is used to authenticate you.\nBy default if someone somehow gets your cookies he (or she) is able to use them to compromise your blog\n(even without having to know your password!). To prevent this you may want to make your auth cookies\nip-dependent so that they could be valid only for that ip which you used during login.<\/p>\n\n<p>Use this plugin only if you have a static IP or dynamic which doesn't change too often. Otherwise you'll\nhave to enter your login and password each time your IP changes.<\/p>",
+                "uid": "58563"
+            }
+        }
+    }
+}

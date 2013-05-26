@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/enroll-via-ipn": {
+            "1.0.0": {
+                "name": "wordpress\/enroll-via-ipn",
+                "version": "1.0.0",
+                "version_normalized": "1.0.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/enroll-via-ipn.1.0.0.3.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>This is the Enroll via IPN plugin. With this plugin you can:<\/p>\n\n<ul>\n<li>Register sold products via PayPal IPN<\/li>\n<li>Create purchase followup email (with the download link for digital products)<\/li>\n<li>Allow the customers who purchased goods to opt-in for a product specific customer newsletter<\/li>\n<\/ul>\n\n<p>You DO NOT need a third party paid service or license to use this plugin.<\/p>",
+                "uid": "29972"
+            }
+        }
+    }
+}

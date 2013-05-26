@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/codeshield": {
+            "4.0": {
+                "name": "wordpress\/codeshield",
+                "version": "4.0",
+                "version_normalized": "4.0.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/codeshield.4.0.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>You will be protected  from automated web scrapers  that copy your content  into\ntheirs without your permission.\nThis plugin is your  first and most powerful ally to  avoid\nyour content to  be copied. Your chosen text block with be swapped to images that will look\nlike exactly like the impersonated text. And all of this in a wink of an eye. Your blog will not suffer \nby speed losses because the images are cached so they are been made only the first time somebody \naccess to the web page.\nAlso is fully compatible with any other cache plugins.\nFeatures:<\/p>\n\n<ul>\n<li>Strong name encription to avoid decript the words by the name of the file.<\/li>\n<li>Caching mechanism to avoid overload the server . Fully compatible with other caching plugins.<\/li>\n<li>Define your own font size and color.<\/li>\n<li>Access to more than 500 fonts from google fronts. Italic, Bold styles supported.<\/li>\n<li>Cron checking for fonts outdated (not avaliable in google repository) every 7 days done in backgroud.<\/",
+                "uid": "26190"
+            }
+        }
+    }
+}

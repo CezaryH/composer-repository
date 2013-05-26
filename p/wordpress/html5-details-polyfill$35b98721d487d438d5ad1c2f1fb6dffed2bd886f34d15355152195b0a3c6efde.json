@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/html5-details-polyfill": {
+            "1.0": {
+                "name": "wordpress\/html5-details-polyfill",
+                "version": "1.0",
+                "version_normalized": "1.0.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/html5-details-polyfill.1.0.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>Adds fallback support for the HTML5 <a href=\"http:\/\/html5doctor.com\/the-details-and-summary-elements\/\">&#60;details&#62; and &#60;summary&#62; elements<\/a> in browsers that don't support them using <a href=\"http:\/\/mathiasbynens.be\/notes\/html5-details-jquery\">Mathias Bynens' &#60;details&#62;\/&#60;summary&#62; jQuery plugin.<\/a><\/p>\n\n<p>Once the plugin is activated on your site, the following HTML should work in all modern browsers, even if they don't natively support the &#60;details&#62; and &#60;summary&#62; elements:<\/p>\n\n<pre><code>&#60;details&#62;\n  &#60;summary&#62;Click for more info...&#60;\/summary&#62;\n  This is where you&#039;d add the additional content that won&#039;t be seen until the &#34;summary&#34; is clicked.\n&#60;\/details&#62;<\/code><\/pre>",
+                "uid": "18228"
+            }
+        }
+    }
+}

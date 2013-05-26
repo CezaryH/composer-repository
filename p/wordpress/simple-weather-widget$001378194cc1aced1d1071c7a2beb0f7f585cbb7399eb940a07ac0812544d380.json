@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/simple-weather-widget": {
+            "1.0": {
+                "name": "wordpress\/simple-weather-widget",
+                "version": "1.0",
+                "version_normalized": "1.0.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/simple-weather-widget.1.0.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>Simple Weather widget, that displays current weather based on provided woeid.\nThe location parameter needs to be a WOEID. To find WOEID, browse or search from <a href=\"http:\/\/weather.yahoo.com\" rel=\"nofollow\">http:\/\/weather.yahoo.com<\/a>. \nWOEID is in the page link. Also get the WOEID by entering zip code.<\/p>",
+                "uid": "25705"
+            }
+        }
+    }
+}

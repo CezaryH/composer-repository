@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/sudoku-shortcode": {
+            "1.0.0": {
+                "name": "wordpress\/sudoku-shortcode",
+                "version": "1.0.0",
+                "version_normalized": "1.0.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/sudoku-shortcode.1.0.0.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>This plugin allows you to include sudoku puzzles in your blogs with a simple shortcode. The sudoku puzzles can be inserted everywhere: in your theme files, posts and pages.<\/p>\n\n<p>Parameters:<\/p>\n\n<ul>\n<li>Size of the sudoku puzzle: 9x9, 10x10, 12x12, 16x16.<\/li>\n<li>Difficulty level: easy, medium, hard, expert.<\/li>\n<li>Width (and height) in pixels (not less than 450 px).<\/li>\n<li>Background color.<\/li>\n<li>Available in english and french.<\/li>\n<\/ul>\n\n<p>For more details and examples visit the plugin page on <a href=\"http:\/\/www.live-sudoku.com\/site-perso\/wordpress\">live sudoku<\/a> or on <a href=\"http:\/\/www.le-sudoku.fr\/site-perso\/wordpress\">Le sudoku<\/a> if you speak french.<\/p>",
+                "uid": "42581"
+            }
+        }
+    }
+}

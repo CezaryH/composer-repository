@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/signup-page": {
+            "1.0": {
+                "name": "wordpress\/signup-page",
+                "version": "1.0",
+                "version_normalized": "1.0.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/signup-page.1.0.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p><em>signup-page<\/em> is a plugin that allows you to create a public signup page. A signup page is just a list of stuff\nthat you can sign up for, with a space next to each item where someone can sign up.<\/p>\n\n<p>There is no validation of input, and no login is required. This is a true public signup page. However, when a\nperson signs up, that slot is frozen to the public (no further changes). Site admins can make changes to any slot,\nat any time.<\/p>",
+                "uid": "24498"
+            }
+        }
+    }
+}

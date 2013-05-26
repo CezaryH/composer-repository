@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/caesar-cipher": {
+            "1.0.0": {
+                "name": "wordpress\/caesar-cipher",
+                "version": "1.0.0",
+                "version_normalized": "1.0.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/caesar-cipher.1.0.0.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>use caesar-cipher shortcode when you post entry.<\/p>\n\n<pre><code>[caesar-cipher <a href=\"mailto:komagata@gmail.com\">komagata@gmail.com<\/a>]\n<\/code><\/pre>",
+                "uid": "64947"
+            }
+        }
+    }
+}

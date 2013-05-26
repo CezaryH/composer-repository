@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/wp-amelie": {
+            "1.0": {
+                "name": "wordpress\/wp-amelie",
+                "version": "1.0",
+                "version_normalized": "1.0.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/wp-amelie.1.0.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>This plugin inserts the amelie javascript code to subversively prod IE 6 users to upgrade to a better browser.<\/p>\n\n<p>See <a href=\"http:\/\/icant.co.uk\/ie6-amelie\/\" title=\"icant.co.uk\">icant.co.uk<\/a> for more details on how the script works.<\/p>",
+                "uid": "67327"
+            }
+        }
+    }
+}

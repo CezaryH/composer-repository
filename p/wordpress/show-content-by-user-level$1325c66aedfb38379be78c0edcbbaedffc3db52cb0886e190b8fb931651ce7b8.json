@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/show-content-by-user-level": {
+            "0.1": {
+                "name": "wordpress\/show-content-by-user-level",
+                "version": "0.1",
+                "version_normalized": "0.1.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/show-content-by-user-level.0.1.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>This plug-in hides a specific part of the content of a page (or post) to all users whose user level is below a required user level.<\/p>\n\n<p>Therefore, if a content is visible to user level X:\n1. if X &#62; 0 users who are not registered will not be able to access that specific content;\n2. users whose user level is less than X will not be able to access that specific content;\n3. users whose user level is equal or greater than X will be able to access that specific content.<\/p>\n\n<p>To hide a specific content, use the following syntax to encapsulate the hidden content:\n[hide {level}] {content} [hide {level}]\nwhere {level} is the NUMBER corresponding to the user level, and {content} is the part of you want to hide.<\/p>\n\n<p>Example:\n[hide 0] You will always see this content [hide 0]\n[hide 1] You will not see this if you are not logged as subscriber [hide 1]\n[hide 2] You will not see this if you are not logged as contributor [hide 2]\n[hide 3] You will not see this if you are not logged as",
+                "uid": "80564"
+            }
+        }
+    }
+}

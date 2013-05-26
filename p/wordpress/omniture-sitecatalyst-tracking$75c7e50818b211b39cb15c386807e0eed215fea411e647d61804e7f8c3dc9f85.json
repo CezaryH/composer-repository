@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/omniture-sitecatalyst-tracking": {
+            "1.0": {
+                "name": "wordpress\/omniture-sitecatalyst-tracking",
+                "version": "1.0",
+                "version_normalized": "1.0.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/omniture-sitecatalyst-tracking.1.0.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>This Omniture SiteCatalyst Tracking plugin provides tracking for basic WordPress navigation, including the following pages:<\/p>\n\n<ul>\n<li>homepage<\/li>\n<li>article<\/li>\n<li>category page<\/li>\n<li>tag page<\/li>\n<li>archive<\/li>\n<li>static page<\/li>\n<\/ul>\n\n<p>It sets the following SiteCatalyst variables:<\/p>\n\n<ul>\n<li>s.pageName<\/li>\n<li>s.channel<\/li>\n<li>s.pageType<\/li>\n<li>s.prop1<\/li>\n<li>s.prop2<\/li>\n<li>s.prop3<\/li>\n<\/ul>\n\n<p>It uses the wp_footer hook to be displayed in the footer of the HTML throughout your templates.<\/p>\n\n<p>Omniture SiteCatalyst is a paid analytics service.<\/p>\n\n<p>More information on the development of this plugin can be found at <a href=\"http:\/\/blog.endpoint.com\/2009\/11\/wordpress-plugin-for-omniture.html\" rel=\"nofollow\">http:\/\/blog.endpoint.com\/2009\/11\/wordpress-plugin-for-omniture.html<\/a>.<\/p>\n\n<p>Development of this plugin is sponsored by <a href=\"http:\/\/www.endpoint.com\/\" rel=\"nofollow\">http:\/\/www.endpoint.com\/<\/a>.<\/p>\n\n<p>Future work of this plugin w",
+                "uid": "76312"
+            }
+        }
+    }
+}

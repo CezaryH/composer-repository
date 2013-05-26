@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/list-children": {
+            "1.2": {
+                "name": "wordpress\/list-children",
+                "version": "1.2",
+                "version_normalized": "1.2.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/list-children.1.2.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>Use an HTML comment to list links of the current page's children or siblings.<\/p>\n\n<p>Common usage is for content sites utilizing WordPress as a simple CMS. Some content hierarchies call for an Overview page followed by multiple subpages, for example, a Services page.<\/p>\n\n<p>Use the following shortcodes to list children and or siblings of the current page:<\/p>\n\n<p>Alphabetical listing of current page's children:<\/p>\n\n<p>[list_children sort_column=\"page_title\" sort_order=\"asc\"]<\/p>\n\n<p>List of current page's siblings, ordered by menu order (descending):<\/p>\n\n<p>[list_siblings sort_column=\"menu_order\" sort_order=\"desc\"]<\/p>\n\n<p>You can use a majority of the attributes from the wp_list_pages() call: <a href=\"http:\/\/codex.wordpress.org\/Function_Reference\/wp_list_pages\" rel=\"nofollow\">http:\/\/codex.wordpress.org\/Function_Reference\/wp_list_pages<\/a><\/p>\n\n<p><em>The following will work for now but is deprecated:<\/em><\/p>\n\n<p>&#60;ul&#62;\n&#60;!--list_children()--&#62;\n&#60;\/ul&#62;<\/p>",
+                "uid": "87987"
+            }
+        }
+    }
+}

@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/php-image-cache": {
+            "1.1.2": {
+                "name": "wordpress\/php-image-cache",
+                "version": "1.1.2",
+                "version_normalized": "1.1.2.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/php-image-cache.1.1.2.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>This plugin cache images with PHP. Other cache plugins depends on your server settings. If you don't have the appropriate server settings enabled, then your images will not be cached with the other cache plugins.<\/p>\n\n<p>With this plugin you are forcing the images to be cached and your page will load much faster for returning visitors.\n For more information see installation page or the \n<a href=\"http:\/\/www.webfish.se\/wp\/plugins\/php-image-cache\" title=\"Webfish - Wordpress plugin\">Webfish<\/a> homepage.<\/p>",
+                "uid": "56952"
+            }
+        }
+    }
+}

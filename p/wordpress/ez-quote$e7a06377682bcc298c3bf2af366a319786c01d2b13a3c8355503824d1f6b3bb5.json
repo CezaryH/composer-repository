@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/ez-quote": {
+            "1.0": {
+                "name": "wordpress\/ez-quote",
+                "version": "1.0",
+                "version_normalized": "1.0.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/ez-quote.1.0.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>EZ Quote is a simple widget that display random quotations. A category for quotes is chosen in the admin panel, and a random quote from that category is automatically retrieved from ezquoteapi.appspot.com. Current categories include Computers, Politics, Writing, Food, and more.<\/p>\n\n<p>This was written to be an alternative to existing quote display plugins that require the user to enter their own quotes. With EZ Quote, quotes are retrieved from an external site, and so it requires no set up from the user beyond choosing the desired category. And unlike some existing external solutions, EZ Quote places no ads or promotional material onto your blog.<\/p>\n\n<p>The current database of avaiable quotations (run and maintained by me) is small but expanding.<\/p>",
+                "uid": "75214"
+            }
+        }
+    }
+}

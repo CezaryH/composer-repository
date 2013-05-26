@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/cp2ce": {
+            "1.5": {
+                "name": "wordpress\/cp2ce",
+                "version": "1.5",
+                "version_normalized": "1.5.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/cp2ce.1.5.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>This migrator plugin converts regular post type categories to the Comic Post type and attach images that correspond to the dates of the posts from the comics directory.<\/p>",
+                "uid": "24626"
+            }
+        }
+    }
+}

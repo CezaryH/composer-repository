@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/relative-site-url-on-content-save": {
+            "1.0.0": {
+                "name": "wordpress\/relative-site-url-on-content-save",
+                "version": "1.0.0",
+                "version_normalized": "1.0.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/relative-site-url-on-content-save.1.0.0.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>Allows you to publish content during dev phase without having to go back and\nfix your content's static URLs when you switch to the production URL. Registers [url] shortcode\nwith your site's base URL setting. Replaces occurances of <a href=\"http:\/\/mysite.com\/the\/link\" rel=\"nofollow\">http:\/\/mysite.com\/the\/link<\/a> \nwith [url]\/the\/link inside the content editor when you hit Publish or Update.<\/p>\n\n<p><a href=\"http:\/\/chrisbratlien.com\/2010\/05\/16\/relative-site-url-on-content-save\/\" rel=\"nofollow\">http:\/\/chrisbratlien.com\/2010\/05\/16\/relative-site-url-on-content-save\/<\/a><\/p>",
+                "uid": "68818"
+            }
+        }
+    }
+}

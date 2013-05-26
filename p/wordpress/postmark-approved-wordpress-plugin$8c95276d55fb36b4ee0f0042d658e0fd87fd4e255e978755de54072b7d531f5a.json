@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/postmark-approved-wordpress-plugin": {
+            "1.5": {
+                "name": "wordpress\/postmark-approved-wordpress-plugin",
+                "version": "1.5",
+                "version_normalized": "1.5.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/postmark-approved-wordpress-plugin.1.5.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>If you're still sending email with default SMTP, you're blind to delivery problems! This Postmark Approved WordPress Plugin enables WordPress blogs of any size to deliver and track WordPress notification emails reliably, with minimal setup time and zero maintenance. No more SMTP errors or delivery problems with Postmark!<\/p>\n\n<p>If you don't already have a free Postmark account, you can get one in minutes. Every account comes with 1000 free sends.<\/p>",
+                "uid": "41746"
+            }
+        }
+    }
+}

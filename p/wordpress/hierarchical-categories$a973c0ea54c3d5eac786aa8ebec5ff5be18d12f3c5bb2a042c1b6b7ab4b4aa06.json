@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/hierarchical-categories": {
+            "0.3": {
+                "name": "wordpress\/hierarchical-categories",
+                "version": "0.3",
+                "version_normalized": "0.3.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/hierarchical-categories.0.3.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>When selecting a child category in a post, this plugin automatically selects its parent categories.<\/p>\n\n<p>For example with the categories:<\/p>\n\n<p>[ ] Sport\n    [ ] Football\n        [ ] England<\/p>\n\n<p>Checking England will result in all 3 being checked, like so:<\/p>\n\n<p>[X] Sport\n    [X] Football\n        [X] England<\/p>",
+                "uid": "112882"
+            }
+        }
+    }
+}

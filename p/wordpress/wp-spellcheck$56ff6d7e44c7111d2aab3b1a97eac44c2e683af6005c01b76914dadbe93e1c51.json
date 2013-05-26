@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/wp-spellcheck": {
+            "1.0": {
+                "name": "wordpress\/wp-spellcheck",
+                "version": "1.0",
+                "version_normalized": "1.0.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/wp-spellcheck.1.0.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p><strong>TinyMCE SpellChecker API<\/strong> - this plugin provides action\/filter hooks to allow easy customisation of the TinyMCE SpellChecker.<\/p>\n\n<p>This plugin was created to solve the problem of not being able to use GoogleSpell behind a firewall. For background information on the issue read the discussions on <a href=\"http:\/\/core.trac.wordpress.org\/ticket\/9798\">trac ticket #9798<\/a>. <em>The ultimate goal of this plugin is to be merged into WordPress Core.<\/em><\/p>\n\n<p>You need this plugin if...<\/p>\n\n<ul>\n<li>You want to write a plugin for the TinyMCE SpellChecker. This plugin will provide you with respective <strong>hooks<\/strong> that allow to control which SpellChecker Engine is used, adjust the configuration used for initialisation of the engine and manipulate spellchecking results (independent of engine).<\/li>\n<li>You are behind a <strong>firewall<\/strong> and you'd like to use the <strong>Google Spellchecker<\/strong>. This plugin contains a customised version of GoogleSpel",
+                "uid": "87798"
+            }
+        }
+    }
+}

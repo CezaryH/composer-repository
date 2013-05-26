@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/twittify": {
+            "0.1": {
+                "name": "wordpress\/twittify",
+                "version": "0.1",
+                "version_normalized": "0.1.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/twittify.0.1.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>This plugin simply turns Twitter @usernames and #hashtags into links to the related place on Twitter.<\/p>\n\n<p>Usernames are automatically linked to the user's profile page, and hashtags are linked to the Twitter Search page with those results.<\/p>",
+                "uid": "83096"
+            }
+        }
+    }
+}

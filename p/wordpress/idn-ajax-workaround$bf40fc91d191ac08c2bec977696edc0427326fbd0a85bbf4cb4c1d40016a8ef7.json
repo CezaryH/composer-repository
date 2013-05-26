@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/idn-ajax-workaround": {
+            "0.1": {
+                "name": "wordpress\/idn-ajax-workaround",
+                "version": "0.1",
+                "version_normalized": "0.1.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/idn-ajax-workaround.0.1.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>In jQuery 1.5+ (bundled with WordPress 3.2+), AJAX requests on sites with IDN domains don't work in IE or Opera.<\/p>\n\n<p>On Edit Post screen, adding a new category results in JS error:<\/p>\n\n<pre><code>Message: &#039;parsed.responses&#039; - is null or not an object<\/code><\/pre>\n\n<p>On Categories screen, adding a new category silently fails.<\/p>\n\n<p>According to <a href=\"http:\/\/bugs.jquery.com\/ticket\/8419#comment:3\">jaubourg's comment<\/a> in jQuery bug tracker, the request is considered cross-domain and, since IE doesn't support cross-domain requests, AJAX won't find a suitable transport and bail out.<\/p>\n\n<p>This plugin implements a workaround suggested there by making AJAX requests relative.<\/p>\n\n<p>WordPress Trac ticket: <a href=\"http:\/\/core.trac.wordpress.org\/ticket\/18952\">#18952<\/a><\/p>",
+                "uid": "37142"
+            }
+        }
+    }
+}

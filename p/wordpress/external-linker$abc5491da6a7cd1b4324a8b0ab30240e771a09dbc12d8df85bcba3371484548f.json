@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/external-linker": {
+            "0.2": {
+                "name": "wordpress\/external-linker",
+                "version": "0.2",
+                "version_normalized": "0.2.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/external-linker.0.2.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>You know how <code>target=\"_blank\"<\/code> is invalid in XHTML strict? Well, this plugin uses a Javascript hack to get around this. The code was originally taken from this thread I came across: <a href=\"http:\/\/www.webmasterworld.com\/forum21\/11165.htm\" rel=\"nofollow\">http:\/\/www.webmasterworld.com\/forum21\/11165.htm<\/a><\/p>\n\n<p>For posts\/pages, the plugin will automatically captures any <code>target=\"_blank\"<\/code>'s inserted by the WP editor and modifies them to keep the page XHTML Strict valid. Then some small Javascript is inserted into each page which re-inserts <code>target=\"_blank\"<\/code> so that the functionality is restored <em>after<\/em> your page has been validated!<\/p>\n\n<p>For non-post\/page content (eg templates\/widgets), simply give your outbound links a class name of <code>external<\/code>, and the rest will be done automatically while keeping your page XHTML valid.<\/p>",
+                "uid": "83661"
+            }
+        }
+    }
+}

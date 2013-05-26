@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/hello-gandhi": {
+            "1.0": {
+                "name": "wordpress\/hello-gandhi",
+                "version": "1.0",
+                "version_normalized": "1.0.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/hello-gandhi.1.0.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>Description: Not just a plugin, this plugin echos the hope and insight of a generationial thinker and pays homage to the bundled plugin included in every WordPress version I've installed: Hello Dolly.<\/p>\n\n<p>When activated you will see a random quote from Mahatma Gandhi displayed at the top of the admin screen. In addition to paying homage, this plugin was also an exercise in OOing a WordPress plugin.<\/p>",
+                "uid": "15867"
+            }
+        }
+    }
+}

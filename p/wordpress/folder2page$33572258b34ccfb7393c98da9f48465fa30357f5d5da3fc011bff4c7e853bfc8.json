@@ -1,0 +1,40 @@
+{
+    "packages": {
+        "wordpress\/folder2page": {
+            "0.1": {
+                "name": "wordpress\/folder2page",
+                "version": "0.1",
+                "version_normalized": "0.1.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/folder2page.0.1.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>There are quite a lot of plugins that allow you to create image galleries from Flickr, picasa etc but i've never seen one that will allow you to \nuse an existing folder of images on your web server.<\/p>\n\n<p>Once the plugin is installed, you have to give it the url and the path on your web server to the folder where you images are, as well as a couple \nof other options. When these are saved, simply add <code>&#60;?php echo Display_Images(); ?&#62;<\/code> to the place where you want the gallery to display.<\/p>\n\n<p>Now, anything in that folder that is a jpg, png or gif will be displayed in your gallery. You can use the included style sheet to change the look and\nfeel of the table the images are displayed in, as well as setting other options via the dashboard that include width of image, images per line and \nif you want the thumbnail image to be clickable to show the original<\/p>\n\n<p>What i'm looking at Implementing -<\/p>\n\n<ul>\n<li>At the moment it only works on one folder of images, wi",
+                "uid": "73476"
+            },
+            "1.0": {
+                "name": "wordpress\/folder2page",
+                "version": "1.0",
+                "version_normalized": "1.0.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/folder2page.1.0.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>There are quite a lot of plugins that allow you to create image galleries from Flickr, picasa etc but i've never seen one that will allow you to \nuse an existing folder of images on your web server.<\/p>\n\n<p>Once the plugin is installed, you have to give it the url and the path on your web server to the folder where you images are, as well as a couple \nof other options. When these are saved, simply add <code>&#60;?php echo Display_Images(); ?&#62;<\/code> to the place where you want the gallery to display.<\/p>\n\n<p>Now, anything in that folder that is a jpg, png or gif will be displayed in your gallery. You can use the included style sheet to change the look and\nfeel of the table the images are displayed in, as well as setting other options via the dashboard that include width of image, images per line and \nif you want the thumbnail image to be clickable to show the original<\/p>\n\n<p>What i'm looking at Implementing -<\/p>\n\n<ul>\n<li>At the moment it only works on one folder of images, wi",
+                "uid": "73475"
+            }
+        }
+    }
+}

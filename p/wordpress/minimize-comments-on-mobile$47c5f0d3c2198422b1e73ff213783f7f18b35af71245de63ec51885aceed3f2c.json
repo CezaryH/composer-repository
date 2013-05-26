@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/minimize-comments-on-mobile": {
+            "1.0": {
+                "name": "wordpress\/minimize-comments-on-mobile",
+                "version": "1.0",
+                "version_normalized": "1.0.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/minimize-comments-on-mobile.1.0.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>Minimizes the comment list and turns the comments title (eg. \"3 Comments\") into a trigger to view\/hide the comments.<\/p>\n\n<p>Requires no template hacking, only a knowledge of CSS selectors:<\/p>\n\n<ul>\n<li>The comments are usually inside a list with a class of \".commentlist\" so you probably won't need to change the option for the \"contents\".<\/li>\n<li>The comments title however may be different on your theme so you may have to change the \"trigger\" option to something different than the \"#comments-title\" id. Use \"Inspect element\" on your post's page to deterime the correct class or id of the element you want to be the trigger.<\/li>\n<\/ul>",
+                "uid": "26660"
+            }
+        }
+    }
+}

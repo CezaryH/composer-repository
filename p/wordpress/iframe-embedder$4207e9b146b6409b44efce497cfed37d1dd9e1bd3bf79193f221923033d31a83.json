@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/iframe-embedder": {
+            "1.2": {
+                "name": "wordpress\/iframe-embedder",
+                "version": "1.2",
+                "version_normalized": "1.2.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/iframe-embedder.1.2.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>Iframe Embedder lets you embed an iframe in a post by typing \n[iframe <a href=\"http:\/\/server\/page.htm\" rel=\"nofollow\">http:\/\/server\/page.htm<\/a> 100% 200px]<\/p>\n\n<p>You can use % or px as units for width and height. If you omit unit- it will default to px.\nYou cannot omit width and height values.\nYou can use relative paths.<\/p>",
+                "uid": "74671"
+            }
+        }
+    }
+}

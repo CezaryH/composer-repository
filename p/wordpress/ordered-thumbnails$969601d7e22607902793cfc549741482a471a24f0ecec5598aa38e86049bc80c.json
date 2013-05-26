@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/ordered-thumbnails": {
+            "1.0": {
+                "name": "wordpress\/ordered-thumbnails",
+                "version": "1.0",
+                "version_normalized": "1.0.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/ordered-thumbnails.1.0.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>Ordered Thumbnails is a WordPress plugin that allows you to display thumbnails based on images that have been attached to a post. This plugin also allows you to specify which thumbnail appears next to a post with multiple images by ordering the thumbnails in the Gallery tab of the WordPress \"Add Images\" lightbox and placing the thumbnail desired in the first position.<\/p>\n\n<p>To style how the thumbnail appears on your page, you may pass optional CSS class names to the plugin, which will then be applied to the <code>&#60;img&#62;<\/code> tag returned. Alternately, by setting the display parameter to \"false\", Ordered Thumbnails will return the thumbnail URL, height, and width as a PHP array to be used however you see fit. If no images have been attached to a post, the plugin fails gracefully and returns \"false\". This plugin will work anywhere the WordPress posts loop is used and works particularly nice in combination with <code>the_excerpt<\/code> for archive pages.<\/p>",
+                "uid": "85940"
+            }
+        }
+    }
+}

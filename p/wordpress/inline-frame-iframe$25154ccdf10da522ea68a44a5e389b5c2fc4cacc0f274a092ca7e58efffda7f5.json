@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/inline-frame-iframe": {
+            "0.1": {
+                "name": "wordpress\/inline-frame-iframe",
+                "version": "0.1",
+                "version_normalized": "0.1.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/inline-frame-iframe.0.1.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>WordPress removes iframe when you switch from \"HTML\" to \"Visual\" tab because of the security reasons.\nInline frames are needed to embed other page in your websserver, video from youtube or to embed Google Map or just to embed content from external page.<\/p>\n\n<p>Usage (parameters) \n* width - width of the iframe in pixels <code>[embedsite width=\"100%\" src=\"http:\/\/www.karthik.sg\/blog\/\"]<\/code> or <code>[embedsite width=\"640\" src=\"http:\/\/www.karthik.sg\/blog\/\"]<\/code> (by default width=\"100%\");\n* height - height of the iframe in pixels <code>[embedsite height=\"480\" src=\"http:\/\/www.karthik.sg\/blog\/\"]<\/code> (by default height=\"480\");\n* src - source of the iframe <code>[embedsite src=\"http:\/\/www.karthik.sg\/blog\/\"]<\/code> (by default src=\"\");\n* frameborder - frameborder parameter of the iframe <code>[embedsite frameborder=\"0\" src=\"http:\/\/www.karthik.sg\/blog\/\"]<\/code> (by default frameborder=\"0\");\n* scrolling - scrolling parameter of the iframe <code>[embedsite scrolling=\"no\" src=\"http:\/\/www",
+                "uid": "36870"
+            }
+        }
+    }
+}

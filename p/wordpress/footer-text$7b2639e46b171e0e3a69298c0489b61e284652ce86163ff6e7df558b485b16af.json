@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/footer-text": {
+            "1.0": {
+                "name": "wordpress\/footer-text",
+                "version": "1.0",
+                "version_normalized": "1.0.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/footer-text.1.0.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>Provides an interface in the dashboard, similar to the post edit screen, that allows you to easily change the text displayed in the footer on the front-end. After installing the plugin, add the <code>footer_text()<\/code> template tag to your <code>footer.php<\/code> theme template where you want the text to display. For more options, see the <a href=\"http:\/\/wordpress.org\/extend\/plugins\/footer-text\/faq\">FAQ<\/a>.<\/p>\n\n<p>You can use these shortcodes in the footer text editor:<\/p>\n\n<ul>\n<li><code>[last_modified]<\/code> the date that the current page was last modified on<\/li>\n<li><code>[page_link]<\/code> the full permalink of the current page, formatted<\/li>\n<li><code>[year]<\/code> the current year eg: 2013<\/li>\n<\/ul>\n\n<p>Visit the <a href=\"http:\/\/bungeshea.com\/plugins\/footer-text\/\">plugin homepage<\/a>, or contribute to its development at <a href=\"https:\/\/github.com\/bungeshea\/footer-text\/\">GitHub<\/a>.<\/p>",
+                "uid": "9367"
+            }
+        }
+    }
+}

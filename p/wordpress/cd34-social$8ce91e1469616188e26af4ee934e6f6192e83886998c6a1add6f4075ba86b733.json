@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/cd34-social": {
+            "0.7": {
+                "name": "wordpress\/cd34-social",
+                "version": "0.7",
+                "version_normalized": "0.7.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/cd34-social.0.7.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>Google+, Twitter, Facebook and Pinterest Buttons loaded via Async Javascript, minimal presentation. See screenshots tab to see what the icons look like at the bottom of your posts.<\/p>\n\n<p>Why do I want Async Javascript?<\/p>\n\n<p>When someone loads your site, every &#60;script src=\"http:\/\/someurl.com\/\"&#62;&#60;\/script&#62; causes loading to 'block'. If the browser doesn't have an available connection to load the css stylesheet or included javascript, it must wait until another file request completes to load the next one. On pages with dozens of css files and javascript includes, it can cause a site to appear to be slow, even if the site uses caching and comes up quickly.<\/p>\n\n<p>By loading the javascript for the buttons asynchronously, we wait until the page is loaded, then, our script runs and modifies the page. This does make the icons appear to be the last to load, but, it does not prevent your page from being rendered and displayed - shaving a few hundred milliseconds from the p",
+                "uid": "35010"
+            }
+        }
+    }
+}

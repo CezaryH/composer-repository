@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/jetpack-feedback-exporter": {
+            "1.23": {
+                "name": "wordpress\/jetpack-feedback-exporter",
+                "version": "1.23",
+                "version_normalized": "1.23.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/jetpack-feedback-exporter.1.23.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>A plugin that lets you export all of the form submission from Jetpack Feedback forms. Navigation to 'Tools' -&#62; 'Feedback Exporter', choose the desired form to export, select if you would like to include the date, click export and your done!<\/p>\n\n<h4>Features<\/h4>\n\n<ul>\n<li>Export all data<\/li>\n<li>Export into CSV<\/li>\n<li>Opens easily in excel <\/li>\n<li>Contains header tags<\/li>\n<li>Optional Date <\/li>\n<li>NOTE: You must have jetpack installed.<\/li>\n<\/ul>",
+                "uid": "14442"
+            }
+        }
+    }
+}

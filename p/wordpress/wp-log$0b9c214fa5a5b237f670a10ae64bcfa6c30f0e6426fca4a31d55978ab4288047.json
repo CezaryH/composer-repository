@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/wp-log": {
+            "1.0": {
+                "name": "wordpress\/wp-log",
+                "version": "1.0",
+                "version_normalized": "1.0.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/wp-log.1.0.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>Wp log is simple plugin to save actions in database. Also actions can be sent to mail.\nWp log can record:\nUser Login\nUser Logout\nUser Register\nUser Delete\nPost Edit\nPost Delete\nTheme Switch\nNew Comment\nComment Approved\nComment Unapproved\nPlugin Activated\nPlugin Deactivated<\/p>\n\n<p>There is a useful option panel for plugin that let you to define which actions can be saved in database or send it in email.<\/p>\n\n<p>Function:\nwl_logs_action_row()\nReturn saved data in database. Return data is an array.<\/p>\n\n<p>&#060;&#063;php echo wl_logs_action_row('action_name','ip_address','127.0.0.1','10','date','ASC'); &#063;&#062;<\/p>\n\n<p>Parameter 1 is output data that can be:\n* - everything\naction_name - action name\nip_address - return ip address\ndate - date of the action\ndata - extra data (need to be unserialized)<\/p>\n\n<p>Parameter 2 is filter key.<\/p>\n\n<p>Prameter 2 is filter value<\/p>\n\n<p>parameter 3 is displayed items count<\/p>\n\n<p>Parameter 4 is items order by that can be date, ip_address, id",
+                "uid": "8068"
+            }
+        }
+    }
+}

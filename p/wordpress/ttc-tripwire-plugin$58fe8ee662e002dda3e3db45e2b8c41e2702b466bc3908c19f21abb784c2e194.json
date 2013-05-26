@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/ttc-tripwire-plugin": {
+            "2.0": {
+                "name": "wordpress\/ttc-tripwire-plugin",
+                "version": "2.0",
+                "version_normalized": "2.0.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/ttc-tripwire-plugin.2.0.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>This is part 2 of a 3 part security suite for WordPress.  This plugin acts as a tripwire, flagging all files that have been changed in the last 1 to 99 days.  Simply choose how many days back in time you wish to go and and it will list all files changed in that time frame for you.<\/p>",
+                "uid": "102627"
+            }
+        }
+    }
+}

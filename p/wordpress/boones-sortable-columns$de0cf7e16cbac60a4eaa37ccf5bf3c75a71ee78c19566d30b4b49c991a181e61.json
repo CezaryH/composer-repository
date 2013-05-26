@@ -1,0 +1,40 @@
+{
+    "packages": {
+        "wordpress\/boones-sortable-columns": {
+            "1.0": {
+                "name": "wordpress\/boones-sortable-columns",
+                "version": "1.0",
+                "version_normalized": "1.0.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/boones-sortable-columns.1.0.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>Here's how I recommend using the class.<\/p>\n\n<ol>\n<li>Either activate this plugin, or include the class in your own plugin file.<\/li>\n<li>When you start to render the page with the post list, define some columns and then instantiate the class:<\/li>\n<\/ol>\n\n<pre><code>$cols = array(\n    array(\n        &#039;name&#039;        =&#62; &#039;restaurant_name&#039;,\n        &#039;title&#039;       =&#62; &#039;Restaurant Name&#039;,\n        &#039;css_class&#039;   =&#62; &#039;restaurant-name&#039;,\n        &#039;is_default&#039;  =&#62; true\n    ),\n    array(\n        &#039;name&#039;        =&#62; &#039;cuisine_type&#039;,\n        &#039;title&#039;       =&#62; &#039;Cuisine Type&#039;,\n        &#039;css_class&#039;   =&#62; &#039;cuisine-type&#039;,\n        &#039;default_order&#039; =&#62; &#039;desc&#039;\n    )\n);\n$sortable = new BBG_CPT_Sort( $cols );<\/code><\/pre>\n\n<ol>\n<li>As you render your table, you can use all sorts of fun methods to create column headers. Example:<\/li>\n<\/ol>\n\n<pre",
+                "uid": "46802"
+            },
+            "1.1": {
+                "name": "wordpress\/boones-sortable-columns",
+                "version": "1.1",
+                "version_normalized": "1.1.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/boones-sortable-columns.1.1.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>Here's how I recommend using the class.<\/p>\n\n<ol>\n<li>Either activate this plugin, or include the class in your own plugin file.<\/li>\n<li>When you start to render the page with the post list, define some columns and then instantiate the class:<\/li>\n<\/ol>\n\n<pre><code>$cols = array(\n    array(\n        &#039;name&#039;        =&#62; &#039;restaurant_name&#039;,\n        &#039;title&#039;       =&#62; &#039;Restaurant Name&#039;,\n        &#039;css_class&#039;   =&#62; &#039;restaurant-name&#039;,\n        &#039;is_default&#039;  =&#62; true\n    ),\n    array(\n        &#039;name&#039;        =&#62; &#039;cuisine_type&#039;,\n        &#039;title&#039;       =&#62; &#039;Cuisine Type&#039;,\n        &#039;css_class&#039;   =&#62; &#039;cuisine-type&#039;,\n        &#039;default_order&#039; =&#62; &#039;desc&#039;\n    )\n);\n$sortable = new BBG_CPT_Sort( $cols );<\/code><\/pre>\n\n<ol>\n<li>As you render your table, you can use all sorts of fun methods to create column headers. Example:<\/li>\n<\/ol>\n\n<pre",
+                "uid": "46801"
+            }
+        }
+    }
+}

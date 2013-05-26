@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/fast-forward": {
+            "0.1": {
+                "name": "wordpress\/fast-forward",
+                "version": "0.1",
+                "version_normalized": "0.1.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/fast-forward.0.1.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>A classical optimization on a web site is to configure cache headers of a page to enable the browser to display the page instantly if it has been loaded recently. This works very well when the user is hitting the back button to go back to the previous page.<\/p>\n\n<p>What if we could do the same for the next page that the user will request? With this plugin this is now possible!<\/p>\n\n<p>Fast Forward works by analyzing which pages are most frequently navigated to from the current page. The page with most traffic is then given as a preload hint to the users browser. For technical details please see: <a href=\"http:\/\/albertsnotes.blogspot.se\/2012\/06\/browser-preloading.html\" rel=\"nofollow\">http:\/\/albertsnotes.blogspot.se\/2012\/06\/browser-preloading.html<\/a>.<\/p>",
+                "uid": "23017"
+            }
+        }
+    }
+}

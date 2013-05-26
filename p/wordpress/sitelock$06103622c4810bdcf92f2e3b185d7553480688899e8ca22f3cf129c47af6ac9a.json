@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/sitelock": {
+            "1.2": {
+                "name": "wordpress\/sitelock",
+                "version": "1.2",
+                "version_normalized": "1.2.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/sitelock.1.2.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>By using this plugin you will have no change to your originating IPs when using SiteLock Acceleration &#38; Prevention. SiteLock Acceleration &#38; Prevention acts as a reverse proxy and all incoming connections to \nyour website first pass through one of SiteLock's servers. This plugin will ensure that you continue to\nsee the real originating IP of your website visitors.<\/p>\n\n<p>The plugin is <strong>highly recommended<\/strong> for WordPress users using the SiteLock Acceleration &#38; Prevention\nservice.<\/p>\n\n<p>HOW IT WORKS:<\/p>\n\n<ul>\n<li>The plugin sets the value of $_SERVER['REMOTE_ADDR'] according to the client IP value reported by the SiteLock Acceleration &#38; Prevention proxy.<\/li>\n<li>The plugin will automatically position itself to execute first so that all other plugins that require the originating IP, continue to operate as usual.<\/li>\n<\/ul>\n\n<p>ABOUT SiteLock:<\/p>\n\n<p>SiteLock Acceleration &#38; Prevention gives any website the security and performance previously only\na",
+                "uid": "8160"
+            }
+        }
+    }
+}

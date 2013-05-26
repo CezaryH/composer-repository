@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/landing-page-language": {
+            "1.0.0": {
+                "name": "wordpress\/landing-page-language",
+                "version": "1.0.0",
+                "version_normalized": "1.0.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/landing-page-language.1.0.0.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>Re-directs users to specific language landing pages that have been created by you.<\/p>\n\n<p>Admin can generate pages according to language locals (i.e en, es, de, etc...)\nand this plugin will identify any browser loading the main page with a language preference and if a page matching exists will redirect users to that page.<\/p>",
+                "uid": "45906"
+            }
+        }
+    }
+}

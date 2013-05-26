@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/binimg": {
+            "1.0": {
+                "name": "wordpress\/binimg",
+                "version": "1.0",
+                "version_normalized": "1.0.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/binimg.1.0.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>This plugin will detect all images in your WordPress that are not being used no more. It will mark all the images. What you only have to do is clic on \"Delete\".<\/p>",
+                "uid": "56795"
+            }
+        }
+    }
+}

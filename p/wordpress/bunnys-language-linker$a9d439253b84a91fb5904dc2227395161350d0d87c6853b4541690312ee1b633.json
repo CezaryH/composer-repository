@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/bunnys-language-linker": {
+            "0.2": {
+                "name": "wordpress\/bunnys-language-linker",
+                "version": "0.2",
+                "version_normalized": "0.2.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/bunnys-language-linker.0.2.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>This plugin assumes you have a site in two or more languages, and that you are using a separate WordPress install for each language. It helps you create links between the same pages in different \nlanguage versions.<\/p>\n\n<p>You should have a pattern of parallel sites with urls like <a href=\"http:\/\/stephanie-booth.com\/en\/\" rel=\"nofollow\">http:\/\/stephanie-booth.com\/en\/<\/a>, <a href=\"http:\/\/stephanie-booth.com\/de\/\" rel=\"nofollow\">http:\/\/stephanie-booth.com\/de\/<\/a>, <a href=\"http:\/\/stephanie-booth.com\/fr\/\" rel=\"nofollow\">http:\/\/stephanie-booth.com\/fr\/<\/a>. Maybe the page \n<a href=\"http:\/\/stephanie-booth.com\/en\/about\" rel=\"nofollow\">http:\/\/stephanie-booth.com\/en\/about<\/a> is equivalent to the page <a href=\"http:\/\/stephanie-booth.com\/fr\/a-propos\" rel=\"nofollow\">http:\/\/stephanie-booth.com\/fr\/a-propos<\/a>. The plugin adds a DBX box in the edit\/create page admin form, named \"Other Language Slugs\". In \nthis case, you'd edit the \"about\" page, and paste the fr slug (\"a-propos\") in the appropriat",
+                "uid": "107703"
+            }
+        }
+    }
+}

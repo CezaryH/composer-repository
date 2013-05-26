@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/pvapi": {
+            "1.0": {
+                "name": "wordpress\/pvapi",
+                "version": "1.0",
+                "version_normalized": "1.0.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/pvapi.1.0.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>The PinkVisual API Plugin allows you to integrate PinkVisual's content with your site via\nthe PinkVisual API [http:\/\/api.pinkvisual.com\/]. Using your PinkVisual API ID you can earn\nrevenue from surfers sent to PinkVisual.<\/p>\n\n<p>The plugin includes a simple shortcode [pvapi] to add content to your site.<\/p>\n\n<p>Please see the <a href=\"http:\/\/wordpress.org\/extend\/plugins\/pvapi\/other_notes\/\">Usage<\/a> page for information about using the shortcode.<\/p>",
+                "uid": "35706"
+            }
+        }
+    }
+}

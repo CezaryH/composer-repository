@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/webstartavenue-endnotes": {
+            "1.0": {
+                "name": "wordpress\/webstartavenue-endnotes",
+                "version": "1.0",
+                "version_normalized": "1.0.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/webstartavenue-endnotes.1.0.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>Use Endnotes to cite sources or provide in-depth explanations in your posts or pages.\nAll the functionality is provided by an easy to use shortcode. To insert an endnote,\nuse any of the following formats:<\/p>\n\n<pre><code>[endnote This is an example endnote!]\n\n[end This is another alias for endnotes!]\n\n[note Last one!]\n<\/code><\/pre>\n\n<p>For each of the above shortcodes you can also use the open\/close syntax which looks like:<\/p>\n\n<pre><code>[note]Don't forget to close your endnote shortcodes.[\/note]\n<\/code><\/pre>\n\n<p>Each of the above shortcodes does the same thing:<\/p>\n\n<p>1) Replaces the text by a number, in the order they appear in the document, starting\nat 1.<\/p>\n\n<p>2) Places a note at the bottom, in an ordered list corresponding to the number placed\nin the content's text.<\/p>\n\n<p>3) Links the endnote and text reference using anchor tags for easy clicking between \nreferences and back to the text.<\/p>\n\n<p>All styles can be customized by adding appropriate CSS styles to your theme",
+                "uid": "31024"
+            }
+        }
+    }
+}

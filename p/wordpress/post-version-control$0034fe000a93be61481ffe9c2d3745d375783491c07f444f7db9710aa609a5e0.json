@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/post-version-control": {
+            "1.0": {
+                "name": "wordpress\/post-version-control",
+                "version": "1.0",
+                "version_normalized": "1.0.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/post-version-control.1.0.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>Posts can be grouped in many ways in Wordpress but there is no direct version control system. This plugin offers a lightweight solution if you want version control for a group of posts.<\/p>\n\n<p>To make this work you define a keyword for each version control group you want to create. Then use that keyword as a prefix in the post name of each post in that group. The plugin will sort out the latest post automatically and label the rest as outdated.<\/p>\n\n<p>It also let's you have a URL that will always point to the latest post of that version control group. That way you can give out the URL to others and be sure that your visitors will always be viewing the most recent post.<\/p>\n\n<p>This plugin will automatically:<\/p>\n\n<ul>\n<li>Define if a post is part of a version control group. <\/li>\n<li>Search and locate the latest post by publish date.<\/li>\n<li>Label the older posts of the group as outdated.<\/li>\n<\/ul>\n\n<p>This is especially practical for bloggers that often revisit older subjects a",
+                "uid": "103568"
+            }
+        }
+    }
+}

@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/easy-imdb": {
+            "0.1": {
+                "name": "wordpress\/easy-imdb",
+                "version": "0.1",
+                "version_normalized": "0.1.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/easy-imdb.0.1.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>Easy IMDB allows Wordpress users to easily embed IMDB movie images in their post using one simple tag.<\/p>\n\n<p>Images are cached on your webserver to speed up pages as scraping from IMDB can take a while the first time you do it.<\/p>\n\n<p>Use tag in the form of [imdb MOVIE] e.g. [imdb The Transporter]<\/p>",
+                "uid": "106076"
+            }
+        }
+    }
+}

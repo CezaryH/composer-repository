@@ -1,0 +1,40 @@
+{
+    "packages": {
+        "wordpress\/vkontakte-cut-post": {
+            "1.0": {
+                "name": "wordpress\/vkontakte-cut-post",
+                "version": "1.0",
+                "version_normalized": "1.0.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/vkontakte-cut-post.1.0.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>This plugin allows you to hide part of any posts (or pages), which will be available to the user after he clicks a button \"I like\" (vKontakte) on this post (page). Instead, this text user see the link, click that opens a window with instructions to be executed to see the hidden text.<\/p>\n\n<p><strong>How to hide the text<\/strong><\/p>\n\n<ul>\n<li>The text that you want to hide you must enclose the tag: <code>[vcut]<\/code> hidden text <code>[\/vcut]<\/code>. You can also use the button in the visual editor or quicktag.<\/li>\n<li>An optional parameter <em>text<\/em> to specify the text to be displayed instead of hidden. For example, <code>[vcut text = \"Click Me\"]<\/code> hidden text <code>[\/vcut]<\/code>.<\/li>\n<\/ul>",
+                "uid": "33466"
+            },
+            "1.0.1": {
+                "name": "wordpress\/vkontakte-cut-post",
+                "version": "1.0.1",
+                "version_normalized": "1.0.1.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/vkontakte-cut-post.1.0.1.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>This plugin allows you to hide part of any posts (or pages), which will be available to the user after he clicks a button \"I like\" (vKontakte) on this post (page). Instead, this text user see the link, click that opens a window with instructions to be executed to see the hidden text.<\/p>\n\n<p><strong>How to hide the text<\/strong><\/p>\n\n<ul>\n<li>The text that you want to hide you must enclose the tag: <code>[vcut]<\/code> hidden text <code>[\/vcut]<\/code>. You can also use the button in the visual editor or quicktag.<\/li>\n<li>An optional parameter <em>text<\/em> to specify the text to be displayed instead of hidden. For example, <code>[vcut text = \"Click Me\"]<\/code> hidden text <code>[\/vcut]<\/code>.<\/li>\n<\/ul>",
+                "uid": "33465"
+            }
+        }
+    }
+}

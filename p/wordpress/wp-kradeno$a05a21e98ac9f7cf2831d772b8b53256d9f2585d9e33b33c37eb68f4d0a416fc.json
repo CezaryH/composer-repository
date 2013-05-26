@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/wp-kradeno": {
+            "0.7": {
+                "name": "wordpress\/wp-kradeno",
+                "version": "0.7",
+                "version_normalized": "0.7.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/wp-kradeno.0.7.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>This plugin extracts several sentences from each of your posts and searches in Google for pages that contain them. Then it cross-references the results and suggests sites that may have reposted your texts without permission or backlink.<\/p>\n\n<p>In the \"Posts-&#62;WP Kradeno Reports\" page you could run a search for reposts. This check takes a lot of time, so you may want to leave it like that. Depending on your server, you may notice a slowed down loading of your site during the check, but that goes only for you - your visitors won't notice any change. If you run out of Google Search calls (4000 per hour is a safe limit), the check will stop and you may start the re-post check in an hour and it will begin from where it stopped.<\/p>\n\n<p>On the same page you will also see the suggestions ordered by blog posts. Since some sites are known rss agregates or forums, you could pick them out and exclude them from future searches. Furthermore, you could ignore other sites after you make sure t",
+                "uid": "69667"
+            }
+        }
+    }
+}

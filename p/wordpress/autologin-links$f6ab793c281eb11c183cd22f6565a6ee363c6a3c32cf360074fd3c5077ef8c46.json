@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/autologin-links": {
+            "1.03": {
+                "name": "wordpress\/autologin-links",
+                "version": "1.03",
+                "version_normalized": "1.03.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/autologin-links.1.03.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>This plugin allows admininstators to generate autologin links for their \nWordPress website, logging in visitors under a certain user name. Administrators\ncan edit (generate and delete) autologin links for users, users can only view\ntheir autologin links. Note that <strong>This plugin bypasses the standard \nauthentication method of wordpress via login and password and should only be \nused if you understand the security issues mentioned below and on the \n<a href=\"http:\/\/www.craftware.nl\/wordpress-autologin\/\">plugin website<\/a>.<\/strong><\/p>\n\n<p><strong>Usage<\/strong><\/p>\n\n<p>Once this plugin is activated, administrators can generate autologin links on \nthe edit profile administration pages for different users. Users can view their\nautlogin links on their profile pages. Autologin links are of the form:<\/p>\n\n<p><a href=\"http:\/\/yourwebsite\/&#091;subdirectory\/&#093;?autologin_code=ABC123\" rel=\"nofollow\">http:\/\/yourwebsite\/&#091;subdirectory\/&#093;?autologin_code=ABC123<\/a><\/p>\n\n<p>The log",
+                "uid": "31457"
+            }
+        }
+    }
+}

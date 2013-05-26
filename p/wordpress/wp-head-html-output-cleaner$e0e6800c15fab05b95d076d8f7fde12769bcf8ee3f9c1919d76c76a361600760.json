@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/wp-head-html-output-cleaner": {
+            "1.0": {
+                "name": "wordpress\/wp-head-html-output-cleaner",
+                "version": "1.0",
+                "version_normalized": "1.0.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/wp-head-html-output-cleaner.1.0.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>Cleans up the output of wp_head so it becomes less apparent that your WordPress installation is running WordPress. It also adds root relative URLs and makes the HTML output of WordPress much cleaner. Based off the work of <a href=\"http:\/\/benword.com\">Ben Word<\/a> and <a href=\"http:\/\/terrordome.ca\/\">Scott Walkinshaw<\/a>.<\/p>",
+                "uid": "15319"
+            }
+        }
+    }
+}

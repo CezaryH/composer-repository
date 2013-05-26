@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/showtweets": {
+            "0.2": {
+                "name": "wordpress\/showtweets",
+                "version": "0.2",
+                "version_normalized": "0.2.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/showtweets.0.2.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>showTweets will retrieve the last 5 status updates from the specified account(s) and display them as an ordered\/unordered list item.<\/p>\n\n<p>You can enter 1 or multiple accounts. By default the feed will combine the last 5 status feeds from each account into the 5 most recent based on the returned created_at value in chronologically order.<\/p>\n\n<p>You MUST be using PHP version 5 or higher.<\/p>",
+                "uid": "74780"
+            }
+        }
+    }
+}

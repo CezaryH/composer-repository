@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/qtranslate-remove-one-language-menu-item": {
+            "0.1": {
+                "name": "wordpress\/qtranslate-remove-one-language-menu-item",
+                "version": "0.1",
+                "version_normalized": "0.1.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/qtranslate-remove-one-language-menu-item.0.1.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>For example if you remove the French title for a page:\n<!--:fr--><!--:--><!--:en-->Company Profile<!--:-->\nWithout our plugin, you will get in French a menu with the following title: Company Profile (English)\nThis plugin will totally remove the menu item.<\/p>",
+                "uid": "13981"
+            }
+        }
+    }
+}

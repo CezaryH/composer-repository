@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/wordpress-reusables": {
+            "1.0": {
+                "name": "wordpress\/wordpress-reusables",
+                "version": "1.0",
+                "version_normalized": "1.0.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/wordpress-reusables.1.0.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>A pretty common feature among content management systems is the ability to pull pieces of content onto a page which have been pre-defined within the database. However, with WordPress you are unable to do this on the page\/post level. Only in theme creation are you able to dynamically pull content from other files. This can be extremely useful for content that gets used throughout a site, as it can be very cumbersome trying to update something like a headline that is hard coded onto multiple pages. However, with this plugin you are able to create a reusable for these types of content and manage them in one place rather than editing each post\/page that the content is on.<\/p>",
+                "uid": "82723"
+            }
+        }
+    }
+}

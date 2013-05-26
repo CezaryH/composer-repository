@@ -1,0 +1,40 @@
+{
+    "packages": {
+        "wordpress\/xmap": {
+            "0.9": {
+                "name": "wordpress\/xmap",
+                "version": "0.9",
+                "version_normalized": "0.9.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/xmap.0.9.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>Embed maps from the following domains into your WordPress blog:<\/p>\n\n<ul>\n<li><a href=\"http:\/\/www.bikemap.net\" rel=\"nofollow\">http:\/\/www.bikemap.net<\/a><\/li>\n<li><a href=\"http:\/\/www.runmap.net\" rel=\"nofollow\">http:\/\/www.runmap.net<\/a><\/li>\n<li><a href=\"http:\/\/www.inlinemap.net\" rel=\"nofollow\">http:\/\/www.inlinemap.net<\/a><\/li>\n<li><a href=\"http:\/\/www.wandermap.net\" rel=\"nofollow\">http:\/\/www.wandermap.net<\/a><\/li>\n<li><a href=\"http:\/\/www.mopedmap.net\" rel=\"nofollow\">http:\/\/www.mopedmap.net<\/a><\/li>\n<\/ul>\n\n<p>You can do this using simple shortcodes, e.g.:<\/p>\n\n<ul>\n<li>[bikemap route=\"1026736\"]<\/li>\n<li>[wandermap route=\"123456\" extended=\"false\"]<\/li>\n<\/ul>\n\n<p>The following shortcodes are allowed:<\/p>\n\n<ul>\n<li>[bikemap]<\/li>\n<li>[wandermap]<\/li>\n<li>[runmap]<\/li>\n<li>[inlinemap]<\/li>\n<li>[mopedmap]<\/li>\n<\/ul>\n\n<p>The following attributes are allowed:<\/p>\n\n<ul>\n<li><code>route<\/code>: The route id (an integer)<\/li>\n<li><code>extended<\/code>: If route info like elevation, distance etc.",
+                "uid": "45109"
+            },
+            "1.0": {
+                "name": "wordpress\/xmap",
+                "version": "1.0",
+                "version_normalized": "1.0.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/xmap.1.0.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>Embed maps from the following domains into your WordPress blog:<\/p>\n\n<ul>\n<li><a href=\"http:\/\/www.bikemap.net\" rel=\"nofollow\">http:\/\/www.bikemap.net<\/a><\/li>\n<li><a href=\"http:\/\/www.runmap.net\" rel=\"nofollow\">http:\/\/www.runmap.net<\/a><\/li>\n<li><a href=\"http:\/\/www.inlinemap.net\" rel=\"nofollow\">http:\/\/www.inlinemap.net<\/a><\/li>\n<li><a href=\"http:\/\/www.wandermap.net\" rel=\"nofollow\">http:\/\/www.wandermap.net<\/a><\/li>\n<li><a href=\"http:\/\/www.mopedmap.net\" rel=\"nofollow\">http:\/\/www.mopedmap.net<\/a><\/li>\n<\/ul>\n\n<p>You can do this using simple shortcodes, e.g.:<\/p>\n\n<ul>\n<li>[bikemap route=\"1026736\"]<\/li>\n<li>[wandermap route=\"123456\" extended=\"false\"]<\/li>\n<\/ul>\n\n<p>The following shortcodes are allowed:<\/p>\n\n<ul>\n<li>[bikemap]<\/li>\n<li>[wandermap]<\/li>\n<li>[runmap]<\/li>\n<li>[inlinemap]<\/li>\n<li>[mopedmap]<\/li>\n<\/ul>\n\n<p>The following attributes are allowed:<\/p>\n\n<ul>\n<li><code>route<\/code>: The route id (an integer)<\/li>\n<li><code>extended<\/code>: If route info like elevation, distance etc.",
+                "uid": "45107"
+            }
+        }
+    }
+}

@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/feed-filter": {
+            "1.0.0": {
+                "name": "wordpress\/feed-filter",
+                "version": "1.0.0",
+                "version_normalized": "1.0.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/feed-filter.1.0.0.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>Feed Filter can be configure to manipulate the feed served to some specific IP addresses.\nI used it to send reduced content with no images, back links and copyright notices\nto automated blog network that was republishing my contents.<\/p>\n\n<p>More, the plugin can \"delay\" the feed seen by specific IP: this is useful to have\nyou article titles published before sites or networks that republish (legally or not)\nyour feed items.<\/p>\n\n<p>I wait for users comments on <a href=\"http:\/\/www.satollo.net\/plugins\/feed-filter\" rel=\"nofollow\">http:\/\/www.satollo.net\/plugins\/feed-filter<\/a>.<\/p>",
+                "uid": "55089"
+            }
+        }
+    }
+}

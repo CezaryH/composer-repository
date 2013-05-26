@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/proper-redirect": {
+            "0.01": {
+                "name": "wordpress\/proper-redirect",
+                "version": "0.01",
+                "version_normalized": "0.01.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/proper-redirect.0.01.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>Redirects you to the proper URL of the website. In case of stumbling upon a working alias.<\/p>\n\n<p>Normally (depending on your settings or control panel) <a href=\"http:\/\/misterwebsite.nl\" rel=\"nofollow\">http:\/\/misterwebsite.nl<\/a> (an alias of <a href=\"http:\/\/www.mrwebsite.nl\" rel=\"nofollow\">http:\/\/www.mrwebsite.nl<\/a>) just works, but it should be redirected to <a href=\"http:\/\/www.mrwebsite.nl\" title=\"MrWebsite\">http:\/\/www.mrwebsite.nl<\/a>. \nThe same goes for <a href=\"http:\/\/mrwebsite.nl\" rel=\"nofollow\">http:\/\/mrwebsite.nl<\/a> (it should be with www. instead without), <a href=\"https:\/\/www.mrwebsite.nl\" rel=\"nofollow\">https:\/\/www.mrwebsite.nl<\/a> (it should be http instead of https) and all other aliases.<\/p>\n\n<p>Before WordPress 3 this just worked out of the box. But it does not anymore.<\/p>",
+                "uid": "44838"
+            }
+        }
+    }
+}

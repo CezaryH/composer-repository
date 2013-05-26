@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/iso-2-utf-data-converter": {
+            "1.0.0": {
+                "name": "wordpress\/iso-2-utf-data-converter",
+                "version": "1.0.0",
+                "version_normalized": "1.0.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/iso-2-utf-data-converter.1.0.0.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>This plugin will convert ISO-8859-1 data to UTF-8 data in a MySQL UTF-8 WordPress database where things at some stage went wrong - this can happen during a command line backup\/restore batch if your shell is misconfigured, for instance.<\/p>\n\n<p>Install the <strong>ISO to UTF content<\/strong> plugin and you can with a few clicks\nin the WordPress admin panel convert all ISO-8859-1 data to UTF-8 data. You will also\nhave the option to exclude columns in tables you do not wish to run the conversion on.<\/p>",
+                "uid": "74303"
+            }
+        }
+    }
+}

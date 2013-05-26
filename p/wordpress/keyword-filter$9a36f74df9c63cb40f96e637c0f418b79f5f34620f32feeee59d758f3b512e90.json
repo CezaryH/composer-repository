@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/keyword-filter": {
+            "1.0.0": {
+                "name": "wordpress\/keyword-filter",
+                "version": "1.0.0",
+                "version_normalized": "1.0.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/keyword-filter.1.0.0.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>The Keyword keyword plugin replace the sensitive keyword in the post content. Keyword filter plugin works by creating a WordPress filter for the post contents. When the post get displayed, WordPress gives the post content to the  keyword filter plugin and the plugin returns some modified content. Replace the sensitive keyword with specific keyword.<\/p>\n\n<p>The WordPress keyword plugin support Far East Characters (such as Chinese Characters). You may also create your own keyword filter lists as needed.<\/p>",
+                "uid": "28786"
+            }
+        }
+    }
+}

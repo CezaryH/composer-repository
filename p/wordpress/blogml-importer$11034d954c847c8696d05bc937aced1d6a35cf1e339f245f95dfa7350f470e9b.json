@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/blogml-importer": {
+            "1.0": {
+                "name": "wordpress\/blogml-importer",
+                "version": "1.0",
+                "version_normalized": "1.0.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/blogml-importer.1.0.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>Import posts, comments, users, and categories from a BlogML file.<\/p>\n\n<p>Based on BlogML importer written by Aaron Lerch (<a href=\"http:\/\/www.aaronlerch.com\/\" rel=\"nofollow\">http:\/\/www.aaronlerch.com\/<\/a>) and modified to work with Wordpress 3.0.<\/p>\n\n<p>Note: Plugin may not import categories or tags properly into WordPress. For instance,\nduring my install there were no tags installed, and the categories were defined as GUIDs.\nA simple rename and retag fixed this issue.<\/p>",
+                "uid": "65799"
+            }
+        }
+    }
+}

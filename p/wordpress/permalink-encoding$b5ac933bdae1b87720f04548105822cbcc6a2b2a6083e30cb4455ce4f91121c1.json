@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/permalink-encoding": {
+            "1.0": {
+                "name": "wordpress\/permalink-encoding",
+                "version": "1.0",
+                "version_normalized": "1.0.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/permalink-encoding.1.0.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>Non-ASCII characters can be used in the URL, but they have to be encoded (RFC3986). URL encoding is widely used (e.g. Wikipedia <a href=\"http:\/\/ja.wikipedia.org\/wiki\/Wikipedia:%E9%80%A3%E7%B5%A1%E5%85%88)\" rel=\"nofollow\">http:\/\/ja.wikipedia.org\/wiki\/Wikipedia:%E9%80%A3%E7%B5%A1%E5%85%88)<\/a>.<br \/>\nThis plugin encodes NON-ASCII characters in the slugs of your pretty permalinks. So your slugs may look like <code>fu&#223;ball-in-n&#252;rnberg<\/code> or <code>\u9023\u7d61\u5148<\/code>.<br \/><\/p>",
+                "uid": "36185"
+            }
+        }
+    }
+}

@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/disable-admin-bar": {
+            "1.1": {
+                "name": "wordpress\/disable-admin-bar",
+                "version": "1.1",
+                "version_normalized": "1.1.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/disable-admin-bar.1.1.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>Disable the Admin Bar that now appears on the public side of WordPress blogs.<\/p>\n\n<p>For a hassle free integration, drop the plugin file into <code>wp-content\/mu-plugins<\/code> (create the directory if needed) and it will be automatically activated.<\/p>",
+                "uid": "58591"
+            }
+        }
+    }
+}

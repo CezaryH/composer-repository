@@ -1,0 +1,142 @@
+{
+    "packages": {
+        "wordpress\/user-meta-shortcodes": {
+            "0.1": {
+                "name": "wordpress\/user-meta-shortcodes",
+                "version": "0.1",
+                "version_normalized": "0.1.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/user-meta-shortcodes.0.1.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>USAGE:<\/p>\n\n<p>use [userinfo field=\"fieldname\"]some content[\/userinfo] or [authorinfo field=\"fieldname\"]some content[\/authorinfo] shortcodes in your post content to show the \"fieldname\" meta value from the user-meta for the current logged-in user or for the post author without editing your theme files.<\/p>\n\n<p>EXAMPLES:<\/p>\n\n<p>[userinfo field=\"last_name\"]{{empty}}[\/userinfo]<\/p>\n\n<p>returns the last name of the current logged-in user. If no user is logged in then the value is empty string<\/p>\n\n<p>[userinfo field=\"user_login\" if=\"admin\"]You are the admin[\/userinfo]<\/p>\n\n<p>this shortcode tests the field against the value and if true it displays the included content<\/p>\n\n<p>[userinfo field=\"user_login\"] is your username and you are reading a post by [authorinfo field=\"user_login\"]{{empty}}[\/authorinfo].[\/userinfo]<\/p>\n\n<p>this will display the username followed with the processed content. Note: never use the nested shortcode same as the enclosing shortcode. This will produce unexpect",
+                "uid": "67386"
+            },
+            "0.2": {
+                "name": "wordpress\/user-meta-shortcodes",
+                "version": "0.2",
+                "version_normalized": "0.2.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/user-meta-shortcodes.0.2.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>USAGE:<\/p>\n\n<p>use [userinfo field=\"fieldname\"]some content[\/userinfo] or [authorinfo field=\"fieldname\"]some content[\/authorinfo] shortcodes in your post content to show the \"fieldname\" meta value from the user-meta for the current logged-in user or for the post author without editing your theme files.<\/p>\n\n<p>EXAMPLES:<\/p>\n\n<p>[userinfo field=\"last_name\"]{{empty}}[\/userinfo]<\/p>\n\n<p>returns the last name of the current logged-in user. If no user is logged in then the value is empty string<\/p>\n\n<p>[userinfo field=\"user_login\" if=\"admin\"]You are the admin[\/userinfo]<\/p>\n\n<p>this shortcode tests the field against the value and if true it displays the included content<\/p>\n\n<p>[userinfo field=\"user_login\"] is your username and you are reading a post by [authorinfo field=\"user_login\"]{{empty}}[\/authorinfo].[\/userinfo]<\/p>\n\n<p>this will display the username followed with the processed content. Note: never use the nested shortcode same as the enclosing shortcode. This will produce unexpect",
+                "uid": "67385"
+            },
+            "0.2.1": {
+                "name": "wordpress\/user-meta-shortcodes",
+                "version": "0.2.1",
+                "version_normalized": "0.2.1.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/user-meta-shortcodes.0.2.1.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>USAGE:<\/p>\n\n<p>use [userinfo field=\"fieldname\"]some content[\/userinfo] or [authorinfo field=\"fieldname\"]some content[\/authorinfo] shortcodes in your post content to show the \"fieldname\" meta value from the user-meta for the current logged-in user or for the post author without editing your theme files.<\/p>\n\n<p>EXAMPLES:<\/p>\n\n<p>[userinfo field=\"last_name\"]{{empty}}[\/userinfo]<\/p>\n\n<p>returns the last name of the current logged-in user. If no user is logged in then the value is empty string<\/p>\n\n<p>[userinfo field=\"user_login\" if=\"admin\"]You are the admin[\/userinfo]<\/p>\n\n<p>this shortcode tests the field against the value and if true it displays the included content<\/p>\n\n<p>[userinfo field=\"user_login\"] is your username and you are reading a post by [authorinfo field=\"user_login\"]{{empty}}[\/authorinfo].[\/userinfo]<\/p>\n\n<p>this will display the username followed with the processed content. Note: never use the nested shortcode same as the enclosing shortcode. This will produce unexpect",
+                "uid": "67384"
+            },
+            "0.2.2": {
+                "name": "wordpress\/user-meta-shortcodes",
+                "version": "0.2.2",
+                "version_normalized": "0.2.2.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/user-meta-shortcodes.0.2.2.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>USAGE:<\/p>\n\n<p>use [userinfo field=\"fieldname\"]some content[\/userinfo] or [authorinfo field=\"fieldname\"]some content[\/authorinfo] shortcodes in your post content to show the \"fieldname\" meta value from the user-meta for the current logged-in user or for the post author without editing your theme files.<\/p>\n\n<p>EXAMPLES:<\/p>\n\n<p>[userinfo field=\"last_name\"]{{empty}}[\/userinfo]<\/p>\n\n<p>returns the last name of the current logged-in user. If no user is logged in then the value is empty string<\/p>\n\n<p>[userinfo field=\"user_login\" if=\"admin\"]You are the admin[\/userinfo]<\/p>\n\n<p>this shortcode tests the field against the value and if true it displays the included content<\/p>\n\n<p>[userinfo field=\"user_login\"] is your username and you are reading a post by [authorinfo field=\"user_login\"]{{empty}}[\/authorinfo].[\/userinfo]<\/p>\n\n<p>this will display the username followed with the processed content. Note: never use the nested shortcode same as the enclosing shortcode. This will produce unexpect",
+                "uid": "67383"
+            },
+            "0.2.3": {
+                "name": "wordpress\/user-meta-shortcodes",
+                "version": "0.2.3",
+                "version_normalized": "0.2.3.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/user-meta-shortcodes.0.2.3.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>USAGE:<\/p>\n\n<p>use [userinfo field=\"fieldname\"]some content[\/userinfo] or [authorinfo field=\"fieldname\"]some content[\/authorinfo] shortcodes in your post content to show the \"fieldname\" meta value from the user-meta for the current logged-in user or for the post author without editing your theme files.<\/p>\n\n<p>EXAMPLES:<\/p>\n\n<p>[userinfo field=\"last_name\"]{{empty}}[\/userinfo]<\/p>\n\n<p>returns the last name of the current logged-in user. If no user is logged in then the value is empty string<\/p>\n\n<p>[userinfo field=\"user_login\" if=\"admin\"]You are the admin[\/userinfo]<\/p>\n\n<p>this shortcode tests the field against the value and if true it displays the included content<\/p>\n\n<p>[userinfo field=\"user_login\"] is your username and you are reading a post by [authorinfo field=\"user_login\"]{{empty}}[\/authorinfo].[\/userinfo]<\/p>\n\n<p>this will display the username followed with the processed content. Note: never use the nested shortcode same as the enclosing shortcode. This will produce unexpect",
+                "uid": "67382"
+            },
+            "0.2.4": {
+                "name": "wordpress\/user-meta-shortcodes",
+                "version": "0.2.4",
+                "version_normalized": "0.2.4.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/user-meta-shortcodes.0.2.4.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>USAGE:<\/p>\n\n<p>use [userinfo field=\"fieldname\"]some content[\/userinfo] or [authorinfo field=\"fieldname\"]some content[\/authorinfo] shortcodes in your post content to show the \"fieldname\" meta value from the user-meta for the current logged-in user or for the post author without editing your theme files.<\/p>\n\n<p>EXAMPLES:<\/p>\n\n<p>[userinfo field=\"last_name\"]{{empty}}[\/userinfo]<\/p>\n\n<p>returns the last name of the current logged-in user. If no user is logged in then the value is empty string<\/p>\n\n<p>[userinfo field=\"user_login\" if=\"admin\"]You are the admin[\/userinfo]<\/p>\n\n<p>this shortcode tests the field against the value and if true it displays the included content<\/p>\n\n<p>[userinfo field=\"user_login\"] is your username and you are reading a post by [authorinfo field=\"user_login\"]{{empty}}[\/authorinfo].[\/userinfo]<\/p>\n\n<p>this will display the username followed with the processed content. Note: never use the nested shortcode same as the enclosing shortcode. This will produce unexpect",
+                "uid": "67381"
+            },
+            "0.2.5": {
+                "name": "wordpress\/user-meta-shortcodes",
+                "version": "0.2.5",
+                "version_normalized": "0.2.5.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/user-meta-shortcodes.0.2.5.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>USAGE:<\/p>\n\n<p>use [userinfo field=\"fieldname\"]some content[\/userinfo] or [authorinfo field=\"fieldname\"]some content[\/authorinfo] shortcodes in your post content to show the \"fieldname\" meta value from the user-meta for the current logged-in user or for the post author without editing your theme files.<\/p>\n\n<p>EXAMPLES:<\/p>\n\n<p>[userinfo field=\"last_name\"]{{empty}}[\/userinfo]<\/p>\n\n<p>returns the last name of the current logged-in user. If no user is logged in then the value is empty string<\/p>\n\n<p>[userinfo field=\"user_login\" if=\"admin\"]You are the admin[\/userinfo]<\/p>\n\n<p>this shortcode tests the field against the value and if true it displays the included content<\/p>\n\n<p>[userinfo field=\"user_login\"] is your username and you are reading a post by [authorinfo field=\"user_login\"]{{empty}}[\/authorinfo].[\/userinfo]<\/p>\n\n<p>this will display the username followed with the processed content. Note: never use the nested shortcode same as the enclosing shortcode. This will produce unexpect",
+                "uid": "67380"
+            },
+            "0.3.1": {
+                "name": "wordpress\/user-meta-shortcodes",
+                "version": "0.3.1",
+                "version_normalized": "0.3.1.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/user-meta-shortcodes.0.3.1.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>USAGE:<\/p>\n\n<p>use [userinfo field=\"fieldname\"]some content[\/userinfo] or [authorinfo field=\"fieldname\"]some content[\/authorinfo] shortcodes in your post content to show the \"fieldname\" meta value from the user-meta for the current logged-in user or for the post author without editing your theme files.<\/p>\n\n<p>EXAMPLES:<\/p>\n\n<p>[userinfo field=\"last_name\"]{{empty}}[\/userinfo]<\/p>\n\n<p>returns the last name of the current logged-in user. If no user is logged in then the value is empty string<\/p>\n\n<p>[userinfo field=\"user_login\" if=\"admin\"]You are the admin[\/userinfo]<\/p>\n\n<p>this shortcode tests the field against the value and if true it displays the included content<\/p>\n\n<p>[userinfo field=\"user_login\"] is your username and you are reading a post by [authorinfo field=\"user_login\"]{{empty}}[\/authorinfo].[\/userinfo]<\/p>\n\n<p>this will display the username followed with the processed content. Note: never use the nested shortcode same as the enclosing shortcode. This will produce unexpect",
+                "uid": "67379"
+            }
+        }
+    }
+}

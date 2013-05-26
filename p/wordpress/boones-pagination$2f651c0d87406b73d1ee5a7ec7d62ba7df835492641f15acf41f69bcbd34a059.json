@@ -1,0 +1,57 @@
+{
+    "packages": {
+        "wordpress\/boones-pagination": {
+            "1.0": {
+                "name": "wordpress\/boones-pagination",
+                "version": "1.0",
+                "version_normalized": "1.0.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/boones-pagination.1.0.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>Here's how I recommend using the class.<\/p>\n\n<ol>\n<li>Either activate this plugin, or include the class in your own plugin file.<\/li>\n<li>When you start to render the page with the post list, instantiate the pagination class, using an argument array if you'd like:<\/li>\n<\/ol>\n\n<pre><code>$pargs = array(\n  &#039;get_per_page_key&#039; =&#62; &#039;perpage&#039;,\n  &#039;get_paged_key&#039;    =&#62; &#039;current_page&#039;,\n  &#039;per_page&#039;         =&#62; 15\n);\n$pagination = new BBG_CPT_Pag( $args );<\/code><\/pre>\n\n<ol>\n<li>When constructing your query arguments (for query_posts() or WP_Query), you can use the class to get your pagination arguments out of the $_GET parameters. For instance:<\/li>\n<\/ol>\n\n<pre><code>$args = array(\n  ...\n  &#039;posts_per_page&#039; =&#62; $pagination-&#62;get_per_page,\n  &#039;paged&#039; =&#62; $pagination-&#62;get_paged\n  ...\n);\nquery_posts( $args );<\/code><\/pre>\n\n<ol>\n<li>After firing the query, use the <code>setup_query()<\/code> method to popul",
+                "uid": "47293"
+            },
+            "1.0.1": {
+                "name": "wordpress\/boones-pagination",
+                "version": "1.0.1",
+                "version_normalized": "1.0.1.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/boones-pagination.1.0.1.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>Here's how I recommend using the class.<\/p>\n\n<ol>\n<li>Either activate this plugin, or include the class in your own plugin file.<\/li>\n<li>When you start to render the page with the post list, instantiate the pagination class, using an argument array if you'd like:<\/li>\n<\/ol>\n\n<pre><code>$pargs = array(\n  &#039;get_per_page_key&#039; =&#62; &#039;perpage&#039;,\n  &#039;get_paged_key&#039;    =&#62; &#039;current_page&#039;,\n  &#039;per_page&#039;         =&#62; 15\n);\n$pagination = new BBG_CPT_Pag( $args );<\/code><\/pre>\n\n<ol>\n<li>When constructing your query arguments (for query_posts() or WP_Query), you can use the class to get your pagination arguments out of the $_GET parameters. For instance:<\/li>\n<\/ol>\n\n<pre><code>$args = array(\n  ...\n  &#039;posts_per_page&#039; =&#62; $pagination-&#62;get_per_page,\n  &#039;paged&#039; =&#62; $pagination-&#62;get_paged\n  ...\n);\nquery_posts( $args );<\/code><\/pre>\n\n<ol>\n<li>After firing the query, use the <code>setup_query()<\/code> method to popul",
+                "uid": "47292"
+            },
+            "1.1": {
+                "name": "wordpress\/boones-pagination",
+                "version": "1.1",
+                "version_normalized": "1.1.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/boones-pagination.1.1.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>Here's how I recommend using the class.<\/p>\n\n<ol>\n<li>Either activate this plugin, or include the class in your own plugin file.<\/li>\n<li>When you start to render the page with the post list, instantiate the pagination class, using an argument array if you'd like:<\/li>\n<\/ol>\n\n<pre><code>$pargs = array(\n  &#039;get_per_page_key&#039; =&#62; &#039;perpage&#039;,\n  &#039;get_paged_key&#039;    =&#62; &#039;current_page&#039;,\n  &#039;per_page&#039;         =&#62; 15\n);\n$pagination = new BBG_CPT_Pag( $args );<\/code><\/pre>\n\n<ol>\n<li>When constructing your query arguments (for query_posts() or WP_Query), you can use the class to get your pagination arguments out of the $_GET parameters. For instance:<\/li>\n<\/ol>\n\n<pre><code>$args = array(\n  ...\n  &#039;posts_per_page&#039; =&#62; $pagination-&#62;get_per_page,\n  &#039;paged&#039; =&#62; $pagination-&#62;get_paged\n  ...\n);\nquery_posts( $args );<\/code><\/pre>\n\n<ol>\n<li>After firing the query, use the <code>setup_query()<\/code> method to popul",
+                "uid": "47290"
+            }
+        }
+    }
+}

@@ -1,0 +1,40 @@
+{
+    "packages": {
+        "wordpress\/http-express": {
+            "1.0.1": {
+                "name": "wordpress\/http-express",
+                "version": "1.0.1",
+                "version_normalized": "1.0.1.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/http-express.1.0.1.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>HTTP Express is a HTTP proxy that catches all images, css, javascript and flash movies on the fly to add correct HTTP headers. It adds the following headers:<\/p>\n\n<ul>\n<li>Expires<\/li>\n<li>Cache-control<\/li>\n<li>Pragma<\/li>\n<li>Last-modified<\/li>\n<\/ul>\n\n<p>All files under your wordpress installation will be automatically processed to be served with the correct HTTP headers.<\/p>\n\n<p>HTTP Express need Apache with mod_rewrite<\/p>",
+                "uid": "75319"
+            },
+            "1.0.2": {
+                "name": "wordpress\/http-express",
+                "version": "1.0.2",
+                "version_normalized": "1.0.2.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/http-express.1.0.2.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>HTTP Express is a HTTP proxy that catches all images, css, javascript and flash movies on the fly to add correct HTTP headers. It adds the following headers:<\/p>\n\n<ul>\n<li>Expires<\/li>\n<li>Cache-control<\/li>\n<li>Pragma<\/li>\n<li>Last-modified<\/li>\n<\/ul>\n\n<p>All files under your wordpress installation will be automatically processed to be served with the correct HTTP headers.<\/p>\n\n<p>HTTP Express need Apache with mod_rewrite<\/p>",
+                "uid": "75320"
+            }
+        }
+    }
+}

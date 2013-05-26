@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/apparatus": {
+            "0.4": {
+                "name": "wordpress\/apparatus",
+                "version": "0.4",
+                "version_normalized": "0.4.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/apparatus.0.4.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>Apparatus allows you to write and execute PHP code directly from your wordpress admin area. The source\ncode is displayed back to you with syntax highlighting along with any output. Errors, warnings, and notices\nare also displayed. Apparatus is great for developing code to be added to wordpress posts. Wordpress\ndevelopers may also find it useful for testing code, updating options, and debugging, all without needing\nto leave your wordpress admin area. Apparatus is also available as a stand-alone application.<\/p>",
+                "uid": "69332"
+            }
+        }
+    }
+}

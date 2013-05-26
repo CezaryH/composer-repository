@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/audioboo-advanced": {
+            "1.1": {
+                "name": "wordpress\/audioboo-advanced",
+                "version": "1.1",
+                "version_normalized": "1.1.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/audioboo-advanced.1.1.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>This plugin has support for (a single) widget per post\/page and unlimited number of Audiboo embeds using the shortcode.<\/p>\n\n<p>Widget usage:<\/p>\n\n<ul>\n<li>Add URL to Audioboo widget panel in your blog post.<\/li>\n<\/ul>\n\n<p>Shortcode usage:<\/p>\n\n<ul>\n<li>[audioboo url=\"http:\/\/audioboo.fm\/boos\/306812-radio-2\"]<\/li>\n<\/ul>",
+                "uid": "32592"
+            }
+        }
+    }
+}

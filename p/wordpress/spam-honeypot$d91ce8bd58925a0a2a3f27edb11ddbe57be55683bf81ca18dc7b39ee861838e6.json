@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/spam-honeypot": {
+            "1.0.0": {
+                "name": "wordpress\/spam-honeypot",
+                "version": "1.0.0",
+                "version_normalized": "1.0.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/spam-honeypot.1.0.0.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>This plugin works by adding a textarea field to the comment form that's hidden\nusing a CSS style. Since bots don't generally detect CSS like this, they\nproceed to fill out the field like any other field. This implies that they\naren't a human (or they wouldn't even see the field with CSS hiding it) being\nusing a browser, in which case the plugin marks the comment as spam. This\nseems to catch the vast majority of spam with very few false results and\ndoesn't require contacting a third party service like most spam plugins.<\/p>\n\n<p>If you like this plugin, please consider making a small donation to support\nits development here: <a href=\"http:\/\/bit.ly\/K1jRVo\" rel=\"nofollow\">http:\/\/bit.ly\/K1jRVo<\/a><\/p>",
+                "uid": "75318"
+            }
+        }
+    }
+}

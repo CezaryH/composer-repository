@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/icecaptcha": {
+            "2.1": {
+                "name": "wordpress\/icecaptcha",
+                "version": "2.1",
+                "version_normalized": "2.1.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/icecaptcha.2.1.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>The new generation &#8220;IceCaptcha&#8221; plugin.<\/p>\n\n<p>The new security system presupposes clicking on the circle of a particular color instead of entering numbers or other redundant actions. It is done instead of clicking on the button, i.e. no spare action is required!<\/p>\n\n<p>As for the bots or foreign captcha entering services, the task practically can&#8217;t be solved as the circle is drawn randomly in various places, it is of random color and the background (the picture itself) is also different every time. The click spot coordinates are encrypted and sent to the server where the checkup is performed. This all brings us to the fact that there is no chance of switching or calculating the correct result for any third party software.<\/p>\n\n<p>You can use our captcha for:\n&#8226;   Registering new users\n&#8226;   Authenticating users\n&#8226;   Commenting anti spam security<\/p>",
+                "uid": "23382"
+            }
+        }
+    }
+}

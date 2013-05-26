@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/djmetabox": {
+            "1.0": {
+                "name": "wordpress\/djmetabox",
+                "version": "1.0",
+                "version_normalized": "1.0.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/djmetabox.1.0.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>Using this plugin you can create custom post and you can add various types of metaboxes to those custom posts, posts and pages.<\/p><p>Now how to get value of these meta boxes in template files?<\/p> <p>Call this function in your template file<\/p> <p>\n\ndjmetabox_getvalues(postid,type,slug); \n<br \/> \npostid : id of that post   \n<br \/> \ntype: type of meta box 1,2,3,4,5 for Text Field,Text Area,Image Upload,Dropdown List,Checkboxes respectively.\n<br \/>    \nslug: slug of that perticular metabox you can get it by looking at post or page or cutom post in which you have added that meta box.\n<br \/> \n<\/p> <p>full instructions:&#160;<a href=\"http:\/\/tejuscreative.com\/djmetabox.docx\"><a href=\"http:\/\/www.tejuscreative.com\/djmetabox.docx\" rel=\"nofollow\">http:\/\/www.tejuscreative.com\/djmetabox.docx<\/a> <\/a><\/p><br \/><p><br \/>my facebook profile :<a href=\"https:\/\/www.facebook.com\/dhananjay.singh2\">https:\/\/www.facebook.com\/dhananjay.singh2<\/a><\/p><br \/> <p><a href=\"https:\/\/www.facebook.com\/dhananjay.si",
+                "uid": "27870"
+            }
+        }
+    }
+}

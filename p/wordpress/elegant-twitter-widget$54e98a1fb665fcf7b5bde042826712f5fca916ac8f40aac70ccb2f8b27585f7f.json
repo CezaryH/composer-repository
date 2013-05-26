@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/elegant-twitter-widget": {
+            "1.0": {
+                "name": "wordpress\/elegant-twitter-widget",
+                "version": "1.0",
+                "version_normalized": "1.0.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/elegant-twitter-widget.1.0.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>A WordPress widget that displays twitter updates in yummy valid semantic XHTML code. The code is heavily commented and the output is in template functions so everything is fully customizable.<\/p>\n\n<p>In this version, the plugin grabs the XML twitter feed and parses it using the PHP XML parser, instead of SimpleXML, to support PHP 4.<\/p>",
+                "uid": "107338"
+            }
+        }
+    }
+}

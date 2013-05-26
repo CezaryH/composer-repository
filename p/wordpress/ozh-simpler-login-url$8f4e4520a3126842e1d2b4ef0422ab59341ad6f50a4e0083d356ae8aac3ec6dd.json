@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/ozh-simpler-login-url": {
+            "0.1": {
+                "name": "wordpress\/ozh-simpler-login-url",
+                "version": "0.1",
+                "version_normalized": "0.1.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/ozh-simpler-login-url.0.1.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>Creates a Rewrite Rule that will allow users to log in from the custom URL <code>yoursite.com\/login<\/code> instead of <code>\/wp-login.php<\/code>.<\/p>\n\n<p>This plugin is an example of one of the many possibilities of WordPress' Rewrite API. See the whole <a href=\"http:\/\/planetozh.com\/blog\/2011\/01\/pretty-login-url-a-simple-rewrite-api-plugin-example\/\">Rewrite API tutorial<\/a> on Ozh' blog.<\/p>",
+                "uid": "55260"
+            }
+        }
+    }
+}

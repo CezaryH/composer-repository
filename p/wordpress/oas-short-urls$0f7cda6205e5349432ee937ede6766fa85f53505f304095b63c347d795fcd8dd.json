@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/oas-short-urls": {
+            "0.1": {
+                "name": "wordpress\/oas-short-urls",
+                "version": "0.1",
+                "version_normalized": "0.1.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/oas-short-urls.0.1.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>OAS Short URLs is an internal link shortening service which uses the unique ID associated with each post\/page as the reference.<\/p>\n\n<p>So, OAS Short URLs lets you link to example.com\/123, for example, and users will be redirected to the permalink of the post\/page holding ID 123.<\/p>\n\n<p>Note: OAS Short URLs will not work if the permalink settings is set to \"default\", but then why would you find this useful if it was?<\/p>",
+                "uid": "82510"
+            }
+        }
+    }
+}

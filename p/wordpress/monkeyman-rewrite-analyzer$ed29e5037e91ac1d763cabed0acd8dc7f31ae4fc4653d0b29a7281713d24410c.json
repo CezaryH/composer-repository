@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/monkeyman-rewrite-analyzer": {
+            "1.0": {
+                "name": "wordpress\/monkeyman-rewrite-analyzer",
+                "version": "1.0",
+                "version_normalized": "1.0.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/monkeyman-rewrite-analyzer.1.0.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>This is a tool to understand your rewrite rules (\"Pretty Permalinks\"). It is indispensable if you are adding or modifying rules and want to understand how they work (or why they don't work).<\/p>\n\n<p>It is only an analyzer, it does not change any rules for you. It parses the rules down to their components and shows the connection with the resulting query variables. It allows you to try out different URLs to see which rules will match and what the value of the different query variables will be (see screenshots).<\/p>\n\n<p>This plugin was written as a tool to help answering questions about rewrite rules on <a href=\"http:\/\/wordpress.stackexchange.com\/\">the WordPress Stack Exchange<\/a>.<\/p>",
+                "uid": "47600"
+            }
+        }
+    }
+}

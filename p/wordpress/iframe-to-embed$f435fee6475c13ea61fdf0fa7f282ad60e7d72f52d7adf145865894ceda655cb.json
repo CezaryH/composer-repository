@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/iframe-to-embed": {
+            "1.2": {
+                "name": "wordpress\/iframe-to-embed",
+                "version": "1.2",
+                "version_normalized": "1.2.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/iframe-to-embed.1.2.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>Embeds are needed to embed video from youtube or to embed Google Map or just to embed content from external page.\nWordPress removes embed when you switch from \"HTML\" to \"Visual\" tab because of the security reasons.\nSo you can embed object code using this shortcode <code>[iframe src=\"http:\/\/player.vimeo.com\/video\/3261363\" width=\"100%\" height=\"480\"]<\/code>.<\/p>",
+                "uid": "35020"
+            }
+        }
+    }
+}

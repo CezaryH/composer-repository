@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/nivo-slider-light": {
+            "1.11": {
+                "name": "wordpress\/nivo-slider-light",
+                "version": "1.11",
+                "version_normalized": "1.11.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/nivo-slider-light.1.11.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>The NIVO slider can be used to create a simple gallery in your articles. It does not modify any other images or gallerys.<\/p>\n\n<p>Have a look at the demos at <a href=\"http:\/\/nivo.dev7studios.com\/demos\/\">nivo.dev7studios.com\/demos<\/a>.<\/p>\n\n<p>After installing the plugin just write something like:<\/p>\n\n<pre><code>&#60;div class=&#34;nivoSlider&#34; style=&#34;height:200px; width:600px;&#34;&#62;\n  &#60;img src=&#34;\/uploads\/slide1.jpg&#34; alt=&#34;&#34; \/&#62;\n  &#60;img src=&#34;\/uploads\/slide2.jpg&#34; alt=&#34;&#34; \/&#62;\n  &#60;a href=&#34;http:\/\/dev7studios.com&#34;&#62;\n    &#60;img src=&#34;\/uploads\/slide3.jpg&#34; alt=&#34;&#34; title=&#34;Go to NIVO&#34; \/&#62;\n  &#60;\/a&#62;\n  &#60;img src=&#34;\/uploads\/slide4.jpg&#34; alt=&#34;&#34; title=&#34;example caption&#34; \/&#62;\n&#60;\/div&#62;<\/code><\/pre>\n\n<p>Be sure that all images have the same size. Feel free to edit the plugin's source now as described in the <a href=\"http:\/\/nivo.dev7studios.com\/\">usage guide<\/a>.<\/p>",
+                "uid": "61765"
+            }
+        }
+    }
+}

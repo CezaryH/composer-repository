@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/amazon-search-widget": {
+            "1.0": {
+                "name": "wordpress\/amazon-search-widget",
+                "version": "1.0",
+                "version_normalized": "1.0.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/amazon-search-widget.1.0.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>Add slick looking Amazon Search widgets to your blog posts in a brain-dead simple way! \nJust say <code>[search]<\/code> to add a Search widget anywhere on your blog.<\/p>\n\n<p>Amazon Widgets are small Flash-based mini-applications that bring Amazon's rich features right to your website. The Amazon Search widget is a really useful widget that lets your users search from Amazon products right from your blog. You can even earn money by specifying your Amazon Associates ID.<\/p>\n\n<p>There are many ways to create a Search widget. Here are some:<\/p>\n\n<ol>\n<li><p><code>[search]<\/code> <br \/>\nThis creates a 160px widget widget with 1 column and 5 rows.<\/p><\/li>\n<li><p><code>[search keywords=\"Nikon DSLR\" category=\"Photo\"]<\/code> <br \/>\nThis search widget lets you search through Amazon's 'Camera &#38; Photography' catalog with results for \"Nikon DSLR\" displayed by default.<\/p><\/li>\n<li><p><code>[search width=\"500\" columns=\"2\" rows=\"3\"]<\/code> &#60;br\/&#62;\nThis creates a 500 pixel wide widget wit",
+                "uid": "61139"
+            }
+        }
+    }
+}

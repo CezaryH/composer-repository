@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/baw-moderator-role": {
+            "1.4.2": {
+                "name": "wordpress\/baw-moderator-role",
+                "version": "1.4.2",
+                "version_normalized": "1.4.2.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/baw-moderator-role.1.4.2.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>Just install the plugin, activate it: You can now change a user's role to \"Moderator\", he can now moderate comments (all or only his), and only do this!<\/p>",
+                "uid": "28878"
+            }
+        }
+    }
+}

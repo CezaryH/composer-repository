@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/minimum-version": {
+            "0.1": {
+                "name": "wordpress\/minimum-version",
+                "version": "0.1",
+                "version_normalized": "0.1.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/minimum-version.0.1.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>Looks at all your plugins on your site and determines the minimum Wordpress\nversion that each one needs to run.<\/p>\n\n<p>The following limitations are currently in place:<\/p>\n\n<pre><code>* Only determines if Wordpress version 3.0 is required or not\n* Only looks in the standard plugin directory\n* Only looks at the main plugin file\n* Only looks at hooks, not functions\n* The included hooks list may be out of date and\/or incomplete\n<\/code><\/pre>",
+                "uid": "9672"
+            }
+        }
+    }
+}

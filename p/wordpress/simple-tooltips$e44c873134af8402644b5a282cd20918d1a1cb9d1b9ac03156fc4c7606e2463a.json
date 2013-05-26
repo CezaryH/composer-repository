@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/simple-tooltips": {
+            "1.0": {
+                "name": "wordpress\/simple-tooltips",
+                "version": "1.0",
+                "version_normalized": "1.0.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/simple-tooltips.1.0.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>Easily add tooltips to your wordpress site. Tooltips will show when target element is hovered over. On mobile devices tooltips show when target element is tapped. You can easily pick your tooltip color settings in <strong>Settings &#62; Simple Tooltips<\/strong>.<\/p>\n\n<h4>How to Use<\/h4>\n\n<p>To define a tooltip: Add class \"tooltips\" to the target html element. The title attribute will be used for tooltip content.<\/p>\n\n<h4>Credits<\/h4>\n\n<p>Thanks to Stefan Gabos who made the original <a href=\"http:\/\/stefangabos.ro\/jquery\/zebra-tooltips\/\">jQuery plugin<\/a>.<\/p>",
+                "uid": "8195"
+            }
+        }
+    }
+}

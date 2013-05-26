@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/genesis-featured-images": {
+            "0.4.1": {
+                "name": "wordpress\/genesis-featured-images",
+                "version": "0.4.1",
+                "version_normalized": "0.4.1.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/genesis-featured-images.0.4.1.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>Genesis Featured Images creates a option box to enable a default image for post thumbnails and\/or featured images and a meta box to set a custom size for the featured image to be displayed. These default images will only appear any time a post, page or any custom post type does not have a featured image, or an image inside the post. So for those who write a lot of posts and want one image for the majority of your posts, this plugin works perfectly! Genesis Featured Images filters genesis_get_image() so anywhere you utilize genesis_get_image(), this plugin will provide a fallback option.  Genesis Featured Images uses the WordPress Image Uploader and Library to upload the image to ensure that the proper thumbnails are created.<\/p>\n\n<p>IMPORTANT: \n<strong>You must have <a href=\"http:\/\/wpsmith.net\/get-genesis\" title=\"Learn more about Genesis\">Genesis<\/a> installed. Click <a href=\"http:\/\/wpsmith.net\/get-genesis\" title=\"Learn more about Genesis\">here<\/a> to learn more about <a href=\"http:",
+                "uid": "43239"
+            }
+        }
+    }
+}

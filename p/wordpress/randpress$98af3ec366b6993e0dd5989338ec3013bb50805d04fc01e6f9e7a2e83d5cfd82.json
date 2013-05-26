@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/randpress": {
+            "1.0": {
+                "name": "wordpress\/randpress",
+                "version": "1.0",
+                "version_normalized": "1.0.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/randpress.1.0.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>When activated you will randomly see an Ayn Rand quote in the upper right of your admin screen on every page. Thanks to Matt Mullenweg's Hello Dolly plugin for the inspiration.<\/p>",
+                "uid": "26336"
+            }
+        }
+    }
+}

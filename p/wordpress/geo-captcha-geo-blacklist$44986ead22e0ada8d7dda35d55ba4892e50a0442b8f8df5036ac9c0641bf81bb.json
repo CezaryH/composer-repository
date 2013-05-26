@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/geo-captcha-geo-blacklist": {
+            "1.0": {
+                "name": "wordpress\/geo-captcha-geo-blacklist",
+                "version": "1.0",
+                "version_normalized": "1.0.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/geo-captcha-geo-blacklist.1.0.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>!!! IMPORTANT !!!\nIf you have used the old Geo-Captcha plugin please completly uninstall it (the form is on the main page of the plugin) \nand remove the plugins files. Geo-Captcha &#38; Geo-Blacklist ist fully based on the old Geo-Captcha plugin but is not \ncompatible with it and uses new names for options and databases!\n!!! IMPORTANT !!!<\/p>\n\n<p>There are a lot of ways to prevent spam. One that is still pretty often used is to let your readers type a code from a\ncaptcha image to a textbox. Geo-Captcha uses the same technic but you can define a whitelist with countries. People from\nthis countries will not be forced to enter the captcha code. You can also define a blacklist which prevents people from\nsome countries from posting any comments.<\/p>\n\n<p>The location of the visitors is checked using the GeoLite Country-Library from MaxMind (<a href=\"http:\/\/www.maxmind.com\" rel=\"nofollow\">http:\/\/www.maxmind.com<\/a>).\nThe captcha image is generated using SecurImage from drew010 (<a href=\"ht",
+                "uid": "26601"
+            }
+        }
+    }
+}

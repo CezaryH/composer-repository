@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/admin-show-sticky": {
+            "1.0": {
+                "name": "wordpress\/admin-show-sticky",
+                "version": "1.0",
+                "version_normalized": "1.0.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/admin-show-sticky.1.0.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>Adds a new column to the posts table in the admin to display if a post is sticky or not.<\/p>\n\n<p>Determining what posts are sticky or not should be easier than editing each post or comparing a list of posts displayed on your site to the list in the Edit Posts table in the admin.  This plugin will add a new column titled <code>Sticky<\/code> and place a check mark in this column if the post is <code>Sticky<\/code>.<\/p>\n\n<p>Props to <a href=\"http:\/\/flushinc.com\/\">Joel Fisher<\/a> for the idea behind this plugin.<\/p>",
+                "uid": "92873"
+            }
+        }
+    }
+}

@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/better-wordpress-showhide-elements": {
+            "0.2": {
+                "name": "wordpress\/better-wordpress-showhide-elements",
+                "version": "0.2",
+                "version_normalized": "0.2.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/better-wordpress-showhide-elements.0.2.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>View demo: <a href=\"http:\/\/akenn.org\/#\/blog\/post\/44\" rel=\"nofollow\">http:\/\/akenn.org\/#\/blog\/post\/44<\/a><\/p>\n\n<blockquote>\n  <p>&#60;a onclick=\"wp_showhide.main(this, 'myId1')\" href=\"javascript:void(0)\"&#62;[\"Show Text\", \"Hide Text\", \"visible\"]&#60;\/a&#62;\n  &#60;div id=\"{myId1}\"&#62;Content goes here&#60;\/div&#62;<\/p>\n<\/blockquote>\n\n<p>The function inside the link's onclick method includes the name of the div you want to show or hide (in this case myId1). The text inside the link includes the text that will be shown when a div is hidden or shown. The first set of quotes contains the text that will be displayed when the div's state is \"display=none\". The second set of quotes contains text for when the div is currently visible. The last set contains the initial state of the div (either \"visible\" or \"hidden\").<\/p>",
+                "uid": "25125"
+            }
+        }
+    }
+}

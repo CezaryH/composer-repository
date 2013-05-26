@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/autolink": {
+            "1.0": {
+                "name": "wordpress\/autolink",
+                "version": "1.0",
+                "version_normalized": "1.0.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/autolink.1.0.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>This plugin automatically adds HTML anchor tags to plain text links and email addresses embedded in the content of posts and pages (WordPress already does this by default for comments).<\/p>\n\n<p>In the plugin configuration page, you can choose to open the links in a new window or in the current window.<\/p>",
+                "uid": "43899"
+            }
+        }
+    }
+}

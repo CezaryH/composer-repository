@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/local-wordpress-plugin-repo": {
+            "0.9": {
+                "name": "wordpress\/local-wordpress-plugin-repo",
+                "version": "0.9",
+                "version_normalized": "0.9.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/local-wordpress-plugin-repo.0.9.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>Local WordPress Plugin Repo stores specified plugins via a custom post type in WordPress. It then checks the WordPress.org plugin API twice a day for updated information about your plugin, including basic statistics and support thread information, and attaches that as post meta to the newly created custom post.<\/p>\n\n<p>This is a developer oriented plugin, and should only really come in handy if you want your plugins from the official .org repo stored in a custom post type.<\/p>\n\n<p>Note that you will probably need to account for a bunch of this post meta in your front end templates, otherwise the only real info you'll get is in the admin area.<\/p>",
+                "uid": "14605"
+            }
+        }
+    }
+}

@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/svnzip": {
+            "0.1": {
+                "name": "wordpress\/svnzip",
+                "version": "0.1",
+                "version_normalized": "0.1.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/svnzip.0.1.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p><strong>This plugin is not be in developing anymore, all functionality is moved to a new plugin <a href=\"http:\/\/wordpress.org\/extend\/plugins\/repositoryzip\/\">Repository Zip<\/a><\/strong><\/p>\n\n<p>The plugin creates zip download links within articles and pages of a subversion repository. On each call the subversion revision number, link text, css name and download\nname can be set, so that each link points to different subversion. The plugin need no configuration or something else.<\/p>",
+                "uid": "23658"
+            }
+        }
+    }
+}

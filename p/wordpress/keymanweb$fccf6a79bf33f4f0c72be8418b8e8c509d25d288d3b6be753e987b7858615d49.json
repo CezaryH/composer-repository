@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/keymanweb": {
+            "0.2": {
+                "name": "wordpress\/keymanweb",
+                "version": "0.2",
+                "version_normalized": "0.2.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/keymanweb.0.2.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>\n  This plugin integrates a KeymanWeb Subscription into the admin pages of your blog, so you can blog in your language from anywhere!  If you have not already done so,\n  you will need to <a href='http:\/\/www.tavultesoft.com\/account\/home\/kmw\/'>sign up for a free subscription<\/a>.  In the subscription sign up, you can\n  choose the languages you want to type in and the user interface design for KeymanWeb.  We recommend the Button user interface!  Any of the other designs should also\n  work, except for the Toolbar interface, which will be available in a future update.\n<\/p>\n\n<p>\n  The last page of the KeymanWeb Subscription sign up process is a \"Get HTML\" page.  The KeymanWeb Header Code field below should be copied from this page.  Note: \n  We recommend leaving the KeymanWeb Control Code field blank, as this plug-in will enhance the default control for nicer WordPress integration.\n<\/p>\n\n<p>Please let me know if you have any issues in getting this work with your version of wordpress. I ca",
+                "uid": "78633"
+            }
+        }
+    }
+}

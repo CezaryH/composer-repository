@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/top-comments": {
+            "1.0": {
+                "name": "wordpress\/top-comments",
+                "version": "1.0",
+                "version_normalized": "1.0.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/top-comments.1.0.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>Top Comments is a simple, easy to setup and manage comments rating plugin. It adds the current score and the voting button at the end of each comment. Also displays the score in the comments RSS feed and in the admin area.<\/p>\n\n<p>The plugin uses AJAX to process the votes and has several methods to prevent cheating (multiple consecutive votes). It also can display the top rated comments in the sidebar by using template tag or widget.<\/p>\n\n<p>Uses the JavaScript anti-bot checks from <a href=\"http:\/\/wordpress.org\/extend\/plugins\/wp-hashcash\/\">WP-Hashcash<\/a> by <a href=\"http:\/\/wordpress.org\/extend\/plugins\/profile\/ecb29\">ecb29<\/a> and <a href=\"http:\/\/wordpress.org\/extend\/plugins\/profile\/donncha\">donncha<\/a>.<\/p>",
+                "uid": "99774"
+            }
+        }
+    }
+}

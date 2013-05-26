@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/read-time": {
+            "0.7": {
+                "name": "wordpress\/read-time",
+                "version": "0.7",
+                "version_normalized": "0.7.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/read-time.0.7.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>Read Time generates an estimated read time for your posts.<\/p>\n\n<p>You can configure the:<\/p>\n\n<ol>\n<li>The Words Per Minute value that is used to calculate the read time.<\/li>\n<li>The prefix text that appears before the estimated read time.<\/li>\n<li>The suffix text that appears after the estimated read time. <\/li>\n<\/ol>\n\n<p>Installation is simple. Just upload and install the plugin then place <code>&#60;?php read_time(); ?&#62;<\/code> in your templates.<\/p>\n\n<p>For styling the Read Time output is wrapped in <code>&#60;div id='read-time'&#62;&#60;\/div&#62;<\/code>.<\/p>\n\n<p>The actual estimated time is wrapped in <code>&#60;span id='read-time-text'&#62;&#60;\/span&#62;<\/code>.<\/p>",
+                "uid": "51530"
+            }
+        }
+    }
+}

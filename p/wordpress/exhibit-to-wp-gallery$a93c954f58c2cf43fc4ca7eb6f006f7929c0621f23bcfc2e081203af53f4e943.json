@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/exhibit-to-wp-gallery": {
+            "0.00": {
+                "name": "wordpress\/exhibit-to-wp-gallery",
+                "version": "0.00",
+                "version_normalized": "0.00.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/exhibit-to-wp-gallery.0.002.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>Exhibit to WP Gallery can convert your <em>ancient<\/em> <a href=\"http:\/\/redalt.com\/downloads\/\">Exhibit 1.1b<\/a> entries to normal WordPress attachments. It assumes a linux host.<\/p>\n\n<ul>\n<li>Captions and image order will be transferred.<\/li>\n<li>All files will be <em>copied<\/em> to your upload folder. (use <a href=\"http:\/\/wordpress.org\/extend\/plugins\/custom-upload-dir\/\">Custom Upload Dir<\/a> for better structure!)<\/li>\n<li>New thumbnails will be generated according to your WordPress settings<\/li>\n<li>Lastly, the plugin will add '&#60;br \/&#62; <a href=\"http:\/\/codex.wordpress.org\/Using_the_gallery_shortcode\">[gallery]<\/a>' to the end of each post it touches. <\/li>\n<li>The plugin can list all posts currently using Exhibit, making it easy to visit them and make sure all went OK.<\/li>\n<\/ul>\n\n<p>The conversion is slow and painfull; the script might timeout. Therefore it is built so you can do it in chunks. <em>Tip:<\/em> Start with a single post and a few rows to make sure everything wor",
+                "uid": "96777"
+            }
+        }
+    }
+}

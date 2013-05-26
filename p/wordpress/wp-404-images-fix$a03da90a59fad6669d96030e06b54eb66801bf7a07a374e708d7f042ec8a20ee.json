@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/wp-404-images-fix": {
+            "1.0": {
+                "name": "wordpress\/wp-404-images-fix",
+                "version": "1.0",
+                "version_normalized": "1.0.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/wp-404-images-fix.1.0.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>Allows you to load a default alternative image where you are having image missing on your post. That is, if you embed an image in post, and the images is deleted or moved from the server, then you can load an alternative image to there by default. You can also add class to the img tag or just hide the image from front end users. You don't have to open each the post and remove code from it.<\/p>",
+                "uid": "81084"
+            }
+        }
+    }
+}

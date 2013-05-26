@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/tsl-iframe-unfilter": {
+            "1.0": {
+                "name": "wordpress\/tsl-iframe-unfilter",
+                "version": "1.0",
+                "version_normalized": "1.0.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/tsl-iframe-unfilter.1.0.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>A simple plugin that prevents the Tiny MCE editor from removing iframe tags. Wordpress will still block iframes based on privileges, so you will need a privileges plugin. Wordpress 3.0 appears to allow iframes for Administrators and Editors by default.<\/p>",
+                "uid": "66487"
+            }
+        }
+    }
+}

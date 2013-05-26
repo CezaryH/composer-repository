@@ -1,0 +1,40 @@
+{
+    "packages": {
+        "wordpress\/count-shortcode": {
+            "1.1": {
+                "name": "wordpress\/count-shortcode",
+                "version": "1.1",
+                "version_normalized": "1.1.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/count-shortcode.1.1.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>Shortcode to count number of posts that match a given set of criteria; provides link to query to display list of matching posts.<\/p>\n\n<p>Works with both built in post types (pages, posts) and taxonomies (tags, categories), as well as custom post types and custom taxonomies.<\/p>\n\n<p><strong>Example<\/strong><\/p>\n\n<p>You have a car custom post type and would like a count of all the red cars in your inventory, as well as a link to a listing of those cars.<\/p>\n\n<p>Red Cars in Inventory: [count color=red]<\/p>\n\n<p>Would return the number of cars, as well as a link to yoursite.com\/?color=red (which may rewrite depending on your permalink structure)<\/p>\n\n<p><strong>Usage<\/strong><\/p>\n\n<p>Insert a shortcode in your post in the form of [count {taxonomy}={value}]. You can add as many or as fiew taxonomies as you would like.<\/p>\n\n<p>You can also use the post_type argument to specify a post type (page, post, car, etc.)<\/p>\n\n<p><strong>List Usage<\/strong><\/p>\n\n<p>You can count all terms within a t",
+                "uid": "43461"
+            },
+            "2.0": {
+                "name": "wordpress\/count-shortcode",
+                "version": "2.0",
+                "version_normalized": "2.0.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/count-shortcode.2.0.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>Shortcode to count number of posts that match a given set of criteria; provides link to query to display list of matching posts.<\/p>\n\n<p>Works with both built in post types (pages, posts) and taxonomies (tags, categories), as well as custom post types and custom taxonomies.<\/p>\n\n<p><strong>Example<\/strong><\/p>\n\n<p>You have a car custom post type and would like a count of all the red cars in your inventory, as well as a link to a listing of those cars.<\/p>\n\n<p>Red Cars in Inventory: [count color=red]<\/p>\n\n<p>Would return the number of cars, as well as a link to yoursite.com\/?color=red (which may rewrite depending on your permalink structure)<\/p>\n\n<p><strong>Usage<\/strong><\/p>\n\n<p>Insert a shortcode in your post in the form of [count {taxonomy}={value}]. You can add as many or as fiew taxonomies as you would like.<\/p>\n\n<p>You can also use the post_type argument to specify a post type (page, post, car, etc.)<\/p>\n\n<p><strong>List Usage<\/strong><\/p>\n\n<p>You can count all terms within a t",
+                "uid": "43458"
+            }
+        }
+    }
+}

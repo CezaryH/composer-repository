@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/detect-search-engine-referrer": {
+            "0.1": {
+                "name": "wordpress\/detect-search-engine-referrer",
+                "version": "0.1",
+                "version_normalized": "0.1.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/detect-search-engine-referrer.0.1.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>This plugin disable w3 total cache plugin functionality if visitor is coming from search engine.<\/p>",
+                "uid": "46208"
+            }
+        }
+    }
+}

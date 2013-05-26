@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/google-ajax-libraries": {
+            "0.1": {
+                "name": "wordpress\/google-ajax-libraries",
+                "version": "0.1",
+                "version_normalized": "0.1.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/google-ajax-libraries.0.1.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>This plugin is no longer being updated. It has been superceded by the good work of Jason Penney with his <a href=\"http:\/\/jasonpenney.net\/wordpress-plugins\/use-google-libraries\/\">Use Google Libraries WordPress plugin<\/a> which uses code based on this plugin. I recommend that you use his plugin from now on.<\/p>\n\n<p>Replaces the most common JavaScript libraries in WordPress with the corresponding files from the Google AJAX Libraries API.<\/p>\n\n<p>\"The AJAX Libraries API is a content distribution network and loading architecture for the most popular open source JavaScript libraries.\"<\/p>\n\n<p>Note that this plugin does not actually replace or remove any files from your WordPress installation. It simply replaces any references to them with references to the corresponding files on Google AJAX Libraries.<\/p>",
+                "uid": "103422"
+            }
+        }
+    }
+}

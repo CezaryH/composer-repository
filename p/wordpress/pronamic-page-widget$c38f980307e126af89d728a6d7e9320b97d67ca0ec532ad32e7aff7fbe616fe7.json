@@ -1,0 +1,40 @@
+{
+    "packages": {
+        "wordpress\/pronamic-page-widget": {
+            "1.0": {
+                "name": "wordpress\/pronamic-page-widget",
+                "version": "1.0",
+                "version_normalized": "1.0.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/pronamic-page-widget.1.0.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<h4>Template Hierarchy<\/h4>\n\n<ol>\n<li>widget-page-{sidebar_id}.php<\/li>\n<li>widget-page-{widget_id}.php<\/li>\n<li>widget-page-{page_slug}.php<\/li>\n<li>widget-page-{page_id}.php<\/li>\n<li>widget-page.php<\/li>\n<\/ol>\n\n<p><a href=\"http:\/\/codex.wordpress.org\/Template_Hierarchy\" rel=\"nofollow\">http:\/\/codex.wordpress.org\/Template_Hierarchy<\/a><\/p>\n\n<h4>Conditional Tags<\/h4>\n\n<ul>\n<li><p><strong>pronamic_is_page_widget<\/strong>\nWhen any Pronamic Page Widget is being displayed.<\/p><\/li>\n<li><p><strong>pronamic_is_page_widget('pronamic_page-1')<\/strong>\nWhen Pronamic Page Widet with id 1 is being displayed.<\/p><\/li>\n<li><p><strong>pronamic_is_page_widget_on_sidebar('primary-widget-area')<\/strong>\nWhen a Pronamic Page Widget is begin displayed on an sidebar with the id \"primary-widget-area\"<\/p><\/li>\n<\/ul>\n\n<p><a href=\"http:\/\/codex.wordpress.org\/Conditional_Tags\" rel=\"nofollow\">http:\/\/codex.wordpress.org\/Conditional_Tags<\/a><\/p>\n\n<h4>How to use?<\/h4>\n\n<p><strong>Pronamic Page Widget template<\/strong",
+                "uid": "59033"
+            },
+            "1.0.1": {
+                "name": "wordpress\/pronamic-page-widget",
+                "version": "1.0.1",
+                "version_normalized": "1.0.1.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/pronamic-page-widget.1.0.1.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<h4>Template Hierarchy<\/h4>\n\n<ol>\n<li>widget-page-{sidebar_id}.php<\/li>\n<li>widget-page-{widget_id}.php<\/li>\n<li>widget-page-{page_slug}.php<\/li>\n<li>widget-page-{page_id}.php<\/li>\n<li>widget-page.php<\/li>\n<\/ol>\n\n<p><a href=\"http:\/\/codex.wordpress.org\/Template_Hierarchy\" rel=\"nofollow\">http:\/\/codex.wordpress.org\/Template_Hierarchy<\/a><\/p>\n\n<h4>Conditional Tags<\/h4>\n\n<ul>\n<li><p><strong>pronamic_is_page_widget<\/strong>\nWhen any Pronamic Page Widget is being displayed.<\/p><\/li>\n<li><p><strong>pronamic_is_page_widget('pronamic_page-1')<\/strong>\nWhen Pronamic Page Widet with id 1 is being displayed.<\/p><\/li>\n<li><p><strong>pronamic_is_page_widget_on_sidebar('primary-widget-area')<\/strong>\nWhen a Pronamic Page Widget is begin displayed on an sidebar with the id \"primary-widget-area\"<\/p><\/li>\n<\/ul>\n\n<p><a href=\"http:\/\/codex.wordpress.org\/Conditional_Tags\" rel=\"nofollow\">http:\/\/codex.wordpress.org\/Conditional_Tags<\/a><\/p>\n\n<h4>How to use?<\/h4>\n\n<p><strong>Pronamic Page Widget template<\/strong",
+                "uid": "59032"
+            }
+        }
+    }
+}

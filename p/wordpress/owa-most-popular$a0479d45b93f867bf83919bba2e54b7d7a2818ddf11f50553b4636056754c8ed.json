@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/owa-most-popular": {
+            "1.7.0": {
+                "name": "wordpress\/owa-most-popular",
+                "version": "1.7.0",
+                "version_normalized": "1.7.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/owa-most-popular.1.7.0.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>Adds a sidebar widget to display the most popular posts. The stats are generated on the data provided by the OWA plugin.  There are three algorithms which you can choose:\n* Popular : the most page visits for a given date range\n* Weighted : the most page visits divided by the age of a post\n* Live : shows the latest page views<\/p>",
+                "uid": "109103"
+            }
+        }
+    }
+}

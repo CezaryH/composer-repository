@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/comments-number-restore": {
+            "1.0": {
+                "name": "wordpress\/comments-number-restore",
+                "version": "1.0",
+                "version_normalized": "1.0.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/comments-number-restore.1.0.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>After a 2.5 upgrade you can find the comments number of your post fixed to zero:\nthis plugin computes a comments count on each post and fix the issue.<\/p>\n\n<p>The code has be taken from the wordpress forum (and modified).<\/p>",
+                "uid": "104168"
+            }
+        }
+    }
+}

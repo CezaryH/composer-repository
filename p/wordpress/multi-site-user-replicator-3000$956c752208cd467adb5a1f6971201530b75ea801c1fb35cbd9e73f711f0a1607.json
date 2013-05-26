@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/multi-site-user-replicator-3000": {
+            "0.1": {
+                "name": "wordpress\/multi-site-user-replicator-3000",
+                "version": "0.1",
+                "version_normalized": "0.1.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/multi-site-user-replicator-3000.0.1.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>This plugin will give you the ability to pull up any (non-Super Admin) user and in one click add that user(with a global role) to all sites in your MU install.  Likewise, if you want to remove a user from all sites it is one click as well.  CAUTION: Wordpress has an optional mechanism when deleting a user from a site that will allow you to assign that users posts to another user.  I have ignored this for this release.  Please take a DB backups until you are used to this plugin and Multi-Site.<\/p>",
+                "uid": "49921"
+            }
+        }
+    }
+}

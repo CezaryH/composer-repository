@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/scheduled-content": {
+            "1.0": {
+                "name": "wordpress\/scheduled-content",
+                "version": "1.0",
+                "version_normalized": "1.0.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/scheduled-content.1.0.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>After installing and activating the plugin you can use the shortcode [schedule]. You can pass 2 parameters, the date and the time. You have to pass at least one parameter.<\/p>\n\n<p>Sample -<\/p>\n\n<p>[schedule on='2011-01-04' at=\"13:16\"]<\/p>\n\n<p>the content you want to hide is here<\/p>\n\n<p>[\/schedule]<\/p>\n\n<p>The 2 parameters are \"on\" and \"at\". Simply \"on\" accepts a date, until that date is arrived the content will be hidden, and \"at\" accepts a time. Time has to be set in 24hrs format and date should be yy-mm-dd If you only pass time, everyday content will be shown after that time. If you only pass a date, content will be shown on and after that specific date.<\/p>\n\n<p>The time is compared with your blog's time zone settings, if you set your time zone to local time zone it would be easy for you. Go to \"General\" settings of your wordpress dashboard, under \"Time Zone\" you can set the time zone you prefer.<\/p>",
+                "uid": "54070"
+            }
+        }
+    }
+}

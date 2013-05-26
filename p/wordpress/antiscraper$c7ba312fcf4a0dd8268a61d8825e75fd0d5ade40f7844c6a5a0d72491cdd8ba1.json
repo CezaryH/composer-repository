@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/antiscraper": {
+            "1.01": {
+                "name": "wordpress\/antiscraper",
+                "version": "1.01",
+                "version_normalized": "1.01.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/antiscraper.1.01.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>AntiScraper is a web service you connect to your blog to block web scrapers. Web scrapers are used to\ngrab your blog posts and post them on an \"autopilot\" blog. Stealing content harms your Google rank, and\nit costs you ad money and viewers.<\/p>\n\n<p>AntiScraper uses a community-based blacklist of known scrapers to block the \"bot\" from taking your content.\nThe web service is called, and if the website is a part of the blacklist, the scraper is blocked. This\ndoes not protect from someone manually copying and pasting your content to their blog, but it stops the\nbots, making it more difficult for people to steal your blog posts.<\/p>\n\n<p>Please support the effort to report scrapers and send a report at <a href=\"http:\/\/antiscraper.com\" rel=\"nofollow\">http:\/\/antiscraper.com<\/a>.<\/p>",
+                "uid": "58069"
+            }
+        }
+    }
+}

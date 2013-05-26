@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/user-profile-change-email": {
+            "1.0": {
+                "name": "wordpress\/user-profile-change-email",
+                "version": "1.0",
+                "version_normalized": "1.0.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/user-profile-change-email.1.0.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>This plugin is to build an email and send it to the administrator\nnotifying them that a user has changed their profile.<\/p>\n\n<p>A visitor to the Admin -&#62; Dashboard -&#62; Profile page, who changes any of the fields,\nwill cause an email to be generated and sent to the administrator of the site.<\/p>\n\n<p>Such an email will be useful for those administrators running a membership \nsite linked to applications such as AWeber, which only allow manual modification \nof their records.<\/p>",
+                "uid": "36152"
+            }
+        }
+    }
+}

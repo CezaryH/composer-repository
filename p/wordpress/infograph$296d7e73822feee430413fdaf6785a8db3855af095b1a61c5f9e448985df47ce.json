@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/infograph": {
+            "1.0": {
+                "name": "wordpress\/infograph",
+                "version": "1.0",
+                "version_normalized": "1.0.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/infograph.1.0.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>Display your blog info with graphs. Use [velocity] , [mycategories] , [bymonth]  and [mypopularposts] shortcodes for displaying different charts. Just try them.<\/p>",
+                "uid": "33339"
+            }
+        }
+    }
+}

@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/google-maps-geocoder": {
+            "1.2": {
+                "name": "wordpress\/google-maps-geocoder",
+                "version": "1.2",
+                "version_normalized": "1.2.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/google-maps-geocoder.1.2.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>WPGMG will create a custom fields on any post containing custom fields of street, city, state, zip and will add two new custom fields to the post: lat &#38; lng. \nlat being latitude.\nlng being longitude.<\/p>\n\n<ul>\n<li>WPGMG 1.2 The post title will show by default in the Map Info window linking back to original post.  Also, a custom field named: 'mapinfowindow' will display below the post title\/link in the infoWindow if the custom field is used.<\/li>\n<li>WPGMG 1.1 By Special Request, you can now simply map the single post that is shown, rather than all posts centering on the single posts on a single-post page. -<\/li>\n<li><p>WPGMG 1.0 now adds GeoRSS:where\/gml:pos, geo:lat\/geo:long, icbm:latitude\/icmb:longitude, and geourl:latitude\/geourl:longitude to your RSS2 &#38; Atom Feeds.  -<\/p><\/li>\n<li><p>WPGMG .69 will now allow you to render Google Maps on your Wordpress powered site.  Enter the location data that you have into custom fields, upon saving\/updating it will update the latitude",
+                "uid": "98038"
+            }
+        }
+    }
+}

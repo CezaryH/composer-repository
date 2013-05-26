@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/exifize-my-dates": {
+            "0.1": {
+                "name": "wordpress\/exifize-my-dates",
+                "version": "0.1",
+                "version_normalized": "0.1.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/exifize-my-dates.0.1.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>This tool will attempt to irreversably change the actual post dates of all entries in the post type you choose (supports posts, pages, and custom post types).<\/p>\n\n<p>The dates will be changed using (in order of priority):<\/p>\n\n<ol>\n<li>'exifize_date' custom meta (date or 'skip')**<\/li>\n<li>EXIF date of Featured Image<\/li>\n<li>EXIF date of the first attached image<\/li>\n<li>Do nothing. Be nothing.<\/li>\n<\/ol>\n\n<p>**You can override the function with a custom meta field named: 'exifize_date' which accepts dates: 'YYYY-MM-DD hh:mm:ss' (for example: '2012-06-23 14:07:00') or 'skip' to prevent the EXIFizer from making any changes.<\/p>",
+                "uid": "23660"
+            }
+        }
+    }
+}

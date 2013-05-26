@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/google-maps-to": {
+            "1.0": {
+                "name": "wordpress\/google-maps-to",
+                "version": "1.0",
+                "version_normalized": "1.0.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/google-maps-to.1.0.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>Google Maps TO is a plugin that will draw a Google Map on your page\/post that will include field called google_map_latlng with the values of latitude,longitude.\nSo for example -12.9703817,-38.5123820 will draw a map of Salvador in Brazil on the page\/post that include that Latitude,Longitude as values for google_map_latlng field.<\/p>\n\n<p>To get this working you need a Google Maps API Key. This can be retreived from <a href=\"http:\/\/code.google.com\/intl\/sv\/apis\/maps\/signup.html\" rel=\"nofollow\">http:\/\/code.google.com\/intl\/sv\/apis\/maps\/signup.html<\/a><\/p>\n\n<p>You will have to include that code under Settings -&#62; Google Maps API key.<\/p>",
+                "uid": "59864"
+            }
+        }
+    }
+}

@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/one-column-default": {
+            "0.1": {
+                "name": "wordpress\/one-column-default",
+                "version": "0.1",
+                "version_normalized": "0.1.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/one-column-default.0.1.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>very simple plugin that converts a multi users (or anyones i guess) default two column dashboard layout to one column. good for displaying custom dashboard plugins that require a wide layout.<\/p>",
+                "uid": "64001"
+            }
+        }
+    }
+}

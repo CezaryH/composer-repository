@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/disable-comment-author-links": {
+            "0.11": {
+                "name": "wordpress\/disable-comment-author-links",
+                "version": "0.11",
+                "version_normalized": "0.11.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/disable-comment-author-links.0.110826.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>This plugin removes all hyperlinks from comment author user names. Commenters can provide a home page (or any) URL along with their comment on a lot of themes. This plugin will strip all links from commenter names wherever they may appear throughout your site's theme.<\/p>",
+                "uid": "40521"
+            }
+        }
+    }
+}

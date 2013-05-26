@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/wp-hide-pages": {
+            "1.0": {
+                "name": "wordpress\/wp-hide-pages",
+                "version": "1.0",
+                "version_normalized": "1.0.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/wp-hide-pages.1.0.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>Hides selected pages from menus. You can manage this from your admin panel, so you don't need to open template \ncodes to add exclude parameter to wp_list_pages function. Essentially it adds exclude parameter to wp_list_pages \nfunction but it's so easy now. You can manage via admin panel.<\/p>\n\n<p><a href=\"http:\/\/nxsn.com\/\">My other plugins<\/a><\/p>",
+                "uid": "69902"
+            }
+        }
+    }
+}

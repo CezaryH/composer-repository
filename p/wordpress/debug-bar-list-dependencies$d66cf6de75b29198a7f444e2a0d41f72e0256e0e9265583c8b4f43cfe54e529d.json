@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/debug-bar-list-dependencies": {
+            "1.0.2": {
+                "name": "wordpress\/debug-bar-list-dependencies",
+                "version": "1.0.2",
+                "version_normalized": "1.0.2.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/debug-bar-list-dependencies.1.0.2.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>We all know that when we're add a script or style to WordPress, we should use <code>wp_enqueue_script( $handle, $src, $deps, $ver, $in_footer )<\/code> and <code>wp_enqueue_style( $handle, $src, $deps, $ver, $media )<\/code> as in:<\/p>\n\n<pre><code>function themeslug_enqueue_style() {\n    wp_enqueue_style( &#039;core&#039;, &#039;style.css&#039;, array(&#039;twentytwelve-style&#039;) ); \n}\n\nfunction themeslug_enqueue_script() {\n    wp_enqueue_script( &#039;my-js&#039;, &#039;filename.js&#039;, array(&#039;jquery&#039;) );\n}\n\nadd_action( &#039;wp_enqueue_scripts&#039;, &#039;themeslug_enqueue_style&#039; );\nadd_action( &#039;wp_enqueue_scripts&#039;, &#039;themeslug_enqueue_script&#039; )<\/code><\/pre>\n\n<p>$deps (dependencies), the handle name and an optional parameter, lets you control when\/where your script or style should be added. If $deps is <code>array('jquery')<\/code>, your script will be loaded after jquery is loaded.<\/p>\n\n<p>The problem is, which one exists and in which order ar",
+                "uid": "7621"
+            }
+        }
+    }
+}

@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/post-images-html-resizer": {
+            "0.1": {
+                "name": "wordpress\/post-images-html-resizer",
+                "version": "0.1",
+                "version_normalized": "0.1.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/post-images-html-resizer.0.1.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>This plugins allows you to regenerate all the HTML of the images attachments contained in a post, using the right width and height. This function is very useful if you change the design \/ theme of your website, and that you want the images of your articles to fit nicely, without doing it manually one by one. This plugin doesn't resize the images themselves, you'll find another plugins which can do that (Bulk Image Resize Utility for example).<\/p>",
+                "uid": "42733"
+            }
+        }
+    }
+}

@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/auto-generate-title": {
+            "1.0": {
+                "name": "wordpress\/auto-generate-title",
+                "version": "1.0",
+                "version_normalized": "1.0.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/auto-generate-title.1.0.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>This plugin generates POST Title from POST content automatically. Sometimes, you forget to write the title or sometimes you don't want to write the title. It will generate the title for you. Or you can select a statement from your post content to be a title for the post using shortcodes [agt][\/agt].<\/p>\n\n<p>How does it work?\nIf you leave the title field empty, only then this plugin will work.\nThere are two different ways, this plugin works: - \n* Firstly it will search the content to check whether you have used [agt][\/agt]shortcode or not. If used, it will make the wrapped line as title.\n* If you haven't used shortcode in your post, it will automatically pick first 30 characters from the post and will use them as post title.<\/p>\n\n<p>Currently this plugin is tested with latest wordpress version 3.4.2, but it should work with other versions also.<\/p>",
+                "uid": "15622"
+            }
+        }
+    }
+}

@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/tagged-sitemap": {
+            "1.0": {
+                "name": "wordpress\/tagged-sitemap",
+                "version": "1.0",
+                "version_normalized": "1.0.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/tagged-sitemap.1.0.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>Creates a shortcode <code>[tagged-sitemap]<\/code> that renders a nested list with \nall the pages and tags for page. When a tag is clicked, related pages are then highlighted.<\/p>\n\n<p>Required plugins: <a href=\"http:\/\/wordpress.org\/extend\/plugins\/page-tagger\/\" title=\"Page Tagger\">Page Tagger<\/a> or <a href=\"http:\/\/wordprss.org\/extend\/plugins\/simple-tags\/\" title=\"Simple Tags\">Simple Tags<\/a><\/p>\n\n<p>Some example: <a href=\"http:\/\/leap.ubc.ca\/sitemap\" title=\"UBC LEAP\">UBC LEAP<\/a><\/p>",
+                "uid": "67390"
+            }
+        }
+    }
+}

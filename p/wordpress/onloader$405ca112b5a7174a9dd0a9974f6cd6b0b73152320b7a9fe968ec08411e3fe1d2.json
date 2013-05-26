@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/onloader": {
+            "1.0": {
+                "name": "wordpress\/onloader",
+                "version": "1.0",
+                "version_normalized": "1.0.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/onloader.1.0.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>This shortcode, <code>onloader<\/code>, makes it possible to dynamically load extra content onto a page, with a nice spinning\nload indicator taking the place of the content until it is loaded.<\/p>\n\n<h4>Usage<\/h4>\n\n<p>Add a shortcode like the following to the content of a post or page.<\/p>\n\n<pre><code>[onloader href=\"...\" id=\"...\" width=\"...\" height=\"...\" style=\"...\"]\n<\/code><\/pre>\n\n<p>The <code>href<\/code> attribute is mandatory, the rest are optional.<\/p>\n\n<p>Attribute descriptions:<\/p>\n\n<ul>\n<li><strong>href<\/strong>: The URL of the the content that should be loaded and displayed (or a string beginning with \"demo\").<\/li>\n<li><strong>id<\/strong>: Used to differentiate between several otherwise identical shortcodes on a single page. Should be a simple\ntext string beginning with a letter.<\/li>\n<li><strong>width<\/strong>: The width of the box that will hold the load indicator and the content once it is loaded, expressed as\nCSS, e.g. <code>200px<\/code> or <code>100%<\/code>. The default ",
+                "uid": "85044"
+            }
+        }
+    }
+}

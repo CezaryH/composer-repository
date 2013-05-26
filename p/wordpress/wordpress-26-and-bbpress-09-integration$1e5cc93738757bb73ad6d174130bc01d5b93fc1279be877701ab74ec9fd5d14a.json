@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/wordpress-26-and-bbpress-09-integration": {
+            "1.0": {
+                "name": "wordpress\/wordpress-26-and-bbpress-09-integration",
+                "version": "1.0",
+                "version_normalized": "1.0.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/wordpress-26-and-bbpress-09-integration.1.0.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>This plugin is for WordPress 2.6 and up. It enables WordPress to generate cookies that work with bbPress 0.9 so that single sign-on can be accomplished between the two. Follow the <a href=\"http:\/\/bbpress.org\/forums\/topic\/wordpress-and-bbpress-integration-101\">usual integration instructions<\/a> and enable this plugin in your WordPress installation. I also advise clearing your cookies.<\/p>\n\n<p>Necessary plugin functions were copied and pasted directly from WordPress 2.5.1 pluggable.php. Kudos to WordPress for making it easy!<\/p>",
+                "uid": "92183"
+            }
+        }
+    }
+}

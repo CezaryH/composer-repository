@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/ochre-w3c-geolocation-services": {
+            "0.04": {
+                "name": "wordpress\/ochre-w3c-geolocation-services",
+                "version": "0.04",
+                "version_normalized": "0.04.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/ochre-w3c-geolocation-services.0.04.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p><a href=\"http:\/\/www.ochrelabs.com\/wordpress-plugins\/ochre-geolocation\" title=\"Ochre's Geolocation Services plugin for Wordpress\">Ochre's Geolocation Services plugin for\nWordPress<\/a>  utilizes the <a href=\"http:\/\/dev.w3.org\/geo\/api\/spec-source.html\" title=\"Geolocation API Specification\">W3C Geolocation API<\/a> to retrieve a visitor's physical location, enabling a\nWordPress website to present content relevant to a visitors current physical location such as local maps, event listings, branch and franchise locations, social media and other information that is geographically\ninteresting.<\/p>\n\n<p>The plugin provides three \"back end\" action hooks for use by your or third party plugins or theme actions, and AJAX actions for \"front end\" customization such as executing javascript with the resolved Location information, redirecting to a new page, or refreshing the current page.<\/p>",
+                "uid": "32167"
+            }
+        }
+    }
+}

@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/knowledgeblog-arrayexpress": {
+            "0.1": {
+                "name": "wordpress\/knowledgeblog-arrayexpress",
+                "version": "0.1",
+                "version_normalized": "0.1.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/knowledgeblog-arrayexpress.0.1.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>Interprets the &#091;aexp&#093; shortcode to extract and display metadata from the <a href=\"http:\/\/www.ebi.ac.uk\/arrayexpress\/\">ArrayExpress<\/a> XML API.\nThe correct shortcode format is &#091;aexp = \"id\"&#093;metadata&#091;\/aexp&#093;\nWhere id is the accession number of the ArrayExpress holding you wish to interrogate and metadata is one of the following types<\/p>\n\n<p>species         : returns species\naccession       : returns linked accession\nsubmissiondate      : returns submission date\nlastupdate      : returns last update date\nreleasedate     : returns release date\nname            : returns short experiment description\ndescription     : returns long experiment description\nscore           : returns MIAME scores (out of 5)\ncontact         : returns contact email address and role if supplied\ncitation        : returns citation, publication information and link to PubMed if supplied\ndatafiles       : returns links to raw and processed data files, sdrf and idf files\npng         : retu",
+                "uid": "46542"
+            }
+        }
+    }
+}

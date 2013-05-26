@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/4040-prayer-vigil": {
+            "20.0": {
+                "name": "wordpress\/4040-prayer-vigil",
+                "version": "20.0",
+                "version_normalized": "20.0.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/4040-prayer-vigil.2012.0.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>This plugin utilizes a web service from DJS Consulting (<a href=\"http:\/\/services.djs-consulting.com\/FortyForty\" rel=\"nofollow\">http:\/\/services.djs-consulting.com\/FortyForty<\/a>) to display the\ncurrent day or hour's suggested prayer guide for the 40\/40 Prayer Vigil.  The \"40\/40\" part means that you can pray for\neither 40 days or 40 hours.  For days, the 2012 vigil runs from September 26th through November 4th; for hours, it runs\nfrom 4pm on November 2nd through 7am on November 4th.<\/p>\n\n<p>This plugin utilizes your blog's local date\/time to display the current guide as the vigil is proceeding.  It caches\nthe results, so there should be next to no extra work for the page displays on your blog.  You can select the language,\nthe version that is used for the Scripture links, and the number of days before and after the actual vigil that the\nwidget will be displayed.<\/p>",
+                "uid": "22185"
+            }
+        }
+    }
+}

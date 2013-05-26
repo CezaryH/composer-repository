@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/time-since-shortcode": {
+            "1.0": {
+                "name": "wordpress\/time-since-shortcode",
+                "version": "1.0",
+                "version_normalized": "1.0.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/time-since-shortcode.1.0.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>This shortcode displays the years since the date provided.\nTo use this shortcode, add some text to a post or page simmiler to:<\/p>\n\n<pre><code>[ts date='1983-09-02']\n<\/code><\/pre>\n\n<p>The date format is YYYY-MM-DD<\/p>",
+                "uid": "39693"
+            }
+        }
+    }
+}

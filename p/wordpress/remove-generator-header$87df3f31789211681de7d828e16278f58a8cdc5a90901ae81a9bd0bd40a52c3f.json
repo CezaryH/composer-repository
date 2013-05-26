@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/remove-generator-header": {
+            "1.0": {
+                "name": "wordpress\/remove-generator-header",
+                "version": "1.0",
+                "version_normalized": "1.0.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/remove-generator-header.1.0.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>As the name suggests this plugin will completely remove the mandatory 'Category Base' from your category permalinks ( e.g. <code>&#60;meta name=\"generator\" content=\"WordPress 3.0.1\" \/&#62;<\/code> ).<\/p>\n\n<p>The plugin requires no setup or modifying core wordpress files and will not break any code. This plugins quite simple but very usefull for your wordpress blog security.<\/p>\n\n<h4>Features<\/h4>\n\n<ol>\n<li>For security purpose this plugins remove the generator meta tag<\/li>\n<\/ol>",
+                "uid": "60189"
+            }
+        }
+    }
+}

@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/easy-mortgage-rates": {
+            "0.2": {
+                "name": "wordpress\/easy-mortgage-rates",
+                "version": "0.2",
+                "version_normalized": "0.2.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/easy-mortgage-rates.0.2.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>This plugin will allow you to use [easy_mortgage_rates_table] as a template tag to insert a table of common real estate loan program interest rates into your posts and pages. You can also use your table as a widget. This plugin has a feature that allows for a generic mortgage rates widget from ERATE.COM to be displayed if your custom rates have not been updated within a set number of hours.<\/p>\n\n<p>To enter interest rates and edit settings, click on the \"Easy Mortgage Rates\" link under the Settings area of the Admin area. Most of the settings available should be self-explanatory.<\/p>\n\n<p>In the settings for Easy Mortgage Rates you may set the number of hours you want to pass before the generic rates from ERATE.COM are used instead of your custom rates. You can customize the generic rates displayed by the ERATE.COM widget by entering a state in the settings.<\/p>\n\n<p>If you wish to omit rate information for certain programs, leave the corresponding fields blank and the program will no",
+                "uid": "50319"
+            }
+        }
+    }
+}

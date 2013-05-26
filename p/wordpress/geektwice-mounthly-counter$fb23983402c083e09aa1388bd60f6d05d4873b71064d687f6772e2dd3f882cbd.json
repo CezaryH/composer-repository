@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/geektwice-mounthly-counter": {
+            "0.7": {
+                "name": "wordpress\/geektwice-mounthly-counter",
+                "version": "0.7",
+                "version_normalized": "0.7.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/geektwice-mounthly-counter.0.7.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>Calcola il totale mensile da pagare ai redattori del blog basandosi su regole stabilite nella pagina di configurazione.\nGenerates stats to pay your authors each month.<\/p>",
+                "uid": "79054"
+            }
+        }
+    }
+}

@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/restrict-login-by-ip": {
+            "1.0": {
+                "name": "wordpress\/restrict-login-by-ip",
+                "version": "1.0",
+                "version_normalized": "1.0.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/restrict-login-by-ip.1.0.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>\"Restrict By IP\" lets you specify IP addresses or hosts that users are allowed to login from. Only users that have the exact IP will be able to access the dashboard. Everyone else will get a \"Forbidden\" error when trying to log in or access an admin page directly. However, normal visitors won't be affected - everyone will still be able to read your posts browse the site.<\/p>\n\n<p>When setting the allowed addresses, you can use full IPs (e.g. \"12.34.56.7\") or a range of IPs (e.g. \"12.34\"). If necessary, you can also use more advanced settings - define allowed subnet(s) via network\/netmask, enter IPv6 addresses, etc. All the configuration is done via a very simple and intuitive* interface.<\/p>\n\n<p><em>&#042; Maybe.<\/em><\/p>\n\n<p>On the technical side, the plugin is basically a very simple frontend for setting mod_access\/mod_authz_host directives in the .htaccess file.<\/p>\n\n<p><strong>Requirements :<\/strong> PHP 5 or later, Apache, mod_access or mod_authz_host.<\/p>",
+                "uid": "96211"
+            }
+        }
+    }
+}

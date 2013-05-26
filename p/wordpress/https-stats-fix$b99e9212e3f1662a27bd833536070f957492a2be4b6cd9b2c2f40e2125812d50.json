@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/https-stats-fix": {
+            "0.2": {
+                "name": "wordpress\/https-stats-fix",
+                "version": "0.2",
+                "version_normalized": "0.2.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/https-stats-fix.0.2.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>If you are using the <a href=\"http:\/\/wordpress.org\/extend\/plugins\/stats\/\">WordPress.com Stats plugin<\/a>, and some of your pages use the HTTPS protocol for SSL, then you need this plugin. The WordPress.com Stats plugin will add its remote javascript file with an HTTP link. This plugin detaches this file, and rewrites it with an HTTPS link.<\/p>",
+                "uid": "67453"
+            }
+        }
+    }
+}

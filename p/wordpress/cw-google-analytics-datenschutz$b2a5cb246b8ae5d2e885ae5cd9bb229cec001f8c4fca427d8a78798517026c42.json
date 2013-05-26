@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/cw-google-analytics-datenschutz": {
+            "1.3": {
+                "name": "wordpress\/cw-google-analytics-datenschutz",
+                "version": "1.3",
+                "version_normalized": "1.3.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/cw-google-analytics-datenschutz.1.3.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>Nach der Installation finden Sie unter Einstellungen, Privatsph&#228;re ein weiteres Textfeld, bei dem Sie die Account-ID von Google Analytics eintragen k&#246;nnen.<\/p>\n\n<p>Mit der Hinterlegung dieser ID ist Analytics sofort einsatzklar. Technisch wird bei der Darstellung des Trackingcodes der Parameter \"_gat._anonymizeIp\" hinterlegt, der die IP-Adressen erst k&#252;rzt und anschlie&#223;end an Google &#252;bermittelt.<\/p>\n\n<p>Zum datenschutzkonformen Einsatz ist weiterhin eine Vereinbarung mit Google notwendig. Den Vertrag dazu (kostenlos) und weitere, ausf&#252;hrliche Informationen stellt der Datenschutzbeauftragten von Hamburg zur Verf&#252;gung, zu finden unter\n<a href=\"http:\/\/www.christian-wenzl.de\/google-analytics-datenschutzkonform\" rel=\"nofollow\">http:\/\/www.christian-wenzl.de\/google-analytics-datenschutzkonform<\/a><\/p>",
+                "uid": "35708"
+            }
+        }
+    }
+}

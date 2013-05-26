@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/nudalytics": {
+            "2.0.2": {
+                "name": "wordpress\/nudalytics",
+                "version": "2.0.2",
+                "version_normalized": "2.0.2.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/nudalytics.2.0.2.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>This plugin can record visitor's information and make those values as statistics.\nWhen record, you can change how to deal those through edit dat files in \"Nudalytics\/filter\" or \"Nudalytics\/identiry\" directory.\nAlso can display movement in your admin page for multi-user WP site and security.<\/p>\n\n<p>CAUTION!!<\/p>\n\n<p>Please backup your .dat file.<\/p>\n\n<p>Make a empty row in \"\/filter\/ip.dat\". If not, almost IP address is the target to be filtered.<\/p>\n\n<p>About detail of the plugin, please see Other Notes.<\/p>",
+                "uid": "25711"
+            }
+        }
+    }
+}

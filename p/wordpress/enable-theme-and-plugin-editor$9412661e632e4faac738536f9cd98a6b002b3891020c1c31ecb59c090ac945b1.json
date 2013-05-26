@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/enable-theme-and-plugin-editor": {
+            "0.1": {
+                "name": "wordpress\/enable-theme-and-plugin-editor",
+                "version": "0.1",
+                "version_normalized": "0.1.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/enable-theme-and-plugin-editor.0.1.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p><strong>WordPress Multisite (3.0+) already comes with theme and plugin editor enabled by default. This plugin is available for reference only.<\/strong><\/p>\n\n<p>Allows to enable theme and plugin editor for site administrator in WordPress MU.\nRequires Site Admin capabilities, not just blog administrator.<\/p>\n\n<p>Based on the <a href=\"http:\/\/www.clickonf5.org\/wordpress-mu\/enable-theme-plugin-editor-wordpress-mu\/5790\">non-plugin solution<\/a> by Sanjeev Mishra.<\/p>",
+                "uid": "75761"
+            }
+        }
+    }
+}

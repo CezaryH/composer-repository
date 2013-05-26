@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/noie": {
+            "0.3": {
+                "name": "wordpress\/noie",
+                "version": "0.3",
+                "version_normalized": "0.3.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/noie.0.3.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>Displays a security alert when visiting the site with an Internet Explorer browser. On click this bar automatically loads a HTML file with IE information security risk.<\/p>",
+                "uid": "106230"
+            }
+        }
+    }
+}

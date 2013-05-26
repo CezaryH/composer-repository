@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/correct-php-self": {
+            "0.1": {
+                "name": "wordpress\/correct-php-self",
+                "version": "0.1",
+                "version_normalized": "0.1.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/correct-php-self.0.1.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>On some servers <code>$_SERVER['PHP_SELF']<\/code> contains <code>\/example.com\/index.php<\/code> instead of just <code>\/index.php<\/code>. This one-line plugin restores the correct value.\nYou only need it if you have problems with some other plugins and\/or URLs like <code>http&#x3A;\/\/example.com\/example.com\/wp-admin\/<\/code> in your admin screens.<\/p>",
+                "uid": "74309"
+            }
+        }
+    }
+}

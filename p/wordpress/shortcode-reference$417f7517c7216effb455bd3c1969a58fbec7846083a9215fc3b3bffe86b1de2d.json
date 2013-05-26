@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/shortcode-reference": {
+            "0.2": {
+                "name": "wordpress\/shortcode-reference",
+                "version": "0.2",
+                "version_normalized": "0.2.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/shortcode-reference.0.2.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>One of the fancy things within Wordpress-plugins, is the availability of shortcodes. \nThese codes will provide access to plugin-specific things, like displaying a gallery, or a Google-Map. \nThe downside about this, is that there's no generic overview of all available shortcodes within your environment.<\/p>\n\n<p>This plugin will provide a list of all available shortcodes, right where the action is. When you're editing your content. And it won't skip the details: it'll show you what its origin is. \nMost of all, if it's available in the sourcecode, the documentation will be shown.<\/p>\n\n<p>The plugin is largely based on <a href=\"http:\/\/php.net\/manual\/en\/book.reflection.php\">PHP5's Reflection functionality<\/a>, and therefore only available from PHP version 5.0.0.<\/p>",
+                "uid": "56987"
+            }
+        }
+    }
+}

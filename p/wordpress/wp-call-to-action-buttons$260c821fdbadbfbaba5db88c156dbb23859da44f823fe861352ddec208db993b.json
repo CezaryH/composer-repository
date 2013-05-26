@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/wp-call-to-action-buttons": {
+            "1.00": {
+                "name": "wordpress\/wp-call-to-action-buttons",
+                "version": "1.00",
+                "version_normalized": "1.00.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/wp-call-to-action-buttons.1.00.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>Every page needs a strong Call to Action to entice the user to the complete the pages goal. This might be to get to the contact page, or to buy a certain product. This plugin generates custom colored CTA Buttons in pure css3. Simply use the shortcode in your pages or templates to up your conversation rate and complete your goals!<\/p>\n\n<h4>Simple Usage:<\/h4>\n\n<p>Use the following shortcode with simple options for the base color(6 digit hex color) and href. The text of the button goes in the middle of the opening and closing shortcode tags.<\/p>\n\n<p>[WPCTA color=\"\" href=\"\"]Button Text Here[\/WPCTA]<\/p>\n\n<h4>Advanced Usage (all options):<\/h4>\n\n<p>The following shortcode attributes are available to you:\n*   color - A six digit hex color \n*   style - valid css styles to be added to the button\n*   href - Target location of the button\n*   rounded - true for a rounded button and false for a normal button\n*   size - \"large\" for a large button, \"normal\" otherwise<\/p>",
+                "uid": "115293"
+            }
+        }
+    }
+}

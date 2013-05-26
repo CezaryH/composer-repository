@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/bird-feeder": {
+            "1.2.3": {
+                "name": "wordpress\/bird-feeder",
+                "version": "1.2.3",
+                "version_normalized": "1.2.3.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/bird-feeder.1.2.3.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>This plug-in serves one purpose and that is to tweet published posts. It doesn't do anything other then tweet. It tweets in this format: [your message] [post title] [short url].<\/p>\n\n<p>On the options page you will have to enter your twitter username and password. You can also configure your message there.<\/p>\n\n<p>If you try to publish a bunch of posts quickly Bird Feeder url shortening service will not handle them and result un-expected tweets. Your mileage may vary. Don't spam.<\/p>\n\n<p>Current: 1.2.3<\/p>",
+                "uid": "95653"
+            }
+        }
+    }
+}

@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/parallel-load": {
+            "1.5": {
+                "name": "wordpress\/parallel-load",
+                "version": "1.5",
+                "version_normalized": "1.5.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/parallel-load.1.5.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>Load Javascript files in parallel by using document.write tag.<\/p>\n\n<ul>\n<li>Optional bottom loading javascript can be enabled in Settings \/ Miscellaneous. If your plugin is compatible, this will improve perceivable page loading time.<\/li>\n<li>You can use <a href=\"http:\/\/webpagetest.org\/\">pagetest<\/a> to test your result.<\/li>\n<li>Only script using wp_enqueue_script() will be loaded in parallel<\/li>\n<\/ul>\n\n<p>Change Log:<\/p>\n\n<ul>\n<li>1.5 Compatible with <a href=\"http:\/\/wordpress.org\/extend\/plugins\/fancybox-for-wordpress\/\">FancyBox<\/a> 1.5.1, please upgrade fancybox as well<\/li>\n<li>1.4 Added <a href=\"http:\/\/wordpress.org\/extend\/plugins\/fancybox-for-wordpress\/\">FancyBox<\/a> support  Mar 21, 2009<\/li>\n<li>1.3 Support l10n script<\/li>\n<li>1.2 Added <a href=\"http:\/\/wordpress.org\/extend\/plugins\/contact-form-7\/\">Contact Form 7<\/a> support<\/li>\n<li>1.1 Fix a bug, hope it will have better plugin compatibility.<\/li>\n<\/ul>",
+                "uid": "92381"
+            }
+        }
+    }
+}

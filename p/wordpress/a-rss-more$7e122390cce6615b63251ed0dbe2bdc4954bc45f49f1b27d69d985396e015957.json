@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/a-rss-more": {
+            "0.0.2": {
+                "name": "wordpress\/a-rss-more",
+                "version": "0.0.2",
+                "version_normalized": "0.0.2.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/a-rss-more.0.0.2.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>Additional - you can use <!--more--> second time (for cut full article in full RSS).\nOptions available on Settings\/Reading page<\/p>",
+                "uid": "60260"
+            }
+        }
+    }
+}

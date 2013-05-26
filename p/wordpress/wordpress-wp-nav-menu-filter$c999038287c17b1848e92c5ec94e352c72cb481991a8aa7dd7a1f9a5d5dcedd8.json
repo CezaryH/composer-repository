@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/wordpress-wp-nav-menu-filter": {
+            "1.0": {
+                "name": "wordpress\/wordpress-wp-nav-menu-filter",
+                "version": "1.0",
+                "version_normalized": "1.0.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/wordpress-wp-nav-menu-filter.1.0.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>If you have built custom WordPress themes, you have probably ran into needing to display navigation on subpages.  Rather than try to manage several navigation menus, or try to output menus with wp_list_pages(), why not manage everything from a single menu, and just pass different parameters to show what you want?  Makes sense to me...<\/p>\n\n<p>To use it, simply add a 'submenu' parameter to the arguments of wp_nav_menu, like so:<\/p>\n\n<pre><code>wp_nav_menu(array(\n  'menu' =&#62; 'header',\n  'submenu' =&#62; 'Solutions' \/\/Using parameter of Page Name\n));\n\n----  OR  ----\n\nwp_nav_menu(array(\n  'menu' =&#62; 'header',\n  'submenu' =&#62; '46' \/\/Using parameter of Page ID (!important - Passing ID in STRING FORMAT)\n));\n<\/code><\/pre>",
+                "uid": "28871"
+            }
+        }
+    }
+}

@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/cryptographp": {
+            "1.2": {
+                "name": "wordpress\/cryptographp",
+                "version": "1.2",
+                "version_normalized": "1.2.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/cryptographp.1.2.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>This plugin allows you to add a captcha before anyone could post a comment. The captcha can be easily configured in the options of the Wordpress admin section.<\/p>\n\n<p>This plugin use on the <a href=\"http:\/\/www.cryptographp.com\/\" title=\"Cryptographp\">Cryptographp<\/a> library.<\/p>",
+                "uid": "112872"
+            }
+        }
+    }
+}

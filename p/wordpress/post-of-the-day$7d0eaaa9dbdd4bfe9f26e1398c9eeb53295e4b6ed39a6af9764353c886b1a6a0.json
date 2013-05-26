@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/post-of-the-day": {
+            "1.0": {
+                "name": "wordpress\/post-of-the-day",
+                "version": "1.0",
+                "version_normalized": "1.0.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/post-of-the-day.1.0.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>Choose your categories and interval from the settings menu and it will display 1 post from the chosen categories at your set interval, chosen randomly.<\/p>",
+                "uid": "41434"
+            }
+        }
+    }
+}

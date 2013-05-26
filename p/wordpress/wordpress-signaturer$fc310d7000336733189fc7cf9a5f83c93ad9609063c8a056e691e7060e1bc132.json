@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/wordpress-signaturer": {
+            "1.2": {
+                "name": "wordpress\/wordpress-signaturer",
+                "version": "1.2",
+                "version_normalized": "1.2.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/wordpress-signaturer.1.2.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<ul>\n<li>Author: <a href=\"http:\/\/dimio.org\/about\">dimio<\/a><\/li>\n<li>Project URI: <a href=\"http:\/\/www.dimio.org\/tag\/wp-signaturer\">http:\/\/www.dimio.org\/tag\/wp-signaturer<\/a><\/li>\n<li>License: GPL 2. See License below for copyright jots and tittles.<\/li>\n<\/ul>\n\n<p>Wordpress Signaturer is an plugin to add a random signatures to messages on the blog. \nSignatures insert you in the database on the settings page of the plugin and the plugin are taken out of it.\nFor example, you can add a caption like \"Ask questions in the comments\" or \"#Subscribe to RSS#). If you enter a phrase between # # this part will be transformed into a link to the RSS-feed for your blog.<\/p>",
+                "uid": "80160"
+            }
+        }
+    }
+}

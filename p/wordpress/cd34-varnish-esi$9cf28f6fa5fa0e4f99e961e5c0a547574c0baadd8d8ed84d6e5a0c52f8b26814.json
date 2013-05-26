@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/cd34-varnish-esi": {
+            "0.2": {
+                "name": "wordpress\/cd34-varnish-esi",
+                "version": "0.2",
+                "version_normalized": "0.2.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/cd34-varnish-esi.0.2.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>This plugin uses <a href=\"https:\/\/www.varnish-cache.org\/\">Varnish<\/a> and <a href=\"https:\/\/www.varnish-cache.org\/docs\/3.0\/tutorial\/esi.html\">ESI<\/a> to cache the sidebar separately from the page and aggressively uses Purges so that you can set long expire times without worrying about comments and post edits not showing up immediately.<\/p>\n\n<p>I did a presentation on the methodology behind this which explains how\nthe plugin works. <a href=\"http:\/\/cd34.com\/blog\/scalability\/wordpress-varnish-and-esi-plugin\/\">Blog Post<\/a><\/p>\n\n<p>Should you use this?<\/p>\n\n<p>Probably not.<\/p>\n\n<p>If you're on a Virtual server, it is likely that you won't be able to install\nVarnish or run your site behind it. If you are able to run Varnish, the use\ncase for this plugin is a little different than <a href=\"http:\/\/wordpress.org\/extend\/plugins\/wordpress-varnish\/\">Wordpress-Varnish<\/a>.<\/p>\n\n<p>If you are trying to cache your site where your visitors are hitting one\nor two pages and you don't get many commen",
+                "uid": "32281"
+            }
+        }
+    }
+}

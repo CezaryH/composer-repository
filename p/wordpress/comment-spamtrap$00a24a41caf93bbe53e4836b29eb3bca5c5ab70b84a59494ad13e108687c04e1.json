@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/comment-spamtrap": {
+            "1.0.2": {
+                "name": "wordpress\/comment-spamtrap",
+                "version": "1.0.2",
+                "version_normalized": "1.0.2.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/comment-spamtrap.1.0.2.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>This plugin adds 2 form fields to the comment form to detect spam bots that autofill all form fields they find. These fields are hidden by CSS so they are not viewable within the browser. Of the 2 fields, one will be checked that it is still empty, the other will be checked that the data has not been changed.<\/p>",
+                "uid": "74869"
+            }
+        }
+    }
+}

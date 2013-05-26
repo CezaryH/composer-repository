@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/extended-random-number-generator": {
+            "1.0": {
+                "name": "wordpress\/extended-random-number-generator",
+                "version": "1.0",
+                "version_normalized": "1.0.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/extended-random-number-generator.1.0.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>By default, the original <a href=\"http:\/\/wordpress.org\/extend\/plugins\/random-number-generator\/\">Random Number Generator<\/a> plugin short code works within widgets, posts, and pages. We have extended the core capability of the plugin so that it also works within text\/html fields, such as those used for advertising purposes.<\/p>\n\n<p>One primary use: It can be used to <a href=\"http:\/\/support.google.com\/dfp_premium\/bin\/answer.py?hl=en&#38;answer=1116933\">defeat browser caching<\/a> by inserting a random number. The most common implementation of this is within Google DoubleClick ads where they require an 'ord=' within the script to ensure that ad creative is not cached by the browers.<\/p>\n\n<p>Use Example 1: \ninput: <a href=\"http:\/\/my_url?ord=random-number\" rel=\"nofollow\">http:\/\/my_url?ord=random-number<\/a>\" \noutput: <a href=\"http:\/\/my_url?ord=134548\" rel=\"nofollow\">http:\/\/my_url?ord=134548<\/a>.<\/p>\n\n<p>Use Example 2:\ninput: [random-number from=\"2\" to=\"72\" format=\"%b\"]%d minutes[\/random-nu",
+                "uid": "12026"
+            }
+        }
+    }
+}

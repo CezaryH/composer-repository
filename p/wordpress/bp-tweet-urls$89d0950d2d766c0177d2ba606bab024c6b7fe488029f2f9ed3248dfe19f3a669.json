@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/bp-tweet-urls": {
+            "0.1": {
+                "name": "wordpress\/bp-tweet-urls",
+                "version": "0.1",
+                "version_normalized": "0.1.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/bp-tweet-urls.0.1.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>This version requires Buddypress and YOURLS url shortener.\nAdd tweet buttons to activity stream posts allowing users to 'tweet' the item. Shorten urls with your own custom YOURLS shortener. Other Url shortening services being added soon.<\/p>",
+                "uid": "50245"
+            }
+        }
+    }
+}

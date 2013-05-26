@@ -1,0 +1,40 @@
+{
+    "packages": {
+        "wordpress\/easy-widgets": {
+            "1.1": {
+                "name": "wordpress\/easy-widgets",
+                "version": "1.1",
+                "version_normalized": "1.1.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/easy-widgets.1.1.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>Easy Widgets plugin provides an API to easily add widgets in WordPress.<\/p>\n\n<h4>Example of Use<\/h4>\n\n<ol>\n<li>Create a file \"widgets.php\" in your themes \/inc\/ folder<\/li>\n<li>In functions.php use locate_template to include your widgets.php file: locate_template(array('\/inc\/widgets.php'), true);<\/li>\n<li><p>In widgets.php, do something like below:<\/p>\n\n<pre><code>\/**\n * Custom widgets.\n *\/\n\n$prefix = 'replaceMe_';\n$widgets = array();\n\n\/\/ -----------------------------------------------\n\n\/**\n * easyBox widget\n *\/\n$widgets[] = array(\n    'id' =&#62; 'easyBox',\n    'title' =&#62; $prefix.'easyBox',\n    'desc' =&#62; 'Create a simple text widget',\n\n    \/\/ All fields can be called by their\n    \/\/ simple variables: title =&#62; $title\n    'fields' =&#62; array(\n        array(\n            'name' =&#62; 'Title',\n            'id' =&#62; 'title',\n            'type' =&#62; 'text'\n        ),\n\n        array(\n            'name' =&#62; 'Body',\n            'id' =&#62; 'body',\n            'type' =&#6",
+                "uid": "18791"
+            },
+            "1.1.1": {
+                "name": "wordpress\/easy-widgets",
+                "version": "1.1.1",
+                "version_normalized": "1.1.1.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/easy-widgets.1.1.1.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>Easy Widgets plugin provides an API to easily add widgets in WordPress.<\/p>\n\n<h4>Example of Use<\/h4>\n\n<ol>\n<li>Create a file \"widgets.php\" in your themes \/inc\/ folder<\/li>\n<li>In functions.php use locate_template to include your widgets.php file: locate_template(array('\/inc\/widgets.php'), true);<\/li>\n<li><p>In widgets.php, do something like below:<\/p>\n\n<pre><code>\/**\n * Custom widgets.\n *\/\n\n$prefix = 'replaceMe_';\n$widgets = array();\n\n\/\/ -----------------------------------------------\n\n\/**\n * easyBox widget\n *\/\n$widgets[] = array(\n    'id' =&#62; 'easyBox',\n    'title' =&#62; $prefix.'easyBox',\n    'desc' =&#62; 'Create a simple text widget',\n\n    \/\/ All fields can be called by their\n    \/\/ simple variables: title =&#62; $title\n    'fields' =&#62; array(\n        array(\n            'name' =&#62; 'Title',\n            'id' =&#62; 'title',\n            'type' =&#62; 'text'\n        ),\n\n        array(\n            'name' =&#62; 'Body',\n            'id' =&#62; 'body',\n            'type' =&#6",
+                "uid": "18790"
+            }
+        }
+    }
+}

@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/force-gzip": {
+            "1.0.1": {
+                "name": "wordpress\/force-gzip",
+                "version": "1.0.1",
+                "version_normalized": "1.0.1.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/force-gzip.1.0.1.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>This plugin implements gzip output compression to speed up load times.<\/p>\n\n<p>The plugin also does a check to see if browsers are incorrectly saying that they do not support GZIP when they actually do. This can speed up load times for a significant portion of users.<\/p>\n\n<pre><code>For requests with missing or mangled Accept-Encoding headers, inspect the User-Agent to identify browsers that should understand gzip.\n* Test their ability to decompress gzip.\n* If successful, send them gzipped content!\n<\/code><\/pre>\n\n<p>See:<\/p>\n\n<ul>\n<li><a href=\"http:\/\/www.stevesouders.com\/blog\/2010\/07\/12\/velocity-forcing-gzip-compression\/\" rel=\"nofollow\">http:\/\/www.stevesouders.com\/blog\/2010\/07\/12\/velocity-forcing-gzip-compression\/<\/a><\/li>\n<li><a href=\"http:\/\/en.oreilly.com\/velocity2010\/public\/schedule\/detail\/14334\" rel=\"nofollow\">http:\/\/en.oreilly.com\/velocity2010\/public\/schedule\/detail\/14334<\/a><\/li>\n<li><a href=\"http:\/\/wpdevel.wordpress.com\/2010\/07\/13\/forcing-gzip-httpwww-stevesouders-co\/\" rel=\"n",
+                "uid": "65570"
+            }
+        }
+    }
+}

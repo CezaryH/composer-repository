@@ -1,0 +1,40 @@
+{
+    "packages": {
+        "wordpress\/swekey": {
+            "1.0.7": {
+                "name": "wordpress\/swekey",
+                "version": "1.0.7",
+                "version_normalized": "1.0.7.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/swekey.1.0.7.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>This plugin let you use the swekey authentication USB dongle to secure your login.\nUsing this plugin, swekey owners will be able to attach their swekey to their account.<\/p>\n\n<p>Once a swekey is attached to an account the following features will be available:<\/p>\n\n<ul>\n<li>When your swekey is plugged the login dialog will automatically fill the 'username' input box.<\/li>\n<li>You won't be able to login without the swekey plugged.<\/li>\n<li>If you unplug your swekey while you are logged, you are automatically logged out.<\/li>\n<li>You can detach the swekey from your account in your profile.<\/li>\n<\/ul>\n\n<p>Administrators can attach\/detach swekeys to\/from a user account using the user settings dialog.<\/p>",
+                "uid": "97909"
+            },
+            "2.0.0": {
+                "name": "wordpress\/swekey",
+                "version": "2.0.0",
+                "version_normalized": "2.0.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/swekey.2.0.0.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>This plugin let you use the swekey authentication USB dongle to secure your login.\nUsing this plugin, swekey owners will be able to attach their swekey to their account.<\/p>\n\n<p>Once a swekey is attached to an account the following features will be available:<\/p>\n\n<ul>\n<li>When your swekey is plugged the login dialog will automatically fill the 'username' input box.<\/li>\n<li>You won't be able to login without the swekey plugged.<\/li>\n<li>If you unplug your swekey while you are logged, you are automatically logged out.<\/li>\n<li>You can detach the swekey from your account in your profile.<\/li>\n<\/ul>\n\n<p>Administrators can attach\/detach swekeys to\/from a user account using the user settings dialog.<\/p>",
+                "uid": "97908"
+            }
+        }
+    }
+}

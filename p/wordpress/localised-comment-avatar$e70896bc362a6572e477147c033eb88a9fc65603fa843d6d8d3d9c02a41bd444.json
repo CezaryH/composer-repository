@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/localised-comment-avatar": {
+            "2": {
+                "name": "wordpress\/localised-comment-avatar",
+                "version": "2",
+                "version_normalized": "2.0.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/localised-comment-avatar.2.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>This plugin allows readers to specify a name, e-mail address and\/or URL that they will always use when commenting, and to upload and asign an image to this combination of specified values. The plugin allows the blog owner to specify which of the three values are used when checking for combinations in the database, as well as specify where the images are uploaded to and their maximum size when outputted to the page. Owner can specify an image to use if a commenter has not uploaded one, if an image is wanted at all.<\/p>",
+                "uid": "112205"
+            }
+        }
+    }
+}

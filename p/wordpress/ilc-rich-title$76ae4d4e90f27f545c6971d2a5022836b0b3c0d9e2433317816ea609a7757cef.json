@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/ilc-rich-title": {
+            "1.0": {
+                "name": "wordpress\/ilc-rich-title",
+                "version": "1.0",
+                "version_normalized": "1.0.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/ilc-rich-title.1.0.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>This plugin will enable the TinyMCE rich text editor for the title field\nwhen writing a page or post. Requires jQuery to work, but rather than\nincluding it with , the plugin will enqueue the jQuery library\nincluded with WordPress using wp_enqueue_script on the admin area.<\/p>\n\n<p>There are a couple of style to remove the margin between the title\nlabel and the TinyMCE editor area, and the padding around the title\nbox and the border.<\/p>\n\n<p>Beware, for this plugin will paragraphise all your titles, so what\nonce was a h3 headline in your styles now might be h3 p.<\/p>\n\n<p>This software is provided without warranty of any kind.<\/p>",
+                "uid": "95371"
+            }
+        }
+    }
+}

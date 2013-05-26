@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/gs-alternate-images": {
+            "1.0": {
+                "name": "wordpress\/gs-alternate-images",
+                "version": "1.0",
+                "version_normalized": "1.0.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/gs-alternate-images.1.0.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>GS Alternate Images is a plugin that adds a meta box to the page and post edit pages.<\/p>\n\n<p>Users can add images to this area by clicking on the \"Add Alterante Images\" button and browsing the gallery or media library.<\/p>\n\n<p>Once images are added to the Alternate Images area, they can be extracted in a number of ways.<\/p>\n\n<p>In it's most basic form, the attachment ID's are added to a postmeta as an array. A programmer could use existing wp functions\nto extract the array from the postmeta and manipulate the images as they see fit, also using existing wp functionality.<\/p>\n\n<p>In addition this plugin add shortcode support allowing non programmers to produce a gallery of images, or ustilize the images in\nsome other fashion.<\/p>\n\n<p>For example.<\/p>\n\n<pre><code>To get an array of alternate images attachment IDs\n\n$array_of_IDs = gs_get_alt_image_ids($post_ID); \/\/ post_ID = the page\/post ID that you want to retreive the images for.\n\n\nuse this method to get an array of objects of image",
+                "uid": "63902"
+            }
+        }
+    }
+}

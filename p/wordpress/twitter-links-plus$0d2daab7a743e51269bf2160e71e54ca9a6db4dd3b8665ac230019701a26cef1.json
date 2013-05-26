@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/twitter-links-plus": {
+            "0.3.2": {
+                "name": "wordpress\/twitter-links-plus",
+                "version": "0.3.2",
+                "version_normalized": "0.3.2.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/twitter-links-plus.0.3.2.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>Checks Twitter usernames mentioned in posts, pages and in the comments (eg. @tquizzle) with the Twitter service to see if that user is indeed a Twitter user, then converts that user's Twitter name to a link to the mentioned user's Twitter profile page (eg.<a href=\"http:\/\/twitter.com\/tquizzle\">@tquizzle<\/a>).<\/p>\n\n<p><strong>Important<\/strong>: As this plugin converts usernames on the fly (whenever and everytime somebody views posts, pages, or comments), and checks Twitter for every username (to ensure it's valid), I <strong>strongly<\/strong> recommend using a caching plugin such as <strong>WP Super Cache<\/strong>. It will not only lessen the load on Twitter's servers, but obviously speed up page loads in the process.<\/p>",
+                "uid": "89087"
+            }
+        }
+    }
+}

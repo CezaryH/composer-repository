@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/proper-pagination": {
+            "1.3": {
+                "name": "wordpress\/proper-pagination",
+                "version": "1.3",
+                "version_normalized": "1.3.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/proper-pagination.1.3.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>This plugin is primarily aimed at theme developers, and intends to ease the\ncreation of semantic, usable pagination controls for WordPress listings pages, such as\narhive, author, category, search, tag listings etc.<\/p>\n\n<p>Inspired by <a href=\"http:\/\/codex.wordpress.org\/The_Loop\">The Loop<\/a> and <a href=\"http:\/\/codex.wordpress.org\/Function_Reference\/WP_Query\">WP_Query<\/a>, this plugin stays out of the theme\ndeveloper's way, allowing her to create the markup needed by providing the\nfollowing template tags:<\/p>\n\n<ul>\n<li><code>pp_has_pagination<\/code> - determines whether the current 'view' has any pagination to display, i.e. whether the content being browsed spans more than 1 page<\/li>\n<li><code>pp_the_pagination<\/code> - initiates the pagination context, should be called at the beginning of each loop iteration<\/li>\n<li><code>pp_rewind_pagination<\/code> - resets the pagination context, so that the pagination loop can be iterated over multiple times<\/li>\n<li><code>pp_is_current_page<",
+                "uid": "83755"
+            }
+        }
+    }
+}

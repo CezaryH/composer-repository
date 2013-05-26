@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/pc-searchengine-verify": {
+            "2.3": {
+                "name": "wordpress\/pc-searchengine-verify",
+                "version": "2.3",
+                "version_normalized": "2.3.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/pc-searchengine-verify.2.3.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>To access extended information about your website, the 3 major search engines require you to confirm ownership. One of the methods they allow you to use, is to add a meta tag to the head section of your home page.<\/p>\n\n<p>The meta tag must contain a unique identifier, provided to you in the webmaster tools area of each search engine.<\/p>\n\n<p>Once you've added the meta tag to your website's home page, the search engine will crawl your site to confirm ownership.<\/p>\n\n<p>This usually gives you access to extended information about your website, such as incoming links, referrers, traffic ..etc.<\/p>\n\n<p>Of course you can add meta tags to your site by hand, but that would mean editing your WordPress theme files - not the best way of doing these things.<\/p>\n\n<p>With this plugin there's no editing of files, just upload, activate, and add the meta tag info on the plugin options page under your Settings menu. All done.<\/p>",
+                "uid": "81111"
+            }
+        }
+    }
+}

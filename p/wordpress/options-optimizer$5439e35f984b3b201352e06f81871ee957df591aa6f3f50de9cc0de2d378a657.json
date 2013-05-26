@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/options-optimizer": {
+            "1.0": {
+                "name": "wordpress\/options-optimizer",
+                "version": "1.0",
+                "version_normalized": "1.0.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/options-optimizer.1.0.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>The Options Optimizer allows you to change plugin options so that they don't autoload. It also allows you to delete orphan options.<\/p>\n\n<p>In WordPress, some options are loaded whenever Wordpress loads a page. These are marked as autoload options. This is done to speed up WordPress and prevent the programs from hitting the database every time some plugin needs to look up an option. Automatic loading of options at start-up makes WordPress fast, but it can also use up memory for options that will seldom or never be used.<\/p>\n\n<p>You can safely switch options so that they don't load automatically. Probably the worst thing that will happen is that the page will paint a little slower because the option is retrieved separately from other options. The best thing that can happen is there is a lower demand on memory because the unused options are not loaded when WordPress starts loading a page.<\/p>\n\n<p>When plugins are uninstalled they are supposed to clean up their options. Many options do",
+                "uid": "19329"
+            }
+        }
+    }
+}

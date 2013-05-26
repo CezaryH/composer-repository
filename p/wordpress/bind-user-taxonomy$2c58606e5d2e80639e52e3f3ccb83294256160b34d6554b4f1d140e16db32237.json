@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/bind-user-taxonomy": {
+            "0.3": {
+                "name": "wordpress\/bind-user-taxonomy",
+                "version": "0.3",
+                "version_normalized": "0.3.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/bind-user-taxonomy.0.3.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>The admin can restrict posts by selected users to a selected taxonomy. Restricted users won't view the taxonomy selection panel in edit screens and in taxonomy list.<\/p>",
+                "uid": "19360"
+            }
+        }
+    }
+}

@@ -1,0 +1,40 @@
+{
+    "packages": {
+        "wordpress\/external-link-rewriter": {
+            "1": {
+                "name": "wordpress\/external-link-rewriter",
+                "version": "1",
+                "version_normalized": "1.0.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/external-link-rewriter.1.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>It is recommended that any external links should open in a new window. This plug-in adds target=\"_blank\" attribute to any A-tag that leads to external domains. It works on the client browser by JavaScript, so it does not add extra load on servers.<\/p>",
+                "uid": "56569"
+            },
+            "1.0.1": {
+                "name": "wordpress\/external-link-rewriter",
+                "version": "1.0.1",
+                "version_normalized": "1.0.1.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/external-link-rewriter.1.0.1.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>It is recommended that any external links should open in a new window. This plug-in adds target=\"_blank\" attribute to any A-tag that leads to external domains. It works on the client browser by JavaScript, so it does not add extra load on servers.<\/p>",
+                "uid": "56568"
+            }
+        }
+    }
+}

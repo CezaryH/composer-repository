@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/spammer-blocker": {
+            "1.5": {
+                "name": "wordpress\/spammer-blocker",
+                "version": "1.5",
+                "version_normalized": "1.5.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/spammer-blocker.1.5.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>If you are tired of blocking spammers' IP addresses manually, you can use this plugin. It blocks all visitors who posted a comment that was later <strong>marked as spam<\/strong> or prevents them from posting comments. For example if your Akismet catches a spam comment, its author will be muted\/blocked until you delete the spammer's IP address from your database.<\/p>\n\n<h4>Features<\/h4>\n\n<ul>\n<li>Advanced tools for managing banned IP addresses<\/li>\n<li>Simple tool for importing and exporting records<\/li>\n<li>Automatic banning of spammy IP addresses<\/li>\n<li>Automatic removing of spam comments<\/li>\n<li>Configurable banned message<\/li>\n<li>Two ways of detecting spammers<\/li>\n<li>Two ways of restricting access to spammers<\/li>\n<\/ul>\n\n<p><strong>No more mess!<\/strong> All plugin data will be automatically removed from your database after you delete the plugin.<\/p>",
+                "uid": "68331"
+            }
+        }
+    }
+}

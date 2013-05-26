@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/isapi-rewriter": {
+            "1.0": {
+                "name": "wordpress\/isapi-rewriter",
+                "version": "1.0",
+                "version_normalized": "1.0.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/isapi-rewriter.1.0.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>This plugin ensures the REQUEST_URI header is set during the initialization of WordPress, allowing permalinks to work on Windows IIS hosting. The nice thing about the plugin \nis it can remain activated when upgrading WordPress, as opposed to modifying the core WordPress files as many have in the past.<\/p>\n\n<p>The plugin has been tested on Windows Server 2003 with ISAPI Rewrite 3. Please comment with feedback if you're experiencing other issues or if it has helped you!<\/p>\n\n<p>Find more information, comments, and support here: <a href=\"http:\/\/theandystratton.com\/2009\/get-wordpress-permalinks-working-with-windows-iis-and-isapi-rewrite\">http:\/\/theandystratton.com\/2009\/get-wordpress-permalinks-working-with-windows-iis-and-isapi-rewrite<\/a><\/p>",
+                "uid": "89062"
+            }
+        }
+    }
+}

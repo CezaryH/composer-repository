@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/book-cover": {
+            "1.2": {
+                "name": "wordpress\/book-cover",
+                "version": "1.2",
+                "version_normalized": "1.2.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/book-cover.1.2.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>This plugin display the book cover image from ISBN. It has 3 pre-configured book store whose images are used. The first is for Korean book (89), the second\nfor Japan (4), and the others. You can change or add new book store URI in the plugin configuration screen. And you can reset to default setting at anytime.<\/p>\n\n<p>This plugin includes sidebar widget for book cover display, also.<\/p>\n\n<h4>Usage<\/h4>\n\n<ul>\n<li>First of all, you should know the book's ISBN. Usually, it is on the back of the book near by bar-code.<\/li>\n<li>Then add the bookcover markup to your post like the following.<\/li>\n<li>\n<ul>\n<li>[bookcover:1932394613]<\/li>\n<\/ul><\/li>\n<li>\n<ul>\n<li>[bookcover:1932394613(Ajax In Action)] <\/li>\n<\/ul><\/li>\n<li>It is converted to  markup. So you can control the style in your css file. <\/li>\n<\/ul>\n\n<h4>Preview<\/h4>\n\n<ul>\n<li><a href=\"http:\/\/ideathinking.com\/blog-v2\/?p=72\">BookCover plugin test page<\/a><\/li>\n<\/ul>",
+                "uid": "110460"
+            }
+        }
+    }
+}

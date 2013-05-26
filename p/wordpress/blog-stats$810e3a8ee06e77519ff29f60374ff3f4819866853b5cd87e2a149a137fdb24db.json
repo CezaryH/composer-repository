@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/blog-stats": {
+            "1.0": {
+                "name": "wordpress\/blog-stats",
+                "version": "1.0",
+                "version_normalized": "1.0.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/blog-stats.1.0.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>This plugin makes available a number of shortcodes which you can use in your posts, including pagerank and alexa:<\/p>\n\n<ul>\n<li>user_count<\/li>\n<li>post_count<\/li>\n<li>page_count<\/li>\n<li>comment_count<\/li>\n<li>trackback_count<\/li>\n<li>avg_comments_per_post<\/li>\n<li>category_count<\/li>\n<li>tag_count<\/li>\n<li>link_count<\/li>\n<li>pagerank<\/li>\n<li>technorati_authority<\/li>\n<li>technorati_rank<\/li>\n<li>alexa_rank<\/li>\n<li>feedburner_subscribers<\/li>\n<li>google_backlinks<\/li>\n<li>yahoo_backlinks<\/li>\n<li>delicious_bookmarks<\/li>\n<\/ul>\n\n<p>The stats are updated daily and then cached.<\/p>\n\n<p><strong>More info<\/strong><\/p>\n\n<ul>\n<li>Check out <a href=\"http:\/\/www.improvingtheweb.com\/wordpress-plugins\/blog-stats\/\">Blog Stats<\/a> for more information.<\/li>\n<li>Check out my other <a href=\"http:\/\/www.improvingtheweb.com\/\">Wordpress plugins<\/a>.<\/li>\n<\/ul>",
+                "uid": "94925"
+            }
+        }
+    }
+}

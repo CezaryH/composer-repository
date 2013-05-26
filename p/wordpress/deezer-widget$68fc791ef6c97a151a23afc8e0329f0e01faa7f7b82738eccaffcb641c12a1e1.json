@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/deezer-widget": {
+            "1.0": {
+                "name": "wordpress\/deezer-widget",
+                "version": "1.0",
+                "version_normalized": "1.0.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/deezer-widget.1.0.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>A Deezer play button widget.<\/p>\n\n<p>Inserts the same play button that can be found on <a href=\"http:\/\/developers.deezer.com\/musicplugins\/player\">http:\/\/developers.deezer.com\/musicplugins\/player<\/a>.\nAlbum ID and playlist ID can be found on <a href=\"http:\/\/deezer.com\/\">http:\/\/deezer.com\/<\/a>, check the URL.\nThere is a limit of 30 sec per track on album and playlist widget.\nThere is NO limit of time on radio widget.<\/p>\n\n<h4>Advanced Options<\/h4>\n\n<p>You can specify the height and width of the iframe in the widget options. (recommended size is: 270 x 600)\nYou can show the cover of the song or not.\nYou can activate autoplay and the player will start automatically.<\/p>",
+                "uid": "19767"
+            }
+        }
+    }
+}

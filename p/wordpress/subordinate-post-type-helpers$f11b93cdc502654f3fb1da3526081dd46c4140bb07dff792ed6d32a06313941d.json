@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/subordinate-post-type-helpers": {
+            "0.2.3": {
+                "name": "wordpress\/subordinate-post-type-helpers",
+                "version": "0.2.3",
+                "version_normalized": "0.2.3.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/subordinate-post-type-helpers.0.2.3.1.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>This plugin provides a number of helpers functions to aid in the creation of subordinate relationships between two post types, one-to-many relationships in which posts of one type are children of another. (For example, a Job Listing might have a Company as a parent; a Meeting might have a Group.) With this plugin activated, developers can easily write code in their plugins and themes to register two post types related in this manner.<\/p>\n\n<p>For an example on how to use the functions this plugin makes available, check out my Groups and Meetings plugin on Github:<\/p>\n\n<ul><li><a href=\"https:\/\/github.com\/randyhoyt\/mythsoc-groups\" rel=\"nofollow\">https:\/\/github.com\/randyhoyt\/mythsoc-groups<\/a><\/li><\/ul>",
+                "uid": "20570"
+            }
+        }
+    }
+}

@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/author-love": {
+            "1.7": {
+                "name": "wordpress\/author-love",
+                "version": "1.7",
+                "version_normalized": "1.7.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/author-love.1.7.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>This rating system will rate AUTHORS instead of the usual posts\/pages\/comments. Let post authors know how you feel about them. Let visitors rate your authors and show which author (publisher) is trustworhty, a good read, an expert, or a fluke.<\/p>\n\n<p>Built with ajax the author love rating system is unobtrusive and comes in many flavors. Use stars, hearts, arrows or anything else.<\/p>\n\n<p>Display rating blocks automatically, or adapt theme yourself.\nTo modify your themes yourself you can set automatic rendering at 'DISABLED' and insert the php function\n\nYou can leave the author-id empty, but only if used inside the loop.\nIf used inside the loop the function will automatically pull the post-author of the post displayed at that time.<\/p>\n\n<p>Another option is the function :\n\n$author_id = empty &#124;&#124; (or) Any valid author ID\n$pos = left &#124;&#124; right\n$author_info = empty &#124;&#124; author_nicename<\/p>\n\n<p><\/p>",
+                "uid": "21007"
+            }
+        }
+    }
+}

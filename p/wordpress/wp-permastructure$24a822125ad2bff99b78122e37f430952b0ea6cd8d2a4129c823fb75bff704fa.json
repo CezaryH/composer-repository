@@ -1,0 +1,57 @@
+{
+    "packages": {
+        "wordpress\/wp-permastructure": {
+            "1.0": {
+                "name": "wordpress\/wp-permastructure",
+                "version": "1.0",
+                "version_normalized": "1.0.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/wp-permastructure.1.0.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>In addition to controlling your custom post type permalinks this plugin adds support for using custom taxonomies in your permalink structures as well.<\/p>\n\n<p>Not only that but you can control the full permalink so the post type slug is not required at the start of the link.<\/p>\n\n<p>Multiple post types can use the same permalink structure.<\/p>\n\n<h4>Usage<\/h4>\n\n<p>There are 2 ways to use this plugin:<\/p>\n\n<p><strong>Permalink Settings<\/strong><\/p>\n\n<p>The plugin adds fields to the permalinks settings page for any public facing custom post types.<\/p>\n\n<p><strong>In Code<\/strong><\/p>\n\n<p>When registering a post type you can add a value to the rewrite property with the key 'permastruct' to define your default permalink structure.<\/p>\n\n<p>eg:<\/p>\n\n<pre><code>&#60;?php\n\nregister_post_type( &#039;my_type&#039;, array(\n    ...\n    &#039;rewrite&#039; =&#62; array(\n        &#039;permastruct&#039; =&#62; &#039;\/%custom_taxonomy_name%\/%author%\/%postname%\/&#039;\n    ),\n    ...\n) );\n\n?&#62;<\/cod",
+                "uid": "19235"
+            },
+            "1.1": {
+                "name": "wordpress\/wp-permastructure",
+                "version": "1.1",
+                "version_normalized": "1.1.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/wp-permastructure.1.1.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>In addition to controlling your custom post type permalinks this plugin adds support for using custom taxonomies in your permalink structures as well.<\/p>\n\n<p>Not only that but you can control the full permalink so the post type slug is not required at the start of the link.<\/p>\n\n<p>Multiple post types can use the same permalink structure.<\/p>\n\n<h4>Usage<\/h4>\n\n<p>There are 2 ways to use this plugin:<\/p>\n\n<p><strong>Permalink Settings<\/strong><\/p>\n\n<p>The plugin adds fields to the permalinks settings page for any public facing custom post types.<\/p>\n\n<p><strong>In Code<\/strong><\/p>\n\n<p>When registering a post type you can add a value to the rewrite property with the key 'permastruct' to define your default permalink structure.<\/p>\n\n<p>eg:<\/p>\n\n<pre><code>&#60;?php\n\nregister_post_type( &#039;my_type&#039;, array(\n    ...\n    &#039;rewrite&#039; =&#62; array(\n        &#039;permastruct&#039; =&#62; &#039;\/%custom_taxonomy_name%\/%author%\/%postname%\/&#039;\n    ),\n    ...\n) );\n\n?&#62;<\/cod",
+                "uid": "19234"
+            },
+            "1.2": {
+                "name": "wordpress\/wp-permastructure",
+                "version": "1.2",
+                "version_normalized": "1.2.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/wp-permastructure.1.2.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>In addition to controlling your custom post type permalinks this plugin adds support for using custom taxonomies in your permalink structures as well.<\/p>\n\n<p>Not only that but you can control the full permalink so the post type slug is not required at the start of the link.<\/p>\n\n<p>Multiple post types can use the same permalink structure.<\/p>\n\n<h4>Usage<\/h4>\n\n<p>There are 2 ways to use this plugin:<\/p>\n\n<p><strong>Permalink Settings<\/strong><\/p>\n\n<p>The plugin adds fields to the permalinks settings page for any public facing custom post types.<\/p>\n\n<p><strong>In Code<\/strong><\/p>\n\n<p>When registering a post type you can add a value to the rewrite property with the key 'permastruct' to define your default permalink structure.<\/p>\n\n<p>eg:<\/p>\n\n<pre><code>&#60;?php\n\nregister_post_type( &#039;my_type&#039;, array(\n    ...\n    &#039;rewrite&#039; =&#62; array(\n        &#039;permastruct&#039; =&#62; &#039;\/%custom_taxonomy_name%\/%author%\/%postname%\/&#039;\n    ),\n    ...\n) );\n\n?&#62;<\/cod",
+                "uid": "19233"
+            }
+        }
+    }
+}

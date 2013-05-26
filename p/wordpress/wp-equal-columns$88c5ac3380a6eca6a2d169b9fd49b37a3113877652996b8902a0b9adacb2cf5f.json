@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/wp-equal-columns": {
+            "1.0": {
+                "name": "wordpress\/wp-equal-columns",
+                "version": "1.0",
+                "version_normalized": "1.0.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/wp-equal-columns.1.0.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>Its very simple, but its saved me quite a bit of time when developing new themes.  Basically this plugin will equalize the columns in your theme to ensure that they are of equal lengths.<\/p>\n\n<p>NOTE: Your theme must use the following column names: \"rightnav\",\"bodycontent\",\"leftnav\",\"sidebar\",\"sidebar1?,\"sidebar2?,\"content\".<\/p>\n\n<p>You can modify the equalcolumns.js Line 2 to contain any column definitions you may have for your theme<\/p>\n\n<p>All the information (general, changelog, installation, upgrade, usage) you need about this plugin can be found here: <a href=\"http:\/\/www.kennedymedia.com\/wp-equal-columns\/\" title=\"WP-equal-columns Readme\">WP-Equal-columns Readme<\/a>.<\/p>\n\n<p>NOTE:  I did not write the js script.  I would give credit to whoever wrote it, but it doesn't contain any author information.  If you wrote this js, then contact me, I will add your credits here.<\/p>",
+                "uid": "89285"
+            }
+        }
+    }
+}

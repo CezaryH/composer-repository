@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/simple-microblogging": {
+            "0.1": {
+                "name": "wordpress\/simple-microblogging",
+                "version": "0.1",
+                "version_normalized": "0.1.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/simple-microblogging.0.1.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>This simple plugin allows you to easily post short messages such as thoughts and updates.  These messages will not appear in your stream of posts; instead you can display them in a widget in yours sidebar.  You can also display them in any post or page by using the <code>[microblog]<\/code> shortcode.<\/p>\n\n<p>To get started, just look for the new <code>Microposts<\/code> administration panel in your dashboard.  Click <code>Add new<\/code> and then compose a short message in the same way that you normally compose your posts.  If you give the micropost a title, then it will be displayed in bold and used as the first few words of the micropost.<\/p>\n\n<p>Then, either add the widget to your sidebar or add the <code>[microblog]<\/code> shortcode into your site, and that's it!<\/p>\n\n<p>The <code>[microblog]<\/code> shortcode supports several options:<\/p>\n\n<ul>\n<li><p><strong>num<\/strong>: The number of microposts to show.  Defaults to <code>5<\/code>.  Use <code>-1<\/code> to show all microposts.<\/",
+                "uid": "26924"
+            }
+        }
+    }
+}

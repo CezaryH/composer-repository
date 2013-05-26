@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/debug-wp-redirect": {
+            "1.0": {
+                "name": "wordpress\/debug-wp-redirect",
+                "version": "1.0",
+                "version_normalized": "1.0.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/debug-wp-redirect.1.0.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>For those times when you have a lot of plugins and theme functions interacting and you just need to figure out what \/ where it's redirecting.<\/p>\n\n<p>This plugin outputs information about each wp_redirect call done on the front of a site.<\/p>",
+                "uid": "10572"
+            }
+        }
+    }
+}

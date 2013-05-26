@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/more-privacy-options": {
+            "3.5": {
+                "name": "wordpress\/more-privacy-options",
+                "version": "3.5",
+                "version_normalized": "3.5.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/more-privacy-options.3.5.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>Adds three more levels of privacy(visibility) to the Settings--&#62;Reading page.<\/p>\n\n<ol>\n<li><p>Blog visible to any logged in community member - \"Network Users Only\".<\/p><\/li>\n<li><p>Blog visible only to registered users of blog - \"Blog Members Only\".<\/p><\/li>\n<li><p>Blog visible only to administrators - \"Admins Only\".<\/p><\/li>\n<\/ol>\n\n<p>Mulitsite Network Admin can set an override on blog privacy at \"Network Visibility Selector\" on Network Settings page<\/p>\n\n<p>Multisite Network Admin can set privacy options at Network-Sites-Edit under \"Settings Tab\" as well.<\/p>\n\n<p>Network Admin receives an email when blog privacy changes.<\/p>\n\n<p>RSS feeds require authentication.<\/p>\n\n<p>robots.txt updates accordingly.<\/p>\n\n<p>Ping sites filters correctly.<\/p>\n\n<p>Privacy status reflected in Dashboard \"Right Now\" box.<\/p>\n\n<p>Uses WP3+ functions auth_redirect(), network_home_url(), and home_url() for SSL login redirects.<\/p>\n\n<p>Login message has link to sign-up page of a \"Network Users Only\" ",
+                "uid": "66550"
+            }
+        }
+    }
+}

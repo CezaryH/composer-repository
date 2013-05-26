@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/codemirror-2": {
+            "0.1": {
+                "name": "wordpress\/codemirror-2",
+                "version": "0.1",
+                "version_normalized": "0.1.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/codemirror-2.0.1.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>Enables Codemirror 2 syntax highlighter for the Theme and Plugins Editor, and syncs the scrollbar from your previous submit.<\/p>\n\n<p>Also, the plugin will capture Ctrl+S to make a save.<\/p>",
+                "uid": "42685"
+            }
+        }
+    }
+}

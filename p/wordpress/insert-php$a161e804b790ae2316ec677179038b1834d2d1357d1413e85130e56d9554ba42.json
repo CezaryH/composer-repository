@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/insert-php": {
+            "1.1": {
+                "name": "wordpress\/insert-php",
+                "version": "1.1",
+                "version_normalized": "1.1.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/insert-php.1.1.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>Run PHP code inserted into WordPress posts and pages.<\/p>\n\n<p>The PHP code is between special tags (\"[insert_php]\" instead of \"&#60;?php\" and \"[\/insert_php]\" instead of \"?&#62;\").<\/p>\n\n<p>The PHP code runs as the page is sent to the browser. Output of the PHP code is published directly onto the post or page where the PHP code between the special tags is located.<\/p>\n\n<p>The code between the tags must be complete in and of itself. References to variables or code blocks outside the area between the tags will fail. See the \"more information\" URL for an explanation of this.<\/p>\n\n<p>Examples of use:<\/p>\n\n<ul>\n<li><p>Publish local time (users' computer clock settings being unreliable).<\/p><\/li>\n<li><p>Insert output of a PHP script, or just to run a script whether or not it generates output.<\/p><\/li>\n<li><p>Check\/manipulate cookies or other actions that JavaScript can accomplish when using JavaScript is undesirable.<\/p><\/li>\n<\/ul>\n\n<p>More information about the Insert PHP plugin can be fou",
+                "uid": "15412"
+            }
+        }
+    }
+}

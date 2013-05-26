@@ -1,0 +1,40 @@
+{
+    "packages": {
+        "wordpress\/page-template-extended": {
+            "1.1.0": {
+                "name": "wordpress\/page-template-extended",
+                "version": "1.1.0",
+                "version_normalized": "1.1.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/page-template-extended.1.1.0.1.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>It is possible to create templates for a specific page by its ID - like categories.\nBut the reason why I made this plugin, is so that subpages can inherit their parents template.\nIf the subpage hasn't a template assigned, the parent page template will be used if it exists.<\/p>\n\n<p>The plugin works with an infinit number of subpages. If lets say a subpage is 6 levels down.\nIt will look at the first parent for the template, if it doesn't exist it will look one level up at the next parent.\nSo you can assign a template for the first level and fifth level. If you do so, level 1-4 would have the same page template and 5-6 a different page template.<\/p>\n\n<p>Its planned to include the build-in template structure.<\/p>\n\n<p>Italian language files by <a href=\"http:\/\/gidibao.net\/\" title=\"\/\/gidibao.net\/\">Gianni Diurno<\/a><\/p>",
+                "uid": "103720"
+            },
+            "1.1.1": {
+                "name": "wordpress\/page-template-extended",
+                "version": "1.1.1",
+                "version_normalized": "1.1.1.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/page-template-extended.1.1.1.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>It is possible to create templates for a specific page by its ID - like categories.\nBut the reason why I made this plugin, is so that subpages can inherit their parents template.\nIf the subpage hasn't a template assigned, the parent page template will be used if it exists.<\/p>\n\n<p>The plugin works with an infinit number of subpages. If lets say a subpage is 6 levels down.\nIt will look at the first parent for the template, if it doesn't exist it will look one level up at the next parent.\nSo you can assign a template for the first level and fifth level. If you do so, level 1-4 would have the same page template and 5-6 a different page template.<\/p>\n\n<p>Its planned to include the build-in template structure.<\/p>\n\n<p>Italian language files by <a href=\"http:\/\/gidibao.net\/\" title=\"\/\/gidibao.net\/\">Gianni Diurno<\/a><\/p>",
+                "uid": "103719"
+            }
+        }
+    }
+}

@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/ttg-automatic-image-custom-key": {
+            "1.0": {
+                "name": "wordpress\/ttg-automatic-image-custom-key",
+                "version": "1.0",
+                "version_normalized": "1.0.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/ttg-automatic-image-custom-key.1.0.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>This plugin automatically generates custom key of very first the post image.<\/p>\n\n<p>::Manual::<\/p>\n\n<p>To show the thumbnail any where in your template use the code bellow<\/p>\n\n<p>$thumb = get_post_meta($post-&#62;ID, \"Thumbnail\", $single = true);\n$thumb_alt = get_post_meta($post-&#62;ID, \"Thumbnail-alt\", $single = true);<\/p>\n\n<p>(note: Replace \"Thumbnail\" by your own custom key)<\/p>",
+                "uid": "65525"
+            }
+        }
+    }
+}

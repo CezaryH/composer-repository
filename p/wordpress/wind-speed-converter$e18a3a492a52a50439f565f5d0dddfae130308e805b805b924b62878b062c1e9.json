@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/wind-speed-converter": {
+            "1.0.0": {
+                "name": "wordpress\/wind-speed-converter",
+                "version": "1.0.0",
+                "version_normalized": "1.0.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/wind-speed-converter.1.0.0.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>The user has to write one of five values and the plugin calculates the others.<\/p>\n\n<h4>Shortcode<\/h4>\n\n<ul>\n<li>You can add the Windspeed Converter via shortcode [windspeed_converter]<\/li>\n<li>If you want to hide the backlink use the shortcode [windspeed_converter link=\"false\"]<\/li>\n<\/ul>\n\n<h4>Widget<\/h4>\n\n<ul>\n<li>Just insert the widget in the chosen sidebar, type a title and activate the wanted options<\/li>\n<\/ul>\n\n<h4>Translate jQuery Error Messages<\/h4>\n\n<ol>\n<li>Open the file windspeed-converter.php and search for wp_localize_script<\/li>\n<li>In this function you will find an array with 3 defined strings<\/li>\n<li>Translate the strings after the =&#62; into your language and save the file<\/li>\n<\/ol>\n\n<h4>Try the demo<\/h4>\n\n<p>See the <a href=\"http:\/\/www.ostheimer.at\/leistungen-preise\/wordpress\/plugins\/windspeed-converter\/\" title=\"Windspeed Converter site\">Windspeed Converter site<\/a> for a test run!<\/p>",
+                "uid": "12703"
+            }
+        }
+    }
+}

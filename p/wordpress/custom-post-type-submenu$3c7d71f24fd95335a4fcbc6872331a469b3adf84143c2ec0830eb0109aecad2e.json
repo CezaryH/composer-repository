@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/custom-post-type-submenu": {
+            "0.1": {
+                "name": "wordpress\/custom-post-type-submenu",
+                "version": "0.1",
+                "version_normalized": "0.1.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/custom-post-type-submenu.0.1.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>Adds a new menu item type in nav-menus that shows all posts for a given post type as children.<\/p>\n\n<p>For Example: If you have a custom post type \"products\", adding \"products\" to a nav-menu will result in a menu item \"products\" with all products in the submenu.<\/p>",
+                "uid": "22533"
+            }
+        }
+    }
+}

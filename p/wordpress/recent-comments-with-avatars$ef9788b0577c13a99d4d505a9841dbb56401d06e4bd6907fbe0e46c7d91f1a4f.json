@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/recent-comments-with-avatars": {
+            "3.5": {
+                "name": "wordpress\/recent-comments-with-avatars",
+                "version": "3.5",
+                "version_normalized": "3.5.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/recent-comments-with-avatars.3.5.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>Once the widget is added to your sidebar you may easily configure it to provide a display of recent comments with comment author avatars.  The options are:<\/p>\n\n<ul>\n    <li>The title of the widget.<\/li>\n    <li>Limit the number of comments to shown (1 to 15).<\/li>\n    <li>Option to display the avatar of the comment author, or not.<\/li>\n    <li>Set the size of the avatar.<\/li>\n    <li>Chose to have the comment author's URL (if given) open in a new window,<\/li>\n    <li>Show the date of the comment, or not.<\/li>\n    <li>Set the format of the date.<\/li>\n    <li>Set the size (as a fraction of the normal text size) of the date string.<\/li>\n    <li>Show an excerpt from the comment.<\/li>\n    <li>Convert smilies in the excerpt.<\/li>\n    <li>Show a country flag indicating the source of the comment, requires MySQL database modifications, see below.<\/li>\n    <li>Show a country flag in main comment loops, non-widget, requires theme and MySQL database modifications, see below.<\/li>\n<\/ul>\n\n<p>The",
+                "uid": "94030"
+            }
+        }
+    }
+}

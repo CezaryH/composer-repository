@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/testtarget-mbox-shortcode": {
+            "1.5.1": {
+                "name": "wordpress\/testtarget-mbox-shortcode",
+                "version": "1.5.1",
+                "version_normalized": "1.5.1.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/testtarget-mbox-shortcode.1.5.1.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>Provides a shortcode to wrap your content with, which will automatically be converted to the proper mbox syntax for use with <a href=\"https:\/\/microsite.omniture.com\/t2\/help\/en_US\/tnt\/help\/\">Adobe Test&#38;Target<\/a>. Works as a wrapper for text and images within the WordPress post\/page editor.<\/p>\n\n<p>Also provides a settings page where you can add the URL path to your mbox.js file to be automatically included in the page head. You can upload the mbox.js file via the media uploader and copy\/paste the full path.<\/p>\n\n<h4>Usage<\/h4>\n\n<p>[mbox name=\"myMbox\"]My Test Content[\/mbox]<\/p>\n\n<p>Where \"myMbox\" is the name of your mbox and \"My Test Content\" is the content you are testing using Adobe Test&#38;Target.<\/p>\n\n<p>For best results, do not leave a space or line break after the first tag or after the last, even if wrapping multiple paragraphs. Doing so will likely cause extra line breaks or paragraphs to appear on the page.\n(Note: this is an issue with the way WordPress handles shortcod",
+                "uid": "31875"
+            }
+        }
+    }
+}

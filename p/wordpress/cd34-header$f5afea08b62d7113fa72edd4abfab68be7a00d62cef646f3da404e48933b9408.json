@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/cd34-header": {
+            "0.5": {
+                "name": "wordpress\/cd34-header",
+                "version": "0.5",
+                "version_normalized": "0.5.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/cd34-header.0.5.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>When someone pastes your URL into Facebook or Google+, both must guess what \ncontent should be used to comprise the link as it is displayed in your stream.\nThis plugin takes the data from the blog, post, and the user configured data\nin the WordPress admin to assist Facebook and Google with getting a decent\npost description. No longer will you see chunks of HTML pulled into your posts.<\/p>\n\n<p>Adds the Facebook OpenGraph meta tags and the Google+ link rel\/publisher meta. Optionally adds google-site-verification meta.<\/p>\n\n<pre><code>&#60;meta property=&#34;og:title&#34; content=&#34;(taken from site config or post title)&#34; \/&#62;\n&#60;meta property=&#34;og:type&#34; content=&#34;website&#34; \/&#62;\n&#60;meta property=&#34;og:url&#34; content=&#34;http:\/\/domain.com&#34; \/&#62;\n&#60;meta property=&#34;og:site_name&#34; content=&#34;(taken from site config)&#34; \/&#62;\n&#60;meta property=&#34;og:image&#34; content=&#34;http:\/\/domain.com\/configured.gif&#34; \/&#62;\n&#60;meta property=&",
+                "uid": "35062"
+            }
+        }
+    }
+}

@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/language-field": {
+            "0.72": {
+                "name": "wordpress\/language-field",
+                "version": "0.72",
+                "version_normalized": "0.72.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/language-field.0.72.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>Did you ever struggle with more than one language on a WordPress blog?\nIn a world of globalization those struggles reach me very often.<\/p>\n\n<p>This plugin has the ability to store language codes the in post meta data to have articles with different languages on the same page. This might be interesting for blogs who only need sometimes a different language.<\/p>\n\n<p>One of those is the following case:\nThe boss is writing articles in english but its a german company and needs some articles in german too.\nBut the second language articles are unique and not only translations.<\/p>\n\n<p>You maybe think that would be quite simple using WPML. But what are you doing if you need both languages on the start page?\nFor this special case, we wrote a plugin, which is able to show all languages on the home page and manipulates the query if some language is chosen.\nIt also makes a difference in terms of SEO as it changes the line<\/p>\n\n<p>&#60;html xmlns=\"http:\/\/www.w3.org\/1999\/xhtml\" dir=\"ltr\" lang=\"",
+                "uid": "8061"
+            }
+        }
+    }
+}

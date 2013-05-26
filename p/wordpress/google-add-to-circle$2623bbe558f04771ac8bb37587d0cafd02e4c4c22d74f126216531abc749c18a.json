@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/google-add-to-circle": {
+            "1.0": {
+                "name": "wordpress\/google-add-to-circle",
+                "version": "1.0",
+                "version_normalized": "1.0.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/google-add-to-circle.1.0.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>To use the <strong>Google Add to Circle<\/strong> just drag it to a sidebar and enter your Google+ Page url.<\/p>\n\n<p>This plugin generates a widget badge on your wordpress blog, that let the users to add your Google+ Page to their circle directly from your website.<\/p>\n\n<p>It has a badge customization, through which you may control the look of the widget\/badge.<\/p>\n\n<p>This plugin will definitely help you to increase your fan base and followers on Google. Check out the screenshots.<\/p>\n\n<p>You need to add the following code to your <code>header.php<\/code> file in the <code>&#60;head&#62;<\/code> section:<\/p>\n\n<p><strong><code>&#60;link href=\"&#60;YOUR_GOOGLE+_PAGE_URL_HERE&#62;\" rel=\"publisher\" \/&#62;&#60;script type=\"text\/javascript\" src=\"https:\/\/apis.google.com\/js\/plusone.js\"&#62;&#60;\/script&#62;<\/code><\/strong><\/p>\n\n<p>Replace the <strong><code>&#60;YOUR_GOOGLE+_PAGE_URL_HERE&#62;<\/code><\/strong> with your Google+ page url and save the file.<\/p>",
+                "uid": "32074"
+            }
+        }
+    }
+}

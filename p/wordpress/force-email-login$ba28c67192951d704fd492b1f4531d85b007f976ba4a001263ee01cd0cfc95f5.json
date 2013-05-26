@@ -1,0 +1,40 @@
+{
+    "packages": {
+        "wordpress\/force-email-login": {
+            "0.1.0": {
+                "name": "wordpress\/force-email-login",
+                "version": "0.1.0",
+                "version_normalized": "0.1.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/force-email-login.0.1.0.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>Use email address for login to your WordPress.<\/p>\n\n<p>It is easy way to protect from brute-force attacks.<\/p>\n\n<p><a href=\"https:\/\/github.com\/miya0001\/force-email-login\">This plugin maintained on GitHub.<\/a><\/p>\n\n<h4>Some features:<\/h4>\n\n<ul>\n<li>Use email address instead of the username to login.<\/li>\n<li>Login using the username is always denied.<\/li>\n<li>Automatically lockdown 10 seconds after login failed.<\/li>\n<\/ul>\n\n<h4>filter hooks example<\/h4>\n\n<p>You can customize lockdown time like below.<\/p>\n\n<pre><code>&#60;?php\n    add_filter(&#34;force_email_login_lockdown&#34;, &#34;my_force_email_login_lockdown&#34;);\n    function my_force_email_login_lockdown($seconds) {\n        return 60; \/\/ default 10\n    }\n?&#62;<\/code><\/pre>\n\n<p>Please contact to me.<\/p>\n\n<ul>\n<li>@miya0001 on twitter.<\/li>\n<li><a href=\"http:\/\/wpist.me\/\" rel=\"nofollow\">http:\/\/wpist.me\/<\/a> (en)<\/li>\n<li><a href=\"http:\/\/firegoby.jp\/\" rel=\"nofollow\">http:\/\/firegoby.jp\/<\/a> (ja)<\/li>\n<\/ul>\n\n<h4>Contributors<\/h4>\n\n",
+                "uid": "8564"
+            },
+            "0.2.0": {
+                "name": "wordpress\/force-email-login",
+                "version": "0.2.0",
+                "version_normalized": "0.2.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/force-email-login.0.2.0.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>Use email address for login to your WordPress.<\/p>\n\n<p>It is easy way to protect from brute-force attacks.<\/p>\n\n<p><a href=\"https:\/\/github.com\/miya0001\/force-email-login\">This plugin maintained on GitHub.<\/a><\/p>\n\n<h4>Some features:<\/h4>\n\n<ul>\n<li>Use email address instead of the username to login.<\/li>\n<li>Login using the username is always denied.<\/li>\n<li>Automatically lockdown 10 seconds after login failed.<\/li>\n<\/ul>\n\n<h4>filter hooks example<\/h4>\n\n<p>You can customize lockdown time like below.<\/p>\n\n<pre><code>&#60;?php\n    add_filter(&#34;force_email_login_lockdown&#34;, &#34;my_force_email_login_lockdown&#34;);\n    function my_force_email_login_lockdown($seconds) {\n        return 60; \/\/ default 10\n    }\n?&#62;<\/code><\/pre>\n\n<p>Please contact to me.<\/p>\n\n<ul>\n<li>@miya0001 on twitter.<\/li>\n<li><a href=\"http:\/\/wpist.me\/\" rel=\"nofollow\">http:\/\/wpist.me\/<\/a> (en)<\/li>\n<li><a href=\"http:\/\/firegoby.jp\/\" rel=\"nofollow\">http:\/\/firegoby.jp\/<\/a> (ja)<\/li>\n<\/ul>\n\n<h4>Contributors<\/h4>\n\n",
+                "uid": "8562"
+            }
+        }
+    }
+}

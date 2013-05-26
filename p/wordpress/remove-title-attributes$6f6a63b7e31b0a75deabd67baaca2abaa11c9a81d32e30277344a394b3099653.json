@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/remove-title-attributes": {
+            "1.0": {
+                "name": "wordpress\/remove-title-attributes",
+                "version": "1.0",
+                "version_normalized": "1.0.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/remove-title-attributes.1.0.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>The title attribute is best used to add optional advisory information to a page element. WordPress's default behaviour is to add title attributes to pretty much every link that it can, whether it has advisory information about it to offer or not. For example, links in Page lists, archive menus, and in the default \"Recent Posts\" widget simply duplicate the link text in their title attributes. This helps no one but hinders some users.<\/p>\n\n<p>Remove Title Attributes lets you remove these title attributes, making your website more accessible.<\/p>",
+                "uid": "82623"
+            }
+        }
+    }
+}

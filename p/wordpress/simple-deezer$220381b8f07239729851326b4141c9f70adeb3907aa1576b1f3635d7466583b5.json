@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/simple-deezer": {
+            "1.0": {
+                "name": "wordpress\/simple-deezer",
+                "version": "1.0",
+                "version_normalized": "1.0.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/simple-deezer.1.0.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p><em>Usage<\/em><\/p>\n\n<p>Insert shortcode in your post content.<\/p>\n\n<p>New Syntax : [dz id=\"123\" alt=\"Alternative text\"]\nOld Syntax : [dz &#124; 123 &#124; alternative text]<\/p>",
+                "uid": "99989"
+            }
+        }
+    }
+}

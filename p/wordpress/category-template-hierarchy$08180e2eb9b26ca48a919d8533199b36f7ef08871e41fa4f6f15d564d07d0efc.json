@@ -1,0 +1,40 @@
+{
+    "packages": {
+        "wordpress\/category-template-hierarchy": {
+            "1.0.5": {
+                "name": "wordpress\/category-template-hierarchy",
+                "version": "1.0.5",
+                "version_normalized": "1.0.5.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/category-template-hierarchy.1.0.5.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>Adds several new templates to the template hierarchy:<\/p>\n\n<ul>\n<li>child-of-category-{slug}.php<\/li>\n<li>category-{slug}.php<\/li>\n<li>child-of-category-{id}.php<\/li>\n<li>category-{term_id}.php<\/li>\n<li>parent-category.php<\/li>\n<li>child-category.php<\/li>\n<li>category.php<\/li>\n<li>archive.php<\/li>\n<li>index.php<\/li>\n<\/ul>\n\n<p>This greatly extends the native hierarchy of theme templates with regard to \ncategories. Theme developers can now easily create separate templates for \ncategories with children, with parents, and children of specific parents.<\/p>\n\n<p>Additionally makes available four (4) new conditional template tags:<\/p>\n\n<ul>\n<li>is_child_category();<\/li>\n<li>is_parent_category();<\/li>\n<li>is_child_of_category();<\/li>\n<li>is_parent_of_category();<\/li>\n<\/ul>\n\n<p>These functions are available for use in any theme or plugin as along as this \nplugin is active. For detailed documentation of these functions see the \n'Developer Notes: Conditional Tags' section of this readme file.<\/",
+                "uid": "34078"
+            },
+            "1.3.2": {
+                "name": "wordpress\/category-template-hierarchy",
+                "version": "1.3.2",
+                "version_normalized": "1.3.2.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/category-template-hierarchy.1.3.2.1.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>Adds several new templates to the template hierarchy:<\/p>\n\n<ul>\n<li>child-of-category-{slug}.php<\/li>\n<li>category-{slug}.php<\/li>\n<li>child-of-category-{id}.php<\/li>\n<li>category-{term_id}.php<\/li>\n<li>parent-category.php<\/li>\n<li>child-category.php<\/li>\n<li>category.php<\/li>\n<li>archive.php<\/li>\n<li>index.php<\/li>\n<\/ul>\n\n<p>This greatly extends the native hierarchy of theme templates with regard to \ncategories. Theme developers can now easily create separate templates for \ncategories with children, with parents, and children of specific parents.<\/p>\n\n<p>Additionally makes available four (4) new conditional template tags:<\/p>\n\n<ul>\n<li>is_child_category();<\/li>\n<li>is_parent_category();<\/li>\n<li>is_child_of_category();<\/li>\n<li>is_parent_of_category();<\/li>\n<\/ul>\n\n<p>These functions are available for use in any theme or plugin as along as this \nplugin is active. For detailed documentation of these functions see the \n'Developer Notes: Conditional Tags' section of this readme file.<\/",
+                "uid": "34077"
+            }
+        }
+    }
+}

@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/simplelife": {
+            "1.2": {
+                "name": "wordpress\/simplelife",
+                "version": "1.2",
+                "version_normalized": "1.2.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/simplelife.1.2.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>Simplelife takes your feeds from around the internet and aggregates them into one online trail. See your flickr uploads, your delicious favourites and your most recent last.fm tracks all in one chronological lifestream!<\/p>\n\n<p>Just use <code>&#60;?php simplelife(); ?&#62;<\/code> in any page template to insert the lifestream.<\/p>\n\n<p>SimpleLife is also widget ready! If your theme supports widgets, just go to the widget admin panel and drag the picturgrid widget where you want it. The SimpleLife widget makes use of the default options!<\/p>\n\n<p><strong>Features<\/strong><\/p>\n\n<ul>\n<li>Works With All Feeds - even del.icio.us feeds. MagpieRSS, provided by Wordpress and used by other plugins doesn't work correctly with del.icio.us feeds.<\/li>\n<li>Feed Icons - provided by the feeds themselves (using appropriate site favicon) or custom icons (provided by you).<\/li>\n<li>Install And Go - no settings to play with, uses existing wordpress cache, just insert your usernames and choose your color ",
+                "uid": "107360"
+            }
+        }
+    }
+}

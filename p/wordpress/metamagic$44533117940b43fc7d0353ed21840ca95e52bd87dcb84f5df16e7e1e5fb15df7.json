@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/metamagic": {
+            "1.1": {
+                "name": "wordpress\/metamagic",
+                "version": "1.1",
+                "version_normalized": "1.1.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/metamagic.1.1.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>This WordPress plugin creates the meta keywords tag and the meta descriptions tag for single posts automatically, simply add the tags &#60;MetaMagic&#62;a phrase in your post&#60;\/MetaMagic&#62; while in the WordPress Editor(html mode) and that will be the meta description tag content. The meta keywords content is generated from the tags in your post. In the Options Panel you can toggle meta keywords tag only, or meta description tags only, or both, or none. This version of MetaMagic still supports the underline tags (&#60;u&#62;phrase in your post&#60;\/u&#62;). Using the new method of tags (&#60;MetaMagic&#62;a phrase in your post&#60;\/MetaMagic&#62;) will allow you to preview your page source, so that you can view your new meta description and meta keywords, once you click publish, the  tags are removed from your post, but your meta description &#38; meta keywords are now in your new blog post.<\/p>",
+                "uid": "104135"
+            }
+        }
+    }
+}

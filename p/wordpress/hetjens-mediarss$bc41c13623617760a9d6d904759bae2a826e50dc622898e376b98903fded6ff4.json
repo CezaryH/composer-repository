@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/hetjens-mediarss": {
+            "0.1": {
+                "name": "wordpress\/hetjens-mediarss",
+                "version": "0.1",
+                "version_normalized": "0.1.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/hetjens-mediarss.0.1.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>This plug-in adds the post thumbnail of articles to the RSS and Atom feed via Media RSS (MRSS) specification. Media RSS was\ninvented by Yahoo as an extension to RSS feeds used for syndicating multimedia files (audio, video, image). This\nplug-in adds the post thumbnail defined by author of the article to RSS and Atom feeds of the blog. This plug-in\nactivates the post thumbnail feature of Wordpress, if the theme is not doing it. It is enough to activate the plug-in\nto work, it has no configuration parameters.<\/p>\n\n<p>MediaRSS is a nice addition to your blog if you want to syndicate your content to other platforms. More and more\nplatforms and RSS feed readers support it. The Notes App of Facebook recognize the post thumbnail and displays it in\nevery newsfeed item.<\/p>",
+                "uid": "68805"
+            }
+        }
+    }
+}

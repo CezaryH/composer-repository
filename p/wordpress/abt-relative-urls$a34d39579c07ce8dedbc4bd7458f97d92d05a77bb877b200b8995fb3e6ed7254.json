@@ -1,0 +1,57 @@
+{
+    "packages": {
+        "wordpress\/abt-relative-urls": {
+            "0.3": {
+                "name": "wordpress\/abt-relative-urls",
+                "version": "0.3",
+                "version_normalized": "0.3.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/abt-relative-urls.0.3.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>By default, WP inserts absolute urls into post content; this includes the protocol and domain, which is based on the <code>home<\/code> Admin setting.  This plugin replace all self-referencing (domain) links with relative paths \"\/\" instead.  Works when inserting images into posts, and on the actual <code>save_post<\/code> action it scrubs the <em>content<\/em>, <em>excerpt<\/em>, and <em>post_meta<\/em> fields.<\/p>\n\n<p>Especially helpful when developing on a DEV site with the intention of transfering to a LIVE domain.  Please note that you should use this plugin <em>before<\/em> you start adding content, or you'll have to resave everything later.<\/p>\n\n<p>Includes code based on <a href=\"http:\/\/wordpress.org\/extend\/plugins\/relative-image-urls\/\" title=\"Alternate Plugin, not as much functionality\">Relative Image URLs<\/a> plugin, which strips domain when inserting images from the Media Library.  A similar idea to the following, but acts as a preventative measure (while you're working), works a",
+                "uid": "30395"
+            },
+            "0.3.2": {
+                "name": "wordpress\/abt-relative-urls",
+                "version": "0.3.2",
+                "version_normalized": "0.3.2.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/abt-relative-urls.0.3.2.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>By default, WP inserts absolute urls into post content; this includes the protocol and domain, which is based on the <code>home<\/code> Admin setting.  This plugin replace all self-referencing (domain) links with relative paths \"\/\" instead.  Works when inserting images into posts, and on the actual <code>save_post<\/code> action it scrubs the <em>content<\/em>, <em>excerpt<\/em>, and <em>post_meta<\/em> fields.<\/p>\n\n<p>Especially helpful when developing on a DEV site with the intention of transfering to a LIVE domain.  Please note that you should use this plugin <em>before<\/em> you start adding content, or you'll have to resave everything later.<\/p>\n\n<p>Includes code based on <a href=\"http:\/\/wordpress.org\/extend\/plugins\/relative-image-urls\/\" title=\"Alternate Plugin, not as much functionality\">Relative Image URLs<\/a> plugin, which strips domain when inserting images from the Media Library.  A similar idea to the following, but acts as a preventative measure (while you're working), works a",
+                "uid": "30394"
+            },
+            "0.4": {
+                "name": "wordpress\/abt-relative-urls",
+                "version": "0.4",
+                "version_normalized": "0.4.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/abt-relative-urls.0.4.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>By default, WP inserts absolute urls into post content; this includes the protocol and domain, which is based on the <code>home<\/code> Admin setting.  This plugin replace all self-referencing (domain) links with relative paths \"\/\" instead.  Works when inserting images into posts, and on the actual <code>save_post<\/code> action it scrubs the <em>content<\/em>, <em>excerpt<\/em>, and <em>post_meta<\/em> fields.<\/p>\n\n<p>Especially helpful when developing on a DEV site with the intention of transfering to a LIVE domain.  Please note that you should use this plugin <em>before<\/em> you start adding content, or you'll have to resave everything later.<\/p>\n\n<p>Includes code based on <a href=\"http:\/\/wordpress.org\/extend\/plugins\/relative-image-urls\/\" title=\"Alternate Plugin, not as much functionality\">Relative Image URLs<\/a> plugin, which strips domain when inserting images from the Media Library.  A similar idea to the following, but acts as a preventative measure (while you're working), works a",
+                "uid": "30393"
+            }
+        }
+    }
+}

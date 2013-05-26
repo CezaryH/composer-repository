@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/wp-design-awards": {
+            "1": {
+                "name": "wordpress\/wp-design-awards",
+                "version": "1",
+                "version_normalized": "1.0.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/wp-design-awards.1.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>This is the the free version of wordpress plugin, WP Design Awards. Creates the functionality for a web design contest.<\/p>\n\n<h3>Adds two shortcodes:<\/h3>\n\n<p>The css_gallery shortcode for displaying the sites gallery!\n[css_gallery category_slug= sites_per_page=9 no_pagination=false]<\/p>\n\n<p>And the nominee_form for the users to submit their own creations.\n[nominee_form]<\/p>\n\n<p><strong>Demos:<\/strong><\/p>\n\n<p><a href=\"http:\/\/infogeek.gr\/wordpress\/design-awards\/\">Demo 1<\/a>\n<a href=\"http:\/\/www.wdf.gr\/css-gallery\">Demo 2<\/a><\/p>\n\n<h3>Features:<\/h3>\n\n<ul>\n<li>Adds a sites gallery shortcode with the capability to rate the displayed sites!<\/li>\n<li>Adds a submission form for visitors and users to submit their own creations<\/li>\n<li>Adds a custom post type for the sites<\/li>\n<li>The custom post type has its own template, in which users can rate also!<\/li>\n<li>Adds a custom taxonomy<\/li>\n<li>Generates an easy to understand settings page.<\/li>\n<li>Provides control of the dimensions of acce",
+                "uid": "8921"
+            }
+        }
+    }
+}

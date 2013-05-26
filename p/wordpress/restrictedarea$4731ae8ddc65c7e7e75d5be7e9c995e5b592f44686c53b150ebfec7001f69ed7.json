@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/restrictedarea": {
+            "1.0": {
+                "name": "wordpress\/restrictedarea",
+                "version": "1.0",
+                "version_normalized": "1.0.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/restrictedarea.1.0.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>This is a very simple script.<\/p>\n\n<p>Sometimes you need to hide some information for logged in users on your blog. There are couple of tools\/plugins for WordPress to do this.<\/p>\n\n<p>But what if you want to hide only a piece of the post or the  page, not the whole page\/post?<\/p>\n\n<p>This plugin is for that.<\/p>\n\n<p>On the plugins admin page, you can set the text what you want to show to the users whom not logged in. You have an option to turn on, or turn off the login \/ register link after your defined text. You can set the color of the border of the text also.<\/p>\n\n<p>Features and Benefits:<\/p>\n\n<ul>\n<li>Hide only a piece of your page \/ post.<\/li>\n<li>You can set the border of the restricted section.<\/li>\n<li>You can set level of restrcition.<\/li>\n<li>You can set the text of the restricted area.<\/li>\n<li>You can set, do you want to show Login \/ Register link or not.<\/li>\n<li>Localization in .po\/.mo files.  (Hungarian localization included).<\/li>\n<\/ul>",
+                "uid": "69296"
+            }
+        }
+    }
+}

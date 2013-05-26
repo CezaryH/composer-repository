@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/bing-404": {
+            "1.0.1": {
+                "name": "wordpress\/bing-404",
+                "version": "1.0.1",
+                "version_normalized": "1.0.1.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/bing-404.1.0.1.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>Using the Bing Search library, this plugin will intercept your standard 404 page\nand return a list of urls that may help your user find the content they are\nlooking for. You can limit the search to just the content on your site, set a\ndefault search in case the computed one doesn't return any results, and set a\nhost of other options, all designed to provide your users with quality\nrecomendations.<\/p>\n\n<p>This plugin should work out-of-the-box with most themes using the included 404\ntemplate. You can also define your own to fine tune the look and feel to match\nyour theme.<\/p>",
+                "uid": "67695"
+            }
+        }
+    }
+}

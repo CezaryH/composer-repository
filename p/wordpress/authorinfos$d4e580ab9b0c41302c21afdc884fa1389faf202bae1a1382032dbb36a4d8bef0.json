@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/authorinfos": {
+            "2.3.0": {
+                "name": "wordpress\/authorinfos",
+                "version": "2.3.0",
+                "version_normalized": "2.3.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/authorinfos.2.3.0.1.2.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>This (dynamic) widget shows in your sidebar informations,\nabout you, the author.\nThe settings:<\/p>\n\n<ul>\n<li>\"Title\" shows the header\/title of your widget.<\/li>\n<li>\"ImageURL\" is the URL to your image (Position: between 1. and 2. text). You have to upload it to the web. e.g. here: <a href=\"http:\/\/tinypic.com\/\" rel=\"nofollow\">http:\/\/tinypic.com\/<\/a> or you can use the upload-function of WordPress (Menu: Write --&#62; Post --&#62; Add media --&#62; Add an image).<\/li>\n<li>\"1. Text\" shows some text in the sidebar (Position: under the title, over the image).<\/li>\n<li>\"2. Text\" shows some text in the sidebar (Position: under the image).<\/li>\n<li>\"Location\" is the place where the image (on click) links, e.g. \"Location\" is <a href=\"http:\/\/example.org\" rel=\"nofollow\">http:\/\/example.org<\/a> and you click on the image, then you go automaticly to <a href=\"http:\/\/example.org\" rel=\"nofollow\">http:\/\/example.org<\/a>.<\/li>\n<\/ul>\n\n<p>Defaults:<\/p>\n\n<p>Title: AuthorInfos\nImage: <a href=\"http:\/\/xpablo",
+                "uid": "98561"
+            }
+        }
+    }
+}

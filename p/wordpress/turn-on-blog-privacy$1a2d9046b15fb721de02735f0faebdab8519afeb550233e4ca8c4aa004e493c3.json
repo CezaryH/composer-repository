@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/turn-on-blog-privacy": {
+            "1.0": {
+                "name": "wordpress\/turn-on-blog-privacy",
+                "version": "1.0",
+                "version_normalized": "1.0.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/turn-on-blog-privacy.1.0.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>If you have a public development site and desire for bots and crawlers not to visit your site until it is considered production this plugin can help you by\nautomagically settings the site to private.<\/p>\n\n<p>This Multisite compatible plugin will detect whether your site is running a single install or a multisite install of WordPress and react accordingly.<\/p>\n\n<p>When you enable this plugin it sets the site option for whether or not the site should tell search engines and other crawlers not to index the site. \nUpon activations bots will be asked not to crawl the site (Note: this is not a 100% solution, bots may ignore this directive, though most search engines honor it).<\/p>\n\n<p>When this plugin is deactivated the privacy setting will be turned off and bots will be freely allowed to crawl the website again.<\/p>\n\n<p>NOTE: Due to how WordPress Multisite handles network wide plugin activation you will currently need the Proper Network Activation plugin if you wish to turn on privacy im",
+                "uid": "18417"
+            }
+        }
+    }
+}

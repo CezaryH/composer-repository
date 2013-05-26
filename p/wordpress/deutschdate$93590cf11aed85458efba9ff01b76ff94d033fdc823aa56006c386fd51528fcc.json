@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/deutschdate": {
+            "1.0": {
+                "name": "wordpress\/deutschdate",
+                "version": "1.0",
+                "version_normalized": "1.0.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/deutschdate.1.0.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>Using an english Wordpress install and publishing posts in german? Those pesky English dates produced by <code>&#60;?php the_time(); ?&#62;<\/code> were getting on my nerves too, hence this plugin. Automagically converts english months and days (except for the initials, so far) to their german equivalent.<\/p>\n\n<p><strong>Intended usage:<\/strong><\/p>\n\n<p>Replacing dates like 'Thursday, October 22nd', for instance in your custom built theme or themes that just use the date without 'posted by..'.\nPlease note: It doesn't completely 'deutschify' your theme's date representation.<\/p>\n\n<p><em>Example:<\/em> Where some themes would say 'Posted by Annemarie on Thursday, October 22nd' only the date part is translated, resulting in 'Posted by Annemarie on Donnerstag, Oktober 22.'. For complete deutschification one would  either, depending on your specific situation:<\/p>\n\n<ul>\n<li>Edit Date Format settings under the Settings &#62; General tab in your WordPress admin area.<\/li>\n<li>Edit your theme",
+                "uid": "102536"
+            }
+        }
+    }
+}

@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/untappd-checkins-widget": {
+            "1.0.1": {
+                "name": "wordpress\/untappd-checkins-widget",
+                "version": "1.0.1",
+                "version_normalized": "1.0.1.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/untappd-checkins-widget.1.0.1.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>This plugin creates a widget that you can use to display recent checkins on Untappd.<\/p>\n\n<p><strong>NOTE<\/strong> You will need to register for an api key from Untappd to use this widget. More information and application can be found at <a href=\"https:\/\/untappd.com\/api\/\">Untappd API Docs<\/a><\/p>\n\n<p>Available settings will be User name, API client ID key, client ID secret key, and the limit of checkins to fetch.<\/p>\n\nDeveloper notes\n\n<p>Two filters available at the moment:<\/p>\n\n<h3>untappd_checkins_filter<\/h3>\n\n<p>name of the transient to use for the response caching.\n    Default: untappd_checkins<\/p>\n\n<h3>untappd_transient_duration<\/h3>\n\n<p>how long to store the transients, in seconds\n    Default: 60*10 (10 minutes)<\/p>\n\nGeneral Notes\n\n<p>Translation ready but I still need to add .pot files.<\/p>",
+                "uid": "8449"
+            }
+        }
+    }
+}

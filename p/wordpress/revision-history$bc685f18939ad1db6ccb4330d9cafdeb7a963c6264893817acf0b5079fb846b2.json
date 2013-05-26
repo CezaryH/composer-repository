@@ -1,0 +1,40 @@
+{
+    "packages": {
+        "wordpress\/revision-history": {
+            "0.9": {
+                "name": "wordpress\/revision-history",
+                "version": "0.9",
+                "version_normalized": "0.9.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/revision-history.0.9.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>Revision History displays the revision history of a post or page, with links \nto the content of each revision.<\/p>\n\n<p>The revision history is appended to the <code>content<\/code> of the post or page.<\/p>\n\n<p>The following are configuration settings which can be changed in the Revision\nHistory submenu of 'Settings'.<\/p>\n\n<ol>\n<li>Display on pages.<\/li>\n<li>Display on posts.<\/li>\n<li>Show autosave revisions.<\/li>\n<li>Show the revision timestamp in the post title.<\/li>\n<\/ol>\n\n<p>By default the revision history is not shown on any posts or pages.<\/p>\n\n<p>For control over where you place the revision history use the <code>rh_the_revision<\/code> function.\nIt takes optional parameters, before and after.  For example:<\/p>\n\n<pre><code>&#60;?php rh_the_revision('&#60;h4&#62;', '&#60;\/h4&#62;'); ?&#62;\n<\/code><\/pre>",
+                "uid": "76270"
+            },
+            "0.9.1": {
+                "name": "wordpress\/revision-history",
+                "version": "0.9.1",
+                "version_normalized": "0.9.1.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/revision-history.0.9.1.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>Revision History displays the revision history of a post or page, with links \nto the content of each revision.<\/p>\n\n<p>The revision history is appended to the <code>content<\/code> of the post or page.<\/p>\n\n<p>The following are configuration settings which can be changed in the Revision\nHistory submenu of 'Settings'.<\/p>\n\n<ol>\n<li>Display on pages.<\/li>\n<li>Display on posts.<\/li>\n<li>Show autosave revisions.<\/li>\n<li>Show the revision timestamp in the post title.<\/li>\n<\/ol>\n\n<p>By default the revision history is not shown on any posts or pages.<\/p>\n\n<p>For control over where you place the revision history use the <code>rh_the_revision<\/code> function.\nIt takes optional parameters, before and after.  For example:<\/p>\n\n<pre><code>&#60;?php rh_the_revision('&#60;h4&#62;', '&#60;\/h4&#62;'); ?&#62;\n<\/code><\/pre>",
+                "uid": "76269"
+            }
+        }
+    }
+}

@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/migrate-site-settings": {
+            "0.1": {
+                "name": "wordpress\/migrate-site-settings",
+                "version": "0.1",
+                "version_normalized": "0.1.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/migrate-site-settings.0.1.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>This plugin saves your Wordpress site preferences for import into another Wordpress site, making deployment of many sites with the same preferences easy. It only does the base WordPress settings, the ones on the General, Writing, Reading, Discussion, Media, Privacy, and Permalinks Screens. Basically, if you don't want to migrate a whole database over, but don't want to have to set up the same settings every time, this plugin's for you!<\/p>",
+                "uid": "64914"
+            }
+        }
+    }
+}

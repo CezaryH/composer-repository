@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/guitar-tuner": {
+            "1.0.3": {
+                "name": "wordpress\/guitar-tuner",
+                "version": "1.0.3",
+                "version_normalized": "1.0.3.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/guitar-tuner.1.0.3.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>Over 80 guitar tuners available in a WordPress plugin. For use with short codes on posts and pages.<\/p>\n\n<p>Examples:<\/p>\n\n<ul>\n<li>Short code for standard guitar tuning (no sharps):  <code>[gtdb tuner=\"eadgbe\"]<\/code><\/li>\n<li>Short code for guitar tunings with a sharp:  <code>[gtdb tuner=\"cfcga-sharp-e\"]<\/code><\/li>\n<li>Short code for guitar tunings with a sharp at the end: <code>[gtdb tuner=\"cf-sharp-cf-sharp-cf-sharp\"]<\/code><\/li>\n<\/ul>\n\n<h4>Notes<\/h4>\n\n<ul>\n<li>Replace all # signs with -sharp- except for when the sharp is at the end. Then you replace the # sign with -sharp (no hypen at the end or it will brake the code)<\/li>\n<li>There is only one tuning that uses Flats and that is EbAbDbGbBbE which would look like this as chort code; <code>[gtdb tuner=\"ebabdbgbbbe\"]<\/code><\/li>\n<\/ul>\n\n<h4>Current Available Tuners: 85<\/h4>\n\n<ul>\n<li>AAAGGG<\/li>\n<li>AADEBE<\/li>\n<li>ABEF#AD<\/li>\n<li>ACDEGA<\/li>\n<li>ADGBE<\/li>\n<li>AEADGC<\/li>\n<li>BAGDAD<\/li>\n<li>BBDGBE<\/li>\n<li>BDDDDD<\/li>\n<li>BEAD",
+                "uid": "53811"
+            }
+        }
+    }
+}

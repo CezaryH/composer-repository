@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/backup-and-move": {
+            "0.1": {
+                "name": "wordpress\/backup-and-move",
+                "version": "0.1",
+                "version_normalized": "0.1.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/backup-and-move.0.1.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>Backup And Move plugin allow blog administrators to create a complete backup of their blog and easy option for restore it on a different server, domain, location, etc .This plugin is very usefull for non technical users who wants to shift their wordpress blog.\nThis   plugin can make all the transitions of moving a wordpress blog ,   creating a complete backup and restoring a previous backup very simple   and smooth.\nSave restore.php by <a href=\"http:\/\/plugins.svn.wordpress.org\/backup-and-move\/tags\/restore.php\"> clicking here<\/a>.<\/p>\n\n<ul>\n  <li>A separate backup can be created and send to users's email id as attachment.<\/li>\n  <li>User can administrate backups i.e delete , download and overwrite.<\/li>\n  <li>To   restore a backup simply place .zip backup file in a directory along   with restore.php and visit restore.php from browser. Provide restore.php   with all required credentials and wait for plugin to restore .<\/li>\n  <li>That's it start bloging.<\/li>\n<\/ul>\n\n<p><br \/>\nP.S ever",
+                "uid": "53566"
+            }
+        }
+    }
+}

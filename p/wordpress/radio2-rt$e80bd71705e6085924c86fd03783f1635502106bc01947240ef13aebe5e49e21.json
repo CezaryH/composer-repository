@@ -1,0 +1,40 @@
+{
+    "packages": {
+        "wordpress\/radio2-rt": {
+            "1.0.0": {
+                "name": "wordpress\/radio2-rt",
+                "version": "1.0.0",
+                "version_normalized": "1.0.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/radio2-rt.1.0.0.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>This plugin checks for any of three query string params (link, title, description)\nIf they are present it redirects the page to the \/wp-admin\/press-this.php page\nwith the params u, t, s and v set appropriately.<\/p>\n\n<p>The purpose is so static rivers like <a href=\"http:\/\/tech.newsriver.org\/\" rel=\"nofollow\">http:\/\/tech.newsriver.org\/<\/a> will be able\nto send a RT request to your blog.<\/p>",
+                "uid": "30759"
+            },
+            "1.1.0": {
+                "name": "wordpress\/radio2-rt",
+                "version": "1.1.0",
+                "version_normalized": "1.1.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/radio2-rt.1.1.0.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>This plugin checks for any of three query string params (link, title, description)\nIf they are present it redirects the page to the \/wp-admin\/press-this.php page\nwith the params u, t, s and v set appropriately.<\/p>\n\n<p>The purpose is so static rivers like <a href=\"http:\/\/tech.newsriver.org\/\" rel=\"nofollow\">http:\/\/tech.newsriver.org\/<\/a> will be able\nto send a RT request to your blog.<\/p>",
+                "uid": "30758"
+            }
+        }
+    }
+}

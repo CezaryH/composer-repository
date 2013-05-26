@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/add-widgets-to-page": {
+            "1.3.2": {
+                "name": "wordpress\/add-widgets-to-page",
+                "version": "1.3.2",
+                "version_normalized": "1.3.2.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/add-widgets-to-page.1.3.2.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>Add Widgets to Page makes you able to add widget spaces like sidebar to posts and pages.<\/p>\n\n<p>To use this, place a shortcode [addw2p name=\"name\"] to eny entries. Replace 'name' with anyword of your choice.<\/p>\n\n<p>Note: Please only use numbers and alphabet, do not use spaces. You will not be able to delete it with this plugin. If you used a space in the name place, in the setting page, there will be a button 'Replace spaces to under score'. Using this button will change spaces to under score so you can delete it.<\/p>\n\n<p>This will create a new area on the widget page called addw2p - name where you can drag your widgets.\nIf nothing shows, please refresh the widgets page.<\/p>\n\n<p>Note: You may have to refresh several times, maybe even close the page and open it again.<\/p>\n\n<p>Once the new area appears below sidebar, the plugin will be working.\nTo change the widgets that are showing, go to Appearance -&#62; Widgets and edit the sidebar.<\/p>\n\n<p>To delete it, go to the setting page a",
+                "uid": "74790"
+            }
+        }
+    }
+}

@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/renren": {
+            "0.1": {
+                "name": "wordpress\/renren",
+                "version": "0.1",
+                "version_normalized": "0.1.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/renren.0.1.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>This plugin pull status from renren.com and show them in sidebar.<br \/>\nYou can set some parameters to control its action:<\/p>\n\n<blockquote>\n  <ol>\n  <li><em>Title<\/em>:<br \/>\n  The title show on sidebar.  <\/li>\n  <li><em>Account<\/em>:<br \/>\n  This is account that you use to login renren.com  <\/li>\n  <li><em>Password<\/em>:<br \/>\n  The password corresponding to your account.  <\/li>\n  <li><em>Number of status to show<\/em>:<br \/>\n  Set the number of status to show. No larger than 20.  <\/li>\n  <li><em>Retrieval interval:<\/em><br \/>\n  Set interval between different status retrieval. Default value is 1800 seconds. If we set it to -1, status will be fetched per every request, which will make server response slowly and possibly inactive your renren.com. So leave it default may be a good idea.  <\/li>\n  <\/ol>\n<\/blockquote>\n\n<p>Because of relying on JSON lib which wordpress supply from 2.9, this plugin only run on 2.9 or higher version.<\/p>",
+                "uid": "72300"
+            }
+        }
+    }
+}

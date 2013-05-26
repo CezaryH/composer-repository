@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/google-standout": {
+            "0.5": {
+                "name": "wordpress\/google-standout",
+                "version": "0.5",
+                "version_normalized": "0.5.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/google-standout.0.5.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>Adds link rel=\"standout\"\/\"syndication-source\"\/\"canonical\" meta data to the &#60;head&#62; of your posts as per Google News guidlines. \nGoogle specs: <a href=\"http:\/\/www.google.com\/support\/news_pub\/bin\/answer.py?answer=191283\" rel=\"nofollow\">http:\/\/www.google.com\/support\/news_pub\/bin\/answer.py?answer=191283<\/a><\/p>\n\n<p>Publisher metadata tags\nex:\n\n\n<\/p>",
+                "uid": "37680"
+            }
+        }
+    }
+}

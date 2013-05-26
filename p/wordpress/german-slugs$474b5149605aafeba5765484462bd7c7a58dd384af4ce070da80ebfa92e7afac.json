@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/german-slugs": {
+            "0.2": {
+                "name": "wordpress\/german-slugs",
+                "version": "0.2",
+                "version_normalized": "0.2.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/german-slugs.0.2.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>While creating a post or page, WordPress automatically suggests a permalink. If\nyour permalink structure contains the %postname% tag, then the title of your\npost or page will be used, simplified by conversion to lowercase, replacing\nspaces with hyphens, removing certain punctuation characters and removing\ndiacritics from latin letters.<\/p>\n\n<p>Thus, by default, &#228; is replaced with a, &#246; with o, &#252; with u and &#223; with s (similar\nfor capital letters). For German, the conventional transliteration is &#228; to ae, &#246;\nto oe, &#252; to ue and &#223; to ss (sometimes sz in Austria, this is not yet supported).\nThis plugin makes your WordPress apply the conventional transliteration.<\/p>\n\n<p>I wrote this plugin because manually correcting WordPress's suggestions is a\nconsiderable hassle, especially if you decide to change the title afterwards.<\/p>",
+                "uid": "62821"
+            }
+        }
+    }
+}

@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/oop-plugin-template-solution": {
+            "1.1.1": {
+                "name": "wordpress\/oop-plugin-template-solution",
+                "version": "1.1.1",
+                "version_normalized": "1.1.1.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/oop-plugin-template-solution.1.1.1.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>Gives authors of new plugins a leg up on creating a great, easy to\nmaintain plugin by providing a carefully designed plugin skeleton to build on.\nAuthors of existing plugins can extract individual components and concepts\nfor transplantation into their own projects.<\/p>\n\n<ul>\n<li>Clean, object-oriented design<\/li>\n<li>PHPUnit tests<\/li>\n<li>Admin screen uses the Settings API<\/li>\n<li>Multisite support<\/li>\n<li>Creates a table during activation<\/li>\n<li>Drops the table and settings during deactivation<\/li>\n<li>Uses WordPress' i18n and provides scripts for generating the gettext files<\/li>\n<li>Installation instructions have a script for renaming files, classes and IDs<\/li>\n<\/ul>\n\n<p>See the FAQ section for more details about this plugin's features.<\/p>\n\n<p>Development of this plugin template happens on\n<a href=\"https:\/\/github.com\/convissor\/oop-plugin-template-solution\">GitHub<\/a>.\nPlease submit\n<a href=\"https:\/\/github.com\/convissor\/oop-plugin-template-solution\/issues\">bug and feature r",
+                "uid": "15676"
+            }
+        }
+    }
+}

@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/wponios-rest-api": {
+            "1.0": {
+                "name": "wordpress\/wponios-rest-api",
+                "version": "1.0",
+                "version_normalized": "1.0.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/wponios-rest-api.1.0.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>WPoniOS - Rest API is a plugin which provide a rest interface in WordPress CMS.<\/p>\n\n<p>The REST interface return and accept JSON-Format data. Example:<\/p>\n\n<pre><code>[\n    { \n        \"post_type\":\"post\",\n        \"post\":\"this is the post body\",\n        \"date\":\"04\/01\/2012\"\n    },\n    ...\n]\n<\/code><\/pre>\n\n<p>The REST API provide methods to get information about post, page, comment, tag and category:<\/p>\n\n<ul>\n<li>GET \/posts<\/li>\n<li>GET \/post\/:post_id<\/li>\n<li>GET \/post\/:post_id\/comments<\/li>\n<li>GET \/post\/:post_id\/comment\/:comment_id<\/li>\n<li>PUT \/post\/:post_id\/comment<\/li>\n<li>GET \/pages<\/li>\n<li>GET \/page\/:page_id<\/li>\n<li>GET \/page\/:page_id\/comments<\/li>\n<li>GET \/page\/:page_id\/comment\/:comment_id<\/li>\n<li>PUT \/page\/:page_id\/comment<\/li>\n<li>GET \/categories<\/li>\n<li>GET \/tags<\/li>\n<\/ul>",
+                "uid": "32372"
+            }
+        }
+    }
+}

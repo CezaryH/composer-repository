@@ -1,0 +1,40 @@
+{
+    "packages": {
+        "wordpress\/sp-authors": {
+            "1.0": {
+                "name": "wordpress\/sp-authors",
+                "version": "1.0",
+                "version_normalized": "1.0.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/sp-authors.1.0.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>This very simple plugin allows multiple authors to be assigned to a Post or Page.<\/p>\n\n<p>In admin panel, when you add or edit a post or page you can:<\/p>\n\n<ul>\n<li><p>specify additional authors, by selecting and adding them in the \"Co-authors\" panel. (See Screenshots #1)<\/p><\/li>\n<li><p>put the shortcode \"[sp-authors]\" to display the list of co author's links separated by comma.<\/p><\/li>\n<\/ul>\n\n<p>When the post\/page is displayed to user:<\/p>\n\n<ul>\n<li>you can see the list using the shortcode that can be added in the add post page<\/li>\n<\/ul>\n\n<p>In any template:<\/p>\n\n<ul>\n<li><p>you can user the template-tag \"sp_authors_display\" to show the list of coauthors \"display_name\", separated by comma<\/p><\/li>\n<li><p>you can user the template-tag \"sp_authors_photos_display\" to show the list of coauthors avatars<\/p><\/li>\n<\/ul>\n\n<p>In search for author functionality:<\/p>\n\n<ul>\n<li>the search take in care all authors, no just the user who write the post\/page<\/li>\n<\/ul>",
+                "uid": "85577"
+            },
+            "2.0": {
+                "name": "wordpress\/sp-authors",
+                "version": "2.0",
+                "version_normalized": "2.0.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/sp-authors.2.0.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>This very simple plugin allows multiple authors to be assigned to a Post or Page.<\/p>\n\n<p>In admin panel, when you add or edit a post or page you can:<\/p>\n\n<ul>\n<li><p>specify additional authors, by selecting and adding them in the \"Co-authors\" panel. (See Screenshots #1)<\/p><\/li>\n<li><p>put the shortcode \"[sp-authors]\" to display the list of co author's links separated by comma.<\/p><\/li>\n<\/ul>\n\n<p>When the post\/page is displayed to user:<\/p>\n\n<ul>\n<li>you can see the list using the shortcode that can be added in the add post page<\/li>\n<\/ul>\n\n<p>In any template:<\/p>\n\n<ul>\n<li><p>you can user the template-tag \"sp_authors_display\" to show the list of coauthors \"display_name\", separated by comma<\/p><\/li>\n<li><p>you can user the template-tag \"sp_authors_photos_display\" to show the list of coauthors avatars<\/p><\/li>\n<\/ul>\n\n<p>In search for author functionality:<\/p>\n\n<ul>\n<li>the search take in care all authors, no just the user who write the post\/page<\/li>\n<\/ul>",
+                "uid": "85576"
+            }
+        }
+    }
+}

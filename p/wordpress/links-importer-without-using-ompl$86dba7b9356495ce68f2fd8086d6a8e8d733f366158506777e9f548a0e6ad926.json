@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/links-importer-without-using-ompl": {
+            "1.1": {
+                "name": "wordpress\/links-importer-without-using-ompl",
+                "version": "1.1",
+                "version_normalized": "1.1.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/links-importer-without-using-ompl.1.1.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>This plugin is a links import tool for blogs that doesn't support ompl output. Though now WordPress already has the method to insert links from an opml file or URL conviniently, not all blogs would support the opml method and thus a simpler tool is necessary. I developed this tool for my personal need firstly, and now I want to make it more practical and hope more people can get some help from it.<\/p>",
+                "uid": "70856"
+            }
+        }
+    }
+}

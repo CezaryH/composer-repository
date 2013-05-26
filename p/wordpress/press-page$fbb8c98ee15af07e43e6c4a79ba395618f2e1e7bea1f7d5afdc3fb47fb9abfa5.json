@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/press-page": {
+            "0.1": {
+                "name": "wordpress\/press-page",
+                "version": "0.1",
+                "version_normalized": "0.1.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/press-page.0.1.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>A WordPress plugin to display a custom post type for press features in a horizontal sliding scroll<\/p>\n\n<p>This plugin uses the following GitHub project:<br \/>\n<a href=\"https:\/\/github.com\/tkahn\/Smooth-Div-Scroll\">Smooth-Div-Scroll<\/a> by <a href=\"https:\/\/github.com\/tkahn\">tkahn<\/a><\/p>\n\n<p><strong><a href=\"http:\/\/museumthemes.com\/press-page\/\">Demo<\/a><\/strong><\/p>\n\n<h4>Usage<\/h4>\n\n<p>Plugin can be used out of the box with the <code>[presspage]<\/code> shortcode or the included <code>page-press.php<\/code> template. The shortcode includes two optional parameters, if left blank, default post thumbnail size will be used. The optional parameters are <code>width<\/code> and <code>height<\/code> and control the dimensions of the images used. If one is left blank, the same value will be used for both.<\/p>\n\n<p>By default, the <code>presspage.css<\/code> file defines the width to be 930px and the height to be 255px. These can be changed in  your CSS by adding your height and width to the <code>#m",
+                "uid": "12702"
+            }
+        }
+    }
+}

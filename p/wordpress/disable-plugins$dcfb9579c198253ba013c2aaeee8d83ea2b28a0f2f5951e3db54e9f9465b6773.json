@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/disable-plugins": {
+            "1.0.0": {
+                "name": "wordpress\/disable-plugins",
+                "version": "1.0.0",
+                "version_normalized": "1.0.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/disable-plugins.1.0.0.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>One of WordPress' biggest bottlenecks is that it loads every single plugin that \nis active on your WordPress installation on every single post\/page no matter \nwhether they are needed for that post\/page or not. This plugin will allow you \nto create simple rewrite rules to exclude a plugin or plugins from any URI \npattern match. This is a great way to reduce the memory footprint, SQL queries \nrun at page load, load times, and improve site response speed.<\/p>\n\n<p>This is NOT a normal WordPress plugin, but an <em>mu<\/em> (must use) plugin and requires\nspecial installation instructions. Please see the <a href=\"http:\/\/wordpress.org\/extend\/plugins\/disable-plugins\">installation section<\/a> for more\ninformation.<\/p>\n\n<p><strong>Requirements:<\/strong> PHP5+, WordPress 2.9.x+<\/p>",
+                "uid": "46988"
+            }
+        }
+    }
+}

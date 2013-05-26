@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/cpk-ultimate-archives": {
+            "1.0": {
+                "name": "wordpress\/cpk-ultimate-archives",
+                "version": "1.0",
+                "version_normalized": "1.0.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/cpk-ultimate-archives.1.0.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>Use this widget to filter your archives.  For example if you'd only like archives for posts in category 2, simply enter 'cat=2' into the widget settings form.  The widget allows very complex filtering rules.  You can even alter the number of posts displayed on an archive page.<\/p>",
+                "uid": "10276"
+            }
+        }
+    }
+}

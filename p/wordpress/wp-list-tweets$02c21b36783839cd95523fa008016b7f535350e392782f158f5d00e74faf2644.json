@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/wp-list-tweets": {
+            "1.3": {
+                "name": "wordpress\/wp-list-tweets",
+                "version": "1.3",
+                "version_normalized": "1.3.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/wp-list-tweets.1.3.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>WP List Tweets will quickly display any number of latests Tweets from any user anywhere on the page \nusing either the template tag or shortcode.<\/p>\n\n<p><strong>Displaying your Tweets:<\/strong><\/p>\n\n<p><strong>THE SHORTCODE<\/strong>\nIn Posts\/Pages with Shortcode (Wordpress 2.5+)<\/p>\n\n<p>[wp_list_tweets user=\"martythornley\" num=\"5\"]<\/p>\n\n<p><em>EXAMPLES OF USE:<\/em><\/p>\n\n<ul>\n<li>[wp_list_tweets]<\/li>\n<li>[wp_list_tweets user=\"martythornley\"]<\/li>\n<li>[wp_list_tweets user=\"martythornley\" num=\"5\"]<\/li>\n<li>[wp_list_tweets user=\"martythornley\" num=\"3\" id=\"stuff\"]<\/li>\n<\/ul>\n\n<p>All attributes are optional and will default to:\n*user='martythornley' - shameless self promotion :)\n*num='3'\n*id will be a running count of the number of times this plugin has been used on a given page unless you give it a specific value.<\/p>\n\n<p><strong>Using the Template Tag in your theme:<\/strong><\/p>\n\n\n\n<pre><code>&#60;?php wp_list_tweets ($username, $number, $id); ?&#62;<\/code><\/pre>\n\n<p>All attributes are",
+                "uid": "74680"
+            }
+        }
+    }
+}

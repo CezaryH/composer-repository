@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/seedsugar-phphamlsass-4-wp": {
+            "0.1": {
+                "name": "wordpress\/seedsugar-phphamlsass-4-wp",
+                "version": "0.1",
+                "version_normalized": "0.1.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/seedsugar-phphamlsass-4-wp.0.1.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>PHAMLP for WordPress enables theme creation using the HAML template system. HAML replaces the tag soup of most HTML\/PHP templates with a cleaner, hierarchical markup language.<\/p>\n\n<p>This is a simple plugin that only parses haml and sass\/scss with included php code to their respective php source and renders that.\nIt DOES NOT include any of rail's sophisticated templating tags, like link_to, image_tag etc..\nIf you want something like that you should take a look at the wordless plugin.<\/p>\n\n<p>Any plain HTML\/PHP theme will work while PHAMLP for WordPress is enabled. But the individual templates that make up a WordPress theme, from index.php to author.php, can be replaced with a corresponding .php.haml file and PHAMLP for WordPress will process them.<\/p>\n\n<p>If enabled it will also check for sass\/scss stylesheet files, compile them and replace the links in the final output.\nJust link to them normally like you would to any other .css file.<\/p>\n\n<p>The plugin parses haml and sass files ",
+                "uid": "10196"
+            }
+        }
+    }
+}

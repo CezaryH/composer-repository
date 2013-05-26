@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/wp-status-notifier": {
+            "1.3.1": {
+                "name": "wordpress\/wp-status-notifier",
+                "version": "1.3.1",
+                "version_normalized": "1.3.1.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/wp-status-notifier.1.3.1.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>WP Status Notifier will send a notification to given email address(es) of posts pending review by contributors. It can also optionally notify the contributors when their post is accepted or rejected. WP Status Notifier is useful for moderation in blogs with multiple contributors.<\/p>\n\n<p>The plugin will add an options page in the Wordpress administration area where you can set one or more email addresses to notified of posts pending review.<\/p>\n\n<h4>Features<\/h4>\n\n<ol>\n<li>No need to manually check posts waiting for approval.<\/li>\n<li>Includes a link to edit and\/or approve the post in the notification email.<\/li>\n<li>Optionally notifies contributors of the moderation status.<\/li>\n<li>The plugin requires no database access and adds almost zero overhead.<\/li>\n<li>Simple configuration options. Doesn't require editing any .php files.<\/li>\n<\/ol>",
+                "uid": "106299"
+            }
+        }
+    }
+}

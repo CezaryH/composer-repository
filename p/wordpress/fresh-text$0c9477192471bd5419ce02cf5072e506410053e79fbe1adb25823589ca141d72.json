@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/fresh-text": {
+            "0.1": {
+                "name": "wordpress\/fresh-text",
+                "version": "0.1",
+                "version_normalized": "0.1.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/fresh-text.0.1.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>After installing, tags with class 'freshout' will have the words changed into\n.png files displaying the same word in a specified font and size.  The title\nattribute is hijacked for parameters.<\/p>\n\n<p>&#60;span class=\"freshout\" title=\"SIZE,FONT,COLOR\"&#62;\n    This text becomes images.\n&#60;\/span&#62;<\/p>\n\n<p>For example:<\/p>\n\n<p>&#60;span class=\"freshout\" title=\"14,masexy,FF77EE\"&#62;\n    This is sexy text.\n&#60;\/span&#62;<\/p>",
+                "uid": "109579"
+            }
+        }
+    }
+}

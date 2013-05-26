@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/no-duplicate-content-in-comments": {
+            "1.0": {
+                "name": "wordpress\/no-duplicate-content-in-comments",
+                "version": "1.0",
+                "version_normalized": "1.0.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/no-duplicate-content-in-comments.1.0.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>Check comments for duplicate content using Google AJAX Search API as they are published. This helps to avoid having duplicate content in your posts. It only checks approved comments that have over 50 words. The plugin searches two random strings, both 8 words length. If one of them finds an exact match, it emails you letting you know so you can check it yourself and decide if you want to delete it.<\/p>",
+                "uid": "90485"
+            }
+        }
+    }
+}

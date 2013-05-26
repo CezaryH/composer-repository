@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/touch-punch": {
+            "0.1": {
+                "name": "wordpress\/touch-punch",
+                "version": "0.1",
+                "version_normalized": "0.1.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/touch-punch.0.1.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>By default you can't drag\/drop items in the WordPress admin on an iPad, which is a bit limiting. This Plugin fixes that by adding the Touch Punch jQuery library to map iPad touch events to mouse events.<\/p>\n\n<p>Once activated the Plugin allows you to do things like drag\/drop widgets into widget areas, change navigation menus etc. simply by using touch gestures on the iPad!<\/p>\n\n<p>Full list of iPad activated WordPress admin pages:<\/p>\n\n<ul>\n<li>Admin dashboard - Drag to re-order admin dashboard widgets.<\/li>\n<li>Widgets page - Drag new widget instances into widget areas, and sort existing widgets.<\/li>\n<li>New posts\/pages - Drag to re-order meta boxes on new post\/pages.<\/li>\n<li>Edit posts\/pages - Drag to re-order meta boxes on existing post\/pages.<\/li>\n<li>Navigation menu page - Drag to re-order meta boxes, and individual menu items to change position\/hierarchy.<\/li>\n<li>Add new links page - Drag to re-order meta boxes (Note: the first three meta boxes are fixed by WordPress but th",
+                "uid": "32528"
+            }
+        }
+    }
+}

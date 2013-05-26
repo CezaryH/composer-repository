@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/pageview": {
+            "1.5.1": {
+                "name": "wordpress\/pageview",
+                "version": "1.5.1",
+                "version_normalized": "1.5.1.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/pageview.1.5.1.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>PageView is a plugin that will display another web page inside the current post. This is achieved with the use of an iframe - an HTML tag that allows a webpage to be displayed inline with the current page. Although an iframe can lead to a complicated website, it can be very effective when used appropriately.<\/p>",
+                "uid": "114024"
+            }
+        }
+    }
+}

@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/custom-rel": {
+            "1.0.0": {
+                "name": "wordpress\/custom-rel",
+                "version": "1.0.0",
+                "version_normalized": "1.0.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/custom-rel.1.0.0.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>By default, WordPress 2.8 puts link relation tags in the header of\nyour posts, with the next and prev relation links pointing to the next\nand previous posts, chronologically.  Sometimes, this is not what you\nwant, which is where this plugin comes in.<\/p>\n\n<p>A new sidebar meta box is added to the post edit form, which lets you\nset the title and URL for the next and\/or prev link relations.<\/p>\n\n<p>Or you can just leave them blank for the defaults WordPress behavior.<\/p>",
+                "uid": "84761"
+            }
+        }
+    }
+}

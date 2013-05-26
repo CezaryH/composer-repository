@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/query-slideshow": {
+            "1.0": {
+                "name": "wordpress\/query-slideshow",
+                "version": "1.0",
+                "version_normalized": "1.0.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/query-slideshow.1.0.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p><strong>Requires <a href=\"http:\/\/wordpress.org\/extend\/plugins\/query-wrangler\/\" title=\"Query Wrangler\">Query Wrangler<\/a> version 1.5+.<\/strong><\/p>\n\n<p>When editing a query, this creates 'Slideshow' as a Template Style, using jquery.cycle.<\/p>",
+                "uid": "29420"
+            }
+        }
+    }
+}

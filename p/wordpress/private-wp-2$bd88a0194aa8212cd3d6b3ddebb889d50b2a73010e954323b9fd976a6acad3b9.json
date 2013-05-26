@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/private-wp-2": {
+            "1.0": {
+                "name": "wordpress\/private-wp-2",
+                "version": "1.0",
+                "version_normalized": "1.0.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/private-wp-2.1.0.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>Private WP 2 will make sure people can only read your blog and rss feeds after they log in. Already logged in users will see no difference.<\/p>",
+                "uid": "83656"
+            }
+        }
+    }
+}

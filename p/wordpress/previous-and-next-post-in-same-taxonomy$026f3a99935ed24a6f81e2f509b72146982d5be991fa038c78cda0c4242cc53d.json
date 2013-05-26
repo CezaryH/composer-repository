@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/previous-and-next-post-in-same-taxonomy": {
+            "1.0": {
+                "name": "wordpress\/previous-and-next-post-in-same-taxonomy",
+                "version": "1.0",
+                "version_normalized": "1.0.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/previous-and-next-post-in-same-taxonomy.1.0.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>If you use next_post_link('%link', '%title', true) or previous_post_link('%link', '%title', true) to get the adjacent post for a custom post type which has a taxonomy assigned to it, it doesn't work as intended.<\/p>\n\n<p>Those functions are all hardcoded to look to the taxonomy 'category'. This patch let's you change that if you'd like.<\/p>\n\n<p>If you have a custom post type 'product' with a taxonomy 'color' and want the prev\/next post links on the single product page to go to similarly colored ones, use this:<\/p>\n\n<p>be_previous_post_link('%link', '%title', true, '', 'color');\nbe_next_post_link('%link', '%title', true, '', 'color');<\/p>\n\n<p>Please post any issues you find on the Trac ticket so the core patch can be updated: <a href=\"http:\/\/core.trac.wordpress.org\/ticket\/17807\" rel=\"nofollow\">http:\/\/core.trac.wordpress.org\/ticket\/17807<\/a><\/p>\n\n<p>Functions available:<\/p>\n\n<ul>\n<li>be_previous_post_link()<\/li>\n<li>be_next_post_link()<\/li>\n<li>be_adjacent_post_link()<\/li>\n<li>be_get_p",
+                "uid": "42030"
+            }
+        }
+    }
+}

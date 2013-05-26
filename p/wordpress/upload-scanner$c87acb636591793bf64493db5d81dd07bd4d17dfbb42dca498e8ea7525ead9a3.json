@@ -1,0 +1,40 @@
+{
+    "packages": {
+        "wordpress\/upload-scanner": {
+            "1.1": {
+                "name": "wordpress\/upload-scanner",
+                "version": "1.1",
+                "version_normalized": "1.1.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/upload-scanner.1.1.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>Scan uploaded files with ClamAV or run system commands against uploaded files. &#160;This allows you to integrate third party malware scanners.<\/p>\n\n<p>This plugin <strong>requires<\/strong>&#160;either ClamAV or another third-party scanner to be installed. &#160;This plugin will pass uploaded files to the scanner and take appropriate actions based ont he results, but it is not, itself, a malware scanner.<\/p>\n\n<p>If you have a dedicated server, you can install <a href=\"http:\/\/php-clamav.sourceforge.net\">php-clamav<\/a> for performance and convenience.<\/p>\n\n<p>Banner image from <a href=\"http:\/\/www.flickr.com\/photos\/runlevel0\/3647554681\/in\/photostream\/\">Eric Martinenz<\/a><\/p>",
+                "uid": "28902"
+            },
+            "1.2": {
+                "name": "wordpress\/upload-scanner",
+                "version": "1.2",
+                "version_normalized": "1.2.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/upload-scanner.1.2.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>Scan uploaded files with ClamAV or run system commands against uploaded files. &#160;This allows you to integrate third party malware scanners.<\/p>\n\n<p>This plugin <strong>requires<\/strong>&#160;either ClamAV or another third-party scanner to be installed. &#160;This plugin will pass uploaded files to the scanner and take appropriate actions based ont he results, but it is not, itself, a malware scanner.<\/p>\n\n<p>If you have a dedicated server, you can install <a href=\"http:\/\/php-clamav.sourceforge.net\">php-clamav<\/a> for performance and convenience.<\/p>\n\n<p>Banner image from <a href=\"http:\/\/www.flickr.com\/photos\/runlevel0\/3647554681\/in\/photostream\/\">Eric Martinenz<\/a><\/p>",
+                "uid": "28900"
+            }
+        }
+    }
+}

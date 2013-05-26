@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/wp-post-limits": {
+            "1.0": {
+                "name": "wordpress\/wp-post-limits",
+                "version": "1.0",
+                "version_normalized": "1.0.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/wp-post-limits.1.0.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>When running wordpress for short term projects, contests, etc. it can be useful to be able\nto define a limit on the number of posts a given user can make. This plugin allows admins to\ndefine limits on a per-role basis.<\/p>\n\n<p>Say you wanted 'authors' to be limited to 5 posts and 'contributors' to just 1, this plugin is\nthe way to do it.<\/p>\n\n<p>Please Note: This plugin is only tested on PHP5 and may not work on earlier versions.<\/p>",
+                "uid": "75315"
+            }
+        }
+    }
+}

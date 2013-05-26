@@ -1,0 +1,40 @@
+{
+    "packages": {
+        "wordpress\/proportional-image-scaling": {
+            "1.0": {
+                "name": "wordpress\/proportional-image-scaling",
+                "version": "1.0",
+                "version_normalized": "1.0.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/proportional-image-scaling.1.0.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>When a user inserts an image using the visual editor, Wordpress automatically sets the \nwidth and height attributes on the image tag. Unfortunately, when the images' width is\nlarger than the CSS \"max-width\" value, the width is capped but the height is not\naffected, leading to distorted images.\nThis plugin either removes all height and width tags from images of a given class \n(resulting in a correct \"max-width\" behavior) or scales them to a given width to assist \nbrowsers in creating the layout.<\/p>",
+                "uid": "72110"
+            },
+            "1.1": {
+                "name": "wordpress\/proportional-image-scaling",
+                "version": "1.1",
+                "version_normalized": "1.1.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/proportional-image-scaling.1.1.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>When a user inserts an image using the visual editor, Wordpress automatically sets the \nwidth and height attributes on the image tag. Unfortunately, when the images' width is\nlarger than the CSS \"max-width\" value, the width is capped but the height is not\naffected, leading to distorted images.\nThis plugin either removes all height and width tags from images of a given class \n(resulting in a correct \"max-width\" behavior) or scales them to a given width to assist \nbrowsers in creating the layout.<\/p>",
+                "uid": "72109"
+            }
+        }
+    }
+}

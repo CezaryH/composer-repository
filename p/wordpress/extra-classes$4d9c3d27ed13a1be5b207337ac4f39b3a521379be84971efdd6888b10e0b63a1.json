@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/extra-classes": {
+            "0.1": {
+                "name": "wordpress\/extra-classes",
+                "version": "0.1",
+                "version_normalized": "0.1.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/extra-classes.0.1.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>Adds missing classes for selected menu states. Classes added include:<\/p>\n\n<ul>\n<li><code>current-page-parent<\/code> and <code>current_page_parent<\/code><\/li>\n<li><code>current-page-ancestor<\/code> and <code>current_page_ancestor<\/code><\/li>\n<li><code>current-menu-ancestor<\/code><\/li>\n<li><code>current-menu-parent<\/code><\/li>\n<\/ul>\n\n<p>The classes are added in the following scenarios:<\/p>\n\n<ul>\n<li><strong>When viewing an attachment page<\/strong> classes are added to any parent pages and their menu ancestors.<\/li>\n<li><strong>When viewing a post<\/strong> classes are added to any relevant taxonomy menu items and their manu ancestors.<\/li>\n<\/ul>",
+                "uid": "11337"
+            }
+        }
+    }
+}

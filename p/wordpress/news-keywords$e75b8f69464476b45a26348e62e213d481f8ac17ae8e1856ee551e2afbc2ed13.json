@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/news-keywords": {
+            "1.0": {
+                "name": "wordpress\/news-keywords",
+                "version": "1.0",
+                "version_normalized": "1.0.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/news-keywords.1.0.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>Adds the Google-specific metatag \"news_keywords\" with Post Tags into wp_head() to improve your chances of appearing in Google search results for relevant queries. See also <a href=\"http:\/\/support.google.com\/news\/publisher\/bin\/answer.py?answer=68297\" rel=\"nofollow\">http:\/\/support.google.com\/news\/publisher\/bin\/answer.py?answer=68297<\/a> :)<\/p>",
+                "uid": "16249"
+            }
+        }
+    }
+}

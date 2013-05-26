@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/clean-up": {
+            "3.00": {
+                "name": "wordpress\/clean-up",
+                "version": "3.00",
+                "version_normalized": "3.00.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/clean-up.3.00.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>Clean junk files or trashes that automatically created due to autosaving while writting new Posts. Deleting these junks will keep your database clean and save a lot of space of your MySQL Database.<\/p>\n\n<p>Those are the junk files or trashes that automatically created due to autosaving while writting new Posts and also by making changes or editting your old posts Don't feel worried on removing them. Deleting these junks will keep your database clean and surely SAVE a lot of space of your MSQL Database.<\/p>\n\n<p>more about <a href=\"http:\/\/mr.hokya.com\/clean-up\">Clean Up<\/a><\/p>\n\n<p>UPDATE<\/p>\n\n<p>for the version 3.0 up, there is an update to delete the junks from the postmeta. This will save more and more mysql database. Info for the <a href=\"http:\/\/mr.hokya.com\/another-wordpress-junks\/\">Clean Up update<\/a><\/p>",
+                "uid": "75763"
+            }
+        }
+    }
+}

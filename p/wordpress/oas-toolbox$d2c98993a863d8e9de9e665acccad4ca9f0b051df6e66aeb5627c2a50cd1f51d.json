@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/oas-toolbox": {
+            "1.0": {
+                "name": "wordpress\/oas-toolbox",
+                "version": "1.0",
+                "version_normalized": "1.0.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/oas-toolbox.1.0.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>OAS ToolBox is a plugin that simplifies &#38; enhances the use of WordPress. It includes functions &#38; tools which are useful to developers and short codes that are useful to authors.<\/p>\n\n\n\nFunctions &#38; Tools Useful to Developers\n\n<ol>\n<li><p>oas_get_page_title() - Queries the wp_cache to identify the title of a given page\/post ID<\/p><\/li>\n<li><p>oas_get_page_anchor_tag() - Queries the wp_cache to identify the title &#38; permalink of a given page\/post ID and add a 'current-page' value to the anchor tag's class in case the page\/post being queried is that which the site visitor is currently viewing.<\/p><\/li>\n<li><p>oas_get_post_exists() - Checks to make sure that a given post\/page exists and informs the user through the OAS WP ErrorFree plugin in case bla bla bla.<\/p><\/li>\n<li><p>oas_print_array() - Similar to PHP built in print_r() but it returns the output with<\/p><\/li>\n<\/ol>\n\n<p>&#60;<\/p>\n\n<p>pre&#62; html tags so the output maintains both spaces and line breaks as is.<\/p>\n\n",
+                "uid": "82838"
+            }
+        }
+    }
+}

@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/simpler-editor-styles": {
+            "0.1": {
+                "name": "wordpress\/simpler-editor-styles",
+                "version": "0.1",
+                "version_normalized": "0.1.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/simpler-editor-styles.0.1.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>Trims the list of formats available in TinyMCE to the ones that are actually helpful for normal editing (that is, not H1, H2 and others that the theme should set).<\/p>\n\n<p>This is very easily customisable, but as of this version the styles recommended are:<\/p>\n\n<ul>\n<li>h3<\/li>\n<li>h4<\/li>\n<li>p<\/li>\n<li>sub<\/li>\n<li>sup<\/li>\n<li>blockquote<\/li>\n<\/ul>\n\n<p>Really it&#213;s only h3 and h4 which are particularly of interest.<\/p>",
+                "uid": "49333"
+            }
+        }
+    }
+}

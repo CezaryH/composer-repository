@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/shortcode-ajax": {
+            "1.0": {
+                "name": "wordpress\/shortcode-ajax",
+                "version": "1.0",
+                "version_normalized": "1.0.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/shortcode-ajax.1.0.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>This plugin adds new shortcode: [shortcode_ajax][\/shortcode_ajax]\nOriginally written for WP-Table Reloaded plugin to add ability reload some tables dynamically. It should work with other plugins too!<\/p>",
+                "uid": "54017"
+            }
+        }
+    }
+}

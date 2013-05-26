@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/hide-welcome-panel-for-multisite": {
+            "1.0": {
+                "name": "wordpress\/hide-welcome-panel-for-multisite",
+                "version": "1.0",
+                "version_normalized": "1.0.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/hide-welcome-panel-for-multisite.1.0.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>WordPress 3.3 introduced a new welcome panel designed to provide a better experience for new users installing WordPress for the first time. The panel would normally be shown to new owners of sites in a network, but this may not be desirable for all networks. This plugin dismisses the panel for new sites and users.<\/p>\n\n<p>This plugin applies only to multisite, and must be network activated.<\/p>",
+                "uid": "33903"
+            }
+        }
+    }
+}

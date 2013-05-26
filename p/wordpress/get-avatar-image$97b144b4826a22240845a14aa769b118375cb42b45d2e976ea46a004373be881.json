@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/get-avatar-image": {
+            "1.0": {
+                "name": "wordpress\/get-avatar-image",
+                "version": "1.0",
+                "version_normalized": "1.0.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/get-avatar-image.1.0.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>This simple plugin is useful for retrieving the clean URL of the avatar of the author, in the case you are using the get_avatar function.<\/p>\n\n<p>It works as a parser, cleaning up the returned value of get_avatar.<\/p>\n\n<p>Please note: the get_avatar_img requires WP 2.5 or above.<\/p>",
+                "uid": "86277"
+            }
+        }
+    }
+}

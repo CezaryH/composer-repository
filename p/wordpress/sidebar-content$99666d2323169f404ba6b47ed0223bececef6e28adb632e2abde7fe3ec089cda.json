@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/sidebar-content": {
+            "0.1": {
+                "name": "wordpress\/sidebar-content",
+                "version": "0.1",
+                "version_normalized": "0.1.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/sidebar-content.0.1.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>Adds a new post type called 'Sidebar Content', simple snippets with a title, content and an optional link. These are then listed with checkboxes on the page editing screen: simply tick the required snippet(s) and they will appear wherever the template tag is placed.<\/p>",
+                "uid": "21866"
+            }
+        }
+    }
+}

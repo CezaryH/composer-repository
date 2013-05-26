@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/memcachier": {
+            "1.0": {
+                "name": "wordpress\/memcachier",
+                "version": "1.0",
+                "version_normalized": "1.0.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/memcachier.1.0.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>Changed the <a href=\"http:\/\/wordpress.org\/extend\/plugins\/memcached\/\">Memcached WP Object Cache<\/a> backend to use <a href=\"http:\/\/www.memcachier.com\/\">MemCachier<\/a>.<\/p>\n\n<p>This initial release is only tested with WordPress at <a href=\"https:\/\/www.appfog.com\/products\/appfog\/jumpstarts\/\">AppFog<\/a>, but <a href=\"http:\/\/www.memcachier.com\/2012\/12\/19\/memcachier-powered-wordpress-object-caching\/\">should work on other sites<\/a>.<\/p>\n\n<h4>Credits<\/h4>\n\n<p>I've only <a href=\"http:\/\/soderlind.no\/archives\/2012\/12\/19\/memcachier-backend-for-the-wp-object-cache\/\">changed the WP_Object_Cache constructor<\/a>, so the credits goes to ryan and sivel for <a href=\"http:\/\/wordpress.org\/extend\/plugins\/memcached\/\">Memcached WP Object Cache<\/a>, and ronnywang for <a href=\"https:\/\/github.com\/ronnywang\/PHPMemcacheSASL\">PHPMemcacheSASL<\/a><\/p>",
+                "uid": "13489"
+            }
+        }
+    }
+}

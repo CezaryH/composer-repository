@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/quick-location-maps": {
+            "1.0.0": {
+                "name": "wordpress\/quick-location-maps",
+                "version": "1.0.0",
+                "version_normalized": "1.0.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/quick-location-maps.1.0.0.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>This Plugin insert a location map in your posts\/pages using the iFrame based Google Maps without any Api.\nThe user can set the exact coords (latutude or longitudes) or insert the location address. If you want to insert a map in a posts you must to generate two personalized fields (called 'latitude' and 'longitude') with the coordinates or a personalized field called 'location' with the address.<\/p>\n\n<p>This is good for Real Estate type of Blog as shown in the pics and Custom filed type location. It is very lightweight tested in wordpress 3.3.2 version, custom template ready, Google API free.<\/p>",
+                "uid": "15339"
+            }
+        }
+    }
+}

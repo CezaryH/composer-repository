@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/dokuwiki-markup": {
+            "0.2": {
+                "name": "wordpress\/dokuwiki-markup",
+                "version": "0.2",
+                "version_normalized": "0.2.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/dokuwiki-markup.0.2.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>This plugin allows one to use the Dokuwiki Markup in an post by encapsulating it within a &#60;wiki&#62; tag<\/p>",
+                "uid": "114611"
+            }
+        }
+    }
+}

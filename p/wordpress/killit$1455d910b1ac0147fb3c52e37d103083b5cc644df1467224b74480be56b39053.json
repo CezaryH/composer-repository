@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/killit": {
+            "1.1": {
+                "name": "wordpress\/killit",
+                "version": "1.1",
+                "version_normalized": "1.1.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/killit.1.1.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>Killit disables all WordPress auto-formatting automatically. Similar to the popular RawHTML plugin, but applies the effect to all posts &#38; pages automatically. Has options to remove wpautop, wptexturize, convert_chars, and\/or convert_smilies from the_content, the excerpt, and\/or comment_text.<\/p>",
+                "uid": "27419"
+            }
+        }
+    }
+}

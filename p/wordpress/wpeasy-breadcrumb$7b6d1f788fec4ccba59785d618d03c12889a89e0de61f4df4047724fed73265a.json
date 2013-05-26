@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/wpeasy-breadcrumb": {
+            "1.0": {
+                "name": "wordpress\/wpeasy-breadcrumb",
+                "version": "1.0",
+                "version_normalized": "1.0.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/wpeasy-breadcrumb.1.0.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>A wordpress plugin which provide you powerful functionality to integrate breadcrumbs into your site\/blog. \nIn this plugin you can set display of breadcrumb on homepage by simply pass 1 into function. To display breadcrumb \non home page use wpeasy_breadcrumb(1), if you dont want to display remove 1 from function.\nTo butify the breadcrumb add a css class (wpeasybread) into style.css and add your required style.<\/p>",
+                "uid": "12958"
+            }
+        }
+    }
+}

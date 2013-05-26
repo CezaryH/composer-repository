@@ -1,0 +1,57 @@
+{
+    "packages": {
+        "wordpress\/threat-scan-plugin": {
+            "0.8": {
+                "name": "wordpress\/threat-scan-plugin",
+                "version": "0.8",
+                "version_normalized": "0.8.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/threat-scan-plugin.0.8.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>This is a very simple threat scan that looks for things out of place in the content directory as well as the database.<\/p>\n\n<p>It searches PHP files for the occurrence of the eval() function, which, although a valuable part of PHP is also the door that hackers use in order to infect systems. The eval() function is avoided by many programmers unless there is a real need. It is sometimes used by hackers to hide their malicious code or to inject future threats into infected systems. If you find a theme or a plugin that uses the eval() function it is safer to delete it and ask the author to provide a new version that does not use this function.<\/p>\n\n<p>When you scan your system you undoubtedly see the eval used in javascript because it is used in the javascript AJAX and JSON functionality. The appearance of eval in these cases does not mean that there is a possible threat. It just means that you should inspect the code to make sure that it is in a javascript section and not native PHP.<",
+                "uid": "70533"
+            },
+            "0.9": {
+                "name": "wordpress\/threat-scan-plugin",
+                "version": "0.9",
+                "version_normalized": "0.9.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/threat-scan-plugin.0.9.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>This is a very simple threat scan that looks for things out of place in the content directory as well as the database.<\/p>\n\n<p>It searches PHP files for the occurrence of the eval() function, which, although a valuable part of PHP is also the door that hackers use in order to infect systems. The eval() function is avoided by many programmers unless there is a real need. It is sometimes used by hackers to hide their malicious code or to inject future threats into infected systems. If you find a theme or a plugin that uses the eval() function it is safer to delete it and ask the author to provide a new version that does not use this function.<\/p>\n\n<p>When you scan your system you undoubtedly see the eval used in javascript because it is used in the javascript AJAX and JSON functionality. The appearance of eval in these cases does not mean that there is a possible threat. It just means that you should inspect the code to make sure that it is in a javascript section and not native PHP.<",
+                "uid": "70532"
+            },
+            "1.0": {
+                "name": "wordpress\/threat-scan-plugin",
+                "version": "1.0",
+                "version_normalized": "1.0.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/threat-scan-plugin.1.0.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>This is a very simple threat scan that looks for things out of place in the content directory as well as the database.<\/p>\n\n<p>It searches PHP files for the occurrence of the eval() function, which, although a valuable part of PHP is also the door that hackers use in order to infect systems. The eval() function is avoided by many programmers unless there is a real need. It is sometimes used by hackers to hide their malicious code or to inject future threats into infected systems. If you find a theme or a plugin that uses the eval() function it is safer to delete it and ask the author to provide a new version that does not use this function.<\/p>\n\n<p>When you scan your system you undoubtedly see the eval used in javascript because it is used in the javascript AJAX and JSON functionality. The appearance of eval in these cases does not mean that there is a possible threat. It just means that you should inspect the code to make sure that it is in a javascript section and not native PHP.<",
+                "uid": "70531"
+            }
+        }
+    }
+}

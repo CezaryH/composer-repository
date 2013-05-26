@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/wp-security-log": {
+            "1.0": {
+                "name": "wordpress\/wp-security-log",
+                "version": "1.0",
+                "version_normalized": "1.0.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/wp-security-log.1.0.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>This plugin logs security breach attempts and displays them for review by an administrator. Presently, two types of security breaches are logged: all error 404 attempts (which include phishing attempts looking for vulnerable PHP libraries such as \"timthumb.php\") and all failed login attempts (which include serial password attempts).<\/p>",
+                "uid": "10257"
+            }
+        }
+    }
+}

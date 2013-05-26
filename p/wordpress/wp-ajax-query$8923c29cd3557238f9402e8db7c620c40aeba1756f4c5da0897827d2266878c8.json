@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/wp-ajax-query": {
+            "0.1": {
+                "name": "wordpress\/wp-ajax-query",
+                "version": "0.1",
+                "version_normalized": "0.1.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/wp-ajax-query.0.1.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>WP Ajax Query allows you to query your WordPress database using the same query paramaters you would use for WP_Query, and return a JSON respresentation of the query results. This allows developers to easily interface with WordPress without having to relearn a new API.<\/p>",
+                "uid": "68209"
+            }
+        }
+    }
+}

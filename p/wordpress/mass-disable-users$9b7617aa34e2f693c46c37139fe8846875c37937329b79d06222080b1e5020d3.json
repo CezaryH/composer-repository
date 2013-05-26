@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/mass-disable-users": {
+            "0.1": {
+                "name": "wordpress\/mass-disable-users",
+                "version": "0.1",
+                "version_normalized": "0.1.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/mass-disable-users.0.1.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>For large multisite installations of WordPress, it's easy to let user management go by the wayside. Many times we forget to disable or remove old user accounts, leaving our sites open to users who are no longer part of our organization.<\/p>\n\n<p>Mass-Disable Users (MDU) aims to fix that.<\/p>\n\n<p>MDU allows super-administrators to disable old users while retaining all of the author information. This is especially important for news sites.<\/p>\n\n<p>How does it work?<\/p>\n\n<p>MDU takes a list of email addresses (in CSV format) and compares it to the existing WordPress users database then any users who do not exist in the CSV file are demoted to Subscriber in every blog!<\/p>\n\n<p>NOTE: This plugin only works on multisite!<\/p>",
+                "uid": "13876"
+            }
+        }
+    }
+}

@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/lastfm-for-wordpress": {
+            "1.3.3": {
+                "name": "wordpress\/lastfm-for-wordpress",
+                "version": "1.3.3",
+                "version_normalized": "1.3.3.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/lastfm-for-wordpress.1.3.3.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>Last.fm for WordPress displays your recently listened tracks in your WordPress blog.<\/p>\n\n<p><strong>Features<\/strong><\/p>\n\n<pre><code>* Simply\n* Customizable\n* Widget support\n* No options page (yes, it is a feature)\n* Uses Wordpress resources (no extra files needed)\n<\/code><\/pre>\n\n<p><strong>Usage<\/strong><\/p>\n\n<p>If you use WordPress widgets, just drag the widget into your sidebar and configure. If widgets are not your thing, use the following code to display your recently listened tracks:<\/p>\n\n<pre><code>&#60;?php lastfm_tracks(\"username\"); ?&#62;\n<\/code><\/pre>\n\n<p>For more info (options, customization, etc.) visit <a href=\"http:\/\/rick.jinlabs.com\/code\/lastfm\" title=\"Last.fm for Wordpress\">the plugin homepage<\/a>.<\/p>\n\n<p><strong>Credits<\/strong><\/p>\n\n<p><a href=\"http:\/\/cavemonkey50.com\/\">Ronald Heft<\/a> - The plugin is highly based in his Pownce for Wordpress, so the major part of the credits goes to him.\n<a href=\"http:\/\/bohuco.net\/blog\">Michael Feichtinger<\/a> - For the multi-w",
+                "uid": "110406"
+            }
+        }
+    }
+}

@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/postman-widget": {
+            "1.2": {
+                "name": "wordpress\/postman-widget",
+                "version": "1.2",
+                "version_normalized": "1.2.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/postman-widget.1.2.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>The Postman Widget is a plugin developed by Paloma that allows administrators of Wordpress websites to \ncollect newsletter subscriptions from their visitors. To do this, the Wordpress user must first have an\naccount on the Paloma website and an address list where the new subscriptions should be added.<\/p>\n\n<p>The widget currently only accepts a subscription if it has a name and a valid e-mail. The admin can\nalso select up to three optional fields for the subscription in the widget menu.<\/p>",
+                "uid": "15559"
+            }
+        }
+    }
+}

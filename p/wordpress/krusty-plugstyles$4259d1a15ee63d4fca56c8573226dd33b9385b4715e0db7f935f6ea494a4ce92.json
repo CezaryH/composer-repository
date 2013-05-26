@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/krusty-plugstyles": {
+            "1.1.0": {
+                "name": "wordpress\/krusty-plugstyles",
+                "version": "1.1.0",
+                "version_normalized": "1.1.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/krusty-plugstyles.1.1.0.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>This plugin will check for the existance of a file named 'tweaks.css' in the current theme directory. If the file exists it will load it into the head section of pages on the WordPress frontend. Custom css rules in the file an be used to tweak the appearance of your WordPress site. This is a simple solution for plugins that don't quite match your theme, or little things that you feel need some adjustment in your sites theme. It is especially useful when used with a themes that is rich with class tags like, for exapmple <a href=\"http:\/\/www.plaintxt.org\/themes\/sandbox\/\" title=\"The Sandbox theme for WordPress\">The Sandbox<\/a>.\nIf you have any questions, suggestions, or comments feel free to drop by <a href=\"http:\/\/rustykruffle.com\/wordpress-plugins\/krusty-plugstyles\" title=\"home page for Krusty Plugstyles\">the Krusty Plugstyles page<\/a> at <a href=\"http:\/\/rustykruffle.com\" title=\"my website\">rustykruffle.com<\/a>.<\/p>",
+                "uid": "97290"
+            }
+        }
+    }
+}

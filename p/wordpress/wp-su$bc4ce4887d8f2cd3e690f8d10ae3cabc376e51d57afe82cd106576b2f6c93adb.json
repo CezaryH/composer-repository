@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/wp-su": {
+            "1.0": {
+                "name": "wordpress\/wp-su",
+                "version": "1.0",
+                "version_normalized": "1.0.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/wp-su.1.0.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>WP-Su is a powerful plugin which allows you to secure your WordPress installation easier by limiting what your administrative account can access in its normal state.\n'''Please note:''' This initial version is a <strong>Proof Of Concept<\/strong> plugin.<\/p>",
+                "uid": "76173"
+            }
+        }
+    }
+}

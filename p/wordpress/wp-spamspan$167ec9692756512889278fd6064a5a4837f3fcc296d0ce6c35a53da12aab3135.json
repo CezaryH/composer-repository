@@ -1,0 +1,40 @@
+{
+    "packages": {
+        "wordpress\/wp-spamspan": {
+            "0.2": {
+                "name": "wordpress\/wp-spamspan",
+                "version": "0.2",
+                "version_normalized": "0.2.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/wp-spamspan.0.2.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>The \"wp-spamspan\" plugin implements strong, automatic anti-spam protection\nfor email addresses in content on a Wordpress site.  To spam crawling\n'bots, email addresses appear in obfuscated form. To human visitors,\nthey appear as clickable links.<\/p>\n\n<p>There are two parts to the wp-spamspan process.  First, the message\ntext is scanned for email addresses and they are rewritten into an\nobfuscated form.<\/p>\n\n<p>So, if you have a post that contains the text:<\/p>\n\n<p><a href=\"mailto:chip@example.com\">chip@example.com<\/a><\/p>\n\n<p>This plugin will rewrite that address to display as:<\/p>\n\n<p>chip [at] example [dot] com<\/p>\n\n<p>A 'bot that harvests email addresses will see this text and won't be\nable to extract a usable email address from it.<\/p>\n\n<p>For human users, however, once the page is loaded into the web browser,\na Javascript procedure runs that locates the obfuscated email addresses\nand converts them to clickable \"mailto:\" links for web browsers.<\/p>\n\n<p>This plugin incorporates s",
+                "uid": "29961"
+            },
+            "1.0": {
+                "name": "wordpress\/wp-spamspan",
+                "version": "1.0",
+                "version_normalized": "1.0.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/wp-spamspan.1.0.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>The \"wp-spamspan\" plugin implements strong, automatic anti-spam protection\nfor email addresses in content on a Wordpress site.  To spam crawling\n'bots, email addresses appear in obfuscated form. To human visitors,\nthey appear as clickable links.<\/p>\n\n<p>There are two parts to the wp-spamspan process.  First, the message\ntext is scanned for email addresses and they are rewritten into an\nobfuscated form.<\/p>\n\n<p>So, if you have a post that contains the text:<\/p>\n\n<p><a href=\"mailto:chip@example.com\">chip@example.com<\/a><\/p>\n\n<p>This plugin will rewrite that address to display as:<\/p>\n\n<p>chip [at] example [dot] com<\/p>\n\n<p>A 'bot that harvests email addresses will see this text and won't be\nable to extract a usable email address from it.<\/p>\n\n<p>For human users, however, once the page is loaded into the web browser,\na Javascript procedure runs that locates the obfuscated email addresses\nand converts them to clickable \"mailto:\" links for web browsers.<\/p>\n\n<p>This plugin incorporates s",
+                "uid": "29960"
+            }
+        }
+    }
+}

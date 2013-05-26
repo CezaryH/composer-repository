@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/pagenamed-menu-classes": {
+            "1.0": {
+                "name": "wordpress\/pagenamed-menu-classes",
+                "version": "1.0",
+                "version_normalized": "1.0.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/pagenamed-menu-classes.1.0.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>If you know what a Style Sheet is and know that SEO rules, then you should know that the safest way to iconize a menu item or style each page\/post list items with a different image\/graphic\/icon is by its slug, since it's the only thing that you will ALWAYS keep the same, or search engines would lose your page's index and value.<\/p>\n\n<h4>Some tips to save you the time with your theme development:<\/h4>\n\n<ul>\n<li>This can not be achieved with WP provided template tags.<\/li>\n<li>Menu item ID# won't get you the actual post ID#<\/li>\n<li>Menu item title is EMPTY at least you name it differently by hand.<\/li>\n<li>Page\/Post ID could change by moving, re-importing and other content handling, breaking your style sheet.<\/li>\n<li>Class names are possible since WP 2.9 but they need to be added MANUALLY, and&#201;<\/li>\n<li>&#201;menus need to be activated and theme changed for them to work.<\/li>\n<li>A new blog won't take those menu classes from your theme.<\/li>\n<\/ul>\n\n<p>There's a limitation on cu",
+                "uid": "37554"
+            }
+        }
+    }
+}

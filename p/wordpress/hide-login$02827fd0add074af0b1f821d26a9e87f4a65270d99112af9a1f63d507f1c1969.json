@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/hide-login": {
+            "3.0": {
+                "name": "wordpress\/hide-login",
+                "version": "3.0",
+                "version_normalized": "3.0.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/hide-login.3.0.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<h4># Must Have Plugin For Your Personal Wordpress Blog<\/h4>\n\n<p>This plugin allows you to create custom URLs of Log in, Log out, Lost Password, Administration and Signup page for your WordPress blog.  Instead of advertising your login url on your homepage, you can create a url of your choice that can be easier to remember than wp-login.php, for example you could set your login url to <a href=\"http:\/\/www.myblog.com\/login\" rel=\"nofollow\">http:\/\/www.myblog.com\/login<\/a> for an easy way to login to your website.<\/p>\n\n<p>You could also enable \"Hide Mode\" which will prevent users from being able to access 'wp-login.php' or 'Hide wp-admin' which prevents the same for wp-admin directly.  You can then set your login url to something more cryptic.  This won't secure your website perfectly, but if someone does manage to crack your password, it can make it difficult for them to find where to actually login.  This also prevents any bots that are used for malicious intents from accessing your wp-lo",
+                "uid": "31321"
+            }
+        }
+    }
+}

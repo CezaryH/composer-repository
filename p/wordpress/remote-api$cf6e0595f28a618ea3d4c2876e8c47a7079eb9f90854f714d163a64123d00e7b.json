@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/remote-api": {
+            "0.2": {
+                "name": "wordpress\/remote-api",
+                "version": "0.2",
+                "version_normalized": "0.2.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/remote-api.0.2.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>A basic use case for this plugin would be lazy loading content segments or performing cross-blog actions.\nIt includes a simple example for lazy loading widgets, but is mainly aimed for developers who like to built on top of this functionality.<\/p>\n\n<p>Features:<\/p>\n\n<ul>\n<li>Url Format in form of <code><a href=\"http:\/\/&#60;blogname&#62;\/&#60;server_entry_key&#62;\/&#60;request_string&#62;\/&#60;server_format_key&#62;\/&#60;format&#038;gt\" rel=\"nofollow\">http:\/\/&#60;blogname&#62;\/&#60;server_entry_key&#62;\/&#60;request_string&#62;\/&#60;server_format_key&#62;\/&#60;format&#038;gt<\/a>;<\/code> in order to allow server side caching of requests without setting up a huge set of rewrite rules. The request string contains all request parameters<\/li>\n<li>Variable response formats. Comes with xml and json bundled in response.php but can be extended to your needs<\/li>\n<li>Exceptions with custom exception handler are used throughout the classes to allow error feedback in the requested response forma",
+                "uid": "54073"
+            }
+        }
+    }
+}

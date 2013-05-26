@@ -1,0 +1,40 @@
+{
+    "packages": {
+        "wordpress\/image-resizer-on-the-fly": {
+            "1.0": {
+                "name": "wordpress\/image-resizer-on-the-fly",
+                "version": "1.0",
+                "version_normalized": "1.0.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/image-resizer-on-the-fly.1.0.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>With the help of the shortcode, this plugin helps you to resize your image in different size. You never need to update your thumbnail size settings and re-upload all the image as you used to do before. It gives you the unlimited limitation for image resize.<\/p>\n\n<p><strong>How To Use<\/strong><\/p>\n\n<p>[image-resize width=100 height=100 ref=w default=your_default_image.png]<\/p>\n\n<p>Parameters:\n<strong>width:<\/strong>   (required) Width of the image in px<\/p>\n\n<p><strong>height:<\/strong>  (required) Height of the image in px<\/p>\n\n<p><strong>Ref:<\/strong>     (optional) w if you want the width reference, h for height reference. No ref parameter means you will have image with maintained ratio.<\/p>\n\n<p><strong>default:<\/strong> (optional) Your default image path. The default image is shown when you don't have featured image in your post.<\/p>\n\n<p>You can use the shortcode in your post,page content area.<\/p>\n\n<p>For using in templates, you can use the wordpress do_shortcode function. Like:<",
+                "uid": "24150"
+            },
+            "1.1": {
+                "name": "wordpress\/image-resizer-on-the-fly",
+                "version": "1.1",
+                "version_normalized": "1.1.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/image-resizer-on-the-fly.1.1.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>With the help of the shortcode, this plugin helps you to resize your image in different size. You never need to update your thumbnail size settings and re-upload all the image as you used to do before. It gives you the unlimited limitation for image resize.<\/p>\n\n<p><strong>How To Use<\/strong><\/p>\n\n<p>[image-resize width=100 height=100 ref=w default=your_default_image.png]<\/p>\n\n<p>Parameters:\n<strong>width:<\/strong>   (required) Width of the image in px<\/p>\n\n<p><strong>height:<\/strong>  (required) Height of the image in px<\/p>\n\n<p><strong>Ref:<\/strong>     (optional) w if you want the width reference, h for height reference. No ref parameter means you will have image with maintained ratio.<\/p>\n\n<p><strong>default:<\/strong> (optional) Your default image path. The default image is shown when you don't have featured image in your post.<\/p>\n\n<p>You can use the shortcode in your post,page content area.<\/p>\n\n<p>For using in templates, you can use the wordpress do_shortcode function. Like:<",
+                "uid": "24149"
+            }
+        }
+    }
+}

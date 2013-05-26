@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/plugin-packs": {
+            "0.1": {
+                "name": "wordpress\/plugin-packs",
+                "version": "0.1",
+                "version_normalized": "0.1.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/plugin-packs.0.1.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>One click plugin bundle installs<\/p>\n\n<p>All you need to do is create a text file with the plugin slugs, one per row.\nRename it to \"whatever.wpp\" and then go to the Plugin Packs page in the admin.<\/p>\n\n<p>The bundle can then be installed through a single click.<\/p>\n\n<p>See <a href=\"http:\/\/horia.me\/the-wordpress-plugin-packs\/\" rel=\"nofollow\">http:\/\/horia.me\/the-wordpress-plugin-packs\/<\/a> for more info.<\/p>",
+                "uid": "72416"
+            }
+        }
+    }
+}

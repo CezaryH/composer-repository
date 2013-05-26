@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/edit-comments-xt": {
+            "1.0": {
+                "name": "wordpress\/edit-comments-xt",
+                "version": "1.0",
+                "version_normalized": "1.0.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/edit-comments-xt.1.0.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>Edit Comments XT is a simple WordPress plugin that allows commenters to edit their own comments. To edit a comment, a user must have the same IP address as the user that made the comment and they must also make the edit within a specific time frame. The default edit time window is 30 minutes, but it can be changed easily in the plugin&#8217;s option page.<\/p>\n\n<p>If you&#8217;re logged in to WordPress, it will use the more feature-enhanced wp-admin comment editing screen, but if you aren&#8217;t then it will just allow you to edit the content of your comment.<\/p>\n\n<p>Edit Comments XT is based on Andrew Sutherland&#8217;s Edit Comments plugin and works with WordPress 2.1.x and 2.2.x. Also, the security issues of Andrew&#8217;s plugin have been addressed &#38; resolved.<\/p>\n\n<p>Please visit <a href=\"http:\/\/sw-guide.de\/wordpress\/plugins\/edit-comments-xt\/\" title=\"Edit Comments XT\">the official website<\/a> for further details and the latest information on this plugin.<\/p>",
+                "uid": "111351"
+            }
+        }
+    }
+}

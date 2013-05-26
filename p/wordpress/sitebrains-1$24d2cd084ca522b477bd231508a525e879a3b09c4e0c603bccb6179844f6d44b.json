@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/sitebrains-1": {
+            "6.3.7": {
+                "name": "wordpress\/sitebrains-1",
+                "version": "6.3.7",
+                "version_normalized": "6.3.7.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/sitebrains-1.6.3.7.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>Block spam using state of the art client-side form validation. SiteBrains plug-in displays themed notifications to your users as they type.\nOur analysis is signed using a secret key unique to your domain.\nThe signed analysis is submitted in a hidden field along with the rest of the form fields.\nThis makes it impossible to forge or circumvent, and ensures that the user's post came from your webpage.<\/p>\n\n<p>No blacklists, no manual moderation, no waiting for a post to publish, and no captcha's... Just simple spam protection.<\/p>\n\n<p>That's 100% of bot spam, which makes up roughly 65% of ALL spam.<\/p>\n\n<p>Read on to find out how we detect the other 35 percent, the human generated spam:<\/p>\n\n<p>Interactive Client side validation takes place on your page as your users typing their message, displaying tips and notifications that will help them compose a valid post that complies with the community rules that you have established (for civil discourse).<\/p>\n\n<p>Our Dictionaries based tests ",
+                "uid": "42737"
+            }
+        }
+    }
+}

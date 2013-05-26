@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/wp-broken-images": {
+            "0.2": {
+                "name": "wordpress\/wp-broken-images",
+                "version": "0.2",
+                "version_normalized": "0.2.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/wp-broken-images.0.2.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>This plugin is designed to &#8220;<em>fight<\/em>&#8221; the broken images on \nyour WordPress powered site. It works by inserting a JavaScript snippet in the \noutput HTML code of your pages, which attaches itself to the \n<em>onError=\"..\"<\/em> events of the images, so if an image fails to \nload, this JS snippet is fired. You can customize what actions you want to \nperform on the broken images: hide them, style-them, replace them, etc - all \nthis from the WordPress admin panel.<\/p>",
+                "uid": "110441"
+            }
+        }
+    }
+}

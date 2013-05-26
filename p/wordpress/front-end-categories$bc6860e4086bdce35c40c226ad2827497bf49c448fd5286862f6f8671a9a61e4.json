@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/front-end-categories": {
+            "0.2": {
+                "name": "wordpress\/front-end-categories",
+                "version": "0.2",
+                "version_normalized": "0.2.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/front-end-categories.0.2.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>Front-end Categories is a tiny and super simple plugin for creating categories and sub-categories on the WordPress front-end.<\/p>\n\n<p>The plugin comes with two shortcodes for use:<\/p>\n\n<ol>\n<li>[front-end-cat] will add a form consisting of a text input and submit button to create a category.<\/li>\n<li>[front-end-subcat] will add another form consisting of a text input, dropdown of existing categories to choose from and a submit button.<\/li>\n<\/ol>\n\n<p>The forms can be used independently of each other (neither one needs the other to work) and all output messages are wrapped in span tags with appropriate classes for easy styling.<\/p>\n\n<p>Any problems \/ queries \/ feature requests \/ etc. please leave a message on the support tab or drop me a line at hello[at]voltronik.co.uk.<\/p>",
+                "uid": "12422"
+            }
+        }
+    }
+}

@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/if-menu": {
+            "0.1": {
+                "name": "wordpress\/if-menu",
+                "version": "0.1",
+                "version_normalized": "0.1.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/if-menu.0.1.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>Simple plugin that adds extra functionality to Menu Items. The plugin will allow to show or hide menu items based on condition statements (Is single page, User is Logged In, etc).<\/p>\n\n<p>The management is very easy, each menu item will have a \"Enable Conditional Logic\" check, that will allow to select a conditional statement (Example in Screenshots)<\/p>\n\n<p>Basic conditional statements are included in the plugin, other will be included in future releases or can be added nu another plugin or theme.<\/p>\n\n<p>Example of adding a new conditional statement is described in the FAQ section<\/p>",
+                "uid": "16891"
+            }
+        }
+    }
+}

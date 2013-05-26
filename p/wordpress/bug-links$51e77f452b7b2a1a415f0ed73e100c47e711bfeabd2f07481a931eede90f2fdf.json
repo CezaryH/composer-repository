@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/bug-links": {
+            "1.0": {
+                "name": "wordpress\/bug-links",
+                "version": "1.0",
+                "version_normalized": "1.0.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/bug-links.1.0.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>Bug Links will filter commonly used references to bug numbers into active links to those bugs. It supports numerous Free Software projects, and adding support for more, despite being a code change at the moment, is very straightforward.<\/p>\n\n<p>It will filter bug references such as:<\/p>\n\n<ul>\n<li>wordpress bug #55555<\/li>\n<li>wordpress bug 55555<\/li>\n<li>wordpress #55555<\/li>\n<\/ul>\n\n<p>With or without space before the #.<\/p>\n\n<p>If you would like your project supported in Bug Links, please send me the base bug URL for your tracker and a 16x16 icon (PNG preferred) to represent it.<\/p>",
+                "uid": "108434"
+            }
+        }
+    }
+}

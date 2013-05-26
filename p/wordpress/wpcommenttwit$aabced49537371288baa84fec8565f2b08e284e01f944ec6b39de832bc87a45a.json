@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/wpcommenttwit": {
+            "0.5": {
+                "name": "wordpress\/wpcommenttwit",
+                "version": "0.5",
+                "version_normalized": "0.5.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/wpcommenttwit.0.5.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>wpCommentTwit is a plugin that will notify you of a new comment on your blog by DirectMessage (DM) via Twitter.<\/p>\n\n<p>You will only receive a DM if the comment is not flagged as spam or was approved manually.<\/p>\n\n<p>Currently this plugin utilizes the bit.ly hash format for shortening URLs.<\/p>\n\n<p>Using wpCommentTwit is fairly simple and has two basic requirements:<\/p>\n\n<ol>\n<li>You have a twitter account (you send yourself Direct Messages).<\/li>\n<li>Bit.ly account - <a href=\"http:\/\/bit.ly\" rel=\"nofollow\">http:\/\/bit.ly<\/a> - Username and API Key<\/li>\n<\/ol>",
+                "uid": "90965"
+            }
+        }
+    }
+}

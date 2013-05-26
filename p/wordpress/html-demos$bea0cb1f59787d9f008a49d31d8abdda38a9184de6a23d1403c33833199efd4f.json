@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/html-demos": {
+            "0.1": {
+                "name": "wordpress\/html-demos",
+                "version": "0.1",
+                "version_normalized": "0.1.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/html-demos.0.1.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>Managing your HTML demos should be easy. Since WordPress is easy, let's use that to manage our demos!<\/p>\n\n<p>Every demo post has HTML, CSS, and Javascript boxes with awesome syntax highlighting. The plugin is smart enough to put your demo in the right place and correctly enqueue your CSS and Javascript. You can supply a custom template for your demos in <code>single-html_demos.php<\/code>.<\/p>",
+                "uid": "17095"
+            }
+        }
+    }
+}

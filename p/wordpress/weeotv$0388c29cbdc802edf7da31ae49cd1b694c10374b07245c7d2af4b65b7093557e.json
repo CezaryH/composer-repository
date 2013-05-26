@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/weeotv": {
+            "0.0.1": {
+                "name": "wordpress\/weeotv",
+                "version": "0.0.1",
+                "version_normalized": "0.0.1.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/weeotv.0.0.1.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>This plug-in turns WordPress in a Semantic Web Tv, by allowing editors to manually (or automatically) ingest\nVideo contents and related data in a schema.org compatible format.<\/p>\n\n<p>The plug-in does not provide a front-end.<\/p>",
+                "uid": "25265"
+            }
+        }
+    }
+}

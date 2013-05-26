@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/sane-visual-editor": {
+            "1.0": {
+                "name": "wordpress\/sane-visual-editor",
+                "version": "1.0",
+                "version_normalized": "1.0.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/sane-visual-editor.1.0.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>Locks down the TinyMCE visual editor with a sane set of buttons that will help your authors to not insert disruptive styles.<\/p>\n\n<p>3rd-party buttons are maintained, so your other plugins should keep working if they add buttons.<\/p>",
+                "uid": "36373"
+            }
+        }
+    }
+}

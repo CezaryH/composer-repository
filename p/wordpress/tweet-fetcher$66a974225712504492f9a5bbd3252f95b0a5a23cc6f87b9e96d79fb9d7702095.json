@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/tweet-fetcher": {
+            "0.1": {
+                "name": "wordpress\/tweet-fetcher",
+                "version": "0.1",
+                "version_normalized": "0.1.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/tweet-fetcher.0.1.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>Add latest tweets to your all post or selected post or even gives different tweets to different post.\nThis plugin helps the admin to get the latest tweets after the post. If a admin has 1000's of post and after that realises to add his\/her\/different user tweets, then what to do??? Just install this plugin, in the options menu TWEET, type the username of twitter account and done, all the latest tweets will be displayed to all post.\nBut if you want to display tweets only to some post and that too different tweets of different users, then what to do???\nJust go to that particular post, in the edit post, just type this short-code <code>[tweets \"Mba_\"]<\/code> with the respective twitter username\nDone tweets will be displayed just to that particular post\nYou can find the example demo on this website <a href=\"http:\/\/mbas.in\/\" rel=\"nofollow\">http:\/\/mbas.in\/<\/a><\/p>\n\n<h4>Options<\/h4>\n\n<p>If you want to display a single user ID tweets to all your post, then simply navigate to Tweet menu in und",
+                "uid": "55994"
+            }
+        }
+    }
+}

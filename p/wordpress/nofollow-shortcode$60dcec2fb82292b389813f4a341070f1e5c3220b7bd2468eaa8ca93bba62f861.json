@@ -1,0 +1,40 @@
+{
+    "packages": {
+        "wordpress\/nofollow-shortcode": {
+            "1.0": {
+                "name": "wordpress\/nofollow-shortcode",
+                "version": "1.0",
+                "version_normalized": "1.0.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/nofollow-shortcode.1.0.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>This plugin allows you to insert links with the nofollow rel tag to prevent search engines from crawling them. The shortcode also supports <code>target=<\/code> and <code>title=<\/code> attributes.<\/p>",
+                "uid": "30022"
+            },
+            "1.1": {
+                "name": "wordpress\/nofollow-shortcode",
+                "version": "1.1",
+                "version_normalized": "1.1.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/nofollow-shortcode.1.1.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>This plugin allows you to insert links with the nofollow rel tag to prevent search engines from crawling them. The shortcode also supports <code>target=<\/code> and <code>title=<\/code> attributes.<\/p>",
+                "uid": "30020"
+            }
+        }
+    }
+}

@@ -1,0 +1,40 @@
+{
+    "packages": {
+        "wordpress\/admin-php-eval": {
+            "1.0": {
+                "name": "wordpress\/admin-php-eval",
+                "version": "1.0",
+                "version_normalized": "1.0.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/admin-php-eval.1.0.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>This plugin allows to edit and store multiple PHP scripts within WordPress administration (Tools -&#62; Admin PHP Eval) and execute them repeatedly with <code>eval()<\/code>. After evaluation the return value and echoed data is displayed.<\/p>",
+                "uid": "21056"
+            },
+            "1.1": {
+                "name": "wordpress\/admin-php-eval",
+                "version": "1.1",
+                "version_normalized": "1.1.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/admin-php-eval.1.1.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>This plugin allows to edit and store multiple PHP scripts within WordPress administration (Tools -&#62; Admin PHP Eval) and execute them repeatedly with <code>eval()<\/code>. After evaluation the return value and echoed data is displayed.<\/p>",
+                "uid": "21055"
+            }
+        }
+    }
+}

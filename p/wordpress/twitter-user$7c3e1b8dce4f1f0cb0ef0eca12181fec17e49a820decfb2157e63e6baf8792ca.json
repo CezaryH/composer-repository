@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/twitter-user": {
+            "1.0": {
+                "name": "wordpress\/twitter-user",
+                "version": "1.0",
+                "version_normalized": "1.0.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/twitter-user.1.0.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>Designed for multi author blogs, but useful for single author sites too, this gives you a new box in your profile admin to add in your\nTwitter username. You can then automatically have this displayed after each of your posts or control where it is displayed. For a\nmulti-author site this means each post author can have their twitter account linked to automatically.<\/p>",
+                "uid": "90071"
+            }
+        }
+    }
+}

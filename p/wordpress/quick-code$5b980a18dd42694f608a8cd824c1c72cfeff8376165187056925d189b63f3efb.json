@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/quick-code": {
+            "1.0": {
+                "name": "wordpress\/quick-code",
+                "version": "1.0",
+                "version_normalized": "1.0.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/quick-code.1.0.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>A very useful utility that allows blog administrators to quickly test code fragments (HTML, CSS, PHP, MySQL). There has been many times that I needed to test bits of code to see exactly what the output would be. For instance, whilst developing a WordPress Plugin, you may need to know what a certain database call will return, or want to know the effect of using a PHP or WordPress function, constant, or object. Simply enter in the required code and the output is displayed!<\/p>\n\n<p>Usually this meant I had to set-up test 'echo' statements and risk this being visible on the main site pages by visitors (which is undersirable on a live site). Now there is a way to quickly test code which is only displayed in the admin area of your blog.<\/p>\n\n<p>This Plugin can also be used as a simple WYSIWYG HTML\/CSS editor, the results of the code are displayed directly above the code input box.<\/p>\n\n<p>But, that is not all! There are three external files that are automatically included when the Plugin ",
+                "uid": "90983"
+            }
+        }
+    }
+}

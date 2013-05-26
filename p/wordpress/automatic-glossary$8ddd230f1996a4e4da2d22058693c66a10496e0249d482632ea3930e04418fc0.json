@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/automatic-glossary": {
+            "0.9": {
+                "name": "wordpress\/automatic-glossary",
+                "version": "0.9",
+                "version_normalized": "0.9.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/automatic-glossary.0.9.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>Given a collection of glossary definition pages, automatically creates links in your page and post content for the words in your glossary.<\/p>\n\n<p>Is smart enough not to create illegal nested links.<\/p>\n\n<p>Works with php 4 and 5 (check out the FAQ for more info on using it with php 4).<\/p>\n\n<p>Only tested on WordPress version 2.7.1 (although will most likely work on other versions).<\/p>\n\n<p>A good example of the glossary in action is at <a href=\"http:\/\/www.alaskaedu.net\/2009\/02\/17\/alaska-charter-schools\/\">this page<\/a>.  All of the \"charter school\" links were added dynamically by the glossary plugin.<\/p>",
+                "uid": "92467"
+            }
+        }
+    }
+}

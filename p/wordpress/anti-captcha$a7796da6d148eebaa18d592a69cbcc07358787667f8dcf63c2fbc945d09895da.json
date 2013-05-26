@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/anti-captcha": {
+            "20": {
+                "name": "wordpress\/anti-captcha",
+                "version": "20",
+                "version_normalized": "20.0.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/anti-captcha.20130504.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>Anti-Captcha is a transparent captcha solution which does not require any end-user interaction.\nIt is based on a nonce key, which is dynamically inserted using randomly generated (and obfuscated) javascript.<\/p>\n\n<p>The aim of this plugin is to prevent automated attacks (by bots) on the following WordPress actions:<\/p>\n\n<ul>\n<li>Posting comments<\/li>\n<li>Registering for a new account<\/li>\n<li>Requesting a lost password<\/li>\n<\/ul>\n\n<p>When a comment is posted without a valid Anti-Captcha token, it shall be <em>instantly marked as spam<\/em>. This way, you can always manually approve this comment in hindsight if it appeared to be sincere.<\/p>",
+                "uid": "82206"
+            }
+        }
+    }
+}

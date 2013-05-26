@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/yd-fast-page-update": {
+            "0.2.0": {
+                "name": "wordpress\/yd-fast-page-update",
+                "version": "0.2.0",
+                "version_normalized": "0.2.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/yd-fast-page-update.0.2.0.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<h4>Drastically reduce page updating time!<\/h4>\n\n<p>This Wordpress plugin <strong>optimizes page management routines<\/strong>, it accelerates page saving time by bypassing the very heavy process of rebuilding all the rewriterules of your pretty-permalink enabled blogs each time anything on a page is changed.<\/p>\n\n<p>When using Wordpress as a CMS, it is not unusual to deal with web sites that have a lot of hierarchical pages. \nWhen reaching a few hundred pages and using custom or pretty SEO-aware permalinks, page updates become <strong>VERY<\/strong> slow.<\/p>\n\n<p>Eventually, when reaching about 1000 pages, page management becomes quite tedious and time-consuming, because any change in a page takes a few minutes to be saved (during which the site usually comes to a halt because of heavy database load and table lock)\nwhen script or database max request times are finally reached, it becomes impossible to modify anything in a page.<\/p>\n\n<p>The reason is that <strong>rewrite rules for <em>al",
+                "uid": "69752"
+            }
+        }
+    }
+}

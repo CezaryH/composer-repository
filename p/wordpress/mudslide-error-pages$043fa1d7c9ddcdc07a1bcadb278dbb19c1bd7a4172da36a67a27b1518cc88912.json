@@ -1,0 +1,40 @@
+{
+    "packages": {
+        "wordpress\/mudslide-error-pages": {
+            "1.0": {
+                "name": "wordpress\/mudslide-error-pages",
+                "version": "1.0",
+                "version_normalized": "1.0.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/mudslide-error-pages.1.0.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>Allows the uses of a template page 'error.php' instead of the default wordpress rounded rectangle with the message in.\nVariables $title and $message will be poulated for use in the template<\/p>",
+                "uid": "49697"
+            },
+            "1.0.1": {
+                "name": "wordpress\/mudslide-error-pages",
+                "version": "1.0.1",
+                "version_normalized": "1.0.1.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/mudslide-error-pages.1.0.1.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>Allows the uses of a template page 'error.php' instead of the default wordpress rounded rectangle with the message in.\nVariables $title and $message will be poulated for use in the template<\/p>",
+                "uid": "49696"
+            }
+        }
+    }
+}

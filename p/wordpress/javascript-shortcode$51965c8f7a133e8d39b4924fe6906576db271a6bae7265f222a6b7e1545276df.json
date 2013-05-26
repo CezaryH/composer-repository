@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/javascript-shortcode": {
+            "1.0": {
+                "name": "wordpress\/javascript-shortcode",
+                "version": "1.0",
+                "version_normalized": "1.0.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/javascript-shortcode.1.0.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>This is plugin uses a shortcode to add javascript to any page, post or custom post type through the editor.  It follows the same conventions as wp_register_script minus in $in_footer parameter.<\/p>",
+                "uid": "21450"
+            }
+        }
+    }
+}

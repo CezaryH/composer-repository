@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/search-fixer": {
+            "2.0": {
+                "name": "wordpress\/search-fixer",
+                "version": "2.0",
+                "version_normalized": "2.0.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/search-fixer.2.0.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>Search Fixer makes \"pretty\" search links work properly. A pretty search link usually looks like this:\n<a href=\"http:\/\/example.com\/search\/waldo\" rel=\"nofollow\">http:\/\/example.com\/search\/waldo<\/a>\nBecause of a bug in WordPress, pretty search links with spaces in them do not work. Search Fixer fixes that bug.<\/p>\n\n<p>If you use <a href=\"http:\/\/wordpress.org\/extend\/plugins\/search-meter\/\">Search Meter<\/a>'s widgets, you should install Search Fixer too.<\/p>\n\n<h4>Technical details<\/h4>\n\n<p>The bug is <a href=\"http:\/\/core.trac.wordpress.org\/ticket\/13961\">WordPress bug 13961<\/a>. This prevents \"pretty\" search URLs from working properly. For example, <a href=\"http:\/\/example.com\/search\/hello%20world\" rel=\"nofollow\">http:\/\/example.com\/search\/hello%20world<\/a> should search the example.com blog for the words \"hello\" and \"world\", but because of the bug it actually searches for \"hello%20world\" and fails to find anything.<\/p>\n\n<p>When the WordPress bug is fixed (probably sometime in 2011) Search Fi",
+                "uid": "45208"
+            }
+        }
+    }
+}

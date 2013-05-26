@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/onswipe-feeds": {
+            "1.1": {
+                "name": "wordpress\/onswipe-feeds",
+                "version": "1.1",
+                "version_normalized": "1.1.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/onswipe-feeds.1.1.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>This adds either the featured image (preferred) or the first image in the post to the RSS feed. Also enumerates gallery images in &#60;media:content&#62; tags.<\/p>",
+                "uid": "20405"
+            }
+        }
+    }
+}

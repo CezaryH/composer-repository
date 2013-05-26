@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/wp-visual-user-activity": {
+            "1.0": {
+                "name": "wordpress\/wp-visual-user-activity",
+                "version": "1.0",
+                "version_normalized": "1.0.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/wp-visual-user-activity.1.0.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>The vision for this plug-in is to have a configurable set of visual user activity plots.<\/p>\n\n<p>At the moment it plots 2 pies charts with the user activity in a selected period of time:<\/p>\n\n<ol>\n<li>Comment activity in period (how many comments users left): how many users made 1 comment, how many users made 2 comments, how many users made 3 comments, etc.<\/li>\n<li>New commenters in period (percentage of new users against users that commented before the start date)<\/li>\n<\/ol>\n\n<p>Please offer any other chart suggestions and I'm glad to attempt to produce them for you.<\/p>\n\n<p>Configuration options? At the moment you can select the start date, end date and the limit for number of comments.<\/p>\n\n<p>What other configuration options do you need for your blog?<\/p>\n\n<p>Email <a href=\"mailto:telmo@nixonmcinnes.co.uk\">telmo@nixonmcinnes.co.uk<\/a><\/p>",
+                "uid": "80131"
+            }
+        }
+    }
+}

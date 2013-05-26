@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/clearspam": {
+            "0.1": {
+                "name": "wordpress\/clearspam",
+                "version": "0.1",
+                "version_normalized": "0.1.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/clearspam.0.1.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>If you're like me, you probably have to wade through a few hundred spammy comments on your blog.  It can be annoying, stressful, frustrating, and a waste of time.  Beyond that, spammy comments can fill up your database and make it a lot bulkier than it needs to be - particularly if you need to transfer it to a new server.<\/p>\n\n<p>ClearSpam makes this a lot easier for you by adding a spam counter to the \"Right Now\" box on the dashboard along with a link that lets you instantly and easily purge spammy comments from the database.  The plugin uses WordPress nonce filters, so people won't be able to use the plugin to delete legitimate comments.<\/p>",
+                "uid": "98283"
+            }
+        }
+    }
+}

@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/cn-excerpt": {
+            "4.2.6": {
+                "name": "wordpress\/cn-excerpt",
+                "version": "4.2.6",
+                "version_normalized": "4.2.6.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/cn-excerpt.4.2.6.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>WordPress\u9ad8\u7ea7\u6458\u8981\u63d2\u4ef6\u3002\u652f\u6301\u5728\u540e\u53f0\u8bbe\u7f6e\u6458\u8981\u957f\u5ea6\uff0c\u6458\u8981\u6700\u540e\u7684\u663e\u793a\u5b57\u7b26\uff0c\u4ee5\u53ca\u5141\u8bb8\u54ea\u4e9bhtml\u6807\u8bb0\u5728\u6458\u8981\u4e2d\u663e\u793a,\u57fa\u4e8eAdvance Excerpt\u4fee\u6539.<\/p>\n\n<p>\u5728\u6458\u8981\u4e2d\u652f\u6301HTML\u6807\u7b7e\u7684\u663e\u793a\uff1b\n\u53ef\u9009the_excerpt\u548cthe_content\u65f6\u6458\u8981\u663e\u793a\uff1b\n\u81ea\u52a8\u88c1\u526a\u7684\u6458\u8981\u529f\u80fd\uff1b\n\u53ef\u4ee5\u81ea\u5df1\u5b9a\u5236\u6458\u8981\u7684\u957f\u5ea6\u548c\u7701\u7565\u53f7\u7684\u663e\u793a\uff1b\n\"\u9605\u8bfb\u5168\u6587\" \u6807\u7b7e\u4f1a\u88ab\u81ea\u52a8\u7684\u6dfb\u52a0\uff08\u53ef\u9009\uff09\uff1b\n\u6458\u8981\u957f\u5ea6\u662f\u771f\u5b9e\u7684\u5185\u5bb9\u7684\u957f\u5ea6\uff08\u4e0d\u5305\u542bHTML\u6807\u7b7e\uff09\uff1b\n\u4e3b\u9898\u5f00\u53d1\u8005\u53ef\u4ee5\u4f7f\u7528the_advanced_expert()\u65b9\u6cd5\u8fdb\u884c\u66f4\u591a\u7684\u63a7\u5236\u3002\n\u8fd9\u4e2a\u63d2\u4ef6\u53ef\u4ee5\u5b8c\u7f8e\u7684\u652f\u6301\u81ea\u52a8\u4e2d\u6587\u6458\u8981\uff0c\u800c\u4e14\u4e0d\u5c40\u9650\u4e8e\u751f\u6210\u4e2d\u6587\u6458\u8981\uff0c\u6240\u6709\u7684UNICODE\u5b57\u7b26\u90fd\u652f\u6301\u3002<\/p>\n\n<p>This plugin adds several improvements to WordPress' default way of creating excerpts.\n1. Keeps HTML markup in the excerpt (and you get to choose which tags are included)\n2. Trims the excerpt to a given length using either character count or word count\n3. Only the 'real' text is counted (HTML is ",
+                "uid": "21397"
+            }
+        }
+    }
+}

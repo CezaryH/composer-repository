@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/separate-feed-comments-and-trackbacks": {
+            "1.2": {
+                "name": "wordpress\/separate-feed-comments-and-trackbacks",
+                "version": "1.2",
+                "version_normalized": "1.2.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/separate-feed-comments-and-trackbacks.1.2.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>This plugin filters the sitewide comments feed as well as individual post comment feeds.<\/p>\n\n<p>Upon first-time installation and activation, all trackbacks will be removed from the default WordPress comments feeds.\nYou can override this behavior on the options page and also use the comments or trackbacks only feeds described below.<\/p>\n\n<p>URL for comments only feeds: add the variable \"comments\" to your feed query string.<\/p>\n\n<ul>\n<li><a href=\"http:\/\/mysite.com\/comments\/feed\/?comments\" rel=\"nofollow\">http:\/\/mysite.com\/comments\/feed\/?comments<\/a><\/li>\n<li><a href=\"http:\/\/mysite.com\/?feed=rss2&#038;withcomments=1&#038;comments\" rel=\"nofollow\">http:\/\/mysite.com\/?feed=rss2&#038;withcomments=1&#038;comments<\/a><\/li>\n<\/ul>\n\n<p>URL for trackbacks only feeds: add the variable \"trackbacks\" to your feed query string.<\/p>\n\n<ul>\n<li><a href=\"http:\/\/mysite.com\/comments\/feed\/?trackbacks\" rel=\"nofollow\">http:\/\/mysite.com\/comments\/feed\/?trackbacks<\/a><\/li>\n<li><a href=\"http:\/\/mysite.com\/?feed=rss",
+                "uid": "87237"
+            }
+        }
+    }
+}

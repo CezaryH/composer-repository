@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/dsgnwrks-instagram-importer": {
+            "1.2.5": {
+                "name": "wordpress\/dsgnwrks-instagram-importer",
+                "version": "1.2.5",
+                "version_normalized": "1.2.5.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/dsgnwrks-instagram-importer.1.2.5.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>In the spirit of WordPress and \"owning your data,\" this plugin will allow you to import and backup your instagram photos to your WordPress site. Includes robust options to allow you to control the imported posts formatting including built-in support for WordPress custom post-types, custom taxonomies, post-formats. You can control the content of the title and content of the imported posts using tags like <code>**insta-image**<\/code>, <code>**insta-text**<\/code>, and others, or use the new conditional tags <code>[if-insta-text]Photo Caption: **insta-text**[\/if-insta-text]<\/code> and <code>[if-insta-location]Photo taken at: **insta-location**[\/if-insta-location]<\/code>. Add an unlimited number of user accounts for backup and importing.<\/p>\n\n<p>As of version 1.2.0, you can now import and backup your instagram photos automatically! The plugin gives you the option to choose from the default WordPress cron schedules, but if you wish to add a custom interval, you may want to add the <a href",
+                "uid": "19611"
+            }
+        }
+    }
+}

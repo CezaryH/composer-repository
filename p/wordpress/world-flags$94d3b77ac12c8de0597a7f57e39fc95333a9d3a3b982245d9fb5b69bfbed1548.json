@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/world-flags": {
+            "1.1": {
+                "name": "wordpress\/world-flags",
+                "version": "1.1",
+                "version_normalized": "1.1.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/world-flags.1.1.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>Add country flags anywhere in your Wordpress blog using simple shortcodes and\/or widgets, or show visitor country flag and info based on their IP address.<\/p>\n\n<p>This is the first version of World Flags. This version uses the <a href=\"http:\/\/software77.net\/geo-ip\/\">software77.net<\/a> ip2country database and only wraps the IPV4 version. The plugin imports the csv file into a mysql table for fast queries. Fetching of the csv IP database can be scheduled weekly using the WP cron jobs, or manually via the plugin options page.<\/p>\n\n<h4>Features<\/h4>\n\n<ul>\n<li>Supports shortcodes anywhere and widgets<\/li>\n<li>Template functions and comments author flags (NEW!)<\/li>\n<li>Uses software77 IP database with more than 3 billion addresses included<\/li>\n<li>Multilingual interface<\/li>\n<li>Scheduled downloads of the IP database file<\/li>\n<li>MD5 checks to validate database before populating tables<\/li>\n<li>Uses MySQL for super fast queries<\/li>\n<li>4 image sizes for country flags - 16, 24, 32 and ",
+                "uid": "63772"
+            }
+        }
+    }
+}

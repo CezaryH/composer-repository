@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/wp-crowdprocess": {
+            "1.0": {
+                "name": "wordpress\/wp-crowdprocess",
+                "version": "1.0",
+                "version_normalized": "1.0.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/wp-crowdprocess.1.0.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>While browsing the web, people waste a lot of processing power on their computers.<\/p>\n\n<p><a href=\"http:\/\/crowdprocess.com\">CrowdProcess<\/a> enables websites to collect tiny amounts of wasted processing power from people's browsers. It then purchase that processing power from websites, turns it into a single supercomputer and makes it available to people who are solving computationally heavy problems such as credit attribution, transport grid optimization or even genome sequencing.<\/p>\n\n<p>This plugin allows you to specify an API Key that will be used by a \"worker\" on your website. Note that you need to have an active CrowdProcess account to generate this key.<\/p>",
+                "uid": "12277"
+            }
+        }
+    }
+}

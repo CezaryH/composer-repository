@@ -1,0 +1,40 @@
+{
+    "packages": {
+        "wordpress\/the-bug-genie-for-wp": {
+            "1.0": {
+                "name": "wordpress\/the-bug-genie-for-wp",
+                "version": "1.0",
+                "version_normalized": "1.0.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/the-bug-genie-for-wp.1.0.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>This plugin provides shortcodes that interface with the API of <a href=\"http:\/\/www.thebuggenie.com\">The Bug Genie<\/a>, a great open-source bug tracking software. Currently, it is possible to link to individual issues, list issues by project and link to a project's bug report form.<\/p>\n\n<p>These shortcodes are available:<\/p>\n\n<ul>\n<li><code>[issue project=key issue=nr]<\/code> -- prints a short link to the specified issue. If you add <code>title=yes<\/code> the issue title is printed, too.<\/li>\n<li><code>[issues project=key]<\/code> -- prints a list of all issues of the specified project. See the <a href=\"http:\/\/wordpress.org\/extend\/plugins\/the-bug-genie-for-wp\/faq\">FAQ<\/a> for filtering options.<\/li>\n<li><code>[reportbug project=key]<\/code> -- Prints a link the the specified project's report form. You can provide a custom link text as shortcode content, i.e. <code>[reportbug project=key]My Text[\/reportbug]<\/code>.<\/li>\n<\/ul>\n\n<p>For a list of known issues see <a href=\"http:\/\/bugs.verre",
+                "uid": "36198"
+            },
+            "1.0.1": {
+                "name": "wordpress\/the-bug-genie-for-wp",
+                "version": "1.0.1",
+                "version_normalized": "1.0.1.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/the-bug-genie-for-wp.1.0.1.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>This plugin provides shortcodes that interface with the API of <a href=\"http:\/\/www.thebuggenie.com\">The Bug Genie<\/a>, a great open-source bug tracking software. Currently, it is possible to link to individual issues, list issues by project and link to a project's bug report form.<\/p>\n\n<p>These shortcodes are available:<\/p>\n\n<ul>\n<li><code>[issue project=key issue=nr]<\/code> -- prints a short link to the specified issue. If you add <code>title=yes<\/code> the issue title is printed, too.<\/li>\n<li><code>[issues project=key]<\/code> -- prints a list of all issues of the specified project. See the <a href=\"http:\/\/wordpress.org\/extend\/plugins\/the-bug-genie-for-wp\/faq\">FAQ<\/a> for filtering options.<\/li>\n<li><code>[reportbug project=key]<\/code> -- Prints a link the the specified project's report form. You can provide a custom link text as shortcode content, i.e. <code>[reportbug project=key]My Text[\/reportbug]<\/code>.<\/li>\n<\/ul>\n\n<p>For a list of known issues see <a href=\"http:\/\/bugs.verre",
+                "uid": "36197"
+            }
+        }
+    }
+}

@@ -1,0 +1,57 @@
+{
+    "packages": {
+        "wordpress\/full-breadcrumb": {
+            "1.0": {
+                "name": "wordpress\/full-breadcrumb",
+                "version": "1.0",
+                "version_normalized": "1.0.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/full-breadcrumb.1.0.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<ul>\n<li>Support Hierarquical Taxonomies<\/li>\n<\/ul>\n\n<p>Show breadcrumb in pages, posts, custom posts, categories, taxonomies, tags, authors, attachments and archives.<\/p>\n\n<h4>Basic Usage<\/h4>\n\n<p>Put this code <code>&#60;?php if (function_exists('show_full_breadcrumb')) show_full_breadcrumb(); ?&#62;<\/code> in your theme and enjoy!<\/p>\n\n<p>Or, for to get the breadcrumb: <code>&#60;?php if (function_exists('get_full_breadcrumb')) $var = get_full_breadcrumb(); ?&#62;<\/code><\/p>\n\n<p>In <code>get_full_breadcrumb<\/code> you can use the additional parameter <code>'type' =&#62; 'array'<\/code> to return an array with the links. eg. <code>array( 'type' =&#62; 'array' )<\/code><\/p>\n\n<h4>Basic Customization<\/h4>\n\n<pre><code>&#60;?php\nshow_full_breadcrumb(\n    array(\n        &#039;separator&#039; =&#62; array(\n            &#039;content&#039; =&#62; &#039;&#38;raquo;&#039;\n        ), \/\/ set FALSE to hide\n        &#039;home&#039; =&#62; array(\n            &#039;showLink&#039; =&#62; false\n        )",
+                "uid": "20014"
+            },
+            "1.1": {
+                "name": "wordpress\/full-breadcrumb",
+                "version": "1.1",
+                "version_normalized": "1.1.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/full-breadcrumb.1.1.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<ul>\n<li>Support Hierarquical Taxonomies<\/li>\n<\/ul>\n\n<p>Show breadcrumb in pages, posts, custom posts, categories, taxonomies, tags, authors, attachments and archives.<\/p>\n\n<h4>Basic Usage<\/h4>\n\n<p>Put this code <code>&#60;?php if (function_exists('show_full_breadcrumb')) show_full_breadcrumb(); ?&#62;<\/code> in your theme and enjoy!<\/p>\n\n<p>Or, for to get the breadcrumb: <code>&#60;?php if (function_exists('get_full_breadcrumb')) $var = get_full_breadcrumb(); ?&#62;<\/code><\/p>\n\n<p>In <code>get_full_breadcrumb<\/code> you can use the additional parameter <code>'type' =&#62; 'array'<\/code> to return an array with the links. eg. <code>array( 'type' =&#62; 'array' )<\/code><\/p>\n\n<h4>Basic Customization<\/h4>\n\n<pre><code>&#60;?php\nshow_full_breadcrumb(\n    array(\n        &#039;separator&#039; =&#62; array(\n            &#039;content&#039; =&#62; &#039;&#38;raquo;&#039;\n        ), \/\/ set FALSE to hide\n        &#039;home&#039; =&#62; array(\n            &#039;showLink&#039; =&#62; false\n        )",
+                "uid": "20013"
+            },
+            "1.2": {
+                "name": "wordpress\/full-breadcrumb",
+                "version": "1.2",
+                "version_normalized": "1.2.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/full-breadcrumb.1.2.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<ul>\n<li>Support Hierarquical Taxonomies<\/li>\n<\/ul>\n\n<p>Show breadcrumb in pages, posts, custom posts, categories, taxonomies, tags, authors, attachments and archives.<\/p>\n\n<h4>Basic Usage<\/h4>\n\n<p>Put this code <code>&#60;?php if (function_exists('show_full_breadcrumb')) show_full_breadcrumb(); ?&#62;<\/code> in your theme and enjoy!<\/p>\n\n<p>Or, for to get the breadcrumb: <code>&#60;?php if (function_exists('get_full_breadcrumb')) $var = get_full_breadcrumb(); ?&#62;<\/code><\/p>\n\n<p>In <code>get_full_breadcrumb<\/code> you can use the additional parameter <code>'type' =&#62; 'array'<\/code> to return an array with the links. eg. <code>array( 'type' =&#62; 'array' )<\/code><\/p>\n\n<h4>Basic Customization<\/h4>\n\n<pre><code>&#60;?php\nshow_full_breadcrumb(\n    array(\n        &#039;separator&#039; =&#62; array(\n            &#039;content&#039; =&#62; &#039;&#38;raquo;&#039;\n        ), \/\/ set FALSE to hide\n        &#039;home&#039; =&#62; array(\n            &#039;showLink&#039; =&#62; false\n        )",
+                "uid": "20012"
+            }
+        }
+    }
+}

@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/redirector-mod": {
+            "1.0": {
+                "name": "wordpress\/redirector-mod",
+                "version": "1.0",
+                "version_normalized": "1.0.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/redirector-mod.1.0.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>With this Plugin you can redirect a page in your WordPress installation to any other URL, to a page in your WordPress installation or to the first child page.<\/p>\n\n<p>This plugin is a fork of Redirector by Ralf Hortt. It has been updated \nfor WP 3.0 and does not automatically insert 'http:' before any custom\nredirect thus enabling use of partial URIs and query string as your\nredirect rather than fully qualified URLs.<\/p>",
+                "uid": "66765"
+            }
+        }
+    }
+}

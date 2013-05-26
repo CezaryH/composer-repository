@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/wp-webservices": {
+            "1.0": {
+                "name": "wordpress\/wp-webservices",
+                "version": "1.0",
+                "version_normalized": "1.0.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/wp-webservices.1.0.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>This plugin extends the basic webservices exposed by WordPress.\nThe new features includes<\/p>\n\n<ul>\n    <li>User management.<\/li>\n    <li>Custom post type management.<\/li>\n    <li>Custom taxonomy management.<\/li>\n    <li>Setting management<\/li>\n<\/ul>\n\n<p>The new methods includes<\/p>\n\n<ul>\n    <li>wp.newUser - allows to create a new user<\/li>\n    <li>wp.editUser - edit user information<\/li>\n    <li>wp.deleteUser - delete a specfic user<\/li>\n    <li>wp.getUser - get information about a specific user<\/li>\n    <li>wp.getUsers - retrieve a list of users<\/li>\n    <li>wp.newPost  - create a new post in any post type<\/li>\n    <li>wp.editPost  - edit any post type<\/li>\n    <li>wp.deletePost - delete a specific post<\/li>\n    <li>wp.getPost  - get any post from any post type<\/li>\n    <li>wp.getPosts  - get a list of posts in the blog<\/li>\n    <li>wp.getPostType - get information about a specific post type<\/li>\n    <li>wp.getPostTypes - get a list of registered taxonomies<\/li>\n    <li>wp.getPos",
+                "uid": "41755"
+            }
+        }
+    }
+}

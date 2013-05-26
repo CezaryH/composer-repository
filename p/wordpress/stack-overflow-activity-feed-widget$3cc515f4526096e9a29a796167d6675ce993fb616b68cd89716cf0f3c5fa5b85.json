@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/stack-overflow-activity-feed-widget": {
+            "1.0.0": {
+                "name": "wordpress\/stack-overflow-activity-feed-widget",
+                "version": "1.0.0",
+                "version_normalized": "1.0.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/stack-overflow-activity-feed-widget.1.0.0.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>This widget displays latest activity feed of users from Stack Overflow. Activities includes questions asked, answers, comments on questions and answers, and other public activity.<\/p>\n\n<p>The number of items in the activity feed can be configured from the latest 1 to 30 items.<\/p>",
+                "uid": "8886"
+            }
+        }
+    }
+}

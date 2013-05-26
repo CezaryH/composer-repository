@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/ccf-option-sort": {
+            "4.7.0": {
+                "name": "wordpress\/ccf-option-sort",
+                "version": "4.7.0",
+                "version_normalized": "4.7.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/ccf-option-sort.4.7.0.7.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>Adds admin menu and section for sorting form fields, drop down and radio group options. You must have Custom Contact Forms Plugin to use this as it helps sort options and form fields. With out this you would have to remove and add them in the order required wich can be time consuming if you have many fields with many options.<\/p>\n\nSpecial Features:\n\n<p>Shows all Drop Downs and Radios for sorting options, drag and drop to order them and save.<\/p>\n\n<ul>\n<li>Admin Menu to Order Form Fields in the form with out removing and adding.<\/li>\n<li>Admin Menu to Order Form Field Options in the field with out removing and adding.<\/li>\n<li>Form Explorer Short Code. [ccf_display_forms]<\/li>\n<li>Check for Custom Contact Forms Plugin, before running.<\/li>\n<li>Sortable via jQuery UI<\/li>\n<li>Edit All Form Field Options on one page.<\/li>\n<\/ul>\n\nRestrictions\/Requirements:\n\n<ul>\n<li>Custom Contact Forms 4.7.0+<\/li>\n<li>Works with Wordpress 3+<\/li>\n<li>PHP 5<\/li>\n<li>PHP register_globals and safe_mode sh",
+                "uid": "35199"
+            }
+        }
+    }
+}

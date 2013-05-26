@@ -1,0 +1,40 @@
+{
+    "packages": {
+        "wordpress\/fx-random-image": {
+            "1.0.1": {
+                "name": "wordpress\/fx-random-image",
+                "version": "1.0.1",
+                "version_normalized": "1.0.1.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/fx-random-image.1.0.1.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>Plugin creates widget that displays one random image from current page or post attached images, or from any page or post set by ID. You can set size of image to display.<\/p>\n\n<p>Displays a random image from post or page you specify. Plugin creates FX-Random-image widget. Use widget to add image to sidebar or add <code>&#60;?php FX_Random_Image($pageID, $link, $size); ?&#62;<\/code> function to theme. $pageID is page\/post ID from there to take images, if $link = true adds link to image, $link = false no link on image, $size - image size ('thumbnail', 'medium' or 'large'). Example <code>&#60;?php FX_Random_Image(1, false, 'large'); ?&#62;<\/code><\/p>",
+                "uid": "47009"
+            },
+            "1.0.2": {
+                "name": "wordpress\/fx-random-image",
+                "version": "1.0.2",
+                "version_normalized": "1.0.2.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/fx-random-image.1.0.2.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>Plugin creates widget that displays one random image from current page or post attached images, or from any page or post set by ID. You can set size of image to display.<\/p>\n\n<p>Displays a random image from post or page you specify. Plugin creates FX-Random-image widget. Use widget to add image to sidebar or add <code>&#60;?php FX_Random_Image($pageID, $link, $size); ?&#62;<\/code> function to theme. $pageID is page\/post ID from there to take images, if $link = true adds link to image, $link = false no link on image, $size - image size ('thumbnail', 'medium' or 'large'). Example <code>&#60;?php FX_Random_Image(1, false, 'large'); ?&#62;<\/code><\/p>",
+                "uid": "47008"
+            }
+        }
+    }
+}

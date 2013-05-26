@@ -1,0 +1,40 @@
+{
+    "packages": {
+        "wordpress\/galette-user-sync": {
+            "13.04": {
+                "name": "wordpress\/galette-user-sync",
+                "version": "13.04",
+                "version_normalized": "13.04.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/galette-user-sync.13.04.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>This plugin allow you to synchronize WordPress users into Gallette.\nIf the user does not exist in Galette, it will be created using WordPress user informations.\nIf the user already exist in Galette, the informations (not empty) of the WordPress user will replace fields in Galette.\nYou can easily configure which field or meta from WordPress user is mapped on which field in Galette.\nYou must specify before the synchronization which users you want to synchronise.\nThis plugin permit the SSO between WordPress and Galette<\/p>",
+                "uid": "9165"
+            },
+            "13.05": {
+                "name": "wordpress\/galette-user-sync",
+                "version": "13.05",
+                "version_normalized": "13.05.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/galette-user-sync.13.05.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>This plugin allow you to synchronize WordPress users into Gallette.\nIf the user does not exist in Galette, it will be created using WordPress user informations.\nIf the user already exist in Galette, the informations (not empty) of the WordPress user will replace fields in Galette.\nYou can easily configure which field or meta from WordPress user is mapped on which field in Galette.\nYou must specify before the synchronization which users you want to synchronise.\nThis plugin permit the SSO between WordPress and Galette<\/p>",
+                "uid": "9164"
+            }
+        }
+    }
+}

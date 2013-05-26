@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/webcam-comment": {
+            "0.2": {
+                "name": "wordpress\/webcam-comment",
+                "version": "0.2",
+                "version_normalized": "0.2.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/webcam-comment.0.2.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>Lets visitors easily grab webcam images of themselves directly on the site, and add that image to a comment. It will then show up as a thumbnail next to the comment and will show a bigger image when clicked.<\/p>\n\n<p>Features:\n* Let's the user attach and remove an image to the comment\n* Skinnable GUI (normal .png's)<\/p>\n\n<p>Requirements:\n* Flash Player\n* Javascript\n* \"Avatars\" (\"Show Avatars\" must be activated from the \"Discussion Settings\")\n* And of course a webcam<\/p>",
+                "uid": "93298"
+            }
+        }
+    }
+}

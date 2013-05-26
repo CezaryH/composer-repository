@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/pb-mailcrypt-antispam-email-encryption": {
+            "1.0.1": {
+                "name": "wordpress\/pb-mailcrypt-antispam-email-encryption",
+                "version": "1.0.1",
+                "version_normalized": "1.0.1.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/pb-mailcrypt-antispam-email-encryption.1.0.1.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>This Plugin provides you an easy to use Shortcode to encrypt email links and protect them against spam bots.<\/p>\n\n<p>MailCrypt Shortcode:<\/p>\n\n<pre><code>[mailcrypt email=&#34;name@example.com&#34; href=&#34;Alternative Contact Page URL&#34; title=&#34;A-Tag title  Attribute&#34;]<\/code><\/pre>\n\n<ul>\n<li>email = required<\/li>\n<li>href = optional<\/li>\n<li>title = optional<\/li>\n<\/ul>\n\n<p>You can also use a shorter variant of [mailcrypt] -&#62; [mail]<\/p>\n\n<p>If you have any questions or problems, you can ask me: <a href=\"https:\/\/www.pascal-bajorat.com\/\" title=\"Pascal Bajorat - Webdesigner \/ WordPress \/ WebDeveloper Berlin\">Pascal Bajorat - Webdesigner \/ WordPress \/ WebDeveloper<\/a><\/p>",
+                "uid": "11449"
+            }
+        }
+    }
+}

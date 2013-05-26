@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/tc-specify-search-form": {
+            "1.0": {
+                "name": "wordpress\/tc-specify-search-form",
+                "version": "1.0",
+                "version_normalized": "1.0.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/tc-specify-search-form.1.0.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>By default, the \"Search\" widget in WordPress will include the searchform.php template file in your theme (if it exists), or the search code in wp-includes\/general-template.php (if it doesn't). However, if you want a distinctive search form (or forms!) to use as a widget, this allows you to enter it in using the \"searchform-identifier.php\" format that you can use to distinguish other templates elsewhere in your theme.  You just have to have that file set up in your theme with the HTML you want to use.<\/p>\n\n<p>Example: If you want to have a distinct searchform file specifically for your widgets, create the template file and call it something like \"searchform-widget.php\" (what goes between the dash and the dot is up to you, so long as it meets filename requirements). In the \"Template\" field of the widget settings, enter only \"widget\", and that searchform file will be called in your widget automagically.<\/p>\n\n<p>Note: Actually coding the search form is up to you. That requires some them",
+                "uid": "17578"
+            }
+        }
+    }
+}

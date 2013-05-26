@@ -1,0 +1,40 @@
+{
+    "packages": {
+        "wordpress\/wp-google-ad-manager-plugin": {
+            "1.0.0": {
+                "name": "wordpress\/wp-google-ad-manager-plugin",
+                "version": "1.0.0",
+                "version_normalized": "1.0.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/wp-google-ad-manager-plugin.1.0.0.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>The Plugin allows to set your Ad Manager Publisher ID + up to ten fields with Ad Manager Slotnames and to call them from within your template, from within sidebar widgets and from within posts.\nFurther it comes with full support for custom targeting attributes, page-level attributes and slot-level attributes.<\/p>\n\n<p>For information and updates, please visit:\n<a href=\"http:\/\/www.bretteleben.de\" rel=\"nofollow\">http:\/\/www.bretteleben.de<\/a><\/p>\n\n<h4>Usage<\/h4>\n\n<p>After having set PublisherID and AdSlotNames at \"Settings\" &#62; \"Google Ad Manager\" in your Administration Interface put the calls:<\/p>\n\n<p>1) in your Template:\nTo call ads from within your template (above or below content, at a fixed position in your sidebar, and so on ...) insert the call directly into the sourcecode of the template.\nThe call comes as HTML-comment and looks such as:\n\nwhere \"field_to_use\" is one of the fields above: S0 - S9, so - to call field S1, the call would look such as: <\/p>\n\n<p>2) in your Posts:\nTo ",
+                "uid": "95365"
+            },
+            "1.1.0": {
+                "name": "wordpress\/wp-google-ad-manager-plugin",
+                "version": "1.1.0",
+                "version_normalized": "1.1.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/wp-google-ad-manager-plugin.1.1.0.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>The Plugin allows to set your Ad Manager Publisher ID + up to ten fields with Ad Manager Slotnames and to call them from within your template, from within sidebar widgets and from within posts.\nFurther it comes with full support for custom targeting attributes, page-level attributes and slot-level attributes.<\/p>\n\n<p>For information and updates, please visit:\n<a href=\"http:\/\/www.bretteleben.de\" rel=\"nofollow\">http:\/\/www.bretteleben.de<\/a><\/p>\n\n<h4>Usage<\/h4>\n\n<p>After having set PublisherID and AdSlotNames at \"Settings\" &#62; \"Google Ad Manager\" in your Administration Interface put the calls:<\/p>\n\n<p>1) in your Template:\nTo call ads from within your template (above or below content, at a fixed position in your sidebar, and so on ...) insert the call directly into the sourcecode of the template.\nThe call comes as HTML-comment and looks such as:\n\nwhere \"field_to_use\" is one of the fields above: S0 - S9, so - to call field S1, the call would look such as: <\/p>\n\n<p>2) in your Posts:\nTo ",
+                "uid": "95364"
+            }
+        }
+    }
+}

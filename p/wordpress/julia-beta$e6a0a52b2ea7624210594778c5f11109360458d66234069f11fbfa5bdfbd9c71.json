@@ -1,0 +1,40 @@
+{
+    "packages": {
+        "wordpress\/julia-beta": {
+            "0.9": {
+                "name": "wordpress\/julia-beta",
+                "version": "0.9",
+                "version_normalized": "0.9.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/julia-beta.0.9.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>JuLiA stands for Just a Linguistic Algorithm. This plugin checks your comments against the JuLiA web service, which supplies an abusiveness score for each comment. Based on this score, comments are auto-published, auto-deleted, or marked for review. Over time, scores are aggregated by commenter in order to generate abusiveness rankings and other statistics.<\/p>\n\n<p>When the plugin is activated, it will add an \"Abusive\" category to the top of your comments management screen. When JuLiA parses a comment and decides that it is abusive, it will be removed from your \"Pending\" category and placed into the \"Abusive\" category. In addition, when JuLiA decides that a comment is definitely clean then it will simply be auto-published and save you time by skipping the \"Pending\" category entirely.<\/p>\n\n<p>JuLiA makes these decisions based not on keywords, but on the overall semantics present in a single comment. For now, JuLiA works on <strong>English comments only.<\/strong><\/p>\n\n<h4>Settings:<\/h",
+                "uid": "91744"
+            },
+            "0.9.1": {
+                "name": "wordpress\/julia-beta",
+                "version": "0.9.1",
+                "version_normalized": "0.9.1.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/julia-beta.0.9.1.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>JuLiA stands for Just a Linguistic Algorithm. This plugin checks your comments against the JuLiA web service, which supplies an abusiveness score for each comment. Based on this score, comments are auto-published, auto-deleted, or marked for review. Over time, scores are aggregated by commenter in order to generate abusiveness rankings and other statistics.<\/p>\n\n<p>When the plugin is activated, it will add an \"Abusive\" category to the top of your comments management screen. When JuLiA parses a comment and decides that it is abusive, it will be removed from your \"Pending\" category and placed into the \"Abusive\" category. In addition, when JuLiA decides that a comment is definitely clean then it will simply be auto-published and save you time by skipping the \"Pending\" category entirely.<\/p>\n\n<p>JuLiA makes these decisions based not on keywords, but on the overall semantics present in a single comment. For now, JuLiA works on <strong>English comments only.<\/strong><\/p>\n\n<h4>Settings:<\/h",
+                "uid": "91743"
+            }
+        }
+    }
+}

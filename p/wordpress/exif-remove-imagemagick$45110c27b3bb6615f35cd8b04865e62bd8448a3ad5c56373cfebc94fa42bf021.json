@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/exif-remove-imagemagick": {
+            "1.0": {
+                "name": "wordpress\/exif-remove-imagemagick",
+                "version": "1.0",
+                "version_normalized": "1.0.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/exif-remove-imagemagick.1.0.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>The plugin affects the image while it is uploaded. Straight\nafter it is uploaded, all Exif data will be removed from the image.\nThere is no original image left, nor made a backup.\nThis plugin requires the ImageMagick php modules.<\/p>\n\n<p>Based on exif-remove by CupRacer\n<a href=\"http:\/\/www.mynakedgirlfriend.de\/wordpress\/exif-remove\/\" rel=\"nofollow\">http:\/\/www.mynakedgirlfriend.de\/wordpress\/exif-remove\/<\/a><\/p>\n\n<p>Uses code from imagemagick-enigine by orangelab\n<a href=\"http:\/\/wordpress.org\/extend\/plugins\/imagemagick-engine\/\" rel=\"nofollow\">http:\/\/wordpress.org\/extend\/plugins\/imagemagick-engine\/<\/a><\/p>\n\n<p>ATTENTION: This service is intended to save your privacy and \nshould not be used for illegal activity like copyright violations. \nYou are allowed to use this service for legal activity only, \nthis includes that you must have the explicit permission \nfrom the holder of rights to clean a file with this plugin!\nTo disable this plugin temporarily, just deactivate it within the\nExif-R",
+                "uid": "52304"
+            }
+        }
+    }
+}

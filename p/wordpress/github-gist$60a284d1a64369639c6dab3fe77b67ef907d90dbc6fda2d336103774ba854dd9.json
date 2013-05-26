@@ -1,0 +1,40 @@
+{
+    "packages": {
+        "wordpress\/github-gist": {
+            "1.0": {
+                "name": "wordpress\/github-gist",
+                "version": "1.0",
+                "version_normalized": "1.0.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/github-gist.1.0.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>GitHub Gist Wordpress Plugin allows you to embed <a href=\"http:\/\/gist.github.com\">GitHub Gist<\/a> snippets with a [gist] tag, instead of copying and pasting HTML. For example, to embed the <a href=\"http:\/\/gist.github.com\/447298.js?file=github_gist_wordpress_plugin_test.txt\">github_gist_wordpress_plugin_test.txt<\/a> file from <a href=\"http:\/\/gist.github.com\/447298.js\">gist: 447298<\/a>, fill in the id and file attributes in the [gist] tag:<\/p>\n\n<p>[gist id=447298 file=github_gist_wordpress_plugin_test.txt]<\/p>\n\n<p>or<\/p>\n\n<p>copy the embedding JavaScript code from GitHub and directly paste it in the body of the [gist] tag:<\/p>\n\n<p>[gist]<code>&#60;script src=\"http:\/\/gist.github.com\/447298.js?file=github_gist_wordpress_plugin_test.txt\"&#62;&#60;\/script&#62;<\/code>[\/gist].<\/p>\n\n<p>The [gist] tag also expands the content of the embedded Gist and wraps it with \"<code>&#60;noscript&#62;&#60;code&#62;&#60;pre&#62;<\/code>\" so that search engine spiders, users with javascript disabled and use",
+                "uid": "64580"
+            },
+            "1.1": {
+                "name": "wordpress\/github-gist",
+                "version": "1.1",
+                "version_normalized": "1.1.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/github-gist.1.1.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>GitHub Gist Wordpress Plugin allows you to embed <a href=\"http:\/\/gist.github.com\">GitHub Gist<\/a> snippets with a [gist] tag, instead of copying and pasting HTML. For example, to embed the <a href=\"http:\/\/gist.github.com\/447298.js?file=github_gist_wordpress_plugin_test.txt\">github_gist_wordpress_plugin_test.txt<\/a> file from <a href=\"http:\/\/gist.github.com\/447298.js\">gist: 447298<\/a>, fill in the id and file attributes in the [gist] tag:<\/p>\n\n<p>[gist id=447298 file=github_gist_wordpress_plugin_test.txt]<\/p>\n\n<p>or<\/p>\n\n<p>copy the embedding JavaScript code from GitHub and directly paste it in the body of the [gist] tag:<\/p>\n\n<p>[gist]<code>&#60;script src=\"http:\/\/gist.github.com\/447298.js?file=github_gist_wordpress_plugin_test.txt\"&#62;&#60;\/script&#62;<\/code>[\/gist].<\/p>\n\n<p>The [gist] tag also expands the content of the embedded Gist and wraps it with \"<code>&#60;noscript&#62;&#60;code&#62;&#60;pre&#62;<\/code>\" so that search engine spiders, users with javascript disabled and use",
+                "uid": "64579"
+            }
+        }
+    }
+}

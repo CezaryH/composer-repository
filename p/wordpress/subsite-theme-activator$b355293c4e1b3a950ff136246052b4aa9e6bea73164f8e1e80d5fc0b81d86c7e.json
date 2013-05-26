@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/subsite-theme-activator": {
+            "1": {
+                "name": "wordpress\/subsite-theme-activator",
+                "version": "1",
+                "version_normalized": "1.0.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/subsite-theme-activator.1.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>This plugin is designed to work with multisite networks where the same theme is used across all sites.\nAfter network enabling a new theme, a new action is available called \"Subsite Activate.\"\nClicking this action will enable the theme for every subsite.<\/p>",
+                "uid": "27928"
+            }
+        }
+    }
+}

@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/posts-page-custom-template": {
+            "1.0": {
+                "name": "wordpress\/posts-page-custom-template",
+                "version": "1.0",
+                "version_normalized": "1.0.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/posts-page-custom-template.1.0.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>When setting the 'Posts Page:' to a custom page within the 'Reading' settings of Wordpress, it will by default, ignore that page's set template.<\/p>\n\n<p>\"Posts page - Select in the drop-down box the name of the Page that will now contain your Posts... any Template assigned the Page will be ignored and the theme's index.php (or home.php if it exists) will control the display of the posts.\"<\/p>\n\n<p>Reference: <a href=\"http:\/\/codex.wordpress.org\/Settings_Reading_SubPanel\" rel=\"nofollow\">http:\/\/codex.wordpress.org\/Settings_Reading_SubPanel<\/a><\/p>\n\n<p>Plugin resolves the above issue, allowing Wordpress to use the custom template set for that specific page.<\/p>",
+                "uid": "10455"
+            }
+        }
+    }
+}

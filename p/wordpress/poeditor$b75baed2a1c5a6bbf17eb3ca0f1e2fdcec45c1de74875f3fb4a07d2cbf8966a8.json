@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/poeditor": {
+            "0.9.1": {
+                "name": "wordpress\/poeditor",
+                "version": "0.9.1",
+                "version_normalized": "0.9.1.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/poeditor.0.9.1.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>This plugin will let you manage your POEditor translations directly from WordPress via the POEditor API.<\/p>\n\n<p>It will fetch all your projects from POEditor.com, based on your API KEY, and it will scan your \/wp-content\/ folder for gettext language files (.po and .pot). After this, you can assign files from your wordpress themes or plugins to your POEditor language files and you can import, export or sync your files with the POEditor translations.<\/p>",
+                "uid": "8922"
+            }
+        }
+    }
+}

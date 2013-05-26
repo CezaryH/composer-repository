@@ -1,0 +1,40 @@
+{
+    "packages": {
+        "wordpress\/twitter-sub-heading": {
+            "0.01": {
+                "name": "wordpress\/twitter-sub-heading",
+                "version": "0.01",
+                "version_normalized": "0.01.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/twitter-sub-heading.0.01.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>This plugin will let you enter your twitter username and every 5 minutes will download your latest Twitter status \nand then show it as the blogs sub-heading. Please not that you must have a... <code>&#60;?php bloginfo('description'); ?&#62;<\/code> in \nyour themes header file before this plugin will work.<\/p>\n\n<p>This plugin is extremely simple, in fact the entire plugin itself is under 100 lines of code. Once you add the \nadministration panel then the code lines goes up to about 200. This plugin is entirely secure as it gets no data \nfrom a any user of your blog. For example the only input that this plugin takes is the Twitter username that you \nwant to get the latest status of. This plugin does  not need you password and so makes it even more secure. As I \nsaid above I did have to limit the amount of calls to the twitter API. You can of course change this from the \nadministration panel, It is possible to put it to update every minute however in cases that the Twitter server \nload i",
+                "uid": "75846"
+            },
+            "0.2": {
+                "name": "wordpress\/twitter-sub-heading",
+                "version": "0.2",
+                "version_normalized": "0.2.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/twitter-sub-heading.0.2.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>This plugin will let you enter your twitter username and every 5 minutes will download your latest Twitter status \nand then show it as the blogs sub-heading. Please not that you must have a... <code>&#60;?php bloginfo('description'); ?&#62;<\/code> in \nyour themes header file before this plugin will work.<\/p>\n\n<p>This plugin is extremely simple, in fact the entire plugin itself is under 100 lines of code. Once you add the \nadministration panel then the code lines goes up to about 200. This plugin is entirely secure as it gets no data \nfrom a any user of your blog. For example the only input that this plugin takes is the Twitter username that you \nwant to get the latest status of. This plugin does  not need you password and so makes it even more secure. As I \nsaid above I did have to limit the amount of calls to the twitter API. You can of course change this from the \nadministration panel, It is possible to put it to update every minute however in cases that the Twitter server \nload i",
+                "uid": "75847"
+            }
+        }
+    }
+}

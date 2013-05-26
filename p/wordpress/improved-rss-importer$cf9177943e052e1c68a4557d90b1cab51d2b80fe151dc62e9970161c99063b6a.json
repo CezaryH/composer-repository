@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/improved-rss-importer": {
+            "0.1": {
+                "name": "wordpress\/improved-rss-importer",
+                "version": "0.1",
+                "version_normalized": "0.1.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/improved-rss-importer.0.1.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>An improved RSS importer with true XML support. It is an improvement over the standard word-press RSS importer.<\/p>\n\n<p>Improvements<\/p>\n\n<ul>\n<li>CDATA blocks are properly supported<\/li>\n<li>enclosure tags are preserved<\/li>\n<li>XML parser is used instead of regular expressions for greater speed and accuracy.<\/li>\n<\/ul>",
+                "uid": "50429"
+            }
+        }
+    }
+}

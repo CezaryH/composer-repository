@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/geojson-maps": {
+            "0.1": {
+                "name": "wordpress\/geojson-maps",
+                "version": "0.1",
+                "version_normalized": "0.1.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/geojson-maps.0.1.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>GeoJSON Maps facilitates displaying multiple GeoJSON feeds on a map.  It has a custom legend to toggle on\/off each data layer.  The map can be displayed on a Wordpress post or page via a short code.  All you need is some <a href=\"http:\/\/geojson.org\/\">GeoJSON<\/a> feeds (both json and jsonp) and some styling markup.  See <a href=\"http:\/\/demo.planningpress.org\/map\/\">here<\/a> for a demo.<\/p>\n\n<p>GeoJSON Maps uses <a href=\"https:\/\/github.com\/openplans\/argo\">Argo<\/a>.  Its configuration is provided <a href=\"https:\/\/github.com\/openplans\/argo\/wiki\/Configuration-Guide\">here<\/a>.  Take note of the \"rules\" and \"popupContent\" items to be entered when setting up a layer.  So, in the Schools layer from the <a href=\"http:\/\/demo.planningpress.org\/map\/\">demo<\/a>, \"Layer Rules\" is set to:<\/p>\n\n<pre><code>[{\n  condition: '\"{{LOCLEVEL}}\" === \"Elementary School\"',\n  style: {color: 'green', radius: 3, opacity: 0.9, fillOpacity: 0.2}\n},\n{\n  condition: '\"{{LOCLEVEL}}\" === \"Middle Secondary\"',\n  style: {col",
+                "uid": "19272"
+            }
+        }
+    }
+}

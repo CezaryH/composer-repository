@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/quick-reply-template": {
+            "0.6": {
+                "name": "wordpress\/quick-reply-template",
+                "version": "0.6",
+                "version_normalized": "0.6.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/quick-reply-template.0.6.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>This plugin allows you to specify a default text for the \"quick reply\" feature in Wordpress 2.8+.<\/p>\n\n<p>The template can contain the comment author's fullname, first name, link to the original comment and any other characters, spaces, symbols etc.<\/p>",
+                "uid": "96319"
+            }
+        }
+    }
+}

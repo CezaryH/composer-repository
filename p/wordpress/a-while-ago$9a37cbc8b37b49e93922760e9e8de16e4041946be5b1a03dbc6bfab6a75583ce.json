@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/a-while-ago": {
+            "0.1": {
+                "name": "wordpress\/a-while-ago",
+                "version": "0.1",
+                "version_normalized": "0.1.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/a-while-ago.0.1.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>Show timestamp for a post or page using a relative description (e.g. \"Hours ago\", \"5 days ago\"). The strings can be be changed easily for translations, and custom text can be prepended or appended to the timestamp.<\/p>\n\n<p>The rules for the descriptions are (along with the default strings):<\/p>\n\n<ul>\n<li>Within the last 60 minutes: \"Moments ago\"<\/li>\n<li>Within the last 8 hours: \"Hours ago\"<\/li>\n<li>Today: \"Today\"<\/li>\n<li>Yesterday: \"Yesterday\"<\/li>\n<li>3-6 days ago: \"4 days ago\"<\/li>\n<li>1-8 weeks ago: \"5 weeks ago\"<\/li>\n<li>2-11 months ago: \"7 months ago\"<\/li>\n<li>1-4 years ago: \"2 years 5 months ago\"  <\/li>\n<li>4 or more years ago: \"4 years ago\"<\/li>\n<\/ul>",
+                "uid": "7254"
+            }
+        }
+    }
+}

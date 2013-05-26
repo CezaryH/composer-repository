@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/weasels-authorshare": {
+            "2.0": {
+                "name": "wordpress\/weasels-authorshare",
+                "version": "2.0",
+                "version_normalized": "2.0.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/weasels-authorshare.2.0.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>A plugin that allows you to display a percentage share of the published database per author. Strongly recommend <a href=\"http:\/\/www.im-web-gefunden.de\/wordpress-plugins\/role-manager\/\">Role Manager<\/a> plugin for full functionality.<\/p>\n\n<p>This plugin should be completely self contained and work totally on its own without source editing. It will add an admin panel named \"Author Share\" underneath the USERS tab, and will create two new user capabilities to Red Alt's User Roles plugin.If you do not have this plugin, you can manually call the percentage generating function like so:<\/p>\n\n<pre><code>wz_authorshare(USER_ID,[preface override],[postface override]);\n<\/code><\/pre>\n\n<p>or<\/p>\n\n<pre><code>wz_authorshare_top10(PRE, POST, DECIMALS, SHOWALL, PUBLICUSERS);\n<\/code><\/pre>\n\n<p>(see installation section for parameter descriptions)<\/p>",
+                "uid": "108078"
+            }
+        }
+    }
+}

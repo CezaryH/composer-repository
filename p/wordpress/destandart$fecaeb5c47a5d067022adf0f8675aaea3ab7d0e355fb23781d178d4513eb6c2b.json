@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/destandart": {
+            "0.1": {
+                "name": "wordpress\/destandart",
+                "version": "0.1",
+                "version_normalized": "0.1.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/destandart.0.1.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>Replaces \"standart\" by \"standard\" and \"Euronen\", \"Teuro\", \"Teuronen\" by Euro.<\/p>\n\n<p>Probably the weirdest plugin I ever wrote, but somehow the \"Standart\"-Typo drives me nuts.<\/p>\n\n<h4>This plugin<\/h4>\n\n<p>The 'correction' is done when rendering the comments, not in the \ndatabase - replacing is hence reversible, by disabling the plugin.<\/p>",
+                "uid": "70553"
+            }
+        }
+    }
+}

@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/ubb-master": {
+            "0.1.0": {
+                "name": "wordpress\/ubb-master",
+                "version": "0.1.0",
+                "version_normalized": "0.1.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/ubb-master.0.1.0.0.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>UBB Master provides a way to add your own ubb code in your posts, excerpts and your comments.<\/p>\n\n<p><strong>What is ubb code:<\/strong><\/p>\n\n<p>A typical UBB code looks like this:\n[search]put your keyword here...[\/search]<\/p>\n\n<p><strong>And here are the rules to play:<\/strong><\/p>\n\n<p>You can use following marks to replace this ubb code with your own format:<\/p>\n\n<p>!{content}: the content between [ubb] and [\/ubb].<\/p>\n\n<p>!{encoded_content}: the content encoded by urlencode, you may need it in forming a url.<\/p>\n\n<p>!{attr:attribute_name}: the attribute called attribute_name.<\/p>\n\n<p>!{encoded_attr:attribute_name}: the attribute encoded by urlencode.<\/p>\n\n<p><strong>For example:<\/strong><\/p>\n\n<p>&#60;a target=&#34;blank&#34; href=&#34;http:\/\/www.google.com\/search?ie=UTF-8&#38;q=!{encoded_content}&#34;&#62;!{content}&#60;\/a&#62;<\/p>\n\n<p>Then the example ubb code above will be replaced by this:<\/p>\n\n<p>&#60;a target=&#34;blank&#34; href=&#34;http:\/\/www.google.com\/search?ie=UTF-8&#3",
+                "uid": "51320"
+            }
+        }
+    }
+}

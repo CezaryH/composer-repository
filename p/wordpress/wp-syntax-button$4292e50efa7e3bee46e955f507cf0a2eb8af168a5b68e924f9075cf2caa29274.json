@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/wp-syntax-button": {
+            "0.1": {
+                "name": "wordpress\/wp-syntax-button",
+                "version": "0.1",
+                "version_normalized": "0.1.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/wp-syntax-button.0.1.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>This plugin is designed to work with WP-Syntax (<a href=\"http:\/\/wordpress.org\/extend\/plugins\/wp-syntax\/\" rel=\"nofollow\">http:\/\/wordpress.org\/extend\/plugins\/wp-syntax\/<\/a>).\nIt is in fact a copy\/paste of CodeColorer TinyMCE Button adapted for wp-syntax, but it takes in consideration that wp-syntax allows you to specify the first line number.<\/p>\n\n<p>This plugin also corrects a disagreement when switching editor mode. When you use wp-syntax you have to write in HTML editor since line argument is removed by Visual Editor... This is no longer the case.<\/p>\n\n<p>Note that now, you \"must\" write your code in Visual Editor : the plugin automatically adds <code>escaped=\"true\"<\/code> to &#60;pre&#62; tag. If you write your code in HTML editor, you have to encode HTML entities.<\/p>",
+                "uid": "89080"
+            }
+        }
+    }
+}

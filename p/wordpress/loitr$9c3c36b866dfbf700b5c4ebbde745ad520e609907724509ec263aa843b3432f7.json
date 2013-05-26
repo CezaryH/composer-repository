@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/loitr": {
+            "1.3": {
+                "name": "wordpress\/loitr",
+                "version": "1.3",
+                "version_normalized": "1.3.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/loitr.1.3.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>The Wordpress Loitr Plugin is an authentication plugin for logging in into Wordpress. Features include:<\/p>\n\n<ol>\n<li><p>Login into Wordpress dashboard by a scan of a QR code using a smartphone<\/p><\/li>\n<li><p>Loitr does not store or ask for your Wordpress login username or password on the phone or anywhere else<\/p><\/li>\n<li><p>Block lost phones with a single click<\/p><\/li>\n<li><p>Available for iPhones and Android phones<\/p><\/li>\n<\/ol>\n\n<p>All your collaborators have to do is download the Loitr app on their phones(Android &#38; iPhone) and scan the activation QR once (available in their Dashboard once the plugin is activated). They can login the next time just by scanning the login QR visible on the login page of your blog.<\/p>\n\n<p>The activation &#38; login process for collaborators is <a href='http:\/\/youtu.be\/EYwhc8mKr1o'>shown here<\/a>.<\/p>",
+                "uid": "9290"
+            }
+        }
+    }
+}

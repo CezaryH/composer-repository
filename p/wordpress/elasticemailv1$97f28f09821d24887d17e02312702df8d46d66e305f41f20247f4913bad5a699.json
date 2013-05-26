@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/elasticemailv1": {
+            "1.0": {
+                "name": "wordpress\/elasticemailv1",
+                "version": "1.0",
+                "version_normalized": "1.0.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/elasticemailv1.1.0.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>The problem: SMTP email delivery by some hosting providers can be extremely slow.  This plugin reconfigures the wp_mail() function to send email using HTTPS (via Elasticemail API) instead of SMTP and creates an options page that allows you to specify various options.<\/p>\n\n<p><strong>Plugin Settings Options:<\/strong><\/p>\n\n<ul>\n<li>Enable or Disable Plugin.<\/li>\n<li>Elasticemail API username<\/li>\n<li>Elasticemail assigned API Key<\/li>\n<li>Elasticemail REST API URL<\/li>\n<li>Your account channel variable(optional)<\/li>\n<\/ul>",
+                "uid": "37490"
+            }
+        }
+    }
+}

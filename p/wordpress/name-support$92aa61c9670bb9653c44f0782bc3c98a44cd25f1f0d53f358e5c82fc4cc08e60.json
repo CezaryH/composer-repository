@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/name-support": {
+            "0.1": {
+                "name": "wordpress\/name-support",
+                "version": "0.1",
+                "version_normalized": "0.1.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/name-support.0.1.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>If you need to implement a custom post type for human beings, where in lieu of a title you need a <em>name<\/em>, this plugin will add the proper UI. See screenshots for an example.<\/p>\n\n<h4>Usage<\/h4>\n\n<p>When creating your custom post type, just make sure you specify <code>name<\/code> as one of the post type's features. (As of version 0.1, the <code>title<\/code> feature, quite counterintuitively, is also required as in the example below.)<\/p>\n\n<pre><code>register_post_type( &#039;people&#039;, array(\n    &#039;label&#039; =&#62; &#039;People&#039;,\n    &#039;supports&#039; =&#62; array( &#039;title&#039;, &#039;name&#039;, ... )\n    ...\n) );<\/code><\/pre>\n\n<p>Name Support also gives you the template tags <code>the_name()<\/code> and <code>get_the_name()<\/code> which prints or returns the name in \"[First Name] [Last Name]\" format.<\/p>\n\n<p>Development of this plugin was supported by the <a href=\"http:\/\/arts.mit.edu\/\">Arts at MIT<\/a>.<\/p>",
+                "uid": "33074"
+            }
+        }
+    }
+}

@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/wp-websnapr-thumbs": {
+            "0.0.1": {
+                "name": "wordpress\/wp-websnapr-thumbs",
+                "version": "0.0.1",
+                "version_normalized": "0.0.1.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/wp-websnapr-thumbs.0.0.1.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>WP Websnapr Thumbs is the most easy way to decorate your postings with a nice snapshot.<\/p>\n\n<p>For a simple thumbnail just do something like:<\/p>\n\n<p>[wst]http:\/\/urlToWebsite.tld[\/wst]<\/p>\n\n<p>The default class for the thumbnail is 'alignleft' which will make the thumbnail\nfloat to the left of your post. If you want to make it float to\nthe right ('alignright'), do it like that instead:<\/p>\n\n<p>[wst]r <a href=\"http:\/\/urlToWebsite.tld\/wst\" rel=\"nofollow\">http:\/\/urlToWebsite.tld\/wst<\/a><\/p>\n\n<p>It's simple as that, yes. Just put an 'r' infront of the URL. :)<\/p>\n\n\n\n<p>To LINK the thumbnail to the page it's showing do it like that:<\/p>\n\n<p>[wstlink]http:\/\/urlToWebsite.tld[\/wstlink]<\/p>\n\n<p>respectively:<\/p>\n\n<p>[wstlink]r <a href=\"http:\/\/urlToWebsite.tld\/wstlink\" rel=\"nofollow\">http:\/\/urlToWebsite.tld\/wstlink<\/a><\/p>\n\n<p>if you want it to float right.<\/p>\n\n<p>'alignleft' and 'alignright' are Standard-classes in Wordpress, if however your theme\ncomes without them you may have to create ",
+                "uid": "83842"
+            }
+        }
+    }
+}

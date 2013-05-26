@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/cornify-for-wordpress": {
+            "1.0": {
+                "name": "wordpress\/cornify-for-wordpress",
+                "version": "1.0",
+                "version_normalized": "1.0.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/cornify-for-wordpress.1.0.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>This plugin will cornify (cornify.com) your website. If the user doesn't interact with the site for 5 seconds (default) the site will show unicorns\nuntil they interact with the site again. This was developed primarily as an april fools joke.<\/p>",
+                "uid": "50163"
+            }
+        }
+    }
+}

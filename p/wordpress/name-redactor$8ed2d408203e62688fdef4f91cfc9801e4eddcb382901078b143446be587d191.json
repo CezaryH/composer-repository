@@ -1,0 +1,40 @@
+{
+    "packages": {
+        "wordpress\/name-redactor": {
+            "1.0.0": {
+                "name": "wordpress\/name-redactor",
+                "version": "1.0.0",
+                "version_normalized": "1.0.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/name-redactor.1.0.0.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>Note: This plugin requires at least version 3.3 of Wordpress.<\/p>\n\n<p>The Name Redactor is a Wordpress plugin which allows Wordpress users to \nhide personal data from search engines. As the name of the plugin implies, \nthe type of content we are talking about in this context are personal \nnames. The plugin works by checking whether the visitor to the site is \nhuman or a search engine robot. If the visitor is a search engine robot, \nthe plugin will redact any personal names before delivering the content, \nreplacing them with the text <em>[redacted]<\/em>. To human visitors, the names \nwill appear as normal.<\/p>\n\n<h3>Purpose of the Name Redactor<\/h3>\n\n<p>The web is full of personal names, which is usually attached to some \ncontextual data (e.g. utterances, images, etc.). If these personal names \nare indexed by search engines, along with the contextual \ndata attached to them, both will be discoverable by anyone searching for a \nspecific name. While some such discoveries may be beneficia",
+                "uid": "9324"
+            },
+            "1.0.1": {
+                "name": "wordpress\/name-redactor",
+                "version": "1.0.1",
+                "version_normalized": "1.0.1.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/name-redactor.1.0.1.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>Note: This plugin requires at least version 3.3 of Wordpress.<\/p>\n\n<p>The Name Redactor is a Wordpress plugin which allows Wordpress users to \nhide personal data from search engines. As the name of the plugin implies, \nthe type of content we are talking about in this context are personal \nnames. The plugin works by checking whether the visitor to the site is \nhuman or a search engine robot. If the visitor is a search engine robot, \nthe plugin will redact any personal names before delivering the content, \nreplacing them with the text <em>[redacted]<\/em>. To human visitors, the names \nwill appear as normal.<\/p>\n\n<h3>Purpose of the Name Redactor<\/h3>\n\n<p>The web is full of personal names, which is usually attached to some \ncontextual data (e.g. utterances, images, etc.). If these personal names \nare indexed by search engines, along with the contextual \ndata attached to them, both will be discoverable by anyone searching for a \nspecific name. While some such discoveries may be beneficia",
+                "uid": "9323"
+            }
+        }
+    }
+}

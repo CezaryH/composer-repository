@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/simple-archive-generator": {
+            "5.2": {
+                "name": "wordpress\/simple-archive-generator",
+                "version": "5.2",
+                "version_normalized": "5.2.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/simple-archive-generator.5.2.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>A very simple (to use and configure), yet powerful, plug-in to generate a list (by category) of all posts.\nIt's simple because there is no fancy formatting, complex configuration or other 'noise', just a sensible archive list of all your posts! All that's required is to include this <code>&#60;!-- simple_archive --&#62;<\/code> on a page (or post).  How simple is that?<\/p>\n\n<ul>\n<li>Posts can be listed under every category, or just the first category they are filed under.<\/li>\n<li>Categories can be hierarchically listed.<\/li>\n<li>Categories can be sorted alphabetically or by creation order, while posts are listed chronologically.<\/li>\n<li>A comment count for each post can be displayed.<\/li>\n<li>Also, some simple statistics may also be shown.<\/li>\n<\/ul>",
+                "uid": "108070"
+            }
+        }
+    }
+}

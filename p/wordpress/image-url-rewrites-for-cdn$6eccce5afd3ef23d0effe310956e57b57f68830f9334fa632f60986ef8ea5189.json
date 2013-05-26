@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/image-url-rewrites-for-cdn": {
+            "1.0": {
+                "name": "wordpress\/image-url-rewrites-for-cdn",
+                "version": "1.0",
+                "version_normalized": "1.0.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/image-url-rewrites-for-cdn.1.0.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>Many websites use a CDN (Content Delivery Network) service for their library data, such as images. These images then load from a CDN server and optimize the site\/blog's performance.\nWhen you start using a CDN service, you have to update URLs of all your images, for example if the previous URL was <a href=\"http:\/\/www.your-site.com\/\" rel=\"nofollow\">http:\/\/www.your-site.com\/<\/a> it should now be converted to <a href=\"http:\/\/cdn.your-site.com\/image.jpg...\" rel=\"nofollow\">http:\/\/cdn.your-site.com\/image.jpg...<\/a>. jeez, changing URLs of all your images sounds like a hectic task, doesn't it? Thanks to the latest plugin we have made for you, it is not a major task at all.\non disabling the plugin your image urls will be reverted back to your default site links.\nNote: The image URL rewrites works only inside the post content and can be undone anytime by disabling the plugin.\nThis plugin is powered by <a href=\"http:\/\/www.designzzz.com\/\" title=\"Wordpress Tutorials and Resources\">Designzzz<\/a><",
+                "uid": "23375"
+            }
+        }
+    }
+}

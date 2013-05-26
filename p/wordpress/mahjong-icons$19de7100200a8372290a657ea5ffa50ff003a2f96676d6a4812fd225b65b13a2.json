@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/mahjong-icons": {
+            "1.0": {
+                "name": "wordpress\/mahjong-icons",
+                "version": "1.0",
+                "version_normalized": "1.0.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/mahjong-icons.1.0.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>This is a simple plugin that replaces mahjong tile expressions in your posts or comments to the mahjong tile icon images.<\/p>\n\n<p>Supported expressions are following:<\/p>\n\n<ul>\n<li>[1p], [2p], ...[9p] : 1-9 dots (pin-zu)<\/li>\n<li>[1s], [2s], ...[9s] : 1-9 bamboos (so-zu)<\/li>\n<li>[1m], [2m], ...[9m] : 1-9 characters (man-zu)<\/li>\n<li>[5pr], [5sr], [5mr] : red 5's (aka-wo)<\/li>\n<li>[ton]               : East  (ton)<\/li>\n<li>[nan]               : South (nan)<\/li>\n<li>[sha]               : West  (sha)<\/li>\n<li>[pei]               : North (pei)<\/li>\n<li>[hak]               : White (haku)<\/li>\n<li>[hat]               : Green (hatsu)<\/li>\n<li>[chu]               : Red   (chun)<\/li>\n<li>[ura]               : Backside (ura)<\/li>\n<\/ul>\n\n<p>Adding 'l'(landscape) after each expression shows the 90-degree-rotated image. For example, [1pl] shows rotated [1p] image.<\/p>\n\n<p>You can escape the expression by adding another braces like [[1p]].<\/p>\n\n<p>All icons are from the website <a href=\"http:\/\/w",
+                "uid": "88913"
+            }
+        }
+    }
+}

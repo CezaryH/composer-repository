@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/x-valid": {
+            "1.0": {
+                "name": "wordpress\/x-valid",
+                "version": "1.0",
+                "version_normalized": "1.0.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/x-valid.1.0.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>This plugin attempts to take arbitrary posts and comments and transform them into valid XHTML, a standard that describes how web-pages should be written. While not the be-all-and-end-all of web development, it is still important as it helps to ensure that content appears as you would expect in Internet Explorer as well as <a href=\"http:\/\/www.mozilla.org\/products\/firefox\/\">better browsers<\/a>. Wordpress itself is already XHTML valid, but the same cannot be necessarily be said of post content itself. It is especially hard (that is, impossible) to guarantee that your comment posters will conform to these standards, which could theoretically lead to your site displaying incorrectly.<\/p>\n\n<p>It covers a wide range of markup errors, and is configurable via a menu interface which can be found as a Plugins submenu.<\/p>\n\n<p>Many thanks to Andy Skelton for a major contribution in upgrading X-Valid to use WordPress' API.<\/p>",
+                "uid": "115110"
+            }
+        }
+    }
+}

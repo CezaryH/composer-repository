@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/liturgical-year-themes": {
+            "1.1": {
+                "name": "wordpress\/liturgical-year-themes",
+                "version": "1.1",
+                "version_normalized": "1.1.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/liturgical-year-themes.1.1.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>Churches that follow the liturgy change their sanctuary aesthetics according to the liturgical date or season. This plugin uses CSS to allow these same changes to be made to a website's theme. The Liturgical Year Themes Wordpress plugin uses the date() and easter_days() php functions to calculate the current liturgical day or season. A correlating CSS file is loaded which allows the designer to override their default theme with one fitting for the current time on the Christian calendar. The plugin also provides the option of printing the day or season's title in the document markup. The Liturgical Year Themes plugin is targeted at church websites, but can also be useful for journals and blogs that value the liturgy.<\/p>\n\n<p>Currently includes:\nadvent.css\nthird-week-of-advent.css\nchristmas-eve.css\nchristmas.css\nepiphany.css\nafter-epiphany.css\ntransfiguration.css\nash-wednesday.css\nlent.css\npalm-sunday.css\nmaundy-thursday.css\ngood-friday.css\nholy-saturday.css\nresurrection-sunday.css\nea",
+                "uid": "96668"
+            }
+        }
+    }
+}

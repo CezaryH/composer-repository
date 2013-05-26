@@ -1,0 +1,40 @@
+{
+    "packages": {
+        "wordpress\/db-youtube-rss": {
+            "0.1": {
+                "name": "wordpress\/db-youtube-rss",
+                "version": "0.1",
+                "version_normalized": "0.1.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/db-youtube-rss.0.1.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>Plugin display widget with latest videos from user channel.<\/p>\n\n<p>At the admin panel - 'Settings-&#62;DB YouTube RSS' you can set up username, number of thumbnails and width of thumbnail.<\/p>\n\n<p>There are two way to display this list: activate widget DB YouTube RSS or place <code>&#60;?php if(function_exists('db_yt_rss_markup')) { db_yt_rss_markup(); }; ?&#62;<\/code> in your templates.<\/p>",
+                "uid": "54892"
+            },
+            "0.2": {
+                "name": "wordpress\/db-youtube-rss",
+                "version": "0.2",
+                "version_normalized": "0.2.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/db-youtube-rss.0.2.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>Plugin display widget with latest videos from user channel.<\/p>\n\n<p>At the admin panel - 'Settings-&#62;DB YouTube RSS' you can set up username, number of thumbnails and width of thumbnail.<\/p>\n\n<p>There are two way to display this list: activate widget DB YouTube RSS or place <code>&#60;?php if(function_exists('db_yt_rss_markup')) { db_yt_rss_markup(); }; ?&#62;<\/code> in your templates.<\/p>",
+                "uid": "54891"
+            }
+        }
+    }
+}

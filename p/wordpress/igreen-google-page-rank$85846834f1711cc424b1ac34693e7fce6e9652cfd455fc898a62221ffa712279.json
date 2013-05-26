@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/igreen-google-page-rank": {
+            "1.0": {
+                "name": "wordpress\/igreen-google-page-rank",
+                "version": "1.0",
+                "version_normalized": "1.0.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/igreen-google-page-rank.1.0.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>This Plugin lets you know your Google Page Rank. This offer several ways to integrate in your blog you can use widgets , short code or plugin API.<\/p>\n\n<p>As using this you can get Google Page Rank in php variable so you can easily integrate and customize look of your Google Page Rank.<\/p>\n\n<ol>\n<li><p>To Print Google Page Rank using short code<\/p>\n\n<pre><code>[GOOGLEPAGERANK]\n<\/code><\/pre><\/li>\n<li><p>To Print Google Page Rank in your theme<\/p>\n\n<pre><code>echo getGooglePageRank();\n\nor\n\nGooglePageRank();\n<\/code><\/pre><\/li>\n<li><p>To Print Google Page Rank of a website using theme<\/p>\n\n<pre><code>echo getGooglePageRankbySiteName(\"www.susheelonline.com\");\n\nor \n\ngetGooglePageRank(\"www.susheelonline.com\");\n<\/code><\/pre><\/li>\n<li><p>To print Google Page Rank in side bar<\/p>\n\n<pre><code>use widget Igreen Google Page Rank Widget\n<\/code><\/pre><\/li>\n<\/ol>",
+                "uid": "7145"
+            }
+        }
+    }
+}

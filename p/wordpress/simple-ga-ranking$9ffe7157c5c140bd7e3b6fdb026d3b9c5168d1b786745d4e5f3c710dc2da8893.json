@@ -1,0 +1,57 @@
+{
+    "packages": {
+        "wordpress\/simple-ga-ranking": {
+            "1.0": {
+                "name": "wordpress\/simple-ga-ranking",
+                "version": "1.0",
+                "version_normalized": "1.0.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/simple-ga-ranking.1.0.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>Ranking plugin using data from google analytics.<\/p>\n\n<h4>How use<\/h4>\n\n<ol>\n<li>Google analytics settings from the management screen(http:\/\/path\/to\/wordpress\/wp-admin\/options-general.php?page=sga_ranking)<\/li>\n<li>Set shortcode <code>[sga_ranking]<\/code>, then show ranking.<\/li>\n<li>you can filter a ranking for post_type and Taxonomies. Example, <code>[sga_ranking post_type=\"post,page\"]<\/code>,<code>[sga_ranking post_type=\"post\" category__in=\"wordpress\"]<\/code><\/li>\n<li>Parameters that can be used in the shortcode are as follows:<code>post_type<\/code>, <code>exclude_post_type<\/code>, <code>'taxonomy_slug'__in<\/code>, <code>'taxonomy_slug'__not_in<\/code>. Set the value to the slug.<\/li>\n<li>It provides <code>sga_ranking_get_date( $args = array() )<\/code> function  for those who want to customize from the HTML of the ranking.<\/li>\n<\/ol>\n\n<h4>Translators<\/h4>\n\n<ul>\n<li>Japanese(ja) - <a href=\"http:\/\/twitter.com\/horike37\">Horike Takahiro<\/a><\/li>\n<\/ul>\n\n<p>You can send your own languag",
+                "uid": "10973"
+            },
+            "1.1": {
+                "name": "wordpress\/simple-ga-ranking",
+                "version": "1.1",
+                "version_normalized": "1.1.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/simple-ga-ranking.1.1.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>Ranking plugin using data from google analytics.<\/p>\n\n<h4>How use<\/h4>\n\n<ol>\n<li>Google analytics settings from the management screen(http:\/\/path\/to\/wordpress\/wp-admin\/options-general.php?page=sga_ranking)<\/li>\n<li>Set shortcode <code>[sga_ranking]<\/code>, then show ranking.<\/li>\n<li>you can filter a ranking for post_type and Taxonomies. Example, <code>[sga_ranking post_type=\"post,page\"]<\/code>,<code>[sga_ranking post_type=\"post\" category__in=\"wordpress\"]<\/code><\/li>\n<li>Parameters that can be used in the shortcode are as follows:<code>post_type<\/code>, <code>exclude_post_type<\/code>, <code>'taxonomy_slug'__in<\/code>, <code>'taxonomy_slug'__not_in<\/code>. Set the value to the slug.<\/li>\n<li>It provides <code>sga_ranking_get_date( $args = array() )<\/code> function  for those who want to customize from the HTML of the ranking.<\/li>\n<\/ol>\n\n<h4>Translators<\/h4>\n\n<ul>\n<li>Japanese(ja) - <a href=\"http:\/\/twitter.com\/horike37\">Horike Takahiro<\/a><\/li>\n<\/ul>\n\n<p>You can send your own languag",
+                "uid": "10971"
+            },
+            "1.2": {
+                "name": "wordpress\/simple-ga-ranking",
+                "version": "1.2",
+                "version_normalized": "1.2.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/simple-ga-ranking.1.2.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>Ranking plugin using data from google analytics.<\/p>\n\n<h4>How use<\/h4>\n\n<ol>\n<li>Google analytics settings from the management screen(http:\/\/path\/to\/wordpress\/wp-admin\/options-general.php?page=sga_ranking)<\/li>\n<li>Set shortcode <code>[sga_ranking]<\/code>, then show ranking.<\/li>\n<li>you can filter a ranking for post_type and Taxonomies. Example, <code>[sga_ranking post_type=\"post,page\"]<\/code>,<code>[sga_ranking post_type=\"post\" category__in=\"wordpress\"]<\/code><\/li>\n<li>Parameters that can be used in the shortcode are as follows:<code>post_type<\/code>, <code>exclude_post_type<\/code>, <code>'taxonomy_slug'__in<\/code>, <code>'taxonomy_slug'__not_in<\/code>. Set the value to the slug.<\/li>\n<li>It provides <code>sga_ranking_get_date( $args = array() )<\/code> function  for those who want to customize from the HTML of the ranking.<\/li>\n<\/ol>\n\n<h4>Translators<\/h4>\n\n<ul>\n<li>Japanese(ja) - <a href=\"http:\/\/twitter.com\/horike37\">Horike Takahiro<\/a><\/li>\n<\/ul>\n\n<p>You can send your own languag",
+                "uid": "10969"
+            }
+        }
+    }
+}

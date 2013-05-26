@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/mybb-latest-posts": {
+            "1.1": {
+                "name": "wordpress\/mybb-latest-posts",
+                "version": "1.1",
+                "version_normalized": "1.1.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/mybb-latest-posts.1.1.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>This plugin was made by the same author who developed WordBB (<a href=\"http:\/\/wordpress.org\/extend\/plugins\/wordbb\/\" rel=\"nofollow\">http:\/\/wordpress.org\/extend\/plugins\/wordbb\/<\/a>). I wanted a simpler version of the plugin without the bridging part, this plugin installs a widget that simply displays the latest threads or post from your MyBB forums.<\/p>\n\n<p>Features:<\/p>\n\n<ul>\n<li>No. of threads or posts to display<\/li>\n<li>option to exclude forums<\/li>\n<li>options to select latest threads, latest posts or threads with recent activity<\/li>\n<li>option to show member avatars<\/li>\n<\/ul>\n\n<p><em>Please note I'm not the developer for this plugin and my knowledge in programming is very limited. You can still contact me or leave a message and I will try to assist as much as possible.<\/em><\/p>",
+                "uid": "49541"
+            }
+        }
+    }
+}

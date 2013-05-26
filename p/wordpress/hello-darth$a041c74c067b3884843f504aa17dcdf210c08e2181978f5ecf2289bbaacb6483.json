@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/hello-darth": {
+            "0.1": {
+                "name": "wordpress\/hello-darth",
+                "version": "0.1",
+                "version_normalized": "0.1.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/hello-darth.0.1.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>This little plugin is in homage to my geek friends who love to hate Lord Vader. When activated you will randomly see a quote from <cite>Darth Vader's IMDB page in the upper right of your admin screen on every page. HT to Matt Mullenberg for the original code.<\/cite><\/p>",
+                "uid": "20146"
+            }
+        }
+    }
+}

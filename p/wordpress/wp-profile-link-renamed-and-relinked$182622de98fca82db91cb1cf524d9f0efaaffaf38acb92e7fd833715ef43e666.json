@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/wp-profile-link-renamed-and-relinked": {
+            "0.1": {
+                "name": "wordpress\/wp-profile-link-renamed-and-relinked",
+                "version": "0.1",
+                "version_normalized": "0.1.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/wp-profile-link-renamed-and-relinked.0.1.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>If a subscriber is logged in then link to users profile is renamed to a more friendly text and the link is redirected to there profile page.<\/p>",
+                "uid": "65521"
+            }
+        }
+    }
+}

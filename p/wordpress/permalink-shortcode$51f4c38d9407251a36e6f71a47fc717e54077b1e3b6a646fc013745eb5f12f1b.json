@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/permalink-shortcode": {
+            "1.0.0": {
+                "name": "wordpress\/permalink-shortcode",
+                "version": "1.0.0",
+                "version_normalized": "1.0.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/permalink-shortcode.1.0.0.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>Permalink Shortcode is a relatively simple plugin that implements a shortcode that you can use to link to existing posts and pages on your site. The shortcode also supports a number of HTML attributes (see below).<\/p>\n\n<p>While WordPress does include a feature that allows you to link to existing content, this feature only inserts a \"static\" link. If you were to change the slug for that post or page, previously inserted links would no longer be valid.<\/p>\n\n<p>The permalink shortcode can be used in two forms:<\/p>\n\n<ol>\n<li>Standard: <code>&#60;a href=\"[permalink wpid='123']\"&#62;link text&#60;\/a&#62;<\/code><\/li>\n<li>Enclosing: <code>[permalink wpid=\"123\"]link text[\/permalink]<\/code><\/li>\n<\/ol>\n\n<p>(Note the single quotes used in the standard form example above. Using double quotes in this situation will not work.)<\/p>\n\n<h4>Supported Attributes<\/h4>\n\n<p>The following attributes are available in both the shortcode's standard form and its enclosing form:<\/p>\n\n<ul>\n<li><code>wpid<\/code>: ",
+                "uid": "8346"
+            }
+        }
+    }
+}

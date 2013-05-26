@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/user-self-delete": {
+            "1.1": {
+                "name": "wordpress\/user-self-delete",
+                "version": "1.1",
+                "version_normalized": "1.1.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/user-self-delete.1.1.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>This plugin will allow your users to delete their own account without any need for interaction on the administrator's behalf.<\/p>\n\n<p>When a user wishes to delete their account, they are taken to a confirmation page where they must enter the word \"yes\" in order for the deletion to take place.  Once they type \"yes\" and press the delete account button, they are redirected to the login page and they no longer exist as a user on your site.<\/p>",
+                "uid": "70586"
+            }
+        }
+    }
+}

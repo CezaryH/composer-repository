@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/knr-comment-site": {
+            "0.2": {
+                "name": "wordpress\/knr-comment-site",
+                "version": "0.2",
+                "version_normalized": "0.2.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/knr-comment-site.0.2.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>The KNR Comment Site plugin changes the display of comment authors to say \"CommenterName says:\" instead of \"CommenterName of SiteName says:\". The site name is obtained from the title tag of the page at the URL entered by the comment author. If the comment author does not enter a site URL, the plugin makes no change to the display of the comment author.<\/p>\n\n<p>The KNR Comment Site plugin is a no-configuration plugin that automatically works against the comments that users have already posted and will post to your WordPress site to display the comment author's site name against the comment author's name. The users do not have to enter any additional information because the plugin obtains the site name from the title tag of the page located at the URL entered by the comment author.<\/p>",
+                "uid": "33328"
+            }
+        }
+    }
+}

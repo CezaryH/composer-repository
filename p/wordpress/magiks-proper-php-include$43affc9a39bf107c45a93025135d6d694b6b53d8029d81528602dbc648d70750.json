@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/magiks-proper-php-include": {
+            "1.0": {
+                "name": "wordpress\/magiks-proper-php-include",
+                "version": "1.0",
+                "version_normalized": "1.0.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/magiks-proper-php-include.1.0.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>MaGiKS Proper PHP Include lets you easily, quickly, efficiently and safely insert PHP code into posts, pages and \/ or widgets, without disabling the Visual Editor. You simply upload a php file containing your code into your theme folder and use a WordPress shortcode to \"include\" that file into your posts \/ pages \/ widgets.<\/p>\n\n<p>This plugin uses a filter to add shortcode capability for widgets in case that functionality isn't already present. If it is, then it is redundant, and I'm sorry ;)<\/p>\n\n<p><a href=\"http:\/\/magiksinc.com\/\" title=\"MaGiKS is where the magic happens\">MaGiKS Inc.<\/a><\/p>",
+                "uid": "54316"
+            }
+        }
+    }
+}

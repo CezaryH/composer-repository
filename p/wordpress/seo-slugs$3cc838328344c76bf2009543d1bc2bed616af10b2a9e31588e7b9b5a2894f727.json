@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/seo-slugs": {
+            "1.0": {
+                "name": "wordpress\/seo-slugs",
+                "version": "1.0",
+                "version_normalized": "1.0.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/seo-slugs.1.0.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>The SEO Slugs Wordpress plugin removes common words like 'a', 'the', 'in' from post slugs to improve search engine optimization.<\/p>\n\n<p>For example, when you publish a post with a title like this:<\/p>\n\n<p>\"What You Can Do Immediately For Higher Rankings\",<\/p>\n\n<p>Wordpress automatically assigns a long filename to your post, called a post slug:<\/p>\n\n<p>\/what-you-can-do-immediately-for-higher-rankings<\/p>\n\n<p>SEO Slugs plugin strips common words like \"what\", \"you\" or \"can\" out of your post slug to make it more search engine friendly. With SEO Slugs plugin activated, the slug for our example blog post would look like this:<\/p>\n\n<p>\/immediately-higher-rankings<\/p>\n\n<p>The slug is generated on saving a post (so you get a chance to look at it before publishing, and change it), or on publish. It won't overwrite an existing slug. You can force a new slug generation by deleting the existing one.<\/p>",
+                "uid": "112016"
+            }
+        }
+    }
+}

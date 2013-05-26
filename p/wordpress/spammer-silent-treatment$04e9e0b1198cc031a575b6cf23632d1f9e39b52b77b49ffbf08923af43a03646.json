@@ -1,0 +1,40 @@
+{
+    "packages": {
+        "wordpress\/spammer-silent-treatment": {
+            "0.1": {
+                "name": "wordpress\/spammer-silent-treatment",
+                "version": "0.1",
+                "version_normalized": "0.1.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/spammer-silent-treatment.0.1.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>BuddyPress uses the user_status field to classify users as spammers. Users who \nare marked as spammers should not receive further email notifications from the \nsystem.<\/p>\n\n<p>This plugin filters the To, Cc, and Bcc fields that are passed to wp_mail().<\/p>\n\n<p>This plugin is a beta release, and as such, is not suitable for deployment on \na production server.<\/p>",
+                "uid": "27404"
+            },
+            "0.2": {
+                "name": "wordpress\/spammer-silent-treatment",
+                "version": "0.2",
+                "version_normalized": "0.2.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/spammer-silent-treatment.0.2.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>BuddyPress uses the user_status field to classify users as spammers. Users who \nare marked as spammers should not receive further email notifications from the \nsystem.<\/p>\n\n<p>This plugin filters the To, Cc, and Bcc fields that are passed to wp_mail().<\/p>\n\n<p>This plugin is a beta release, and as such, is not suitable for deployment on \na production server.<\/p>",
+                "uid": "27405"
+            }
+        }
+    }
+}

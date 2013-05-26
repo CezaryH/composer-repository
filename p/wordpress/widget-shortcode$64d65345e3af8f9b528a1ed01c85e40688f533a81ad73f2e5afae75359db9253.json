@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/widget-shortcode": {
+            "0.2": {
+                "name": "wordpress\/widget-shortcode",
+                "version": "0.2",
+                "version_normalized": "0.2.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/widget-shortcode.0.2.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>The shortcode requires the widget ID, but no need to guess, the plugin generates the code for you. You can use before_widget, after_widget, before_title and after_title parameters to override the widget arguments. Also you can use set 'title' parameter to false to suppress the widget title. here's an example: <code>[widget id=\"text-1\" before_widget=\"\" after_widget=\"\" title=\"0\"]<\/code><\/p>\n\n<p>Since 0.2 you can use do_widget function which accepts an array of options, so you can do: <code>do_widget( array(\n    'id' =&#62; 'text-3',\n    'title' =&#62; false,\n    'before_widget' =&#62; '&#60;div&#62;'\n) )<\/code><\/p>",
+                "uid": "32966"
+            }
+        }
+    }
+}

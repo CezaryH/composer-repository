@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/automatically-paginate-posts": {
+            "0.1": {
+                "name": "wordpress\/automatically-paginate-posts",
+                "version": "0.1",
+                "version_normalized": "0.1.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/automatically-paginate-posts.0.1.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>Automatically paginate WordPress content by inserting the &#60;!--nextpage--&#62; Quicktag.<\/p>\n\n<p>Option is provided to control what post types are automatically paginated (default is just <code>post<\/code>). Supports <code>post<\/code>, <code>page<\/code>, and any public custom post types.<\/p>\n\n<p>Option is also provided to specify how many pages content should be broken out over.<\/p>",
+                "uid": "24040"
+            }
+        }
+    }
+}

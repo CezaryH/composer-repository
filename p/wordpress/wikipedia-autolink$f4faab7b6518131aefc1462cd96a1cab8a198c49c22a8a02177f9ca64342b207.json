@@ -1,0 +1,40 @@
+{
+    "packages": {
+        "wordpress\/wikipedia-autolink": {
+            "1.1.0": {
+                "name": "wordpress\/wikipedia-autolink",
+                "version": "1.1.0",
+                "version_normalized": "1.1.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/wikipedia-autolink.1.1.0.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>Link automatically all the highlighted words with the syntax [W:<em>{term}<\/em>] on the definition from Wikipedia.<\/p>\n\n<p>Supposing <em>{term}<\/em> is the word for which we want to automatically create the link to the relative Wikipedia definition, it will be enough to use the following syntax:<\/p>\n\n<p><strong>[W:<em>{term}<\/em>]<\/strong><\/p>\n\n<p>Features:<\/p>\n\n<ul>\n<li>modify the localisation code to set the Wikipedia language.<\/li>\n<li>decide if the hypertextual link will be applied to the entire word or just the <strong>W<\/strong> apex added to the end of the word.<\/li>\n<li>decide to apply the default style, or set your own CSS style.<\/li>\n<li>decide if to add or not the rel=nofollow attribute to each link generated<\/li>\n<li>supported languages of control panel: Italian, English, French (you can translate in your language using the added file <em>cf_wikipedia.POT<\/em>)<\/li>\n<\/ul>",
+                "uid": "97926"
+            },
+            "1.1.01": {
+                "name": "wordpress\/wikipedia-autolink",
+                "version": "1.1.01",
+                "version_normalized": "1.1.01.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/wikipedia-autolink.1.1.01.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>Link automatically all the highlighted words with the syntax [W:<em>{term}<\/em>] on the definition from Wikipedia.<\/p>\n\n<p>Supposing <em>{term}<\/em> is the word for which we want to automatically create the link to the relative Wikipedia definition, it will be enough to use the following syntax:<\/p>\n\n<p><strong>[W:<em>{term}<\/em>]<\/strong><\/p>\n\n<p>Features:<\/p>\n\n<ul>\n<li>modify the localisation code to set the Wikipedia language.<\/li>\n<li>decide if the hypertextual link will be applied to the entire word or just the <strong>W<\/strong> apex added to the end of the word.<\/li>\n<li>decide to apply the default style, or set your own CSS style.<\/li>\n<li>decide if to add or not the rel=nofollow attribute to each link generated<\/li>\n<li>supported languages of control panel: Italian, English, French (you can translate in your language using the added file <em>cf_wikipedia.POT<\/em>)<\/li>\n<\/ul>",
+                "uid": "97925"
+            }
+        }
+    }
+}

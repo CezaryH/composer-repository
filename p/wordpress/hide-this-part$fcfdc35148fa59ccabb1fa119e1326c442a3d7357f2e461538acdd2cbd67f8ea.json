@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/hide-this-part": {
+            "1.0": {
+                "name": "wordpress\/hide-this-part",
+                "version": "1.0",
+                "version_normalized": "1.0.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/hide-this-part.1.0.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>Hide parts of the content of your posts or pages by surrounding it with [hide-this-part] and [\/hide-this-part] shortcode. You can even set the text of the more link (that will make hidden parts visible) by passing the parameter \"morelink\" like this: [hide-this-part morelink=\"show the rest\"]. In this case the text of the more link would be \"show the rest\".\nSee also the <a href=\"http:\/\/www.methode-web.de\/wordpress-hide-this-part\">official plugin documentation<\/a>.<\/p>",
+                "uid": "57919"
+            }
+        }
+    }
+}

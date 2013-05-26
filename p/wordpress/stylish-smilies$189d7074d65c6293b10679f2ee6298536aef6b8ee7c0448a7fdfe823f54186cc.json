@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/stylish-smilies": {
+            "1.0": {
+                "name": "wordpress\/stylish-smilies",
+                "version": "1.0",
+                "version_normalized": "1.0.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/stylish-smilies.1.0.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>Stylish Smilies adds CSS classes to text-based emoticons.\nYou can then reference these classes in your theme to style each emoticon differently:<\/p>\n\n<pre><code>.smiley {\n\/* Applies to all emoticons *\/\n  color: black;\n  font-weight: bold;\n}\n\n.biggrin {\n\/* Applies to :D only *\/\n  background: green;\n}<\/code><\/pre>\n\n<p>This plugin affects the following smilies:<\/p>\n\n<pre><code>8-)  cool\n 8O eek\n8-O eek\n :( sad\n:-( sad\n :) smile\n:-) smile\n:-? confused\n :D biggrin\n:-D biggrin\n :P razz\n:-P razz\n :o surprised\n:-o surprised\n :x mad\n:-x mad\n :&#124; neutral\n:-&#124; neutral\n ;) wink\n;-) wink<\/code><\/pre>",
+                "uid": "20044"
+            }
+        }
+    }
+}

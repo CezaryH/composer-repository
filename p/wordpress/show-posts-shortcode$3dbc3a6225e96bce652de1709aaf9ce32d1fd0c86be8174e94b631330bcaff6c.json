@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/show-posts-shortcode": {
+            "0.1": {
+                "name": "wordpress\/show-posts-shortcode",
+                "version": "0.1",
+                "version_normalized": "0.1.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/show-posts-shortcode.0.1.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>This simple shortcode plugin allows you to list posts as a bulleted list linking to the full article. You can limit\nthe list to posts from a specific category and you can select the number of posts to show. The <code>order&#60;\/order&#62; and\n&#60;code&#62;orderby<\/code> options lets you sort the list too.<\/p>\n\n<p>Usage is simple. Create a page or post and use the code <code>[showposts category=\"2\" num=\"4\"]<\/code> - this will show\nall 4 posts from category 2. Another example <code>[showposts category=\"1\" num=\"-1\" orderby=\"date\" order=\"DESC\"]<\/code>\nshows all the posts from category 1 ordered by the date (newest post first).<\/p>\n\n<p>By default, only 5 posts are shown (unless you use the <code>num<\/code> option) and sorting in by date (oldest to newest).<\/p>",
+                "uid": "88374"
+            }
+        }
+    }
+}

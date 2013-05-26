@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/bitlet-plugin": {
+            "1.0": {
+                "name": "wordpress\/bitlet-plugin",
+                "version": "1.0",
+                "version_normalized": "1.0.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/bitlet-plugin.1.0.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>Bitlet Plugin allows you to insert a link to a torrent file in your posts. When the link is clicked, an online\nBittorrent client is launched, and the download starts, without any program installed in your computer.<\/p>\n\n<p>You can choose one of this options to insert this link:<\/p>\n\n<ol>\n<li><p>Clicking the Bitlet button in the editor, a window appears. Simply type the torrent file URL and click\n\"Submit\".<\/p><\/li>\n<li><p>You can also use a BBcode format anywhere in your post:<\/p>\n\n<p>[bitlet=\"torrent_url\"]TEXT[\/bitlet]<\/p><\/li>\n<\/ol>",
+                "uid": "86009"
+            }
+        }
+    }
+}

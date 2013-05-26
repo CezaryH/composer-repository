@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/video-flv-converter": {
+            "1.0": {
+                "name": "wordpress\/video-flv-converter",
+                "version": "1.0",
+                "version_normalized": "1.0.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/video-flv-converter.1.0.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>This plugin will convert all the video files which you will upload through media manager, to .flv format. Once this is installed you dont have to worry about the large file \nsize since when converting to flv it will reduce the file size as well.<\/p>\n\n<p>video-flv-converter to work properly following pre-requirements need to be there in the server.<\/p>\n\n<ul>\n<li>Server should support <strong>ffmpeg<\/strong><\/li>\n<li>PHP need to be compiled with <strong>ffmpeg-PHP extension<\/strong><\/li>\n<\/ul>",
+                "uid": "73794"
+            }
+        }
+    }
+}

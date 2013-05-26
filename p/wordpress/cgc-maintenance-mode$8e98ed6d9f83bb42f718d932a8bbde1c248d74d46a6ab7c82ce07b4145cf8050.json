@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/cgc-maintenance-mode": {
+            "1.0": {
+                "name": "wordpress\/cgc-maintenance-mode",
+                "version": "1.0",
+                "version_normalized": "1.0.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/cgc-maintenance-mode.1.0.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>Easily put your site into maintenance mode with this plugin so that you can perform updates. The plugin works by taking a selection of IP addresses and comparing them to the visitor's IP address.<\/p>\n\n<p>Users whose IP addresses match those specified in the settings page can view the site normally. Users who do not have IP access are directed either you a Wordpress page (which you pick), or to any external url.<\/p>\n\n<p>It's extremely simple to use:<\/p>\n\n<ul>\n<li>activate the plugin<\/li>\n<li>go to the \"Maintenance Mode\" settings<\/li>\n<li>check the \"Enable Box\"<\/li>\n<li>enter the IP addresses that should have access<\/li>\n<li>choose whether to redirect non-authorized users to a page or url<\/li>\n<li>choose the page or enter the url<\/li>\n<\/ul>\n\n<p>Once your site is ready to be made available again, simple uncheck the \"Enable\" box.<\/p>\n\n<p>Go to <a href=\"http:\/\/pippinsplugins.com\/cgc-maintenance-mode-plugin-for-wordpress\/\" rel=\"nofollow\">http:\/\/pippinsplugins.com\/cgc-maintenance-mode-plug",
+                "uid": "37602"
+            }
+        }
+    }
+}

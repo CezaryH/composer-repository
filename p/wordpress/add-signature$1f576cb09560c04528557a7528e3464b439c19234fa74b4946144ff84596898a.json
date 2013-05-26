@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/add-signature": {
+            "1.0": {
+                "name": "wordpress\/add-signature",
+                "version": "1.0",
+                "version_normalized": "1.0.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/add-signature.1.0.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>Adds a custom signature to the very end of the post automagically. Compared with original plugin by Dagon Design, it allows using also the Permalink, so that the sig can include the URL of the post. Useful when posts are replicated in news aggregation to direct visitors to the original site.<\/p>",
+                "uid": "12415"
+            }
+        }
+    }
+}

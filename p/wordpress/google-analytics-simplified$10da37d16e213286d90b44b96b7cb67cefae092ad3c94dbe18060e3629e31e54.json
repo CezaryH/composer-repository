@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/google-analytics-simplified": {
+            "0.0.3": {
+                "name": "wordpress\/google-analytics-simplified",
+                "version": "0.0.3",
+                "version_normalized": "0.0.3.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/google-analytics-simplified.0.0.3.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>Google Analytics simplified is a simple WordPress plugin for adding Google Analytics tracking to a WordPress based site.<\/p>\n\n<p>When the Google Analytics property ID has been entered on the plugin option page (located under Settings), a snippet for Google Analytics will be added to the <code>wp_footer<\/code>-hook in WordPress.<\/p>\n\n<p>If your theme do not utilizes the <code>wp_footer<\/code>-hook the plugin will not work.<\/p>\n\n<p>The plugin will add the site URL to the snippet, this way no other sites will be tracked.<\/p>\n\n<p>It also support preview-mode. Which means that when you're previewing a post, the snippet will not be displayed and your page views will not be tracked.<\/p>\n\n<p>The main repository for Google Analytics simplified is hosted over at <a href=\"https:\/\/github.com\/raatiniemi\/google-analytics-simplified\/\">GitHub<\/a>. Feel free to submit pull requests, or requests features or bugs in the issue tracker.<\/p>",
+                "uid": "18692"
+            }
+        }
+    }
+}

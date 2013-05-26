@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/wp-live-server-deploy": {
+            "1.2": {
+                "name": "wordpress\/wp-live-server-deploy",
+                "version": "1.2",
+                "version_normalized": "1.2.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/wp-live-server-deploy.1.2.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>Automates the entire process for migrating your wordpress install from a test\/development\/source to the live\/destination domain. Also allows the ignoring of certain files\/directories not needed to upload (e.g \/cache, \/.git, \/.svn \/.gitignore etc etc).<\/p>\n\n<p>Here&#8217;s a list of what is accomplished during an automated deployment:<\/p>\n\n<ul>\n<li>If supported, archives the entire wordpress installation for compressed upload<\/li>\n<li>Checks the file permissions<\/li>\n<li>Uploads either the archive or each individual file<\/li>\n<li>An uploaded archive is then extracted server side<\/li>\n<li>Uploading each individual file is maximized by upload speed by asynchronously uploading up to 10 files<\/li>\n<li>You can choose to ignore a list of folders or files for the upload - example cache folder or repository folders<\/li>\n<li>Dumps\/Exports your entire database and uploads it to the live server<\/li>\n<li>Automatically switches old URL with the new URL<\/li>\n<li>Automatically updates the wp-config",
+                "uid": "26287"
+            }
+        }
+    }
+}

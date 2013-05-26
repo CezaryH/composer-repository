@@ -1,0 +1,40 @@
+{
+    "packages": {
+        "wordpress\/performance-testing": {
+            "0.4": {
+                "name": "wordpress\/performance-testing",
+                "version": "0.4",
+                "version_normalized": "0.4.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/performance-testing.0.4.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>The Performance Testing plugin tests the performance of both PHP and MySQL, if mysqlnd driver is installed, to find overhead in both WordPress and WordPress plugins. The requirements of this plugin is that you use PHP5 and have XDebug installed.<\/p>\n\n<p>This plugin is not meant for end users, you must know how to install XDebug (<a href=\"http:\/\/codex.wordpress.org\/Testing_WordPress_Performance\" rel=\"nofollow\">http:\/\/codex.wordpress.org\/Testing_WordPress_Performance<\/a>) and how to configure it. You must have permissions to enable the extension and access to the php.ini file to configure XDebug. When this is all finished, the plugin will take over the rest and all you will need to do is choose which files you want to process.<\/p>\n\n<p>This plugin is meant for debugging WordPress and WordPress plugins. If you do not need to debug WordPress or WordPress plugins, then you do not need to use this plugin.<\/p>",
+                "uid": "101778"
+            },
+            "0.4.1": {
+                "name": "wordpress\/performance-testing",
+                "version": "0.4.1",
+                "version_normalized": "0.4.1.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/performance-testing.0.4.1.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>The Performance Testing plugin tests the performance of both PHP and MySQL, if mysqlnd driver is installed, to find overhead in both WordPress and WordPress plugins. The requirements of this plugin is that you use PHP5 and have XDebug installed.<\/p>\n\n<p>This plugin is not meant for end users, you must know how to install XDebug (<a href=\"http:\/\/codex.wordpress.org\/Testing_WordPress_Performance\" rel=\"nofollow\">http:\/\/codex.wordpress.org\/Testing_WordPress_Performance<\/a>) and how to configure it. You must have permissions to enable the extension and access to the php.ini file to configure XDebug. When this is all finished, the plugin will take over the rest and all you will need to do is choose which files you want to process.<\/p>\n\n<p>This plugin is meant for debugging WordPress and WordPress plugins. If you do not need to debug WordPress or WordPress plugins, then you do not need to use this plugin.<\/p>",
+                "uid": "101777"
+            }
+        }
+    }
+}

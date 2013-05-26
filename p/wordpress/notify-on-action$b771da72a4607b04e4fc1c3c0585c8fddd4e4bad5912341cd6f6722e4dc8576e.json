@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/notify-on-action": {
+            "1.0.0": {
+                "name": "wordpress\/notify-on-action",
+                "version": "1.0.0",
+                "version_normalized": "1.0.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/notify-on-action.1.0.0.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>This plugin allows you to sent email notifications whenever an action is performed on your site. For example, let's you want to be notified when a user clicks a particular button on your site, or you want to notify another person when you process a request, etc This plugin can help you.<\/p>\n\n<p>Simply follow the steps below:<\/p>\n\n<pre><code>    * Create Notification Template using the form below\n    * Copy &#38; Paste the following code in the theme\/plugin code where you want the email notification to be sent.\n\n    if (has_action(\"noa_notify_on_action\")) do_action( 'noa_notify_on_action','&#60;Enter_Notification_Name&#62;', null);\n<\/code><\/pre>\n\n<p>There are other options on how to use the plugin. See 'How to Use' below<\/p>\n\n<p>This plugin is available under the GPL license, which means that it's free. If you use it for a commercial web site, if you appreciate my efforts or if you want to encourage me to develop and maintain it, please consider making a donation using Paypal, a secu",
+                "uid": "38684"
+            }
+        }
+    }
+}

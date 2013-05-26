@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/simple-references": {
+            "0.2": {
+                "name": "wordpress\/simple-references",
+                "version": "0.2",
+                "version_normalized": "0.2.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/simple-references.0.2.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>This plugin permit to approuve your gestion of your client (or references).\nYou shoudl be create a simple desctiption of your refernce , with a title, decription, and logo.\nYou have 2 solution for view the references. You can put a slide or just a list.<\/p>\n\n<p>An to use is simple , you just add htis in your template : \nfnp_get_references($limit=-1, $post_per_page=10, $miniature=true, $link=true, $sizew=140, $sizeh=140,$cssClass=\"fnp_thumb img_black\", $sliderJs=true);<\/p>\n\n<p>The simple difference for use the categories or tags is\nAnd you can add in your template page of your themes:\n    fnp_get_references_by_cat or fnp_get_references_by_tags \nwith this options ($key, $limit=-1, $post_per_page=10, $thumb=true, $link=true, $sizew=140, $sizeh=140,$cssClass=\"fnp_thumb img_black\", $sliderJs=true)<\/p>",
+                "uid": "13346"
+            }
+        }
+    }
+}

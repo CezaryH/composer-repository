@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/wp-ajax-random-posts": {
+            "1.0.0": {
+                "name": "wordpress\/wp-ajax-random-posts",
+                "version": "1.0.0",
+                "version_normalized": "1.0.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/wp-ajax-random-posts.1.0.0.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>Show your random posts on sidebar and provide ajax refresh function.\nHow to use this plug-in? It's easy and you have two ways:<br \/>\n1.Go to widgets page to add the widget to your sidebar.<br \/>\n2.use the function <code>&#60;?php WP_Ajax_Random_Posts('number=8&#38;cmtcount=1&#38;excerpt=1&#38;length=100&#38;auto=0&#38;time=60'); ?&#62;<\/code> to custom the posts display position.<br \/>\nThis function accepts six parameters:<br \/>\n    number: how many posts display. Type: Integer, default 8<br \/>\n    cmtcount: display comments count of the post. Type: Boolean, default 0. 1: yes, 0: no<br \/>\n    excerpt: display excerpt of no. Type: Boolean, default 0. 1: yes, 0: no<br \/>\n    length: the length of the excerpt. Type: Integer, default 100<br \/>\n    auto: auto refresh random psots list or not. Type: Boolean, default 0. 1: yes, 0: no<br \/>\n    time: the auto refresh interval(seconds). Type: Integer, default 60<br \/>\n\u663e\u793a\u4e00\u7ec4\u652f\u6301ajax\u81ea\u52a8\u5237\u65b0\u7684\u968f\u673a\u6587\u7ae0\u5217\u8868\u3002<br \/>\n\u5982\u4f55\u4f7f",
+                "uid": "60297"
+            }
+        }
+    }
+}

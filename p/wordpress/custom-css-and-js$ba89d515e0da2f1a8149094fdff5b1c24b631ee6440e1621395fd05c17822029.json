@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/custom-css-and-js": {
+            "1.0": {
+                "name": "wordpress\/custom-css-and-js",
+                "version": "1.0",
+                "version_normalized": "1.0.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/custom-css-and-js.1.0.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p><a href=\"http:\/\/pjdietz.com\/wordpress-plugins\/custom-css-js\/\">Custom CSS and JS<\/a> allows you to add stylesheets and JavaScripts to any individual post by adding custom fields. Both CSS and scripts can be either internal or external. Since this is a plugin, the custom CSS and JavaScript are available to any theme used to display the post, as long as the themes call \"wp_head\".<\/p>",
+                "uid": "73876"
+            }
+        }
+    }
+}

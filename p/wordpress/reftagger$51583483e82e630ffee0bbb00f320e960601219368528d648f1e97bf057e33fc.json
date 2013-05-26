@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/reftagger": {
+            "1.7": {
+                "name": "wordpress\/reftagger",
+                "version": "1.7",
+                "version_normalized": "1.7.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/reftagger.1.7.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>This plugin provides an easy way to use the RefTagger Bible reference tagging script from Logos Bible Software. It automatically modifies your site to run the script each time a page loads. The script identifies references to Bible verses and turns the references into links to the verse on Bible.Logos.com. Hovering over a link will display a small tooltip containing the text of the reference, so users don't need to leave the page to view the verse. If desired, a small icon can also be inserted next to the reference. Clicking the icon will open the specified verse in Libronix DLS, if available. The plugin provides a simple options page where you can customize the settings.<\/p>\n\n<p>Customizable preferences include:<\/p>\n\n<ul>\n<li>Which Bible version to link to.<\/li>\n<li>Option to insert a Libronix DLS link after each reference.<\/li>\n<li>Option to insert a Libronix icon after any Libronix DLS links you already have on your site.<\/li>\n<li>Choice of which icon to use if Libronix DLS links",
+                "uid": "98550"
+            }
+        }
+    }
+}

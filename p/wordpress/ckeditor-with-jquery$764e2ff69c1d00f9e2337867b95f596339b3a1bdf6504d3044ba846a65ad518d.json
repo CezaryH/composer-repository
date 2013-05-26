@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/ckeditor-with-jquery": {
+            "1.0": {
+                "name": "wordpress\/ckeditor-with-jquery",
+                "version": "1.0",
+                "version_normalized": "1.0.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/ckeditor-with-jquery.1.0.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>CKeditor With Jquery is a plugin that allows you to add ckeditor to your plugin with ease. It even has the JQuery adapter so you can apply the ckeditor to a textarea using JQuery.<\/p>\n\n<p>It is currently using Ckeditor version 3.6.5.<\/p>\n\n<p>Don't worry about the \"headers already sent\" message, the plugin is fine.<\/p>\n\n<p>To include ckeditor within your plugin, run this method after including jquery:<\/p>\n\n<p>include_ckeditor_with_jquery_js();<\/p>\n\n<p>To set a textarea as a ckeditor, use the following jQuery:<\/p>\n\n<p>jQuery(\"textarea\").ckeditor();<\/p>\n\n<p>To set a specific textarea, you can use Jquery selector like:<\/p>\n\n<p>jQuery(\"#editor\").ckeditor();<\/p>",
+                "uid": "13531"
+            }
+        }
+    }
+}

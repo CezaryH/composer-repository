@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/chinese-comment-spam-protection": {
+            "1.0": {
+                "name": "wordpress\/chinese-comment-spam-protection",
+                "version": "1.0",
+                "version_normalized": "1.0.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/chinese-comment-spam-protection.1.0.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>Chinese Comment Spam Protection asks the visitor making the comment to key in\/copy a simple chinese word. This is intended to prove that the visitor is a human being but a spam robot.<\/p>\n\n<p>Example: \u6210\u957f\uff1f\u8def     \u8bf7\u8f93\u5165&#8220;\u4e4b&#8221;\u5b57<\/p>\n\n<p>This plugin does not require JavaScript or cookies. The result of the question is being passed via a hidden field. The result is being compared with the value entered by the visitor.<\/p>\n\n<p>Please visit <a href=\"http:\/\/iibetter.com\/12198.html\" title=\"Chinese Comment Spam Protection\">the official website<\/a> for further details and the latest information on this plugin.<\/p>",
+                "uid": "59617"
+            }
+        }
+    }
+}

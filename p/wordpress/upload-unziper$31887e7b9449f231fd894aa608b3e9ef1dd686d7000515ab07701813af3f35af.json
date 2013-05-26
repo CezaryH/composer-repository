@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/upload-unziper": {
+            "1.0": {
+                "name": "wordpress\/upload-unziper",
+                "version": "1.0",
+                "version_normalized": "1.0.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/upload-unziper.1.0.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>Upload Unziper let's you upload zip-archives and have them extracted, each file properly attached to the current post.<\/p>\n\n<p>It's built upon and meant to replace James Revillini's now-broken <a href=\"http:\/\/james.revillini.com\/projects\/just-unzip\/\">just-unzip<\/a>, and expands on the original plugin in the following ways:<\/p>\n\n<ul>\n<li>runs all files through WP's sanitize filter to ensure valid filenames<\/li>\n<li>does not attach duplicates<\/li>\n<li>does not replace files with the same name<\/li>\n<li>correctly deals with nestled directories <\/li>\n<li>uses the latest WP core functionality and the latest PclZip version<\/li>\n<li>and - perhaps most importantly - it <em>works<\/em>! ;)<\/li>\n<\/ul>\n\n<p>In short - it's a nice way to do batch uploading. I highly recommend you combine it with an <a href=\"http:\/\/wordpress.org\/extend\/plugins\/mini-slides\/\">inline image viewer<\/a> and a plugin to better <a href=\"http:\/\/wordpress.org\/extend\/plugins\/custom-upload-dir\/\">organize your uploads<\/a>.<\/p>",
+                "uid": "110758"
+            }
+        }
+    }
+}

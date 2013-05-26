@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/blogactivityshortcode": {
+            "0.2": {
+                "name": "wordpress\/blogactivityshortcode",
+                "version": "0.2",
+                "version_normalized": "0.2.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/blogactivityshortcode.0.2.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>The plugin gives users the oportunity to embed a summary of commented \nposts within any page. When using the shortcode [blog_activity] when \nwriting in the content of any page, the user includes in the page, a \ntable that displays on each row information about a certain post \nthat received any comments.<\/p>\n\n<p>The columns on which the information is distributed are \"post\" (the \ntitle of the post), \"By\" (who created the post), \"Published\" (how long \nago it was published), \"Comments\" (how many comments have been posted) \nand \"Last Comment\" (when was the last comment posted). Also, whenever \nsomeone clicks on the plus sign adjacent to any post, the content of the \npost is displayed, along with all the comments it received. This content \ncan be immediately contracted, by clicking the plus sign again.<\/p>\n\n<p>The table can be adjusted to be expandable or non-expandable by using \nthe management options for the BlogActivityShortcode plugin.<\/p>",
+                "uid": "94906"
+            }
+        }
+    }
+}

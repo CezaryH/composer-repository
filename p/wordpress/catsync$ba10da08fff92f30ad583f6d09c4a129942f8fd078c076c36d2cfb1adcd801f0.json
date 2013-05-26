@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/catsync": {
+            "0.8.6": {
+                "name": "wordpress\/catsync",
+                "version": "0.8.6",
+                "version_normalized": "0.8.6.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/catsync.0.8.6.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>Description: CatSync is directed towards users who need to manage a large number of blog posts created from an external database.  Users will be able to dynamically create blog posts pulling information from external tables and placing them in specified categories. They also can edit basic post meta_data to be used during the import process such as comment_status or ping_status.  In addition to creating posts, a user can remove an entire category of posts.  CatSync also supports importing from multiple tables into the same category by simply appending the new posts to the current list.  This plug-in is still under development.<\/p>",
+                "uid": "76596"
+            }
+        }
+    }
+}

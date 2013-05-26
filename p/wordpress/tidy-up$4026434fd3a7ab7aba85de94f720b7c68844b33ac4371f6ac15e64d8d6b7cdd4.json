@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/tidy-up": {
+            "1.3": {
+                "name": "wordpress\/tidy-up",
+                "version": "1.3",
+                "version_normalized": "1.3.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/tidy-up.1.3.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>This plugin provides the ability to run HTML Tidy through all your posts, pages, and comments, generating a report on just how dirty your code is. Should you want to, the plugin can also automatically update your database with the cleansed data.<\/p>\n\n<p>If you are unaware of it's existence, HTML Tidy is a wonderful little tool that is embedded into almost everything nowadays. It's purpose is to take potentially malformed HTML code and produce clean XHTML.<\/p>\n\n<p>Tidy Up does not require any special PHP configuration. As long as you have the ability to run executables then the plugin will work. Currently the plugin contains Tidy executables for:<\/p>\n\n<ul>\n<li>Linux<\/li>\n<li>Windows<\/li>\n<li>Mac OS X<\/li>\n<li>FreeBSD<\/li>\n<\/ul>\n\n<p>It is likely that your web host runs one of these.<\/p>",
+                "uid": "110149"
+            }
+        }
+    }
+}

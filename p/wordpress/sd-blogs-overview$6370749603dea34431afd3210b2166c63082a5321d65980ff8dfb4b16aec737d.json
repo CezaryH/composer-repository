@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/sd-blogs-overview": {
+            "1.1": {
+                "name": "wordpress\/sd-blogs-overview",
+                "version": "1.1",
+                "version_normalized": "1.1.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/sd-blogs-overview.1.1.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>Provides a way to view and edit the settings of all blogs in the network.<\/p>\n\n<p>Once the data is collected from all the blogs the super admin can choose which options to show in the overview.<\/p>\n\n<p>Blogs can be selected and their options can be edited. Options can be copied from one blog to others.<\/p>\n\n<p>Can be used to copy options from one blog to many or to clean up unused options. Also provides a way for super admins to see which plugins are activated on which blogs.<\/p>\n\n<p>Available in:<\/p>\n\n<ul>\n<li>English<\/li>\n<li>Swedish<\/li>\n<\/ul>\n\n<h4>Tip<\/h4>\n\n<p>You'll probably want to raise Wordpress' maximum memory limit. It needs at least 256MB to collect data from about 330 blogs...<\/p>",
+                "uid": "33698"
+            }
+        }
+    }
+}

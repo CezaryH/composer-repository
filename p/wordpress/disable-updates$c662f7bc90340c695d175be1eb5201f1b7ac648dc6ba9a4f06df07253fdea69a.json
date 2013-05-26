@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/disable-updates": {
+            "1.0": {
+                "name": "wordpress\/disable-updates",
+                "version": "1.0",
+                "version_normalized": "1.0.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/disable-updates.1.0.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>This plugin disables all WordPress updates (core, plugins and themes). This can be useful if you have multiple environments such as a live and staging server and you don't want your users to use the update functionality.<\/p>\n\n<p>This plugin not only disables the update mechanism for the core, plugins and themes, but it also removes the update menu item from the left navigation menu in the admin.<\/p>",
+                "uid": "41122"
+            }
+        }
+    }
+}

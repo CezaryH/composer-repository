@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/smm-bar": {
+            "0.0.2": {
+                "name": "wordpress\/smm-bar",
+                "version": "0.0.2",
+                "version_normalized": "0.0.2.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/smm-bar.0.0.2.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<h4>Monitoring<\/h4>\n\n<p>Das Plugin <em>SMM Bar<\/em> (SMM = Social Media Monitoring \/ Social Media Marketing) ermittelt die Anzahl der Shares f&#252;r Google+, Facebook, Twitter, Pinterest und pr&#228;sentiert die Werte &#252;bersichtlich in der WordPress Admin Bar. Zielsetzung: Erfolge der Social Media Optimization (SMO) ablesen.<\/p>\n\n<h4>Funktionsweise<\/h4>\n\n<p>Beim Aufruf eines Artikels im Browser fragt das Plugin die Schnittstellen der Social-Dienste ab und bildet die Zahlen in der Admin Bar ab. Es spielt dabei keine Rolle, ob der Administrator die Seite im Back- oder Frontend eines Blogs aufgerufen hat: Die aktivierte Admin Bar ist der Schl&#252;ssel f&#252;r die Anzeige der Metriken.<\/p>\n\n<p>Die dargestellten Kennzahlen werden f&#252;r 1 Stunde im WordPress-Cache aufbewahrt, um die Performance der Aufrufe zu schonen.<\/p>\n\n<p>Auf welchen Seiten ist die <em>SMM Bar<\/em> aktiv? Ver&#246;ffentlichte Artikel (Posts), statische Seiten (Pages) und Custom Post Types profitieren vom Plugin",
+                "uid": "26662"
+            }
+        }
+    }
+}

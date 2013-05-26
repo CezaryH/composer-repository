@@ -1,0 +1,40 @@
+{
+    "packages": {
+        "wordpress\/multisite-xml-rpc": {
+            "0.5": {
+                "name": "wordpress\/multisite-xml-rpc",
+                "version": "0.5",
+                "version_normalized": "0.5.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/multisite-xml-rpc.0.5.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>Adds some Multisite-specific functions to WordPress' XML-RPC interface (<a href=\"http:\/\/yourdomain.com\/xmlrpc.php\" rel=\"nofollow\">http:\/\/yourdomain.com\/xmlrpc.php<\/a>).<\/p>\n\n<p>Using this plugin, you can create a blog, update the archived status and get a blog ID using a remote software (another server, a desktop software, a mobile software...)<\/p>\n\n<p>The functions enabled by this plugin are:<\/p>\n\n<ul>\n<li>Create Blog (ms.CreateBlog)<\/li>\n<li>Get Blog Id (ms.GetBlogId)<\/li>\n<li>Update Archived (ms.UpdateArchived)<\/li>\n<\/ul>\n\n<p>refer to the <a href=\"http:\/\/wiki.github.com\/renanivo\/WP-Multisite-XML-RPC\/\">wiki<\/a> for further documentation<\/p>",
+                "uid": "65934"
+            },
+            "1.0": {
+                "name": "wordpress\/multisite-xml-rpc",
+                "version": "1.0",
+                "version_normalized": "1.0.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/multisite-xml-rpc.1.0.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>Adds some Multisite-specific functions to WordPress' XML-RPC interface (<a href=\"http:\/\/yourdomain.com\/xmlrpc.php\" rel=\"nofollow\">http:\/\/yourdomain.com\/xmlrpc.php<\/a>).<\/p>\n\n<p>Using this plugin, you can create a blog, update the archived status and get a blog ID using a remote software (another server, a desktop software, a mobile software...)<\/p>\n\n<p>The functions enabled by this plugin are:<\/p>\n\n<ul>\n<li>Create Blog (ms.CreateBlog)<\/li>\n<li>Get Blog Id (ms.GetBlogId)<\/li>\n<li>Update Archived (ms.UpdateArchived)<\/li>\n<\/ul>\n\n<p>refer to the <a href=\"http:\/\/wiki.github.com\/renanivo\/WP-Multisite-XML-RPC\/\">wiki<\/a> for further documentation<\/p>",
+                "uid": "65933"
+            }
+        }
+    }
+}

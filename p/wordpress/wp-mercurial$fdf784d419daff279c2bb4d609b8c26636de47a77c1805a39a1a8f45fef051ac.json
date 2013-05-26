@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/wp-mercurial": {
+            "1.1": {
+                "name": "wordpress\/wp-mercurial",
+                "version": "1.1",
+                "version_normalized": "1.1.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/wp-mercurial.1.1.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>Not everyone has the luxury of seperate development, staging, and live servers. <em>WP Mercurial<\/em> helps work around the limitations of a single server by automating many of the repetitive Mercurial tasks required when updating WordPress.<\/p>\n\n<p>Each time a plugin, a theme, or the core is updated, <em>WP Mercurial<\/em> will automatically run:<\/p>\n\n<pre><code>    hg -A commit -m '&#60;description of update&#62;'\n<\/code><\/pre>\n\n<p>The description is based on what was updated.<\/p>\n\n<p><em>WP Mercurial<\/em> never pushes automatically.<\/p>\n\n<p>There is also a dashboard widget that provides all the basic Hg commands.<\/p>",
+                "uid": "15718"
+            }
+        }
+    }
+}

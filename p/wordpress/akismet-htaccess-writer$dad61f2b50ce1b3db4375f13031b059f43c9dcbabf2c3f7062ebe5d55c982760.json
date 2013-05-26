@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/akismet-htaccess-writer": {
+            "1.0.1": {
+                "name": "wordpress\/akismet-htaccess-writer",
+                "version": "1.0.1",
+                "version_normalized": "1.0.1.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/akismet-htaccess-writer.1.0.1.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<ul>\n<li>When judging that Akismet is SPAM when the comment is processed<\/li>\n<li>When marking it as SPAM in the comment section of the dashboard<\/li>\n<li>When you make the approval status SPAM when the comment section of the dashboard edits the comment<\/li>\n<\/ul>\n\n<p>List IP address from the database in case of the above-mentioned, and Deny the IP address. .htaccess is updates.<\/p>\n\n<p>It changes in the comment block from<\/p>\n\nBEGIN written by WordPress plugin - Akismet htaccess writer\n\n<p>to<\/p>\n\nEND written by WordPress plugin - Akismet htaccess writer\n\n<p>in the content of the .htaccess file.<\/p>\n\n<p>After the .htaccess file, it is written in the tail when the block identifier is not found.<\/p>\n\n<p>***** Please do not do the contact to the author of the Akismet plug-in for this plug-in *****<\/p>",
+                "uid": "101724"
+            }
+        }
+    }
+}

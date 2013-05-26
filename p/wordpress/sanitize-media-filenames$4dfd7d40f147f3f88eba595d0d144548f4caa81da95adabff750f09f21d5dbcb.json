@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/sanitize-media-filenames": {
+            "1.0": {
+                "name": "wordpress\/sanitize-media-filenames",
+                "version": "1.0",
+                "version_normalized": "1.0.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/sanitize-media-filenames.1.0.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>Sanitize the filenames when you upload new media files. Helps you to avoid problems with special characters and white spaces in filenames.<\/p>\n\n<ul>\n<li><p>removes any special characters from the filename (expect those you want to keep)<\/p><\/li>\n<li><p>remove white spaces from filenames<\/p><\/li>\n<\/ul>",
+                "uid": "15242"
+            }
+        }
+    }
+}

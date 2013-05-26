@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/svnx": {
+            "0.1": {
+                "name": "wordpress\/svnx",
+                "version": "0.1",
+                "version_normalized": "0.1.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/svnx.0.1.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>SVNX allows you to setup a page for each Subversion repository, and display that page within your Wordpress website.  Security can be handled via Wordpress, as can CSS controls to customize the look and feel of the SVN files.  SVNX uses WebSVN as a backend.<\/p>",
+                "uid": "72102"
+            }
+        }
+    }
+}

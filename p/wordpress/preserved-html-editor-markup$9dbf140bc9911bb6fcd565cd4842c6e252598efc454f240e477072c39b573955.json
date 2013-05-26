@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/preserved-html-editor-markup": {
+            "1.5": {
+                "name": "wordpress\/preserved-html-editor-markup",
+                "version": "1.5",
+                "version_normalized": "1.5.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/preserved-html-editor-markup.1.5.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>This plugin preserves the user-generated HTML markup in the TinyMCE editor.  Unlike other plugins this one allows developers to work in the HTML tab AND end-users to work in the WYSIWYG Visual tab at the same time!  No longer will your HTML markup be completely munged into an unrecognizable form when you switch between those tabs.  And you don't have to hang your users\/editors out to dry when you hand off the project with a disabled Visual tab.<\/p>\n\n<h4>IMPORTANT: Please read the installation instructions carefully.  If you have existing content it will not render properly after activating this plugin until you use the Fix It Tools.<\/h4>\n\n<p>(One user didn't read or follow these steps and panicked thinking I ruined their website.)<\/p>\n\n<p>It also supports HTML5 Block Anchor tags in addition to other HTML5 elements, something that is currently not supported in WordPress via any existing plugins.<\/p>\n\n<p>Version 1.5 will probably be the last version I release for a while since my daug",
+                "uid": "36658"
+            }
+        }
+    }
+}

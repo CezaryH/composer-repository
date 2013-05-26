@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/twitter-widget-with-sentiment-analysis": {
+            "1": {
+                "name": "wordpress\/twitter-widget-with-sentiment-analysis",
+                "version": "1",
+                "version_normalized": "1.0.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/twitter-widget-with-sentiment-analysis.1.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>Shows latest tweets for any keyword, hashtag or, your handle along with sentiment analysis. It also starts to show trend lines if there is enough volume.<\/p>\n\n<h4>How it works<\/h4>\n\n<p>On load, Plugin sends a request to <a href=\"https:\/\/www.socialappshq.com\">SocialAppsHQ<\/a> and it looks up latest tweets based on your keyword. We then compute sentiment analysis and trends based on results and render the widget based on that.<\/p>\n\n<p>If an email is provided in your settings, you can contact us to create an account for free so that you can look at raw data as well as all kind of fancy analysis on top of it - it's a free service.<\/p>",
+                "uid": "13061"
+            }
+        }
+    }
+}

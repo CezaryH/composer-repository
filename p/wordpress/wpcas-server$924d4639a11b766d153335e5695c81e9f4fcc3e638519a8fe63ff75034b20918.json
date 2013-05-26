@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/wpcas-server": {
+            "1.0": {
+                "name": "wordpress\/wpcas-server",
+                "version": "1.0",
+                "version_normalized": "1.0.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/wpcas-server.1.0.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>This plugin reserves a collection of URIs that create, validate, and destroy CAS tickets.<\/p>\n\n<ul>\n<li><p>\/cas\/login :: If user is not authenticated he\/she is redirected to the login page.  Otherwise the user is redirected to the service specified as a GET variable in the URL - or if service is not provided, the user is redirected to the WordPress instance's home.<\/p><\/li>\n<li><p>\/cas\/logout :: The user's session is destroyed, user is logged out of the WordPress instance, and redirected to $_GET['service'] (or the blog home if service isn't provided)<\/p><\/li>\n<li><p>\/cas\/proxyValidate and \/cas\/validate :: The CAS ticket must be passed as a GET parameter in the URL when calling \/cas\/validate.  The ticket is validated and XML is output with either cas:authenticationSuccess or cas:authenticationFailure<\/p><\/li>\n<\/ul>",
+                "uid": "90541"
+            }
+        }
+    }
+}

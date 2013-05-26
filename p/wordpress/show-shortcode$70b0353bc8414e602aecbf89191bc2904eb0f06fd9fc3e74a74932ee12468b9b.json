@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/show-shortcode": {
+            "1.0": {
+                "name": "wordpress\/show-shortcode",
+                "version": "1.0",
+                "version_normalized": "1.0.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/show-shortcode.1.0.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>Show Shortcode is a plugin that lets plugin developers display their shortcodes without executing them and without any special formatting or extra work. No HTML tricks or hacks, no raw editing in the HTML view! Just wrap your shortcode in the [showshortcode] tags and it will display your shortcode as plain text.<\/p>\n\n<p>Available shortcodes:<\/p>\n\n<p>[showshortcode]\n[showsc]\n[ssc]<\/p>\n\n<p>All shortcodes perform the same task. Add the optional parameter linebreak=1 to add a &#60;br \/&#62; tag to the end of the shortcode<\/p>",
+                "uid": "42745"
+            }
+        }
+    }
+}

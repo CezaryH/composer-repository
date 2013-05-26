@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/logged-in-conditional-text-widget": {
+            "0.9": {
+                "name": "wordpress\/logged-in-conditional-text-widget",
+                "version": "0.9",
+                "version_normalized": "0.9.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/logged-in-conditional-text-widget.0.9.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>Adds two widgets - \"Text (If Logged In)\" and \"Text (Not Logged In)\". These can be used much like the normal Text widget, except they only display if the condition is met. You can add HTML and JavaScript.<\/p>\n\n<p>The intended usage is to allow you to add a link to a Register page, along with some text promoting registration, on a site with the bbPress 2.0 plugin.<\/p>\n\n<p>You could also use this to display adverts to users who are not logged in, or useful links to users who are.<\/p>\n\n<p>Unlike the normal Text widget which just has a toggle for paragraph on\/off, this widget has four display options:<\/p>\n\n<ul>\n<li>No formatting<\/li>\n<li>Add paragraphs<\/li>\n<li>Bullet list<\/li>\n<li><p>Ordered list (numbered)<\/p>\n\n<p>The additional list options are useful if you are adding a number of links - simply add each one on a new line and they'll be turned into a bullet. There's no additional styling here so they should match your other widgets.<\/p><\/li>\n<\/ul>",
+                "uid": "45699"
+            }
+        }
+    }
+}

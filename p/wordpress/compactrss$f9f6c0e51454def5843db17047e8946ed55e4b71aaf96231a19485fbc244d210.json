@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/compactrss": {
+            "1.0": {
+                "name": "wordpress\/compactrss",
+                "version": "1.0",
+                "version_normalized": "1.0.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/compactrss.1.0.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>This plug-in makes it possible to exclude certain parts of your posts in your feeds.\nIt uses the filterhooks <code>the_content<\/code> (in combination with <code>is_feed()<\/code>) and <code>the_content_rss<\/code>.<\/p>\n\n<p>You have several options to determine what must be excluded; you can hide everything after the <em>More<\/em>-tag and\/or hide everything between <code>&#60;!--crss--&#62;<\/code> and <code>&#60;!--\/crss--&#62;<\/code>\nSince update 1.1 you may use multiple CRSS-tags in a post.<\/p>",
+                "uid": "96886"
+            }
+        }
+    }
+}

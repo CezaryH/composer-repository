@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/post-xml-for-simpleviewer": {
+            "1.0.1": {
+                "name": "wordpress\/post-xml-for-simpleviewer",
+                "version": "1.0.1",
+                "version_normalized": "1.0.1.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/post-xml-for-simpleviewer.1.0.1.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>This plugin generates an XML for every post using Wordpress' gallery data system so you can use the generated XML with the Simpleviewer Flash gallery.<\/p>\n\n<p>After installing and activating the plugin, XML files are generated simply by visiting a single post in a browser. Basically, the file generates each time someone looks at a specific post (not an index or archive page), so the XML is updating each time a single post is visited. If you get a ton of traffic, this might not be the best solution for you due to potential server overload.<\/p>\n\n<p>The XML generated for each post will be located in a folder called 'SVxmlfiles' within your wp-content folder. Each filename will be galleryXXX.xml where the XXX is your post ID number. For example, the location of the XML for this post is:\n<a href=\"http:\/\/www.lauragentry.com\/wordpress\/wp-content\/SVxmlfiles\/gallery343.xml\" rel=\"nofollow\">http:\/\/www.lauragentry.com\/wordpress\/wp-content\/SVxmlfiles\/gallery343.xml<\/a><\/p>",
+                "uid": "69288"
+            }
+        }
+    }
+}

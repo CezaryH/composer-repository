@@ -1,0 +1,57 @@
+{
+    "packages": {
+        "wordpress\/batcache": {
+            "1.0": {
+                "name": "wordpress\/batcache",
+                "version": "1.0",
+                "version_normalized": "1.0.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/batcache.1.0.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>Batcache uses Memcached to store and serve rendered pages. It can also optionally cache redirects. It's not as fast as Donncha's WP-Super-Cache but it can be used where file-based caching is not practical or not desired. For instance, any site that is run on more than one server should use Batcache because it allows all servers to use the same storage.<\/p>\n\n<p>Development testing showed a 40x reduction in page generation times: pages generated in 200ms were served from the cache in 5ms. Traffic simulations with Siege demonstrate that WordPress can handle up to twenty times more traffic with Batcache installed.<\/p>\n\n<p>Batcache is aimed at preventing a flood of traffic from breaking your site. It does this by serving old pages to new users. This reduces the demand on the web server CPU and the database. It also means some people may see a page that is a few minutes old. However this only applies to people who have not interacted with your web site before. Once they have logged in or ",
+                "uid": "102513"
+            },
+            "1.1": {
+                "name": "wordpress\/batcache",
+                "version": "1.1",
+                "version_normalized": "1.1.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/batcache.1.1.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>Batcache uses Memcached to store and serve rendered pages. It can also optionally cache redirects. It's not as fast as Donncha's WP-Super-Cache but it can be used where file-based caching is not practical or not desired. For instance, any site that is run on more than one server should use Batcache because it allows all servers to use the same storage.<\/p>\n\n<p>Development testing showed a 40x reduction in page generation times: pages generated in 200ms were served from the cache in 5ms. Traffic simulations with Siege demonstrate that WordPress can handle up to twenty times more traffic with Batcache installed.<\/p>\n\n<p>Batcache is aimed at preventing a flood of traffic from breaking your site. It does this by serving old pages to new users. This reduces the demand on the web server CPU and the database. It also means some people may see a page that is a few minutes old. However this only applies to people who have not interacted with your web site before. Once they have logged in or ",
+                "uid": "102511"
+            },
+            "1.2": {
+                "name": "wordpress\/batcache",
+                "version": "1.2",
+                "version_normalized": "1.2.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/batcache.1.2.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>Batcache uses Memcached to store and serve rendered pages. It can also optionally cache redirects. It's not as fast as Donncha's WP-Super-Cache but it can be used where file-based caching is not practical or not desired. For instance, any site that is run on more than one server should use Batcache because it allows all servers to use the same storage.<\/p>\n\n<p>Development testing showed a 40x reduction in page generation times: pages generated in 200ms were served from the cache in 5ms. Traffic simulations with Siege demonstrate that WordPress can handle up to twenty times more traffic with Batcache installed.<\/p>\n\n<p>Batcache is aimed at preventing a flood of traffic from breaking your site. It does this by serving old pages to new users. This reduces the demand on the web server CPU and the database. It also means some people may see a page that is a few minutes old. However this only applies to people who have not interacted with your web site before. Once they have logged in or ",
+                "uid": "102509"
+            }
+        }
+    }
+}

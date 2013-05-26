@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/html-regex-replace": {
+            "1.1": {
+                "name": "wordpress\/html-regex-replace",
+                "version": "1.1",
+                "version_normalized": "1.1.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/html-regex-replace.1.1.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p><strong>HTML Regex Replace<\/strong> use find&#38;replace mechanism based on regexp\nfor your posts\/pages. Plugin <em>finds<\/em> html or text <em>using regular\nexpressions<\/em> and replaces it with predefined <em>'New string'<\/em>.\nUnlimited replacement rules. You can specify any amount of short codes, and no buttons!<\/p>\n\n<p>For example:<\/p>\n\n<pre><code>(c) -&#62; Copyright\n[me] -&#62; My Full Name<\/code><\/pre>\n\n<p>Short code '(c)' will be replaced with 'Copyright' and '[me]' with 'My Full Name'.<\/p>\n\n<p>More than that you can fix html code or remove unwanted automatically inserted html\n(for example, chrome-auto-translate-plugin-dialog inserted by Auto-Translate\nchrome plugin).<\/p>\n\n<h4>Support Forum<\/h4>\n\n<p>Please use plugin support blog <a href=\"http:\/\/wp-regrep.blogspot.com\/\" title=\"HTML Regex Replace blog\">HERE<\/a>\nfor help.<\/p>",
+                "uid": "31778"
+            }
+        }
+    }
+}

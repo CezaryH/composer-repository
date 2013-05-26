@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/wp-original-source": {
+            "1.1": {
+                "name": "wordpress\/wp-original-source",
+                "version": "1.1",
+                "version_normalized": "1.1.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/wp-original-source.1.1.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>Define up to 5 sources (URLs) in a metabox. Adds Source attribution metatag \"original source\" introduced by Google to single posts and page header. \nAdds your permalink to original source meta tag if external urls are not defined.<\/p>\n\n<p><strong>Features<\/strong>\n<em>Add meta tag:<\/em>\n* \"original-source\" - Google meta tag for Google news publishers and SEO<\/p>",
+                "uid": "57955"
+            }
+        }
+    }
+}

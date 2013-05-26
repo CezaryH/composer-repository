@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/wp-geomap": {
+            "0.3": {
+                "name": "wordpress\/wp-geomap",
+                "version": "0.3",
+                "version_normalized": "0.3.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/wp-geomap.0.3.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>A plugin that leverages maxmind's geolocation ability to display a google map of the the location of the author of a post when creating a post. Uses 3 methods to get the geo location of a author, one is to use the php extenstion, the second is to use maxmind's city web service and the third is to use a web service on api.codeninja.me.uk which uses maxmind's GeoCityLite database.<\/p>",
+                "uid": "64145"
+            }
+        }
+    }
+}

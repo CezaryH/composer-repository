@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/garees-split-gallery": {
+            "0.5": {
+                "name": "wordpress\/garees-split-gallery",
+                "version": "0.5",
+                "version_normalized": "0.5.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/garees-split-gallery.0.5.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p><em>Garee's Split Gallery<\/em> allows you to number the images to be shown (e.g. show='1-3&#8242;) and uses the native WordPress-gallery-shortcode to do the rest. Break your galleries apart - but don't insert hardcoded img-tags directly. In addition you are able to set default-values for the gallery-shortcode. E.g. if you'd like your gallery-items to link to the image-file directly, you can set that default in the settings-page and no longer need to insert <code>file=\"link\"<\/code> into the shortcode.<\/p>\n\n<p>For more information check out the official <a href=\"http:\/\/www.garee.ch\/wordpress\/garees-split-gallery\/\">plugin-site<\/a><\/p>\n\n<p>Main-advantages:<\/p>\n\n<ul>\n<li>easily split your galleries<\/li>\n<li>show only images of a certain filetype<\/li>\n<li>set default-values<\/li>\n<li>uses native Wordpress-gallery (no additional code)<\/li>\n<\/ul>\n\n<p>Just insert the shortcode anywhere on your blog: <code>[split_gallery show='1-3']<\/code><\/p>\n\n<p>With the exception of 'include' and 'exclude' ",
+                "uid": "35386"
+            }
+        }
+    }
+}

@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/widget-logic-by-path": {
+            "0.1": {
+                "name": "wordpress\/widget-logic-by-path",
+                "version": "0.1",
+                "version_normalized": "0.1.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/widget-logic-by-path.0.1.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>Widget Logic by Path extends <a href=\"http:\/\/wordpress.org\/extend\/plugins\/widget-logic\/\">Widget Logic<\/a> functionality to use URL path pattern based logic. It is similar to Drupal's \"Show block on specific pages\" feature. \"*\" is the wildcard character. See examples below.<\/p>\n\n<p>By enabling this plugin, Widget Logic default PHP based logic (eval) will be <a href=\"http:\/\/wordpress.org\/extend\/plugins\/widget-logic\/other_notes\/#The-%27widget_logic_eval_override%27-filter\">disabled<\/a>. So if you are concerned about \"eval\" security, but still need to use Widget Logic, this plugin will be helpful.<\/p>\n\n<ul>\n<li>Widget Logic version &#62;= 0.56 is required for this plugin to work.<\/li>\n<li>Works in Multisite. <\/li>\n<\/ul>\n\n<p>Example URL: <a href=\"http:\/\/www.domain.com\/\" rel=\"nofollow\">http:\/\/www.domain.com\/<\/a>{site}\/about\/staff\/<\/p>\n\n<h4>Example 1<\/h4>\n\n<pre><code>about\/*            &#60;-- Show on about and all the pages under about\ncontact\/           &#60;-- Show on the contact page o",
+                "uid": "9315"
+            }
+        }
+    }
+}

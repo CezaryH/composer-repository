@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/ajax-referer-fix": {
+            "0.1": {
+                "name": "wordpress\/ajax-referer-fix",
+                "version": "0.1",
+                "version_normalized": "0.1.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/ajax-referer-fix.0.1.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p><strong>Note:<\/strong> This plugin does not work in WP 2.5. The AJAX referer check in WP 2.5 does not conflict with a hardened version of PHP, so this plugin is no longer adequate.\nIf you still experience the permission problem it is likely your browser or a plugin.<\/p>\n\n<p>This plugin fixes an issue that can cause several problems in the Administration Panel, including the following:<\/p>\n\n<ol>\n<li>The \"You don't have permission to do that\" error when performing certain actions, even though you are in fact logged in<\/li>\n<li>The \"Are you sure you want to edit this page: \"\"?\" confirmation when trying to save a post or page<\/li>\n<li>Inability to remove pages or posts using the Management panels<\/li>\n<li>And possibly other problems that have similar symptoms<\/li>\n<\/ol>\n\n<p>Most people who get these problems seem to be on a server that uses a hardened version of PHP. This version adds several security measures to PHP, including transparent cookie encryption. The WordPress function that ",
+                "uid": "110853"
+            }
+        }
+    }
+}

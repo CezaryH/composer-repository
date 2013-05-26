@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/plugin-commander": {
+            "1.1.6": {
+                "name": "wordpress\/plugin-commander",
+                "version": "1.1.6",
+                "version_normalized": "1.1.6.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/plugin-commander.1.1.6.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>=THIS PLUGIN IS ONLY USEFUL IF YOU'RE USING MULTI-SITE MODE=<\/p>\n\n<p>This is the same plugin previously available at <a href=\"http:\/\/firestats.cc\/wiki\/WPMUPluginCommander\">http:\/\/firestats.cc\/wiki\/WPMUPluginCommander<\/a>, which has been used reliably with wordpress multi-site networks for many years.<\/p>\n\n<p>Plugin Commander is a plugin management plugin for multi-site mode, which allows further control on network-activated plugins.<\/p>\n\n<p>It allow you to do the following things:<\/p>\n\n<ul>\n<li>Mark any plugin in the plugins directory to be automatically activated for new blogs.<\/li>\n<li>Mass activate or deactivate a plugin for all existing blogs<\/li>\n<li>Choose which plugins users can activate and deactivate through Manage-&#62;Plugins, for this to make sense you need to disable the built-in plugins menu (through Site Admin-&#62;Options-&#62;Menus)<\/li>\n<li>Activate and deactivate plugins for specific blogs, even if the blog owner is not allowed to control those plugins.<\/li>\n<\/ul>",
+                "uid": "62759"
+            }
+        }
+    }
+}

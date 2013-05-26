@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/simple-user-rank-comments": {
+            "1.0": {
+                "name": "wordpress\/simple-user-rank-comments",
+                "version": "1.0",
+                "version_normalized": "1.0.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/simple-user-rank-comments.1.0.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>Simple User Rank Comments allow to create and display user rank based on there comment count.<\/p>\n\n<p>The rank is auto display after the pseudo in comments.<\/p>\n\n<p>You can add manually the user rank in your comment's template file with this code:<\/p>\n\n<pre><code>&#60;?php if(function_exists('get_user_rank')) {\n    echo get_user_rank();\n} ?&#62; \n<\/code><\/pre>\n\n<p>Translation: English, French<\/p>",
+                "uid": "26665"
+            }
+        }
+    }
+}

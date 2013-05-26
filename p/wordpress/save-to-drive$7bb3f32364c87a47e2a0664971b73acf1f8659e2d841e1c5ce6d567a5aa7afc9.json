@@ -1,0 +1,40 @@
+{
+    "packages": {
+        "wordpress\/save-to-drive": {
+            "1.0": {
+                "name": "wordpress\/save-to-drive",
+                "version": "1.0",
+                "version_normalized": "1.0.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/save-to-drive.1.0.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>The Save to Drive button enables your web site to allow users to save files to their Google Drive account from an arbitrary URL via their browser. Hovering over the button will produce user details, similar to the +1 Google button.<\/p>\n\n<p>To use simply use the the shortcode <code>[savetodrive]<\/code>. Two parameters can be used...<\/p>\n\n<ul>\n<li>url - This is required and specifies the full URL (absolute or relative) to the file to download.<\/li>\n<li>filename - Optional, this is the name that the file will be saved as. If not specified it will be assumed from the URL.<\/li>\n<\/ul>\n\n<p>For example...<\/p>\n\n<pre><code>[savetodrive url=&#039;http:\/\/downloads.wordpress.org\/plugin\/save-to-drive.1.0.zip&#039; filename=&#039;save-to-drive-latest.zip&#039; ]<\/code><\/pre>\n\n<p>Alternatively, if adding to your theme you can use a PHP function call...<\/p>\n\n<pre><code>&#60;?php echo save_to_drive( &#039;http:\/\/downloads.wordpress.org\/plugin\/save-to-drive.1.0.zip&#039;, &#039;save-to-drive-latest.zi",
+                "uid": "7655"
+            },
+            "1.1": {
+                "name": "wordpress\/save-to-drive",
+                "version": "1.1",
+                "version_normalized": "1.1.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/save-to-drive.1.1.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>The Save to Drive button enables your web site to allow users to save files to their Google Drive account from an arbitrary URL via their browser. Hovering over the button will produce user details, similar to the +1 Google button.<\/p>\n\n<p>To use simply use the the shortcode <code>[savetodrive]<\/code>. Two parameters can be used...<\/p>\n\n<ul>\n<li>url - This is required and specifies the full URL (absolute or relative) to the file to download.<\/li>\n<li>filename - Optional, this is the name that the file will be saved as. If not specified it will be assumed from the URL.<\/li>\n<\/ul>\n\n<p>For example...<\/p>\n\n<pre><code>[savetodrive url=&#039;http:\/\/downloads.wordpress.org\/plugin\/save-to-drive.1.0.zip&#039; filename=&#039;save-to-drive-latest.zip&#039; ]<\/code><\/pre>\n\n<p>Alternatively, if adding to your theme you can use a PHP function call...<\/p>\n\n<pre><code>&#60;?php echo save_to_drive( &#039;http:\/\/downloads.wordpress.org\/plugin\/save-to-drive.1.0.zip&#039;, &#039;save-to-drive-latest.zi",
+                "uid": "7654"
+            }
+        }
+    }
+}

@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/fw-subpageinadiv-spiad": {
+            "1.0": {
+                "name": "wordpress\/fw-subpageinadiv-spiad",
+                "version": "1.0",
+                "version_normalized": "1.0.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/fw-subpageinadiv-spiad.1.0.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>Displays the content of a subpage named \"spiad\" in a div element for specific pages. For example, you may have a special area in your sidebar with a default content. If you want to display something else in this area for specific pages, just create a subpage called spiad and its content will be displayed in the div area instead of default one.<\/p>",
+                "uid": "110343"
+            }
+        }
+    }
+}

@@ -1,0 +1,57 @@
+{
+    "packages": {
+        "wordpress\/wp-file-permission-check": {
+            "1.0.4": {
+                "name": "wordpress\/wp-file-permission-check",
+                "version": "1.0.4",
+                "version_normalized": "1.0.4.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/wp-file-permission-check.1.0.4.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>Will add a little \"x\" next to any files\/folders set to 777, since this is inherently insecure. Checks all recursive folders that come with a default WordPress install.<\/p>\n\n<p>This plugin can be CPU intensive as it iterates over your whole folder\/file structure to gather statistics.<\/p>\n\n<p>Notes :<\/p>\n\n<ul>\n<li>Checks root, wp-admin, wp-content, wp-includes and all sub folders<\/li>\n<li>Includes your plugin and theme folders<\/li>\n<li>Ignores images, text, CSS , and translation files<\/li>\n<li>Will exclude the cache folders since they contain to many files to scan.<\/li>\n<li>Requires PHP 5.1.2 or greater<\/li>\n<li>Please run this during low traffic.<\/li>\n<\/ul>\n\n<p><strong>This plugin will not return accurate results under IIS or WAMP stack due to how windows handles file permissions.<\/strong><\/p>",
+                "uid": "40347"
+            },
+            "1.2": {
+                "name": "wordpress\/wp-file-permission-check",
+                "version": "1.2",
+                "version_normalized": "1.2.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/wp-file-permission-check.1.2.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>Will add a little \"x\" next to any files\/folders set to 777, since this is inherently insecure. Checks all recursive folders that come with a default WordPress install.<\/p>\n\n<p>This plugin can be CPU intensive as it iterates over your whole folder\/file structure to gather statistics.<\/p>\n\n<p>Notes :<\/p>\n\n<ul>\n<li>Checks root, wp-admin, wp-content, wp-includes and all sub folders<\/li>\n<li>Includes your plugin and theme folders<\/li>\n<li>Ignores images, text, CSS , and translation files<\/li>\n<li>Will exclude the cache folders since they contain to many files to scan.<\/li>\n<li>Requires PHP 5.1.2 or greater<\/li>\n<li>Please run this during low traffic.<\/li>\n<\/ul>\n\n<p><strong>This plugin will not return accurate results under IIS or WAMP stack due to how windows handles file permissions.<\/strong><\/p>",
+                "uid": "40351"
+            },
+            "1.4": {
+                "name": "wordpress\/wp-file-permission-check",
+                "version": "1.4",
+                "version_normalized": "1.4.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/wp-file-permission-check.1.4.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>Will add a little \"x\" next to any files\/folders set to 777, since this is inherently insecure. Checks all recursive folders that come with a default WordPress install.<\/p>\n\n<p>This plugin can be CPU intensive as it iterates over your whole folder\/file structure to gather statistics.<\/p>\n\n<p>Notes :<\/p>\n\n<ul>\n<li>Checks root, wp-admin, wp-content, wp-includes and all sub folders<\/li>\n<li>Includes your plugin and theme folders<\/li>\n<li>Ignores images, text, CSS , and translation files<\/li>\n<li>Will exclude the cache folders since they contain to many files to scan.<\/li>\n<li>Requires PHP 5.1.2 or greater<\/li>\n<li>Please run this during low traffic.<\/li>\n<\/ul>\n\n<p><strong>This plugin will not return accurate results under IIS or WAMP stack due to how windows handles file permissions.<\/strong><\/p>",
+                "uid": "40349"
+            }
+        }
+    }
+}

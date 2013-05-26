@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/as-pdf": {
+            "0.3": {
+                "name": "wordpress\/as-pdf",
+                "version": "0.3",
+                "version_normalized": "0.3.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/as-pdf.0.3.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>This plug-in generates PDF documents from posts. Very useful if you plan to share your posts in PDF format. Link to a PDF document is automatically generated underneath each post.<\/p>\n\n<p>Configuration options for the plug-in can be found in WP Admin in the \"Settings\" section.\nSetting options are as follows:<\/p>\n\n<ul>\n<li>You can change link text<\/li>\n<li>Font size in PDF document <\/li>\n<li>You can decide if you want PDF to open in browser window or if the PDF download will be forced.<\/li>\n<\/ul>\n\n<p>Plug-in uses TCPDF to generate PDF documents. <a href=\"http:\/\/www.tecnick.com\/public\/code\/cp_dpage.php?aiocp_dp=tcpdf\" rel=\"nofollow\">http:\/\/www.tecnick.com\/public\/code\/cp_dpage.php?aiocp_dp=tcpdf<\/a><\/p>",
+                "uid": "102059"
+            }
+        }
+    }
+}

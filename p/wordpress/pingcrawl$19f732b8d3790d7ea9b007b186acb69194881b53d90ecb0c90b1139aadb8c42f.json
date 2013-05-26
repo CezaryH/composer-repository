@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/pingcrawl": {
+            "3.1": {
+                "name": "wordpress\/pingcrawl",
+                "version": "3.1",
+                "version_normalized": "3.1.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/pingcrawl.3.1.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>Pingcrawl aims to replicate WordPress.com's \"Possibly related posts\" capability. It queries Google Blog Search for related blog posts (based on tags, or the post title if there are no tags), tries to verify that they are pingback\/trackback compatible sites and, if so, adds links to such posts to the end of each blog post where it is invoked.<\/p>\n\n<p>Scope-limiting configuration options are included to enable Pingcrawl to fit any WordPress installation's memory\/execution time budget.<\/p>",
+                "uid": "80256"
+            }
+        }
+    }
+}

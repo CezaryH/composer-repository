@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/multi-language-framework": {
+            "0.1": {
+                "name": "wordpress\/multi-language-framework",
+                "version": "0.1",
+                "version_normalized": "0.1.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/multi-language-framework.0.1.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>Handles creation of multilingual content.<\/p>\n\n<p>This plugin is a work in progress and an effort to be an alternative for handling with multiple languages in a single WordPress translation.<\/p>\n\n<p>Here is a description of how it works:<\/p>\n\n<ol>\n<li>Current solutions and why I dont like them:<\/li>\n<\/ol>\n\n<p>Q-Translate -&#62; saves the content of the post int the same post_content field of the database, separating the languages with html comments.. When the theme outputs the content of a post, it gets filtered and displays only one language. Appart from that, this is an excelent plugin. But I junt cant sleep well at night knowing my database is like this...<\/p>\n\n<p>WPML -&#62; creates a lot of extra tables in a complex database structure and is associated with a translating service. In the top of that, the plugin does a lot more than juts adding the multi language support and claims itself as a cms solution for wordpress... I like plugin that do only one thing very well done.<\/p>\n",
+                "uid": "69666"
+            }
+        }
+    }
+}

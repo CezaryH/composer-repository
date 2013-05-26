@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/crack-stack": {
+            "1.0": {
+                "name": "wordpress\/crack-stack",
+                "version": "1.0",
+                "version_normalized": "1.0.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/crack-stack.1.0.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>Some modern browsers (such as Mozilla Firefox and Internet Explorer) when the page loads restrict the number of simultaneous connections to a single host. This leads to the creation of a queue of connections and slows speed of download site content. And the more you have external elements on the page, the longer the queue and more time opening the page.<\/p>\n\n<p>This plugin allows you to automatically reallocate external resources at various pseudo-domains. This removes the limitation on the number of connections and increases the speed of loading pages.<\/p>\n\n<p>In some cases this can speed up the download images, CSS-styles and JS-scripts in 4 times!<\/p>\n\n<p>Warning! Your server should correctly convert the queries to non-existent domains, discarding the prefix added by the plugin. Please, before using the plugin configure your server.<\/p>",
+                "uid": "69462"
+            }
+        }
+    }
+}

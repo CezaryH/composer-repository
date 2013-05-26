@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/pay2pay-for-woocommerce": {
+            "1.0": {
+                "name": "wordpress\/pay2pay-for-woocommerce",
+                "version": "1.0",
+                "version_normalized": "1.0.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/pay2pay-for-woocommerce.1.0.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>This plugin integrates Pay2Pay payment gateway for WooCoommerce 2.x eCommerce solution. Please notice that WooCommerce must be installed and activated.<\/p>\n\n<p>Before installation you need to register at <a href=\"http:\/\/www.pay2pay.com\">pay2pay.com<\/a> (\"Register\" section).\nThen, in <a href=\"https:\/\/cp.pay2pay.com\">shop control panel<\/a> complete the following fields that are used to configure the plugin:<\/p>\n\n<ul>\n<li>Secret key - custom character set is used to sign messages are forwarded;<\/li>\n<li>Hidden key - custom character set is used to sign hidden messages to Result URL.<\/li>\n<\/ul>\n\n<p>Fields \"Success URL\", \"Fail URL\" and \"Result URL\" are not neccesary to fill.<\/p>\n\n<p>How to install the module:<\/p>\n\n<ul>\n<li>In the WP admin console select next menu items: Plugins \/ Add \/ Upload;<\/li>\n<li>Select the plugin archive (wp-wc-pay2pay.zip) and press \"Download\";<\/li>\n<li>In the console, select WordPress Plugins \/ Installed, click the \"Activate\";<\/li>\n<li>Go to the WooCommerce -&#6",
+                "uid": "9650"
+            }
+        }
+    }
+}

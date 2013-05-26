@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/menus": {
+            "3.5": {
+                "name": "wordpress\/menus",
+                "version": "3.5",
+                "version_normalized": "3.5.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/menus.3.5.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>Enable or disable WP3 Multisite Backend Menus. Adds options to toggle administration menus at Network Admin-&#62;Settings page under \"Menu Settings\". WP3 already toggles the Plugins menu, I've added a bunch more in the same\/similar way.<\/p>\n\n<p>I use the plugin to simplify the menus available to the entire network of sites. I use this plugin in a WP3.5 Multisite installation to disable the Deltete Blog, Permalinks, Import, Add Users and Themes menus.<\/p>\n\n<p>The plugin also removes some of the admin bar menu items as well.<\/p>",
+                "uid": "65514"
+            }
+        }
+    }
+}

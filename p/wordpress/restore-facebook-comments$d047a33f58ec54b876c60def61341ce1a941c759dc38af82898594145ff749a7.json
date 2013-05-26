@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/restore-facebook-comments": {
+            "0.8": {
+                "name": "wordpress\/restore-facebook-comments",
+                "version": "0.8",
+                "version_normalized": "0.8.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/restore-facebook-comments.0.8.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>This plugin lets you restore the Facebook comments on posts back to native WordPress comments. It uses the Facebook Open Graph information to do so.  Support for custom post types will be added soon and it still needs some polishing, but it works.<\/p>",
+                "uid": "9139"
+            }
+        }
+    }
+}

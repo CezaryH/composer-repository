@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/pgpcontactform": {
+            "1.0": {
+                "name": "wordpress\/pgpcontactform",
+                "version": "1.0",
+                "version_normalized": "1.0.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/pgpcontactform.1.0.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>This widget allows any site visitor to send the site owner a PGP\nencrypted message. The public key encryption is done in javascript,\nand sent to the server via ajax for maximum transparency. The widget\nrequires uses a captcha to prevent bots.<\/p>",
+                "uid": "25714"
+            }
+        }
+    }
+}

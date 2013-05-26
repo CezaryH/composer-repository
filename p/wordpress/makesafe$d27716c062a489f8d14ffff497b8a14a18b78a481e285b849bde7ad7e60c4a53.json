@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/makesafe": {
+            "1.0": {
+                "name": "wordpress\/makesafe",
+                "version": "1.0",
+                "version_normalized": "1.0.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/makesafe.1.0.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>This plugin finds email addresses in the page (anywhere in the resulting HTML, not just the post content), and munges it into a random combination of encoded characters, and outputs a snippet of JavaScript to write the munged string to the page.<\/p>",
+                "uid": "31106"
+            }
+        }
+    }
+}

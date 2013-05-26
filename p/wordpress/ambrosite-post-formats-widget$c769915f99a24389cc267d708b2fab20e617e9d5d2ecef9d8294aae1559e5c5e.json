@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/ambrosite-post-formats-widget": {
+            "1.1": {
+                "name": "wordpress\/ambrosite-post-formats-widget",
+                "version": "1.1",
+                "version_normalized": "1.1.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/ambrosite-post-formats-widget.1.1.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>Post Formats are a theme feature introduced in WordPress version 3.1. This plugin creates a simple widget that lets you place a list or dropdown of post formats in your sidebar. It works much the same as the Categories widget. The Post Formats Widget offers the following options: set a custom widget title, set custom tooltip text, display as a list or as a dropdown, show or hide post counts, show or hide post format ID numbers.<\/p>\n\n<p><strong>You must have at least one post assigned to a format other than 'Standard'<\/strong> in order for this widget to display anything. Note that there is a %format variable you can use in custom tooltip text to output the format name. Also, the format ID refers to the term_id in the wp_terms table. You would not normally want to display the format IDs to your site visitors, however it may be useful to know the IDs during theme development, since Post Formats are just a specialized case of a custom taxonomy.<\/p>",
+                "uid": "52457"
+            }
+        }
+    }
+}

@@ -1,0 +1,40 @@
+{
+    "packages": {
+        "wordpress\/paged-gallery": {
+            "0.6": {
+                "name": "wordpress\/paged-gallery",
+                "version": "0.6",
+                "version_normalized": "0.6.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/paged-gallery.0.6.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>It may be useful when you need to attach many images to the same post. This plugin divides your wordpress gallery into several dynamic pages. It can works in two ways: modifying the <code>[gallery]<\/code> shortcode output or do not affect it when you use <code>[pgallery]<\/code> shortcode instead. The following settings of the plugin are available: number of images per page, hide or show edit attachment link, and the same as in standard wordpress gallery: number of columns, preview size, link from preview, tags of items, captions and previews, sort order, exclude some attachments.<\/p>\n\n<p>Note that if you set the plugin to [pgallery] mode then you may use both [gallery] and [pgallery] shortcodes in your blog. For instanse, you may apply another plugin to replace standard [gallery] output. When activating first, the Paged Gallery plugin is set to [gallery] mode.<\/p>",
+                "uid": "77443"
+            },
+            "0.7": {
+                "name": "wordpress\/paged-gallery",
+                "version": "0.7",
+                "version_normalized": "0.7.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/paged-gallery.0.7.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>It may be useful when you need to attach many images to the same post. This plugin divides your wordpress gallery into several dynamic pages. It can works in two ways: modifying the <code>[gallery]<\/code> shortcode output or do not affect it when you use <code>[pgallery]<\/code> shortcode instead. The following settings of the plugin are available: number of images per page, hide or show edit attachment link, and the same as in standard wordpress gallery: number of columns, preview size, link from preview, tags of items, captions and previews, sort order, exclude some attachments.<\/p>\n\n<p>Note that if you set the plugin to [pgallery] mode then you may use both [gallery] and [pgallery] shortcodes in your blog. For instanse, you may apply another plugin to replace standard [gallery] output. When activating first, the Paged Gallery plugin is set to [gallery] mode.<\/p>",
+                "uid": "77442"
+            }
+        }
+    }
+}

@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/wp-ticker": {
+            "1.3.2": {
+                "name": "wordpress\/wp-ticker",
+                "version": "1.3.2",
+                "version_normalized": "1.3.2.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/wp-ticker.1.3.2.2.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>Wp-Ticker basiert auf jQuery und es ist moeglich, mehrere Ticker-Instanzen zu erstellen.\nD. h. es koennen mehrere Ticker auf einer Seite\/in einem Artikel oder z.B. in der Sidebar\nund in einer Seite bzw. einem Artikel dargestellt werden.\nAlle Ticker werden ueber eine zentrale Style-Datei formatiert (Groesse, Aussehen, etc.).\nDie Text-Effekte koennen modular erweitert werden. Neue Module und Updates werden unter\n<a href=\"http:\/\/wp-ticker.stegasoft.de\/\">WP-Ticker SteGaSoft<\/a> veroeffentlicht.\nWP-Ticker kann auch als Live-Ticker genutzt werden, da der Inhalt per Ajax geladen wird.\nD. h. es ist kein Reload der Seite notwendig, um Aktualisierungen zu sehen.\nMit WP-Ticker koennen auch (die meisten) ATOM-Feeds geparst werden.<\/p>\n\n<h4>Funktionen:<\/h4>\n\n<ul>\n<li>Datenquelle: Datenbank, eigener Text, RSS oder Kommentare. Bei Datenbank als Quelle kann der Kontent ueber die Auswahl der entspr. Kategorie(n) bestimmt werden.<\/li>\n<li>Aussehen kann per CSS angepasst werden (global und\/oder indivi",
+                "uid": "66503"
+            }
+        }
+    }
+}

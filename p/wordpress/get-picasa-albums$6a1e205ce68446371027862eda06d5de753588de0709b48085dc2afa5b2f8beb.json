@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/get-picasa-albums": {
+            "1.0.2": {
+                "name": "wordpress\/get-picasa-albums",
+                "version": "1.0.2",
+                "version_normalized": "1.0.2.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/get-picasa-albums.1.0.2.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>Get Picasa Albums will take a given Picasa username and fetch a listing of all public albums for the given user. Thumbnails to the individual albums will be displayed in a table on the specified WordPress page. Each thumbnail is a link to the actual Picasa album hosted by Google. The user can specify the number of columns to display, so that the resulting table matches the width on the webpage. The user may also specify if random thumnails are used instead of the Picasa thumbs already specified.<\/p>\n\n<p>If random thumnails are used, a local cache file for each Picasa album will be stored in a sub-folder of the plugin. The cache files are updated if the timestamp on an album changes. If the current stamp matches an existing file, the existing file will be used to fetch a random thumbnail.<\/p>\n\n<p>Please note that this plugin requires PHP5 or higher<\/p>",
+                "uid": "96906"
+            }
+        }
+    }
+}

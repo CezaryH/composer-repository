@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/mock-mail": {
+            "0.0.1": {
+                "name": "wordpress\/mock-mail",
+                "version": "0.0.1",
+                "version_normalized": "0.0.1.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/mock-mail.0.0.1.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>Mock Mail lets you customise the configuration of PHPMailer during development for email testing.<\/p>\n\n<p>See the <a href=\"https:\/\/github.com\/ampt\/mock-mail\/blob\/master\/README.md\">instructions<\/a> for configuration examples.<\/p>",
+                "uid": "25999"
+            }
+        }
+    }
+}

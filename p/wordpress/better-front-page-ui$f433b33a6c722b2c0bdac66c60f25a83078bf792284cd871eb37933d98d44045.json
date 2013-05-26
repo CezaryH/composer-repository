@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/better-front-page-ui": {
+            "0.02": {
+                "name": "wordpress\/better-front-page-ui",
+                "version": "0.02",
+                "version_normalized": "0.02.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/better-front-page-ui.0.02.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>The default way of defining a front page in WordPress is:<\/p>\n\n<ol>\n<li>Create a <code>front-page.php<\/code> for the site home and (optionally) a <code>home.php<\/code>\nfor the posts home.<\/li>\n<li>Go to the site admin and create two dummy pages.<\/li>\n<li>Select these dummy pages in the reading settings for the front page and the\nposts home.<\/li>\n<\/ol>\n\n<p>We think this approach is very sensible as users will be able to delete these\ndummy pages and crash an entire website. This plugin lets you specify the URL\nfor your blog when you have a <code>front-page.php<\/code> file in your theme so you don't\nhave to create two dummy pages as placeholders for your posts home and front\npage.<\/p>\n\n<p>This plugin won't modify the template hierarchy, it will only set an URL to\naccess your posts home when you have a <code>front-page.php<\/code> file in your theme. It\nwill also remove the \"Front Page Displays\" option from the \"Reading Settings\".<\/p>\n\n<p>So, the same procedure to set a front page with t",
+                "uid": "16839"
+            }
+        }
+    }
+}

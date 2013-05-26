@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/youtube-playlist": {
+            "1.0": {
+                "name": "wordpress\/youtube-playlist",
+                "version": "1.0",
+                "version_normalized": "1.0.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/youtube-playlist.1.0.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>YouTube Playlist show the list of videos of a given YouTube's playlist ID.<\/p>\n\n<p>You can choose to use it by widget or by a shortcode.  There is an example if you whant to do it by the secon option:<\/p>\n\n<p>[youtube_playlist id=\"PL335DD2E2EE782021\" maxResults=\"2\" thumb_size=\"small\" class=\"youtube_playlist\"]<\/p>\n\n<p>The parameters are all optional:\n   * id: is the playlist's ID, you can put it in either starting by PL or not, it has a default value, but is interesting you put yours :P.\n   * maxResults: the maximum number of videos to show, by default \"2\".\n   * thumb_size: you can show the thumbnail \"small\" or \"big\", by default \"small\".\n   * class: you can change the class of the list by one who is better for you (in case you need it), by default \"youtube_playlist\".<\/p>",
+                "uid": "30827"
+            }
+        }
+    }
+}

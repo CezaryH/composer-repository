@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/drain-hole": {
+            "2.2.8": {
+                "name": "wordpress\/drain-hole",
+                "version": "2.2.8",
+                "version_normalized": "2.2.8.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/drain-hole.2.2.8.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>Drain Hole is a centralized download manager, with full monitoring and statistics, versioning, SVN support, and SEO download URLs (no more nasty query strings!).<\/p>\n\n<p>In addition to it's monitoring abilities, Drain Hole has a run-time tag replacement feature that lets you embed special tags in your post which are replaced with information from Drain Hole. For example, you can embed download URLs, version information, last update times etc. Whenever you change a downloadable file it is automatically updated throughout your blog, without you needing to change anything else.<\/p>\n\n<p>Features include:<\/p>\n\n<ul>\n<li>SEO download URLs - a unique feature that allows files to look like real links<\/li>\n<li>Store files on your own server, or on a remote server (such as Amazon S3, wordpress.org etc.)<\/li>\n<li>SVN support - attach a file directly to an SVN repository and have the contents automatically updated<\/li>\n<li>Versioning - maintain multiple versions of a file, allowing users to down",
+                "uid": "110439"
+            }
+        }
+    }
+}

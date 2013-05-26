@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/earthquakemonitor": {
+            "1.4": {
+                "name": "wordpress\/earthquakemonitor",
+                "version": "1.4",
+                "version_normalized": "1.4.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/earthquakemonitor.1.4.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>Earthquake Monitor is a customizable widget that shows an overview of earthquakes around the world from the U.S. Geological Surveys data. \nThis widget requires at least PHP 5.0 with SimpleXML enabled to work.<\/p>\n\n<p>This widget has a build in cache support and filter options.<\/p>",
+                "uid": "47273"
+            }
+        }
+    }
+}

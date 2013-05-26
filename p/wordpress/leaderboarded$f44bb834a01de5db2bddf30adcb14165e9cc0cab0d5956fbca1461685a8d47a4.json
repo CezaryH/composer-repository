@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/leaderboarded": {
+            "0.13": {
+                "name": "wordpress\/leaderboarded",
+                "version": "0.13",
+                "version_normalized": "0.13.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/leaderboarded.0.13.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>Embed a public leaderboard from leaderboarded.com on any page or post using a shortcode.<\/p>\n\n<p>For example:<\/p>\n\n<ul>\n<li>[leaderboarded slug='gurus' release='578'] will show the Gamification Gurus for May 2012<\/li>\n<li>[leaderboarded slug='gurus'] will show the latest release of the Gamification Gurus<\/li>\n<\/ul>",
+                "uid": "24471"
+            }
+        }
+    }
+}

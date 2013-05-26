@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/buddypress-forum-topic-mover": {
+            "1.0.0": {
+                "name": "wordpress\/buddypress-forum-topic-mover",
+                "version": "1.0.0",
+                "version_normalized": "1.0.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/buddypress-forum-topic-mover.1.0.0.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>Sometimes your users may inadvertently place a forum topic under the incorrect group in BuddyPress. This add in component helps moderators and administrators move those topics to the correct groups. It will also adjust the appropriate topic and post counts within BuddyPress. A very simplistic process but very convient to help keep boards neat and clean.<\/p>\n\n<p>A few notes about BuddyPress Forum Topic Mover:<\/p>\n\n<ul>\n<li>Creates a simple drop down menu and move topic button.<\/li>\n<li>Only shows for those users with admin or moderator privileges.<\/li>\n<li>Does require a TEMPLATE EDIT. See Installation.<\/li>\n<li>Ideal for BuddyPress with smaller number of groups.<\/li>\n<\/ul>",
+                "uid": "68894"
+            }
+        }
+    }
+}

@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/display-during-conditional-shortcode": {
+            "1.1": {
+                "name": "wordpress\/display-during-conditional-shortcode",
+                "version": "1.1",
+                "version_normalized": "1.1.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/display-during-conditional-shortcode.1.1.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>Specify the start and end date \/ times you'd like content enclosed by the shortcode to be displayed during.  Optionally include a message or different content to display once that time period has passed.<\/p>\n\n<h4>Shortcodes:<\/h4>\n\n<p>Insert <code>[display_during end_day_time=\"June 27, 2015 10:00 am\" message=\"Sorry, this content no longer available.\"]CONTENT_TO_DISPLAY[\/display_during]<\/code> into any post or page to conditionally display whatever is inside of the shortcode.  The <code>message<\/code> parameter you specify will display if the start and end time parameters are not currently valid.<\/p>\n\n<p>Shortcode parameters<\/p>\n\n<pre><code>[display_during start_day_time=&#34;Sun 8:00 am&#34; end_day_time=&#34;Mon 8:00 pm&#34; timezone_location=&#34;America\/Denver&#34; message=&#34;Sorry, this content is not currently available.&#34;]CONTENT_TO_DISPLAY[\/display_during]<\/code><\/pre>\n\n<ul>\n<li><code>start_day_time<\/code> - OPTIONAL - What day\/time or time of day should the contents star",
+                "uid": "10458"
+            }
+        }
+    }
+}

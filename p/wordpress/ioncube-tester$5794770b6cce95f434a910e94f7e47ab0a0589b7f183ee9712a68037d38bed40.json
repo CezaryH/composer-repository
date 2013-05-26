@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/ioncube-tester": {
+            "1.0": {
+                "name": "wordpress\/ioncube-tester",
+                "version": "1.0",
+                "version_normalized": "1.0.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/ioncube-tester.1.0.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>A simple plugin that helps to determine if the ionCube loaders are installed correctly for your WP site.<\/p>\n\n<p>If the IonCube Loaders are not installed or working on your server, contact your hosting provider and ask to have them installed.<\/p>\n\n<p>This plugin need only be run on a single site, if you have multiple sites hosted on the same server.<\/p>",
+                "uid": "38277"
+            }
+        }
+    }
+}

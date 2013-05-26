@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/ned-interferer": {
+            "1.0": {
+                "name": "wordpress\/ned-interferer",
+                "version": "1.0",
+                "version_normalized": "1.0.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/ned-interferer.1.0.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>NED_stoerer lets you place an interferer, meaning an image linked to an url just somewhere within your blog. The interferer will be overlayed to anything below.<\/p>\n\n<p>This plugin does not need any theme modifications as it overlays the interferer onto your side. The interferer image can be uploaded directly to the wordpress media library within the plugin admin interface. Optionally any already uploaded image can be selected from the media library.<\/p>",
+                "uid": "42182"
+            }
+        }
+    }
+}

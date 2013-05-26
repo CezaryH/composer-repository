@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/ranged-popular-posts": {
+            "1.1": {
+                "name": "wordpress\/ranged-popular-posts",
+                "version": "1.1",
+                "version_normalized": "1.1.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/ranged-popular-posts.1.1.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>This is a simple popular posts WordPress widget for your blog. The popularity formula for this widget is solely based only on the number of comments for each post. The most popular post is the post which has the most comments. I add a time interval parameter to specify when the posts are considered popular. With this addition, you can specify a range when the posts are considered popular. You can specify arbitrary number of weeks, months, and years back from the current date as the time interval parameter. You can also choose all-time popular posts, ignoring the time interval parameter.<\/p>\n\n<h4>Widget<\/h4>\n\n<p>In the Appearance -&#62; Widgets in WordPress 2.8 or newer you'll find the Ranged Popular Posts widget. After adding it to your sidebar you can enter a title for the Widget, and all settings required for this widget to work properly.<\/p>",
+                "uid": "67056"
+            }
+        }
+    }
+}

@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/status-updater": {
+            "2.0": {
+                "name": "wordpress\/status-updater",
+                "version": "2.0",
+                "version_normalized": "2.0.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/status-updater.2.0.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>Facebook Status Updater is a recoded and aesthetically neater version of the Status Updater written by devu.<\/p>\n\n<p>It has been tested on version 3.4.1 of WordPress only but should work on 3.2 plus and maybe even earlier versions.<\/p>\n\n<p>This <strong>plugin requires JSON<\/strong> for communication with Facebook via the Graph API (used for Authentication and Link Sharing).<\/p>\n\n<p>It uses cURL by default but will try to fall back to sockets if cURL is not installed. The socket fallback only worked on one of the two servers I am currently using to test the plugin when I triggered it. It works flawlessly using cURL on both my servers.<\/p>\n\n<p>Planned for next release:\n* <strong>Twitter Support<\/strong>\n* Fix any bugs people find<\/p>\n\n<p><strong>What you need to install<\/strong>\n1. cURL or Sockets and JSON (automatically included in PHP 5.2+)\n2. Probably WP 3.2 or greater\n3. A Facebook account\n4. A Mobile Phone to verify your Facebook account when creating the Facebook App\n5. Probably",
+                "uid": "20289"
+            }
+        }
+    }
+}

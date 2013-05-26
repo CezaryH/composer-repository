@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/zm-ajax-login-register": {
+            "1.0.0": {
+                "name": "wordpress\/zm-ajax-login-register",
+                "version": "1.0.0",
+                "version_normalized": "1.0.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/zm-ajax-login-register.1.0.0.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>With zM Ajax Login &#38; Register, you can create a custom login and registration page using the following shortcode <code>[ajax_login]<\/code>, <code>[ajax_register]<\/code> or you can use modal boxes in the \"Advanced Usage\" setting.<\/p>\n\n<h4>Features<\/h4>\n\n<ul>\n<li>Facebook login support<\/li>\n<li>Redirect users to a custom URL or page after login, such as; <code>\/dashboard\/<\/code> or <code>\/welcome\/<\/code><\/li>\n<li>AJAX verification for username and email accounts<\/li>\n<li>Choose between the default (stacked) or wide style<\/li>\n<li>Advanced usage includes: custom triggers for login and register modals, support for custom CSS<\/li>\n<\/ul>\n\n<h4>Usage<\/h4>\n\n<p>Add the following shortocde to a post or page <code>[ajax_login]<\/code> or <code>[ajax_register]<\/code> (make sure your site is set to \"Anyone can register\" for this shortcode).<\/p>\n\n<p>Advanced usage allows you to use any <code>HTML<\/code> element to trigger the login and register modal boxes. Simply visit the settings page from t",
+                "uid": "8272"
+            }
+        }
+    }
+}

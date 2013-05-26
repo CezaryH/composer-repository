@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/wp-simple-sitemap": {
+            "0.2": {
+                "name": "wordpress\/wp-simple-sitemap",
+                "version": "0.2",
+                "version_normalized": "0.2.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/wp-simple-sitemap.0.2.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<h4>Benefits of WP Simple Sitemap<\/h4>\n\n<ul>\n<li>It will not display a link to my homepage in your blog<\/li>\n<li>It will not display any categories, just the posts<\/li>\n<li>If you already use WP Page Numbers that will be used as your page navigation<\/li>\n<li>It should work with most versions of Wordpress because it's built only around Wordpress own functions (not with SQL-querys)<\/li>\n<li>You have sitemap themes to choose from<\/li>\n<\/ul>\n\n<h4>Updates 0.2<\/h4>\n\n<ul>\n<li>Added sitemap themes<\/li>\n<li>Added feature to delete the settings from the database<\/li>\n<li>The sitemap post counter is now correct<\/li>\n<\/ul>\n\n<h4>Settings \/ Options<\/h4>\n\n<ul>\n<li>Choose sitemap theme<\/li>\n<li>Delete settings from the database<\/li>\n<li>Set a maximum posts per page<\/li>\n<li>Set a text if no posts are found<\/li>\n<li>Exclude categories that you don't want to view in the sitemap<\/li>\n<li>Turn off the the stylesheet if you want<\/li>\n<\/ul>\n\n<p><a href=\"http:\/\/www.jenst.se\/sajtkarta\">Sitemap demo!<\/a><\/p>",
+                "uid": "104158"
+            }
+        }
+    }
+}

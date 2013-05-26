@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/fast-image-adder": {
+            "1.1": {
+                "name": "wordpress\/fast-image-adder",
+                "version": "1.1",
+                "version_normalized": "1.1.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/fast-image-adder.1.1.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p><strong>Fast Image Adder<\/strong> inserts a small box into your <em>Edit Post<\/em> page that lets you paste in a URL, type in a title, and instantly generate customized HTML code that references that image. Best of all, it actually downloads the image to your Uploads directory, so that you aren't hotlinking across the web without permission.<\/p>\n\n<p>Yes, <strong>Fast Image Adder<\/strong> also takes care of all of the other stuff you would expect. It resizes large images to a predefined width, so they don't overwhelm your template or load too slowly for users. To avoid possible filename collision, the plugin adds a random suffix of numbers when creating a file on your server.<\/p>\n\n<p><strong>Fast Image Adder<\/strong> also lets you configure five parameters in the HTML pattern: image URL, file name, friendly name, height and width. You can use these multiple times, so if you have a neat gallery plugin you can configure it easily.<\/p>\n\n<p><em>This plugin was first shown at Blog Indiana",
+                "uid": "62913"
+            }
+        }
+    }
+}

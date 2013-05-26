@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/contact-form-7-quiz-placeholders": {
+            "1.1": {
+                "name": "wordpress\/contact-form-7-quiz-placeholders",
+                "version": "1.1",
+                "version_normalized": "1.1.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/contact-form-7-quiz-placeholders.1.1.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>Automatically converts Contact Form 7 quiz labels into HTML5 placeholders (like the \"Watermark\" feature in CF7, which is missing for quizzes). Includes Modernizr to add placeholder support to Internet Explorer.<\/p>",
+                "uid": "26061"
+            }
+        }
+    }
+}

@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/jpg-rss": {
+            "1.0": {
+                "name": "wordpress\/jpg-rss",
+                "version": "1.0",
+                "version_normalized": "1.0.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/jpg-rss.1.0.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>This plugin allows you to display images uploaded to JPGMag.com on your WordPress site. It uses MagpieRSS to parse the RSS feed and display the images.<\/p>",
+                "uid": "111622"
+            }
+        }
+    }
+}

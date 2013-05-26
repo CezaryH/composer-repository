@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/photopress": {
+            "0.9.8": {
+                "name": "wordpress\/photopress",
+                "version": "0.9.8",
+                "version_normalized": "0.9.8.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/photopress.0.9.8.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>Photopress adds some image handling tools to Wordpress, including a popup upload and browse tool, a random image template function, and a simple album. Installs and uses new database tables. Works with WP 2.1+.<\/p>",
+                "uid": "115026"
+            }
+        }
+    }
+}

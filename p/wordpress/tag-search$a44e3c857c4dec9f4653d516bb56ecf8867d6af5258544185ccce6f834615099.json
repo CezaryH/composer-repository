@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/tag-search": {
+            "1.8": {
+                "name": "wordpress\/tag-search",
+                "version": "1.8",
+                "version_normalized": "1.8.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/tag-search.1.8.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>Tag search grabs your saved post tags and when a tag word or phrase is encountered in your post content, Tag Search automatically creates a link which is pointed to the search page to turn the tag into a search term. When the user clicks the linked tag word or phrase all posts found to contain the tag word or phrase will be returned in the results. This is different from similar plugins that link the tagged word or phrase to it's tag page so only those posts sharing the tag are returned.<\/p>\n\n<p>For more information and support please visit <a href=\"http:\/\/wppluginsdev.com\" rel=\"nofollow\">http:\/\/wppluginsdev.com<\/a><\/p>",
+                "uid": "62023"
+            }
+        }
+    }
+}

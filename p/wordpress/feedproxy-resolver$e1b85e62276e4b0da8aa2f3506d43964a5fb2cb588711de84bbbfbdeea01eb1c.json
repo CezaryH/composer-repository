@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/feedproxy-resolver": {
+            "0.1": {
+                "name": "wordpress\/feedproxy-resolver",
+                "version": "0.1",
+                "version_normalized": "0.1.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/feedproxy-resolver.0.1.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>I do not want to see google feedproxy links inside posts. I do not want to get\ntracked by google and hate such things. Unfortunately some blogger use it\n(their choise), so linking to their posts requires work to 'free' the links.\nStupid task (copy to browser, copy new url), that can get scripted very easy.<\/p>\n\n<p>FeedproxyResolver tries to do this, by looking over new posts (by a regex), do a curl\nrequest for every found feedproxy link and replace the link with the 'correct'\none (http header redirect_url).<\/p>",
+                "uid": "22723"
+            }
+        }
+    }
+}

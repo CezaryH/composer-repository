@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/olddodiadau": {
+            "0.1": {
+                "name": "wordpress\/olddodiadau",
+                "version": "0.1",
+                "version_normalized": "0.1.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/olddodiadau.0.1.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>Mae'r ategyn hwn yn datrys y broblem o olddodiadau Saesneg yn ymddangos o fewn dyddiadau Cymraeg. Er enghraifft, bydd\n\"Dydd Sadwrn, Ionawr 31st, 2009\" yn cael ei gywiro i \"Dydd Sadwrn, Ionawr 31ain, 2009\". Dyna'r cwbwl!<\/p>\n\n<p>This plugin addresses a minor annoyance of English ordinal suffixes appearing in Welsh dates. For example,\n\"Dydd Sadwrn, Ionawr 31st, 2009\" will be corrected thus: \"Dydd Sadwrn, Ionawr 31ain, 2009\". That is all - no bells\nand whistles here!<\/p>",
+                "uid": "93703"
+            }
+        }
+    }
+}

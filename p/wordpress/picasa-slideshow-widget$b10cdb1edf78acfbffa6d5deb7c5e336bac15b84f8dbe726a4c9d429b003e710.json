@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/picasa-slideshow-widget": {
+            "1.0": {
+                "name": "wordpress\/picasa-slideshow-widget",
+                "version": "1.0",
+                "version_normalized": "1.0.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/picasa-slideshow-widget.1.0.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>This is a plugin written because I could not find something that was as simple and \nconfigurable as I needed.  This plugin embeds a Flash slideshow (from Google's Picasa \nWeb) with the proper configuration parameters.  The actual slideshow can be \nadded to your blog within your Widget configuration screen for a specified username\nand album ID.<\/p>\n\n<p>Once the slideshow is in place, it can autostart or not and will open up a new window \nwhen clicked showing the images in full size within Picasa Web.  The user ID is self-\nexplanatory along with most of the options available for configuration.  The album ID\nis a long number (about 19 digits) and can be retrieved from the slide show link\nwithin Picasa Web Albums or the \"Embed Slideshow\" link that appears once you have selected an album\nwithin your account.  The background color is the background color desired for the slideshow\nand is represented by 6 hexadecimal digits.<\/p>\n\n<p>A description of the slideshow created is available from t",
+                "uid": "94452"
+            }
+        }
+    }
+}

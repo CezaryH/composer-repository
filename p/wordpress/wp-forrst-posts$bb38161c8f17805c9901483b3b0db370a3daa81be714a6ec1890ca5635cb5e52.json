@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/wp-forrst-posts": {
+            "1.0": {
+                "name": "wordpress\/wp-forrst-posts",
+                "version": "1.0",
+                "version_normalized": "1.0.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/wp-forrst-posts.1.0.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>WP Forrst Posts allows you to display your 25 latest Forrst (public) posts using the Forrst API.<\/p>\n\n<p>The posts from Forrst are cached to avoid any API limits. The cached posts are stored in a file called forrstdata.php this file is only used to read data that has been cached.<\/p>",
+                "uid": "20884"
+            }
+        }
+    }
+}

@@ -1,0 +1,40 @@
+{
+    "packages": {
+        "wordpress\/is-page-or-ancestor": {
+            "1.0.1": {
+                "name": "wordpress\/is-page-or-ancestor",
+                "version": "1.0.1",
+                "version_normalized": "1.0.1.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/is-page-or-ancestor.1.0.1.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>This plugin is easy to use and very basic in its concept. It will recursively test if the page you pass into this function is the current page or ancestor of that page. You can pass either a page ID or page name and it will return true or false. For example, if I wanted to test that the current page I'm viewing is the About page or one of its ancestors, I would then use the following code to echo <code>current_page_item<\/code> if the function returns true.<\/p>\n\n<pre><code>&#60;?php if (is_page_or_ancestor('about')) { echo 'current_page_item'; } ?&#62;\n<\/code><\/pre>",
+                "uid": "87359"
+            },
+            "1.1": {
+                "name": "wordpress\/is-page-or-ancestor",
+                "version": "1.1",
+                "version_normalized": "1.1.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/is-page-or-ancestor.1.1.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>This plugin is easy to use and very basic in its concept. It will recursively test if the page you pass into this function is the current page or ancestor of that page. You can pass either a page ID or page name and it will return true or false. For example, if I wanted to test that the current page I'm viewing is the About page or one of its ancestors, I would then use the following code to echo <code>current_page_item<\/code> if the function returns true.<\/p>\n\n<pre><code>&#60;?php if (is_page_or_ancestor('about')) { echo 'current_page_item'; } ?&#62;\n<\/code><\/pre>",
+                "uid": "87358"
+            }
+        }
+    }
+}

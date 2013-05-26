@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/uk-tides": {
+            "1.0": {
+                "name": "wordpress\/uk-tides",
+                "version": "1.0",
+                "version_normalized": "1.0.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/uk-tides.1.0.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>uk-tides displays tide times and heights for a particular location in the UK. The information that is displayed is obtained from the RSS feed for tidetimes.org.uk (e.g. <a href=\"http:\/\/www.tidetimes.org.uk\/chichester-harbour-entrance-tide-times.rss)\" rel=\"nofollow\">http:\/\/www.tidetimes.org.uk\/chichester-harbour-entrance-tide-times.rss)<\/a>. The data is cached until midnight. This plugin implements a lazy smart shortcode using the API provided by the oik plugin.<\/p>\n\n<p>You implement this on your website using the [bw_tides] shortcode.<\/p>\n\n<p>The syntax is:<\/p>\n\n<p>[bw_tides\ntideurl=\"http:\/\/www.tidetimes.org.uk\/chichester-harbour-entrance-tide-times.rss&#124;other - RSS feed URL for location\"\nstore=\"1&#124;store key - unique key for caching result\"]<\/p>\n\n<p>Examples:\n [bw_tides] with no parameters will display the tide times and heights for Chichester Harbour Entrance. The information will be cached in store=1 until midnight.<\/p>\n\n<p>[bw_tides store=bw_tides_pompey tideurl=\"http:\/\/w",
+                "uid": "26990"
+            }
+        }
+    }
+}

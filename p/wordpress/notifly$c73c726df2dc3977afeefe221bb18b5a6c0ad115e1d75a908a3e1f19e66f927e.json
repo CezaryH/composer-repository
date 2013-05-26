@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/notifly": {
+            "1.4": {
+                "name": "wordpress\/notifly",
+                "version": "1.4",
+                "version_normalized": "1.4.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/notifly.1.4.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>It's hard to keep up with a private blog because there's no good way to subscribe to it. Subscription plugins aren't great because generally you have a finite number of people you want to get to it and asking each one to do a double-opt-in is annoying, and you still wouldn't have anything for comments.<\/p>\n\n<p>This hooks into the new comment and new post actions to send an email to the addresses you enter, so it's easy to follow the entire conversation even if it's comments on someone else's blog posts.<\/p>",
+                "uid": "64693"
+            }
+        }
+    }
+}

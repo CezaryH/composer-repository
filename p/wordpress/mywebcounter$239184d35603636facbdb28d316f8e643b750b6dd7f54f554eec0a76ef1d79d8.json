@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/mywebcounter": {
+            "1.1": {
+                "name": "wordpress\/mywebcounter",
+                "version": "1.1",
+                "version_normalized": "1.1.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/mywebcounter.1.1.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>Plugin is counting sites visitor,  please see to it that the template your using is supporting wp_footer or wp_list_categories or wp_meta for this counter to work. Wp_Footer is a mandatory in every on every template. Thus if wp_footer is not supported by your template you can include it by editing the footer.php of your template in use<\/p>",
+                "uid": "61113"
+            }
+        }
+    }
+}

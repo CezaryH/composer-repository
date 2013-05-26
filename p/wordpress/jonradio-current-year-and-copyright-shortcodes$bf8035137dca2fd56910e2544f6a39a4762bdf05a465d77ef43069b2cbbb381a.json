@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/jonradio-current-year-and-copyright-shortcodes": {
+            "1.0": {
+                "name": "wordpress\/jonradio-current-year-and-copyright-shortcodes",
+                "version": "1.0",
+                "version_normalized": "1.0.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/jonradio-current-year-and-copyright-shortcodes.1.0.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>Inserts the current Year into a Post or Page through the use of a Shortcode.  And always keeps it up to date.  For example, a Page created today (2012) viewed 5 years from now (2017) will show the Year current when it is viewed (2017) by any site visitor.<\/p>\n\n<p>A second Shortcode inserts a Copyright symbol:  &#169;.  And a third provides both because of WordPress restrictions of using two Shortcodes side-by-side.<\/p>\n\n<p>The <code>[y]<\/code> shortcode inserts the four digit current year into any Page or Post no matter whether you use the Visual or the HMTL editor tab in Edit Post or Edit Page.  The <code>[c]<\/code> shortcode inserts the &#169; Copyright symbol, using the official HTML coding for a copyright symbol.  The <code>[cy]<\/code> shortcode inserts the &#169; Copyright symbol, a blank and the current year.<\/p>\n\n<p>For example, if you are continually refining an older article that you want to copyright on a WordPress Page, you could put the following at the bottom of the pag",
+                "uid": "22580"
+            }
+        }
+    }
+}

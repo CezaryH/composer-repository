@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/hetjens-registered-only": {
+            "0.4": {
+                "name": "wordpress\/hetjens-registered-only",
+                "version": "0.4",
+                "version_normalized": "0.4.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/hetjens-registered-only.0.4.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>This plug-in restricts access to blog and feed. All anonymous visitors will be forwarded to the login page of Wordpress\nbefore accessing the blog content. If access is restricted, rss and atom feeds will be disabled, too.<\/p>\n\n<p>The feed can be activated as a private feed for each user. Every user will have a unique feed url to access it. That\nurl is based on the username and an md5 hash of the hashed password stored in database. This plug-in will modify all\nby wordpress inserted feed urls to the user specific ones. But be carefull. If you content is confidential you should\nnot activate the feed. There is no way to check which services are reading (and maybe publishing) the feed&#8217;s content.<\/p>",
+                "uid": "68599"
+            }
+        }
+    }
+}

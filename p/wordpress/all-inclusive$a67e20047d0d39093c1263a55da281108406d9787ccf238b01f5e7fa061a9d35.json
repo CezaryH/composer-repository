@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/all-inclusive": {
+            "1.0.6": {
+                "name": "wordpress\/all-inclusive",
+                "version": "1.0.6",
+                "version_normalized": "1.0.6.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/all-inclusive.1.0.6.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>The pluginplug-in, with two additional SQL queries, joins the original data sample $wp_query-&#62;posts all meta fields, all files and images, for each image the direct url to small, medium, and large image is formed. There&#8217;s no need to use functions the_post_thumbnail  and get_post_meta.<\/p>\n\n<h4>How it works<\/h4>\n\n<p>So let&#8217;s say we go to the home page of our blog, WordPress gives us a list of the latest 10 records. Let me remind you these are already in the global object in the array $wp_query-&#62; posts. Let&#8217;s begin from creating a list of ID (number of records to which they are stored in the database).<\/p>\n\n<h4>Form the first SQL query:<\/h4>\n\n<ul>\n<li>$query = \"SELECT $wpdb-&#62;posts.* FROM $wpdb-&#62;posts WHERE  $wpdb-&#62;posts.post_parent IN('21','29','30','35','38','42','46','48','49','55') AND $wpdb-&#62;posts.post_parent\nAND $wpdb-&#62;posts.post_type = 'attachment'\";<\/li>\n<\/ul>\n\n<p>A normal translation is &#171;find all the child entries for entries ",
+                "uid": "59168"
+            }
+        }
+    }
+}

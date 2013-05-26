@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/internal-link-checker": {
+            "0.6.1": {
+                "name": "wordpress\/internal-link-checker",
+                "version": "0.6.1",
+                "version_normalized": "0.6.1.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/internal-link-checker.0.6.1.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<h4>Internal Link Checker<\/h4>\n\n<p>Adds a meta box to the post edit screen that shows all internal links from other posts to the currently displayed post. The plugin works out of the box.<\/p>",
+                "uid": "46931"
+            }
+        }
+    }
+}

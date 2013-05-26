@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/significant-tags": {
+            "1.0": {
+                "name": "wordpress\/significant-tags",
+                "version": "1.0",
+                "version_normalized": "1.0.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/significant-tags.1.0.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p><em>Significant Tags<\/em> adds two possible arguments to Wordpress' tagcloud function (<code>wp_tag_cloud<\/code>) that give you more control over what tags should be shown. In particular, this plugin will cut the most rarely and\/or the most often occurring tags, the specific numbers depending on the parameter chosen.<\/p>\n\n<p>When calling <code>wp_tag_cloud<\/code>, add key <code>drop_bottom<\/code> (and\/or <code>drop_top<\/code>) with one of the following values:<\/p>\n\n<ul>\n<li><code>'N'<\/code> with N an integer. Will drop the tags with the N smallest (largest) post counts.<\/li>\n<li><code>'Nc'<\/code> with N an integer. Will drop tags with less (more) than N posts.<\/li>\n<li><code>'N%'<\/code> with N  an integer. Will drop tags with the N percent smallest (largest) post counts.<\/li>\n<li><code>'Xs'<\/code> with X a float. Will drop tags with post count more than X times standard deviation below (above) the average of all counts.<\/li>\n<\/ul>\n\n<p>Please direct your support questions to the <a h",
+                "uid": "40359"
+            }
+        }
+    }
+}

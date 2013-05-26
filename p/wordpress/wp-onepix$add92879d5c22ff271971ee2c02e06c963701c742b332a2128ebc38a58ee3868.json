@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/wp-onepix": {
+            "1.0": {
+                "name": "wordpress\/wp-onepix",
+                "version": "1.0",
+                "version_normalized": "1.0.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/wp-onepix.1.0.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>Add a custom field (onepix_token) to any post or page, and be notified by email or SMS when it is accessed. \nCan be placed on newsletter signup pages, order confirmation pages, or any other important page that you want to know about.<\/p>\n\n<p>A free onepix.me account is required.<\/p>",
+                "uid": "36414"
+            }
+        }
+    }
+}

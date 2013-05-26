@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/force-publish-schedule": {
+            "0.3.1": {
+                "name": "wordpress\/force-publish-schedule",
+                "version": "0.3.1",
+                "version_normalized": "0.3.1.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/force-publish-schedule.0.3.1.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>Sometime we want to publish schedule post. We make a post like event, we need to publish that post. Schedule post can't see visitor and we need to forece publish. This Plugin can help do that. Include Admin Panel and one click to publish all or can select the post from schedule to publish.<\/p>",
+                "uid": "73752"
+            }
+        }
+    }
+}

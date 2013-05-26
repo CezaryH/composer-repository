@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/img-mouseover": {
+            "1.4.1": {
+                "name": "wordpress\/img-mouseover",
+                "version": "1.4.1",
+                "version_normalized": "1.4.1.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/img-mouseover.1.4.1.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>This allows you to create a simple image mouseover feature by adding properties to an image:<\/p>\n\n<p>It understands the following attributes which can be added to the HTML:<\/p>\n\n<ul>\n<li>img.class=\"mouseover\" (activates IMG mouseover for this image)<\/li>\n<li>img.oversrc (If specified, this rewrites the image on mouse rollover)<\/li>\n<li>img.clicksrc (If specified, this rewrites the image on mouse click)<\/li>\n<li>img.noresize (If set, this will make the image have the natural dimensions instead of the dimensions of the original image).<\/li>\n<li>a.class=\"mouseover\" (activates A tag as a controller for another image, when clicked a class \"selected\" is tacked on)<\/li>\n<li>a.for (Should be specified to point to target image. Image must be class mouseover)<\/li>\n<li>a.for_link (If specified the ID of a link is replaced with this one)<\/li>\n<li>a.src (If specified, the click will replace the image with this)<\/li>\n<li>a.oversrc (If specified, the click will replace the image mouse rollover wit",
+                "uid": "73496"
+            }
+        }
+    }
+}

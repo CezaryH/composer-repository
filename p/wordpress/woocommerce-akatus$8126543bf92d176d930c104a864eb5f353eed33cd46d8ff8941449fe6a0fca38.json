@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/woocommerce-akatus": {
+            "1.9": {
+                "name": "wordpress\/woocommerce-akatus",
+                "version": "1.9",
+                "version_normalized": "1.9.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/woocommerce-akatus.1.9.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>Este plugin integra o gateway <a href=\"http:\/\/goo.gl\/ICz2O\">Akatus<\/a> ao WooCommerce permitindo reaceber pagamentos via boleto banc&#225;rio, transfer&#234;ncia eletr&#244;nica e cart&#227;o de cr&#233;dito. Esta &#233; uma vers&#227;o gratuita \ne n&#227;o disp&#245;e de todas as fun&#231;&#245;es e ferramentas dispon&#237;bilizadas pelo <a href=\"http:\/\/goo.gl\/ICz2O\">gateway Akatus<\/a>, como por exemplo Akatus Invisivel (ou \"Pagamento transparente\"), trata-se de um meio de pagamento \nonde o comprador n&#227;o sai da p&#225;gina da loja para finalizar o pagamento.<\/p>\n\n<h4>Aten&#231;&#227;o<\/h4>\n\n<p>&#201; obrigat&#243;rio ter uma conta confirmada no Gateway Akatus com acesso a API, voc&#234; pode criar a sua na p&#225;gina <a href=\"http:\/\/goo.gl\/ICz2O\">Akatus API<\/a>. Voc&#234; tamb&#233;m precisa ter o plugin \nWooCommerce instalado em sua loja virtual para utilizar o WooCommerce Akatus.<\/p>\n\n<p>A integra&#231;&#227;o ocorre por meio de webservice XML, o que aumenta o nivel de segu",
+                "uid": "8882"
+            }
+        }
+    }
+}

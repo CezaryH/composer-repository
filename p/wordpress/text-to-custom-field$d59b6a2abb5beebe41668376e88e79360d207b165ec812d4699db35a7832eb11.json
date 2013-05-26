@@ -1,0 +1,40 @@
+{
+    "packages": {
+        "wordpress\/text-to-custom-field": {
+            "1.1": {
+                "name": "wordpress\/text-to-custom-field",
+                "version": "1.1",
+                "version_normalized": "1.1.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/text-to-custom-field.1.1.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>The plugin works similar as shortcodes with important differences:<\/p>\n\n<ul>\n<li>It looks for any tag in the post with the following format: <strong>{cf your_custom_field_name=your_custom_field_value}<\/strong><\/li>\n<li>For any tag found, it create a custom field for that post.<\/li>\n<li>The tag is erased from the post.<\/li>\n<\/ul>\n\n<h4>How to use<\/h4>\n\n<p>Type in anywhere in a post:\n{cf your_custom_field_name=your_custom_field_value}<\/p>\n\n<p>Examples:<\/p>\n\n<ul>\n<li><strong>{cf thumbnail=http:\/\/wordpressready.com\/wp-content\/uploads\/oneringtorulethemall.jpg}<\/strong><\/li>\n<li><strong>{cf posticon=\/wp-content\/uploads\/posticon.ico}<\/strong><\/li>\n<li><strong>{cf my_custom_color=#22fb30}<\/strong><\/li>\n<\/ul>\n\n<p>This three examples written inside the post will create three custom fields with respectives values\nwhen you publish the post.\nAfter publishing, the tag inside the post are deleted. No other information is erased.<\/p>\n\n<h4>Notes<\/h4>\n\n<ul>\n<li>Because the way the plugin works, it wil",
+                "uid": "27893"
+            },
+            "1.11": {
+                "name": "wordpress\/text-to-custom-field",
+                "version": "1.11",
+                "version_normalized": "1.11.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/text-to-custom-field.1.11.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>The plugin works similar as shortcodes with important differences:<\/p>\n\n<ul>\n<li>It looks for any tag in the post with the following format: <strong>{cf your_custom_field_name=your_custom_field_value}<\/strong><\/li>\n<li>For any tag found, it create a custom field for that post.<\/li>\n<li>The tag is erased from the post.<\/li>\n<\/ul>\n\n<h4>How to use<\/h4>\n\n<p>Type in anywhere in a post:\n{cf your_custom_field_name=your_custom_field_value}<\/p>\n\n<p>Examples:<\/p>\n\n<ul>\n<li><strong>{cf thumbnail=http:\/\/wordpressready.com\/wp-content\/uploads\/oneringtorulethemall.jpg}<\/strong><\/li>\n<li><strong>{cf posticon=\/wp-content\/uploads\/posticon.ico}<\/strong><\/li>\n<li><strong>{cf my_custom_color=#22fb30}<\/strong><\/li>\n<\/ul>\n\n<p>This three examples written inside the post will create three custom fields with respectives values\nwhen you publish the post.\nAfter publishing, the tag inside the post are deleted. No other information is erased.<\/p>\n\n<h4>Notes<\/h4>\n\n<ul>\n<li>Because the way the plugin works, it wil",
+                "uid": "27892"
+            }
+        }
+    }
+}

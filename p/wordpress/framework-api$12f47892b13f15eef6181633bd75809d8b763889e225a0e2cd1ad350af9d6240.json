@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/framework-api": {
+            "0.0.3": {
+                "name": "wordpress\/framework-api",
+                "version": "0.0.3",
+                "version_normalized": "0.0.3.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/framework-api.0.0.3.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>*** This Plugin Is In Alpha Development, Not For Production Use Yet **\nDefines an extensible framework for use by other plugins, by keeping the generic code in one place allows for easier maintenance across a large set of complex plugins.<\/p>",
+                "uid": "40414"
+            }
+        }
+    }
+}

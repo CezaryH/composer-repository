@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/grayscale": {
+            "1.0": {
+                "name": "wordpress\/grayscale",
+                "version": "1.0",
+                "version_normalized": "1.0.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/grayscale.1.0.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>Sometimes, your website design requires to turn pictures in black &#38; white : for example in a gallery display, you can have all thumbnails in grayscale and bring up colors when the mouse is hovering it.\nThis plugin will make it possible without the need to manualy create the grayscale variant of each picture.<\/p>\n\n<p>In your theme's <code>functions.php<\/code>, instead of using WP <a href=\"http:\/\/codex.wordpress.org\/Function_Reference\/add_image_size\">add_image_size<\/a> function, use <code>grayscale_add_image_size('custom_size', xxx, yyy, crop, grayscale)<\/code>. Then, you can use <a href=\"http:\/\/codex.wordpress.org\/Function_Reference\/the_post_thumbnail\">the_post_thumbnail<\/a> or any thumbnail function to get your grayscale image :<\/p>\n\n<pre><code>the_post_thumbnail(&#039;custom_size-gray&#039;)<\/code><\/pre>",
+                "uid": "17382"
+            }
+        }
+    }
+}

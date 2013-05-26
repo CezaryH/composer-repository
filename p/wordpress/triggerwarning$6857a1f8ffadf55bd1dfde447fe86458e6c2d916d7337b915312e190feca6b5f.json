@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/triggerwarning": {
+            "1.0": {
+                "name": "wordpress\/triggerwarning",
+                "version": "1.0",
+                "version_normalized": "1.0.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/triggerwarning.1.0.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>Wrap the trigger content in <strong>[trigger][\/trigger]<\/strong> to hide it. Example: [trigger]something terrible[\/trigger] If you want to specify the type of trigger, you can do something like <strong>[trigger warning=\"violent imagery\"]<\/strong>something terrible<strong>[\/trigger]<\/strong>.<\/p>\n\n<p>Readers can choose to read the trigger content by clicking on the \"Show\" button.<\/p>",
+                "uid": "63921"
+            }
+        }
+    }
+}

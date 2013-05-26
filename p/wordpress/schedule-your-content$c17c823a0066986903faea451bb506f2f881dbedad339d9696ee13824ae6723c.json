@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/schedule-your-content": {
+            "1.0": {
+                "name": "wordpress\/schedule-your-content",
+                "version": "1.0",
+                "version_normalized": "1.0.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/schedule-your-content.1.0.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>Schedule your content plugin can help you in showing content within your wordpress blog for a specific period. You can decide when to start showing content and when to stop showing content. \nThis plugin uses shortcodes which can be written within the post content or page content or in text widget also. This plugin uses 4 parameters to schedule your content.\nshortcode: [scheduler] Here is your content[\/scheduler]\nParameters: start_date, start_time, end_date, end_time<\/p>\n\n<p>Date must be in YYYY-MM-DD format and time must be in 24-hour format.<\/p>\n\n<ul>\n<li>Here is the simple example where you schedule your content for specific period:<\/li>\n<\/ul>\n\n<p>[scheduler start_date='2012-05-13' start_time='06:30' end_date='2012-06-13' end_time='09:30']\nThis is scheduled Content.\n[\/scheduler]<\/p>\n\n<ul>\n<li>Here is the example where you want to schedule your content daily within 9am to 10am.<\/li>\n<\/ul>\n\n<p>[scheduler start_date='' start_time='09:00' end_date='' end_time='10:00']\nThis is schedule",
+                "uid": "25118"
+            }
+        }
+    }
+}

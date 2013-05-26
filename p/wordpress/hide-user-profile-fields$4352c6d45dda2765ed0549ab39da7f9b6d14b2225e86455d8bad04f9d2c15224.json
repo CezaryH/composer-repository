@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/hide-user-profile-fields": {
+            "1.2": {
+                "name": "wordpress\/hide-user-profile-fields",
+                "version": "1.2",
+                "version_normalized": "1.2.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/hide-user-profile-fields.1.2.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>A simple plugin with no-backend interface, to clean up some dummy fields from user profiles edition and creation pages, focused on corporate purposes. The following fields are removed right after this plugin activation: Colors Profile, Keyboard Shortcuts, Toolbar, AIM, Jabber, Yahoo IM, Website URL, Biography Description and User Role (every new user is created as Subscriber)\nSome contents was inspired on teachingyou.net<\/p>",
+                "uid": "20540"
+            }
+        }
+    }
+}

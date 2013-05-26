@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/kawthulei": {
+            "1.1": {
+                "name": "wordpress\/kawthulei",
+                "version": "1.1",
+                "version_normalized": "1.1.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/kawthulei.1.1.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>This plugin is devoted to making it easier to use the Sgaw Karen language on the Internet. Due to poor technical support, the Karen langauges currently have almost no online presence. But with the help of this wordpress plugin, you can help change that.<\/p>\n\n<p>The Sgaw Karen language is commonly written with a script derived from the Myanmar script. The script is implemented in recent versions of Unicode as a subset of the Myanmar script. However, many people may still be using psuedo-Unicode Myanmar fonts, which commonly use minority language code points for their own use. This causes a problem for browsers which don't know which font to use, and commonly choose the wrong one, rendering the text unreadable.<\/p>\n\n<p>The solution is to specifically assign the correct font to all Karen text. The primary function of this plugin is to facilitate this assignment. It does this by scanning content for Karen text, and assigning a CSS class containing font family information to any text it ",
+                "uid": "10667"
+            }
+        }
+    }
+}

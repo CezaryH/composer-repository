@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/p2p-slides": {
+            "1.0": {
+                "name": "wordpress\/p2p-slides",
+                "version": "1.0",
+                "version_normalized": "1.0.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/p2p-slides.1.0.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p><strong>Note:<\/strong> This plugin requires <a href=\"http:\/\/wordpress.org\/extend\/plugins\/posts-to-posts\/\">Posts 2 Posts<\/a><\/p>\n\n<p>Allows you to associate a custom post type (\"slides\") with any of your other post\ntypes (defaults to \"pages\").  This is useful for theme developers of those that\nwant to add custom sliders around your theme.<\/p>\n\n<p>This plugin does not provide you out of the box front end functionality. If you're\nlooking for a drop in and play slider, this isn't it.<\/p>",
+                "uid": "18041"
+            }
+        }
+    }
+}

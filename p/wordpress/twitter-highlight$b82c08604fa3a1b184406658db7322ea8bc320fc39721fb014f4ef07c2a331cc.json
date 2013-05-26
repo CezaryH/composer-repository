@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/twitter-highlight": {
+            "1.0": {
+                "name": "wordpress\/twitter-highlight",
+                "version": "1.0",
+                "version_normalized": "1.0.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/twitter-highlight.1.0.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>Convert the following formats:<\/p>\n\n<ul>\n<li>@username -&#62; <a href=\"http:\/\/twitter.com\/username\" rel=\"nofollow\">http:\/\/twitter.com\/username<\/a><\/li>\n<li>@username\/listname -&#62; <a href=\"http:\/\/twitter.com\/username\/listname\" rel=\"nofollow\">http:\/\/twitter.com\/username\/listname<\/a><\/li>\n<li>#hashtag -&#62; <a href=\"http:\/\/search.twitter.com\/search?q=%23hashtag\" rel=\"nofollow\">http:\/\/search.twitter.com\/search?q=%23hashtag<\/a><\/li>\n<\/ul>\n\n<p>It comes with some options to configure, like use nofollow attribute, open on a new page and choose where you want the links to be replaced.<\/p>",
+                "uid": "70311"
+            }
+        }
+    }
+}

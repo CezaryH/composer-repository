@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/wp-shortstat": {
+            "1.3": {
+                "name": "wordpress\/wp-shortstat",
+                "version": "1.3",
+                "version_normalized": "1.3.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/wp-shortstat.1.3.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>Track your blog stats. Based on <a href=\"http:\/\/shortstat.shauninman.com\/\">Shaun Inman's ShortStat<\/a>.<\/p>",
+                "uid": "114719"
+            }
+        }
+    }
+}

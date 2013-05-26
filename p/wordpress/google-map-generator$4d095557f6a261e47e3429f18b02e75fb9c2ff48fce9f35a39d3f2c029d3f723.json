@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/google-map-generator": {
+            "1.3.1": {
+                "name": "wordpress\/google-map-generator",
+                "version": "1.3.1",
+                "version_normalized": "1.3.1.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/google-map-generator.1.3.1.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>Using this plugin you can embed google map inside the post or link google map with a link as a popup. example: embed google map <code>{gmap&#124;address&#124;width&#124;height}<\/code> , popup google map <code>&#60;a href=\"{gmap_link&#124;address&#124;width&#124;height}\"&#62;Link Label&#60;\/a&#62;<\/code> .<\/p>\n\n<p>eaxmple: {gmap&#124;Athens, Greece&#124;400&#124;200}\nor\n&#60;a href=\"{gmap_link&#124;Athens, Greece&#124;400&#124;200}\"&#62;Map of Athens, Greece&#60;\/a&#62;<\/p>",
+                "uid": "75338"
+            }
+        }
+    }
+}

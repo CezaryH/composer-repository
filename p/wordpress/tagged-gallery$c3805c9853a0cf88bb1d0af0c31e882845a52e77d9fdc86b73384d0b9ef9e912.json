@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/tagged-gallery": {
+            "0.7": {
+                "name": "wordpress\/tagged-gallery",
+                "version": "0.7",
+                "version_normalized": "0.7.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/tagged-gallery.0.7.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>Tagged Gallery enables you to easily generate a gallery in any post or page based on tagged media.<\/p>\n\n<h4>Useage<\/h4>\n\n<ul>\n<li>Tag a image in your media library. For this example we use 'Spring2013'<\/li>\n<li>Make a page or a blogpost where you want to display your images and tag that post\/page with 'tg:Spring2013' and Tagged Gallery will create an image gallery of alle the images tagged with 'Spring2013'<\/li>\n<li>Remeber to set thumb size in admin interface :)<\/li>\n<\/ul>\n\n<h4>Dependency<\/h4>\n\n<ul>\n<li>[Tag Pages] (<a href=\"http:\/\/wordpress.org\/extend\/plugins\/tag-pages\/\" rel=\"nofollow\">http:\/\/wordpress.org\/extend\/plugins\/tag-pages\/<\/a> \"Tag Pages\") by Bjorn Wijers<\/li>\n<li>[WordPress Media Tags] (<a href=\"http:\/\/www.typomedia.org\/wordpress\/plugins\/wordpress-media-tags\/\" rel=\"nofollow\">http:\/\/www.typomedia.org\/wordpress\/plugins\/wordpress-media-tags\/<\/a> \"WordPress Media Tags\") by Typomedia Foundation<\/li>\n<\/ul>\n\n<p>Tagged Gallery does NOT connect to any external servers. Just getti",
+                "uid": "8596"
+            }
+        }
+    }
+}

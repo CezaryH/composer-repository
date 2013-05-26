@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/so-audible": {
+            "0.9": {
+                "name": "wordpress\/so-audible",
+                "version": "0.9",
+                "version_normalized": "0.9.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/so-audible.0.9.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>So Audible Cloud Music Player, sync your tracks share with friends upload, quick share embed, html5, ipad, iphone, android, play music anywhere long mixes, meetings, sermons, podcasts, radio.<\/p>\n\n<p><\/p>\n\n<p>You will need an soaudbile account to use this, sign up here. <a href=\"http:\/\/soaudible.com\/\" rel=\"nofollow\">http:\/\/soaudible.com\/<\/a><\/p>\n\n<h3>If you would like to put this feed within your template please use the following code<\/h3>\n\n<pre><code>&#60;?php $soaudible-&#62;soaudible_player(array(&#039;autoplay&#039; =&#62; &#039;false&#039;,\n        &#039;album&#039; =&#62; &#039;enter-your-album&#039;,)); ?&#62;<\/code><\/pre>\n\n<h3>If you would like to put this feed within a post or page use the following code.<\/h3>\n\n<pre><code>[soaudible autoplay=&#34;true&#34; album=&#34;enter-your-album&#34;]<\/code><\/pre>\n\n<h3>Or simple use the widget<\/h3>",
+                "uid": "23063"
+            }
+        }
+    }
+}

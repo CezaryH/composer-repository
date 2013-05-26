@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/junaid-bhura-switch-blog-theme": {
+            "0.0.2": {
+                "name": "wordpress\/junaid-bhura-switch-blog-theme",
+                "version": "0.0.2",
+                "version_normalized": "0.0.2.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/junaid-bhura-switch-blog-theme.0.0.2.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>With this plugin you can set a <strong>base name<\/strong> for your blog pages. For example: <a href=\"http:\/\/www.yoursite.com\/\" rel=\"nofollow\">http:\/\/www.yoursite.com\/<\/a><strong>blog<\/strong>\/name-of-my-post , where \"blog\" is the base for your blog pages. If the plugin detects the base name in the URL, it switches the theme to a completely different theme which you can select.<\/p>\n\n<p>Similarly, in the WP Admin, while adding a new post, the theme is switched to the blog theme and it shows the blog theme's options instead of the default theme's options.<\/p>\n\n<p><em>Read the installation instructions carefully before using!<\/em><\/p>",
+                "uid": "13344"
+            }
+        }
+    }
+}

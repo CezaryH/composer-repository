@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/df-fileconf": {
+            "1.0": {
+                "name": "wordpress\/df-fileconf",
+                "version": "1.0",
+                "version_normalized": "1.0.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/df-fileconf.1.0.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>This plugin can be useful if you are to move your blog to a different site.\nThere are many options that needs to be changed if the URL of your blog changes,\nat least 'siteurl' and 'home'. This is normally done manually updating the\nvalues in the database table wp_options, since you can not reach the\nWordPress administration sites if these URLs are wrong. If you use a plugin\nthat makes use of Google Maps you need to update the API key as well.<\/p>\n\n<p>This plugin has only been tested with the WordPress 2.1 branch, but might\nwork with older versions. Please report on compatiblity with other versions.<\/p>",
+                "uid": "112494"
+            }
+        }
+    }
+}

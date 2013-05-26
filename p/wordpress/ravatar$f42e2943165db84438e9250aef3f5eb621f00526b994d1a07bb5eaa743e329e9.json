@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/ravatar": {
+            "2.0.3": {
+                "name": "wordpress\/ravatar",
+                "version": "2.0.3",
+                "version_normalized": "2.0.3.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/ravatar.2.0.3.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>Ravatars is a plugin that will generate and assign icons to the visitors leaving comments at your site. The icons are based on email, \nso a given visitor will get the same icon each time they comment.  It is easy to customize the avatars so that they match your site's topic or theme. It also makes comment threads easier to follow when people have memorable \"faces.\"<\/p>\n\n<p>This plugin is based on Shamus Young's Wavatars plugin.<\/p>\n\n<p>And a shout out to Gregory Weir for bugfixes. Thanks!<\/p>\n\nFeatures:\n\n<ol>\n<li>You can customize the avatars your site will display to match your theme. Just upload source images to the \nwp-content\/plugins\/ravatars\/parts directory. Ravatars will create your custom avatars by choosing a random image and then cropping a random\npart of the image<\/li>\n\n<li>The icons are generated on-the-fly.  You can adjust the desired size of the icons.<\/li>\n\n<li>Easily integrates with avatar enabled themes<\/li>\n\n<li>For easy deployment in Wordpress pre 2.5, icons will a",
+                "uid": "105928"
+            }
+        }
+    }
+}

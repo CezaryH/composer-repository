@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/entredropper": {
+            "1.1.2": {
+                "name": "wordpress\/entredropper",
+                "version": "1.1.2",
+                "version_normalized": "1.1.2.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/entredropper.1.1.2.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>EntreDroppers uses the built-in MagpieRSS engine functions to create a list of the latest bloggers who have dropped an Entrecard on your blog. This is taken from the RSS feed that Entrecard provides on your dashboard. The plugin uses WordPress' inbuilt RSS handling capabilities, automatically keeping the feed cached in the database.<\/p>\n\n<p>Release v1.1 - Adds the ability to tag blogger's links as \"Nofollow\"<\/p>",
+                "uid": "104692"
+            }
+        }
+    }
+}

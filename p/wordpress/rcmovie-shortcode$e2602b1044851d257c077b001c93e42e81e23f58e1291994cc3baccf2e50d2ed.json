@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/rcmovie-shortcode": {
+            "0.9.0": {
+                "name": "wordpress\/rcmovie-shortcode",
+                "version": "0.9.0",
+                "version_normalized": "0.9.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/rcmovie-shortcode.0.9.0.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>Simple to include videos from the german rcmovie.de platform using a shortcode on a wordpress page.<\/p>\n\n<h4>Features:<\/h4>\n\n<p>simple include the player on your page<\/p>\n\n<h4>Documentation<\/h4>\n\n<p><strong>Basic example:<\/strong><\/p>\n\n<p>[rcmovie id=\"57e83990249ebddbb8cc\"]<\/p>\n\n<p>This shortcode will embed the rcmovie.de player.<\/p>",
+                "uid": "52050"
+            }
+        }
+    }
+}

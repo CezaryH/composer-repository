@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/simple-category-search": {
+            "0.2.0": {
+                "name": "wordpress\/simple-category-search",
+                "version": "0.2.0",
+                "version_normalized": "0.2.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/simple-category-search.0.2.0.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>You can choose (child) categories and see the posts belong to the chosen category with AJAX.<\/p>\n\n<p>When the category you choose from the list box has child categories, the child categories will be shown in a new list box.\nClicking the \"Search\" button, the list of posts belong to the bottom category which you choose will be displayed under the \"Search\" button.<\/p>",
+                "uid": "39432"
+            }
+        }
+    }
+}

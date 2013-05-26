@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/xavins-list-subpages": {
+            "1.3": {
+                "name": "wordpress\/xavins-list-subpages",
+                "version": "1.3",
+                "version_normalized": "1.3.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/xavins-list-subpages.1.3.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>This plugin adds the ability to put a tag in your page entry and have it display a list of pages. By deafult it will\nshow the subpages of the page that it is on, but it will accept any of the options the \n<a href=\"http:\/\/codex.wordpress.org\/Template_Tags\/wp_list_pages\"><code>wp_list_pages<\/code><\/a> template tag\nwill except <code>title_li<\/code> and <code>echo<\/code>. It is very simple to use, just put <code>[xls]<\/code> in the entry for your page where you want the list to appear.<\/p>\n\n<p>There is one option in addition to the <code>wp_list_pages<\/code> ones. Specifying a <code>css_class<\/code> will override the default of \n    xls_list for the class of the surrounding <code>ul<\/code>.<\/p>\n\n<p>It supports multiple uses of the tag with different options on one page.<\/p>\n\n<p>Here are a few examples of valid tags:<\/p>\n\n<pre><code>[xls depth=2]\n<\/code><\/pre>\n\n<p>Shows two levels of the subpages of the current page.<\/p>\n\n<pre><code>[xls child_of=10 exclude=\"13, 15, 33\"]\n<\/code><\/pre>\n\n<",
+                "uid": "99359"
+            }
+        }
+    }
+}

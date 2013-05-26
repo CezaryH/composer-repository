@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/primary-blog-switcher-for-superadmins": {
+            "3.0.1": {
+                "name": "wordpress\/primary-blog-switcher-for-superadmins",
+                "version": "3.0.1",
+                "version_normalized": "3.0.1.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/primary-blog-switcher-for-superadmins.3.0.1.5.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>WP3.0 multisite \"mu-plugin\" to allow Network Admin to set the \"Primary Blog\" (aka Primary Site) of a user while editing a user's profile.<\/p>\n\n<p>Well, for whatever reasons (usually users fiddling around - I use WP3 multisite in a school with students grades 4-12), users aren't attached(or become unattached) to the correct \"Primary Blog\".<\/p>\n\n<p>This isn't a deal breaker, but annoying when they login and are redirected to a blog that is not their expected primary. It also is annoying when I use other plugins to list user primary blog for display in a member directory, member profiles, etc.<\/p>\n\n<p>Telling users to reset their primary blog at their own Dashboard-&#62;My Blogs is a fix, but the SuperAdmin(Teacher in my case) can head off the confusion first with this plugin. There is no other way(AFAIK) for the Network Admin to set the \"Primary Blog\" of a user while editing their profile.<\/p>\n\n<p>Now, I can quickly scan the Network Admin list of users and edit profiles and set primar",
+                "uid": "63746"
+            }
+        }
+    }
+}

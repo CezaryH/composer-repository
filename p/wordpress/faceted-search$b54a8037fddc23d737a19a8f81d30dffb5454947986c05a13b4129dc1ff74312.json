@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/faceted-search": {
+            "3.4.4": {
+                "name": "wordpress\/faceted-search",
+                "version": "3.4.4",
+                "version_normalized": "3.4.4.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/faceted-search.3.4.4.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>This plugin creates two widgets:<\/p>\n\n<ol>\n<li>A widget where you can choose from all the categories in your blog.<\/li>\n<\/ol>\n\n<p>This is similar to what newegg.com uses, where you can select multiple categories, and it will only show posts belonging to all the categories you select, and such categories can be narrowed down by selecting their subcategories.<\/p>\n\n<ol>\n<li>A widget where you can choose from all the tags in your blog<\/li>\n<\/ol>\n\n<p>You can select the tags you want to search for, and it will only show posts that have all of the tags you selected.<\/p>",
+                "uid": "64557"
+            }
+        }
+    }
+}

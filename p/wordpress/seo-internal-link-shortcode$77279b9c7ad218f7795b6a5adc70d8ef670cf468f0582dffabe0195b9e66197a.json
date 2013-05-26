@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/seo-internal-link-shortcode": {
+            "0.1": {
+                "name": "wordpress\/seo-internal-link-shortcode",
+                "version": "0.1",
+                "version_normalized": "0.1.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/seo-internal-link-shortcode.0.1.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>This plugin allows you to create internal <code>&#60;a&#62;<\/code> links within your content that <strong>will not break when things get renamed or moved<\/strong>. While there are similar plugins available, they do not offer important <strong>SEO options<\/strong>.<\/p>\n\n<p>You can add <em>any<\/em> HTML attribute to your link as long as it's prefixed with \"attr_\". And because it supports attributes that may not currently exist, it is <strong>future proof<\/strong>.<\/p>\n\n<p><strong>Examples:<\/strong><\/p>\n\n<ol>\n<li>Link to a post\/page by ID or slug \n\n<ul>\n<li><strong>Shortcode:<\/strong> <code>[link id=\"1234\"\/]<\/code><\/li>\n<li><strong>Shortcode:<\/strong> <code>[link slug=\"post-slug\"\/]<\/code><\/li>\n<li><strong>Output:<\/strong> <code>&#60;a href=\"http:\/\/domain.com\/post-slug\/\"&#62;Post Title&#60;\/a&#62;<\/code><\/li>\n<\/ul><\/li>\n<li>Link to a category by slug \n\n<ul>\n<li><strong>Shortcode:<\/strong> <code>[link cat=\"cat-slug\"\/]<\/code><\/li>\n<li><strong>Output:<\/strong> <code>&#60;a href=\"http:\/\/dom",
+                "uid": "10582"
+            }
+        }
+    }
+}

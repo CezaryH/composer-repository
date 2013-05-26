@@ -1,0 +1,57 @@
+{
+    "packages": {
+        "wordpress\/discuz-integration": {
+            "0.1": {
+                "name": "wordpress\/discuz-integration",
+                "version": "0.1",
+                "version_normalized": "0.1.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/discuz-integration.0.1.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>What does this plugin do:<\/p>\n\n<ol>\n<li>On login, it looks for the username enter at Discuz! user database.<\/li>\n<li>If it finds identical entry, it checks for password.<\/li>\n<li>If both usernames and passwords are identical, it creates a new user with the excat data at wordpress database.<\/li>\n<li>Wordpress will show preference panel.<\/li>\n<\/ol>\n\n<p>Users do not see the internal processing. If data matches, it's simply a successful login.<\/p>\n\n<p>This plugin only works with tables in the same MySql database at this time.<\/p>",
+                "uid": "102827"
+            },
+            "0.2": {
+                "name": "wordpress\/discuz-integration",
+                "version": "0.2",
+                "version_normalized": "0.2.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/discuz-integration.0.2.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>What does this plugin do:<\/p>\n\n<ol>\n<li>On login, it looks for the username enter at Discuz! user database.<\/li>\n<li>If it finds identical entry, it checks for password.<\/li>\n<li>If both usernames and passwords are identical, it creates a new user with the excat data at wordpress database.<\/li>\n<li>Wordpress will show preference panel.<\/li>\n<\/ol>\n\n<p>Users do not see the internal processing. If data matches, it's simply a successful login.<\/p>\n\n<p>This plugin only works with tables in the same MySql database at this time.<\/p>",
+                "uid": "102826"
+            },
+            "0.2.1": {
+                "name": "wordpress\/discuz-integration",
+                "version": "0.2.1",
+                "version_normalized": "0.2.1.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/discuz-integration.0.2.1.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>What does this plugin do:<\/p>\n\n<ol>\n<li>On login, it looks for the username enter at Discuz! user database.<\/li>\n<li>If it finds identical entry, it checks for password.<\/li>\n<li>If both usernames and passwords are identical, it creates a new user with the excat data at wordpress database.<\/li>\n<li>Wordpress will show preference panel.<\/li>\n<\/ol>\n\n<p>Users do not see the internal processing. If data matches, it's simply a successful login.<\/p>\n\n<p>This plugin only works with tables in the same MySql database at this time.<\/p>",
+                "uid": "102825"
+            }
+        }
+    }
+}

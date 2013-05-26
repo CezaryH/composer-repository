@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/enable-oembed-discovery": {
+            "1.0.0": {
+                "name": "wordpress\/enable-oembed-discovery",
+                "version": "1.0.0",
+                "version_normalized": "1.0.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/enable-oembed-discovery.1.0.0.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>This plugin enables the oEmbed discovery ability in WordPress 2.9's <a href=\"http:\/\/codex.wordpress.org\/Embeds\">embed feature<\/a>. It only applies to users with the <code>unfiltered_html<\/code> capability (Administrators and Editors by default).<\/p>\n\n<h4>What is oEmbed discovery?<\/h4>\n\n<p>Website owners can add a bit of HTML to their head that says where their oEmbed provider is located. This allows consumers such as WordPress to embed things from their website without WordPress specifically knowing about their website before hand.<\/p>\n\n<p>However this is disabled in WordPress by default to prevent someone (either on purpose or by accident) from embedding content from a malicious website.<\/p>\n\n<h4>So oEmbed discovery is bad?<\/h4>\n\n<p>No, it's just powerful and has risks. Whatever HTML the remote website provides is used directly. Normally that's fine, but they could also provide HTML that is bad for you and your visitors. So it's best if you know what you're doing which is why it's ",
+                "uid": "76365"
+            }
+        }
+    }
+}

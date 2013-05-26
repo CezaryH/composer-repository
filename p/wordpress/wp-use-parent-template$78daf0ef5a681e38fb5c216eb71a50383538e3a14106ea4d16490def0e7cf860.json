@@ -1,0 +1,57 @@
+{
+    "packages": {
+        "wordpress\/wp-use-parent-template": {
+            "0.2": {
+                "name": "wordpress\/wp-use-parent-template",
+                "version": "0.2",
+                "version_normalized": "0.2.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/wp-use-parent-template.0.2.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<h4>Features<\/h4>\n\n<ul>\n<li>use parent template for child category.<\/li>\n<li>use parent template for child page.<\/li>\n<\/ul>\n\n<p>If you have works category with some child categories as followings, you may want to use 'category-works.php' for all three child categories. You need to copy as 'category-design.php' and the rest in default template hierarchy. WP Use parent template patches the template hierarchy to use parent template for these child categories. And also pages too.<\/p>\n\n<ul>\n<li>example.com\/works\/design<\/li>\n<li>example.com\/works\/illust<\/li>\n<li>example.com\/works\/photo<\/li>\n<\/ul>\n\n<h4>Category template hierarchy<\/h4>\n\n<ol>\n<li>category-{slug}.php<\/li>\n<li>category-{id}.php<\/li>\n<li>category-{parent slug}.php \/\/Add by WP Use parent template<\/li>\n<li>category-{parent id}.php \/\/Add by WP Use parent template<\/li>\n<li>category.php<\/li>\n<li>archive.php<\/li>\n<li>index.php<\/li>\n<\/ol>\n\n<h4>Page template hierarchy<\/h4>\n\n<ol>\n<li>custom template file<\/li>\n<li>page-{slug}.php<\/li>\n<li>p",
+                "uid": "36186"
+            },
+            "0.3": {
+                "name": "wordpress\/wp-use-parent-template",
+                "version": "0.3",
+                "version_normalized": "0.3.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/wp-use-parent-template.0.3.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<h4>Features<\/h4>\n\n<ul>\n<li>use parent template for child category.<\/li>\n<li>use parent template for child page.<\/li>\n<\/ul>\n\n<p>If you have works category with some child categories as followings, you may want to use 'category-works.php' for all three child categories. You need to copy as 'category-design.php' and the rest in default template hierarchy. WP Use parent template patches the template hierarchy to use parent template for these child categories. And also pages too.<\/p>\n\n<ul>\n<li>example.com\/works\/design<\/li>\n<li>example.com\/works\/illust<\/li>\n<li>example.com\/works\/photo<\/li>\n<\/ul>\n\n<h4>Category template hierarchy<\/h4>\n\n<ol>\n<li>category-{slug}.php<\/li>\n<li>category-{id}.php<\/li>\n<li>category-{parent slug}.php \/\/Add by WP Use parent template<\/li>\n<li>category-{parent id}.php \/\/Add by WP Use parent template<\/li>\n<li>category.php<\/li>\n<li>archive.php<\/li>\n<li>index.php<\/li>\n<\/ol>\n\n<h4>Page template hierarchy<\/h4>\n\n<ol>\n<li>custom template file<\/li>\n<li>page-{slug}.php<\/li>\n<li>p",
+                "uid": "36184"
+            },
+            "0.4": {
+                "name": "wordpress\/wp-use-parent-template",
+                "version": "0.4",
+                "version_normalized": "0.4.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/wp-use-parent-template.0.4.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<h4>Features<\/h4>\n\n<ul>\n<li>use parent template for child category.<\/li>\n<li>use parent template for child page.<\/li>\n<\/ul>\n\n<p>If you have works category with some child categories as followings, you may want to use 'category-works.php' for all three child categories. You need to copy as 'category-design.php' and the rest in default template hierarchy. WP Use parent template patches the template hierarchy to use parent template for these child categories. And also pages too.<\/p>\n\n<ul>\n<li>example.com\/works\/design<\/li>\n<li>example.com\/works\/illust<\/li>\n<li>example.com\/works\/photo<\/li>\n<\/ul>\n\n<h4>Category template hierarchy<\/h4>\n\n<ol>\n<li>category-{slug}.php<\/li>\n<li>category-{id}.php<\/li>\n<li>category-{parent slug}.php \/\/Add by WP Use parent template<\/li>\n<li>category-{parent id}.php \/\/Add by WP Use parent template<\/li>\n<li>category.php<\/li>\n<li>archive.php<\/li>\n<li>index.php<\/li>\n<\/ol>\n\n<h4>Page template hierarchy<\/h4>\n\n<ol>\n<li>custom template file<\/li>\n<li>page-{slug}.php<\/li>\n<li>p",
+                "uid": "36183"
+            }
+        }
+    }
+}

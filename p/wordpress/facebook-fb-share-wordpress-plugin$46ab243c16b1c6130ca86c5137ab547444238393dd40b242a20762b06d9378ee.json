@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/facebook-fb-share-wordpress-plugin": {
+            "0.1": {
+                "name": "wordpress\/facebook-fb-share-wordpress-plugin",
+                "version": "0.1",
+                "version_normalized": "0.1.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/facebook-fb-share-wordpress-plugin.0.1.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>FB Share is a WordPress Plugin, which lets you add a Facebook Share button for your WordPress posts, together with the total number of share.<\/p>\n\n<h3>Usage<\/h3>\n\n<p>There are three ways you can add the facebook share button. Automatic way, manual way and using shortcodes<\/p>\n\n<h4>Automatic way<\/h4>\n\n<p>Install the Plugin and choose the type and position of the button from the Plugin&#8217;s settings page. You can also specifically enable\/disable the button for each post or page from the write post\/page screen.<\/p>\n\n<h4>Manual way<\/h4>\n\n<p>If you want more control over the way the button should be positioned, then you can manually call the button using the following code.<\/p>\n\n<p>if (function_exists('fbshare_button')) echo fbshare_button();<\/p>\n\n<h4>Using shortcodes<\/h4>\n\n<p>You can also place the shortcode [fbshare] anywhere in your post. This shortcode will be replaced by the button when the post is rendered.<\/p>\n\n<p>More information available at the <a href=\"http:\/\/staynalive.com",
+                "uid": "78608"
+            }
+        }
+    }
+}

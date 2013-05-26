@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/stop-spamco": {
+            "0.2": {
+                "name": "wordpress\/stop-spamco",
+                "version": "0.2",
+                "version_normalized": "0.2.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/stop-spamco.0.2.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>Vous en avez marre de recevoir du spam dans vos commentaires ? Des visiteurs postent un commentaire de quelques mots seulement pour obtenir un lien ? Alors Stop SpamCo vous permettra de faire un premier pas dans la lutte contre le spamco.<\/p>\n\n<p>Ce plugin vous laisse le choix entre retirer le champs 'Site web' apr&#232;s une periode que vous d&#233;finissez. Ainsi les visiteurs ne pourront plus ajouter de lien dans les commentaires d'articles &#233;tant trop ancien.<\/p>\n\n<p>Ou alors vous pouvez toujours autoriser les liens mais en passant le lien en nofollow pour tous les commentaires post&#233;s apr&#232;s la p&#233;riode que vous avez d&#233;finit.<\/p>\n\n<p>Version 0.2 :\nSuppression d'une fonctionnalit&#233; emp&#233;chant les effets du plugin sur tous les articles post&#233;s avant l'installation du plugin Stop SpamCo<\/p>",
+                "uid": "11203"
+            }
+        }
+    }
+}

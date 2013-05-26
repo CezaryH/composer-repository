@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/dotepub": {
+            "1.0": {
+                "name": "wordpress\/dotepub",
+                "version": "1.0",
+                "version_normalized": "1.0.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/dotepub.1.0.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p><a href=\"http:\/\/dotepub.com\">dotEPUB<\/a> is software in the cloud that allows you to convert any webpage into an e-book. The dotEPUB plugin helps your users getting the content of your blog in e-book form.<\/p>\n\n<p>When this plugin is activated a button or link will be included in all your posts (at the beginning or at the end of them). If you don't want to include it in all your posts or want to add it in a different place (for example, after the introductory paragraph), please use the shortcode.<\/p>\n\n<h4>Shortcode<\/h4>\n\n<p>If you want to place the dotEPUB button or link only in selected posts or in the middle of the text, use the [dotepub] shortcode.<\/p>\n\n<ol>\n<li>[dotepub] will include the dotEPUB button or link using the dotEPUB blog settings.<\/li>\n<li>[dotepub]your code[\/dotepub] will add a link to \"your code\".<\/li>\n<\/ol>\n\n<p><strong>Important<\/strong>: Do not mix 1 and 2. If you need to use an empty shortcode in a post where you are also using a non-empty shortcode, please writ",
+                "uid": "10204"
+            }
+        }
+    }
+}

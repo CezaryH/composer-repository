@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/wezo-smart-links": {
+            "1.0": {
+                "name": "wordpress\/wezo-smart-links",
+                "version": "1.0",
+                "version_normalized": "1.0.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/wezo-smart-links.1.0.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>Operation:\nThe plugin enables the bar of the post formatting options icon\nClicking the icon will open a window that contains the form for registration of links\nLinks will be saved in the bank and will be available in Smart Links List tab\nSign In \/ Choose a link unit the following code is inserted in the post where XXX is the id of the block saved in the database.<\/p>\n\n<p>Example: the following links on this page are being entered via the plugin is not formatted but I'm working on the option to insert CSS for block<\/p>\n\n<p>[smartlinks id=\"3\"]<\/p>",
+                "uid": "27074"
+            }
+        }
+    }
+}

@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/re-wp-short-theme-descriptions": {
+            "1.2": {
+                "name": "wordpress\/re-wp-short-theme-descriptions",
+                "version": "1.2",
+                "version_normalized": "1.2.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/re-wp-short-theme-descriptions.1.2.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>Some theme authors makes really long theme desctiptions and add a ton of tags.\nWhen you have many themes uploaded to your WordPress installation, this can make the overview look messed up.\nInstall this plugin to make the theme descriptions short.\nYou can simpy disable the plugin if you at some point want to read all the info again.<\/p>\n\n<p>Since WP 3.4 the developers have reorganized the theme overview screen, rendering this plugin depricated.\nOnly install if you still run 3.3 or below, and dislike long theme descriptions :)<\/p>",
+                "uid": "29678"
+            }
+        }
+    }
+}

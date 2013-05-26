@@ -1,0 +1,40 @@
+{
+    "packages": {
+        "wordpress\/alternate-openid-for-wordpress": {
+            "0.03": {
+                "name": "wordpress\/alternate-openid-for-wordpress",
+                "version": "0.03",
+                "version_normalized": "0.03.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/alternate-openid-for-wordpress.0.03.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p><a href=\"http:\/\/openid.net\">OpenID.net<\/a> can give scads more information about OpenID than any blurb listed here.<\/p>\n\n<p>This plugin uses the SimpleOpenID class, written by Remy Sharp, to give your blog's visitors a (hopefully) quick and easy way to use their OpenID credentials to login to your blog and enter comments. This plugin requires the server your WordPress blog lives on to have curl access (with support for SSL) built into the PHP version it is using.<\/p>\n\n<p>Make certain the default role for new users is subscriber. Visitors that login to leave comments will be automatically added to your users list, so do not give them too much automatic access. You may also want to review your new-comments policy.<\/p>\n\n<p>This plugin attempts to be as unobtrusive to your WordPress installation as possible. It does not add new tables to your WordPress database and it does not add new columns to existing WordPress database tables. It does add new users to the WordPress users table, usin",
+                "uid": "106761"
+            },
+            "0.04": {
+                "name": "wordpress\/alternate-openid-for-wordpress",
+                "version": "0.04",
+                "version_normalized": "0.04.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/alternate-openid-for-wordpress.0.04.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p><a href=\"http:\/\/openid.net\">OpenID.net<\/a> can give scads more information about OpenID than any blurb listed here.<\/p>\n\n<p>This plugin uses the SimpleOpenID class, written by Remy Sharp, to give your blog's visitors a (hopefully) quick and easy way to use their OpenID credentials to login to your blog and enter comments. This plugin requires the server your WordPress blog lives on to have curl access (with support for SSL) built into the PHP version it is using.<\/p>\n\n<p>Make certain the default role for new users is subscriber. Visitors that login to leave comments will be automatically added to your users list, so do not give them too much automatic access. You may also want to review your new-comments policy.<\/p>\n\n<p>This plugin attempts to be as unobtrusive to your WordPress installation as possible. It does not add new tables to your WordPress database and it does not add new columns to existing WordPress database tables. It does add new users to the WordPress users table, usin",
+                "uid": "106760"
+            }
+        }
+    }
+}

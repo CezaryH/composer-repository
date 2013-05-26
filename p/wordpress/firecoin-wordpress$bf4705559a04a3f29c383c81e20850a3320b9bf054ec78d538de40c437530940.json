@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/firecoin-wordpress": {
+            "1.0.0": {
+                "name": "wordpress\/firecoin-wordpress",
+                "version": "1.0.0",
+                "version_normalized": "1.0.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/firecoin-wordpress.1.0.0.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>The firefox addon <a href=\"https:\/\/addons.mozilla.org\/en-US\/firefox\/addon\/firecoin\/\" rel=\"nofollow\">https:\/\/addons.mozilla.org\/en-US\/firefox\/addon\/firecoin\/<\/a> lets users easily donate BitCoins to site owners. It gets your BitCoin address from a metatag named \"bitcoin\". It also allows the site owners to provide a message and a URL to a thanks page.<\/p>\n\n<p>This plugin makes it easy for you to add these tags to your headers.<\/p>\n\n<p>Please note that this plugin will promote the Firefox addon in a HTML comment in the header, which is only visible if a user would inspect the HTML code. It wont show the link anywhere else.<\/p>",
+                "uid": "44833"
+            }
+        }
+    }
+}

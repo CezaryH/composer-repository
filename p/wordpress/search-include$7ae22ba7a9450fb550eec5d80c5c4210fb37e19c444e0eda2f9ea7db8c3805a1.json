@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/search-include": {
+            "1.0.3": {
+                "name": "wordpress\/search-include",
+                "version": "1.0.3",
+                "version_normalized": "1.0.3.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/search-include.1.0.3.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>This plugin allows you to include search results from other Search engine (such as Google, Bing, Yahoo ...) in your blog.\nIn order to use this plugin, you need to add a call to the function _search_include_plugin() in your search result template file (search.php)\nYou need to add the function call in the main div (id depends on your theme), for the default WP 3.3 theme (Twenty Eleven 1.2 by the WordPress team)  :\nYou need to edit the file search.php in the theme editor, and at the end of the file just replace :<\/p>\n\n<pre><code>        &#60;?php endif; ?&#62;\n        &#60;\/div&#62;\n    &#60;\/div&#62;\n\n    &#60;?php get_sidebar(); ?&#62;\n<\/code><\/pre>\n\n\n\n<p>by<\/p>\n\n<pre><code>        &#60;?php endif; ?&#62;\n        &#60;?php echo_search_include_plugin(); ?&#62;\n        &#60;\/div&#62;\n    &#60;\/div&#62;\n    &#60;?php get_sidebar(); ?&#62;\n<\/code><\/pre>\n\n\n\n<p>You can add specific Search Engines (see the documentation to see how to do that).<\/p>",
+                "uid": "32913"
+            }
+        }
+    }
+}

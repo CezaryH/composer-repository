@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/bbpress-ignore-user": {
+            "0.2": {
+                "name": "wordpress\/bbpress-ignore-user",
+                "version": "0.2",
+                "version_normalized": "0.2.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/bbpress-ignore-user.0.2.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>Users can maintain their own personal ignore user list which is used to hide any posts or topics from that user.\nWhile viewing a topic, the current user can ignore any of the reply authors by clicking an 'Ignore User' link under\/near the author name.  This adds the author to the user's ignore list.\nOn the user's profile, the author can remove entries to their ignore list.<\/p>\n\n<p>The user can forcibly show all ignored posts or topics by viewing the topic or forum with <code>?show_ignored_users<\/code> applied to the url (a link to show all posts and topics is given when posts are hidden).<\/p>\n\n<p>Users who can moderate the forum cannot be ignored by any members and members cannot ignore themselves.<\/p>",
+                "uid": "45058"
+            }
+        }
+    }
+}

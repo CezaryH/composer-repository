@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/cy-custom-morelink": {
+            "0.2": {
+                "name": "wordpress\/cy-custom-morelink",
+                "version": "0.2",
+                "version_normalized": "0.2.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/cy-custom-morelink.0.2.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>Customize the more link (<code>&#60;!-- more --&#62;<\/code>) provided by WordPress 'insert more link' feature\nwithout changing template files. Just activate the plugin, change the link structure\nin the options panel, save. With this plugin you can<\/p>\n\n<ol>\n<li>remove the #more-number anchor tag from the link<\/li>\n<li>remove or modify the CSS class <\/li>\n<li>add a nofollow attribute<\/li>\n<li>customize the markup adding additional tags<\/li>\n<li>everything you want to do<\/li>\n<\/ol>\n\n<p>In the custom link structure you an use the following tags:<\/p>\n\n<ol>\n<li>%permalink% - the permalink provided by WordPress<\/li>\n<li>%anchor% - the anchortext provided by WordPress (default '#more-number')<\/li>\n<li>%class% - the CSS class provided by WordPress (default 'more-link')<\/li>\n<li>%linktext% - the linktext as delivered by WordPress<\/li>\n<\/ol>",
+                "uid": "98313"
+            }
+        }
+    }
+}

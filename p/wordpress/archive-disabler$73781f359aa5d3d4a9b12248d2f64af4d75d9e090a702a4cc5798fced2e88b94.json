@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/archive-disabler": {
+            "1.0": {
+                "name": "wordpress\/archive-disabler",
+                "version": "1.0",
+                "version_normalized": "1.0.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/archive-disabler.1.0.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>Archive Disabler allows you to disable WordPress' default archive pages.  It does this by either redirecting those archive pages or causing them to throw a 404 error depending on your settings.<\/p>\n\n<p>You may want to do this if, for instance, you didn't want to expose post format archives to the world.  Instead you could redirect them to the home page of your site.<\/p>",
+                "uid": "28292"
+            }
+        }
+    }
+}

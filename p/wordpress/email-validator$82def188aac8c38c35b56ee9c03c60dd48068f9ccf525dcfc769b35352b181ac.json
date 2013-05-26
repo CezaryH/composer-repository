@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/email-validator": {
+            "1.1": {
+                "name": "wordpress\/email-validator",
+                "version": "1.1",
+                "version_normalized": "1.1.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/email-validator.1.1.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>This plugin prevent users and visitors from registering with temporary email addresses like the ones provided by mailinator (also known as throw-away email, one-time email). It protects the most important asset, your registered user base, by preventing contamination by fake accounts. This plugin working principle is similar to spam blacklists.<\/p>\n\n<p>The Plugin detects syntactically incorrect addresses, not connectable email addresses (e. g. email addresses from not existing domains or domains which doesn't respond emails) and email addresses of over 5.000 domains from temporary address providers.<\/p>\n\n<p>It hooks in the wordpress function is_email() so it will extend the known email validation of wordpress to detect the bad email addresses.<\/p>\n\n<p>The plugin itself does not contain a list of domains to block. Instead of local maintenance the plugin uses the service of <a href=\"http:\/\/www.saalwaechter.org\/\" title=\"saalwaechter.org\">saalwaechter.org<\/a>.<\/p>\n\n<p>For a little demo l",
+                "uid": "11442"
+            }
+        }
+    }
+}

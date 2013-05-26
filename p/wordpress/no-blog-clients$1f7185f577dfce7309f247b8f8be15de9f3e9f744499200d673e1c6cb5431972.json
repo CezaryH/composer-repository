@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/no-blog-clients": {
+            "0.08": {
+                "name": "wordpress\/no-blog-clients",
+                "version": "0.08",
+                "version_normalized": "0.08.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/no-blog-clients.0.081025.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>This plugin removes two actions that produce link \nelements in the header of all your Wordpress URL locations.\nThese two link elements are the resulting HTML of the actions:<\/p>\n\n<p>\n<\/p>\n\n<p>The xmlrpc.php link instructs blog clients where to find the\nWordpress XML-RPC interface via really simple discovery (RSD).\nThe second link to wlwmanifest.xml reveals the location of\nyour Wordpress administration dashboard, the location of the\nedit post script and manage comments scripts.<\/p>",
+                "uid": "97781"
+            }
+        }
+    }
+}

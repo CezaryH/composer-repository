@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/date-permalink-base": {
+            "0.1": {
+                "name": "wordpress\/date-permalink-base",
+                "version": "0.1",
+                "version_normalized": "0.1.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/date-permalink-base.0.1.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>This little plugin allow customing the \"date base\" of date (month, year, day, etc.) archive page. For example, by default your blog's monthly archive page's permalink is like: \"http:\/\/example.com\/date\/2010\/05\/\", with this plugin you can change the string \"date\" to others, just like the feature of changing permalink's category base and tag base which is built in Wordpress.<\/p>\n\n<p>Note if your blog's permalink structure is \"\/YYYY\/mm\/dd\/post-slug\/\", this plugin will not take effect and your blog's permalink of date archive page would be \"\/YYYY\/mm\/\".<\/p>",
+                "uid": "67764"
+            }
+        }
+    }
+}

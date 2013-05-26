@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/emailprotect": {
+            "1.5.8": {
+                "name": "wordpress\/emailprotect",
+                "version": "1.5.8",
+                "version_normalized": "1.5.8.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/emailprotect.1.5.8.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>EMAILProtect hides a normal e-mail string (e.g. \"info@domain.com\") by editing the HTML code.\nThis does not effect the outcome as the normal user sees it, but it make's it impossible for\nweb crawlers to locate the e-mail address.<\/p>\n\n<p>Most crawlers these days are \"non-javascript crawlers\" (to speed up the crawling process)\nwhich means that almost no crawlers can see the re-written e-mail addresses - even though\nit looks just the same for the regular user.<\/p>\n\n<p>If you look in the source code of you Wordpress page, with this plugin activated, you will see\na JavaScript (e.g. <code>&#60;script type='text\/javascript'&#62;plug_emp('3;4;1;6#cominfo1domain');&#60;\/script&#62;<\/code>)\nwhere it's supposed to be an e-mail address.<\/p>",
+                "uid": "67636"
+            }
+        }
+    }
+}

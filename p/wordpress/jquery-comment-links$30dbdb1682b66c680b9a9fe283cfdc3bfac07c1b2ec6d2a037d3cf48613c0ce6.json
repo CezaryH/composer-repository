@@ -1,0 +1,40 @@
+{
+    "packages": {
+        "wordpress\/jquery-comment-links": {
+            "0.1": {
+                "name": "wordpress\/jquery-comment-links",
+                "version": "0.1",
+                "version_normalized": "0.1.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/jquery-comment-links.0.1.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>Plugin replaces comment author link and (or) links in comment text on jQuery links that will work (i.e. it will be possible to go on the specified site through these links) only in case when the JavaScript technology is enabled in a browser of the visitor of your site.<\/p>\n\n<p>When can this plugin might be useful:<\/p>\n\n<ul>\n<li>If you want to reduce the number of external links on your site (for example, for any SEO reasons).<\/li>\n<li>If you don't want to refer to bad sites and you don't have time and desire to check the links, which are left by the authors of comments.<\/li>\n<\/ul>\n\n<p>Here is how it looks. For example, there is such a link on the name of comment author:<\/p>\n\n<pre><code>&#60;a href=&#039;http:\/\/sitename.com&#039; rel=&#039;external nofollow&#039; class=&#039;url&#039;&#62;Comment Author Name&#60;\/a&#62;<\/code><\/pre>\n\n<p>After plugin activation this link will turn to the such:<\/p>\n\n<pre><code>&#60;a href=&#34;#&#34; class=&#34;jqcl&#34; title=&#34;sitename.com&#34; re",
+                "uid": "94886"
+            },
+            "0.1.1": {
+                "name": "wordpress\/jquery-comment-links",
+                "version": "0.1.1",
+                "version_normalized": "0.1.1.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/jquery-comment-links.0.1.1.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>Plugin replaces comment author link and (or) links in comment text on jQuery links that will work (i.e. it will be possible to go on the specified site through these links) only in case when the JavaScript technology is enabled in a browser of the visitor of your site.<\/p>\n\n<p>When can this plugin might be useful:<\/p>\n\n<ul>\n<li>If you want to reduce the number of external links on your site (for example, for any SEO reasons).<\/li>\n<li>If you don't want to refer to bad sites and you don't have time and desire to check the links, which are left by the authors of comments.<\/li>\n<\/ul>\n\n<p>Here is how it looks. For example, there is such a link on the name of comment author:<\/p>\n\n<pre><code>&#60;a href=&#039;http:\/\/sitename.com&#039; rel=&#039;external nofollow&#039; class=&#039;url&#039;&#62;Comment Author Name&#60;\/a&#62;<\/code><\/pre>\n\n<p>After plugin activation this link will turn to the such:<\/p>\n\n<pre><code>&#60;a href=&#34;#&#34; class=&#34;jqcl&#34; title=&#34;sitename.com&#34; re",
+                "uid": "94885"
+            }
+        }
+    }
+}

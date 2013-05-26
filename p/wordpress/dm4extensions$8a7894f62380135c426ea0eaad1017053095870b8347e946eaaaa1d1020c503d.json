@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/dm4extensions": {
+            "1.1": {
+                "name": "wordpress\/dm4extensions",
+                "version": "1.1",
+                "version_normalized": "1.1.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/dm4extensions.1.1.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>Let's make sure that these are the starting conditions:<\/p>\n\n<ol>\n<li>You have developed your own WordPress plugin or theme and you host it at <a href=\"http:\/\/wordpress.org\/extend\/\">WordPress.org<\/a><\/li>\n<li>You have your own WordPress blog and in there you use either <a href=\"http:\/\/wordpress.org\/extend\/plugins\/wp-downloadmanager\/\">WP-DownloadManager<\/a> plugin or <a href=\"http:\/\/wordpress.org\/extend\/plugins\/download-monitor\/\">WordPress Download Monitor<\/a> plugin<\/li>\n<li>You list your own plug-in or theme in one of the download managers mentioned in point 2 and it links to URL at WordPress.org<\/li>\n<\/ol>\n\n<p>OK, these are the conditions. All is fine, everything works, visitors of your web can click on the download link and they are served the file from wordpress.org and your download manager counts the hits on the files. But maybe you would like it not to show only the hits that people do on your own blog, but all the hits that your plugin or theme gets, including the ones when ",
+                "uid": "80758"
+            }
+        }
+    }
+}

@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/leave-a-note": {
+            "1.0": {
+                "name": "wordpress\/leave-a-note",
+                "version": "1.0",
+                "version_normalized": "1.0.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/leave-a-note.1.0.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>Leave-a-Note Visual commenting system changes the look and positioning of your Wordpress blog's comments, transforming each comment into a post-it note that can be moved all over the screen. Visitors to the blog can drag and drop the comments anywhere on the page, and through use of Wordpress's database, that positioning will be saved until someone else moves it. The result of that is, that if a user moves a note and no one else touches it, the next time he or she comes back to the page, it will be where they left it. The look of the note is determined by CSS, so the look of the 'container' of each comment is easily customizable through CSS only. In addition to changing the look of the comments, the plugin generates a button that will show or hide the notes. By default, the plugin will show all notes, but that can be changed in the admin menu.<\/p>",
+                "uid": "74662"
+            }
+        }
+    }
+}

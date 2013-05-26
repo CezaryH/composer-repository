@@ -1,0 +1,57 @@
+{
+    "packages": {
+        "wordpress\/scheduled-contnet-by-streama": {
+            "1.0": {
+                "name": "wordpress\/scheduled-contnet-by-streama",
+                "version": "1.0",
+                "version_normalized": "1.0.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/scheduled-contnet-by-streama.1.0.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>After installing and activating the plugin you can use the shortcode [schedule]. You can pass upto 4 parameters, the date and the time to show the content and the date and time the content will expired and disappear from your page or post. You have to pass at least one parameter from the scheduled or expired.<\/p>\n\n<p>Sample -<\/p>\n\n<p>[schedule on='2012-12-01' at=\"10:01\" expon='2012-12-01' expat=\"13:15\"]\nthe content you want to hide here\n[\/schedule]<\/p>\n\n<p>The 4 parameters are \"on\", \"at\", \"expon\" and \"expat\".\n\"on\" accepts a date, until that date is arrived the content will be hidden.\n\"at\" accepts a time. Time has to be set in 24hrs format. (date should be yy-mm-dd if you only pass time)\n\"expon\" accepts a date, the content will disappear from the page on this date.\n\"expat\" accepts a time. Time has to be set in 24hrs format. (date should be yy-mm-dd if you only pass time)<\/p>\n\n<p>The time is compared with your blog's time zone settings, if you set your time zone to local time zone it ",
+                "uid": "13203"
+            },
+            "1.1": {
+                "name": "wordpress\/scheduled-contnet-by-streama",
+                "version": "1.1",
+                "version_normalized": "1.1.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/scheduled-contnet-by-streama.1.1.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>After installing and activating the plugin you can use the shortcode [schedule]. You can pass upto 4 parameters, the date and the time to show the content and the date and time the content will expired and disappear from your page or post. You have to pass at least one parameter from the scheduled or expired.<\/p>\n\n<p>Sample -<\/p>\n\n<p>[schedule on='2012-12-01' at=\"10:01\" expon='2012-12-01' expat=\"13:15\"]\nthe content you want to hide here\n[\/schedule]<\/p>\n\n<p>The 4 parameters are \"on\", \"at\", \"expon\" and \"expat\".\n\"on\" accepts a date, until that date is arrived the content will be hidden.\n\"at\" accepts a time. Time has to be set in 24hrs format. (date should be yy-mm-dd if you only pass time)\n\"expon\" accepts a date, the content will disappear from the page on this date.\n\"expat\" accepts a time. Time has to be set in 24hrs format. (date should be yy-mm-dd if you only pass time)<\/p>\n\n<p>The time is compared with your blog's time zone settings, if you set your time zone to local time zone it ",
+                "uid": "13202"
+            },
+            "1.2": {
+                "name": "wordpress\/scheduled-contnet-by-streama",
+                "version": "1.2",
+                "version_normalized": "1.2.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/scheduled-contnet-by-streama.1.2.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>After installing and activating the plugin you can use the shortcode [schedule]. You can pass upto 4 parameters, the date and the time to show the content and the date and time the content will expired and disappear from your page or post. You have to pass at least one parameter from the scheduled or expired.<\/p>\n\n<p>Sample -<\/p>\n\n<p>[schedule on='2012-12-01' at=\"10:01\" expon='2012-12-01' expat=\"13:15\"]\nthe content you want to hide here\n[\/schedule]<\/p>\n\n<p>The 4 parameters are \"on\", \"at\", \"expon\" and \"expat\".\n\"on\" accepts a date, until that date is arrived the content will be hidden.\n\"at\" accepts a time. Time has to be set in 24hrs format. (date should be yy-mm-dd if you only pass time)\n\"expon\" accepts a date, the content will disappear from the page on this date.\n\"expat\" accepts a time. Time has to be set in 24hrs format. (date should be yy-mm-dd if you only pass time)<\/p>\n\n<p>The time is compared with your blog's time zone settings, if you set your time zone to local time zone it ",
+                "uid": "13201"
+            }
+        }
+    }
+}

@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/bib3html": {
+            "0.9.4": {
+                "name": "wordpress\/bib3html",
+                "version": "0.9.4",
+                "version_normalized": "0.9.4.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/bib3html.0.9.4.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>If you need to maintain a bibliography in bibtex format and also write a Web page to publish the list of your publications, then bib3html is the right solution for you.<\/p>\n\n<p>bib3html is a refined fork from bib2html written by tango. It enables to add bibtex entries formatted as HTML in wordpress pages and posts. The input data is a local or remote bibtex file and the output is HTML.\nThe entries are formatted by default using the IEEE style. Bibtex source file and a link to the publication are also available from the HTML.\nIn order to reduce site loading the generated HTML Contents are cached in the cache directory for a defined time. If the cached HTML is out of date it gets reloaded automatically.<\/p>\n\n<p>Features:<\/p>\n\n<ul>\n<li>input data directly from the bibtex text file<\/li>\n<li>source files can be URL<\/li>\n<li>automatic HTML generation<\/li>\n<li>template and cache usage<\/li>\n<li>easy inclusion in wordpress pages\/posts by means of a dedicated tag<\/li>\n<li>possibility of filte",
+                "uid": "43549"
+            }
+        }
+    }
+}

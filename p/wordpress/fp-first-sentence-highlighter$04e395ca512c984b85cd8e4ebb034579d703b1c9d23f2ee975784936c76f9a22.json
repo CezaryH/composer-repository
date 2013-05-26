@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/fp-first-sentence-highlighter": {
+            "1.1": {
+                "name": "wordpress\/fp-first-sentence-highlighter",
+                "version": "1.1",
+                "version_normalized": "1.1.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/fp-first-sentence-highlighter.1.1.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<ul>\n<li>NB: This plugin is no longer supported.<\/li>\n<\/ul>\n\n<p>Adds a new Template Tag <strong><code>fp_firstsentence( $str , $style , $br )<\/code><\/strong>, which highlights the first sentence in a string\/content ($str) with a specified CSS style ($style) - for example: \"font-size:14.5px;font-weight:bold;color:#990000;\".<\/p>\n\n<p>NB: By default, $br = 1, meaning that the function will preserve line\/paragraph breaks in the content. You can optionally specify $br = 0 to have the function echo a block of text with no breaks.<\/p>",
+                "uid": "83126"
+            }
+        }
+    }
+}

@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/tcpdf": {
+            "0.1": {
+                "name": "wordpress\/tcpdf",
+                "version": "0.1",
+                "version_normalized": "0.1.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/tcpdf.0.1.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>Pluginified TCPDF library to be used as a dependency\ninstead of bundling all the files with a new plugin.<\/p>",
+                "uid": "16898"
+            }
+        }
+    }
+}

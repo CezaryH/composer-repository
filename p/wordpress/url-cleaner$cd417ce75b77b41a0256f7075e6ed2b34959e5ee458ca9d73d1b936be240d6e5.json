@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/url-cleaner": {
+            "1.0": {
+                "name": "wordpress\/url-cleaner",
+                "version": "1.0",
+                "version_normalized": "1.0.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/url-cleaner.1.0.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>This simple WordPress plugin is used when generating article slug (= article name used in URL). It removes all characters other than letters a-z, numbers and hyphens (-). The plugin runs as the last one in the whole url-generating process, so first all standard replacements of diacritics and accents are performed, and then, if still some strange characters are present they are cut out.<\/p>\n\n<p>So for example, without this plugin when you enter this as article title:<\/p>\n\n<ul>\n<li>Hi &#8212; I&#180;m\u02c7 Z&#233;k&#233; &#8249; Nickname<\/li>\n<\/ul>\n\n<p>this is how the suggested URL will look like:<\/p>\n\n<ul>\n<li>hi-&#8212;-i&#180;m\u02c7-zeke-&#8249;-nickname<\/li>\n<\/ul>\n\n<p>It is ugly and on some systems users won&#8217;t be able to open the page at all, because of 404 Error. So what this plugin does is, that it strips all weird non-text, non-numbers, not-hyphen charactes, making the title this:<\/p>\n\n<ul>\n<li>hi-im-zeke-nickname<\/li>\n<\/ul>",
+                "uid": "59812"
+            }
+        }
+    }
+}

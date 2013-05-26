@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/post-admin-view-count": {
+            "1.0": {
+                "name": "wordpress\/post-admin-view-count",
+                "version": "1.0",
+                "version_normalized": "1.0.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/post-admin-view-count.1.0.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>Post View Count used the WordPress.com stats API to add a sortable column to the admin's post manager, displaying the view count for the last 30 days for each post. This plugin requires the Jetpack plugin to function.<\/p>",
+                "uid": "19465"
+            }
+        }
+    }
+}

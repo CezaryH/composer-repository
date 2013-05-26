@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/wpap": {
+            "0.0.7": {
+                "name": "wordpress\/wpap",
+                "version": "0.0.7",
+                "version_normalized": "0.0.7.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/wpap.0.0.7.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>This plugin will fetch and auto-correct the ip address in the event that the user is hidden behind a proxy or load balancer. \nThe WPap plugin uses and scans both the http headers as well as ports.<\/p>",
+                "uid": "10436"
+            }
+        }
+    }
+}

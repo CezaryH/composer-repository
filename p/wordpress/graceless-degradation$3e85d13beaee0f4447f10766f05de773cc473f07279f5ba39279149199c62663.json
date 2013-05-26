@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/graceless-degradation": {
+            "0.11": {
+                "name": "wordpress\/graceless-degradation",
+                "version": "0.11",
+                "version_normalized": "0.11.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/graceless-degradation.0.11.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>Graceless Degradation checks to see if the current browser is MSIE 6. If it's not, it does nothing. If it is, it injects CSS and JavaScript into the page that:<\/p>\n\n<ul>\n<li>Puts Comic Sans fonts everywhere!<\/li>\n<li>Makes emphasis tags (bold, italic, strong, and underline) blink! Even though IE doesn't support the  tag!<\/li>\n<li>Turns <\/li>\n<\/ul>\n\n\n\n<p>tags into animated rainbows!\n* Finds \"mailto:\" links and tacks on animated mailbox graphics!<\/p>\n\n<h4>Plugin's Official Site<\/h4>\n\n<p><a href=\"http:\/\/drench.github.com\/graceless-degradation\/\" rel=\"nofollow\">http:\/\/drench.github.com\/graceless-degradation\/<\/a><\/p>",
+                "uid": "55771"
+            }
+        }
+    }
+}

@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/feeddelay": {
+            "0.1": {
+                "name": "wordpress\/feeddelay",
+                "version": "0.1",
+                "version_normalized": "0.1.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/feeddelay.0.1.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>Allows you to publishe posts with a delay in your feed. You can set a different delay for each feed type as there are RSS1, RSS2, ATOM and RDF.<\/p>\n\n<p>As an extra this plugin gives you the possibilities to remove the Wordpress version from your feeds and you can disable\/enable each feed type. (This is not working in very old Wordpress version like 2.0.x)<\/p>\n\n<p>Visit the <a href=\"http:\/\/www.naden.de\/blog\/feed-delay-wordpress-plugin\" title=\"Feed delay\">Plugin Homepage<\/a> for more details.<\/p>",
+                "uid": "65866"
+            }
+        }
+    }
+}

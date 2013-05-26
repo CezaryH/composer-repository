@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/wp-sup": {
+            "1.1": {
+                "name": "wordpress\/wp-sup",
+                "version": "1.1",
+                "version_normalized": "1.1.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/wp-sup.1.1.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>WP SUP is a plugin for WordPress that implements FriendFeed's Simple Update Protocol. Your blog posts will appear on FriendFeed near-instantly after they are published.<\/p>\n\n<p>The plugin adds the SUP-ID HTTP header to your blog's feeds and adds the SUP-ID link tag to your blog's feeds.<\/p>\n\n<p>It also pings FriendFeed's <a href=\"http:\/\/friendfeed.com\/api\/public-sup\" title=\"Public SUP Feed\">public SUP feed<\/a> when you publish a post.<\/p>",
+                "uid": "95596"
+            }
+        }
+    }
+}

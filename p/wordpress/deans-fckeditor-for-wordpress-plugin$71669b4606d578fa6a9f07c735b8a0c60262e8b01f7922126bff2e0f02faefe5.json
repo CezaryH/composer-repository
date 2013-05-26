@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/deans-fckeditor-for-wordpress-plugin": {
+            "2.2": {
+                "name": "wordpress\/deans-fckeditor-for-wordpress-plugin",
+                "version": "2.2",
+                "version_normalized": "2.2.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/deans-fckeditor-for-wordpress-plugin.2.2.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>Replaces the default Wordpress editor with <a href=\"http:\/\/www.fckeditor.net\/\"> FCKeditor<\/a> 2.4.3<\/p>",
+                "uid": "111491"
+            }
+        }
+    }
+}

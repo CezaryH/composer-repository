@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/date-set": {
+            "1.0": {
+                "name": "wordpress\/date-set",
+                "version": "1.0",
+                "version_normalized": "1.0.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/date-set.1.0.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>This plugin replaces a shortcode {todays_date} with the date from your server. This is great for sales pages.<\/p>\n\n<p>There is a choice of date formats for you to choose.<\/p>",
+                "uid": "18632"
+            }
+        }
+    }
+}

@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/include-file": {
+            "1": {
+                "name": "wordpress\/include-file",
+                "version": "1",
+                "version_normalized": "1.0.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/include-file.1.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>Adds a shortcode to include the content of a file or URL inside of a WordPress page or post.<\/p>\n\n<p>Example:<\/p>\n\n<p>Include the following in a page or post:\n[include_file url=\"http:\/\/example.org\/somefile.txt\"]<\/p>\n\n<p>This would include the content of <a href=\"http:\/\/example.org\/somefile.txt\" rel=\"nofollow\">http:\/\/example.org\/somefile.txt<\/a> into your page or post.<\/p>",
+                "uid": "40283"
+            }
+        }
+    }
+}

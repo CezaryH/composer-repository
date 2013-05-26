@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/upload-url-path-enabler": {
+            "1.0": {
+                "name": "wordpress\/upload-url-path-enabler",
+                "version": "1.0",
+                "version_normalized": "1.0.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/upload-url-path-enabler.1.0.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>WordPress 3.5 removes the setting fields to change the media upload path and url. This plugin enable them again. Note that as long as your fields are not empty, you can disable this plugin.<\/p>",
+                "uid": "11961"
+            }
+        }
+    }
+}

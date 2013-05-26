@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/wp-publications": {
+            "1.0": {
+                "name": "wordpress\/wp-publications",
+                "version": "1.0",
+                "version_normalized": "1.0.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/wp-publications.1.0.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>wp-publications enables research groups and individuals to add publication lists in Wordpress. The publication lists are generated on the fly from bibtex files using <a href=\"http:\/\/www.monperrus.net\/martin\/bibtexbrowser\">bibtexbrowser<\/a>.<\/p>\n\n<p>One just has to create a post\/page containing a short code such as:<\/p>\n\n<ul>\n<li>[wp-publications bib=\"mybibliography.bib\" all=true] <\/li>\n<li>[wp-publications bib=\"mybibliography.bib\" year=2011] <\/li>\n<li>[wp-publications bib=\"mybibliography.bib\" author=\"Martin Monperrus\"] <\/li>\n<\/ul>\n\n<p>One can also mix options:<\/p>\n\n<ul>\n<li>[wp-publications bib=\"mybibliography.bib\" all=true academic=true] <\/li>\n<li>[wp-publications bib=\"mybibliography.bib\" year=2011 author=\"Martin Monperrus\" academic=true] <\/li>\n<\/ul>\n\n<p>Notes:<\/p>\n\n<ol>\n<li>The bibtex file is expected in directory at the root of the wordpress installation or in wp-content\/plugins\/wp-publications <\/li>\n<li>The short code options exactly correspond to <a href=\"http:\/\/www.monperrus.n",
+                "uid": "31578"
+            }
+        }
+    }
+}

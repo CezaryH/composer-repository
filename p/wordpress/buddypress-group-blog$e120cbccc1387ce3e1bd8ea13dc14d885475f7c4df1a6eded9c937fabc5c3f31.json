@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/buddypress-group-blog": {
+            "1.0": {
+                "name": "wordpress\/buddypress-group-blog",
+                "version": "1.0",
+                "version_normalized": "1.0.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/buddypress-group-blog.1.0.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p><strong>NOTE: This plugin requires BuddyPress 1.1, released September, 2009. See the FAQ why we build it on the upcoming BuddyPress version.<\/strong><\/p>\n\n<p>The BuddyPress Groupblog plugin extends the group functionality by enabling each group to have a single blog associated with it. Group members are automatically added to the blog and will have blog roles as set by the groupblog admin settings.<\/p>\n\n<p><strong>Features:<\/strong><\/p>\n\n<ul>\n<li>Automated blog registration at group creation stage.<\/li>\n<li>Blog privacy settings are initially inherited from group privacy settings.<\/li>\n<li>Group members are automatically added to the blog.<\/li>\n<li>Blog roles match group roles as set by the group admin.<\/li>\n<li>Solid error checking that the blog follows validation.<\/li>\n<li>Group admin tab to access the group-blog settings.<\/li>\n<li>Recent posts are displayed on the group home page, much like the forum topics.<\/li>\n<li>A menu tab is added to display the latest blog activity and blo",
+                "uid": "83247"
+            }
+        }
+    }
+}

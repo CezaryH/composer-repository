@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/zd-youtube-flv-player": {
+            "1.2.6": {
+                "name": "wordpress\/zd-youtube-flv-player",
+                "version": "1.2.6",
+                "version_normalized": "1.2.6.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/zd-youtube-flv-player.1.2.6.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>Display FLV and YouTube Video in your blog in a Custom Player.<\/p>\n\n<h4>Usage<\/h4>\n\n<p>[zdvideo]url[\/zdvideo]<\/p>\n\n<p>'url': This is the URL of either a youtube video or flv video file. Example - <a href=\"http:\/\/in.youtube.com\/watch?v=7HdJgf3yXM0\" rel=\"nofollow\">http:\/\/in.youtube.com\/watch?v=7HdJgf3yXM0<\/a> or <a href=\"http:\/\/www.yourdomain.com\/videos\/myvideo.flv\" rel=\"nofollow\">http:\/\/www.yourdomain.com\/videos\/myvideo.flv<\/a><\/p>\n\n<p>Attributes:-<\/p>\n\n<ul>\n<li>width - Default is \"425\". This is the width of the player including border.<\/li>\n<li>height - Default is \"349\". This is the height of the player including border.<\/li>\n<li>align - Alignment of the Flash Player. Default is \"center\". Available Options: \"left\"\/\"right\"\/\"center\"<\/li>\n<li>border - Show\/Hide Flash Player Border. Default \"yes\". Available Options: \"yes\"\/\"no\"<\/li>\n<li>fullscreen - Show\/Hide full screen button. Default \"yes\". Available Options: \"yes\"\/\"no\"<\/li>\n<li>theme - Name of the theme you want to use for the Flash ",
+                "uid": "96478"
+            }
+        }
+    }
+}

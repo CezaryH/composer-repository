@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/disable-wordpress-widgets": {
+            "1.0": {
+                "name": "wordpress\/disable-wordpress-widgets",
+                "version": "1.0",
+                "version_normalized": "1.0.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/disable-wordpress-widgets.1.0.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>Widgets are now integrated into the core of WordPress starting at 2.2.<\/p>\n\n<p>Nothing fancy. This plugin simply disables WordPress Widgets.<\/p>",
+                "uid": "112209"
+            }
+        }
+    }
+}

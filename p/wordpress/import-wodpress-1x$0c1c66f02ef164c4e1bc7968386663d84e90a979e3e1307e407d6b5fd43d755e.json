@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/import-wodpress-1x": {
+            "1.0": {
+                "name": "wordpress\/import-wodpress-1x",
+                "version": "1.0",
+                "version_normalized": "1.0.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/import-wodpress-1x.1.0.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>Import WordPress 1.x\nThe importers of WordPress 2.x includes two ways to import another WordPress blog, but the WP to WP importer works only if both versions are above 2.x and the RSS importer imports only posts, leaving the comments. This plugin adds a new importer that allows to import older versions (1.2 \u0085 1.5) of WordPress. Type the URL to the blog you want to import and click. Ok, all is done.<\/p>",
+                "uid": "110589"
+            }
+        }
+    }
+}

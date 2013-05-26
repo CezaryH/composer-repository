@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/external-rss-reader": {
+            "0.6": {
+                "name": "wordpress\/external-rss-reader",
+                "version": "0.6",
+                "version_normalized": "0.6.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/external-rss-reader.0.6.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>This is a plugin that allows read some external rss feeds and show it on a page or in a widget.\nSites can be categorized and you can add an image or use a gravatar.<\/p>\n\nUsing Plugin:\n\n<p>Add it on a page:\n[sil_rss:0:content:0]\n* First Param: 0 - The total of items to show.\n  With 0 uses the number in options. \n* Second Param: content - Type to show (content or widget or feed).\n  With feed it shows a feed from a site.\n* Third Param : 0 - Category to show with content or widget.\n  With feed option, it uses this parameter to know the feed.<\/p>\n\n<p>Sample:\n[sil_rss:20:content:0] - Show 20 items from all sites.\n[sil_rss:5:widget:1] - Show 5 items of category 1 like widget.\n[sil_rss:0:feed:1] - Show number of items defined on options from site 1.<\/p>\n\n<p>Call function:\nTo show the list calling a function, use:\n\nParams are same like before.<\/p>\n\n<p>List all blogs:\nTo show the list of all blogs on a page, use:\n[sil_rss_list_blogs]\nor call it by a function\n<\/p>\n\n<p>RSS:\nYour url to subscrib",
+                "uid": "73190"
+            }
+        }
+    }
+}

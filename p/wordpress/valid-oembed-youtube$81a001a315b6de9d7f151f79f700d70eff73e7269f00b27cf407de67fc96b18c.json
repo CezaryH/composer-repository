@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/valid-oembed-youtube": {
+            "1.0": {
+                "name": "wordpress\/valid-oembed-youtube",
+                "version": "1.0",
+                "version_normalized": "1.0.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/valid-oembed-youtube.1.0.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>This plugin makes the oEmbed code output for YouTube videos Valid XHTML 1.0 Transitional.<\/p>\n\n<h4>Deutschsprachige Beschreibung:<\/h4>\n\n<p>Mit WordPress hat man die M&#246;glichkeit, YouTube-Videos und andere externe Medien &#252;ber <a href=\"http:\/\/codex.wordpress.org\/Embeds\">oEmbed<\/a> nur mit Eingabe der entsprechenden URL in einen Artikel oder eine Seite einzubinden. Leider enth&#228;lt der generierte XHTML-Code das embed-Tag, welches nicht zum W3C-Standard geh&#246;rt und daher beim Validieren des Quellcodes eine Warnung auswirft. Weitere Warnungen werden durch nicht XHTML-konform geschlossene Parameter hervorgerufen.<\/p>\n\n<p>Abhilfe schafft das folgende kleine Plugin \"<a href=\"http:\/\/wordpress.org\/extend\/plugins\/valid-oembed-youtube\/\">Valid oEmbed YouTube<\/a>\", welches in Zusammenarbeit mit <a href=\"http:\/\/tobias.baethge.com\/\">Tobias B&#228;thge<\/a>, dem wir auch \"WP-Table Reloaded\" zu verdanken haben, entstanden ist. Vielen Dank auch an dieser Stelle f&#252;r seinen Support.<",
+                "uid": "69762"
+            }
+        }
+    }
+}

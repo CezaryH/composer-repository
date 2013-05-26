@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/swipehq-payment-gateway-wp-e-commerce": {
+            "1.0": {
+                "name": "wordpress\/swipehq-payment-gateway-wp-e-commerce",
+                "version": "1.0",
+                "version_normalized": "1.0.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/swipehq-payment-gateway-wp-e-commerce.1.0.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>This is the SwipeHQ payment gateway for WP E-commerce. Allows you to use SwipeHQ payment gateway with the WP E-commerce plugin. It uses the redirect method, the user is redirected to swipehq so that you don't have to install an SSL certificate on your site.<\/p>\n\n<p>Visit [http:\/\/www.swipehq.com]<\/p>",
+                "uid": "15191"
+            }
+        }
+    }
+}

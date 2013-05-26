@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/my-job-application": {
+            "1.40": {
+                "name": "wordpress\/my-job-application",
+                "version": "1.40",
+                "version_normalized": "1.40.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/my-job-application.1.40.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>My Job Application is a Wordpress plugin developed using PHP and MySQL. It provides a simple way of using the Indeed.com API feed in your Wordpress blog. It also allows you to create a job database using your own job sources. Installation is easy: unzip the downloaded file and upload it to your plugins directory. Activate the the plugin, then go to the settings page to configure.<\/p>",
+                "uid": "60588"
+            }
+        }
+    }
+}

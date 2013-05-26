@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/dynamic-image-resizer": {
+            "1.0": {
+                "name": "wordpress\/dynamic-image-resizer",
+                "version": "1.0",
+                "version_normalized": "1.0.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/dynamic-image-resizer.1.0.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>Normally when you upload an image to a WordPress site, it creates several differently sized versions of the image automatically. Themes can define custom image sizes as well, increasing the amount of images generated on your server.<\/p>\n\n<p>This plugin changes the way WordPress creates images to make it generate the images only when they are actually used somewhere, on the fly. Images created thusly will be saved in the normal upload directories, for later fast sending by the webserver. The result is that space is saved (since images are only created when needed), and uploading images is much faster (since it's not generating the images on upload anymore).<\/p>\n\n<p>\"Pretty\" permalinks must be enabled for this plugin to function.<\/p>\n\n<p>Note: This plugin does not work on multisite setups, due to the way WordPress handles file serving in such situations (with ms-files.php).<\/p>\n\n<p>Want regular updates? Become a fan of my sites on Facebook!\n<a href=\"http:\/\/www.facebook.com\/apps\/applic",
+                "uid": "42280"
+            }
+        }
+    }
+}

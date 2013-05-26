@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/wis-logger": {
+            "0.1": {
+                "name": "wordpress\/wis-logger",
+                "version": "0.1",
+                "version_normalized": "0.1.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/wis-logger.0.1.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>WIS-Logger let developers to use the \"do_action\" function to debug theirs plugin.<\/p>\n\n<h4>Features<\/h4>\n\n<ul>\n<li>Let developers log information\/debug\/warnings\/Errors\/Fatal <\/li>\n<li>No need to remove logging after release, if wis-logger is not installed nothing happends <\/li>\n<li>Ability to fetch all kind of PHP errors and log them in the same way<\/li>\n<li>You can shose which debug level you want to log.<\/li>\n<\/ul>\n\n<h4>Support<\/h4>\n\n<p>Having problems or need support? Use the feedback button on <a href=\"http:\/\/warting.se\" rel=\"nofollow\">http:\/\/warting.se<\/a><\/p>",
+                "uid": "38336"
+            }
+        }
+    }
+}

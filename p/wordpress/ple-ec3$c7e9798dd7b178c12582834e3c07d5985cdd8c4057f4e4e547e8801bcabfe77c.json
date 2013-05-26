@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/ple-ec3": {
+            "2.1.1": {
+                "name": "wordpress\/ple-ec3",
+                "version": "2.1.1",
+                "version_normalized": "2.1.1.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/ple-ec3.2.1.1.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>This PostLists Extension provides orderby options, conditions and placeholders for the events created with Event Calendar 3 to be used for each post within PostLists lists.<\/p>\n\n<p>The following placeholders can be used, if this plugin is activated: \n%ec3_shedule% will get replaced to the event calendar start-datetime and the end-datetime of the current post. \n%ec3_shedule_date% will get replaced to the event calendarstart-date and the end-date.\n%ec3_shedule_time% will get replaced to the event calendarstart-time and the end-time. \n%ec3_shedule_start% will get replaced to the event calendarstart-datetime. \n%ec3_shedule_start_date% will get replaced to the event calendarstart-date. \n%ec3_shedule_start_time% will get replaced to the event calendarstart-time. \n%ec3_shedule_end% will get replaced to the event calendarend-datetime. \n%ec3_shedule_end_date% will get replaced to the event calendarend-date. \n%ec3_shedule_end_time% will get replaced to the event calendarend-time. \nSeparator i",
+                "uid": "103801"
+            }
+        }
+    }
+}

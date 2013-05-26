@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/ajax-quick-subscribe": {
+            "2.0": {
+                "name": "wordpress\/ajax-quick-subscribe",
+                "version": "2.0",
+                "version_normalized": "2.0.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/ajax-quick-subscribe.2.0.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>Allows visitors to quickly subscribe to your blog using only an email address\nwithout needing to load a new page. Custom feedback is provided instantly in\nline.<\/p>\n\n<p>This is an extrapolation of Quick Subscribe plugin by Leo Germani, adding AJAX\nfunctionality for smoother operation.<\/p>\n\n<p>The widget will present a text field where the visitor will enter an email address. No email confirmation is sent to the visitor, a user name based on the email address (the email without the @) is created and the password is randomly generated.<\/p>\n\n<p>Before the user's input is registered, the email address is checked for\nvalidity, and to ensure that they are not already subscribed. If either is\ntrue, then the input form is re-displayed with a user-defined error message...\nAll without re-loading the page.<\/p>\n\n<p>This is perfect if you want your readers to easily subscribe to your blog without the need of having an username and password. The ideia is to use the list of subscribers as a mailin",
+                "uid": "41817"
+            }
+        }
+    }
+}

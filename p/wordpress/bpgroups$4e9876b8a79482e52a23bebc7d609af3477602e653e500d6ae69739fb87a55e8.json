@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/bpgroups": {
+            "0.36": {
+                "name": "wordpress\/bpgroups",
+                "version": "0.36",
+                "version_normalized": "0.36.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/bpgroups.0.36.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>BuddyPress has three types of groups. Public, Private and Hidden. In all three cases users must be members of a group to participate in group forum conversations.<\/p>\n\n<p>These two plugins modify a standard bbPress forum installation to allow BuddyPress group members to carry on discussions in bbPress.<\/p>\n\n<p>BuddyPress public groups will be read only in bbPress. Anyone wishing to participate in a public group discussion must be a member of that group in bp.<\/p>\n\n<p>BuddyPress private and hidden groups will be hidden in bbPress. Only members of these groups will see the forums and be able to participate.<\/p>\n\n<p>BuddyPress group admins and mods have moderator privileges in bbPress. The moderator role is restricted to their group forum.<\/p>",
+                "uid": "90620"
+            }
+        }
+    }
+}

@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/dbt-extensions": {
+            "0.1.0": {
+                "name": "wordpress\/dbt-extensions",
+                "version": "0.1.0",
+                "version_normalized": "0.1.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/dbt-extensions.0.1.0.4.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>Allows you to install and manage custom and add-on fieldtypes and form processors for DB-Toolkit.<\/p>",
+                "uid": "38270"
+            }
+        }
+    }
+}

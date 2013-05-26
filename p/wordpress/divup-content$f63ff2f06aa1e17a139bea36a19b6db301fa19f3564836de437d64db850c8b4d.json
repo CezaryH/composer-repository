@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/divup-content": {
+            "2.0": {
+                "name": "wordpress\/divup-content",
+                "version": "2.0",
+                "version_normalized": "2.0.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/divup-content.2.0.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>Client friendly way to separate your WordPress post or page content into divs with (optional) <strong>custom CSS classes and ids<\/strong>. Adding the shortcode <strong>[divup]<\/strong> in between some content will split the content into 2 <strong>separate divs<\/strong>.<\/p>\n\n<p>You can enter as many [divup] shortcodes to a post or page as you like. Great for creating <strong>columns<\/strong> of content for magazine style websites while keeping shortcode markup to an absolute minimum. DivUp Content never uses inline styles, but it does automatically give divs fiendishly clever classes like first, last, div-1, div-2, div-3, and div-odd, div-even, mul-3, mul-4 (multiple of 1,2,3,4 etc). You can then create your own style rules for the divs in style.css<\/p>\n\n<p>Adding 'multiple of' classes to divs is a unique feature of DivUp Content that makes <strong>grid layouts with multiple rows<\/strong> a breeze.<\/p>\n\n<p><strong>NEW: You can also add multiple [startwrap] and [endwrap] shortcodes t",
+                "uid": "43337"
+            }
+        }
+    }
+}

@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/feedburner-plugin": {
+            "1.46": {
+                "name": "wordpress\/feedburner-plugin",
+                "version": "1.46",
+                "version_normalized": "1.46.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/feedburner-plugin.1.46.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>Redirects the main feed and optionally the comments feed to Feedburner.com. It\ndoes this seamlessly without the need to modify templates, setup new hidden\nfeeds, modify .htaccess files, or asking users to migrate to a new feed.  All\nexisting feeds simply become Feedburner feeds seamlessly and transparently for\nall users. Just tell the plugin what your Feedburner feed URL is and you're\ndone.<\/p>\n\n<p>Available in these languages:\nEnglish, Hungarian, German, Portuguese, Dutch, Italian, French, Turkish, Hebrew<\/p>\n\n<p>Translators: Use the .pot file in the languages\/ folder. Email .po files\n(only) to me for inclusion in the plugin. Thank you!<\/p>",
+                "uid": "105684"
+            }
+        }
+    }
+}

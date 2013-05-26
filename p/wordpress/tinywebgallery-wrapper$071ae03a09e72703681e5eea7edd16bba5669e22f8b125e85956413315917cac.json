@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/tinywebgallery-wrapper": {
+            "1.8.9": {
+                "name": "wordpress\/tinywebgallery-wrapper",
+                "version": "1.8.9",
+                "version_normalized": "1.8.9.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/tinywebgallery-wrapper.1.8.9.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>This plugin includes TinyWebGallery as shortcode in an advanced iframe and offers a TWG random image widget.<\/p>\n\n<h4>Shortcode for TinyWebGallery<\/h4>\n\n<p>By entering the shortcode '[twg securitykey=\"\"]' you can include the TinyWebGallery to any page or article. \nThe following differences to a normal iframe are implemented:<\/p>\n\n<ul>\n<li>Security code: You can only insert the shortcode with a valid security code from the administration.<\/li>\n<li>Enable\/disable the overwrite of default short code settings<\/li>\n<li>Hide areas of the layout to give the iframe more space (see screenshot) <\/li>\n<li>Modify css styles to e.g. change the width of the content area (see screenshot)<\/li>\n<li>Forward parameters to the iframe <\/li>\n<li>Include the css for the lytebox automatically<\/li>\n<li>Set an optimised TWG skin<\/li>\n<li>Add the user directory automatically<\/li>\n<\/ul>\n\n<p>The following shortcode attributes can be used. Please go to the administration for details:\n[twg securitykey=\"\" twg_url=",
+                "uid": "41285"
+            }
+        }
+    }
+}

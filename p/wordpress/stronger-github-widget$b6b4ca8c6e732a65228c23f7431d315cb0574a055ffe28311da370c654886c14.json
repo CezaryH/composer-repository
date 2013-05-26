@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/stronger-github-widget": {
+            "0.1": {
+                "name": "wordpress\/stronger-github-widget",
+                "version": "0.1",
+                "version_normalized": "0.1.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/stronger-github-widget.0.1.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>You can display :<\/p>\n\n<ul>\n<li>Repositories<\/li>\n<li>Subscriptions<\/li>\n<li>Events<\/li>\n<li>Starred<\/li>\n<li>Followers<\/li>\n<li>Following<\/li>\n<\/ul>\n\n<p>It uses a server cache to be very light and fast on your WordPress installation.<\/p>\n\n<p>It verifies the username on saving settings.<\/p>\n\n<p>Don't hesitate to ask me new features or report bugs on <a href=\"http:\/\/www.potsky.com\/code\/wordpress-plugins\/stronger-github-widget\/\" title=\"Plugin page\">potsky.com<\/a> !<\/p>\n\n<p>I don't code these GitHub events because I did't find any informations about the json structure :<\/p>\n\n<ul>\n<li><code>GollumEvent<\/code><\/li>\n<li><code>MemberEvent<\/code><\/li>\n<li><code>PublicEvent<\/code><\/li>\n<li><code>TeamAddEvent<\/code><\/li>\n<\/ul>\n\n<p>So if you want a better display for these events, send my an API url with these events.\nSomething like : <a href=\"https:\/\/api.github.com\/users\/MAGICALUSER\/events\" rel=\"nofollow\">https:\/\/api.github.com\/users\/MAGICALUSER\/events<\/a><\/p>",
+                "uid": "11886"
+            }
+        }
+    }
+}

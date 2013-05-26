@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/duplicate-posts-erazer": {
+            "1.1": {
+                "name": "wordpress\/duplicate-posts-erazer",
+                "version": "1.1",
+                "version_normalized": "1.1.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/duplicate-posts-erazer.1.1.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>This plugin has been developed by BlackMelvyn from this <a href=\"http:\/\/www.theblackmelvyn.com\/\" title=\"SEO Black Hat blog\">SEO Black Hat<\/a> blog in order to prevent publication of duplicate posts.<\/p>\n\n<p>It has a double use :<\/p>\n\n<ul>\n<li>clear duplicate posts<\/li>\n<li>save database space by getting rid of previous versions<\/li>\n<\/ul>\n\n<p>The plugin will search for duplicate titles upon post publication and remove duplicate entries from the database.\nThere is no admin panel, just activate the plugin and let it do the rest ;)\nRead the source code ;)<\/p>",
+                "uid": "68843"
+            }
+        }
+    }
+}

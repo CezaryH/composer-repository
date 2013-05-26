@@ -1,0 +1,40 @@
+{
+    "packages": {
+        "wordpress\/feedtube": {
+            "0.1": {
+                "name": "wordpress\/feedtube",
+                "version": "0.1",
+                "version_normalized": "0.1.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/feedtube.0.1.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>This plugin will take any rss feed available from YouTube and display\/embed a list of those videos in the rss feed. Currently in development for PHP4, and therefore without using any of the xml functions in PHP5 or needing to have PEAR installed on your sever. You also do not need a YouTube API developers ID.<\/p>",
+                "uid": "104960"
+            },
+            "0.2": {
+                "name": "wordpress\/feedtube",
+                "version": "0.2",
+                "version_normalized": "0.2.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/feedtube.0.2.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>This plugin will take any rss feed available from YouTube and display\/embed a list of those videos in the rss feed. Currently in development for PHP4, and therefore without using any of the xml functions in PHP5 or needing to have PEAR installed on your sever. You also do not need a YouTube API developers ID.<\/p>",
+                "uid": "104959"
+            }
+        }
+    }
+}

@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/bsk-easy-permalink": {
+            "1.0": {
+                "name": "wordpress\/bsk-easy-permalink",
+                "version": "1.0",
+                "version_normalized": "1.0.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/bsk-easy-permalink.1.0.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>Sometime you need show another posts' or pages' link into your post. You will met trouble if you write doen the links directly. Because once your domain name changed or the permalink structure changed the old will broken and you have to change them again manually.<\/p>\n\n<p>BSK Easy Permalink use shortcode to show the permalink that will adjust according to your domain and permalink structure.<\/p>\n\n<p>The shortcode support three parameters.\nid means the post ID that you want to show it can not be absent. \ntitle means the link title you want to show. The post\/page article title will be shown if this is absent.\nhyperlink has the value of true or false. If true then it will show the permalink as link if false will show as simple text, default value is true.<\/p>\n\n<p>Enjoy it!<\/p>",
+                "uid": "13263"
+            }
+        }
+    }
+}

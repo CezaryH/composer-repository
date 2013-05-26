@@ -1,0 +1,40 @@
+{
+    "packages": {
+        "wordpress\/post-requirements": {
+            "1.0": {
+                "name": "wordpress\/post-requirements",
+                "version": "1.0",
+                "version_normalized": "1.0.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/post-requirements.1.0.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>If your site is depending on posts to have their thumbnail images set, this is the plugin for you. Also makes it possible\nto require tags in every new post.<\/p>\n\n<p>When trying to save a post without at thumbnail or tags and when activated, the user will get a warning and the post will\nbe saved as a draft instead.<\/p>",
+                "uid": "17619"
+            },
+            "1.1": {
+                "name": "wordpress\/post-requirements",
+                "version": "1.1",
+                "version_normalized": "1.1.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/post-requirements.1.1.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>If your site is depending on posts to have their thumbnail images set, this is the plugin for you. Also makes it possible\nto require tags in every new post.<\/p>\n\n<p>When trying to save a post without at thumbnail or tags and when activated, the user will get a warning and the post will\nbe saved as a draft instead.<\/p>",
+                "uid": "17617"
+            }
+        }
+    }
+}

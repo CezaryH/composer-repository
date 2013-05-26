@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/yd-prevent-comment-impersonation": {
+            "0.1.0": {
+                "name": "wordpress\/yd-prevent-comment-impersonation",
+                "version": "0.1.0",
+                "version_normalized": "0.1.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/yd-prevent-comment-impersonation.0.1.0.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>This simple WordPress plugin prevents a \"non registered\" commentator to use the identity (login or e-mail address) of a registered user. It gives the anonymous user a choice of loging in, registering, or choosing another identity.<\/p>\n\n<h4>Don't let them steal your online identity!<\/h4>\n\n<p>One limitation of vanilla WordPress is that it lets anyone register comments using any identity they like. \nIt does not enforce unicity of commentator's apparent identity.\nMore preoccupying, anyone can use another person's login as their commentator identity.<\/p>\n\n<p>This plugin fixes that. In order to post comments under a registered user's identity, it will enforce that you are logged-on.\nOtherwise, you will have to either log-in, or choose another identity for posting your comment.<\/p>\n\n<p>Compatible with PHP5.<\/p>\n\n<p>Ce plugin est enti&#232;rement traduit en fran&#231;ais.<\/p>\n\n<h4>Active support<\/h4>\n\n<p>Drop me a line on my <a href=\"http:\/\/www.yann.com\/en\/wp-plugins\/yd-prevent-comment-impe",
+                "uid": "49952"
+            }
+        }
+    }
+}

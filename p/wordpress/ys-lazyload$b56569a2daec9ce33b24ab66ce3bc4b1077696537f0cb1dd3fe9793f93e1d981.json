@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/ys-lazyload": {
+            "1.4": {
+                "name": "wordpress\/ys-lazyload",
+                "version": "1.4",
+                "version_normalized": "1.4.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/ys-lazyload.1.4.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>Inspired by jQuery lazyload plug-in, but due to different browsers can not guarantee that images are lazy (like chrome), so using server-side image src attribute changes to ensure that all browsers can support.<\/p>\n\n<p>YSLazyload lazy picture, only loaded after DOM elements finished, and to determine the current window to load and save your bandwidth resources.\nSince changes in the service side image src attribute, so compatible with all browsers.\nNote: Make sure your browser supports javascript and your blog should supported jQuery library<\/p>",
+                "uid": "49520"
+            }
+        }
+    }
+}

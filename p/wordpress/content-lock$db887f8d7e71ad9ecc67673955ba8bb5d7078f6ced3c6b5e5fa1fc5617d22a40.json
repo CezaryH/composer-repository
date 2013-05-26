@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/content-lock": {
+            "1.0": {
+                "name": "wordpress\/content-lock",
+                "version": "1.0",
+                "version_normalized": "1.0.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/content-lock.1.0.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>Show or hide content with a simple to use shortcode system.  You can access or restrict content for:<\/p>\n\n<ul>\n<li>Logged in\/out users<\/li>\n<li>different user types, (author, administrator, etc.)<\/li>\n<li>different user roles and capabilities<\/li>\n<li>URL Keys<\/li>\n<li>password entry (good to show teasers, etc)<\/li>\n<li>show\/hide clickable links<\/li>\n<\/ul>",
+                "uid": "9157"
+            }
+        }
+    }
+}

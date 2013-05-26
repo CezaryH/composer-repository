@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/formategory": {
+            "2.0": {
+                "name": "wordpress\/formategory",
+                "version": "2.0",
+                "version_normalized": "2.0.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/formategory.2.0.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>Formategory allows you to customize posts based on their categories. Just define a template for a category, and all of the posts in that category will be displayed according to the template.<\/p>\n\n<p>Use the buttons in the top-right meta box to insert placeholders for the post's content; {{ the_content }} will be replaced by the post's content, and {{ the_title }} will be replaced by the post's title. Select some categories for the template, and after you save it, any posts in those categories will be instantly templated.<\/p>\n\n<p>The \"Category Templates\" page in your dashboard allows you to manage your templates just like you manage your posts and pages.<\/p>",
+                "uid": "16234"
+            }
+        }
+    }
+}

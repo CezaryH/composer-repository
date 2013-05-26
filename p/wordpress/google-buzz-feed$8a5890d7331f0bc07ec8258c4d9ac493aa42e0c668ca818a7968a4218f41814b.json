@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/google-buzz-feed": {
+            "1.2": {
+                "name": "wordpress\/google-buzz-feed",
+                "version": "1.2",
+                "version_normalized": "1.2.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/google-buzz-feed.1.2.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>Google Buzz plugin for Wordpress allows you to get latest Buzzes for your Blog.<\/p>\n\n<p>Besides setting username for fetching feeds, you can setup caching and response time + number of posts to fetch.<\/p>\n\n<p>If caching is turned on your feed will check every X minutes for updates and your blog will run fast without need to load data from remote server. If caching time is expired new version of feed will be downloaded to your server and used for later processing.<\/p>\n\n<p>Also you can setup number of seconds to wait for response, and if you don\u0092t get response in that period of time local feed will be displayed automatically and your user want see downtime of remote server.<\/p>\n\n<p>Features:<\/p>\n\n<ul>\n<li>Caching - you cen setup caching of buzz posts for faster loading of your website<\/li>\n<li>Number of posts - You can limit number of posts to display from Buzz feed <\/li>\n<li>Widget ready - After installation you can frag and drop widget to your sidebar <\/li>\n<li>More to come - I'm w",
+                "uid": "73609"
+            }
+        }
+    }
+}

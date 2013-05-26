@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/jini-wpmu-blog-control": {
+            "1.0": {
+                "name": "wordpress\/jini-wpmu-blog-control",
+                "version": "1.0",
+                "version_normalized": "1.0.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/jini-wpmu-blog-control.1.0.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>Allows site admins to set a limit on blogs allowed to be created per user. Applies both to blogs at registration or after a user has been registered.<\/p>",
+                "uid": "76876"
+            }
+        }
+    }
+}

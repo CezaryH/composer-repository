@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/tidy-archives": {
+            "1.0": {
+                "name": "wordpress\/tidy-archives",
+                "version": "1.0",
+                "version_normalized": "1.0.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/tidy-archives.1.0.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>Tidy Archives will display your archives in a practical way. It displays links to monthly archives together with direct post links for the current year, while for previous years it only displays a link to the yearly archives.<\/p>\n\n<p>The format in short:<\/p>\n\n<p>Month Year\n- list of posts in that month<\/p>\n\n<p>followed by a list of previous years.<\/p>\n\n<p>So the idea is to have the archives displayed like this example:<\/p>\n\n<p>February 2011\n- Post 3\n- Post 2\n- Post 1<\/p>\n\n<p>January 2011\n- Post 4\n- Post 3\n- Post 2\n- Post 1<\/p>\n\n<p>2010\n2009\n2008<\/p>",
+                "uid": "52362"
+            }
+        }
+    }
+}

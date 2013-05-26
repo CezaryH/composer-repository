@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/linchpin-next-page-link-previous-page-link": {
+            "1.0.2": {
+                "name": "wordpress\/linchpin-next-page-link-previous-page-link",
+                "version": "1.0.2",
+                "version_normalized": "1.0.2.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/linchpin-next-page-link-previous-page-link.1.0.2.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>Create next\/previous links for pages. Adds the functions next_page_link() and previous_page_link() which links sibling to page(s).\nIf your page doesn't have a direct sibling the plugin will try to go out to the parent of the current page and get the parent's next sibling. If enabled the plugin will also loop from end-&#62;beginning and beginning-&#62;end.<\/p>\n\n<p>This plugin is great for utilizing WordPress for presentations. If you create a set of pages. This plugin will cycle through them. Additionally you could utilize some javascript to create a timer to automatically go from page to page.<\/p>\n\n<p>This plugin is based on 'Next and Previous Page not Post' by Matt McInvale. Although it's gone through almost a complete rewrite from his release in 09.  This plugin is a bit more optimized to take advantage of newer plugin techniques. Includes code from banesto as well regarding references to grandparent pages. Also added in additional features such as $args array for easier customiza",
+                "uid": "46365"
+            }
+        }
+    }
+}

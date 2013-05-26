@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/tag-excess": {
+            "1.1": {
+                "name": "wordpress\/tag-excess",
+                "version": "1.1",
+                "version_normalized": "1.1.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/tag-excess.1.1.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>Mantiene la pubblicazione dei tag al disotto del 20% del numero di articoli in modo da non generare un tag excess\nIl plugin conta quante volte il tag viene associato negli articoli in modo da non pubblicare i tag che vengono utilizzati 1 sola volta evitando cos&#236; la duplicazione dipagine identiche.<\/p>\n\n<p>Esempio<\/p>\n\n<p>Title: Articolo 1 Pagina: \/articolo1.html Tag: key1, key2, key3, key4\npagine tag: key1.html, key2.html, key3.html, key4.html<\/p>\n\n<p>Questi tag si riferiscono solo all'articolo 1, andranno a generare 4 pagine identiche \nSe invece i tag sono condivisi con altri articoli (per pi&#249; di 2 volte) le pagine duplicate diminuiscono<\/p>\n\n<p>Title: Articolo 1 Pagina: \/articolo1.html Tag: key1, key2, key3, key4 \nTitle: Articolo 2 Pagina: \/articolo2.html Tag: key2, key3, key4 \nTitle: Articolo 3 Pagina: \/articolo3.html Tag: key1, key2, key3<\/p>\n\n<p>pagine tag: key2.html, key3.html<\/p>\n\n<p>Thank to <a href=\"http:\/\/www.sport10.it\">Sport10<\/a>, <a href=\"http:\/\/www.automobil",
+                "uid": "66763"
+            }
+        }
+    }
+}

@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/string-override": {
+            "1.1": {
+                "name": "wordpress\/string-override",
+                "version": "1.1",
+                "version_normalized": "1.1.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/string-override.1.1.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>String override replaces the text with your designated text in admin panel. very simple and very usefull plugin to make theme very easy to update and maintain.<\/p>\n\n<p>plugin is fully functional in both ways ready to be use in template files as well as post\/pages\/widgets.<\/p>\n\n<p>works in 2 way<\/p>\n\n<p>1). short code replacement in your post\/pages or widget.<\/p>\n\n<p>2). function call with string id in your theme files(use like this <code>&#60;?php  if(function_exists(string_override_manual)) echo string_override_manual(id)?&#62;<\/code> ).where id is text id needs to be replace.<\/p>",
+                "uid": "65051"
+            }
+        }
+    }
+}

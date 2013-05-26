@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/wordspinner": {
+            "2.7.3": {
+                "name": "wordpress\/wordspinner",
+                "version": "2.7.3",
+                "version_normalized": "2.7.3.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/wordspinner.2.7.3.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>2.7.3: If a supported seo plugin is used, now also spins the page meta description.<\/p>\n\n<p>2.7: Added code to make titles work with YOAST. Please email me if you have another seo plugin that titles don't spin on and I'll check it out.<\/p>\n\n<p>2.6.2: Now allows you to only spin once per user session, so the user will see consistent spins as they move around your site. You must enable this if you want it though, and you might want to look up \"PHP Sessions\" to understand what it means.<\/p>\n\n<p>2.6: Now spins post &#38; page titles, and the page meta title, but you will have to turn it on in the settings first (just check the box and hit save).<\/p>\n\n<p>\"Spinning\" text or content is an SEO term that means you craft a paragraph with interchangeable words throughout. This means that each time the page is viewed, the text changes either subtly or substantially (up to you) and often improves the SEO potential of your website as it appears as if the page changes each time Google accesses it.",
+                "uid": "99604"
+            }
+        }
+    }
+}

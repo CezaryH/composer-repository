@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/simply-twitter": {
+            "1.0": {
+                "name": "wordpress\/simply-twitter",
+                "version": "1.0",
+                "version_normalized": "1.0.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/simply-twitter.1.0.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>Adds a sidebar widget featuring your <a href=\"http:\/\/www.twitter.com\/\">Twitter<\/a> tweets. While there are many Twitter widgets available, this one is lightweight and simple--perfect for people looking for an easy solution with minimal configuring.<\/p>\n\n<p>The widget puts the JavaScript loads at the bottom of each page so if Twitter.com happens to be down or running slow, your web page won't stall while loading.<\/p>",
+                "uid": "83839"
+            }
+        }
+    }
+}

@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/tortellini": {
+            "0.1.0": {
+                "name": "wordpress\/tortellini",
+                "version": "0.1.0",
+                "version_normalized": "0.1.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/tortellini.0.1.0.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>This plugin fetches Tor bridges and displays them in three different ways:<\/p>\n\n<ul>\n<li>as links added to random words in a piece of text<\/li>\n<li>as normal text<\/li>\n<li>as an HTML comment<\/li>\n<\/ul>\n\n<p>The idea is that you install the plugin, use Tortellini to display Tor bridges\nin a less popular page\/post in a corner of your site, and then you change\nrobots.txt so well-behaved robots won't index that page or post.<\/p>\n\n<p>That way, people that know about it can get Tor bridges from you (preferably over\nhttps), if they are blocked from getting them somewhere else.<\/p>",
+                "uid": "52552"
+            }
+        }
+    }
+}

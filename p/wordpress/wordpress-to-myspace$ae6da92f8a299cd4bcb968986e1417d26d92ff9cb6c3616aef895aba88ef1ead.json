@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/wordpress-to-myspace": {
+            "0.2.1": {
+                "name": "wordpress\/wordpress-to-myspace",
+                "version": "0.2.1",
+                "version_normalized": "0.2.1.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/wordpress-to-myspace.0.2.1.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>When you publish a new Wordpress blog post, Wordpress to Myspace would use Myspace's REST API to post its title and URL to your Myspace profile status.<\/p>",
+                "uid": "74570"
+            }
+        }
+    }
+}

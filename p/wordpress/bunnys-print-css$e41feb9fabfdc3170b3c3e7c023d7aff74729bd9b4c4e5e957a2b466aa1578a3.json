@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/bunnys-print-css": {
+            "0.95": {
+                "name": "wordpress\/bunnys-print-css",
+                "version": "0.95",
+                "version_normalized": "0.95.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/bunnys-print-css.0.95.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>The plugin contains two files. <code>print-css.php<\/code>, which is the plugin file itself, and <code>print.css<\/code>, a sample print stylesheet.<\/p>\n\n<p>A link to the print stylesheet will be placed in your theme's header, providing it uses the <code>wp_head()<\/code> function\/hook.<\/p>\n\n<p>An admin panel is added to the Presentations menu and it will allow you to edit the stylesheet if you make print.css writeable.<\/p>\n\n<p>You probably want to edit the stylesheet provided to your liking, though it will hopefully do most of the job if your theme is sandbox-based.<\/p>\n\n<p>I'm happy to include any improvements to the print stylesheet.<\/p>\n\n<p>The print stylesheet will be used to print your blog pages, instead of the normal screen stylesheet.<\/p>",
+                "uid": "107430"
+            }
+        }
+    }
+}

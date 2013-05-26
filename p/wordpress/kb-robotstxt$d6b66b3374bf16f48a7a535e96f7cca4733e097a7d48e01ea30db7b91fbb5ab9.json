@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/kb-robotstxt": {
+            "1.0.1": {
+                "name": "wordpress\/kb-robotstxt",
+                "version": "1.0.1",
+                "version_normalized": "1.0.1.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/kb-robotstxt.1.0.1.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>When robots (like the Googlebot) crawl your site, they begin by requesting <code><a href=\"http:\/\/example.com\/robots.txt\" rel=\"nofollow\">http:\/\/example.com\/robots.txt<\/a><\/code> and checking it for special instructions. Use this plugin to create and edit your robots.txt file from within Wordpress (using <code>Options -&#62; Robots.txt<\/code>).<\/p>\n\n<p>Whenever a user (or a robot, more likely) appends \"robots.txt\" to your blog URL (e.g. <a href=\"http:\/\/blog.example.com\/robots.txt)\" rel=\"nofollow\">http:\/\/blog.example.com\/robots.txt)<\/a>, this plugin will serve up the robots.txt file that you created in the Wordpress admin menu.<\/p>\n\n<p>This plugin should work with most versions of Wordpress, but it is particularly intended for WP-MU installations, since it allows each WPMU blog to have a unique robots.txt file.<\/p>\n\n<h4>Limitations<\/h4>\n\n<p>Note that robots make only top-level requests for robots.txt files. If you have Wordpress installed in a subdomain (e.g. <code><a href=\"http:\/\/blog",
+                "uid": "112330"
+            }
+        }
+    }
+}

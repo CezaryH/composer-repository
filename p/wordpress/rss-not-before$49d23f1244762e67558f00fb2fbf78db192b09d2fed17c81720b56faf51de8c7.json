@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/rss-not-before": {
+            "1.0": {
+                "name": "wordpress\/rss-not-before",
+                "version": "1.0",
+                "version_normalized": "1.0.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/rss-not-before.1.0.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>When importing your blog from blogger you may cause your posts to reappear as duplicates in your subscribers feed readers, unless you install this plugin and set the \"Not Before\" date to the day you switch.<\/p>\n\n<p>This plugin works best if you have already been using feedburner to \"burn\" your feeds in blogger.<\/p>\n\n<h4>Why would I use this plugin?<\/h4>\n\n<p>If you are using blogger and feedburner, then after you import your posts into wordpress and change your feedburner \"Original Feed\", your subscribers will see all your old posts reappear in their news readers as new unread posts. This plugin allows you to remove all those \"old posts\" from the rss feed which, after switched the feedburner feed source, will make the blogger to wordpress transition completely seamless.<\/p>",
+                "uid": "54018"
+            }
+        }
+    }
+}

@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/top-level-cats": {
+            "1.0.1": {
+                "name": "wordpress\/top-level-cats",
+                "version": "1.0.1",
+                "version_normalized": "1.0.1.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/top-level-cats.1.0.1.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>The Top Level Categories plugin allows you to remove the prefix before the URL to your category page. For example, instead of <a href=\"http:\/\/fortes.com\/category\/work\" rel=\"nofollow\">http:\/\/fortes.com\/category\/work<\/a>, I use <a href=\"http:\/\/fortes.com\/work\" rel=\"nofollow\">http:\/\/fortes.com\/work<\/a> for the address my \"work\" category. WordPress doesn't allow you to have a blank prefix for categories (they insert <code>category\/<\/code> before the name), this plugin works around that restriction.<\/p>",
+                "uid": "113829"
+            }
+        }
+    }
+}

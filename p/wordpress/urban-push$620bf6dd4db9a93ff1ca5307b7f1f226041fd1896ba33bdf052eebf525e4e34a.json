@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/urban-push": {
+            "1.0.3": {
+                "name": "wordpress\/urban-push",
+                "version": "1.0.3",
+                "version_normalized": "1.0.3.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/urban-push.1.0.3.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>Urban Push is a WordPress plugin that utilizes the Urban Airship API to send a push directly from the WordPress &#8220;new post&#8221; page. <strong>You MUST have an account with Urban Airship to use this plugin.<\/strong> You can send a single push to up to 4 Urban Airship applications. After a push attempt, you will see one new custom field entry for each configured Urban Airship application. It will say <strong>push sent for<\/strong> followed by the name you chose for your Urban Airship application. The value of the custom field will contain the response returned from Urban Airship. For a successful push, the response is usually &#8220;(null).&#8221;<\/p>\n\n<p>More features are coming like:<\/p>\n\n<ol>\n<li>The ability to set your aps options (badge, sound, etc..)<\/li>\n<li>The ability to choose which app to send a push to (or all).<\/li>\n<\/ol>",
+                "uid": "25889"
+            }
+        }
+    }
+}

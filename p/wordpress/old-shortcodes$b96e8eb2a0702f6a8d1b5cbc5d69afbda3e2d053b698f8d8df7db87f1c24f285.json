@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/old-shortcodes": {
+            "1.0": {
+                "name": "wordpress\/old-shortcodes",
+                "version": "1.0",
+                "version_normalized": "1.0.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/old-shortcodes.1.0.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>Give it a shortcode, it will stop it from displaying on the site. Useful for hiding old shortcodes left over from uninstalled or deactivated plugins.<\/p>",
+                "uid": "104999"
+            }
+        }
+    }
+}

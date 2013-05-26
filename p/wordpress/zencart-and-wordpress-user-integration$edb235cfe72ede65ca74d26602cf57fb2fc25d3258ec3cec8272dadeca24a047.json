@@ -1,0 +1,40 @@
+{
+    "packages": {
+        "wordpress\/zencart-and-wordpress-user-integration": {
+            "0.1": {
+                "name": "wordpress\/zencart-and-wordpress-user-integration",
+                "version": "0.1",
+                "version_normalized": "0.1.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/zencart-and-wordpress-user-integration.0.1.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>This plugin replaces the WP login,logout and register with the zen cart functions. You must have the WOZ plugin already installed for zen cart. The files in this plugin actually go in the zen cart installation (includes\/*). After that you can send all your login\/logout etc to the zen cart pages and this will handle all the WP functions as well.<\/p>\n\n<p>Changes--\n.5 - 05-20-2008\n    - Now handles password changed\n    - Now handles password forgot<\/p>",
+                "uid": "103777"
+            },
+            "0.5": {
+                "name": "wordpress\/zencart-and-wordpress-user-integration",
+                "version": "0.5",
+                "version_normalized": "0.5.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/zencart-and-wordpress-user-integration.0.5.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>This plugin replaces the WP login,logout and register with the zen cart functions. You must have the WOZ plugin already installed for zen cart. The files in this plugin actually go in the zen cart installation (includes\/*). After that you can send all your login\/logout etc to the zen cart pages and this will handle all the WP functions as well.<\/p>\n\n<p>Changes--\n.5 - 05-20-2008\n    - Now handles password changed\n    - Now handles password forgot<\/p>",
+                "uid": "103776"
+            }
+        }
+    }
+}

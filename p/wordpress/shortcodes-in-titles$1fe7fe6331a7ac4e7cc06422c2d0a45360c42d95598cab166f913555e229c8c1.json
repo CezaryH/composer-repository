@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/shortcodes-in-titles": {
+            "1.0": {
+                "name": "wordpress\/shortcodes-in-titles",
+                "version": "1.0",
+                "version_normalized": "1.0.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/shortcodes-in-titles.1.0.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>This plugin, makes it easier to add shortcodes in your post titles, by erasing the shortcode tag from the permalink and filtering the rest of your titles. That way, you only show the title with applied shortcodes where you want.<\/p>\n\n<h4>Features<\/h4>\n\n<ul>\n<li>Wordpress generates the permalink of your post without the shortcode tag<\/li>\n<li>The shortcode will be striped from wp_title(), leaving the title intact<\/li>\n<\/ul>",
+                "uid": "12809"
+            }
+        }
+    }
+}

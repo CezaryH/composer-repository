@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/wpc-disable-wordpress-version-update": {
+            "1.0": {
+                "name": "wordpress\/wpc-disable-wordpress-version-update",
+                "version": "1.0",
+                "version_normalized": "1.0.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/wpc-disable-wordpress-version-update.1.0.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>WPC Disable Wordpress Version Updates removes the Wordpress update feature. It will get rid of that annoying update warning header that appears if you need to update. Lots of users don\u0092t like to update their sites so this is perfect for them, or any site admin that don\u0092t want their clients seeing update info they shouldn\u0092t.<\/p>",
+                "uid": "73990"
+            }
+        }
+    }
+}

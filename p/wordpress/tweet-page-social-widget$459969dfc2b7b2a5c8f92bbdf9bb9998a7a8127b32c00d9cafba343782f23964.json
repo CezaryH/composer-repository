@@ -1,0 +1,40 @@
+{
+    "packages": {
+        "wordpress\/tweet-page-social-widget": {
+            "1.0": {
+                "name": "wordpress\/tweet-page-social-widget",
+                "version": "1.0",
+                "version_normalized": "1.0.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/tweet-page-social-widget.1.0.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>To use the widget just drag it to a sidebar and choose one of three button styles. Up to two Twitter accounts can be specified to recommend, it is advised to at least specify your own Twitter account as the primary Twitter account. You can also specify a url to recommend. If you leave the url empty, the active page will be recommended.<\/p>\n\n<p>Using shortcode:\nFrom version 1.1 on you can add a Tweet button to your page or post using shortcode.\nThe simplest version is [tweet\/] which will add a button using the title and permalink of the page or post.<\/p>\n\n<p>To further customize the button you can use the following attributes:\n* text: Any text you would like visitors to tweet instead of the current page or post title\n* url: Any url you would like visitors to tweet instead of the current page or post permalink<\/p>\n\n<p>Some examples of correct usage of this shortcode are:\n[tweet\/]\n[tweet text=\"Check out this page!\"\/]\n[tweet text=\"Visit WordPress\" url=\"http:\/\/www.wordpress.org\"\/]<\/p>",
+                "uid": "50761"
+            },
+            "1.1": {
+                "name": "wordpress\/tweet-page-social-widget",
+                "version": "1.1",
+                "version_normalized": "1.1.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/tweet-page-social-widget.1.1.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>To use the widget just drag it to a sidebar and choose one of three button styles. Up to two Twitter accounts can be specified to recommend, it is advised to at least specify your own Twitter account as the primary Twitter account. You can also specify a url to recommend. If you leave the url empty, the active page will be recommended.<\/p>\n\n<p>Using shortcode:\nFrom version 1.1 on you can add a Tweet button to your page or post using shortcode.\nThe simplest version is [tweet\/] which will add a button using the title and permalink of the page or post.<\/p>\n\n<p>To further customize the button you can use the following attributes:\n* text: Any text you would like visitors to tweet instead of the current page or post title\n* url: Any url you would like visitors to tweet instead of the current page or post permalink<\/p>\n\n<p>Some examples of correct usage of this shortcode are:\n[tweet\/]\n[tweet text=\"Check out this page!\"\/]\n[tweet text=\"Visit WordPress\" url=\"http:\/\/www.wordpress.org\"\/]<\/p>",
+                "uid": "50759"
+            }
+        }
+    }
+}

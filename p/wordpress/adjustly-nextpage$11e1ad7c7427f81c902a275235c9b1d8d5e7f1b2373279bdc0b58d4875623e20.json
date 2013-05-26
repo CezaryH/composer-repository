@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/adjustly-nextpage": {
+            "0.1": {
+                "name": "wordpress\/adjustly-nextpage",
+                "version": "0.1",
+                "version_normalized": "0.1.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/adjustly-nextpage.0.1.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>Developed internally for our Adjustly theme, this plugin allows authors to create multi-page posts and pages to the WordPress Visual and HTML toolbar. This is not a post-to-post navigation feature, this is specifically about adding page breaks to a single, very long page\/post. We did not create any new features with this plugin, it simply brings back an existing feature to the toolbar.<\/p>\n\n<h4>Try the Demo<\/h4>\n\n<p>If you're interested in seeing what a default installation of Adjustly Nextpage has to offer, we have a verbose sample post located here.<\/p>\n\n<p><a href=\"http:\/\/www.psdcovers.com\/adjustly-nextpage\/\">http:\/\/www.psdcovers.com\/adjustly-nextpage\/<\/a><\/p>\n\n<h4>Usage<\/h4>\n\n<p>Usage is identical to adding the more separator and looks as follows:<\/p>\n\n<pre><code>&#060;!--nextpage--&#062;<\/code><\/pre>\n\n<p>That's it.  Wordpress already has support for treating this as a page break when viewing the article and will add a page navigation tool at the end of each page or post. In fac",
+                "uid": "28803"
+            }
+        }
+    }
+}

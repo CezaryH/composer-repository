@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/wu-block-comments": {
+            "1.0": {
+                "name": "wordpress\/wu-block-comments",
+                "version": "1.0",
+                "version_normalized": "1.0.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/wu-block-comments.1.0.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>This plugin provides a possibility to block comments based on words of a predefined list. The built-in lists of wordpress only allow to send comments to the moderation- or to the spam-queue but not to block them completely. This is remedied with this plugin, which allows to block comments based on a definable list.<\/p>\n\n<p>Attention #1: Use wordlist with care, there is no logging of the blocked comments!<\/p>\n\n<p>Attention #2: It will also match inside words, so \"press\" will match \"WordPress\" as well!<\/p>",
+                "uid": "31945"
+            }
+        }
+    }
+}

@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/raw-html-snippets": {
+            "1.1.2": {
+                "name": "wordpress\/raw-html-snippets",
+                "version": "1.1.2",
+                "version_normalized": "1.1.2.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/raw-html-snippets.1.1.2.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>Create a library of raw HTML snippets that you can easily insert into any page\/post content using a shortcode:<\/p>\n\n<p>[raw_html_snippet id=\"my-snippet\"]<\/p>\n\n<p>Snippets consist of a unique ID (e.g. \"my-snippet\") and raw HTML code. This plugin was written to stop using hacks that override WordPress' core content filters and affect shortcode output.<\/p>\n\n<p>This plugin will NOT taint your content or the output of other shortcodes. If you delete a snippet, any existing shortcodes with that snipet's ID will output an empty string.<\/p>\n\n<p>Remember, this allows you to output raw HTML. Use at your own risk. It will not check for malicious HTML\/CSS\/Javascript!<\/p>",
+                "uid": "47517"
+            }
+        }
+    }
+}

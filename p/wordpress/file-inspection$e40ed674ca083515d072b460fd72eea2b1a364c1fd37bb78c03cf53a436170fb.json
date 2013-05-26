@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/file-inspection": {
+            "1.0": {
+                "name": "wordpress\/file-inspection",
+                "version": "1.0",
+                "version_normalized": "1.0.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/file-inspection.1.0.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>The plugin creates MD5 hash from every file in your blog. If your blog got hacked you can easily check which files changed, so you can fix the hacked files quickly.<\/p>",
+                "uid": "26029"
+            }
+        }
+    }
+}

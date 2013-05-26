@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/url2picture-screenshots": {
+            "1.0": {
+                "name": "wordpress\/url2picture-screenshots",
+                "version": "1.0",
+                "version_normalized": "1.0.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/url2picture-screenshots.1.0.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>This plugins allows to easily embed thumbnails or full-page screenshots of any website into your blog. It uses the service <a href=\"http:\/\/www.url2picture.com\">URL2Picture<\/a> to generate the screenshots.<\/p>\n\n<p>The plugin includes a caching functionality and allows to configure viewport-size, thumbnail-size, screenshot delay and screenshot cropping.<\/p>\n\n<p>Basic usage<\/p>\n\n<p>You can use a shortcut to embed screenshots into any post:<\/p>\n\n<p>[url2picture width=VIEWPORT_WIDTH height=VIEWPORT_HEIGHT thumbnail_width=THUMBNAIL_WIDTH thumbnail_height=THUMBNAIL_HEIGHT delay=DELAY crop_height=CROP_HEIGHT crop_width=CROP_WIDTH]www.wordpress.org[\/url2picture]<\/p>\n\n<p>Examples<\/p>\n\n<p>A few usage examples:<\/p>\n\n<p>[url2picture]www.wordpress.com[\/url2picture]\nThis shortcut will display a orginal-size and full-page screenshot of wordpress.com<\/p>\n\n<p>[url2picture thumbnail_width=300]www.wordpress.com[\/url2picture]\nThis shortcut will display a 300 pixel wide thumbnail of <a href=\"http:\/\/www.w",
+                "uid": "9144"
+            }
+        }
+    }
+}

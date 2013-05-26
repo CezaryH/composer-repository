@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/you-are-here": {
+            "0.2": {
+                "name": "wordpress\/you-are-here",
+                "version": "0.2",
+                "version_normalized": "0.2.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/you-are-here.0.2.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>Replaces anchor elements pointing to the current document by span elements (adding class=\"u-r-here\").<\/p>",
+                "uid": "114620"
+            }
+        }
+    }
+}

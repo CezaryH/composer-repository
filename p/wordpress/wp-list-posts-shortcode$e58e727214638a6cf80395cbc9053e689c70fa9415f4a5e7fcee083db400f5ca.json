@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/wp-list-posts-shortcode": {
+            "0.1": {
+                "name": "wordpress\/wp-list-posts-shortcode",
+                "version": "0.1",
+                "version_normalized": "0.1.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/wp-list-posts-shortcode.0.1.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>Adds a shortcode [wp_list_posts]. For example [wp_list_posts category=3 numberposts=7] will return an unordered list of the most recent 7 posts in the category ID 3.<\/p>",
+                "uid": "71441"
+            }
+        }
+    }
+}

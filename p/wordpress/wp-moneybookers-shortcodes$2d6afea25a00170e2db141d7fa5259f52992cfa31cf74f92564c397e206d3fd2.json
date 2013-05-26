@@ -1,0 +1,40 @@
+{
+    "packages": {
+        "wordpress\/wp-moneybookers-shortcodes": {
+            "0.1": {
+                "name": "wordpress\/wp-moneybookers-shortcodes",
+                "version": "0.1",
+                "version_normalized": "0.1.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/wp-moneybookers-shortcodes.0.1.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>Add a moneybookers button (using shortcode) into your pages\/posts\nEdit the wp-content\/plugins\/wp-moneybookers-shortcodes\/wp-moneybookers-shortcodes.php for configure the plugin.\nOr use class for integration moneybookers into your page.<\/p>\n\n<h4>Shortcode<\/h4>\n\n<p>Insert the button in your pages or posts with this shortcode<\/p>\n\n<pre><code>[moneybookersBtn production=&#34;true&#34; amount=&#34;50&#34; detail1_description=&#34;Product Identity:&#34; detail1_text=&#34;T-Shirt Webtux&#34;]<\/code><\/pre>\n\n<h4>Integration moneybookers into your page<\/h4>\n\n<p>Add this code to your template page.<\/p>\n\n<pre><code>$a = new WpMoneybookersShortcodes(&#34;contact@webtux.info&#34;);  \/\/ account moneybookers email\n\/*\n\/\/ If you want custom your page : payment made, payment cancelled and process payment.\n$a-&#62;setReturnUrl(get_bloginfo(&#039;template_url&#039;).&#34;\/moneybookers_payment_made.php&#34;);     \/\/ return page (url of the page is created for receipt of payment made) \n$a-&#62;setCancelUr",
+                "uid": "51904"
+            },
+            "0.2": {
+                "name": "wordpress\/wp-moneybookers-shortcodes",
+                "version": "0.2",
+                "version_normalized": "0.2.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/wp-moneybookers-shortcodes.0.2.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>Add a moneybookers button (using shortcode) into your pages\/posts\nEdit the wp-content\/plugins\/wp-moneybookers-shortcodes\/wp-moneybookers-shortcodes.php for configure the plugin.\nOr use class for integration moneybookers into your page.<\/p>\n\n<h4>Shortcode<\/h4>\n\n<p>Insert the button in your pages or posts with this shortcode<\/p>\n\n<pre><code>[moneybookersBtn production=&#34;true&#34; amount=&#34;50&#34; detail1_description=&#34;Product Identity:&#34; detail1_text=&#34;T-Shirt Webtux&#34;]<\/code><\/pre>\n\n<h4>Integration moneybookers into your page<\/h4>\n\n<p>Add this code to your template page.<\/p>\n\n<pre><code>$a = new WpMoneybookersShortcodes(&#34;contact@webtux.info&#34;);  \/\/ account moneybookers email\n\/*\n\/\/ If you want custom your page : payment made, payment cancelled and process payment.\n$a-&#62;setReturnUrl(get_bloginfo(&#039;template_url&#039;).&#34;\/moneybookers_payment_made.php&#34;);     \/\/ return page (url of the page is created for receipt of payment made) \n$a-&#62;setCancelUr",
+                "uid": "51903"
+            }
+        }
+    }
+}

@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/quickstats": {
+            "1.1": {
+                "name": "wordpress\/quickstats",
+                "version": "1.1",
+                "version_normalized": "1.1.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/quickstats.1.1.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>Quick Stats is a configurable and embarassingly easy to install statistics\nplugin for wordpress that shows live statistics about referrer data, content\nhit count and browser versions back to a configurable number of hits.\nIndividual hits are also shown with ip address and hostname. Visitors can be\ntracked in near real-time using an RSS reader software.<\/p>\n\n<p>Quick Stats is not meant to be a full featured log analyzer. It is intended to show realtime statistics on a recent time window. It does all the analysis on demand and shows them on an easily accesible single page.<\/p>",
+                "uid": "112050"
+            }
+        }
+    }
+}

@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/contact-vcard": {
+            "0.3": {
+                "name": "wordpress\/contact-vcard",
+                "version": "0.3",
+                "version_normalized": "0.3.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/contact-vcard.0.3.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>The plugin is designed to create a contact list and placing them on the site. Supports vcard.vcf file and generate vCard QRCode \nThe procedure works as follows: \n1. Determine and set the field list of contacts \n1. Set up a template output contact, as well as the required quality of QR-code \n1. Adding contacts to the list \n1. Add shorcode to article or post<\/p>\n\n<p>Shortcodes: \n*   [All_contacts] - Displays all contacts \n*   [Single_contact id=ID] - Displays a given contact by ID<\/p>\n\n<p>Template fields: \nAs a template, use the following fields: \n% Field% - is replaced by the value of field named 'field' \n%! Field% - is replaced by the name of the field named 'field' \n% Qrcode% - replaced by an image - QR-Code \n% Vcard-file% - replaced by a reference to vCard.vcf \nThe templates can also specify other shortcodes<\/p>\n\n<p>QR Code generation based on <a href='http:\/\/phpqrcode.sourceforge.net\/'>PHP QR Code<\/a> without any modifications<\/p>",
+                "uid": "26039"
+            }
+        }
+    }
+}

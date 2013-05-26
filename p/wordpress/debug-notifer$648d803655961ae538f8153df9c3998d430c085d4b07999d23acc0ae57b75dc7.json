@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/debug-notifer": {
+            "0.1.0": {
+                "name": "wordpress\/debug-notifer",
+                "version": "0.1.0",
+                "version_normalized": "0.1.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/debug-notifer.0.1.0.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>For those developers who write clean code that produces no errors or warnings, it can be unclear whether debug mode is enabled or not.  This plugin solves that problem by adding a visual style to the front-end and back-end (optionally) so that admins can tell at-a-glance if <em>WP_DEBUG=true<\/em> in the <em>wp-config.php<\/em> file.  No more having to check the file manually.<\/p>",
+                "uid": "22576"
+            }
+        }
+    }
+}

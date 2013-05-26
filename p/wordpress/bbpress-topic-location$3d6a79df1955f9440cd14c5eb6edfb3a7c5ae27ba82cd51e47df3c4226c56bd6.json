@@ -1,0 +1,40 @@
+{
+    "packages": {
+        "wordpress\/bbpress-topic-location": {
+            "1.0": {
+                "name": "wordpress\/bbpress-topic-location",
+                "version": "1.0",
+                "version_normalized": "1.0.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/bbpress-topic-location.1.0.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>This plugin adds the ability to geo-locate a topic in bbPress.  Originally developped for a classified ads forum (allowing ads to be geo-located).<\/p>\n\n<h4>Features<\/h4>\n\n<ul>\n<li>Works both for frontend &#38; backend.<\/li>\n<li>Powered by the w3c geolocation; which means that the plugin can guess your current location if your browser has this feature.<\/li>\n<li>Saves latitude &#38; longitude separately in posts metas ('_bbp_topic_geo_long' and '_bbp_topic_geo_lat'), allowing to search potentially posts by location.  Other informations (location requested, address returned) are saved in a third post meta ('_bbp_topic_geo_info').<\/li>\n<\/ul>",
+                "uid": "24152"
+            },
+            "1.0.1": {
+                "name": "wordpress\/bbpress-topic-location",
+                "version": "1.0.1",
+                "version_normalized": "1.0.1.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/bbpress-topic-location.1.0.1.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>This plugin adds the ability to geo-locate a topic in bbPress.  Originally developped for a classified ads forum (allowing ads to be geo-located).<\/p>\n\n<h4>Features<\/h4>\n\n<ul>\n<li>Works both for frontend &#38; backend.<\/li>\n<li>Powered by the w3c geolocation; which means that the plugin can guess your current location if your browser has this feature.<\/li>\n<li>Saves latitude &#38; longitude separately in posts metas ('_bbp_topic_geo_long' and '_bbp_topic_geo_lat'), allowing to search potentially posts by location.  Other informations (location requested, address returned) are saved in a third post meta ('_bbp_topic_geo_info').<\/li>\n<\/ul>",
+                "uid": "24151"
+            }
+        }
+    }
+}

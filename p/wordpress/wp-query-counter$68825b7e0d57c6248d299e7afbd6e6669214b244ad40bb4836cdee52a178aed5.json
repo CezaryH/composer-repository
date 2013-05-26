@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/wp-query-counter": {
+            "1.0.1": {
+                "name": "wordpress\/wp-query-counter",
+                "version": "1.0.1",
+                "version_normalized": "1.0.1.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/wp-query-counter.1.0.1.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>Displays exactly how many MySQL queries are executed and how long it took to execute them.<\/p>\n\n<p>Do you ever wonder why your blog is running so slow?  This simple plugin was written to help web developers identify a common problem with many WordPress installations: Query abuse.  By using this plugin, you can compare the database query counts load times directly on your website via a small and friendly box in the bottom-right corner of your screen. Use WP Query Counter to aid in your plugin's development.  Efficient code is fast code!<\/p>",
+                "uid": "50531"
+            }
+        }
+    }
+}

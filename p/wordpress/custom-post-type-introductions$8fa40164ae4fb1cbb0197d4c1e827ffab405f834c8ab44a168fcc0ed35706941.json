@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/custom-post-type-introductions": {
+            "1.0.0": {
+                "name": "wordpress\/custom-post-type-introductions",
+                "version": "1.0.0",
+                "version_normalized": "1.0.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/custom-post-type-introductions.1.0.0.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>Custom Post Type Introductions adds a new \"Introduction\" menu under all publicly viewable custom post types on your site. Here you can set a title and intro text to display on your post type archive.<\/p>\n\n<p>This functionality is currently missing from WordPress and the only workaround I've found is to create a page to hold the data. My idea with this is to keep everything under the most logical menus for the best user experience.<\/p>",
+                "uid": "8869"
+            }
+        }
+    }
+}

@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/gtext-widget": {
+            "1.2": {
+                "name": "wordpress\/gtext-widget",
+                "version": "1.2",
+                "version_normalized": "1.2.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/gtext-widget.1.2.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>This is multilingual text widget, which works with qTranslate plugin.\nYou have to install qTranslate plugin before you use gText Widget.\nThis plugins requires at least qTranslate 2.0 version.\nAfter installing gText Widget, you will have different input boxes for languages, which you have enabled with qTranslate.<\/p>",
+                "uid": "64184"
+            }
+        }
+    }
+}

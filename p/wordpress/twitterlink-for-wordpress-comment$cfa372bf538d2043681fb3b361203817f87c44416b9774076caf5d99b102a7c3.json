@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/twitterlink-for-wordpress-comment": {
+            "0.1": {
+                "name": "wordpress\/twitterlink-for-wordpress-comment",
+                "version": "0.1",
+                "version_normalized": "0.1.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/twitterlink-for-wordpress-comment.0.1.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>Twitter for WordPress make twitter as comment for your blog.<\/p>\n\n<p><strong>Usage<\/strong><\/p>\n\n<p>To put submit form just add strings as follows.\n(You must not change submit form HTML at all. If you change something this plugin will not work correctly.)<\/p>\n\n<pre><code>&#60;?php twlink_for_wpcomment_submit(\"username\"); ?&#62;\n<\/code><\/pre>\n\n<p>To put comments which is submitted to you blog through twitterLink for WordPress Comment, just add strings as follows.<\/p>\n\n<pre><code>&#60;?php twlink_for_wpcomment_recieve(); ?&#62;\n<\/code><\/pre>\n\n<p>If you want to customize, you can add 2 options.\nFirst option \"display_comment_limit\" is the limit number of comments to display (default value is \"all\").\nSecond option \"islist\" is boolean value and is the style setting option.\nIf set this option as true then comments are displayed using <ul> <li> tags,\nand if set this option as false then comments are displayed without <ul> <li> tags,<\/li><\/ul><\/li><\/ul><\/p>\n\n<pre><code>&#60;?php twlink_for_w",
+                "uid": "93714"
+            }
+        }
+    }
+}

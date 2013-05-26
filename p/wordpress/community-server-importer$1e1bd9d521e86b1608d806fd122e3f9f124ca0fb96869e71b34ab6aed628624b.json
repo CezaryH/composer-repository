@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/community-server-importer": {
+            "0.5": {
+                "name": "wordpress\/community-server-importer",
+                "version": "0.5",
+                "version_normalized": "0.5.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/community-server-importer.0.5.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>An admin plugin that allows users to convert their Community Server blog to WordPress.<\/p>\n\n<p><strong>IMPORTANT:<\/strong> The beta version (v0.5) of the Community Server Importer only supports PHP hosting platforms that use version 2000.80.2039.0 of the MS native SQL driver (ntwdblib.dll). Future versions of the plugin will support platforms that do not meet this requirement; see the FAQ section for more information.<\/p>\n\n<p>See the <a href=\"http:\/\/www.bettersoftwarenow.com\/community-server-to-wordpress-converter\/\" title=\"Community Server Importer homepage\">Community Server Importer homepage<\/a> for more information.<\/p>",
+                "uid": "99834"
+            }
+        }
+    }
+}

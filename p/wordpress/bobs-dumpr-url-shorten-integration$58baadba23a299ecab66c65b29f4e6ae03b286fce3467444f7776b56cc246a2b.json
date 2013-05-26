@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/bobs-dumpr-url-shorten-integration": {
+            "1.0.1": {
+                "name": "wordpress\/bobs-dumpr-url-shorten-integration",
+                "version": "1.0.1",
+                "version_normalized": "1.0.1.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/bobs-dumpr-url-shorten-integration.1.0.1.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p><strong>Note: this plugin requires an API key for dumpr.info. To get an API key all you\nneed to do is create an account, then you can generate them from the Profile page.<\/strong><\/p>\n\n<p>This plugin provides an interface with the <a href=\"http:\/\/dumpr.info\/url\">dumpr.info<\/a> api\nto generate short URLs for blog posts. It has a control panel built into the\nWordPress administration where you can fetch and manage them. URLs can be set to\nbe automatically generated every time you add a post or not.<\/p>\n\n<p>When a short URL is generated, it is attached to the post under the custom field\ndumpr-shorturl. You can render that out in your theme or where ever.<\/p>\n\n<p>This plugin also provides nice functions that other plugins could use to integrate\nwhatever services they need into the short URL system as well (like a plugin that\nposts to Twitter or Facebook, for example)<\/p>\n\n<h4>About dumpr.info<\/h4>\n\n<p>dumpr.info is a text dump and url shortening site. The URL shortening is unique\nbecause",
+                "uid": "39182"
+            }
+        }
+    }
+}

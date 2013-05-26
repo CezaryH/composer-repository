@@ -1,0 +1,40 @@
+{
+    "packages": {
+        "wordpress\/podio-for-contact-form-7": {
+            "1.0": {
+                "name": "wordpress\/podio-for-contact-form-7",
+                "version": "1.0",
+                "version_normalized": "1.0.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/podio-for-contact-form-7.1.0.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>This is a wordpress plugin for contact form 7 which will let you send the data from your contact forms directly to your Podio leads app or basically any other app. Simply add your API details and define which field should be your notes field and it will automatically start sending any submissions directly to Podio. Fields are matched by the contact form 7 field name and the external id in podio, any fields which go unmatched are sent to the notes field as to not loose any information.<\/p>\n\n<p>This is only made to work with Contact Form 7. Has been tested from 3.0.0 to 3.3.3.<\/p>\n\n<p>Please note that nothing will be sent to podio unless all your API details are filled in. Use the external id of a notes field to catch any fields that do not match between CF7 and Podio.<\/p>",
+                "uid": "10259"
+            },
+            "1.1": {
+                "name": "wordpress\/podio-for-contact-form-7",
+                "version": "1.1",
+                "version_normalized": "1.1.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/podio-for-contact-form-7.1.1.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>This is a wordpress plugin for contact form 7 which will let you send the data from your contact forms directly to your Podio leads app or basically any other app. Simply add your API details and define which field should be your notes field and it will automatically start sending any submissions directly to Podio. Fields are matched by the contact form 7 field name and the external id in podio, any fields which go unmatched are sent to the notes field as to not loose any information.<\/p>\n\n<p>This is only made to work with Contact Form 7. Has been tested from 3.0.0 to 3.3.3.<\/p>\n\n<p>Please note that nothing will be sent to podio unless all your API details are filled in. Use the external id of a notes field to catch any fields that do not match between CF7 and Podio.<\/p>",
+                "uid": "10258"
+            }
+        }
+    }
+}

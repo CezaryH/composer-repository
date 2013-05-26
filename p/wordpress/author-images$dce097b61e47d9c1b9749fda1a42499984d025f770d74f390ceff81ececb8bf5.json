@@ -1,0 +1,108 @@
+{
+    "packages": {
+        "wordpress\/author-images": {
+            "2.0": {
+                "name": "wordpress\/author-images",
+                "version": "2.0",
+                "version_normalized": "2.0.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/author-images.2.0.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>Display image (if present) and\/or name for the author of a post, or for all authors on the blog.<\/p>\n\n<p>Use <code>&#60;?php c2c_the_author_image(); ?&#62;<\/code> as a replacement for <code>&#60;?php the_author() ?&#62;<\/code> or <code>&#60;?php get_avatar(); ?&#62;<\/code> in index.php (and\/or any other post templates) to display an image for a post's author (inside \"the loop\")<\/p>\n\n<p>Use <code>&#60;?php c2c_wp_list_authors_images(); ?&#62;<\/code> as a replacement for <code>&#60;?php wp_list_authors(); ?&#62;<\/code> in the sidebar section of your site to list all authors for the blog using an image and\/or text.<\/p>\n\n<p>The plugin also provides a simple widget for listing authors.<\/p>\n\n<p>Process by which the image is located and\/or text used:<\/p>\n\n<ol>\n<li>If a post has an 'author_image' custom field defined, the plugin checks if the value is the valid name of an image in the defined image directory.  If not, it appends each of the defined image extensions, in turn, to the custom f",
+                "uid": "114998"
+            },
+            "3.0": {
+                "name": "wordpress\/author-images",
+                "version": "3.0",
+                "version_normalized": "3.0.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/author-images.3.0.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>Display image (if present) and\/or name for the author of a post, or for all authors on the blog.<\/p>\n\n<p>Use <code>&#60;?php c2c_the_author_image(); ?&#62;<\/code> as a replacement for <code>&#60;?php the_author() ?&#62;<\/code> or <code>&#60;?php get_avatar(); ?&#62;<\/code> in index.php (and\/or any other post templates) to display an image for a post's author (inside \"the loop\")<\/p>\n\n<p>Use <code>&#60;?php c2c_wp_list_authors_images(); ?&#62;<\/code> as a replacement for <code>&#60;?php wp_list_authors(); ?&#62;<\/code> in the sidebar section of your site to list all authors for the blog using an image and\/or text.<\/p>\n\n<p>The plugin also provides a simple widget for listing authors.<\/p>\n\n<p>Process by which the image is located and\/or text used:<\/p>\n\n<ol>\n<li>If a post has an 'author_image' custom field defined, the plugin checks if the value is the valid name of an image in the defined image directory.  If not, it appends each of the defined image extensions, in turn, to the custom f",
+                "uid": "114997"
+            },
+            "3.5": {
+                "name": "wordpress\/author-images",
+                "version": "3.5",
+                "version_normalized": "3.5.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/author-images.3.5.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>Display image (if present) and\/or name for the author of a post, or for all authors on the blog.<\/p>\n\n<p>Use <code>&#60;?php c2c_the_author_image(); ?&#62;<\/code> as a replacement for <code>&#60;?php the_author() ?&#62;<\/code> or <code>&#60;?php get_avatar(); ?&#62;<\/code> in index.php (and\/or any other post templates) to display an image for a post's author (inside \"the loop\")<\/p>\n\n<p>Use <code>&#60;?php c2c_wp_list_authors_images(); ?&#62;<\/code> as a replacement for <code>&#60;?php wp_list_authors(); ?&#62;<\/code> in the sidebar section of your site to list all authors for the blog using an image and\/or text.<\/p>\n\n<p>The plugin also provides a simple widget for listing authors.<\/p>\n\n<p>Process by which the image is located and\/or text used:<\/p>\n\n<ol>\n<li>If a post has an 'author_image' custom field defined, the plugin checks if the value is the valid name of an image in the defined image directory.  If not, it appends each of the defined image extensions, in turn, to the custom f",
+                "uid": "114996"
+            },
+            "3.5.1": {
+                "name": "wordpress\/author-images",
+                "version": "3.5.1",
+                "version_normalized": "3.5.1.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/author-images.3.5.1.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>Display image (if present) and\/or name for the author of a post, or for all authors on the blog.<\/p>\n\n<p>Use <code>&#60;?php c2c_the_author_image(); ?&#62;<\/code> as a replacement for <code>&#60;?php the_author() ?&#62;<\/code> or <code>&#60;?php get_avatar(); ?&#62;<\/code> in index.php (and\/or any other post templates) to display an image for a post's author (inside \"the loop\")<\/p>\n\n<p>Use <code>&#60;?php c2c_wp_list_authors_images(); ?&#62;<\/code> as a replacement for <code>&#60;?php wp_list_authors(); ?&#62;<\/code> in the sidebar section of your site to list all authors for the blog using an image and\/or text.<\/p>\n\n<p>The plugin also provides a simple widget for listing authors.<\/p>\n\n<p>Process by which the image is located and\/or text used:<\/p>\n\n<ol>\n<li>If a post has an 'author_image' custom field defined, the plugin checks if the value is the valid name of an image in the defined image directory.  If not, it appends each of the defined image extensions, in turn, to the custom f",
+                "uid": "114995"
+            },
+            "3.5.2": {
+                "name": "wordpress\/author-images",
+                "version": "3.5.2",
+                "version_normalized": "3.5.2.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/author-images.3.5.2.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>Display image (if present) and\/or name for the author of a post, or for all authors on the blog.<\/p>\n\n<p>Use <code>&#60;?php c2c_the_author_image(); ?&#62;<\/code> as a replacement for <code>&#60;?php the_author() ?&#62;<\/code> or <code>&#60;?php get_avatar(); ?&#62;<\/code> in index.php (and\/or any other post templates) to display an image for a post's author (inside \"the loop\")<\/p>\n\n<p>Use <code>&#60;?php c2c_wp_list_authors_images(); ?&#62;<\/code> as a replacement for <code>&#60;?php wp_list_authors(); ?&#62;<\/code> in the sidebar section of your site to list all authors for the blog using an image and\/or text.<\/p>\n\n<p>The plugin also provides a simple widget for listing authors.<\/p>\n\n<p>Process by which the image is located and\/or text used:<\/p>\n\n<ol>\n<li>If a post has an 'author_image' custom field defined, the plugin checks if the value is the valid name of an image in the defined image directory.  If not, it appends each of the defined image extensions, in turn, to the custom f",
+                "uid": "114994"
+            },
+            "3.6": {
+                "name": "wordpress\/author-images",
+                "version": "3.6",
+                "version_normalized": "3.6.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/author-images.3.6.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>Display image (if present) and\/or name for the author of a post, or for all authors on the blog.<\/p>\n\n<p>Use <code>&#60;?php c2c_the_author_image(); ?&#62;<\/code> as a replacement for <code>&#60;?php the_author() ?&#62;<\/code> or <code>&#60;?php get_avatar(); ?&#62;<\/code> in index.php (and\/or any other post templates) to display an image for a post's author (inside \"the loop\")<\/p>\n\n<p>Use <code>&#60;?php c2c_wp_list_authors_images(); ?&#62;<\/code> as a replacement for <code>&#60;?php wp_list_authors(); ?&#62;<\/code> in the sidebar section of your site to list all authors for the blog using an image and\/or text.<\/p>\n\n<p>The plugin also provides a simple widget for listing authors.<\/p>\n\n<p>Process by which the image is located and\/or text used:<\/p>\n\n<ol>\n<li>If a post has an 'author_image' custom field defined, the plugin checks if the value is the valid name of an image in the defined image directory.  If not, it appends each of the defined image extensions, in turn, to the custom f",
+                "uid": "114993"
+            }
+        }
+    }
+}

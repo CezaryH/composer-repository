@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/ezphp": {
+            "13": {
+                "name": "wordpress\/ezphp",
+                "version": "13",
+                "version_normalized": "13.0.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/ezphp.130123.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>This plugin is VERY simple, and there is only configurable option. You can define this PHP constant inside your <code>\/wp-config.php<\/code> file (optional).<\/p>\n\n<pre><code>define('EZPHP_EXCLUDED_POST_TYPES', ''); \/\/ A comma-delimited list of Post Types to exclude.\n<\/code><\/pre>\n\n<p>If you don't want PHP tags evaluated in Posts, only in Pages.<\/p>\n\n<pre><code>define('EZPHP_EXCLUDED_POST_TYPES', 'post');\n<\/code><\/pre>",
+                "uid": "12053"
+            }
+        }
+    }
+}

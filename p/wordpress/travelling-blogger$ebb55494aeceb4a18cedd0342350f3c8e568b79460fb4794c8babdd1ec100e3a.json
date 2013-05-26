@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/travelling-blogger": {
+            "1.0": {
+                "name": "wordpress\/travelling-blogger",
+                "version": "1.0",
+                "version_normalized": "1.0.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/travelling-blogger.1.0.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>TRAVELLING BLOGGER allows you to mark the location of your posts and display them on a Google map widget.<\/p>\n\n<p>You can also set a \"location page\" that will allow you to display post organised by location.<\/p>\n\n<p>You can also display the location of a post by adding the following shortcode:<\/p>\n\n<p>[location_mini_map width=300 height=300 type=\"hybrid\"]<\/p>\n\n<p>\"width\" and \"height\" controls the dimension of the Google map. \"type\" allows you to choose what type of map to use. Valid values include : ROADMAP, SATELLITE, TERRAIN.<\/p>",
+                "uid": "31682"
+            }
+        }
+    }
+}

@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/exclude-file-type-requests": {
+            "1.0": {
+                "name": "wordpress\/exclude-file-type-requests",
+                "version": "1.0",
+                "version_normalized": "1.0.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/exclude-file-type-requests.1.0.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>If you use the pretty permalinks feature of WordPress, any request that doesn't match to a file on the server will be passed to WordPress for handling. This results in 404 hits having more load on your server than a traditional 404 request. In particular it can be a problem if a directory of images is moved or missing, as each page load request might spawn dozens of 404-ing image requests - effectively increasing your server load by a multiplier.<\/p>\n\n<p>This plugin allows you to set a list of file extensions that you do <em>not<\/em> want WordPress to handle 404s for. By default, it includes a list of media types, but you may want to adjust this to suit your needs.<\/p>",
+                "uid": "69245"
+            }
+        }
+    }
+}

@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/wp-image-annotation": {
+            "2.4.8": {
+                "name": "wordpress\/wp-image-annotation",
+                "version": "2.4.8",
+                "version_normalized": "2.4.8.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/wp-image-annotation.2.4.8.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>This plugin allows you to add textual annotations to images by select a region of the image and then attach a textual description, the concept of annotating images with user comments.\nIntegration with JQuery Image Annotation from Chris (<a href=\"http:\/\/www.flipbit.co.uk\/jquery-image-annotation.html\" rel=\"nofollow\">http:\/\/www.flipbit.co.uk\/jquery-image-annotation.html<\/a>) with PHP support from GitHub (<a href=\"http:\/\/github.com\/stas\/jquery-image-annotate-php-fork\" rel=\"nofollow\">http:\/\/github.com\/stas\/jquery-image-annotate-php-fork<\/a>).<\/p>\n\n<p>Some features:<\/p>\n\n<ul>\n<li>Admin page<\/li>\n<li>Option to approve, edit amd remove image notes in admin page.<\/li>\n<li>Auto insert unique id attribute for all the images for image note.<\/li>\n<li>Show notes on other pages such as home and archive.<\/li>\n<li>Gravatar in the notes<\/li>\n<li>Option to sync with wordpress comments.<\/li>\n<li>Option to show thumbnail in comment list.<\/li>\n<li>Option to include post id in every auto insert images id.",
+                "uid": "21619"
+            }
+        }
+    }
+}

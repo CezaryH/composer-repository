@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/agree-on-a-date": {
+            "1.0.0": {
+                "name": "wordpress\/agree-on-a-date",
+                "version": "1.0.0",
+                "version_normalized": "1.0.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/agree-on-a-date.1.0.0.4.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>If you want to plan an event with some of your blog followers, you can use this plugin to find a date, which fits for most of them. You just add the DateAgreement in your post and everybody may agree on their best fitting date.<\/p>\n\n<p>To add a poll just add a line like this in your post:<\/p>\n\n<p>[DateAgreement description=\"Christmasdinner at my place on December, 24th. I hope you will join.\" time=\"2012.12.24:18:00;2012.12.24:20:00;2012.12.24:22:00;2012.12.25:00:00;\"]<\/p>\n\n<p>You may use the following variables:<\/p>\n\n<ul>\n<li><strong>time<\/strong>: String which contains the offered timeslots. It has the format: \"YYYY.MM.DD:HH.MM;...\". Where <em>YYYY<\/em> represents the year with four digests, <em>MM<\/em>, <em>DD<\/em>, <em>HH<\/em> and <em>MM<\/em> represents the month, the day, the hour and the minute with a leading zero of the timeslot.<\/li>\n<li><strong>description<\/strong> (<em>optional<\/em>): Description of your poll. It would be displayed in a separate box above the poll.<\/li>\n<li",
+                "uid": "16493"
+            }
+        }
+    }
+}

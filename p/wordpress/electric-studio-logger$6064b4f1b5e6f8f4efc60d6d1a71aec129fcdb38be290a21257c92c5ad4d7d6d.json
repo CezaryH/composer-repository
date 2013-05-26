@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/electric-studio-logger": {
+            "0.5": {
+                "name": "wordpress\/electric-studio-logger",
+                "version": "0.5",
+                "version_normalized": "0.5.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/electric-studio-logger.0.5.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>Allows you to log php variables and arrays by using function: <code>esl_log($var);<\/code>.\nThe Log appears in the admin area.<\/p>",
+                "uid": "43384"
+            }
+        }
+    }
+}

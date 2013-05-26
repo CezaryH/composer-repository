@@ -1,0 +1,40 @@
+{
+    "packages": {
+        "wordpress\/mk-to-lat": {
+            "1.0": {
+                "name": "wordpress\/mk-to-lat",
+                "version": "1.0",
+                "version_normalized": "1.0.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/mk-to-lat.1.0.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>It converts the Macedonian cyrillic characters of the title posts into latin to build better, readable and Search Engine Friendly urls.<\/p>\n\n<p>For example:<\/p>\n\n<p>Lets say you want your wordpress to be in Macedonian. So you intall wordpress, install the Macedonian language files, translate the template menus and stuff to Macedonian, but after your first post with title: \"\u0417\u0434\u0440\u0430\u0432\u043e \u0421\u0432\u0435\u0442!\" you noticed that the url of that post has become something like:<\/p>\n\n<p><a href=\"http:\/\/www.mkwordpress.com\/%C7%E4%F0%E0%E2%EE%20%D1%E2%E5%F2\" rel=\"nofollow\">http:\/\/www.mkwordpress.com\/%C7%E4%F0%E0%E2%EE%20%D1%E2%E5%F2<\/a><\/p>\n\n<p>instead of the good for eyes url:<\/p>\n\n<p><a href=\"http:\/\/www.mkwordpress.com\/zdravo-svet\/\" rel=\"nofollow\">http:\/\/www.mkwordpress.com\/zdravo-svet\/<\/a><\/p>\n\n<p>This happens because cyrillic characters are not supported in urls and so the code translates them into browser readable language. Now this has two main disadvantages:<\/p>\n\n<ol>\n<li>It's not good for visito",
+                "uid": "104157"
+            },
+            "2.0": {
+                "name": "wordpress\/mk-to-lat",
+                "version": "2.0",
+                "version_normalized": "2.0.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/mk-to-lat.2.0.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>It converts the Macedonian cyrillic characters of the title posts into latin to build better, readable and Search Engine Friendly urls.<\/p>\n\n<p>For example:<\/p>\n\n<p>Lets say you want your wordpress to be in Macedonian. So you intall wordpress, install the Macedonian language files, translate the template menus and stuff to Macedonian, but after your first post with title: \"\u0417\u0434\u0440\u0430\u0432\u043e \u0421\u0432\u0435\u0442!\" you noticed that the url of that post has become something like:<\/p>\n\n<p><a href=\"http:\/\/www.mkwordpress.com\/%C7%E4%F0%E0%E2%EE%20%D1%E2%E5%F2\" rel=\"nofollow\">http:\/\/www.mkwordpress.com\/%C7%E4%F0%E0%E2%EE%20%D1%E2%E5%F2<\/a><\/p>\n\n<p>instead of the good for eyes url:<\/p>\n\n<p><a href=\"http:\/\/www.mkwordpress.com\/zdravo-svet\/\" rel=\"nofollow\">http:\/\/www.mkwordpress.com\/zdravo-svet\/<\/a><\/p>\n\n<p>This happens because cyrillic characters are not supported in urls and so the code translates them into browser readable language. Now this has two main disadvantages:<\/p>\n\n<ol>\n<li>It's not good for visito",
+                "uid": "104156"
+            }
+        }
+    }
+}

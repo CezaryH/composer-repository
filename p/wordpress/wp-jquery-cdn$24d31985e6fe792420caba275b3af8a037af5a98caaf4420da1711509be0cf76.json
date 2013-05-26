@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/wp-jquery-cdn": {
+            "2.2": {
+                "name": "wordpress\/wp-jquery-cdn",
+                "version": "2.2",
+                "version_normalized": "2.2.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/wp-jquery-cdn.2.2.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<h4>Selectable options are currently:<\/h4>\n\n<ol>\n<li>Google Ajax API jQuery CDN <\/li>\n<li>jQuery CDN <\/li>\n<li>Microsoft jQuery CDN <\/li>\n<li>Local jQuery (Inside this plugins js folder) <\/li>\n<li>Local jQuery (Wordpress)(Might be out of date) <\/li>\n<li>None (Don't load any jQuery, Or i wish to load it Myself)<\/li>\n<\/ol>",
+                "uid": "42300"
+            }
+        }
+    }
+}

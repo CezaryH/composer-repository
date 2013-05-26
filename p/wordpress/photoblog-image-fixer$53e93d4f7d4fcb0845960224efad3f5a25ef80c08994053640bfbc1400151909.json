@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/photoblog-image-fixer": {
+            "1.3.1": {
+                "name": "wordpress\/photoblog-image-fixer",
+                "version": "1.3.1",
+                "version_normalized": "1.3.1.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/photoblog-image-fixer.1.3.1.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>PhotoBlog Image Fixer allows better image sizing and removes those ugly squished images when you accidently upload a larger image.<\/p>\n\n<ul>\n<li><p>Removes the inline height dimension added by the WordPress content filter.<\/p><\/li>\n<li><p>Adds class names to the automatically generated p tags that wrap each image as well as the image itself.<\/p><\/li>\n<li><p>Adds a quick line of CSS to the page making images in a p tag have a max-width of 100% of the containing element<\/p><\/li>\n<\/ul>",
+                "uid": "69321"
+            }
+        }
+    }
+}

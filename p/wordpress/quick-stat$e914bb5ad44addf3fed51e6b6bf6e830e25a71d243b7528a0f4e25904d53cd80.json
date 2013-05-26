@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/quick-stat": {
+            "2.32": {
+                "name": "wordpress\/quick-stat",
+                "version": "2.32",
+                "version_normalized": "2.32.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/quick-stat.2.32.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>Displays quick statistics of your blog about its PageRank, Alexa Rank, and BackLinks right on the dashboard page to help you monitor your blog's rank.<\/p>\n\n<p>You will see additional box on dashboard page once the plugin is activated. It uses InfoLinks's and Popurius's service to checks your PageRank, Alexa Rank, and BackLinks and show it on a table.<\/p>",
+                "uid": "81887"
+            }
+        }
+    }
+}

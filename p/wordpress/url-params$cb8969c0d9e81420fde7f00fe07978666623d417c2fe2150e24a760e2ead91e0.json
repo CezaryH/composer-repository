@@ -1,0 +1,40 @@
+{
+    "packages": {
+        "wordpress\/url-params": {
+            "0.3": {
+                "name": "wordpress\/url-params",
+                "version": "0.3",
+                "version_normalized": "0.3.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/url-params.0.3.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>The URL Params WordPress Plugin allows you to access URL parameters in the Query String of the URL.<\/p>\n\n<p>The plugin even allows you to specify a default value in the shortcode if the parameter isn't set, so if you want to say \"Hello, FirstName\" and FirstName isn't set, it could say something like \"Hello, Friend!\"<\/p>\n\n<p>To specify a backup url parameter, enter multiple parameters seperated by commas. The plugin will check for each paramter, in order, until a matching one is found and return that. Failing finding any of the parameters you listed, the default will be returned. For example, you can specify <code>[urlparam param=\"FirstName, First, name\" default=\"Friend\" \/]<\/code> to check for FirstName, and if not found, then First, if not found, then name, and if not, then just return \"Friend\".<\/p>\n\n<p>If the parameter is a date, you can also specify the <code>dateformat<\/code> option using a <a href=\"http:\/\/php.net\/manual\/en\/function.date.php\">PHP friendly date format<\/a>, for exa",
+                "uid": "44912"
+            },
+            "0.4": {
+                "name": "wordpress\/url-params",
+                "version": "0.4",
+                "version_normalized": "0.4.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/url-params.0.4.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>The URL Params WordPress Plugin allows you to access URL parameters in the Query String of the URL.<\/p>\n\n<p>The plugin even allows you to specify a default value in the shortcode if the parameter isn't set, so if you want to say \"Hello, FirstName\" and FirstName isn't set, it could say something like \"Hello, Friend!\"<\/p>\n\n<p>To specify a backup url parameter, enter multiple parameters seperated by commas. The plugin will check for each paramter, in order, until a matching one is found and return that. Failing finding any of the parameters you listed, the default will be returned. For example, you can specify <code>[urlparam param=\"FirstName, First, name\" default=\"Friend\" \/]<\/code> to check for FirstName, and if not found, then First, if not found, then name, and if not, then just return \"Friend\".<\/p>\n\n<p>If the parameter is a date, you can also specify the <code>dateformat<\/code> option using a <a href=\"http:\/\/php.net\/manual\/en\/function.date.php\">PHP friendly date format<\/a>, for exa",
+                "uid": "44911"
+            }
+        }
+    }
+}

@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/ionhighlight": {
+            "1.3": {
+                "name": "wordpress\/ionhighlight",
+                "version": "1.3",
+                "version_normalized": "1.3.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/ionhighlight.1.3.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>This plugin enables you to highlight syntax using the PEAR Text_Highlighter class. Other syntax highlighters that use GeSHi have slower rendering speeds which will increase your page load time. However, this plugin gives you the speed and efficiency provided by the PEAR developers. You even have the option of enabling or disabling the line numbers as well as specifying your own style.<\/p>",
+                "uid": "88378"
+            }
+        }
+    }
+}

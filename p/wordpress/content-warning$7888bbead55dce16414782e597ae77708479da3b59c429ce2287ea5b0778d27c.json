@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/content-warning": {
+            "1.0": {
+                "name": "wordpress\/content-warning",
+                "version": "1.0",
+                "version_normalized": "1.0.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/content-warning.1.0.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>Using Ajax &#38; Thickbox, content warring shows message to user with option to leave the site. This plugin is useful for users using wordpress to host mature contents and others where user should go though a landing page.<\/p>\n\n<p>At any point of entry, Users will be asked to confirm to message once per session or interval specified in settings (Could be one a day, week or whatever time you give).<\/p>\n\n<p>Message and Message title can be edited via admin Interface. Colours and style have to be edited Manually by Editing \"wpcw.css\" file.<\/p>\n\n<ul>\n<li>\"No additional Library\" Plugin use jQuery and Thickbox Library comes with Wordpress.<\/li>\n<li>\"Developed using 2.8\" Developed using Wordpress 2.8, I cannot support anything below that!<\/li>\n<li>\"Tested up to\" This plugin tested in 2.9 and working!<\/li>\n<\/ul>\n\n<h4>Based on wp-door Plugin<\/h4>\n\n<ul>\n<li>This plugin is driven from <code>wp-door<\/code> Plugin, wp-door plugin used to Redirect used to landing age If no session or Cookie found",
+                "uid": "75292"
+            }
+        }
+    }
+}

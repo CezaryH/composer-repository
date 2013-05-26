@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/iframe-embed-for-youtube": {
+            "1.0": {
+                "name": "wordpress\/iframe-embed-for-youtube",
+                "version": "1.0",
+                "version_normalized": "1.0.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/iframe-embed-for-youtube.1.0.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>IFRAME Embed for YouTube plugin enables you to insert iframe code for a particular YouTube video on your WordPress blog. YouTube has recently released the IFRAME embed code for videos but still that code is not available on YouTube and people are using OBJECT embed code which inserts flash player of YouTube. Those flash player YouTube videos are only visible on browsers having flash plugin installed. IFRAME inserted code for YouTube automatically detect the browser capability and automatically switch between flash and HTML5. So videos embedded thru this plugin will be visible on browsers which are not having flash support (specially mobile device browsers).<\/p>\n\n<p>=Features:=<\/p>\n\n<ol>\n<li>Embedded YouTube Videos thru this plugin will be visible on desktop and mobile browser<\/li>\n<li>YouTube videos embedded on your site doesn\u0092t need flash to view<\/li>\n<li>IFRAME embed code automatically switch YouTube player between flash and HTML5<\/li>\n<li>Provide Width and Height for YouTube pla",
+                "uid": "64929"
+            }
+        }
+    }
+}

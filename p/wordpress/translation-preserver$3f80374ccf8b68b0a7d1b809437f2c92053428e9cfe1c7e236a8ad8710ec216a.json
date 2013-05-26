@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/translation-preserver": {
+            "1.0": {
+                "name": "wordpress\/translation-preserver",
+                "version": "1.0",
+                "version_normalized": "1.0.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/translation-preserver.1.0.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>Tired of your custom plugin and theme translation files getting wiped out every time you use the WordPress auto-updater? Install and activate this plugin and \nWordPress will look for missing translation files in the WP_LANG_DIR where you keep your WordPress translation files.<\/p>\n\n<p>A free plugin by Aaron Edwards of <a href=\"http:\/\/uglyrobot.com\/\">UglyRobot Web Development<\/a>.<\/p>",
+                "uid": "36112"
+            }
+        }
+    }
+}

@@ -1,0 +1,40 @@
+{
+    "packages": {
+        "wordpress\/cloudware-city-authentication": {
+            "1.0": {
+                "name": "wordpress\/cloudware-city-authentication",
+                "version": "1.0",
+                "version_normalized": "1.0.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/cloudware-city-authentication.1.0.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>This plugin allows the use of the external Cloudware City authentication API to supplement the default authentication of users within a WordPress installation. Users are authenticated using the API then added to the local WordPress database based on the values in the plugin settings. This means existing user accounts can be used if necessary and local admin users can still be used.<\/p>\n\n<p>When used in conjunction with another plugin (e.g. Page Restrict, Members Only etc) that restricts access to logged in users, this plugin allows a subscription membership site to be set up with ease, using Cloudware City's subscription management, shopping and recurring billing facilities (full membership required as a Cloudware City Vendor).<\/p>",
+                "uid": "52118"
+            },
+            "1.01": {
+                "name": "wordpress\/cloudware-city-authentication",
+                "version": "1.01",
+                "version_normalized": "1.01.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/cloudware-city-authentication.1.01.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>This plugin allows the use of the external Cloudware City authentication API to supplement the default authentication of users within a WordPress installation. Users are authenticated using the API then added to the local WordPress database based on the values in the plugin settings. This means existing user accounts can be used if necessary and local admin users can still be used.<\/p>\n\n<p>When used in conjunction with another plugin (e.g. Page Restrict, Members Only etc) that restricts access to logged in users, this plugin allows a subscription membership site to be set up with ease, using Cloudware City's subscription management, shopping and recurring billing facilities (full membership required as a Cloudware City Vendor).<\/p>",
+                "uid": "52117"
+            }
+        }
+    }
+}

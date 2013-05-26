@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/custom-widget-classes": {
+            "1.1": {
+                "name": "wordpress\/custom-widget-classes",
+                "version": "1.1",
+                "version_normalized": "1.1.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/custom-widget-classes.1.1.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>Custom Widget Classes helps to set different css class or styles for widgets,the css class or styles can show in a dropdown list to be choosed  . the list of css classes can be added from backend and also can code with theme.<\/p>\n\n<p>see the options at settings&#62;&#62;widget classes and add classes.<\/p>\n\n<p>If you are a theme developer you can add the classes in theme itself\nadd this code<\/p>\n\n<pre><code>add_filter('cWCdeveloperClasses','widgetclasses');\n\nfunction widgetclasses(){\n         $clsses['classes']= array(\n            array(\n                'class'=&#62;'with-border',\n                'desc'=&#62;'With Border'\n\n            ),\n            array(\n                'class'=&#62;'white-bg',\n                'desc'=&#62;'white background'\n            )\n        );              \n\n    return $clsses;         \n}\n<\/code><\/pre>\n\n<p>if you want to set a default one for all the newly added widgets,add the default class too as shown below<\/p>\n\n<pre><code>add_filter('cWCdeveloperClasses','",
+                "uid": "22721"
+            }
+        }
+    }
+}

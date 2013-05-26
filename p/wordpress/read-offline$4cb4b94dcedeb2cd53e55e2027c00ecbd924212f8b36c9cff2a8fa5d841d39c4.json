@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/read-offline": {
+            "0.1.9": {
+                "name": "wordpress\/read-offline",
+                "version": "0.1.9",
+                "version_normalized": "0.1.9.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/read-offline.0.1.9.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>Read Offline allows you to download and read posts and pages offline. You can download the post in PDF, ePub or mobi<\/p>\n\n<p>This is an early version, please <a href=\"http:\/\/soderlind.no\/archives\/2012\/10\/01\/read-offline\/#respond\">post bugs and feature requests<\/a><\/p>\n\n<h4>Features<\/h4>\n\n<ul>\n<li>Settings page (Settings-&#62;Read Offline)<\/li>\n<li>Read Offline widget<\/li>\n<li>Read Offline shortcode<\/li>\n<li>You can download a pdf, epub or mobi file containing the current post or page (you have to add the Read Offline widget to see the download links)<\/li>\n<li>The download filename is based on the posts slug (<code>$post-&#62;post_name<\/code>)<\/li>\n<li>Adds meta data to the file\n\n<ul>\n<li>Title (PDF, ePub and mobi)<\/li>\n<li>Author (PDF, ePub and mobi)<\/li>\n<li>Subject (mobi)<\/li>\n<li>Publisher (ePub)<\/li>\n<li>Identifier (uPub)<\/li>\n<li>Source URL (ePub)<\/li>\n<li>Language (ePub)<\/li>\n<\/ul><\/li>\n<li>Option: Add download links to the top and bottom of a post or page.<\/li>\n<li>Permalink ",
+                "uid": "16527"
+            }
+        }
+    }
+}

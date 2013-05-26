@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/starpress": {
+            "1.0": {
+                "name": "wordpress\/starpress",
+                "version": "1.0",
+                "version_normalized": "1.0.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/starpress.1.0.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>Starpass is a micropaiement solution for bloggers and webmasters to monetize their content on a pay-per-view basis.\nCustomer wanting access a protected document has to call an overtaxed phone number and is given 1 or more code(s) he enters on a form for the system to check. If validation is successfull, customer is redirected to the success url (the product he is paying for), if not to the failure one.<\/p>\n\n<p>With Starpress plugin, do forget how hard it could be to insert php or javascript code into your posts : just insert shortcodes and get your Starpass micropaiment form working<\/p>",
+                "uid": "101691"
+            }
+        }
+    }
+}

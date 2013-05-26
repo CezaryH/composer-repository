@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/column-inches": {
+            "1.0": {
+                "name": "wordpress\/column-inches",
+                "version": "1.0",
+                "version_normalized": "1.0.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/column-inches.1.0.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>Adds a column to the Edit Posts page and on the Post edit page with the number of columns inches that the content in the post takes up in a print edition. Multiple column inch counts can be specified for different print sizes. The number of words per column inch is defined via the settings page (defaulted to 20).<\/p>\n\n<p>This is often useful to print news media that uses WordPress for budgeting stories.<\/p>",
+                "uid": "69459"
+            }
+        }
+    }
+}

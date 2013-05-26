@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/page-style": {
+            "1.0": {
+                "name": "wordpress\/page-style",
+                "version": "1.0",
+                "version_normalized": "1.0.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/page-style.1.0.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>Allow pages\/categories to have different styles by adding a CSS Class (the Page Name or Category\/Tag Slug) to the BODY.<\/p>\n\n<p>The CSS class can be the following:<\/p>\n\n<ul>\n<li>Home Page: \"home\"<\/li>\n<li>Search Page: \"search\"<\/li>\n<li>Category Page: category slug<\/li>\n<li>Single Post\/Page: page\/post slug<\/li>\n<li>Posts listed by any date: \"archive\"\n\n<ul>\n<li>If posts are listed by year: \"archive year\"<\/li>\n<li>If posts are listed by month: \"archive month\"<\/li>\n<li>If posts are listed by day: \"archive day\"<\/li>\n<\/ul><\/li>\n<li>Posts listed by author: \"author\"<\/li>\n<li>404 Error: \"404\"<\/li>\n<\/ul>\n\n<p>Please, feel free to contribute or give me any feedback!<\/p>",
+                "uid": "84019"
+            }
+        }
+    }
+}

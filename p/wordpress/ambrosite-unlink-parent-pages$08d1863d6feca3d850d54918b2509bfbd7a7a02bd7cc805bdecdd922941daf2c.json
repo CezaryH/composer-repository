@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/ambrosite-unlink-parent-pages": {
+            "1.4": {
+                "name": "wordpress\/ambrosite-unlink-parent-pages",
+                "version": "1.4",
+                "version_normalized": "1.4.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/ambrosite-unlink-parent-pages.1.4.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p><strong>IMPORTANT: This plugin is not compatible with the Mystique theme, nor is it compatible with the WordPress 3.x custom menu system<\/strong> (that is, menus created using the drag-and-drop menu builder under Appearance-&#62;Menus). If you want to create an unlinked parent menu item with the Mystique theme, install Mark Jaquith's 'Page Links To' plugin, and put a '#' (hash\/pound) mark in the 'Point to this URL:' field to create a dummy link. For the WP3 menu builder, use a 'Custom Link' with a '#' mark in the URL field. Refer to the documentation in the WP Codex if you need more help: <a href=\"http:\/\/codex.wordpress.org\/Appearance_Menus_Screen#Custom_Links\" rel=\"nofollow\">http:\/\/codex.wordpress.org\/Appearance_Menus_Screen#Custom_Links<\/a><\/p>\n\n<p>When activated, this plugin unlinks parent pages (that is, pages that have child pages underneath them in a hierarchy) in page menus and lists. It affects the output of wp_list_pages and wp_page_menu, as well as all plugins and widgets ",
+                "uid": "69460"
+            }
+        }
+    }
+}

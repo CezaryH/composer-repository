@@ -1,0 +1,57 @@
+{
+    "packages": {
+        "wordpress\/xhtml-content-negotiation-for-wordpress": {
+            "1.3": {
+                "name": "wordpress\/xhtml-content-negotiation-for-wordpress",
+                "version": "1.3",
+                "version_normalized": "1.3.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/xhtml-content-negotiation-for-wordpress.1.3.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>A plugin to allow WordPress to serve content using the application\/xhtml+xml MIME type, based on the client's HTTP ACCEPT request. It also takes into account the q-values of the request, in compliance with <a href=\"http:\/\/tools.ietf.org\/html\/rfc2616#page-100\">RFC2616 HTTP\/1.1<\/a>. The plugin also handles clients that don't supply an ACCEPT header (e.g., the W3C Validator).<\/p>\n\n<p>The plugin detects IE8 and lower and serves content as text\/html, because it doesn't follow the HTTP 1.1 requirement and can't parse application\/xhtml+xml anyway.<\/p>\n\n<p><strong>Note: if you use this plugin, you MUST ensure that you have and appropriate DTD and XHTML namespace in your document. If you don't, some browsers may render your document as an XML tree. You must also ensure that your theme produces well-formed and valid XHTML, otherwise you will get XML parsing errors in your browser.<\/strong><\/p>\n\n<p>This plugin requires PHP version 5 or greater.<\/p>\n\n<p>If you come across any bugs or have sugge",
+                "uid": "80986"
+            },
+            "1.4": {
+                "name": "wordpress\/xhtml-content-negotiation-for-wordpress",
+                "version": "1.4",
+                "version_normalized": "1.4.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/xhtml-content-negotiation-for-wordpress.1.4.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>A plugin to allow WordPress to serve content using the application\/xhtml+xml MIME type, based on the client's HTTP ACCEPT request. It also takes into account the q-values of the request, in compliance with <a href=\"http:\/\/tools.ietf.org\/html\/rfc2616#page-100\">RFC2616 HTTP\/1.1<\/a>. The plugin also handles clients that don't supply an ACCEPT header (e.g., the W3C Validator).<\/p>\n\n<p>The plugin detects IE8 and lower and serves content as text\/html, because it doesn't follow the HTTP 1.1 requirement and can't parse application\/xhtml+xml anyway.<\/p>\n\n<p><strong>Note: if you use this plugin, you MUST ensure that you have and appropriate DTD and XHTML namespace in your document. If you don't, some browsers may render your document as an XML tree. You must also ensure that your theme produces well-formed and valid XHTML, otherwise you will get XML parsing errors in your browser.<\/strong><\/p>\n\n<p>This plugin requires PHP version 5 or greater.<\/p>\n\n<p>If you come across any bugs or have sugge",
+                "uid": "80985"
+            },
+            "1.5": {
+                "name": "wordpress\/xhtml-content-negotiation-for-wordpress",
+                "version": "1.5",
+                "version_normalized": "1.5.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/xhtml-content-negotiation-for-wordpress.1.5.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>A plugin to allow WordPress to serve content using the application\/xhtml+xml MIME type, based on the client's HTTP ACCEPT request. It also takes into account the q-values of the request, in compliance with <a href=\"http:\/\/tools.ietf.org\/html\/rfc2616#page-100\">RFC2616 HTTP\/1.1<\/a>. The plugin also handles clients that don't supply an ACCEPT header (e.g., the W3C Validator).<\/p>\n\n<p>The plugin detects IE8 and lower and serves content as text\/html, because it doesn't follow the HTTP 1.1 requirement and can't parse application\/xhtml+xml anyway.<\/p>\n\n<p><strong>Note: if you use this plugin, you MUST ensure that you have and appropriate DTD and XHTML namespace in your document. If you don't, some browsers may render your document as an XML tree. You must also ensure that your theme produces well-formed and valid XHTML, otherwise you will get XML parsing errors in your browser.<\/strong><\/p>\n\n<p>This plugin requires PHP version 5 or greater.<\/p>\n\n<p>If you come across any bugs or have sugge",
+                "uid": "80984"
+            }
+        }
+    }
+}

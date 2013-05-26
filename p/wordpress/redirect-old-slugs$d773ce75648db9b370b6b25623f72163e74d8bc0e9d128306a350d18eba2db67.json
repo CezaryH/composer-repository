@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/redirect-old-slugs": {
+            "0.3": {
+                "name": "wordpress\/redirect-old-slugs",
+                "version": "0.3",
+                "version_normalized": "0.3.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/redirect-old-slugs.0.3.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>Redirect Old Slugs allows you to change your post slugs without breaking your permalinks.  People requesting the old link will be redirected to the new link.  This all happens automatically.<\/p>\n\n<p>Note that this functionality was brought into WordPress core for version 2.1, so this plugin is not needed.  When you upgrade to WordPress version 2.1 or higher, your old slugs will be kept and will keep on being redirected without the need for this plugin.<\/p>",
+                "uid": "114050"
+            }
+        }
+    }
+}

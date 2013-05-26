@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/videowhisper-video-conference-integration": {
+            "4.72.3": {
+                "name": "wordpress\/videowhisper-video-conference-integration",
+                "version": "4.72.3",
+                "version_normalized": "4.72.3.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/videowhisper-video-conference-integration.4.72.3.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>VideoWhisper Video Conference is a modern web based multiple way video chat and real time file sharing tool.<\/p>\n\n<p>Latest version includes H264 and Speex support, acoustic echo cancellation, P2P groups support for better, faster video streaming and lower rtmp server bandwidth usage.<\/p>\n\n<p>This plugin uses the WordPress username to login existing users. If the user is not logged into WordPress a warning message is shown and the visitor can click that to get back to the main WordPress website for registration\/login.<\/p>\n\n<p>Includes a widget that displays active rooms (with number of participants) and conference access link.\nA Video Conference page is added to the website and can be disabled from settings.<\/p>\n\n<p>There is a settings page with multiple parameters and permissions (what users can access - all, only members, predefined list).<\/p>\n\n<p>BuddyPress integration: If BuddyPress is installed this will add a Video Conference tab to the group, where users can video chat realti",
+                "uid": "89514"
+            }
+        }
+    }
+}

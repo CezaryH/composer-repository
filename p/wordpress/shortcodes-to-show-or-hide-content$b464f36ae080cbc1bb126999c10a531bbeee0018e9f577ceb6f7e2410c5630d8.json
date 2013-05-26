@@ -1,0 +1,57 @@
+{
+    "packages": {
+        "wordpress\/shortcodes-to-show-or-hide-content": {
+            "1.0": {
+                "name": "wordpress\/shortcodes-to-show-or-hide-content",
+                "version": "1.0",
+                "version_normalized": "1.0.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/shortcodes-to-show-or-hide-content.1.0.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>This plugin allows you to wrap certain parts of your post content in a shortcode and enter a date or time when that content should either appear, or disappear.<\/p>\n\n<p>For example, if you have a competition that ends on 12\/31\/2012, you can use:<\/p>\n\n<pre><code>[expires off=&#34;2013-01-01&#34;]Please enter our competition[\/expires]\n[showafter on=&#34;2013-01-01&#34;]Sorry, this competition has closed[\/showafter]<\/code><\/pre>\n\n<p>This is because on the 31st, you still want to be advertising the competition and you don't want to say its closed until the 1st of January.<\/p>\n\n<p>You can use any date or time string <a href=\"http:\/\/www.php.net\/manual\/en\/datetime.formats.php\" title=\"PHP Date and Time strings\">supported by PHP<\/a>, such as:<\/p>\n\n<pre><code>[expires off=&#34;10 September 2012&#34;]Will expire on 09\/10\/2012[\/expires]\n[expires off=&#34;2012-09-10&#34;]Will expire on 09\/10\/2012[\/expires]\n[expires off=&#34;Septmber 10th, 2012&#34;]Will expire on 09\/10\/2012[\/expires]\n[showafter o",
+                "uid": "44829"
+            },
+            "1.0.1": {
+                "name": "wordpress\/shortcodes-to-show-or-hide-content",
+                "version": "1.0.1",
+                "version_normalized": "1.0.1.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/shortcodes-to-show-or-hide-content.1.0.1.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>This plugin allows you to wrap certain parts of your post content in a shortcode and enter a date or time when that content should either appear, or disappear.<\/p>\n\n<p>For example, if you have a competition that ends on 12\/31\/2012, you can use:<\/p>\n\n<pre><code>[expires off=&#34;2013-01-01&#34;]Please enter our competition[\/expires]\n[showafter on=&#34;2013-01-01&#34;]Sorry, this competition has closed[\/showafter]<\/code><\/pre>\n\n<p>This is because on the 31st, you still want to be advertising the competition and you don't want to say its closed until the 1st of January.<\/p>\n\n<p>You can use any date or time string <a href=\"http:\/\/www.php.net\/manual\/en\/datetime.formats.php\" title=\"PHP Date and Time strings\">supported by PHP<\/a>, such as:<\/p>\n\n<pre><code>[expires off=&#34;10 September 2012&#34;]Will expire on 09\/10\/2012[\/expires]\n[expires off=&#34;2012-09-10&#34;]Will expire on 09\/10\/2012[\/expires]\n[expires off=&#34;Septmber 10th, 2012&#34;]Will expire on 09\/10\/2012[\/expires]\n[showafter o",
+                "uid": "44828"
+            },
+            "1.0.2": {
+                "name": "wordpress\/shortcodes-to-show-or-hide-content",
+                "version": "1.0.2",
+                "version_normalized": "1.0.2.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/shortcodes-to-show-or-hide-content.1.0.2.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>This plugin allows you to wrap certain parts of your post content in a shortcode and enter a date or time when that content should either appear, or disappear.<\/p>\n\n<p>For example, if you have a competition that ends on 12\/31\/2012, you can use:<\/p>\n\n<pre><code>[expires off=&#34;2013-01-01&#34;]Please enter our competition[\/expires]\n[showafter on=&#34;2013-01-01&#34;]Sorry, this competition has closed[\/showafter]<\/code><\/pre>\n\n<p>This is because on the 31st, you still want to be advertising the competition and you don't want to say its closed until the 1st of January.<\/p>\n\n<p>You can use any date or time string <a href=\"http:\/\/www.php.net\/manual\/en\/datetime.formats.php\" title=\"PHP Date and Time strings\">supported by PHP<\/a>, such as:<\/p>\n\n<pre><code>[expires off=&#34;10 September 2012&#34;]Will expire on 09\/10\/2012[\/expires]\n[expires off=&#34;2012-09-10&#34;]Will expire on 09\/10\/2012[\/expires]\n[expires off=&#34;Septmber 10th, 2012&#34;]Will expire on 09\/10\/2012[\/expires]\n[showafter o",
+                "uid": "44827"
+            }
+        }
+    }
+}

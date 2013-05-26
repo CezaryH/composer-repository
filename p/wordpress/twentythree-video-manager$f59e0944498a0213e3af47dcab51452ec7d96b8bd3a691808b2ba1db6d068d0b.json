@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/twentythree-video-manager": {
+            "1.0": {
+                "name": "wordpress\/twentythree-video-manager",
+                "version": "1.0",
+                "version_normalized": "1.0.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/twentythree-video-manager.1.0.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>This plugin creates a link between your <a href=\"http:\/\/www.23video.com\/\" rel=\"nofollow\">http:\/\/www.23video.com\/<\/a> site and a wordpress site.<\/p>\n\n<p>Simply provide the plugin with the URL of the video site and a tag to search for.<\/p>\n\n<p>The plugin will then search your video site for that tag and create a gallery on your wordpress site, by using the [23video] shortcode<\/p>",
+                "uid": "34699"
+            }
+        }
+    }
+}

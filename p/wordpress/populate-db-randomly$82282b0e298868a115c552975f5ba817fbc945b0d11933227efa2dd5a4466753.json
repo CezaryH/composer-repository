@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/populate-db-randomly": {
+            "0.3": {
+                "name": "wordpress\/populate-db-randomly",
+                "version": "0.3",
+                "version_normalized": "0.3.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/populate-db-randomly.0.3.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>It will generate a bunch of data to populate your WordPress installation, and you can remove that any time you want.<\/p>\n\n<p>The data will be feed from external sites like: <a href=\"http:\/\/www.lipsum.com\" rel=\"nofollow\">http:\/\/www.lipsum.com<\/a>, ma.tt or cultofmac.com.<\/p>\n\n<p>Also, it will create a page with a list of html elements so you can check your styles.<\/p>\n\n<h4>Features:<\/h4>\n\n<ul>\n<li>Generate random post and categories<\/li>\n<li>Remove the generated data any time<\/li>\n<li>Generate page with html elements<\/li>\n<\/ul>",
+                "uid": "8809"
+            }
+        }
+    }
+}

@@ -1,0 +1,14 @@
+{
+    "packages": [
+        {
+            "type": "vcs",
+            "url": "https:\/\/github.com\/wordpressoncomposer\/installer.git"
+        }
+    ],
+    "providers-url": "\/wordpressoncomposer\/composer-repository\/master\/p\/%package%$%hash%.json",
+    "provider-includes": {
+        "p\/provider$%hash%.json": {
+            "sha256": "fddeb7119cd836df54ed495dba7f22845064bf54b4dcea928d1aa01c330d4bcf"
+        }
+    }
+}

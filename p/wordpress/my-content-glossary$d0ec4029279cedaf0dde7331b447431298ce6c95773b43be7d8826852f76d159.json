@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/my-content-glossary": {
+            "1.3.4": {
+                "name": "wordpress\/my-content-glossary",
+                "version": "1.3.4",
+                "version_normalized": "1.3.4.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/my-content-glossary.1.3.4.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>This plug-in requires its parent plug-in, <a href=\"http:\/\/wordpress.org\/extend\/plugins\/my-content-management\/\">My Content Management<\/a>, which creates a suite of custom post types, each with an appropriate custom taxonomy and a set of commonly needed custom fields.<\/p>\n\n<p>The My Content Glossary helper plug-in adds a suite of Glossary-specific tools to your My Content Management plug-in so that you can better manage that area of your custom content.<\/p>\n\n<p>Shortcodes:<\/p>\n\n<p>[alphabet numbers='true']<\/p>\n\n<p>displays list of linked first characters represented in your Glossary. (Roman alphabet only, including numbers 0-9 by default.)<\/p>\n\n<p>[term id='' term='']<\/p>\n\n<p>displays value of term attribute linked to glossary term with ID attribute.<\/p>\n\n<p>*Adds links throughout content for each term in your glossary.\n*Adds character headings to each section of your glossary list.<\/p>\n\n<p>Available languages (in order of completeness):\nIrish, Spanish<\/p>\n\n<p>Visit the <a href=\"http:",
+                "uid": "9893"
+            }
+        }
+    }
+}

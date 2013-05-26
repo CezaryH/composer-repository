@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/wp-function-reference": {
+            "1.1": {
+                "name": "wordpress\/wp-function-reference",
+                "version": "1.1",
+                "version_normalized": "1.1.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/wp-function-reference.1.1.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>Provides a box on the dashboard with a list of the functions that are available for you to use in your Wordpress installation, should you wish to do any development, coding, etc. Each function is linked to the WP Codex development\/wiki page (if any) which contains more in-depth information about the function.<\/p>",
+                "uid": "73082"
+            }
+        }
+    }
+}

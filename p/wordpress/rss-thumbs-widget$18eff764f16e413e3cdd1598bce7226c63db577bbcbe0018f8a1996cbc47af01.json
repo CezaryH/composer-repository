@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/rss-thumbs-widget": {
+            "1.0.1": {
+                "name": "wordpress\/rss-thumbs-widget",
+                "version": "1.0.1",
+                "version_normalized": "1.0.1.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/rss-thumbs-widget.1.0.1.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>This is a plugin which will provide you with a widget in which you can pull thumbnails from up to two RSS feeds.  I created it to showcase the latest posts from my daughters&#8217; blogs with thumbnails of the posts along with the title of the post and a link to the original post.<\/p>\n\n<p>I wrote this because I was originally trying to use the very nice KB Advanced RSS Widget, but apparently, the feed parser in WordPress doesn&#8217;t support enclosures.  I still use the KB widget for other feeds on my blog.<\/p>\n\n<p>Since I&#8217;m using SimplePie, I also could have just included the necessary SimplePie code in my template, but I wanted to include it with the other widgets on my blog and be able to move it around from within the WP Admin.  Besides, what&#8217;s the fun in that?<\/p>",
+                "uid": "89825"
+            }
+        }
+    }
+}

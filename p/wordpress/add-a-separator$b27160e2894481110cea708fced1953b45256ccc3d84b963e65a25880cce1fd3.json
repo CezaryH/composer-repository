@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/add-a-separator": {
+            "1.1": {
+                "name": "wordpress\/add-a-separator",
+                "version": "1.1",
+                "version_normalized": "1.1.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/add-a-separator.1.1.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>This plugin adds a separator between the intro text and the extended (more...) text of the content of a post.\nIt simply replaces the span id more tag with the separator that is set in the plugins php file.<\/p>\n\n<p>Some separator samples are given there.<\/p>\n\n<p>Upload into the \/plugins directory and activate it in the Plugins Menu.<\/p>\n\n<p>History:<\/p>\n\n<p>1.1:<\/p>\n\n<p>Fixed a bug that forced Wordpress Adminmenu to show a white blank page.<\/p>\n\n<p>1.0:<\/p>\n\n<p>Initial Release<\/p>",
+                "uid": "95034"
+            }
+        }
+    }
+}

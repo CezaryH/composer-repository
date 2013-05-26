@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/flickr-header": {
+            "0.3": {
+                "name": "wordpress\/flickr-header",
+                "version": "0.3",
+                "version_normalized": "0.3.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/flickr-header.0.3.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>This WordPress plugin allows you to choose a photo from Flickr's collection of\nCreative Commons licensed photos, crop it, and use it as the header for your\nWordPress site.  You must setup your own Flickr API key to use it.<\/p>\n\n<p>This plugin is still in development, and has only been tested with the\nTwentyEleven theme.  There are several features that are not implemented,\nincluding deactivating a Flickr header.  As it is my first wordpress plugin, I\nexpect it will break for some people. If it does, please create an issue\nticket in the GitHub repository, where this project is maintained:<\/p>\n\n<p><a href=\"https:\/\/github.com\/ownlocal\/flickr-header\" rel=\"nofollow\">https:\/\/github.com\/ownlocal\/flickr-header<\/a><\/p>\n\n<p>Or even better - submit a pull request! ;)<\/p>",
+                "uid": "18197"
+            }
+        }
+    }
+}

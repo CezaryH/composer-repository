@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/vertical-admin-bar": {
+            "1.0.0": {
+                "name": "wordpress\/vertical-admin-bar",
+                "version": "1.0.0",
+                "version_normalized": "1.0.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/vertical-admin-bar.1.0.0.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>\nVertical Admin Bar displays the WordPress toolbar vertically on the left of the screen on the blog front-end. It does not affect the toolbar in the Dashboard of your blog because of the existing vertical menu: it is vertical only when logged in users are viewing your blog front-end.\n<\/p>\n\n<p>\nAt present, the height of the admin bar has been set to 740px. That should be enough for most menus to display correctly. If you need to override this value, do not change it in your code. Instead, add the <strong>vab_admin_bar_height<\/strong> filter in the functions.php of your theme. For example, to set a height of 1024, use the following code:<pre><code>function my_function_callback() { return 1024; }<\/code><\/pre><pre><code>add_filter( &#039;vab_admin_bar_height&#039;, &#039;my_function_callback&#039; );<\/code><\/pre>\n<\/p>\n\n<p>\nKnown problems:\nI do not know if it works for IE 8 and older. Probably not, but can't test. It has been tested to work with Opera 11.52, IE9, Firefox 8.0 and Chromium",
+                "uid": "31539"
+            }
+        }
+    }
+}

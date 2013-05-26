@@ -1,0 +1,57 @@
+{
+    "packages": {
+        "wordpress\/wp-pagescroll": {
+            "0.1": {
+                "name": "wordpress\/wp-pagescroll",
+                "version": "0.1",
+                "version_normalized": "0.1.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/wp-pagescroll.0.1.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>I tried <a href=\"http:\/\/wordpress.org\/extend\/plugins\/infinite-scroll\/\">Infinite Scroll<\/a> and I liked so much! I think is a really good idea, but has some \"problems\".<\/p>\n\n<p>The user loses the perception of \"In witch page am I\" and also the people that is not using JavaScript can't browse your site properly. Also bots couldn't follow  your entire site.<\/p>\n\n<p><a href=\"http:\/\/neo22s.com\/\">Demo<\/a><\/p>\n\n<p><strong>Solution:<\/strong><\/p>\n\n<p>We need a pagination that is updating meanwhile I'm scrolling down\/up.<\/p>\n\n<p>For pagination in WordPress we have the great work of Lester on <a href=\"http:\/\/wordpress.org\/extend\/plugins\/wp-pagenavi\/\">WP-PageNavi<\/a>, what I did is modify it to have some HTML tags with ID. Then I updated the Infinite Scroll to do an update on that field every time the action is performed.  When that action is done I keep the position of the Y in the screen in an Array to use it later when you go  up\/down. To control the scroll I wrote a simple JavaScript that c",
+                "uid": "81010"
+            },
+            "0.2": {
+                "name": "wordpress\/wp-pagescroll",
+                "version": "0.2",
+                "version_normalized": "0.2.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/wp-pagescroll.0.2.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>I tried <a href=\"http:\/\/wordpress.org\/extend\/plugins\/infinite-scroll\/\">Infinite Scroll<\/a> and I liked so much! I think is a really good idea, but has some \"problems\".<\/p>\n\n<p>The user loses the perception of \"In witch page am I\" and also the people that is not using JavaScript can't browse your site properly. Also bots couldn't follow  your entire site.<\/p>\n\n<p><a href=\"http:\/\/neo22s.com\/\">Demo<\/a><\/p>\n\n<p><strong>Solution:<\/strong><\/p>\n\n<p>We need a pagination that is updating meanwhile I'm scrolling down\/up.<\/p>\n\n<p>For pagination in WordPress we have the great work of Lester on <a href=\"http:\/\/wordpress.org\/extend\/plugins\/wp-pagenavi\/\">WP-PageNavi<\/a>, what I did is modify it to have some HTML tags with ID. Then I updated the Infinite Scroll to do an update on that field every time the action is performed.  When that action is done I keep the position of the Y in the screen in an Array to use it later when you go  up\/down. To control the scroll I wrote a simple JavaScript that c",
+                "uid": "81009"
+            },
+            "0.3": {
+                "name": "wordpress\/wp-pagescroll",
+                "version": "0.3",
+                "version_normalized": "0.3.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/wp-pagescroll.0.3.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>I tried <a href=\"http:\/\/wordpress.org\/extend\/plugins\/infinite-scroll\/\">Infinite Scroll<\/a> and I liked so much! I think is a really good idea, but has some \"problems\".<\/p>\n\n<p>The user loses the perception of \"In witch page am I\" and also the people that is not using JavaScript can't browse your site properly. Also bots couldn't follow  your entire site.<\/p>\n\n<p><a href=\"http:\/\/neo22s.com\/\">Demo<\/a><\/p>\n\n<p><strong>Solution:<\/strong><\/p>\n\n<p>We need a pagination that is updating meanwhile I'm scrolling down\/up.<\/p>\n\n<p>For pagination in WordPress we have the great work of Lester on <a href=\"http:\/\/wordpress.org\/extend\/plugins\/wp-pagenavi\/\">WP-PageNavi<\/a>, what I did is modify it to have some HTML tags with ID. Then I updated the Infinite Scroll to do an update on that field every time the action is performed.  When that action is done I keep the position of the Y in the screen in an Array to use it later when you go  up\/down. To control the scroll I wrote a simple JavaScript that c",
+                "uid": "81008"
+            }
+        }
+    }
+}

@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/evaluate": {
+            "1.0": {
+                "name": "wordpress\/evaluate",
+                "version": "1.0",
+                "version_normalized": "1.0.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/evaluate.1.0.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>Features:<\/p>\n\n<ul>\n<li>One Way (Like), Two Way (Up\/Down Vote), Star (range out of 5) and Polls with multiple answers are supported<\/li>\n<li>Better rating\/popularity sorting for metrics (Lower Bound of Wilson Score for Two-Way and Bayesian for 5-Star ratings)<\/li>\n<li>Multiple style options for one-way and two-way metrics<\/li>\n<li>Same metric for multiple content makes tracking metrics easier.<\/li>\n<li>AJAX voting and fetching support<\/li>\n<li>NodeJS &#38; socket.io support (with CTLT_Stream plugin)<\/li>\n<li>Hooks into pre_get_posts to change sort order \/ criteria given URL parameters<\/li>\n<\/ul>\n\n<p>Please check out FAQ for usage details!<\/p>",
+                "uid": "12810"
+            }
+        }
+    }
+}

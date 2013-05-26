@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/user-name-security": {
+            "1.0": {
+                "name": "wordpress\/user-name-security",
+                "version": "1.0",
+                "version_normalized": "1.0.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/user-name-security.1.0.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>WordPress automaticaly uses User login to fill in User Display Name. WordPress also allows everyone to use the same value for Nickanme, Display Name and Login. A hacker may use this information to find your login. And the body_class function also shows to everyone your User ID and Nicename ont author pages.<\/p>\n\n<p>Once activated, User Name Security will prevent WordPress from showing those informations<\/p>\n\n<p><strong>Features include<\/strong><\/p>\n\n<p>Body_class function :<\/p>\n\n<ul>\n<li>Removes User ID from body_class function (author pages)<\/li>\n<li>Removes User Nicename from body_class function (author pages)<\/li>\n<\/ul>\n\n<p>User informations :<\/p>\n\n<ul>\n<li>When user is logged in, the plugin changes Display Name and Nickname to random value if they are equal to User login<\/li>\n<li>If not, it changes Display Name to Nickname or Nickname to Display Name if one of them is equal to User login<\/li>\n<\/ul>\n\n<p>New Registration :<\/p>\n\n<ul>\n<li>Display Name and Nickname are changed to ran",
+                "uid": "10428"
+            }
+        }
+    }
+}

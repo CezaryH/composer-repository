@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/onelogin-saml-sso": {
+            "1.0.1": {
+                "name": "wordpress\/onelogin-saml-sso",
+                "version": "1.0.1",
+                "version_normalized": "1.0.1.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/onelogin-saml-sso.1.0.1.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>This SAML plugin eliminates passwords and allows you to authenticate WordPress users (typically editors) against your existing Active Directory or LDAP server as well increase security using YubiKeys or VeriSign VIP Access via OneLogin. OneLogin is pre-integrated with thousands of apps and handles all of your SSO needs in the cloud and behind the firewall.<\/p>\n\n<ul>\n<li>Eliminate passwords in WordPress<\/li>\n<li>Allow users to sign into WordPress with their <em>Active Directory<\/em> or <em>LDAP<\/em> credentials<\/li>\n<li>Give users one-click access from your intranet<\/li>\n<li>Increase security using browser PKI certificates or two-factor authentication from <em>Yubico<\/em> or <em>VeriSign<\/em><\/li>\n<li>Easily prevent access from former employees and contractors<\/li>\n<\/ul>",
+                "uid": "55451"
+            }
+        }
+    }
+}

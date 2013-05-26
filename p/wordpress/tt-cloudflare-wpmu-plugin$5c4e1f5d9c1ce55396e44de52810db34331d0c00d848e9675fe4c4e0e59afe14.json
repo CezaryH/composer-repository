@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/tt-cloudflare-wpmu-plugin": {
+            "1.1": {
+                "name": "wordpress\/tt-cloudflare-wpmu-plugin",
+                "version": "1.1",
+                "version_normalized": "1.1.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/tt-cloudflare-wpmu-plugin.1.1.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>Every time a new blog is created, a CNAME record will be added via the CloudFlare API.<br \/>\n\nThis allows you to accelerate and protect individual CNAMEs since CloudFlare <a href=\"http:\/\/support.cloudflare.com\/kb\/adding-sites-cloudflare\/does-cloudflare-support&#60;br \/&#62;\nwildcard-dns-entries\"> does not proxy wildcard entries.<\/a><\/p>\n\n<p>If you need to sync your existing blogs, please upgrade to our <a href=\"http:\/\/stiofan.themetailors.com\/store\/products\/tt-cloudflare-wpmu-plugin-pro\/\">PRO version<\/a>.<br \/>\nYou do not know what CloudFlare is? Check the <a href=\"http:\/\/www.cloudflare.com\/overview\">Overview<\/a>.<\/p>\n\n<p>This plugin can be run in conjunction with the official CloudFlare plugin which can be found here: <a href=\"http:\/\/wordpress.org\/extend\/plugins\/cloudflare\/\">http:\/\/wordpress.org\/extend\/plugins\/cloudflare\/<\/a><\/p>\n\n<p>This plugin was not written by CloudFlare, Inc.<\/p>\n\n<p>Tailored by <a href=\"http:\/\/www.themetailors.com\">theme tailors<\/a><\/p>",
+                "uid": "30881"
+            }
+        }
+    }
+}

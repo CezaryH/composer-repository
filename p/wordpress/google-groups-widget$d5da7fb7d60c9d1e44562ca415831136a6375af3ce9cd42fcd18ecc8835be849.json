@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/google-groups-widget": {
+            "0.1": {
+                "name": "wordpress\/google-groups-widget",
+                "version": "0.1",
+                "version_normalized": "0.1.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/google-groups-widget.0.1.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>The Google Groups widget uses the built in wp_rss function to pull the top discussions from the Google Groups RSSv2.\nIt is then formatted from the css within it's ggroups directory to give it it's unique look. Mostly styled for non-IE\nbrowsers.<\/p>",
+                "uid": "80633"
+            }
+        }
+    }
+}

@@ -1,0 +1,57 @@
+{
+    "packages": {
+        "wordpress\/zensor": {
+            "0.6": {
+                "name": "wordpress\/zensor",
+                "version": "0.6",
+                "version_normalized": "0.6.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/zensor.0.6.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>Zensor doesn't work for the current version of WordPress, probably won't be updated anytime soon, and could cause loss of life, limb, or data.<\/p>\n\n<p>Zensor enforces a two-step publishing workflow in WordPress.  The two steps are:<\/p>\n\n<ol>\n<li>An author submits an article (post\/page) for review.<\/li>\n<li>A moderator approves or disapproves the article.<\/li>\n<\/ol>\n\n<p>The article is only visible after the second step.  The author can add a note that the \nmoderator can read when evaluating the article.  Similarly, the moderator can include\na justification for his\/her decision.<\/p>\n\n<h4>Moderators<\/h4>\n\n<p>Who is a moderator is determined by the <code>zensor_moderate<\/code> capability.  Upon installation, \nthe Administrator is assigned this capability.  Also, a new role, Zensor Moderator is created, which\nonly has this capability and <code>read<\/code>.  This is a dedicated user for moderation, eliminating\npotential conflicts of interest.  The Zensor Moderator cannot modify posts in a",
+                "uid": "110765"
+            },
+            "0.7": {
+                "name": "wordpress\/zensor",
+                "version": "0.7",
+                "version_normalized": "0.7.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/zensor.0.7.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>Zensor doesn't work for the current version of WordPress, probably won't be updated anytime soon, and could cause loss of life, limb, or data.<\/p>\n\n<p>Zensor enforces a two-step publishing workflow in WordPress.  The two steps are:<\/p>\n\n<ol>\n<li>An author submits an article (post\/page) for review.<\/li>\n<li>A moderator approves or disapproves the article.<\/li>\n<\/ol>\n\n<p>The article is only visible after the second step.  The author can add a note that the \nmoderator can read when evaluating the article.  Similarly, the moderator can include\na justification for his\/her decision.<\/p>\n\n<h4>Moderators<\/h4>\n\n<p>Who is a moderator is determined by the <code>zensor_moderate<\/code> capability.  Upon installation, \nthe Administrator is assigned this capability.  Also, a new role, Zensor Moderator is created, which\nonly has this capability and <code>read<\/code>.  This is a dedicated user for moderation, eliminating\npotential conflicts of interest.  The Zensor Moderator cannot modify posts in a",
+                "uid": "110763"
+            },
+            "0.7.1": {
+                "name": "wordpress\/zensor",
+                "version": "0.7.1",
+                "version_normalized": "0.7.1.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/zensor.0.7.1.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>Zensor doesn't work for the current version of WordPress, probably won't be updated anytime soon, and could cause loss of life, limb, or data.<\/p>\n\n<p>Zensor enforces a two-step publishing workflow in WordPress.  The two steps are:<\/p>\n\n<ol>\n<li>An author submits an article (post\/page) for review.<\/li>\n<li>A moderator approves or disapproves the article.<\/li>\n<\/ol>\n\n<p>The article is only visible after the second step.  The author can add a note that the \nmoderator can read when evaluating the article.  Similarly, the moderator can include\na justification for his\/her decision.<\/p>\n\n<h4>Moderators<\/h4>\n\n<p>Who is a moderator is determined by the <code>zensor_moderate<\/code> capability.  Upon installation, \nthe Administrator is assigned this capability.  Also, a new role, Zensor Moderator is created, which\nonly has this capability and <code>read<\/code>.  This is a dedicated user for moderation, eliminating\npotential conflicts of interest.  The Zensor Moderator cannot modify posts in a",
+                "uid": "110764"
+            }
+        }
+    }
+}

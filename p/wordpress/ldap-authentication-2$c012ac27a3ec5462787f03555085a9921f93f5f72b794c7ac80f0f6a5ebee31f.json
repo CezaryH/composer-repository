@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/ldap-authentication-2": {
+            "1.0.4": {
+                "name": "wordpress\/ldap-authentication-2",
+                "version": "1.0.4",
+                "version_normalized": "1.0.4.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/ldap-authentication-2.1.0.4.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>This plug-in extends Simple LDAP Authentication plug-in <a href=\"http:\/\/wordpress.org\/extend\/plugins\/simple-ldap-authentication\">Simple LDAP Authentication<\/a>.\nPlug-in works as followed:<\/p>\n\n<p>Entered credentials are checked by all hash types available on LDAP-server (ssha, smd5, crypt\/standart-des, crypt\/enhanced, crypt\/md5, crypt\/blowfish, sha, clear, md5) by specified login.<\/p>\n\n<p>If password is correct:<\/p>\n\n<p>If user already exist in WordPress database<\/p>\n\n<ul>\n<li>Password, name, surname, e-mail are changed to those existing on LDAP-server.<\/li>\n<\/ul>\n\n<p>If no such user is in WordPress database:<\/p>\n\n<p>If automatic user transfer is disabled by plug-in settings:<\/p>\n\n<ul>\n<li>Existing user data is updated<\/li>\n<\/ul>\n\n<p>If automatic user transfer is enabled by plug-in settings:<\/p>\n\n<ul>\n<li><p>Existing user data is updated<\/p><\/li>\n<li><p>New user is created with profile received from LDAP-server.<\/p><\/li>\n<\/ul>\n\n<p>If the password was incorrect:<\/p>\n\n<ul>\n<li>Wrong p",
+                "uid": "13290"
+            }
+        }
+    }
+}

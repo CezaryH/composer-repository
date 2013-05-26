@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/rot13-encoderdecoder": {
+            "1.0": {
+                "name": "wordpress\/rot13-encoderdecoder",
+                "version": "1.0",
+                "version_normalized": "1.0.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/rot13-encoderdecoder.1.0.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>The Rot13 Encoder\/Decoder plugin allows bloggers and commenters to \"encrypt\" parts of their writing output with the <a href=\"http:\/\/en.wikipedia.org\/wiki\/ROT13\">ROT13 cipher<\/a> in order to conceal media-related spoilers, punchlines, solutions, or sensitive topics from other readers who don't wish to read them.<\/p>\n\n<ul>\n<li>Allow readers to decode by single- or double-clicking the ROT13'd text<\/li>\n<li>Decodes either inline or a tooltip-style popup.<\/li>\n<\/ul>\n\n<p>A TinyMCE button is included to help bloggers select text in their posts to ROT13.  Commenters can use a BBCode-style tag (i.e., Wordpress shortcode) in their comments: e.g.  <code>[rot13]Spoilerific content example[\/rot13]<\/code><\/p>",
+                "uid": "51050"
+            }
+        }
+    }
+}

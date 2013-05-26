@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/wp-feature-disable": {
+            "1.0": {
+                "name": "wordpress\/wp-feature-disable",
+                "version": "1.0",
+                "version_normalized": "1.0.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/wp-feature-disable.1.0.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>Disables a collection of WordPress features that can help your blog run more efficiently and smoother.\nThis includes functions such as the auto-save and revision tracking features used on the post and page \neditor sections which can help reduce database size by eliminating the build up of revisions which exist \npurely for administrative purposes and reduce server load. Other functions include the comment author URL, \nWordPress 'Generator' tag, and more.<\/p>\n\n<p>Special thanks to John Blackbourn (<a href=\"http:\/\/johnblackbourn.com\/\" rel=\"nofollow\">http:\/\/johnblackbourn.com\/<\/a>) for his explorations of the Core Update system.<\/p>",
+                "uid": "77348"
+            }
+        }
+    }
+}

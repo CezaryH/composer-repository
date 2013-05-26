@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/buhsl-captcha": {
+            "1.0": {
+                "name": "wordpress\/buhsl-captcha",
+                "version": "1.0",
+                "version_normalized": "1.0.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/buhsl-captcha.1.0.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>Buhsl Captcha is a very simple, but powerful plug-in that helps you to prevent spam. \nPlug-in don't use COOKIES or SESSION. So there is no annoying messages like \n\"You should enable cookies\" for visitors. Plug-in use hashed captcha code value that \nwill be comparing with entered captcha value and check if correspondent image file exists on server. \nImage of captcha created during request and stored at server.<br \/>\nWhen user entered right captcha value image file will be removed. \nIf not, garbage collector will remove it after time life is passed.<\/p>\n\nFeatures:\n\n<ul>\n<li>Configure from Admin panel<\/li>\n<li>JavaScript is not required<\/li>\n<li>Valid HTML<\/li>\n<li>Allows Trackbacks and Pingbacks<\/li>\n<li>Hide the CAPTCHA from logged in users and or admins<\/li>\n<\/ul>\n\nRequirements\/Restrictions:\n\n<ul>\n<li>Works with Wordpress 2.9.2+, WPMU, and BuddyPress<\/li>\n<li>PHP 4.0.6 or above with GD2 library support.<\/li>\n<li>Your theme must have a <code>&#60;?php do_action('comment_form', $post-",
+                "uid": "67597"
+            }
+        }
+    }
+}

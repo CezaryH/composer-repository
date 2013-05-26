@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/wp-local-storage": {
+            "1.0": {
+                "name": "wordpress\/wp-local-storage",
+                "version": "1.0",
+                "version_normalized": "1.0.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/wp-local-storage.1.0.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>This plugin can greatly improve the user experience for your blog, by automatically and periodically saving the \"just typed comment\" for your visitors (the content textarea input box in comment section). The just typed comment is saved into browser's local storage system to prevent loss of any unsubmitted comment from your visitors and doesn't require any backend support.<\/p>\n\n<p>This is similar like WordPress can remember your Name, Email, Website in comment area for the next visit, but WP Local Storage plugin extends this into next level, it can remember the actual unsaved comment (i.e. before hit submit button) so even the browser is crashed before the user hit save, it is okay! When the user  came back, all \"just type comment\" will be still in there.<\/p>\n\n<p>Full Support is available at <a href=\"http:\/\/www.xhtmlweaver.com\" rel=\"nofollow\">http:\/\/www.xhtmlweaver.com<\/a> or <a href=\"mailto:wp-support@xhtmlweaver.com\">wp-support@xhtmlweaver.com<\/a><\/p>",
+                "uid": "45659"
+            }
+        }
+    }
+}

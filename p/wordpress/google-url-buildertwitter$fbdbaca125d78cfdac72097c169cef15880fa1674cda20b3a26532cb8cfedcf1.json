@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/google-url-buildertwitter": {
+            "1.0": {
+                "name": "wordpress\/google-url-buildertwitter",
+                "version": "1.0",
+                "version_normalized": "1.0.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/google-url-buildertwitter.1.0.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>Every time you post a new article, you have a meta box where you can specify the post name as it will be tracked for your Google Analytics reports. Based on the value that you insert into this box, the plugin will add a Twitter button at the beginning of your post which will contain the post title, a custom text and it will also display the URL built using your preferences. The link is built using Google URL Builder tool. The links are encoded &#38; shorten using the bit.ly v3 API.<\/p>",
+                "uid": "14144"
+            }
+        }
+    }
+}

@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/devel": {
+            "0.1": {
+                "name": "wordpress\/devel",
+                "version": "0.1",
+                "version_normalized": "0.1.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/devel.0.1.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p><em>Devel<\/em> is made up of development oriented administrative components for developers and power users who need more control over their WordPress site.<\/p>\n\n<p>Features are seperated into components which can be enabled or disabled. In addition, devel has an intuitive API for adding your own custom components into the mix using the devel components API.<\/p>\n\n<p><strong>Bundled Components<\/strong><\/p>\n\n<p>By default, devel comes packaged with:<\/p>\n\n<ul>\n<li><em>Custom Fields Manager<\/em> - Allows to you manage all custom fields in your site.<\/li>\n<\/ul>\n\n<p>Additional components will be added gradually throughout future releases. If you have any component suggestions, please visit the <a href=\"http:\/\/wordpress.org\/tags\/devel\/\">forums<\/a>.<\/p>\n\n<h4>Components API<\/h4>\n\n<p>Using the components API, you can add your own components to devel.<\/p>\n\n<p>Add a component:<\/p>\n\n<pre><code>add_action( 'devel_register_components', 'register_my_components' );\nfunction register_my_components() {",
+                "uid": "74188"
+            }
+        }
+    }
+}

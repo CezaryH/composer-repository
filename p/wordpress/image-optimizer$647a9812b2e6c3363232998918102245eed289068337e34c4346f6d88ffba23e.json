@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/image-optimizer": {
+            "1.0": {
+                "name": "wordpress\/image-optimizer",
+                "version": "1.0",
+                "version_normalized": "1.0.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/image-optimizer.1.0.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>Reduce uploaded images's size with Optipng and Jhead. There is no option for this plugin.<\/p>\n\n<p>It only reduce size of png and jpeg files. If you want to use other format, please convert them before uploading.<\/p>\n\n<p>Requirement:<\/p>\n\n<ul>\n<li><p><a href=\"http:\/\/optipng.sourceforge.net\/\">Optipng<\/a><\/p><\/li>\n<li><p><a href=\"http:\/\/www.sentex.net\/~mwandel\/jhead\/\">JHead<\/a><\/p><\/li>\n<li><p>Disable safe mode in PHP<\/p><\/li>\n<\/ul>\n\n<p>Change log:<\/p>\n\n<ul>\n<li>3\/29\/2009  1.0: Initial release.<\/li>\n<\/ul>",
+                "uid": "90397"
+            }
+        }
+    }
+}

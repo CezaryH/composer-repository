@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/lyza-loop": {
+            "0.3": {
+                "name": "wordpress\/lyza-loop",
+                "version": "0.3",
+                "version_normalized": "0.3.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/lyza-loop.0.3.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>Lyza Loop is a WordPress plugin for theme developers and template-savvy folks that aims to:<\/p>\n\n<ul>\n<li>Dramatically shorten the time required to code custom loops<\/li>\n<li>Modularize custom loop markup using what I hope is a straightforward templating process<\/li>\n<li>Provide convenient batching variables<\/li>\n<li>Respect the context in which the custom loop is called and put everything back the way it was (e.g. global $wp_query and $post objects)<\/li>\n<li>Reduce tedious and duplicated code for custom loops<\/li>\n<\/ul>\n\n<p>There are two parts to the <code>lyza_loop()<\/code> function:<\/p>\n\n<ol>\n<li>Finding posts (or pages): extending <code>query_posts()<\/code> &#8212; <code>lyza_loop()<\/code> takes any argument WordPress&#8217; own query_posts() takes<\/li>\n<li>Rendering relevant posts or pages: using &#8220;loop templates.&#8221; A loop template is a PHP file with markup (and logic) you&#8217;d like to use for each post\/page in the loop.<\/li>\n<\/ol>\n\n<p>Read more on the <a href=\"htt",
+                "uid": "77802"
+            }
+        }
+    }
+}

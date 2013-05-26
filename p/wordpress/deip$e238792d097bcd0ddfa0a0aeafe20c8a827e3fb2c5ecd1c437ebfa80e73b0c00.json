@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/deip": {
+            "0.1": {
+                "name": "wordpress\/deip",
+                "version": "0.1",
+                "version_normalized": "0.1.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/deip.0.1.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>Replaces comment author ip by 127.0.0.1 after a configurable amount of days.<\/p>\n\n<p>Storage of ip addresses prohibited by german privacy laws, which is the sole reason of this plugin.<\/p>",
+                "uid": "70454"
+            }
+        }
+    }
+}

@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/wp-database-cleaner": {
+            "1.0": {
+                "name": "wordpress\/wp-database-cleaner",
+                "version": "1.0",
+                "version_normalized": "1.0.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/wp-database-cleaner.1.0.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>WP Database Cleaner is a easy to use WordPress plugin that allow users to quickly cleanup and optimize the WordPress database by removing all spam comments, trash comments, unused tags, post revisions, auto drafts, and much more.<\/p>\n\n<p>When you have a WordPress site that has a lot of visitors, and presumibly a lot of comments, you may find that a high number of comments will be placed in the spam folder. It is not good to have 10k spam comments saved in the database, because all of these comments can increase consistently the size of the mysql database backups.<\/p>\n\n<p>If you have a lot of published posts, you may have post revisions and auto-drafts saved in the database, that can slow down the database performances. All this data is considered junk and it should be cleaned frequently.<\/p>\n\n<h4>Key Features<\/h4>\n\n<ul>\n<li>Delete post revisions<\/li>\n<li>Delete auto drafts<\/li>\n<li>Delete pending comments<\/li>\n<li>Delete spam comments<\/li>\n<li>Delete trash comments<\/li>\n<li>Delete t",
+                "uid": "20905"
+            }
+        }
+    }
+}

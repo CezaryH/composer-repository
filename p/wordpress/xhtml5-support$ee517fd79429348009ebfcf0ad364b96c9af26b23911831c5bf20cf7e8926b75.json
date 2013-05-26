@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/xhtml5-support": {
+            "0.2.4": {
+                "name": "wordpress\/xhtml5-support",
+                "version": "0.2.4",
+                "version_normalized": "0.2.4.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/xhtml5-support.0.2.4.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p><em>This plugin is developed at\n<a href=\"http:\/\/www.shepherd-interactive.com\/\" title=\"Shepherd Interactive specializes in web design and development in Portland, Oregon\">Shepherd Interactive<\/a>\nfor the benefit of the community. No support is available. Please post any questions to the <a href=\"http:\/\/wordpress.org\/tags\/xhtml5-support?forum_id=10\">support forum<\/a>.<\/em><\/p>\n\n<p>Allows templates to serve XHTML5 markup by adding the necessary JavaScript shim\nfor IE7+, and for IE6 by converting all new elements to <code>div<\/code>s and <code>span<\/code>s\nwith class names that contain the original\nHTML5 element name prefixed by \"<code>html5-<\/code>\", for example: <code>&#60;article&#62;<\/code> becomes <code>&#60;div class=\"html5-article\"&#62;<\/code>\nand <code>&#60;time&#62;<\/code> becomes <code>&#60;span class=\"html5-time\"&#62;<\/code><\/p>\n\n<p>If the browser supports XHTML, the content is served with the <code>application\/xhtml+xml<\/code>\nMIME type. This can be disabled by placing <code",
+                "uid": "80440"
+            }
+        }
+    }
+}

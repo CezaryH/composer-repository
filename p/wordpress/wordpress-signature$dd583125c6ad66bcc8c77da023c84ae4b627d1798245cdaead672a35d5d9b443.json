@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/wordpress-signature": {
+            "0.1": {
+                "name": "wordpress\/wordpress-signature",
+                "version": "0.1",
+                "version_normalized": "0.1.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/wordpress-signature.0.1.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>The Wordpress Signature plugin allows wordpress users to have signatures below every post.This is almost similar to forum signatures where you can have a  default signature on every post you make.The plugin is still being developed and the signature need html formating to appear properly.This means tags like <code>&#60;br&#62;<\/code> before the signature and anchor tags for links.This will be made easier in future versions.<\/p>",
+                "uid": "44958"
+            }
+        }
+    }
+}

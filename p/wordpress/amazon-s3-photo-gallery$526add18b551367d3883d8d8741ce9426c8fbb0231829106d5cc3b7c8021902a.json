@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/amazon-s3-photo-gallery": {
+            "1.0.2": {
+                "name": "wordpress\/amazon-s3-photo-gallery",
+                "version": "1.0.2",
+                "version_normalized": "1.0.2.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/amazon-s3-photo-gallery.1.0.2.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>This WordPress plugin allows you to use Amazon's Simple Storage Service to host your images for your Photo Gallery.<\/p>\n\n<p>This plugin for WordPress works with your amazon s3 storage account. The plugin allows you to create albums and each albums points to a bucket. insert all albums or individual album into your posts or pages using a shortcode.<\/p>\n\n<p>Usage:<\/p>\n\n<p>Once activated, make sure to configure the plugin in the settings menu with your amazon secret and key.<\/p>\n\n<p>Notes:<\/p>\n\n<p>This plugin for WordPress, the publicly available  If you experience any problems with the plugin, feel free to contact me.<\/p>",
+                "uid": "30798"
+            }
+        }
+    }
+}

@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/myanimelist-for-wordpress": {
+            "1.0": {
+                "name": "wordpress\/myanimelist-for-wordpress",
+                "version": "1.0",
+                "version_normalized": "1.0.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/myanimelist-for-wordpress.1.0.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>MAL for WordPress displays your recently watched anime in your WordPress blog. Basically a quick rewrite of the last.fm-plugin written by Ricardo Gonz&#225;lez so that it works with MyAnimeList instead of Last.fm.<\/p>\n\n<p><strong>Features<\/strong><\/p>\n\n<pre><code>* Simple\n* Customizable\n* Widget support\n* No options page (yes, it is a feature)\n* Uses Wordpress resources (no extra files needed)\n<\/code><\/pre>\n\n<p><strong>Usage<\/strong><\/p>\n\n<p>If you use WordPress widgets, just drag the widget into your sidebar and configure. If widgets are not your thing, use the following code to display your recently listened tracks:<\/p>\n\n<pre><code>&#60;?php mal_episodes(\"username\"); ?&#62;\n<\/code><\/pre>\n\n<p><strong>Credits<\/strong><\/p>\n\n<p><a href=\"http:\/\/rick.jinlabs.com\/\">Ricardo Gonz&#225;lez<\/a> - This plugin is a quick rewrite of his plugin, credit to to him!\n<a href=\"http:\/\/cavemonkey50.com\/\">Ronald Heft<\/a> - Ricardo's plugin is highly based in his Pownce for Wordpress, so the major part o",
+                "uid": "93388"
+            }
+        }
+    }
+}

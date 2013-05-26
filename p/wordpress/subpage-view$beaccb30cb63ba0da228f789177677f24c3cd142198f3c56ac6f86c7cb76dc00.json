@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/subpage-view": {
+            "1.0.0": {
+                "name": "wordpress\/subpage-view",
+                "version": "1.0.0",
+                "version_normalized": "1.0.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/subpage-view.1.0.0.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>Ever wanted to place a list of subpages on your page? This is the plugin you need.<\/p>\n\n<p>Using the build in WP methods, this plugin enables you to list subpages on any given page.<\/p>\n\n<p>Usage examples:<\/p>\n\n<ul>\n<li>[subpage-view]<\/li>\n<li>[subpage-view depth=\"2\"]<\/li>\n<li>[subpage-view title_li=\"Subpages:\"]<\/li>\n<li>[subpage-view depth=\"1\" child_of=\"24\"]<\/li>\n<\/ul>",
+                "uid": "91726"
+            }
+        }
+    }
+}

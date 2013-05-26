@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/wp-json": {
+            "1.0": {
+                "name": "wordpress\/wp-json",
+                "version": "1.0",
+                "version_normalized": "1.0.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/wp-json.1.0.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>A plugin that easily enables you start syndicating your blog entries using JSON. This enables third party integration with JavaScript solutions cross domain without use of proxy. Supports callback. If mod_rewrite permalinks are enabled call \/feed\/json\/?callback=METHOD and if mod_rewrite is disabled call using ?feed=json&#38;callback=METHOD<\/p>",
+                "uid": "95403"
+            }
+        }
+    }
+}

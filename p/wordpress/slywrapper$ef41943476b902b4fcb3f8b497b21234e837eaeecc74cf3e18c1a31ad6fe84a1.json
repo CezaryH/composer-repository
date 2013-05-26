@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/slywrapper": {
+            "1.0": {
+                "name": "wordpress\/slywrapper",
+                "version": "1.0",
+                "version_normalized": "1.0.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/slywrapper.1.0.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>SlyWrapper is a WordPress short-code plugin that implements a horizontal scrolling panel to display all posts of a given category. A horizontal navigation is auto generated for a better user experience and the scrolling action can be trigger via the mouse wheel or multi touch gesture. The plugin is based on the Sly jQuery plugin written by Darsain though not all the features are implemented yet.<\/p>\n\n<p>SlyWrapper has been coded specifically to be inserted in to a WordPress page so other implementations might yield unpredictable results. The plugin has an admin page, which can be used to setup default dimensions and colours for the user interface (UI). The short-code tag will accept variables to alter the UI separate from the defaults, which means each implementation of the SlyWrapper on your WordPress site can be customised for its purpose.<\/p>\n\n<p>Like the Sly jQuery plugin this WordPress plugin is still in beta. Darsain has done such an amazing job of making a feature rich jQuery",
+                "uid": "14606"
+            }
+        }
+    }
+}

@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/assign-user-files": {
+            "1.0": {
+                "name": "wordpress\/assign-user-files",
+                "version": "1.0",
+                "version_normalized": "1.0.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/assign-user-files.1.0.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>This plugin allows an administrator to assign uploaded media files to certain users, with the option to delete files from specific users at any time. The file to user relationship is one to many so more than one user can have the same file assigned to them, and a user can have as many files assigned to them as the administrator wants. Normal users can sign in and see what files are available to them and download them if they wish.<\/p>",
+                "uid": "41279"
+            }
+        }
+    }
+}

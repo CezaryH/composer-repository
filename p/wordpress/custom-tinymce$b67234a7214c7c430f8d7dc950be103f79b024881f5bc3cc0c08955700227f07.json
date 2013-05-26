@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/custom-tinymce": {
+            "1.3": {
+                "name": "wordpress\/custom-tinymce",
+                "version": "1.3",
+                "version_normalized": "1.3.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/custom-tinymce.1.3.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>This plugin allows you to select\/deselect and re-arrange TinyMCE buttons in your way through plugin option page. Everything can be done with drag and drop.<\/p>",
+                "uid": "81278"
+            }
+        }
+    }
+}

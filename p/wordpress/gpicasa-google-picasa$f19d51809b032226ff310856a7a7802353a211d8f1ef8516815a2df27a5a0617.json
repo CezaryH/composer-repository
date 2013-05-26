@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/gpicasa-google-picasa": {
+            "1.0": {
+                "name": "wordpress\/gpicasa-google-picasa",
+                "version": "1.0",
+                "version_normalized": "1.0.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/gpicasa-google-picasa.1.0.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>The plugin insert a icon on insert\/edit page. Click on the icon you can see the picasa users, what you specified on the settings page. Entering in the user you can insert all images form an album, or browse an album and insert images individualy into post.<\/p>\n\n<p>The plugin insert just the url of image, and the image phisicaly remain in google servers. You can specify the html tags what you apply befor and after image link. On settings page you can set up many features, like: lighbox type, before\/after album, picasa icon ....<\/p>\n\n<p>IMPORTANT\nThe plugin use the native google code. No third party classes, apis and other methides.\nIt is veri lighweight, without any core modification.<\/p>",
+                "uid": "56787"
+            }
+        }
+    }
+}

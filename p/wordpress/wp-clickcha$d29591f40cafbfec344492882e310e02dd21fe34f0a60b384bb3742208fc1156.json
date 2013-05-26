@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/wp-clickcha": {
+            "0.7": {
+                "name": "wordpress\/wp-clickcha",
+                "version": "0.7",
+                "version_normalized": "0.7.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/wp-clickcha.0.7.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>Clickcha is a unique CAPTCHA system that more secure than traditional text based CAPTCHAs yet easier to use. Clickcha will replace the Wordpress post comment button with an image based CAPTCHA that requires a single click to solve <em>and<\/em> post the comment.<\/p>\n\n<p><a href=\"http:\/\/clickcha.com\/demo\/\" title=\"Clickcha Demo\">Click here<\/a> to see Clickcha in action.<\/p>\n\n<h4>Features<\/h4>\n\n<ol>\n<li>The simplest CAPTCHA out there - solved in one click - no typing required.<\/li>\n<li>Every Clickcha puzzle is unique.<\/li>\n<li>New challenging (for bots) puzzle types regularly added.<\/li>\n<li>Adds almost zero overhead.<\/li>\n<li>Compatible with all cache plugins (including WP-Cache).<\/li>\n<li>Works out of the box without any setup or editing .php files.<\/li>\n<\/ol>\n\n<h4>How It Works<\/h4>\n\n<p>Clickcha generates image based CAPTCHAs which require the user to click the image in a particular area to solve the puzzle. Clickcha is more secure than traditional text based CAPTCHAs which can be rea",
+                "uid": "90697"
+            }
+        }
+    }
+}

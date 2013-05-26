@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/get-my-sina-weibo": {
+            "0.1": {
+                "name": "wordpress\/get-my-sina-weibo",
+                "version": "0.1",
+                "version_normalized": "0.1.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/get-my-sina-weibo.0.1.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>Using PHP 5, this plugin will load a user definable number of Tweets from Sina Weibo.  It requires that the Sina Weibo user name &#38; password &#38; user screen name be supplied to the plugin, and the desired number of Tweets to retrieve. The plugin will parse links within Tweets.<\/p>",
+                "uid": "66852"
+            }
+        }
+    }
+}

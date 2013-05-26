@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/fxwidget": {
+            "0.1": {
+                "name": "wordpress\/fxwidget",
+                "version": "0.1",
+                "version_normalized": "0.1.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/fxwidget.0.1.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>Functionality:<\/p>\n\n<p>FxWidget provides a widget for displaying official ECB exchange rates for the Euro. Any number of 33 currencies can be selected for display in the widget's options. Exchange rates are loaded from the official ECB site which updates the rates daily at around 3.00 p.m. CET.<\/p>\n\n<p>Localizations:<\/p>\n\n<ul>\n<li>de_DE<\/li>\n<li>en_US<\/li>\n<\/ul>",
+                "uid": "74472"
+            }
+        }
+    }
+}

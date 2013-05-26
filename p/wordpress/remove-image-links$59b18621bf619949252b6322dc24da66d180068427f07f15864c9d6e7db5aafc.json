@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/remove-image-links": {
+            "1.2": {
+                "name": "wordpress\/remove-image-links",
+                "version": "1.2",
+                "version_normalized": "1.2.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/remove-image-links.1.2.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>Right now, all over the internet there are people clicking on images on WordPress sites for no purpose. Why?<\/p>\n\n<p>As a mouse cursor passes over an image, they see a hand cursor, indicating that the image is a link to something. On clicking, to their surprise, all they see is an image of the image... They then need to use the browser\u0092s back button to return to the web page.<\/p>\n\n<p>This is NOT a good user experience because it undermines the convention that clickable images are real links. There may also be negative implications for search engine optimization (SEO).<\/p>",
+                "uid": "18951"
+            }
+        }
+    }
+}

@@ -1,0 +1,40 @@
+{
+    "packages": {
+        "wordpress\/permalink-trailing-slash-fixer": {
+            "1.0": {
+                "name": "wordpress\/permalink-trailing-slash-fixer",
+                "version": "1.0",
+                "version_normalized": "1.0.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/permalink-trailing-slash-fixer.1.0.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>When your permalink structure does not end by a trailing slash (\/), all your links look like  <a href=\"http:\/\/example.com\/2009\/05\" rel=\"nofollow\">http:\/\/example.com\/2009\/05<\/a>. Permalink Trailing Slash Fixer add the missing trailing slash.<\/p>\n\n<h4>Example<\/h4>\n\n<p>If you have a site with the following permalink structure <code>\/%category%\/%postname%.html<\/code> and your permalinks \nlook like these:<\/p>\n\n<ol>\n<li><strong>Single Post:<\/strong> <code><a href=\"http:\/\/example.com\/my-category\/sample-post.html\" rel=\"nofollow\">http:\/\/example.com\/my-category\/sample-post.html<\/a><\/code>.<\/li>\n<li><strong>Category:<\/strong> <code><a href=\"http:\/\/example.com\/my-category\" rel=\"nofollow\">http:\/\/example.com\/my-category<\/a><\/code>.<\/li>\n<li><strong>Archive:<\/strong> <code><a href=\"http:\/\/example.com\/2009\/05\" rel=\"nofollow\">http:\/\/example.com\/2009\/05<\/a><\/code>.<\/li>\n<li><strong>Page:<\/strong> <code><a href=\"http:\/\/example.com\/about\" rel=\"nofollow\">http:\/\/example.com\/about<\/a><\/code>.<\/li>\n<\/ol>\n\n",
+                "uid": "88419"
+            },
+            "1.0.1": {
+                "name": "wordpress\/permalink-trailing-slash-fixer",
+                "version": "1.0.1",
+                "version_normalized": "1.0.1.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/permalink-trailing-slash-fixer.1.0.1.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>When your permalink structure does not end by a trailing slash (\/), all your links look like  <a href=\"http:\/\/example.com\/2009\/05\" rel=\"nofollow\">http:\/\/example.com\/2009\/05<\/a>. Permalink Trailing Slash Fixer add the missing trailing slash.<\/p>\n\n<h4>Example<\/h4>\n\n<p>If you have a site with the following permalink structure <code>\/%category%\/%postname%.html<\/code> and your permalinks \nlook like these:<\/p>\n\n<ol>\n<li><strong>Single Post:<\/strong> <code><a href=\"http:\/\/example.com\/my-category\/sample-post.html\" rel=\"nofollow\">http:\/\/example.com\/my-category\/sample-post.html<\/a><\/code>.<\/li>\n<li><strong>Category:<\/strong> <code><a href=\"http:\/\/example.com\/my-category\" rel=\"nofollow\">http:\/\/example.com\/my-category<\/a><\/code>.<\/li>\n<li><strong>Archive:<\/strong> <code><a href=\"http:\/\/example.com\/2009\/05\" rel=\"nofollow\">http:\/\/example.com\/2009\/05<\/a><\/code>.<\/li>\n<li><strong>Page:<\/strong> <code><a href=\"http:\/\/example.com\/about\" rel=\"nofollow\">http:\/\/example.com\/about<\/a><\/code>.<\/li>\n<\/ol>\n\n",
+                "uid": "88418"
+            }
+        }
+    }
+}

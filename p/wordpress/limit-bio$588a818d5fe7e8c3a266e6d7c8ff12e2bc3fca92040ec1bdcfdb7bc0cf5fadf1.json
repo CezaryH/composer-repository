@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/limit-bio": {
+            "1.0": {
+                "name": "wordpress\/limit-bio",
+                "version": "1.0",
+                "version_normalized": "1.0.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/limit-bio.1.0.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>The Limit Bio plugin allows you to quickly limit the character count on the biographical information field on the edit profile page of your site.<\/p>\n\n<p>Features:<\/p>\n\n<ul>\n<li>Admin settings to restrict the biography character count site wide.<\/li>\n<li>Limits Users to a specific character count in their bio<\/li>\n<li>Displays the remaining characters allowed and updates in real time as the user types.<\/li>\n<li>Works even if Javascript is disabled<\/li>\n<li>Stops a user from typing when the character count is reached<\/li>\n<li>Replaces the default biographical information field in the wordpress profile<\/li>\n<\/ul>",
+                "uid": "20641"
+            }
+        }
+    }
+}

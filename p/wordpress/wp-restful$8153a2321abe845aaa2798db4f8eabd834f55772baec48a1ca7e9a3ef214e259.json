@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/wp-restful": {
+            "0.1": {
+                "name": "wordpress\/wp-restful",
+                "version": "0.1",
+                "version_normalized": "0.1.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/wp-restful.0.1.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p><strong>What is it?<\/strong><\/p>\n\n<p>I'm 99% sure that you already heard about APIs or REST APIs, it's what Twitter, flickr and a lot more companies use to share they're resources with a consumer.\nA consumer can be anything from a website (for example, showing your Twitter updates on your blog or personal website) to a desktop \/ mobile application (iPhone, Android, Windows Mobile, ...).\nThis is possible because all information sent to and from the API is encoded in either two common, inter-platform language, XML and JSON.\nThe difference between a regular API and a REST API is on the way they work. A REST API requires two entities to work, a client and a server.<\/p>\n\n<p><strong>How does it work?<\/strong><\/p>\n\n<p>WP-RESTful uses OAuth, a widely, commonly and open source API implementation used all over the World (Wide Web).\nThe way it work is fairly simple.\nFirst a Consumer registers with a Server. At this point the Server will provide the Consumer with 2 tokens, a public and a privat",
+                "uid": "66130"
+            }
+        }
+    }
+}

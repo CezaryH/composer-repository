@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/ad-wrap": {
+            "0.6": {
+                "name": "wordpress\/ad-wrap",
+                "version": "0.6",
+                "version_normalized": "0.6.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/ad-wrap.0.6.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>This plugin will mark the key parts of a blog post so that context\nbased ad services can identify the post content and comments for\nthe best ad matching (thus avoiding the static content that is \nirrelevant for context ad matching).<\/p>\n\n<p>Context ad services currently supported are :<\/p>\n\n<ol>\n<li>Google Adsense<\/li>\n<li>Kontera ContextLink<\/li>\n<li>Infolinks<\/li>\n<\/ol>\n\n<p>This plug-in is based on work originally done by John Godley\n(<a href=\"http:\/\/urbangiraffe.com\/plugins\/google-ad-wrap\/\" rel=\"nofollow\">http:\/\/urbangiraffe.com\/plugins\/google-ad-wrap\/<\/a>)<\/p>",
+                "uid": "101670"
+            }
+        }
+    }
+}

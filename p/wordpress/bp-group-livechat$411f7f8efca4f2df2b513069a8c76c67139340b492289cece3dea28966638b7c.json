@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/bp-group-livechat": {
+            "1.1": {
+                "name": "wordpress\/bp-group-livechat",
+                "version": "1.1",
+                "version_normalized": "1.1.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/bp-group-livechat.1.1.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>Basic live chat within groups.<\/p>\n\n<p>Once installed, activate Live Chat in the group admin area (or during group creation).<\/p>\n\n<p>The Live Chat area provides an ajax chat room which displays the most recent messages along with timestamps and usernames.  It also has a \"who's online\" area which shows other group members viewing the Live Chat page.  \"Super Admins\" can spy on the chats of all groups.<\/p>\n\n<p>This plugin is extremely basic and has no promises of support.<\/p>",
+                "uid": "50162"
+            }
+        }
+    }
+}

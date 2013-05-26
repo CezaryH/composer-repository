@@ -1,0 +1,40 @@
+{
+    "packages": {
+        "wordpress\/fbf-facebook-page-feed-widget": {
+            "1.0": {
+                "name": "wordpress\/fbf-facebook-page-feed-widget",
+                "version": "1.0",
+                "version_normalized": "1.0.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/fbf-facebook-page-feed-widget.1.0.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>This plugin displays the latest posts from one or multiple Facebook page(s) in a sidebar widget. \nFacebook page ID is enough to configure this widget.<\/p>\n\n<p>This plugin uses simplepie rss reader which is a in-built\/default reader for wordpress.<\/p>\n\n<p>Bug fixes \/ changes in this version:\n* wordpress HTTP header error message will be shown in case of any errors.\n* Feed are not cached now. So feeds will update on page refresh.\n* Update time is corrected.\n* Added option to show\/hide facebook like button inside the feed.\n* ul li issued fixed. the plugin outputs standard html now\n* css changes - container bg color and width removed. (If you use shortcode inside a post\/page, the feed will occupy whole content content area)<\/p>\n\n<h4>Note<\/h4>\n\n<ul>\n<li>FBF Facebook page Feed Widget requires PHP5<\/li>\n<li>You can display the feeds which are publicly accessible<\/li>\n<li>Provide multiple pages id sepearated by commas e.g id1,id2,id3,id4<\/li>\n<\/ul>",
+                "uid": "20078"
+            },
+            "1.2.1": {
+                "name": "wordpress\/fbf-facebook-page-feed-widget",
+                "version": "1.2.1",
+                "version_normalized": "1.2.1.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/fbf-facebook-page-feed-widget.1.2.1.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>This plugin displays the latest posts from one or multiple Facebook page(s) in a sidebar widget. \nFacebook page ID is enough to configure this widget.<\/p>\n\n<p>This plugin uses simplepie rss reader which is a in-built\/default reader for wordpress.<\/p>\n\n<p>Bug fixes \/ changes in this version:\n* wordpress HTTP header error message will be shown in case of any errors.\n* Feed are not cached now. So feeds will update on page refresh.\n* Update time is corrected.\n* Added option to show\/hide facebook like button inside the feed.\n* ul li issued fixed. the plugin outputs standard html now\n* css changes - container bg color and width removed. (If you use shortcode inside a post\/page, the feed will occupy whole content content area)<\/p>\n\n<h4>Note<\/h4>\n\n<ul>\n<li>FBF Facebook page Feed Widget requires PHP5<\/li>\n<li>You can display the feeds which are publicly accessible<\/li>\n<li>Provide multiple pages id sepearated by commas e.g id1,id2,id3,id4<\/li>\n<\/ul>",
+                "uid": "20077"
+            }
+        }
+    }
+}

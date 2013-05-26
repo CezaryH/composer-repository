@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/vbulletin-latest-threads": {
+            "0.1": {
+                "name": "wordpress\/vbulletin-latest-threads",
+                "version": "0.1",
+                "version_normalized": "0.1.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/vbulletin-latest-threads.0.1.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>Widget for display the latest vbullettin threads.\nThis plugin use the external rss service of vbullettin forum and load the threads in asynchronous mode.<\/p>\n\n<p>Configuration options:<\/p>\n\n<ul>\n<li>Widget title<\/li>\n<li>Forum url<\/li>\n<li>Wordpress charset<\/li>\n<li>Vbullettin rss charset<\/li>\n<\/ul>\n\n<p>Customization options:<\/p>\n\n<ul>\n<li>Max numbers of threads<\/li>\n<li>Show user's avatar<\/li>\n<li>Maximum number of character for the thread title<\/li>\n<\/ul>",
+                "uid": "63366"
+            }
+        }
+    }
+}

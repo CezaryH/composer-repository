@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/wp-pdftodoc-widget": {
+            "0.1": {
+                "name": "wordpress\/wp-pdftodoc-widget",
+                "version": "0.1",
+                "version_normalized": "0.1.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/wp-pdftodoc-widget.0.1.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>This plugin will enable you to add PDF to WORD converter widgets to your sidebars.\nNew widget, called \"WP PDFTOWORD Converter Widget\", is added. Each of these widgets can hold one PDF to WORD converter. For each widget\/converter you will have option to control widgets skin and maximum file size accepted for input file.\nGlobal Options page, \"WP PDF to WORD Converter Widget\", holds global skin and max file size settings, and affiliate ID field. Each skin have custom \"skin.css\" file with styles, using some custom templating tokens for element IDs.<\/p>\n\n<ul>\n<li>You can add multiple converter widgets. <\/li>\n<li>Each widget can have different settings.<\/li>\n<li>Each widget can have different CSS style\/skin.<\/li>\n<li>You can specify global settings that will apply for all widgets by default.<\/li>\n<li>Affiliate links included, you can add your affiliate ID on global settings page. <\/li>\n<li>Widget settings will override global settings for WP PDF to WORD Converter.<\/li>\n<li>Converter uses ",
+                "uid": "46336"
+            }
+        }
+    }
+}

@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/better-moderation": {
+            "1.5": {
+                "name": "wordpress\/better-moderation",
+                "version": "1.5",
+                "version_normalized": "1.5.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/better-moderation.1.5.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>Whereas the built in moderation just looks for keywords wherever they appear in the comments, Better Moderation allows you to define if it should just be the username, url, email, comment, ip, useragent or all of them.\nIt also allows you to define if when looking for \"word\" whether you should match \"WordPress\".\nFinally it lets you set reasons why words have been added to the list, allowing you to quickly realise why a comment has been added to the moderation queue.<\/p>",
+                "uid": "45469"
+            }
+        }
+    }
+}

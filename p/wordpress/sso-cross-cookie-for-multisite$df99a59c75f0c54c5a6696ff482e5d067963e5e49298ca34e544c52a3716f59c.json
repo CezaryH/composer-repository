@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/sso-cross-cookie-for-multisite": {
+            "1.0": {
+                "name": "wordpress\/sso-cross-cookie-for-multisite",
+                "version": "1.0",
+                "version_normalized": "1.0.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/sso-cross-cookie-for-multisite.1.0.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>Designed to be run in concert with <a href=\"http:\/\/wordpress.org\/extend\/plugins\/ssl-subdomain-for-multisite\/\">SSL Subdomain for Multisite<\/a>.<\/p>\n\n<p><strong>This plugin <em>depends<\/em> upon <a href=\"http:\/\/wordpress.org\/extend\/plugins\/wordpress-mu-domain-mapping\/\">WPMU Domain Mapping<\/a>, which must be installed and network activated for this to work.<\/strong><\/p>\n\n<h4>What this Plugin does<\/h4>\n\n<p>If you have the <a href=\"http:\/\/wordpress.org\/extend\/plugins\/ssl-subdomain-for-multisite\/\">SSL Subdomain for Multisite<\/a> plugin installed and network activated, you now have logins and admin happening on <code><a href=\"https:\/\/demo-site.mynetwork.com\" rel=\"nofollow\">https:\/\/demo-site.mynetwork.com<\/a><\/code>, while normal site access is on <code><a href=\"http:\/\/demo-site.com\" rel=\"nofollow\">http:\/\/demo-site.com<\/a><\/code>.<\/p>\n\n<p>This works great. Except, once you log in to <code>demo-site.mynetwork.com<\/code> to do some admin work, then visit the main site, perhaps to post a comme",
+                "uid": "28801"
+            }
+        }
+    }
+}

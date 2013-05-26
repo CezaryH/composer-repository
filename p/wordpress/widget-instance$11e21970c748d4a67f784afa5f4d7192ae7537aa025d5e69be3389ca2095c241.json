@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/widget-instance": {
+            "0.9.2": {
+                "name": "wordpress\/widget-instance",
+                "version": "0.9.2",
+                "version_normalized": "0.9.2.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/widget-instance.0.9.2.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>Widgets are normally displayed as part of a sidebar using the dynamic_sidebar()\nfunction. There is the_widget function for static widgets, but there is no\nequivalent for specific widgets configured in the Appearance &#62; Widgets area.<\/p>\n\n<p>The Widget Instance plugin empowers Wordpress users of all abilities to display\nthese widgets outside of the sidebars they have been assigned to.<\/p>\n\nFeatures\n\n<ol>\n<li>A wysiwyg editor button for selecting available widgets,<\/li>\n<li>A shortcode [widget_instance id=\"[widget_id]\"],<\/li>\n<li>A theme action do_action('widget_instance', [widget_id]) and finally<\/li>\n<li>Utility functions for developers get_widget_instance and widget_instance<\/li>\n<\/ol>\n\nUsage\n\n<ul>\n<li>[widget_instance id=\"[widget_id]\"]<\/li>\n<li>do_action('widget_instance', '[widget_id]');<\/li>\n<li>the_widget_instance('[widget_id]');<\/li>\n<li>get_the_widget_instance('[widget_id]');<\/li>\n<\/ul>",
+                "uid": "23722"
+            }
+        }
+    }
+}

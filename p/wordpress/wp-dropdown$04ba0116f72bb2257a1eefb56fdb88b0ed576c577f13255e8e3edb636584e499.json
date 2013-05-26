@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/wp-dropdown": {
+            "0.1": {
+                "name": "wordpress\/wp-dropdown",
+                "version": "0.1",
+                "version_normalized": "0.1.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/wp-dropdown.0.1.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>A shortcode that generates a select list of all sub-pages of the specified page. Works as a wrapper for the wp_dropdown_pages() function.<\/p>\n\n<p>Made by <a href=\"http:\/\/madebyraygun.com\/\">Raygun<\/a>.<\/p>",
+                "uid": "41263"
+            }
+        }
+    }
+}

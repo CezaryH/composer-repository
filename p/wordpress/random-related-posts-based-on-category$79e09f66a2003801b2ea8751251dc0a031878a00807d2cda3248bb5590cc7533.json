@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/random-related-posts-based-on-category": {
+            "1.0.2": {
+                "name": "wordpress\/random-related-posts-based-on-category",
+                "version": "1.0.2",
+                "version_normalized": "1.0.2.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/random-related-posts-based-on-category.1.0.2.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>This plugin allows you to list any number of related posts from the same category as the current post. You can also randomise these results. It is very lightweight, at only 3KB.<\/p>\n\n<p>There are a number of options available:<\/p>\n\n<ul>\n<li>Choose the number of Posts to show<\/li>\n<li>Choose whether it displays these posts randomly, or in order specified by you.<\/li>\n<li>Choose whether to display a title, what tags to use, and what text should be displayed (e.g. H3)<\/li>\n<li>Choose a class for the main UL<\/li>\n<\/ul>\n\n<p>To display the random related posts in its simplest form, simply place the following code in your single.php file - <code>&#60;?php relatedPosts(); ?&#62;<\/code>.<\/p>\n\n<p>To edit the options availble, use the following codes:<\/p>\n\n<pre><code>&#60;?php relatedPosts(\n    $ppp = 4, \n    $rand = true, \n    $rPinctitle = true, \n    $rPtitletag = &#039;h3&#039;, \n    $rPtitle = &#039;Related Posts&#039;, \n    $rPulclass = &#039;related_posts&#039;,\n    $orderby = &#039;titl",
+                "uid": "56020"
+            }
+        }
+    }
+}

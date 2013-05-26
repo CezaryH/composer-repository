@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/wp-buzzed": {
+            "0.1": {
+                "name": "wordpress\/wp-buzzed",
+                "version": "0.1",
+                "version_normalized": "0.1.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/wp-buzzed.0.1.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>WP-Buzz is a plugin to put a post to your [Buzz] account everytime you publish a blog post.\nAll you have to do is setup this plugin, enter your sitename,oauth_consumer_key,oauth_consumer_secret and your domain.<\/p>",
+                "uid": "65859"
+            }
+        }
+    }
+}

@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/hide-it": {
+            "1.0.1": {
+                "name": "wordpress\/hide-it",
+                "version": "1.0.1",
+                "version_normalized": "1.0.1.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/hide-it.1.0.1.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>This plugin allows you to toggle visibility of any objects from within a post or page using shorttags and CSS class name or id attribute selectors. Example: <code>[hideit hide=\".widget-1, #header-div\" show=\".widget-2, p:contains('Lorem Ipsum')\"]<\/code>. A .dot indicates this is a class name, a #hash mark indicates this is an id attribute, and a comma separates each object. Easy enough. You can get an object's id or class name by viewing the source code for your webpage.<\/p>",
+                "uid": "53635"
+            }
+        }
+    }
+}

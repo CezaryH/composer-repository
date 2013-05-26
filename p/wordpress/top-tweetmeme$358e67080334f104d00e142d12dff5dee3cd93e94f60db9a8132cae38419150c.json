@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/top-tweetmeme": {
+            "1.0": {
+                "name": "wordpress\/top-tweetmeme",
+                "version": "1.0",
+                "version_normalized": "1.0.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/top-tweetmeme.1.0.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>The Top Tweetmeme plugin for WordPress ranks articles based on the number of\nretweets they receive through the Tweetmeme service. It comes with both a \nwidget for use with sidebar-enabled themes, and a utility function to use as you wish.<\/p>\n\n<p>Tweetmeme counts are updated by a scheduled task on an hourly basis.<\/p>",
+                "uid": "115253"
+            }
+        }
+    }
+}

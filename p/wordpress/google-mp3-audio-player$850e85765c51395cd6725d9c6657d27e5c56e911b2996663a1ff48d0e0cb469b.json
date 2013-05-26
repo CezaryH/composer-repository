@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/google-mp3-audio-player": {
+            "1.0.8": {
+                "name": "wordpress\/google-mp3-audio-player",
+                "version": "1.0.8",
+                "version_normalized": "1.0.8.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/google-mp3-audio-player.1.0.8.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>The plugin 'CodeArt - Google MP3 Audio Player (for WordPress)' will allow you to embed mp3 audio files in a player where you want on the post(s), page(s) and\/or sidebar(s).<\/p>\n\n<ul>\n<li>HTML5 support for iPhone (in version 1.0.8)<\/li>\n<\/ul>\n\n<p>First of all, you need to upload\/host your mp3 audio file which you want to embed in the posts.\nYou can do this via Media Library (from WordPress) or another file hosting.\nAfter uploading your mp3 audio file you need to copy the full URL path of the uploaded mp3 file and to put in the post where you want to be displayed in this format:<\/p>\n\n<pre><code>[ca_audio url=&#34;URL&#34; width=&#34;WIDTH&#34; height=&#34;HEIGHT&#34; css_class=&#34;CSS_CLASS&#34;]<\/code><\/pre>\n\n<p>The shortcode shoult looks like this:<\/p>\n\n<pre><code>[ca_audio url=&#34;http:\/\/www.example.com\/path\/to\/mp3\/file\/audio_file.mp3&#34; width=&#34;500&#34; height=&#34;27&#34; css_class=&#34;codeart-google-mp3-player&#34; autoplay=&#34;true&#34;]<\/code><\/pre>\n\n<ul>\n<li>URL - Fu",
+                "uid": "25464"
+            }
+        }
+    }
+}

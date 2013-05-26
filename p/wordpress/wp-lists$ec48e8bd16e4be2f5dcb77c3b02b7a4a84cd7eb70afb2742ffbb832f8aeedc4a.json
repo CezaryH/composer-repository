@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/wp-lists": {
+            "1.8": {
+                "name": "wordpress\/wp-lists",
+                "version": "1.8",
+                "version_normalized": "1.8.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/wp-lists.1.8.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>This plugin facilitates list management capabilities directly from the administrative console. It also provides a custom list tag to embed lists inside posts and pages. There are also several API methods available for direct manipulation.<\/p>",
+                "uid": "115059"
+            }
+        }
+    }
+}

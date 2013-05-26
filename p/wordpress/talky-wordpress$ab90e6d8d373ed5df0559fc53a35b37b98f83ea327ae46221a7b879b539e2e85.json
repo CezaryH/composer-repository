@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/talky-wordpress": {
+            "1.0": {
+                "name": "wordpress\/talky-wordpress",
+                "version": "1.0",
+                "version_normalized": "1.0.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/talky-wordpress.1.0.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>This plugin adds sound events for publishing and deleting posts or pages, plugin activation and deactivation and theme activation. We're also thinking about adding an event for theme deactivation, please let us know what you think about it.<\/p>",
+                "uid": "86868"
+            }
+        }
+    }
+}

@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/ga-link-tracker": {
+            "1.0": {
+                "name": "wordpress\/ga-link-tracker",
+                "version": "1.0",
+                "version_normalized": "1.0.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/ga-link-tracker.1.0.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>A tiny WordPress plugin to track events of link clicks in the main content area of the site. Install it and forget about it.<\/p>\n\n<p>Links will show up under Events in the Analytics site, and will have a category of 'Links', a label of 'PageID: CURRENT_PAGE_URI', and the value of the href of the link being tracked.<\/p>\n\n<p>Example of code added to properly formed URLs in main post content:<\/p>\n\n<pre><code>onclick=&#34;javascript:_gaq.push([&#039;_trackEvent&#039;, &#039;Links&#039;, &#039;PageID: \/my_blog\/2013\/04\/my_cool_post\/ &#039;, &#039;http:\/\/www.myurl.com\/my_blog\/my_link.html&#039;]);&#34;<\/code><\/pre>\n\n<p>The above example assumes the href of the link is: <code><a href=\"http:\/\/www.myurl.com\/my_blog\/my_link.html\" rel=\"nofollow\">http:\/\/www.myurl.com\/my_blog\/my_link.html<\/a><\/code><\/p>",
+                "uid": "9100"
+            }
+        }
+    }
+}

@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/rrze-access": {
+            "1.0": {
+                "name": "wordpress\/rrze-access",
+                "version": "1.0",
+                "version_normalized": "1.0.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/rrze-access.1.0.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>Beschr&#228;nken Sie den Zugriff von bestimmte IP-Adressen auf Artikel, Seiten und die entsprechenden Media-Dateien.<\/p>\n\n<p>Bei der Erstellung und Bearbeitung eines Artikels oder einer Seite, das Plugin f&#252;gt innerhalb des Ver&#246;ffentlichen-Metaboxes der Feldbereich \"Beschr&#228;nkung von IP-Adressen\" hinzu. Siehe <a href=\"http:\/\/wordpress.org\/extend\/plugins\/rrze-access\/screenshots\/\">Screenshot<\/a>.<\/p>\n\n<p>Die IP-Adressen die gefiltert werden sollen m&#252;ssen im Textfeld \"IP-Adressen\" eingegeben werden. Regeln:<\/p>\n\n<ul>\n    <li>Eine IP-Adresse pro Zeile ist erlaubt<\/li>\n    <li>Nur IPv4-Adressen sind zul&#228;ssig<\/li>\n    <li>Platzhalterzeichen \"*\" ist akzeptiert. Beispielsweise:\n        <ul>\n            <li>192.168.1.*<\/li>\n            <li>192.168.*.2<\/li>\n            <li>192.168.*<\/li>\n            <li>192.*<\/li>\n            <li>*<\/li>\n        <\/ul>\n    <\/li>\n<\/ul>\n\n<p>Konfigurationsschritte f&#252;r die Datei \".htaccess\" finden Sie unter Einstellungen &#62; Zugriffsbe",
+                "uid": "18113"
+            }
+        }
+    }
+}

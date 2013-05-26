@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/versionit": {
+            "0.1": {
+                "name": "wordpress\/versionit",
+                "version": "0.1",
+                "version_normalized": "0.1.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/versionit.0.1.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>Removes default version query strings from CSS\/JS resources, appends the modified time to the filename, and creates the necessary .htaccess rewrites automagically.<\/p>\n\n<p><em>Explanation from <a href=\"http:\/\/w-shadow.com\/blog\/2012\/07\/30\/automatic-versioning-of-css-js\/\">wshadow<\/a><\/em><\/p>\n\n<p>If you&#8217;re a WordPress developer, this will probably sound familiar: you make a change to one of your scripts or style sheets, reload the page you&#8217;re working on to see the result, and&#8230; everything stays the same.<\/p>\n\n<p>Of course, after a moment of confusion, you realise that you didn&#8217;t update the $version argument in your wp_register_script() or wp_register_style() call (you are using the dependency APIs and not outputting the  or  tags directly, right?), so the browser is still using its old, cached version of the file. So you either force-refresh the page, or go back to the source code and change the version.<\/p>\n\n<p>This can become annoying very quickly. Worse yet, ",
+                "uid": "18748"
+            }
+        }
+    }
+}

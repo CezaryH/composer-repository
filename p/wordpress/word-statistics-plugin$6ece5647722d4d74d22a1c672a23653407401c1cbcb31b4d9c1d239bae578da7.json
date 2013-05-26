@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/word-statistics-plugin": {
+            "1.2": {
+                "name": "wordpress\/word-statistics-plugin",
+                "version": "1.2",
+                "version_normalized": "1.2.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/word-statistics-plugin.1.2.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>Shows word and sentence counts plus a readability analysis of the post\ncurrently being edited using three different readability measurements.<\/p>\n\n<p>Readability analysis is an attempt to show how difficult a text is to read.\nThere are several methods of doing readability analysis. The most popular\nmethods are used here. The Flesch and Flesch-Kincaid methods use formulas based\non the average number of words per sentence and the average number of syllables\nper word. The Gunning-Fog method uses a formula based on the average number of\nwords per sentence and the percentage of &#8220;hard&#8221; words (words with 3 or more\nsyllables) in the passage.<\/p>\n\n<p>Both the Gunning-Fog and the Flesch-Kincaid give a score that is the number of\nyears of education the reader must have completed to understand the text.\nDifferent types of writing calls for different scores. Technical subjects may\nrequire a higher level of education so a higher Fog or Kincaid score is\nacceptable. Informal writing may",
+                "uid": "105823"
+            }
+        }
+    }
+}

@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/simple-site-lockdown": {
+            "1.1": {
+                "name": "wordpress\/simple-site-lockdown",
+                "version": "1.1",
+                "version_normalized": "1.1.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/simple-site-lockdown.1.1.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>Need to make sure that a site is private for all but the administrators? Just activate this plugin.<\/p>\n\n<p>There are no settings, no configuration - it just forces anyone that isn't an admin to go to the login page. They won't see anything of the site at all. Great for hiding sites really quickly.<\/p>",
+                "uid": "11383"
+            }
+        }
+    }
+}

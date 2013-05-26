@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/simple-post-views-counter": {
+            "1.0": {
+                "name": "wordpress\/simple-post-views-counter",
+                "version": "1.0",
+                "version_normalized": "1.0.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/simple-post-views-counter.1.0.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>This plugin counts and displays all hits\/views in each post on your blog and saves it to the database. \nViews are counted each time a page or post is requested\/refreshed (unique and non-unique visitors) and displayed in the posts entry meta.\nThis plugin works on all posts and pages - no administrations necessary - easy installation.<\/p>",
+                "uid": "16705"
+            }
+        }
+    }
+}

@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/restore-jquery": {
+            "1.0": {
+                "name": "wordpress\/restore-jquery",
+                "version": "1.0",
+                "version_normalized": "1.0.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/restore-jquery.1.0.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>Some plugins and themes replace the default jQuery library that comes bundled with WordPress with another version, \ntypically from the Google AJAX CDN. This is generally bad practice, since many other plugins and themes rely on and\nexpect that the WordPress-bundled jQuery version is being loaded.<\/p>\n\n<p>Also, typically the alternative jQuery library being loaded is not executed in the jQuery noConflict mode, which tend\nto cause conflicts with other JavaScript frameworks, like Prototype and MooTools.<\/p>\n\n<p>This plugin simply restores the version of jQuery being loaded to the one that comes bundled with WordPress. It only\ndoes this if jQuery is already in the WordPress scripts queue, and won't do anything otherwise.<\/p>",
+                "uid": "27446"
+            }
+        }
+    }
+}

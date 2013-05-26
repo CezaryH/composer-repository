@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/add-home-to-admin-bar": {
+            "1.0": {
+                "name": "wordpress\/add-home-to-admin-bar",
+                "version": "1.0",
+                "version_normalized": "1.0.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/add-home-to-admin-bar.1.0.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>Since WordPress Version 3.1 - you know - there is the admin bar. This adds a link to the home page for easy return.  Based on the \"add editor link to admin bar\" plugin by <a href=\"http:\/\/kevinw.de\/\">Kevin Weber<\/a><\/p>",
+                "uid": "50414"
+            }
+        }
+    }
+}

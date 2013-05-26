@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/tc-comment-out": {
+            "1.2": {
+                "name": "wordpress\/tc-comment-out",
+                "version": "1.2",
+                "version_normalized": "1.2.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/tc-comment-out.1.2.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>Easily comment out page and post content using a shortcode.  Content is commented out using HTML comment syntax, keeping the content available in the \"View Source\" window of your web browser.<\/p>\n\n<p>Simply place the opening shortcode [comment] at the beginning of the text you wish to comment out, and the closing shortcode [\/comment] at the end.<\/p>\n\n<p>If you wish to hide the content entirely from view (so that it is <em>not<\/em> visible in the browser source), set the optional type attribute to \"hidden\". Setting the type attribute to \"html\" will produce the default behavior, but is not required.<\/p>",
+                "uid": "48613"
+            }
+        }
+    }
+}

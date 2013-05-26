@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/my-rss-plugin": {
+            "1.0.0": {
+                "name": "wordpress\/my-rss-plugin",
+                "version": "1.0.0",
+                "version_normalized": "1.0.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/my-rss-plugin.1.0.0.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>Hardik - Plugin to show RSS data from any RSS feed, admin can set it to widget area, set its title and number of records.<\/p>\n\n<p>you can use this plugin to show things like top 10 songs, top 10 news etc, for this you just have to add RSS URL and Title for widget.<\/p>",
+                "uid": "54742"
+            }
+        }
+    }
+}

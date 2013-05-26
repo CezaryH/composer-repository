@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/admin-links-sidebar-widget": {
+            "1.4.0": {
+                "name": "wordpress\/admin-links-sidebar-widget",
+                "version": "1.4.0",
+                "version_normalized": "1.4.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/admin-links-sidebar-widget.1.4.0.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>This plugin provides a widget which can contain links to pages in the administration panel in one of your sidebars.  These links are only visible to those already logged in as an administrator.<\/p>",
+                "uid": "111200"
+            }
+        }
+    }
+}

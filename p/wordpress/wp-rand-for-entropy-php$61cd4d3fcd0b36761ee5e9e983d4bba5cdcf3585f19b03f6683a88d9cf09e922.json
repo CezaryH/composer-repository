@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/wp-rand-for-entropy-php": {
+            "0.1": {
+                "name": "wordpress\/wp-rand-for-entropy-php",
+                "version": "0.1",
+                "version_normalized": "0.1.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/wp-rand-for-entropy-php.0.1.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>On some 32bit hosts, the Entropy builds of PHP truncate integers larger than PHP_INT_MAX to PHP_INT_MAX rather than overflowing them as floats.<\/p>\n\n<p>This can cause <code>wp_rand()<\/code> to return a value outside the requested range.  That unexpected value in turn breaks <code>wp_generate_password()<\/code>, which can have security ramifications.<\/p>\n\n<p>Of particular note to this plugin's authors, the bug prevents <a href=\"http:\/\/jetpack.me\">Jetpack<\/a> from functioning.<\/p>\n\n<p>This plugin works around the bug by redefining the pluggable <code>wp_rand()<\/code> function.  In the redefinition, large integers are expressed as strings and cast to floats, rather than as ints.<\/p>",
+                "uid": "33802"
+            }
+        }
+    }
+}

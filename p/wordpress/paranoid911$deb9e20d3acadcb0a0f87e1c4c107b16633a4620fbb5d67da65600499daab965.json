@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/paranoid911": {
+            "0.0.3": {
+                "name": "wordpress\/paranoid911",
+                "version": "0.0.3",
+                "version_normalized": "0.0.3.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/paranoid911.0.0.3.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>Paranoid911 checks your wordpress installation for changes and sends you an \nemail when changes occur.<\/p>\n\n<p>I decided to write this plugin when somebody hacked my blog's ftp and uploaded \na doorway script. I found out about this only after few weeks, with \nan accidental google query.<\/p>\n\n<p>One my friends have had another problem with his wordpress installation - \nsomebody hacked it and added a hidden iframe tag. He found this few days \nlater when his readers told him that their anti-virus software did not \nlet them visit his blog.<\/p>\n\n<p>This plugin will not save you from hackers. It will, however, notify you of \npossible attacks allowing you to fix things before your visitors find hidden \niframes or your blog loses its rank in google.<\/p>\n\n<p>After activation of this plugin you will receive a few emails with notices. \nDon't worry - this is a result of the first scan of your wordpress installation.<\/p>\n\n<p>This plugin checks wordpress directory (with all subdirectories) on the",
+                "uid": "97270"
+            }
+        }
+    }
+}

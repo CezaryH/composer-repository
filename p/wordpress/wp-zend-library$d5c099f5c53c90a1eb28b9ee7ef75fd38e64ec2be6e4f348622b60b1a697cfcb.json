@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/wp-zend-library": {
+            "1.0": {
+                "name": "wordpress\/wp-zend-library",
+                "version": "1.0",
+                "version_normalized": "1.0.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/wp-zend-library.1.0.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>Use this plugin to integrate the Zend Framework library into Wordpress, making it available for both themes and \nother plugins. It does not include the ZendX extra library.<\/p>\n\n<p>This plugin emulates the Zend Framework bootstrap file, without any application environment (because Wordpress does that), \nand includes a configuration file for setting database connection parameters.<\/p>\n\n<p>Zend Framework is an open source, object-oriented web application framework implemented in PHP 5 and licensed under the \nNew BSD License. It implements a popular application design pattern called model-view-controller (MVC). In this case, \nWordpress becomes the 'view' instead of a Zend Framework application.<\/p>\n\n<p>This plugin will probably work with versions of Wordpress earlier than 3.2, but if you are running such an earlier \nversion check your version of PHP. Zend Framework requires PHP 5.2.4 or later.<\/p>\n\n<p>Note: This is the first version of this plugin and it has not had extensive testing. ",
+                "uid": "41077"
+            }
+        }
+    }
+}

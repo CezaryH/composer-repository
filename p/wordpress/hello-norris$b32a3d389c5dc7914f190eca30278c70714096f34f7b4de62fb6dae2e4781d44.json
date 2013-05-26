@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/hello-norris": {
+            "1.0": {
+                "name": "wordpress\/hello-norris",
+                "version": "1.0",
+                "version_normalized": "1.0.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/hello-norris.1.0.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>Shows a random fact about Chuck Norris in the upper right of admin pages.<\/p>",
+                "uid": "15472"
+            }
+        }
+    }
+}

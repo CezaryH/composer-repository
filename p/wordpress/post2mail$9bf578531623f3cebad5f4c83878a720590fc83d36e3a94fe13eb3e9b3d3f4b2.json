@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/post2mail": {
+            "1.0.0": {
+                "name": "wordpress\/post2mail",
+                "version": "1.0.0",
+                "version_normalized": "1.0.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/post2mail.1.0.0.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>Post2Mail plugin allows you to automatically e-mail selected people when a post is published on your blog. Also useful for alerting an administrator when a post has been published on the blog. Configuration is done in the post2mail.config.php file which has comments to get you started.<\/p>\n\n<p>Some of WordPress user needed a plugin to send an e-mail to a mailing list whenever a post was published to the blog. Here is a modified version of the Post2Mail plugin which can email the post to a mailing list or email address.<\/p>",
+                "uid": "29071"
+            }
+        }
+    }
+}

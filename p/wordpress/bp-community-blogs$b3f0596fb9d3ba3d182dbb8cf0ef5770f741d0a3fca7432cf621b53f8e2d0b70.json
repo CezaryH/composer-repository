@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/bp-community-blogs": {
+            "0.42": {
+                "name": "wordpress\/bp-community-blogs",
+                "version": "0.42",
+                "version_normalized": "0.42.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/bp-community-blogs.0.42.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>This is a BuddyPress plugin that allows a Blog or Site Admin to turn a normal blog into a Community Blog or a Group Blog.  By activating the Community Blogs plugin, Administrators can give immediate registered user status to any member of their BuddyPress enabled site on the blogs they choose. All the member has to do is visit the blog. The user is silently added as a registered user of that blog. Administrators can choose the role the new user has.  Either Contributor or Author. Admins can give access to all users or users from specific BuddyPress groups.<\/p>",
+                "uid": "90557"
+            }
+        }
+    }
+}

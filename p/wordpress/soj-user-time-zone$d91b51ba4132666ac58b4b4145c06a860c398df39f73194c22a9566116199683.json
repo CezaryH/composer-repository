@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/soj-user-time-zone": {
+            "1.0": {
+                "name": "wordpress\/soj-user-time-zone",
+                "version": "1.0",
+                "version_normalized": "1.0.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/soj-user-time-zone.1.0.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>My intention was to create a plugin to allow authors to set their own time zones. It shouldn't take too much, but I keep having to put it off. It just needs to take into account daylight savings time, but this is a little tricky because you need to keep a record somehow of past DST times for posts published in the past.<\/p>\n\n<p>I have a couple ideas for implementing this, but if anyone else has any brilliant ideas, please go for it. Another thing I intend to do is hook into <code>pre_option_gmt_offset<\/code> instead of the <code>get_the_time<\/code> filter, as it does now.<\/p>\n\n<p>Let me know of any problems: <a href=\"mailto:jj56@indiana.edu\">jj56@indiana.edu<\/a><\/p>",
+                "uid": "89049"
+            }
+        }
+    }
+}

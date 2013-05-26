@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/log-deprecated-notices": {
+            "0.2": {
+                "name": "wordpress\/log-deprecated-notices",
+                "version": "0.2",
+                "version_normalized": "0.2.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/log-deprecated-notices.0.2.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>This plugin logs the usage of deprecated files, functions, and function arguments. It identifies where the deprecated functionality is being used and offers the alternative if available.<\/p>\n\n<p>This is a plugin for developers. WP_DEBUG is not needed, though its general usage is strongly recommended. Deprecated notices normally exposed by WP_DEBUG will be logged instead.<\/p>\n\n<p>This plugin also logs incorrect function usage, which WordPress started reporting in 3.1.<\/p>\n\n<p>Please report any bugs to plugins at <a href=\"http:\/\/andrewnacin.com\/\">andrewnacin.com<\/a>, or find me in IRC #wordpress-dev or @<a href=\"http:\/\/twitter.com\/nacin\">nacin<\/a> on Twitter.<\/p>\n\n<p>This is young software. It works, but there's a lot left on the todo (check out the Other Notes tab). Have an idea? Let me know.<\/p>",
+                "uid": "66666"
+            }
+        }
+    }
+}

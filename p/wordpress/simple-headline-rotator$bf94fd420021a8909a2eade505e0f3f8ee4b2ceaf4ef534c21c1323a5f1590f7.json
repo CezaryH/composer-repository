@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/simple-headline-rotator": {
+            "1.0": {
+                "name": "wordpress\/simple-headline-rotator",
+                "version": "1.0",
+                "version_normalized": "1.0.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/simple-headline-rotator.1.0.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>This plugin takes the 5 latest posts from the FrontPage category and rotates their titles and excerpts using a JQuery scroller. Based on <a href=\"http:\/\/www.learningjquery.com\/2006\/10\/scroll-up-headline-reader\">Scroll Up Headline Reader<\/a> by Karl Swedberg.<\/p>\n\n<p>User options allow setting custom width and height. Timing and direction of the scroll cannot currently be set by the user.<\/p>",
+                "uid": "91199"
+            }
+        }
+    }
+}

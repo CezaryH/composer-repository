@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/zanox-search-extension": {
+            "1.7": {
+                "name": "wordpress\/zanox-search-extension",
+                "version": "1.7",
+                "version_normalized": "1.7.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/zanox-search-extension.1.7.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>The plugin queries the zanox web service API for suitable advertising programs\nand products based on the search query and displayes appropriate products\nwithin the search result page.<\/p>\n\n<p>The plugin allows the configuration of the sales region as well as a minimum\nand maximum price for products. You can even select specific advertisers and\nproduct categories for an optimal selection of products that will be displayed\nwithin the search result list.<\/p>\n\n<p>Additional it is possible to configure how many products should be displayed\nand if they should be displayed above or underneath the search results on\nyour blog.<\/p>\n\n<p>You need a Zanox Web Services ConnectId to use the plugin.\n<a href=\"http:\/\/wiki.zanox.com\/en\/Web_Services#Start_using_zanox_Web_Services\" rel=\"nofollow\">http:\/\/wiki.zanox.com\/en\/Web_Services#Start_using_zanox_Web_Services<\/a><\/p>",
+                "uid": "83981"
+            }
+        }
+    }
+}

@@ -1,0 +1,40 @@
+{
+    "packages": {
+        "wordpress\/posts-list": {
+            "0.4.0": {
+                "name": "wordpress\/posts-list",
+                "version": "0.4.0",
+                "version_normalized": "0.4.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/posts-list.0.4.0.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>Adds a posts (or pages) list of your blog pages (or posts) by entering the shortcode [posts-list].<\/p>\n\n<p>First example shows how to add the posts list in its simplest form.<\/p>\n\n<pre><code>[posts-list]<\/code><\/pre>\n\n<p>Example shortcode will add a pages list to a page.<\/p>\n\n<pre><code>[posts-list type=page]<\/code><\/pre>\n\n<p>Example shortcode will add a posts list to a page displaying a year 2011 and 2010.<\/p>\n\n<pre><code>[posts-list year=&#34;2011,2010&#34;]<\/code><\/pre>\n\n<p>Example shortcode will add a posts list to a page displaying a category id 10 and 11.<\/p>\n\n<pre><code>[posts-list category=&#34;10,11&#34;]<\/code><\/pre>\n\n<p>Example display ONLY the title.<\/p>\n\n<pre><code>[posts-list date_format=FALSE]<\/code><\/pre>",
+                "uid": "55237"
+            },
+            "0.4.1": {
+                "name": "wordpress\/posts-list",
+                "version": "0.4.1",
+                "version_normalized": "0.4.1.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/posts-list.0.4.1.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>Adds a posts (or pages) list of your blog pages (or posts) by entering the shortcode [posts-list].<\/p>\n\n<p>First example shows how to add the posts list in its simplest form.<\/p>\n\n<pre><code>[posts-list]<\/code><\/pre>\n\n<p>Example shortcode will add a pages list to a page.<\/p>\n\n<pre><code>[posts-list type=page]<\/code><\/pre>\n\n<p>Example shortcode will add a posts list to a page displaying a year 2011 and 2010.<\/p>\n\n<pre><code>[posts-list year=&#34;2011,2010&#34;]<\/code><\/pre>\n\n<p>Example shortcode will add a posts list to a page displaying a category id 10 and 11.<\/p>\n\n<pre><code>[posts-list category=&#34;10,11&#34;]<\/code><\/pre>\n\n<p>Example display ONLY the title.<\/p>\n\n<pre><code>[posts-list date_format=FALSE]<\/code><\/pre>",
+                "uid": "55236"
+            }
+        }
+    }
+}

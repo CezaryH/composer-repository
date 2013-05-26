@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/buddypress-analytics": {
+            "1.1": {
+                "name": "wordpress\/buddypress-analytics",
+                "version": "1.1",
+                "version_normalized": "1.1.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/buddypress-analytics.1.1.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>This plugin will allow you to use your analytics script with your buddypress site (with wordpress mu) Supports any analytics script including but not limited to Google Analytics. Just replace the analytics code below with your own analytics code.<\/p>\n\n<p>Google analytics users can just replace the google analytics ID (UA-5834099-9 in the code) with your google analytics ID.<\/p>",
+                "uid": "78130"
+            }
+        }
+    }
+}

@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/amazon-affiliate-link-globalizer": {
+            "1.0": {
+                "name": "wordpress\/amazon-affiliate-link-globalizer",
+                "version": "1.0",
+                "version_normalized": "1.0.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/amazon-affiliate-link-globalizer.1.0.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>The plugin will install an output filter that checks for links to Amazon.com and Amzn.com. It then rewrites those links \ninside your posts to point to the <a href=\"http:\/\/a-fwd.com\/\" title=\"A-FWD\">A-FWD<\/a> service. \nA-FWD will do the country lookup for you. You can specify your Affiliate IDs for all the country sites in the plugin's Wordpress settings.<\/p>\n\n<ul>\n<li>Can rewrite single title text links (with ASIN) of various URL formats<\/li>\n<li>Supports Amazon.com and Amzn.com links<\/li>\n<li>Can forward to the correct Amazon store (Canada, UK, ...)<\/li>\n<li>The plugin does not change your database, so if you deactivate it you will get your unchanged Amazon links back.<\/li>\n<\/ul>\n\n<p>In contrast to similar plugins, this one does not use Javascript.<\/p>",
+                "uid": "9269"
+            }
+        }
+    }
+}

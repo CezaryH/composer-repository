@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/tdplugin-en": {
+            "1.0": {
+                "name": "wordpress\/tdplugin-en",
+                "version": "1.0",
+                "version_normalized": "1.0.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/tdplugin-en.1.0.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>This plugin will be useful for automatic post publication with ads. It works making a product search with key words\nin which the affiliate is enrolled and posts the results automatically with 2 different styles, keeping tracking\nfor the affiliate.<\/p>\n\n<p>In the text field to post we enter:\n   [td tdquery=\"your keywords here\" tdno=\"20\" tdpg=\"0\" tdmid=\"12345,234,189\" tdcat=\"68\" tdprice=\"20_200\" td_estilo=\"1 o 2\" prodfila=\"2\"]<\/p>\n\n<p>Where:\n-              Tdquery: key words to search\n-              Tdno: number of results to show\n-              Tdpg: number of results to start from\n-              Tdmid: merchant id, if several separated with commas.\n-              Tdcat: category in which to search\n-              Tdprice: price interval\n-              Td_estilo: at the moment there are 2 styles of presentation\no             1: In the first one the user may select the number of products per row using [prodfila]\no             2: The second one will show one result per line using the wh",
+                "uid": "75341"
+            }
+        }
+    }
+}

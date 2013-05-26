@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/login-page": {
+            "1.0": {
+                "name": "wordpress\/login-page",
+                "version": "1.0",
+                "version_normalized": "1.0.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/login-page.1.0.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>This plugin removes the default stylesheet from your WordPress login and loads a new stylesheet from theme directory called login.css.  That&#8217;s all there is too it. No settings or configuration required. You will still need to create a stylesheet and place that in your theme directory.  You can also copy the code directly to your functions.php so the user won&#8217;t have to download this plugin.<\/p>",
+                "uid": "29750"
+            }
+        }
+    }
+}

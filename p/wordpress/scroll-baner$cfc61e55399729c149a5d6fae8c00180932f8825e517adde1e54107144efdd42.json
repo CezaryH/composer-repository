@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/scroll-baner": {
+            "1.0": {
+                "name": "wordpress\/scroll-baner",
+                "version": "1.0",
+                "version_normalized": "1.0.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/scroll-baner.1.0.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>Scroll Banner allows you to easily animate multiple layers of graphics in the header of the page (as in the <a href=\"http:\/\/ad3.eu)\" rel=\"nofollow\">http:\/\/ad3.eu)<\/a>. As each layer can move at a different speed get peudo-3D effect.\nFor each layer you have to prepare the appropriate image file (ie seamless end must fit perfectly to the beginning) in PNG format (due to transparency). Each graphics can have different widths, but they should have the same height. We load the graphics system configuration tab, set some additional parameters, add the template to the desired location<\/p>\n\n<p>&#60;<\/p>\n\n<p>div id=\"name\"&#62;&#60;\/ div&#62; and you're done :)\nThe downloaded files can be viewed (eye icon appears) or deleted if the layer is not necessary (will not be added to the container).<\/p>",
+                "uid": "12910"
+            }
+        }
+    }
+}

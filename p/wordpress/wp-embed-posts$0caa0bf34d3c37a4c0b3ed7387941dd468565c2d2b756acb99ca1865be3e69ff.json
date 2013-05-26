@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/wp-embed-posts": {
+            "1.0.1": {
+                "name": "wordpress\/wp-embed-posts",
+                "version": "1.0.1",
+                "version_normalized": "1.0.1.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/wp-embed-posts.1.0.1.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>This plugin allows users to embed posts into other posts. Posts are embeded by default by printing the title\nwithin an <code>&#60;h2&#62;<\/code> tag and by applything <code>the_content<\/code> filter to the post content. The plugin also adds a shortcode\nof <code>wpembed_content<\/code> which passes two variables, the post object and the post type to allow developers to have\nfull control over how any given embeded post is rendered.<\/p>",
+                "uid": "11346"
+            }
+        }
+    }
+}

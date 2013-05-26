@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/wordpress-aggregator": {
+            "1.0": {
+                "name": "wordpress\/wordpress-aggregator",
+                "version": "1.0",
+                "version_normalized": "1.0.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/wordpress-aggregator.1.0.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>WordPress Aggregator Plugin can gather information from other sites and display them,use PHP or the Shortcode.The plugin use the standards of WordPress, non extra library; use <a href=\"http:\/\/simplepie.org\/\">SimplePie<\/a> for parse feeds.<\/p>\n\n<p>You can contact me here:http:\/\/www.loosky.net\/?page_id=489, or send e-mail:zhuquan168@gmail.com.<\/p>\n\n<p>Please visit <a href=\"http:\/\/www.loosky.net\/?p=890\">the official website<\/a> for the latest information on this plugin.<\/p>\n\n<p>Use following code with a PHP-Plugin or in a template, example <code>single.php<\/code>, for WordPress:<\/p>\n\n<p>Example for function:\n<\/p>\n\n<p>Example for Shortcode:\n[WPAggregator perpage=6 maxto=6 istruncate='true\/false' truncatedescchar=600 truncatedescstring='...' date<em>format='' target = '<\/em>blank']\n_\nFor boolean parameter($istruncate) it is possible to use the string 'true' or 'false'.<\/p>\n\n<p>The plugin have many parameters for custom import and display content form feeds. See the list of parameters. Yo",
+                "uid": "78941"
+            }
+        }
+    }
+}

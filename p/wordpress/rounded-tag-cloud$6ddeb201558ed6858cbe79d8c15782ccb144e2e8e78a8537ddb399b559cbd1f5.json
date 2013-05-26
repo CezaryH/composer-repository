@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/rounded-tag-cloud": {
+            "1.0": {
+                "name": "wordpress\/rounded-tag-cloud",
+                "version": "1.0",
+                "version_normalized": "1.0.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/rounded-tag-cloud.1.0.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>If you are using standard version of WordPress tag cloud widget, you may feel boring or dislike its look-and-feel. This 'rounded tag cloud' widget offers different look-and-feel. Technically it uses the same function with the standard tag cloud widget. It only formats the look of tags so that it has different background and rounded corner. It also doesn't differentiate the font-size of tags, all tags have the same font-size that can be set from admin options screen.<\/p>\n\n<p>The rounded corner effect is achieved using CSS attribute. As you might already know, currently no standard CSS attribute to achieve the rounded corner behavior. There are at least three different attributes, used by different browsers to achive the rounded corner effect: border-radius, -moz-border-radius, and -webkit-border-radius. Mozilla Firefox, Google Chrome, Opera, and Safari browser understands one of them. However, Internet Explorer ignores those attributes. So, in Internet Explorer, the shape of the tag ",
+                "uid": "65962"
+            }
+        }
+    }
+}

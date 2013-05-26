@@ -1,0 +1,57 @@
+{
+    "packages": {
+        "wordpress\/block-disposable-email-addresses": {
+            "0.3": {
+                "name": "wordpress\/block-disposable-email-addresses",
+                "version": "0.3",
+                "version_normalized": "0.3.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/block-disposable-email-addresses.0.3.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>This plugin prevent people from registering with disposable email addresses (dea) like the ones provided by mailinator (also known as throw-away email, one-time email). It protects your most important asset, your registered user base, by preventing contamination by fake accounts. This plugin working principle is similar to spam blacklists.<\/p>\n\n<p>It hooks in the wordpress function is_email() so it will extend the known email validation of wordpress to detect dea domains.<\/p>\n\n<p>The plugin itself does not contain a list of domains to block. Instead of local maintenance the plugin uses the service of <a href=\"http:\/\/www.block-disposable-email.com\" rel=\"nofollow\">http:\/\/www.block-disposable-email.com<\/a>. This is a very accurate free service for up to 200 queries a month. For huge sites several commercial plans are available.<\/p>\n\n<p>Please see the FAQ section for some more information.<\/p>",
+                "uid": "31842"
+            },
+            "0.4": {
+                "name": "wordpress\/block-disposable-email-addresses",
+                "version": "0.4",
+                "version_normalized": "0.4.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/block-disposable-email-addresses.0.4.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>This plugin prevent people from registering with disposable email addresses (dea) like the ones provided by mailinator (also known as throw-away email, one-time email). It protects your most important asset, your registered user base, by preventing contamination by fake accounts. This plugin working principle is similar to spam blacklists.<\/p>\n\n<p>It hooks in the wordpress function is_email() so it will extend the known email validation of wordpress to detect dea domains.<\/p>\n\n<p>The plugin itself does not contain a list of domains to block. Instead of local maintenance the plugin uses the service of <a href=\"http:\/\/www.block-disposable-email.com\" rel=\"nofollow\">http:\/\/www.block-disposable-email.com<\/a>. This is a very accurate free service for up to 200 queries a month. For huge sites several commercial plans are available.<\/p>\n\n<p>Please see the FAQ section for some more information.<\/p>",
+                "uid": "31841"
+            },
+            "0.5": {
+                "name": "wordpress\/block-disposable-email-addresses",
+                "version": "0.5",
+                "version_normalized": "0.5.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/block-disposable-email-addresses.0.5.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>This plugin prevent people from registering with disposable email addresses (dea) like the ones provided by mailinator (also known as throw-away email, one-time email). It protects your most important asset, your registered user base, by preventing contamination by fake accounts. This plugin working principle is similar to spam blacklists.<\/p>\n\n<p>It hooks in the wordpress function is_email() so it will extend the known email validation of wordpress to detect dea domains.<\/p>\n\n<p>The plugin itself does not contain a list of domains to block. Instead of local maintenance the plugin uses the service of <a href=\"http:\/\/www.block-disposable-email.com\" rel=\"nofollow\">http:\/\/www.block-disposable-email.com<\/a>. This is a very accurate free service for up to 200 queries a month. For huge sites several commercial plans are available.<\/p>\n\n<p>Please see the FAQ section for some more information.<\/p>",
+                "uid": "31840"
+            }
+        }
+    }
+}

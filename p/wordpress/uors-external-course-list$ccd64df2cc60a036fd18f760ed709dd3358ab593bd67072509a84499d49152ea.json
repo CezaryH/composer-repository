@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/uors-external-course-list": {
+            "0.1.4": {
+                "name": "wordpress\/uors-external-course-list",
+                "version": "0.1.4",
+                "version_normalized": "0.1.4.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/uors-external-course-list.0.1.4.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>This plugin adds a \"Quick Reserve\" widget to your wordpress weblog sidebar.  With this widget you can display a list of services that you provide on the sidebar, so that your customers can make reservations online.  In development of this plugin, we assume that your service is priced by time length.<\/p>\n\n<p>Instructors, counsellors, lawyers, language teachers, etc, as long as you price your service by time length, this plugin gives you a good start point.<\/p>\n\n<p>This plugin does NOT put HEAVY burden on your site, rather it uses a dedicated backend site.  This means that you don't have to be worried about many website settings and scripting work, such as emailing, user account menagement, gathering user information, calculating vacant time, avoid room conflicts, etc.  It also avoids building a large number of database objects on your site, so that you don't have to be worried about renting for strong enough servers to afford the heavily accessed database.  In short, this plugin simp",
+                "uid": "24218"
+            }
+        }
+    }
+}

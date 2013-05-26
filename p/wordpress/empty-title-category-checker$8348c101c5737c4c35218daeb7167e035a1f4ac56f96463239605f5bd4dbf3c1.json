@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/empty-title-category-checker": {
+            "1.0.1": {
+                "name": "wordpress\/empty-title-category-checker",
+                "version": "1.0.1",
+                "version_normalized": "1.0.1.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/empty-title-category-checker.1.0.1.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>Checks if title is empty or if no category or category \"no category\" is checked then cancel publish or update<\/p>",
+                "uid": "10078"
+            }
+        }
+    }
+}

@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/enhanced-menu-editor": {
+            "1.1": {
+                "name": "wordpress\/enhanced-menu-editor",
+                "version": "1.1",
+                "version_normalized": "1.1.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/enhanced-menu-editor.1.1.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>The built-in menu editor for WordPress is a nicely built utility.  But often with larger content sites you end up spending a lot of effort keeping the\nmenus and the pages in sync.  This plugin serves three major purposes:<\/p>\n\n<ol>\n<li>Allows for easy creation of sitemap menus by removing the pagination setting for \"View All\" pages.<\/li>\n<li>Allows for copying entire menus to a new menu.<\/li>\n<li>Allows you to synchronize the parent-child hierarchy of pages with the parent-child hierarchy of a given menu.<\/li>\n<\/ol>\n\n<p>The first feature is pretty clear, it's a pain to add say 150 pages to a sitemap menu when they are paginated by default at 50 pages.<\/p>\n\n<p>The second feature allows you to copy an existing menu and play around with tweaks to the structure without losing the effort put into the original menu.<\/p>\n\n<p>And the third feature is my favorite.  Basically instead of going to every single page and modifying the parent\/child relationship, you can create a sitemap menu and u",
+                "uid": "21602"
+            }
+        }
+    }
+}

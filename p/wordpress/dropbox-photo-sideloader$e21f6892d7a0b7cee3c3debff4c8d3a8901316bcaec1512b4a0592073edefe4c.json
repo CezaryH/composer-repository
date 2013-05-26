@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/dropbox-photo-sideloader": {
+            "0.5": {
+                "name": "wordpress\/dropbox-photo-sideloader",
+                "version": "0.5",
+                "version_normalized": "0.5.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/dropbox-photo-sideloader.0.5.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>Adds a new tab to the Add media screen, allowing you to pull images from Dropbox into WordPress.<\/p>\n\n<p>\"Sideloading\" is a term given to differeniate from \"uploading\" or \"downloading\". When you sideload an image, you're copying it directly from Dropbox to WordPress. So if you keep your images in Dropbox, this plugin allows you to easily copy those images into WordPress.<\/p>\n\n<p>After sideloading an image into WordPress, you'll find it in the Media Library and available for use in Galleries, or as images in the Post, or just whatever you like. It's just as if you uploaded them manually.<\/p>\n\n<p>Note that sideloading many images at once may take more time than your webserver will allow. If this happens, just sideload them in smaller groups.<\/p>\n\n<p>Credits:<\/p>\n\n<ul>\n<li>This plugin uses the Dropbox PHP code (albeit modified slightly) from <a href=\"https:\/\/github.com\/Dropbox-PHP\/dropbox-php\" rel=\"nofollow\">https:\/\/github.com\/Dropbox-PHP\/dropbox-php<\/a>.<\/li>\n<li>This plugin uses the ",
+                "uid": "22848"
+            }
+        }
+    }
+}

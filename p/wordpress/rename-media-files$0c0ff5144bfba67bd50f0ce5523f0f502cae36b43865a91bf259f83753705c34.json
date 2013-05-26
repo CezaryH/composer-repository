@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/rename-media-files": {
+            "1.0": {
+                "name": "wordpress\/rename-media-files",
+                "version": "1.0",
+                "version_normalized": "1.0.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/rename-media-files.1.0.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p><a href=\"http:\/\/blog.milandinic.com\/wordpress\/plugins\/rename-media-files\/\">Plugin homepage<\/a> &#124; <a href=\"http:\/\/blog.milandinic.com\/\">Plugin author<\/a> &#124; <a href=\"http:\/\/blog.milandinic.com\/donate\/\">Donate<\/a><\/p>\n\n<p>This plugin enables renaming of media files. It adds a field in media edit form where you can enter new file name. After renaming, it'll regenerate all intermediate image sizes (if media file is an image) and update all links inside posts.<\/p>\n\n<p>If you are translator, you can translate it to your language and send translations to plugin's author.<\/p>",
+                "uid": "66125"
+            }
+        }
+    }
+}

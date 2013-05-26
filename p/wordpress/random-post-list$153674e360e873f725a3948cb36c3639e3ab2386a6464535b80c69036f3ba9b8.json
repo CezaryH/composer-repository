@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/random-post-list": {
+            "0.2": {
+                "name": "wordpress\/random-post-list",
+                "version": "0.2",
+                "version_normalized": "0.2.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/random-post-list.0.2.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>To add random list of submitted posts and one random link with customized link string.<\/p>\n\n<p><strong>Usage<\/strong><\/p>\n\n<p>To put previous posts list randomly, you shuould just add below string at the place where you want to place it.<\/p>\n\n<pre><code>&#60;?php rpl_random_lists(); ?&#62;\n<\/code><\/pre>\n\n<p>And if you want to customize the list, youcan use 5 options<\/p>\n\n<pre><code>&#60;?php rpl_random_lists(num_limit,exclude,date_limit,echo,list); ?&#62;\n<\/code><\/pre>\n\n<p>num_limit : default value is \"5\"\n   set the maximum number to show in output list.\n exclude : default value is \"\"\n   set the post ID which you never want to show in output list.\n date_limit : default value is \"\"\n   set date limit. posts which is later than this date limit never be shown in output list.\n   the date will be evaluate by strtotime function, so available format for this option is same as strtotime function.\n echo : default value is true\n   If set this value as true then function returns result as outpu",
+                "uid": "92216"
+            }
+        }
+    }
+}

@@ -1,0 +1,40 @@
+{
+    "packages": {
+        "wordpress\/default-theme-pages": {
+            "0.2": {
+                "name": "wordpress\/default-theme-pages",
+                "version": "0.2",
+                "version_normalized": "0.2.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/default-theme-pages.0.2.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<h4>This plugin is intended to be useful for template developers<\/h4>\n\n<h4>New in version 0.4<\/h4>\n\n<ul>\n<li>added 'object' (page object) in every $default_theme_pages item for fast access.<\/li>\n<li>added all default pages to wp toolbar, inside 'site name', to increase user experience.<\/li>\n<\/ul>\n\n<h4>How to use<\/h4>\n\n<p>Add this code in your <em>functions.php<\/em>.<\/p>\n\n<pre><code>global $default_theme_pages;\n$default_theme_pages = array(\n    array(\n        &#039;name&#039; =&#62; &#039;home&#039;,               \/\/ initial slug page \/ id for templating - access functions\n        &#039;title&#039; =&#62; &#039;Homepage&#039;,          \/\/ page title\n        &#039;option&#039; =&#62; &#039;page_on_front&#039;,    \/\/ option page id ( stores the page id in an option, use only in theese cases)\n        &#039;description&#039; =&#62; &#039;homepage&#039;     \/\/ description\n    ),\n    array(\n        &#039;name&#039; =&#62; &#039;blog&#039;,\n        &#039;title&#039; =&#62; &#039;Blog&#039;,\n  ",
+                "uid": "22997"
+            },
+            "0.4": {
+                "name": "wordpress\/default-theme-pages",
+                "version": "0.4",
+                "version_normalized": "0.4.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/default-theme-pages.0.4.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<h4>This plugin is intended to be useful for template developers<\/h4>\n\n<h4>New in version 0.4<\/h4>\n\n<ul>\n<li>added 'object' (page object) in every $default_theme_pages item for fast access.<\/li>\n<li>added all default pages to wp toolbar, inside 'site name', to increase user experience.<\/li>\n<\/ul>\n\n<h4>How to use<\/h4>\n\n<p>Add this code in your <em>functions.php<\/em>.<\/p>\n\n<pre><code>global $default_theme_pages;\n$default_theme_pages = array(\n    array(\n        &#039;name&#039; =&#62; &#039;home&#039;,               \/\/ initial slug page \/ id for templating - access functions\n        &#039;title&#039; =&#62; &#039;Homepage&#039;,          \/\/ page title\n        &#039;option&#039; =&#62; &#039;page_on_front&#039;,    \/\/ option page id ( stores the page id in an option, use only in theese cases)\n        &#039;description&#039; =&#62; &#039;homepage&#039;     \/\/ description\n    ),\n    array(\n        &#039;name&#039; =&#62; &#039;blog&#039;,\n        &#039;title&#039; =&#62; &#039;Blog&#039;,\n  ",
+                "uid": "22996"
+            }
+        }
+    }
+}

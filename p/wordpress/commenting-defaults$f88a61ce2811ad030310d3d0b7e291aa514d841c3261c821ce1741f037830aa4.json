@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/commenting-defaults": {
+            "0.1": {
+                "name": "wordpress\/commenting-defaults",
+                "version": "0.1",
+                "version_normalized": "0.1.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/commenting-defaults.0.1.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>Currently only disables (unchecks) Commenting and Ping Backs from New Page \n-form.<\/p>\n\n<p>Aim of this project is to eventually allow defining default values of <em>Allow \ncommenting<\/em> and <em>Ping Backs<\/em> for all registered Custom Post Types\nstraight from the <em>Settings<\/em> -&#62; <em>Discussion<\/em>.<\/p>",
+                "uid": "37471"
+            }
+        }
+    }
+}

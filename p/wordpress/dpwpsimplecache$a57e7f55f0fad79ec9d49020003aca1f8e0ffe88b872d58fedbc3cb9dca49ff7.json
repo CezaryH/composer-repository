@@ -1,0 +1,108 @@
+{
+    "packages": {
+        "wordpress\/dpwpsimplecache": {
+            "0.1": {
+                "name": "wordpress\/dpwpsimplecache",
+                "version": "0.1",
+                "version_normalized": "0.1.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/dpwpsimplecache.0.1.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>D(ifferent)P(lace) Simple Cache is a WordPress plugin to implement a simple cache of objects at session level.<\/p>\n\n<p>dpwpsimplecache provides a global variable $dpcache, which is an instantiation of the class DP_Cache already set up to talk to the $_SESSION. Always use the global $dpcache variable (Remember to globalize $dpcache before using it in any custom functions).<\/p>\n\n<p>If you don't want to track sessions into db set the $USE_DB_SESSION_MANAGER global variable to 0<\/p>\n\n<pre><code>`global $USE_DB_SESSION_MANAGER;`\n`$USE_DB_SESSION_MANAGER = 0; \/\/ default 1`\n<\/code><\/pre>\n\n<p>Insert object;<\/p>\n\n<pre><code>`$dpcache-&#62;set($key,$object);`\n<\/code><\/pre>\n\n<p>Get object:<\/p>\n\n<pre><code>`$object = $dpcache-&#62;set($key);`\n<\/code><\/pre>\n\n<p>Count active users:<\/p>\n\n<pre><code>`$count_users = $dpcache-&#62;get_sessions_number();`\n<\/code><\/pre>\n\n<p>Count objects in the current user's $_SESSION:<\/p>\n\n<pre><code>`$dpcache-&#62;get_statistics();`\n<\/code><\/pre>\n\n<p>Get all objects",
+                "uid": "32902"
+            },
+            "0.2": {
+                "name": "wordpress\/dpwpsimplecache",
+                "version": "0.2",
+                "version_normalized": "0.2.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/dpwpsimplecache.0.2.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>D(ifferent)P(lace) Simple Cache is a WordPress plugin to implement a simple cache of objects at session level.<\/p>\n\n<p>dpwpsimplecache provides a global variable $dpcache, which is an instantiation of the class DP_Cache already set up to talk to the $_SESSION. Always use the global $dpcache variable (Remember to globalize $dpcache before using it in any custom functions).<\/p>\n\n<p>If you don't want to track sessions into db set the $USE_DB_SESSION_MANAGER global variable to 0<\/p>\n\n<pre><code>`global $USE_DB_SESSION_MANAGER;`\n`$USE_DB_SESSION_MANAGER = 0; \/\/ default 1`\n<\/code><\/pre>\n\n<p>Insert object;<\/p>\n\n<pre><code>`$dpcache-&#62;set($key,$object);`\n<\/code><\/pre>\n\n<p>Get object:<\/p>\n\n<pre><code>`$object = $dpcache-&#62;set($key);`\n<\/code><\/pre>\n\n<p>Count active users:<\/p>\n\n<pre><code>`$count_users = $dpcache-&#62;get_sessions_number();`\n<\/code><\/pre>\n\n<p>Count objects in the current user's $_SESSION:<\/p>\n\n<pre><code>`$dpcache-&#62;get_statistics();`\n<\/code><\/pre>\n\n<p>Get all objects",
+                "uid": "32901"
+            },
+            "0.3": {
+                "name": "wordpress\/dpwpsimplecache",
+                "version": "0.3",
+                "version_normalized": "0.3.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/dpwpsimplecache.0.3.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>D(ifferent)P(lace) Simple Cache is a WordPress plugin to implement a simple cache of objects at session level.<\/p>\n\n<p>dpwpsimplecache provides a global variable $dpcache, which is an instantiation of the class DP_Cache already set up to talk to the $_SESSION. Always use the global $dpcache variable (Remember to globalize $dpcache before using it in any custom functions).<\/p>\n\n<p>If you don't want to track sessions into db set the $USE_DB_SESSION_MANAGER global variable to 0<\/p>\n\n<pre><code>`global $USE_DB_SESSION_MANAGER;`\n`$USE_DB_SESSION_MANAGER = 0; \/\/ default 1`\n<\/code><\/pre>\n\n<p>Insert object;<\/p>\n\n<pre><code>`$dpcache-&#62;set($key,$object);`\n<\/code><\/pre>\n\n<p>Get object:<\/p>\n\n<pre><code>`$object = $dpcache-&#62;set($key);`\n<\/code><\/pre>\n\n<p>Count active users:<\/p>\n\n<pre><code>`$count_users = $dpcache-&#62;get_sessions_number();`\n<\/code><\/pre>\n\n<p>Count objects in the current user's $_SESSION:<\/p>\n\n<pre><code>`$dpcache-&#62;get_statistics();`\n<\/code><\/pre>\n\n<p>Get all objects",
+                "uid": "32900"
+            },
+            "0.3.1": {
+                "name": "wordpress\/dpwpsimplecache",
+                "version": "0.3.1",
+                "version_normalized": "0.3.1.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/dpwpsimplecache.0.3.1.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>D(ifferent)P(lace) Simple Cache is a WordPress plugin to implement a simple cache of objects at session level.<\/p>\n\n<p>dpwpsimplecache provides a global variable $dpcache, which is an instantiation of the class DP_Cache already set up to talk to the $_SESSION. Always use the global $dpcache variable (Remember to globalize $dpcache before using it in any custom functions).<\/p>\n\n<p>If you don't want to track sessions into db set the $USE_DB_SESSION_MANAGER global variable to 0<\/p>\n\n<pre><code>`global $USE_DB_SESSION_MANAGER;`\n`$USE_DB_SESSION_MANAGER = 0; \/\/ default 1`\n<\/code><\/pre>\n\n<p>Insert object;<\/p>\n\n<pre><code>`$dpcache-&#62;set($key,$object);`\n<\/code><\/pre>\n\n<p>Get object:<\/p>\n\n<pre><code>`$object = $dpcache-&#62;set($key);`\n<\/code><\/pre>\n\n<p>Count active users:<\/p>\n\n<pre><code>`$count_users = $dpcache-&#62;get_sessions_number();`\n<\/code><\/pre>\n\n<p>Count objects in the current user's $_SESSION:<\/p>\n\n<pre><code>`$dpcache-&#62;get_statistics();`\n<\/code><\/pre>\n\n<p>Get all objects",
+                "uid": "32899"
+            },
+            "0.3.2": {
+                "name": "wordpress\/dpwpsimplecache",
+                "version": "0.3.2",
+                "version_normalized": "0.3.2.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/dpwpsimplecache.0.3.2.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>D(ifferent)P(lace) Simple Cache is a WordPress plugin to implement a simple cache of objects at session level.<\/p>\n\n<p>dpwpsimplecache provides a global variable $dpcache, which is an instantiation of the class DP_Cache already set up to talk to the $_SESSION. Always use the global $dpcache variable (Remember to globalize $dpcache before using it in any custom functions).<\/p>\n\n<p>If you don't want to track sessions into db set the $USE_DB_SESSION_MANAGER global variable to 0<\/p>\n\n<pre><code>`global $USE_DB_SESSION_MANAGER;`\n`$USE_DB_SESSION_MANAGER = 0; \/\/ default 1`\n<\/code><\/pre>\n\n<p>Insert object;<\/p>\n\n<pre><code>`$dpcache-&#62;set($key,$object);`\n<\/code><\/pre>\n\n<p>Get object:<\/p>\n\n<pre><code>`$object = $dpcache-&#62;set($key);`\n<\/code><\/pre>\n\n<p>Count active users:<\/p>\n\n<pre><code>`$count_users = $dpcache-&#62;get_sessions_number();`\n<\/code><\/pre>\n\n<p>Count objects in the current user's $_SESSION:<\/p>\n\n<pre><code>`$dpcache-&#62;get_statistics();`\n<\/code><\/pre>\n\n<p>Get all objects",
+                "uid": "32898"
+            },
+            "0.4": {
+                "name": "wordpress\/dpwpsimplecache",
+                "version": "0.4",
+                "version_normalized": "0.4.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/dpwpsimplecache.0.4.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>D(ifferent)P(lace) Simple Cache is a WordPress plugin to implement a simple cache of objects at session level.<\/p>\n\n<p>dpwpsimplecache provides a global variable $dpcache, which is an instantiation of the class DP_Cache already set up to talk to the $_SESSION. Always use the global $dpcache variable (Remember to globalize $dpcache before using it in any custom functions).<\/p>\n\n<p>If you don't want to track sessions into db set the $USE_DB_SESSION_MANAGER global variable to 0<\/p>\n\n<pre><code>`global $USE_DB_SESSION_MANAGER;`\n`$USE_DB_SESSION_MANAGER = 0; \/\/ default 1`\n<\/code><\/pre>\n\n<p>Insert object;<\/p>\n\n<pre><code>`$dpcache-&#62;set($key,$object);`\n<\/code><\/pre>\n\n<p>Get object:<\/p>\n\n<pre><code>`$object = $dpcache-&#62;set($key);`\n<\/code><\/pre>\n\n<p>Count active users:<\/p>\n\n<pre><code>`$count_users = $dpcache-&#62;get_sessions_number();`\n<\/code><\/pre>\n\n<p>Count objects in the current user's $_SESSION:<\/p>\n\n<pre><code>`$dpcache-&#62;get_statistics();`\n<\/code><\/pre>\n\n<p>Get all objects",
+                "uid": "32897"
+            }
+        }
+    }
+}

@@ -1,0 +1,40 @@
+{
+    "packages": {
+        "wordpress\/dg-random-image": {
+            "1.0": {
+                "name": "wordpress\/dg-random-image",
+                "version": "1.0",
+                "version_normalized": "1.0.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/dg-random-image.1.0.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>In my blog I use pages for the gallery. I have a main index Gallery that has children for each year which contain the actual gallery pages.<\/p>\n\n<p>I wanted to display a random image from this gallery and couldn't find a plugin to do it so I wrote my own. Usage is really simple:\nThe following line in your template <code>&#60;?php echo DG_Random_Image(array('title' =&#62; 'Gallery', 'class' =&#62;'alignleft', 'x' =&#62; 125, 'y' =&#62; 125)); ?&#62;<\/code> or just use the widget.<\/p>\n\n<p><em>title<\/em> is the name of the index page, no pictures will be taken from this page, only from childpages.<\/p>\n\n<p><em>class<\/em> is an optional class to assign to the image<\/p>\n\n<p><em>x<\/em> is the width to assign to the thumbnail<\/p>\n\n<p><em>y<\/em> is the height to assign to the thumbnail<\/p>\n\n<p>It will output the thumbnail for this picture with the given dimensions, linked to the page it belongs to.<\/p>",
+                "uid": "98320"
+            },
+            "1.01": {
+                "name": "wordpress\/dg-random-image",
+                "version": "1.01",
+                "version_normalized": "1.01.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/dg-random-image.1.01.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>In my blog I use pages for the gallery. I have a main index Gallery that has children for each year which contain the actual gallery pages.<\/p>\n\n<p>I wanted to display a random image from this gallery and couldn't find a plugin to do it so I wrote my own. Usage is really simple:\nThe following line in your template <code>&#60;?php echo DG_Random_Image(array('title' =&#62; 'Gallery', 'class' =&#62;'alignleft', 'x' =&#62; 125, 'y' =&#62; 125)); ?&#62;<\/code> or just use the widget.<\/p>\n\n<p><em>title<\/em> is the name of the index page, no pictures will be taken from this page, only from childpages.<\/p>\n\n<p><em>class<\/em> is an optional class to assign to the image<\/p>\n\n<p><em>x<\/em> is the width to assign to the thumbnail<\/p>\n\n<p><em>y<\/em> is the height to assign to the thumbnail<\/p>\n\n<p>It will output the thumbnail for this picture with the given dimensions, linked to the page it belongs to.<\/p>",
+                "uid": "98319"
+            }
+        }
+    }
+}

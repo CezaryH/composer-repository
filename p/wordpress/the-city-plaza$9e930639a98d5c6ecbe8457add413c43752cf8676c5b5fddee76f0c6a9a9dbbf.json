@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/the-city-plaza": {
+            "0.8.1": {
+                "name": "wordpress\/the-city-plaza",
+                "version": "0.8.1",
+                "version_normalized": "0.8.1.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/the-city-plaza.0.8.1.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>It is possible to pull church needs, topics, events, prayers and albums from the Plaza so that you can use them within your WordPress site.<\/p>\n\n<p>Data pulled from The City is by default cached for 1 day (24 hours) so that subsequent requests are faster.  This is configurable should your needs be more frequent.<\/p>",
+                "uid": "27871"
+            }
+        }
+    }
+}

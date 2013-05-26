@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/voce-cached-nav": {
+            "1.0": {
+                "name": "wordpress\/voce-cached-nav",
+                "version": "1.0",
+                "version_normalized": "1.0.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/voce-cached-nav.1.0.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>Replace your template calls to <code>wp_nav_menu<\/code> with <code>wp_cached_nav_menu<\/code> to retreive cached copies of menu objects.<\/p>",
+                "uid": "14407"
+            }
+        }
+    }
+}

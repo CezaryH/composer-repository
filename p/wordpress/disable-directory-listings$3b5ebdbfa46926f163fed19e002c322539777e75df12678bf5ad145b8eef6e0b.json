@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/disable-directory-listings": {
+            "2.0": {
+                "name": "wordpress\/disable-directory-listings",
+                "version": "2.0",
+                "version_normalized": "2.0.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/disable-directory-listings.2.0.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>Prevent virtual directory listing services from listing the contents of directories, and\/or show a page in place of a directory's listing.<\/p>\n\n<p>The Apache web server can be configured to automatically display the listings of the contents of a web site's file directory if no index file (i.e. index.html or index.php) is present.  This can expose files and information to visitors.  Of course the web server could be configured to not do this (the recommended approach), but sometimes you don't have permission (you're on a shared host), the know-how, or you want to selectively disallow virtual directory listings.  That's where this plugin can help.<\/p>\n\n<p>If you want to test if your site has virtual directory listings enabled, try visiting <a href=\"http:\/\/www.YOURSITE.com\/wp-includes\" rel=\"nofollow\">http:\/\/www.YOURSITE.com\/wp-includes<\/a> (obviously, change the domain to match your own).  If you see a listing of PHP files then virtual directory listing is enabled for your site.<\/p>\n\n<",
+                "uid": "42574"
+            }
+        }
+    }
+}

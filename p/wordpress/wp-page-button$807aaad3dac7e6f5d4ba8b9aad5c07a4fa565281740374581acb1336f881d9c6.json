@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/wp-page-button": {
+            "1.0": {
+                "name": "wordpress\/wp-page-button",
+                "version": "1.0",
+                "version_normalized": "1.0.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/wp-page-button.1.0.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>Before using this plugin, check that your theme supports pagination in blog posts. For example, since it is made in TwentyTwelve:<\/p>\n\n<pre><code>&#60;?php wp_link_pages( array( &#039;before&#039; =&#62; &#039;&#60;div class=&#34;page-links&#34;&#62;&#039; . __( &#039;Pages:&#039;, &#039;twentytwelve&#039; ), &#039;after&#039; =&#62; &#039;&#60;\/div&#62;&#039; ) ); ?&#62;<\/code><\/pre>",
+                "uid": "10253"
+            }
+        }
+    }
+}

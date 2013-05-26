@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/ostrichcize": {
+            "0.1": {
+                "name": "wordpress\/ostrichcize",
+                "version": "0.1",
+                "version_normalized": "0.1.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/ostrichcize.0.1.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>At the first sign of trouble, an ostrich buries its head in the sand. Ostrichcize allows a plugin or theme developer to\nbury his or her head in the sand by turning off error reporting for select plugins or the current theme.<\/p>\n\n<p>If you have ever installed a plugin or worked on a site with a plugin that throws numerous of errors and notices, but do\nnot have the time to fix the issue, you can turn off those notices with this plugin. By simply filtering the plugin, you\ncan add to the list of plugins for which no notices will be shown.<\/p>\n\n<p>To add to this list simply write something like:<\/p>\n\n<pre><code>function my_ostrichcized_plugins( $slugs ) {\n    $slugs[] = &#039;debug-bar-cron&#039;;\n    return $slugs;\n}\n\nfunction my_pre_my_ostrichcized_plugins() {\n    add_filter( &#039;ostrichcized_plugins&#039;, &#039;my_ostrichcized_plugins&#039; );\n}\n\nadd_action( &#039;plugins_loaded&#039;, &#039;my_pre_my_ostrichcized_plugins&#039;, 1 );\n&#60;\/pre&#62;<\/code><\/pre>\n\n<p>Note that the f",
+                "uid": "14635"
+            }
+        }
+    }
+}

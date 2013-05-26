@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/update-network-time-zones": {
+            "1.0": {
+                "name": "wordpress\/update-network-time-zones",
+                "version": "1.0",
+                "version_normalized": "1.0.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/update-network-time-zones.1.0.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>Update at once all of the Settings -&#62; General -&#62; Time Zone options of your WordPress network.<\/p>\n\n<p>This plugin was written specifically for a network that has been around for many years and was set up before WordPress 2.8 fixed the daylight savings time issue. Back then, setting the local time for your blog depended on UTC offsets only, so daylight savings folks were off by an hour for half a year. Then WordPress introduced time zones by city and the problem was solved. But we had all our blogs still with the UTC offset in use. So rather than update them individually, this plugin was written to run once and then move on. Recommended use: upload to your mu-plugins folder, run it once and then delete.<\/p>",
+                "uid": "38482"
+            }
+        }
+    }
+}

@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/mupost": {
+            "0.1": {
+                "name": "wordpress\/mupost",
+                "version": "0.1",
+                "version_normalized": "0.1.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/mupost.0.1.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>Is possible to define the categories of post of the two sites, number of posts and the order.\nFor display post of both categories in child site theme use this shortcode syntax:<\/p>\n\n<p>[mupost blogid=XX maincategoryid=YY selfcategoryid=YY order=asc\/desc]<\/p>",
+                "uid": "8220"
+            }
+        }
+    }
+}

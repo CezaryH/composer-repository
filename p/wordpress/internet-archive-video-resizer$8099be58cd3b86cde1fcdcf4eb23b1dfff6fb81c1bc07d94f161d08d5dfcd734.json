@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/internet-archive-video-resizer": {
+            "1.0": {
+                "name": "wordpress\/internet-archive-video-resizer",
+                "version": "1.0",
+                "version_normalized": "1.0.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/internet-archive-video-resizer.1.0.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>If you use the Twenty Eleven Theme and regularly embed videos from <a href=\"http:\/\/www.archive.org\/details\/opensource_movies\/\" title=\"Internet Archive Community Video\">Internet Archive Community Video collections<\/a> you might like this plugin.<\/p>\n\n<p>This plugin will resize the video embed code from archive.org to a size that fits nicely within the Twenty Eleven Theme.<\/p>\n\n<p>Internet Archive embed code normally gives you a 640 x 506 video size which breaks the Twenty Eleven Theme and looks odd with other embedded videos (namely youtube). This plugin will overrides the final embed code to 584 x 461 so it fits nicely into the Twenty Eleven Theme.<\/p>",
+                "uid": "46486"
+            }
+        }
+    }
+}

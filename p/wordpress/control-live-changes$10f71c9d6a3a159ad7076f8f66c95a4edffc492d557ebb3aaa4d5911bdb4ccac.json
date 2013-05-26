@@ -1,0 +1,74 @@
+{
+    "packages": {
+        "wordpress\/control-live-changes": {
+            "0.1": {
+                "name": "wordpress\/control-live-changes",
+                "version": "0.1",
+                "version_normalized": "0.1.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/control-live-changes.0.1.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>This plugin has arisen from the requirements of a client who manage many of their WordPress sites via Git repositories on Beanstalk. Core WP files are not in the repo, to keep its size down, but plugins and themes are. WP upgrades are of course tested on local development and remote staging servers before being run on the production server. But since plugins and themes are in the repo, ideally they should be upgraded locally for testing, then pushed to Beanstalk. Beanstalk in turn deploys the changes to the staging server, and then the production server.<\/p>\n\n<p>To help maintain this workflow, this plugin tests if the environment is local or not (checking for <code>WP_LOCAL_DEV<\/code> or searching for \"localhost\" in <code>$_SERVER['HTTP_HOST']<\/code>). If the environment isn't local, plugin and theme installation, editing and upgrades are disabled.<\/p>\n\n<p>The following constants can be defined in <code>wp-config.php<\/code> to override the defaults:<\/p>\n\n<ul>\n<li><code>SLT_CLC_LOCAL",
+                "uid": "25839"
+            },
+            "0.2": {
+                "name": "wordpress\/control-live-changes",
+                "version": "0.2",
+                "version_normalized": "0.2.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/control-live-changes.0.2.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>This plugin has arisen from the requirements of a client who manage many of their WordPress sites via Git repositories on Beanstalk. Core WP files are not in the repo, to keep its size down, but plugins and themes are. WP upgrades are of course tested on local development and remote staging servers before being run on the production server. But since plugins and themes are in the repo, ideally they should be upgraded locally for testing, then pushed to Beanstalk. Beanstalk in turn deploys the changes to the staging server, and then the production server.<\/p>\n\n<p>To help maintain this workflow, this plugin tests if the environment is local or not (checking for <code>WP_LOCAL_DEV<\/code> or searching for \"localhost\" in <code>$_SERVER['HTTP_HOST']<\/code>). If the environment isn't local, plugin and theme installation, editing and upgrades are disabled.<\/p>\n\n<p>The following constants can be defined in <code>wp-config.php<\/code> to override the defaults:<\/p>\n\n<ul>\n<li><code>SLT_CLC_LOCAL",
+                "uid": "25838"
+            },
+            "0.2.1": {
+                "name": "wordpress\/control-live-changes",
+                "version": "0.2.1",
+                "version_normalized": "0.2.1.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/control-live-changes.0.2.1.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>This plugin has arisen from the requirements of a client who manage many of their WordPress sites via Git repositories on Beanstalk. Core WP files are not in the repo, to keep its size down, but plugins and themes are. WP upgrades are of course tested on local development and remote staging servers before being run on the production server. But since plugins and themes are in the repo, ideally they should be upgraded locally for testing, then pushed to Beanstalk. Beanstalk in turn deploys the changes to the staging server, and then the production server.<\/p>\n\n<p>To help maintain this workflow, this plugin tests if the environment is local or not (checking for <code>WP_LOCAL_DEV<\/code> or searching for \"localhost\" in <code>$_SERVER['HTTP_HOST']<\/code>). If the environment isn't local, plugin and theme installation, editing and upgrades are disabled.<\/p>\n\n<p>The following constants can be defined in <code>wp-config.php<\/code> to override the defaults:<\/p>\n\n<ul>\n<li><code>SLT_CLC_LOCAL",
+                "uid": "25837"
+            },
+            "0.2.2": {
+                "name": "wordpress\/control-live-changes",
+                "version": "0.2.2",
+                "version_normalized": "0.2.2.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/control-live-changes.0.2.2.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>This plugin has arisen from the requirements of a client who manage many of their WordPress sites via Git repositories on Beanstalk. Core WP files are not in the repo, to keep its size down, but plugins and themes are. WP upgrades are of course tested on local development and remote staging servers before being run on the production server. But since plugins and themes are in the repo, ideally they should be upgraded locally for testing, then pushed to Beanstalk. Beanstalk in turn deploys the changes to the staging server, and then the production server.<\/p>\n\n<p>To help maintain this workflow, this plugin tests if the environment is local or not (checking for <code>WP_LOCAL_DEV<\/code> or searching for \"localhost\" in <code>$_SERVER['HTTP_HOST']<\/code>). If the environment isn't local, plugin and theme installation, editing and upgrades are disabled.<\/p>\n\n<p>The following constants can be defined in <code>wp-config.php<\/code> to override the defaults:<\/p>\n\n<ul>\n<li><code>SLT_CLC_LOCAL",
+                "uid": "25836"
+            }
+        }
+    }
+}

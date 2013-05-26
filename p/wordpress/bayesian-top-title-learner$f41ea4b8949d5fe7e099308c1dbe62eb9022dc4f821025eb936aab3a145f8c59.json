@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/bayesian-top-title-learner": {
+            "0.24": {
+                "name": "wordpress\/bayesian-top-title-learner",
+                "version": "0.24",
+                "version_normalized": "0.24.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/bayesian-top-title-learner.0.24.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>Someone has gotten to your page somehow. You want a sidebar with the links they are most likely to click on.<\/p>\n\n<p>Naive strategy: Put the most clicked posts in the list. Why might this be suboptimal? Maybe you wrote one post about accordions and it got linked from The World Accordion Association Blog (WAAB). It got many clicks. But most visitors to your page have no interest in accordions.<\/p>\n\n<p>Less naive: Have your sidebar display random links and keep track of which ones get clicked. This is cool, now we are doing experiments to find exactly what we need. But experiments are expensive, we only have a limited amount of eyeballs coming our way. Are we using our data optimally? For instance, if we know A is very interesting, and we know nothing about B, and B gets clicked over A, that should be worth more. So we want to know more than whether B is clicked or not, but what else was clicked in that context.<\/p>\n\n<p>More sophisticated: How to take advantage of information about wh",
+                "uid": "96935"
+            }
+        }
+    }
+}

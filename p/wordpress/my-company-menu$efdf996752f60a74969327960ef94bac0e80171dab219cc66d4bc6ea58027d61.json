@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/my-company-menu": {
+            "1.1.1": {
+                "name": "wordpress\/my-company-menu",
+                "version": "1.1.1",
+                "version_normalized": "1.1.1.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/my-company-menu.1.1.1.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>This plugin is intended for theme developers who build WordPress websites for other businesses. Give your clients a Company Menu to manage typical phone numbers, email, address, and social media links. Integrate those fields in your template files or directly on posts\/pages with simple shortcodes and functions.<\/p>\n\n<ol>\n<li>Adds a new tab in the Admin&#8217;s Sidebar<\/li>\n<li>Main page in this new tab used to manage standard business contact information and social networking links.<\/li>\n<li>Add custom subpages under this tab<\/li>\n<li>Change the menu title and icon to match your client's branding.<\/li>\n<\/ol>\n\n<p>Each field has a shortcode beneath it that can be used on posts and pages to show the contents of the related input box. Theme developers can use the same shortcode as PHP functions in templates to display the data.<\/p>\n\n<p>New in 1.0.6, now you can customize the output of company_social() function with arguments.<\/p>\n\n<p>Complete breakdown of features can be found here: <a ",
+                "uid": "37081"
+            }
+        }
+    }
+}

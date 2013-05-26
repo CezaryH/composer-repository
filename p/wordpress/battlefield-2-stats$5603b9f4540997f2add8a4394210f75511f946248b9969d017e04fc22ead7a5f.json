@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/battlefield-2-stats": {
+            "1.14": {
+                "name": "wordpress\/battlefield-2-stats",
+                "version": "1.14",
+                "version_normalized": "1.14.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/battlefield-2-stats.1.14.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>This plugin creates a function which outputs your Battlefield 2 profile statistics. The data is fetched via a XML feed from <a href=\"http:\/\/bf2s.com\/\">BF2S.com<\/a>. It's intended for your sidebar, but can also be used on a WordPress page.<\/p>\n\n<p>It's fully configurable via an options page in the WordPress admin area and only requires that you either use the <a href=\"http:\/\/wordpress.org\/extend\/plugins\/widgets\/\">Sidebar Widgets<\/a> plugin or that you add the plugin's output function to your theme's sidebar to get it working.<\/p>\n\n<p>To see it in action, check out the sidebar of <a href=\"http:\/\/www.viper007bond.com\/wordpress-plugins\/battlefield-2-stats\/\" title=\"You'll find the output in the sidebar, down a little bit\">the plugin's homepage<\/a>.<\/p>",
+                "uid": "113394"
+            }
+        }
+    }
+}

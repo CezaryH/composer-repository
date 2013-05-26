@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/blogroll-links-page": {
+            "2.1": {
+                "name": "wordpress\/blogroll-links-page",
+                "version": "2.1",
+                "version_normalized": "2.1.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/blogroll-links-page.2.1.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>Outputs your blogroll links as a page or a post. Add the text <code>&#60;!--blogroll-page--&#62;<\/code> to a page or post and it will output your blogroll links organized by category heading.<\/p>\n\n<p>In v2.1, two additional configuration options are available from the options page.  These are:<\/p>\n\n<ul>\n<li><p>Suppress the category display. You may find this useful if you want to move your links to their own page, but you the blogroll categories at your site aren't meaningful to visitors (or search engines.)<\/p><\/li>\n<li><p>Change the display order of links. You can choose a primary and secondary order. Options here include Link ID (this id is internal the wordpress database and generally corresponds to the order the link was added into wordpress), Name (alphabetical), Address (the site URL), or rating.<\/p><\/li>\n<\/ul>\n\n<p>N.B.: This plugin doesn't deal well with categories with parent links.<\/p>\n\n<p>It's based heavily on Dominic Foster's original plugin which no longer works as of W",
+                "uid": "104428"
+            }
+        }
+    }
+}

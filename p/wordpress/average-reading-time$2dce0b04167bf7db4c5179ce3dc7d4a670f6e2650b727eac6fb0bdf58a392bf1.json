@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/average-reading-time": {
+            "0.1": {
+                "name": "wordpress\/average-reading-time",
+                "version": "0.1",
+                "version_normalized": "0.1.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/average-reading-time.0.1.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>Shows how long the average person will need to read your article.<\/p>\n\n<p>ATTENTION: You'll need basic coding skills to use tho plugin.\nThe Plugin activates the function the_average_reading_time(), which returns the following text: \"&#216; Reading Time: XX minutes\".<\/p>",
+                "uid": "40530"
+            }
+        }
+    }
+}

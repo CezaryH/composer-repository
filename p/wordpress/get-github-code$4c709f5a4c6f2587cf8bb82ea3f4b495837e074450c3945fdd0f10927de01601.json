@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/get-github-code": {
+            "1.0": {
+                "name": "wordpress\/get-github-code",
+                "version": "1.0",
+                "version_normalized": "1.0.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/get-github-code.1.0.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>Get GitHub Code is a wordpress plugin for a post or single page to show the code form GitHub Repository. With GitHub API v2 to get the data, and save on the server cache file, have a limit time for cache file.<\/p>\n\n<p>You can get the code you like , and show it at the post. Every post can show one Repository code.<\/p>\n\n<p>PHP version 5.2.0 +, and <code>curl<\/code> be able.<\/p>",
+                "uid": "34220"
+            }
+        }
+    }
+}

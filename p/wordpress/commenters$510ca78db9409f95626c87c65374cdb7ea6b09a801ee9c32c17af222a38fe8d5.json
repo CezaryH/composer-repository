@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/commenters": {
+            "1.0": {
+                "name": "wordpress\/commenters",
+                "version": "1.0",
+                "version_normalized": "1.0.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/commenters.1.0.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>Your commenters displayed in the spotlight! After you have accepted comments, images of the commenters will be displayed in a nice sliding gallery view.<\/p>\n\n<p>Commenters has following functions:<\/p>\n\n<ul>\n<li>images are displayed from Gravatar<\/li>\n<li>measures of the gallery area may be easily changed<\/li>\n<li>image size may be changed<\/li>\n<li>amount of images shown per one carousel page may be set<\/li>\n<li>images may be ordered by commenters or by blog post title, using either ascending or descending order<\/li>\n<li>there's link at the bottom-right corner that will take visitor to the page where comment is situated in the blog<\/li>\n<li>commenter's avatar image is a link that takes to to commenter's website <\/li>\n<li>post title, commenter name (if given) and content of the comment are shown in a tooltip that appears when visitor moves mouse cursor over the avatar image<\/li>\n<\/ul>",
+                "uid": "59699"
+            }
+        }
+    }
+}

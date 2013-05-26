@@ -1,0 +1,40 @@
+{
+    "packages": {
+        "wordpress\/wp-avoid-slow": {
+            "0.1": {
+                "name": "wordpress\/wp-avoid-slow",
+                "version": "0.1",
+                "version_normalized": "0.1.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/wp-avoid-slow.0.1.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<h4>1. Add an Expires Header<\/h4>\n\n<p>Web pages are becoming increasingly complex with more scripts, style sheets, images, and Flash on them. A first-time visit to a page may require several HTTP requests to load all the components. By using Expires headers these components become cacheable, which avoids unnecessary HTTP requests on subsequent page views. Expires headers are most often associated with images, but they can and should be used on all page components including scripts, style sheets, and Flash.<\/p>\n\n<p>Using WP Avoid Slow reduces number of HTTP requests affecting the page load performance.<\/p>\n\n<h4>2. Configure Etags<\/h4>\n\n<p>Entity tags (ETags) are a mechanism web servers and the browser use to determine whether a component in the browser's cache matches one on the origin server. Since ETags are typically constructed using attributes that make them unique to a specific server hosting a site, the tags will not match when a browser gets the original component from one server",
+                "uid": "71617"
+            },
+            "0.2": {
+                "name": "wordpress\/wp-avoid-slow",
+                "version": "0.2",
+                "version_normalized": "0.2.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/wp-avoid-slow.0.2.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<h4>1. Add an Expires Header<\/h4>\n\n<p>Web pages are becoming increasingly complex with more scripts, style sheets, images, and Flash on them. A first-time visit to a page may require several HTTP requests to load all the components. By using Expires headers these components become cacheable, which avoids unnecessary HTTP requests on subsequent page views. Expires headers are most often associated with images, but they can and should be used on all page components including scripts, style sheets, and Flash.<\/p>\n\n<p>Using WP Avoid Slow reduces number of HTTP requests affecting the page load performance.<\/p>\n\n<h4>2. Configure Etags<\/h4>\n\n<p>Entity tags (ETags) are a mechanism web servers and the browser use to determine whether a component in the browser's cache matches one on the origin server. Since ETags are typically constructed using attributes that make them unique to a specific server hosting a site, the tags will not match when a browser gets the original component from one server",
+                "uid": "71615"
+            }
+        }
+    }
+}

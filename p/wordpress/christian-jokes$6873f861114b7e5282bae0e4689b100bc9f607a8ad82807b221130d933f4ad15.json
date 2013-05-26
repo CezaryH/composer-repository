@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/christian-jokes": {
+            "1.0": {
+                "name": "wordpress\/christian-jokes",
+                "version": "1.0",
+                "version_normalized": "1.0.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/christian-jokes.1.0.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>Christian Jokes widget will fetch the latest or random joke from <a href=\"http:\/\/www.christian-jokes.net\">christian-jokes.net<\/a> website, and display them on your blog.<\/p>\n\n<p>You can select between:<br \/>\n- Latest Joke<br \/>\n- Random joke<br \/><\/p>\n\n<p>Christian Jokes widget uses in-built MagPie for reading data and HTTP Snoopy Client for fetching data from <a href=\"http:\/\/www.christian-jokes.net\">christian-jokes.net<\/a>.<\/p>\n\n<p>For less stress on the system, Christian Jokes widget does not use database, but it caches data to a file.<\/p>\n\n<ul>\n<li><a href=\"http:\/\/www.christian-jokes.net\/tools\/wordpress.aspx\" title=\"Widget Homepage\">Widget Homepage:<\/a><\/li>\n<li><a href=\"http:\/\/www.thequest4truth.com\/\" title=\"Live Demo\">Live Demo<\/a><\/li>\n<\/ul>",
+                "uid": "92735"
+            }
+        }
+    }
+}

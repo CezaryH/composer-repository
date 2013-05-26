@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/xtechnos-content-slider": {
+            "1.0.0": {
+                "name": "wordpress\/xtechnos-content-slider",
+                "version": "1.0.0",
+                "version_normalized": "1.0.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/xtechnos-content-slider.1.0.0.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>xTechnos Content Slider is jFlow base slider. You can add both images and content in the slider, to make it easy a seprate post type is created. Use following code in any php file (of the theme) to install xTechnos Content Slider: $xtn_custom_content = new xtncustom_content(); $xtn_custom_content-&#62;my_content_slider();<\/p>\n\n<h4>Plugin's Official Site<\/h4>\n\n<p>xTechnos Content Slider (<a href=\"http:\/\/xtechnos.com\/\">http:\/\/xtechnos.com<\/a>)<\/p>\n\n<h4>Features<\/h4>\n\n<ul>\n<li>Add Slider content (text + image) as Post<\/li>\n<li>Change size of the slider from settings<\/li>\n<li>Edit\/Delete Slides.<\/li>\n<li>Customize apperene of the slider, according to your theme.<\/li>\n<\/ul>",
+                "uid": "23189"
+            }
+        }
+    }
+}

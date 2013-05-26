@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/hover-sound": {
+            "1.0.0": {
+                "name": "wordpress\/hover-sound",
+                "version": "1.0.0",
+                "version_normalized": "1.0.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/hover-sound.1.0.0.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>You can introduce the behavior of playing sound by hovering mouse pointer over an HTML element in an article and stopping the sound by moving the mouse pointer away from the HTML element.<\/p>\n\n<p>(usage of file manager) <br \/>\nYou can associate sounds with HTML elements by writing shortcodes in an article. The parts of hortcodes are not displayed when displaying an article. Also you can put shortcodes anywhere in an article.<\/p>\n\n<p>For more details, please see the document from the following URL:<br \/>\n<a href=\"http:\/\/tempspace.net\/plugins\/?page_id=308\" rel=\"nofollow\">http:\/\/tempspace.net\/plugins\/?page_id=308<\/a> <br \/><br \/><\/p>\n\n<p>(example)<\/p>\n\n<p>&#60;a id=\"hr1\" href=\"http:\/\/google.com\"&#62;Google&#60;\/a&#62; <br \/>\n&#60;span id=\"hr2\"&#62;ABC&#60;\/span&#62; <br \/>\n&#60;img id=\"hr3\" src=&#8221;http:\/\/example.com\/image.jpg&#8221;&#62;<\/p>\n\n<p>[hoversound id=\"hr1\" url=\"http:\/\/example.com\/sound1.mp3\"] <br \/>\n[hoversound id=\"hr2\" url=\"http:\/\/example.com\/sound2.mp3\"] <br \/>\n[hoverso",
+                "uid": "28793"
+            }
+        }
+    }
+}

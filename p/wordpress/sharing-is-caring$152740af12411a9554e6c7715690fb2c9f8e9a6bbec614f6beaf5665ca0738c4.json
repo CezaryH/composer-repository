@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/sharing-is-caring": {
+            "1.4.3": {
+                "name": "wordpress\/sharing-is-caring",
+                "version": "1.4.3",
+                "version_normalized": "1.4.3.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/sharing-is-caring.1.4.3.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>Displays the social widgets from Facebook, Twitter, Google+ and Pinterest with your posts. It also adds some meta tags for opengraph and schema.org as recommended by Facebook and Google. The standard method to do this is by filtering the content of the posts, which is controlled by the options in the admin menu.  Buttons can also be displayed by the shortcode [sic] with ability to disable individual buttons for that instance of the shortcode. You can also add it to your theme with do_action('sic_sharing'); where you want it to render.<\/p>\n\n<p>Allows some custom text and css insertion as well as most options for the buttons in the admin page. Compatible with html5 (optional).<\/p>",
+                "uid": "30643"
+            }
+        }
+    }
+}

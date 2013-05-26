@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/inline-google-spreadsheet-viewer": {
+            "0.3": {
+                "name": "wordpress\/inline-google-spreadsheet-viewer",
+                "version": "0.3",
+                "version_normalized": "0.3.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/inline-google-spreadsheet-viewer.0.3.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>Fetches a published Google Spreadsheet using a <code>[gdoc key=\"\"]<\/code> WordPress shortcode, then renders it as an HTML table, embedded in your blog post or page. The only required parameter is <code>key<\/code>, which specifies the document you'd like to retrieve. Optionally, you can also strip a certain number of rows (e.g., <code>strip=\"3\"<\/code> omits the top 3 rows of the spreadsheet) and you can supply a table <code>summary<\/code>, <code>&#60;caption&#62;<\/code> and customized <code>class<\/code> value.<\/p>\n\n<p>For example, to display the spreadsheet at <code><a href=\"https:\/\/spreadsheets.google.com\/pub?key=ABCDEFG\" rel=\"nofollow\">https:\/\/spreadsheets.google.com\/pub?key=ABCDEFG<\/a><\/code>, use the following shortcode in your WordPress post or page:<\/p>\n\n<pre><code>[gdoc key=\"ABCDEFG\"]\n<\/code><\/pre>\n\n<p>Currently, this plugin only supports Google Spreadsheets that are \"Published as a web page\" and therefore public. Private Google Docs are not supported (yet).<\/p>\n\n<p>To render ",
+                "uid": "63649"
+            }
+        }
+    }
+}

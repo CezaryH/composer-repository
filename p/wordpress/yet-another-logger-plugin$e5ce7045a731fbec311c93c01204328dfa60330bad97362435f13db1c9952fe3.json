@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/yet-another-logger-plugin": {
+            "1.0": {
+                "name": "wordpress\/yet-another-logger-plugin",
+                "version": "1.0",
+                "version_normalized": "1.0.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/yet-another-logger-plugin.1.0.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>This plugin provides an API to send logging and debugging data via FirePHP or \nvia e-mail.<\/p>\n\n<p>It provides 3 logging functions (wp_yalp_info, wp_yalp_warning, wp_yalp_error) for 3 log levels: error, warning, info.\nYou can call these functions in your code (after plugin initialization) to send your data to the logging system.\nThese functions receive 2 parameters: the first one, mandatory, is the object that you want to log (string, array, etc.) and\nthe second optional plugin is a label to identify your log data.<\/p>\n\n<p>The log data is automatically sent via the FirePHP system if the current user is\nthe administrator or his IP address is enabled to receive it. If configured, the\nplugin also sends the log data via e-mail to the website administrator.<\/p>\n\n<p>This plugin also provides some optional automatic logs for database queries, e-mail \nand posts meta.<\/p>",
+                "uid": "53062"
+            }
+        }
+    }
+}

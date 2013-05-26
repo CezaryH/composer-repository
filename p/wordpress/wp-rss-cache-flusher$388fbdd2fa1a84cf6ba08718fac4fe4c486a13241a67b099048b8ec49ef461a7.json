@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/wp-rss-cache-flusher": {
+            "0.1": {
+                "name": "wordpress\/wp-rss-cache-flusher",
+                "version": "0.1",
+                "version_normalized": "0.1.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/wp-rss-cache-flusher.0.1.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>WP RSS Cache Flusher is a simple plugin for flushing the Magpie RSS cache from WordPress' database.<\/p>\n\n<p>Before you install this plugin ask yourself, do you need it? Chances are, you dont!<\/p>\n\n<p>WordPress uses Magpie to parse various RSS. Magpie caches the output from feeds directly in the WordPress database to save overhead. However, it is not unheard of for this cache to occasionally get 'stuck' or corrupted - effectively locking the cache into an old state and preventing it from being refreshed.<\/p>\n\n<p>This plugin is for anyone who has experienced issues with the Magpie RSS cache getting 'stuck'. It allows a simple way to flush the cache and all the cogs to start turning again.<\/p>",
+                "uid": "85028"
+            }
+        }
+    }
+}

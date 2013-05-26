@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/lightspeed-links": {
+            "0.2": {
+                "name": "wordpress\/lightspeed-links",
+                "version": "0.2",
+                "version_normalized": "0.2.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/lightspeed-links.0.2.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>Lightspeed Links is based on code from the WordPress Wiki plugin by Instinct Entertainment. Among other things, WordPress Wiki lets you use brackets to link to pages and posts that are flagged as Wiki-Editable. I took the code for that part of the plugin and took out the wiki-specific part, so now with Lightspeed Links you can use sets of twin brackets to link to any page or post on your site.<\/p>\n\n<p>Example: To link to your site's About page, you can use the following code:<\/p>\n\n<pre><code>[[About]]\n<\/code><\/pre>\n\n<p>If there isn't a page or post on your site matching the exact text that you put in the brackets, it will become a link for you to create it. If the link is on a page, it will link to the new page dialog; if it's on a post, it'll create a new post. You will need to fill in the name of the new page or post manually.<\/p>",
+                "uid": "64779"
+            }
+        }
+    }
+}

@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/noindex-login": {
+            "1.0": {
+                "name": "wordpress\/noindex-login",
+                "version": "1.0",
+                "version_normalized": "1.0.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/noindex-login.1.0.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>Adds the noindex meta tag to your WordPress Login page.<\/p>\n\n<p>If your WordPress blog has a public login page, you probably don't want it to be indexed by search engines. Noindex Login adds the robots \"noindex\" meta tag to your login page to keep search engines from indexing it. It also works on your registration and lost password pages.<\/p>",
+                "uid": "93242"
+            }
+        }
+    }
+}

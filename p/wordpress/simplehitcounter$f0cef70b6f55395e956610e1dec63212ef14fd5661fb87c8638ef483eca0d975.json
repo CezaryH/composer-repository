@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/simplehitcounter": {
+            "1.0": {
+                "name": "wordpress\/simplehitcounter",
+                "version": "1.0",
+                "version_normalized": "1.0.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/simplehitcounter.1.0.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>This is the simplest hit counter I could imagine (well, almost). Every time a \npage is requested, it adds one to the count. The display is not an image, just \ntext. There is no javascript to hit some third-party server, no tracking, no \ndistinction among pages: just an old-fashioned site counter CGI, implemented in \nWordPress. The plugin stores its count in its own MySQL table.<\/p>\n\n<p>Once the plugin is installed (described below), you can display the count by \nputting code like this somewhere on your page:<\/p>\n\n<pre><code>&#60;?= simplehitcounter_hit(); ?&#62;\n<\/code><\/pre>\n\n<p>That will both increment the counter and display its value. There is no method \nfor getting the value without incrementing it. I suppose I could write such a \nthing if anyone likes.<\/p>\n\n<p>There is a minor race condition. First the plugin updates the database by one \n(atomically), then it queries for the current count. Therefore in heavy traffic \nit is possible for two updates to happen before either selec",
+                "uid": "91716"
+            }
+        }
+    }
+}

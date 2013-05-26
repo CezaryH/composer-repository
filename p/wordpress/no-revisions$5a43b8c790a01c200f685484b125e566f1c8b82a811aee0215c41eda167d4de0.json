@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/no-revisions": {
+            "1.1": {
+                "name": "wordpress\/no-revisions",
+                "version": "1.1",
+                "version_normalized": "1.1.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/no-revisions.1.1.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>While the WordPress 2.6 upgrade has not gone smoothly for a lot of people, one new feature that has yet to bite too many people is post revisions. Whenever you save a change in a post in WordPress 2.6, it saves a copy of the old version as well as your changed version. If you a lot while writing, that can add up to a lot of extra crud in your database.<\/p>\n\n<p>Now, these can be turned off by editing your wp-config.php file, but that's a bit gross for a system like WordPress where everything else can be done through a nice web interface. This plugin gives you that web-based solution.<\/p>\n\n<p>Just install and activate this plugin and no more revision debris in your database. Of course, that also means no safety net if you accidentally screw up a post and then save it, but that was the case until 2.6 anyway.<\/p>",
+                "uid": "101332"
+            }
+        }
+    }
+}

@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/hyper-admins": {
+            "1.0": {
+                "name": "wordpress\/hyper-admins",
+                "version": "1.0",
+                "version_normalized": "1.0.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/hyper-admins.1.0.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>With this plugin, super-admins can:<\/p>\n\n<ul>\n<li>view any theme on any site, without enabling it<\/li>\n<li>access any site through Admin Bar -&#62; My Sites, without having a role on it<\/li>\n<\/ul>\n\n<p>Intended for <a href=\"http:\/\/scribu.net\/wordpress\/the-future-of-multisite.html\">small Multisite installs<\/a>.<\/p>",
+                "uid": "35313"
+            }
+        }
+    }
+}

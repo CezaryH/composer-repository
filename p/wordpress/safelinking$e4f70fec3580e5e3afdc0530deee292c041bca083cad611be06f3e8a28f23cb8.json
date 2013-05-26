@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/safelinking": {
+            "1.2.1": {
+                "name": "wordpress\/safelinking",
+                "version": "1.2.1",
+                "version_normalized": "1.2.1.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/safelinking.1.2.1.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>This modification, fully compatible with any WordPress 3 version, will add a block (textarea and button) to your user and wp-admin posting page where you and your users will be able to generate safelinking.net protected links by a single click, without going outside your site.<\/p>",
+                "uid": "36056"
+            }
+        }
+    }
+}

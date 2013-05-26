@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/no-wpautop": {
+            "1.1": {
+                "name": "wordpress\/no-wpautop",
+                "version": "1.1",
+                "version_normalized": "1.1.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/no-wpautop.1.1.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>With No WPautop you can disable the WordPress function wpautop which automatically inserts paragraphs in contents and excerpts.<\/p>\n\n<p>In the plugin-options you can decide where you want to disable wpautop. In the Excerpt, the Content or both.<\/p>\n\n<p>Languages: English and German<\/p>\n\n<p>More Info: <a href=\"http:\/\/www.bake-the-web.de\/2012\/03\/22\/no-wpautop\/\" title=\"Bake the Web\">Bake-the-web.de<\/a><\/p>",
+                "uid": "28082"
+            }
+        }
+    }
+}

@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/firefox-counter": {
+            "0.2": {
+                "name": "wordpress\/firefox-counter",
+                "version": "0.2",
+                "version_normalized": "0.2.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/firefox-counter.0.2.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>This allows you to put the <code>firefox_count()<\/code> function in your template to get the latest download count for <a href=\"http:\/\/www.mozilla.org\/products\/firefox\/\">everyone's favorite browser<\/a>. Call like <code>firefox_count('thunderbird')<\/code> to get the count for Thunderbird.<\/p>",
+                "uid": "115000"
+            }
+        }
+    }
+}

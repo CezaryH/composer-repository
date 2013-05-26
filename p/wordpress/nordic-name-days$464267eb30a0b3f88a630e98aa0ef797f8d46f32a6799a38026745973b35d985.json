@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/nordic-name-days": {
+            "0.2": {
+                "name": "wordpress\/nordic-name-days",
+                "version": "0.2",
+                "version_normalized": "0.2.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/nordic-name-days.0.2.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>This mini plugin register shortcode [sk-nnd-name-days] to display current name days in Nordic countries. Supported countries are Finland,\nNorway, Sweden and Denmark. By default shortcode [sk-nnd-name-days] displays current day of the week, day and name days in Finland. You can use\nuse shortcode in posts, pages and text widget. This plugin idea is from <a href=\"http:\/\/wordpress.org\/extend\/plugins\/international-namedays\/\" title=\"International Namedays\">International Namedays<\/a> plugin.<\/p>\n\n<h4>Shorcode usage and attributes in other countries<\/h4>\n\n<p>Here is how you use shortcode in other languages.<\/p>\n\n<ol>\n<li>Norway: [sk-nnd-name-days language=\"nb_NO\"]<\/li>\n<li>Sweden: [sk-nnd-name-days language=\"sv_SE\"]<\/li>\n<li>Denmark: [sk-nnd-name-days language=\"da_DK\"]<\/li>\n<\/ol>\n\n<p>Other shortcode attributes are before, after, language, separator (default is &#124;) and dateformat (default is l j.n.Y). You can use these attributes\nlike this.<\/p>\n\n<pre><code>[sk-nnd-name-days language=&#34",
+                "uid": "18615"
+            }
+        }
+    }
+}

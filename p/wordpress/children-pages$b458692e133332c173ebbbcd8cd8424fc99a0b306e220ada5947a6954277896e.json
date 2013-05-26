@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/children-pages": {
+            "1.0": {
+                "name": "wordpress\/children-pages",
+                "version": "1.0",
+                "version_normalized": "1.0.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/children-pages.1.0.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>No configuration at all. Throw in the widget in your sidebar and it shows all subpages of page with wp_list_pages.<\/p>",
+                "uid": "46935"
+            }
+        }
+    }
+}

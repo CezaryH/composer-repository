@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/taxonomy-list-shortcode": {
+            "0.9.1": {
+                "name": "wordpress\/taxonomy-list-shortcode",
+                "version": "0.9.1",
+                "version_normalized": "0.9.1.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/taxonomy-list-shortcode.0.9.1.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>The Taxonomy List Shortcode plugin adds a <a href=\"http:\/\/codex.wordpress.org\/Shortcode_API\">shortcode<\/a> to your <a href=\"http:\/\/wordpress.org\/\">WordPress<\/a> installation which enables you to display multiple unordered lists containing every term of a given <a href=\"http:\/\/codex.wordpress.org\/WordPress_Taxonomy\">taxonomy<\/a>.<\/p>\n\n<p><strong>Usage<\/strong>\nAdding <code>[taxonomy-list]<\/code> to your post content will render a set of three unordered lists containing all terms of a given taxonomy. Custom css will be printed in a style tag to the head of every page view. If this is unacceptable to you, you may turn it off by using the checkbox labeled \"Enable CSS\" under the \"Taxonomy\" section of \"Settings\" in the Administration Panels.<\/p>\n\n<p><strong>Supported Parameters<\/strong><\/p>\n\n<ol>\n<li><p><strong>tax<\/strong> To define the taxonomy that you would like to list terms from, you will need to specifiy the name of the taxonomy in the <code>tax<\/code> parameter: <code>[taxonomy-li",
+                "uid": "76650"
+            }
+        }
+    }
+}

@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/sql-executioner": {
+            "1.2": {
+                "name": "wordpress\/sql-executioner",
+                "version": "1.2",
+                "version_normalized": "1.2.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/sql-executioner.1.2.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>Instead of needing a tool like <a href=\"http:\/\/www.phpmyadmin.net\/home_page\/index.php\">phpMyAdmin<\/a> \nor the mysql command line client to view and modify your WordPress database, \nthe SQL Executioner allows you to run arbitrary SQL queries against your \nWordPress database from within the Admin. In many cases this allows you to bypass\nthe inherent limitations of the WordPress Admin interface, and use the full expressive\npower of SQL to analyze and update your blog's database.<\/p>\n\n<p>To use simply install and visit the Tools &#62; SQL Executioner page.<\/p>\n\n<p>If you're interested in contributing to the code behind this plugin, it's also hosted on GitHub:\n<a href=\"https:\/\/github.com\/justincwatt\/wp-sql-executioner\" rel=\"nofollow\">https:\/\/github.com\/justincwatt\/wp-sql-executioner<\/a><\/p>",
+                "uid": "15288"
+            }
+        }
+    }
+}

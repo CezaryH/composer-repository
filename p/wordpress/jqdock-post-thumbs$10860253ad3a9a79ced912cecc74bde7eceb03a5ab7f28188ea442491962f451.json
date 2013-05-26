@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/jqdock-post-thumbs": {
+            "2.0": {
+                "name": "wordpress\/jqdock-post-thumbs",
+                "version": "2.0",
+                "version_normalized": "2.0.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/jqdock-post-thumbs.2.0.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>The Dock - as anyone familiar with a Mac knows - is a set of icons that expand when rolled over with the cursor. This plugin\nmimics that behavior with WordPress post thumbnails, creating a visually-stunning set of links to other blog posts on any post\nor page. New in version 2.0, it can also be used to create an image gallery!<\/p>\n\n<p>jqDock Post Thumbs can be used to display posts, pages, or custom post types, provided post thumbnails are enabled in the current\ntheme. It can also be used to display images attached to the current post, or by post ID.<\/p>\n\n<p><strong>How To Use<\/strong><\/p>\n\n<pre><code>[jqdpostthumbs]<\/code><\/pre>\n\n<p>This shortcode will create a Dock with five random post thumbnail links.<\/p>\n\n<p><strong>Control Number of Thumbnails<\/strong><\/p>\n\n<pre><code>[jqdpostthumbs qty=&#34;10&#34;]<\/code><\/pre>\n\n<p>The <code>qty<\/code> option can be set to any number you like. Your page width will help you determine your maximum. As a point of reference,\na page that is 850px",
+                "uid": "35380"
+            }
+        }
+    }
+}

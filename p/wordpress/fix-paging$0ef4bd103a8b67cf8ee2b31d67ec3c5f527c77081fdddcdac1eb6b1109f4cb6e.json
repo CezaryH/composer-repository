@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/fix-paging": {
+            "0.3": {
+                "name": "wordpress\/fix-paging",
+                "version": "0.3",
+                "version_normalized": "0.3.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/fix-paging.0.3.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>Many people report Wordpress version 3.1 update broken paging for categories and tags pages of their sites. This plugin disables canonical redirects for tags and categories.<\/p>\n\n<p>If paging works for tags and categories pages of your installation, you don't need to install this plugin.<\/p>",
+                "uid": "47838"
+            }
+        }
+    }
+}

@@ -1,0 +1,40 @@
+{
+    "packages": {
+        "wordpress\/uninterrupted-backup": {
+            "0.1": {
+                "name": "wordpress\/uninterrupted-backup",
+                "version": "0.1",
+                "version_normalized": "0.1.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/uninterrupted-backup.0.1.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<h4>Purpose<\/h4>\n\n<p>Detect Wordpress Plugins 'Fatal Errors' that might block\/prevent site admins from accessing Wordpress admin interface in order to deactivate the Plugin that caused the issue!\nUBP then report\/notify (sedning email) site admin with a secure link that valid for 24 hours from which site admin can deactivate the target Plugin by simply clicking the link!<\/p>\n\n<p>For development state and issue tracking follow the Plugin on <a href=\"https:\/\/github.com\/xpointer\/ubp\">GitHub Respository<\/a><\/p>\n\n<h4>Mechanism<\/h4>\n\n<p>The mechanism of the Plugin is to always put itself as the first Plugin to be executed by Wordpress Plugins system! The Plugin then just stay away and never get itself involved\nuntil the execution of all the other scripts is then terminated! UBP Plugin role is comes when the script is terminated. It then check if the script is terminated with error. If the script\nif terminated with error UBP send admin mail with backup link that has a secure key by which UBP g",
+                "uid": "9319"
+            },
+            "0.1.2": {
+                "name": "wordpress\/uninterrupted-backup",
+                "version": "0.1.2",
+                "version_normalized": "0.1.2.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/uninterrupted-backup.0.1.2.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<h4>Purpose<\/h4>\n\n<p>Detect Wordpress Plugins 'Fatal Errors' that might block\/prevent site admins from accessing Wordpress admin interface in order to deactivate the Plugin that caused the issue!\nUBP then report\/notify (sedning email) site admin with a secure link that valid for 24 hours from which site admin can deactivate the target Plugin by simply clicking the link!<\/p>\n\n<p>For development state and issue tracking follow the Plugin on <a href=\"https:\/\/github.com\/xpointer\/ubp\">GitHub Respository<\/a><\/p>\n\n<h4>Mechanism<\/h4>\n\n<p>The mechanism of the Plugin is to always put itself as the first Plugin to be executed by Wordpress Plugins system! The Plugin then just stay away and never get itself involved\nuntil the execution of all the other scripts is then terminated! UBP Plugin role is comes when the script is terminated. It then check if the script is terminated with error. If the script\nif terminated with error UBP send admin mail with backup link that has a secure key by which UBP g",
+                "uid": "9318"
+            }
+        }
+    }
+}

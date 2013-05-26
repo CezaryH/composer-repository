@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/googl-shortlinks": {
+            "1.1.2": {
+                "name": "wordpress\/googl-shortlinks",
+                "version": "1.1.2",
+                "version_normalized": "1.1.2.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/googl-shortlinks.1.1.2.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>The default method of WordPress' implementation of shortlinks adds ?p={post-id} to the end of your site name in place of the full URL. Though this can indeed shorten your link quite significantly; if you have a long site name it still might not be as effective.<\/p>\n\n<p>This WordPress plug-in allows automatic url shortening of post links with goo.gl URL Shortener using the API recently provided by Google in place of the default ?p={post-id}.<\/p>\n\n<p>For Example:<br \/>\nWordPress \"shortlink\": <a href=\"http:\/\/christophercochran.me\/?p=47\" rel=\"nofollow\">http:\/\/christophercochran.me\/?p=47<\/a> (not so short is it?)<br \/>\nShortlink created with the goo.gl API : <a href=\"http:\/\/goo.gl\/Tqczu\" rel=\"nofollow\">http:\/\/goo.gl\/Tqczu<\/a> (I can haz more to say about my awesome link on Twiter now &#8211; YAY)<\/p>",
+                "uid": "55163"
+            }
+        }
+    }
+}

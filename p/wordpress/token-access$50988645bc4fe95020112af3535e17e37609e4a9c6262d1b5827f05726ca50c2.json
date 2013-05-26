@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/token-access": {
+            "1.2": {
+                "name": "wordpress\/token-access",
+                "version": "1.2",
+                "version_normalized": "1.2.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/token-access.1.2.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>This plugin will limit access to the site.  Only visitors with a cookie token will be able to access the public website.  Visitors without the cookie will see a \"coming soon\" style of page.<\/p>\n\n<p>You can customise the \"coming soon\" content, and you can change the way tokens work.  Visit yoursite.com\/?add_token to receive the token allowing you to see the site.  To remove the limited access, simply disable this plugin.<\/p>\n\n<p>This plugin is useful when you're developing your site.  You can work on your live webserver without having to publish your site.<\/p>",
+                "uid": "63780"
+            }
+        }
+    }
+}

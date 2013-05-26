@@ -1,0 +1,40 @@
+{
+    "packages": {
+        "wordpress\/schedule-post": {
+            "1.0": {
+                "name": "wordpress\/schedule-post",
+                "version": "1.0",
+                "version_normalized": "1.0.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/schedule-post.1.0.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>Schedule Post plugin automatically publish post at regular intervals. It read text files from special path and parse it into posts.\nIt does this by utilizing the cron feature built into WordPress. You can currently schedule the publishing post event by setting the number of hours in option page.\nFor example, you can let it publish a post every 6, 12 hours, one day, two days or one week.<\/p>",
+                "uid": "103056"
+            },
+            "1.0.1": {
+                "name": "wordpress\/schedule-post",
+                "version": "1.0.1",
+                "version_normalized": "1.0.1.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/schedule-post.1.0.1.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>Schedule Post plugin automatically publish post at regular intervals. It read text files from special path and parse it into posts.\nIt does this by utilizing the cron feature built into WordPress. You can currently schedule the publishing post event by setting the number of hours in option page.\nFor example, you can let it publish a post every 6, 12 hours, one day, two days or one week.<\/p>",
+                "uid": "103057"
+            }
+        }
+    }
+}

@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/fix-my-feed-rss-repair": {
+            "1.2": {
+                "name": "wordpress\/fix-my-feed-rss-repair",
+                "version": "1.2",
+                "version_normalized": "1.2.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/fix-my-feed-rss-repair.1.2.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>This is a simple yet powerful plugin to repair your wordpress RSS feed. This plugin will help you if you get an error that looks similar to this:<\/p>\n\n<p>XML Parsing Error: XML or text declaration not at start of entity\nLocation: <a href=\"http:\/\/www.yoursite.com\/feed\/\" rel=\"nofollow\">http:\/\/www.yoursite.com\/feed\/<\/a>\nLine Number 2, Column 2: \n-^<\/p>\n\n<p>If you get this error and have not been able to resolve your feed issues than this plugin is what you need.  RSS repair adds a new item to your wordpress tools menu. After you do a core update or theme update and your feed stops working, apply the fix and your feed will be as good as new.<\/p>\n\n<p>Code sources from: <a href=\"http:\/\/wejn.org\/stuff\/wejnswpwhitespacefix.php.html\" rel=\"nofollow\">http:\/\/wejn.org\/stuff\/wejnswpwhitespacefix.php.html<\/a><\/p>",
+                "uid": "24967"
+            }
+        }
+    }
+}

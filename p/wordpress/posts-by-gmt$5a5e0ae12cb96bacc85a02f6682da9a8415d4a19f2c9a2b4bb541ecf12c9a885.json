@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/posts-by-gmt": {
+            "1.0": {
+                "name": "wordpress\/posts-by-gmt",
+                "version": "1.0",
+                "version_normalized": "1.0.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/posts-by-gmt.1.0.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>Most people don't need this plugin. Most wouldn't notice a difference\nif they had it. All it does is change the default sort order of a\nWP_Query from posts.post_date to posts.post_date_gmt -- that is, sort\non the GMT timestamp of a post rather than the local time zone.<\/p>\n\n<p>Who needs this? People who switch time zones frequently. People\nrunning a network installation of WordPress where they want to be able\nto aggregate posts from all their network blogs easily, and in the\nright order. I don't know. I wrote it for FreeThoughtBlogs.com, so\ntheir \"most recent posts\" sidebar would stop showing only posts from\na few blogs in early time zones. If it works for you, great.<\/p>\n\n<p>I have every hope that this plugin will be made obsolete by the\ndefault sort order being changed in the WordPress core. I can think of\nno good reason why comments are sorted by GMT but posts by local time.<\/p>\n\n<p>For all I know, this plugin works with older versions than 3.0. I've\nonly tested it with 3.2.1.<\/p",
+                "uid": "37709"
+            }
+        }
+    }
+}

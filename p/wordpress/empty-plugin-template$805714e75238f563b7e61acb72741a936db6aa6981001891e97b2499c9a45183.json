@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/empty-plugin-template": {
+            "0.1.1": {
+                "name": "wordpress\/empty-plugin-template",
+                "version": "0.1.1",
+                "version_normalized": "0.1.1.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/empty-plugin-template.0.1.1.2.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>STILL BETA Use this emtpy wordpress plugin template to build your own.<\/p>\n\n<p>Considering all the advices given in <a href=\"http:\/\/codex.wordpress.org\/Writing_a_Plugin\" rel=\"nofollow\">http:\/\/codex.wordpress.org\/Writing_a_Plugin<\/a>, <a href=\"http:\/\/codex.wordpress.org\/Creating_Options_Pages\" rel=\"nofollow\">http:\/\/codex.wordpress.org\/Creating_Options_Pages<\/a> and <a href=\"http:\/\/planetozh.com\/blog\/2009\/09\/top-10-most-common-coding-mistakes-in-wordpress-plugins\/\" rel=\"nofollow\">http:\/\/planetozh.com\/blog\/2009\/09\/top-10-most-common-coding-mistakes-in-wordpress-plugins\/<\/a><\/p>\n\n<p>Every important point will have it's own page to explain.<\/p>\n\n<h4>Including:<\/h4>\n\n<ul>\n<li>multi language ability<\/li>\n<li>uninstall routine<\/li>\n<li>data delete routine (avoid orphaned data)<\/li>\n<li>coding advices<\/li>\n<li>security aspects (validating user inputs, nonces)<\/li>\n<li>external third party stuff (Ajax, CSS, Javascript)<\/li>\n<li>shortcode<\/li>\n<li>Wordpress scheduler (\"cronjob\")<\/li>\n<li>logfi",
+                "uid": "52489"
+            }
+        }
+    }
+}

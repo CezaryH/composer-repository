@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/buddypress-admin-notifications": {
+            "0.1": {
+                "name": "wordpress\/buddypress-admin-notifications",
+                "version": "0.1",
+                "version_normalized": "0.1.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/buddypress-admin-notifications.0.1.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>This plugin adds a checkbox in the post\/page admin (for the admins and editors) to tell members (notification &#38; email) that an important post has been published :<\/p>\n\n<p>Just check the checbox at the bottom of a page\/post when editing it.\n(You won't be able to post a notification if the post\/page is not published; password protected or if a notification has been sent before.)\n(If a notification has been sent before; the checkbox will be disabled. You can eventually re-enable it by deleting the meta key bp_admin_notifications_sent.)<\/p>\n\n<p>Careful : I don't have tested this plugin with a large amount of members.  I suspect the mail function could not support it.  Please tell me if you try !<\/p>",
+                "uid": "77985"
+            }
+        }
+    }
+}

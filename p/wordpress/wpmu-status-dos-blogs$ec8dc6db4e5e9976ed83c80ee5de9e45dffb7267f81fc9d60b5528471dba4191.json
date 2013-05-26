@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/wpmu-status-dos-blogs": {
+            "1.0": {
+                "name": "wordpress\/wpmu-status-dos-blogs",
+                "version": "1.0",
+                "version_normalized": "1.0.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/wpmu-status-dos-blogs.1.0.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>Lista todos os blogs criados, &#233; necess&#225;rio estar ativado a op&#231;&#227;o de multisite no Wordpress 3.0+ para que funcione corretamente.<\/p>",
+                "uid": "58241"
+            }
+        }
+    }
+}

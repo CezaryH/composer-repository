@@ -1,0 +1,40 @@
+{
+    "packages": {
+        "wordpress\/link-counter": {
+            "1.0": {
+                "name": "wordpress\/link-counter",
+                "version": "1.0",
+                "version_normalized": "1.0.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/link-counter.1.0.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>Link Counter helps track patterns in your blog's outgoing links. The generated report can be organized alphabetically or by count. It can show links only, links by domain, or domains only. Other options help refine results.<\/p>\n\n<p>Link Counter takes the following parameters (the first argument for each is the default):<\/p>\n\n<ul>\n<li>active=\"yes\" or \"no\" where \"yes\" means only links in anchor tags are counted; \"no\" means that unlinked links are also counted.<\/li>\n<li>dupes=\"no\" or \"yes\" where \"no\" means duplicates in individual posts or pages are ignored; \"yes\" means they are counted.<\/li>\n<li>output=\"all\" or \"domain\" or \"link\" where \"all\" means report on all links, organized by domain; \"domain\" means report only on domains; \"link\" means report only on links.<\/li>\n<li>target=\"other\" or \"all\" where \"other\" means count only links to external sites; \"all\" means include links to the blog's domain.<\/li>\n<li>sort=\"alpha\" or \"count\" or \"none\" where \"alpha\" means sort alphabetically; \"count",
+                "uid": "75444"
+            },
+            "1.1": {
+                "name": "wordpress\/link-counter",
+                "version": "1.1",
+                "version_normalized": "1.1.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/link-counter.1.1.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>Link Counter helps track patterns in your blog's outgoing links. The generated report can be organized alphabetically or by count. It can show links only, links by domain, or domains only. Other options help refine results.<\/p>\n\n<p>Link Counter takes the following parameters (the first argument for each is the default):<\/p>\n\n<ul>\n<li>active=\"yes\" or \"no\" where \"yes\" means only links in anchor tags are counted; \"no\" means that unlinked links are also counted.<\/li>\n<li>dupes=\"no\" or \"yes\" where \"no\" means duplicates in individual posts or pages are ignored; \"yes\" means they are counted.<\/li>\n<li>output=\"all\" or \"domain\" or \"link\" where \"all\" means report on all links, organized by domain; \"domain\" means report only on domains; \"link\" means report only on links.<\/li>\n<li>target=\"other\" or \"all\" where \"other\" means count only links to external sites; \"all\" means include links to the blog's domain.<\/li>\n<li>sort=\"alpha\" or \"count\" or \"none\" where \"alpha\" means sort alphabetically; \"count",
+                "uid": "75443"
+            }
+        }
+    }
+}

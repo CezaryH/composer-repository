@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/quick-browscap": {
+            "1.03": {
+                "name": "wordpress\/quick-browscap",
+                "version": "1.03",
+                "version_normalized": "1.03.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/quick-browscap.1.03.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>Quick Browscap allows you to quickly get detailed browser capabilities from user agent string using database provided by <a href=\"http:\/\/browsers.garykeith.com\/\">Browser Capabilities Project<\/a>. It also supports updating browser capabilities database using single click without updating Quick Browscap as well as updating this database automatically. This plugin doesn't have end user functionality because it's meant to be used by other WordPress plugins.<\/p>\n\n<h4>Quick Browscap feature highlights<\/h4>\n\n<ul>\n<li>When compared to native PHP <a href=\"http:\/\/php.net\/manual\/en\/function.get-browser.php\">get_browser()<\/a> function, Quick Browscap can be easily used on shared hosting environments.<\/li>\n<li>Browser capabilities database can be updated using single click without updating Quick Browscap plugin.<\/li>\n<li>Browser capabilities database can be auto updated weekly without updating Quick Browscap plugin.<\/li>\n<li>After database update PHP cache file is created to avoid parsing databa",
+                "uid": "21509"
+            }
+        }
+    }
+}

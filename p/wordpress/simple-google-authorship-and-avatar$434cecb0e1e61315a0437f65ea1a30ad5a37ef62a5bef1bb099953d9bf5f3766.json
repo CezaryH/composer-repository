@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/simple-google-authorship-and-avatar": {
+            "1.0": {
+                "name": "wordpress\/simple-google-authorship-and-avatar",
+                "version": "1.0",
+                "version_normalized": "1.0.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/simple-google-authorship-and-avatar.1.0.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>Many plugins support google authorship integration (less offer google avatar but this is kind of minor feature) so why create another one?<\/p>\n\n<p>The trick of this plugin is to eliminate the need for copy &#38; pasting the user profile URL\\'s, by using the google API to retrieve the required data for the user. An already registered application is used as a proxy for authentication and using the API, and no extra work is involved. For the user, authentication, and gathering the required info, is just one click away from their profile page.<\/p>\n\n<p>Once authenticated, anyone who can edit the user\u0092s profile can set it to show or hide authorship and use google profile picture as avatar.<\/p>\n\n<p>Please read the installation instructions, there is more there then the trivial instructions<\/p>\n\n<p><strong>Network use<\/strong><\/p>\n\n<p>The plugin will work for any sub site in the network for which it was activated (or if the plugin is network activated).<\/p>\n\n<p>Any change the user will mak",
+                "uid": "11807"
+            }
+        }
+    }
+}

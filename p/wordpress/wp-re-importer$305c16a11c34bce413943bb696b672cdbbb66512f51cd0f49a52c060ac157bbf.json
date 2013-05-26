@@ -1,0 +1,40 @@
+{
+    "packages": {
+        "wordpress\/wp-re-importer": {
+            "1.0": {
+                "name": "wordpress\/wp-re-importer",
+                "version": "1.0",
+                "version_normalized": "1.0.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/wp-re-importer.1.0.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>As a fork of the <a href=\"http:\/\/wordpress.org\/extend\/plugins\/wordpress-importer\/\">standard WordPress Importer plugin (v0.6)<\/a>, this importer adds the following features:<\/p>\n\n<ul>\n<li>Importing content that already exists will add the new version as a post revision<\/li>\n<li>A default parent post can be set for content that doesn't have a hierarchy defined in the WordPress export file<\/li>\n<\/ul>\n\n<p>If you don't need these features, you should use the <a href=\"http:\/\/wordpress.org\/extend\/plugins\/wordpress-importer\/\">standard WordPress Importer<\/a>.<\/p>",
+                "uid": "14621"
+            },
+            "1.1": {
+                "name": "wordpress\/wp-re-importer",
+                "version": "1.1",
+                "version_normalized": "1.1.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/wp-re-importer.1.1.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>As a fork of the <a href=\"http:\/\/wordpress.org\/extend\/plugins\/wordpress-importer\/\">standard WordPress Importer plugin (v0.6)<\/a>, this importer adds the following features:<\/p>\n\n<ul>\n<li>Importing content that already exists will add the new version as a post revision<\/li>\n<li>A default parent post can be set for content that doesn't have a hierarchy defined in the WordPress export file<\/li>\n<\/ul>\n\n<p>If you don't need these features, you should use the <a href=\"http:\/\/wordpress.org\/extend\/plugins\/wordpress-importer\/\">standard WordPress Importer<\/a>.<\/p>",
+                "uid": "14620"
+            }
+        }
+    }
+}

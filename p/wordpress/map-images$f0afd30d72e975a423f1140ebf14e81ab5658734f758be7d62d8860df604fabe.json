@@ -1,0 +1,40 @@
+{
+    "packages": {
+        "wordpress\/map-images": {
+            "1.0.1": {
+                "name": "wordpress\/map-images",
+                "version": "1.0.1",
+                "version_normalized": "1.0.1.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/map-images.1.0.1.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>This plugin parses a post looking for all image files with GPS exif data.  It then appends a Google Map to each post with a marker for each image found in that post.  It can include both locally stored images and remotely stored images.  In order for Google Maps to work properly, a Google Maps API Key must be obtained.  The key is free for a limited number of map generations, 25,000 requests\/day at the time of this writing (March 19, 2013).  For more information on obtaining an API Key, visit Google's developer resources (<a href=\"https:\/\/developers.google.com\/maps\/documentation\/javascript\/tutorial\" rel=\"nofollow\">https:\/\/developers.google.com\/maps\/documentation\/javascript\/tutorial<\/a>).<\/p>",
+                "uid": "8704"
+            },
+            "1.1.0": {
+                "name": "wordpress\/map-images",
+                "version": "1.1.0",
+                "version_normalized": "1.1.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/map-images.1.1.0.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>This plugin parses a post looking for all image files with GPS exif data.  It then appends a Google Map to each post with a marker for each image found in that post.  It can include both locally stored images and remotely stored images.  In order for Google Maps to work properly, a Google Maps API Key must be obtained.  The key is free for a limited number of map generations, 25,000 requests\/day at the time of this writing (March 19, 2013).  For more information on obtaining an API Key, visit Google's developer resources (<a href=\"https:\/\/developers.google.com\/maps\/documentation\/javascript\/tutorial\" rel=\"nofollow\">https:\/\/developers.google.com\/maps\/documentation\/javascript\/tutorial<\/a>).<\/p>",
+                "uid": "8703"
+            }
+        }
+    }
+}

@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/wp-links-shortcode": {
+            "1.0": {
+                "name": "wordpress\/wp-links-shortcode",
+                "version": "1.0",
+                "version_normalized": "1.0.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/wp-links-shortcode.1.0.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>This plugin makes it easy to output a list of Links on any WordPress Post, Page, or other Custom Post Type. The shortcode uses the\nWordPress native <code>wp_list_bookmarks<\/code> function call to output the list. All native function arguments are available to the shortcode.<\/p>\n\n<p>For more information on this plugin and support for this plugin, visit <a href=\"http:\/\/www.weareo3.com\/plugins\/wp-links-shortcode\/\">WP Links Shortcode on O3<\/a>.<\/p>",
+                "uid": "29273"
+            }
+        }
+    }
+}

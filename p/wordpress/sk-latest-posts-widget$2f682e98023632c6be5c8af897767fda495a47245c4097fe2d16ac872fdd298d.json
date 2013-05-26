@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/sk-latest-posts-widget": {
+            "1.2": {
+                "name": "wordpress\/sk-latest-posts-widget",
+                "version": "1.2",
+                "version_normalized": "1.2.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/sk-latest-posts-widget.1.2.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>This plugins adds a widget with the latest posts from your phpbb3 forum.\nTo make it work you have to add a file on your forum directory wich is easily configurable to fetch the posts from a specific category or the whole forum.\nThis plugins supports multiple istances so you can display topics from different forums or categories in multiple widgets.<\/p>",
+                "uid": "81891"
+            }
+        }
+    }
+}

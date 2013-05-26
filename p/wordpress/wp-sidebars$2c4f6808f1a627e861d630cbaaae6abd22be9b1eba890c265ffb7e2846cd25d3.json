@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/wp-sidebars": {
+            "0.6.6": {
+                "name": "wordpress\/wp-sidebars",
+                "version": "0.6.6",
+                "version_normalized": "0.6.6.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/wp-sidebars.0.6.6.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>WP Sidebars allows you to generated dynamic sidebars (widget areas) on-the-fly. Quickly generate sidebars for your site. Use the sidebar selector on the page edit screen to select a sidebar for any page. Custom post types are supported.<\/p>\n\n<h4>Usage<\/h4>\n\n<ol>\n<li>Create a sidebar<\/li>\n<li>Add widgets to the sidebar<\/li>\n<li>In your templates, use <code>ai_dynamic_sidebar<\/code> in place of <code>dynamic_sidebar<\/code><\/li>\n<li>Configure options in Settings &#62; Sidebars<\/li>\n<\/ol>\n\n<h4>Function Reference<\/h4>\n\n<pre><code>ai_dynamic_sidebar<\/code><\/pre>\n\n<p>takes two optional parameters:<\/p>\n\n<ol>\n<li><code>$sidebar_id<\/code>. Provide an ID to a specific sidebar. The default is NULL<\/li>\n<li><code>$location<\/code>. Provide a sidebar location, either: left, right, footer. The default is 'left'<\/li>\n<\/ol>\n\n<p>To display sidebars dynamically based on the selection for the given page, pass NULL to <code>$sidebar_id<\/code>.<\/p>\n\n<p>You can also check if a given location has any sideba",
+                "uid": "39545"
+            }
+        }
+    }
+}

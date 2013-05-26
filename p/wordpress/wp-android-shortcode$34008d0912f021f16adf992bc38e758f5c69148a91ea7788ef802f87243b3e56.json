@@ -1,0 +1,40 @@
+{
+    "packages": {
+        "wordpress\/wp-android-shortcode": {
+            "1.0": {
+                "name": "wordpress\/wp-android-shortcode",
+                "version": "1.0",
+                "version_normalized": "1.0.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/wp-android-shortcode.1.0.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>Linking to Android Market apps is somewhat problematic. Because Android Market links only work from Android devices, the most common way to link to an Android app is to offer a QR code of the app link that can be scanned with an app like Barcode Scanner.<\/p>\n\n<p>However, when browsing from an Android device, a direct link to the Android Market is preferred. What works well for Android devices does not suit the rest and viceversa.<\/p>\n\n<p>WP Android Shortcode solves this problem by using the [android] shortcode to convert Android Market links to the best option based on the platform. Android devices get a direct link to the Android Market, while the rest gets the corresponding QR code. In both cases a nifty Android Market badge is used to clearly indicate that this is a link to an Android app.<\/p>\n\n<p>Examples:<\/p>\n\n<p>[android]market:\/\/search?q=pname:com.example[\/android]<\/p>\n\n<p>[android href=\"market:\/\/search?q=pname:com.example\"]<\/p>\n\n<p>[android href=\"market:\/\/search?q=pname:com.",
+                "uid": "55877"
+            },
+            "1.0.1": {
+                "name": "wordpress\/wp-android-shortcode",
+                "version": "1.0.1",
+                "version_normalized": "1.0.1.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/wp-android-shortcode.1.0.1.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>Linking to Android Market apps is somewhat problematic. Because Android Market links only work from Android devices, the most common way to link to an Android app is to offer a QR code of the app link that can be scanned with an app like Barcode Scanner.<\/p>\n\n<p>However, when browsing from an Android device, a direct link to the Android Market is preferred. What works well for Android devices does not suit the rest and viceversa.<\/p>\n\n<p>WP Android Shortcode solves this problem by using the [android] shortcode to convert Android Market links to the best option based on the platform. Android devices get a direct link to the Android Market, while the rest gets the corresponding QR code. In both cases a nifty Android Market badge is used to clearly indicate that this is a link to an Android app.<\/p>\n\n<p>Examples:<\/p>\n\n<p>[android]market:\/\/search?q=pname:com.example[\/android]<\/p>\n\n<p>[android href=\"market:\/\/search?q=pname:com.example\"]<\/p>\n\n<p>[android href=\"market:\/\/search?q=pname:com.",
+                "uid": "55876"
+            }
+        }
+    }
+}

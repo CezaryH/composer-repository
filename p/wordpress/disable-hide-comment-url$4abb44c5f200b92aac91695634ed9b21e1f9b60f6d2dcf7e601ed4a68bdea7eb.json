@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/disable-hide-comment-url": {
+            "1.0": {
+                "name": "wordpress\/disable-hide-comment-url",
+                "version": "1.0",
+                "version_normalized": "1.0.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/disable-hide-comment-url.1.0.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>This plugin will allow you to remove the URL option from the comment box. This prevents automated bots to post spam links on your website. It helps your website retain the SEO Juice. \nThis is a lightweight very simple plugin. No Javascript, ajax hack.<\/p>",
+                "uid": "40285"
+            }
+        }
+    }
+}

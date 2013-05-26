@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/wsecure": {
+            "2.0": {
+                "name": "wordpress\/wsecure",
+                "version": "2.0",
+                "version_normalized": "2.0.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/wsecure.2.0.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>The wSecure plugin hides admin URL so that \"www.yoursite.com\/wp-admin\" will no longer\nbring up the admin page. Instead, wSecure allows you to set your own admin URL using a secret key\n(for example: <a href=\"http:\/\/www.yoursite.com\/wp-admin\/?secret\" rel=\"nofollow\">http:\/\/www.yoursite.com\/wp-admin\/?secret<\/a>). Only people who enter the secret key will be able to\naccess your admin area.<\/p>\n\n<p><strong>Features:<\/strong>\nThe <strong>Basic Version<\/strong> will hide your administrator URL from public access. This is all most people need.<\/p>\n\n<ul>\n<li>Set \"Enable\" to \"yes\" in order for wSecure to work.<\/li>\n<li>In the \"Key\" field enter the key that will be part of your new administrator URL. For example,\n  if you enter \"wSecure\" into the key field, then the administrator URL will be <a href=\"http:\/\/www.yourwebsite\/wp-admin\/?wSecure\" rel=\"nofollow\">http:\/\/www.yourwebsite\/wp-admin\/?wSecure<\/a>.\n  Please note that you cannot have a key that is only numbers.<\/li>\n<li>If you do not enter a ",
+                "uid": "30930"
+            }
+        }
+    }
+}

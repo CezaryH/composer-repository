@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/unitlicious": {
+            "0.1.0": {
+                "name": "wordpress\/unitlicious",
+                "version": "0.1.0",
+                "version_normalized": "0.1.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/unitlicious.0.1.0.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>Unit.licio.us is a plugin for WordPress 2.8+ that allows you to integrate your Del.icio.us account into your WordPress blog. \nThis plugin doesn't simply display your recent Del.icio.us bookmarks as a list, but actually stores your bookmarks as posts \nthat you can then edit and display any way you want!<\/p>\n\n<ul>\n<li>Doesn't just list recent bookmarks, but actually adds them to your WordPress database.<\/li>\n<li>Add bookmarks from as many accounts as you want.<\/li>\n<li>Uses built-in WordPress cron system to look for new bookmarks \"every hour\".<\/li>\n<li>Built on PhpDelicious by Edward Eliot <a href=\"http:\/\/www.phpdelicious.com\/\" title=\"PhpDelicious\">PhpDelicious by Edward Eliot<\/a><\/li>\n<\/ul>",
+                "uid": "79642"
+            }
+        }
+    }
+}

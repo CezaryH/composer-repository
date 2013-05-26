@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/demo-lock": {
+            "1.0.0": {
+                "name": "wordpress\/demo-lock",
+                "version": "1.0.0",
+                "version_normalized": "1.0.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/demo-lock.1.0.0.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>Demo Lock is a fully configurable plugin for WordPress developers that aims to provide a secure environment in the wp-admin interface enabling users to test admin interface plugins in a live demo with extremely limited access to all other WordPress settings.\nThis is a heavily modified version of a plugin originally written by Thomas Griffin (<a href=\"http:\/\/thomasgriffinmedia.com\/blog\/2012\/08\/create-live-demo-wordpress-plugin\/\" rel=\"nofollow\">http:\/\/thomasgriffinmedia.com\/blog\/2012\/08\/create-live-demo-wordpress-plugin\/<\/a>). It has been modified to \nbe completely plugin-independent and fully customizable through the config.php file, and updated to WordPress 3.5 standards.<\/p>",
+                "uid": "9303"
+            }
+        }
+    }
+}

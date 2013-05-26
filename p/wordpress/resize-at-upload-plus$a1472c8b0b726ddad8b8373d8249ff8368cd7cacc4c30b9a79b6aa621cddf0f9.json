@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/resize-at-upload-plus": {
+            "1.3": {
+                "name": "wordpress\/resize-at-upload-plus",
+                "version": "1.3",
+                "version_normalized": "1.3.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/resize-at-upload-plus.1.3.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>This plugin is basically just a little improvement of <a href=\"http:\/\/wordpress.org\/extend\/plugins\/resize-at-upload\/\" title=\"Resize-At-Upload\">Resize-At-Upload<\/a>, a fabulous plugin by A. Huizinga.<\/p>\n\n<p>The plugin will automatically resize an image upon upload, depending on the maximum width and height that you define. Gone are the days when you, or your client, will ruin a site's layout by uploading a huge file with 25 megapixels.\nBe advised: there is no backup, no copy of the originally uploaded image.<\/p>\n\n<p>The plugin uses a class originally from Jacob Wyke (www.redvodkajelly.com).<\/p>",
+                "uid": "94794"
+            }
+        }
+    }
+}

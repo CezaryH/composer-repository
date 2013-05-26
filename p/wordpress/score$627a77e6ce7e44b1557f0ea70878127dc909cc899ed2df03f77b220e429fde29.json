@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/score": {
+            "1": {
+                "name": "wordpress\/score",
+                "version": "1",
+                "version_normalized": "1.0.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/score.1.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>scORE! is a Wordpress plug-in you can use to publish scores easily for each post entry.<\/p>\n\n<p>This plugin is based on Carles Company Soler's \"punts\" plugin, with changes and additions to make the plugin elements more usable and less intimidating for new Wordpress users, as well as to better separate the presentation layer (the CSS stuff) from the data processing parts.<\/p>",
+                "uid": "99031"
+            }
+        }
+    }
+}

@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/counter-strike-server-viewer": {
+            "1.0": {
+                "name": "wordpress\/counter-strike-server-viewer",
+                "version": "1.0",
+                "version_normalized": "1.0.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/counter-strike-server-viewer.1.0.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>With these Plugin cou can display your Counter Strike Source - or Counter Strike Global Offensive Serverinformation yon your Wordpress-Hompage.<\/p>\n\n<p>It is easy to activate. You must onyl Downlaod the Plugin and place the String '[csviewer ip=\"mydomain.com\" port=\"26015\"]' \non your Wordpress Page or Article,<\/p>\n\n<p>You can change the appearance by using the CSS Tag table.server_data.<\/p>\n\n<p>More Info:<\/p>\n\n<p><a href=\"http:\/\/rainbow-six3.com\/?p=472\" rel=\"nofollow\">http:\/\/rainbow-six3.com\/?p=472<\/a><\/p>\n\n<p>Function:\nAuto-connect by klicking on the IP. (steam Protocoll must be activated)<\/p>\n\n<p>Display following Information:\n* Servername<\/p>\n\n<ul>\n<li><p>Serveradress (ip\/hostname and port)<\/p><\/li>\n<li><p>Map<\/p><\/li>\n<li><p>Mod (CS:S or CS:GO)<\/p><\/li>\n<li><p>Password (Yes or No)<\/p><\/li>\n<li><p>Ping<\/p><\/li>\n<li><p>Player (Current Playing Player and Max allowed Player)<\/p><\/li>\n<\/ul>",
+                "uid": "8947"
+            }
+        }
+    }
+}

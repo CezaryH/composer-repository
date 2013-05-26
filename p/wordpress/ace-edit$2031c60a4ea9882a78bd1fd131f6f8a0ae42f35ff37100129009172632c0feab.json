@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/ace-edit": {
+            "1.0": {
+                "name": "wordpress\/ace-edit",
+                "version": "1.0",
+                "version_normalized": "1.0.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/ace-edit.1.0.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>This plugin will improve the build in theme and plugin editor in WordPress with typical code editor features like syntax highlighting. It is very lightweight, since it will simply replace the default textarea with an instance of <a href=\"http:\/\/ace.ajax.org\/\">ACE<\/a>.<\/p>\n\n<h4>Features<\/h4>\n\n<ul>\n<li>syntax highlighting with themes<\/li>\n<li>code folding<\/li>\n<li>line numbering<\/li>\n<li>highlight matching parentheses<\/li>\n<li>auto indentation and outdent<\/li>\n<\/ul>\n\n<h4>Use Cases<\/h4>\n\n<p>Sometimes, you need to make some small adjustments on a theme or fix some bug in a plugin &#8211; but either you don&#8217;t have ftp acces or maybe you are on the road and don&#8217;t have access to your code editor. Then Ace Editor will come in handy and help you doing your work &#8211; with less chances of typos thanks to syntax highlighting and some basic syntax checking.<\/p>",
+                "uid": "22928"
+            }
+        }
+    }
+}

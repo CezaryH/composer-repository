@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/all-in-one-event-calendar-fix": {
+            "1.0": {
+                "name": "wordpress\/all-in-one-event-calendar-fix",
+                "version": "1.0",
+                "version_normalized": "1.0.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/all-in-one-event-calendar-fix.1.0.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>This plugin will convert exported calendar events from the All-in-One Event Calendar to plain text.  Where possible, formatting is kept.<\/p>\n\n<p>Links are preserved by including references to them in the notes footer.<\/p>\n\n<p>Many thanks to Jon Abernathy, aka Chuggnutt over at chuggnutt.com who saved me a lot of time with his HTML to Text class. It was the second class I tried, and the better of the two by a good margin.<\/p>\n\n<p>Sample output:<\/p>\n\n<pre><code>This is a paragraph, followed by a linked list: \n\n* 'line one of an indented list'\n* 'line two of an indented list'\n\nThis paragraph provides examples of links.  Here is the support website[1].\n<\/code><\/pre>\n\nLinks:\n\n<p>[1] <a href=\"http:\/\/www.mortis.org.uk\/?p=512\" rel=\"nofollow\">http:\/\/www.mortis.org.uk\/?p=512<\/a><\/p>",
+                "uid": "10919"
+            }
+        }
+    }
+}

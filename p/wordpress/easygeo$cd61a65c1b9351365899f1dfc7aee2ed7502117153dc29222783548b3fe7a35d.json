@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/easygeo": {
+            "1.0": {
+                "name": "wordpress\/easygeo",
+                "version": "1.0",
+                "version_normalized": "1.0.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/easygeo.1.0.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>This plugin is extremely simple, and intended for someone who wants to add geocoding to their blog, but without the bloat of a big fat plugin. This lets you tag each post with a location (description, latitude, longitude) which can then be used in your custom theme.<\/p>\n\n<p>This plugin also provides a feature to track of a single location not associated with any posts. This is useful in order to create a \"Where Am I?\" feature on your blog where you control the level of detail (just to share the city, rather than pluggin in foursquare data). This is especially nice if you're running a travel blog or a website for some kind of tour.<\/p>",
+                "uid": "47810"
+            }
+        }
+    }
+}

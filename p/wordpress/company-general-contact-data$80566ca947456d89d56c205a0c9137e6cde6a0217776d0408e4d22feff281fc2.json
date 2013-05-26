@@ -1,0 +1,40 @@
+{
+    "packages": {
+        "wordpress\/company-general-contact-data": {
+            "0.1": {
+                "name": "wordpress\/company-general-contact-data",
+                "version": "0.1",
+                "version_normalized": "0.1.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/company-general-contact-data.0.1.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>This plugins adds an admin page in which to store all your contact information such as Company Name, Telephone, Fax, Email, Address, Google Map, ect.\nIt can also store addresses of the major social networks like Facebook, Twitter, LiknkedIn, Google Plus, YouTube, etc..<\/p>\n\n<p>All these data can be retrieved by:<\/p>\n\n<ul>\n<li><code>get_contact_data()<\/code> function, you get all your contact fields in an array to use in PHP templates<\/li>\n<li><code>get_contact_data('field_name')<\/code> function, retrieve one contact field at a time tu use in PHP templates<\/li>\n<li><code>[contact-data field=\"field_name\"]<\/code> shortcode, echoes one contact field at a time to use in the text editor<\/li>\n<li><code>follow_me_icons()<\/code> function, render a buttons block of your social networks links from your PHP code<\/li>\n<li><code>[follow-me-icons]<\/code> shortcode, render a social networks block in your contents from the text editor<\/li>\n<\/ul>\n\n<p>Valid values for the <code>field_name<\/code> param",
+                "uid": "12425"
+            },
+            "0.2": {
+                "name": "wordpress\/company-general-contact-data",
+                "version": "0.2",
+                "version_normalized": "0.2.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/company-general-contact-data.0.2.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>This plugins adds an admin page in which to store all your contact information such as Company Name, Telephone, Fax, Email, Address, Google Map, ect.\nIt can also store addresses of the major social networks like Facebook, Twitter, LiknkedIn, Google Plus, YouTube, etc..<\/p>\n\n<p>All these data can be retrieved by:<\/p>\n\n<ul>\n<li><code>get_contact_data()<\/code> function, you get all your contact fields in an array to use in PHP templates<\/li>\n<li><code>get_contact_data('field_name')<\/code> function, retrieve one contact field at a time tu use in PHP templates<\/li>\n<li><code>[contact-data field=\"field_name\"]<\/code> shortcode, echoes one contact field at a time to use in the text editor<\/li>\n<li><code>follow_me_icons()<\/code> function, render a buttons block of your social networks links from your PHP code<\/li>\n<li><code>[follow-me-icons]<\/code> shortcode, render a social networks block in your contents from the text editor<\/li>\n<\/ul>\n\n<p>Valid values for the <code>field_name<\/code> param",
+                "uid": "12424"
+            }
+        }
+    }
+}

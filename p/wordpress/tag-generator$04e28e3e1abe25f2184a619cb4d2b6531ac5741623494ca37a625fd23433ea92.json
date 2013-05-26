@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/tag-generator": {
+            "0.1.1": {
+                "name": "wordpress\/tag-generator",
+                "version": "0.1.1",
+                "version_normalized": "0.1.1.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/tag-generator.0.1.1.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>This plugin may generate tags for all or selected posts by Yahoo API. Supported text language: Russian, English, Polish, Ukrainian, German, French, Belorussian, Spanish, Italian, Bulgarian, Czech, Turkish, Romanian, Serbian. For support not only english language, using translator.<\/p>",
+                "uid": "8333"
+            }
+        }
+    }
+}

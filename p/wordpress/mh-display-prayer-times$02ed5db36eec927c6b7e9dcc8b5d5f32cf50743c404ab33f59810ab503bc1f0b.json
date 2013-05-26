@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/mh-display-prayer-times": {
+            "1.0": {
+                "name": "wordpress\/mh-display-prayer-times",
+                "version": "1.0",
+                "version_normalized": "1.0.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/mh-display-prayer-times.1.0.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>This is a Simple widget that creates following tables if they don't already exist and loads sample data into<\/p>\n\n<p>1) Daily Prayer Table<\/p>\n\n<pre><code>$wpdb-&#62;prefix . mh_dpt_daily_times \n<\/code><\/pre>\n\n<p>Structure of Table:<\/p>\n\n<pre><code>month int(2) NOT NULL, \/\/values are 01,02...12\nday int(2) NOT NULL, \/\/values are 1...31\nname varchar(10) NOT NULL, \/\/values are Fajr, Dhuhur, Asr, Maghrib, Ishaa\nhour varchar(2) NOT NULL DEFAULT '0', \/\/values are 01,02..12\nminutes varchar(2) NOT NULL DEFAULT '00', \/\/values are 01..59\nampm varchar(2) NOT NULL, \/\/values are AM or PM\ndisp_order decimal(1,0) NOT NULL, \/\/ 1..5 used for ordering values while displaying in html table.\nPRIMARY KEY (month,day,name)\n<\/code><\/pre>\n\n<p>1) Daily Prayer Table<\/p>\n\n<pre><code>$wpdb-&#62;prefix . mh_dpt_friday_times \n<\/code><\/pre>\n\n<p>Structure of Table:<\/p>\n\n<pre><code>        name varchar(10) NOT NULL,\n        hour varchar(2) NOT NULL DEFAULT '0',\n        minutes varchar(2) NOT NULL DEFAULT '00',\n     ",
+                "uid": "28589"
+            }
+        }
+    }
+}

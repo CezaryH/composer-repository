@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/contact-commenters": {
+            "1.0": {
+                "name": "wordpress\/contact-commenters",
+                "version": "1.0",
+                "version_normalized": "1.0.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/contact-commenters.1.0.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>Improves your interaction levels with commenters and hence increases your readership by contacting selected set of commenters via email from the 'manage' page. Sample usage scenarios: Thank your new commenters for their visit and comment, appreciate long term active commenters for their continued support, inform all commenters about new services, send greetings on special occasions or events, analyze the commenters' contribution etc. This plugin does not send around auto responders and it consumes server resources only at the time of sending mails! Moreover, no WordPress tables are affected nor is anything new (which also means that no history is maintained regarding the mails sent)<\/p>",
+                "uid": "96380"
+            }
+        }
+    }
+}

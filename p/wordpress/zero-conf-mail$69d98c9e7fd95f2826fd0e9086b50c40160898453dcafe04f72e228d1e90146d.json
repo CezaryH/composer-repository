@@ -1,0 +1,431 @@
+{
+    "packages": {
+        "wordpress\/zero-conf-mail": {
+            "0.0.1": {
+                "name": "wordpress\/zero-conf-mail",
+                "version": "0.0.1",
+                "version_normalized": "0.0.1.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/zero-conf-mail.0.0.1.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>It took me quite some time to check a few existing contact forms and I didn't like any of them. No, I don't want you to load jquery on every page of my blog. I want it localized, pretty please. Oh, and I want this JavaScript onfocus\/onblur effect I <a href=\"http:\/\/www.nkuttler.de\/2008\/09\/20\/html-forms-and-onclickonfocus\/\">wrote about<\/a>. And why do I have to do any configuration at all anyway?<\/p>\n\n<p>Since 0.6.0 the plugin has a built-in spam protection that won't bother your human visitors but will most likely catch all spambots.<\/p>\n\n<h4>Usage<\/h4>\n\n<p>The easiest way to use this plugin is to use the shortcode [zcmail]. There's also a widget that you can drag into one of your sidebars.<\/p>\n\n<h4>Using the mail form in your theme<\/h4>\n\n<p>You can call the function <code>zcmail_shortcode()<\/code> from your theme to get the same output as from the shortcode. Example:<\/p>\n\n<pre><code>if ( function_exists( &#039;zcmail_shortcode&#039; ) ) {\n    echo zcmail_shortcode()\n}<\/code><\/pre>\n\n",
+                "uid": "80029"
+            },
+            "0.0.2": {
+                "name": "wordpress\/zero-conf-mail",
+                "version": "0.0.2",
+                "version_normalized": "0.0.2.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/zero-conf-mail.0.0.2.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>It took me quite some time to check a few existing contact forms and I didn't like any of them. No, I don't want you to load jquery on every page of my blog. I want it localized, pretty please. Oh, and I want this JavaScript onfocus\/onblur effect I <a href=\"http:\/\/www.nkuttler.de\/2008\/09\/20\/html-forms-and-onclickonfocus\/\">wrote about<\/a>. And why do I have to do any configuration at all anyway?<\/p>\n\n<p>Since 0.6.0 the plugin has a built-in spam protection that won't bother your human visitors but will most likely catch all spambots.<\/p>\n\n<h4>Usage<\/h4>\n\n<p>The easiest way to use this plugin is to use the shortcode [zcmail]. There's also a widget that you can drag into one of your sidebars.<\/p>\n\n<h4>Using the mail form in your theme<\/h4>\n\n<p>You can call the function <code>zcmail_shortcode()<\/code> from your theme to get the same output as from the shortcode. Example:<\/p>\n\n<pre><code>if ( function_exists( &#039;zcmail_shortcode&#039; ) ) {\n    echo zcmail_shortcode()\n}<\/code><\/pre>\n\n",
+                "uid": "80028"
+            },
+            "0.0.3": {
+                "name": "wordpress\/zero-conf-mail",
+                "version": "0.0.3",
+                "version_normalized": "0.0.3.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/zero-conf-mail.0.0.3.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>It took me quite some time to check a few existing contact forms and I didn't like any of them. No, I don't want you to load jquery on every page of my blog. I want it localized, pretty please. Oh, and I want this JavaScript onfocus\/onblur effect I <a href=\"http:\/\/www.nkuttler.de\/2008\/09\/20\/html-forms-and-onclickonfocus\/\">wrote about<\/a>. And why do I have to do any configuration at all anyway?<\/p>\n\n<p>Since 0.6.0 the plugin has a built-in spam protection that won't bother your human visitors but will most likely catch all spambots.<\/p>\n\n<h4>Usage<\/h4>\n\n<p>The easiest way to use this plugin is to use the shortcode [zcmail]. There's also a widget that you can drag into one of your sidebars.<\/p>\n\n<h4>Using the mail form in your theme<\/h4>\n\n<p>You can call the function <code>zcmail_shortcode()<\/code> from your theme to get the same output as from the shortcode. Example:<\/p>\n\n<pre><code>if ( function_exists( &#039;zcmail_shortcode&#039; ) ) {\n    echo zcmail_shortcode()\n}<\/code><\/pre>\n\n",
+                "uid": "80027"
+            },
+            "0.1.1": {
+                "name": "wordpress\/zero-conf-mail",
+                "version": "0.1.1",
+                "version_normalized": "0.1.1.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/zero-conf-mail.0.1.1.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>It took me quite some time to check a few existing contact forms and I didn't like any of them. No, I don't want you to load jquery on every page of my blog. I want it localized, pretty please. Oh, and I want this JavaScript onfocus\/onblur effect I <a href=\"http:\/\/www.nkuttler.de\/2008\/09\/20\/html-forms-and-onclickonfocus\/\">wrote about<\/a>. And why do I have to do any configuration at all anyway?<\/p>\n\n<p>Since 0.6.0 the plugin has a built-in spam protection that won't bother your human visitors but will most likely catch all spambots.<\/p>\n\n<h4>Usage<\/h4>\n\n<p>The easiest way to use this plugin is to use the shortcode [zcmail]. There's also a widget that you can drag into one of your sidebars.<\/p>\n\n<h4>Using the mail form in your theme<\/h4>\n\n<p>You can call the function <code>zcmail_shortcode()<\/code> from your theme to get the same output as from the shortcode. Example:<\/p>\n\n<pre><code>if ( function_exists( &#039;zcmail_shortcode&#039; ) ) {\n    echo zcmail_shortcode()\n}<\/code><\/pre>\n\n",
+                "uid": "80026"
+            },
+            "0.1.10": {
+                "name": "wordpress\/zero-conf-mail",
+                "version": "0.1.10",
+                "version_normalized": "0.1.10.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/zero-conf-mail.0.1.10.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>It took me quite some time to check a few existing contact forms and I didn't like any of them. No, I don't want you to load jquery on every page of my blog. I want it localized, pretty please. Oh, and I want this JavaScript onfocus\/onblur effect I <a href=\"http:\/\/www.nkuttler.de\/2008\/09\/20\/html-forms-and-onclickonfocus\/\">wrote about<\/a>. And why do I have to do any configuration at all anyway?<\/p>\n\n<p>Since 0.6.0 the plugin has a built-in spam protection that won't bother your human visitors but will most likely catch all spambots.<\/p>\n\n<h4>Usage<\/h4>\n\n<p>The easiest way to use this plugin is to use the shortcode [zcmail]. There's also a widget that you can drag into one of your sidebars.<\/p>\n\n<h4>Using the mail form in your theme<\/h4>\n\n<p>You can call the function <code>zcmail_shortcode()<\/code> from your theme to get the same output as from the shortcode. Example:<\/p>\n\n<pre><code>if ( function_exists( &#039;zcmail_shortcode&#039; ) ) {\n    echo zcmail_shortcode()\n}<\/code><\/pre>\n\n",
+                "uid": "80018"
+            },
+            "0.1.11": {
+                "name": "wordpress\/zero-conf-mail",
+                "version": "0.1.11",
+                "version_normalized": "0.1.11.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/zero-conf-mail.0.1.11.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>It took me quite some time to check a few existing contact forms and I didn't like any of them. No, I don't want you to load jquery on every page of my blog. I want it localized, pretty please. Oh, and I want this JavaScript onfocus\/onblur effect I <a href=\"http:\/\/www.nkuttler.de\/2008\/09\/20\/html-forms-and-onclickonfocus\/\">wrote about<\/a>. And why do I have to do any configuration at all anyway?<\/p>\n\n<p>Since 0.6.0 the plugin has a built-in spam protection that won't bother your human visitors but will most likely catch all spambots.<\/p>\n\n<h4>Usage<\/h4>\n\n<p>The easiest way to use this plugin is to use the shortcode [zcmail]. There's also a widget that you can drag into one of your sidebars.<\/p>\n\n<h4>Using the mail form in your theme<\/h4>\n\n<p>You can call the function <code>zcmail_shortcode()<\/code> from your theme to get the same output as from the shortcode. Example:<\/p>\n\n<pre><code>if ( function_exists( &#039;zcmail_shortcode&#039; ) ) {\n    echo zcmail_shortcode()\n}<\/code><\/pre>\n\n",
+                "uid": "80017"
+            },
+            "0.1.2": {
+                "name": "wordpress\/zero-conf-mail",
+                "version": "0.1.2",
+                "version_normalized": "0.1.2.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/zero-conf-mail.0.1.2.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>It took me quite some time to check a few existing contact forms and I didn't like any of them. No, I don't want you to load jquery on every page of my blog. I want it localized, pretty please. Oh, and I want this JavaScript onfocus\/onblur effect I <a href=\"http:\/\/www.nkuttler.de\/2008\/09\/20\/html-forms-and-onclickonfocus\/\">wrote about<\/a>. And why do I have to do any configuration at all anyway?<\/p>\n\n<p>Since 0.6.0 the plugin has a built-in spam protection that won't bother your human visitors but will most likely catch all spambots.<\/p>\n\n<h4>Usage<\/h4>\n\n<p>The easiest way to use this plugin is to use the shortcode [zcmail]. There's also a widget that you can drag into one of your sidebars.<\/p>\n\n<h4>Using the mail form in your theme<\/h4>\n\n<p>You can call the function <code>zcmail_shortcode()<\/code> from your theme to get the same output as from the shortcode. Example:<\/p>\n\n<pre><code>if ( function_exists( &#039;zcmail_shortcode&#039; ) ) {\n    echo zcmail_shortcode()\n}<\/code><\/pre>\n\n",
+                "uid": "80024"
+            },
+            "0.1.3": {
+                "name": "wordpress\/zero-conf-mail",
+                "version": "0.1.3",
+                "version_normalized": "0.1.3.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/zero-conf-mail.0.1.3.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>It took me quite some time to check a few existing contact forms and I didn't like any of them. No, I don't want you to load jquery on every page of my blog. I want it localized, pretty please. Oh, and I want this JavaScript onfocus\/onblur effect I <a href=\"http:\/\/www.nkuttler.de\/2008\/09\/20\/html-forms-and-onclickonfocus\/\">wrote about<\/a>. And why do I have to do any configuration at all anyway?<\/p>\n\n<p>Since 0.6.0 the plugin has a built-in spam protection that won't bother your human visitors but will most likely catch all spambots.<\/p>\n\n<h4>Usage<\/h4>\n\n<p>The easiest way to use this plugin is to use the shortcode [zcmail]. There's also a widget that you can drag into one of your sidebars.<\/p>\n\n<h4>Using the mail form in your theme<\/h4>\n\n<p>You can call the function <code>zcmail_shortcode()<\/code> from your theme to get the same output as from the shortcode. Example:<\/p>\n\n<pre><code>if ( function_exists( &#039;zcmail_shortcode&#039; ) ) {\n    echo zcmail_shortcode()\n}<\/code><\/pre>\n\n",
+                "uid": "80023"
+            },
+            "0.1.4": {
+                "name": "wordpress\/zero-conf-mail",
+                "version": "0.1.4",
+                "version_normalized": "0.1.4.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/zero-conf-mail.0.1.4.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>It took me quite some time to check a few existing contact forms and I didn't like any of them. No, I don't want you to load jquery on every page of my blog. I want it localized, pretty please. Oh, and I want this JavaScript onfocus\/onblur effect I <a href=\"http:\/\/www.nkuttler.de\/2008\/09\/20\/html-forms-and-onclickonfocus\/\">wrote about<\/a>. And why do I have to do any configuration at all anyway?<\/p>\n\n<p>Since 0.6.0 the plugin has a built-in spam protection that won't bother your human visitors but will most likely catch all spambots.<\/p>\n\n<h4>Usage<\/h4>\n\n<p>The easiest way to use this plugin is to use the shortcode [zcmail]. There's also a widget that you can drag into one of your sidebars.<\/p>\n\n<h4>Using the mail form in your theme<\/h4>\n\n<p>You can call the function <code>zcmail_shortcode()<\/code> from your theme to get the same output as from the shortcode. Example:<\/p>\n\n<pre><code>if ( function_exists( &#039;zcmail_shortcode&#039; ) ) {\n    echo zcmail_shortcode()\n}<\/code><\/pre>\n\n",
+                "uid": "80022"
+            },
+            "0.1.5": {
+                "name": "wordpress\/zero-conf-mail",
+                "version": "0.1.5",
+                "version_normalized": "0.1.5.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/zero-conf-mail.0.1.5.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>It took me quite some time to check a few existing contact forms and I didn't like any of them. No, I don't want you to load jquery on every page of my blog. I want it localized, pretty please. Oh, and I want this JavaScript onfocus\/onblur effect I <a href=\"http:\/\/www.nkuttler.de\/2008\/09\/20\/html-forms-and-onclickonfocus\/\">wrote about<\/a>. And why do I have to do any configuration at all anyway?<\/p>\n\n<p>Since 0.6.0 the plugin has a built-in spam protection that won't bother your human visitors but will most likely catch all spambots.<\/p>\n\n<h4>Usage<\/h4>\n\n<p>The easiest way to use this plugin is to use the shortcode [zcmail]. There's also a widget that you can drag into one of your sidebars.<\/p>\n\n<h4>Using the mail form in your theme<\/h4>\n\n<p>You can call the function <code>zcmail_shortcode()<\/code> from your theme to get the same output as from the shortcode. Example:<\/p>\n\n<pre><code>if ( function_exists( &#039;zcmail_shortcode&#039; ) ) {\n    echo zcmail_shortcode()\n}<\/code><\/pre>\n\n",
+                "uid": "80021"
+            },
+            "0.1.6": {
+                "name": "wordpress\/zero-conf-mail",
+                "version": "0.1.6",
+                "version_normalized": "0.1.6.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/zero-conf-mail.0.1.6.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>It took me quite some time to check a few existing contact forms and I didn't like any of them. No, I don't want you to load jquery on every page of my blog. I want it localized, pretty please. Oh, and I want this JavaScript onfocus\/onblur effect I <a href=\"http:\/\/www.nkuttler.de\/2008\/09\/20\/html-forms-and-onclickonfocus\/\">wrote about<\/a>. And why do I have to do any configuration at all anyway?<\/p>\n\n<p>Since 0.6.0 the plugin has a built-in spam protection that won't bother your human visitors but will most likely catch all spambots.<\/p>\n\n<h4>Usage<\/h4>\n\n<p>The easiest way to use this plugin is to use the shortcode [zcmail]. There's also a widget that you can drag into one of your sidebars.<\/p>\n\n<h4>Using the mail form in your theme<\/h4>\n\n<p>You can call the function <code>zcmail_shortcode()<\/code> from your theme to get the same output as from the shortcode. Example:<\/p>\n\n<pre><code>if ( function_exists( &#039;zcmail_shortcode&#039; ) ) {\n    echo zcmail_shortcode()\n}<\/code><\/pre>\n\n",
+                "uid": "80020"
+            },
+            "0.1.7": {
+                "name": "wordpress\/zero-conf-mail",
+                "version": "0.1.7",
+                "version_normalized": "0.1.7.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/zero-conf-mail.0.1.7.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>It took me quite some time to check a few existing contact forms and I didn't like any of them. No, I don't want you to load jquery on every page of my blog. I want it localized, pretty please. Oh, and I want this JavaScript onfocus\/onblur effect I <a href=\"http:\/\/www.nkuttler.de\/2008\/09\/20\/html-forms-and-onclickonfocus\/\">wrote about<\/a>. And why do I have to do any configuration at all anyway?<\/p>\n\n<p>Since 0.6.0 the plugin has a built-in spam protection that won't bother your human visitors but will most likely catch all spambots.<\/p>\n\n<h4>Usage<\/h4>\n\n<p>The easiest way to use this plugin is to use the shortcode [zcmail]. There's also a widget that you can drag into one of your sidebars.<\/p>\n\n<h4>Using the mail form in your theme<\/h4>\n\n<p>You can call the function <code>zcmail_shortcode()<\/code> from your theme to get the same output as from the shortcode. Example:<\/p>\n\n<pre><code>if ( function_exists( &#039;zcmail_shortcode&#039; ) ) {\n    echo zcmail_shortcode()\n}<\/code><\/pre>\n\n",
+                "uid": "80019"
+            },
+            "0.2.0": {
+                "name": "wordpress\/zero-conf-mail",
+                "version": "0.2.0",
+                "version_normalized": "0.2.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/zero-conf-mail.0.2.0.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>It took me quite some time to check a few existing contact forms and I didn't like any of them. No, I don't want you to load jquery on every page of my blog. I want it localized, pretty please. Oh, and I want this JavaScript onfocus\/onblur effect I <a href=\"http:\/\/www.nkuttler.de\/2008\/09\/20\/html-forms-and-onclickonfocus\/\">wrote about<\/a>. And why do I have to do any configuration at all anyway?<\/p>\n\n<p>Since 0.6.0 the plugin has a built-in spam protection that won't bother your human visitors but will most likely catch all spambots.<\/p>\n\n<h4>Usage<\/h4>\n\n<p>The easiest way to use this plugin is to use the shortcode [zcmail]. There's also a widget that you can drag into one of your sidebars.<\/p>\n\n<h4>Using the mail form in your theme<\/h4>\n\n<p>You can call the function <code>zcmail_shortcode()<\/code> from your theme to get the same output as from the shortcode. Example:<\/p>\n\n<pre><code>if ( function_exists( &#039;zcmail_shortcode&#039; ) ) {\n    echo zcmail_shortcode()\n}<\/code><\/pre>\n\n",
+                "uid": "80016"
+            },
+            "0.2.3": {
+                "name": "wordpress\/zero-conf-mail",
+                "version": "0.2.3",
+                "version_normalized": "0.2.3.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/zero-conf-mail.0.2.3.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>It took me quite some time to check a few existing contact forms and I didn't like any of them. No, I don't want you to load jquery on every page of my blog. I want it localized, pretty please. Oh, and I want this JavaScript onfocus\/onblur effect I <a href=\"http:\/\/www.nkuttler.de\/2008\/09\/20\/html-forms-and-onclickonfocus\/\">wrote about<\/a>. And why do I have to do any configuration at all anyway?<\/p>\n\n<p>Since 0.6.0 the plugin has a built-in spam protection that won't bother your human visitors but will most likely catch all spambots.<\/p>\n\n<h4>Usage<\/h4>\n\n<p>The easiest way to use this plugin is to use the shortcode [zcmail]. There's also a widget that you can drag into one of your sidebars.<\/p>\n\n<h4>Using the mail form in your theme<\/h4>\n\n<p>You can call the function <code>zcmail_shortcode()<\/code> from your theme to get the same output as from the shortcode. Example:<\/p>\n\n<pre><code>if ( function_exists( &#039;zcmail_shortcode&#039; ) ) {\n    echo zcmail_shortcode()\n}<\/code><\/pre>\n\n",
+                "uid": "80015"
+            },
+            "0.3.0": {
+                "name": "wordpress\/zero-conf-mail",
+                "version": "0.3.0",
+                "version_normalized": "0.3.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/zero-conf-mail.0.3.0.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>It took me quite some time to check a few existing contact forms and I didn't like any of them. No, I don't want you to load jquery on every page of my blog. I want it localized, pretty please. Oh, and I want this JavaScript onfocus\/onblur effect I <a href=\"http:\/\/www.nkuttler.de\/2008\/09\/20\/html-forms-and-onclickonfocus\/\">wrote about<\/a>. And why do I have to do any configuration at all anyway?<\/p>\n\n<p>Since 0.6.0 the plugin has a built-in spam protection that won't bother your human visitors but will most likely catch all spambots.<\/p>\n\n<h4>Usage<\/h4>\n\n<p>The easiest way to use this plugin is to use the shortcode [zcmail]. There's also a widget that you can drag into one of your sidebars.<\/p>\n\n<h4>Using the mail form in your theme<\/h4>\n\n<p>You can call the function <code>zcmail_shortcode()<\/code> from your theme to get the same output as from the shortcode. Example:<\/p>\n\n<pre><code>if ( function_exists( &#039;zcmail_shortcode&#039; ) ) {\n    echo zcmail_shortcode()\n}<\/code><\/pre>\n\n",
+                "uid": "80014"
+            },
+            "0.3.1": {
+                "name": "wordpress\/zero-conf-mail",
+                "version": "0.3.1",
+                "version_normalized": "0.3.1.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/zero-conf-mail.0.3.1.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>It took me quite some time to check a few existing contact forms and I didn't like any of them. No, I don't want you to load jquery on every page of my blog. I want it localized, pretty please. Oh, and I want this JavaScript onfocus\/onblur effect I <a href=\"http:\/\/www.nkuttler.de\/2008\/09\/20\/html-forms-and-onclickonfocus\/\">wrote about<\/a>. And why do I have to do any configuration at all anyway?<\/p>\n\n<p>Since 0.6.0 the plugin has a built-in spam protection that won't bother your human visitors but will most likely catch all spambots.<\/p>\n\n<h4>Usage<\/h4>\n\n<p>The easiest way to use this plugin is to use the shortcode [zcmail]. There's also a widget that you can drag into one of your sidebars.<\/p>\n\n<h4>Using the mail form in your theme<\/h4>\n\n<p>You can call the function <code>zcmail_shortcode()<\/code> from your theme to get the same output as from the shortcode. Example:<\/p>\n\n<pre><code>if ( function_exists( &#039;zcmail_shortcode&#039; ) ) {\n    echo zcmail_shortcode()\n}<\/code><\/pre>\n\n",
+                "uid": "80012"
+            },
+            "0.3.2": {
+                "name": "wordpress\/zero-conf-mail",
+                "version": "0.3.2",
+                "version_normalized": "0.3.2.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/zero-conf-mail.0.3.2.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>It took me quite some time to check a few existing contact forms and I didn't like any of them. No, I don't want you to load jquery on every page of my blog. I want it localized, pretty please. Oh, and I want this JavaScript onfocus\/onblur effect I <a href=\"http:\/\/www.nkuttler.de\/2008\/09\/20\/html-forms-and-onclickonfocus\/\">wrote about<\/a>. And why do I have to do any configuration at all anyway?<\/p>\n\n<p>Since 0.6.0 the plugin has a built-in spam protection that won't bother your human visitors but will most likely catch all spambots.<\/p>\n\n<h4>Usage<\/h4>\n\n<p>The easiest way to use this plugin is to use the shortcode [zcmail]. There's also a widget that you can drag into one of your sidebars.<\/p>\n\n<h4>Using the mail form in your theme<\/h4>\n\n<p>You can call the function <code>zcmail_shortcode()<\/code> from your theme to get the same output as from the shortcode. Example:<\/p>\n\n<pre><code>if ( function_exists( &#039;zcmail_shortcode&#039; ) ) {\n    echo zcmail_shortcode()\n}<\/code><\/pre>\n\n",
+                "uid": "80011"
+            },
+            "0.3.3": {
+                "name": "wordpress\/zero-conf-mail",
+                "version": "0.3.3",
+                "version_normalized": "0.3.3.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/zero-conf-mail.0.3.3.1.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>It took me quite some time to check a few existing contact forms and I didn't like any of them. No, I don't want you to load jquery on every page of my blog. I want it localized, pretty please. Oh, and I want this JavaScript onfocus\/onblur effect I <a href=\"http:\/\/www.nkuttler.de\/2008\/09\/20\/html-forms-and-onclickonfocus\/\">wrote about<\/a>. And why do I have to do any configuration at all anyway?<\/p>\n\n<p>Since 0.6.0 the plugin has a built-in spam protection that won't bother your human visitors but will most likely catch all spambots.<\/p>\n\n<h4>Usage<\/h4>\n\n<p>The easiest way to use this plugin is to use the shortcode [zcmail]. There's also a widget that you can drag into one of your sidebars.<\/p>\n\n<h4>Using the mail form in your theme<\/h4>\n\n<p>You can call the function <code>zcmail_shortcode()<\/code> from your theme to get the same output as from the shortcode. Example:<\/p>\n\n<pre><code>if ( function_exists( &#039;zcmail_shortcode&#039; ) ) {\n    echo zcmail_shortcode()\n}<\/code><\/pre>\n\n",
+                "uid": "80010"
+            },
+            "0.4.0": {
+                "name": "wordpress\/zero-conf-mail",
+                "version": "0.4.0",
+                "version_normalized": "0.4.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/zero-conf-mail.0.4.0.4.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>It took me quite some time to check a few existing contact forms and I didn't like any of them. No, I don't want you to load jquery on every page of my blog. I want it localized, pretty please. Oh, and I want this JavaScript onfocus\/onblur effect I <a href=\"http:\/\/www.nkuttler.de\/2008\/09\/20\/html-forms-and-onclickonfocus\/\">wrote about<\/a>. And why do I have to do any configuration at all anyway?<\/p>\n\n<p>Since 0.6.0 the plugin has a built-in spam protection that won't bother your human visitors but will most likely catch all spambots.<\/p>\n\n<h4>Usage<\/h4>\n\n<p>The easiest way to use this plugin is to use the shortcode [zcmail]. There's also a widget that you can drag into one of your sidebars.<\/p>\n\n<h4>Using the mail form in your theme<\/h4>\n\n<p>You can call the function <code>zcmail_shortcode()<\/code> from your theme to get the same output as from the shortcode. Example:<\/p>\n\n<pre><code>if ( function_exists( &#039;zcmail_shortcode&#039; ) ) {\n    echo zcmail_shortcode()\n}<\/code><\/pre>\n\n",
+                "uid": "80008"
+            },
+            "0.4.1": {
+                "name": "wordpress\/zero-conf-mail",
+                "version": "0.4.1",
+                "version_normalized": "0.4.1.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/zero-conf-mail.0.4.1.2.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>It took me quite some time to check a few existing contact forms and I didn't like any of them. No, I don't want you to load jquery on every page of my blog. I want it localized, pretty please. Oh, and I want this JavaScript onfocus\/onblur effect I <a href=\"http:\/\/www.nkuttler.de\/2008\/09\/20\/html-forms-and-onclickonfocus\/\">wrote about<\/a>. And why do I have to do any configuration at all anyway?<\/p>\n\n<p>Since 0.6.0 the plugin has a built-in spam protection that won't bother your human visitors but will most likely catch all spambots.<\/p>\n\n<h4>Usage<\/h4>\n\n<p>The easiest way to use this plugin is to use the shortcode [zcmail]. There's also a widget that you can drag into one of your sidebars.<\/p>\n\n<h4>Using the mail form in your theme<\/h4>\n\n<p>You can call the function <code>zcmail_shortcode()<\/code> from your theme to get the same output as from the shortcode. Example:<\/p>\n\n<pre><code>if ( function_exists( &#039;zcmail_shortcode&#039; ) ) {\n    echo zcmail_shortcode()\n}<\/code><\/pre>\n\n",
+                "uid": "80004"
+            },
+            "0.4.2": {
+                "name": "wordpress\/zero-conf-mail",
+                "version": "0.4.2",
+                "version_normalized": "0.4.2.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/zero-conf-mail.0.4.2.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>It took me quite some time to check a few existing contact forms and I didn't like any of them. No, I don't want you to load jquery on every page of my blog. I want it localized, pretty please. Oh, and I want this JavaScript onfocus\/onblur effect I <a href=\"http:\/\/www.nkuttler.de\/2008\/09\/20\/html-forms-and-onclickonfocus\/\">wrote about<\/a>. And why do I have to do any configuration at all anyway?<\/p>\n\n<p>Since 0.6.0 the plugin has a built-in spam protection that won't bother your human visitors but will most likely catch all spambots.<\/p>\n\n<h4>Usage<\/h4>\n\n<p>The easiest way to use this plugin is to use the shortcode [zcmail]. There's also a widget that you can drag into one of your sidebars.<\/p>\n\n<h4>Using the mail form in your theme<\/h4>\n\n<p>You can call the function <code>zcmail_shortcode()<\/code> from your theme to get the same output as from the shortcode. Example:<\/p>\n\n<pre><code>if ( function_exists( &#039;zcmail_shortcode&#039; ) ) {\n    echo zcmail_shortcode()\n}<\/code><\/pre>\n\n",
+                "uid": "80001"
+            },
+            "0.5.0": {
+                "name": "wordpress\/zero-conf-mail",
+                "version": "0.5.0",
+                "version_normalized": "0.5.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/zero-conf-mail.0.5.0.2.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>It took me quite some time to check a few existing contact forms and I didn't like any of them. No, I don't want you to load jquery on every page of my blog. I want it localized, pretty please. Oh, and I want this JavaScript onfocus\/onblur effect I <a href=\"http:\/\/www.nkuttler.de\/2008\/09\/20\/html-forms-and-onclickonfocus\/\">wrote about<\/a>. And why do I have to do any configuration at all anyway?<\/p>\n\n<p>Since 0.6.0 the plugin has a built-in spam protection that won't bother your human visitors but will most likely catch all spambots.<\/p>\n\n<h4>Usage<\/h4>\n\n<p>The easiest way to use this plugin is to use the shortcode [zcmail]. There's also a widget that you can drag into one of your sidebars.<\/p>\n\n<h4>Using the mail form in your theme<\/h4>\n\n<p>You can call the function <code>zcmail_shortcode()<\/code> from your theme to get the same output as from the shortcode. Example:<\/p>\n\n<pre><code>if ( function_exists( &#039;zcmail_shortcode&#039; ) ) {\n    echo zcmail_shortcode()\n}<\/code><\/pre>\n\n",
+                "uid": "80000"
+            },
+            "0.5.1": {
+                "name": "wordpress\/zero-conf-mail",
+                "version": "0.5.1",
+                "version_normalized": "0.5.1.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/zero-conf-mail.0.5.1.2.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>It took me quite some time to check a few existing contact forms and I didn't like any of them. No, I don't want you to load jquery on every page of my blog. I want it localized, pretty please. Oh, and I want this JavaScript onfocus\/onblur effect I <a href=\"http:\/\/www.nkuttler.de\/2008\/09\/20\/html-forms-and-onclickonfocus\/\">wrote about<\/a>. And why do I have to do any configuration at all anyway?<\/p>\n\n<p>Since 0.6.0 the plugin has a built-in spam protection that won't bother your human visitors but will most likely catch all spambots.<\/p>\n\n<h4>Usage<\/h4>\n\n<p>The easiest way to use this plugin is to use the shortcode [zcmail]. There's also a widget that you can drag into one of your sidebars.<\/p>\n\n<h4>Using the mail form in your theme<\/h4>\n\n<p>You can call the function <code>zcmail_shortcode()<\/code> from your theme to get the same output as from the shortcode. Example:<\/p>\n\n<pre><code>if ( function_exists( &#039;zcmail_shortcode&#039; ) ) {\n    echo zcmail_shortcode()\n}<\/code><\/pre>\n\n",
+                "uid": "79997"
+            },
+            "0.6.0": {
+                "name": "wordpress\/zero-conf-mail",
+                "version": "0.6.0",
+                "version_normalized": "0.6.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/zero-conf-mail.0.6.0.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>It took me quite some time to check a few existing contact forms and I didn't like any of them. No, I don't want you to load jquery on every page of my blog. I want it localized, pretty please. Oh, and I want this JavaScript onfocus\/onblur effect I <a href=\"http:\/\/www.nkuttler.de\/2008\/09\/20\/html-forms-and-onclickonfocus\/\">wrote about<\/a>. And why do I have to do any configuration at all anyway?<\/p>\n\n<p>Since 0.6.0 the plugin has a built-in spam protection that won't bother your human visitors but will most likely catch all spambots.<\/p>\n\n<h4>Usage<\/h4>\n\n<p>The easiest way to use this plugin is to use the shortcode [zcmail]. There's also a widget that you can drag into one of your sidebars.<\/p>\n\n<h4>Using the mail form in your theme<\/h4>\n\n<p>You can call the function <code>zcmail_shortcode()<\/code> from your theme to get the same output as from the shortcode. Example:<\/p>\n\n<pre><code>if ( function_exists( &#039;zcmail_shortcode&#039; ) ) {\n    echo zcmail_shortcode()\n}<\/code><\/pre>\n\n",
+                "uid": "79994"
+            },
+            "0.6.1": {
+                "name": "wordpress\/zero-conf-mail",
+                "version": "0.6.1",
+                "version_normalized": "0.6.1.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/zero-conf-mail.0.6.1.1.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>It took me quite some time to check a few existing contact forms and I didn't like any of them. No, I don't want you to load jquery on every page of my blog. I want it localized, pretty please. Oh, and I want this JavaScript onfocus\/onblur effect I <a href=\"http:\/\/www.nkuttler.de\/2008\/09\/20\/html-forms-and-onclickonfocus\/\">wrote about<\/a>. And why do I have to do any configuration at all anyway?<\/p>\n\n<p>Since 0.6.0 the plugin has a built-in spam protection that won't bother your human visitors but will most likely catch all spambots.<\/p>\n\n<h4>Usage<\/h4>\n\n<p>The easiest way to use this plugin is to use the shortcode [zcmail]. There's also a widget that you can drag into one of your sidebars.<\/p>\n\n<h4>Using the mail form in your theme<\/h4>\n\n<p>You can call the function <code>zcmail_shortcode()<\/code> from your theme to get the same output as from the shortcode. Example:<\/p>\n\n<pre><code>if ( function_exists( &#039;zcmail_shortcode&#039; ) ) {\n    echo zcmail_shortcode()\n}<\/code><\/pre>\n\n",
+                "uid": "79993"
+            }
+        }
+    }
+}

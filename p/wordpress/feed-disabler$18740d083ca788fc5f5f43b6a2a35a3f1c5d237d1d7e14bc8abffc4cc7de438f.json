@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/feed-disabler": {
+            "0.5": {
+                "name": "wordpress\/feed-disabler",
+                "version": "0.5",
+                "version_normalized": "0.5.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/feed-disabler.0.5.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>Provides a custom error, using wp_die(), when any type of feed is attempted.<\/p>\n\n<p><strong>Feature Overview<\/strong><\/p>\n\n<ul>\n<li>Removal of ALL feeds<\/li>\n<li>Allows for private (more secure) blogs<\/li>\n<li>Works great with the \"Private WP\" plugin (requires login to view blog)<\/li>\n<\/ul>\n\n<p><strong>Important Notes<\/strong><\/p>\n\n<p>This is my very first plugin.  I found it \/very\/ strange that nobody had done this.<\/p>",
+                "uid": "99288"
+            }
+        }
+    }
+}

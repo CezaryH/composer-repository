@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/fancytabs": {
+            "1.0.2": {
+                "name": "wordpress\/fancytabs",
+                "version": "1.0.2",
+                "version_normalized": "1.0.2.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/fancytabs.1.0.2.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>Create navigable tabs to hide\/show in-page content.\nUse the following shortcode:<\/p>\n\n<pre><code>[fancytabs]\n[tab title=&#34;Title 1&#34;]\nHello world\n[\/tab]\n[tab title=&#34;Title 2&#34;]\nHello again, world\n[\/tab]\n[\/fancytabs]<\/code><\/pre>",
+                "uid": "21022"
+            }
+        }
+    }
+}

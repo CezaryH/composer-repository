@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/auto-tag-suggest": {
+            "1.1.0": {
+                "name": "wordpress\/auto-tag-suggest",
+                "version": "1.1.0",
+                "version_normalized": "1.1.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/auto-tag-suggest.1.1.0.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>For the fastest and most efficient post tagging - whether single post or sitewide!<\/p>\n\n<p>Retrieves, combines and ranks related tag suggestions from four different tagging \nservices at once, giving you a clickable list to choose from as well as a tag editing \nbox on your post writing page.<\/p>\n\n<p>Uses TagTheNet, Alchemy, Yahoo Term Extraction and Zemanta APIs for your post content \nto retrieve the most relevent tags and then puts them all together using a simple \nscoring algorithm.<\/p>\n\n<p>Similar to Simple Tagging click box which accesses each of these services separately, \nbut providing much faster and more integrated list, making tagging your posts almost \nautomatic.<\/p>\n\n<p>Includes sitewide post tag list with a mass tag suggestion feature, enabling you to scan\nfor tag suggestions for all your posts with the click of a button and edit them all from\nthe one page.<\/p>",
+                "uid": "44017"
+            }
+        }
+    }
+}

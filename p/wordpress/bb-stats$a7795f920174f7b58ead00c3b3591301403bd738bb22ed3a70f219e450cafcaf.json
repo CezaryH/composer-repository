@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/bb-stats": {
+            "1.6": {
+                "name": "wordpress\/bb-stats",
+                "version": "1.6",
+                "version_normalized": "1.6.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/bb-stats.1.6.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>Display number of blocked access attempts by the <a href=\"http:\/\/www.ioerror.us\/software\/bad-behavior\/\">Bad Behavior<\/a> Plugin. (Original mysql function by <a href=\"http:\/\/txfx.net\/2005\/04\/29\/bad-bad-spambots\/#comment-6346\">Mark Jaquith<\/a>).<\/p>",
+                "uid": "114633"
+            }
+        }
+    }
+}

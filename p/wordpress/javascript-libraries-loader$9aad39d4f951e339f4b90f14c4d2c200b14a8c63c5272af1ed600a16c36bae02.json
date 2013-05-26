@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/javascript-libraries-loader": {
+            "1.0": {
+                "name": "wordpress\/javascript-libraries-loader",
+                "version": "1.0",
+                "version_normalized": "1.0.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/javascript-libraries-loader.1.0.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>This plugin will add a link to a number of the popular javascript libraries. You can choose from the following:<\/p>\n\n<ul>\n<li>jQuery<\/li>\n<li>jQuery UI<\/li>\n<li>prototype<\/li>\n<li>mootools<\/li>\n<li>dojo<\/li>\n<li>scriptaloucious<\/li>\n<\/ul>\n\n<p>You can specify if it should added at the top of your page (in the head of the document) or, as is popular today at the bottom of the page - just before the body tag.<\/p>",
+                "uid": "85559"
+            }
+        }
+    }
+}

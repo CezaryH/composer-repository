@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/thumbnail-updater": {
+            "1.0": {
+                "name": "wordpress\/thumbnail-updater",
+                "version": "1.0",
+                "version_normalized": "1.0.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/thumbnail-updater.1.0.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>Thumbnail Updater does exactly what it's name implies: it updates thumbnails. WordPress 2.9 introduced support for\npost thumbnails but one problem is that the support is not backwards compatible&#8212;meaning that if you downloaded or created\na theme that supports post thumbnails, any images uploaded prior to the activation of that theme will not have the new thumbnail size.<\/p>",
+                "uid": "62760"
+            }
+        }
+    }
+}

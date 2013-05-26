@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/nginx-proxy-cache-integrator": {
+            "0.2": {
+                "name": "wordpress\/nginx-proxy-cache-integrator",
+                "version": "0.2",
+                "version_normalized": "0.2.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/nginx-proxy-cache-integrator.0.2.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "Need for Speed?\n\n<p>This plugin handles the wordpress\/php side of a statically cached nginx-fronted wordpress (or wordpress mu) site. It makes Wordpress emit an \"X-Accel-Expires: 0\" header when a user is logged in or has taken actions that should cause them to get a customized page on your frontend.  This - along with the nginx configuration below - will ensure logged-in users aren't impacted by your static nginx cache.<\/p>\n\n<p>Why would you want to statically cache wordpress with <a href=\"http:\/\/www.nginx.org\">nginx?<\/a><\/p>\n\n<ul>\n<li>INSANE performance. Hardware that could generate 6 pages \/ second can now generate many thousands.<\/li>\n<li>Low resource usage. Even on very busy servers, nginx uses only a handful of RAM.<\/li>\n<li>Unobtrusiveness. You plop nginx in front of wordpress and that's pretty much it. This plugin (and nginx) is all you need to make your site digg- and slashdot- proof.<\/li>\n<li>Stability. Nginx is rock solid.<\/li>\n<li>Faster is better. All the web gurus agree - ",
+                "uid": "74434"
+            }
+        }
+    }
+}

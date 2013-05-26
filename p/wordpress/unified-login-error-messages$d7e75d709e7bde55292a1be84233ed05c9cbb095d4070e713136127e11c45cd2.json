@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/unified-login-error-messages": {
+            "1.0": {
+                "name": "wordpress\/unified-login-error-messages",
+                "version": "1.0",
+                "version_normalized": "1.0.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/unified-login-error-messages.1.0.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>If you log-in to your WordPress backend and enter the right username but a false\npassword WordPress shows the error message \"ERROR: The password you entered for\nthe username admin is incorrect. Lost your password?\" revealing that the username\n\"admin\" is registered and a possible attacker can check passwords with this\nusername to gain access to the installation.\nThis plugin changes the error messages to \"ERROR: Invalid user\/password\ncombination.\" if you enter a non-registered username and\/or a false password and\nmakes it more difficult for an attacker to decypher your blog's passwords.<\/p>",
+                "uid": "45466"
+            }
+        }
+    }
+}

@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/random-quote-widget": {
+            "1.0": {
+                "name": "wordpress\/random-quote-widget",
+                "version": "1.0",
+                "version_normalized": "1.0.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/random-quote-widget.1.0.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>This Widget loads a Database from an existing installation of <a href=\"https:\/\/sourceforge.net\/projects\/randomquote\/\">Online Random Quote<\/a> and displays a random quote from it at every page load. Database can be located anywhere, but must be on the same server as the Wordpress Installation.<\/p>",
+                "uid": "69799"
+            }
+        }
+    }
+}

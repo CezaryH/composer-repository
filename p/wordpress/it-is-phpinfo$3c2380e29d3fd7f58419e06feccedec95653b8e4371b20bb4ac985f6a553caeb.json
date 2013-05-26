@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/it-is-phpinfo": {
+            "1.0": {
+                "name": "wordpress\/it-is-phpinfo",
+                "version": "1.0",
+                "version_normalized": "1.0.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/it-is-phpinfo.1.0.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>Plugin displays phpinfo inside wordpress environment. You can see actual changes in settings made by wordpress and plugins for frontend side.<\/p>",
+                "uid": "35896"
+            }
+        }
+    }
+}

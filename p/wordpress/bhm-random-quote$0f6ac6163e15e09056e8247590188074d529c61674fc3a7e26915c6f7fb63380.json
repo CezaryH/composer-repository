@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/bhm-random-quote": {
+            "0.1": {
+                "name": "wordpress\/bhm-random-quote",
+                "version": "0.1",
+                "version_normalized": "0.1.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/bhm-random-quote.0.1.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>To add a quote, go to Quotes-&#62;Add New. Enter the citation (source or author) for the quote and the quote itself. You can use HTML in both the citation and the quote. For styling purposes, the post format defaults to \"Quote.\"<\/p>\n\n<p>To add the widget to a sidebar, go to Appearance-&#62;Widgets and drag the Quote widget to the sidebar. Set the \"Title\" to the text you want to be displayed above the random quote in the sidebar.<\/p>\n\n<p>The HTML displayed by the widget looks like this:<\/p>\n\n<pre><code>&#60;div class=\"quote\"&#62;\n    &#8220;the_quote&#8221;\n&#60;\/div&#62;\n&#60;div class=\"citation\"&#62;\n    &#38;mdash;the_citation\n&#60;\/div&#62;\n&#60;div class=\"all-quotes\"&#62;\n    [&#60;a href=\"quote_archive_url\"&#62;View All&#60;\/a&#62;]\n&#60;\/div&#62;\n<\/code><\/pre>",
+                "uid": "11429"
+            }
+        }
+    }
+}

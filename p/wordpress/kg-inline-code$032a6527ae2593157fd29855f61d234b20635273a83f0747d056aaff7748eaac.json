@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/kg-inline-code": {
+            "1.0": {
+                "name": "wordpress\/kg-inline-code",
+                "version": "1.0",
+                "version_normalized": "1.0.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/kg-inline-code.1.0.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>Replaces any word or sentence between backquotes (`) by a &#60;code&#62; block in a StackOverflow \/ Markdown way.<\/p>",
+                "uid": "32260"
+            }
+        }
+    }
+}

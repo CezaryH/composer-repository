@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/post-is-clear": {
+            "1.0": {
+                "name": "wordpress\/post-is-clear",
+                "version": "1.0",
+                "version_normalized": "1.0.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/post-is-clear.1.0.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>Adds &#60;br clear=\"all\"\/&#62; to the end of posts, to ensure images and objects don't wrap into successive posts.<\/p>",
+                "uid": "103657"
+            }
+        }
+    }
+}

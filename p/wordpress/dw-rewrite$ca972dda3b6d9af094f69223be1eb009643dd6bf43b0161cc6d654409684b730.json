@@ -1,0 +1,40 @@
+{
+    "packages": {
+        "wordpress\/dw-rewrite": {
+            "1.4": {
+                "name": "wordpress\/dw-rewrite",
+                "version": "1.4",
+                "version_normalized": "1.4.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/dw-rewrite.1.4.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>DW ReWrite creates 3 rewrite rules that will allow users to login to WordPress and access the WP Dashboard using a simple, pretty URLs.\nTo login, you would give users \"example.com\/login\" rather than \"example.com\/wp-login.php\".\nTo access the Dashboard, users would use \"example.com\/admin\" rather than \"example.com\/wp-admin\".\nTo register, users would enter \"example.com\/register\" instead of \"example.com\/wp-login.php?action=register\".\n(If registration is turned off, users will simply get a message saying \"User registration is currently not allowed.\").<\/p>\n\n<p>This is what is called a Pretty URL. It takes advantage of the WordPress Rewrite API.\nThe WP default links will still work, but having pretty URLs is much better for you, your website users and customers.<\/p>\n\n<p>I developed this plugin to so you don't need to edit your \".htaccess\" file to add the edits into it yourself and risk breaking your website.<\/p>",
+                "uid": "43717"
+            },
+            "1.4.1": {
+                "name": "wordpress\/dw-rewrite",
+                "version": "1.4.1",
+                "version_normalized": "1.4.1.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/dw-rewrite.1.4.1.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>DW ReWrite creates 3 rewrite rules that will allow users to login to WordPress and access the WP Dashboard using a simple, pretty URLs.\nTo login, you would give users \"example.com\/login\" rather than \"example.com\/wp-login.php\".\nTo access the Dashboard, users would use \"example.com\/admin\" rather than \"example.com\/wp-admin\".\nTo register, users would enter \"example.com\/register\" instead of \"example.com\/wp-login.php?action=register\".\n(If registration is turned off, users will simply get a message saying \"User registration is currently not allowed.\").<\/p>\n\n<p>This is what is called a Pretty URL. It takes advantage of the WordPress Rewrite API.\nThe WP default links will still work, but having pretty URLs is much better for you, your website users and customers.<\/p>\n\n<p>I developed this plugin to so you don't need to edit your \".htaccess\" file to add the edits into it yourself and risk breaking your website.<\/p>",
+                "uid": "43715"
+            }
+        }
+    }
+}

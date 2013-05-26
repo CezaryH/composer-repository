@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/pluswords": {
+            "0.2": {
+                "name": "wordpress\/pluswords",
+                "version": "0.2",
+                "version_normalized": "0.2.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/pluswords.0.2.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>PlusWords shows through a flash applet the most used words in the entire blog randomly positioning them also by size and adds a link to search the word\nThere's the option to configure the number of minimum occurrences and lenght of the words to be displayed.<\/p>",
+                "uid": "56145"
+            }
+        }
+    }
+}

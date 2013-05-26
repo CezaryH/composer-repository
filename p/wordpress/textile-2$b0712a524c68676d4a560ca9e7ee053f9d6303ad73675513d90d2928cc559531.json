@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/textile-2": {
+            "2.1": {
+                "name": "wordpress\/textile-2",
+                "version": "2.1",
+                "version_normalized": "2.1.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/textile-2.2.1.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>This is a wrapper with configuration panel for <a href=\"http:\/\/jimandlissa.com\/project\/textilephp\">Jim Riggs' PHPTextile<\/a> implementation.  Due to non-development by Jim, with the 2.1 release the Textile2 plugin will be incorporating bug fixes independently of Jim's release.<\/p>\n\n<p>Once installed, you can use <a href=\"http:\/\/hobix.com\/textile\/\">Hobix's Textile Reference<\/a> to get an idea of what Textile2 can do.  Or view <a href=\"http:\/\/bradchoate.com\/weblog\/2004\/02\/05\/textile-tips\">Brad Choate's examples<\/a> of what you can do with a Textile2.pm workalike.<\/p>",
+                "uid": "112534"
+            }
+        }
+    }
+}

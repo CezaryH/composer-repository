@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/szeryf": {
+            "0.1.3": {
+                "name": "wordpress\/szeryf",
+                "version": "0.1.3",
+                "version_normalized": "0.1.3.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/szeryf.0.1.3.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>Wtyczka w \u017caden spos&#243;b nie ingeruje w struktur\u0119 plik&#243;w na serwerze, a jedynie podmienia \u015bcie\u017cki do za\u0142\u0105cznik&#243;w w trakcie generowania strony. Nast\u0119pnie dzi\u0119ki jednej regu\u0142ce dodanej w pliku .htaccess klucz jest zamieniany na pierwotn\u0105 \u015bcie\u017ck\u0119 i za\u0142\u0105cznik jest \u0142adowany. Oczywi\u015bcie etap podmieniania klucza na prawdziw\u0105 \u015bcie\u017ck\u0119 odbywa si\u0119 po stronie serwera i jest niewidoczny dla u\u017cytkownika przegl\u0105daj\u0105cego stron\u0119.<\/p>",
+                "uid": "77298"
+            }
+        }
+    }
+}

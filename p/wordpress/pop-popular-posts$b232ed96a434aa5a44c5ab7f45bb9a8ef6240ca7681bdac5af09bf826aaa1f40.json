@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/pop-popular-posts": {
+            "1.2": {
+                "name": "wordpress\/pop-popular-posts",
+                "version": "1.2",
+                "version_normalized": "1.2.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/pop-popular-posts.1.2.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>Pop! Popular Posts for WordPress provides you a way to show your most visited posts, pages, or custom types, using a Widget.<\/p>\n\n<p>Every time that one visitor loads a post, your database will update the count for that post +1. That information can be shown within a Widget, that allows you to set how many entries do you want to show in the list, the post type to show, and show or hide the views count.<\/p>\n\n<p>If you are a developer, and want to recover the popular posts into your theme\/plugin, you can use the function \"pop_get_popular_posts($num,$type,$order)\", where $num is the number of posts you want (default: 5), $type is the post type (default: post), and $order can be \"DESC\" for a descendant list, or \"ASC\" for an ascendant list. This function returns an Array of WP_Post Objects.<\/p>\n\n<p>Translations available:<\/p>\n\n<ul>\n<li>English (en_US)<\/li>\n<li>Spanish (es_ES)<\/li>\n<\/ul>",
+                "uid": "10255"
+            }
+        }
+    }
+}

@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/rss-custom-fields-images": {
+            "0.2": {
+                "name": "wordpress\/rss-custom-fields-images",
+                "version": "0.2",
+                "version_normalized": "0.2.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/rss-custom-fields-images.0.2.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>This plugin will extract the large version of an image attached\nto a post and put it in front of the content in the RSS feed.\nThis might be useful if you have an image (and only a single one)\nattached to a custom field and it won't display in the feed otherwise.<\/p>",
+                "uid": "83171"
+            }
+        }
+    }
+}

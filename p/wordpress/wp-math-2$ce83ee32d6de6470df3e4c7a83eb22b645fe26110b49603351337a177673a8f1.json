@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/wp-math-2": {
+            "0.1": {
+                "name": "wordpress\/wp-math-2",
+                "version": "0.1",
+                "version_normalized": "0.1.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/wp-math-2.0.1.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>WP-Math-2 can help you insert math formula into WordPress posts or comments. You can use <code>$$...$$<\/code>(block, only one math expression per line) and <code>$...$<\/code>(inline, around the text) to insert math. This plugin will render them to HTML or MathML code snippets(Depends on your browser. If your browser supports MathML, it will use MathML, otherwise, use HTML and CSS instead). This work is done by javascript. So your browser must enable JavaScript.<\/p>\n\n<p>But in most of RSS readers, any JavaScript snippets cannot execute. So I made a trick. WP-Math-2 will convert LaTeX text to images. So users can see math contents with their favorite RSS reader software.<\/p>",
+                "uid": "45202"
+            }
+        }
+    }
+}

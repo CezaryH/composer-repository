@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/remove-slug-from-custom-post-type": {
+            "1.0.3": {
+                "name": "wordpress\/remove-slug-from-custom-post-type",
+                "version": "1.0.3",
+                "version_normalized": "1.0.3.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/remove-slug-from-custom-post-type.1.0.3.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>In WordPress 2.9 custom post type was introduced, that opened a new world for many WordPress developers. \nWhen it comes to removing the slug and not destroying the rewrite rules for other post types this plugin works great. \nThis only concerns those who are using %postname% as permalink structure and want to add a custom post type so that \nthe urls for them are in the same way as normal posts and pages: <a href=\"http:\/\/siteurl\/%custom_post_type_title%\/\" rel=\"nofollow\">http:\/\/siteurl\/%custom_post_type_title%\/<\/a>.<\/p>\n\n<p>Find more useful tips and plugins: <a href=\"http:\/\/www.ultimatewebtips.com\/\" title=\"More Wordpress plugins\">Ultimate web tips<\/a><\/p>",
+                "uid": "35383"
+            }
+        }
+    }
+}

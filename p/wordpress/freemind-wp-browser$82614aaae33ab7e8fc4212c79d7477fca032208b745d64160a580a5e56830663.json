@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/freemind-wp-browser": {
+            "1.2": {
+                "name": "wordpress\/freemind-wp-browser",
+                "version": "1.2",
+                "version_normalized": "1.2.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/freemind-wp-browser.1.2.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>This has been a modification of <a href=\"http:\/\/wordpress.org\/extend\/plugins\/flash-video-player\/\">Joshua Eldridge' Flash Video Player<\/a>. Powered by <code>visorFreemind.swf<\/code> from <a href=\"http:\/\/freemind.sourceforge.net\/wiki\/index.php\/Flash_browser\">FreeMind Flash Browser<\/a> and <code>SWFObject<\/code> by <a href=\"www.geoffstearns.com\">Geoff Stearns<\/a>. This plugin allows graphic visualization of mindmaps created with <a href=\"http:\/\/freemind.sourceforge.net\">FreeMind<\/a> by embedding them to WordPress posts using flash. It looks for <code>[freemind file=\"path-to-some-file.mm\" \/]<\/code> shortcode in post to embed it in a Flash presentation of the FreeMind mindmap file (<code>.mm<\/code> format).<\/p>",
+                "uid": "32269"
+            }
+        }
+    }
+}

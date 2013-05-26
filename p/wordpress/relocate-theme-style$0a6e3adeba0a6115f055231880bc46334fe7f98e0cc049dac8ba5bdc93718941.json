@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/relocate-theme-style": {
+            "1.0": {
+                "name": "wordpress\/relocate-theme-style",
+                "version": "1.0",
+                "version_normalized": "1.0.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/relocate-theme-style.1.0.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>Filters WordPress output to allow you to relocate your theme stylesheets.<\/p>\n\n<p>The plugin adds an option to the \"General\" options page, right underneath the \"Blog address\" field. The plugin is designed to allow you to replicate the folder structure of the default WordPress themes directory, so that you don't have to change the option every time you change your theme.<\/p>",
+                "uid": "79852"
+            }
+        }
+    }
+}

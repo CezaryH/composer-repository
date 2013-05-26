@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/subscribe2-widget-hack": {
+            "1.2.1": {
+                "name": "wordpress\/subscribe2-widget-hack",
+                "version": "1.2.1",
+                "version_normalized": "1.2.1.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/subscribe2-widget-hack.1.2.1.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>This plugin is really just a widget to go along with the Subscribe2 plugin.  There is a conflict with some plugins and the widget that comes with the Subscribe2 plugin due to the use of the-content(). See <a href=\"http:\/\/subscribe2.wordpress.com\/2006\/11\/16\/widget-conflict\/\">here<\/a>.  This widget does not use the-content(), but functions in the same exact way as the original widget.<\/p>",
+                "uid": "107696"
+            }
+        }
+    }
+}

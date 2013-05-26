@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/wats-latest-tickets-widget": {
+            "1.0": {
+                "name": "wordpress\/wats-latest-tickets-widget",
+                "version": "1.0",
+                "version_normalized": "1.0.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/wats-latest-tickets-widget.1.0.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>This plugin is to be used with the <a href=\"http:\/\/www.ticket-system.net\/\" title=\"WATS\">WordPress Advanced Ticket System<\/a>. It is a sidebar widget that displays the latest tickets in the sidebar. It is very similar to the Recent Posts widget already built into WordPress, but only shows links to posts (tickets) with the post_type 'ticket'.<\/p>\n\n<p>You can set the number of tickets displayed, as well as customise the widget title.<\/p>",
+                "uid": "41790"
+            }
+        }
+    }
+}

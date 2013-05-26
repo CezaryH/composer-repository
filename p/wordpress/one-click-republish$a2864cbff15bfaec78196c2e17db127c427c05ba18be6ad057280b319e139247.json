@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/one-click-republish": {
+            "1.0": {
+                "name": "wordpress\/one-click-republish",
+                "version": "1.0",
+                "version_normalized": "1.0.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/one-click-republish.1.0.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>Part of the RePublish set of tools for Wordpress MU.<\/p>\n\n<p>Allows admin to define a \"main blog\" and give users permission to republish a post into it with one click as they visit the blogs from the community.<\/p>\n\n<p>*Ajax powered. \n*Localization ready<\/p>\n\n<p>Note: Requires wp-xajax plugin.<\/p>",
+                "uid": "102887"
+            }
+        }
+    }
+}

@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/publish-to-schedule": {
+            "4.0.02": {
+                "name": "wordpress\/publish-to-schedule",
+                "version": "4.0.02",
+                "version_normalized": "4.0.02.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/publish-to-schedule.4.0.02.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>With this plugin you don't need to manually choose the date when a post will be published. After a simple configuration the plugin will schedule your posts when you click publish.<\/p>\n\n<p>Just configure days of week, the number of posts each day and time interval you want posts to be auto scheduled and each post will be automatically scheduled for these days with no more than the number you specified of posts per day.<\/p>\n\n<p>It is useful as readers will have articles with maintain some defined periodicity.<\/p>\n\n<p>Besides choose the day of week when you want posts published, you can set the time too. You might specify an interval in which you like posts to be scheduled. The plugin will choose a random time within this interval.<\/p>\n\n<p>In order to make things clear and let no doubts about why an specific data were chosen, the plugins shows some informations in the publish box. You can set up how much info you want to see there. \nThis information is important as it allow you to manu",
+                "uid": "30717"
+            }
+        }
+    }
+}

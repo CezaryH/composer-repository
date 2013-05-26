@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/page-navigator-widget": {
+            "1.1": {
+                "name": "wordpress\/page-navigator-widget",
+                "version": "1.1",
+                "version_normalized": "1.1.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/page-navigator-widget.1.1.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>This plugin works like the standard Page widget, however this one works how you want it to do.<\/p>\n\n<h4>The menu unfolds sub-items as required<\/h4>\n\n<p>This plugin displays initially the pages menu top-level pages only.\nWhile on a page, the child pages that belong to the page are also listed.\nWhile on a child-page, the subsequent grand-child pages are listed also.\nEtc. as deeply as reuired.<\/p>\n\n<h4>Extra features<\/h4>\n\n<p>Additionally a Home-link can be added that will display conditionally.\nYou can select from: Always, On a page only, Never.\nWhen On a page only is selected, the Home link will display ony when you are on a page, so when you might need it.<\/p>\n\n<p>The advantage of this plugin is that a huge amount of pages can be in a menu, without the user getting lost as long as you provide a proper tree-structure to them.<\/p>\n\n<h4>Also included<\/h4>\n\n<p>The standard configurability of Widget title, Excluded pages, Sort order.<\/p>",
+                "uid": "72161"
+            }
+        }
+    }
+}

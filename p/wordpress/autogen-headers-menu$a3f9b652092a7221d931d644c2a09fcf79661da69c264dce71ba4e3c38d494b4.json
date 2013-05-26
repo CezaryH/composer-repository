@@ -1,0 +1,40 @@
+{
+    "packages": {
+        "wordpress\/autogen-headers-menu": {
+            "0.9.0": {
+                "name": "wordpress\/autogen-headers-menu",
+                "version": "0.9.0",
+                "version_normalized": "0.9.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/autogen-headers-menu.0.9.0.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>This plugin will automatically generate an ordered menu from the headers in your post.<\/p>\n\n<ol>\n<li>The plugin adds an ID to all your headers in the post.<\/li>\n<li>Add the shortcode [autogen_menu] anywhere in the post, to automatically generate a menu with links to your post's headers.<\/li>\n<li>You have the option to add links the top of the page next to all the headers. Do this by adding the custom field \"autogen_menu_show_top\" with a value \"true\" to the relevant posts.<\/li>\n<\/ol>\n\n<p>Options:<\/p>\n\n<ul>\n<li>head_class = style classes for the <code>Menu<\/code> header.<\/li>\n<li>div_class = style classes for the wrapping div.<\/li>\n<li>ol_class = style classes for all <code>OL<\/code>.<\/li>\n<li>li_class = style classes for all <code>LI<\/code>.<\/li>\n<li>a_class = style classes for all the links.<\/li>\n<li>depth = the maximum levels of menu to display. The default is 3.<\/li>\n<\/ul>",
+                "uid": "8093"
+            },
+            "0.9.2": {
+                "name": "wordpress\/autogen-headers-menu",
+                "version": "0.9.2",
+                "version_normalized": "0.9.2.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/autogen-headers-menu.0.9.2.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>This plugin will automatically generate an ordered menu from the headers in your post.<\/p>\n\n<ol>\n<li>The plugin adds an ID to all your headers in the post.<\/li>\n<li>Add the shortcode [autogen_menu] anywhere in the post, to automatically generate a menu with links to your post's headers.<\/li>\n<li>You have the option to add links the top of the page next to all the headers. Do this by adding the custom field \"autogen_menu_show_top\" with a value \"true\" to the relevant posts.<\/li>\n<\/ol>\n\n<p>Options:<\/p>\n\n<ul>\n<li>head_class = style classes for the <code>Menu<\/code> header.<\/li>\n<li>div_class = style classes for the wrapping div.<\/li>\n<li>ol_class = style classes for all <code>OL<\/code>.<\/li>\n<li>li_class = style classes for all <code>LI<\/code>.<\/li>\n<li>a_class = style classes for all the links.<\/li>\n<li>depth = the maximum levels of menu to display. The default is 3.<\/li>\n<\/ul>",
+                "uid": "8092"
+            }
+        }
+    }
+}

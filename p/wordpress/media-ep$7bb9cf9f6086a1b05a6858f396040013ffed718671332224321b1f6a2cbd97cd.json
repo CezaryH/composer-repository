@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/media-ep": {
+            "1.0.1": {
+                "name": "wordpress\/media-ep",
+                "version": "1.0.1",
+                "version_normalized": "1.0.1.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/media-ep.1.0.1.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>This is a Media End Point for use in Twitter clients such as Tweetbot or Twitterific. It can be used by any application that supports a Twitpic-like interface.<\/p>\n\n<p>The plugin generates a <em>secret URL<\/em> (like a secret API key) that is pasted in your Twitter client.<\/p>\n\n<p>Images can automatically be assigned to a page, and that page can use a plain [gallery] tag to display new images automatically.<\/p>\n\n<p>Unlike other end point plugins, this does not require any Twitter developer Keys or O-Auth authentication; in turn does not authenticate or use any of Twitter's API.<\/p>",
+                "uid": "11926"
+            }
+        }
+    }
+}

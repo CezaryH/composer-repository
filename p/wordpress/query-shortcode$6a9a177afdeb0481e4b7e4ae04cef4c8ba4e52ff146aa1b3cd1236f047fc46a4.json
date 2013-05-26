@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/query-shortcode": {
+            "0.2.1": {
+                "name": "wordpress\/query-shortcode",
+                "version": "0.2.1",
+                "version_normalized": "0.2.1.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/query-shortcode.0.2.1.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>This plugin gives you <code>[query]<\/code> shortcode which enables you to output posts filtered by specific attributes. You can format the output to your liking and even display the results in a grid of customizable columns and rows.\nAlso supports \"lenses\" which can turn your query results into Tabs, Accordion, or Carousel widgets. This feature relies on Bootstrap library to be already loaded on the page, the plugin does <em>not<\/em> include it (for that you can use the <a href=\"http:\/\/wordpress.org\/extend\/plugins\/bootstrap\/\">Bootstrap plugin<\/a>). You can create new lenses or override the built-in ones in your theme to customize the output.<\/p>\n\n<h4>Usage<\/h4>\n\n<p>You can use all parameters supported by <a href=\"http:\/\/codex.wordpress.org\/Class_Reference\/WP_Query\">WP_Query class<\/a> to filter the posts; you can query for specific post types, categories, tags, authors, etc. You also have to define how you want to format the output:<\/p>\n\n<pre><code>[query posts_per_page=&#34;5&#34; c",
+                "uid": "12362"
+            }
+        }
+    }
+}

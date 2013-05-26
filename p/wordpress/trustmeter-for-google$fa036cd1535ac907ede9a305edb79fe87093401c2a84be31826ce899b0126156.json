@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/trustmeter-for-google": {
+            "0.3": {
+                "name": "wordpress\/trustmeter-for-google",
+                "version": "0.3",
+                "version_normalized": "0.3.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/trustmeter-for-google.0.3.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>Plugin\/Widget for Wordpress that shows how your host is indexed in Google and \nis it \"trusted\" or not. How it works: first, it is querying Google for \nsite:your-blog.com, then it extracts first 10 titles from response and \nqurying Google for this titles. Then it is searching for your blog positions \nin the responses and showing it along with the query as a number, so you \nget 10 numbers as you can see it in my blog. The smaller number is the \nbetter Google \"trusts\" to your host. When plugin is installed, you can \nsee numbers at your dashboard and also add a widget to show it to your \nvisitors. Data are updated automatically every 5 days.<\/p>",
+                "uid": "110475"
+            }
+        }
+    }
+}

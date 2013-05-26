@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/ilc-flvbox": {
+            "1.0.5": {
+                "name": "wordpress\/ilc-flvbox",
+                "version": "1.0.5",
+                "version_normalized": "1.0.5.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/ilc-flvbox.1.0.5.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>ILC FLVBox will parse your post content looking for links to FLV videos. When found, it will add a player to play it inline or in a modal dialog.<\/p>\n\n<p>The modal dialog is currently handled by ThickBox, which requires jQuery. Both Thickbox and jQuery are loaded from the versions included with WordPress using wp&#095;enqueue&#095;script.<\/p>\n\n<p><a href=\"http:\/\/jquery.com\/demo\/thickbox\/\" rel=\"nofollow\">http:\/\/jquery.com\/demo\/thickbox\/<\/a>\n<a href=\"http:\/\/jquery.com\/\" rel=\"nofollow\">http:\/\/jquery.com\/<\/a><\/p>\n\n<p>The FLV players included are:<\/p>\n\n<p><a href=\"http:\/\/miplayweb.com\/player\/\" rel=\"nofollow\">http:\/\/miplayweb.com\/player\/<\/a>\n&#60;br\/&#62;\n<a href=\"http:\/\/osflv.com\/\" rel=\"nofollow\">http:\/\/osflv.com\/<\/a><\/p>\n\n<p>The player embedding uses SWFObject 1.5 (sometimes IE6 doesn't get along nice with SWFObject 2.1 dynamic publishing, as soon as this is sorted out the SWFObject included will be upgraded).<\/p>\n\n<p><a href=\"http:\/\/blog.deconcept.com\/2007\/02\/28\/swfobject-1-5-released\/",
+                "uid": "94544"
+            }
+        }
+    }
+}

@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/kaelme-url-shortener": {
+            "1.0.1": {
+                "name": "wordpress\/kaelme-url-shortener",
+                "version": "1.0.1",
+                "version_normalized": "1.0.1.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/kaelme-url-shortener.1.0.1.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>kael.me URL shortener let you create your own short url, just like <a href=\"http:\/\/yoursite\/-abc\" rel=\"nofollow\">http:\/\/yoursite\/-abc<\/a>, instead of using other short url services<\/p>\n\n<p>You can easily manage them with a paginating list of your short urls, change details, delete, or track clicks of them.<\/p>\n\n<p>Your tiny urls may redirect as 301 permanently redirection or 307 temporary redirection as your set each of them to.<\/p>",
+                "uid": "79066"
+            }
+        }
+    }
+}

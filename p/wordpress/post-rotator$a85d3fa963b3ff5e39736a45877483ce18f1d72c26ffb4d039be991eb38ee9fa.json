@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/post-rotator": {
+            "0.9.1": {
+                "name": "wordpress\/post-rotator",
+                "version": "0.9.1",
+                "version_normalized": "0.9.1.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/post-rotator.0.9.1.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>Use shortcode [postrotator] and the various parameters to embed a jquery rotating gallery of posts. You can set the rotation speed\n(or turn off autorotation), set the number of posts to show, and limit the rotator to a specific cateogry (or categories).<\/p>\n\n<p>The rotator is fully responsive and will fit into any column in which it is placed. It calculates the height required to show the gallery using the longest post it loaded into the gallery.<\/p>\n\n<p>This project can also be found on <a href=\"https:\/\/github.com\/sirbolkins\/postrotator\">github<\/a>.<\/p>",
+                "uid": "10646"
+            }
+        }
+    }
+}

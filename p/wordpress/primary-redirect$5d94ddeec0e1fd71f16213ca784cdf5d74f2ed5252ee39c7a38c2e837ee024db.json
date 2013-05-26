@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/primary-redirect": {
+            "1.0": {
+                "name": "wordpress\/primary-redirect",
+                "version": "1.0",
+                "version_normalized": "1.0.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/primary-redirect.1.0.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>Redirects users to special url or their primary blog's dashboard after they've logged in  replacing the default 'go to dashboard' behavior.\nIt's inspired by the WPMU DEV login redirect plugin.<\/p>\n\n<h4>Translations<\/h4>\n\n<ul>\n<li>English (en&#095;US), built-in<\/li>\n<li>Turkish (tr&#095;TR), native support<\/li>\n<\/ul>",
+                "uid": "19397"
+            }
+        }
+    }
+}

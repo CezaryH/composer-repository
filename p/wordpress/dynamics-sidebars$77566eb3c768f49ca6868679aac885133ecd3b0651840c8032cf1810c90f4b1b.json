@@ -1,0 +1,193 @@
+{
+    "packages": {
+        "wordpress\/dynamics-sidebars": {
+            "0.1": {
+                "name": "wordpress\/dynamics-sidebars",
+                "version": "0.1",
+                "version_normalized": "0.1.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/dynamics-sidebars.0.1.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>Want your pages, posts and\/or custom post types to have different sidebar?\nAn awesome plugin that let you have a custom sidebar (widget area) for every page, post and\/or custom post type.<\/p>\n\n<p><a href=\"https:\/\/github.com\/alyssonweb\/wp-dynamics-sidebars\/wiki\">Documentation<\/a> &#124; <a href=\"https:\/\/github.com\/alyssonweb\/wp-dynamics-sidebars\/issues\">Support Forum<\/a><\/p>\n\n<p><strong>Usage<\/strong><\/p>\n\n<p>By default it will add 'custom-sidebar' support for the following post types:<\/p>\n\n<ul>\n<li>Post<\/li>\n<li>Page<\/li>\n<\/ul>\n\n<p><strong>IMPORTANT: Showing the sidebar<\/strong><\/p>\n\n<p><strong><em>Note you can use this wherever you like to show you sidebar<\/em><\/strong><\/p>\n\n<pre><code>&#60;?php\n    dynamic_sidebar( get_the_sidebar() );\n?&#62;<\/code><\/pre>\n\n<p>Or<\/p>\n\n<pre><code>&#60;?php\n    $sidebar = get_the_sidebar();\n    if ( is_active_sidebar( $sidebar ) ) {\n        dynamic_sidebar( $sidebar );\n    }\n?&#62;<\/code><\/pre>\n\n<p><strong>Adding support for custom post type<\/strong>",
+                "uid": "38115"
+            },
+            "0.1.1": {
+                "name": "wordpress\/dynamics-sidebars",
+                "version": "0.1.1",
+                "version_normalized": "0.1.1.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/dynamics-sidebars.0.1.1.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>Want your pages, posts and\/or custom post types to have different sidebar?\nAn awesome plugin that let you have a custom sidebar (widget area) for every page, post and\/or custom post type.<\/p>\n\n<p><a href=\"https:\/\/github.com\/alyssonweb\/wp-dynamics-sidebars\/wiki\">Documentation<\/a> &#124; <a href=\"https:\/\/github.com\/alyssonweb\/wp-dynamics-sidebars\/issues\">Support Forum<\/a><\/p>\n\n<p><strong>Usage<\/strong><\/p>\n\n<p>By default it will add 'custom-sidebar' support for the following post types:<\/p>\n\n<ul>\n<li>Post<\/li>\n<li>Page<\/li>\n<\/ul>\n\n<p><strong>IMPORTANT: Showing the sidebar<\/strong><\/p>\n\n<p><strong><em>Note you can use this wherever you like to show you sidebar<\/em><\/strong><\/p>\n\n<pre><code>&#60;?php\n    dynamic_sidebar( get_the_sidebar() );\n?&#62;<\/code><\/pre>\n\n<p>Or<\/p>\n\n<pre><code>&#60;?php\n    $sidebar = get_the_sidebar();\n    if ( is_active_sidebar( $sidebar ) ) {\n        dynamic_sidebar( $sidebar );\n    }\n?&#62;<\/code><\/pre>\n\n<p><strong>Adding support for custom post type<\/strong>",
+                "uid": "38113"
+            },
+            "0.1.2": {
+                "name": "wordpress\/dynamics-sidebars",
+                "version": "0.1.2",
+                "version_normalized": "0.1.2.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/dynamics-sidebars.0.1.2.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>Want your pages, posts and\/or custom post types to have different sidebar?\nAn awesome plugin that let you have a custom sidebar (widget area) for every page, post and\/or custom post type.<\/p>\n\n<p><a href=\"https:\/\/github.com\/alyssonweb\/wp-dynamics-sidebars\/wiki\">Documentation<\/a> &#124; <a href=\"https:\/\/github.com\/alyssonweb\/wp-dynamics-sidebars\/issues\">Support Forum<\/a><\/p>\n\n<p><strong>Usage<\/strong><\/p>\n\n<p>By default it will add 'custom-sidebar' support for the following post types:<\/p>\n\n<ul>\n<li>Post<\/li>\n<li>Page<\/li>\n<\/ul>\n\n<p><strong>IMPORTANT: Showing the sidebar<\/strong><\/p>\n\n<p><strong><em>Note you can use this wherever you like to show you sidebar<\/em><\/strong><\/p>\n\n<pre><code>&#60;?php\n    dynamic_sidebar( get_the_sidebar() );\n?&#62;<\/code><\/pre>\n\n<p>Or<\/p>\n\n<pre><code>&#60;?php\n    $sidebar = get_the_sidebar();\n    if ( is_active_sidebar( $sidebar ) ) {\n        dynamic_sidebar( $sidebar );\n    }\n?&#62;<\/code><\/pre>\n\n<p><strong>Adding support for custom post type<\/strong>",
+                "uid": "38105"
+            },
+            "0.1.3": {
+                "name": "wordpress\/dynamics-sidebars",
+                "version": "0.1.3",
+                "version_normalized": "0.1.3.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/dynamics-sidebars.0.1.3.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>Want your pages, posts and\/or custom post types to have different sidebar?\nAn awesome plugin that let you have a custom sidebar (widget area) for every page, post and\/or custom post type.<\/p>\n\n<p><a href=\"https:\/\/github.com\/alyssonweb\/wp-dynamics-sidebars\/wiki\">Documentation<\/a> &#124; <a href=\"https:\/\/github.com\/alyssonweb\/wp-dynamics-sidebars\/issues\">Support Forum<\/a><\/p>\n\n<p><strong>Usage<\/strong><\/p>\n\n<p>By default it will add 'custom-sidebar' support for the following post types:<\/p>\n\n<ul>\n<li>Post<\/li>\n<li>Page<\/li>\n<\/ul>\n\n<p><strong>IMPORTANT: Showing the sidebar<\/strong><\/p>\n\n<p><strong><em>Note you can use this wherever you like to show you sidebar<\/em><\/strong><\/p>\n\n<pre><code>&#60;?php\n    dynamic_sidebar( get_the_sidebar() );\n?&#62;<\/code><\/pre>\n\n<p>Or<\/p>\n\n<pre><code>&#60;?php\n    $sidebar = get_the_sidebar();\n    if ( is_active_sidebar( $sidebar ) ) {\n        dynamic_sidebar( $sidebar );\n    }\n?&#62;<\/code><\/pre>\n\n<p><strong>Adding support for custom post type<\/strong>",
+                "uid": "38095"
+            },
+            "1.0.0": {
+                "name": "wordpress\/dynamics-sidebars",
+                "version": "1.0.0",
+                "version_normalized": "1.0.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/dynamics-sidebars.1.0.0.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>Want your pages, posts and\/or custom post types to have different sidebar?\nAn awesome plugin that let you have a custom sidebar (widget area) for every page, post and\/or custom post type.<\/p>\n\n<p><a href=\"https:\/\/github.com\/alyssonweb\/wp-dynamics-sidebars\/wiki\">Documentation<\/a> &#124; <a href=\"https:\/\/github.com\/alyssonweb\/wp-dynamics-sidebars\/issues\">Support Forum<\/a><\/p>\n\n<p><strong>Usage<\/strong><\/p>\n\n<p>By default it will add 'custom-sidebar' support for the following post types:<\/p>\n\n<ul>\n<li>Post<\/li>\n<li>Page<\/li>\n<\/ul>\n\n<p><strong>IMPORTANT: Showing the sidebar<\/strong><\/p>\n\n<p><strong><em>Note you can use this wherever you like to show you sidebar<\/em><\/strong><\/p>\n\n<pre><code>&#60;?php\n    dynamic_sidebar( get_the_sidebar() );\n?&#62;<\/code><\/pre>\n\n<p>Or<\/p>\n\n<pre><code>&#60;?php\n    $sidebar = get_the_sidebar();\n    if ( is_active_sidebar( $sidebar ) ) {\n        dynamic_sidebar( $sidebar );\n    }\n?&#62;<\/code><\/pre>\n\n<p><strong>Adding support for custom post type<\/strong>",
+                "uid": "38094"
+            },
+            "1.0.1": {
+                "name": "wordpress\/dynamics-sidebars",
+                "version": "1.0.1",
+                "version_normalized": "1.0.1.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/dynamics-sidebars.1.0.1.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>Want your pages, posts and\/or custom post types to have different sidebar?\nAn awesome plugin that let you have a custom sidebar (widget area) for every page, post and\/or custom post type.<\/p>\n\n<p><a href=\"https:\/\/github.com\/alyssonweb\/wp-dynamics-sidebars\/wiki\">Documentation<\/a> &#124; <a href=\"https:\/\/github.com\/alyssonweb\/wp-dynamics-sidebars\/issues\">Support Forum<\/a><\/p>\n\n<p><strong>Usage<\/strong><\/p>\n\n<p>By default it will add 'custom-sidebar' support for the following post types:<\/p>\n\n<ul>\n<li>Post<\/li>\n<li>Page<\/li>\n<\/ul>\n\n<p><strong>IMPORTANT: Showing the sidebar<\/strong><\/p>\n\n<p><strong><em>Note you can use this wherever you like to show you sidebar<\/em><\/strong><\/p>\n\n<pre><code>&#60;?php\n    dynamic_sidebar( get_the_sidebar() );\n?&#62;<\/code><\/pre>\n\n<p>Or<\/p>\n\n<pre><code>&#60;?php\n    $sidebar = get_the_sidebar();\n    if ( is_active_sidebar( $sidebar ) ) {\n        dynamic_sidebar( $sidebar );\n    }\n?&#62;<\/code><\/pre>\n\n<p><strong>Adding support for custom post type<\/strong>",
+                "uid": "38092"
+            },
+            "1.0.2": {
+                "name": "wordpress\/dynamics-sidebars",
+                "version": "1.0.2",
+                "version_normalized": "1.0.2.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/dynamics-sidebars.1.0.2.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>Want your pages, posts and\/or custom post types to have different sidebar?\nAn awesome plugin that let you have a custom sidebar (widget area) for every page, post and\/or custom post type.<\/p>\n\n<p><a href=\"https:\/\/github.com\/alyssonweb\/wp-dynamics-sidebars\/wiki\">Documentation<\/a> &#124; <a href=\"https:\/\/github.com\/alyssonweb\/wp-dynamics-sidebars\/issues\">Support Forum<\/a><\/p>\n\n<p><strong>Usage<\/strong><\/p>\n\n<p>By default it will add 'custom-sidebar' support for the following post types:<\/p>\n\n<ul>\n<li>Post<\/li>\n<li>Page<\/li>\n<\/ul>\n\n<p><strong>IMPORTANT: Showing the sidebar<\/strong><\/p>\n\n<p><strong><em>Note you can use this wherever you like to show you sidebar<\/em><\/strong><\/p>\n\n<pre><code>&#60;?php\n    dynamic_sidebar( get_the_sidebar() );\n?&#62;<\/code><\/pre>\n\n<p>Or<\/p>\n\n<pre><code>&#60;?php\n    $sidebar = get_the_sidebar();\n    if ( is_active_sidebar( $sidebar ) ) {\n        dynamic_sidebar( $sidebar );\n    }\n?&#62;<\/code><\/pre>\n\n<p><strong>Adding support for custom post type<\/strong>",
+                "uid": "38091"
+            },
+            "1.0.3": {
+                "name": "wordpress\/dynamics-sidebars",
+                "version": "1.0.3",
+                "version_normalized": "1.0.3.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/dynamics-sidebars.1.0.3.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>Want your pages, posts and\/or custom post types to have different sidebar?\nAn awesome plugin that let you have a custom sidebar (widget area) for every page, post and\/or custom post type.<\/p>\n\n<p><a href=\"https:\/\/github.com\/alyssonweb\/wp-dynamics-sidebars\/wiki\">Documentation<\/a> &#124; <a href=\"https:\/\/github.com\/alyssonweb\/wp-dynamics-sidebars\/issues\">Support Forum<\/a><\/p>\n\n<p><strong>Usage<\/strong><\/p>\n\n<p>By default it will add 'custom-sidebar' support for the following post types:<\/p>\n\n<ul>\n<li>Post<\/li>\n<li>Page<\/li>\n<\/ul>\n\n<p><strong>IMPORTANT: Showing the sidebar<\/strong><\/p>\n\n<p><strong><em>Note you can use this wherever you like to show you sidebar<\/em><\/strong><\/p>\n\n<pre><code>&#60;?php\n    dynamic_sidebar( get_the_sidebar() );\n?&#62;<\/code><\/pre>\n\n<p>Or<\/p>\n\n<pre><code>&#60;?php\n    $sidebar = get_the_sidebar();\n    if ( is_active_sidebar( $sidebar ) ) {\n        dynamic_sidebar( $sidebar );\n    }\n?&#62;<\/code><\/pre>\n\n<p><strong>Adding support for custom post type<\/strong>",
+                "uid": "38090"
+            },
+            "1.0.4": {
+                "name": "wordpress\/dynamics-sidebars",
+                "version": "1.0.4",
+                "version_normalized": "1.0.4.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/dynamics-sidebars.1.0.4.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>Want your pages, posts and\/or custom post types to have different sidebar?\nAn awesome plugin that let you have a custom sidebar (widget area) for every page, post and\/or custom post type.<\/p>\n\n<p><a href=\"https:\/\/github.com\/alyssonweb\/wp-dynamics-sidebars\/wiki\">Documentation<\/a> &#124; <a href=\"https:\/\/github.com\/alyssonweb\/wp-dynamics-sidebars\/issues\">Support Forum<\/a><\/p>\n\n<p><strong>Usage<\/strong><\/p>\n\n<p>By default it will add 'custom-sidebar' support for the following post types:<\/p>\n\n<ul>\n<li>Post<\/li>\n<li>Page<\/li>\n<\/ul>\n\n<p><strong>IMPORTANT: Showing the sidebar<\/strong><\/p>\n\n<p><strong><em>Note you can use this wherever you like to show you sidebar<\/em><\/strong><\/p>\n\n<pre><code>&#60;?php\n    dynamic_sidebar( get_the_sidebar() );\n?&#62;<\/code><\/pre>\n\n<p>Or<\/p>\n\n<pre><code>&#60;?php\n    $sidebar = get_the_sidebar();\n    if ( is_active_sidebar( $sidebar ) ) {\n        dynamic_sidebar( $sidebar );\n    }\n?&#62;<\/code><\/pre>\n\n<p><strong>Adding support for custom post type<\/strong>",
+                "uid": "38089"
+            },
+            "1.0.5": {
+                "name": "wordpress\/dynamics-sidebars",
+                "version": "1.0.5",
+                "version_normalized": "1.0.5.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/dynamics-sidebars.1.0.5.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>Want your pages, posts and\/or custom post types to have different sidebar?\nAn awesome plugin that let you have a custom sidebar (widget area) for every page, post and\/or custom post type.<\/p>\n\n<p><a href=\"https:\/\/github.com\/alyssonweb\/wp-dynamics-sidebars\/wiki\">Documentation<\/a> &#124; <a href=\"https:\/\/github.com\/alyssonweb\/wp-dynamics-sidebars\/issues\">Support Forum<\/a><\/p>\n\n<p><strong>Usage<\/strong><\/p>\n\n<p>By default it will add 'custom-sidebar' support for the following post types:<\/p>\n\n<ul>\n<li>Post<\/li>\n<li>Page<\/li>\n<\/ul>\n\n<p><strong>IMPORTANT: Showing the sidebar<\/strong><\/p>\n\n<p><strong><em>Note you can use this wherever you like to show you sidebar<\/em><\/strong><\/p>\n\n<pre><code>&#60;?php\n    dynamic_sidebar( get_the_sidebar() );\n?&#62;<\/code><\/pre>\n\n<p>Or<\/p>\n\n<pre><code>&#60;?php\n    $sidebar = get_the_sidebar();\n    if ( is_active_sidebar( $sidebar ) ) {\n        dynamic_sidebar( $sidebar );\n    }\n?&#62;<\/code><\/pre>\n\n<p><strong>Adding support for custom post type<\/strong>",
+                "uid": "38088"
+            },
+            "1.0.6": {
+                "name": "wordpress\/dynamics-sidebars",
+                "version": "1.0.6",
+                "version_normalized": "1.0.6.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/dynamics-sidebars.1.0.6.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>Want your pages, posts and\/or custom post types to have different sidebar?\nAn awesome plugin that let you have a custom sidebar (widget area) for every page, post and\/or custom post type.<\/p>\n\n<p><a href=\"https:\/\/github.com\/alyssonweb\/wp-dynamics-sidebars\/wiki\">Documentation<\/a> &#124; <a href=\"https:\/\/github.com\/alyssonweb\/wp-dynamics-sidebars\/issues\">Support Forum<\/a><\/p>\n\n<p><strong>Usage<\/strong><\/p>\n\n<p>By default it will add 'custom-sidebar' support for the following post types:<\/p>\n\n<ul>\n<li>Post<\/li>\n<li>Page<\/li>\n<\/ul>\n\n<p><strong>IMPORTANT: Showing the sidebar<\/strong><\/p>\n\n<p><strong><em>Note you can use this wherever you like to show you sidebar<\/em><\/strong><\/p>\n\n<pre><code>&#60;?php\n    dynamic_sidebar( get_the_sidebar() );\n?&#62;<\/code><\/pre>\n\n<p>Or<\/p>\n\n<pre><code>&#60;?php\n    $sidebar = get_the_sidebar();\n    if ( is_active_sidebar( $sidebar ) ) {\n        dynamic_sidebar( $sidebar );\n    }\n?&#62;<\/code><\/pre>\n\n<p><strong>Adding support for custom post type<\/strong>",
+                "uid": "38087"
+            }
+        }
+    }
+}

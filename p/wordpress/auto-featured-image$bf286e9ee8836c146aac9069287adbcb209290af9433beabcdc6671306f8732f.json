@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/auto-featured-image": {
+            "1.2": {
+                "name": "wordpress\/auto-featured-image",
+                "version": "1.2",
+                "version_normalized": "1.2.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/auto-featured-image.1.2.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>Automatically generate featured image for new\/old posts if Post Thumbnail is not set manually.<\/p>\n\n<p>It also support external image and Youtube, Vimeo, DailyMotion videos. Forked from Aditya Mooley.<\/p>",
+                "uid": "52564"
+            }
+        }
+    }
+}

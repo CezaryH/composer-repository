@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/gzip-pages": {
+            "1.1": {
+                "name": "wordpress\/gzip-pages",
+                "version": "1.1",
+                "version_normalized": "1.1.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/gzip-pages.1.1.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>Allow GZIPped output for your WordPress blog.  Restores functionality removed in WordPress 2.5.<\/p>",
+                "uid": "103981"
+            }
+        }
+    }
+}

@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/lean-media": {
+            "1.0": {
+                "name": "wordpress\/lean-media",
+                "version": "1.0",
+                "version_normalized": "1.0.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/lean-media.1.0.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>With easy access to high resolution digital cameras everyone has access to very large images. Your users\nare probably uploading them and using up lot of storage space for you. However these images are hardly\never used.<\/p>\n\n<p>Lean Media allows you to automatically delete the very large image files after generating thumbnails. Largest\nthumbnail is saved in place of the original image just in case you decide to generate thumbnails again.<\/p>\n\n<p>If the users are kind enough to upload small images Lean Media leaves such images intact.<\/p>",
+                "uid": "13060"
+            }
+        }
+    }
+}

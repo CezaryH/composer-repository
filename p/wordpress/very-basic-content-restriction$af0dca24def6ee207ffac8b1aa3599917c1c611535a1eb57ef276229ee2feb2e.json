@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/very-basic-content-restriction": {
+            "1.0": {
+                "name": "wordpress\/very-basic-content-restriction",
+                "version": "1.0",
+                "version_normalized": "1.0.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/very-basic-content-restriction.1.0.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>This plugin redirects non authenticated users to a page of your choice or, as per default, to the login page.\nPosts, categories, feeds, tags, taxonomies, author pages and search results are restricted to authenticated (connected) users.\nOnly pages are public. So if you have a homepage defined, then this page will be accessible.<\/p>",
+                "uid": "9839"
+            }
+        }
+    }
+}

@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/wp-snippets": {
+            "13": {
+                "name": "wordpress\/wp-snippets",
+                "version": "13",
+                "version_normalized": "13.0.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/wp-snippets.130206.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>This plugin is VERY simple. There are NO configuration options necessary.<\/p>\n\n<p>This plugin adds a new Post Type. This plugin makes it SUPER easy to reuse fragments of content (i.e. Snippets). Snippets can be included in other Posts\/Pages\/Widgets via Shortcodes. This is a very lightweight plugin!<\/p>\n\n<p>After installing this plugin, create a new Snippet (find menu item on the left in your Dashboard). Give your Snippet a Slug (i.e. under the title of your Snippet). Once you have a Snippet and a Slug, you can include your Snippet anywhere you like &#8212; in other Posts\/Pages\/Widgets (and even inside PHP template files).<\/p>\n\n<p>Using a Snippet that you've created in the WP Editor. Follow this simple Shortcode syntax.<\/p>\n\n<pre><code>[snippet slug=\"my-cool-snippet\" \/]\n<\/code><\/pre>\n\n<p>Using a Snippet that you've created inside a PHP template file.<\/p>\n\n<pre><code>&#60;?php echo do_shortcode('[snippet slug=\"my-cool-snippet\" \/]'); ?&#62;\n<\/code><\/pre>",
+                "uid": "11503"
+            }
+        }
+    }
+}

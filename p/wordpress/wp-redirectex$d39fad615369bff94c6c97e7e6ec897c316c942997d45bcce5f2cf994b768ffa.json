@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/wp-redirectex": {
+            "0.1": {
+                "name": "wordpress\/wp-redirectex",
+                "version": "0.1",
+                "version_normalized": "0.1.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/wp-redirectex.0.1.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>This plugin can redirect(301) resquest (eg. <a href=\"http:\/\/old.name\/something)\" rel=\"nofollow\">http:\/\/old.name\/something)<\/a> to another domain name with same path (eg. <a href=\"http:\/\/new.name\/something)\" rel=\"nofollow\">http:\/\/new.name\/something)<\/a>.<\/p>\n\n<p>Note that wp-login.php and wp-admin\/* are not redirected.<\/p>",
+                "uid": "75762"
+            }
+        }
+    }
+}

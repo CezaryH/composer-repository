@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/mini-rss-reader": {
+            "1.0": {
+                "name": "wordpress\/mini-rss-reader",
+                "version": "1.0",
+                "version_normalized": "1.0.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/mini-rss-reader.1.0.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>Just like the plugin Twitter for WordPress, this plugin reads an RSS feed and displays the time, title and trimmed description. No options page, just activate the plugin and call the function from your theme or your code!<\/p>\n\n<p><strong>Usage<\/strong><\/p>\n\n<p>You activate the plugin and then call the function read_rss_mini(url)<\/p>\n\n<p><strong>Customization<\/strong><\/p>\n\n<p>The plug in provides the following CSS classes:<\/p>\n\n<pre><code>* span.micro_head\n* span.micro_body\n<\/code><\/pre>",
+                "uid": "98036"
+            }
+        }
+    }
+}

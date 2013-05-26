@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/fun-with-microformat-pingbacks": {
+            "0.1": {
+                "name": "wordpress\/fun-with-microformat-pingbacks",
+                "version": "0.1",
+                "version_normalized": "0.1.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/fun-with-microformat-pingbacks.0.1.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>This plugin is not longer maintained<\/p>\n\n<p>The hReview microformat is perfect for marking up offsite comments (posts with pingbacks). What is a comment if not a review? Better yet the format already features a summary class that can be used to quick and simply summarise the points for readers of the original post.<\/p>\n\n<p>By Default WordPress will take a set number of characters from the source of a ping and present these as a comment. This is pretty useless for the most part. This plugin will parse the source of a ping looking for an hReview to see if better information can be gained about the opinion of the author.<\/p>\n\n<p>If that information is available the content of the comment will be replaced with the summary presented in the hReview.<\/p>\n\n<p>The following is an example of the HTML that you can use to do this if you are writing about another site.<\/p>\n\n<pre><code>&#60;div class=\"hreview\"&#62;\n&#60;p class=\"item\"&#62;Bob over at Bob's Blog has written about &#60;a class=\"fn",
+                "uid": "105537"
+            }
+        }
+    }
+}

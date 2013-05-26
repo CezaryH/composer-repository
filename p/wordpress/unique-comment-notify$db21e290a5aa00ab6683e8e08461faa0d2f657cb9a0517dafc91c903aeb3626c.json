@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/unique-comment-notify": {
+            "1.0": {
+                "name": "wordpress\/unique-comment-notify",
+                "version": "1.0",
+                "version_normalized": "1.0.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/unique-comment-notify.1.0.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>Unique Comment Notify appends the comment author's name to the subject of the\nnotification message sent to the blogger. This prevents Gmail and other\nthreading e-mail clients from grouping all notification e-mails for a post\ninto one conversation.<\/p>",
+                "uid": "106434"
+            }
+        }
+    }
+}

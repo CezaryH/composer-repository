@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/embedded-menu-and-online-ordering": {
+            "1.0": {
+                "name": "wordpress\/embedded-menu-and-online-ordering",
+                "version": "1.0",
+                "version_normalized": "1.0.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/embedded-menu-and-online-ordering.1.0.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>A plugin to embed your restaurant menu and ordering into a page or post.<\/p>\n\n<p>NOTE: This embeds the service provided by Restaurant App Engines into your WordPress site, it does not add menu management to your WorPress site.<\/p>\n\n<p>Simply change the URL below to match the site URL of your restaurant and copy &#38; paste the following line in your page\/post<\/p>\n\n<p>[EmbedMenu yoursite.restaurantappengines.com 750 2000]<\/p>\n\n<p>More Details:<\/p>\n\n<p>Format:\n[EmbedMenu site_url Width Height]<\/p>\n\n<p>Example:\n[EmbedMenu yoursite.restaurantappengines.com 750 2000]<\/p>\n\n<p>Field Definitions:\nURL: <a href=\"http:\/\/yoursite.restaurantappengines.com\/\" rel=\"nofollow\">http:\/\/yoursite.restaurantappengines.com\/<\/a>\nWidth: 750px<br \/>\nHeight: 2000px<\/p>",
+                "uid": "15237"
+            }
+        }
+    }
+}

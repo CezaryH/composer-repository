@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/wp-dropcaps": {
+            "0.1": {
+                "name": "wordpress\/wp-dropcaps",
+                "version": "0.1",
+                "version_normalized": "0.1.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/wp-dropcaps.0.1.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>I tried two drop-cap plugins available in the worpress community. What I noticed is that both are not supporting characters like Chinese. So I just build one my own. wp-dropcaps makes it easy to change the first letter or character into a drop-cap. \nExample: [dc]T[\/dc]his is my paragraph with a drop cap. The first letter 'T' will turn into a drop cap. And, [dc]\u6d4b[\/dc]\u8bd5\u63d2\u4ef6, the character '\u6d4b' will be drop-capped.\nIf you don't want your article have a drop cap, just leave it the way used to.\nPlugin home page: <a href=\"http:\/\/www.conanblog.me\/it\/program\/drop-caps-plugin-for-wordpress\/\" rel=\"nofollow\">http:\/\/www.conanblog.me\/it\/program\/drop-caps-plugin-for-wordpress\/<\/a><\/p>",
+                "uid": "51607"
+            }
+        }
+    }
+}

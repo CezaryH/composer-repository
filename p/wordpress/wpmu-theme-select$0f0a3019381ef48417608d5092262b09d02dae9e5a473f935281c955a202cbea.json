@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/wpmu-theme-select": {
+            "0.1": {
+                "name": "wordpress\/wpmu-theme-select",
+                "version": "0.1",
+                "version_normalized": "0.1.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/wpmu-theme-select.0.1.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>Let the wpmu users select a theme when registering. This plugin should also work with buddypress extended WPMUs.\nBy default the number of themes (screenshots) per line and the number of rows is set to 3. You can simply change it in the .php where it can be found:\n$n_per_line=3;\n$n_rows=3;\n<br \/><br \/>\nNote: This is open source with free incommercial usage. For commercial projects, please contact ahammerl[at]googlemail\/dot\/com. Steeling open source, is illegal Software Theft. <br \/>\n<br \/>Feb 2010: We worry about homehost.com (powered by pointaxis.com) which is using the script without permission and violating the terms.<\/p>",
+                "uid": "76145"
+            }
+        }
+    }
+}

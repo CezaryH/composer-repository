@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/custom-site-search": {
+            "1.0": {
+                "name": "wordpress\/custom-site-search",
+                "version": "1.0",
+                "version_normalized": "1.0.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/custom-site-search.1.0.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>The search application allows visitors to search your website or the web from within your site\/blog. This means that the user does not have to leave your page or even open a new tab\/window. It uses google custom site search to search within your website\/blog and shows the result in a bottom docked panel without making the site unresponsive. When the user clicks on any link in the search result the page is opened in new tab.<\/p>",
+                "uid": "47047"
+            }
+        }
+    }
+}

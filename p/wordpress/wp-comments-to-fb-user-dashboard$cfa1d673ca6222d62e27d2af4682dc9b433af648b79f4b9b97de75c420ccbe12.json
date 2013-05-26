@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/wp-comments-to-fb-user-dashboard": {
+            "0.1": {
+                "name": "wordpress\/wp-comments-to-fb-user-dashboard",
+                "version": "0.1",
+                "version_normalized": "0.1.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/wp-comments-to-fb-user-dashboard.0.1.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>Give you che possibility to send WP comments (with your custom comments form) to facebook user dashboard.<\/p>\n\n<p>It's not providing facebook login (provided from many other plugins) but only the comments connection. Login to fb required with publish_stream permissions. Require CURL.<\/p>",
+                "uid": "47072"
+            }
+        }
+    }
+}

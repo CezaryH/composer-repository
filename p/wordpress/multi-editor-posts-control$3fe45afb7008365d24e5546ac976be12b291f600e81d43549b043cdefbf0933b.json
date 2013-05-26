@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/multi-editor-posts-control": {
+            "1.5": {
+                "name": "wordpress\/multi-editor-posts-control",
+                "version": "1.5",
+                "version_normalized": "1.5.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/multi-editor-posts-control.1.5.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>This plugin allow in a multi auhtor blog, to lock posts by editor permission level.<\/p>\n\n<p>If a post is on pending, draft, future or publish status, and it's written by an EDITOR user (Level &#62; 7), the post can be edit only by the author that is the same editor, or by administrator.<\/p>\n\n<p>If a post is on pending, draft or future status, and it's written by an normal user (Level &#60; 7), the post can be edit by any EDITOR user (Level &#62; 7) or by administrator.<\/p>\n\n<p>If a post is on publish status, it's can be edited only by the same editor, by the same user (if capabilities allow it to edit published post) or by administrator. All others editor user will be locked in order to edit this post!<\/p>\n\n<p>Then it's Good for lock Editors capability in order to editing the posts previously published by another editor user.<\/p>\n\n<p>I suggest this plugin for all Multi Auhtor Blog that use a editor\/user revenue ads share like Author Advertising Pro plugin.<\/p>",
+                "uid": "57552"
+            }
+        }
+    }
+}

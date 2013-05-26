@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/wp-num-captcha": {
+            "1.1": {
+                "name": "wordpress\/wp-num-captcha",
+                "version": "1.1",
+                "version_normalized": "1.1.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/wp-num-captcha.1.1.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>Adds Numerical addition CAPTCHA anti-spam methods to WordPress on the comment form.\nIn order to post comments, users will have to type in the phrase shown on the addition.\nThis can help prevent spam from automated bots.<\/p>\n\n<p>V1.1\n   * fix : Modified interface pos.<\/p>",
+                "uid": "93654"
+            }
+        }
+    }
+}

@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/clickbank-sale-notification": {
+            "0.12": {
+                "name": "wordpress\/clickbank-sale-notification",
+                "version": "0.12",
+                "version_normalized": "0.12.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/clickbank-sale-notification.0.120508.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>ClickBank Sale Notification plugin will automatically send you an email notification every time there is a transaction in your clickBank account. Its support any type of transactions ( Sale, Rebill, Refund, Chargeback, Cancel Rebill ) and it also works for both affiliate and product vendor.<\/p>\n\n<p>How to Get ClickBank Secret Key?<\/p>\n\n<ol>\n<li>Go to your ClickBank Account Settings &#187; My Site &#187; Advanced Tools Editor.<\/li>\n<li>Click the Edit link in the top right corner of Advanced Tools Editor.<\/li>\n<li>Create your Secret Key \u0096 up to 16 letters\/digits ALL CAPS.<\/li>\n<li>Fill in the Instant Notification URL with: <a href=\"http:\/\/YOURSITE.com\/notify.php\" rel=\"nofollow\">http:\/\/YOURSITE.com\/notify.php<\/a>.<\/li>\n<li>Use the Secret Key you created before in the plugin settings.<\/li>\n<\/ol>",
+                "uid": "32123"
+            }
+        }
+    }
+}

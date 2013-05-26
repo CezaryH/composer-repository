@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/wp-smartdate": {
+            "0.1": {
+                "name": "wordpress\/wp-smartdate",
+                "version": "0.1",
+                "version_normalized": "0.1.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/wp-smartdate.0.1.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>WP-Smartdate looks for <em>relative date expressions<\/em> in your blog posts, such as \"tomorrow,\" \"this coming Monday,\" \"last Friday,\" looks at the current date, and computes what day you were referencing in plain old English. WP-Smartdate then puts a machine readable reference (like \"2007-11-26\") in an <code>abbr<\/code> tag <a href=\"http:\/\/microformats.org\/wiki\/datetime-design-pattern\">microformat<\/a>.<\/p>\n\n<h3>Why Smartdate?<\/h3>\n\n<p>WP-Smartdate was created for three simple audiences:<\/p>\n\n<ol>\n<li><em>For the machine:<\/em> While many professional information retrieval algorithms go far beyond the scope of this program, smartdate helps the process along by adding machine-readable tags to relative date expressions. In addition, these machine tags, in turn, help the human: a search on Google for \"November 7th, 2007,\" for example, will not pull up a document talking about \"yesterday,\" written on the 8th, but it will pull up the smartdate output of <code>2007-11-07<\/code>.<\/li>\n<li><",
+                "uid": "108470"
+            }
+        }
+    }
+}

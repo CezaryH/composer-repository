@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/announcement-bar": {
+            "0.3.2": {
+                "name": "wordpress\/announcement-bar",
+                "version": "0.3.2",
+                "version_normalized": "0.3.2.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/announcement-bar.0.3.2.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>This plugin adds a jQuery file that will position a fixed bar at the top of your browser screen to show announcements (controlled by a custom post type [CPT]) on each page load. Built with simple HTML and javascript.<\/p>\n\n<p>Upon installation, you can choose the prefix for your post type. Be sure to choose wisely, because once you publish your first post this can't be changed. If you are having problems with redirects visit your <em>permalinks<\/em> page to flush your rewrite rules by visiting your permalinks settings page (no save needed).<\/p>\n\n<p><strong>New<\/strong>: A cookie is added and deleted when you toggle the bar open and closed. Depending on the position of the bar when you leave the page is where it will be when you re-visit the site.<\/p>\n\n<p>For question please visit my blog @ <a href=\"http:\/\/austinpassy.com\/wordpress-plugins\/announcement-bar\/\">http:\/\/austinpassy.com<\/a><\/p>\n\n<p><strong>The Link<\/strong>\nPlease be awware when publishing a post, as of right now, you have ",
+                "uid": "42404"
+            }
+        }
+    }
+}

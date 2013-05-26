@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/1-for-wordpress": {
+            "1.0": {
+                "name": "wordpress\/1-for-wordpress",
+                "version": "1.0",
+                "version_normalized": "1.0.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/1-for-wordpress.1.0.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>This plugin adds a <a href=\"http:\/\/www.google.com\/+1\/button\/\">Google +1 button<\/a> to the bottom of each post and\/or page on your blog. The +1 button can be added either automatically or using a template tag depending on what you choose on the Options page.<\/p>",
+                "uid": "46045"
+            }
+        }
+    }
+}

@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/wp-memory-usage": {
+            "1.2.1": {
+                "name": "wordpress\/wp-memory-usage",
+                "version": "1.2.1",
+                "version_normalized": "1.2.1.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/wp-memory-usage.1.2.1.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>Show up the PHP version, memory limit and current memory usage in the dashboard and admin footer. You can now simple measure the requirements of your plugins and language files.\n<a href=\"http:\/\/alexrabe.boelinger.com\/2009\/06\/14\/dear-hoster-we-need-more-memory\/\" title=\"Demonstration page\">Here my blog post about the plugin<\/a><\/p>",
+                "uid": "86654"
+            }
+        }
+    }
+}

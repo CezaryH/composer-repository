@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/my-sites-shortcode": {
+            "1": {
+                "name": "wordpress\/my-sites-shortcode",
+                "version": "1",
+                "version_normalized": "1.0.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/my-sites-shortcode.1.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>Ever wanted your users to see all their sites in a list format, Well now you can using this shortcode!<\/p>\n\n<p>Here's how it works:<\/p>\n\n<p>Install this plugin and then add [my-sites] onto a page or post where you want people to see all of their sites.<\/p>",
+                "uid": "50069"
+            }
+        }
+    }
+}

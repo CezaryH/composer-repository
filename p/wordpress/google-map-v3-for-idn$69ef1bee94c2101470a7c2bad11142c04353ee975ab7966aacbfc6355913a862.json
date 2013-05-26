@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/google-map-v3-for-idn": {
+            "1.0": {
+                "name": "wordpress\/google-map-v3-for-idn",
+                "version": "1.0",
+                "version_normalized": "1.0.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/google-map-v3-for-idn.1.0.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>This plugin will embed a google map using shortcode or as a widget.\nThis plugin is a different version of Simple Google Map. It enables to insert maps in your posts and pages from an address while Simple Google Map requires a latitude and a longitude. \nWith this plugin you can insert a google map into your posts, pages, or wigitized sidebar. For this plugin, you will need an API key for geocoding. Google recently released version 3 of their Maps API. They made it smaller and faster, but with less features. If you run a blog or a site with an international domain name (IDN), which means your URL is directly written in French or Spanish with accents (&#224;,&#233;,&#241;...), in Chinese, Japanese, Hindi, Hebrew, Thai, Arabic..., this plugin is for you. The versions 1 and 2 of the Google Maps API were creating an error message if you add a map on your IDN site. Now with the version 3, that problem was solved.<\/p>\n\n<p><strong>FEATURES<\/strong><\/p>\n\n<ul>\n<li>Insert into posts or pages us",
+                "uid": "76874"
+            }
+        }
+    }
+}

@@ -1,0 +1,91 @@
+{
+    "packages": {
+        "wordpress\/inline-php": {
+            "1.0": {
+                "name": "wordpress\/inline-php",
+                "version": "1.0",
+                "version_normalized": "1.0.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/inline-php.1.0.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>The plugin can execute php string in posts\/pages, and display the output as the contents of posts\/pages. Just quote what you want to execute in <code>&#60;exec&#62;...&#60;\/exec&#62;<\/code> or <code>[exec]...[\/exec]<\/code> tag.<\/p>\n\n<p>Here is a simple demo:\n       \n          echo 'This is a test';\n       \nOR\n       [exec]\n          echo 'This is a test';\n       [\/exec]<\/p>\n\n<p>An advanced demo may look like this:<\/p>\n\n<pre><code>   &#60;exec&#62;\n       $filestr = file_get_contents('http:\/\/www.seocompany.ca\/pagerank\/page-rank-update-list.html');\n       if (preg_match('\/&#60;p&#62;.*&#60;\\\/p&#62;\/ums', $filestr, $matches)){\n           echo str_replace(\"&#60;p&#62;&#60;a href=\\\"#page-rank-update-list-history\\\"&#62;Top of Page Rank Update List History&#60;\/a&#62;&#60;\/p&#62;\", \"\", str_replace(\"&#60;table width=\\\"65%\\\"&#62;\", \"&#60;table width=\\\"100%\\\"&#62;\", $matches[0]));\n       }\n   &#60;\/exec&#62;\n<\/code><\/pre>\n\n<p>Here is a post to show PageRank Export History with the code above.",
+                "uid": "112519"
+            },
+            "1.1": {
+                "name": "wordpress\/inline-php",
+                "version": "1.1",
+                "version_normalized": "1.1.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/inline-php.1.1.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>The plugin can execute php string in posts\/pages, and display the output as the contents of posts\/pages. Just quote what you want to execute in <code>&#60;exec&#62;...&#60;\/exec&#62;<\/code> or <code>[exec]...[\/exec]<\/code> tag.<\/p>\n\n<p>Here is a simple demo:\n       \n          echo 'This is a test';\n       \nOR\n       [exec]\n          echo 'This is a test';\n       [\/exec]<\/p>\n\n<p>An advanced demo may look like this:<\/p>\n\n<pre><code>   &#60;exec&#62;\n       $filestr = file_get_contents('http:\/\/www.seocompany.ca\/pagerank\/page-rank-update-list.html');\n       if (preg_match('\/&#60;p&#62;.*&#60;\\\/p&#62;\/ums', $filestr, $matches)){\n           echo str_replace(\"&#60;p&#62;&#60;a href=\\\"#page-rank-update-list-history\\\"&#62;Top of Page Rank Update List History&#60;\/a&#62;&#60;\/p&#62;\", \"\", str_replace(\"&#60;table width=\\\"65%\\\"&#62;\", \"&#60;table width=\\\"100%\\\"&#62;\", $matches[0]));\n       }\n   &#60;\/exec&#62;\n<\/code><\/pre>\n\n<p>Here is a post to show PageRank Export History with the code above.",
+                "uid": "112518"
+            },
+            "1.2": {
+                "name": "wordpress\/inline-php",
+                "version": "1.2",
+                "version_normalized": "1.2.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/inline-php.1.2.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>The plugin can execute php string in posts\/pages, and display the output as the contents of posts\/pages. Just quote what you want to execute in <code>&#60;exec&#62;...&#60;\/exec&#62;<\/code> or <code>[exec]...[\/exec]<\/code> tag.<\/p>\n\n<p>Here is a simple demo:\n       \n          echo 'This is a test';\n       \nOR\n       [exec]\n          echo 'This is a test';\n       [\/exec]<\/p>\n\n<p>An advanced demo may look like this:<\/p>\n\n<pre><code>   &#60;exec&#62;\n       $filestr = file_get_contents('http:\/\/www.seocompany.ca\/pagerank\/page-rank-update-list.html');\n       if (preg_match('\/&#60;p&#62;.*&#60;\\\/p&#62;\/ums', $filestr, $matches)){\n           echo str_replace(\"&#60;p&#62;&#60;a href=\\\"#page-rank-update-list-history\\\"&#62;Top of Page Rank Update List History&#60;\/a&#62;&#60;\/p&#62;\", \"\", str_replace(\"&#60;table width=\\\"65%\\\"&#62;\", \"&#60;table width=\\\"100%\\\"&#62;\", $matches[0]));\n       }\n   &#60;\/exec&#62;\n<\/code><\/pre>\n\n<p>Here is a post to show PageRank Export History with the code above.",
+                "uid": "112517"
+            },
+            "1.2.1": {
+                "name": "wordpress\/inline-php",
+                "version": "1.2.1",
+                "version_normalized": "1.2.1.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/inline-php.1.2.1.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>The plugin can execute php string in posts\/pages, and display the output as the contents of posts\/pages. Just quote what you want to execute in <code>&#60;exec&#62;...&#60;\/exec&#62;<\/code> or <code>[exec]...[\/exec]<\/code> tag.<\/p>\n\n<p>Here is a simple demo:\n       \n          echo 'This is a test';\n       \nOR\n       [exec]\n          echo 'This is a test';\n       [\/exec]<\/p>\n\n<p>An advanced demo may look like this:<\/p>\n\n<pre><code>   &#60;exec&#62;\n       $filestr = file_get_contents('http:\/\/www.seocompany.ca\/pagerank\/page-rank-update-list.html');\n       if (preg_match('\/&#60;p&#62;.*&#60;\\\/p&#62;\/ums', $filestr, $matches)){\n           echo str_replace(\"&#60;p&#62;&#60;a href=\\\"#page-rank-update-list-history\\\"&#62;Top of Page Rank Update List History&#60;\/a&#62;&#60;\/p&#62;\", \"\", str_replace(\"&#60;table width=\\\"65%\\\"&#62;\", \"&#60;table width=\\\"100%\\\"&#62;\", $matches[0]));\n       }\n   &#60;\/exec&#62;\n<\/code><\/pre>\n\n<p>Here is a post to show PageRank Export History with the code above.",
+                "uid": "112516"
+            },
+            "1.2.2": {
+                "name": "wordpress\/inline-php",
+                "version": "1.2.2",
+                "version_normalized": "1.2.2.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/inline-php.1.2.2.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>The plugin can execute php string in posts\/pages, and display the output as the contents of posts\/pages. Just quote what you want to execute in <code>&#60;exec&#62;...&#60;\/exec&#62;<\/code> or <code>[exec]...[\/exec]<\/code> tag.<\/p>\n\n<p>Here is a simple demo:\n       \n          echo 'This is a test';\n       \nOR\n       [exec]\n          echo 'This is a test';\n       [\/exec]<\/p>\n\n<p>An advanced demo may look like this:<\/p>\n\n<pre><code>   &#60;exec&#62;\n       $filestr = file_get_contents('http:\/\/www.seocompany.ca\/pagerank\/page-rank-update-list.html');\n       if (preg_match('\/&#60;p&#62;.*&#60;\\\/p&#62;\/ums', $filestr, $matches)){\n           echo str_replace(\"&#60;p&#62;&#60;a href=\\\"#page-rank-update-list-history\\\"&#62;Top of Page Rank Update List History&#60;\/a&#62;&#60;\/p&#62;\", \"\", str_replace(\"&#60;table width=\\\"65%\\\"&#62;\", \"&#60;table width=\\\"100%\\\"&#62;\", $matches[0]));\n       }\n   &#60;\/exec&#62;\n<\/code><\/pre>\n\n<p>Here is a post to show PageRank Export History with the code above.",
+                "uid": "112515"
+            }
+        }
+    }
+}

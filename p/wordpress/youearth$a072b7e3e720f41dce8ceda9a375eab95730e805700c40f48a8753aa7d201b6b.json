@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/youearth": {
+            "0.1": {
+                "name": "wordpress\/youearth",
+                "version": "0.1",
+                "version_normalized": "0.1.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/youearth.0.1.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>Using the built-in YouTube search, you can import video details into the YouEarth database.  After getting a Google Earth API key from the\nGoogle website and entering that into YouEarth, you can put a [youearth] shortcode in a post or a page and you will find a GoogleEarth instance\nthere with your videos pinned on it.<\/p>\n\n<p>YouEarth includes the ability to search YouTube for videos using the YouTube API, and will check each video has either GEO location coordinate data\nor the uploaded location before returning it.  It is possible to search for videos directly using the video ID also.<\/p>",
+                "uid": "60562"
+            }
+        }
+    }
+}

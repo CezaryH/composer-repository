@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/wp-betting-stats": {
+            "0.1": {
+                "name": "wordpress\/wp-betting-stats",
+                "version": "0.1",
+                "version_normalized": "0.1.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/wp-betting-stats.0.1.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>This plugin adds a widget that can show the statistics of a betting blog (e.g. the amount of units, the number of bets so far, the percentage yield, etc.). Currently the user needs to update the statistics manually using a form in the admin area.<\/p>",
+                "uid": "89596"
+            }
+        }
+    }
+}

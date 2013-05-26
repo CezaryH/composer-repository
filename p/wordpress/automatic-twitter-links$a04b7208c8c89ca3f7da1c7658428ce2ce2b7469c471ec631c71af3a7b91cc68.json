@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/automatic-twitter-links": {
+            "1.0": {
+                "name": "wordpress\/automatic-twitter-links",
+                "version": "1.0",
+                "version_normalized": "1.0.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/automatic-twitter-links.1.0.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>The plugin picks out twitter usernames and hashtags and automatically converts them to working links to Twitter profiles and search pages. You will no longer have to manually create these links, it will happen automatically for all page, post and comment content.<\/p>",
+                "uid": "45056"
+            }
+        }
+    }
+}

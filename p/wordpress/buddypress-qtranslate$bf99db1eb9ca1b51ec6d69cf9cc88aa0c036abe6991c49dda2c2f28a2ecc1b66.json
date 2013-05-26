@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/buddypress-qtranslate": {
+            "1.2": {
+                "name": "wordpress\/buddypress-qtranslate",
+                "version": "1.2",
+                "version_normalized": "1.2.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/buddypress-qtranslate.1.2.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>Plugin for optimize <a href=\"http:\/\/wordpress.org\/extend\/plugins\/qtranslate\/\">qTranslate<\/a> with <a href=\"http:\/\/wordpress.org\/extend\/plugins\/buddypress\/\">Buddypress<\/a> and support of BP Admin bar<\/p>\n\n<ol>\n<li>Add drop down menu with qtranslate languaget to Buddypress adminbar<\/li>\n<li>Optimize qTranslate with Buddypress (do not work, coming soon)<\/li>\n<\/ol>\n\n<p>For full functionality, you must delete code line <code>add_filter(&#8216;clean_url&#8217;, &#8216;qtrans_convertURL&#8217;,);<\/code> in file <code>qtranslate_hooks.php<\/code> in folder <code>plugins\/qtranslate<\/code>.<\/p>",
+                "uid": "64405"
+            }
+        }
+    }
+}

@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/multidomain": {
+            "1.0": {
+                "name": "wordpress\/multidomain",
+                "version": "1.0",
+                "version_normalized": "1.0.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/multidomain.1.0.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<ul>\n<li>Point multiple domains\/sub-domains at a single WordPress installation and maintain link integrity (i.e. if you're on <a href=\"http:\/\/foo.com\" rel=\"nofollow\">http:\/\/foo.com<\/a>, links will be <a href=\"http:\/\/foo.com\/bar\" rel=\"nofollow\">http:\/\/foo.com\/bar<\/a>, and if you're <a href=\"http:\/\/baz.com\" rel=\"nofollow\">http:\/\/baz.com<\/a> links will be <a href=\"http:\/\/baz.com\/bar)\" rel=\"nofollow\">http:\/\/baz.com\/bar)<\/a><\/li>\n<li>Overwrite site title, description, or theme per domain<\/li>\n<li>Customize content per domain using the [MultiDomain&#095;if] and [MultiDomain&#095;else] shortcodes<\/li>\n<\/ul>\n\n<p>If you need more customization between domains, WordPress MU is a better option.<\/p>",
+                "uid": "36653"
+            }
+        }
+    }
+}

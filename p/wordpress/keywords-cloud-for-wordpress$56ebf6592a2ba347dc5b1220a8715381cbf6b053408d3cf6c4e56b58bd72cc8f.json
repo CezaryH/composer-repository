@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/keywords-cloud-for-wordpress": {
+            "0.5": {
+                "name": "wordpress\/keywords-cloud-for-wordpress",
+                "version": "0.5",
+                "version_normalized": "0.5.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/keywords-cloud-for-wordpress.0.5.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>Discover which keywords your site visitors are googling to reach your site. Build automatically a tag cloud based on realtime usage data, not on the tags that you  THINK are appropriate. Fully customize the tag cloud links and keywords. Ban inapproriate keywords with one click. INSTRUCTIONS: Just activate the plugin, place one of the three available Keyword widgets in your sidebar, and wait some visitors come from a search engine to see the first keywords.<\/p>\n\n<p>A few notes<\/p>\n\n<ul>\n<li>Tag Cloud is updated each time a page is being visited from somebody who found it on a search engine\n\n<ul>\n<li>Same IP can't fool too much - IPs are logged and considered by the algorythm<\/li>\n<li>Configurable pagerank shaping: follow\/nofollow links<\/li>\n<li>A good keyword tag cloud will be the result of a semi-automatic refining process<\/li>\n<li>The keywords you select stay forever and pass PR<\/li>\n<li>less important ones go away eventually!<\/li>\n<\/ul><\/li>\n<\/ul>",
+                "uid": "74567"
+            }
+        }
+    }
+}

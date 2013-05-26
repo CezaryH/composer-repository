@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/force-ssl-everywhere": {
+            "1.0": {
+                "name": "wordpress\/force-ssl-everywhere",
+                "version": "1.0",
+                "version_normalized": "1.0.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/force-ssl-everywhere.1.0.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>This is a very simple plugin that forces SSL on all pages when a user is logged in (not only on admin ones).<\/p>\n\n<p>Why would you need it? If you force SSL usage only in the admin area, and use HTTP as your blog URL, then some links and buttons in the admin area revert to HTTP. This flaw is fixed by this plugin. If you want to check out details about session hijacking, you can view the screencast and the following post on my blog - <a href=\"http:\/\/zerocool.is-a-geek.net\/?p=912\" title=\"Wordpress Session Hijacking and Prevention\">Wordpress Session Hijacking and Prevention<\/a>.<\/p>\n\n<p><\/p>\n\n<p>How does it work?<\/p>\n\n<ul>\n<li>A user logs in,<\/li>\n<li>a cookie is set that is sent only through HTTPS,<\/li>\n<li>all pages are redirected to HTTPS,<\/li>\n<li>Wordpress checks if this cookie is set,<\/li>\n<li>if not, the user is logged out.<\/li>\n<\/ul>\n\n<p>This effectively prevents session hijacking and man in the middle attacks.<\/p>",
+                "uid": "8224"
+            }
+        }
+    }
+}

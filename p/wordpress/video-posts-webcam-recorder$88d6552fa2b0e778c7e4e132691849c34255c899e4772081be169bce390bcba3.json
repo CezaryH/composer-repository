@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/video-posts-webcam-recorder": {
+            "1.55.4": {
+                "name": "wordpress\/video-posts-webcam-recorder",
+                "version": "1.55.4",
+                "version_normalized": "1.55.4.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/video-posts-webcam-recorder.1.55.4.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>The Video Posts Webcam Recorder allows the WordPress administrators and authors to record and insert videos in their posts.\nSupports playback with JwPlayer plugin.<\/p>\n\n<p>Special requirements: This plugin has requirements beyond regular WordPress hosting specifications: a RTMP host is needed for persistent connections to manage live interactions and streaming (Wowza recommended). More details about this, including solutions are provided on the Installation section pages.<\/p>",
+                "uid": "21052"
+            }
+        }
+    }
+}

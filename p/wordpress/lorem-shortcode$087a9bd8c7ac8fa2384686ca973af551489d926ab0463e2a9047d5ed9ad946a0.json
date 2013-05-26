@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/lorem-shortcode": {
+            "1.1": {
+                "name": "wordpress\/lorem-shortcode",
+                "version": "1.1",
+                "version_normalized": "1.1.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/lorem-shortcode.1.1.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>The plugin contains two shortcodes, <code>[lorem]<\/code> and <code>[loremimage]<\/code>, the <code>[loremimage]<\/code> shortcode can be nested in the <code>[lorem]<\/code> shortcode. The shortcodes generates dummy text and image when needed.<\/p>\n\n<h4>Usage<\/h4>\n\n<p>Add the <code>[lorem]<\/code> and\/or <code>[loremimage]<\/code> shortcode to a post or page<\/p>\n\n<h4>Parameters, all are optional<\/h4>\n\n<p><strong>[lorem]<\/strong><\/p>\n\n<ul>\n<li>p=\"3\" Number of paragraphs. Default is 5<\/li>\n<li>l=\"7\", Number of lines per paragraph. Default is 3<\/li>\n<li>align=\"right\" This tells how you'd like to allign a nested shortcode. There are two alternatives, left or right. Default is right<\/li>\n<\/ul>\n\n<p><strong>[loremimage]<\/strong><\/p>\n\n<p>The loremimage is created using <a href=\"http:\/\/dummyimage.com\/\">http:\/\/dummyimage.com\/<\/a>, and hence the shortcode supports the same parameters as <a href=\"http:\/\/dummyimage.com\/\">http:\/\/dummyimage.com\/<\/a>.<\/p>\n\n<ul>\n<li>size=\"400x400\" Image size. Default is 30",
+                "uid": "57055"
+            }
+        }
+    }
+}

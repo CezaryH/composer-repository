@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/thesis-cacher-beta": {
+            "1.2.2": {
+                "name": "wordpress\/thesis-cacher-beta",
+                "version": "1.2.2",
+                "version_normalized": "1.2.2.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/thesis-cacher-beta.1.2.2.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>Thesis Cache(r) works with any and all object-caching plugins including W3 Total Cache. If no persistent object cache is in use it will install a basic file-based object cache. Thesis Cache(r) gives each post\/page\/post-type object a meta box to select whether a page is cached, if so for how long, and whether or not to also cache the sidebars on the page.<\/p>",
+                "uid": "20847"
+            }
+        }
+    }
+}

@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/qr-redirector": {
+            "1.0": {
+                "name": "wordpress\/qr-redirector",
+                "version": "1.0",
+                "version_normalized": "1.0.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/qr-redirector.1.0.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>QR Redirector lets you set up your own QR Code redirection site.  The plugin creates a new custom post type called QR Redirect, which generates a QR code \nthat points to the post's permalink.  You may then specify any URL you like for the post to redirect to.  Useful if you have an offsite contest, form, newsletter \nsign-up, etc. You can even change the URL you're redirecting to without having to worry about updating the QR code in your advertising media.<\/p>\n\n<p>This allows you to continuously reuse your QR codes on printed or linked marketing material... you can change the destination you're sending your users to \nwithout ever having to change the artwork you're using to promote it.<\/p>\n\n<p>This plugin is the second incarnation of the QR Code Redirect plugin.  It was developed to be self contained after the Google Chart API deprecated its QR Code\ngeneration service.  Instead of relying on a third party service to generate the QR code, this plugin uses the PHPQRCode library by Domi",
+                "uid": "16392"
+            }
+        }
+    }
+}

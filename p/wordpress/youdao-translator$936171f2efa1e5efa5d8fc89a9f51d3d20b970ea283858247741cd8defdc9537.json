@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/youdao-translator": {
+            "1.0": {
+                "name": "wordpress\/youdao-translator",
+                "version": "1.0",
+                "version_normalized": "1.0.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/youdao-translator.1.0.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>Translates a blog by Youdao Translation Engine. First you must apply a key from the website <a href=\"http:\/\/fanyi.youdao.com\/fanyiapi\" rel=\"nofollow\">http:\/\/fanyi.youdao.com\/fanyiapi<\/a>. After uploading this plugin click 'Activate' and enter your Youdao Tranlation API site and key to enable the translator in the configuration menu.<\/p>",
+                "uid": "35060"
+            }
+        }
+    }
+}

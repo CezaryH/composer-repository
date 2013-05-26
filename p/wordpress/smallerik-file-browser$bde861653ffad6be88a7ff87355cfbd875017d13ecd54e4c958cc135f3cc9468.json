@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/smallerik-file-browser": {
+            "1.0": {
+                "name": "wordpress\/smallerik-file-browser",
+                "version": "1.0",
+                "version_normalized": "1.0.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/smallerik-file-browser.1.0.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>The Smallerik File Browser plugin allows you to transform a normal WordPress page or post into a simple but fully functional file browser.\nFiles and folders within specified repositories can be browsed and, depending on user-based access rights, managed according to customizable access levels.<\/p>\n\n<p>Using this plugin only requires a page\/post shortcode (see Installation section) named [wpfib]. However, there are a lot of features to explore.\nFor example, if you want the same post or page to display a different repository for each user viewing it, you can add a command option specifying that the repository should be user-dependent.\nYou achieve this by simply writing: [wpfib repo='USERBOUND'] inside the post or page. This will create a separate folder for each user from the same post or page.<\/p>\n\n<p>As an example, this arrangement is useful if you intend to provide file access in a school website, where pupils can access their own repository where to upload homework and download co",
+                "uid": "23193"
+            }
+        }
+    }
+}

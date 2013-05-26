@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/w-popularity": {
+            "0.9.3": {
+                "name": "wordpress\/w-popularity",
+                "version": "0.9.3",
+                "version_normalized": "0.9.3.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/w-popularity.0.9.3.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>Widgetized Popularity Contest (wPopularity) is based on the great Plug-In Popularity COntest (Alex King) and therefore it can the foolowing:<br \/>\n-keeps a count of \n--your post, \n--category \n--archive views\n--comments\n--trackbacks, etc. \nand uses them to determine which of your posts are most popular. There are numerical values assigned to each type of view and feedback;\nthese are used to create a 'popularity score' for each post.<\/p>\n\n<p>Additionally there is configurable Widget of Most Popular Post for sidebar of your Blog. Also some small \nimprovemnets are done, to the original Plug-In. The core Popolarity calculation stays in this version the same.<\/p>\n\n<p>The values assigned to each view and feedback type are editable and can be changed at any time. \nWhen you change any of these values, the 'popularity score' for all posts are updated immediately to reflect the new values.<\/p>",
+                "uid": "103820"
+            }
+        }
+    }
+}

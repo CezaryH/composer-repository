@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/wp-roundabout": {
+            "1.0": {
+                "name": "wordpress\/wp-roundabout",
+                "version": "1.0",
+                "version_normalized": "1.0.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/wp-roundabout.1.0.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>This plugin creates a round about slider based on jQuery Roundabout plugin.\nYou can either use the function wproundabout($cat, $noOfpost) in your theme \nor use the short [wproundabout category=1 number=4 ] to display the roundabout slider<\/p>",
+                "uid": "55611"
+            }
+        }
+    }
+}

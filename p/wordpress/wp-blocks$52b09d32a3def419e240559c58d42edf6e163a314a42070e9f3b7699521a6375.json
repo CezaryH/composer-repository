@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/wp-blocks": {
+            "1.4": {
+                "name": "wordpress\/wp-blocks",
+                "version": "1.4",
+                "version_normalized": "1.4.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/wp-blocks.1.4.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>WP-Blocks a simple plugin designed to help you edit discrete bits of template content via the WordPress admin interface. A good example would be your sidebar bio, footer copyright notice or a simple events listing. It's not intended to be tied in with posts and pages like some other plugins.<\/p>\n\n<p>Here's what you need to know:<\/p>\n\n<ul>\n<li>WP-Blocks can be accessed via the Settings menu in the WordPress admin (I may move this in time)<\/li>\n<li>The plugin requires PHP5 (apologies to those on PHP4)<\/li>\n<li>I have developed and tested this plugin on WordPress Version 3.0 and above<\/li>\n<li>It \"should\" work on earlier versions, as far as I know I haven't used any brand spanking new API calls<\/li>\n<li>Every \"block\", whether visible or not will incur a database query so use of a caching plugin is encouraged<\/li>\n<\/ul>",
+                "uid": "62992"
+            }
+        }
+    }
+}

@@ -1,0 +1,40 @@
+{
+    "packages": {
+        "wordpress\/my-trending-post": {
+            "0.1": {
+                "name": "wordpress\/my-trending-post",
+                "version": "0.1",
+                "version_normalized": "0.1.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/my-trending-post.0.1.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p><strong>My Trending Post<\/strong> is a plugin which search for Trending Topics on Twitter every hour. It then compare the Trending Topics with \nyour post's blog and send a tweet with a link to your post if it match with the topic.<\/p>\n\n<p>Features:<\/p>\n\n<ul>\n<li>An automatic tweet from a user defined twitter account, with a link related to one of your blog's post and the World trending topic (the plugin will check for Trending Topics every hours)<\/li>\n<li>An hashtag will be added after the link, with the matched's topic<\/li>\n<li>A <strong>smart algorithm<\/strong> to separate concatenated camel words (e.g. #10FavouriteBands ==&#62; 10 Favourite Bands) and so increase the matching between yours posts and the trending topics (often concatenated)<\/li>\n<li>The post sent will be flagged and so won't be sent again until 7 days<\/li>\n<li>The possibility of <strong>excluding one or more categories<\/strong> of article to be tweeted <strong>(Now available in the Lite version)<\/strong><\/li>\n<\/ul",
+                "uid": "21651"
+            },
+            "0.2": {
+                "name": "wordpress\/my-trending-post",
+                "version": "0.2",
+                "version_normalized": "0.2.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/my-trending-post.0.2.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p><strong>My Trending Post<\/strong> is a plugin which search for Trending Topics on Twitter every hour. It then compare the Trending Topics with \nyour post's blog and send a tweet with a link to your post if it match with the topic.<\/p>\n\n<p>Features:<\/p>\n\n<ul>\n<li>An automatic tweet from a user defined twitter account, with a link related to one of your blog's post and the World trending topic (the plugin will check for Trending Topics every hours)<\/li>\n<li>An hashtag will be added after the link, with the matched's topic<\/li>\n<li>A <strong>smart algorithm<\/strong> to separate concatenated camel words (e.g. #10FavouriteBands ==&#62; 10 Favourite Bands) and so increase the matching between yours posts and the trending topics (often concatenated)<\/li>\n<li>The post sent will be flagged and so won't be sent again until 7 days<\/li>\n<li>The possibility of <strong>excluding one or more categories<\/strong> of article to be tweeted <strong>(Now available in the Lite version)<\/strong><\/li>\n<\/ul",
+                "uid": "21650"
+            }
+        }
+    }
+}

@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/anti-spambot-email-button": {
+            "0.1": {
+                "name": "wordpress\/anti-spambot-email-button",
+                "version": "0.1",
+                "version_normalized": "0.1.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/anti-spambot-email-button.0.1.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>Adds a button to the TinyMCE editor that puts a selected email adress into a shortcode [email] and turns it into a mailto-link, which uses WordPress' native antispambot() function to encode the emailadress so harvesters can't get it.<\/p>",
+                "uid": "14974"
+            }
+        }
+    }
+}

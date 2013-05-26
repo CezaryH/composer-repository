@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/user-permissions": {
+            "0.8.4": {
+                "name": "wordpress\/user-permissions",
+                "version": "0.8.4",
+                "version_normalized": "0.8.4.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/user-permissions.0.8.4.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>User Permissions is a plugin that takes the simple WordPress permissions models one step further and allows you to assign permissions to specific posts that restrict users or roles from reading or editing it.<\/p>\n\n<p>To summarize:<\/p>\n\n<ul>\n<li>Restrict reading or writing of post or page according to the user's role (i.e. prevent non-registered users reading a post)<\/li>\n<li>Allow specific users to read or write a post or page<\/li>\n<li>Permissions are assigned directly inside the post itself - there is no additional interface<\/li>\n<li>Fully localized<\/li>\n<\/ul>",
+                "uid": "98322"
+            }
+        }
+    }
+}

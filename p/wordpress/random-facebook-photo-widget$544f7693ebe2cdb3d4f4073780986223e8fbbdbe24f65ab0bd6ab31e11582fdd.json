@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/random-facebook-photo-widget": {
+            "1.0": {
+                "name": "wordpress\/random-facebook-photo-widget",
+                "version": "1.0",
+                "version_normalized": "1.0.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/random-facebook-photo-widget.1.0.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>Displays a random public photo from a user or page's Facebook album in a widget. &#160;Will only work for public albums and photos - will not access albums and photos that are not set as public.<\/p>",
+                "uid": "22694"
+            }
+        }
+    }
+}

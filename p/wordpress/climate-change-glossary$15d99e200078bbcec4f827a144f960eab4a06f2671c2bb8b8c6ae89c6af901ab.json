@@ -1,0 +1,40 @@
+{
+    "packages": {
+        "wordpress\/climate-change-glossary": {
+            "1.4": {
+                "name": "wordpress\/climate-change-glossary",
+                "version": "1.4",
+                "version_normalized": "1.4.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/climate-change-glossary.1.4.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>With this plugin any SKOS thesaurus can be imported into your Wordpress blog (via ARC2 into an RDF triple store). A renewable energy and climate change thesaurus is pre-installed.\nOn two pages (automatically generated) the whole thesaurus can be displayed and used as a glossary on your blog. One page is the main page of the glossary which displays all concepts with their preferred labels and their alternative labels (synonyms). The list of concepts is displayed in an alphabetical order and can be filtered by their first letters. The second page represents the detail view of each concept. All kinds of labels and relations (prefLabel, altLabel, hiddenLabel, definition, scopNote, broader, narrower und related) of a given term (concept) can be loaded and displayed.\nEach post is analysed automatically to find words and phrases maching labels of a concept (prefLabel, altLabel or hiddenLabel) in the thesaurus. The first hit will automatically be highlighted. A mousover tooltip shows the sh",
+                "uid": "43429"
+            },
+            "2.0": {
+                "name": "wordpress\/climate-change-glossary",
+                "version": "2.0",
+                "version_normalized": "2.0.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/climate-change-glossary.2.0.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>With this plugin any SKOS thesaurus can be imported into your Wordpress blog (via ARC2 into an RDF triple store). A renewable energy and climate change thesaurus is pre-installed.\nOn two pages (automatically generated) the whole thesaurus can be displayed and used as a glossary on your blog. One page is the main page of the glossary which displays all concepts with their preferred labels and their alternative labels (synonyms). The list of concepts is displayed in an alphabetical order and can be filtered by their first letters. The second page represents the detail view of each concept. All kinds of labels and relations (prefLabel, altLabel, hiddenLabel, definition, scopNote, broader, narrower und related) of a given term (concept) can be loaded and displayed.\nEach post is analysed automatically to find words and phrases maching labels of a concept (prefLabel, altLabel or hiddenLabel) in the thesaurus. The first hit will automatically be highlighted. A mousover tooltip shows the sh",
+                "uid": "43426"
+            }
+        }
+    }
+}

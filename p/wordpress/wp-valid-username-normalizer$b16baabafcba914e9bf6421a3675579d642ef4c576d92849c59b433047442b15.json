@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/wp-valid-username-normalizer": {
+            "1.0": {
+                "name": "wordpress\/wp-valid-username-normalizer",
+                "version": "1.0",
+                "version_normalized": "1.0.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/wp-valid-username-normalizer.1.0.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>Wordpress functions for creating new users does not check wheather the usernames are valid (for having in URL:s etc.) So, if you have a wordpress site with some plugin that creates users with \"funny characters\" (such as spaces, national characters, etc.), this plugin will clean up the mess. (Yes, this is a real world scenario that did happen.)<\/p>\n\n<p>This plugin will rename all your user's usernames to something valid, still allowing your users to continue logging in with their old invalid username, so you do not have to instruct all your users to login in with the new valid username. This plugin will map old invalid usernames to the new valid ones.<\/p>\n\n<p>Overall, what is considered a \"valid\" username is a bit of a mess in Wordpress. You would expect the sanitize_user() function to return a username that works, but it does accept spaces, wildcard and at (@), which all will fuck up your authors' archives URLs in Wordpress. However, when creating new users in the wordpress admin, t",
+                "uid": "16843"
+            }
+        }
+    }
+}

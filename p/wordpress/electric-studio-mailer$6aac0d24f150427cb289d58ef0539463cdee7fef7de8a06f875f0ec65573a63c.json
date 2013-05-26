@@ -1,0 +1,40 @@
+{
+    "packages": {
+        "wordpress\/electric-studio-mailer": {
+            "1.0": {
+                "name": "wordpress\/electric-studio-mailer",
+                "version": "1.0",
+                "version_normalized": "1.0.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/electric-studio-mailer.1.0.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>This plugin adds a function called 'esm_send' that sends an email. Mail Server settings can easily be changed from the wp-admin interface.<\/p>\n\n<p>The function works like so:<\/p>\n\n<pre><code>esm_send($from, $to, $content, $subj = &#34;&#34;, $fromName = &#34;&#34;);<\/code><\/pre>",
+                "uid": "38692"
+            },
+            "1.1": {
+                "name": "wordpress\/electric-studio-mailer",
+                "version": "1.1",
+                "version_normalized": "1.1.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/electric-studio-mailer.1.1.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>This plugin adds a function called 'esm_send' that sends an email. Mail Server settings can easily be changed from the wp-admin interface.<\/p>\n\n<p>The function works like so:<\/p>\n\n<pre><code>esm_send($from, $to, $content, $subj = &#34;&#34;, $fromName = &#34;&#34;);<\/code><\/pre>",
+                "uid": "38691"
+            }
+        }
+    }
+}

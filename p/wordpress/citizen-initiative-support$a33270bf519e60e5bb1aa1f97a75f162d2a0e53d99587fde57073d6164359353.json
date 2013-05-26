@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/citizen-initiative-support": {
+            "1.0": {
+                "name": "wordpress\/citizen-initiative-support",
+                "version": "1.0",
+                "version_normalized": "1.0.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/citizen-initiative-support.1.0.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>This plugin provides easy way for adding widget to show number of support statements in Finnish citizens' initiative. It also adds a link to kansalaisaloite.fi where the initiative may be signed. It receives initiative information from kansalaisaloite.fi Open Data API so all the information is fresh.<\/p>\n\n<p>Plugin handles citizens' initiative states correctly.<\/p>\n\n<p>If initiative is more than month old and has less than 50 support statements, the due date and signature link will not be shown because signing is no longer possible in kansalaisaloite.fi. Initiative more than six months old and with less than 50 000 support statements is treated same way.<\/p>\n\n<p>Citizens' initiative sent to Parliament will show message saying that the initiative has been sent to Parliament and signature link will not be shown.<\/p>\n\n<p><strong>Usage<\/strong>\nNavigate to the 'Widgets' dashboard, drag and drop 'Kansalaisaloite'-widget to the desired place and set initiative number to get started. Initi",
+                "uid": "8840"
+            }
+        }
+    }
+}

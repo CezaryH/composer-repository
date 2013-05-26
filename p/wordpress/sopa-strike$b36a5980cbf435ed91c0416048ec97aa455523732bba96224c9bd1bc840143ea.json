@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/sopa-strike": {
+            "1.4": {
+                "name": "wordpress\/sopa-strike",
+                "version": "1.4",
+                "version_normalized": "1.4.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/sopa-strike.1.4.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>SOPA Strike will automatically redirect all users of your blog to the <a href=\"http:\/\/sopastrike.com\" rel=\"nofollow\">http:\/\/sopastrike.com<\/a> homepage on Wednesday, January 18th. It automatically adds your blog name and URL to a list of protestors which will be featured on the website.<\/p>",
+                "uid": "31712"
+            }
+        }
+    }
+}

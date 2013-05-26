@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/wp-activity-logger": {
+            "1.0.0": {
+                "name": "wordpress\/wp-activity-logger",
+                "version": "1.0.0",
+                "version_normalized": "1.0.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/wp-activity-logger.1.0.0.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>Get notified when any of the following events occur:<\/p>\n\n<ul>\n<li>A PHP error or warning occurs (monitors E_ERROR &#124; E_PARSE &#124; E_CORE_ERROR [see <a href=\"http:\/\/php.net\/manual\/en\/errorfunc.constants.php\" rel=\"nofollow\">http:\/\/php.net\/manual\/en\/errorfunc.constants.php<\/a> for more information])<\/li>\n<li>Plugin is either activated or deactivated (along with the user who performed the action)<\/li>\n<\/ul>\n\n<p>Created by <a href=\"http:\/\/allanbruford.com\/\">Allan Bruford<\/a> - Software Engineer at <a href=\"http:\/\/quickenloans.com\">Quicken Loans<\/a>, Detroit, MI<\/p>",
+                "uid": "8966"
+            }
+        }
+    }
+}

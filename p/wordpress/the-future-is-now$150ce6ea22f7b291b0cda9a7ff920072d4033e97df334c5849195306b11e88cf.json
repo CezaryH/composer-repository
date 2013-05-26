@@ -1,0 +1,40 @@
+{
+    "packages": {
+        "wordpress\/the-future-is-now": {
+            "1.0": {
+                "name": "wordpress\/the-future-is-now",
+                "version": "1.0",
+                "version_normalized": "1.0.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/the-future-is-now.1.0.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>A WordPress plugin aimed primarily at events sites, where you want to be able to timestamp posts in the future but have them appear immediately (by default, WordPress will not display a future timestamped post until its go-live date rolls around). This plugin sets the post_status field to \"publish\" rather than \"future\" when publishing a post, even if its timestamp is in the future.<\/p>\n\n<p>Note: This 2.0 version requires WordPress 3.5 or higher. If you need this to work with versions lower than 3.5, grab the 1.0 version from svn: <a href=\"http:\/\/plugins.svn.wordpress.org\/the-future-is-now\/tags\/1.0\/\" rel=\"nofollow\">http:\/\/plugins.svn.wordpress.org\/the-future-is-now\/tags\/1.0\/<\/a><\/p>",
+                "uid": "108262"
+            },
+            "2.0": {
+                "name": "wordpress\/the-future-is-now",
+                "version": "2.0",
+                "version_normalized": "2.0.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/the-future-is-now.2.0.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>A WordPress plugin aimed primarily at events sites, where you want to be able to timestamp posts in the future but have them appear immediately (by default, WordPress will not display a future timestamped post until its go-live date rolls around). This plugin sets the post_status field to \"publish\" rather than \"future\" when publishing a post, even if its timestamp is in the future.<\/p>\n\n<p>Note: This 2.0 version requires WordPress 3.5 or higher. If you need this to work with versions lower than 3.5, grab the 1.0 version from svn: <a href=\"http:\/\/plugins.svn.wordpress.org\/the-future-is-now\/tags\/1.0\/\" rel=\"nofollow\">http:\/\/plugins.svn.wordpress.org\/the-future-is-now\/tags\/1.0\/<\/a><\/p>",
+                "uid": "108261"
+            }
+        }
+    }
+}

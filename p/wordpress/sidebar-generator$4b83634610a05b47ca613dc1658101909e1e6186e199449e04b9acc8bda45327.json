@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/sidebar-generator": {
+            "1.1": {
+                "name": "wordpress\/sidebar-generator",
+                "version": "1.1",
+                "version_normalized": "1.1.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/sidebar-generator.1.1.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>Now you can create as many sidebars as you need for any page you want. \nThats right, <strong>page\/post specific sidebars<\/strong>. You can easily seperate your site into sections, \nor make every single page have page specific sidebar content on it. Great for CMS sites. Now supports themes with multiple sidebars. You can replace any sidebar with any other sidebar.<\/p>\n\n<p>Features:<\/p>\n\n<ul>\n<li>Generate unlimited sidebars<\/li>\n<li>pick a sidebar on a per-page and per-post basis<\/li>\n<li>unique CSS classes for each sidebar for customizable looks<\/li>\n<li>AJAX admin<\/li>\n<li>Multiple sidebar theme support<\/li>\n<\/ul>\n\n<p>Upgrading?\nBe sure to back everything up. Since this version adds a significant feature, you will need to re-associate your pages\/posts to your sidebars. Sorry.<\/p>",
+                "uid": "79118"
+            }
+        }
+    }
+}

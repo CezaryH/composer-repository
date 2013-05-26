@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/lscache-purge": {
+            "1.0.1": {
+                "name": "wordpress\/lscache-purge",
+                "version": "1.0.1",
+                "version_normalized": "1.0.1.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/lscache-purge.1.0.1.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>Plugin for invalidating Wordpress items on a litespeed cache<\/p>\n\n<p>LiteSpeed Cache Purge sends an HTTP PURGE or REFRESH request to the URL of a page or post every time it is modified. This occurs when editing, publishing, commenting or deleting an item.<\/p>",
+                "uid": "11025"
+            }
+        }
+    }
+}

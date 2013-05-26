@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/insert-html-here": {
+            "1.0": {
+                "name": "wordpress\/insert-html-here",
+                "version": "1.0",
+                "version_normalized": "1.0.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/insert-html-here.1.0.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>Allows one or more blocks of html code to be inserted into a Wordpress post or page.  This plugin should work with Wordpress 2.5.0 or greater.  I have only tested it on my site running Wordpress 2.6.3.<\/p>",
+                "uid": "95302"
+            }
+        }
+    }
+}

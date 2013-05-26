@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/bulk-entry": {
+            "1.1": {
+                "name": "wordpress\/bulk-entry",
+                "version": "1.1",
+                "version_normalized": "1.1.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/bulk-entry.1.1.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>Create large numbers of posts on a single screen in bulk. Features include:<\/p>\n\n<ul>\n<li>TinyMCE visual editors<\/li>\n<li>Custom Post type support<\/li>\n<li>Custom post status support<\/li>\n<li>AJAX powered<\/li>\n<li>Validates against Coding standards<\/li>\n<li>Checks Capabilities and Nonces for security<\/li>\n<li>Filters for adding and saving extra fields<\/li>\n<\/ul>",
+                "uid": "9235"
+            }
+        }
+    }
+}

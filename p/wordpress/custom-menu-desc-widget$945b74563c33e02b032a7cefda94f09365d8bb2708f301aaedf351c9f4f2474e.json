@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/custom-menu-desc-widget": {
+            "0.1": {
+                "name": "wordpress\/custom-menu-desc-widget",
+                "version": "0.1",
+                "version_normalized": "0.1.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/custom-menu-desc-widget.0.1.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>Slightly modifies the built in Custom Menu widget to also show descriptions. Adds a span class of \"CMWdesc\" for easy styling. Borrows code from <a href=\"http:\/\/www.kriesi.at\/archives\/improve-your-wordpress-navigation-menu-output\">here<\/a> as well (for the walker class rewrite). No guarantees of fitness for anything, I just couldn't find a plugin to do this simple thing so made one myself. Hope you like it. Note: Make sure descriptions are enabled in the screen options of your Menus admin, then edit to suit under each menu item. Add the widget and voila.<\/p>",
+                "uid": "39834"
+            }
+        }
+    }
+}

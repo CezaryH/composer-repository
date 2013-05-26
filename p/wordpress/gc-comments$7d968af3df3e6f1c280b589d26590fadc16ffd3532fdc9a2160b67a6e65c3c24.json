@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/gc-comments": {
+            "0.2.2": {
+                "name": "wordpress\/gc-comments",
+                "version": "0.2.2",
+                "version_normalized": "0.2.2.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/gc-comments.0.2.2.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>GC-Comments retrieves a list of commented on posts, ordered by last commented on article first. It displays them as an unordered list\ncontaining a link to the article, as well as a link to the last comment in that conversation:<\/p>\n\n<ul>\n<li>article_title1 (number_of_comments1)<\/li>\n<li>article_title2 (number_of_comments2)<\/li>\n<\/ul>\n\n<p>It has the following features:<\/p>\n\n<ul>\n<li>Can be used as a widget and in code<\/li>\n<li>Customizable css class name.<\/li>\n<li>Customizable number of commented on posts to retrieve.<\/li>\n<li>Caching: for large databases the query can be quite resource intensive. Caching reduces the strain \non the database by storing the results of the query-results in the database. Select caching per comment or time based (Cache time configurable).<\/li>\n<li>AJAX: Use this when your blog uses WP Super Cache or equivalent, or if you just want to keep your readers updated \non the latest comments regularly (AJAX refresh time configurable).<\/li>\n<li>Option to include or",
+                "uid": "82935"
+            }
+        }
+    }
+}

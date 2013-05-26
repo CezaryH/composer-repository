@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/wpro": {
+            "1.0": {
+                "name": "wordpress\/wpro",
+                "version": "1.0",
+                "version_normalized": "1.0.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/wpro.1.0.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>This plugin was made with cluster\/load balancing server setups in\nmind - where you do not want your WordPress to write anything to\nthe local web directory.<\/p>\n\n<p>WPRO will put your media uploads on Amazon S3. Unlike other\nS3 plugins, this plugin does not require your uploads to first be\nstored in your server's upload directory, so this plugin will work\nfine on WordPress sites where the web server have read-only access\nto the web directory.<\/p>\n\n<ul>\n<li>Wordpress image editing will still work fine (just somewhat slower).<\/li>\n<li>Full support for XMLRPC uploads.<\/li>\n<\/ul>\n\n<p>This plugin was made for Wordpress sites deployed in a (load balancing)\ncluster across multiple webservers, where you do not want your WordPress\nto write anything to the local web directory.<\/p>\n\n<p>Note: You still need write access to the system \/tmp directory for\nthis plugin to work. It will use the system \/tmp directory for\ntemporary storage during uploads, image editing\/scaling, etc.<\/p>\n\n<h4>Wordpress M",
+                "uid": "27467"
+            }
+        }
+    }
+}

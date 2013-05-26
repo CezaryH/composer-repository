@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/wp-search-for-comments": {
+            "1.2.2": {
+                "name": "wordpress\/wp-search-for-comments",
+                "version": "1.2.2",
+                "version_normalized": "1.2.2.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/wp-search-for-comments.1.2.2.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>This is a lite version of plugin\nPlugin for search in comments. The plugin you are looking for. It's search through comments. Can be added to page automatically or manually with shortcode &#60; ?php if(function_exists('wp_sfc')) wp_sfc(); ?&#62;. It returns comment author name, comment content and date in \"times ago\" format. Output can be styled with css.<\/p>\n\n<h4>Buy on codecanyon.net<\/h4>\n\n<p>If you like it and want other features to be activated, please grab it from <a href=\"http:\/\/codecanyon.net\/item\/wp-search-for-comments\/2907860\">here<\/a>.<\/p>",
+                "uid": "20666"
+            }
+        }
+    }
+}

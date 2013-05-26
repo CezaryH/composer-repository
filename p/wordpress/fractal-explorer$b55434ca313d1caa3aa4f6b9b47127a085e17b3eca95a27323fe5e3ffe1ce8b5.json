@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/fractal-explorer": {
+            "0.6.0": {
+                "name": "wordpress\/fractal-explorer",
+                "version": "0.6.0",
+                "version_normalized": "0.6.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/fractal-explorer.0.6.0.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>Sidebar widget for the presentation and visualization of colored julia and mandelbrot fractals. Animated zoom realized as GIF animation is used to dive into and explore the internal structure of fractals.<\/p>\n\n<p>Please ensure that you are connected to the internet when testing this plugin\/widget on your local wordpress installation (i.e. on localhost), otherwise it will not be able to load and display required media files.<\/p>\n\n<p>Features:<\/p>\n\n<ul>\n<li>configurable number of fractals<\/li>\n<li>zoom-in effect (GIF animation)<\/li>\n<li>provides different colorful fractals<\/li>\n<\/ul>\n\n<p><a href=\"http:\/\/web-fractals.sf.net\/project.php\">More about Fractal Explorer<\/a><\/p>",
+                "uid": "67310"
+            }
+        }
+    }
+}

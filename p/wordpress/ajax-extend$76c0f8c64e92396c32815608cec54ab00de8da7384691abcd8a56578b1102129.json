@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/ajax-extend": {
+            "1.0": {
+                "name": "wordpress\/ajax-extend",
+                "version": "1.0",
+                "version_normalized": "1.0.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/ajax-extend.1.0.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>ajax-extend allows you call functions, a function in one plugin or a function you write or even a core wordpress function, via Ajax, in the easiest way.<\/p>\n\n<p>Example:\nThe javascript code:<\/p>\n\n<pre>\n$j.ajax( {\n    url : home_url,\n    type : 'POST',\n    dataType : 'html',\n    data : {\n        'ajax&#095;extend&#095;mark' : 1, \/* this is indispensable if you want ajax-extend to call the function you need. *\/\n        'ajax&#095;extend&#095;action' : 'my&#095;function', \/* the function name (a WP core function, or a function in one plugin. any functions loaded by wp()) *\/\n        'name' : 'sunjianle',\n    },\n    success : function(data, textStatus, errorThron) {\n        alert(data);\n    }\n});\n<\/pre>\n\n<p>The background PHP code:<\/p>\n\n<pre>\nfunction my_function()\n{\n    $name = $_POST[\"name\"];\n    echo \"Hello, \" . $name;\n\n    global $wpdb;\n    $query_sql = \"select user_login\n                from wp_users\n                limit 0,10\";\n    $users = $wpdb-&#62;get_results($wpdb-&#62;prepare",
+                "uid": "40861"
+            }
+        }
+    }
+}

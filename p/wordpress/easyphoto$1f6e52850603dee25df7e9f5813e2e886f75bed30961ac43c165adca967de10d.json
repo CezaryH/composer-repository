@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/easyphoto": {
+            "0.5.1": {
+                "name": "wordpress\/easyphoto",
+                "version": "0.5.1",
+                "version_normalized": "0.5.1.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/easyphoto.0.5.1.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>This plugin allow to better manage images in your blog. Once you'll upload an image, you'll get 3 versions: feed (thumbnail to be included in the post or in the feed= build-in feature from WP), post ( to be included in the post, resize to be lighter, just to fit into your post), standalone (it's a resized backup). If you choose the 'replace_original' parameter, the original file will be replaced by the standalone one, so that your hosting will no longer host too heavy files and it will prevent people from stealing your full resolution original image. I recommand to use also the thumbfeed plugin available at <a href=\"http:\/\/www.alterclickr.com\/projects\/thumbfeed\/\">http:\/\/www.alterclickr.com\/projects\/thumbfeed\/<\/a><\/p>",
+                "uid": "111295"
+            }
+        }
+    }
+}

@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/gana": {
+            "1.41": {
+                "name": "wordpress\/gana",
+                "version": "1.41",
+                "version_normalized": "1.41.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/gana.1.41.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>Not everyone is comfortable delving into the source code of their Wordpress web sites (particularly clients and non-techies) so this plug-in is for those who want an easy way to add the Google Analytics tracking code to their website. If you already have an Analytics account, all you will require is this plug-in and the Analytics tracking ID for your site.<\/p>",
+                "uid": "50513"
+            }
+        }
+    }
+}

@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/wp-changes-tracker": {
+            "2.0.3": {
+                "name": "wordpress\/wp-changes-tracker",
+                "version": "2.0.3",
+                "version_normalized": "2.0.3.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/wp-changes-tracker.2.0.3.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>Ever found yourself in the situation where you updated a series of plugins with no apparent issue, only to find out a few days later that <em>something<\/em> went terribly wrong... But what? Which plugins did i upgrade? Until now, you had to rely on your own note taking or memory.<\/p>\n\n<p>This plugin keeps track of all changes made to your wordpress structure: core, network, plugins and options, for now. Themes will come soon.<\/p>\n\n<p>Since version 2.0.0, the log can be exported as .csv.<\/p>\n\n<p>Please <a href=\"http:\/\/wordpress.org\/extend\/plugins\/wp-changes-tracker\/\">rate the plugin<\/a> if you like it.\nThanks, \n<a href=\"http:\/\/www.pixeline.be\">pixeline<\/a><\/p>\n\n<h4>Usage<\/h4>\n\n<p>Nothing special. Activate the plugin and you're done.<\/p>",
+                "uid": "24249"
+            }
+        }
+    }
+}

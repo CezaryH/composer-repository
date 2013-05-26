@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/hashlibs": {
+            "0.9": {
+                "name": "wordpress\/hashlibs",
+                "version": "0.9",
+                "version_normalized": "0.9.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/hashlibs.0.9.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>Display hashed URL values in your page content using simple shortcode. Ex. Visit josh.dvvvvvvvv.com\/#name=Bob - replace 'Bob' with anything else for a different result.<\/p>",
+                "uid": "14436"
+            }
+        }
+    }
+}

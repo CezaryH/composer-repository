@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/storageqloud-for-wordpress": {
+            "0.6": {
+                "name": "wordpress\/storageqloud-for-wordpress",
+                "version": "0.6",
+                "version_normalized": "0.6.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/storageqloud-for-wordpress.0.6.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>This WordPress plugin allows you to use GreenQloud's Truly Green&#8482; StorageQloud service to host the static media for your WordPress site. It was built on the open source (GPL) plugin <a href=\"http:\/\/tantannoodles.com\/toolkit\/wordpress-s3\/\">WordPress for S3<\/a>.<\/p>\n\n<p>StorageQloud is a cheap, 100% carbon neutral AWS S3 alternative and cost effective way to scale your site to easily handle large spikes in traffic (such as from Reddit) without having to go through the expense of setting up the infrastructure for a content delivery network. StorageQloud automatically grows to store as many files as you want.<\/p>\n\n<p>Once setup, this plugin transparently integrates with your WordPress site. File uploads are automatically saved into your StorageQloud bucket without any extra steps. Once saved, these files will be delivered by StorageQloud, instead of your web host. Any image thumbnails that get created are saved to StorageQloud too. You can use your own host name for your bucket in",
+                "uid": "27912"
+            }
+        }
+    }
+}

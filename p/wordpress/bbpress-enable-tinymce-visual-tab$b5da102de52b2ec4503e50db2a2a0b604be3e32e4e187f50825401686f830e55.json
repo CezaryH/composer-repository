@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/bbpress-enable-tinymce-visual-tab": {
+            "1.0.0": {
+                "name": "wordpress\/bbpress-enable-tinymce-visual-tab",
+                "version": "1.0.0",
+                "version_normalized": "1.0.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/bbpress-enable-tinymce-visual-tab.1.0.0.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>bbPress 2.3.0 disabled the TinyMCE \"visual tab\" by default. When activated, this plugin brings it back.<\/p>\n\n<p>Additionally, this plugin also:<\/p>\n\n<ul>\n<li>Adds option to enable the full default TinyMCE mode (bbPress defaults to \"teeny\" mode).<\/li>\n<li>Adds option to enable the Media Upload button.<\/li>\n<\/ul>\n\n<p>There are a few things to note about the additional options that are avilable. <strong>Please read below.<\/strong><\/p>\n\n<p>Enabling the full default TinyMCE editor mode will display all the buttons, similar to the editor inside the WordPress admin. Depending on your configuration some of these buttons may not be compatible with TinyMCE. For example the \"Insert More Tag\" button will not do anything when used with bbPress. If you have a plugin installed that adds 3rd party buttons to the editor, this option should not be enabled as these buttons will likely not be compatible with bbPress.<\/p>\n\n<p>Enabling the media upload button, \"Add Media\", will only enable this button fo",
+                "uid": "8247"
+            }
+        }
+    }
+}

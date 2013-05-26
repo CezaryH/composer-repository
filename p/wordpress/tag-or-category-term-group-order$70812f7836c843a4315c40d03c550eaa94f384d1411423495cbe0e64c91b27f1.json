@@ -1,0 +1,40 @@
+{
+    "packages": {
+        "wordpress\/tag-or-category-term-group-order": {
+            "0.2.1": {
+                "name": "wordpress\/tag-or-category-term-group-order",
+                "version": "0.2.1",
+                "version_normalized": "0.2.1.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/tag-or-category-term-group-order.0.2.1.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>This plugin is intended as an aid to theme and plugin developers. It changes the term_group field value in a core WordPress database table<\/p>\n\n<p>($wpdb-&#62;terms). So, please be aware of the risks involved and always back up your site before activating a new plugin.<\/p>\n\n<p>The purpose of the plugin is to allow sorting of tags or categories based on 'term_group'. This allows queries that<\/p>\n\n<p>fetch terms to use 'term_group' as a sort order.<\/p>\n\n<p>This can be used to display tags or categories in a semantic way in archives and individual posts.<\/p>\n\n<p>For example,<\/p>\n\n<p>If we have three groups of categories for size, color and object, then categories displayed as<\/p>\n\n<p>Small, Green, Table<\/p>\n\n<p>Big, Blue, Chair<\/p>\n\n<p>are more readable than<\/p>\n\n<p>Table, small, green<\/p>\n\n<p>Chair, big, blue<\/p>",
+                "uid": "43060"
+            },
+            "2": {
+                "name": "wordpress\/tag-or-category-term-group-order",
+                "version": "2",
+                "version_normalized": "2.0.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/tag-or-category-term-group-order.2.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>This plugin is intended as an aid to theme and plugin developers. It changes the term_group field value in a core WordPress database table<\/p>\n\n<p>($wpdb-&#62;terms). So, please be aware of the risks involved and always back up your site before activating a new plugin.<\/p>\n\n<p>The purpose of the plugin is to allow sorting of tags or categories based on 'term_group'. This allows queries that<\/p>\n\n<p>fetch terms to use 'term_group' as a sort order.<\/p>\n\n<p>This can be used to display tags or categories in a semantic way in archives and individual posts.<\/p>\n\n<p>For example,<\/p>\n\n<p>If we have three groups of categories for size, color and object, then categories displayed as<\/p>\n\n<p>Small, Green, Table<\/p>\n\n<p>Big, Blue, Chair<\/p>\n\n<p>are more readable than<\/p>\n\n<p>Table, small, green<\/p>\n\n<p>Chair, big, blue<\/p>",
+                "uid": "43061"
+            }
+        }
+    }
+}

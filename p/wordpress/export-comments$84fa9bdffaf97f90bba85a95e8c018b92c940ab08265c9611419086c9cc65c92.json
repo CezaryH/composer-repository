@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/export-comments": {
+            "1.1": {
+                "name": "wordpress\/export-comments",
+                "version": "1.1",
+                "version_normalized": "1.1.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/export-comments.1.1.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>Export comments from your WordPress database to analyze or share. One day, I needed to send some comments to akismet, the comment spam plugin. This plugin is what I created to make that quick and easy to do.<\/p>\n\n<p>Activate the plugin and visit the \"Export comments\" page under Settings. Choose what type of comments you wish to export and click the Export comments button.<\/p>\n\n<p>The current export is tab-delimited with database name column labels. The use of the tab and line break characters as delimiters means any tab and line break characters in the comment table contents are being removed.<\/p>",
+                "uid": "54303"
+            }
+        }
+    }
+}

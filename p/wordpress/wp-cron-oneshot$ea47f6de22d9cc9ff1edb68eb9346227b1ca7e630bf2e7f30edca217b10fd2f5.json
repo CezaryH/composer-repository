@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/wp-cron-oneshot": {
+            "1.0.1": {
+                "name": "wordpress\/wp-cron-oneshot",
+                "version": "1.0.1",
+                "version_normalized": "1.0.1.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/wp-cron-oneshot.1.0.1.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>When activated, the WP-Cron Oneshot plugin will add a single \"do nothing\" task\nto wp-cron. This task will be scheduled to run immediately.<\/p>\n\n<p>The task that gets added to wp-cron literally does nothing at all. It simply\nplaces something in the wp-cron queue so you can trigger a wp-cron run.<\/p>\n\n<p>This can be useful for troubleshooting problems such as \"Access Denied\" errors in your Apache logs\nwhenever wp-cron tries to run.  If your XML-Sitemaps never seem to build\nautomatically or your posts won't post at the scheduled time, it could be that\nthe wp-cron job isn't running.<\/p>\n\n<p>Once the task has finished, you can either leave the plugin activated or simply\ndeactivate it.<\/p>\n\n<p>If you ever need another task, just activate the plugin again.<\/p>\n\n<p>For more information, see the <a href=\"http:\/\/www.webprogrammingblog.com\/wordpress-wp-cron-oneshot-plugin\/\">WP-Cron Oneshot WordPress Plugin Homepage<\/a>.<\/p>",
+                "uid": "56846"
+            }
+        }
+    }
+}

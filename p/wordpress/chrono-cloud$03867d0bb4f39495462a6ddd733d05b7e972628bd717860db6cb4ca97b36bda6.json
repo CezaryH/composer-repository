@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/chrono-cloud": {
+            "1.0": {
+                "name": "wordpress\/chrono-cloud",
+                "version": "1.0",
+                "version_normalized": "1.0.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/chrono-cloud.1.0.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>With Chrono Cloud you will be able to add a third cloud to your archives page: A cloud based on time.<\/p>\n\n<p>Just as categories can be viewed as a tag cloud through the use if the <code>taxonomy=category<\/code> argument to\nthe <code>wp_tag_cloud<\/code> function, this plugin provides a similar functionality, displaying each month with posts as\na tag in a cloud.<\/p>\n\n<p>Example usage in e.g. <code>archives.php<\/code>:<\/p>\n\n<pre><code>&#60;?php chrono_cloud_echo(); ?&#62;\n<\/code><\/pre>",
+                "uid": "85680"
+            }
+        }
+    }
+}

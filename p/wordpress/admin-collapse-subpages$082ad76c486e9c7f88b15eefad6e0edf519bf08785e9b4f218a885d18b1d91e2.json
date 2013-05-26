@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/admin-collapse-subpages": {
+            "1.0": {
+                "name": "wordpress\/admin-collapse-subpages",
+                "version": "1.0",
+                "version_normalized": "1.0.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/admin-collapse-subpages.1.0.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>Simple plugin that allows you to collapse subpages in the Pages admin list. Especially helpful if you have a ton of pages. It uses a cookie to save the expand\/collapse status of your pages.<\/p>\n\n<p>This is loosely based on Collapse Sub-Pages by Dan Dietz (<a href=\"http:\/\/wordpress.org\/extend\/plugins\/collapse-sub-pages\/\" rel=\"nofollow\">http:\/\/wordpress.org\/extend\/plugins\/collapse-sub-pages\/<\/a>), which broke with the 3.0 upgrade due to UI changes and hasn't been updated. I've had to rewrite the jQuery to make it work with 3.x versions.<\/p>\n\n<p>Because this is a jQuery, it's possible that they could make additional changes that would break it. I'll do my best to stay on top of it, but let me know if it stops working.<\/p>",
+                "uid": "39687"
+            }
+        }
+    }
+}

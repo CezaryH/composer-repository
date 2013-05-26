@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/noautop": {
+            "1.0": {
+                "name": "wordpress\/noautop",
+                "version": "1.0",
+                "version_normalized": "1.0.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/noautop.1.0.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>Adds the function \"the_content_noautop\" which doesn't include a paragraph tag automatically with the post content.<\/p>\n\n<p>Use the_content_noautop(); instead of the_content(); in the loop when you don't want an automatic paragraph tag in your blog. This could be useful in many advanced formatting situations.<\/p>",
+                "uid": "78401"
+            }
+        }
+    }
+}

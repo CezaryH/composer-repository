@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/kvs-flv-player": {
+            "1.1": {
+                "name": "wordpress\/kvs-flv-player",
+                "version": "1.1",
+                "version_normalized": "1.1.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/kvs-flv-player.1.1.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>The KVS FLV Player plugin (developed by <a href=\"http:\/\/www.cyberseo.net\/\" title=\"CyberSEO.net\">CyberSEO.net<\/a>) allows one to easily embed videos (FLV, F4V and MP4 files) into WordPress blogs using the universal FLV tag style:<\/p>\n\n<pre><code>    [flv:url image width height link player]\n<\/code><\/pre>\n\n<p>where:<\/p>\n\n<ul>\n<li>url - URL of the video file you want to embed;<\/li>\n<li>image - URL of a preview image (shown in display and playlist). The preview image must be stored on local host as it's required by KVS Player;<\/li>\n<li>width - width of an video (default: 450);<\/li>\n<li>height - height of an video (default: 317);<\/li>\n<li>link - URL to an external page the display, controlbar and playlist can link to (default: #);<\/li>\n<li>player - URL to FLV player (default: \/wp-content\/plugins\/kvs-flv-player\/kt_player.swf).<\/li>\n<\/ul>\n\n<p>The plugin uses the freeware KVS Player 2.4 by <a href=\"http:\/\/www.kernel-video-sharing.com\/en\/player\/\" title=\"Kernel Team\">Kernel Team<\/a>.<\/p>",
+                "uid": "29695"
+            }
+        }
+    }
+}

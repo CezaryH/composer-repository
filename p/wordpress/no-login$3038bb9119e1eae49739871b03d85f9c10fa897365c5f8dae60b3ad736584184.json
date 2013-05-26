@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/no-login": {
+            "1.0.1": {
+                "name": "wordpress\/no-login",
+                "version": "1.0.1",
+                "version_normalized": "1.0.1.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/no-login.1.0.1.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>Skip the login form: every visitor automatically auths as an admin. FOR 'LOCALHOST' TEST SITES only, obviously, like when designing a plugin or a theme and testing it across various browsers.<\/p>\n\n<p>For a hassle free integration, drop the plugin file into <code>wp-content\/mu-plugins<\/code> (create the directory if needed) and it will be automatically activated.<\/p>\n\n<p>For live blogs, see <a href=\"http:\/\/wordpress.org\/extend\/plugins\/always-remember-me\/\">Always Remember Me<\/a><\/p>",
+                "uid": "97461"
+            }
+        }
+    }
+}

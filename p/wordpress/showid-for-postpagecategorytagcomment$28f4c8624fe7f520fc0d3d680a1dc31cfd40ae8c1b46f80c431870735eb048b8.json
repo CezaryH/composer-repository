@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/showid-for-postpagecategorytagcomment": {
+            "2.0": {
+                "name": "wordpress\/showid-for-postpagecategorytagcomment",
+                "version": "2.0",
+                "version_normalized": "2.0.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/showid-for-postpagecategorytagcomment.2.0.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>This plugin shows post\/page\/category\/tag\/comment\/media\/user IDs on admin's edit post\/page\/category\/tag\/comment\/media\/user pages. You can see the ID when you visit an edit post\/page\/category\/tag\/comment\/media\/user page. This plugin requires WP2.9 or later.<\/p>\n\n<p>Since this plugin hooks on 'edit' link, only users with priviledges can see IDs. For example, a user of author role can see post IDs, while a user of subscriber role cannot.<\/p>",
+                "uid": "73989"
+            }
+        }
+    }
+}

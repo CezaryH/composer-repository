@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/sk-wp-settings-backup": {
+            "1.0": {
+                "name": "wordpress\/sk-wp-settings-backup",
+                "version": "1.0",
+                "version_normalized": "1.0.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/sk-wp-settings-backup.1.0.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>This plugin extends the tool panel adding the possibility to import and export plugin options and settings.<\/p>\n\n<p>This plugin will export\/import only the options, it won't create tables nor activation hooks, ask the author of the plugin you want to use it for if you're not sure.<\/p>",
+                "uid": "76969"
+            }
+        }
+    }
+}

@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/stop-junk": {
+            "1.0": {
+                "name": "wordpress\/stop-junk",
+                "version": "1.0",
+                "version_normalized": "1.0.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/stop-junk.1.0.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>Stops spam on comments box. User needs to enter result of a simple math problem in a text box before posting a comment. User will only be prompted if not logged in. It's a simple to use plugin that won't leave your user frustrated when trying to post. <a href=\"http:\/\/stopjunk.megatag.me\">Try the demo here.<\/a><\/p>",
+                "uid": "25715"
+            }
+        }
+    }
+}

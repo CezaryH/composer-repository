@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/template-modules": {
+            "1.0": {
+                "name": "wordpress\/template-modules",
+                "version": "1.0",
+                "version_normalized": "1.0.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/template-modules.1.0.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>This is a plugin based implementation of Daryl Koopersmith's modular themes concept and patch \n(<a href=\"http:\/\/core.trac.wordpress.org\/ticket\/12877\">#12877<\/a>).  It provides the <code>get_template_module()<\/code> function, which allows for the creation \nof well-architected themes with highly reusable code.  For more on the use of this function, \nread Daryl's series of posts:<\/p>\n\n<ul>\n<li><a href=\"http:\/\/drylk.com\/2010\/04\/06\/modular-themes-why\/\">Modular Themes, Part 1: Why?<\/a><\/li>\n<li><a href=\"http:\/\/drylk.com\/2010\/04\/06\/modular-themes-organization\/\">Modular Themes, Part 2: Theme Organization<\/a><\/li>\n<li><a href=\"http:\/\/drylk.com\/2010\/04\/06\/modular-themes-performance\/\">Modular Themes, Performance<\/a><\/li>\n<\/ul>\n\n<p>If you like this method of WordPress theme design, then vote up ticket <a href=\"http:\/\/core.trac.wordpress.org\/ticket\/12877\">#12877<\/a>.  The ideal \nscenario is for this functionality to be provided in WordPress core.  This plugin is simply a proof \nof concept, and p",
+                "uid": "59806"
+            }
+        }
+    }
+}

@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/wp-rafflecopter": {
+            "1.0.0": {
+                "name": "wordpress\/wp-rafflecopter",
+                "version": "1.0.0",
+                "version_normalized": "1.0.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/wp-rafflecopter.1.0.0.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>\"WP-Rafflecopter\" erm&#246;glicht es, via Shortcode ein <a href=\"http:\/\/www.rafflecopter.com\" title=\"Rafflecopter\">Rafflecopter<\/a>-Widget in Artkeln und Seiten einzubinden.<\/p>\n\n<h4>Einbindung<\/h4>\n\n<p>Die Einbindung erfolgt via Shortcode mittels Button im WYSIWYG-Editor, dabei wird lediglich die ID des Giveaway ben&#246;tigt. Diese findet ihr in euren Rafflecopter-Giveaway-Optionen im HTML-Code:<\/p>\n\n<p>Beispiel: &#60;a id=\"rc-xy0a123\" href=\"http:\/\/www.rafflecopter.com\/rafl\/display\/xy0a123\/\" rel=\"nofollow\"&#62;a Rafflecopter giveaway&#60;\/a&#62;<\/p>\n\n<p>In diesem Falle w&#228;re die ID xy0a123, folglich lautet der Shortcode wie folgt:<\/p>\n\n<p>[rafflecopter xy0a123]<\/p>\n\n<h4>Systemanforderungen<\/h4>\n\n<ul>\n<li>PHP ab 5.2.4<\/li>\n<li>WordPress ab 3.4<\/li>\n<\/ul>\n\n<h4>Autor<\/h4>\n\n<ul>\n<li><a href=\"http:\/\/www.blogtogo.de\" title=\"blogtogo.de\">blogtogo.de<\/a><\/li>\n<li><a href=\"http:\/\/www.hirngedoens.de\" title=\"hirngedoens.de\">hirngedoens.de<\/a><\/li>\n<li><a href=\"http:\/\/www.der-s.com\" title",
+                "uid": "10652"
+            }
+        }
+    }
+}

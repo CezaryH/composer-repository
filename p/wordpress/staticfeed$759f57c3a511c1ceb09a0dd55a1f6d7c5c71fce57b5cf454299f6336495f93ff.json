@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/staticfeed": {
+            "2.0": {
+                "name": "wordpress\/staticfeed",
+                "version": "2.0",
+                "version_normalized": "2.0.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/staticfeed.2.0.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>Improve the performance of your site by serving your feeds as static (XML) files.<\/p>\n\n<h4>WARNING<\/h4>\n\n<p>If you are not confident with creating\/editing files or changing file permissions on your web server, this plugin may not be for you.<\/p>\n\n<h4>Advantages<\/h4>\n\n<ul>\n<li>Reduces server processing load (reduces PHP and MySQL processing)<\/li>\n<li>Increases server response time (server promptly returns the feed, no need to wait for PHP or MySQL)<\/li>\n<li>Faster downloads (presuming you have compression configured on your web server)<\/li>\n<li>Improves uptime (static files can continue to be served even if PHP or MySQL are offline)<\/li>\n<\/ul>\n\n<h4>Supported Feeds<\/h4>\n\n<p>The Static Feed plugin can be used for any of the standard WordPress feeds as well as other feeds added by plugins such as <a href=\"http:\/\/wordpress.org\/extend\/plugins\/powerpress\/\">Blubrry PowerPress<\/a>.<\/p>\n\n<p>Here's a brief list:<\/p>\n\n<ul>\n<li>RSS2 (default) Feed (example.com\/feed\/)<\/li>\n<li>RSS 0.92 Feed (exam",
+                "uid": "73416"
+            }
+        }
+    }
+}

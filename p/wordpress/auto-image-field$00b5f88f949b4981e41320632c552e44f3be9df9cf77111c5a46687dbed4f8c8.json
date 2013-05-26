@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/auto-image-field": {
+            "1.0": {
+                "name": "wordpress\/auto-image-field",
+                "version": "1.0",
+                "version_normalized": "1.0.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/auto-image-field.1.0.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>This plugin allows you to create custom fields to manage image custom fields easily from the administration screen.<\/p>\n\n<p>This plugin is based on the fantastic plugin <a href=\"http:\/\/wordpress.org\/extend\/plugins\/nkmimagefield\/\">NKMImageField from Naomi Millman<\/a>. \nAnyway neither this or any other did what I was lookingfor: Let me attach images from the media library in custom fields easily.<\/p>\n\n<p>So I created this plugin to allow me to do that and a little more:<\/p>\n\n<pre><code>* Allows create, edit or delete custom fields from the administration \n  of the following values wordpress:\n      o Field Name.\n      o Field description.\n      o Default value of this field.\n* On screen editing of messages can add the images from the multimedia library.\n<\/code><\/pre>\n\n<p>The plugin will try not to leave the field empty,if the field isn't filled will try to find the first image post. However in  case that none image is found will take the default value.<\/p>",
+                "uid": "75231"
+            }
+        }
+    }
+}

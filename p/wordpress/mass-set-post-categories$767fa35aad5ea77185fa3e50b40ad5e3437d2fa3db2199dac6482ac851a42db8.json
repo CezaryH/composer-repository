@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/mass-set-post-categories": {
+            "0.1": {
+                "name": "wordpress\/mass-set-post-categories",
+                "version": "0.1",
+                "version_normalized": "0.1.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/mass-set-post-categories.0.1.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>This plugin lists all your posts and displays checkboxes for all your currently registered categories.  You can check or uncheck categories and then hit any one of the submit buttons and your posts will be put into the categories you've chosen<\/p>\n\n<ul>\n<li>I've used this for 200 posts.  I dont really know what will happen if you try to change 2000 posts at a time.<\/li>\n<li>I am going to try to implement a paging feature so that huge post lists wont crash anything.<\/li>\n<li>The compatability i've listed simply means it's what i've used it on.  This will probly work on any &#62;3 wp version.<\/li>\n<li>If it works for you, please click 'works' on the right over there.  If it doesnt, start a thread on the support tab :)<\/li>\n<\/ul>",
+                "uid": "24682"
+            }
+        }
+    }
+}

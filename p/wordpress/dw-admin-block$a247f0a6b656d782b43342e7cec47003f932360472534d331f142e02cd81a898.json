@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/dw-admin-block": {
+            "1.0": {
+                "name": "wordpress\/dw-admin-block",
+                "version": "1.0",
+                "version_normalized": "1.0.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/dw-admin-block.1.0.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>DW Admin Block is a small plugin that denies access to the WordPress admin interface based on a users capability. The default is only to allow access to admins and editors but the capability can be set manualy by the user by editing the config file.<\/p>\n\n<p>Block access to the admin interface based on user capability. The default is only editors and admins are allowed access, but the required capability can be set by editing the plugin file.<\/p>\n\n<p>You can change the configuration of the plugin by modifying the file itself. The two config variables are on lines 24 and 31.<\/p>",
+                "uid": "40152"
+            }
+        }
+    }
+}

@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/github-code-viewer-2": {
+            "2.0": {
+                "name": "wordpress\/github-code-viewer-2",
+                "version": "2.0",
+                "version_normalized": "2.0.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/github-code-viewer-2.2.0.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>GitHub Code Viewer 2 automatically  pulls a file from github and places into any post using a shortcode [github_cv url='$url']\nCaches locally (in db), so there isn't a performance hit.\nHeavily Modified from original plugin by Matt Curry (<a href=\"http:\/\/www.pseudocoder.com\" rel=\"nofollow\">http:\/\/www.pseudocoder.com<\/a>)<\/p>",
+                "uid": "56794"
+            }
+        }
+    }
+}

@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/wp-opensearch": {
+            "1.0": {
+                "name": "wordpress\/wp-opensearch",
+                "version": "1.0",
+                "version_normalized": "1.0.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/wp-opensearch.1.0.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>Add OpenSearch standard support for search clients to your website implementing \nthe <a href=\"http:\/\/www.opensearch.org\/Specifications\/OpenSearch\/1.1\">OpenSearch Specification 1.1<\/a>.<\/p>\n\n<p>This plugin also adds optional support for search engine word suggestions, \nretrieved from the tags used in your website.<\/p>\n\n<p>The autodiscovery feature embeds a link to the OpenSearch Description (OSD) \ninto the head code of your website, allowing the automatic detection for the \nclients that implement the same standard (e.g. Mozilla Firefox search bar).<\/p>",
+                "uid": "56804"
+            }
+        }
+    }
+}

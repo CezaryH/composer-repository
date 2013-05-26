@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/slides": {
+            "1.0.0": {
+                "name": "wordpress\/slides",
+                "version": "1.0.0",
+                "version_normalized": "1.0.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/slides.1.0.0.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>Slides is a slideshow plugin for jQuery that is built with simplicity in mind. Packed with a useful set of features to help novice and advanced developers alike create elegant and user-friendly slideshows. It can be used within articles as well as theme files. It does not modify any other images or galleries.<\/p>\n\n<p>Release Page: <a href=\"http:\/\/www.priteshgupta.com\/plugins\/slides\">Slides Plugin Homepage<\/a>\nLive Demo: <a href=\"http:\/\/testwp.priteshgupta.com\/slides-wordpress-plugin\/\">Slides Demonstration<\/a><\/p>\n\n<p><strong>Only standard version is included in the current release.<\/strong><\/p>\n\n<p>After installing the plugin just write something like:<\/p>\n\n<pre><code>[slides]\n[slidesslide linkurl=&#34;LinkURL&#34; linktitle=&#34;LinkTitle&#34; imgurl=&#34;FullPathOfImage&#34; imgalt=&#34;ImgAlt&#34;]\n[\/slides]<\/code><\/pre>\n\n<p>Where <code>[slides]<\/code> and <code>[\/slides]<\/code> are the beginning and ending of Slides slider respectively, keep on adding as many <code>[slidesslide ",
+                "uid": "26563"
+            }
+        }
+    }
+}

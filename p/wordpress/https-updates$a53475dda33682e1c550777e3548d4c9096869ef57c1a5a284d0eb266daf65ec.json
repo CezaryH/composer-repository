@@ -1,0 +1,57 @@
+{
+    "packages": {
+        "wordpress\/https-updates": {
+            "1.0": {
+                "name": "wordpress\/https-updates",
+                "version": "1.0",
+                "version_normalized": "1.0.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/https-updates.1.0.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>WordPress performs update checks without verifying the information came from wordpress.org, which leaves the update information vulnerable to being modified by a man-in-the-middle attack. Update downloads are also insecure because the downloaded file is not checked to verify that it has not been modified from the version on wordpress.org. This plugin reduces the chance of a successful man-in-the-middle attack by modifying the update process so that update checks and update downloads are performed using a HTTPS connection to wordpress.org. This process is still vulnerable to improper HTTPS handling on the server hosting the WordPress installation, to the attacker gaining access to a SSL certificate for wordpress.org, or a weakness in the underlying SSL encryption.<\/p>\n\n<p>The plugin also modifies the plugin and theme installation processes to make them use a HTTPS connection.<\/p>\n\n<p>The plugin requires that a proper HTTPS connection can be made on the server hosting the WordPress in",
+                "uid": "29280"
+            },
+            "1.0.1": {
+                "name": "wordpress\/https-updates",
+                "version": "1.0.1",
+                "version_normalized": "1.0.1.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/https-updates.1.0.1.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>WordPress performs update checks without verifying the information came from wordpress.org, which leaves the update information vulnerable to being modified by a man-in-the-middle attack. Update downloads are also insecure because the downloaded file is not checked to verify that it has not been modified from the version on wordpress.org. This plugin reduces the chance of a successful man-in-the-middle attack by modifying the update process so that update checks and update downloads are performed using a HTTPS connection to wordpress.org. This process is still vulnerable to improper HTTPS handling on the server hosting the WordPress installation, to the attacker gaining access to a SSL certificate for wordpress.org, or a weakness in the underlying SSL encryption.<\/p>\n\n<p>The plugin also modifies the plugin and theme installation processes to make them use a HTTPS connection.<\/p>\n\n<p>The plugin requires that a proper HTTPS connection can be made on the server hosting the WordPress in",
+                "uid": "29279"
+            },
+            "1.0.2": {
+                "name": "wordpress\/https-updates",
+                "version": "1.0.2",
+                "version_normalized": "1.0.2.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/https-updates.1.0.2.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>WordPress performs update checks without verifying the information came from wordpress.org, which leaves the update information vulnerable to being modified by a man-in-the-middle attack. Update downloads are also insecure because the downloaded file is not checked to verify that it has not been modified from the version on wordpress.org. This plugin reduces the chance of a successful man-in-the-middle attack by modifying the update process so that update checks and update downloads are performed using a HTTPS connection to wordpress.org. This process is still vulnerable to improper HTTPS handling on the server hosting the WordPress installation, to the attacker gaining access to a SSL certificate for wordpress.org, or a weakness in the underlying SSL encryption.<\/p>\n\n<p>The plugin also modifies the plugin and theme installation processes to make them use a HTTPS connection.<\/p>\n\n<p>The plugin requires that a proper HTTPS connection can be made on the server hosting the WordPress in",
+                "uid": "29278"
+            }
+        }
+    }
+}

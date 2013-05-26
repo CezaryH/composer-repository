@@ -1,0 +1,40 @@
+{
+    "packages": {
+        "wordpress\/post-author-comment-notification": {
+            "1.0": {
+                "name": "wordpress\/post-author-comment-notification",
+                "version": "1.0",
+                "version_normalized": "1.0.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/post-author-comment-notification.1.0.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>Overrides the <code>wp_notify_moderator<\/code> function located in pluggable.php.  By default, wordpress does not notify a comment author of a moderation \nevent.  This plugin will look at all users in the blog, and notify anyone who can moderate the plugin, along with the admins and the author \nof that post.  This has been tested and does work with WPMU as well.<\/p>",
+                "uid": "101227"
+            },
+            "1.1": {
+                "name": "wordpress\/post-author-comment-notification",
+                "version": "1.1",
+                "version_normalized": "1.1.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/post-author-comment-notification.1.1.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>Overrides the <code>wp_notify_moderator<\/code> function located in pluggable.php.  By default, wordpress does not notify a comment author of a moderation \nevent.  This plugin will look at all users in the blog, and notify anyone who can moderate the plugin, along with the admins and the author \nof that post.  This has been tested and does work with WPMU as well.<\/p>",
+                "uid": "101226"
+            }
+        }
+    }
+}

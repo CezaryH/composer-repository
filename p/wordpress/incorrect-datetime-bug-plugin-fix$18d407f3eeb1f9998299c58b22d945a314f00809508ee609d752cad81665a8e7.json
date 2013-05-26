@@ -1,0 +1,40 @@
+{
+    "packages": {
+        "wordpress\/incorrect-datetime-bug-plugin-fix": {
+            "1.0": {
+                "name": "wordpress\/incorrect-datetime-bug-plugin-fix",
+                "version": "1.0",
+                "version_normalized": "1.0.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/incorrect-datetime-bug-plugin-fix.1.0.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>This plugin was create to work around a problem caused by certain configurations in MySQL that lead to several odd symptoms including but not limited to:<\/p>\n\n<ul>\n<li>Loss of ability to create new posts<\/li>\n<li>Loss of ability to update posts<\/li>\n<li>Errors regarding invalid timestamps<\/li>\n<li>Admin interface reverts to lowest permissions ex:&#8216;Publish&#8217; button says &#8216;Submit Draft&#8217;.<\/li>\n<\/ul>\n\n<p>In addition, this problem is often accompanied by an error like the following:<\/p>\n\n<pre><code>WordPress database error: [Incorrect datetime value: &#039;0000-00-00 00:00:00&#039; for column &#039;post_date_gmt&#039; at row 1]\nINSERT INTO &#039;mg_posts&#039; (&#039;post_author&#039;,&#039;post_date&#039;,&#039;post_date_gmt&#039;,&#039;post_content&#039;,&#039;post_content_filtered&#039;,&#039;post_title&#039;,\n&#039;post_excerpt&#039;,&#039;post_status&#039;,&#039;post_type&#039;,&#039;comment_status&#039;,&#039;ping_status&#039;,&#039;post_password&#039;,&#039;po",
+                "uid": "40778"
+            },
+            "1.1": {
+                "name": "wordpress\/incorrect-datetime-bug-plugin-fix",
+                "version": "1.1",
+                "version_normalized": "1.1.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/incorrect-datetime-bug-plugin-fix.1.1.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>This plugin was create to work around a problem caused by certain configurations in MySQL that lead to several odd symptoms including but not limited to:<\/p>\n\n<ul>\n<li>Loss of ability to create new posts<\/li>\n<li>Loss of ability to update posts<\/li>\n<li>Errors regarding invalid timestamps<\/li>\n<li>Admin interface reverts to lowest permissions ex:&#8216;Publish&#8217; button says &#8216;Submit Draft&#8217;.<\/li>\n<\/ul>\n\n<p>In addition, this problem is often accompanied by an error like the following:<\/p>\n\n<pre><code>WordPress database error: [Incorrect datetime value: &#039;0000-00-00 00:00:00&#039; for column &#039;post_date_gmt&#039; at row 1]\nINSERT INTO &#039;mg_posts&#039; (&#039;post_author&#039;,&#039;post_date&#039;,&#039;post_date_gmt&#039;,&#039;post_content&#039;,&#039;post_content_filtered&#039;,&#039;post_title&#039;,\n&#039;post_excerpt&#039;,&#039;post_status&#039;,&#039;post_type&#039;,&#039;comment_status&#039;,&#039;ping_status&#039;,&#039;post_password&#039;,&#039;po",
+                "uid": "40777"
+            }
+        }
+    }
+}

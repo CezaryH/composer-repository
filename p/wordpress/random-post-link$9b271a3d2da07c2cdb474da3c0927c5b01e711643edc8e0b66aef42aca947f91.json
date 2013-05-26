@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/random-post-link": {
+            "1.0.1": {
+                "name": "wordpress\/random-post-link",
+                "version": "1.0.1",
+                "version_normalized": "1.0.1.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/random-post-link.1.0.1.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>Unlike the <a href=\"http:\/\/wordpress.org\/extend\/plugins\/random-redirect\/\">Random Redirect<\/a> plugin, this plugin makes sure that a user will not see the same post twice.<\/p>\n\n<p>It does this by storing a cookie containing a list of single posts that the user has seen. It then checks that list before redirecting.<\/p>\n\n<h4>Usage<\/h4>\n\n<p>Just put this line anywhere in your theme where you want the link to appear.<\/p>\n\n<pre><code>&#60;?php random_post_link(); ?&#62;<\/code><\/pre>\n\n<p>You can specify the text you want on the link like so:<\/p>\n\n<pre><code>&#60;?php random_post_link(&#039;Feeling lucky&#039;); ?&#62;<\/code><\/pre>\n\n<p>Links: <a href=\"http:\/\/scribu.net\/wordpress\/random-post-link\">Plugin News<\/a> &#124; <a href=\"http:\/\/scribu.net\">Author's Site<\/a><\/p>",
+                "uid": "78293"
+            }
+        }
+    }
+}

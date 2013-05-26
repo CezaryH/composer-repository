@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/include-javascript-widget": {
+            "1": {
+                "name": "wordpress\/include-javascript-widget",
+                "version": "1",
+                "version_normalized": "1.0.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/include-javascript-widget.1.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>This is a very simple sidebar widget which places javascript code in the widget. In this plugin, you need to provide the url of the javascript and this plugin will use that js file source.<\/p>\n\n<p>If you want to put any JavaScript code inside the <code>&#60;script&#62;<\/code> tag, then try my <a href=\"http:\/\/wordpress.org\/extend\/plugins\/javascript-block-widget\/\" title=\"JavaScript Block Widget plugin\">JavaScript Block Widget plugin<\/a>.<\/p>\n\n<p>You can also able to add JavaScript codes in text widget in sidebar. So you don't need this plugin.<\/p>",
+                "uid": "90703"
+            }
+        }
+    }
+}

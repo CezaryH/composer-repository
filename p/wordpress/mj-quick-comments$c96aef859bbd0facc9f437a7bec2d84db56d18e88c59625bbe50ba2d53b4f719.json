@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/mj-quick-comments": {
+            "0.1": {
+                "name": "wordpress\/mj-quick-comments",
+                "version": "0.1",
+                "version_normalized": "0.1.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/mj-quick-comments.0.1.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>With this plugin you can add quick comments feature to any post. Just put \"echo mjqc_comment_form( get_the_ID() , 'Post quick comment' )\" , where first parameter is the ID of a post (e.g. within the loop), and the second one is anchor of a link (when click on this link, a form shows to post a quick comment).<\/p>",
+                "uid": "53795"
+            }
+        }
+    }
+}

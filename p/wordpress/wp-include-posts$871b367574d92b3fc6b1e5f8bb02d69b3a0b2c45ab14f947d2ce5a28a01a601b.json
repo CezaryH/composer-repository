@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/wp-include-posts": {
+            "1": {
+                "name": "wordpress\/wp-include-posts",
+                "version": "1",
+                "version_normalized": "1.0.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/wp-include-posts.1.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>This plugin will allow you to include contents of one post into another post by adding the text \n[include id=post_id_of_another_post] into the content of the current post. You can add as many \nof these includes as you'd like.<\/p>",
+                "uid": "41894"
+            }
+        }
+    }
+}

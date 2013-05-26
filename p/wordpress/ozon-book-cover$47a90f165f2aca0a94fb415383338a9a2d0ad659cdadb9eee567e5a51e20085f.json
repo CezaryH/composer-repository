@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/ozon-book-cover": {
+            "0.02": {
+                "name": "wordpress\/ozon-book-cover",
+                "version": "0.02",
+                "version_normalized": "0.02.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/ozon-book-cover.0.02.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>Special plugin for Russian book lovers. \nIt takes meta parameter <code>ozon_book_id<\/code> from post and when you save, the plugin get book cover picture from Ozon.ru. \nYour post is updated. So you don't need to fix neither your feed, nor cross-posting.<\/p>",
+                "uid": "88356"
+            }
+        }
+    }
+}

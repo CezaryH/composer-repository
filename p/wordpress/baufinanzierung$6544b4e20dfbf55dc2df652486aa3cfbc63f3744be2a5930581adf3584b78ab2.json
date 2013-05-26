@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/baufinanzierung": {
+            "1": {
+                "name": "wordpress\/baufinanzierung",
+                "version": "1",
+                "version_normalized": "1.0.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/baufinanzierung.1.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>Dieses Widget liest die aktuellen Baufinanzierungs-Zinskonditionen (effektiv und nominal) &#252;ber eine XML-Schnittstelle von der Webseite Interhyp.de und gibt diese in einer Tabelle aus.<\/p>",
+                "uid": "77090"
+            }
+        }
+    }
+}

@@ -1,0 +1,40 @@
+{
+    "packages": {
+        "wordpress\/wp-posts-filter": {
+            "0.1": {
+                "name": "wordpress\/wp-posts-filter",
+                "version": "0.1",
+                "version_normalized": "0.1.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/wp-posts-filter.0.1.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>This plugin filters posts by tags and\/or categories. It allows to filter posts for the main page as well as for a particular page. You can set up a filter for any page but it&#8217;ll work only if you&#8217;ve placed the shortcode at that page. There is also the possibility to turn off the filter for a particular page not losing the page's filter settings.<\/p>\n\n<h4>The plugin filters posts by three ways:<\/h4>\n\n<ol>\n<li>Category<\/li>\n<li>Tag<\/li>\n<li>both Category and Tag<\/li>\n<\/ol>\n\n<h4>Few notes about the plugin behavior<\/h4>\n\n<ol>\n<li>the plugin outputs post if and only if the post has at least one category that is marked in plugin's settings page,<\/li>\n<li>the plugin outputs post if and only if the post contains at least one tag that is marked in plugin's settings page,<\/li>\n<li>the plugin outputs post \"by category and tag\" if and only if the post has the category <strong>and<\/strong> the tag that are marked in plugin's settings page.<\/li>\n<\/ol>\n\n<p>You can set the number of post",
+                "uid": "29239"
+            },
+            "0.2": {
+                "name": "wordpress\/wp-posts-filter",
+                "version": "0.2",
+                "version_normalized": "0.2.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/wp-posts-filter.0.2.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>This plugin filters posts by tags and\/or categories. It allows to filter posts for the main page as well as for a particular page. You can set up a filter for any page but it&#8217;ll work only if you&#8217;ve placed the shortcode at that page. There is also the possibility to turn off the filter for a particular page not losing the page's filter settings.<\/p>\n\n<h4>The plugin filters posts by three ways:<\/h4>\n\n<ol>\n<li>Category<\/li>\n<li>Tag<\/li>\n<li>both Category and Tag<\/li>\n<\/ol>\n\n<h4>Few notes about the plugin behavior<\/h4>\n\n<ol>\n<li>the plugin outputs post if and only if the post has at least one category that is marked in plugin's settings page,<\/li>\n<li>the plugin outputs post if and only if the post contains at least one tag that is marked in plugin's settings page,<\/li>\n<li>the plugin outputs post \"by category and tag\" if and only if the post has the category <strong>and<\/strong> the tag that are marked in plugin's settings page.<\/li>\n<\/ol>\n\n<p>You can set the number of post",
+                "uid": "29238"
+            }
+        }
+    }
+}

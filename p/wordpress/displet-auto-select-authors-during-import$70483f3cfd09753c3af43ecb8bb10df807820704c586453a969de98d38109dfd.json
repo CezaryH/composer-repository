@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/displet-auto-select-authors-during-import": {
+            "1.0": {
+                "name": "wordpress\/displet-auto-select-authors-during-import",
+                "version": "1.0",
+                "version_normalized": "1.0.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/displet-auto-select-authors-during-import.1.0.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>Ever have to split your very large WP imports into several files, and then have to select each already existing user account from hundreds of authors, one by one during each file's import? I have, but not any more. Activate this plugin before doing your import, and voila - if the user already has an account with the same display name, it will already be chosen for you. This plugin has already saved me hours of work (combined) - no kidding!<\/p>",
+                "uid": "8969"
+            }
+        }
+    }
+}

@@ -1,0 +1,40 @@
+{
+    "packages": {
+        "wordpress\/alpha-cache": {
+            "1.1": {
+                "name": "wordpress\/alpha-cache",
+                "version": "1.1",
+                "version_normalized": "1.1.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/alpha-cache.1.1.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>This plugin cache web requests and store static html code to your database. You \ncan configure what urls do not to cache, witch users don't to cache and ect. \nAfter first web request plugin creates a cache of this requested webpage, and \non second request your webserver will serve html code stored in database cache \ntable instead of processing the comparatively heavier and more expensive WordPress \nPHP scripts.<\/p>\n\n<p>It has many options to drive caching process.<\/p>\n\n<p><strong>You can:<\/strong><\/p>\n\n<ul>\n<li>... define filter by regular expressions pattern to exclude \nnecessary urls from cache.<\/li>\n<li>... fill user's list to define who will not cached.<\/li>\n<li>... set flag to process POST request without caching.<\/li>\n<li>... enable cache only for anonymous users<\/li>\n<li>... set force cleaning necessary cached pages on page\/comment updating.<\/li>\n<\/ul>\n\n<p>and etc.<\/p>",
+                "uid": "18730"
+            },
+            "1.1.00": {
+                "name": "wordpress\/alpha-cache",
+                "version": "1.1.00",
+                "version_normalized": "1.1.00.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/alpha-cache.1.1.002.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>This plugin cache web requests and store static html code to your database. You \ncan configure what urls do not to cache, witch users don't to cache and ect. \nAfter first web request plugin creates a cache of this requested webpage, and \non second request your webserver will serve html code stored in database cache \ntable instead of processing the comparatively heavier and more expensive WordPress \nPHP scripts.<\/p>\n\n<p>It has many options to drive caching process.<\/p>\n\n<p><strong>You can:<\/strong><\/p>\n\n<ul>\n<li>... define filter by regular expressions pattern to exclude \nnecessary urls from cache.<\/li>\n<li>... fill user's list to define who will not cached.<\/li>\n<li>... set flag to process POST request without caching.<\/li>\n<li>... enable cache only for anonymous users<\/li>\n<li>... set force cleaning necessary cached pages on page\/comment updating.<\/li>\n<\/ul>\n\n<p>and etc.<\/p>",
+                "uid": "18729"
+            }
+        }
+    }
+}

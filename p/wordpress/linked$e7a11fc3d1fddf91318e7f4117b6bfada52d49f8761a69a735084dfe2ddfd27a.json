@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/linked": {
+            "1.0": {
+                "name": "wordpress\/linked",
+                "version": "1.0",
+                "version_normalized": "1.0.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/linked.1.0.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>This plugin will allow you to automatically link to emails, urls, Post\/Page titles, Category titles and any other keywords you setup.  Each of these options are completely configurable and you can disable any one of them at a time.<\/p>",
+                "uid": "105095"
+            }
+        }
+    }
+}

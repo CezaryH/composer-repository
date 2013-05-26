@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/gallery2-image-block-widget": {
+            "0.1.5": {
+                "name": "wordpress\/gallery2-image-block-widget",
+                "version": "0.1.5",
+                "version_normalized": "0.1.5.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/gallery2-image-block-widget.0.1.5.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>If you use Gallery2 in an external (non WPG2) installation, you may want to display images using the Gallery2 Image Block module.  If so, this is the widget for you.  Options described in the <a href=\"http:\/\/codex.gallery2.org\/Gallery2:Modules:imageblock\">Gallery 2 Image Block<\/a> documentation are included, but not all have been tested.  Your mileage may vary.<\/p>\n\n<p>User configuration of Image Block options is available through the Widget configuration panel.  Blank (empty) options use the Gallery2 defaults.<\/p>\n\n<p><em>Note:<\/em> The widget is written using <a href=\"http:\/\/www.php.net\/curl\">lib_curl()<\/a> to avoid url_fopen issues.<\/p>\n\n<p>For more information, see the <a href=\"http:\/\/www.theschierers.net\/blog\/g2-imageblock-plugin\">plugin page<\/a>.<\/p>",
+                "uid": "99041"
+            }
+        }
+    }
+}

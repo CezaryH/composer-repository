@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/phamlp-for-wordpress": {
+            "0.1": {
+                "name": "wordpress\/phamlp-for-wordpress",
+                "version": "0.1",
+                "version_normalized": "0.1.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/phamlp-for-wordpress.0.1.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>PHAMLP for WordPress enables theme creation using the HAML template system. HAML replaces the tag soup of most HTML\/PHP templates with a cleaner, hierarchical markup language.<\/p>\n\n<p>Any plain HTML\/PHP theme will work while PHAMLP for WordPress is enabled. But the individual templates that make up a WordPress theme, from index.php to author.php, can be replaced with a corresponding .haml.php file and PHAMLP for WordPress will process them.<\/p>\n\n<h4>HAML Example<\/h4>\n\n<pre><code>!!! 5\n%html\n  %head\n    %title Welcome to my web site\n  %body\n    #header\n      %h1 Welcome!\n    #content\n      #greeting Hello world!\n    #footer\n      #copyright-notice (c) forever by me!<\/code><\/pre>\n\n<p>A \"TwentyHAMLTen\" example theme will be included in future versions.<\/p>",
+                "uid": "52620"
+            }
+        }
+    }
+}

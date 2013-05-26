@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/excerpt-old-posts": {
+            "1.0": {
+                "name": "wordpress\/excerpt-old-posts",
+                "version": "1.0",
+                "version_normalized": "1.0.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/excerpt-old-posts.1.0.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>WordPress feeds offer a choice between Full Text or Summary. The Full Text option is preferable in a lot of cases (e.g. for a podcast), but the feed can grow very large.<\/p>\n\n<p>One problem with a large feed is that if can exceed the <a href=\"http:\/\/support.google.com\/feedburner\/bin\/answer.py?hl=en&#38;answer=79009\">Feedburner 512K limit<\/a>. Your feed may be valid when you first set it up, but eventually when your feed gets big enough, Feedburner will stop updating.<\/p>\n\n<p>This plugin gives you another setting (available on your Settings \/ Reading admin page) which sets how many posts should have Full Text. All posts after that will be shown as Summary. This gives you the best of both options - Full Text for new posts, and Summary for older posts.&#160;<\/p>",
+                "uid": "32774"
+            }
+        }
+    }
+}

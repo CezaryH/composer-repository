@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/generic-parent-child-custom-post-types": {
+            "1.0": {
+                "name": "wordpress\/generic-parent-child-custom-post-types",
+                "version": "1.0",
+                "version_normalized": "1.0.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/generic-parent-child-custom-post-types.1.0.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>Generic parent child custom post type is simply a plugin that gives an example of how to create two custom post types where one is the parent and you can assign any number child posts to it.<\/p>\n\n<p>The two post types are called Parents and Children. As an example you could call them Car Dealership and Cars and assign a bunch of cars to a dealership.<\/p>\n\n<p>There is an example template file included which displays the parent post as well as a list of all the children posts assigned to it.<\/p>\n\n<p>It's really more of a starting point but it does work.<\/p>\n\n<p>Requires WordPress 3.0 and PHP 5.<\/p>",
+                "uid": "30768"
+            }
+        }
+    }
+}

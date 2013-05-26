@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/check-last-login": {
+            "0.6": {
+                "name": "wordpress\/check-last-login",
+                "version": "0.6",
+                "version_normalized": "0.6.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/check-last-login.0.6.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>This plugin adds registration date and last login date columns on the \"Users\" page.\nIt also checks whether user logs in within 30 days after the registration if he does not his account is deleted - this option is disabled by default, you can change this settings on Check Last Login Settings page in Settings menu.<\/p>\n\n<p>WARNING! The plugin is not updating the login time when logging through stored login cookies.<\/p>\n\n<p><strong>I am open to suggestions to improve the plugin !<\/strong><\/p>",
+                "uid": "59243"
+            }
+        }
+    }
+}

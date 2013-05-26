@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/notify-on-draft-post": {
+            "1.0.1": {
+                "name": "wordpress\/notify-on-draft-post",
+                "version": "1.0.1",
+                "version_normalized": "1.0.1.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/notify-on-draft-post.1.0.1.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>Alerts WordPress moderator of impending post for review.  Allows poster (e.g. Contributor role) to decide when a draft is ready with a simple checkbox.  <em>No options<\/em><\/p>",
+                "uid": "111928"
+            }
+        }
+    }
+}

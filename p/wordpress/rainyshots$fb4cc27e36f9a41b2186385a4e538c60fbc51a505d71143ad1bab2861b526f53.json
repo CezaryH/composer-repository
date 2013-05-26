@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/rainyshots": {
+            "1.0": {
+                "name": "wordpress\/rainyshots",
+                "version": "1.0",
+                "version_normalized": "1.0.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/rainyshots.1.0.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>This plugin adds a function <code>rs_shots()<\/code> to Wordpress that returns an array of the 15 latest Dribbble shots by a player. The return type of the function is <a href=\"http:\/\/php.net\/manual\/en\/function.json-decode.php\">JSON in appropriate PHP type<\/a>.<\/p>\n\n<p>The plugin adds an admin screen under Settings &#62; RainyShots that provides a few options such as specifying a player and caching preferences.<\/p>\n\n<p><strong>Features<\/strong><\/p>\n\n<ul>\n<li>Specify the player <\/li>\n<li>Returned shots variable is cached for a day by default; this cache duration may be updated in admin settings<\/li>\n<li>You can manually reset the cache through the admin at any time. This is useful if you post a shot and want it to immediately show up in your template. <\/li>\n<\/ul>\n\n<p>Read more about it on <a href=\"http:\/\/rainypixels.com\/writings\/journal\/rainyshots-a-dribbble-plugin\/\">my blog<\/a>.<\/p>",
+                "uid": "47450"
+            }
+        }
+    }
+}

@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/embeditor": {
+            "1.2.2": {
+                "name": "wordpress\/embeditor",
+                "version": "1.2.2",
+                "version_normalized": "1.2.2.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/embeditor.1.2.2.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>This plugin adds embedable code underneath an uploaded image into posts.  Currently it is restricted to image mime types, but functionality may be expanded in the future.<\/p>\n\n<p>Upon upload of the image, the user is provided 4 options.  Embed Heading, Embed Source, Embed Text, and Size.  Embed Heading specifies the embed text that will be displayed in the post.  'Embed Source' is the<\/p>\n\n<p>source URL of the media.  'Embed Text' is the text that will be displayed in the embeded link or caption.<\/p>",
+                "uid": "15812"
+            }
+        }
+    }
+}

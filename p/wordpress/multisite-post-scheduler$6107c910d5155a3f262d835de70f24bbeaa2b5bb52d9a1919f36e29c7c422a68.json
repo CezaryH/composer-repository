@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/multisite-post-scheduler": {
+            "1.0": {
+                "name": "wordpress\/multisite-post-scheduler",
+                "version": "1.0",
+                "version_normalized": "1.0.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/multisite-post-scheduler.1.0.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>The plugin allows to schedule or publish large number of posts at once for wordpress multisite installation. For each post a user can specify title,content,tags,blog,category,author and publish date.<\/p>\n\n<p>Main features:<\/p>\n\n<ul>\n<li>Quickly schedule or publish large number of posts for multiple sites.<\/li>\n<\/ul>",
+                "uid": "39986"
+            }
+        }
+    }
+}

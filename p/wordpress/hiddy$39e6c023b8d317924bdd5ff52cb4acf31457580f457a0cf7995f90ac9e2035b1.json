@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/hiddy": {
+            "1.5.5": {
+                "name": "wordpress\/hiddy",
+                "version": "1.5.5",
+                "version_normalized": "1.5.5.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/hiddy.1.5.5.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>This plugin provides you an easy captcha without javascript, without images, without math. Only a few of CSS and a few of server side.\nAn hidden text input is placed in comment form a human cannot see it so a human cannot compile it, a spambot otherwise see the text input and is forced to compile it.\nThe plugin check the existence of this text input and check if it has a value or not. It drops all comment with a value in the text input as spam.\nReally simple and powerfull antispam system. Low CPU usage and no access to DB.<\/p>",
+                "uid": "37116"
+            }
+        }
+    }
+}

@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/safe-transient-names": {
+            "0.2": {
+                "name": "wordpress\/safe-transient-names",
+                "version": "0.2",
+                "version_normalized": "0.2.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/safe-transient-names.0.2.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>Transient names can sometimes get truncated <a href=\"http:\/\/core.trac.wordpress.org\/ticket\/15058\">without you realising<\/a>.<\/p>\n\n<p>This plugin provides a simple function you can call which will ensure your transient names will always be short enough to avoid being truncated.<\/p>\n\n<p>Usage: <code>&#60;?php $safe_transient_name = get_safe_transient_name( 'your_transient_name_which_might_be_too_long' ); ?&#62;<\/code><\/p>",
+                "uid": "11940"
+            }
+        }
+    }
+}

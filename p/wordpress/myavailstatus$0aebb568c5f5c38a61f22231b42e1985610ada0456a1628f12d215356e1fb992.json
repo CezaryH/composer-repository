@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/myavailstatus": {
+            "0.9.1": {
+                "name": "wordpress\/myavailstatus",
+                "version": "0.9.1",
+                "version_normalized": "0.9.1.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/myavailstatus.0.9.1.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>Using MyAvailStatus you can show your availability status message to your client very easily. Just set the options and use the widget or the code. It is based on MyMood by Webgarb.<\/p>\n\n<p>Please note that this plugin is very basic in the moment. Following weaknesses occur, which have to be taken care of in versions to come and of course in the meantime can be handled by adapting the code in \"myavailstatus_plugin.php\".\n*   No localization possible\n*   No CSS for code implementetion supported\n*   No custom icons supported<\/p>\n\n<p><strong>CSS Guidance<\/strong>\nWidget Container ID: myavailstatus-widget\nWidget Container class: myavailstatus_widget\nIcon class (<code>&#60;img&#62;<\/code>): myavailstatus_wicon\nStatus text class (<code>&#60;p&#62;<\/code>): myavailstatus_wtext\nStatus description classe (<code>&#60;li&#62;<\/code>): myavailstatus_wdesc<\/p>",
+                "uid": "28544"
+            }
+        }
+    }
+}

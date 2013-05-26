@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/mp3-playlist": {
+            "1.0.0": {
+                "name": "wordpress\/mp3-playlist",
+                "version": "1.0.0",
+                "version_normalized": "1.0.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/mp3-playlist.1.0.0.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>Allows you to add a playlist to pages, posts and sidebar. Just create your playlist and paste the shortcode [mp3playlist] where you want to draw it. To add multiple playlists please upgrade to the <a href=\"http:\/\/wordpress.phpanswer.com\/playlist\/\">FULL version<\/a>.<\/p>",
+                "uid": "50000"
+            }
+        }
+    }
+}

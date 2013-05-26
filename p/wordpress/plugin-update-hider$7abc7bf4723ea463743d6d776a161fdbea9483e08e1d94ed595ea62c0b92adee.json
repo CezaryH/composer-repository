@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/plugin-update-hider": {
+            "0.0.4": {
+                "name": "wordpress\/plugin-update-hider",
+                "version": "0.0.4",
+                "version_normalized": "0.0.4.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/plugin-update-hider.0.0.4.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>This plugin allows you to hide plugin update notifications for wordpress plugins that you do not want to update. \n Once this plugin is installed and activated, a link will appear under each plugin with available updates that will allow you to block notifications for that update. Once hidden, a link will appear allowing you to unhide the notifications.<\/p>\n\n<p>This plugin uses Wordpress hooks and filters to hide the notifications.<\/p>",
+                "uid": "29107"
+            }
+        }
+    }
+}

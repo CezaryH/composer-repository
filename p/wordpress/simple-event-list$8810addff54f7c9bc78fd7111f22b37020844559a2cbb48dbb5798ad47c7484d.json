@@ -1,0 +1,40 @@
+{
+    "packages": {
+        "wordpress\/simple-event-list": {
+            "0.1": {
+                "name": "wordpress\/simple-event-list",
+                "version": "0.1",
+                "version_normalized": "0.1.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/simple-event-list.0.1.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>This is a very simple event plugin. Some websites that use Wordpress as a CMS display information about future events. But keeping the list of events current is a pain. So this plugin simple displays a list of all future events.<\/p>\n\n<p>To be listed, an event must have its own post or page. To tell the plugin that the page is an event, you add a custom field (if you can't see custom fields and you're using Wordpress 2.7+, you may need to add it by selecting screen options). Add a custom field with the name event_date and the value YYYY-MM-DD (e.g. 2009-02-03 for 3rd February 2009). Then save the page.<\/p>\n\n<p>To ouput the list of events add the text [events_list] to any post or page. You can see a demo at the <a href=\"http:\/\/www.emw.org.uk\/events\/en\/\">Evangelical Movement of Wales<\/a>.<\/p>\n\n<p>As I said, it's very simple. There are no options to tweak, no settings to change. But if it's what you need, you won't want to change anything!<\/p>",
+                "uid": "94076"
+            },
+            "0.10": {
+                "name": "wordpress\/simple-event-list",
+                "version": "0.10",
+                "version_normalized": "0.10.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/simple-event-list.0.10.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>This is a very simple event plugin. Some websites that use Wordpress as a CMS display information about future events. But keeping the list of events current is a pain. So this plugin simple displays a list of all future events.<\/p>\n\n<p>To be listed, an event must have its own post or page. To tell the plugin that the page is an event, you add a custom field (if you can't see custom fields and you're using Wordpress 2.7+, you may need to add it by selecting screen options). Add a custom field with the name event_date and the value YYYY-MM-DD (e.g. 2009-02-03 for 3rd February 2009). Then save the page.<\/p>\n\n<p>To ouput the list of events add the text [events_list] to any post or page. You can see a demo at the <a href=\"http:\/\/www.emw.org.uk\/events\/en\/\">Evangelical Movement of Wales<\/a>.<\/p>\n\n<p>As I said, it's very simple. There are no options to tweak, no settings to change. But if it's what you need, you won't want to change anything!<\/p>",
+                "uid": "94077"
+            }
+        }
+    }
+}

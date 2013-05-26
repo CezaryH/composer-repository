@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/advanced-rss": {
+            "2.7.3": {
+                "name": "wordpress\/advanced-rss",
+                "version": "2.7.3",
+                "version_normalized": "2.7.3.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/advanced-rss.2.7.3.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>This plugin creates a new RSS widget. You can use this to replace the built in\nRSS widget or along side it. It is substantially more powerful than the built in\nwidget in that you have complete control over how the feed is displayed via XSL\ntemplates. The plugin also includes an admin page for creating, editing and\ndeleting the xsl templates, along with running tests to ensure your environment\nsupports the required features. Additionally some plugin-wide options may be\nconfigured.<\/p>\n\n<h4>Included Templates<\/h4>\n\n<ul>\n<li>Blog<\/li>\n<li>Default - Mimics the built in RSS widget's apperance.<\/li>\n<li>Del.icio.us - List your recent Delicious bookmarks.<\/li>\n<li>Flickr Thumbnails - Thumbnail list from your photostream.<\/li>\n<li>DeviantArt - Thumbnail list of deviations from your gallery, with different\ndisplay options.<\/li>\n<li>Google Groups - List recent posts to a group, with different display options.<\/li>\n<li>Twitter - Posts with users, hashtags and URLs linked. Formatting option for",
+                "uid": "98321"
+            }
+        }
+    }
+}

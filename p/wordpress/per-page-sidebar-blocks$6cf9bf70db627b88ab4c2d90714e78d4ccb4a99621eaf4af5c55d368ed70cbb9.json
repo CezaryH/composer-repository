@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/per-page-sidebar-blocks": {
+            "1.0.3": {
+                "name": "wordpress\/per-page-sidebar-blocks",
+                "version": "1.0.3",
+                "version_normalized": "1.0.3.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/per-page-sidebar-blocks.1.0.3.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<h4>Background and goals of this plugin<\/h4>\n\n<p>Part of offering WordPress as a CMS to my clients involves giving them as much control over the future of their website as possible. One pitfall I experience is offering per-page sidebar customization.<\/p>\n\n<h4>Sidebar templates and conditionals<\/h4>\n\n<p>I find myself creating several sidebar-name.php templates and using conditionals to display them where I want. Functions like is_page(), is_tree(), is_ancestor(), is_single(), etc. let me plan ahead for which sidebars should show on which pages. However, is_page(14) is not an acceptable solution for me, nor does it truly allow customizing sidebar output for pages created in the future outside the scope of my preemptive conditionals.<\/p>\n\n<h4>Page-specific blocks of content in the sidebar<\/h4>\n\n<p>Per Page Sidebar Blocks lets you, the theme developer, create several sidebar templates using WordPress&#8217; naming convention sidebar-name.php.<\/p>\n\n<h4>Automatically finds your sidebar templ",
+                "uid": "30477"
+            }
+        }
+    }
+}

@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/linksextractor": {
+            "0.5": {
+                "name": "wordpress\/linksextractor",
+                "version": "0.5",
+                "version_normalized": "0.5.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/linksextractor.0.5.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>This plugin print all links in a post at the bottom of the post. This is usefull when you would like to have a print version, \nso without this plugin you see on the paper only the underlined link but, you don't know where the link is going to.<\/p>\n\n<p>The linkextractor solv this problem. After installing the plugin it will print out the links at the bottom and also on your printed version.<\/p>",
+                "uid": "89048"
+            }
+        }
+    }
+}

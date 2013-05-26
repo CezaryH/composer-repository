@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/imdbscraper": {
+            "1.0": {
+                "name": "wordpress\/imdbscraper",
+                "version": "1.0",
+                "version_normalized": "1.0.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/imdbscraper.1.0.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>Gives you the list MOVIEmeter that can be found on <a href=\"http:\/\/www.imdb.com\/chart\/\" rel=\"nofollow\">http:\/\/www.imdb.com\/chart\/<\/a>. Contains the most popular movies right now. The plugin cache data and the files is put in the cache map that can be found inside the plugin.<\/p>",
+                "uid": "34877"
+            }
+        }
+    }
+}

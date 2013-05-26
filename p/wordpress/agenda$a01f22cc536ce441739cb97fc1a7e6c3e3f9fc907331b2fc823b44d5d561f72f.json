@@ -1,0 +1,40 @@
+{
+    "packages": {
+        "wordpress\/agenda": {
+            "1.5": {
+                "name": "wordpress\/agenda",
+                "version": "1.5",
+                "version_normalized": "1.5.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/agenda.1.5.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>Now you can create events for your wordpress. Whit this plugin you can create and manipulate events like\nyou do on Google Calendar. Generate events on the fly creating an agenda of events. The agenda suports a realy\ncode for repeat events for your satisfaction.<\/p>\n\n<p>Using <code>the_agenda_loop()<\/code> you generates a $the_event object that have all atributes about the event\nUse it in combination to <code>Agenda::next_events()<\/code> or <code>Agenda::events_on()<\/code><\/p>\n\n<p>You can also use function <code>agenda_compromissos()<\/code>, <code>agenda_list()<\/code> and <code>agenda_events()<\/code> on your templates. These functions\ngenerate html codes to be used on your tamplate.<\/p>",
+                "uid": "99873"
+            },
+            "1.7": {
+                "name": "wordpress\/agenda",
+                "version": "1.7",
+                "version_normalized": "1.7.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/agenda.1.7.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>Now you can create events for your wordpress. Whit this plugin you can create and manipulate events like\nyou do on Google Calendar. Generate events on the fly creating an agenda of events. The agenda suports a realy\ncode for repeat events for your satisfaction.<\/p>\n\n<p>Using <code>the_agenda_loop()<\/code> you generates a $the_event object that have all atributes about the event\nUse it in combination to <code>Agenda::next_events()<\/code> or <code>Agenda::events_on()<\/code><\/p>\n\n<p>You can also use function <code>agenda_compromissos()<\/code>, <code>agenda_list()<\/code> and <code>agenda_events()<\/code> on your templates. These functions\ngenerate html codes to be used on your tamplate.<\/p>",
+                "uid": "99872"
+            }
+        }
+    }
+}

@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/wp-title-tooltips": {
+            "1.2.4": {
+                "name": "wordpress\/wp-title-tooltips",
+                "version": "1.2.4",
+                "version_normalized": "1.2.4.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/wp-title-tooltips.1.2.4.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>Add title tooltips in your wordpress. Upload <code>wp_title_tooltips<\/code> to the <code>\/wp-content\/plugins\/<\/code> directory. Change <code>&#60;?php the_title(); ?&#62;<\/code> to <code>&#60;?php wpttt_the_title(); ?&#62;<\/code>. Place <code>&#60;?php glll_wpttt(); ?&#62;<\/code> in your templates~ For example <code>&#60;h3&#62;&#60;a&#62;\"&#62;&#60;?php wpttt_the_title(); ?&#62;&#60;\/a&#62;&#60;\/h3&#62;&#60;?php glll_wpttt(); ?&#62;<\/code>.<\/p>",
+                "uid": "99605"
+            }
+        }
+    }
+}

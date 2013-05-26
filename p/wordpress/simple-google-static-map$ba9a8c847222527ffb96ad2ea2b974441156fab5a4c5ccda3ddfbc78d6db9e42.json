@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/simple-google-static-map": {
+            "1.0.1": {
+                "name": "wordpress\/simple-google-static-map",
+                "version": "1.0.1",
+                "version_normalized": "1.0.1.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/simple-google-static-map.1.0.1.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<ul>\n<li>This simple plugin allow you to put a simple static google map with a simple shortcode. <\/li>\n<li>A few parameters to setup and you've got it! <\/li>\n<li>Use this example in your content area or widget area: [sgmap w=\"300\" h=\"300\" z=\"14\" addr=\"Granada,Spain\" link=\"true\" divclass=\"mycustomclass\"]<\/li>\n<\/ul>",
+                "uid": "54513"
+            }
+        }
+    }
+}

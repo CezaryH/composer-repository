@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/bpcontents": {
+            "1.0": {
+                "name": "wordpress\/bpcontents",
+                "version": "1.0",
+                "version_normalized": "1.0.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/bpcontents.1.0.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>BuddyPress Contents is a content aggregation and organization tool for BuddyPress. It implements Tags and hierarchical Categories for any type of content. Member, Group and Blog tags and categories are implemented first.<\/p>\n\n<p>Content Types<\/p>\n\n<p>The three content types that bpc currently recognizes are Members, Groups and Blogs. Any type of content can be integrated into bpc however. bpc implements a content neutral 'Item' type that represents the various types of content within the tags and categories.<\/p>\n\n<p>Tags and Categories<\/p>\n\n<p>bpc tags and categories are based on the Wordpress custom taxonomy system. The taxonomy system has been modified to support any content type and arbitrary tag and category target URLs.<\/p>\n\n<p>The Site Admin manages the available categories for Members, Groups and Blogs. Individual users can then select where they fit within the category tree. Mulitple categories can be selected and the user can elect to remove themselves or add themselves to ",
+                "uid": "85535"
+            }
+        }
+    }
+}

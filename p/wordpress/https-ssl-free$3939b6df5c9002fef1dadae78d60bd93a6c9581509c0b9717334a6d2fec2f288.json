@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/https-ssl-free": {
+            "1.0.1": {
+                "name": "wordpress\/https-ssl-free",
+                "version": "1.0.1",
+                "version_normalized": "1.0.1.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/https-ssl-free.1.0.1.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>This plugin allows you to log into your wordpress using the free https service from intosecure inc.<\/p>\n\n<h4>How does work it?<\/h4>\n\n<p>This plugin converts your admin address to a subdomain of 1.com.ar, filtering the login and logout URLs that WordPress uses to generate its internal links.<\/p>\n\n<p>For example, if your admin address is <a href=\"http:\/\/www.wordpress.org\/wp-admin\" rel=\"nofollow\">http:\/\/www.wordpress.org\/wp-admin<\/a> this plugin converts it to <a href=\"https:\/\/www_wordpress_org.1.com.ar\/wp-admin\" rel=\"nofollow\">https:\/\/www_wordpress_org.1.com.ar\/wp-admin<\/a><\/p>\n\n<h4>What is the benefit of using our plug-in?<\/h4>\n\n<p>The service we provide through <a href=\"http:\/\/www.1.com.ar\" rel=\"nofollow\">http:\/\/www.1.com.ar<\/a> gives you the ability to access your secure site without buying a certificate. Simply enter the web\naddress of your site and will automatically be redirected to a subdomain where you can surf safely and all data you exchange will travel encrypted.<\/p>\n\n<p>If",
+                "uid": "21057"
+            }
+        }
+    }
+}

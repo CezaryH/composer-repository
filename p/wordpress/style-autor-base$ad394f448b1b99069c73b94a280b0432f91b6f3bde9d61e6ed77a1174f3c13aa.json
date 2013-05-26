@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/style-autor-base": {
+            "1.0": {
+                "name": "wordpress\/style-autor-base",
+                "version": "1.0",
+                "version_normalized": "1.0.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/style-autor-base.1.0.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>The default author posts link of WordPress is like 'http:\/\/example.com\/?author=1' or 'http:\/\/example.com\/author\/111', this plugin can help you easy to change it.<\/p>\n\n<p>WordPress\u9ed8\u8ba4\u7684\u4f5c\u8005\u6587\u7ae0\u94fe\u63a5\u901a\u5e38\u662f 'http:\/\/example.com\/?author=1' \u6216\u8005 'http:\/\/example.com\/author\/111'\uff0c\u8fd9\u4e2a\u63d2\u4ef6\u80fd\u5e2e\u4f60\u6539\u53d8\u4f5c\u8005\u6587\u7ae0\u94fe\u63a5\u7684\u683c\u5f0f\u3002<\/p>\n\n<p>e.g.<\/p>\n\n<pre><code><a href=\"http:\/\/example.com\/user\/111\" rel=\"nofollow\">http:\/\/example.com\/user\/111<\/a><\/code><\/pre>\n\n<p>or<\/p>\n\n<pre><code><a href=\"http:\/\/example.com\/member\/111\" rel=\"nofollow\">http:\/\/example.com\/member\/111<\/a><\/code><\/pre>",
+                "uid": "41287"
+            }
+        }
+    }
+}

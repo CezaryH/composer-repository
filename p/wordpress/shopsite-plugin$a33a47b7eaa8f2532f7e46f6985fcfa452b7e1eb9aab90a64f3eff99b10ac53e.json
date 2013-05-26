@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/shopsite-plugin": {
+            "1.2": {
+                "name": "wordpress\/shopsite-plugin",
+                "version": "1.2",
+                "version_normalized": "1.2.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/shopsite-plugin.1.2.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>The plugin integrates ShopSite (<a href=\"http:\/\/www.shopsite.com\" rel=\"nofollow\">http:\/\/www.shopsite.com<\/a>) shopping cart functionality with WordPress blogs. Requires ShopSite v11 SP2 or greater. After installing the plugin a merchant will be able to select ShopSite products directly from WordPress admin console and add them to her blog. The visitors of that blog will be able to add products to cart right on the blog, after which they are redirected to the merchant's ShopSite store to check out.<\/p>\n\n<p>Usage:\nThere will be new button when adding a new post to the blog, with ShopSite's \"SS\" on it. Clicking it will bring out a product search form where you can select products from your ShopSite's store database to insert into the post.<\/p>",
+                "uid": "28946"
+            }
+        }
+    }
+}

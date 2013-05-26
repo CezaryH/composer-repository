@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/ez-overlay": {
+            "1.0": {
+                "name": "wordpress\/ez-overlay",
+                "version": "1.0",
+                "version_normalized": "1.0.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/ez-overlay.1.0.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>This plugin is an alternative to the jQuery based lightbox systems.  It was created using pure Javascript and has no dependencies on any other libraries.  I created this simple lightbox after weeks of dealing with jQuery conflicts within Buddypress and Wordpress.  Many of the existing jQuery type lightboxes do not stop audio playback for flash\/.swf playback when closing the lightbox.  This plugin completely removes the overlay content from the dom to make absolutely sure your .swf file playback is stopped in all browsers.<\/p>",
+                "uid": "59157"
+            }
+        }
+    }
+}

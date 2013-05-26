@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/media-features": {
+            "0.1": {
+                "name": "wordpress\/media-features",
+                "version": "0.1",
+                "version_normalized": "0.1.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/media-features.0.1.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>Add functionalities for your media library:<\/p>\n\n<ul>\n<li>Organize media files with categories<\/li>\n<li>Add PDF and Document mime types support<\/li>\n<li>Adjust JPEG quality percentage (from 0 to 100) thus increase image quality<\/li>\n<li>Crop and resize uploaded images<\/li>\n<li>Add more file types support (documents, spreadsheets, video, audio, flash, ZIP (packages) and more image types)<\/li>\n<li>Support for PDF and all type of documents organization<\/li>\n<\/ul>\n\n<p>Common Supported file extensions:<\/p>\n\n<ul>\n<li>Images: jpg, jpeg, png, gif, tiff, wpmb, svg, swf (flash)<\/li>\n<li>Documents: pdf, doc, docx, wri, rtf, xls, xlsx, ppt, pptx, and all OASIS OpenDocument standard extensions<\/li>\n<li>Text: txt, csv, plain, HTML, XML, CSS, ...<\/li>\n<li>Video: asf, wmv, avi, mov, qt, mpg, mpeg, mp4, ...<\/li>\n<li>Audio: mp3, m4a, ra, ram, wav, ogg, midi, wma, ...<\/li>\n<li>Packages: zip, rar, 7z, iso, img, tar, gz, deb, rpm, ...<\/li>\n<li>Generic: mo, po, fla, ttf, woff, bmp, ico, ...<\/li>\n<\/ul>\n\n<",
+                "uid": "15438"
+            }
+        }
+    }
+}

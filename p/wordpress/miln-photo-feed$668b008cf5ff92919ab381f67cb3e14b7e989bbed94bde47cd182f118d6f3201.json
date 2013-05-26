@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/miln-photo-feed": {
+            "1.0": {
+                "name": "wordpress\/miln-photo-feed",
+                "version": "1.0",
+                "version_normalized": "1.0.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/miln-photo-feed.1.0.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>Miln Photo Feed creates a photo feed using local photos attached to your posts. The feed contains one item per photo; each item includes the photo as both an inline src image and as a linked enclosure.<\/p>\n\n<p>This plug-in is ideal for sharing photos with family and friends who prefer to see images in iPhoto or through a RSS client, such as Google Reader.<\/p>\n\n<p>Photos attached but not visible within a post are included within the Miln Photo Feed. This lets you create a post highlighting a few photos, while also offering a photo feed containing many more photos.<\/p>",
+                "uid": "10787"
+            }
+        }
+    }
+}

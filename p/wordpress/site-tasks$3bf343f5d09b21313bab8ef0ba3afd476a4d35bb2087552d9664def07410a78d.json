@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/site-tasks": {
+            "0.8": {
+                "name": "wordpress\/site-tasks",
+                "version": "0.8",
+                "version_normalized": "0.8.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/site-tasks.0.8.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>Site Tasks allows site contributors to create post specific tasks.\nThese tasks can be assigned to other users. This plugin features \nPivotal Tracker integration which makes it easy to import tasks from\nthis plugin into Pivotal Tracker.<\/p>",
+                "uid": "31713"
+            }
+        }
+    }
+}

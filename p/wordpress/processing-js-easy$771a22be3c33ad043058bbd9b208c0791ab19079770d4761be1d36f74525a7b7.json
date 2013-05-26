@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/processing-js-easy": {
+            "1.4.1": {
+                "name": "wordpress\/processing-js-easy",
+                "version": "1.4.1",
+                "version_normalized": "1.4.1.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/processing-js-easy.1.4.1.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>I created this plugin, because direct code didn't work for me with the new Wordpress Version.\nThe Version Number of this plugin will always be the same as the Processing JS Version.<\/p>\n\n<p>If you want responsive Processing, try this directly in the .pde file:<\/p>\n\n<p>void draw(){\n    size(window.innerWidth, window.innerHeight);\n}<\/p>\n\n<p>Thanks to:\n- Ramoonus, who did the foundation for this.\n- Processing JS (<a href=\"http:\/\/processingjs.org\/\" rel=\"nofollow\">http:\/\/processingjs.org\/<\/a>)<\/p>",
+                "uid": "9280"
+            }
+        }
+    }
+}

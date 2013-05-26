@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/wp-errata": {
+            "1.0": {
+                "name": "wordpress\/wp-errata",
+                "version": "1.0",
+                "version_normalized": "1.0.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/wp-errata.1.0.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>If you would want to make some content in your post editable so that your blog reader can offer edits without really caucing any damage to your post then this plugin is probably right for you.\nA video on how it operates is available from my blog post.<\/p>\n\nHow to use it?\n\n<p>Activate this plugin and in your post mark any content up for correction  with using class=\"jcedit\"\ne.g. make a div to take corrections as follows<\/p>\n\n<p><strong>&#60;div class=\"jcedit\"&#62;This content can be sent for correction. Make your edits and send us your corrections.&#60;\/div&#62;<\/strong><\/p>\n\nRemember\n\n<p>That you should not have any markup under class=\"jcedit\" container i.e. something like this will not work<\/p>\n\n<p>&#60;div class=\"jcedit\"&#62;\n&#60;ul&#62;\n    &#60;li&#62;This is correctable&#60;\/li&#62;\n&#60;\/ul&#62;\n&#60;\/div&#62;<\/p>\n\n<p>Only works in latest of the browsers those which support contenteditable.<\/p>\n\n<p>An email will be sent to entered email address.<\/p>\n\n<p>You can follow me on T",
+                "uid": "13083"
+            }
+        }
+    }
+}

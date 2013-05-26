@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/sectionize": {
+            "1.1": {
+                "name": "wordpress\/sectionize",
+                "version": "1.1",
+                "version_normalized": "1.1.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/sectionize.1.1.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p><em>This plugin is developed at\n<a href=\"http:\/\/www.shepherd-interactive.com\/\" title=\"Shepherd Interactive specializes in web design and development in Portland, Oregon\">Shepherd Interactive<\/a>\nfor the benefit of the community. No support is available. Please post any questions to the <a href=\"http:\/\/wordpress.org\/tags\/sectionize?forum_id=10\">support forum<\/a>.<\/em><\/p>\n\n<p>Takes HTML content which contains flat heading elements inline with paragraphs\nand automatically nests them withing HTML5 <code>&#60;section&#62;<\/code> elements. It also\nconditionally prepends an <code>&#60;ol&#62;<\/code> Table of Contents (TOC) with links to the\nsections in the content, for example:<\/p>\n\n<pre><code>&#60;nav class='toc'&#62;&#60;ol&#62;\n    &#60;li&#62;&#60;a href=\"#section-first-top\"&#62;First Top&#60;\/a&#62;&#60;\/li&#62;\n    &#60;li&#62;&#60;a href=\"#section-second-top\"&#62;Second Top&#60;\/a&#62;\n    &#60;ol&#62;\n        &#60;li&#62;&#60;a href=\"#section-first-sub\"&#62;First Sub&#60;\/a&#62;&#",
+                "uid": "78370"
+            }
+        }
+    }
+}

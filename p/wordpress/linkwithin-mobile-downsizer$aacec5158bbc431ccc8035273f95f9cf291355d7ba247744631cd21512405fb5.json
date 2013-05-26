@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/linkwithin-mobile-downsizer": {
+            "0.0.5": {
+                "name": "wordpress\/linkwithin-mobile-downsizer",
+                "version": "0.0.5",
+                "version_normalized": "0.0.5.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/linkwithin-mobile-downsizer.0.0.5.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>This plugin inserts a new stylesheet to shrink LinkWithin down to the available screen \narea instead of the preset number for small display screens. If the device window is \nlarge enough to show 3 (or more) links it will. The inserted code dynamically chooses \nbetween whatever will fit and whatever size was chosen originally from the LinkWithin \nplugin page. This will also effect the Title Text above the links for word wrapping and \nalso move the link for LinkWithin to a visible area. I make no warranties about its \neffectiveness but it seems to work out ok with the WPtouch and Jetpack plugins \ninstalled and their respective Mobile Themes.<\/p>",
+                "uid": "11887"
+            }
+        }
+    }
+}

@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/protected-content": {
+            "0.2": {
+                "name": "wordpress\/protected-content",
+                "version": "0.2",
+                "version_normalized": "0.2.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/protected-content.0.2.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>Check if the user can see protected content<\/p>\n\n<p>(This is a proof of conenpt ONLY, do NOT use)<\/p>\n\n<p>This plugin checks to see if each post being returned has a metadata tag of \"lowestLevel\" it then does a Webservice call to our internal software which holds the information about if a user has purchased support. If the user has not purchased the required support they are redirected to another warning page or the login page.<\/p>",
+                "uid": "102607"
+            }
+        }
+    }
+}

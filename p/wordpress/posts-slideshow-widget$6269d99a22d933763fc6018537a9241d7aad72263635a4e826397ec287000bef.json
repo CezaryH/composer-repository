@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/posts-slideshow-widget": {
+            "1.0": {
+                "name": "wordpress\/posts-slideshow-widget",
+                "version": "1.0",
+                "version_normalized": "1.0.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/posts-slideshow-widget.1.0.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>This plugin enables you to have a side bar widget with slider (slideshow) of featured images from recent posts (custom post type), \nfrom a selected category (hierarchical taxonomy), from comma separated list of tags. If post has no featured image, plugin tries \nto extract any 1st image from that post content.  Customize post title and background color, background color of slider navigation panel. \nColor is selected from WordPress built-in color pallete. Manual input is available also. Select animation type: slide or fade. \nSetup slider speed and widget dimensions. You can have as many sliders as you wish with different categories. \nThis is mainly useful if you have a dedicated category for photo gallery posts and would like to display recent post title with its featured photo.<\/p>",
+                "uid": "8382"
+            }
+        }
+    }
+}

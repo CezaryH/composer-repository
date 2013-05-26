@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/keep-it-fresh": {
+            "1.0": {
+                "name": "wordpress\/keep-it-fresh",
+                "version": "1.0",
+                "version_normalized": "1.0.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/keep-it-fresh.1.0.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>Keep it Fresh will stop WordPress from showing posts older than a set number of days or a specific date. It is configurable via the WordPress administration area. Keep it Fresh doesn't remove old posts, nor does it muck with their <code>post_status<\/code>; rather, Keep it Fresh uses the <code>posts_where<\/code> WordPress filter to filter out posts older than the given date or amount of days whenever WordPress requests posts outside of the admin area.<\/p>",
+                "uid": "75844"
+            }
+        }
+    }
+}

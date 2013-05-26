@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/add-highslide": {
+            "1.1": {
+                "name": "wordpress\/add-highslide",
+                "version": "1.1",
+                "version_normalized": "1.1.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/add-highslide.1.1.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>This plugin automatically add the class='highslide-image' onclick='return hs.expand(this);' to images linked in a post. You need to install <a href=\"http:\/\/wordpress.org\/extend\/plugins\/highslide4wp\/\">HighSlide4WP<\/a> first.<\/p>",
+                "uid": "89792"
+            }
+        }
+    }
+}

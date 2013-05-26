@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/freshmuse-debug-bar": {
+            "1": {
+                "name": "wordpress\/freshmuse-debug-bar",
+                "version": "1",
+                "version_normalized": "1.0.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/freshmuse-debug-bar.1.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>Custom extension of the WordPress Debug Bar. Designed from the development needs of FreshMuse. This extension allows developers to quickly and easily log messages in Debug Bar with the following log levels:<\/p>\n\n<ul>\n<li>log<\/li>\n<li>warning<\/li>\n<li>error<\/li>\n<li>notice<\/li>\n<li>dump<\/li>\n<\/ul>\n\n<p>This extension also provides a unique dump feature. Given an object this extension will recursively walk through it and display all the elements contained within the object in a easy to use, collapsible UI.<\/p>\n\n<p>Usage:\nfm_debug( String $title, String $data, String $loglevel = 'log' )\nfm_dump( String $title, Mixed $data )<\/p>",
+                "uid": "20075"
+            }
+        }
+    }
+}

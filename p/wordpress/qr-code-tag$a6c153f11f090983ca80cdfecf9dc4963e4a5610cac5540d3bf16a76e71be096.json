@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/qr-code-tag": {
+            "1.0": {
+                "name": "wordpress\/qr-code-tag",
+                "version": "1.0",
+                "version_normalized": "1.0.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/qr-code-tag.1.0.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>The QR Code Tag plugin creates QRCodes for your blog.<\/p>\n\n<p>Features:<\/p>\n\n<ul>\n<li>Choose your QR Code generator: Google Chart API (online connection required) or QR Code Lib (included)<\/li>\n<li>Uses cURL if <code>allow_url_fopen<\/code> is disabled (Google Chart API)  <\/li>\n<li>GIF, PNG or JPEG image output<\/li>\n<li>All QR Code images are cached<\/li>\n<li>Use as a Sidebar Widget<\/li>\n<li>Use the Shortcode <code>[qrcodetag]content[\/qrcodetag]<\/code> within your posts<\/li>\n<li>Use the Tooltip mode <code>[qrcodetag tooltip=\"content\"]some text[\/qrcodetag]<\/code> within your posts<\/li>\n<li>Use the PHP function inside your own template<\/li>\n<li>\"Best Read Mode\" for optimized QR Code image size<\/li>\n<li>Works with PHP 5.3 as well<\/li>\n<li>Works on symlinked plugin folders<\/li>\n<li>Available plugin admin interface languages: English, German<\/li>\n<\/ul>",
+                "uid": "81050"
+            }
+        }
+    }
+}

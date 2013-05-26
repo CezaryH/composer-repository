@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/wp-snapshot": {
+            "0.5.5": {
+                "name": "wordpress\/wp-snapshot",
+                "version": "0.5.5",
+                "version_normalized": "0.5.5.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/wp-snapshot.0.5.5.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>Generates a template tag that allows you to easily display a snapshot of text.<br \/>\nUseful for meta descriptions, post snippets, or your own custom block of text.<br \/>\nDisplays a snippet of text without having to use the &#60;--!more--&#62; quicktag.<\/p>",
+                "uid": "95506"
+            }
+        }
+    }
+}

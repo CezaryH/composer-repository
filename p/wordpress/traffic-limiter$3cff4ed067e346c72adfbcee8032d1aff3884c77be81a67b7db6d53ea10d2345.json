@@ -1,0 +1,40 @@
+{
+    "packages": {
+        "wordpress\/traffic-limiter": {
+            "0.1.0": {
+                "name": "wordpress\/traffic-limiter",
+                "version": "0.1.0",
+                "version_normalized": "0.1.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/traffic-limiter.0.1.0.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>Traffic Limiter is a useful addon for blogs with many media files which can cause high data traffic. \nThere are three traffic limits to avoid over traffic costs: daily, weekly and monthly limit. If one of these limits is exceeded downloads will either be redirected to a custom URL or a custom message is displayed.\nFor images you can define a fallback icon which is displayed instead of the message.\nAdditionally a download bandwidth can be set for registered users and guests.<\/p>\n\n<p>Also included is a statistic system which displays the current traffic consumption and individual file stats to see which media produces the most traffic.<\/p>\n\n<p>All files are sent to the browser by a PHP script, supporting the most HTTP headers like <code>If-Modified-Since<\/code> (for caching) and <code>Range<\/code> (for partial downloads)<\/p>\n\n<p>If the Apache extension <code>mod_rewrite<\/code> is installed download links stay the same, if not links to media files are automatically redirected.\nIt is re",
+                "uid": "80794"
+            },
+            "0.1.1": {
+                "name": "wordpress\/traffic-limiter",
+                "version": "0.1.1",
+                "version_normalized": "0.1.1.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/traffic-limiter.0.1.1.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>Traffic Limiter is a useful addon for blogs with many media files which can cause high data traffic. \nThere are three traffic limits to avoid over traffic costs: daily, weekly and monthly limit. If one of these limits is exceeded downloads will either be redirected to a custom URL or a custom message is displayed.\nFor images you can define a fallback icon which is displayed instead of the message.\nAdditionally a download bandwidth can be set for registered users and guests.<\/p>\n\n<p>Also included is a statistic system which displays the current traffic consumption and individual file stats to see which media produces the most traffic.<\/p>\n\n<p>All files are sent to the browser by a PHP script, supporting the most HTTP headers like <code>If-Modified-Since<\/code> (for caching) and <code>Range<\/code> (for partial downloads)<\/p>\n\n<p>If the Apache extension <code>mod_rewrite<\/code> is installed download links stay the same, if not links to media files are automatically redirected.\nIt is re",
+                "uid": "80793"
+            }
+        }
+    }
+}

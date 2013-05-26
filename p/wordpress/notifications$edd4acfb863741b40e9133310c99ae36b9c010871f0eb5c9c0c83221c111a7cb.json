@@ -1,0 +1,40 @@
+{
+    "packages": {
+        "wordpress\/notifications": {
+            "1.0": {
+                "name": "wordpress\/notifications",
+                "version": "1.0",
+                "version_normalized": "1.0.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/notifications.1.0.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>How many times have you needed to display a notice across your site? Too many, if you ask me. I wrote this plugin because many of the notification bar plugins out there leave much to be desired. Either there are too many options or not enough or not the ones that I want. Plus, it's not easy to create a notice -- you have to go to some crazy screen and set options unique to that plugin.<\/p>\n\n<p>This plugin uses custom post types, so notifications are set up like mini-posts that we all know and love. Multiple controls, as well as a built-in filter, enable developers and casual users alike to easily customize the notification bar to your heart's content.<\/p>\n\n<h4>Usage<\/h4>\n\n<p>Notifications looks for the <code>body_open<\/code> hook. This hook  was first <a href=\"http:\/\/core.trac.wordpress.org\/ticket\/12563#comment:10\">proposed on Trac<\/a> by <a href=\"https:\/\/twitter.com\/nacin\">Andrew Nacin<\/a> as a way to hook into an action that fires immediately after the <code>&#60;body&#62;<\/code> ",
+                "uid": "11748"
+            },
+            "1.0.1": {
+                "name": "wordpress\/notifications",
+                "version": "1.0.1",
+                "version_normalized": "1.0.1.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/notifications.1.0.1.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>How many times have you needed to display a notice across your site? Too many, if you ask me. I wrote this plugin because many of the notification bar plugins out there leave much to be desired. Either there are too many options or not enough or not the ones that I want. Plus, it's not easy to create a notice -- you have to go to some crazy screen and set options unique to that plugin.<\/p>\n\n<p>This plugin uses custom post types, so notifications are set up like mini-posts that we all know and love. Multiple controls, as well as a built-in filter, enable developers and casual users alike to easily customize the notification bar to your heart's content.<\/p>\n\n<h4>Usage<\/h4>\n\n<p>Notifications looks for the <code>body_open<\/code> hook. This hook  was first <a href=\"http:\/\/core.trac.wordpress.org\/ticket\/12563#comment:10\">proposed on Trac<\/a> by <a href=\"https:\/\/twitter.com\/nacin\">Andrew Nacin<\/a> as a way to hook into an action that fires immediately after the <code>&#60;body&#62;<\/code> ",
+                "uid": "11746"
+            }
+        }
+    }
+}

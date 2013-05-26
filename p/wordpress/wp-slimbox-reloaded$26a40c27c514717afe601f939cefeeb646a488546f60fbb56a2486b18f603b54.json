@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/wp-slimbox-reloaded": {
+            "0.5": {
+                "name": "wordpress\/wp-slimbox-reloaded",
+                "version": "0.5",
+                "version_normalized": "0.5.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/wp-slimbox-reloaded.0.5.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>This plugin allows you to use Slimbox (Lightbox clon) in your post's images, it automagically adds the required code, and it is backwards compliant as it works with rel=\"lightbox\" attribute, if you already had Lightbox installed. If you don't like the code being added automatically, you can turn this off by editing one line in the plugin editor (wp-slimbox-reloaded.php). By the default, all images included in a given post will work as a gallery (rel=\"lightbox[post-#]\").<\/p>\n\n<p>Mootools 1.2 is bound to this plugin, for those who haven't implemented it yet, but you can modify one line in the code and tell the plugin if you already have it. The variable to look for is $already_has_mootools = 'yes';<\/p>\n\n<p>It also features a code quicktag in the code editor (when you write a page or a post).<\/p>\n\n<p>This plugin is based on Slimbox (developed by Christophe Beyls), a 4kb visual clone of the popular Lightbox JS v2.0 (developed by Lokesh Dhakar), written using the Mootools javascript fram",
+                "uid": "100523"
+            }
+        }
+    }
+}

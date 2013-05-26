@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/scud-the-shortcode-disabler": {
+            "1.0.0": {
+                "name": "wordpress\/scud-the-shortcode-disabler",
+                "version": "1.0.0",
+                "version_normalized": "1.0.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/scud-the-shortcode-disabler.1.0.0.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>When you add this plugin, a metabox is added to the edit post\/page screens that allows you to disable ShortCodes in that one particular post\/page. Admittedly, this plugin may not be widely needed by the general public. However if you are a plugin developer or documenter, you might find it very useful.<\/p>\n\n<p>If you want to show examples of how to use a ShortCode and not have that ShortCode activate upon display of the post, this plugin will come to your rescue. The SCuD will disable all ShortCode processing for any post.<\/p>\n\n<p>SCuD is written to prevent any collateral damage. After the post content is displayed, it activates the all previously disabled ShortCodes again. This allows any ShortCodes that you may be using in sidebar widgets to process correctly.<\/p>",
+                "uid": "22953"
+            }
+        }
+    }
+}

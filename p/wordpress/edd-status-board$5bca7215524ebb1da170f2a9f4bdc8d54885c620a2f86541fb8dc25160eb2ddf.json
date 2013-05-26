@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/edd-status-board": {
+            "1.0": {
+                "name": "wordpress\/edd-status-board",
+                "version": "1.0",
+                "version_normalized": "1.0.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/edd-status-board.1.0.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>EDD - Status Board Integrates the Easy Digital Downloads API with the Status Board iPad app.<\/p>\n\n<p>Using your Easy Digital Downloads API Key and Tokens, you can display 3 different bar graphs:<\/p>\n\n<ul>\n<li>Last 7 days sales<\/li>\n<li>Last 7 days earnings<\/li>\n<li>A Hybrid of last 7 days sales &#38; earnings<\/li>\n<\/ul>\n\n<h4>The URL endpoints are<\/h4>\n\n<ul>\n<li><a href=\"http:\/\/yoursite.com\/edd-api\/sbsales\/?key=your\" rel=\"nofollow\">http:\/\/yoursite.com\/edd-api\/sbsales\/?key=your<\/a> key]&#38;token=[your token]<\/li>\n<li><a href=\"http:\/\/yoursite.com\/edd-api\/sbearnings\/?key=your\" rel=\"nofollow\">http:\/\/yoursite.com\/edd-api\/sbearnings\/?key=your<\/a> key]&#38;token=[your token]<\/li>\n<li><a href=\"http:\/\/yoursite.com\/edd-api\/sbhybrid\/?key=your\" rel=\"nofollow\">http:\/\/yoursite.com\/edd-api\/sbhybrid\/?key=your<\/a> key]&#38;token=[your token]<\/li>\n<\/ul>\n\n<p>You can manually add them to Status Board, or use the buttons located in the Profile page of wp-admin to automatically add the graphs (as seen in",
+                "uid": "8888"
+            }
+        }
+    }
+}

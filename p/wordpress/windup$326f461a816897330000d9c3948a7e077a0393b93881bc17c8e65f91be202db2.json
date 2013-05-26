@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/windup": {
+            "1.0": {
+                "name": "wordpress\/windup",
+                "version": "1.0",
+                "version_normalized": "1.0.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/windup.1.0.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>Cut your posts automaticaly after x number of words, or letters. U can stil use <!--more--> tag\nand manual excerpt. If non of them are used, plugin will automaticaly cut post at site other that single post site. Make sure taht in your main loop post are displayed by the_content, there is no need to check is_home, puligin do it by itself.<\/p>",
+                "uid": "53803"
+            }
+        }
+    }
+}

@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/templatesync": {
+            "1.00": {
+                "name": "wordpress\/templatesync",
+                "version": "1.00",
+                "version_normalized": "1.00.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/templatesync.1.00.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>Copy the HTML from your WordPress theme to another application's template library.  Designed for use with WHMCS but will work with other applications.<\/p>\n\n<p>Add the following hints to your WordPress theme files. The hints will be used to update another application's template files. Click Sync Template whenever your WordPress header or footer change.<\/p>\n\n<p>&#60;!--header.end--&#62; The end of your WordPress header code.<\/p>\n\n<p>&#60;!--footer.begin--&#62;   The beginning of your WordPress footer code.<\/p>\n\n<p>Include file contents from another template directory.<\/p>\n\n<p>&#60;!--{unique id}.inc--&#62;    The contents of {directory}\/{unique id}.inc will be added to the code at the specified location.<\/p>\n\n<p>Exclude WordPress code from your templates.<\/p>\n\n<p>&#60;!--tpl.exclude--&#62;    The beginning of the text to exclude.<\/p>\n\n<p>&#60;!--\/tpl.exclude--&#62;   The end of the text to exclude.<\/p>",
+                "uid": "63960"
+            }
+        }
+    }
+}

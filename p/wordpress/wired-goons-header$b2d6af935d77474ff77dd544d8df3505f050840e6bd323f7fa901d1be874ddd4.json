@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/wired-goons-header": {
+            "1.0": {
+                "name": "wordpress\/wired-goons-header",
+                "version": "1.0",
+                "version_normalized": "1.0.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/wired-goons-header.1.0.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>Allows you to not only see what's been loaded in wp_head but allows you to remove it. Default options are set to remove what's most commonly removed for you.<\/p>\n\n<p>This avoids the need to hack core wordpress files or your theme\/ plugin files, it also explains what options do when enabled.<\/p>\n\n<p>It lists every option and some of these you may not want to disable, if you make a serious mistake you can remove the plugin from the folder or delete the entry in the options database (wg_wphead_settings)<\/p>\n\n<p>Very basic installation, language support and additional features to be added.<\/p>",
+                "uid": "37019"
+            }
+        }
+    }
+}

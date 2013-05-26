@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/view-random-post": {
+            "1.0": {
+                "name": "wordpress\/view-random-post",
+                "version": "1.0",
+                "version_normalized": "1.0.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/view-random-post.1.0.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>This plugin will put a widget on your sidebar with a link to view a random post. We were after a very simple way to put a link in your sidebar which, when clicked, will take your visitor to one of your published posts.<\/p>\n\n<p>When your visitors click the link to view a random post, the plugin keeps track of all the posts they have viewed via the random post link so that it doesn't send them to a post they have already seen until they have seen all the posts once. Then it won't send them to the same post three times until they have already seen all the posts 2 times (and so on).<\/p>",
+                "uid": "73994"
+            }
+        }
+    }
+}

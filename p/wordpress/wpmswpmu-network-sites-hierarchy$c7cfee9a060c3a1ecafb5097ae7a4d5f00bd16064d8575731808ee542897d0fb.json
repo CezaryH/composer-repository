@@ -1,0 +1,40 @@
+{
+    "packages": {
+        "wordpress\/wpmswpmu-network-sites-hierarchy": {
+            "0.1.0": {
+                "name": "wordpress\/wpmswpmu-network-sites-hierarchy",
+                "version": "0.1.0",
+                "version_normalized": "0.1.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/wpmswpmu-network-sites-hierarchy.0.1.0.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>This plugin creates and maintains one or multiple hierarchies of blogs in the WPMS network. Options screens appear in network admin dashboard. The blogs hierarchy can be used for several purposes such as:<\/p>\n\n<ol>\n<li>consolidate posts (or latest posts) from descendant blogs only<\/li>\n<li>display a list of descendant blogs or even a tree of blogs from any node<\/li>\n<\/ol>\n\n<p><strong>Other features<\/strong><\/p>\n\n<ol>\n<li>Hierarchy cannot loop (cannot set as parent one of the descendants or itself)<\/li>\n<li>The main site (blog_id 1) cannot have a parent<\/li>\n<li>Individual blogs may be taken out of hierarchy<\/li>\n<li>Multiple independent hierarchies may be created<\/li>\n<\/ol>",
+                "uid": "42471"
+            },
+            "0.1.2": {
+                "name": "wordpress\/wpmswpmu-network-sites-hierarchy",
+                "version": "0.1.2",
+                "version_normalized": "0.1.2.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/wpmswpmu-network-sites-hierarchy.0.1.2.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>This plugin creates and maintains one or multiple hierarchies of blogs in the WPMS network. Options screens appear in network admin dashboard. The blogs hierarchy can be used for several purposes such as:<\/p>\n\n<ol>\n<li>consolidate posts (or latest posts) from descendant blogs only<\/li>\n<li>display a list of descendant blogs or even a tree of blogs from any node<\/li>\n<\/ol>\n\n<p><strong>Other features<\/strong><\/p>\n\n<ol>\n<li>Hierarchy cannot loop (cannot set as parent one of the descendants or itself)<\/li>\n<li>The main site (blog_id 1) cannot have a parent<\/li>\n<li>Individual blogs may be taken out of hierarchy<\/li>\n<li>Multiple independent hierarchies may be created<\/li>\n<\/ol>",
+                "uid": "42470"
+            }
+        }
+    }
+}

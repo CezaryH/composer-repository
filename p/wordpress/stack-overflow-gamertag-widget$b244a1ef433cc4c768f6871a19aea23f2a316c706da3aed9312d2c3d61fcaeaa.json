@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/stack-overflow-gamertag-widget": {
+            "2.0.0": {
+                "name": "wordpress\/stack-overflow-gamertag-widget",
+                "version": "2.0.0",
+                "version_normalized": "2.0.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/stack-overflow-gamertag-widget.2.0.0.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>XBox Live \"GamerTag\" style widget for displaying your <a href=\"http:\/\/stackoverflow.com\/\" title=\"Visit Stack Overflow\">Stack Overflow<\/a> \ninformation. Currently displays:<\/p>\n\n<ul>\n<li>Name<\/li>\n<li>Gravatar<\/li>\n<li>Reputation<\/li>\n<li>Badges<\/li>\n<\/ul>\n\n<p>It also links to your profile screen.<\/p>\n\n<p>As from 2.0.0 the widget now uses the Stack Overflow JSON feed, rather than a screen scrape. \nThis means that json_decode must be available (i.e. PHP5&#62;=5.2.0). If you can't satisfy that\nrequirement then you should stick with 1.0.4.<\/p>\n\n<p>Changelog:\n1.0.4 - Added caching, configurable in the settings, defaults to 30minutes.\n2.0.0 - Switched from screen scraping to decoding the SO JSON feed.<\/p>",
+                "uid": "94670"
+            }
+        }
+    }
+}

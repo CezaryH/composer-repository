@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/twitter-stream-paulund": {
+            "1.0": {
+                "name": "wordpress\/twitter-stream-paulund",
+                "version": "1.0",
+                "version_normalized": "1.0.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/twitter-stream-paulund.1.0.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>This Wordpress plugin will add your Twitter stream widget to your Wordpress blog.<\/p>\n\n<p>All you have to do is add your username and the amount of tweets you want to display.<\/p>\n\n<p>This will also display a Twitter follow button for your visitors to follow.<\/p>\n\n<p>This plugin uses the Twitter API to get the latest tweets and will use the Wordpress transient API to store your tweets every 10 minutes.<\/p>",
+                "uid": "27590"
+            }
+        }
+    }
+}

@@ -1,0 +1,40 @@
+{
+    "packages": {
+        "wordpress\/mm": {
+            "1.0.0": {
+                "name": "wordpress\/mm",
+                "version": "1.0.0",
+                "version_normalized": "1.0.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/mm.1.0.0.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>This plugin adds high-quality media processing to your blog. At the plugin's core is <a href=\"https:\/\/github.com\/davidpersson\/mm\">mm, the PHP media library<\/a> which is throughly tested and in production use on several media heavy sites. A new settings panel allows you to configure two additional media versions that are generated alongside the built-in WordPress ones. For each version you may select one of the resizing methods, pick the target format and enable additional optimizations.<\/p>\n\n<h4>Available resizing methods:<\/h4>\n\n<ul>\n<li>fit inside - Resizes media proportionally keeping both sides within given dimensions.<\/li>\n<li>fit outside - Resizes media proportionally keeping <em>smaller<\/em> side within corresponding dimensions.<\/li>\n<li>crop - Crops media to provided dimensions.<\/li>\n<li>zoom &#38; fit - Enlarges media proportionally by factor 2.<\/li>\n<li>zoom &#38; crop - First crops an area (given by dimensions and enlarged by factor 2) out of the center of the media, then ",
+                "uid": "8167"
+            },
+            "1.0.1": {
+                "name": "wordpress\/mm",
+                "version": "1.0.1",
+                "version_normalized": "1.0.1.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/mm.1.0.1.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>This plugin adds high-quality media processing to your blog. At the plugin's core is <a href=\"https:\/\/github.com\/davidpersson\/mm\">mm, the PHP media library<\/a> which is throughly tested and in production use on several media heavy sites. A new settings panel allows you to configure two additional media versions that are generated alongside the built-in WordPress ones. For each version you may select one of the resizing methods, pick the target format and enable additional optimizations.<\/p>\n\n<h4>Available resizing methods:<\/h4>\n\n<ul>\n<li>fit inside - Resizes media proportionally keeping both sides within given dimensions.<\/li>\n<li>fit outside - Resizes media proportionally keeping <em>smaller<\/em> side within corresponding dimensions.<\/li>\n<li>crop - Crops media to provided dimensions.<\/li>\n<li>zoom &#38; fit - Enlarges media proportionally by factor 2.<\/li>\n<li>zoom &#38; crop - First crops an area (given by dimensions and enlarged by factor 2) out of the center of the media, then ",
+                "uid": "8168"
+            }
+        }
+    }
+}

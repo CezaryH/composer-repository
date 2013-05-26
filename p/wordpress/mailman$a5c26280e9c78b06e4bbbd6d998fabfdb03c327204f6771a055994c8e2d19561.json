@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/mailman": {
+            "1.2": {
+                "name": "wordpress\/mailman",
+                "version": "1.2",
+                "version_normalized": "1.2.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/mailman.1.2.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>wp-mailman integrates Wordpress with the <a href=\"http:\/\/www.gnu.org\/software\/mailman\/index.html\">GNU Mailman<\/a> mailing list manager. As long as mailman runs on the same host as Wordpress, the Wordpress site admin can select one or more lists of those publicly available from mailman. Newly registered users will be subscribed to the selected list(s).<\/p>\n\n<p>User can see their list of subscriptions and unsubscribe from mailman lists that they don't want anymore.<\/p>\n\n<h4>Is this project dead?<\/h4>\n\n<p>wp-mailman solved a particular problem for me, and continues to do so. If you happen to have the same requirements, I'm happy if my little plugin can be of any help. Besides from that, wp-mailman doesn't get much attention, so it can take a while until the next release. In the meantime, suggestions and patches are more than welcome. If you need help more desperately, drop me a mail under <em>datenimperator (at) me (dot) com<\/em>. I do paid consulting for a living and I'd surely be hap",
+                "uid": "114251"
+            }
+        }
+    }
+}

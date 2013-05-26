@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/detectify-for-wp": {
+            "1.1.2": {
+                "name": "wordpress\/detectify-for-wp",
+                "version": "1.1.2",
+                "version_normalized": "1.1.2.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/detectify-for-wp.1.1.2.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>Detectify analyze the level of security of your website -- Simple to use and understand.<\/p>\n\n<p>Detectify is cloud based web application security scanner that analyses and reports the security status of your website. Basically the solution simulates a hacker attack on your site and let you know what security flaws your website have. After the scan you are presented with an easy to understand report, listing the vulnerabilities on the site and probable consequences of them. All you need to do is create an account on the <a href=\"https:\/\/www.detectify.com\">Detectify website<\/a> and install the meta code in this plug in and your are ready to go!<\/p>\n\n<p>Detectify does extensive checks on all user data supplied to your application - everything ranging from GET, POST, HTML Forms, Cookies and Headers.<\/p>\n\n<p>Detectify probes for the following set of exploits:<\/p>\n\n<ul>\n<li>Local File Inclusion (LFI)<\/li>\n<li>Remote File Inclusion (RFI)<\/li>\n<li>Reflected Cross Site Scripting flaws (XSS)",
+                "uid": "15811"
+            }
+        }
+    }
+}

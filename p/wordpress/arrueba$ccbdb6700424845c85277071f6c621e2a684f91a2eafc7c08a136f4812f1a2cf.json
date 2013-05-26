@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/arrueba": {
+            "0.3": {
+                "name": "wordpress\/arrueba",
+                "version": "0.3",
+                "version_normalized": "0.3.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/arrueba.0.3.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>O Arrueba procura por todos os '@name' em posts e coment&#225;rios e os transforma em links para o Twitter. Exemplo: \"@lenonm\" num post &#233; tranformado em <a href=\"http:\/\/twitter.com\/lenonm\">@lenonm<\/a>.<\/p>",
+                "uid": "76015"
+            }
+        }
+    }
+}

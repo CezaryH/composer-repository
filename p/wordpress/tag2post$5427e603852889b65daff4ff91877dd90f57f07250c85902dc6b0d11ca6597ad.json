@@ -1,0 +1,40 @@
+{
+    "packages": {
+        "wordpress\/tag2post": {
+            "1.0": {
+                "name": "wordpress\/tag2post",
+                "version": "1.0",
+                "version_normalized": "1.0.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/tag2post.1.0.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>This is a simple plugin, that enables the admin to correlate a tag to a single post or page. The pluging will also modify the\nway tag lists and clouds are generated, so the tags comes links to the post selected.<\/p>\n\n<p>Default post ID 0 will link the tag to the actual tag permalink.<\/p>",
+                "uid": "93300"
+            },
+            "1.0.1": {
+                "name": "wordpress\/tag2post",
+                "version": "1.0.1",
+                "version_normalized": "1.0.1.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/tag2post.1.0.1.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>This is a simple plugin, that enables the admin to correlate a tag to a single post or page. The pluging will also modify the\nway tag lists and clouds are generated, so the tags comes links to the post selected.<\/p>\n\n<p>Default post ID 0 will link the tag to the actual tag permalink.<\/p>",
+                "uid": "93299"
+            }
+        }
+    }
+}

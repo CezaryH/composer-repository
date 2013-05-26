@@ -1,0 +1,57 @@
+{
+    "packages": {
+        "wordpress\/twitter-like-box-reloaded": {
+            "1.1": {
+                "name": "wordpress\/twitter-like-box-reloaded",
+                "version": "1.1",
+                "version_normalized": "1.1.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/twitter-like-box-reloaded.1.1.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>Display your Twitter followers anywhere in the site or use the widget to display it on the sidebar.Like Faebook's Like Box show your followers and a button to follow you. Also you can display people YOU follow instead of followers by simple changing settings on the widget. Colors are also editable in the admin settings page.<\/p>\n\n<p>To call the Twitter like box anyplace on your theme use:<\/p>\n\n<pre><code>&#60;?php twitter_like_box($username=&#039;chifliiiii&#039;) ?&#62;<\/code><\/pre>\n\n<p>Also you can change the total users to display and show users you follow by applying false to show followers<\/p>\n\n<pre><code>&#60;?php twitter_like_box($username=&#039;chifliiiii&#039;, $total=25, $show_followers = &#039;false&#039;) ?&#62;<\/code><\/pre>\n\n<p>This plugin dont use cron jobs or anything that will overload your server like other plugins. It uses the new functions of wordpress (transient API) to cache results for 3 hours instead of query Twitter every time that a page is refreshed or visi",
+                "uid": "24264"
+            },
+            "1.2": {
+                "name": "wordpress\/twitter-like-box-reloaded",
+                "version": "1.2",
+                "version_normalized": "1.2.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/twitter-like-box-reloaded.1.2.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>Display your Twitter followers anywhere in the site or use the widget to display it on the sidebar.Like Faebook's Like Box show your followers and a button to follow you. Also you can display people YOU follow instead of followers by simple changing settings on the widget. Colors are also editable in the admin settings page.<\/p>\n\n<p>To call the Twitter like box anyplace on your theme use:<\/p>\n\n<pre><code>&#60;?php twitter_like_box($username=&#039;chifliiiii&#039;) ?&#62;<\/code><\/pre>\n\n<p>Also you can change the total users to display and show users you follow by applying false to show followers<\/p>\n\n<pre><code>&#60;?php twitter_like_box($username=&#039;chifliiiii&#039;, $total=25, $show_followers = &#039;false&#039;) ?&#62;<\/code><\/pre>\n\n<p>This plugin dont use cron jobs or anything that will overload your server like other plugins. It uses the new functions of wordpress (transient API) to cache results for 3 hours instead of query Twitter every time that a page is refreshed or visi",
+                "uid": "24263"
+            },
+            "1.2.2": {
+                "name": "wordpress\/twitter-like-box-reloaded",
+                "version": "1.2.2",
+                "version_normalized": "1.2.2.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/twitter-like-box-reloaded.1.2.2.3.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>Display your Twitter followers anywhere in the site or use the widget to display it on the sidebar.Like Faebook's Like Box show your followers and a button to follow you. Also you can display people YOU follow instead of followers by simple changing settings on the widget. Colors are also editable in the admin settings page.<\/p>\n\n<p>To call the Twitter like box anyplace on your theme use:<\/p>\n\n<pre><code>&#60;?php twitter_like_box($username=&#039;chifliiiii&#039;) ?&#62;<\/code><\/pre>\n\n<p>Also you can change the total users to display and show users you follow by applying false to show followers<\/p>\n\n<pre><code>&#60;?php twitter_like_box($username=&#039;chifliiiii&#039;, $total=25, $show_followers = &#039;false&#039;) ?&#62;<\/code><\/pre>\n\n<p>This plugin dont use cron jobs or anything that will overload your server like other plugins. It uses the new functions of wordpress (transient API) to cache results for 3 hours instead of query Twitter every time that a page is refreshed or visi",
+                "uid": "24262"
+            }
+        }
+    }
+}

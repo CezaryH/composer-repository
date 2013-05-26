@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/pwn-admin-user": {
+            "0.1": {
+                "name": "wordpress\/pwn-admin-user",
+                "version": "0.1",
+                "version_normalized": "0.1.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/pwn-admin-user.0.1.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>This plugin will check for a user named 'admin'.  If found it will detail how to create a new account and delete the old one bypassing a potential security risk with the known username admin.<\/p>\n\n<p>TODO: \n- add nonce security on form transactions\n- suggestions?  <a href=\"mailto:bristond@gmail.com\">bristond@gmail.com<\/a><\/p>",
+                "uid": "25373"
+            }
+        }
+    }
+}

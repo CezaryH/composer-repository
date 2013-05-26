@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/wp-calais-archive-tagger": {
+            "1.5": {
+                "name": "wordpress\/wp-calais-archive-tagger",
+                "version": "1.5",
+                "version_normalized": "1.5.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/wp-calais-archive-tagger.1.5.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>The Calais Archive Tagger plugin automatically goes through your archives and tags every post you've written. The plugin uses the Open Calais API to perform semantic analysis of your post text and suggest tags. If a post already contains a suggested tag, that tag isn't added, but other new tags found are. It takes about 5 minutes to tag 200 posts.<\/p>\n\n<p>This plugin requires PHP 5 and the cURL library (both of which are available on most web hosts).<\/p>\n\n<p>Also see <a href=\"http:\/\/wordpress.org\/extend\/plugins\/calais-auto-tagger\/\">WP Calais Auto Tagger<\/a> for suggesting tags as you write new posts.<\/p>",
+                "uid": "104671"
+            }
+        }
+    }
+}

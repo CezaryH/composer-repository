@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/privacy-notice": {
+            "1.0": {
+                "name": "wordpress\/privacy-notice",
+                "version": "1.0",
+                "version_normalized": "1.0.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/privacy-notice.1.0.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>Have you ever launched a website with search engines blocked because you forgot to switch the privacy settings in your dev environment?<\/p>\n\n<p>This plugin was developed to remind me to do that. Privacy Notice simply adds a notice in the admin bar if search engines are not enabled. This plugin helps you check yo'self before you wreck yo'self. If the label is orange, change it before you launch that site!<\/p>\n\n<p>If you've turned search engines on, the notice goes away entirely. Never to bother you again if you haven't deactivated.<\/p>\n\n<p>There are no settings, and it doesn't modify your database.<\/p>",
+                "uid": "17914"
+            }
+        }
+    }
+}

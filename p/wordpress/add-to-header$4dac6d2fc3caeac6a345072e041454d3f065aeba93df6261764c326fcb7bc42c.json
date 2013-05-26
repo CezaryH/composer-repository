@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/add-to-header": {
+            "1.0": {
+                "name": "wordpress\/add-to-header",
+                "version": "1.0",
+                "version_normalized": "1.0.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/add-to-header.1.0.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<h4>Benefits<\/h4>\n\n<p>Add additional code to your header WITHOUT editing your theme:<\/p>\n\n<ul>\n<li>Stylesheets (CSS)<\/li>\n<li>Javascript (JS)<\/li>\n<li>Google Analytics<\/li>\n<li>Metadata<\/li>\n<li>Anything else<\/li>\n<\/ul>\n\n<h4>Example usage<\/h4>\n\n<ul>\n<li>Change your downloaded theme visually without changing it, by adding an extra stylesheet. If you update your theme, your changes will still be intact.<\/li>\n<li>Add Google Analytics without changing your theme. If you update or change your theme, Google Analytics will still be there.<\/li>\n<\/ul>",
+                "uid": "82767"
+            }
+        }
+    }
+}

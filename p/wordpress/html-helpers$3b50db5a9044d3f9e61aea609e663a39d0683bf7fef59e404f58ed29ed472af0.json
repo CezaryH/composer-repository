@@ -1,0 +1,74 @@
+{
+    "packages": {
+        "wordpress\/html-helpers": {
+            "0.2": {
+                "name": "wordpress\/html-helpers",
+                "version": "0.2",
+                "version_normalized": "0.2.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/html-helpers.0.2.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>This plugin adds simple HTML tag generation API to WordPress, like these examples:<\/p>\n\n<pre><code>&#60;?php img(&#039;wordpress&#039;); ?&#62;<\/code><\/pre>\n\n<p>generates and prints <code>&#60;img src=\"\/wp-content\/&#60;your-theme&#62;\/images\/wordpress.png\" alt=\"Wordpress\" \/&#62;<\/code>.<\/p>\n\n<pre><code>&#60;?php _img(&#039;http:\/\/example.com\/images\/wordpress.png&#039;, &#039;alt&#039;, array(&#039;id&#039; =&#62; &#039;my-image&#039;)) ?&#62;<\/code><\/pre>\n\n<p>generates and returns almost the same tag, just with absolute url, id and alt attributes set manually.<\/p>\n\n<pre><code>&#60;?php select(&#039;category&#039;, collection2options(get_terms(&#039;category&#039;), &#039;term_id&#039;, &#039;name&#039;), $term-&#62;term_id) ?&#62;<\/code><\/pre>\n\n<p>generates select tag with options taken from WP 'category' taxonomy and sets $term as selected item<\/p>\n\n<pre><code>&#60;?php cycle(array(&#039;odd&#039;, &#039;even&#039;)); reset_cycle(); ?&#62;<\/code><\/pre>\n\n<p>rails-like \"cycle\" that r",
+                "uid": "47286"
+            },
+            "0.2.1": {
+                "name": "wordpress\/html-helpers",
+                "version": "0.2.1",
+                "version_normalized": "0.2.1.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/html-helpers.0.2.1.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>This plugin adds simple HTML tag generation API to WordPress, like these examples:<\/p>\n\n<pre><code>&#60;?php img(&#039;wordpress&#039;); ?&#62;<\/code><\/pre>\n\n<p>generates and prints <code>&#60;img src=\"\/wp-content\/&#60;your-theme&#62;\/images\/wordpress.png\" alt=\"Wordpress\" \/&#62;<\/code>.<\/p>\n\n<pre><code>&#60;?php _img(&#039;http:\/\/example.com\/images\/wordpress.png&#039;, &#039;alt&#039;, array(&#039;id&#039; =&#62; &#039;my-image&#039;)) ?&#62;<\/code><\/pre>\n\n<p>generates and returns almost the same tag, just with absolute url, id and alt attributes set manually.<\/p>\n\n<pre><code>&#60;?php select(&#039;category&#039;, collection2options(get_terms(&#039;category&#039;), &#039;term_id&#039;, &#039;name&#039;), $term-&#62;term_id) ?&#62;<\/code><\/pre>\n\n<p>generates select tag with options taken from WP 'category' taxonomy and sets $term as selected item<\/p>\n\n<pre><code>&#60;?php cycle(array(&#039;odd&#039;, &#039;even&#039;)); reset_cycle(); ?&#62;<\/code><\/pre>\n\n<p>rails-like \"cycle\" that r",
+                "uid": "47285"
+            },
+            "0.2.2": {
+                "name": "wordpress\/html-helpers",
+                "version": "0.2.2",
+                "version_normalized": "0.2.2.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/html-helpers.0.2.2.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>This plugin adds simple HTML tag generation API to WordPress, like these examples:<\/p>\n\n<pre><code>&#60;?php img(&#039;wordpress&#039;); ?&#62;<\/code><\/pre>\n\n<p>generates and prints <code>&#60;img src=\"\/wp-content\/&#60;your-theme&#62;\/images\/wordpress.png\" alt=\"Wordpress\" \/&#62;<\/code>.<\/p>\n\n<pre><code>&#60;?php _img(&#039;http:\/\/example.com\/images\/wordpress.png&#039;, &#039;alt&#039;, array(&#039;id&#039; =&#62; &#039;my-image&#039;)) ?&#62;<\/code><\/pre>\n\n<p>generates and returns almost the same tag, just with absolute url, id and alt attributes set manually.<\/p>\n\n<pre><code>&#60;?php select(&#039;category&#039;, collection2options(get_terms(&#039;category&#039;), &#039;term_id&#039;, &#039;name&#039;), $term-&#62;term_id) ?&#62;<\/code><\/pre>\n\n<p>generates select tag with options taken from WP 'category' taxonomy and sets $term as selected item<\/p>\n\n<pre><code>&#60;?php cycle(array(&#039;odd&#039;, &#039;even&#039;)); reset_cycle(); ?&#62;<\/code><\/pre>\n\n<p>rails-like \"cycle\" that r",
+                "uid": "47284"
+            },
+            "0.2.3": {
+                "name": "wordpress\/html-helpers",
+                "version": "0.2.3",
+                "version_normalized": "0.2.3.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/html-helpers.0.2.3.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>This plugin adds simple HTML tag generation API to WordPress, like these examples:<\/p>\n\n<pre><code>&#60;?php img(&#039;wordpress&#039;); ?&#62;<\/code><\/pre>\n\n<p>generates and prints <code>&#60;img src=\"\/wp-content\/&#60;your-theme&#62;\/images\/wordpress.png\" alt=\"Wordpress\" \/&#62;<\/code>.<\/p>\n\n<pre><code>&#60;?php _img(&#039;http:\/\/example.com\/images\/wordpress.png&#039;, &#039;alt&#039;, array(&#039;id&#039; =&#62; &#039;my-image&#039;)) ?&#62;<\/code><\/pre>\n\n<p>generates and returns almost the same tag, just with absolute url, id and alt attributes set manually.<\/p>\n\n<pre><code>&#60;?php select(&#039;category&#039;, collection2options(get_terms(&#039;category&#039;), &#039;term_id&#039;, &#039;name&#039;), $term-&#62;term_id) ?&#62;<\/code><\/pre>\n\n<p>generates select tag with options taken from WP 'category' taxonomy and sets $term as selected item<\/p>\n\n<pre><code>&#60;?php cycle(array(&#039;odd&#039;, &#039;even&#039;)); reset_cycle(); ?&#62;<\/code><\/pre>\n\n<p>rails-like \"cycle\" that r",
+                "uid": "47283"
+            }
+        }
+    }
+}

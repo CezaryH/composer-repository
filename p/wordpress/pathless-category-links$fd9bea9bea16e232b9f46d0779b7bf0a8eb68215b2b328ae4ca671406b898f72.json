@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/pathless-category-links": {
+            "1.1": {
+                "name": "wordpress\/pathless-category-links",
+                "version": "1.1",
+                "version_normalized": "1.1.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/pathless-category-links.1.1.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>This plugin will remove the <em>\/category\/<\/em> base directory that WordPress adds to category links. It&#8217;ll also go beyond that and automatically 301 redirect the old <em>\/category\/<\/em> links to the new, pathless category link.<\/p>\n\n<p>Once installed, the plugin will <strong>automatically<\/strong> change all your category links on the website. You do not need to modify any of your WordPress themes or code.<\/p>\n\n<p>There is also an admin panel that will let you enable\/disable 301 redirects, as well as change the text to remove from the category link.<\/p>\n\n<p><em>Change Log<\/em><\/p>\n\n<p><strong>Version 1.1  (Dec-31-2008)<\/strong> - Added the <code>Update category links with pages<\/code> setting to modify category links that contain <em>\/page\/<\/em> to become <em>\/?paged<\/em>\nVersion 1.0 (Dec-30-2008) - Initial release<\/p>",
+                "uid": "95274"
+            }
+        }
+    }
+}

@@ -1,0 +1,40 @@
+{
+    "packages": {
+        "wordpress\/post-list": {
+            "1.0": {
+                "name": "wordpress\/post-list",
+                "version": "1.0",
+                "version_normalized": "1.0.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/post-list.1.0.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>This plugin can be used to fetch a list of all posts from specific category using shortcode [postslist].\nHere is an example of this:<\/p>\n\n<pre><code>[postlist cat=&#34;cat1,cat2&#34; tags=&#34;tag1,tag2,tag3&#34; requesttype=&#34;1&#34;]<\/code><\/pre>",
+                "uid": "45899"
+            },
+            "1.1": {
+                "name": "wordpress\/post-list",
+                "version": "1.1",
+                "version_normalized": "1.1.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/post-list.1.1.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>This plugin can be used to fetch a list of all posts from specific category using shortcode [postslist].\nHere is an example of this:<\/p>\n\n<pre><code>[postlist cat=&#34;cat1,cat2&#34; tags=&#34;tag1,tag2,tag3&#34; requesttype=&#34;1&#34;]<\/code><\/pre>",
+                "uid": "45898"
+            }
+        }
+    }
+}

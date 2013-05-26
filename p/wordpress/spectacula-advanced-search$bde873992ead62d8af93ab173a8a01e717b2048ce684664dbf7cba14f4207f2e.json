@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/spectacula-advanced-search": {
+            "1.0.3": {
+                "name": "wordpress\/spectacula-advanced-search",
+                "version": "1.0.3",
+                "version_normalized": "1.0.3.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/spectacula-advanced-search.1.0.3.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>This plug-in provides you with more relevant search results than are currently\navailable to the normal Wordpress search and it should also do so with less of a\nperformance hit on the db than the normal Wordpress search. We use the MySQL\ncommands MATCH () AGAINST () as opposed to Wordpress&#8217; use of LIKE to do our\nqueries which are not as heavy on the db. The only issue we have with &#8220;match\nagainst&#8221; is that we need an index on the columns we intend to search on.<\/p>",
+                "uid": "70424"
+            }
+        }
+    }
+}

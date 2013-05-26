@@ -1,0 +1,40 @@
+{
+    "packages": {
+        "wordpress\/modern-media-tweet-shortcode": {
+            "1.0": {
+                "name": "wordpress\/modern-media-tweet-shortcode",
+                "version": "1.0",
+                "version_normalized": "1.0.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/modern-media-tweet-shortcode.1.0.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>This plugin adds a 'tweet' shortcode to embed tweets using Twitter's shortcode format,\nfor example:<\/p>\n\n<p>[tweet <a href=\"https:\/\/twitter.com\/OnionSports\/status\/145262716104351747\" rel=\"nofollow\">https:\/\/twitter.com\/OnionSports\/status\/145262716104351747<\/a> ]<\/p>\n\n<ol>\n<li>The plugin uses Twitter's statuses\/oembed API endpoint to retrieve embedded tweets identified by the id at the end of the url in the shortcode parameter<\/li>\n<li>It caches retrieved tweets on the server to minimize API usage.<\/li>\n<li>Optionally, it adds the necessary javascript from Twitter in document <code>&#60;head&#62;<\/code>.<\/li>\n<li>Allows you to control the width of the embedded tweet.<\/li>\n<li>Fixes a <code>clear:both;<\/code> issue in Twitter's CSS.<\/li>\n<li>Tweet functionality (e.g., retweet and follow buttons) can be displayed in multiple languages.<\/li>\n<\/ol>",
+                "uid": "34218"
+            },
+            "1.0.1": {
+                "name": "wordpress\/modern-media-tweet-shortcode",
+                "version": "1.0.1",
+                "version_normalized": "1.0.1.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/modern-media-tweet-shortcode.1.0.1.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>This plugin adds a 'tweet' shortcode to embed tweets using Twitter's shortcode format,\nfor example:<\/p>\n\n<p>[tweet <a href=\"https:\/\/twitter.com\/OnionSports\/status\/145262716104351747\" rel=\"nofollow\">https:\/\/twitter.com\/OnionSports\/status\/145262716104351747<\/a> ]<\/p>\n\n<ol>\n<li>The plugin uses Twitter's statuses\/oembed API endpoint to retrieve embedded tweets identified by the id at the end of the url in the shortcode parameter<\/li>\n<li>It caches retrieved tweets on the server to minimize API usage.<\/li>\n<li>Optionally, it adds the necessary javascript from Twitter in document <code>&#60;head&#62;<\/code>.<\/li>\n<li>Allows you to control the width of the embedded tweet.<\/li>\n<li>Fixes a <code>clear:both;<\/code> issue in Twitter's CSS.<\/li>\n<li>Tweet functionality (e.g., retweet and follow buttons) can be displayed in multiple languages.<\/li>\n<\/ol>",
+                "uid": "34217"
+            }
+        }
+    }
+}

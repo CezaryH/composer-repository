@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/twentyten-gallery-fix": {
+            "1.0": {
+                "name": "wordpress\/twentyten-gallery-fix",
+                "version": "1.0",
+                "version_normalized": "1.0.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/twentyten-gallery-fix.1.0.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>TwentyTen theme will break galleries with more then 3 columns (also 2 columns galleries look strange). This is a little fix.<\/p>\n\n<p>TwentyTen, the default WordPress theme, removes the default dynamic styles from WordPress galleries, and adds some static CSS, so galleries with anything but 3 columns look broken. <strong>It\u0092s not a WordPress bug<\/strong>, it is TwentyTen specific.<\/p>\n\n<p>What is the problem? TwentyTen theme\u0092s CSS sets all the gallery items width to 33%, so any gallery with more then 3 columns looks broken (the items are thrown on the next row), as the the total width of the gallery excedes the post width (4 x 33% = 132%).<\/p>\n\n<p>This plugin adds some custom classes to galleries (eg. 4 columns: .width-25), and some CSS that fixes the width problem.<\/p>\n\n<p><strong>No configuration needed. Just upload, and install. The galleries will look as they should.<\/strong><\/p>\n\n<p><a href=\"http:\/\/www.decetutorial.net\/2011\/01\/twentyten-gallery-fix.html\">Plugin's page<\/a><\/p>",
+                "uid": "53724"
+            }
+        }
+    }
+}

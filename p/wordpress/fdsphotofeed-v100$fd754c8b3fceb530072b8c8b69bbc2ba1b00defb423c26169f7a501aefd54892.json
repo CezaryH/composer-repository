@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/fdsphotofeed-v100": {
+            "1.0.0": {
+                "name": "wordpress\/fdsphotofeed-v100",
+                "version": "1.0.0",
+                "version_normalized": "1.0.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/fdsphotofeed-v100.1.0.0.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>The fdsPhotoFEED plugin uses the lastRSS class to grab images from a SmugMug, Flickr, Picasa etc RSS feed to display on any wordpress hosted website. It provides access to the images title, description, SmugMug, Flickr, Picasa etc page URL, and the image in any size that SmugMug, Flickr, Picasa etc offers.<\/p>\n\n<p><strong>USAGE:<\/strong>\nyou can do it from any of your post or page. you can set any RSS feed like SmugMug, Picasa, Flickr etc with a limit of how many photos you want in your post\/page. You need to keep in mind that you need to assign to things there:<\/p>\n\n<pre><code>   1. rss uri = feed location\n   2. limit = number of photos to be shown\n<\/code><\/pre>\n\n<p>the plugin will replace only the text within the post\/page which is encoded with a curly brace {} with resulted photos. The remaindered text will be same. Add your RSS Feed in the body of your post or page in the following format<\/p>\n\n<pre><code>{rss uri=http:\/\/seismictalk.smugmug.com\/hack\/feed.mg?Type=nicknameRecentPho",
+                "uid": "97187"
+            }
+        }
+    }
+}

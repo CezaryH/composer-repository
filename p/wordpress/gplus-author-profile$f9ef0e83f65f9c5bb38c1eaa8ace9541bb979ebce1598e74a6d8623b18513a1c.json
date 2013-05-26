@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/gplus-author-profile": {
+            "1.2": {
+                "name": "wordpress\/gplus-author-profile",
+                "version": "1.2",
+                "version_normalized": "1.2.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/gplus-author-profile.1.2.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>Simple plugin to get your author's profile linked in Google. \n Grants autorship photo in Google SERP. Visit blog.ljasinski.pl for more details.\n All settings are per user, change them in your profile.<\/p>\n\n<p>Beware - plugin turns off default user's bio filtering. Don't use it, if you can't\ntrust your users not to harm your website!<\/p>",
+                "uid": "35295"
+            }
+        }
+    }
+}

@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/easy-paygol": {
+            "1.0": {
+                "name": "wordpress\/easy-paygol",
+                "version": "1.0",
+                "version_normalized": "1.0.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/easy-paygol.1.0.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>This plugin allows you to accept donations and payments in your blog using SMS and Phone Call. You simply specify the amount you want to charge, then readers must pay that amount to be able to read the post.<\/p>\n\n<p>You only have to add the shortcode [paygol][\/paygol] before and after the hidden content, this content will only be visible when the user has paid.\nFor example [paygol]This is the hidden content[\/paygol]<\/p>\n\n<p>You can define a different price per each content you want to publish.<\/p>\n\n<p>Go to Settings-&#62;PayGol for more information.<\/p>\n\n<p><strong>Steps<\/strong>\n1.- If you still don't have an account at PayGol please register for free at <a href=\"http:\/\/www.paygol.com\" rel=\"nofollow\">http:\/\/www.paygol.com<\/a>\n2.- You must create a service of type Integrated\n3.- Type the information of the service in the Wordpress plugin administration panel Settings-&#62;PayGol\n  - Type the service ID of your service at PayGol\n  - Copy the next button: <a href=\"http:\/\/www.paygol.co",
+                "uid": "65463"
+            }
+        }
+    }
+}

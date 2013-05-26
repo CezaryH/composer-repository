@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/the-french-archives": {
+            "1.1": {
+                "name": "wordpress\/the-french-archives",
+                "version": "1.1",
+                "version_normalized": "1.1.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/the-french-archives.1.1.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>See also: <a href=\"http:\/\/www.movingtofreedom.org\/2010\/07\/17\/wordpress-plugin-month-grid-and-all-posts-archive\/\" rel=\"nofollow\">http:\/\/www.movingtofreedom.org\/2010\/07\/17\/wordpress-plugin-month-grid-and-all-posts-archive\/<\/a><\/p>\n\n<p>Gives you two different kinds of archives:<\/p>\n\n<p><strong>Month Grid Archive<\/strong><\/p>\n\n<p>Shows monthly post counts, year totals, and a grand total in a grid\/table format, with links to month and year archives. Like this (see also the screenshot!):<\/p>\n\n<pre><code>      Jan Feb Mar Apr May Jun Jul Aug Sep Oct Nov Dec\n2010    2   4   2  21   4   2   3                       38\n2009    2   7   5   5   3   1   9   3   5   5   7   5   57\n                                                        95\n<\/code><\/pre>\n\n<p>If posts all fall within one calendar year, the grand total won't be shown. (The trailing table row will remain.)<\/p>\n\n<p>Call from a template file with:<\/p>\n\n<pre><code>&#60;?php month_grid_archive() ?&#62;\n<\/code><\/pre>\n\n<p>Two optional parame",
+                "uid": "64183"
+            }
+        }
+    }
+}

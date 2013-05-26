@@ -1,0 +1,40 @@
+{
+    "packages": {
+        "wordpress\/mysimpleads-wordpress-ad-manager": {
+            "1.0": {
+                "name": "wordpress\/mysimpleads-wordpress-ad-manager",
+                "version": "1.0",
+                "version_normalized": "1.0.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/mysimpleads-wordpress-ad-manager.1.0.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>The mySimpleAds Wordpress Ad Manager allows you to easily place your mySimpleAds Ads inside your wordpress posts, pages, or even right in your templates.<\/p>\n\n<p>Please Note: This requires mySimpleAds from <a href=\"http:\/\/www.clippersoft.net\/\" title=\"ClipperSoft's mySimpleAds\">ClipperSoft<\/a>.<\/p>\n\n<p>To use ...<\/p>\n\n<p>Posts\/Pages:\nPlace [msa_aid=x] for an Ad ID or [msa_gid=x] for an Ad Group ID in your post, where 'x' is the Ad or Ad Group ID.\nYou can also optionally specify the type of ad code to use - (p) PHP Remote Read, (j) Javascript Injection, (a) Ajax Javascript, like:\n[msa_gid=x,c=a] for Ajax Javascript. If you do not specify, it will use PHP Remote Read by default.<\/p>\n\n<p>Templates:\nPlace msa_show_ad_id($aid,$code); for an Ad ID or msa_show_group_id($gid,$code); for an Ad Group ID in your template PHP code (you may need to surround the function by PHP tags, if it's outside an existing PHP tag section). The $aid is the Ad ID, the $gid is the Ad Group ID, and $code is type",
+                "uid": "58774"
+            },
+            "1.1": {
+                "name": "wordpress\/mysimpleads-wordpress-ad-manager",
+                "version": "1.1",
+                "version_normalized": "1.1.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/mysimpleads-wordpress-ad-manager.1.1.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>The mySimpleAds Wordpress Ad Manager allows you to easily place your mySimpleAds Ads inside your wordpress posts, pages, or even right in your templates.<\/p>\n\n<p>Please Note: This requires mySimpleAds from <a href=\"http:\/\/www.clippersoft.net\/\" title=\"ClipperSoft's mySimpleAds\">ClipperSoft<\/a>.<\/p>\n\n<p>To use ...<\/p>\n\n<p>Posts\/Pages:\nPlace [msa_aid=x] for an Ad ID or [msa_gid=x] for an Ad Group ID in your post, where 'x' is the Ad or Ad Group ID.\nYou can also optionally specify the type of ad code to use - (p) PHP Remote Read, (j) Javascript Injection, (a) Ajax Javascript, like:\n[msa_gid=x,c=a] for Ajax Javascript. If you do not specify, it will use PHP Remote Read by default.<\/p>\n\n<p>Templates:\nPlace msa_show_ad_id($aid,$code); for an Ad ID or msa_show_group_id($gid,$code); for an Ad Group ID in your template PHP code (you may need to surround the function by PHP tags, if it's outside an existing PHP tag section). The $aid is the Ad ID, the $gid is the Ad Group ID, and $code is type",
+                "uid": "58772"
+            }
+        }
+    }
+}

@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/child-page-templates": {
+            "1.0.2": {
+                "name": "wordpress\/child-page-templates",
+                "version": "1.0.2",
+                "version_normalized": "1.0.2.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/child-page-templates.1.0.2.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>Allows theme authors to include templates that will be automatically used based on the page's parent.<\/p>\n\n<p>For example, adding the file \"page-123.php\" to the \"child-page-templates\" folder in your theme directory will define the template for all pages that are children of the page with ID #123. You can also do the same thing with the post's slug.<\/p>\n\n<p>This template file will be used for all pages that are children of the page with ID #123:\n\/wp-content\/themes\/your-awesome-theme\/child-page-templates\/page-123.php<\/p>\n\n<p>This template file will be used for all pages that are children of the page with the \"team\" slug:\n\/wp-content\/themes\/your-awesome-theme\/child-page-templates\/page-team.php<\/p>",
+                "uid": "17469"
+            }
+        }
+    }
+}

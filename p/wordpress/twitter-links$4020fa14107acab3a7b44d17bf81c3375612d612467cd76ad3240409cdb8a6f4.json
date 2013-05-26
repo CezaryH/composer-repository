@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/twitter-links": {
+            "1.0": {
+                "name": "wordpress\/twitter-links",
+                "version": "1.0",
+                "version_normalized": "1.0.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/twitter-links.1.0.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>This plugin will convert valid <a href=\"http:\/\/twitter.com\/\" title=\"Twitter\">Twitter<\/a> usernames mentioned in comments into a link to their Twitter profile page. For example, if somebody mentions \"@mattfreedman\" in their comment, this plugin will check with Twitter to see if the user \"mattfreedman\" exists (which is does) and when it does, it will convert it into \"<a href=\"http:\/\/twitter.com\/mattfreedman\">@mattfreedman<\/a>\".<\/p>\n\n<p><strong>Please note: As this plugin converts usernames on the fly (<em>whenever and everytime<\/em> somebody views the comments), and checks Twitter for every username (to ensure it's valid), I <em>strongly<\/em> recommend using a caching plugin such as <a href=\"http:\/\/wordpress.org\/extend\/plugins\/wp-super-cache\/\" title=\"WP Super Cache\">WP Super Cache<\/a>. Which will not only lessen the load on Twitter's servers, but also speed up page loads.<\/strong><\/p>\n\n<p>Although it says this plugin requires WordPress 2.6, I see no reason why it wouldn't work with ea",
+                "uid": "97168"
+            }
+        }
+    }
+}

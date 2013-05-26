@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/admin-css-mu": {
+            "1": {
+                "name": "wordpress\/admin-css-mu",
+                "version": "1",
+                "version_normalized": "1.0.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/admin-css-mu.1.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>Loads a CSS stylesheet for the WordPress Admin. Can be used with WordPress single install and WordPress multisites. To use this as a must use (mu) plugin, read the installation instructions.<\/p>\n\n<p>There is no admin interface or fancy code.<\/p>\n\n<p>Note: The custom css file have to be moved to wp-content\/themes\/ folder and named custom_admin.css. A sample is provided in the download.<\/p>",
+                "uid": "22642"
+            }
+        }
+    }
+}

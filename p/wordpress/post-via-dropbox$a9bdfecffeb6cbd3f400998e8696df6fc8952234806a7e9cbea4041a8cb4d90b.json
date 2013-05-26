@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/post-via-dropbox": {
+            "1.10": {
+                "name": "wordpress\/post-via-dropbox",
+                "version": "1.10",
+                "version_normalized": "1.10.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/post-via-dropbox.1.10.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p><strong>Post via Dropbox<\/strong> is a easy way to update your blog using <strong>Dropbox<\/strong>, the famous cloud sharing service. It permits to add or edit your posts with text files uploaded via Dropbox.<\/p>\n\n<p>Once you linked your Dropbox Account, you can upload text files into your Dropbox folder for updating your blog. Inside text files you should use some specific tags, like [title] [\/title] and [content] [\/content] for adding or modifying informations of the post (please, read faqs for more information).<\/p>\n\n<p>Everything happens automatically and without further actions on your part.<\/p>\n\n<p>Post via Dropbox requires <strong>Wordpress 3.0 (and above), PHP 5.3.0 (and above) and a Dropbox account<\/strong>.<\/p>",
+                "uid": "15903"
+            }
+        }
+    }
+}

@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/wp-fileman": {
+            "0.0.1": {
+                "name": "wordpress\/wp-fileman",
+                "version": "0.0.1",
+                "version_normalized": "0.0.1.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/wp-fileman.0.0.1.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>This plugin as of now is under heavy development<\/p>\n\n<p>this is a fork of original wp-fileman to have following features (will not have all the features from release one)<\/p>\n\n<ul>\n<li>work directly from plugins folder instead of copy pasting to wp-admin.<\/li>\n<li>Ajax based interface<\/li>\n<li>Code editor for script fles<\/li>\n<li>WYSIWYG editors for html files<\/li>\n<li>Image editor for image files<\/li>\n<\/ul>",
+                "uid": "73462"
+            }
+        }
+    }
+}

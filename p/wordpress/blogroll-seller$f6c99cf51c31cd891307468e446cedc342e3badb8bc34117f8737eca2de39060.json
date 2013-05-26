@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/blogroll-seller": {
+            "1.0": {
+                "name": "wordpress\/blogroll-seller",
+                "version": "1.0",
+                "version_normalized": "1.0.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/blogroll-seller.1.0.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>This plugin allows you to setup an end date when adding a blogroll link. When the link will expire it will automatically be removed\/excluded from the blogroll links so you don't have to manually delete them.<\/p>",
+                "uid": "54472"
+            }
+        }
+    }
+}

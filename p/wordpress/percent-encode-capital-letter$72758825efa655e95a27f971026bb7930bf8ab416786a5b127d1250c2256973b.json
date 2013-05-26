@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/percent-encode-capital-letter": {
+            "1.0.0": {
+                "name": "wordpress\/percent-encode-capital-letter",
+                "version": "1.0.0",
+                "version_normalized": "1.0.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/percent-encode-capital-letter.1.0.0.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>When you use [Options]-[Permalinks]-[Common Options]-[Date and name based], or %postname% in custom URL, entry title will be normalized for fitting to URL permitted letters.\nIf title has non-ASCII letters, those letters cannot be directly put in URL so they are percent-encoded. This is processed in sanitize_title_with_dashes_original() and utf8_uri_encode() .<\/p>\n\n<p>The reason capital letters in percent encoding required is described on RFC3986 section 2.1,<\/p>\n\n<blockquote>The uppercase hexadecimal digits 'A' through 'F' are equivalent to   the lowercase digits 'a' through 'f', respectively.  If two URIs differ only in the case of hexadecimal digits used in percent-encoded octets, they are equivalent.<\/blockquote>\n\n<p>For consistency, URI producers and normalizers should use uppercase hexadecimal digits for all percent-encodings.\nAs you see  RFC2119 section 3, \"should\" means you may ignore it with valid reason.<\/p>\n\n<p>This plugin makes regular URL by which percent encoding was ca",
+                "uid": "52869"
+            }
+        }
+    }
+}

@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/login-alert-notification": {
+            "0.38": {
+                "name": "wordpress\/login-alert-notification",
+                "version": "0.38",
+                "version_normalized": "0.38.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/login-alert-notification.0.38.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>Notification to your Windows, Mac, Tablet PC and Smartphones via Email and push notification services such as Prowl, Notify My Android, im.kayac.com and Pushover if detected someone trying to your WordPress login form.<\/p>",
+                "uid": "5500"
+            }
+        }
+    }
+}

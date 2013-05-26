@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/timber": {
+            "0.8": {
+                "name": "wordpress\/timber",
+                "version": "0.8",
+                "version_normalized": "0.8.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/timber.0.8.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>Timber is a general-purpose error-logging and alert system for Wordpress. It traps and catalogues PHP \nerrors at multiple levels, and provides detailed stack trace and debug information. It integrates with \nthe <a href=\"http:\/\/www.im-web-gefunden.de\/wordpress-plugins\/role-manager\/\">Role Manager<\/a> plugin to allow user \n&#38; role specific permissions to be set to view and\/or clear errors.<\/p>\n\n<p>Timber is intended primarily as a developer's tool, to be enabled in a sandbox environment while debugging \nplugins or themes in-progress. However, it also has potential in a production setting, as a way to hide \nerrors from the end-user while still logging them for administrator review. The configuration settings \nallow for precise control of what type of errors and what error information is logged, so it can be deployed \nin varying scenarios without runaway logs filling the database.<\/p>\n\n<p>Several additional features are planned, and a good deal of real-world testing is still required.",
+                "uid": "89888"
+            }
+        }
+    }
+}

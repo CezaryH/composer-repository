@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/jetpack-photon-for-nextgen-gallery": {
+            "0.2": {
+                "name": "wordpress\/jetpack-photon-for-nextgen-gallery",
+                "version": "0.2",
+                "version_normalized": "0.2.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/jetpack-photon-for-nextgen-gallery.0.2.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>If you're using Jetpack's <a href=\"http:\/\/jetpack.me\/support\/photon\/\">Photon<\/a> CDN, this plugin will extend the service to galleries created with NextGEN Gallery. Just activate it and gallery images are automatically served from Photon.<\/p>\n\n<p>NextGEN Gallery's image size settings are respected, meaning you can update your gallery image sizes on the fly without regenerating images.<\/p>\n\n<p>Leveraging the WordPress.com's cloud, your galleries should load faster and use fewer hosting resources.<\/p>",
+                "uid": "14419"
+            }
+        }
+    }
+}

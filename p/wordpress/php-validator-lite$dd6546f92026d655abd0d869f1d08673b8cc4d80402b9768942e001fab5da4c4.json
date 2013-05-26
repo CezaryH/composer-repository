@@ -1,0 +1,57 @@
+{
+    "packages": {
+        "wordpress\/php-validator-lite": {
+            "1.00": {
+                "name": "wordpress\/php-validator-lite",
+                "version": "1.00",
+                "version_normalized": "1.00.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/php-validator-lite.1.00.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p><em>PHP Validator<\/em> is a developer tool. It scans the file you specify and determines whether you have undefined functions or methods.<\/p>\n\n<p>Why not just run the PHP code, you say? Well, PHP is not a compiled language. It looks for functions during runtime. So if you have a segment of code not covered by your normal testing, and you have an undefined function in there, you will never know of the undefined function until it hits production when the particular conditions activating that particular code segment are met.<\/p>\n\n<p>In my case, in one of the projects I was working on (Easy PayPal, soon to become a WordPress plugin),  I had a few include files defining functions in the global scope. I wanted to refactor them into three different classes and edit my ten or so source files the add <code>$class-&#62;<\/code> wherever necessary. Careful and systematic though I am, I kept missing a few function calls. Finally I got everything working. But I always had this fear that there wer",
+                "uid": "27171"
+            },
+            "1.01": {
+                "name": "wordpress\/php-validator-lite",
+                "version": "1.01",
+                "version_normalized": "1.01.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/php-validator-lite.1.01.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p><em>PHP Validator<\/em> is a developer tool. It scans the file you specify and determines whether you have undefined functions or methods.<\/p>\n\n<p>Why not just run the PHP code, you say? Well, PHP is not a compiled language. It looks for functions during runtime. So if you have a segment of code not covered by your normal testing, and you have an undefined function in there, you will never know of the undefined function until it hits production when the particular conditions activating that particular code segment are met.<\/p>\n\n<p>In my case, in one of the projects I was working on (Easy PayPal, soon to become a WordPress plugin),  I had a few include files defining functions in the global scope. I wanted to refactor them into three different classes and edit my ten or so source files the add <code>$class-&#62;<\/code> wherever necessary. Careful and systematic though I am, I kept missing a few function calls. Finally I got everything working. But I always had this fear that there wer",
+                "uid": "27169"
+            },
+            "1.02": {
+                "name": "wordpress\/php-validator-lite",
+                "version": "1.02",
+                "version_normalized": "1.02.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/php-validator-lite.1.02.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p><em>PHP Validator<\/em> is a developer tool. It scans the file you specify and determines whether you have undefined functions or methods.<\/p>\n\n<p>Why not just run the PHP code, you say? Well, PHP is not a compiled language. It looks for functions during runtime. So if you have a segment of code not covered by your normal testing, and you have an undefined function in there, you will never know of the undefined function until it hits production when the particular conditions activating that particular code segment are met.<\/p>\n\n<p>In my case, in one of the projects I was working on (Easy PayPal, soon to become a WordPress plugin),  I had a few include files defining functions in the global scope. I wanted to refactor them into three different classes and edit my ten or so source files the add <code>$class-&#62;<\/code> wherever necessary. Careful and systematic though I am, I kept missing a few function calls. Finally I got everything working. But I always had this fear that there wer",
+                "uid": "27167"
+            }
+        }
+    }
+}

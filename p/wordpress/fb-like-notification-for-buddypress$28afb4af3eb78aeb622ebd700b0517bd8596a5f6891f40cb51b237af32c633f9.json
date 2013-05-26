@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/fb-like-notification-for-buddypress": {
+            "0.1": {
+                "name": "wordpress\/fb-like-notification-for-buddypress",
+                "version": "0.1",
+                "version_normalized": "0.1.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/fb-like-notification-for-buddypress.0.1.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>The plugin repeatedly checks for new notifications for the loggedin user and if any new notification is found, it does 2 things:<\/p>\n\n<p>1) <strong>Updates the browser window title<\/strong>( e.g: 'members&#124;mydomain.com' becomes '(2) members&#124;mydomain.com' ) and blinks\/switches repeatedly between the old and new title<\/p>\n\n<p>2) <strong>Updates the notification menu:<\/strong><\/p>\n\n<p>&#160;- adds new notification(if any) items to the list<\/p>\n\n<p>&#160;- updates the existing ones(if any). E.g: from 'You have 1 new message' to 'You have 2 new messages'<\/p>\n\n<p>&#160;<\/p>\n\n<p>**Note: **The second (updating notification menu) has been developed according to the markup of default buddybar\/wp-admin bar, so if your theme doesn't have one, or have a custom notification list, it wont work, although the broswer title will update just fine.<\/p>\n\n<p>The plugin is still in testing mode, and i wouldn't suggest you use it on an actual production website straight away.<\/p>\n\n<p>Please report",
+                "uid": "9000"
+            }
+        }
+    }
+}

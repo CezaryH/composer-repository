@@ -1,0 +1,40 @@
+{
+    "packages": {
+        "wordpress\/vuzitwordpress": {
+            "1.0.0": {
+                "name": "wordpress\/vuzitwordpress",
+                "version": "1.0.0",
+                "version_normalized": "1.0.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/vuzitwordpress.1.0.0.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>This plugin allows you to very easily embed a <a href=\"http:\/\/www.vuzit.com\">Vuzit document viewer<\/a> into a WordPress page.  The document needs to be uploaded to the Vuzit web site first.  Go to the web site to learn more.  The basic syntax is below:<\/p>\n\n<p>Basic example by ID:<\/p>\n\n<pre><code>    [vuzit_viewer id=\"DOC_ID\" pub_key=\"PUBLIC_KEY\" pri_key=\"SECRET\"]\n<\/code><\/pre>\n\n<p>Basic example by URL:<\/p>\n\n<pre><code>    [vuzit_viewer url=\"http:\/\/example.com\/test.pdf\" pub_key=\"PUBLIC_KEY\" pri_key=\"SECRET\"]\n<\/code><\/pre>",
+                "uid": "59902"
+            },
+            "1.0.1": {
+                "name": "wordpress\/vuzitwordpress",
+                "version": "1.0.1",
+                "version_normalized": "1.0.1.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/vuzitwordpress.1.0.1.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>This plugin allows you to very easily embed a <a href=\"http:\/\/www.vuzit.com\">Vuzit document viewer<\/a> into a WordPress page.  The document needs to be uploaded to the Vuzit web site first.  Go to the web site to learn more.  The basic syntax is below:<\/p>\n\n<p>Basic example by ID:<\/p>\n\n<pre><code>    [vuzit_viewer id=\"DOC_ID\" pub_key=\"PUBLIC_KEY\" pri_key=\"SECRET\"]\n<\/code><\/pre>\n\n<p>Basic example by URL:<\/p>\n\n<pre><code>    [vuzit_viewer url=\"http:\/\/example.com\/test.pdf\" pub_key=\"PUBLIC_KEY\" pri_key=\"SECRET\"]\n<\/code><\/pre>",
+                "uid": "59901"
+            }
+        }
+    }
+}

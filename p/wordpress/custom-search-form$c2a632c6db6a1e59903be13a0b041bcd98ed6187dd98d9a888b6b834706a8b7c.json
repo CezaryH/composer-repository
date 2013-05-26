@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/custom-search-form": {
+            "1.0": {
+                "name": "wordpress\/custom-search-form",
+                "version": "1.0",
+                "version_normalized": "1.0.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/custom-search-form.1.0.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>Designers often complain of having trouble changing the \"Search\" button text for the search form that appears on the sidebar. I found that, this could only be done by modifying the \/includes\/general-template.php, which is not a good idea as this change had to be done everytime there was an update for wordpress.<\/p>\n\n<p>Therefore I came up with the idea of creating a plugin for the widget - \"search\".<\/p>\n\n<p>This widget lets the admin to modify the title of the search form and the text on the button.<\/p>\n\n<p>This widget can therefore be used instead of the \"search\" widget that comes with wordpress itself.<\/p>\n\n<p>As a drawback - this plugin does not change the form - title or button text of the search form that appears on the search page.<\/p>",
+                "uid": "45791"
+            }
+        }
+    }
+}

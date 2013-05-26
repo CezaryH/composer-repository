@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/latex": {
+            "3.4.6": {
+                "name": "wordpress\/latex",
+                "version": "3.4.6",
+                "version_normalized": "3.4.6.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/latex.3.4.6.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>verion logs:<\/p>\n\n<p>ver 3.4.6 Add a space around the inline formula.<\/p>\n\n<p>ver 3.4: Now you can turn off displaying formula as images. Use this when your server has problem to fetch LaTeX images.<\/p>\n\n<p>ver 3.3: Fix the bug to display LaTeX source code.<\/p>\n\n<p>ver 3.2: Load MathJax only when needed.<\/p>\n\n<p>ver 3.0: Using MathJax and Images to display LaTeX formula.<\/p>\n\n<p>Using MathJax and images, this plugin provides a general and elegant solution to add and display your mathematical fourmula, no matter the visitors are visiting your blog or read from Google Reader.<\/p>\n\n<p>You can type the formula in LaTeX, in title, posts, pages and comments:<\/p>\n\n<ul>\n<li><code>\\(\\alpha+\\beta\\geq\\gamma\\)<\/code> or <code>$$\\alpha+\\beta\\geq\\gamma$$<\/code> add an inline formula<\/li>\n<li><code>\\[\\alpha+\\beta\\geq\\gamma\\]<\/code> or <code>$$!\\alpha+\\beta\\geq\\gamma$$<\/code> add an LaTeX equation in math mode(it will be displayed centerly in a single line).<\/li>\n<li><code>\\(\\alpha+\\beta\\geq\\gamma!",
+                "uid": "105856"
+            }
+        }
+    }
+}

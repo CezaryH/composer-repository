@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/hit-an-external-cron": {
+            "0.1": {
+                "name": "wordpress\/hit-an-external-cron",
+                "version": "0.1",
+                "version_normalized": "0.1.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/hit-an-external-cron.0.1.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>Some hosts suck.  They don't include basic things like cron that plenty of scripts need.  Luckily for us, we can mimic <code>wget <a href=\"http:\/\/example.com\" rel=\"nofollow\">http:\/\/example.com<\/a><\/code> with this plugin.  It's about as simple as plugins get, but should make your life a bit easier.<\/p>",
+                "uid": "72783"
+            }
+        }
+    }
+}

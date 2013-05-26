@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/zd-scribd-ipaper": {
+            "1.0": {
+                "name": "wordpress\/zd-scribd-ipaper",
+                "version": "1.0",
+                "version_normalized": "1.0.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/zd-scribd-ipaper.1.0.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>Embed Scribd supported documents in your wordpress website.<\/p>\n\n<p>You can also choose whether to display document to everyone or only to logged users. If you are using Suma plugin then you can use ZD Scribd iPaper plugin along with Suma. There is option on admin page to turn Suma checking on. If you need any other authentication plugin integration then email me your requirement.<\/p>\n\n<p>You can make few document public and few for loged in user by using 'access' attribute within [scribd] and [scribdlink] shorttags.<\/p>\n\n<p>You can also display document link instead of embedding the ipaper. Upon clicking the link, lightview window will open the document. Next version will have more JavaScript window options like thickbox, fancybox, etc. If you have some suggestion for JavaScript window tools then please email me your suggestions.<\/p>\n\n<h4>Usage<\/h4>\n\n<p>To embed already published scribd document:<\/p>\n\n<p>[scribd id=DOCUMENT_ID_HERE key=ACCESS_KEY_HERE]<\/p>\n\n<p>You can get this tag ",
+                "uid": "85358"
+            }
+        }
+    }
+}

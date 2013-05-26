@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/display-latest-rss-feeds": {
+            "1.0": {
+                "name": "wordpress\/display-latest-rss-feeds",
+                "version": "1.0",
+                "version_normalized": "1.0.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/display-latest-rss-feeds.1.0.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>Display latest feeds from any RSS Feeds accounts. This is very helpful if you want to put to your blog the latest feed blog post of any site.<\/p>\n\n<p>You can use <code>[loq_feeds]<\/code> shortcode in your post editor to be able to display the list of feeds in your post. There is also a widget available for this plugin. You can check it in the widget section.<\/p>",
+                "uid": "15193"
+            }
+        }
+    }
+}

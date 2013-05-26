@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/mv-id-wp-avatar": {
+            "1.0": {
+                "name": "wordpress\/mv-id-wp-avatar",
+                "version": "1.0",
+                "version_normalized": "1.0.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/mv-id-wp-avatar.1.0.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>Taking inspiration from the highly pluggable nature of WordPress, \"MV-ID WP Avatar\" is the first plugin to take advantage of filters in the \"Metaverse ID\" plugin.<\/p>\n\n<p>\"MV-ID WP Avatar\" checks if a identity handled by the Metaverse ID plugin matches the name of a user in the WordPress install. If a match is found, the html output for the identity is modified to replace the identity image with that of the WordPress user avatar!<\/p>",
+                "uid": "66828"
+            }
+        }
+    }
+}

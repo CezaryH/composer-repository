@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/content-mirror": {
+            "1.1": {
+                "name": "wordpress\/content-mirror",
+                "version": "1.1",
+                "version_normalized": "1.1.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/content-mirror.1.1.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>This WordPress plugin makes it possible to show content from one page on another &#8211; it mirrors content. It&#8217;s a very easy to use, but yet a powerful plugin.<\/p>\n\n<p>It takes content from pages, posts and custom post types and shows it on other pages, posts or custom post types. It also works between sites in a Multi-site configuration. For instance, if you have a web site with one site for each language, you only reuse the same information on all sites.<\/p>",
+                "uid": "32300"
+            }
+        }
+    }
+}

@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/bbpress-visual-hooks": {
+            "1.1": {
+                "name": "wordpress\/bbpress-visual-hooks",
+                "version": "1.1",
+                "version_normalized": "1.1.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/bbpress-visual-hooks.1.1.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p><strong>This plugin is for bbPress 2.1+<\/strong>.<\/p>\n\n<p>Output the different bbPress hooks directly on your site for a quick and handy reference.<\/p>\n\n<p>The hooks can temporarily be hidden by passing something in the <code>show_hooks<\/code> variable.<\/p>\n\n<p>Example: yourdomain.com\/forums\/?show_hooks=false<\/p>\n\n<p>Please report any missing hooks or questions!<\/p>",
+                "uid": "28220"
+            }
+        }
+    }
+}

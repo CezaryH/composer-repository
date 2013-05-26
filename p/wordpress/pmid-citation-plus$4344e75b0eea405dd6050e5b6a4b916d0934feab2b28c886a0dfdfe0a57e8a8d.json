@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/pmid-citation-plus": {
+            "1.0.4": {
+                "name": "wordpress\/pmid-citation-plus",
+                "version": "1.0.4",
+                "version_normalized": "1.0.4.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/pmid-citation-plus.1.0.4.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p><strong><a href=\"http:\/\/www.mdpatrick.com\/donate\/\">For $30 I will add your feature and provide support.<\/a><\/strong><\/p>\n\n<p>.. or ..<\/p>\n\n<p><strong><a href=\"https:\/\/github.com\/mdpatrick\/PMID-Citation-Plus\">You can make your own feature and create a pull request on GitHub. This plug is open source.<\/a><\/strong><\/p>\n\n<p>This plugin makes citing scientific studies in an <em>aesthetically pleasing manner<\/em> much more easy.<\/p>\n\n<p>It allows you to simply enter in PubMed IDs on the composition page and have a references list (very similar to Wikipedia's) automatically built for you. At the moment it only supports PMIDs, but in the future will also support citation via DOI.<\/p>\n\n<h4>Features<\/h4>\n\n<ul>\n<li>Creates an input box on your post composition page where you can input PubMed IDs.<\/li>\n<li>PubMed IDs are then stored in the database along with your post, and this data is used to create a references block at the bottom of your post.<\/li>\n<\/ul>",
+                "uid": "47644"
+            }
+        }
+    }
+}

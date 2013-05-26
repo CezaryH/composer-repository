@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/vokativ": {
+            "0.2": {
+                "name": "wordpress\/vokativ",
+                "version": "0.2",
+                "version_normalized": "0.2.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/vokativ.0.2.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>This plugin users currently logged user's display name if any, otherwise it'll use comment author name stored in cookie (if any), transforms it in form of Vokativ, and greets user in natural way in Serbian language, so if you have user named \"Filip\", instead of greeting him with \"Zdravo Filip!\" (\"Hello Filip!\"), this plugin would greet him with \"Zdravo Filipe!\"<\/p>\n\n<p>Only for ex-Yugoslavian bloggers ;)<\/p>",
+                "uid": "79203"
+            }
+        }
+    }
+}

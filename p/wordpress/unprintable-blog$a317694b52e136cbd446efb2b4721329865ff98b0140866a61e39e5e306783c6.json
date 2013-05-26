@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/unprintable-blog": {
+            "1.0": {
+                "name": "wordpress\/unprintable-blog",
+                "version": "1.0",
+                "version_normalized": "1.0.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/unprintable-blog.1.0.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>Unnecessary printing not only means unnecessary cost of paper and inks, but also avoidable environmental impact on producing and shipping these supplies. Reducing printing can make a small but a significant impact. Take action to help reduce paper waste - make your blog \"unprintable\".<\/p>\n\n<p>\"Unprintable Blog\" inserts code in every page that prevents that page from being printed out via the browsers print function. Instead only blank pages are printed, optionally containing a note to not print the page but to use the pdf download instead in order to save the environment. As alternative to printing, Wordpress posts can be downloaded as automatically generated (unprintable) pdf files with optional syntax highlighting.<\/p>\n\n<p>The plugin is based on the wp-mpdf plugin by Florian Krauthan. It uses the PHP libs Geshi and Mpdf and parts from the Wordpress plugins wp_syntax and contuttoPDF.<\/p>",
+                "uid": "56148"
+            }
+        }
+    }
+}

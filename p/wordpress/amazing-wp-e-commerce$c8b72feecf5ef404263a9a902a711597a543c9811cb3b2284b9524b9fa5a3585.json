@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/amazing-wp-e-commerce": {
+            "1.0.1": {
+                "name": "wordpress\/amazing-wp-e-commerce",
+                "version": "1.0.1",
+                "version_normalized": "1.0.1.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/amazing-wp-e-commerce.1.0.1.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>Whilst developing a theme for WP e-Commerce, have you ever thought why there's a template file for a list and a grid view, even though it is disabled in Store settings (Settings - Store - Presentation)?<\/p>\n\n<p>This plugin will enable Grid and List views and will let you to customize the grid view as it is presented in Store settings. Those settings are: Products per row, Show only images, Display Variations, Display Description, Display \"Add to Cart\" Button, Display \"More Detail\" Button.<\/p>\n\n<p>If you have ever looked into wpsc-single_product.php file then you probably have noticed the Gold Cart plugin function in there and it does nothing. Well, I have added functionality for it. With this plugin installed, you will see additional product thumbails under the main thumbnail (screenshot 1).<\/p>\n\n<p>Also it comes with a fancy extra feature: Extra Thumbnails. If your product has more than the featured image, then you can go to products page (catalog) and hover over the product thumbn",
+                "uid": "10234"
+            }
+        }
+    }
+}

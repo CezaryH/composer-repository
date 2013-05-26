@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/wp-restrict-user-add-new-post-capability": {
+            "1.0": {
+                "name": "wordpress\/wp-restrict-user-add-new-post-capability",
+                "version": "1.0",
+                "version_normalized": "1.0.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/wp-restrict-user-add-new-post-capability.1.0.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>This plugin specifically disables all non-admin users (with posting capability), from creating and adding new POSTS from the user dashboard. However, all standard roles \nassigned to the respective user levels (mainly EDITOR and AUTHOR), will remain the same.<\/p>\n\n<p>The \"add new\" submenu item will also be hidden from these users in the user's dashboard.<\/p>",
+                "uid": "16698"
+            }
+        }
+    }
+}

@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/peters-blog-url-shortcodes": {
+            "0.4": {
+                "name": "wordpress\/peters-blog-url-shortcodes",
+                "version": "0.4",
+                "version_normalized": "0.4.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/peters-blog-url-shortcodes.0.4.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>Adds shortcodes [blogurl], [posturl], [templateurl], and [childtemplateurl] for WordPress 2.6 and up. Use [blogurl] to generate your site URL. It offers the parameters \"slash\" and \"noslash\" (to add a trailing slash; [templateurl] and [childtemplateurl] also support this), as well as \"uploads\" to produce the URL of the uploads folder and \"wordpress\" to produce the URL of your WP files. Use [posturl id=3] (replace \"3\" with a post ID) to generate the permalink for any post.<\/p>\n\n<h4>Features<\/h4>\n\n<ul>\n<li><p>[blogurl] will generate <code><a href=\"http:\/\/www.yoursite.com\/\" rel=\"nofollow\">http:\/\/www.yoursite.com\/<\/a><\/code><\/p><\/li>\n<li><p>[blogurl wordpress] will generate the URL to the root of your WordPress files, if they are in a different location than your site root<\/p><\/li>\n<li><p>[blogurl noslash] will generate <code><a href=\"http:\/\/www.yoursite.com\" rel=\"nofollow\">http:\/\/www.yoursite.com<\/a><\/code><\/p><\/li>\n<li><p>[blogurl uploads] will generate <code><a href=\"http:\/\/www.yoursi",
+                "uid": "97090"
+            }
+        }
+    }
+}

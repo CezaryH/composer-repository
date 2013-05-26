@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/tipao": {
+            "1.0.0": {
+                "name": "wordpress\/tipao",
+                "version": "1.0.0",
+                "version_normalized": "1.0.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/tipao.1.0.0.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>Ce plugin permet de pouvoir poster un article ou une page wordpress en m&#234;me temps sur le site de Tipao en quelques clics.\nAfin de pouvoir poster &#233;galement votre article sur Tipao, vous devez renseigner les identifiants de connexion de votre Compte Tipao (Identifiant ou adresse mail, mot de passe) dans la page d'options et mettre &#224; jour.\nVotre ville par d&#233;faut sur Tipao devrait alors appara&#238;tre, cocher la case 'Postez automatiquement?' vous permettra de ne pas cocher la case 'Poster l'article sur tipao?' lors de la cr&#233;ation d'un article\/page.\nIl ne vous restera plus qu'&#224; configurer votre article Tipao en choisissant une cat&#233;gorie ainsi que la ville qui peut &#234;tre modifi&#233;e (en tapant le nom de la ville ou en choisissant dans l'historique des villes).\nEnfin avant de publier, v&#233;rifiez que la case soit bien coch&#233;, un message vous confirmera que l'article est bien post&#233; sur wordpress ainsi que sur Tipao.<\/p>",
+                "uid": "51937"
+            }
+        }
+    }
+}

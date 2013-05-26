@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/force-post-category-selection": {
+            "0.1": {
+                "name": "wordpress\/force-post-category-selection",
+                "version": "0.1",
+                "version_normalized": "0.1.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/force-post-category-selection.0.1.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>This is a simple plugin which is designed to help the posters who some times forget to select the post category and post is published under default category. Once activated, this plugin will force the users to select post category while adding new post to wordpress site. Whenever User tries to publish a post without selecting category, it will give an alert to the user and also highlight the category selection area so that user can see from where to select the post category.\nMoreover, If poster hasn't selected the category while clicking on publish button, it will save the post as draft under default, so no need to worry about loosing the post content in any case due to this plugin.\nI have tested this plugin with wordpress 3.3.1 and it works fine. It should work with older versions of wordpress also.<\/p>",
+                "uid": "26911"
+            }
+        }
+    }
+}

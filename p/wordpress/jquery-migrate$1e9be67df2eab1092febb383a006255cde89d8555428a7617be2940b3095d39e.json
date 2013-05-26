@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/jquery-migrate": {
+            "0.1.0": {
+                "name": "wordpress\/jquery-migrate",
+                "version": "0.1.0",
+                "version_normalized": "0.1.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/jquery-migrate.0.1.0.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>Test your site for potential problems with jQuery 1.9.1 as ships with WordPress 3.6 before 3.6 is released.<\/p>\n\n<p>This plugin will add jquery-migrate.js to your site to prevent plugins and scripts that are using deprecated functions from breaking when you use jQuery 1.9.1.<\/p>\n\n<p>Additionally, for admin users only, a list of errors will be output to the console so you can see which areas need to be fixed. WordPress 3.6 includes jquery-migrate.js for the admin but not the frontend.<\/p>\n\n<p>You can use this plugin in your currect version of WordPress, so you can find out if anything in your jQuery files will break before upgrading to WordPress 3.6<\/p>",
+                "uid": "8182"
+            }
+        }
+    }
+}

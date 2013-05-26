@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/inline-archives": {
+            "0.1": {
+                "name": "wordpress\/inline-archives",
+                "version": "0.1",
+                "version_normalized": "0.1.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/inline-archives.0.1.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>Display your monthly archives compactly by year with individual links to each month. Replacement for <code>wp_get_archives('type=monthly')<\/code><\/p>",
+                "uid": "21064"
+            }
+        }
+    }
+}

@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/easy-tickets": {
+            "1.0": {
+                "name": "wordpress\/easy-tickets",
+                "version": "1.0",
+                "version_normalized": "1.0.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/easy-tickets.1.0.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>ET allows your users to submit their support tickets for a product\/problem\/etc via modified native comment form, to be displayed on a predefined\n blog page. The fields that can be posted are: ticket summay and ticket description. Administrator can then\n approve ticket and set its type (Bug, Enhancement, Feature request, Patch), Status (Open, Assigned, Won't fix, Closed)\n and Priority (Low, Medium, High). This plugin uses custom post type functionality, for providing clean and simple \n interface for editing, even by Quick Edit. For displaying submitted data, a new page with a custom page template must be created;\n an example is enclosed. For deterring spam, all data that are submitted by users who are not administrators,\n  get verified by Akismet and reCaptcha, if present and activated. Should you wan't to use your own submit form, \n  a sample how to do so is provided.<\/p>",
+                "uid": "60479"
+            }
+        }
+    }
+}

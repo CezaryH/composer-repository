@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/tcusers": {
+            "1.0.1": {
+                "name": "wordpress\/tcusers",
+                "version": "1.0.1",
+                "version_normalized": "1.0.1.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/tcusers.1.0.1.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>Plugin for useful reference to TopCoder users (see <a href=\"http:\/\/topcoder.com\/tc\">TopCoder website<\/a>).<\/p>\n\n<ul>\n<li>Use [tcuser]USERNAME[\/tcuser] for reference to user USERNAME.<\/li>\n<li>Use [tcuser color=\"COLOR\"]USERNAME[\/tcuser] for reference to user USERNAME of color COLOR. COLOR may be one of 'orange', 'red', 'yellow', 'blue', 'green', 'gray', 'white' and 'black'. 'Orange' users are TopCoder admins, red to gray ones are rated TC users (from high-rated to low), and black\/white-colored users are unrated. For more details see <a href=\"http:\/\/www.topcoder.com\/wiki\/display\/tc\/Algorithm+Competition+Rating+System\">TopCoder Rating System<\/a>.<\/li>\n<\/ul>\n\n<p>TCUsers is based on <a href=\"http:\/\/wordpress.org\/extend\/plugins\/ljusers\/\">LJUsers<\/a> plugin written by <a href=\"http:\/\/wordpress.org\/extend\/plugins\/profile\/jenyay\">Jenyay<\/a>.<\/p>",
+                "uid": "93229"
+            }
+        }
+    }
+}

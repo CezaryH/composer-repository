@@ -1,0 +1,40 @@
+{
+    "packages": {
+        "wordpress\/smart-map": {
+            "0.8": {
+                "name": "wordpress\/smart-map",
+                "version": "0.8",
+                "version_normalized": "0.8.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/smart-map.0.8.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>This plugin allows you to easily insert Google Maps into your blog, by writing a small string und the adress. The maps can be configured to offer directions to or from the location, show or hide the zoom\/pan controls.\nDieses Plugin kann ganz einfach die Googlemaps karte in deinem Blog einbinden! Ganz einfach durch die Adressangabe und noch einige zusatzinfos wie zoom etc.<\/p>\n\n<p>Howto:\nSinglepoint:<br \/>\n[googleMap]Width&#124;Height&#124;Zoom&#124;control Type&#124;show Type&#124;Location info&#124;Descripton[\/googleMap]\nMultiblepoint:<br \/>\n[googleMap]Location1&#124;Description1[\/googleMap]\n[googleMap]Location2&#124;Description2[\/googleMap]\n....\n[googleMap]Width&#124;Height&#124;Zoom&#124;control Type&#124;show Type&#124;Location3&#124;Description3[\/googleMap]<\/p>\n\n<p>example:\n[googleMap]Dresden&#124;[\/googleMap]\n[googleMap]520&#124;200&#124;8&#124;0&#124;0&#124;Bautzen&#124;[\/googleMap]<\/p>\n\n<p>KMZ-File:<br \/>\n[googleMap]Width&#124;Height&#124;Zoom&#124;control Type&#124;show Typ",
+                "uid": "98764"
+            },
+            "0.9": {
+                "name": "wordpress\/smart-map",
+                "version": "0.9",
+                "version_normalized": "0.9.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/smart-map.0.9.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>This plugin allows you to easily insert Google Maps into your blog, by writing a small string und the adress. The maps can be configured to offer directions to or from the location, show or hide the zoom\/pan controls.\nDieses Plugin kann ganz einfach die Googlemaps karte in deinem Blog einbinden! Ganz einfach durch die Adressangabe und noch einige zusatzinfos wie zoom etc.<\/p>\n\n<p>Howto:\nSinglepoint:<br \/>\n[googleMap]Width&#124;Height&#124;Zoom&#124;control Type&#124;show Type&#124;Location info&#124;Descripton[\/googleMap]\nMultiblepoint:<br \/>\n[googleMap]Location1&#124;Description1[\/googleMap]\n[googleMap]Location2&#124;Description2[\/googleMap]\n....\n[googleMap]Width&#124;Height&#124;Zoom&#124;control Type&#124;show Type&#124;Location3&#124;Description3[\/googleMap]<\/p>\n\n<p>example:\n[googleMap]Dresden&#124;[\/googleMap]\n[googleMap]520&#124;200&#124;8&#124;0&#124;0&#124;Bautzen&#124;[\/googleMap]<\/p>\n\n<p>KMZ-File:<br \/>\n[googleMap]Width&#124;Height&#124;Zoom&#124;control Type&#124;show Typ",
+                "uid": "98763"
+            }
+        }
+    }
+}

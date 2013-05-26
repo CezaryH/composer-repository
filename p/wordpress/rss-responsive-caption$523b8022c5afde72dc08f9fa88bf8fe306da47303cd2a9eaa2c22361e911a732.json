@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/rss-responsive-caption": {
+            "1.0": {
+                "name": "wordpress\/rss-responsive-caption",
+                "version": "1.0",
+                "version_normalized": "1.0.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/rss-responsive-caption.1.0.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>This plugin allows publishers to better control the width of photos that use the WordPress caption shortcode feature, when that content is displayed in RSS feed readers like Google Reader, as displayed on small-screen mobile devices.<\/p>\n\n<p>This plugin accomplishes the same thing that adjusting the \"function img_caption_shortcode\" code in includes\/media.php would, but allows the user to automatically update WordPress without worrying about losing these changes.<\/p>\n\n<p>It is the author's hope that in future releases of WordPress (post 3.3), this plugin will prove unnecessary if (hard-working, responsive-minded) WordPress core developers decide to include the fix in newer versions of the awesome great open source software we have all come to love.<\/p>\n\n<p>The code for this plugin was inspired by code found on this page of the codex: \n<a href=\"http:\/\/codex.wordpress.org\/Function_Reference\/add_filter\">http:\/\/codex.wordpress.org\/Function_Reference\/add_filter<\/a><\/p>\n\n<p>Read more about",
+                "uid": "33553"
+            }
+        }
+    }
+}

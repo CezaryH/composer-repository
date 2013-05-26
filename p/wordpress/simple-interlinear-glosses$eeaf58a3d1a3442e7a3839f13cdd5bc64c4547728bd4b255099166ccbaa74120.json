@@ -1,0 +1,40 @@
+{
+    "packages": {
+        "wordpress\/simple-interlinear-glosses": {
+            "0.2": {
+                "name": "wordpress\/simple-interlinear-glosses",
+                "version": "0.2",
+                "version_normalized": "0.2.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/simple-interlinear-glosses.0.2.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>This is a shortcode plugin that generates interlinear glosses as used in linguistics from an arbitrary number of lines of text in a [gloss][\/gloss] block. This works basically like when you import a CSV file into a stylesheet: The first word of the first line is mapped to the first word of subsequent lines, the second word of the first line is mapped to the second word of the subsequent lines etc. You can specify a delimiting character to splice up individual lines, otherwise lines will be split at word spaces. The alignment of columns is achieved with CSS, and specifically with its floating blocks function. Since this basic functionality is hardcoded, CSS-capable RSS readers won't break your layout. A style.css file in the plugin's folder allows you to make further modifications. See the README.pdf file in the plugin's folder for further demonstrations.<\/p>",
+                "uid": "29846"
+            },
+            "0.2.1": {
+                "name": "wordpress\/simple-interlinear-glosses",
+                "version": "0.2.1",
+                "version_normalized": "0.2.1.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/simple-interlinear-glosses.0.2.1.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>This is a shortcode plugin that generates interlinear glosses as used in linguistics from an arbitrary number of lines of text in a [gloss][\/gloss] block. This works basically like when you import a CSV file into a stylesheet: The first word of the first line is mapped to the first word of subsequent lines, the second word of the first line is mapped to the second word of the subsequent lines etc. You can specify a delimiting character to splice up individual lines, otherwise lines will be split at word spaces. The alignment of columns is achieved with CSS, and specifically with its floating blocks function. Since this basic functionality is hardcoded, CSS-capable RSS readers won't break your layout. A style.css file in the plugin's folder allows you to make further modifications. See the README.pdf file in the plugin's folder for further demonstrations.<\/p>",
+                "uid": "29845"
+            }
+        }
+    }
+}

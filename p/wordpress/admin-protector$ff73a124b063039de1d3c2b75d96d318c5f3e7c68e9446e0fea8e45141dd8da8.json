@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/admin-protector": {
+            "1.0": {
+                "name": "wordpress\/admin-protector",
+                "version": "1.0",
+                "version_normalized": "1.0.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/admin-protector.1.0.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>Admin Protector plugin is useful to keep everyone can access into the admin menu. This plugin uses httaccess file to check user and password. If the user and the password is entered correctly, then the wp-admin pages can be accessed only. if the username and password is entered incorrectly it will appear 401 pages and can not access wp-admin page<\/p>\n\n<p>Protector Admin plugin is still under development by BujanQWorkS, for the next version will be more refined, chears :)<\/p>",
+                "uid": "79714"
+            }
+        }
+    }
+}

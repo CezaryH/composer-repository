@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/librefm-now-playing": {
+            "1.0.1": {
+                "name": "wordpress\/librefm-now-playing",
+                "version": "1.0.1",
+                "version_normalized": "1.0.1.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/librefm-now-playing.1.0.1.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>Libre.fm Now Playing fetches the currently playing track from your <a href=\"http:\/\/libre.fm\" title=\"Libre.fm\">Libre.fm<\/a> account and displays it in a widget, optionally linking it to Libre.fm.<\/p>",
+                "uid": "56814"
+            }
+        }
+    }
+}

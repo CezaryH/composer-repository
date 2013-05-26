@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/geoplugin-currency-shortcode": {
+            "1.0": {
+                "name": "wordpress\/geoplugin-currency-shortcode",
+                "version": "1.0",
+                "version_normalized": "1.0.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/geoplugin-currency-shortcode.1.0.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>Usage:\n [currency]800[\/currency]\n [currency base=\"USD\"]2000[\/currency]<\/p>\n\n<p>Only base=\"XXX\" is supported, where XXX is the three-letter currency code (GBP, USD, EUR etc.)\nThis plugin has GBP as the default base currency. If you want a different default base currency or output format, fork the plugin.<\/p>\n\n<p>The ~ character is included in the output to indicate that it is only an approximate conversion, as the geoplugin.net rates will be different to the rates you might actually use.<\/p>",
+                "uid": "46100"
+            }
+        }
+    }
+}

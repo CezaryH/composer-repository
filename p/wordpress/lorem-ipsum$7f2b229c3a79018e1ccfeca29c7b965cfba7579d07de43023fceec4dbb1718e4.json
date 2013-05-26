@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/lorem-ipsum": {
+            "1.0.0": {
+                "name": "wordpress\/lorem-ipsum",
+                "version": "1.0.0",
+                "version_normalized": "1.0.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/lorem-ipsum.1.0.0.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>This Plugin will print 100 words of Lorem Ipsum text into your post. Usage is [lorem-ipsum], with optional parameter type (html or plain) and words.\n[lorem-ipsum type=\"html\" words=\"200\"] will print 200 words of Lorem Ipsum in html.<\/p>",
+                "uid": "10928"
+            }
+        }
+    }
+}

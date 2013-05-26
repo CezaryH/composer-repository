@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/simple-multisite-login-log": {
+            "0.6": {
+                "name": "wordpress\/simple-multisite-login-log",
+                "version": "0.6",
+                "version_normalized": "0.6.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/simple-multisite-login-log.0.6.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>Provides the ability to track user logins across a WordPress Multisite, Network, or Single site install.<\/p>\n\n<ul>\n<li>Single site admins will only see logins specific to their site<\/li>\n<li>Network administrators will see logins across the entire network. ( Note that here the network admin is for a network inside a multisite, such as with wp-multi-network )<\/li>\n<li>The Multisite administrator ( over all sites and networks within the network ( I know, confusing right? ) ) can see logins across all sites and networks<\/li>\n<\/ul>\n\n<p>For more info on the confusing naming convention see Nacin's post <a href=\"http:\/\/nacin.com\/2010\/03\/25\/terminology-nightmare-blogs-sites-networks\/\" rel=\"nofollow\">http:\/\/nacin.com\/2010\/03\/25\/terminology-nightmare-blogs-sites-networks\/<\/a><\/p>",
+                "uid": "11211"
+            }
+        }
+    }
+}

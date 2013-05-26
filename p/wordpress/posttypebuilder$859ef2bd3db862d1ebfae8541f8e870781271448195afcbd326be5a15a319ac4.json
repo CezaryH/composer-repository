@@ -1,0 +1,91 @@
+{
+    "packages": {
+        "wordpress\/posttypebuilder": {
+            "0.1": {
+                "name": "wordpress\/posttypebuilder",
+                "version": "0.1",
+                "version_normalized": "0.1.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/posttypebuilder.0.1.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>PostTypeBuilder is an Object Relational Mapper connecting directly into the Wordpress engine, and provides handy scaffolding through the Wordpress GUI, as well as <em>data querying<\/em> similar to LINQ and ActiveRecord (Book::find()-&#62;where(...)).<\/p>\n\n<pre><code>class Book extends Entity{\n    \/** @Property *\/\n    public $number_of_pages;\n}<\/code><\/pre>\n\n<pre><code>while(have_posts()){\n    the_post(); $book = new Book($post);\n    \n    echo &#34;&#60;dt&#62;&#34; . $book-&#62;post_title . &#34;&#60;\/dt&#62;&#34;;\n    echo &#34;&#60;dd&#62;&#34; . $book-&#62;number_of_pages . &#34;&#60;\/dd&#62;&#34;;\n}<\/code><\/pre>\n\n<p>Included is the <a href=\"http:\/\/code.google.com\/p\/addendum\/\">Addendum<\/a> library to support @annotations.<\/p>\n\n<p>This plugin saves no information on your system (no database tables, no temporary files). All information is supplied by you in your class files.<\/p>\n\n<p><em>See <a href=\"http:\/\/wordpress.org\/extend\/plugins\/posttypebuilder\/other_notes\/\">Other notes<\/a> f",
+                "uid": "41420"
+            },
+            "0.2": {
+                "name": "wordpress\/posttypebuilder",
+                "version": "0.2",
+                "version_normalized": "0.2.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/posttypebuilder.0.2.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>PostTypeBuilder is an Object Relational Mapper connecting directly into the Wordpress engine, and provides handy scaffolding through the Wordpress GUI, as well as <em>data querying<\/em> similar to LINQ and ActiveRecord (Book::find()-&#62;where(...)).<\/p>\n\n<pre><code>class Book extends Entity{\n    \/** @Property *\/\n    public $number_of_pages;\n}<\/code><\/pre>\n\n<pre><code>while(have_posts()){\n    the_post(); $book = new Book($post);\n    \n    echo &#34;&#60;dt&#62;&#34; . $book-&#62;post_title . &#34;&#60;\/dt&#62;&#34;;\n    echo &#34;&#60;dd&#62;&#34; . $book-&#62;number_of_pages . &#34;&#60;\/dd&#62;&#34;;\n}<\/code><\/pre>\n\n<p>Included is the <a href=\"http:\/\/code.google.com\/p\/addendum\/\">Addendum<\/a> library to support @annotations.<\/p>\n\n<p>This plugin saves no information on your system (no database tables, no temporary files). All information is supplied by you in your class files.<\/p>\n\n<p><em>See <a href=\"http:\/\/wordpress.org\/extend\/plugins\/posttypebuilder\/other_notes\/\">Other notes<\/a> f",
+                "uid": "41419"
+            },
+            "0.3": {
+                "name": "wordpress\/posttypebuilder",
+                "version": "0.3",
+                "version_normalized": "0.3.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/posttypebuilder.0.3.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>PostTypeBuilder is an Object Relational Mapper connecting directly into the Wordpress engine, and provides handy scaffolding through the Wordpress GUI, as well as <em>data querying<\/em> similar to LINQ and ActiveRecord (Book::find()-&#62;where(...)).<\/p>\n\n<pre><code>class Book extends Entity{\n    \/** @Property *\/\n    public $number_of_pages;\n}<\/code><\/pre>\n\n<pre><code>while(have_posts()){\n    the_post(); $book = new Book($post);\n    \n    echo &#34;&#60;dt&#62;&#34; . $book-&#62;post_title . &#34;&#60;\/dt&#62;&#34;;\n    echo &#34;&#60;dd&#62;&#34; . $book-&#62;number_of_pages . &#34;&#60;\/dd&#62;&#34;;\n}<\/code><\/pre>\n\n<p>Included is the <a href=\"http:\/\/code.google.com\/p\/addendum\/\">Addendum<\/a> library to support @annotations.<\/p>\n\n<p>This plugin saves no information on your system (no database tables, no temporary files). All information is supplied by you in your class files.<\/p>\n\n<p><em>See <a href=\"http:\/\/wordpress.org\/extend\/plugins\/posttypebuilder\/other_notes\/\">Other notes<\/a> f",
+                "uid": "41416"
+            },
+            "0.4": {
+                "name": "wordpress\/posttypebuilder",
+                "version": "0.4",
+                "version_normalized": "0.4.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/posttypebuilder.0.4.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>PostTypeBuilder is an Object Relational Mapper connecting directly into the Wordpress engine, and provides handy scaffolding through the Wordpress GUI, as well as <em>data querying<\/em> similar to LINQ and ActiveRecord (Book::find()-&#62;where(...)).<\/p>\n\n<pre><code>class Book extends Entity{\n    \/** @Property *\/\n    public $number_of_pages;\n}<\/code><\/pre>\n\n<pre><code>while(have_posts()){\n    the_post(); $book = new Book($post);\n    \n    echo &#34;&#60;dt&#62;&#34; . $book-&#62;post_title . &#34;&#60;\/dt&#62;&#34;;\n    echo &#34;&#60;dd&#62;&#34; . $book-&#62;number_of_pages . &#34;&#60;\/dd&#62;&#34;;\n}<\/code><\/pre>\n\n<p>Included is the <a href=\"http:\/\/code.google.com\/p\/addendum\/\">Addendum<\/a> library to support @annotations.<\/p>\n\n<p>This plugin saves no information on your system (no database tables, no temporary files). All information is supplied by you in your class files.<\/p>\n\n<p><em>See <a href=\"http:\/\/wordpress.org\/extend\/plugins\/posttypebuilder\/other_notes\/\">Other notes<\/a> f",
+                "uid": "41413"
+            },
+            "0.5": {
+                "name": "wordpress\/posttypebuilder",
+                "version": "0.5",
+                "version_normalized": "0.5.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/posttypebuilder.0.5.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>PostTypeBuilder is an Object Relational Mapper connecting directly into the Wordpress engine, and provides handy scaffolding through the Wordpress GUI, as well as <em>data querying<\/em> similar to LINQ and ActiveRecord (Book::find()-&#62;where(...)).<\/p>\n\n<pre><code>class Book extends Entity{\n    \/** @Property *\/\n    public $number_of_pages;\n}<\/code><\/pre>\n\n<pre><code>while(have_posts()){\n    the_post(); $book = new Book($post);\n    \n    echo &#34;&#60;dt&#62;&#34; . $book-&#62;post_title . &#34;&#60;\/dt&#62;&#34;;\n    echo &#34;&#60;dd&#62;&#34; . $book-&#62;number_of_pages . &#34;&#60;\/dd&#62;&#34;;\n}<\/code><\/pre>\n\n<p>Included is the <a href=\"http:\/\/code.google.com\/p\/addendum\/\">Addendum<\/a> library to support @annotations.<\/p>\n\n<p>This plugin saves no information on your system (no database tables, no temporary files). All information is supplied by you in your class files.<\/p>\n\n<p><em>See <a href=\"http:\/\/wordpress.org\/extend\/plugins\/posttypebuilder\/other_notes\/\">Other notes<\/a> f",
+                "uid": "41410"
+            }
+        }
+    }
+}

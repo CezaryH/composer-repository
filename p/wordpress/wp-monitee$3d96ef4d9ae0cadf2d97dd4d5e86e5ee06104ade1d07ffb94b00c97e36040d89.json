@@ -1,0 +1,40 @@
+{
+    "packages": {
+        "wordpress\/wp-monitee": {
+            "1.0": {
+                "name": "wordpress\/wp-monitee",
+                "version": "1.0",
+                "version_normalized": "1.0.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/wp-monitee.1.0.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>WP-MoniTee allows you to monitor a Teewordls server (one or more). The plugins provides you a widget\nto add in your sidebar. If your theme supports dynamic sidebar, you can add it in the \nAppearance &#62; Widgets menu. If not, you can use the PHP tag <code>&#60;?php wp_monitee(); ?&#62;<\/code> inside a\ntemplate PHP file.<\/p>\n\n<p>For each server, the widget show :<\/p>\n\n<ol>\n<li>Name of the server<\/li>\n<li>Current map<\/li>\n<li>Current game type (DM, TDM or CTF)<\/li>\n<li>Number of players in game<\/li>\n<li>Number of players allowed on the server<\/li>\n<\/ol>\n\n<p>You can configure the widget directly from the widget options or from the dedicated options page.<\/p>\n\n<p>The available options are :<\/p>\n\n<ol>\n<li><strong>Widget title<\/strong><\/li>\n<li><strong>Servers list<\/strong> to monitor<\/li>\n<li><strong>Minimum time in secondes between two requests to the Teeworlds server<\/strong> : the server informations\nare stored in database. For each page served, the plugin checks if the informations ",
+                "uid": "89925"
+            },
+            "1.0.1": {
+                "name": "wordpress\/wp-monitee",
+                "version": "1.0.1",
+                "version_normalized": "1.0.1.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/wp-monitee.1.0.1.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>WP-MoniTee allows you to monitor a Teewordls server (one or more). The plugins provides you a widget\nto add in your sidebar. If your theme supports dynamic sidebar, you can add it in the \nAppearance &#62; Widgets menu. If not, you can use the PHP tag <code>&#60;?php wp_monitee(); ?&#62;<\/code> inside a\ntemplate PHP file.<\/p>\n\n<p>For each server, the widget show :<\/p>\n\n<ol>\n<li>Name of the server<\/li>\n<li>Current map<\/li>\n<li>Current game type (DM, TDM or CTF)<\/li>\n<li>Number of players in game<\/li>\n<li>Number of players allowed on the server<\/li>\n<\/ol>\n\n<p>You can configure the widget directly from the widget options or from the dedicated options page.<\/p>\n\n<p>The available options are :<\/p>\n\n<ol>\n<li><strong>Widget title<\/strong><\/li>\n<li><strong>Servers list<\/strong> to monitor<\/li>\n<li><strong>Minimum time in secondes between two requests to the Teeworlds server<\/strong> : the server informations\nare stored in database. For each page served, the plugin checks if the informations ",
+                "uid": "89922"
+            }
+        }
+    }
+}

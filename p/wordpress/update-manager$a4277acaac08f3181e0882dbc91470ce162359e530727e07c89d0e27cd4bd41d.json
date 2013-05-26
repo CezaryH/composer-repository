@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/update-manager": {
+            "1.8": {
+                "name": "wordpress\/update-manager",
+                "version": "1.8",
+                "version_normalized": "1.8.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/update-manager.1.8.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>Update Manager was a plugin to enable automatic update checking of plugins via the <a href=\"http:\/\/www.wp-plugins.net\">wp-plugins.net<\/a>. Unfortunately the WP-Plugins API has been withdrawn and the plugin no longer works.<\/p>\n\n<p>On the upside, chatter on <a href=\"http:\/\/comox.textdrive.com\/pipermail\/wp-hackers\/2007-May\/012575.html\" rel=\"nofollow\">wp-hackers mailing list<\/a> suggests that a <a href=\"http:\/\/comox.textdrive.com\/pipermail\/wp-hackers\/2007-May\/subject.html\" rel=\"nofollow\">plugin update checker is being developed<\/a> as part of the <a href=\"http:\/\/codex.wordpress.org\/GSoC2007\" rel=\"nofollow\">Google SoC<\/a>.<\/p>\n\n<p>I'll keep an eye out and keep you updated.<\/p>",
+                "uid": "113760"
+            }
+        }
+    }
+}

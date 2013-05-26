@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/picplz-expander": {
+            "1.0": {
+                "name": "wordpress\/picplz-expander",
+                "version": "1.0",
+                "version_normalized": "1.0.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/picplz-expander.1.0.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>This plugin will scan all posts for picplz.com\/xxx links and add a image tag \nto the end of the post showing the picplz image.<\/p>",
+                "uid": "51964"
+            }
+        }
+    }
+}

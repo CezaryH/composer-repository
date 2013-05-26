@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/ratings-shorttags": {
+            "1.5.3": {
+                "name": "wordpress\/ratings-shorttags",
+                "version": "1.5.3",
+                "version_normalized": "1.5.3.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/ratings-shorttags.1.5.3.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>Simple plugin for inserting ratings into WordPress posts. Adds two shortcodes, <code>[rating=5]<\/code> and <code>[relatedratings=4]<\/code>, which allow you to insert:<\/p>\n\n<ul>\n<li>a movie or book rating (a four star rating looks like this: &#9733;&#9733;&#9733;&#9733;)<\/li>\n<li>a list of related posts with similar ratings<\/li>\n<\/ul>",
+                "uid": "91617"
+            }
+        }
+    }
+}

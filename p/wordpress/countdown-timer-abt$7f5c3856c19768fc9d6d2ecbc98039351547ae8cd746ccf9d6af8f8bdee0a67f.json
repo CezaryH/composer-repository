@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/countdown-timer-abt": {
+            "0.7": {
+                "name": "wordpress\/countdown-timer-abt",
+                "version": "0.7",
+                "version_normalized": "0.7.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/countdown-timer-abt.0.7.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>Provides a shortcode\/function to render a countdown timer of the form \"Years until target: X, Months until target: Y, Days until target: Z...\".\nYou can specify the date\/time of the target, as well as output formats with placeholders (including HTML wrappers) all from within the admin options page.\nDisplay result using the shortcode; you can override global options from within the shortcode too.\nBy default, result will be something like <code>\"Months 0\/Days 0\/Years 0; Hours 4:Minutes 59:Seconds 54\"<\/code>.<\/p>",
+                "uid": "29536"
+            }
+        }
+    }
+}

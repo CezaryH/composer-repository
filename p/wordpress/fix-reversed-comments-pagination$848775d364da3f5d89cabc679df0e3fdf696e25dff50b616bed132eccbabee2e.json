@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/fix-reversed-comments-pagination": {
+            "1.0": {
+                "name": "wordpress\/fix-reversed-comments-pagination",
+                "version": "1.0",
+                "version_normalized": "1.0.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/fix-reversed-comments-pagination.1.0.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<h3>What Problem Does This Plugin Fix?<\/h3>\n\n<p>If you have 21 comments on a certain post, and your WordPress discussion settings are:<\/p>\n\n<ol>\n<li>Comments are paginated<\/li>\n<li>20 comments per page<\/li>\n<li>Last page displayed by default<\/li>\n<li>Newer comments displayed at the top of each page<\/li>\n<\/ol>\n\n<p>Then the default page will show only one comment, #21. The second page will show comments 20 to 1.<\/p>\n\n<p>What WordPress should do instead is display comments 21 to 2 on the default page, and 1 on the second page. With the help of this plugin, WordPress will do that.<\/p>\n\n<h3>Installation<\/h3>\n\n<p>After you upload and activate, you must make a minor modification to your theme.<\/p>\n\n<p>In <code>[wp_list_comments](http:\/\/codex.wordpress.org\/Function_Reference\/wp_list_comments)<\/code> of your theme, pass Walker_Comment_Wink class as the \"walker\" -- like this:<\/p>\n\n<pre><code>if (class_exists(&#039;Walker_Comment_Wink&#039;))\n  $walker = new Walker_Comment_Wink();\nelse\n  $walker ",
+                "uid": "49426"
+            }
+        }
+    }
+}

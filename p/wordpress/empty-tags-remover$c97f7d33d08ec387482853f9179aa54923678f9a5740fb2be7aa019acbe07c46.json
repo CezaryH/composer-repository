@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/empty-tags-remover": {
+            "1.0": {
+                "name": "wordpress\/empty-tags-remover",
+                "version": "1.0",
+                "version_normalized": "1.0.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/empty-tags-remover.1.0.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>Empty Tags Remover adds a page called 'Remove empty tags' under 'Posts' admin menu where you can simply remove all the empty tags with just one click.<\/p>",
+                "uid": "85929"
+            }
+        }
+    }
+}

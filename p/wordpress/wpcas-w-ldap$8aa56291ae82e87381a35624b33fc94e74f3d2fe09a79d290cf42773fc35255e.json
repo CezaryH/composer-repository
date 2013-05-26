@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/wpcas-w-ldap": {
+            "1.0": {
+                "name": "wordpress\/wpcas-w-ldap",
+                "version": "1.0",
+                "version_normalized": "1.0.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/wpcas-w-ldap.1.0.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>wpCAS-w-LDAP allows you to use your own CAS architecture to authenticate users in your Wordpress blog. It also allows you to configure an LDAP connection to get user information for user not already members of your WordPress installation.<\/p>\n\n<p>Based largely on <a href=\"http:\/\/wordpress.org\/extend\/plugins\/wpcas\/\">wpCAS<\/a> by <a href=\"http:\/\/maisonbisson.com\/blog\/\">Casey Bisson<\/a>, which was largely based on <a href=\"http:\/\/schwink.net\">Stephen Schwink<\/a>'s <a href=\"http:\/\/wordpress.org\/extend\/plugins\/cas-authentication\/\">CAS Authentication<\/a> plugin.<\/p>\n\n<p><a href=\"http:\/\/en.wikipedia.org\/wiki\/Central_Authentication_Service\">CAS From Wikipedia<\/a>:<\/p>\n\n<blockquote>The Central Authentication Service (CAS) is a single sign-on protocol for the web. Its purpose is to permit a user to log into multiple applications simultaneously and automatically. It also allows untrusted web applications to authenticate users without gaining access to a user's security credentials, such as a p",
+                "uid": "72128"
+            }
+        }
+    }
+}

@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/debuggify": {
+            "1.0": {
+                "name": "wordpress\/debuggify",
+                "version": "1.0",
+                "version_normalized": "1.0.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/debuggify.1.0.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>Debuggify helps to understand whether <strong>something is going wrong<\/strong> when users using your website. It gives detailed overview of a problem and also how many <strong>users affected<\/strong> by that problem.<\/p>\n\n<h4>Recent Updates<\/h4>\n\n<ul>\n<li>Classify Problem with respect to users<\/li>\n<li>Unique User Detection: Able to identify that how many distinct users are affected by a problem<\/li>\n<li>Enabled SSL: We know that data security is important so we are on SSL as well<\/li>\n<li>Track Javascript Errors across all browsers (Chrome, IE 7+, Firefox, Safari, Opera, IOS, Android)<\/li>\n<\/ul>\n\n<h4>Performance<\/h4>\n\n<p>We use industry best practices to make our code as fast and unobtrusive as possible, meaning - for example - that the performance impact is comparable to adding Google Analytics to your site. Because all of the processing and collection runs on our servers and not yours, it doesn't cause any additional load on your hosting account. In addition, our JavaScript is h",
+                "uid": "12266"
+            }
+        }
+    }
+}

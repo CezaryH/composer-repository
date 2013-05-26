@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/pixelines-email-protector": {
+            "1.2.3": {
+                "name": "wordpress\/pixelines-email-protector",
+                "version": "1.2.3",
+                "version_normalized": "1.2.3.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/pixelines-email-protector.1.2.3.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>This plugin provides an unobtrusive yet efficient protection against email harvesters \/ spambots.<\/p>\n\n<p>Post\/page authors may write email addresses in their article in the usual format (\"john@doe.com\") without exposing them to spam email harvesters. The plugin takes care of the obfuscation, implementing a graceful degradation technique focusing on usability so as to protect your email addresses from harvesters while keeping them usable to your human visitors.<\/p>\n\n<p>The plugin replaces any email address found in posts, pages, comments and excerpts, and replace them by a bit of html markup that should deceive most email harvesters: <code>&#60;span class=\"email\"&#62;john(replace the parenthesis by @)doe.com&#60;\/span&#62;<\/code>. \nIf javascript is available, it will display a clickable link and display the original email to the human user. Maximum usability, maximum protection.<\/p>\n\n<p><strong>Please <a href=\"http:\/\/wordpress.org\/extend\/plugins\/pixelines-email-protector\/\">rate the ",
+                "uid": "74624"
+            }
+        }
+    }
+}

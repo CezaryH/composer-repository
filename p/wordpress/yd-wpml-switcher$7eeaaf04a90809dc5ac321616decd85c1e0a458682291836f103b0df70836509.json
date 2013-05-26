@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/yd-wpml-switcher": {
+            "0.1.4": {
+                "name": "wordpress\/yd-wpml-switcher",
+                "version": "0.1.4",
+                "version_normalized": "0.1.4.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/yd-wpml-switcher.0.1.4.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>This plugin is an add-on to the WPML Multilingual CMS plugin from <a href=\"http:\/\/wpml.org\" rel=\"nofollow\">http:\/\/wpml.org<\/a>.<\/p>\n\n<p>Switches the WPML language filters off for specific pages (URLs).<\/p>\n\n<p>Makes it possible to mix contents in different languages on specific pages.<\/p>\n\n<h4>multi-language category function<\/h4>\n\n<p>Use <code>get_cat_in_all_languages( $cat )<\/code> to get a list of translated category IDs in all languages.<\/p>\n\n<p>Usage example:<\/p>\n\n<pre><code>$catlist = join( &#039;,&#039;, YD_WPMLSwitcher::get_cat_in_all_languages( &#039;press releases&#039; ) );\nquery_posts(&#34;cat=$catlist&#34;);<\/code><\/pre>\n\n<p>This will let you display a mixed-language list of posts belonging to a specific category (only operates on pages where WPML filtering is switched off)<\/p>\n\n<h4>Beta version<\/h4>\n\n<p>Right now WPML is switched of for site root URL \/ only.<\/p>\n\n<p>Check the plugin's settings page to switch debug mode on\/off.<\/p>\n\n<h4>Funding Credits<\/h4>\n\n<p>Original",
+                "uid": "55987"
+            }
+        }
+    }
+}

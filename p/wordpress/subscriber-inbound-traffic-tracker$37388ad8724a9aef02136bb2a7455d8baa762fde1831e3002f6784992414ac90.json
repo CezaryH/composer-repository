@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/subscriber-inbound-traffic-tracker": {
+            "1.0": {
+                "name": "wordpress\/subscriber-inbound-traffic-tracker",
+                "version": "1.0",
+                "version_normalized": "1.0.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/subscriber-inbound-traffic-tracker.1.0.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>THE PROBLEM<\/p>\n\n<p>I can&#8217;t directly attribute traffic to my subscribers because they aren&#8217;t segmented in my web analytics.<\/p>\n\n<p>Why? Subscribers coming from offline applications get categorized under &#8220;(direct) ((none))&#8221; in <a href=\"http:\/\/www.google.com\/analytics\/\">Google Analytics<\/a>. I can&#8217;t simply attribute &#8220;(direct) ((none))&#8221; to only subscriber traffic because &#8220;(direct) ((none))&#8221; could include browser bookmarks, direct URL entry, or other apps (such as Twitter apps).<\/p>\n\n<p>THE SOLUTION<\/p>\n\n<p>Automatically tag my RSS permalinks with <a href=\"http:\/\/www.intownwebdesign.com\/google-analytics\/google-analytics-utm-link-tagging-explained.html\">UTM campaign tags<\/a>. Then my subscriber traffic will automatically be segmented in Google Analytics!<\/p>",
+                "uid": "83265"
+            }
+        }
+    }
+}

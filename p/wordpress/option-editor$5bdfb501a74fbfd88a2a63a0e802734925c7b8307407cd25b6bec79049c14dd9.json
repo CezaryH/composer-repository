@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/option-editor": {
+            "1.0": {
+                "name": "wordpress\/option-editor",
+                "version": "1.0",
+                "version_normalized": "1.0.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/option-editor.1.0.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>Allows users to edit the internal WordPress options without digging about the database. If you don't know what that means or think it's a better interface for configuring your WordPress install this isn't for you. You will proably end up breaking your WordPress install. This plugin has a very limited use.<\/p>\n\n<p><em>Requires PHP 5.2 or above<\/em><\/p>",
+                "uid": "52363"
+            }
+        }
+    }
+}

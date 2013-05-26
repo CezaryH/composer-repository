@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/moderation-notify-author": {
+            "1.0": {
+                "name": "wordpress\/moderation-notify-author",
+                "version": "1.0",
+                "version_normalized": "1.0.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/moderation-notify-author.1.0.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>WordPress doesn't automatically notify the author of a post about waiting comments. Instead all comment moderation requests go to the admins.<\/p>\n\n<p>This plugin will notify the author of the post as well as the admin. This will allow the author to moderate the comments too.<\/p>",
+                "uid": "94487"
+            }
+        }
+    }
+}

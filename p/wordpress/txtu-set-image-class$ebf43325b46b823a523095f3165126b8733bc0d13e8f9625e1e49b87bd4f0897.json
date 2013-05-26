@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/txtu-set-image-class": {
+            "1.0.0": {
+                "name": "wordpress\/txtu-set-image-class",
+                "version": "1.0.0",
+                "version_normalized": "1.0.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/txtu-set-image-class.1.0.0.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>TxTu Set Image Class is a WordPress plugin. The plugin is a filter for images found on your WordPress posts \/ pages.\nBefore displaying a post or page on your WordPress blog, it will search for images (identified by the  tag).\nIt will then remove any height, width or align attributes found on the image. Depending on your setting, it will insert\nclass and id attributes in the images<\/p>",
+                "uid": "106763"
+            }
+        }
+    }
+}

@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/list-articles": {
+            "1.0.4": {
+                "name": "wordpress\/list-articles",
+                "version": "1.0.4",
+                "version_normalized": "1.0.4.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/list-articles.1.0.4.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>This plugin is the most effective plugin which easily display your posts and pages and category and also sitemap through shortcode on front end.<\/p>\n\n<p>For Pages Please use this shortcode [pages], if you want to exclude some pages than use [pages excludepage=\"1\"]<\/p>\n\n<p>For Posts Please use this shortcode [posts], if you want to exclude some posts than use [posts excludepost=\"1\"]<\/p>\n\n<p>For Category Please use this shortcode [cat], if you want to exclude some category than use [cat excludecat=\"1\"]<\/p>\n\n<p>If you want to show the sitemap of site so please use this shortcode[sitelist], if you want to exclude some pages or post in sitemap so please use this type [sitelist excludepost=\"1\" excludepage=\"1\"]<\/p>\n\n<p>If you want to hide the posts in sitemap please use this [sitelist showpost=\"no\"]<\/p>\n\n<p>In PHP files please use this type 'do_shortcode('[pages]');'<\/p>\n\n<p>For more plugins, themes and WordPress support , Please visit <a href=\"http:\/\/ascendancytechnologies.co.in\" rel=\"nof",
+                "uid": "8960"
+            }
+        }
+    }
+}

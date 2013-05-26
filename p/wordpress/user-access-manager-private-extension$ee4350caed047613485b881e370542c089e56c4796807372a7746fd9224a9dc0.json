@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/user-access-manager-private-extension": {
+            "0.1": {
+                "name": "wordpress\/user-access-manager-private-extension",
+                "version": "0.1",
+                "version_normalized": "0.1.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/user-access-manager-private-extension.0.1.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>User Access Manager Private Extension (UAMPE) protects parts of the content of your posts from the view of unauthorized users. Unregistered users can't read the information that you mark as private, but you can show them an anternative message to require for register to access the information.\nAlso you can block parts of your posts to some groups or allow some groups to view it, this plugin works connected with User Access Manager plugin and uses groups defined in UAM to block posts. When a user can't access the private part of a post a message an anternative may be displayed.<\/p>\n\n<p><strong>Feature list<\/strong><\/p>\n\n<ul>\n<li>Multiple protected parts in each post<\/li>\n<li>Allow \/ Deny view of the protected parts to one\/multiple groups of users<\/li>\n<li>Use ID or Name to specify UAM groups<\/li>\n<li>Show\/Hide private message in each protected part individually<\/li>\n<li>Show\/Hide not authorized text in each protected part individually<\/li>\n<li>Customizable private message<\/li>\n<li>Cu",
+                "uid": "43034"
+            }
+        }
+    }
+}

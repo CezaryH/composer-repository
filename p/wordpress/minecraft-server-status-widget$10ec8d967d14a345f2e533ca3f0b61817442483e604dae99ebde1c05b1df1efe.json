@@ -1,0 +1,40 @@
+{
+    "packages": {
+        "wordpress\/minecraft-server-status-widget": {
+            "1.1": {
+                "name": "wordpress\/minecraft-server-status-widget",
+                "version": "1.1",
+                "version_normalized": "1.1.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/minecraft-server-status-widget.1.1.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>It show:\nHostName, IP:Port, Version, World, Player online \/ Player max, Player list, Plugin list.\nDont need MineQuery Plugin.\nNeed only enable-query=true line in server.properties.<\/p>",
+                "uid": "23010"
+            },
+            "2.0": {
+                "name": "wordpress\/minecraft-server-status-widget",
+                "version": "2.0",
+                "version_normalized": "2.0.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/minecraft-server-status-widget.2.0.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>It show:\nHostName, IP:Port, Version, World, Player online \/ Player max, Player list, Plugin list.\nDont need MineQuery Plugin.\nNeed only enable-query=true line in server.properties.<\/p>",
+                "uid": "23012"
+            }
+        }
+    }
+}

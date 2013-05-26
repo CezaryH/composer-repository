@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/jsspamblock": {
+            "2.1": {
+                "name": "wordpress\/jsspamblock",
+                "version": "2.1",
+                "version_normalized": "2.1.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/jsspamblock.2.1.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>JSSpamBock is an effective way to reduce comment spam without your commenters even knowing. Users without JavaScript can prove their identity by simply entering a given number. In browsers without JavaScript, the user is simply asked to enter a number to prove they are human.<\/p>",
+                "uid": "112538"
+            }
+        }
+    }
+}

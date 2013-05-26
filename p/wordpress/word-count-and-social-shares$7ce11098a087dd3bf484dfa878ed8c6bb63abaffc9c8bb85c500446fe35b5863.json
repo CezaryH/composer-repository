@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/word-count-and-social-shares": {
+            "0.4": {
+                "name": "wordpress\/word-count-and-social-shares",
+                "version": "0.4",
+                "version_normalized": "0.4.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/word-count-and-social-shares.0.4.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>This Wordpress plugin will work as part of wp-admin and report on correlation between word count and social shares. The objective is to determine optimal post length to ensure most social shares.<\/p>\n\n<p>Social Platform:<\/p>\n\n<ul>\n<li><p>Twitter<\/p><\/li>\n<li><p>Google+<\/p><\/li>\n<li><p>Facebook<\/p><\/li>\n<li><p>LinkedIn<\/p><\/li>\n<\/ul>\n\n<p>Features:<\/p>\n\n<ul>\n<li><p>CSV Export<\/p><\/li>\n<li><p>Display Diagram<\/p><\/li>\n<li><p>Limit report by date range<\/p><\/li>\n<li><p>Total words on the blog (or date range)<\/p><\/li>\n<li><p>Individual post word count (sortable table of posts, word counts, social shares)<\/p><\/li>\n<li><p>Average post length<\/p><\/li>\n<\/ul>",
+                "uid": "9423"
+            }
+        }
+    }
+}

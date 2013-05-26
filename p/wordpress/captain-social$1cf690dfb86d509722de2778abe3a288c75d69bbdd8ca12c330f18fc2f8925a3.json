@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/captain-social": {
+            "1.1.0": {
+                "name": "wordpress\/captain-social",
+                "version": "1.1.0",
+                "version_normalized": "1.1.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/captain-social.1.1.0.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>This is a pretty simple plugin that allows you easily insert nice social media icons in your site! It comes with some nice CSS styling and more importantly, the icons are all RETINA-READY!<\/p>\n\n<p>After installing the plugin you'll have the new Captain Social Settings page found under Settings, where you can enter in the URLs of your social media profiles for the services you use. If you do not enter a URL, that social media icon will just not appear.<\/p>\n\n<p>Once you've added a few of your social media URLs, you need to insert them in your site. There are 2 ways to do this:<\/p>\n\n<ul>\n<li>Firstly, you can do it using PHP - <code>&#60;?php echo ctsocial_icons_template(); ?&#62;<\/code><\/li>\n<li>Secondly, you can insert the icons with the <code>[ctsocial]<\/code> shortcode anywhere you'd like.<\/li>\n<\/ul>\n\n<p><strong>Social Media Sites Included:<\/strong><\/p>\n\n<ul>\n<li>Facebook<\/li>\n<li>Twitter<\/li>\n<li>Tumblr<\/li>\n<li>LinkedIn<\/li>\n<li>Pinterest<\/li>\n<li>Youtube<\/li>\n<li>Vimeo<\/li>\n<li>I",
+                "uid": "15140"
+            }
+        }
+    }
+}

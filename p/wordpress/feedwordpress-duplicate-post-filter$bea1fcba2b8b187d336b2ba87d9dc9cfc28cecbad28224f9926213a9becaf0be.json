@@ -1,0 +1,74 @@
+{
+    "packages": {
+        "wordpress\/feedwordpress-duplicate-post-filter": {
+            "1.0": {
+                "name": "wordpress\/feedwordpress-duplicate-post-filter",
+                "version": "1.0",
+                "version_normalized": "1.0.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/feedwordpress-duplicate-post-filter.1.0.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>This is a filter for the FeedWordPress plugin. <strong>If you don't use FeedWordPress this plugin will not be useful to you.<\/strong><\/p>\n\n<p>I wrote this filter after seeing the same post in my database 32 times.  Maybe you've had the same problem, and I hope this filter helps you solve it.<\/p>\n\n<p>The filter works by hooking the \"syndicated_post\" action of FeedWordPress and the \"save_post\" action in the core of WordPress.<\/p>\n\n<p>For each potential post from a feed, the plugin attempts to find an identical SHA1 hash of the first 1024 non-whitespace characters (stripped of HTML tags) of the post content. \nIf it finds a match the post is skipped. If not, the post is processed and a hash is inserted into the post's metadata. (Stored as key _dpf.)<\/p>\n\n<p><strong>NOTE:<\/strong> No filter is going to be 100% accurate.  This filter will stop <em>most<\/em> or <em>some<\/em> duplicates, but in all likelihood, will not stop <em>all<\/em> of them.\nIf you want a filter that stops <em>all<\/em> ",
+                "uid": "104753"
+            },
+            "1.1": {
+                "name": "wordpress\/feedwordpress-duplicate-post-filter",
+                "version": "1.1",
+                "version_normalized": "1.1.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/feedwordpress-duplicate-post-filter.1.1.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>This is a filter for the FeedWordPress plugin. <strong>If you don't use FeedWordPress this plugin will not be useful to you.<\/strong><\/p>\n\n<p>I wrote this filter after seeing the same post in my database 32 times.  Maybe you've had the same problem, and I hope this filter helps you solve it.<\/p>\n\n<p>The filter works by hooking the \"syndicated_post\" action of FeedWordPress and the \"save_post\" action in the core of WordPress.<\/p>\n\n<p>For each potential post from a feed, the plugin attempts to find an identical SHA1 hash of the first 1024 non-whitespace characters (stripped of HTML tags) of the post content. \nIf it finds a match the post is skipped. If not, the post is processed and a hash is inserted into the post's metadata. (Stored as key _dpf.)<\/p>\n\n<p><strong>NOTE:<\/strong> No filter is going to be 100% accurate.  This filter will stop <em>most<\/em> or <em>some<\/em> duplicates, but in all likelihood, will not stop <em>all<\/em> of them.\nIf you want a filter that stops <em>all<\/em> ",
+                "uid": "104752"
+            },
+            "1.2": {
+                "name": "wordpress\/feedwordpress-duplicate-post-filter",
+                "version": "1.2",
+                "version_normalized": "1.2.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/feedwordpress-duplicate-post-filter.1.2.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>This is a filter for the FeedWordPress plugin. <strong>If you don't use FeedWordPress this plugin will not be useful to you.<\/strong><\/p>\n\n<p>I wrote this filter after seeing the same post in my database 32 times.  Maybe you've had the same problem, and I hope this filter helps you solve it.<\/p>\n\n<p>The filter works by hooking the \"syndicated_post\" action of FeedWordPress and the \"save_post\" action in the core of WordPress.<\/p>\n\n<p>For each potential post from a feed, the plugin attempts to find an identical SHA1 hash of the first 1024 non-whitespace characters (stripped of HTML tags) of the post content. \nIf it finds a match the post is skipped. If not, the post is processed and a hash is inserted into the post's metadata. (Stored as key _dpf.)<\/p>\n\n<p><strong>NOTE:<\/strong> No filter is going to be 100% accurate.  This filter will stop <em>most<\/em> or <em>some<\/em> duplicates, but in all likelihood, will not stop <em>all<\/em> of them.\nIf you want a filter that stops <em>all<\/em> ",
+                "uid": "104751"
+            },
+            "1.5": {
+                "name": "wordpress\/feedwordpress-duplicate-post-filter",
+                "version": "1.5",
+                "version_normalized": "1.5.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/feedwordpress-duplicate-post-filter.1.5.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>This is a filter for the FeedWordPress plugin. <strong>If you don't use FeedWordPress this plugin will not be useful to you.<\/strong><\/p>\n\n<p>I wrote this filter after seeing the same post in my database 32 times.  Maybe you've had the same problem, and I hope this filter helps you solve it.<\/p>\n\n<p>The filter works by hooking the \"syndicated_post\" action of FeedWordPress and the \"save_post\" action in the core of WordPress.<\/p>\n\n<p>For each potential post from a feed, the plugin attempts to find an identical SHA1 hash of the first 1024 non-whitespace characters (stripped of HTML tags) of the post content. \nIf it finds a match the post is skipped. If not, the post is processed and a hash is inserted into the post's metadata. (Stored as key _dpf.)<\/p>\n\n<p><strong>NOTE:<\/strong> No filter is going to be 100% accurate.  This filter will stop <em>most<\/em> or <em>some<\/em> duplicates, but in all likelihood, will not stop <em>all<\/em> of them.\nIf you want a filter that stops <em>all<\/em> ",
+                "uid": "104750"
+            }
+        }
+    }
+}

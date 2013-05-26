@@ -1,0 +1,227 @@
+{
+    "packages": {
+        "wordpress\/pdo-for-wordpress": {
+            "1.0": {
+                "name": "wordpress\/pdo-for-wordpress",
+                "version": "1.0",
+                "version_normalized": "1.0.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/pdo-for-wordpress.1.0.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>Wordpress has for a long time, and for good reasons, been locked into using mysql as its database storage engine.  There is a good discussion of 'why' <a href=\"http:\/\/codex.wordpress.org\/Using_Alternative_Databases#Solutions\/\" title=\"Codex Discussion\">in the codex<\/a><\/p>\n\n<p>But this design choice has ramifications; not least because mysql's implementation of sql is not standard.  Even with the use of the EZSQL abstraction layer bundled with Wordpress, this makes plugging in other databases very difficult.<\/p>\n\n<p>PDO For Wordpress is a step towards eliminating this difficulty.  Think about this 'plugin' in four steps:<\/p>\n\n<ol>\n<li>the basic layer takes all queries and separates out the variables from the language.  It replaces each variable with a placeholder as well as stripping mysql specific 'nasties' like the slash-escaping and backticks.<\/li>\n<li>then a language specific driver steps in and rewrites the query to use its own native constructs or (in the case of SQLite) pushes",
+                "uid": "102532"
+            },
+            "1.0.1": {
+                "name": "wordpress\/pdo-for-wordpress",
+                "version": "1.0.1",
+                "version_normalized": "1.0.1.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/pdo-for-wordpress.1.0.1.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>Wordpress has for a long time, and for good reasons, been locked into using mysql as its database storage engine.  There is a good discussion of 'why' <a href=\"http:\/\/codex.wordpress.org\/Using_Alternative_Databases#Solutions\/\" title=\"Codex Discussion\">in the codex<\/a><\/p>\n\n<p>But this design choice has ramifications; not least because mysql's implementation of sql is not standard.  Even with the use of the EZSQL abstraction layer bundled with Wordpress, this makes plugging in other databases very difficult.<\/p>\n\n<p>PDO For Wordpress is a step towards eliminating this difficulty.  Think about this 'plugin' in four steps:<\/p>\n\n<ol>\n<li>the basic layer takes all queries and separates out the variables from the language.  It replaces each variable with a placeholder as well as stripping mysql specific 'nasties' like the slash-escaping and backticks.<\/li>\n<li>then a language specific driver steps in and rewrites the query to use its own native constructs or (in the case of SQLite) pushes",
+                "uid": "102531"
+            },
+            "1.0.2": {
+                "name": "wordpress\/pdo-for-wordpress",
+                "version": "1.0.2",
+                "version_normalized": "1.0.2.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/pdo-for-wordpress.1.0.2.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>Wordpress has for a long time, and for good reasons, been locked into using mysql as its database storage engine.  There is a good discussion of 'why' <a href=\"http:\/\/codex.wordpress.org\/Using_Alternative_Databases#Solutions\/\" title=\"Codex Discussion\">in the codex<\/a><\/p>\n\n<p>But this design choice has ramifications; not least because mysql's implementation of sql is not standard.  Even with the use of the EZSQL abstraction layer bundled with Wordpress, this makes plugging in other databases very difficult.<\/p>\n\n<p>PDO For Wordpress is a step towards eliminating this difficulty.  Think about this 'plugin' in four steps:<\/p>\n\n<ol>\n<li>the basic layer takes all queries and separates out the variables from the language.  It replaces each variable with a placeholder as well as stripping mysql specific 'nasties' like the slash-escaping and backticks.<\/li>\n<li>then a language specific driver steps in and rewrites the query to use its own native constructs or (in the case of SQLite) pushes",
+                "uid": "102530"
+            },
+            "2.0.0": {
+                "name": "wordpress\/pdo-for-wordpress",
+                "version": "2.0.0",
+                "version_normalized": "2.0.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/pdo-for-wordpress.2.0.0.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>Wordpress has for a long time, and for good reasons, been locked into using mysql as its database storage engine.  There is a good discussion of 'why' <a href=\"http:\/\/codex.wordpress.org\/Using_Alternative_Databases#Solutions\/\" title=\"Codex Discussion\">in the codex<\/a><\/p>\n\n<p>But this design choice has ramifications; not least because mysql's implementation of sql is not standard.  Even with the use of the EZSQL abstraction layer bundled with Wordpress, this makes plugging in other databases very difficult.<\/p>\n\n<p>PDO For Wordpress is a step towards eliminating this difficulty.  Think about this 'plugin' in four steps:<\/p>\n\n<ol>\n<li>the basic layer takes all queries and separates out the variables from the language.  It replaces each variable with a placeholder as well as stripping mysql specific 'nasties' like the slash-escaping and backticks.<\/li>\n<li>then a language specific driver steps in and rewrites the query to use its own native constructs or (in the case of SQLite) pushes",
+                "uid": "102529"
+            },
+            "2.1.0": {
+                "name": "wordpress\/pdo-for-wordpress",
+                "version": "2.1.0",
+                "version_normalized": "2.1.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/pdo-for-wordpress.2.1.0.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>Wordpress has for a long time, and for good reasons, been locked into using mysql as its database storage engine.  There is a good discussion of 'why' <a href=\"http:\/\/codex.wordpress.org\/Using_Alternative_Databases#Solutions\/\" title=\"Codex Discussion\">in the codex<\/a><\/p>\n\n<p>But this design choice has ramifications; not least because mysql's implementation of sql is not standard.  Even with the use of the EZSQL abstraction layer bundled with Wordpress, this makes plugging in other databases very difficult.<\/p>\n\n<p>PDO For Wordpress is a step towards eliminating this difficulty.  Think about this 'plugin' in four steps:<\/p>\n\n<ol>\n<li>the basic layer takes all queries and separates out the variables from the language.  It replaces each variable with a placeholder as well as stripping mysql specific 'nasties' like the slash-escaping and backticks.<\/li>\n<li>then a language specific driver steps in and rewrites the query to use its own native constructs or (in the case of SQLite) pushes",
+                "uid": "102528"
+            },
+            "2.2.0": {
+                "name": "wordpress\/pdo-for-wordpress",
+                "version": "2.2.0",
+                "version_normalized": "2.2.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/pdo-for-wordpress.2.2.0.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>Wordpress has for a long time, and for good reasons, been locked into using mysql as its database storage engine.  There is a good discussion of 'why' <a href=\"http:\/\/codex.wordpress.org\/Using_Alternative_Databases#Solutions\/\" title=\"Codex Discussion\">in the codex<\/a><\/p>\n\n<p>But this design choice has ramifications; not least because mysql's implementation of sql is not standard.  Even with the use of the EZSQL abstraction layer bundled with Wordpress, this makes plugging in other databases very difficult.<\/p>\n\n<p>PDO For Wordpress is a step towards eliminating this difficulty.  Think about this 'plugin' in four steps:<\/p>\n\n<ol>\n<li>the basic layer takes all queries and separates out the variables from the language.  It replaces each variable with a placeholder as well as stripping mysql specific 'nasties' like the slash-escaping and backticks.<\/li>\n<li>then a language specific driver steps in and rewrites the query to use its own native constructs or (in the case of SQLite) pushes",
+                "uid": "102527"
+            },
+            "2.3.0": {
+                "name": "wordpress\/pdo-for-wordpress",
+                "version": "2.3.0",
+                "version_normalized": "2.3.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/pdo-for-wordpress.2.3.0.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>Wordpress has for a long time, and for good reasons, been locked into using mysql as its database storage engine.  There is a good discussion of 'why' <a href=\"http:\/\/codex.wordpress.org\/Using_Alternative_Databases#Solutions\/\" title=\"Codex Discussion\">in the codex<\/a><\/p>\n\n<p>But this design choice has ramifications; not least because mysql's implementation of sql is not standard.  Even with the use of the EZSQL abstraction layer bundled with Wordpress, this makes plugging in other databases very difficult.<\/p>\n\n<p>PDO For Wordpress is a step towards eliminating this difficulty.  Think about this 'plugin' in four steps:<\/p>\n\n<ol>\n<li>the basic layer takes all queries and separates out the variables from the language.  It replaces each variable with a placeholder as well as stripping mysql specific 'nasties' like the slash-escaping and backticks.<\/li>\n<li>then a language specific driver steps in and rewrites the query to use its own native constructs or (in the case of SQLite) pushes",
+                "uid": "102526"
+            },
+            "2.4.0": {
+                "name": "wordpress\/pdo-for-wordpress",
+                "version": "2.4.0",
+                "version_normalized": "2.4.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/pdo-for-wordpress.2.4.0.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>Wordpress has for a long time, and for good reasons, been locked into using mysql as its database storage engine.  There is a good discussion of 'why' <a href=\"http:\/\/codex.wordpress.org\/Using_Alternative_Databases#Solutions\/\" title=\"Codex Discussion\">in the codex<\/a><\/p>\n\n<p>But this design choice has ramifications; not least because mysql's implementation of sql is not standard.  Even with the use of the EZSQL abstraction layer bundled with Wordpress, this makes plugging in other databases very difficult.<\/p>\n\n<p>PDO For Wordpress is a step towards eliminating this difficulty.  Think about this 'plugin' in four steps:<\/p>\n\n<ol>\n<li>the basic layer takes all queries and separates out the variables from the language.  It replaces each variable with a placeholder as well as stripping mysql specific 'nasties' like the slash-escaping and backticks.<\/li>\n<li>then a language specific driver steps in and rewrites the query to use its own native constructs or (in the case of SQLite) pushes",
+                "uid": "102525"
+            },
+            "2.5.0": {
+                "name": "wordpress\/pdo-for-wordpress",
+                "version": "2.5.0",
+                "version_normalized": "2.5.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/pdo-for-wordpress.2.5.0.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>Wordpress has for a long time, and for good reasons, been locked into using mysql as its database storage engine.  There is a good discussion of 'why' <a href=\"http:\/\/codex.wordpress.org\/Using_Alternative_Databases#Solutions\/\" title=\"Codex Discussion\">in the codex<\/a><\/p>\n\n<p>But this design choice has ramifications; not least because mysql's implementation of sql is not standard.  Even with the use of the EZSQL abstraction layer bundled with Wordpress, this makes plugging in other databases very difficult.<\/p>\n\n<p>PDO For Wordpress is a step towards eliminating this difficulty.  Think about this 'plugin' in four steps:<\/p>\n\n<ol>\n<li>the basic layer takes all queries and separates out the variables from the language.  It replaces each variable with a placeholder as well as stripping mysql specific 'nasties' like the slash-escaping and backticks.<\/li>\n<li>then a language specific driver steps in and rewrites the query to use its own native constructs or (in the case of SQLite) pushes",
+                "uid": "102524"
+            },
+            "2.6.0": {
+                "name": "wordpress\/pdo-for-wordpress",
+                "version": "2.6.0",
+                "version_normalized": "2.6.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/pdo-for-wordpress.2.6.0.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>Wordpress has for a long time, and for good reasons, been locked into using mysql as its database storage engine.  There is a good discussion of 'why' <a href=\"http:\/\/codex.wordpress.org\/Using_Alternative_Databases#Solutions\/\" title=\"Codex Discussion\">in the codex<\/a><\/p>\n\n<p>But this design choice has ramifications; not least because mysql's implementation of sql is not standard.  Even with the use of the EZSQL abstraction layer bundled with Wordpress, this makes plugging in other databases very difficult.<\/p>\n\n<p>PDO For Wordpress is a step towards eliminating this difficulty.  Think about this 'plugin' in four steps:<\/p>\n\n<ol>\n<li>the basic layer takes all queries and separates out the variables from the language.  It replaces each variable with a placeholder as well as stripping mysql specific 'nasties' like the slash-escaping and backticks.<\/li>\n<li>then a language specific driver steps in and rewrites the query to use its own native constructs or (in the case of SQLite) pushes",
+                "uid": "102523"
+            },
+            "2.6.1": {
+                "name": "wordpress\/pdo-for-wordpress",
+                "version": "2.6.1",
+                "version_normalized": "2.6.1.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/pdo-for-wordpress.2.6.1.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>Wordpress has for a long time, and for good reasons, been locked into using mysql as its database storage engine.  There is a good discussion of 'why' <a href=\"http:\/\/codex.wordpress.org\/Using_Alternative_Databases#Solutions\/\" title=\"Codex Discussion\">in the codex<\/a><\/p>\n\n<p>But this design choice has ramifications; not least because mysql's implementation of sql is not standard.  Even with the use of the EZSQL abstraction layer bundled with Wordpress, this makes plugging in other databases very difficult.<\/p>\n\n<p>PDO For Wordpress is a step towards eliminating this difficulty.  Think about this 'plugin' in four steps:<\/p>\n\n<ol>\n<li>the basic layer takes all queries and separates out the variables from the language.  It replaces each variable with a placeholder as well as stripping mysql specific 'nasties' like the slash-escaping and backticks.<\/li>\n<li>then a language specific driver steps in and rewrites the query to use its own native constructs or (in the case of SQLite) pushes",
+                "uid": "102522"
+            },
+            "2.7.0": {
+                "name": "wordpress\/pdo-for-wordpress",
+                "version": "2.7.0",
+                "version_normalized": "2.7.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/pdo-for-wordpress.2.7.0.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>Wordpress has for a long time, and for good reasons, been locked into using mysql as its database storage engine.  There is a good discussion of 'why' <a href=\"http:\/\/codex.wordpress.org\/Using_Alternative_Databases#Solutions\/\" title=\"Codex Discussion\">in the codex<\/a><\/p>\n\n<p>But this design choice has ramifications; not least because mysql's implementation of sql is not standard.  Even with the use of the EZSQL abstraction layer bundled with Wordpress, this makes plugging in other databases very difficult.<\/p>\n\n<p>PDO For Wordpress is a step towards eliminating this difficulty.  Think about this 'plugin' in four steps:<\/p>\n\n<ol>\n<li>the basic layer takes all queries and separates out the variables from the language.  It replaces each variable with a placeholder as well as stripping mysql specific 'nasties' like the slash-escaping and backticks.<\/li>\n<li>then a language specific driver steps in and rewrites the query to use its own native constructs or (in the case of SQLite) pushes",
+                "uid": "102520"
+            },
+            "2.8.0": {
+                "name": "wordpress\/pdo-for-wordpress",
+                "version": "2.8.0",
+                "version_normalized": "2.8.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/pdo-for-wordpress.2.8.0.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>Wordpress has for a long time, and for good reasons, been locked into using mysql as its database storage engine.  There is a good discussion of 'why' <a href=\"http:\/\/codex.wordpress.org\/Using_Alternative_Databases#Solutions\/\" title=\"Codex Discussion\">in the codex<\/a><\/p>\n\n<p>But this design choice has ramifications; not least because mysql's implementation of sql is not standard.  Even with the use of the EZSQL abstraction layer bundled with Wordpress, this makes plugging in other databases very difficult.<\/p>\n\n<p>PDO For Wordpress is a step towards eliminating this difficulty.  Think about this 'plugin' in four steps:<\/p>\n\n<ol>\n<li>the basic layer takes all queries and separates out the variables from the language.  It replaces each variable with a placeholder as well as stripping mysql specific 'nasties' like the slash-escaping and backticks.<\/li>\n<li>then a language specific driver steps in and rewrites the query to use its own native constructs or (in the case of SQLite) pushes",
+                "uid": "102521"
+            }
+        }
+    }
+}

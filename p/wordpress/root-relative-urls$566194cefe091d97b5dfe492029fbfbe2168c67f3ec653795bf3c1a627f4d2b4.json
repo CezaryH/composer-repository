@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/root-relative-urls": {
+            "2.3": {
+                "name": "wordpress\/root-relative-urls",
+                "version": "2.3",
+                "version_normalized": "2.3.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/root-relative-urls.2.3.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>A Wordpress plugin that converts all URL formats to root-relative URLs to enable seamless transitioning between staging\/production host environments and debugging\/testing from mobile devices, without the use of hackish tactics like textual find-replace strategies or risky hosts\/NAT spoofing strategies.<\/p>\n\n<p>With Root Relative URLs you can browse your development site from <a href=\"http:\/\/localhost\/\" rel=\"nofollow\">http:\/\/localhost\/<\/a> or <a href=\"http:\/\/127.0.0.1\/\" rel=\"nofollow\">http:\/\/127.0.0.1\/<\/a> or from a named network resource like <a href=\"http:\/\/mycomputername\/\" rel=\"nofollow\">http:\/\/mycomputername\/<\/a> without worrying about links redirecting you back to your site's URL.<\/p>\n\n<p>This plugin also modifies the tinyMCE hooks so links and media embedded with built-in tools will only insert URLs from the first forward slash after the domain (i.e. the root of your site.)  This means when you push content changes to a staging or production environment they are guaranteed to r",
+                "uid": "36509"
+            }
+        }
+    }
+}

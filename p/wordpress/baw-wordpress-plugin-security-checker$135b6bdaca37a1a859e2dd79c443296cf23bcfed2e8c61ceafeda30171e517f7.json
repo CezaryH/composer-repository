@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/baw-wordpress-plugin-security-checker": {
+            "1.0": {
+                "name": "wordpress\/baw-wordpress-plugin-security-checker",
+                "version": "1.0",
+                "version_normalized": "1.0.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/baw-wordpress-plugin-security-checker.1.0.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>This plugin refers to my <a href=\"http:\/\/www.boiteaweb.fr\/cat\/securite\">security blog service<\/a> to check if the desired plugin is secure or not. (You need a free API Key, just click settings then clic the new blue shield link)<\/p>",
+                "uid": "52220"
+            }
+        }
+    }
+}

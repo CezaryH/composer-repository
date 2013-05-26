@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/adfly-wordpress-plugin": {
+            "0.1": {
+                "name": "wordpress\/adfly-wordpress-plugin",
+                "version": "0.1",
+                "version_normalized": "0.1.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/adfly-wordpress-plugin.0.1.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>This plugin insert adfly easylink to your footer automatically  without editing theme file.<\/p>\n\n<p>You will able to:<\/p>\n\n<ul>\n<li>Enable or disable adfly code insertion<\/li>\n<li>Convert all links or outgoing links only to adf.ly<\/li>\n<li><p>Choose ad type: Interstitial or Banner ad<\/p>\n\n<p>You will need adf.ly id. To get it, login to adfly, then go to <a href=\"http:\/\/adf.ly\/tools.php?easylink\">http:\/\/adf.ly\/tools.php?easylink<\/a>\nfind <a href=\"http:\/\/adf.ly\/xxxx\/www.google.com)\" rel=\"nofollow\">http:\/\/adf.ly\/xxxx\/www.google.com)<\/a>. xxxx is your adf.ly id.<\/p><\/li>\n<\/ul>",
+                "uid": "45196"
+            }
+        }
+    }
+}

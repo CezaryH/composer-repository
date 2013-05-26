@@ -1,0 +1,57 @@
+{
+    "packages": {
+        "wordpress\/wp-login-security": {
+            "0.1": {
+                "name": "wordpress\/wp-login-security",
+                "version": "0.1",
+                "version_normalized": "0.1.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/wp-login-security.0.1.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>WP Login Security provides enhanced security for blog administrators by requiring administrators to register or whitelist their IP address.<br \/>\nIf the IP address is not recognized, the plugin will send an email to the blog administrator with a link that contains a one-time key.<\/p>\n\n<p><strong>What does this Plugin do?<\/strong><\/p>\n\n<ol>\n<li>Each time a user logs in, the plugin will compare their existing IP address to the last seen IP address.<\/li>\n<li>If the IP does not match or no IP addresses have been whitelisted, an email will be sent to the users registered email address.<\/li>\n<li>The user must login to their email and click the included link, which contains the one-time password.  Note: passwords expire after <\/li>\n<li>The plugin can be configured to also send an email to the blog administrator as well as the user.  <\/li>\n<\/ol>\n\n<p><strong>Upcoming Features<\/strong><\/p>\n\n<ol>\n<li>Ability to update whitelist from within admin interface.<\/li>\n<li>Custom set expiry time for o",
+                "uid": "64661"
+            },
+            "0.1.1": {
+                "name": "wordpress\/wp-login-security",
+                "version": "0.1.1",
+                "version_normalized": "0.1.1.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/wp-login-security.0.1.1.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>WP Login Security provides enhanced security for blog administrators by requiring administrators to register or whitelist their IP address.<br \/>\nIf the IP address is not recognized, the plugin will send an email to the blog administrator with a link that contains a one-time key.<\/p>\n\n<p><strong>What does this Plugin do?<\/strong><\/p>\n\n<ol>\n<li>Each time a user logs in, the plugin will compare their existing IP address to the last seen IP address.<\/li>\n<li>If the IP does not match or no IP addresses have been whitelisted, an email will be sent to the users registered email address.<\/li>\n<li>The user must login to their email and click the included link, which contains the one-time password.  Note: passwords expire after <\/li>\n<li>The plugin can be configured to also send an email to the blog administrator as well as the user.  <\/li>\n<\/ol>\n\n<p><strong>Upcoming Features<\/strong><\/p>\n\n<ol>\n<li>Ability to update whitelist from within admin interface.<\/li>\n<li>Custom set expiry time for o",
+                "uid": "64660"
+            },
+            "0.1.2": {
+                "name": "wordpress\/wp-login-security",
+                "version": "0.1.2",
+                "version_normalized": "0.1.2.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/wp-login-security.0.1.2.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>WP Login Security provides enhanced security for blog administrators by requiring administrators to register or whitelist their IP address.<br \/>\nIf the IP address is not recognized, the plugin will send an email to the blog administrator with a link that contains a one-time key.<\/p>\n\n<p><strong>What does this Plugin do?<\/strong><\/p>\n\n<ol>\n<li>Each time a user logs in, the plugin will compare their existing IP address to the last seen IP address.<\/li>\n<li>If the IP does not match or no IP addresses have been whitelisted, an email will be sent to the users registered email address.<\/li>\n<li>The user must login to their email and click the included link, which contains the one-time password.  Note: passwords expire after <\/li>\n<li>The plugin can be configured to also send an email to the blog administrator as well as the user.  <\/li>\n<\/ol>\n\n<p><strong>Upcoming Features<\/strong><\/p>\n\n<ol>\n<li>Ability to update whitelist from within admin interface.<\/li>\n<li>Custom set expiry time for o",
+                "uid": "64659"
+            }
+        }
+    }
+}

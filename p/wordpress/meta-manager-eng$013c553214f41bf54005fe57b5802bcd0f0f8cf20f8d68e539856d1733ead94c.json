@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/meta-manager-eng": {
+            "1.0": {
+                "name": "wordpress\/meta-manager-eng",
+                "version": "1.0",
+                "version_normalized": "1.0.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/meta-manager-eng.1.0.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>While publishing a post\/page, you can set:\na) meta-description tag (if you leave that field empty, then the meta-description will use the first ~50 words of a post.) \nb) meta-keywords (if you leave it empty, then it wont be filled automatically)\nc) meta  .<\/p>\n\n<p>NOTICE ! ABOUT  tag:\nmaybe, you already have  tag in your header.php, which automatically generates the xxxxx tag for each post. in this case, you cant use the plugin's ability to set titles of posts, because the plugin checks and sees, that  is already in the page's source.<\/p>\n\n<p>so, if you want to use the plugin's title field, then you should remove the  code from your header.php. \nif you removed that, then now you are able to set each post's title field individually, while publishing a post. (if you leave that field empty, then plugin automatically generates the title).<\/p>",
+                "uid": "13705"
+            }
+        }
+    }
+}

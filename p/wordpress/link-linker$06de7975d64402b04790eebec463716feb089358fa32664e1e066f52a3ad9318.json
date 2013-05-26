@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/link-linker": {
+            "0.6": {
+                "name": "wordpress\/link-linker",
+                "version": "0.6",
+                "version_normalized": "0.6.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/link-linker.0.6.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>If you put pipes (&#124; &#124;) around the text of one of your links (in the link manager), this plugin will link that text to its uri from the links table.<\/p>",
+                "uid": "115075"
+            }
+        }
+    }
+}

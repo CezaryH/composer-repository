@@ -1,0 +1,40 @@
+{
+    "packages": {
+        "wordpress\/yafootnotes": {
+            "1.0": {
+                "name": "wordpress\/yafootnotes",
+                "version": "1.0",
+                "version_normalized": "1.0.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/yafootnotes.1.0.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>Writing a post with footnotes has never been easier and cleaner before. All you need to do is anchor a footnote at any point and then write it on the end of the paragraph or wherever it fits you.<\/p>\n\n<p><strong>Usage<\/strong><\/p>\n\n<p>To anchor a footnote use the {{FOOTNOTE_NUMBER}}. Then to write the body of it you need to embrace it with [[FOOTNOTE_NUMBER]]. Here is an example:<\/p>\n\n<p>------ document starts here -------\nLorem ipsum dolor sit amet, con sectetuer adipiscing elit, sed diam\ntempor incidunt ut labore et dolore magna ali quarn erat volupat.{{1}}\nvenian, quis nostrud exerci tation ullamcorper{{2}} suscipit laboris\ncommodo consequat. Duis autem vel eum irure dolore<\/p>\n\n<p>[[1]]This is the first footnote.[[1]]\n[[2]]This is the second footnote.[[2]]<\/p>\n\n<p>This is the next paragraph. Lorem ipsum dolor sit amet, con sectetuer\nadipiscing elit, sed diam nonnumy nibh euismod tempor incidunt ut\nlabore et dolore magna ali quarn erat volupat. Ut wisi enim ad minim.\n------ docum",
+                "uid": "97011"
+            },
+            "1.1": {
+                "name": "wordpress\/yafootnotes",
+                "version": "1.1",
+                "version_normalized": "1.1.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/yafootnotes.1.1.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>Writing a post with footnotes has never been easier and cleaner before. All you need to do is anchor a footnote at any point and then write it on the end of the paragraph or wherever it fits you.<\/p>\n\n<p><strong>Usage<\/strong><\/p>\n\n<p>To anchor a footnote use the {{FOOTNOTE_NUMBER}}. Then to write the body of it you need to embrace it with [[FOOTNOTE_NUMBER]]. Here is an example:<\/p>\n\n<p>------ document starts here -------\nLorem ipsum dolor sit amet, con sectetuer adipiscing elit, sed diam\ntempor incidunt ut labore et dolore magna ali quarn erat volupat.{{1}}\nvenian, quis nostrud exerci tation ullamcorper{{2}} suscipit laboris\ncommodo consequat. Duis autem vel eum irure dolore<\/p>\n\n<p>[[1]]This is the first footnote.[[1]]\n[[2]]This is the second footnote.[[2]]<\/p>\n\n<p>This is the next paragraph. Lorem ipsum dolor sit amet, con sectetuer\nadipiscing elit, sed diam nonnumy nibh euismod tempor incidunt ut\nlabore et dolore magna ali quarn erat volupat. Ut wisi enim ad minim.\n------ docum",
+                "uid": "97010"
+            }
+        }
+    }
+}

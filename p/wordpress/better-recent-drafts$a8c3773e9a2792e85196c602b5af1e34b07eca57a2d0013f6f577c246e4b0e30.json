@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/better-recent-drafts": {
+            "0.1": {
+                "name": "wordpress\/better-recent-drafts",
+                "version": "0.1",
+                "version_normalized": "0.1.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/better-recent-drafts.0.1.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>Activate the plugin and all users who can edit other users posts (editors and admins) will get a new widget on their dashboard showing all draft and pending posts, pages and any custom post types. The standard 'Recent Drafts' widget is disabled.<\/p>\n\n<p>This makes no changes for subscribers, contributors and authors.<\/p>",
+                "uid": "31860"
+            }
+        }
+    }
+}

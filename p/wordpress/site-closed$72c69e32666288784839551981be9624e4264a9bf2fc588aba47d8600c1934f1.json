@@ -1,0 +1,40 @@
+{
+    "packages": {
+        "wordpress\/site-closed": {
+            "0.2.4": {
+                "name": "wordpress\/site-closed",
+                "version": "0.2.4",
+                "version_normalized": "0.2.4.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/site-closed.0.2.4.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "Site Closed\n\n<p>Lightweight Wordpress plugin that if active will \"close\" a website (every page will display the content of <code>{template-directory}\/maintenance.php<\/code> with 503 headers). Logged in users will be able navigate the site normaly.<\/p>",
+                "uid": "9902"
+            },
+            "0.2.5": {
+                "name": "wordpress\/site-closed",
+                "version": "0.2.5",
+                "version_normalized": "0.2.5.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/site-closed.0.2.5.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "Site Closed\n\n<p>Lightweight Wordpress plugin that if active will \"close\" a website (every page will display the content of <code>{template-directory}\/maintenance.php<\/code> with 503 headers). Logged in users will be able navigate the site normaly.<\/p>",
+                "uid": "9901"
+            }
+        }
+    }
+}

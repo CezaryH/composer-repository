@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/cross-post": {
+            "1.0": {
+                "name": "wordpress\/cross-post",
+                "version": "1.0",
+                "version_normalized": "1.0.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/cross-post.1.0.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>Cross-post is a WordPress MU plugin that allows posts from one blog to be displayed, or cross posted, to other blogs managed within the same instance of MU. The posts are not duplicated to achieve this.<\/p>",
+                "uid": "94999"
+            }
+        }
+    }
+}

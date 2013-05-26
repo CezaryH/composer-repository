@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/wordpress-mu-domain-mapping-cn": {
+            "0.5.1": {
+                "name": "wordpress\/wordpress-mu-domain-mapping-cn",
+                "version": "0.5.1",
+                "version_normalized": "0.5.1.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/wordpress-mu-domain-mapping-cn.0.5.1.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>WordPress MU Domain Mapping Simplified Chinese Language.<\/p>\n\n<p>Translate from Plugin WordPress MU Domain Mapping.<\/p>\n\n<p>URL:http:\/\/wordpress.org\/extend\/plugins\/wordpress-mu-domain-mapping\/<\/p>\n\n<p>This plugin allows users of a WordPress MU site to map their blog to another domain.<\/p>\n\n<p>Site administrators must configure the plugin in Site Admin-&#62;Domain Mapping. You must enter the IP or IP addresses (comma deliminated) of your server on this page. The addresses are purely for documentation purposes so the user knows what they are (so users can set up their DNS correctly). They do nothing special in the plugin, they're only printed for the user to see.<\/p>\n\n<p>Your users should go to Tools-&#62;Domain Mapping where they can add or delete domains. One domain must be set as the primary domain for the blog. When mapping a domain, (like 'example.com') your users must create an A record in their DNS pointing at that IP address. They should use multiple A records if your server u",
+                "uid": "73246"
+            }
+        }
+    }
+}

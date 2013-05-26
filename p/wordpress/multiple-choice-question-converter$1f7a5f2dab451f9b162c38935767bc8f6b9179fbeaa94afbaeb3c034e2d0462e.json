@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/multiple-choice-question-converter": {
+            "1.0.0": {
+                "name": "wordpress\/multiple-choice-question-converter",
+                "version": "1.0.0",
+                "version_normalized": "1.0.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/multiple-choice-question-converter.1.0.0.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>Using this plugin you can create a quick Multiple Choice Quiz. Just Using the simple short codes.<\/p>\n\n<p>Rules are simple:<\/p>\n\n<p>use short code like this<\/p>\n\n<p>[gmc-question]<\/p>\n\n<p>question text on first line.....it shud not spread multiple lines, just the first line.<\/p>\n\n<p>second line must has the right answer.<\/p>\n\n<p>third line wrong answer<\/p>\n\n<p>fourth line wrong answer<\/p>\n\n<p>more lines with wrong answers if any<\/p>\n\n<p>[\/gmc-question]<\/p>\n\n<p>We will update it to save the user feedback soon.<br \/><\/p>\n\n<p>-Santosh Kalra<\/p>\n\n<p>Demo: Demo Url Here<\/p>",
+                "uid": "42301"
+            }
+        }
+    }
+}

@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/add-external-users": {
+            "0.1": {
+                "name": "wordpress\/add-external-users",
+                "version": "0.1",
+                "version_normalized": "0.1.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/add-external-users.0.1.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>If you're using LDAP or some other external authentication source for your\nWordpress MU install, it can be annoying for blog admins to grant access to\nother people.  The usual process requires sending an email and (depending on\nwhether or not the user exists in Wordpress yet) setting a password, but\nthat doesn't make sense in this context.  Users don't need local passwords,\nthere's no need to verify their email addresses, and it shouldn't really\nmatter whether or not a user already exists.<\/p>\n\n<p>This plugin adds a new entry to the Users section of the dashboard that lets\nblog admins simply enter a username, select a role, and grant access.<\/p>\n\n<p>There are a few options that can be set by a Wordpress MU site admin.<\/p>\n\n<ul>\n<li><p>\"Label for menu item\" lets you specify a different label for the item\nthat appears under Users.  If you use the plugin at Foo University, for\nexample, you might want to use \"Add Foo University User.\" The customized\ntext should encourage site admins to ",
+                "uid": "69594"
+            }
+        }
+    }
+}

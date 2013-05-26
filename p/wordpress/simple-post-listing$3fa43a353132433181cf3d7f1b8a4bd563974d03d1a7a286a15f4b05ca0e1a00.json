@@ -1,0 +1,40 @@
+{
+    "packages": {
+        "wordpress\/simple-post-listing": {
+            "0.1": {
+                "name": "wordpress\/simple-post-listing",
+                "version": "0.1",
+                "version_normalized": "0.1.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/simple-post-listing.0.1.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>This is another simple plugin to show a list of posts from your blog.\nUse the <code>[postlist]<\/code> shortcode on any post or page.<\/p>\n\n<p>The shortcode supports several options:<\/p>\n\n<ul>\n<li><p><strong>category<\/strong>: If defined, show posts only from this category.\nSpecify the category using its slug identifier.  If you provide\nmultiple comma-seperated category slugs then they will all be\nincluded.<\/p><\/li>\n<li><p><strong>tag<\/strong>: If defined, show posts only from this tag.  Specify the tag\nusing its slug identifier.  If you provide multiple comma-seperated\ntag slugs then they will all be included.<\/p><\/li>\n<li><p><strong>style<\/strong>: One of <em>list<\/em> (default) or <em>post<\/em>.  If it\nis <em>list<\/em>, then the list style is indented and bulleted.  If it is <em>post<\/em> \nthen the title is promoted to <code>&#60;h2 class=\"upcoming-entry-title\"&#62;<\/code> and\nthe list style is plain.<\/p><\/li>\n<li><p><strong>text<\/strong>: One of <em>none<\/em> (default), <em>excerp",
+                "uid": "30895"
+            },
+            "0.2": {
+                "name": "wordpress\/simple-post-listing",
+                "version": "0.2",
+                "version_normalized": "0.2.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/simple-post-listing.0.2.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>This is another simple plugin to show a list of posts from your blog.\nUse the <code>[postlist]<\/code> shortcode on any post or page.<\/p>\n\n<p>The shortcode supports several options:<\/p>\n\n<ul>\n<li><p><strong>category<\/strong>: If defined, show posts only from this category.\nSpecify the category using its slug identifier.  If you provide\nmultiple comma-seperated category slugs then they will all be\nincluded.<\/p><\/li>\n<li><p><strong>tag<\/strong>: If defined, show posts only from this tag.  Specify the tag\nusing its slug identifier.  If you provide multiple comma-seperated\ntag slugs then they will all be included.<\/p><\/li>\n<li><p><strong>style<\/strong>: One of <em>list<\/em> (default) or <em>post<\/em>.  If it\nis <em>list<\/em>, then the list style is indented and bulleted.  If it is <em>post<\/em> \nthen the title is promoted to <code>&#60;h2 class=\"upcoming-entry-title\"&#62;<\/code> and\nthe list style is plain.<\/p><\/li>\n<li><p><strong>text<\/strong>: One of <em>none<\/em> (default), <em>excerp",
+                "uid": "30894"
+            }
+        }
+    }
+}

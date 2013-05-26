@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/jetpack-shortlinks-for-sharing-buttons": {
+            "1.0": {
+                "name": "wordpress\/jetpack-shortlinks-for-sharing-buttons",
+                "version": "1.0",
+                "version_normalized": "1.0.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/jetpack-shortlinks-for-sharing-buttons.1.0.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>Use shortlinks instead of permalinks in Jetpack sharing buttons<\/p>\n\n<ul>\n<li>If you haven't set up any shortlink plugin on your site, the sharing buttons will use the default numerical permalinks<\/li>\n<li>If you have enabled WP.me Shortlinks in Jetpack, the sharing buttons will use them<\/li>\n<li>If you've installed another plugin to create custom shortlinks, the sharing buttons will use them<\/li>\n<\/ul>\n\n<p>Important: for this plugin to work, you must activate <a href=\"http:\/\/wordpress.org\/extend\/plugins\/jetpack\/\">Jetpack<\/a> first, and activate the Sharing module.<\/p>\n\n<p>This plugin is a work in progress. You can report issues <a href=\"http:\/\/wordpress.org\/support\/plugin\/jetpack-shortlinks-for-sharing-buttons\/\">here<\/a>, or submit a pull request <a href=\"https:\/\/github.com\/jeherve\/jp-sd-custshortlink\">on GitHub<\/a>.<\/p>",
+                "uid": "11928"
+            }
+        }
+    }
+}

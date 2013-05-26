@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/twitter-tools-statusnet": {
+            "1.0.1": {
+                "name": "wordpress\/twitter-tools-statusnet",
+                "version": "1.0.1",
+                "version_normalized": "1.0.1.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/twitter-tools-statusnet.1.0.1.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>This is a plugin to Alex King's Twitter Tools, which adds functionality to cross post tweets to a StatusNet instance.<\/p>\n\n<p>IF YOU DO NOT HAVE TWITTER TOOLS INSTALLED AND ACTIVATED THIS PLUGIN IS WORTHLESS.<\/p>\n\n<p>Sorry for yelling, but that part's really important.<\/p>\n\n<p>NOTE (also important): If the StatusNet instance you're using (for example, Identi.ca) is configured to cross-post\nto Twitter, YOU WILL GET A LOOP AND DUPLICATE POSTS. This is because when you post to Identi.ca, and it\ncross posts to Twitter, Twitter Tools picks that up and reposts it to Twitter and Identi.ca, which then also\nreposts to twitter.<\/p>\n\n<p>DISABLE AUTOMATIC CROSS POSTING TO TWITTER IF YOU USE THIS MODULE!<\/p>\n\n<p>If you install and enable this module, anything you post to Twitter (using SMS, a mobile client, a desktop client, \nusing the API, using the web, or using Twitter Tools itself to post from the sidebar) will also get posted\nto Identi.ca or whatever StatusNet instance you point it at. This",
+                "uid": "80562"
+            }
+        }
+    }
+}

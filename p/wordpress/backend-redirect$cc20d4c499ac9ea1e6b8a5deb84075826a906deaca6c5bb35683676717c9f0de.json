@@ -1,0 +1,40 @@
+{
+    "packages": {
+        "wordpress\/backend-redirect": {
+            "0.1": {
+                "name": "wordpress\/backend-redirect",
+                "version": "0.1",
+                "version_normalized": "0.1.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/backend-redirect.0.1.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>Another simple problem solving plugin. If a user tries to login to wordpress but is not an admin, they are redirected to the homepage.<\/p>\n\n<p>Note that this assumes you have built your own login form - if not, it may be a messy process for 'subscribers' or other roles to log in.<\/p>",
+                "uid": "77728"
+            },
+            "0.2": {
+                "name": "wordpress\/backend-redirect",
+                "version": "0.2",
+                "version_normalized": "0.2.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/backend-redirect.0.2.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>Another simple problem solving plugin. If a user tries to login to wordpress but is not an admin, they are redirected to the homepage.<\/p>\n\n<p>Note that this assumes you have built your own login form - if not, it may be a messy process for 'subscribers' or other roles to log in.<\/p>",
+                "uid": "77727"
+            }
+        }
+    }
+}

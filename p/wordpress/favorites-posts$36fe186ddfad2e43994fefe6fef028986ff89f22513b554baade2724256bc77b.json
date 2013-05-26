@@ -1,0 +1,40 @@
+{
+    "packages": {
+        "wordpress\/favorites-posts": {
+            "1.0": {
+                "name": "wordpress\/favorites-posts",
+                "version": "1.0",
+                "version_normalized": "1.0.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/favorites-posts.1.0.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>Plugin adds a widget that allows to display anounces of selected posts in a special blocks in the sidebar. Supports the display of thumbnails, custom fields, your own styles. Styles may be configured through a separate CSS file.<\/p>\n\n<p>Widget options:<\/p>\n\n<ul>\n<li>Category ID (the desired category ID)<\/li>\n<li>Number of anounces (number of displaying anounces)<\/li>\n<li>Number of chars (number of chars in one anounce)<\/li>\n<li>With custom field (only for anounces with custom fields)<\/li>\n<li>Special style<\/li>\n<li>Show category (displaying or not the name of category)<\/li>\n<li>Show thumbnail<\/li>\n<\/ul>\n\n<p>To insert thumbnail in a block with the announcement, \njust add the appropriate post field 'favpostimg' (lowercase, without quotes) \nand set full path (URL) to image.<\/p>\n\n<p>If you want display only favorites posts that you want, \nthen add in the appropriate post any custom field with any value\n(value of custom field must be not empty) and set this field in widget options. \nIn t",
+                "uid": "77353"
+            },
+            "1.5": {
+                "name": "wordpress\/favorites-posts",
+                "version": "1.5",
+                "version_normalized": "1.5.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/favorites-posts.1.5.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>Plugin adds a widget that allows to display anounces of selected posts in a special blocks in the sidebar. Supports the display of thumbnails, custom fields, your own styles. Styles may be configured through a separate CSS file.<\/p>\n\n<p>Widget options:<\/p>\n\n<ul>\n<li>Category ID (the desired category ID)<\/li>\n<li>Number of anounces (number of displaying anounces)<\/li>\n<li>Number of chars (number of chars in one anounce)<\/li>\n<li>With custom field (only for anounces with custom fields)<\/li>\n<li>Special style<\/li>\n<li>Show category (displaying or not the name of category)<\/li>\n<li>Show thumbnail<\/li>\n<\/ul>\n\n<p>To insert thumbnail in a block with the announcement, \njust add the appropriate post field 'favpostimg' (lowercase, without quotes) \nand set full path (URL) to image.<\/p>\n\n<p>If you want display only favorites posts that you want, \nthen add in the appropriate post any custom field with any value\n(value of custom field must be not empty) and set this field in widget options. \nIn t",
+                "uid": "77352"
+            }
+        }
+    }
+}

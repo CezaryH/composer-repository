@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/kw-livestream-plugin": {
+            "1.0.1": {
+                "name": "wordpress\/kw-livestream-plugin",
+                "version": "1.0.1",
+                "version_normalized": "1.0.1.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/kw-livestream-plugin.1.0.1.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>An ultra light way (4 ko) to connect your Livestream live channel from your livestream account to your Wordpress site and your users. Multiple channel possible if is necessary with multiple shortcode<\/p>\n\n<p>shortcode is an avantage for a multi-site system (Wordpress network) and your users with admin role<\/p>\n\n<p>shortcode<\/p>\n\n<pre><code>[Livestream]<\/code><\/pre>\n\n<p>may take parameters<\/p>\n\n<ul>\n<li>channel (required)<\/li>\n<li>layout<\/li>\n<li>autoplay<\/li>\n<li>width<\/li>\n<li>height<\/li>\n<li>visibility<\/li>\n<li>message<\/li>\n<li>color<\/li>\n<li>mute<\/li>\n<li>iconover<\/li>\n<li>iconcolor<\/li>\n<li>allowchat<\/li>\n<\/ul>\n\n<p>e.g.<\/p>\n\n<pre><code>[livestream channel=&#34;stylecataclysm&#34; layout=&#34;0&#34; visibility=&#34;user only&#34; width=&#34;800&#34; height=&#34;550&#34;]<\/code><\/pre>\n\n<p>parameters definitions and code:<\/p>\n\n<ul>\n<li>channel: channel name of your livestream (required)<\/li>\n<li>layout: can be set from \"0\" to \"6\" (7 layout to test)<\/li>\n<li>some quick example for l",
+                "uid": "38690"
+            }
+        }
+    }
+}

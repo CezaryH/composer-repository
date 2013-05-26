@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/random-tagline": {
+            "1.2": {
+                "name": "wordpress\/random-tagline",
+                "version": "1.2",
+                "version_normalized": "1.2.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/random-tagline.1.2.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>Replaces the tagline on your blog with a random tagline selected from a taglines file you provide.<\/p>\n\n<p>Version 1.2 adds diagnostic information to the settings page.\nVersion 1.1 makes the random tagline consistent throughout a single page display.<\/p>",
+                "uid": "101938"
+            }
+        }
+    }
+}

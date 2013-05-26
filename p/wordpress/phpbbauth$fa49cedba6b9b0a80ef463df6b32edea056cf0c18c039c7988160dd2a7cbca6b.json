@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/phpbbauth": {
+            "1.0": {
+                "name": "wordpress\/phpbbauth",
+                "version": "1.0",
+                "version_normalized": "1.0.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/phpbbauth.1.0.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>This plugin allows to use the password from a working phpBB installation\nto log into a Wordpress blog.<\/p>\n\n<p>You still need to create users in the Wordpress administration panel, but\nthe users may use their phpBB password to log in.<\/p>\n\n<p>Wordpress passwords are still valid to log in.<\/p>\n\n<p>It's important that the Wordpress logins match the <code>username_clean<\/code>\nof the Phpbb users. username_clean doesn't contain any uppercase\ncharacters, nor special ones. Check directly in the DB if in doubt.<\/p>",
+                "uid": "90543"
+            }
+        }
+    }
+}

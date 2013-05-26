@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/my-developed-plugins": {
+            "1.1": {
+                "name": "wordpress\/my-developed-plugins",
+                "version": "1.1",
+                "version_normalized": "1.1.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/my-developed-plugins.1.1.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>This plugin allows you to show at all or only in your dashboard, all plugins that you have write and updated on wordpress plugins directory.<\/p>\n\n<p>You can watch how many downloads in every moment.<\/p>\n\n<p>It is not realy necessary but i think it is usefull for all developer that want to see in real time this type of statistic.<\/p>",
+                "uid": "40585"
+            }
+        }
+    }
+}

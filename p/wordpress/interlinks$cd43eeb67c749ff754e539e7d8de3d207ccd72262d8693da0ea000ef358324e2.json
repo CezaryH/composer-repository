@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/interlinks": {
+            "3.0": {
+                "name": "wordpress\/interlinks",
+                "version": "3.0",
+                "version_normalized": "3.0.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/interlinks.3.0.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>Create internal Wiki-style links in your WordPress blog. Easy to use and once you've started you won't be able to live without it. Simply put [[ and ]] around a post title and it will link to the post in your blog. Also supports [[Post Title&#124;This is a link to a post]] style tags.<\/p>",
+                "uid": "100987"
+            }
+        }
+    }
+}

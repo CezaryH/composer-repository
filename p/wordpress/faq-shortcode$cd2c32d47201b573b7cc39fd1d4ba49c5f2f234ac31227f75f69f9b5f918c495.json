@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/faq-shortcode": {
+            "1.0": {
+                "name": "wordpress\/faq-shortcode",
+                "version": "1.0",
+                "version_normalized": "1.0.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/faq-shortcode.1.0.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>write faq using the regular post interface you familir with, and use a simple shortcode to publish it where you want.\nyou just need to put the shortcode where you want:<\/p>\n\n<pre>\n[faq]\n<\/pre>\n\n<p>or you can use one or all of three adittional parameters:<\/p>\n\n<ul>\n<li>color (heading) - blue or&#160;#0000FF.<\/li>\n<li>width - 300px (example).<\/li>\n<li>publish order - ASC,DSC<\/li>\n<\/ul>\n\n<p>default values are:<\/p>\n\n<ul>\n<li>color - #EEEEEE<\/li>\n<li>width - 600px<\/li>\n<li>order - ASC.  <\/li>\n<\/ul>\n\n<pre>\n[faq width=200px color=red order=dsc]\n<\/pre>\n\n<p>for any question feel free to contact me here:\n<a href=\"http:\/\/wpcoder.co.il\/contact-me.html\" rel=\"nofollow\">http:\/\/wpcoder.co.il\/contact-me.html<\/a><\/p>",
+                "uid": "19248"
+            }
+        }
+    }
+}

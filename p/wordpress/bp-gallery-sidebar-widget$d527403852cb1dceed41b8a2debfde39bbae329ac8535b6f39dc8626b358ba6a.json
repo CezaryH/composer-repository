@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/bp-gallery-sidebar-widget": {
+            "1.2": {
+                "name": "wordpress\/bp-gallery-sidebar-widget",
+                "version": "1.2",
+                "version_normalized": "1.2.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/bp-gallery-sidebar-widget.1.2.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>NOTE:  This plugin works with BP Gallery RC2 and RC3.<\/p>\n\n<p>I needed a sidebar solution to show links to bp-gallery galleries, so I wrote this widget. This widget selects from galleries of\ntype \"photo\".  The widget lets you specify the following parameters<\/p>\n\n<ul>\n<li>Maximum Galleries: the number of galleries to show.  <\/li>\n<li>Gallery Order: choose from Random, Earliest, and Latest<\/li>\n<li>Thumbnail: choose cover, first, or random image to determine which image is used for a thumbail in the sidebar.  Cover image is specified in bp-gallery. <\/li>\n<li>Thumbnail width\/height: the HTML attributes width &#38; height.<\/li>\n<li>Thumbnail padding:  used for padding-right and padding-bottom for each thumbnail<\/li>\n<\/ul>",
+                "uid": "71620"
+            }
+        }
+    }
+}

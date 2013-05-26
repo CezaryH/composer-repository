@@ -1,0 +1,40 @@
+{
+    "packages": {
+        "wordpress\/self-management": {
+            "0.1": {
+                "name": "wordpress\/self-management",
+                "version": "0.1",
+                "version_normalized": "0.1.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/self-management.0.1.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>Plugin for planning and self-management in Wordpress. Creates a shortcode with Eisenhower matrix.<\/p>\n\n<p>Features:\n* creates 'Tasks' menu in the admin area with the list of tasks;\n* each task includes: title, description, comments, status (active, completed), importance (not important, important), urgency (not urgent, urgent);\n* tasks are grouped in special categories named 'projects';\n* you can change task status, importance and urgency both in WordPress admin page and on your website;\n* creates Eisenhower matrix which sorts the tasks by importance and urgency. You can paste the matrix in any post\/page using special shortcode [eisenhower_matrix].\n* creates [to_do_list] shortcode which displays the list of current tasks.<\/p>",
+                "uid": "12535"
+            },
+            "0.2": {
+                "name": "wordpress\/self-management",
+                "version": "0.2",
+                "version_normalized": "0.2.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/self-management.0.2.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>Plugin for planning and self-management in Wordpress. Creates a shortcode with Eisenhower matrix.<\/p>\n\n<p>Features:\n* creates 'Tasks' menu in the admin area with the list of tasks;\n* each task includes: title, description, comments, status (active, completed), importance (not important, important), urgency (not urgent, urgent);\n* tasks are grouped in special categories named 'projects';\n* you can change task status, importance and urgency both in WordPress admin page and on your website;\n* creates Eisenhower matrix which sorts the tasks by importance and urgency. You can paste the matrix in any post\/page using special shortcode [eisenhower_matrix].\n* creates [to_do_list] shortcode which displays the list of current tasks.<\/p>",
+                "uid": "12534"
+            }
+        }
+    }
+}

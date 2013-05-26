@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/shortlinks-by-path": {
+            "0.1": {
+                "name": "wordpress\/shortlinks-by-path",
+                "version": "0.1",
+                "version_normalized": "0.1.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/shortlinks-by-path.0.1.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>Shortlinks By Path hooks into the WordPress filter <code>get_shortlink<\/code> to only return the path for a shortlink. This makes it easier to retrieve the shortlink url with an absolute path minus the domain name.<\/p>\n\n<p>By default WordPress returns the full path to your post when clicking \"Get Shortlink\". Shortlinks By Path returns only the path. For example, by default WordPress would return <code><a href=\"http:\/\/blog.aizatto.com\/?p=3565\" rel=\"nofollow\">http:\/\/blog.aizatto.com\/?p=3565<\/a><\/code> , with Shortlinks By Path enabled WordPress returns <code>\/?p=3565<\/code> .<\/p>",
+                "uid": "70052"
+            }
+        }
+    }
+}

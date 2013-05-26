@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/image-feed-widget": {
+            "0.5": {
+                "name": "wordpress\/image-feed-widget",
+                "version": "0.5",
+                "version_normalized": "0.5.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/image-feed-widget.0.5.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>This plugin allows to place widgets on your sidebars, that fetch the contents of one or more RSS feeds, combine them by date if there is more than one, and display the thumbnail images that are included in the feeds items. You can give the widget any number of feeds, and limit the quantity of images to be displayed.<\/p>\n\n<p>You can use any kind of RSS feed, but they must contain thumbnails (the plugin will check for, in that order, media:thumbnail tags, or enclosure tags, or, if none of these are found, an img tag inside the feed item description). If you don't undestand a word of this, just make sure your feed carries thumbnails, otherwise all you'll see is a \"No thumbnail found\" text...<\/p>\n\n<p>You can also use this plugin from your theme templates, to display images lists anywhere else on your blog and you can easily give them a fixed size or a maximum size with CSS styling.<\/p>",
+                "uid": "77795"
+            }
+        }
+    }
+}

@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/comment-hierarchy-adjust": {
+            "1.0": {
+                "name": "wordpress\/comment-hierarchy-adjust",
+                "version": "1.0",
+                "version_normalized": "1.0.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/comment-hierarchy-adjust.1.0.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>Adds a comment hierarchy to the edit comment screen to re-thread comments due to user error. Sometimes users reply to a comment, but don't click the right button and leave it as a stand alone comment. This allows the site admin to go and re-thread that comment where it belongs.<\/p>",
+                "uid": "13022"
+            }
+        }
+    }
+}

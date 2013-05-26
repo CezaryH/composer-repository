@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/thesis-google-authorship": {
+            "1.0": {
+                "name": "wordpress\/thesis-google-authorship",
+                "version": "1.0",
+                "version_normalized": "1.0.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/thesis-google-authorship.1.0.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>After setting this up on several sites, I figured it may be time to release this simple plugin into the wild. This plugin adds google authorship support to the Thesis theme. It creates a new contact method called \"Google Profile URL\" to the WordPress profiles screen, adds a rel=me to the author byline, and adds a link to the Google+ profile on the author's archive with rel=author. If you can't do domain email verification to establish authorship and you're using Thesis, this plugin will help.<\/p>\n\n<p>Should work with Thesis 1.6+. Please let me know if there are any issues.<\/p>\n\n<ol>\n<li>Make sure you have &#8220;Show author name in post byline&#8221; and &#8220;Link author name to archive&#8221; selected under Thesis Design Options &#62; Display Options &#62; Bylines.<\/li>\n<li>Add your Google+ profile link to your profile information.<\/li>\n<li>Add a link to your author archive to your Google+ profile, in either your \"other profiles\" or \"contributor to\" sections.<\/li>\n<li>Check every",
+                "uid": "17916"
+            }
+        }
+    }
+}

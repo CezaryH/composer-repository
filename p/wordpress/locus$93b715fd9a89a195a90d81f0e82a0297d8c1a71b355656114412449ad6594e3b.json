@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/locus": {
+            "1.0": {
+                "name": "wordpress\/locus",
+                "version": "1.0",
+                "version_normalized": "1.0.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/locus.1.0.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>List post from a specific category with options like date format, link text, order and more. Locus is a very simple plugin for display content in diferrent ways:<\/p>\n\n<ul>\n<li>Display a single post, page or any available post type.<\/li>\n<li>Display full content or the excerpt, or both!<\/li>\n<li>Category descriptions are visible by default, if any.<\/li>\n<li>Configure date format, link text or hide them all.<\/li>\n<li>Use styles for every block, (refer the stylesheet in <code>locus\/control\/locus-style.css<\/code>)<\/li>\n<li>Set display post orders, such random, by date, by author, comment count (popularity) etc<\/li>\n<li>Display thumbnails, if available<\/li>\n<li>Easy to use: you don't have to learn to use it<\/li>\n<li>Settings per widget, so you can have different widgets.<\/li>\n<\/ul>",
+                "uid": "42629"
+            }
+        }
+    }
+}

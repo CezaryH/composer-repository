@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/wp-expurgate": {
+            "1.0": {
+                "name": "wordpress\/wp-expurgate",
+                "version": "1.0",
+                "version_normalized": "1.0.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/wp-expurgate.1.0.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>wp-expurgate looks for HTTP links on your HTTPS site and converts them to HTTPS by running them through a proxy -- so every connection between your site and your users is still encrypted.<\/p>",
+                "uid": "25289"
+            }
+        }
+    }
+}

@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/buddypress-custom-profile-filters": {
+            "1.1": {
+                "name": "wordpress\/buddypress-custom-profile-filters",
+                "version": "1.1",
+                "version_normalized": "1.1.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/buddypress-custom-profile-filters.1.1.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>Out of the box, BuddyPress automatically turns some words and phrases in the fields of a user's profile into links that, when clicked, search the user's community for other profiles containing those phrases. It also removes any attempts at formatting with new lines.<\/p>\n\n<p>When activated, this plugin allows users to have more control over these links, in the following ways:<\/p>\n\n<ol>\n<li>Auto generated links are completely disabled.<\/li>\n<li>By using curly brackets in a profile field, users can specify which words or phrases in their profile turn into links. For example: under Interests, I might list \"Cartoons about dogs\". Without this plugin, Buddypress will turn the entire phrase into a link that searches the community for others who like 'cartoons about cats'. If I instead type \"{Cartoons} about {cats}\", then the two words in brackets will turn into independent links.<\/li>\n<li>If the 'bbPress2 shortcode whitelist' plugin is activated, then users can also apply admin approved sho",
+                "uid": "9281"
+            }
+        }
+    }
+}

@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/custom-field-cookie": {
+            "1.1.0": {
+                "name": "wordpress\/custom-field-cookie",
+                "version": "1.1.0",
+                "version_normalized": "1.1.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/custom-field-cookie.1.1.0.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>This <strong>wordpress plugin<\/strong> checks for all custom keys in page\/post for custom keys ending with _Custom_Field_Cookie and writes that key as cookie and its value as cookie value. A post or a page may have multiple custum keys ending with _Custom_Field_Cookie.<\/p>\n\n<h4>More plugins by PepLamb:<\/h4>\n\n<ul>\n<li><a href=\"http:\/\/peplamb.com\/google-analytics-visits\/\">Google Analytics Visits<\/a><\/li>\n<li><a href=\"http:\/\/peplamb.com\/linkable-title-html-and-php-widget\/\">Linkable Title Html and Php Widget<\/a><\/li>\n<\/ul>",
+                "uid": "49449"
+            }
+        }
+    }
+}

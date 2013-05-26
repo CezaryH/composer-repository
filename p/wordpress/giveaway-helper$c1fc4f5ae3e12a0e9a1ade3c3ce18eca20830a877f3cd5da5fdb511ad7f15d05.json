@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/giveaway-helper": {
+            "1.1": {
+                "name": "wordpress\/giveaway-helper",
+                "version": "1.1",
+                "version_normalized": "1.1.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/giveaway-helper.1.1.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>Giveaway Helper retrieves Emails and Names of the commentators of an article (especially giveaway article). You can easily select all those Emails or Names, copy them and paste them into Random.org to select winners.<\/p>\n\n<p><strong>Features:<\/strong><\/p>\n\n<ul>\n<li>Retrieves the Emails and Names uniquely. Even though there are multiple entries of same person, only 1 entry is accepted.<\/li>\n<li>Ability to filter-out any Email Addresses you want.<\/li>\n<\/ul>",
+                "uid": "51510"
+            }
+        }
+    }
+}

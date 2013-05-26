@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/ftp-upgrade-fix": {
+            "1.0": {
+                "name": "wordpress\/ftp-upgrade-fix",
+                "version": "1.0",
+                "version_normalized": "1.0.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/ftp-upgrade-fix.1.0.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>Some server configurations running Pure-FTPd have trouble updating WordPress via FTP. Common error messages when trying to update WordPress or update\/install a plugin look like this:<\/p>\n\n<ul>\n<li>Could not copy file.: \/wp-admin\/css\/theme-editor.dev.css<\/li>\n<li>Could not copy file.: \/public_html\/wp-admin\/css\/theme-editor.dev.css<\/li>\n<li>Could not copy file.: \/...\/...\/wp-admin\/css\/theme-editor.dev.css <\/li>\n<li>Could not create file.: \/public_html\/<\/li>\n<\/ul>\n\n<p>Each of these cases seem to be related. There is a patch going into WordPress 3.2 that should take care of the issues and the plugin will be obsolete after updating to that version (<a href=\"http:\/\/core.trac.wordpress.org\/ticket\/10913\" rel=\"nofollow\">http:\/\/core.trac.wordpress.org\/ticket\/10913<\/a>). In the meantime, install and activate this plugin. Updates should work as expected.<\/p>",
+                "uid": "51578"
+            }
+        }
+    }
+}

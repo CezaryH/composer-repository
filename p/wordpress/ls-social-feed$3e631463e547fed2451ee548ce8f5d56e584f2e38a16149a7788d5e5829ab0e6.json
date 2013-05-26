@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/ls-social-feed": {
+            "0.6.1": {
+                "name": "wordpress\/ls-social-feed",
+                "version": "0.6.1",
+                "version_normalized": "0.6.1.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/ls-social-feed.0.6.1.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>! this is still work in progress and early beta !\nIn this version, several features are missing... but the code should be stable.<\/p>\n\n<h4>shortcodes<\/h4>\n\n<h4>aggregated<\/h4>\n\n<p>[lssf facebook=\"DobryAndel\" twitter=\"LadaSoukup\" gplus=\"101145411178741720361\" items=6]<\/p>\n\n<h4>twitter<\/h4>\n\n<p>[lssf_twitter id=\"LadaSoukup\" items=4]<\/p>\n\n<h4>facebook<\/h4>\n\n<p>[lssf_facebook id=\"DobryAndel\" items=2]<\/p>\n\n<h4>Google+<\/h4>\n\n<p>[lssf_gplus id=\"101145411178741720361\" items=2]<\/p>\n\n<h4>Translatable<\/h4>\n\n<p>All text can be translated using standart language files, text domain is: \"ls_social_feed\".<\/p>\n\n<h4>Included translations:<\/h4>\n\n<ul>\n<li><p>English (default)<\/p><\/li>\n<li><p>Czech<\/p><\/li>\n<\/ul>",
+                "uid": "8889"
+            }
+        }
+    }
+}

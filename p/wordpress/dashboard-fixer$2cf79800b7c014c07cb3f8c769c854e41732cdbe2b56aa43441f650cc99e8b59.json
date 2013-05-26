@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/dashboard-fixer": {
+            "1.0.1": {
+                "name": "wordpress\/dashboard-fixer",
+                "version": "1.0.1",
+                "version_normalized": "1.0.1.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/dashboard-fixer.1.0.1.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>Some people have been experiencing an error message on their WordPress 2.5.0 dashboard. This is due to their dashboard widget options getting corrupted. This plugin resets those options so you can use your dashboard again.<\/p>\n\n<pre><code>Fatal error: Cannot use string offset as an array in\n[...]\/wp-admin\/includes\/dashboard.php on line 46\n<\/code><\/pre>\n\n<p>.<\/p>\n\n<p>Just upload and activate this plugin and it'll fix it.<\/p>\n\n<p><strong>You only need to use this plugin if you are getting the above error message.<\/strong> Using this plugin will <strong>NOT<\/strong> prevent the error from occuring.<\/p>\n\n<p>This plugin is ONLY for WordPress 2.5.0. The issue has <a href=\"http:\/\/trac.wordpress.org\/changeset\/7722\">been fixed<\/a> for WordPress 2.5.1.<\/p>",
+                "uid": "104858"
+            }
+        }
+    }
+}

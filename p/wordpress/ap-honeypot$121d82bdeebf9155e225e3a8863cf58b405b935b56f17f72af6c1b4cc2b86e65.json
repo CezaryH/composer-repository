@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/ap-honeypot": {
+            "1.2": {
+                "name": "wordpress\/ap-honeypot",
+                "version": "1.2",
+                "version_normalized": "1.2.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/ap-honeypot.1.2.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>AP HoneyPot WordPress Plugin, based on Jan St\u0119pie\u0144's http:BL, allows you\nto verify IP addresses of clients connecting to your blog against the Project\nHoney Pot database. Thanks to http:BL API you can quickly check whether your\nvisitor is an email harvester, a comment spammer or any other malicious\ncreature. Communication with verification server is done via DNS request\nmechanism, which makes the query and response even quicker. Now, thanks\nto AP HoneyPot WordPress Plugin any potentially harmful clients are denied\nfrom accessing your blog and therefore abusing it.<\/p>\n\n<h4>Your Feedback Matters<\/h4>\n\n<p>Bugs to report? Feature requests? Criticism? New ideas? We want to hear from\nyou! Do not hesitate. Get in touch with us and share your views.<\/p>",
+                "uid": "43067"
+            }
+        }
+    }
+}

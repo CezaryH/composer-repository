@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/warp-wordpress-admin-reminder-plugin": {
+            "1.01": {
+                "name": "wordpress\/warp-wordpress-admin-reminder-plugin",
+                "version": "1.01",
+                "version_normalized": "1.01.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/warp-wordpress-admin-reminder-plugin.1.01.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>This plugin adds a reminder tip (in large red letters) in the top right corner of your WordPress admin pages. The text is a link to the appropriate page in the wp-admin area. Reminders include:\n*   Making a backup of your database (every Friday)\n*   Checking your spam for false positives (every Wednesday)\n*   Other tasks that are easy to forget (every third Monday)<\/p>\n\n<p>This plugin does not modify any system settings.<\/p>",
+                "uid": "104395"
+            }
+        }
+    }
+}

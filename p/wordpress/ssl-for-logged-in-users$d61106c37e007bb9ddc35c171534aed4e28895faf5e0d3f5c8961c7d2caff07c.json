@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/ssl-for-logged-in-users": {
+            "0.1": {
+                "name": "wordpress\/ssl-for-logged-in-users",
+                "version": "0.1",
+                "version_normalized": "0.1.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/ssl-for-logged-in-users.0.1.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>Forces all logged in users to stay on SSL connection. Guests are still served http. \nJust install and activate - all done!<\/p>\n\n<ul>\n<li>NOTE: The 'force_ssl_admin' and 'force_ssl_login' directives in 'wp-config.php' are not needed while using this plugin.<\/li>\n<\/ul>\n\n<h3>Features<\/h3>\n\n<ul>\n<li>SSL Login<\/li>\n<li>SSL enforced for entire logged-in session<\/li>\n<li>SSL for Admin and front-end of site<\/li>\n<li>No messing with 'wp-config.php' or 'htaccess' directives<\/li>\n<li>Easy to use, just install and activate on any SSL equipped site - no configuration required<\/li>\n<li>Wordpress 3.5 compatible<\/li>\n<li>Network\/Multisite compatible - can be activated on any sites in the Network, individually - sites should have a valid SSL certificate<\/li>\n<li>Buddypress compatible<\/li>\n<li>WP-Super-Cache compatible<\/li>\n<li>S2Member compatible<\/li>\n<li>Bulletproof Security compatible<\/li>\n<\/ul>",
+                "uid": "12103"
+            }
+        }
+    }
+}

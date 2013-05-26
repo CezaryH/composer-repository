@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/pronamic-subscriptions": {
+            "0.1": {
+                "name": "wordpress\/pronamic-subscriptions",
+                "version": "0.1",
+                "version_normalized": "0.1.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/pronamic-subscriptions.0.1.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>This plugin add some basic subscription functionalities to WordPress. It allow you \ncreate subscription information posts (custom post type). You can bind WordPress user \nroles to these subscription post types. In addition, you can bind these subscription \nposts to other posts. This can be used within WordPress templates to check if an post\nhas a specific capability.<\/p>",
+                "uid": "14755"
+            }
+        }
+    }
+}

@@ -1,0 +1,40 @@
+{
+    "packages": {
+        "wordpress\/custom-profile-filters-for-buddypress": {
+            "0.3": {
+                "name": "wordpress\/custom-profile-filters-for-buddypress",
+                "version": "0.3",
+                "version_normalized": "0.3.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/custom-profile-filters-for-buddypress.0.3.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>Out of the box, BuddyPress automatically turns some words and phrases in the fields of a user's profile into links that, when clicked, search the user's community for other profiles containing those phrases. When activated, this plugin allows users and administrators to have more control over these links, in the following ways:<\/p>\n\n<p>1) By using square brackets in a profile field, users can specify which words or phrases in their profile turn into links. For example: under Interests, I might list \"Cartoons about dogs\". By default, Buddypress will turn the entire phrase into a link that searches the community for others who like cartoons about dogs. If I instead type \"[Cartoons] about [dogs]\", then the two words in brackets will turn into independent links.<\/p>\n\n<p>2) Administrators can specify certain profile fields that will not turn into links at all. The standard setting for the plugin is that fields labeled 'Phone', 'IM', and 'Skype ID' will not become linkable (it doesn't mak",
+                "uid": "86060"
+            },
+            "0.3.1": {
+                "name": "wordpress\/custom-profile-filters-for-buddypress",
+                "version": "0.3.1",
+                "version_normalized": "0.3.1.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/custom-profile-filters-for-buddypress.0.3.1.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>Out of the box, BuddyPress automatically turns some words and phrases in the fields of a user's profile into links that, when clicked, search the user's community for other profiles containing those phrases. When activated, this plugin allows users and administrators to have more control over these links, in the following ways:<\/p>\n\n<p>1) By using square brackets in a profile field, users can specify which words or phrases in their profile turn into links. For example: under Interests, I might list \"Cartoons about dogs\". By default, Buddypress will turn the entire phrase into a link that searches the community for others who like cartoons about dogs. If I instead type \"[Cartoons] about [dogs]\", then the two words in brackets will turn into independent links.<\/p>\n\n<p>2) Administrators can specify certain profile fields that will not turn into links at all. The standard setting for the plugin is that fields labeled 'Phone', 'IM', and 'Skype ID' will not become linkable (it doesn't mak",
+                "uid": "86059"
+            }
+        }
+    }
+}

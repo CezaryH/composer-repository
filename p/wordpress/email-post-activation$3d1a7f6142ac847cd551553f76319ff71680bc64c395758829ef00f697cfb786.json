@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/email-post-activation": {
+            "1.0": {
+                "name": "wordpress\/email-post-activation",
+                "version": "1.0",
+                "version_normalized": "1.0.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/email-post-activation.1.0.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>WordPress allows posting via email, but must be told to check for emails. This is achieved by calling wp-mail.php using either a cron job, or by including a hidden iframe in your blog footer.<\/p>\n\n<p>This plugin adds the iframe to the blog footer without editing the theme - updating your theme won't break your ability to email in posts to WordPress.<\/p>",
+                "uid": "91840"
+            }
+        }
+    }
+}

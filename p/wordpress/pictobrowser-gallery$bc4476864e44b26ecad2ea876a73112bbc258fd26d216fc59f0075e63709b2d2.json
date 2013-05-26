@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/pictobrowser-gallery": {
+            "0.3.1": {
+                "name": "wordpress\/pictobrowser-gallery",
+                "version": "0.3.1",
+                "version_normalized": "0.3.1.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/pictobrowser-gallery.0.3.1.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>This plugin shows Picasa and Flickr web galleries in Wordpress using <a href=\"http:\/\/pictobrowser.com\/\">Pictobrowser<\/a>.\nOnly the album ID and its user ID are needed to show an album inside your Wordpress Blog.<\/p>\n\n<p>How to retrieve the needed ids and insert an album??<\/p>\n\n<p>Flickr:<\/p>\n\n<ol>\n<li>Visit an album on flickr you want publish in your blog, e.g. <a href=\"http:\/\/www.flickr.com\/photos\/rougerouge\/sets\/872426\/\" rel=\"nofollow\">http:\/\/www.flickr.com\/photos\/rougerouge\/sets\/872426\/<\/a><\/li>\n<li>you can retrieve username (rougerouge) and album id (872426) from this link, but you need to convert the username into a user id\nthis is done by <a href=\"http:\/\/idgettr.com\/\">idgettr.com<\/a> (in this case the user id is 90537551@N00)<\/li>\n<li>click on the icon, paste the ids and insert the gallery :)<\/li>\n<\/ol>\n\n<p>Picasa:<\/p>\n\n<ol>\n<li>Visit an album on picasa you want publish in your blog, e.g. <a href=\"http:\/\/picasaweb.google.com\/ksandrmusic\/uaprsK\" rel=\"nofollow\">http:\/\/picasaweb.",
+                "uid": "82445"
+            }
+        }
+    }
+}

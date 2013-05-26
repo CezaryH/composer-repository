@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/footer-stuff": {
+            "1.0": {
+                "name": "wordpress\/footer-stuff",
+                "version": "1.0",
+                "version_normalized": "1.0.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/footer-stuff.1.0.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>Footer Stuff allows you to manage footer code snippets (such as those for stats\/analytics) from within WordPress. It eliminates the need to copy these snippets into your theme's PHP files, and lets you edit them through an options page located under WordPress' design tab. This makes it easier to edit these snippets and to switch themes. Version 1.0 lets you add stuff to the page's header as well.<\/p>",
+                "uid": "95898"
+            }
+        }
+    }
+}

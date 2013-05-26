@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/private-files-for-social-privacy": {
+            "1.1": {
+                "name": "wordpress\/private-files-for-social-privacy",
+                "version": "1.1",
+                "version_normalized": "1.1.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/private-files-for-social-privacy.1.1.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>The 3rd-party Private Files plugin tightens the security of private posts by preventing clever users from obtaining unauthorized \naccess to contained images and other attachments.<\/p>\n\n<p>Private Files was enhanced to respect the access permissions of the Social Access Control plugin.<\/p>",
+                "uid": "99475"
+            }
+        }
+    }
+}

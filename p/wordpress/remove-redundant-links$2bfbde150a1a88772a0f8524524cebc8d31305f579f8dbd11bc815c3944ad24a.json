@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/remove-redundant-links": {
+            "1.7": {
+                "name": "wordpress\/remove-redundant-links",
+                "version": "1.7",
+                "version_normalized": "1.7.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/remove-redundant-links.1.7.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>Changes <code>&#60;a&#62;<\/code> elements pointing to the currently seen page by removing the <code>href<\/code> attribute and adding a descriptive <code>title<\/code>.<\/p>\n\n<p>Compatible with most themes. Tested with TwentyTen<\/p>\n\n<p>Example:\nIf you are on the page <code>\/about\/<\/code><\/p>\n\n<pre><code>&#60;a href='http:\/\/example.com\/about\/'&#62;About&#60;\/a&#62; \n<\/code><\/pre>\n\n<p>will be converted to<\/p>\n\n<pre><code>&#60;a title='You are here.' class='rrl current_page_item'&#62;About&#60;\/a&#62;\n<\/code><\/pre>\n\n<p>and<\/p>\n\n<pre><code>&#60;link rel='author' href='\/about\/'&#62;\n<\/code><\/pre>\n\n<p>will be removed.<\/p>\n\n<p>All changes apply to <code>GET<\/code> requests only.<\/p>\n\n<p>Send me your bug reports and suggestions via my <a href=\"http:\/\/toscho.de\/kontakt\/\">contact page<\/a>.<\/p>",
+                "uid": "58237"
+            }
+        }
+    }
+}

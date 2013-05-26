@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/myplaylist": {
+            "1.0": {
+                "name": "wordpress\/myplaylist",
+                "version": "1.0",
+                "version_normalized": "1.0.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/myplaylist.1.0.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>This plugin allows you to create and edit playlists. They can be displayed in the layout of your theme, or directly in your posts by using a tag.<\/p>\n\n<p>A playlist won't be displayed until you activate the \"published\" checkbox. You can order them by setting the priority of each playlist.<\/p>",
+                "uid": "112196"
+            }
+        }
+    }
+}

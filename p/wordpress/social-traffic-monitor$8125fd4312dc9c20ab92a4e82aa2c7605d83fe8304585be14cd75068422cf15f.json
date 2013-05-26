@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/social-traffic-monitor": {
+            "1.3.1": {
+                "name": "wordpress\/social-traffic-monitor",
+                "version": "1.3.1",
+                "version_normalized": "1.3.1.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/social-traffic-monitor.1.3.1.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>Social Traffic Monitor is a plugin for Wordpress blogs that monitors your blog traffic for activity coming from social news or bookmarking sites.<\/p>\n\n<p>When someone clicks on a link to your blog on one of the major social news or bookmarking sites (currently Digg, Netscape, Reddit, Newsvine, Fark, Slashdot, Del.icio.us, and StumbleUpon), the plugin begins to log the visits to that page. This data can then be displayed in the form of a graph of visitors per hour.<\/p>\n\n<p>Each vertical line in the graph represents one hour, and you can customize how many hours the graph shows. You can also choose to display and link to the top referrers below the graph - a great way to prompt other users to return to those sites and vote for your story.<\/p>\n\n<p>Note: this plugin will only display the graph and\/or referrers on single-post pages, and it won't display anything unless that post has been accessed from one of the social news sites.<\/p>",
+                "uid": "99365"
+            }
+        }
+    }
+}

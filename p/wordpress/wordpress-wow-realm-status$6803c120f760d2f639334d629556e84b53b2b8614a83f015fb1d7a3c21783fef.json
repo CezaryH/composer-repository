@@ -1,0 +1,40 @@
+{
+    "packages": {
+        "wordpress\/wordpress-wow-realm-status": {
+            "0.3": {
+                "name": "wordpress\/wordpress-wow-realm-status",
+                "version": "0.3",
+                "version_normalized": "0.3.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/wordpress-wow-realm-status.0.3.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>This plugin has the same Widget code as the one by <a href=\"http:\/\/yourfirefly.com\">Ryan Cain<\/a>, except that I have tweaked the code to allow for multiple realms and added an overall realm status page that can be put anywhere by using the <code>[realmstatus]<\/code> tag.<\/p>\n\n<p>As of version 0.3 European realms are supported for both the realm status page and the Widget.  Due to these changes you must now specify the region for every realm that you intend on displaying on your widget.  The format is: <code>{region}_{lang}:{realm name}<\/code>, only use <code>_{lang}<\/code> if it is a European realm.  For example to display Bleeding Hollow (US) and Aerie Peak (EU, English) the entry would be: <code>us:Bleeding Hollow,eu_en:Aerie Peak<\/code>.  See below for acceptable languages.<\/p>\n\n<h4>Acceptable Languages<\/h4>\n\n<ul>\n<li>en - English<\/li>\n<li>es - Spanish<\/li>\n<li>de - German<\/li>\n<li>ru - Russian<\/li>\n<li>fr - French<\/li>\n<\/ul>",
+                "uid": "81579"
+            },
+            "0.4": {
+                "name": "wordpress\/wordpress-wow-realm-status",
+                "version": "0.4",
+                "version_normalized": "0.4.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/wordpress-wow-realm-status.0.4.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>This plugin has the same Widget code as the one by <a href=\"http:\/\/yourfirefly.com\">Ryan Cain<\/a>, except that I have tweaked the code to allow for multiple realms and added an overall realm status page that can be put anywhere by using the <code>[realmstatus]<\/code> tag.<\/p>\n\n<p>As of version 0.3 European realms are supported for both the realm status page and the Widget.  Due to these changes you must now specify the region for every realm that you intend on displaying on your widget.  The format is: <code>{region}_{lang}:{realm name}<\/code>, only use <code>_{lang}<\/code> if it is a European realm.  For example to display Bleeding Hollow (US) and Aerie Peak (EU, English) the entry would be: <code>us:Bleeding Hollow,eu_en:Aerie Peak<\/code>.  See below for acceptable languages.<\/p>\n\n<h4>Acceptable Languages<\/h4>\n\n<ul>\n<li>en - English<\/li>\n<li>es - Spanish<\/li>\n<li>de - German<\/li>\n<li>ru - Russian<\/li>\n<li>fr - French<\/li>\n<\/ul>",
+                "uid": "81577"
+            }
+        }
+    }
+}

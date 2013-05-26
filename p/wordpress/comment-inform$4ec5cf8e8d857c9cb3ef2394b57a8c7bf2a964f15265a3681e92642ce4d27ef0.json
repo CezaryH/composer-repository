@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/comment-inform": {
+            "1.0": {
+                "name": "wordpress\/comment-inform",
+                "version": "1.0",
+                "version_normalized": "1.0.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/comment-inform.1.0.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>This plugin for sent information about comment to post author.\nInformation about author name and author e-mails sets in custom fields for each post.\nIn configuration of plugin you can set keys name for custom fields. By default this is \"Author name\" and \"Author email\".\nAlso can set subject and body of notification e-mail.\nIn body of e-mail you can use macros:<\/p>\n\n<p>[name]    - name of authr from custom field\n[url]     - post url\n[title]   - post title\n[comment] - comment text<\/p>",
+                "uid": "80200"
+            }
+        }
+    }
+}

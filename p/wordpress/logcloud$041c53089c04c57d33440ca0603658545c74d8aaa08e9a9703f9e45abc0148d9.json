@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/logcloud": {
+            "4.1": {
+                "name": "wordpress\/logcloud",
+                "version": "4.1",
+                "version_normalized": "4.1.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/logcloud.4.1.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>LogCloud provides a shortcode that generates a tag cloud with logarithm scaled font sizes.<\/p>\n\n<p>LogCloud displays a tag cloud much like the built-in Wordpress tag cloud, except that instead \nof scaling the font sizes linearly, the sizes are scaled using a logarithm scale.<\/p>\n\n<p>If you use your tags with approximately equal frequency, the normal linear scale works just \nfine. However, if you tag your posts such that just a few tags predominate, the linear scale \nresults in one or two very large looking tags in your cloud, and everything else will use a \ncouple of font sizes at the lower end of the scale. A log scale cloud will result in a more \neven distribution for this situation.<\/p>",
+                "uid": "90607"
+            }
+        }
+    }
+}

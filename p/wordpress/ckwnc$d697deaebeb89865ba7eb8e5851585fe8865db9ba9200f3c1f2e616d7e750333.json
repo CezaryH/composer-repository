@@ -1,0 +1,40 @@
+{
+    "packages": {
+        "wordpress\/ckwnc": {
+            "0.1": {
+                "name": "wordpress\/ckwnc",
+                "version": "0.1",
+                "version_normalized": "0.1.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/ckwnc.0.1.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>This plugin adds the [ckwnc] shortcode markup to your wordpress installation. This is enabled in posts \nand any text widgets. A complete reference of how to create a ckwnc uml sequence diagram can be found\nat <a href=\"http:\/\/www.ckwnc.com\/help.html\" rel=\"nofollow\">http:\/\/www.ckwnc.com\/help.html<\/a><\/p>\n\n<p>Example Usage:<\/p>\n\n<pre><code>[ckwnc]\n  me:actor\n  data:Data\n\n  data.get() {\n    me.callback() {\n      result.create()\n      logging.log() {\n        System.print()\n      }\n    }\n  }\n  data.release()\n[\/ckwnc]\n<\/code><\/pre>\n\n<p>Note that the javascript from <a href=\"http:\/\/www.ckwnc.com\" rel=\"nofollow\">http:\/\/www.ckwnc.com<\/a> will be included in your page. We have decided to include\nthe javascript from our server directly rather than copy a version into the plugin directory so that the \njavascript can be kept up to date.<\/p>",
+                "uid": "44882"
+            },
+            "1.0": {
+                "name": "wordpress\/ckwnc",
+                "version": "1.0",
+                "version_normalized": "1.0.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/ckwnc.1.0.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>This plugin adds the [ckwnc] shortcode markup to your wordpress installation. This is enabled in posts \nand any text widgets. A complete reference of how to create a ckwnc uml sequence diagram can be found\nat <a href=\"http:\/\/www.ckwnc.com\/help.html\" rel=\"nofollow\">http:\/\/www.ckwnc.com\/help.html<\/a><\/p>\n\n<p>Example Usage:<\/p>\n\n<pre><code>[ckwnc]\n  me:actor\n  data:Data\n\n  data.get() {\n    me.callback() {\n      result.create()\n      logging.log() {\n        System.print()\n      }\n    }\n  }\n  data.release()\n[\/ckwnc]\n<\/code><\/pre>\n\n<p>Note that the javascript from <a href=\"http:\/\/www.ckwnc.com\" rel=\"nofollow\">http:\/\/www.ckwnc.com<\/a> will be included in your page. We have decided to include\nthe javascript from our server directly rather than copy a version into the plugin directory so that the \njavascript can be kept up to date.<\/p>",
+                "uid": "44881"
+            }
+        }
+    }
+}

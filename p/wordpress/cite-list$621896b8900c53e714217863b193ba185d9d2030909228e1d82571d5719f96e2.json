@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/cite-list": {
+            "1.0": {
+                "name": "wordpress\/cite-list",
+                "version": "1.0",
+                "version_normalized": "1.0.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/cite-list.1.0.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>This plugin is intended for two use cases:<\/p>\n\n<ul>\n<li>Easily reference books, articles and websites in your posts.<\/li>\n<li>Provide a neat list of your own publications.<\/li>\n<\/ul>\n\n<p>There is probably potential for more; be creative!<\/p>\n\n<p><em>Cite &#38; List<\/em> uses standard format <a href=\"http:\/\/www.bibtex.org\/\">BibTeX<\/a> and <a href=\"http:\/\/lmazy.verrech.net\/bib2tpl\/\">bib2tpl<\/a> in order to give you maximal control over the output and ease of use at the same time. You provide your bibliographic data in BibTeX format; the plugin can read it from custom fields as well as local and remote files. Parts of that data are rendered when you need it using templates powerful enough to create <a href=\"http:\/\/verrech.net\/demo\/bib2tpl\/example.html\">sophisticated pages<\/a>. As BibTeX sources are often dotted with LaTeX commands, we allow you to clean them up on the fly---no need to change your sources.<\/p>\n\n<p>See the Usage page for documentation.<\/p>\n\n<p>For a list of known issues",
+                "uid": "29705"
+            }
+        }
+    }
+}

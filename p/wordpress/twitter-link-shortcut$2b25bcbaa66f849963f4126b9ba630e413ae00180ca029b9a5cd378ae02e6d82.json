@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/twitter-link-shortcut": {
+            "1.0.3": {
+                "name": "wordpress\/twitter-link-shortcut",
+                "version": "1.0.3",
+                "version_normalized": "1.0.3.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/twitter-link-shortcut.1.0.3.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>This plugin hopes to make linking to Twitter profiles easier in Wordpress posts and pages.<\/p>\n\n<p>It's the result of typing Twitter usernames far too often in my blog posts and having to go back and link to them later, typing out <a href=\"http:\/\/www.twitter.com\/username\" rel=\"nofollow\">http:\/\/www.twitter.com\/username<\/a>.<\/p>\n\n<p>The plugin uses a basic shortcode:<\/p>\n\n<p>[twitter]<\/p>\n\n<p>to wrap around Twitter user names.<\/p>\n\n<p>The plugin will then output the username with a link to their profile, displaying the standard @username format.<\/p>\n\n<p>In addition, the links can be styled via your sites CSS, using the .twitshort selector.<\/p>",
+                "uid": "80199"
+            }
+        }
+    }
+}

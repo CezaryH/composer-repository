@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/wp-insert-rss-thumbnails": {
+            "1.0": {
+                "name": "wordpress\/wp-insert-rss-thumbnails",
+                "version": "1.0",
+                "version_normalized": "1.0.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/wp-insert-rss-thumbnails.1.0.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>This plugin offers you the possibility to have a small icon, in front of each blog entries, news headlines, website articles... in your RSS \/ Atom feeds.<\/p>\n\n<p>The image thumbnail is automatically detected by aggregators (like Netvibes) and is automatically displayed, which gives a more professional look to your RSS feed.<\/p>\n\n<p>The plugin used the feed 'enclosure' tag functionality to display media.<\/p>\n\n<p>Visit <a href=\"http:\/\/bonplangratos.fr\/wp\/insert-rss-thumbnails\">bonplangratos.fr\/wp\/insert-rss-thumbnails<\/a> for more details and features.<\/p>\n\n<p>It is easy to use:<br \/>\n- You upload a picture (ideally not to big) in your WP media library gallery<br \/>\n- You specify the path of this picture in the meta-data field named 'thumbnail' in your posts<br \/>\n- And that rocks<\/p>\n\n<p>You do that for each post, and a thumbnail will be automatically added in front of each of your RSS articles.<\/p>\n\n<p>You can also ask the plugin to look for images in your post or display a default ",
+                "uid": "52062"
+            }
+        }
+    }
+}

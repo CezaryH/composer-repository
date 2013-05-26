@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/disable-deprecated-warnings": {
+            "1.0": {
+                "name": "wordpress\/disable-deprecated-warnings",
+                "version": "1.0",
+                "version_normalized": "1.0.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/disable-deprecated-warnings.1.0.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>As a theme developer, you want to have WP_DEBUG enabled but you're not interested in the deprecated warnings created by other plugins. Use this plugin to disable these messages while still displaying other errors, warnings and notices.<\/p>\n\n<p><a href=\"http:\/\/outlandishideas.co.uk\/blog\/2012\/06\/hide-deprecated-errors-in-wordpress\/\">Plugin by Outlandish Ideas<\/a><\/p>",
+                "uid": "22770"
+            }
+        }
+    }
+}

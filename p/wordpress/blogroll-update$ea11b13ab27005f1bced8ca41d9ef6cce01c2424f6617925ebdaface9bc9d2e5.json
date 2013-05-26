@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/blogroll-update": {
+            "0.1": {
+                "name": "wordpress\/blogroll-update",
+                "version": "0.1",
+                "version_normalized": "0.1.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/blogroll-update.0.1.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>The Blogroll Update checks pingomatic.com (every 15 minutes) and weblogs.com (every 5 minutes, using the shortChanges.xml feed).  If a link from your WP Blogroll appears, the plugin marks it as \"updated,\" which will be reflected in the output of your blogroll if you have enabled the marking of recently updated links.<\/p>",
+                "uid": "114988"
+            }
+        }
+    }
+}

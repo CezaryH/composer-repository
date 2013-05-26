@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/show-php-constants": {
+            "1.0": {
+                "name": "wordpress\/show-php-constants",
+                "version": "1.0",
+                "version_normalized": "1.0.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/show-php-constants.1.0.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>When this plugin is invoked from the admin page plugin settings a two-column table is displayed with alphabetically sorted key-value pairs, where key is the php constant and value its value. Pair is not shown if value is not set or empty.<\/p>",
+                "uid": "19298"
+            }
+        }
+    }
+}

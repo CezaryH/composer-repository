@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/super-simple-anti-spam": {
+            "1.0.2": {
+                "name": "wordpress\/super-simple-anti-spam",
+                "version": "1.0.2",
+                "version_normalized": "1.0.2.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/super-simple-anti-spam.1.0.2.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>This plugin got a simple task, that is to stop spam, hopefully 100%. What this plugin does is modify the comment form on your website, adding new field and renaming others. We call it a spambot trap.<\/p>\n\n<p>Spam bots fall directly into this trap because they fill out the wrong input field, and they dont even know it. WHen a spambot fills out the wrong field they will not be able to post the comment and will just see a white page with a message about your site is protected by Super Simple Anti Spam.<\/p>\n\n<p>No javascript required for users.<\/p>\n\n<p>False positives.\nThis is not possible (we have not been able to make false positives) unless people stop the website from loading, do not allow css to be viewed or they manually input into wrong fields.\nTrackbacks: False positives is possible, chance is low.<\/p>\n\n<p>Requirements:\nThe plugin requires the theme to follow wordpres guidelines for themes in order to edit the comment form, most themes does follow this<\/p>\n\n<p>Notes: If you have",
+                "uid": "9108"
+            }
+        }
+    }
+}

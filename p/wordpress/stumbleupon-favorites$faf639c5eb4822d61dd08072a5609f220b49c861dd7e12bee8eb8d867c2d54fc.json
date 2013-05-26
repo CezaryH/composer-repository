@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/stumbleupon-favorites": {
+            "1.0": {
+                "name": "wordpress\/stumbleupon-favorites",
+                "version": "1.0",
+                "version_normalized": "1.0.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/stumbleupon-favorites.1.0.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>StumbleUpon Favorites is a widget based on the default RSS widget that was developed to allow the sharing of bookmarks with blog visitors. This plugin makes it much easier to use and customize the list grabbed from your own <a href=\"http:\/\/www.stumbleupon.com\">StumbleUpon<\/a> account.<\/p>\n\n<p>In addition to simply grabbing and displaying the list, the plugin does the following things (which are not supported by the default RSS):<\/p>\n\n<ul>\n<li>Option to display\/hide the StumbleUpon logo<\/li>\n<li>Option to display\/hide the number of votes for a bookmark<\/li>\n<li>Automatic shortening of long urls to prevent the breaking of template sidebars<\/li>\n<li>Automatic fixing of HTML entities and the double encoding commonly found in the StumbleUpon feed<\/li>\n<li>Default nofollow attribute<\/li>\n<li>Links always open in a new tab\/window<\/li>\n<\/ul>\n\n<p>As this widget is based of the RSS widget, multiple instances are permitted. The plugin is not known to conflict with other widgets or plugins.<\/p>",
+                "uid": "101666"
+            }
+        }
+    }
+}

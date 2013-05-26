@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/ajax-comments-wpmuified": {
+            "0.2": {
+                "name": "wordpress\/ajax-comments-wpmuified",
+                "version": "0.2",
+                "version_normalized": "0.2.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/ajax-comments-wpmuified.0.2.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>This is a rework of an original plugin called AJAX Comments by contributors DjZoNe, Mike Smullin.<\/p>\n\n<p><a href=\"http:\/\/blogs.kno.at\/doc\/2007\/11\/03\/wordpress-mu-and-ajax-comments\/#respond\">Support<\/a><\/p>\n\n<p>Major changes:<\/p>\n\n<ul>\n<li>developed as WordPress MU site-wide plugin (\/mu-plugins)<\/li>\n<li>hooks into the wordpress-comment-processing workflow<\/li>\n<li>therefore now cannot interfere with any other plugins<\/li>\n<li>therefore also slimmer as ever before<\/li>\n<li>therefore also hooks in with any exisiting flood protection<\/li>\n<li>easy adopting for various themes (as long as the ol \/ li -standard is kept)<\/li>\n<li>choose if you want to hide the form after a comment has been saved<\/li>\n<li>magic fairytale theme auto-detection<\/li>\n<li>replaced alerts with sexy web2.0ish scriptaculoused div<\/li>\n<li>separated files bring enlightening overview<\/li>\n<li>code comes with geekish documentation for your adopting pleasure<\/li>\n<\/ul>\n\n<p>Original Description:\nMore than that, it chec",
+                "uid": "108402"
+            }
+        }
+    }
+}

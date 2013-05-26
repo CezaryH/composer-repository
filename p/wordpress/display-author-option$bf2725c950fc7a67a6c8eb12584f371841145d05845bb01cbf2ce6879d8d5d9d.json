@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/display-author-option": {
+            "1": {
+                "name": "wordpress\/display-author-option",
+                "version": "1",
+                "version_normalized": "1.0.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/display-author-option.1.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>You can choose how the author is being displayed without changing the theme.<\/p>\n\n<p>You can currently choose from these options:<\/p>\n\n<ul>\n<li>Default - What the user selected to display publicly<\/li>\n<li>First Name Last Name <\/li>\n<li>Last Name First Name <\/li>\n<li>Nickname <\/li>\n<li>Username <\/li>\n<li>First Name <\/li>\n<li>Last Name<\/li>\n<\/ul>",
+                "uid": "20074"
+            }
+        }
+    }
+}

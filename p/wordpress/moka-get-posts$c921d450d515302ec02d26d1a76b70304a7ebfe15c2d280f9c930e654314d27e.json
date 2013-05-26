@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/moka-get-posts": {
+            "1.0": {
+                "name": "wordpress\/moka-get-posts",
+                "version": "1.0",
+                "version_normalized": "1.0.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/moka-get-posts.1.0.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>Provides a [moka-get-posts] <a href=\"http:\/\/codex.wordpress.org\/Shortcode_API\">shortcode<\/a> for displaying posts or pages using the get_posts function.   The shortcode accepts most parameters that you can pass to the <a href=\"http:\/\/codex.wordpress.org\/Template_Tags\/wp_nav_menu\">get_posts()<\/a> function.  Additional arguments are: show_fields=\"post_content,post_excerpt,post_thumbnail\" (use post properties; additional fields include post_thumbnail and post_permalink), thumbnail_size=\"large\" (default: \"thumbnail\" to set post_thumbnail size), and permalink_title (default: \"true\" to wrap title in permalink).  To show posts or pages, add [get-posts category=\"NN\"] in the page or post body. To get pages, use the post_type parameter, e.g., [moka-get-posts post_type=\"page\"].  You can also pass a template using shortcode content.  Use the %post_title% format to have fields substituted.  Substitution fields most be listed in the \"show_fields\" argument.<\/p>\n\n<p>Note: unlike the get_posts funct",
+                "uid": "46774"
+            }
+        }
+    }
+}

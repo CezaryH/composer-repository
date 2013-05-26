@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/creative-commons-license-manager": {
+            "0.7.4": {
+                "name": "wordpress\/creative-commons-license-manager",
+                "version": "0.7.4",
+                "version_normalized": "0.7.4.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/creative-commons-license-manager.0.7.4.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>This plugin extends the Wordpress media manager to provide support for <a href=\"http:\/\/creativecommons.org\/about\/licenses\/\">Creative Commons Licenses<\/a>. Those licenses enable creators of works to provide simple means of communicating which rights they reserve.<\/p>\n\n<p>License, rights holder, attribution URI and jurisdiction can be set globally, providing a default, and also individually for each media attachment. At display time, corresponding markup for inline image, video and audio content and, optionally, post thumbnail images is converted to a <a href=\"http:\/\/www.whatwg.org\/specs\/web-apps\/current-work\/multipage\/grouping-content.html#the-figure-element\">HTML5 figure<\/a>, enriched with machine-readable <a href=\"http:\/\/wiki.creativecommons.org\/RDFa\">RDFa metadata<\/a>.<\/p>\n\n<p>Included with the plugin are several stylesheets that modify the display of licensing details, including one that emulates the minimalist attribution style of the german blog <a href=\"http:\/\/spreeblick.com\">",
+                "uid": "62349"
+            }
+        }
+    }
+}

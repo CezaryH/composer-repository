@@ -1,0 +1,40 @@
+{
+    "packages": {
+        "wordpress\/fatpanda-expiring-amazon-s3-links": {
+            "0.1": {
+                "name": "wordpress\/fatpanda-expiring-amazon-s3-links",
+                "version": "0.1",
+                "version_normalized": "0.1.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/fatpanda-expiring-amazon-s3-links.0.1.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>Everyone knows that Amazon S3 is the best place to host static files. \nBut how do you use S3 to distribute access-restricted content - that eBook\nthat's for registered members only, or your band's latest album?<\/p>\n\n<p>Fat Panda to the rescue!<\/p>\n\n<p>With this plugin, you can easily generate temporary links to privately-hosted\ncontent on S3. It couldn't be easier:<\/p>\n\n<pre><code>[s3 bucket=&#34;your-S3-bucket&#34; path=&#34;\/path\/to\/restricted\/file.whatever&#34;]Download![\/s3]<\/code><\/pre>\n\n<p>The link generated will only be usable for five minutes, after which users\nwho click on it will simply see Amazon's standard 404 page.<\/p>\n\n<p>You can control the expiration time using the <em>expires<\/em> attribute; this link\nwill expire after one hour:<\/p>\n\n<pre><code>[s3 bucket=&#34;your-S3-bucket&#34; path=&#34;\/path\/to\/file&#34; expires=&#34;60&#34;]Download![\/s3]<\/code><\/pre>\n\n<p>Following <strong>Installation<\/strong> instructions to get this plugin up and running.<\/p>",
+                "uid": "16660"
+            },
+            "0.1.1": {
+                "name": "wordpress\/fatpanda-expiring-amazon-s3-links",
+                "version": "0.1.1",
+                "version_normalized": "0.1.1.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/fatpanda-expiring-amazon-s3-links.0.1.1.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>Everyone knows that Amazon S3 is the best place to host static files. \nBut how do you use S3 to distribute access-restricted content - that eBook\nthat's for registered members only, or your band's latest album?<\/p>\n\n<p>Fat Panda to the rescue!<\/p>\n\n<p>With this plugin, you can easily generate temporary links to privately-hosted\ncontent on S3. It couldn't be easier:<\/p>\n\n<pre><code>[s3 bucket=&#34;your-S3-bucket&#34; path=&#34;\/path\/to\/restricted\/file.whatever&#34;]Download![\/s3]<\/code><\/pre>\n\n<p>The link generated will only be usable for five minutes, after which users\nwho click on it will simply see Amazon's standard 404 page.<\/p>\n\n<p>You can control the expiration time using the <em>expires<\/em> attribute; this link\nwill expire after one hour:<\/p>\n\n<pre><code>[s3 bucket=&#34;your-S3-bucket&#34; path=&#34;\/path\/to\/file&#34; expires=&#34;60&#34;]Download![\/s3]<\/code><\/pre>\n\n<p>Following <strong>Installation<\/strong> instructions to get this plugin up and running.<\/p>",
+                "uid": "16659"
+            }
+        }
+    }
+}

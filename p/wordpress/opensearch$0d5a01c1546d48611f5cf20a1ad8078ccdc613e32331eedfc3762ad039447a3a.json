@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/opensearch": {
+            "1.0": {
+                "name": "wordpress\/opensearch",
+                "version": "1.0",
+                "version_normalized": "1.0.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/opensearch.1.0.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>Add OpenSearch discovery and querying to your WordPress site, based on the\n<a href=\"http:\/\/www.opensearch.org\/Home\">OpenSearch<\/a> specification, version 1.1.<\/p>\n\n<p>After activating the plugin, your WordPress site will expose a standardised\nsearch interface, accessible to OpenSearch clients such as the <a href=\"http:\/\/www.mozilla.com\/firefox\/search.html\">Firefox\nsearch bar<\/a>.<\/p>",
+                "uid": "98858"
+            }
+        }
+    }
+}

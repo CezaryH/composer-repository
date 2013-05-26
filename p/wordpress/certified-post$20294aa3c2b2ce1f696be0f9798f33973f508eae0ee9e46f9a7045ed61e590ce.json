@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/certified-post": {
+            "0.2": {
+                "name": "wordpress\/certified-post",
+                "version": "0.2",
+                "version_normalized": "0.2.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/certified-post.0.2.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>This plugin allows you to create strong evidence of intellectual property on the post content by certifying a blog post using the criptographically secure process of trusted timestamping.  The timestamps are issued by an accredited Certification Authority, thus adding legal value to the certification.  The certification guarantees that the post content is not modified since it has been published.<\/p>\n\n<p>Coming soon: each certified post will show a \"certification seal\" that links to a page on easytimestamping.com where verification is performed on the fly.  The verification checks that the post content has not been altered and checks that the timestamp associated with the post has been issued by a Certification Authority and verify its authenticity.  The \"certification seal\" allows the viewers of your blog to verify that the content of the blog post has never been altered since its certification date.<\/p>",
+                "uid": "25620"
+            }
+        }
+    }
+}

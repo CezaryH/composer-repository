@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/recent-posts-with-authors-widget": {
+            "1.0": {
+                "name": "wordpress\/recent-posts-with-authors-widget",
+                "version": "1.0",
+                "version_normalized": "1.0.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/recent-posts-with-authors-widget.1.0.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>This widget is similar to the standard Recent Posts widget, but adds the author name after the post title.<\/p>\n\n<p>It is fully localized to any language supported by Wordpress (by reusing Wordpress own text domain and its existing messages).<\/p>",
+                "uid": "71723"
+            }
+        }
+    }
+}

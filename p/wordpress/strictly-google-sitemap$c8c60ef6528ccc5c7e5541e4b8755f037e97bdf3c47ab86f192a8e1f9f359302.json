@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/strictly-google-sitemap": {
+            "1.1.0": {
+                "name": "wordpress\/strictly-google-sitemap",
+                "version": "1.1.0",
+                "version_normalized": "1.1.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/strictly-google-sitemap.1.1.0.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>This plugin was developed specifically with performance in mind as I was experiencing out of memory issues with existing sitemap plugins.\nDeveloped for large wordpress sites that hold tens of thousands of articles, pages, tags and categories not only does this plugin have all \nthe features of the existing market leader and more it runs using less memory and a comparatively tiny number of database queries.<\/p>\n\n<p>Features<\/p>\n\n<ul>\n<li>Content filtering by Posts, Pages, Categories, Tags, Archives, Authors and custom pages<\/li>\n<li>Set priority and change frequency levels for each content type<\/li>\n<li>Exclude content by category, page, post and author<\/li>\n<li>Ping all major search engines. Yahoo Application ID support<\/li>\n<li>Robots.txt directive<\/li>\n<li>Memory Management including an automatic management feature<\/li>\n<li>Built in Google XML Validator<\/li>\n<li>Server Load Limit to prevent rebuilds during stressful times<\/li>\n<li>Built in scheduler so that sites that import conten",
+                "uid": "57540"
+            }
+        }
+    }
+}

@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/ajax-yandexmetrika": {
+            "2.1.0": {
+                "name": "wordpress\/ajax-yandexmetrika",
+                "version": "2.1.0",
+                "version_normalized": "2.1.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/ajax-yandexmetrika.2.1.0.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>Add Yandex.Metrika counter. And add counter integration for AJAX sites.<\/p>\n\n<p><strong>Theme requirements:<\/strong><\/p>\n\n<ul>\n<li>Theme must support <strong>footer<\/strong> (wp_footer). If not, you can change wp_register_script last parameter in php file: true =&#62; false.<\/li>\n<\/ul>\n\n<p>For more information, please visit the <a href=\"http:\/\/sergey-s-betke.blogs.novgaro.ru\/category\/it\/web\/wordpress\/ajax\/yandex-metrika\">Sergey S. Betke blog<\/a>.<\/p>",
+                "uid": "38638"
+            }
+        }
+    }
+}

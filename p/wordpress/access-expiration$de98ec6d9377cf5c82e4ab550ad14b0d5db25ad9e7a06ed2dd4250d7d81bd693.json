@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/access-expiration": {
+            "1.1": {
+                "name": "wordpress\/access-expiration",
+                "version": "1.1",
+                "version_normalized": "1.1.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/access-expiration.1.1.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>The Access Expiration plugin is a plugin from Multinc that adds a level of access control for particularly sensitive posts.  For each post or category, you can limit the number of views and the amount of time that an item remains viewable by each user after he or she first accesses the post.  Unlike other plugins that expire posts for all users at the same time, this plugin keeps track of every user\u0092s viewing history so that each gets equal access time.<\/p>\n\n<p>You can also impose separate limits for unregistered users, who are all considered as one single user.<\/p>\n\n<p>When used in combination with the other plugins in the <a href=\"http:\/\/wordpress.org\/extend\/plugins\/social-privacy\/\">Social Privacy<\/a> set, this plugin is useful for limiting the chance that any authorized user accidentally or deliberately forwards a private post to an unauthorized user.<\/p>\n\n<p>Because authorized users may have legitimate reasons for accessing a post beyond the allotted time, the plugin gives user",
+                "uid": "99326"
+            }
+        }
+    }
+}

@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/posts-filter-by-title": {
+            "0.1": {
+                "name": "wordpress\/posts-filter-by-title",
+                "version": "0.1",
+                "version_normalized": "0.1.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/posts-filter-by-title.0.1.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>This is a simple plugin which adds another drop-down box of Post Titles into the filter section on posts listing page in the wordpress backend. This is usefull when we have more then 99 posts in the site and want to choose a particular post without having to remember and search by post title or navigate through the pagination.<\/p>",
+                "uid": "12739"
+            }
+        }
+    }
+}

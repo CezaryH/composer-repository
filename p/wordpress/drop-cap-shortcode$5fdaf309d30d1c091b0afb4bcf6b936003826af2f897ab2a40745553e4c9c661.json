@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/drop-cap-shortcode": {
+            "1.0": {
+                "name": "wordpress\/drop-cap-shortcode",
+                "version": "1.0",
+                "version_normalized": "1.0.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/drop-cap-shortcode.1.0.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>This plugin give you freedom to change the first letter into a drop cap or not. Just change the first letter with a shortcode. Example: [T]his is my first paragraph with a drop cap. The first letter 'T' will turn into a drop cap. If you don't want your article have a drop cap, just leave it the way used to.<\/p>",
+                "uid": "53018"
+            }
+        }
+    }
+}

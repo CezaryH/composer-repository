@@ -1,0 +1,57 @@
+{
+    "packages": {
+        "wordpress\/vihv-menu": {
+            "2.1": {
+                "name": "wordpress\/vihv-menu",
+                "version": "2.1",
+                "version_normalized": "2.1.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/vihv-menu.2.1.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>Adds menu icons, menu item css class, menu link XFN, menu item description and ability to open menu link in new window. All using default Appearance-&#62;Menus.<\/p>\n\n<p>Icons will be displayed with default menu walker. If you use your own you can add images to menu with $output .= apply_filters( 'walker_nav_menu_start_el', $output, $item, $depth, $args ); or get icon url with get_post_meta($menu_item_id, '_vihv_menu_icon', true); and display anywhere you want. Enjoy!<\/p>",
+                "uid": "10700"
+            },
+            "2.2": {
+                "name": "wordpress\/vihv-menu",
+                "version": "2.2",
+                "version_normalized": "2.2.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/vihv-menu.2.2.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>Adds menu icons, menu item css class, menu link XFN, menu item description and ability to open menu link in new window. All using default Appearance-&#62;Menus.<\/p>\n\n<p>Icons will be displayed with default menu walker. If you use your own you can add images to menu with $output .= apply_filters( 'walker_nav_menu_start_el', $output, $item, $depth, $args ); or get icon url with get_post_meta($menu_item_id, '_vihv_menu_icon', true); and display anywhere you want. Enjoy!<\/p>",
+                "uid": "10699"
+            },
+            "2.3": {
+                "name": "wordpress\/vihv-menu",
+                "version": "2.3",
+                "version_normalized": "2.3.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/vihv-menu.2.3.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>Adds menu icons, menu item css class, menu link XFN, menu item description and ability to open menu link in new window. All using default Appearance-&#62;Menus.<\/p>\n\n<p>Icons will be displayed with default menu walker. If you use your own you can add images to menu with $output .= apply_filters( 'walker_nav_menu_start_el', $output, $item, $depth, $args ); or get icon url with get_post_meta($menu_item_id, '_vihv_menu_icon', true); and display anywhere you want. Enjoy!<\/p>",
+                "uid": "10698"
+            }
+        }
+    }
+}

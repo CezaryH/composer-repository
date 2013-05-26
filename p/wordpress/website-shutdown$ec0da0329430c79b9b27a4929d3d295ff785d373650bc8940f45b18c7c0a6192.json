@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/website-shutdown": {
+            "1.0": {
+                "name": "wordpress\/website-shutdown",
+                "version": "1.0",
+                "version_normalized": "1.0.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/website-shutdown.1.0.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>A plugin which on activation displays \"Website is down for maintenance, Please try again later\" to all non-admin users. The admin can still go around any part of the site with no problems and can log-into the admin area even if the plugin is activated.<\/p>",
+                "uid": "70466"
+            }
+        }
+    }
+}

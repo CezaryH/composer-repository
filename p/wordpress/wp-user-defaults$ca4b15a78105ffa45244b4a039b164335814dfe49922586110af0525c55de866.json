@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/wp-user-defaults": {
+            "1.1": {
+                "name": "wordpress\/wp-user-defaults",
+                "version": "1.1",
+                "version_normalized": "1.1.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/wp-user-defaults.1.1.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>With this plugin, a WordPress site Administrator can set some default options for new user accounts. All new users registered on the system will inherit these settings. The following user defaults can be set:<\/p>\n\n<ul>\n<li>Enable\/Disable Rich Text Editor<\/li>\n<li>Enable\/Disable Comment Keyboard Shortcuts<\/li>\n<li>Administrative Interface Color<\/li>\n<li>Public Display Name Format<\/li>\n<\/ul>\n\n<h4>New In This Version<\/h4>\n\n<ol>\n<li>WordPress 2.9 Compatibility<\/li>\n<li>Moved settings page to \"Users\" submenu<\/li>\n<\/ol>\n\n<p>NOTE: This plugin only affects <em>new<\/em> user accounts (created after the plugin's activation). Existing user accounts will be unmodified.<\/p>",
+                "uid": "89271"
+            }
+        }
+    }
+}

@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/custom-classes": {
+            "0.1": {
+                "name": "wordpress\/custom-classes",
+                "version": "0.1",
+                "version_normalized": "0.1.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/custom-classes.0.1.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>The Custom Classes plugin allows you to create custom classes for posts (when <code>post_class()<\/code> is called) and for the <code>&#60;body&#62;<\/code> class (when <code>body_class()<\/code> is called).  It creates a meta box on the edit post screen in the admin with two input boxes for adding your custom classes.<\/p>\n\n<p>Custom post classes are added whenever your theme calls the <code>post_class()<\/code> function, which is generally whenever a post is shown.  Custom body classes are added on the single view of the post whenever your theme calls the <code>body_class()<\/code> function.<\/p>",
+                "uid": "30783"
+            }
+        }
+    }
+}

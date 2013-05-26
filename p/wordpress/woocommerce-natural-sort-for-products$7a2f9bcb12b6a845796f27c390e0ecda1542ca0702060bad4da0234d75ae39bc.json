@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/woocommerce-natural-sort-for-products": {
+            "0.0.1": {
+                "name": "wordpress\/woocommerce-natural-sort-for-products",
+                "version": "0.0.1",
+                "version_normalized": "0.0.1.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/woocommerce-natural-sort-for-products.0.0.1.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>Sorts products alphabetically rather than acsiibetically.<\/p>\n\n<p>The issue with natural sort on Wordpress it needs to be performed at the SQL level not in Woocommerce.  The plugin installs a UDF into MySQL.<\/p>\n\n<p>This plugin hasn't currently been tested on large numbers of products, so any constructive feedback would be appreciated.<\/p>\n\n<p>Credit and thanks goes to @mooffie for sharing the UDF.<\/p>\n\n<p>Tested with WooCommerce version 1.6.6<\/p>",
+                "uid": "13312"
+            }
+        }
+    }
+}

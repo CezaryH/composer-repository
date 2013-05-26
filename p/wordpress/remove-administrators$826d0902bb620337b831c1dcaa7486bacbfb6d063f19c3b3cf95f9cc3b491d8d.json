@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/remove-administrators": {
+            "1.0": {
+                "name": "wordpress\/remove-administrators",
+                "version": "1.0",
+                "version_normalized": "1.0.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/remove-administrators.1.0.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>Do you develop websites for a living? Do you prefer to give your clients a level of access other than Administrator to prevent accidental damage? Maybe even a custom role? What if you wanted to hide the Admin user(s) from them altogether? This plugin does exactly that!<\/p>\n\n<p>Currently based off the 'update_core' permission, Remove Administrators hides all references to Admins from all other user roles on the dashboard. The next release will support configurable permissions and multisite installations.<\/p>",
+                "uid": "20917"
+            }
+        }
+    }
+}

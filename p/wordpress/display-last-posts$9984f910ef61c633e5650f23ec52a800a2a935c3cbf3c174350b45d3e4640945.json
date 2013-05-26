@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/display-last-posts": {
+            "1.0": {
+                "name": "wordpress\/display-last-posts",
+                "version": "1.0",
+                "version_normalized": "1.0.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/display-last-posts.1.0.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p><strong>Display Last Posts<\/strong> is a plugin that allows you to display the last post(s) (by default, the last one only) anywhere on your blog.<\/p>\n\n<p>Official page and french translation :  <a href=\"http:\/\/www.fb-graphic.com\/bonus\/display-last-posts-wordpress-plugin\" rel=\"nofollow\">http:\/\/www.fb-graphic.com\/bonus\/display-last-posts-wordpress-plugin<\/a><\/p>\n\n<p>Two ways are available: using a shortcode in posts or pages, within the CMS, or putting a small PHP code in a template of your theme.<\/p>\n\n<p><strong>shortcode<\/strong> : [last-posts] or [last-posts nb=\"5\" cont=\"excerpt\"]<\/p>\n\n<p><strong>code PHP<\/strong> : &#60; ?php lastPosts('',''); ?&#62; or &#60; ?php lastPosts(5,'excerpt'); ?&#62; (suppress space between &#60; and ?)<\/p>\n\n<p>The shortcode is: <strong>[last-posts]<\/strong>\nBy default, only the last post is displayed, with its whole content.\nOptional arguments, ex.:  <strong>[last-posts nb=\"5\" cont=\"excerpt\"]<\/strong> - with [nb] you specify the quantity of posts you ",
+                "uid": "67751"
+            }
+        }
+    }
+}

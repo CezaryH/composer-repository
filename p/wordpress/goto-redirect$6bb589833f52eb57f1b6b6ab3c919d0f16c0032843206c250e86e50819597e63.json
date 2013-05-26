@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/goto-redirect": {
+            "0.1": {
+                "name": "wordpress\/goto-redirect",
+                "version": "0.1",
+                "version_normalized": "0.1.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/goto-redirect.0.1.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>This Plugin uses the native custom post type to create shorturls in the form of <a href=\"http:\/\/DOMAIN.COM\/Go\/XXXXX\" rel=\"nofollow\">http:\/\/DOMAIN.COM\/Go\/XXXXX<\/a> and single_template filter to redirect to a target (affiliate links) url.<\/p>\n\n<p><strong>Main Features:<\/strong><\/p>\n\n<ul>\n<li>No Custom tables.<\/li>\n<li>Easy to use UI (post type).<\/li>\n<li>Hits tracking built in.<\/li>\n<li>Target link thumbnails.<\/li>\n<li>Counts Unique per 24 hours<\/li>\n<li>Few hooks to filter and do your own actions on critical points.<\/li>\n<\/ul>\n\n<p>Any feedback or suggestions are welcome.<\/p>\n\n<p>Also check out my <a href=\"http:\/\/en.bainternet.info\/category\/plugins\">other plugins<\/a><\/p>",
+                "uid": "23589"
+            }
+        }
+    }
+}

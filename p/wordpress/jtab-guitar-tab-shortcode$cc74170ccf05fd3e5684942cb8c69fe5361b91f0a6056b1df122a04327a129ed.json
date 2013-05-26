@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/jtab-guitar-tab-shortcode": {
+            "1.0": {
+                "name": "wordpress\/jtab-guitar-tab-shortcode",
+                "version": "1.0",
+                "version_normalized": "1.0.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/jtab-guitar-tab-shortcode.1.0.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>jTab Guitar Tab Shortcode displays clean SVG graphics of guitar chords and tab on your WordPress blog, based on simple text notation entered into a WordPress shortcode. \nThis plugin is based on the excellent open-source jTab JavaScript library by Paul Gallagher (<a href=\"http:\/\/jtab.tardate.com\" rel=\"nofollow\">http:\/\/jtab.tardate.com<\/a>). \"jTab is a javascript-based library that renders notation using CSS and scalable vector graphics (SVG). It works in most modern browsers that support javascript, CSS and scalable vector graphics (SVG).\"<\/p>\n\n<p>I'd rather show than tell! To see plenty of examples, visit the shortcode plugin page at <a href=\"http:\/\/jtab-guitar-tab-shortcode.marichiba.com\" rel=\"nofollow\">http:\/\/jtab-guitar-tab-shortcode.marichiba.com<\/a>.<\/p>\n\n<h4>USAGE<\/h4>\n\n<p><strong>Display guitar chords<\/strong><\/p>\n\n<pre><code>[jtab phrase=\"C \/ Am \/ F \/ G G7\"]\n<\/code><\/pre>\n\n<p><strong>Display guitar tab with chords<\/strong><\/p>\n\n<pre><code>[jtab phrase=\"Bm $3 4 4h5p3h4 5 $2 3",
+                "uid": "27484"
+            }
+        }
+    }
+}

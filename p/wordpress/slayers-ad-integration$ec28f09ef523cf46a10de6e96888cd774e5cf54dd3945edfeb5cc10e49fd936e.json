@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/slayers-ad-integration": {
+            "1.1": {
+                "name": "wordpress\/slayers-ad-integration",
+                "version": "1.1",
+                "version_normalized": "1.1.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/slayers-ad-integration.1.1.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>Plugin Usage<\/p>\n\n<ol>\n<li>Locating the plugin in the Admin Panel<\/li>\n<li>Adding a new ad<\/li>\n<li>Editing an ad<\/li>\n<li>Deleting an ad<\/li>\n<li>Plugin options settings<\/li>\n<\/ol>\n\n<p>1 Locating the plugin in the Admin Panel<\/p>\n\n<p>The plugin creates \"Slayer's Ad Integration\" menu item which is visible anywhere in your dashboard\nThe plugin's options panel is divided to 2 sections \"ads\" &#38; \"options\";<\/p>\n\n<p>1.1 \"Add ad\" Subpage<\/p>\n\n<ul>\n<li>\"Ad name\" = the name of your ad. It isn't publicly displayed anywhere, it's just so that you can make the difference between the many ads you will ad.<\/li>\n<li>\"Ad HTML Code\" = your ad's html code(Google Adsense for example)<\/li>\n<li>\"Use default HTML wrapper\" = the plugin can conjure the ad in a custom HTML wrapper which can be defiened in the options section. If you don't know what this is just leave it on default.<\/li>\n<li>\"Max repeat count on same page\" = This value defines how many times the ads will appear on the same page. The highe",
+                "uid": "100218"
+            }
+        }
+    }
+}

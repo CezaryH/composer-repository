@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/imageurlreturner": {
+            "0.2": {
+                "name": "wordpress\/imageurlreturner",
+                "version": "0.2",
+                "version_normalized": "0.2.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/imageurlreturner.0.2.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>When you use a blogging client from your computer\/mobile-phone to upload photos to Wordpress, Wordpress resizes the\nimage into smaller versions (e.g. thumbnail and medium) but the URLs of these resized images aren't returned to\nthe client so it can't use them.<\/p>\n\n<p>If clients are altered to support this plugin, when you include photos in an entry, the entry could automagically\ninclude the smaller images which link to the full size version when clicked on.<\/p>\n\n<p>There is a patch to add the functionality in this plugin into the core of Wordpress:\n<a href=\"http:\/\/core.trac.wordpress.org\/ticket\/6430\" rel=\"nofollow\">http:\/\/core.trac.wordpress.org\/ticket\/6430<\/a>\nbut it missed the cut-off from Wordpress 3.0 so it is unlikely to to be included for some time to come.<\/p>",
+                "uid": "72474"
+            }
+        }
+    }
+}

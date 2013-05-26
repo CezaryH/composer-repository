@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/wp-support": {
+            "0.1": {
+                "name": "wordpress\/wp-support",
+                "version": "0.1",
+                "version_normalized": "0.1.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/wp-support.0.1.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>Using a third party support system (or e-mail, or none at all!) might not be the best approach for your project. Instead you may want to house all of your support tasks under the installation of WordPress that you're working on. The support section can be do anything, whether it be changes of colours to the site, or new content to be added - it's flexible.<\/p>\n\n<h4>Features<\/h4>\n\n<ul>\n<li>Adds a native support forum to WP Admin<\/li>\n<li>Dashboard statistics to show progress<\/li>\n<li>Attach files\/images to comments<\/li>\n<\/ul>\n\n<h4>Roadmap<\/h4>\n\n<ul>\n<li>Ticket priorities<\/li>\n<li>Record history of each ticket<\/li>\n<li>Improve ticket numbers (i.e. don't use WordPress post IDs)<\/li>\n<li>Ability to link tickets<\/li>\n<li>Ability to edit comments<\/li>\n<li>Notifications<\/li>\n<li>Select which users can view support<\/li>\n<li>Internationalization<\/li>\n<li>Add status (&#38; priority) to quick edit<\/li>\n<\/ul>",
+                "uid": "11430"
+            }
+        }
+    }
+}

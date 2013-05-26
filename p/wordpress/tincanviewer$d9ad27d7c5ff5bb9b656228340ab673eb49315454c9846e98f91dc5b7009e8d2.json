@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/tincanviewer": {
+            "1.0.2": {
+                "name": "wordpress\/tincanviewer",
+                "version": "1.0.2",
+                "version_normalized": "1.0.2.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/tincanviewer.1.0.2.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>This plugin allows users to connect to a Tin Can (Experience API) Learning Record Store and send statements about learning experiences. It has a configuration screen to set the Endpoint for statements and allows administrators to setup shortcodes that display Tin Can content, as well as send statements to a LRS.  You must have at least a free LRS account at vTrainingTracker.com to use this plugin.<\/p>",
+                "uid": "9792"
+            }
+        }
+    }
+}

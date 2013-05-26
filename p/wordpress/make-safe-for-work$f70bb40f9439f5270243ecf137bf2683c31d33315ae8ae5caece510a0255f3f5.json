@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/make-safe-for-work": {
+            "0.1": {
+                "name": "wordpress\/make-safe-for-work",
+                "version": "0.1",
+                "version_normalized": "0.1.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/make-safe-for-work.0.1.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>Adds a shortcode for not-safe-for-work content that actually prevents loading of the\ninappropriate content from the server until requested by the user. Just wrap any offending\ncontent in [nsfw][\/nsfw] and your post will bypass even restrictive work filters.  Users\ncan then click a link that will reload the full uncensored version of the page.  By default,\ncensored text is padded to take up roughly the same amount of space as the original content.<\/p>\n\n<p>The first censored item in a post will be labeled \"[Not Safe for Work. Click to View.]\" and all\ncensored items after that will be labeled \"[NSFW]\" for brevity.<\/p>\n\n<p>If you want to force long or short forms instead of using long first and short after,\njust define MSFW_USE_FORM as either 'long' or 'short' in your functions.php like so:\ndefine('MSFW_USE_FORM','long');<\/p>\n\n<p>Using pad='false' you can disable padding of censored content:\n[nsfw pad='false']<\/p>\n\n<p>If you want to default padding to off, just define MSFW_PADDING as fa",
+                "uid": "40149"
+            }
+        }
+    }
+}

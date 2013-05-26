@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/multisite-featured-blog": {
+            "1.0": {
+                "name": "wordpress\/multisite-featured-blog",
+                "version": "1.0",
+                "version_normalized": "1.0.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/multisite-featured-blog.1.0.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>This plugin helps to create a widget and shortcode to create featured blogs.<\/p>\n\n<p>Following are the things done<\/p>\n\n<p>A settings page created for featured.\nYou can enter the blog id in the blog id: text box in the settings page and click on get blog details button .\nThis will fetch( by AJAX ) get the blog name , blog link , and blog Avatar ( based on the avatars plugin ).\nIt will also add two buttons\n Add this blog -&#62; Which will add this blog to the featured blog list\nCan -&#62; it will not add the blog to the featured blog list.\nThen saving the settings will save it. The settings are saved different for each blog .\nThen the user can use the widget as follows .\nDrag the widget on a widgetize area.\nEnter the blogids in the widget , then those blogs will be used as featured blogs.\nIf nothing is entered in the bloglist the blog list from the settings will be taken.\nThe user can use the short code as follows<\/p>\n\n<p>The user can specify the blog list in short code argument. For",
+                "uid": "29471"
+            }
+        }
+    }
+}

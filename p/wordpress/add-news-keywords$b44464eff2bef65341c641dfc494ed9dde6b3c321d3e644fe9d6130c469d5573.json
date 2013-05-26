@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/add-news-keywords": {
+            "1.0": {
+                "name": "wordpress\/add-news-keywords",
+                "version": "1.0",
+                "version_normalized": "1.0.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/add-news-keywords.1.0.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>If you are using WordPress to power a news site, you might be interested in helping Google News to find and classify your content. Google introduced a new meta tag to their crawlers some time ago, which is doing exactly this.<\/p>\n\n<p>The element with the name \"news_keywords\" is supposed to describe your content very briefly. You can read more on this topic over at Google: <a href=\"http:\/\/support.google.com\/news\/publisher\/bin\/answer.py?answer=68297\" rel=\"nofollow\">http:\/\/support.google.com\/news\/publisher\/bin\/answer.py?answer=68297<\/a><\/p>\n\n<p>This plugin adds the meta tag and outputs the article keywords into it.<\/p>",
+                "uid": "13194"
+            }
+        }
+    }
+}

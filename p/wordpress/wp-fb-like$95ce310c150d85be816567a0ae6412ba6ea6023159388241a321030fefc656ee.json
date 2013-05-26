@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/wp-fb-like": {
+            "1.3": {
+                "name": "wordpress\/wp-fb-like",
+                "version": "1.3",
+                "version_normalized": "1.3.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/wp-fb-like.1.3.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>WP FB Like makes it easy to install Facebook Plugin Like (<a href=\"http:\/\/developers.facebook.com\/docs\/reference\/plugins\/like\" rel=\"nofollow\">http:\/\/developers.facebook.com\/docs\/reference\/plugins\/like<\/a>) automatically to every post in your blog. There are options to display on the front page (home) and also pages.<\/p>\n\n<p>Simply activate the plugin, and the settings as needed, then your blog is ready with the latest Facebook Like Plugin.<\/p>\n\n<h4>New<\/h4>\n\n<ul>\n<li><p>add \"manual\" position, now user can add PHP function directly in any template using<\/p>\n\n\n\n<p>&#60;?php if(function_exists(&#039;wp_fb_like&#039;)) { wp_fb_like(); } ?&#62;<\/p><\/li>\n<\/ul>\n\n<h4>Features<\/h4>\n\n<ul>\n<li>Options to display on pages and home<\/li>\n<li>Options to set style of div  that surrounds the button<\/li>\n<li>Easily installation and customisation<\/li>\n<li>Quicker loading times for the buttons, using iframe, not FBML<\/li>\n<li>Real time preview button on admin panel<\/li>\n<li>Manual function directly int",
+                "uid": "69691"
+            }
+        }
+    }
+}

@@ -1,0 +1,40 @@
+{
+    "packages": {
+        "wordpress\/theme-blvd-layouts-to-posts": {
+            "1.0.0": {
+                "name": "wordpress\/theme-blvd-layouts-to-posts",
+                "version": "1.0.0",
+                "version_normalized": "1.0.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/theme-blvd-layouts-to-posts.1.0.0.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>This plugin extends the Theme Blvd Layout Builder so you can assign your custom layouts to standard posts and custom post types.<\/p>\n\n<p><strong>Note: You must have a <a href=\"http:\/\/themeforest.net\/user\/ThemeBlvd\/portfolio\" title=\"Theme Blvd WordPress themes\">Theme Blvd theme<\/a> installed with the Layout Builder for this plugin to do anything.<\/strong><\/p>\n\n<h4>Customization<\/h4>\n\n<p>This is a pretty simple plugin, however it will add the custom layout selection meta box to all post types automatically. If you'd like to exlude the meta box from certain post types, you can unset those post types from the array attached to the filter <code>themeblvd_ltp_post_types<\/code>.<\/p>\n\n<pre><code>function my_ltp_post_types( $post_types ) {\n    unset( $post_types[&#039;post_type_to_remove&#039;] );\n    return $post_types;\n}\nadd_filter( &#039;themeblvd_ltp_post_types&#039;, &#039;my_ltp_post_types&#039; );<\/code><\/pre>",
+                "uid": "19396"
+            },
+            "1.0.1": {
+                "name": "wordpress\/theme-blvd-layouts-to-posts",
+                "version": "1.0.1",
+                "version_normalized": "1.0.1.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/theme-blvd-layouts-to-posts.1.0.1.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>This plugin extends the Theme Blvd Layout Builder so you can assign your custom layouts to standard posts and custom post types.<\/p>\n\n<p><strong>Note: You must have a <a href=\"http:\/\/themeforest.net\/user\/ThemeBlvd\/portfolio\" title=\"Theme Blvd WordPress themes\">Theme Blvd theme<\/a> installed with the Layout Builder for this plugin to do anything.<\/strong><\/p>\n\n<h4>Customization<\/h4>\n\n<p>This is a pretty simple plugin, however it will add the custom layout selection meta box to all post types automatically. If you'd like to exlude the meta box from certain post types, you can unset those post types from the array attached to the filter <code>themeblvd_ltp_post_types<\/code>.<\/p>\n\n<pre><code>function my_ltp_post_types( $post_types ) {\n    unset( $post_types[&#039;post_type_to_remove&#039;] );\n    return $post_types;\n}\nadd_filter( &#039;themeblvd_ltp_post_types&#039;, &#039;my_ltp_post_types&#039; );<\/code><\/pre>",
+                "uid": "19395"
+            }
+        }
+    }
+}

@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/disable-wp-new-user-notification": {
+            "0.10": {
+                "name": "wordpress\/disable-wp-new-user-notification",
+                "version": "0.10",
+                "version_normalized": "0.10.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/disable-wp-new-user-notification.0.100323.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>This plugin replaces the default wp_new_user_notification, the function that is called when\na new user signs up. Typically, the code sends an email to the administrator. My code modifies\nthe function so no email is sent. No other functionality is lost. The only purpose of this \nplugin is to prevent the new user notification emails. I wrote this plugin because I needed\nit for one of my sites that gets a few new users each day.<\/p>",
+                "uid": "71724"
+            }
+        }
+    }
+}

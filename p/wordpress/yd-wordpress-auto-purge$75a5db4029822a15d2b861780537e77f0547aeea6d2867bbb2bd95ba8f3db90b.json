@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/yd-wordpress-auto-purge": {
+            "0.1.0": {
+                "name": "wordpress\/yd-wordpress-auto-purge",
+                "version": "0.1.0",
+                "version_normalized": "0.1.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/yd-wordpress-auto-purge.0.1.0.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<h4>Keep total number of posts constant<\/h4>\n\n<p>Needs <a href=\"http:\/\/wordpress.org\/extend\/plugins\/stats\/\">WordPress.com stats plugin<\/a> and <a href=\"http:\/\/www.yann.com\/en\/wp-plugins\/yd-wordpresscom-stats-integration\">YD WordPress.com Stats integration<\/a> plugin. \nUses WP Cron to periodically perform automatic cleanup. \nWill keep total number of posts in the blog to a specified amount.<\/p>\n\n<p>Great when using <a href=\"http:\/\/feedwordpress.radgeek.com\/\">FeedWordPress<\/a> for content aggregation or autoblogging.<\/p>",
+                "uid": "54913"
+            }
+        }
+    }
+}

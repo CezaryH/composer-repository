@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/joomla-15-importer": {
+            "1.0.0": {
+                "name": "wordpress\/joomla-15-importer",
+                "version": "1.0.0",
+                "version_normalized": "1.0.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/joomla-15-importer.1.0.0.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>This plugin exports articles from a Joomla 1.5 database and imports them as posts into Wordpress.\nIt exports the content from a single Joomla category then allows the user to import the content\ninto one or more Wordpress categories.<\/p>\n\n<p>This plugin does not convert Joomla articles into Wordpress pages, although its framework would\nsupport such a conversion rather easily if someone would choose to code it.<\/p>\n\n<p>This plugin does not work on Joomla 1.0 databases. If you need to convert your Joomla 1.0 data, you will first need\nto <a href=\"http:\/\/docs.joomla.org\/Migrating_from_1.0.x_to_1.5_Stable\">migrate to Joomla 1.5<\/a>.<\/p>\n\n<p>This plugin does not work on Joomla 1.6 databases. The Joomla 1.5 2-level section\/category system has been replaced\nin Joomla 1.6 with a multi-level hierarchical system similar to Wordpress. This framework could be adapted to support\nJoomla 1.6 in the future.<\/p>",
+                "uid": "55693"
+            }
+        }
+    }
+}

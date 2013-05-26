@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/browser-dns-prefetching": {
+            "1.0": {
+                "name": "wordpress\/browser-dns-prefetching",
+                "version": "1.0",
+                "version_normalized": "1.0.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/browser-dns-prefetching.1.0.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>Disabling (or configuring correctly) your site's DNS prefetching option allows you to save immensely on bandwidth as described in <a href=\"http:\/\/www.pinkbike.com\/news\/DNS-Prefetching-Implications.html\">this article<\/a>.<\/p>\n\n<p>To learn more about DNS Prefetching:<\/p>\n\n<ul>\n<li><a href=\"https:\/\/developer.mozilla.org\/en\/controlling_dns_prefetching\">Controlling DNS Prefetching<\/a><\/li>\n<li><a href=\"http:\/\/bitsup.blogspot.com\/2008\/11\/dns-prefetching-for-firefox.html\">DNS Prefetching for Firefox<\/a><\/li>\n<li><a href=\"http:\/\/blog.chromium.org\/2008\/09\/dns-prefetching-or-pre-resolving.html\">DNS Prefetching or Pre-Resolving<\/a><\/li>\n<li><a href=\"http:\/\/www.pinkbike.com\/news\/DNS-Prefetching-Implications.html\">DNS Prefetching Implications<\/a><\/li>\n<\/ul>",
+                "uid": "51115"
+            }
+        }
+    }
+}

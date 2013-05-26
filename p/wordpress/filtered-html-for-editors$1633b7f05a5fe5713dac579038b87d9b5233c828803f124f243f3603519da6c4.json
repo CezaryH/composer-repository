@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/filtered-html-for-editors": {
+            "1.0": {
+                "name": "wordpress\/filtered-html-for-editors",
+                "version": "1.0",
+                "version_normalized": "1.0.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/filtered-html-for-editors.1.0.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>By default, users with Administrator or Editor privileges are allowed to publish unfiltered HTML in post titles and content. WordPress is, after all, a publishing tool, and people need to be able to include whatever markup they need to communicate. Users with lesser privileges are not allowed to post unfiltered content.<\/p>\n\n<p>Unfiltered HTML is potentially dangerous. It allows users to include JavaScript, object embeds, and other code that has the potential to be malicious. The capability should only be given to trusted users. By default, WordPress provides the unfiltered HTML ability to Editors and Administrators.<\/p>\n\n<p>Use this plugin to prevent Editors from publishing unfiltered HTML posts. Administrators will not be affected.<\/p>\n\n<p>For more information, check out the <a href=\"http:\/\/wordpress.org\/extend\/plugins\/filtered-html-for-editors\/faq\/\">FAQ<\/a>.<\/p>",
+                "uid": "55992"
+            }
+        }
+    }
+}

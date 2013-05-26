@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/conditional-custom-fields-shortcode": {
+            "0.5": {
+                "name": "wordpress\/conditional-custom-fields-shortcode",
+                "version": "0.5",
+                "version_normalized": "0.5.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/conditional-custom-fields-shortcode.0.5.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>A series of shortcodes for using custom field values in pages or posts (or in sidebar widgets - via <a href=\"http:\/\/wordpress.org\/extend\/plugins\/widget-logic\/\">Section Widget<\/a>!), which would then allows you to take store the actual data in custom fields while storing the presentation in the page\/post body. This transforms WordPress into an awesome CMS. Keep reading for more inspirations.<\/p>\n\n<h4>Basic Usage<\/h4>\n\n<pre><code>[cf \"custom field name\"]\n<\/code><\/pre>\n\n<p>Example:<\/p>\n\n<pre><code>Picture of the day:\n&#60;img src='[cf \"picture-link\"]' \/&#62;\n<\/code><\/pre>\n\n<p>This would output something like <code>&#60;img src='http:\/\/thesite.com\/something.jpg' \/&#62;<\/code>, assume the post\/page has the custom field \"picture-link\" and its value is \"http:\/\/thesite.com\/something.jpg\". That way, you (or your clients!) would never accidentally take out a div when updating your page because you won't have to touch the page\/post body anymore!<\/p>\n\n<h4>Default Values<\/h4>\n\n<pre><code>[cf \"cu",
+                "uid": "83251"
+            }
+        }
+    }
+}

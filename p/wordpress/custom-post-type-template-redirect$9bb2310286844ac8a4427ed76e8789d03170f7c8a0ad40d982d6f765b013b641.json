@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/custom-post-type-template-redirect": {
+            "1.0": {
+                "name": "wordpress\/custom-post-type-template-redirect",
+                "version": "1.0",
+                "version_normalized": "1.0.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/custom-post-type-template-redirect.1.0.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>One of the shortcomings of Custom Post Types in WordPress is that there's no way to easily set a different custom template from the standard single.php.  If it's a custom post type, it's got custom information, and I want to put it in a custom template!<\/p>\n\n<p>So I threw together a plugin to handle this.  With this plugin installed and activated, it checks your template directory for posttype.php then t_posttype.php.  If neither exists, then the standard WP template rules take effect.<\/p>\n\n<p>For example, if your custom post type is 'books', it's going to check your template directory for 'books.php'.  If it finds it, it will use that as the template for your 'books' posts.  If not, it will check for 't_books.php', and use that as the template for your 'books' posts.  If it finds neither, the standard WP logic kicks into place, looking to see if you've defined a template for the post, and, if not, using single.php.<\/p>",
+                "uid": "64188"
+            }
+        }
+    }
+}

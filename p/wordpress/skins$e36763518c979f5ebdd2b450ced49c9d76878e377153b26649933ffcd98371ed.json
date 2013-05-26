@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/skins": {
+            "1.0.2": {
+                "name": "wordpress\/skins",
+                "version": "1.0.2",
+                "version_normalized": "1.0.2.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/skins.1.0.2.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>Skins adds an admin interface for adding custom CSS classes to hooks like the 'body_class'. Designers can then use these classes in their CSS. Skins simply provides the interface. It leaves the styling to the designer.<\/p>",
+                "uid": "9442"
+            }
+        }
+    }
+}

@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/wp-custom-titles": {
+            "0.1": {
+                "name": "wordpress\/wp-custom-titles",
+                "version": "0.1",
+                "version_normalized": "0.1.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/wp-custom-titles.0.1.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>This is an extremely simple plugin weighing in at 31 lines long.<\/p>\n\n<p>If you add a custom field to a post or page called \"custom_title\" then the value of that custom field will be used as the post or page's title when the post or page is being displayed. For example, you have a page called FAQ which will appear in the nav menu as FAQ and you add a custom field custom_title with \"Frequently Asked Questions\" then the page title will appear as \"Frequently Asked Questions\" on the \/faq\/ page, but in the menu it's still FAQ.<\/p>\n\n<p>This plugin was inspired by the <a href=\"http:\/\/wordpress.org\/extend\/plugins\/wp-title-2\/\" title=\"The WP Title 2 plugin\">WP Title-2<\/a> plugin but uses a <strong>much<\/strong> simpler approach. There is no menu or interface of any kind. You simply add a custom field to the posts you want to modify.<\/p>",
+                "uid": "19331"
+            }
+        }
+    }
+}

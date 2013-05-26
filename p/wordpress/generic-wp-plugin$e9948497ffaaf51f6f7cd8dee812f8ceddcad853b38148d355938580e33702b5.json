@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/generic-wp-plugin": {
+            "0.1": {
+                "name": "wordpress\/generic-wp-plugin",
+                "version": "0.1",
+                "version_normalized": "0.1.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/generic-wp-plugin.0.1.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>Files:\n   \/classes\/fs_generic_wp_plugin.php\n     Abstract class with support for:\n       * Activate, deactivate and uninstall plugin.\n       * Internalization.\n       * Menu and submenu registry for wordpress dashboard.\n       * Shortcode support.<\/p>\n\n<p>\/classes\/fs_translator.php\n     Internalization class.<\/p>\n\n<p>\/classes\/hello_world_plugin.php\n     Class example with implemented fs_generic_wp_plugin.<\/p>\n\n<p>\/lang\n     .po files for internalization use.<\/p>\n\n<p>\/sql\n     .sql files for create and delete DB tables:\n       *plugin_tables.sql: this script will be executed on plugin activation \n       *plugin_tables_uninstall.sql: this script will be executed on plugin uninstall,\n                                     for example: delete plugin tables.<\/p>\n\n<p>\/generic-wp-plugin.php\n      Main script plugin.<\/p>\n\n<p>\/uninstall.php\n      This script will be executed on plugin uninstall.<\/p>",
+                "uid": "14281"
+            }
+        }
+    }
+}

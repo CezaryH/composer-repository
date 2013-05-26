@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/wordpress-zootool": {
+            "1.11": {
+                "name": "wordpress\/wordpress-zootool",
+                "version": "1.11",
+                "version_normalized": "1.11.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/wordpress-zootool.1.11.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>This Plugin provides a Zootool Badge in form of a Wordpress Widget, \"Zootool is about collecting, organizing and sharing your favorite images, videos, documents and links from all over the internet. \" Learn more on <a href=\"http:\/\/zootool.com\/\">zootool.com<\/a>. To use this Plugin you'll need a zootool-Account. Just Configure the Widget the way you want and you're good to go. If your Theme does <strong>not<\/strong> support widgets just place the code <code>&#60;?= wp_zootool::widgetContent() ?&#62;<\/code> in your sidebar template. This Plugin is written and maintained by <a href=\"http:\/\/www.lautr.com\">Johannes Lauter<\/a><\/p>",
+                "uid": "65963"
+            }
+        }
+    }
+}

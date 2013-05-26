@@ -1,0 +1,40 @@
+{
+    "packages": {
+        "wordpress\/wm-private-content": {
+            "1.1": {
+                "name": "wordpress\/wm-private-content",
+                "version": "1.1",
+                "version_normalized": "1.1.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/wm-private-content.1.1.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>If there is content or part of content that only a registered user should be allowed to view it then this plugin is for you. Any part of the content that is between [PCONTENT][\/PCONTENT] will be hidden until the user logs into WP site using their WP site login credentials. If the user is not logged in then the user will the message that you will have entered. Within the content use [link]some text[\/link] to show the WP's default login page. From where are the user logs in the user will be redirected back to the original page.<\/p>\n\n<p>Its that easy and simple to use.<\/p>",
+                "uid": "13142"
+            },
+            "1.1.1": {
+                "name": "wordpress\/wm-private-content",
+                "version": "1.1.1",
+                "version_normalized": "1.1.1.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/wm-private-content.1.1.1.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>If there is content or part of content that only a registered user should be allowed to view it then this plugin is for you. Any part of the content that is between [PCONTENT][\/PCONTENT] will be hidden until the user logs into WP site using their WP site login credentials. If the user is not logged in then the user will the message that you will have entered. Within the content use [link]some text[\/link] to show the WP's default login page. From where are the user logs in the user will be redirected back to the original page.<\/p>\n\n<p>Its that easy and simple to use.<\/p>",
+                "uid": "13141"
+            }
+        }
+    }
+}

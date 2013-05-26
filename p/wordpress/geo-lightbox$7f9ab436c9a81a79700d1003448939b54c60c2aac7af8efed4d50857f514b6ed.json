@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/geo-lightbox": {
+            "0.5": {
+                "name": "wordpress\/geo-lightbox",
+                "version": "0.5",
+                "version_normalized": "0.5.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/geo-lightbox.0.5.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>version 0.5:\nFirst version for this plugin.<\/p>\n\n<p>You can see demo page at <a href=\"http:\/\/daozhao.goflytoday.com\/2009\/08\/malaysia-kuala-lumpur-picture\/\">http:\/\/daozhao.goflytoday.com\/2009\/08\/malaysia-kuala-lumpur-picture\/<\/a>\nYou insert the photo like it:\n&#60;a class=\"alignnone\" title=\"photo title 1\" href=\"http:\/\/www.flickr.com\/photos\/daozhao\/3864377226\/\" rel=\"lightbox\" rev=\"href:'http:\/\/farm4.static.flickr.com\/3455\/3864377226_1d3d2d5dcb.jpg',lat:3.155186,lng:101.718041\" target=\"_blank\"&#62;\n&#60;img class=\"alignnone\" src=\"http:\/\/farm4.static.flickr.com\/3455\/3864377226_1d3d2d5dcb_t.jpg\" alt=\"photo title 1\" width=\"100\" height=\"67\" \/&#62;\n&#60;\/a&#62;<\/p>\n\n<p>You must add the geo lightbox information in &#60;a&#62; rev=\"href:'http:\/\/farm4.static.flickr.com\/3455\/3864377226_1d3d2d5dcb.jpg',lat:3.155186,lng:101.718041\"\nhref:'http:\/\/farm4.static.flickr.com\/3455\/3864377226_1d3d2d5dcb.jpg  is lightbox big image.\nlat:3.155186,lng:101.718041 is geo information<\/p>\n\n<p>You can use my other",
+                "uid": "34335"
+            }
+        }
+    }
+}

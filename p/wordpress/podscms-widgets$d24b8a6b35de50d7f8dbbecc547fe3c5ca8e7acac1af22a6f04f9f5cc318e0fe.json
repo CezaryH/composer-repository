@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/podscms-widgets": {
+            "1.2": {
+                "name": "wordpress\/podscms-widgets",
+                "version": "1.2",
+                "version_normalized": "1.2.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/podscms-widgets.1.2.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>Allows you to insert data from any PodCMS pod into your sidebar. Simply select the pod, the template, and specify the number you would like to show. You can even use \"Find Records\" to filter the listing.<\/p>",
+                "uid": "59189"
+            }
+        }
+    }
+}

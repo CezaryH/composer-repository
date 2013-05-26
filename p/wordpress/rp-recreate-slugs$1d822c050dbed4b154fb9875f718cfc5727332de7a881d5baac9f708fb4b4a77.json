@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/rp-recreate-slugs": {
+            "1.1": {
+                "name": "wordpress\/rp-recreate-slugs",
+                "version": "1.1",
+                "version_normalized": "1.1.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/rp-recreate-slugs.1.1.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>Recreate articles and pages slugs (permalinks) with the most current ruleset. Useful when slug generation is changed or updated, especially with transliteration. Global slugs recovery. Saves sites. Use with care.<\/p>\n\n<p>You might need to recreate slugs after modifying the way the slugs generated and\/or transliterated and you are getting infinite redirections and\/or 404 errors.<\/p>\n\n<h4>Features:<\/h4>\n\n<h4>Recreate articles and pages slugs.<\/h4>\n\n<pre><code>1. Useful when slug generation is changed or updated, especially with transliteration.\n2. Global slugs recovery.\n2. Requires administrator access.\n<\/code><\/pre>",
+                "uid": "51104"
+            }
+        }
+    }
+}

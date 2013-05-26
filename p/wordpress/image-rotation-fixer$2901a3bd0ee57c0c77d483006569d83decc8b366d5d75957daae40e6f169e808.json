@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/image-rotation-fixer": {
+            "1.0": {
+                "name": "wordpress\/image-rotation-fixer",
+                "version": "1.0",
+                "version_normalized": "1.0.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/image-rotation-fixer.1.0.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>Automatically fixes the rotation of JPEG images using PHP's EXIF extension, immediately after they are uploaded to the server. Plugin requires no configuration, it simply hooks itself to WordPress' upload procedure and takes care of everything.<\/p>\n\n<p>Developed during my internship at <a href=\"http:\/\/www.dxwavetech.com\">DX Wave<\/a>.<\/p>",
+                "uid": "22965"
+            }
+        }
+    }
+}

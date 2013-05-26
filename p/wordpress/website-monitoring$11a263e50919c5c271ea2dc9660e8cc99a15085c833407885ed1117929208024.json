@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/website-monitoring": {
+            "1.1": {
+                "name": "wordpress\/website-monitoring",
+                "version": "1.1",
+                "version_normalized": "1.1.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/website-monitoring.1.1.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>This plugin integrates the user panel of website-monitoring.com with WordPress administration panel.\nAfter installation and giving the proper login and password, the uptime history (tables and charts) as well as service configurations are available in WordPress without the need to login separately.<\/p>\n\n<p><a href=\"http:\/\/www.website-monitoring.com\/?ps=4\" title=\"website availability monitoring\">Read more about website monitoring services<\/a><\/p>",
+                "uid": "71158"
+            }
+        }
+    }
+}

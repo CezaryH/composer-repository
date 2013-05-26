@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/comment-pub": {
+            "1.0.0": {
+                "name": "wordpress\/comment-pub",
+                "version": "1.0.0",
+                "version_normalized": "1.0.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/comment-pub.1.0.0.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>Allow image upload on comments to create a guestbook. All images will be resized and originals deleted in order to save space in your server. This plugin will add \"Comment Pub\" under comments and \"Comment Pub Options\" under settings.<\/p>\n\n<p>Comment Pub...<\/p>\n\n<ul>\n<li>Will notify the administrator if the plugin is not compatible with their hosting environment<\/li>\n<li>Supports PNG, GIF, JPG, and JPEG images<\/li>\n<li>Will notify readers if their attached image is not allowed to be uploaded<\/li>\n<li>Will add an additional tab under <em>\"Comments\"<\/em> in the admin panel allowing easy monitoring<\/li>\n<li>Will add an additional tab under <em>\"Settings\"<\/em><\/li>\n<li><strong>Will allow you to control the Width and Height of the resized version of the original image.<\/strong><\/li>\n<li>You can remove the requiered e-mail input when post a comment as a guest<\/li>\n<\/ul>",
+                "uid": "11784"
+            }
+        }
+    }
+}

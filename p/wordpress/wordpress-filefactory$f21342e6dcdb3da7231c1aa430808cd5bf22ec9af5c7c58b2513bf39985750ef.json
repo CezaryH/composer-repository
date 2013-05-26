@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/wordpress-filefactory": {
+            "1.1": {
+                "name": "wordpress\/wordpress-filefactory",
+                "version": "1.1",
+                "version_normalized": "1.1.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/wordpress-filefactory.1.1.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>WordPress FileFactory is a tool that can help you upload all files on your blog's server to filefactory.com, a free file sharing website. This way, you will reduce your bandwidth usage, make your server run faster, and if you want, make a few bucks, as filefactory.com will pay you for each time a visitor downloads your files.<\/p>\n\n<p>You need WordPress FileFactory if:\n1. You have many files uploaded on your own server through many posts, (mp3s, archives, video clips, etc).\n2. You need all these files remotely uploaded to an online file sharing server.\n3. You want to make a few extra bucks.<\/p>\n\n<p>Just follow the instructions on the plugin's confirguration page under wordpress setting, to get a list of urls on your server, and how to upload them all in one go, then get a report file from filefactory to replace all these links with filefactory links.<\/p>",
+                "uid": "59502"
+            }
+        }
+    }
+}

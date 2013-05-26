@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/accidentals": {
+            "0.1": {
+                "name": "wordpress\/accidentals",
+                "version": "0.1",
+                "version_normalized": "0.1.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/accidentals.0.1.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>This plugin converts text representations of musical \"accidental\" symbols into actual symbols. Type them into pages and blog posts like this:<\/p>\n\n<ul>\n<li>A-flat<\/li>\n<li>A-sharp<\/li>\n<li>A-natural<\/li>\n<li>A-double-flat<\/li>\n<li>A-double-sharp<\/li>\n<\/ul>\n\n<p>Displaying the symbols correctly is tricky, since it depends on the user's operating system, web browser, and installed fonts. The Accidentals plugin attempts to determine whether the user's system can display the symbols, and, if it's not sure, falls back on the typed text. Bear in mind that even if you see the symbols on your own computer, not all site visitors will necessarily see them. And if you don't see them, some of your visitors will.<\/p>\n\n<p>The advantage of this system is that it degrades gracefully to the typed text, even if you uninstall the plugin.<\/p>",
+                "uid": "14490"
+            }
+        }
+    }
+}

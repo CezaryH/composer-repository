@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/tumblr": {
+            "1.0": {
+                "name": "wordpress\/tumblr",
+                "version": "1.0",
+                "version_normalized": "1.0.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/tumblr.1.0.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>Tumblr is best place to share and spread photos, blogs, music etc on internet.\n This plugin would allow a user to act as a mediator between tumblr and wordpress.\n Once we give access to the tumblr account,\n this plugin can automatically, publish the content to the Tumblr account.\n It also allow us to perform tasks like unlike, delete, reblog and view posts.<\/p>",
+                "uid": "68190"
+            }
+        }
+    }
+}

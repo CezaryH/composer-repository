@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/donkie-quote": {
+            "0.2": {
+                "name": "wordpress\/donkie-quote",
+                "version": "0.2",
+                "version_normalized": "0.2.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/donkie-quote.0.2.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>Displays a random quote.  You must place the <code>do_random_quote();<\/code> template tag somwhere in you template to actually see the quote.<\/p>",
+                "uid": "114796"
+            }
+        }
+    }
+}

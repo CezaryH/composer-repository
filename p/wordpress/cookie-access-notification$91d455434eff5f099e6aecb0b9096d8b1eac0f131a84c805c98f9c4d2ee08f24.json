@@ -1,0 +1,40 @@
+{
+    "packages": {
+        "wordpress\/cookie-access-notification": {
+            "1.0": {
+                "name": "wordpress\/cookie-access-notification",
+                "version": "1.0",
+                "version_normalized": "1.0.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/cookie-access-notification.1.0.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p><strong>DISCONTINUED<\/strong><\/p>\n\n<p>Sends out an email to the blog admin when a commenter accesses the blog with a certain username\/ email address\/ website url. The email will be sent out only once a visitor's browser session to avoid email spam to you. ;-)<\/p>\n\n<p>There's only one thing to be edited in order to make this work for your needs. Line 20:<\/p>\n\n<pre><code>&#60;?php $_COOKIE[&#34;comment_author_&#34; . COOKIEHASH] == &#039;Alphawolf&#039; ?&#62;<\/code><\/pre>\n\n<p>That's where you put what to check for. If you want to check for a commentor's username, leave as it is (but change 'Alphawolf' to the commentor's name you want to check for, of course ;-)). You can also check for a commentator's email address or website url like this:<\/p>\n\n<pre><code>&#60;?php $_COOKIE[&#34;comment_author_url_&#34; . COOKIEHASH] == &#039;http:\/\/www.domain.com&#039; ?&#62;<\/code><\/pre>\n\n<pre><code>&#60;?php $_COOKIE[&#34;comment_author_email_&#34; . COOKIEHASH] == &#039;info@domain.com&#039; ?&#",
+                "uid": "103190"
+            },
+            "1.0.1": {
+                "name": "wordpress\/cookie-access-notification",
+                "version": "1.0.1",
+                "version_normalized": "1.0.1.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/cookie-access-notification.1.0.1.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p><strong>DISCONTINUED<\/strong><\/p>\n\n<p>Sends out an email to the blog admin when a commenter accesses the blog with a certain username\/ email address\/ website url. The email will be sent out only once a visitor's browser session to avoid email spam to you. ;-)<\/p>\n\n<p>There's only one thing to be edited in order to make this work for your needs. Line 20:<\/p>\n\n<pre><code>&#60;?php $_COOKIE[&#34;comment_author_&#34; . COOKIEHASH] == &#039;Alphawolf&#039; ?&#62;<\/code><\/pre>\n\n<p>That's where you put what to check for. If you want to check for a commentor's username, leave as it is (but change 'Alphawolf' to the commentor's name you want to check for, of course ;-)). You can also check for a commentator's email address or website url like this:<\/p>\n\n<pre><code>&#60;?php $_COOKIE[&#34;comment_author_url_&#34; . COOKIEHASH] == &#039;http:\/\/www.domain.com&#039; ?&#62;<\/code><\/pre>\n\n<pre><code>&#60;?php $_COOKIE[&#34;comment_author_email_&#34; . COOKIEHASH] == &#039;info@domain.com&#039; ?&#",
+                "uid": "103189"
+            }
+        }
+    }
+}

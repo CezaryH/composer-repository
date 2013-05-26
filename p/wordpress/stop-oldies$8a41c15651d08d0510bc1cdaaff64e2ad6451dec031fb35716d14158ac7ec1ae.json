@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/stop-oldies": {
+            "1.0": {
+                "name": "wordpress\/stop-oldies",
+                "version": "1.0",
+                "version_normalized": "1.0.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/stop-oldies.1.0.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>This plugin detects if a visitor is using some old version of Internet Explorer and suggests to upgrade to a recent browser. \nThe versions to block can be configured in an admin panel.\nWorks for blocking IE6, IE7 and IE8.\nLocalisation of the plugin into french.<\/p>",
+                "uid": "15545"
+            }
+        }
+    }
+}

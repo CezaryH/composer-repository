@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/twitter-oembed-fix": {
+            "1.0": {
+                "name": "wordpress\/twitter-oembed-fix",
+                "version": "1.0",
+                "version_normalized": "1.0.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/twitter-oembed-fix.1.0.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>Twitter buttons are displayed in a language that is defined by server location.\nTwitter OEmbed fix uses WPLANG variable or reverts to English by default\nActivate it and forget about it<\/p>",
+                "uid": "13691"
+            }
+        }
+    }
+}

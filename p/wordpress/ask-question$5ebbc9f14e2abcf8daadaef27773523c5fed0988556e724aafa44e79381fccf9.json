@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/ask-question": {
+            "0.1": {
+                "name": "wordpress\/ask-question",
+                "version": "0.1",
+                "version_normalized": "0.1.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/ask-question.0.1.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>1.This plugin when activated, creates a box in the post and page editor screens,\nthis box contains a checkbox asking the author of the post or the page whether he\/she wants the users of the site to ask questions about the content of the post\/page or not.\n2.Checking the checkbox creates a link with title ask question in the post\/page view which displays a nice cool looking ajax pop-up form that allows the user to enter his name, e-mail address, phone number and the body of the question.\nThe plugin first validates the e-mail address and then sends e-mail to the post\/page author with the user entered data.<\/p>",
+                "uid": "60408"
+            }
+        }
+    }
+}

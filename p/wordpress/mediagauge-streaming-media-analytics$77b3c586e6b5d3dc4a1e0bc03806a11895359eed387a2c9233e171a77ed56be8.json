@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/mediagauge-streaming-media-analytics": {
+            "1.0": {
+                "name": "wordpress\/mediagauge-streaming-media-analytics",
+                "version": "1.0",
+                "version_normalized": "1.0.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/mediagauge-streaming-media-analytics.1.0.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>MediaGauge's WordPress plugin works by including a javascript library that checks each page's HTML for video and audio\nplayers and then listens for user events like \"play\", \"pause\", \"finish\", and \"fullscreen\". These events are sent to\nMediaGauge's API where they are recorded for later analysis. You can then login to MediaGauge.com and see realtime and\nhistorical charts that allow you to better understand how your visitors are engaging with your media.<\/p>",
+                "uid": "15450"
+            }
+        }
+    }
+}

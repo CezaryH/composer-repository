@@ -1,0 +1,57 @@
+{
+    "packages": {
+        "wordpress\/author-listing": {
+            "1.0": {
+                "name": "wordpress\/author-listing",
+                "version": "1.0",
+                "version_normalized": "1.0.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/author-listing.1.0.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>A plugin providing template tags to list all active (or inactive) authors in the WordPress installation.<\/p>\n\n<pre><code>&#60;?php list_active_authors( 'days=30&#38;include_protected_posts=0' ); ?&#62; Will list all the authors active in the last 30 days, not counting password protected posts as \"activity\". Both parameters are optional.\n\n&#60;?php list_inactive_authors( 'days=30&#38;include_protected_posts=0' ); ?&#62; Will list all the authors NOT active in the last 30 days, counting password protected posts as \"activity\". Again, both parameters are optional.\n<\/code><\/pre>\n\n<p>If \"days\" are not provided the tags default to the last 30 days.\nIf \"include_protected_posts\" is not specified, the tags default to not including password protected posts.<\/p>\n\n<p>The HTML output is fairly heavily classed, but if you need to adapt it you can. Create a directory in your <em>theme<\/em> called \"view\", and a directory within that one called \"author-listings\". Then copy the template files <code>vi",
+                "uid": "99779"
+            },
+            "1.01": {
+                "name": "wordpress\/author-listing",
+                "version": "1.01",
+                "version_normalized": "1.01.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/author-listing.1.01.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>A plugin providing template tags to list all active (or inactive) authors in the WordPress installation.<\/p>\n\n<pre><code>&#60;?php list_active_authors( 'days=30&#38;include_protected_posts=0' ); ?&#62; Will list all the authors active in the last 30 days, not counting password protected posts as \"activity\". Both parameters are optional.\n\n&#60;?php list_inactive_authors( 'days=30&#38;include_protected_posts=0' ); ?&#62; Will list all the authors NOT active in the last 30 days, counting password protected posts as \"activity\". Again, both parameters are optional.\n<\/code><\/pre>\n\n<p>If \"days\" are not provided the tags default to the last 30 days.\nIf \"include_protected_posts\" is not specified, the tags default to not including password protected posts.<\/p>\n\n<p>The HTML output is fairly heavily classed, but if you need to adapt it you can. Create a directory in your <em>theme<\/em> called \"view\", and a directory within that one called \"author-listings\". Then copy the template files <code>vi",
+                "uid": "99778"
+            },
+            "1.02": {
+                "name": "wordpress\/author-listing",
+                "version": "1.02",
+                "version_normalized": "1.02.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/author-listing.1.02.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>A plugin providing template tags to list all active (or inactive) authors in the WordPress installation.<\/p>\n\n<pre><code>&#60;?php list_active_authors( 'days=30&#38;include_protected_posts=0' ); ?&#62; Will list all the authors active in the last 30 days, not counting password protected posts as \"activity\". Both parameters are optional.\n\n&#60;?php list_inactive_authors( 'days=30&#38;include_protected_posts=0' ); ?&#62; Will list all the authors NOT active in the last 30 days, counting password protected posts as \"activity\". Again, both parameters are optional.\n<\/code><\/pre>\n\n<p>If \"days\" are not provided the tags default to the last 30 days.\nIf \"include_protected_posts\" is not specified, the tags default to not including password protected posts.<\/p>\n\n<p>The HTML output is fairly heavily classed, but if you need to adapt it you can. Create a directory in your <em>theme<\/em> called \"view\", and a directory within that one called \"author-listings\". Then copy the template files <code>vi",
+                "uid": "99777"
+            }
+        }
+    }
+}

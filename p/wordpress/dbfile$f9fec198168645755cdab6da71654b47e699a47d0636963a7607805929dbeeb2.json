@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/dbfile": {
+            "1.2": {
+                "name": "wordpress\/dbfile",
+                "version": "1.2",
+                "version_normalized": "1.2.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/dbfile.1.2.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>dbfiles is a plugin that enables storage of files to the MySQL database. Why store files in a database? Short answer: it is easier to handle file meta data. Some say that storing files in a db will degrade performance... They are right of course :-) The plugin is not intended to be used for ALL images etc on a site, only those downloadable (small) files that can belong to posts - example codelistings, images, sounds etc.<\/p>",
+                "uid": "114434"
+            }
+        }
+    }
+}

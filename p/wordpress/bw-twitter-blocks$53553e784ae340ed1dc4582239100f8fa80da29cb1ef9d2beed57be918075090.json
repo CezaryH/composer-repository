@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/bw-twitter-blocks": {
+            "1.0": {
+                "name": "wordpress\/bw-twitter-blocks",
+                "version": "1.0",
+                "version_normalized": "1.0.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/bw-twitter-blocks.1.0.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>&#035;BW Twitter Blocks fetches tweets using the Twitter API, stores them as posts and provides functionality to display them in blocks based on hash tags and mentions.<\/p>\n\n<p>Two custom post types are created:<\/p>\n\n<ol>\n<li><strong>Twitter Post Blocks (twitterblocks):<\/strong> To create the blocks of posts for display. Include custom fields for displaying based on either mentions of the authenticated user or hash tags.<\/li>\n<li><strong>Twitter Posts (twittercache):<\/strong> To store fetched tweets as a cache. Uses custom fields to store hash tags and mentions (for filtering on display), twitter ID and raw (un-linkified) tweet text. <\/li>\n<\/ol>\n\n<p>Tweets are fetched from the Twitter API. Due to limitations with the API, only the most recent couple hundred tweets can be fetched, so this plugin stores tweets to ensure older tweets can still be accessed after they disappear from the Twitter API. The plugin fetches tweets from the authenticated user's account as well as any tweets in ",
+                "uid": "40791"
+            }
+        }
+    }
+}

@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/ilc-thickbox": {
+            "1.0": {
+                "name": "wordpress\/ilc-thickbox",
+                "version": "1.0",
+                "version_normalized": "1.0.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/ilc-thickbox.1.0.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>ILC Thickbox will parse your post content looking for images with the class ilctb. When found, it will display the image within a thumbnail and when clicked it will launch the original size image using Thickbox.<\/p>\n\n<p>The modal dialog and the thumbnail wrapper is currently handled by ThickBox, which requires jQuery. Both Thickbox and jQuery are safely loaded from the versions included with WordPress using wp_enqueue_script.<\/p>\n\n<p>This software is provided without warranty of any kind.<\/p>",
+                "uid": "90926"
+            }
+        }
+    }
+}

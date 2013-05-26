@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/peters-login-redirect": {
+            "2.6.1": {
+                "name": "wordpress\/peters-login-redirect",
+                "version": "2.6.1",
+                "version_normalized": "2.6.1.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/peters-login-redirect.2.6.1.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>Define a set of redirect rules for specific users, users with specific roles, users with specific capabilities, and a blanket rule for all other users (logout redirects in this plugin support only this blanket rule). Also, set a redirect URL for post-registration. This is all managed in Settings &#62; Login\/logout redirects.<\/p>\n\n<p>You can use the syntax <strong>[variable]username[\/variable]<\/strong> in your URLs so that the system will build a dynamic URL upon each login, replacing that text with the user's username. In addition to username, there is \"homeurl\", \"siteurl\", \"postid-23\", \"http_referer\" and you can also add your own custom URL \"variables\". See Other Notes \/ How to Extend for documentation.<\/p>\n\n<p>If you're using a plugin such as Gigya that bypasses the regular WordPress login redirect process (and only allows one fixed redirect URL), set that plugin to redirect to wp-content\/plugins\/peters-login-redirect\/wplogin_redirect_control.php and set the $rul_use_redirect_cont",
+                "uid": "99364"
+            }
+        }
+    }
+}

@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/simple-rss-aggregator": {
+            "1.0": {
+                "name": "wordpress\/simple-rss-aggregator",
+                "version": "1.0",
+                "version_normalized": "1.0.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/simple-rss-aggregator.1.0.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>Imports and aggregates RSS Feeds using multiple users.<\/p>\n\n<p>Some functions<\/p>\n\n<ul>\n<li>Insert a feed link for each user<\/li>\n<li>Show posts at home<\/li>\n<li>Filter content in single page and add \"read more\" link button<\/li>\n<li>Get the first image from text and set the post thumbnail<\/li>\n<li>Update terms too<\/li>\n<li>Open permalink on single page, or feed page, or redirect page (better for counters)<\/li>\n<li>Set time to update<\/li>\n<li>Set number of feeds to update for each time<\/li>\n<li>and more to come ...<\/li>\n<\/ul>",
+                "uid": "9268"
+            }
+        }
+    }
+}

@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/facebook-php-sdk": {
+            "2.1.2": {
+                "name": "wordpress\/facebook-php-sdk",
+                "version": "2.1.2",
+                "version_normalized": "2.1.2.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/facebook-php-sdk.2.1.2.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>Plugin keeps all versions of facebook php-sdk available on github after 2.1.1\nStricly to be used only as a dependency by other plugins on a WordPress installation.<\/p>\n\n<p>= For Developers=<\/p>\n\n<p>Use the following code to load the required facebook sdk version<\/p>\n\n<pre><code>add_filter(&#039;fb_php_sdk_load&#039;,&#039;your_filter&#039;);\nfunction your_filter($array)\n{\n    $array[] = &#039;2.1.2&#039;; \/\/exact version number you need\n    return $array;\n}<\/code><\/pre>\n\n<p>For latest tagged version use new Facebook\nfor older versions,\nAdd the version number replacing '.' with '<em>' after 'Facebook<\/em>' call to use the version needed.\nex:- new Facebook_2_1_3() for version 2.1.3<\/p>\n\n<h4>Note<\/h4>\n\n<p>I run filter at priority 100 so you should either leave the third parameter blank or pick a lower number.<\/p>\n\n<h4>The filter runs with plugins_loaded hook so donot call the class before that or you'll get errors<\/h4>",
+                "uid": "51184"
+            }
+        }
+    }
+}

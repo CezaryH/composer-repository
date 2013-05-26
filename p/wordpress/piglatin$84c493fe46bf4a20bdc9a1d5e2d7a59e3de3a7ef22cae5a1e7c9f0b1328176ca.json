@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/piglatin": {
+            "0.1": {
+                "name": "wordpress\/piglatin",
+                "version": "0.1",
+                "version_normalized": "0.1.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/piglatin.0.1.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>Checking if all the strings in your plugin or theme are translatable can be a tedious task. Pig Latin helps you\nby translating all messages to <a href=\"http:\/\/en.wikipedia.org\/wiki\/Pig_Latin\">Pig Latin<\/a>. For example <em>Edit  Pages<\/em> is translated to <em>Editay agesPay<\/em>.<\/p>\n\n<p>Text in Pig Latin is both noticeably different than English and readable. This way you can spot strings, which aren't translatable, while the interface is stil usable.<\/p>",
+                "uid": "85359"
+            }
+        }
+    }
+}

@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/conditional-lightbox": {
+            "1.0": {
+                "name": "wordpress\/conditional-lightbox",
+                "version": "1.0",
+                "version_normalized": "1.0.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/conditional-lightbox.1.0.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>Applies a lightbox to all image links if and only if the screen is big enough to fit a lightbox.\nBecause lightboxes on iPhones should be illegal.<\/p>",
+                "uid": "11761"
+            }
+        }
+    }
+}

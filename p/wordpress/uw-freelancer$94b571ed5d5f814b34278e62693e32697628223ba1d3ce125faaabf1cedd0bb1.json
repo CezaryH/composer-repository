@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/uw-freelancer": {
+            "0.1": {
+                "name": "wordpress\/uw-freelancer",
+                "version": "0.1",
+                "version_normalized": "0.1.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/uw-freelancer.0.1.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>UW Freelancer plugin allows you to display your freelancer.com profile information on your WordPress site using configurable widgets. This plugin allows you to display the feedbacks you received for your recent projects easily with auto update feature. Display freelancer.com projects relevant to your WordPress site and participate in the referral program.<\/p>\n\n<h4>Freelancer Profile Widget<\/h4>\n\n<p>Profile widget enables you to display freelancer.com profile details in one of your sidebars. You need to enter your freelancer.com username in the admin panel. This widget automatically queries the freelancer.com api to obtain your profile information and formats it for the display in sidebars. The api response is cached. So you don&#8217;t need to query the freelancer.com api for each and every visitor for your site.<\/p>\n\n<h4>Freelancer Feedback Widget<\/h4>\n\n<p>You can display the feedback you received for your freelancer.com projects using this widget. You can configure the number of i",
+                "uid": "11184"
+            }
+        }
+    }
+}

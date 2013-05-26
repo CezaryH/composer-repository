@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/amazon-mp3-widget": {
+            "1.0": {
+                "name": "wordpress\/amazon-mp3-widget",
+                "version": "1.0",
+                "version_normalized": "1.0.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/amazon-mp3-widget.1.0.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>Add sleek looking Amazon mp3 widget with best selling music to your blog posts by just adding the word [mp3].<\/p>\n\n<p>Amazon mp3 Widgets is a Flash-based app that bring Amazon's best selling mp3 right to your blog. You can even earn money by specifying your Amazon Associates ID.<\/p>\n\n<p>Creating a mp3 is very simple. Just add one of these short codes and you are done.<\/p>\n\n<ol>\n<li><p>[mp3] \nThis adds a mp3 widget that lists the best selling music on Amazon.<\/p><\/li>\n<li><p>[mp3 tag=\"amazon-mobile-20\" marketplace=\"US\"]\nThis will add the mp3 widget and source content from the right locales of Amazon. Also, since the 'tag' parameter is specified, you will earn an Affiliate referral fee for any sales made through this widget. IMPORTANT: One in 5 impressions of this widget will be tagged with the plugin creator's affiliate ID ('wordpressmp3-20').<\/p><\/li>\n<\/ol>",
+                "uid": "42508"
+            }
+        }
+    }
+}

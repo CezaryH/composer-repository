@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/styled-pagination": {
+            "1.0": {
+                "name": "wordpress\/styled-pagination",
+                "version": "1.0",
+                "version_normalized": "1.0.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/styled-pagination.1.0.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>This plugin allows you to add simple pagination to your site using images for the previous and next links. Allows you the ability to display the current page and the total number of pages. Works with any template page (i.e. index.php, search.php, archvie.php).<\/p>\n\n<p>Features include:\n1. Use images in place of the previous and next links\n2. Easily style the pagination display with CSS\n3. Customize the display text of the Pages\n4. Choose between just displaying Current Page and Total Pages, or having pagination<\/p>\n\n<p>How to use<\/p>\n\n<ul>\n<li><code>&#60;?php echo rb_pages(); ?&#62;  \/\/Displays text only (i.e. PAGE 2 OF 11)<\/code><\/li>\n<li><code>&#60;?php echo rb_pagination(); ?&#62;  \/\/Displays text and navigation arrows<\/code><\/li>\n<\/ul>\n\n<p>Style the display using the following tags:<\/p>\n\n<ul>\n<li>#rb-page-prev - Styles the previous link<\/li>\n<li>#rb-page-next - Styles the next link<\/li>\n<li>#rb-page-pages - Style the Text and Page Numbers<\/li>\n<\/ul>\n\n<p>NOTE: Currently the previ",
+                "uid": "83868"
+            }
+        }
+    }
+}

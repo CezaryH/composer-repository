@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/fruit-wp-functions": {
+            "1.0": {
+                "name": "wordpress\/fruit-wp-functions",
+                "version": "1.0",
+                "version_normalized": "1.0.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/fruit-wp-functions.1.0.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>Currently includes:<\/p>\n\n<h4>Youtube feed shortcode - [ffytfeeds].<\/h4>\n\n<p>Displays date-sorted list of videos from a comma-seperated list of youtube author names.<\/p>\n\n<p>Attributes:\n* authors: a comma-seperated list of YouTube authors, e.g jefmajor,AlanJakubovic,etc.\n* count: the (max) number of videos to fetch from each author. Default is 5.\n* width: the numeric width (in pixels) of the displayed videos. Default is 640.\n* showtitles: if set to true, displays \"Author Name - Video title (date)\" at the top of each video. Default is false.<\/p>",
+                "uid": "14068"
+            }
+        }
+    }
+}

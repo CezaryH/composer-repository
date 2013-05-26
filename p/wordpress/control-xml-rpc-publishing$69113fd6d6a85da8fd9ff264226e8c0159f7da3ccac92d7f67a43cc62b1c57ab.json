@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/control-xml-rpc-publishing": {
+            "1.0": {
+                "name": "wordpress\/control-xml-rpc-publishing",
+                "version": "1.0",
+                "version_normalized": "1.0.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/control-xml-rpc-publishing.1.0.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>With WordPress version 3.5 remote publishing via XML-RPC became permanently active. This plugin simulates the functionality in versions 3.4 and before. Once active, XML-RPC functioning is disabled, and it can be enabled or disabled again in the \"Settings\" &#62;&#62; \"Writing\" admin page.<\/p>",
+                "uid": "13618"
+            }
+        }
+    }
+}

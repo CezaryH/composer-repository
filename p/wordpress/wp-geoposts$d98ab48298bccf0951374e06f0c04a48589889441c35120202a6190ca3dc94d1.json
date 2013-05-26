@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/wp-geoposts": {
+            "1.0": {
+                "name": "wordpress\/wp-geoposts",
+                "version": "1.0",
+                "version_normalized": "1.0.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/wp-geoposts.1.0.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<h4>Features<\/h4>\n\n<ol>\n<li>Adds <code>location<\/code>, <code>latitude<\/code>, and <code>longitude<\/code> meta + metaboxes to any content type.<\/li>\n<li>Provides an easy to use interface for selecting which content types to apply the above meta values. <em>Note: this allows selection of built in types: page and post as well as any registered custom post types.<\/em><\/li>\n<li>Provides <code>WP_GeoQuery<\/code> an extended <code>WP_Query<\/code> class for doing distance based and geo-aware queries.<\/li>\n<\/ol>\n\nComing Soon!\n\n<ul>\n<li>Add support for <code>within radius<\/code> option to WP_GeoQuery<\/li>\n<li>HTML5 geolocation of visitors, with a fallback to <code>Change Location<\/code> (stored as COOKIE)<\/li>\n<li>Custom Markers by post type.<\/li>\n<li>Shortags for:\n\n<ul>\n<li><code>Get Directions<\/code> link (utilizing Google Maps)<\/li>\n<li>Static Map - show one or more posts on a static map<\/li>\n<li>Dynamic Map - show one or more posts on a dynamic map<\/li>\n<li>Option to show radius as overlay ",
+                "uid": "20217"
+            }
+        }
+    }
+}

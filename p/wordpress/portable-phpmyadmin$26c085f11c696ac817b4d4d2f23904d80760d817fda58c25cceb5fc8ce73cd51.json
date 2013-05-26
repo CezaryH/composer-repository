@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/portable-phpmyadmin": {
+            "1.4.1": {
+                "name": "wordpress\/portable-phpmyadmin",
+                "version": "1.4.1",
+                "version_normalized": "1.4.1.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/portable-phpmyadmin.1.4.1.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>Portable phpMyAdmin allows a user to access the phpMyAdmin section straight from the Dashboard.<\/p>\n\n<p>If the user doesn't know the MySQL credentials, the plugin extracts them straight from wp-config.php. This plugin requires PHP 5+.<\/p>\n\n<p>phpMyAdmin is a free software tool written in PHP, intended to handle the administration of MySQL over the World Wide Web. phpMyAdmin supports a wide range of operations with MySQL. The most frequently used operations are supported by the user interface (managing databases, tables, fields, relations, indexes, users, permissions, etc), while you still have the ability to directly execute any SQL statement.<\/p>\n\n<p><strong>Note:<\/strong> This plugin should only be used for development purposes or by experienced users. If more users have access to the administration section, you should consider using the plugin <em>only when necessary<\/em>.<\/p>",
+                "uid": "77111"
+            }
+        }
+    }
+}

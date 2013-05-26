@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/wp-security-login-notification": {
+            "1.0": {
+                "name": "wordpress\/wp-security-login-notification",
+                "version": "1.0",
+                "version_normalized": "1.0.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/wp-security-login-notification.1.0.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>The purpose of this plugin consists in improving the security of a WordPress website.\nIt sends send an email for each of the following event:<\/p>\n\n<ul>\n<li><strong>When a user logs in successfully<\/strong> the plugin sends an email to the administrator with the date, user name, user email, IP address, user agent and HTTP referrer.<\/li>\n<li><strong>When someone fails to login<\/strong> the plugin sends an email to the administrator with date, login used when trying to connect, IP address, user agent and HTTP referrer.<\/li>\n<\/ul>\n\n<p>Moreover, the \"datetime\", the IP adress and the user agent of the last login are saved into the database for each user. If something occurs the information was saved in the database.<\/p>\n\n<p>Plugin developed by <a href=\"http:\/\/neoptin.com\">Neoptin<\/a>. Need <a href=\"http:\/\/neoptin.com\/wordpress\/\"> WordPress Services<\/a>?<\/p>",
+                "uid": "9309"
+            }
+        }
+    }
+}

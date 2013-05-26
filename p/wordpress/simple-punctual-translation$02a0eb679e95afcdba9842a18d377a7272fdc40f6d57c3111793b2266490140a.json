@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/simple-punctual-translation": {
+            "1.0.2": {
+                "name": "wordpress\/simple-punctual-translation",
+                "version": "1.0.2",
+                "version_normalized": "1.0.2.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/simple-punctual-translation.1.0.2.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>A plugin for WordPress that allow to translate any post type in another languages.<\/p>\n\n<p>The user features can be summarized in the ability to switch between multiple languages and on the single view of content. Thus, a page can be translated in X languages.<\/p>\n\n<p>The architecture chosen for development is fully consistent with WordPress 3.0, we created a content type translation, and we created a taxonomy for the site languages. \nWe customized the WordPress admin console to provide the translation functionality, a bit of AJAX to make the convenient interface. Finally, we created a widget that displays the languages available for the currently loaded content.<\/p>\n\n<p>A translator role is automatically created with the plugin, it allows a user to this role only to create and manage translations.<\/p>\n\n<p>The plugin offers settings:<\/p>\n\n<ul>\n<li>Automatic insertion of languages available to the end of the article<\/li>\n<li>Language detection URL : via a \"lang\" parameter in the addr",
+                "uid": "52870"
+            }
+        }
+    }
+}

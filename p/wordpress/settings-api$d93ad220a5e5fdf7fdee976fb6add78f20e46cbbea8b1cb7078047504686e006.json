@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/settings-api": {
+            "0.1": {
+                "name": "wordpress\/settings-api",
+                "version": "0.1",
+                "version_normalized": "0.1.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/settings-api.0.1.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<h4>This plugin is for developers, not general users.<\/h4>\n\n<p>This is mainly a PHP class that you can use to build your themes and plugins option panel. It's a wrapper class that uses\n<a href=\"http:\/\/codex.wordpress.org\/Settings_API\">Settings API<\/a> under the hood. All you need is to just pass the sections and fields\nyou need as an PHP array. And your options panel will be build automatically on the fly with a tiny PHP class.<\/p>\n\n<p>This is mainly a demo plugin that uses the Settings API PHP class.<\/p>\n\n<p>Visit the <a href=\"https:\/\/github.com\/tareq1988\/wordpress-settings-api-class\">Github<\/a> for the latest development snapshot.<\/p>\n\n<h4>Usage Example<\/h4>\n\n<p>A nice tutorial is presented can be found <a href=\"http:\/\/tareq.wedevs.com\/2012\/06\/wordpress-settings-api-php-class\/\">here<\/a> about how to use this PHP class<\/p>",
+                "uid": "23834"
+            }
+        }
+    }
+}

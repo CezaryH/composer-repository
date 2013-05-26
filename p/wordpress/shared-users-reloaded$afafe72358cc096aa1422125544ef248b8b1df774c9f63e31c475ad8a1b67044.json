@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/shared-users-reloaded": {
+            "1.0.1": {
+                "name": "wordpress\/shared-users-reloaded",
+                "version": "1.0.1",
+                "version_normalized": "1.0.1.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/shared-users-reloaded.1.0.1.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>When WordPress MU (now WordPress 3.0 MS) is not an option for you for whatever reason, sometimes you just want to \"Share Users\" between your databases. The reason this plugin was created was because we couldn't install wordpress into the \"root directory\" of our website, which is a requirement of a multi-site wordpress install regardless of the version.<\/p>\n\n<p>Example: domain1.com\/articles\/ and domain2.com\/articles\/.<\/p>\n\n<p>We wanted to only maintain 1 set of users similar to multi-site wordpress. This plugin requires NO MODIFICATION of your wp-config file. We took the outdated \"Shared Users\" plugin and completely overhauled it. With \"Reloaded\" you now have the following features:<\/p>\n\n<ul>\n<li>Option to import, or to NOT import users when moving the blogs users table to another blogs users table (where is Shared Users before it forced all administrators to be copied).<\/li>\n<li>Ability to manage and maintain all the users security to each blog from the \"master blog\". So you are no ",
+                "uid": "62899"
+            }
+        }
+    }
+}

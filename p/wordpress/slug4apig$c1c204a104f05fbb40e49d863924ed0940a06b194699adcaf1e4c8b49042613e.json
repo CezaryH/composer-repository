@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/slug4apig": {
+            "1.0": {
+                "name": "wordpress\/slug4apig",
+                "version": "1.0",
+                "version_normalized": "1.0.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/slug4apig.1.0.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>Slug4apig (Slug for attached posts from image galleries) is probably the simplest plugin ever seen, though of\nimperative need for the WordPress community.<\/p>\n\n<p>This plugin just adds a field to each image inserted through the WordPress built-in gallery interface. As easy as you edit\nthe name, description, etc. for each image, with Slug4apig you will be able to edit the friendly URL (aka slug)\nand set the desired value.<\/p>\n\n<p>By default, the WordPress built-in gallery will set the attachment post's slug to the name of the image you inserted in\nthe gallery (minus .extension). This is a rather restrictive approach, as your images may have sequencial names\nassigned automatically by the photo camera, like \"S4100001.JPG\".<\/p>\n\n<p>In the previous example, an autocreated attachment post would be created under the hypothetical URL:<\/p>\n\n<pre><code><a href=\"http:\/\/example.com\/2011\/03\/post-title\/S4100001\/\" rel=\"nofollow\">http:\/\/example.com\/2011\/03\/post-title\/S4100001\/<\/a>\n<\/code><\/pre>\n\n<p",
+                "uid": "51102"
+            }
+        }
+    }
+}

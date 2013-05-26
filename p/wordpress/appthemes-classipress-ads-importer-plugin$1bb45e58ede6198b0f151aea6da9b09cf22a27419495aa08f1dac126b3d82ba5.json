@@ -1,0 +1,40 @@
+{
+    "packages": {
+        "wordpress\/appthemes-classipress-ads-importer-plugin": {
+            "1.0": {
+                "name": "wordpress\/appthemes-classipress-ads-importer-plugin",
+                "version": "1.0",
+                "version_normalized": "1.0.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/appthemes-classipress-ads-importer-plugin.1.0.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>Need to import Ads+Users via CSV in a VERY SIMPLE way?<\/p>\n\n<p>This is the right plugin for you. What plugin does? It creates or update users, user's ads, categories in ONE STEP via CSV file. If user or ad category doesn't exist it will create it!<\/p>\n\n<ul>\n<li>Import &#38; Create Users<\/li>\n<li>Import &#38; Create User's Ads<\/li>\n<li>Import &#38; Create Ad Categories<\/li>\n<\/ul>\n\n<p>How it works?<\/p>\n\n<ul>\n<li>In a VERY VERY VERY simple way. Plugin will generate HEADER (first line in your CSV file) based on your custom fileds (ad fileds).<\/li>\n<li>You should populate those fileds with appropriate text and that is it!<\/li>\n<li>You will be able to import ads from existing users if you put existing WP \"user_email\" in that field. In other case, plugin will register new user with that email address.<\/li>\n<li>Plugin will add new category if it does not find an existing one.<\/li>\n<\/ul>",
+                "uid": "25776"
+            },
+            "2.0": {
+                "name": "wordpress\/appthemes-classipress-ads-importer-plugin",
+                "version": "2.0",
+                "version_normalized": "2.0.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/appthemes-classipress-ads-importer-plugin.2.0.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>Need to import Ads+Users via CSV in a VERY SIMPLE way?<\/p>\n\n<p>This is the right plugin for you. What plugin does? It creates or update users, user's ads, categories in ONE STEP via CSV file. If user or ad category doesn't exist it will create it!<\/p>\n\n<ul>\n<li>Import &#38; Create Users<\/li>\n<li>Import &#38; Create User's Ads<\/li>\n<li>Import &#38; Create Ad Categories<\/li>\n<\/ul>\n\n<p>How it works?<\/p>\n\n<ul>\n<li>In a VERY VERY VERY simple way. Plugin will generate HEADER (first line in your CSV file) based on your custom fileds (ad fileds).<\/li>\n<li>You should populate those fileds with appropriate text and that is it!<\/li>\n<li>You will be able to import ads from existing users if you put existing WP \"user_email\" in that field. In other case, plugin will register new user with that email address.<\/li>\n<li>Plugin will add new category if it does not find an existing one.<\/li>\n<\/ul>",
+                "uid": "25774"
+            }
+        }
+    }
+}

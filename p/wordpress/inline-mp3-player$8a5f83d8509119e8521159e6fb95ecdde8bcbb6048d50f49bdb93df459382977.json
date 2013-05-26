@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/inline-mp3-player": {
+            "0.1": {
+                "name": "wordpress\/inline-mp3-player",
+                "version": "0.1",
+                "version_normalized": "0.1.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/inline-mp3-player.0.1.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>Inline mp3 player replacing any link directly to a mp3 file, such as\n'http:\/\/yoursite.com\/musicfile.mp3' into a special link. Clicking it will\nturn the link into a small media player with a dhtml slider interface. It\nworks simple, click the link the music starts playing. Drag the tab to browse\nthrought the music. Click the link again to stop. This player uses <a href=\"http:\/\/jssoundkit.sourceforge.net\/\">Javascript Soundkit<\/a> and the\nslider of <a href=\"http:\/\/script.aculo.us\/\">Scriptaculous<\/a>.<\/p>",
+                "uid": "111428"
+            }
+        }
+    }
+}

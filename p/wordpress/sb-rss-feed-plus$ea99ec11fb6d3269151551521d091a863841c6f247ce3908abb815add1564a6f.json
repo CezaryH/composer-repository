@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/sb-rss-feed-plus": {
+            "1.3.3": {
+                "name": "wordpress\/sb-rss-feed-plus",
+                "version": "1.3.3",
+                "version_normalized": "1.3.3.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/sb-rss-feed-plus.1.3.3.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>You can improve the default WordPress RSS feed to include:<\/p>\n\n<ul>\n<li>This plugin will add post thumbnail to RSS feed as \"media:content\" and \"enclosure\" tags.<\/li>\n<li>Image is also added to HTML part of \"description\" and \"content:encoded\" tags.<\/li>\n<li>You can also add server signature to end of feed content in form \"Source: XYZ\".<\/li>\n<li>Inject advertisement (image with link) after nth paragraph of each post.<\/li>\n<\/ul>\n\n<h4>Post thumbnail<\/h4>\n\n<p>Add post thumnail to each post's excerpt and full text (if enabled in WordPress configuration).\nImage will be added just before text of each post in RSS feed.\nPost thumbnail is also added as media:content and enclosure tag to RSS feed.<\/p>\n\n<h4>Full-text RSS Feed when accessed via special URL<\/h4>\n\n<p>You can access RSS Feed with full content posts even when WordPress is set to RSS \"Excerpt only\" mode. Just setup a \"secret key\" and enable the override...\nYou can then request feed url with special query param ?fsk= to override \"exce",
+                "uid": "12326"
+            }
+        }
+    }
+}

@@ -1,0 +1,40 @@
+{
+    "packages": {
+        "wordpress\/mjp-security-plugin": {
+            "1.0": {
+                "name": "wordpress\/mjp-security-plugin",
+                "version": "1.0",
+                "version_normalized": "1.0.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/mjp-security-plugin.1.0.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>Note: This plugin requires PHP 5<\/p>\n\n<p>Using Wordpress security docs as a guide we have targeted a lot of the issues and endeavoured to make the process of strengthening your WP installation as easy as possible by providing the information you need to be able to set things up.<\/p>\n\n<p>Features:<\/p>\n\n<pre><code>* Scan the database for possible XSS issues.\n* Limit login attempts to one per ten seconds per user.\n* Check all file permissions.\n* Check for presence of index.html files in all directories.\n* Check if WordPress is up-to-date.\n* Remove the version number from HTML source.\n* Log all POST requests.\n* Log all failed login attempts.\n* Change the admin username.\n* Randomize the database table prefix.\n* Require stronger passwords.\n* Detect SSH.\n<\/code><\/pre>\n\n<p>This plugin was commisioned by <a href=\"http:\/\/www.michaelpenner.com\/\" title=\"MJ Penner Consulting\">MJ Penner Consulting<\/a> and released to the general public as a gesture of good will.<\/p>",
+                "uid": "67347"
+            },
+            "1.1": {
+                "name": "wordpress\/mjp-security-plugin",
+                "version": "1.1",
+                "version_normalized": "1.1.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/mjp-security-plugin.1.1.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>Note: This plugin requires PHP 5<\/p>\n\n<p>Using Wordpress security docs as a guide we have targeted a lot of the issues and endeavoured to make the process of strengthening your WP installation as easy as possible by providing the information you need to be able to set things up.<\/p>\n\n<p>Features:<\/p>\n\n<pre><code>* Scan the database for possible XSS issues.\n* Limit login attempts to one per ten seconds per user.\n* Check all file permissions.\n* Check for presence of index.html files in all directories.\n* Check if WordPress is up-to-date.\n* Remove the version number from HTML source.\n* Log all POST requests.\n* Log all failed login attempts.\n* Change the admin username.\n* Randomize the database table prefix.\n* Require stronger passwords.\n* Detect SSH.\n<\/code><\/pre>\n\n<p>This plugin was commisioned by <a href=\"http:\/\/www.michaelpenner.com\/\" title=\"MJ Penner Consulting\">MJ Penner Consulting<\/a> and released to the general public as a gesture of good will.<\/p>",
+                "uid": "67346"
+            }
+        }
+    }
+}

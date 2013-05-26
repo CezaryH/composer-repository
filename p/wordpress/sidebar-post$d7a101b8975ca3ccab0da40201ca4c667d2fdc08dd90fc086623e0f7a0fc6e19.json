@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/sidebar-post": {
+            "1.0": {
+                "name": "wordpress\/sidebar-post",
+                "version": "1.0",
+                "version_normalized": "1.0.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/sidebar-post.1.0.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>This plugin allows your visitors (logged in) to submit posts to your site via a simple sidebar widget form. The user must be logged in, otherwise they are shown a log in form.\nIt comes  with a javascript form validation (user can't submit post if some fields are empty), and once the post has been submitted it is saved as a draft.<\/p>\n\n<p>You can join\/follow the discussion about the plugin on its home page at <a href=\"http:\/\/forums.wprooms.com\/topic\/sidebar-post\" rel=\"nofollow\">http:\/\/forums.wprooms.com\/topic\/sidebar-post<\/a><\/p>",
+                "uid": "75291"
+            }
+        }
+    }
+}

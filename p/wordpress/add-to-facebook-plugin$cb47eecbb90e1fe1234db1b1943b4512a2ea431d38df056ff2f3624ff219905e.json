@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/add-to-facebook-plugin": {
+            "1.4.3": {
+                "name": "wordpress\/add-to-facebook-plugin",
+                "version": "1.4.3",
+                "version_normalized": "1.4.3.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/add-to-facebook-plugin.1.4.3.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>This plugin adds a footer link to add the current post or page to a Facebook Mini-Feed.  While the plugin is activated a link will appear after the content of the post with the text \"Share on Facebook\" or the Facebook icon or both. Clicking this link will bring the user to the Facebook site.  If the user isn't logged in they will be prompted to do so. Once logged into Facebook the post will be added to the Mini-Feed of the account.<\/p>\n\n<p>This plugin is not compatible with Wordpress 2.9+.  Please switch to <a href=\"http:\/\/wordpress.org\/extend\/plugins\/share-on-facebook\/\" title=\"Share on Facebook\">Share on Facebook<\/a> for compatibility with Wordpress 2.9+.<\/p>",
+                "uid": "108840"
+            }
+        }
+    }
+}

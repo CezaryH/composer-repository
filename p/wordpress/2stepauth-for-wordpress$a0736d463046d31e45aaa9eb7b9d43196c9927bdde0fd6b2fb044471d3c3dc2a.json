@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/2stepauth-for-wordpress": {
+            "1.0": {
+                "name": "wordpress\/2stepauth-for-wordpress",
+                "version": "1.0",
+                "version_normalized": "1.0.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/2stepauth-for-wordpress.1.0.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>2StepAuth increases security of Wordpress blogs by adding 2nd level of Authentication. After entering correct login credentials, the user has to validate himself using one of 3 ways: SMS Verification, Backup Codes or Email Verification to gain access to his\/her blog.<\/p>\n\n<p>The user has to simply complete 3 step procedure to enable 2nd level of Authentication for Wordpress blog.<\/p>",
+                "uid": "22722"
+            }
+        }
+    }
+}

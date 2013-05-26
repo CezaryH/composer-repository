@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/never-moderate-admin-or-author": {
+            "0.9.1": {
+                "name": "wordpress\/never-moderate-admin-or-author",
+                "version": "0.9.1",
+                "version_normalized": "0.9.1.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/never-moderate-admin-or-author.0.9.1.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p><strong>DEPRECATED<\/strong> Never moderate or mark as spam comments made by the site admin or the post's author regardless of the apparent spamminess of the comment.<\/p>\n\n<p>'''THIS PLUGIN IS DEPRECATED AND NO LONGER NECESSARY AS OF WORDPRESS 2.5'''<\/p>\n\n<p>''This plugin has been <a href=\"http:\/\/coffee2code.com\/archives\/2008\/04\/06\/day-of-deprecations\/\">deprecated<\/a>!  It is no longer necessary as its functionality has been integrated into WordPress.  There will not be any continued support for it.<\/p>\n\n<p>When I released the plugin, I also simultaneously made a bug report and patch for the WP core, which was quickly accepted and applied.<\/p>\n\n<p>Reported as a bug in trac ticket <a href=\"http:\/\/trac.wordpress.org\/ticket\/1262\">#1262<\/a>.\nFixed in WordPress in changeset <a href=\"http:\/\/trac.wordpress.org\/changeset\/2556\">#2556<\/a>.''<\/p>\n\n\n\n<p>The only configuration option available for the plugin is defined as an argument with a default value for the <code>c2c_never_moderate_admin()<\/",
+                "uid": "114973"
+            }
+        }
+    }
+}

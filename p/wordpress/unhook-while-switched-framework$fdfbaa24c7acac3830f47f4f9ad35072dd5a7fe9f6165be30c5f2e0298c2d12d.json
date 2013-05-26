@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/unhook-while-switched-framework": {
+            "0.1": {
+                "name": "wordpress\/unhook-while-switched-framework",
+                "version": "0.1",
+                "version_normalized": "0.1.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/unhook-while-switched-framework.0.1.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>This plugin adds two hooks to your WordPress network for plugins to use to unhook while switched and re-hook when restored to the original site. It include sample functions that unhooks and re-hooks the <a href=\"http:\/\/wordpress.org\/extend\/plugins\/subscribe2\/\">Subscribe2<\/a> plugin. Plugin authors can safely code their plugins to use the hooks without having to code in checks for the plugin being active.<\/p>\n\n<p>This plugin was written by <a href=\"http:\/\/ronandandrea.com\/\">Ron Rennick<\/a> in collaboration with the <a href=\"http:\/\/dev.commons.gc.cuny.edu\/\">CUNY Academic Commons<\/a>.<\/p>\n\n<p><a href=\"http:\/\/wpmututorials.com\/plugins\/unhook-while-switched\/\">Plugin Page<\/a><\/p>",
+                "uid": "58551"
+            }
+        }
+    }
+}

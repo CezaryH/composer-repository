@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/subscribers-only-content": {
+            "1.0.1": {
+                "name": "wordpress\/subscribers-only-content",
+                "version": "1.0.1",
+                "version_normalized": "1.0.1.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/subscribers-only-content.1.0.1.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>Allows blog admin to set specific pages and posts to only be visible to users set as subscriber and above (with the 'read' capability).<\/p>\n\n<p>This allows certain content to be blocked so that only logged-in users can read it.<\/p>\n\n<p>Requirements:<\/p>\n\n<ul>\n<li>\"php5\" - I'm a big proponent of dropping the php4 compatibility of WordPress due to the improved OO support.  Because of this, I prefer to write my plugins in php5 form in hopes to help push the community along.<\/li>\n<\/ul>",
+                "uid": "67432"
+            }
+        }
+    }
+}

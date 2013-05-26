@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/remove-breaksspaces-before-and-after-comment-text-2": {
+            "1.0": {
+                "name": "wordpress\/remove-breaksspaces-before-and-after-comment-text-2",
+                "version": "1.0",
+                "version_normalized": "1.0.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/remove-breaksspaces-before-and-after-comment-text-2.1.0.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>This plugin removes html line breaks, nl's, p's, and whitespace before and after comment text. It's primary purpose is to stop those annoying spammers that like spacing their comments to get noticed.<\/p>\n\n<p>Example:<\/p>\n\n<p>&#60;br\/&#62;&#60;br\/&#62;&#60;br\/&#62;&#60;br\/&#62;<\/p>\n\n<p>Some text.<\/p>\n\n<p>&#60;br\/&#62;&#60;br\/&#62;&#60;br\/&#62;&#60;br\/&#62;<\/p>\n\n<p>Will be filtered and returned like this:<\/p>\n\n<p>Some text<\/p>",
+                "uid": "104035"
+            }
+        }
+    }
+}

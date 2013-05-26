@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/wp-post-thumbnail": {
+            "0.1.8": {
+                "name": "wordpress\/wp-post-thumbnail",
+                "version": "0.1.8",
+                "version_normalized": "0.1.8.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/wp-post-thumbnail.0.1.8.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>WP Post Thumbnail plugin adds an image upload, crop and save panel in 'Write Post' screen. It allows you to easily upload a .jpg image file. Once the image file is uploaded, you can crop it before saving it as your thumbnail. That's it.<\/p>\n\n<p>Spend less time messing around with Photoshop everytime you need to make a thumbnail (or two) for your post. Also, saves you time and trouble from manually copy-and-pasting uploaded image URLs into custom key value fields.<\/p>\n\n<p>For theme developers, particularly magazine-style WordPress theme developers, you can configure up to 3 different thumbnails to be used in each post. For instance,<\/p>\n\n<ul>\n<li><p>a big 320px by 180px widescreen thumbnail for leading featured post to be displayed prominently on the front page.<\/p><\/li>\n<li><p>a square 125px by 125px thumbnail for recent posts.<\/p><\/li>\n<\/ul>\n\n<p>Dimensions as varied as your theme requires can be easily configured in an XML file. Save the file as 'wppt.xml' and put it in your theme'",
+                "uid": "97903"
+            }
+        }
+    }
+}

@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/get-getter": {
+            "1.1": {
+                "name": "wordpress\/get-getter",
+                "version": "1.1",
+                "version_normalized": "1.1.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/get-getter.1.1.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>Where ever you want your 'get' variable to appear just type [get querystringkey].<\/p>\n\n<p>So if your url is <a href=\"http:\/\/www.yoursite.com\/apageorpost?thevariable=success\" rel=\"nofollow\">http:\/\/www.yoursite.com\/apageorpost?thevariable=success<\/a>, get the 'success' by typing [get thevariable] where you want it in your content.<\/p>\n\n<p>Simple as that!<\/p>",
+                "uid": "82653"
+            }
+        }
+    }
+}

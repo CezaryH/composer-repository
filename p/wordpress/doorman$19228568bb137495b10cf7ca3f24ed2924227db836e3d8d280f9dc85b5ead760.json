@@ -1,0 +1,40 @@
+{
+    "packages": {
+        "wordpress\/doorman": {
+            "0.2": {
+                "name": "wordpress\/doorman",
+                "version": "0.2",
+                "version_normalized": "0.2.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/doorman.0.2.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>Stops people from registering at your blog with a disposable mail address by matching\nthem with a provided list of over 200 known disposable mail providers. Additionally you can\ndefine your own blacklist and whitelist.\nIf the domain is not found in the provided list the mail address is checked with botscout.com.<\/p>\n\n<p><strong>Coming soon<\/strong>\n* Create log of rejected registration attempts\n* Block bots and spammers from posting comments<\/p>",
+                "uid": "31817"
+            },
+            "01": {
+                "name": "wordpress\/doorman",
+                "version": "01",
+                "version_normalized": "01.0.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/doorman.doorman01.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>Stops people from registering at your blog with a disposable mail address by matching\nthem with a provided list of over 200 known disposable mail providers. Additionally you can\ndefine your own blacklist and whitelist.\nIf the domain is not found in the provided list the mail address is checked with botscout.com.<\/p>\n\n<p><strong>Coming soon<\/strong>\n* Create log of rejected registration attempts\n* Block bots and spammers from posting comments<\/p>",
+                "uid": "31818"
+            }
+        }
+    }
+}

@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/black-studio-wpml-javascript-redirect": {
+            "0.2": {
+                "name": "wordpress\/black-studio-wpml-javascript-redirect",
+                "version": "0.2",
+                "version_normalized": "0.2.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/black-studio-wpml-javascript-redirect.0.2.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>This plugin requires the <a href=\"http:\/\/wpml.org\">WPML<\/a> plugin to be installed and active. WPML comes with a native redirection feature based on browser language detection, but it doesn't work if you are using a caching plugin like <a href=\"http:\/\/wordpress.org\/extend\/plugins\/w3-total-cache\/\">W3 Total Cache<\/a> or <a href=\"http:\/\/wordpress.org\/extend\/plugins\/wp-super-cache\/\">WP Super Cache<\/a>, because the language detection and redirection is made at PHP level, and when serving cached pages that code is not executed at all.\nThis plugin is a workaround for this limitation, as it implements language redirection through javascript, so it can work even in presence of caching plugins.<\/p>\n\n<p>Note: This is a BETA release, but you can safely try it, since the plugin only adds a javascript behavior and it doesn't change the contents of your site in any way. If you encounter any issues please report them in the <a href=\"http:\/\/wordpress.org\/support\/plugin\/black-studio-wpml-javascript-r",
+                "uid": "19332"
+            }
+        }
+    }
+}

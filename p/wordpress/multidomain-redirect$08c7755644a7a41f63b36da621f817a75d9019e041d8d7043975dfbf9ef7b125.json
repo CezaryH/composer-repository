@@ -1,0 +1,40 @@
+{
+    "packages": {
+        "wordpress\/multidomain-redirect": {
+            "1.0": {
+                "name": "wordpress\/multidomain-redirect",
+                "version": "1.0",
+                "version_normalized": "1.0.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/multidomain-redirect.1.0.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>Redirects visitors to the the site's URL as it appears in the WordPress database in case they're not already connecting through that domain. This is handy for secondary domains that point to your WordPress site.<\/p>\n\n<p>For example, if example.com and example.net both point to your server, WordPress will normally serve the same site regardless of what the user types in their address bar.\nWith this plugin enabled, users visiting the secondary domain will be automatically redirected to whichever domain is configured as the \"Site Address (URL)\" under WordPress' \"General Settings\" page.<\/p>",
+                "uid": "19341"
+            },
+            "1.1": {
+                "name": "wordpress\/multidomain-redirect",
+                "version": "1.1",
+                "version_normalized": "1.1.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/multidomain-redirect.1.1.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>Redirects visitors to the the site's URL as it appears in the WordPress database in case they're not already connecting through that domain. This is handy for secondary domains that point to your WordPress site.<\/p>\n\n<p>For example, if example.com and example.net both point to your server, WordPress will normally serve the same site regardless of what the user types in their address bar.\nWith this plugin enabled, users visiting the secondary domain will be automatically redirected to whichever domain is configured as the \"Site Address (URL)\" under WordPress' \"General Settings\" page.<\/p>",
+                "uid": "19339"
+            }
+        }
+    }
+}

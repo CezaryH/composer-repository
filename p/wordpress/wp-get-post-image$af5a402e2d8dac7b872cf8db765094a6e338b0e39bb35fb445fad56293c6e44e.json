@@ -1,0 +1,40 @@
+{
+    "packages": {
+        "wordpress\/wp-get-post-image": {
+            "0.1": {
+                "name": "wordpress\/wp-get-post-image",
+                "version": "0.1",
+                "version_normalized": "0.1.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/wp-get-post-image.0.1.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>This plugin provides the template tag <code>wp_get_post_image()<\/code>. Use it to call dynamically created images uploaded via the WordPress media uploader.<\/p>\n\n<p>NOTE: This plugin is intended for use by WordPress developers and theme builders only.<\/p>\n\n<h4>Usage<\/h4>\n\n<pre><code>&#60;?php wp_get_post_image($args); ?&#62;\n<\/code><\/pre>\n\n<h4>Default Usage<\/h4>\n\n<pre><code>&#60;?php $args = array(\n    'width' =&#62; null,\n    'height' =&#62; null,\n    'css' =&#62; '',\n    'parent_id' =&#62; '',\n    'post_id' =&#62; '',\n    'filename' =&#62; '',\n    'return_html' =&#62; true       \n); ?&#62;\n<\/code><\/pre>\n\n<p>By default, the function returns:<\/p>\n\n<ul>\n<li>The last uploaded image wrapped in an image tag (<code>&#60;img \/&#62;<\/code>).<\/li>\n<li>A proportionately sized image with a <code>width<\/code> no greater than <code>200px<\/code>.<\/li>\n<li>The CSS class <code>wp-image-*ID*<\/code> and no other classes.<\/li>\n<li>If you add <code>thickbox<\/code> via <code>css<\/code>, the appropriate",
+                "uid": "77810"
+            },
+            "0.2": {
+                "name": "wordpress\/wp-get-post-image",
+                "version": "0.2",
+                "version_normalized": "0.2.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/wp-get-post-image.0.2.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>This plugin provides the template tag <code>wp_get_post_image()<\/code>. Use it to call dynamically created images uploaded via the WordPress media uploader.<\/p>\n\n<p>NOTE: This plugin is intended for use by WordPress developers and theme builders only.<\/p>\n\n<h4>Usage<\/h4>\n\n<pre><code>&#60;?php wp_get_post_image($args); ?&#62;\n<\/code><\/pre>\n\n<h4>Default Usage<\/h4>\n\n<pre><code>&#60;?php $args = array(\n    'width' =&#62; null,\n    'height' =&#62; null,\n    'css' =&#62; '',\n    'parent_id' =&#62; '',\n    'post_id' =&#62; '',\n    'filename' =&#62; '',\n    'return_html' =&#62; true       \n); ?&#62;\n<\/code><\/pre>\n\n<p>By default, the function returns:<\/p>\n\n<ul>\n<li>The last uploaded image wrapped in an image tag (<code>&#60;img \/&#62;<\/code>).<\/li>\n<li>A proportionately sized image with a <code>width<\/code> no greater than <code>200px<\/code>.<\/li>\n<li>The CSS class <code>wp-image-*ID*<\/code> and no other classes.<\/li>\n<li>If you add <code>thickbox<\/code> via <code>css<\/code>, the appropriate",
+                "uid": "77809"
+            }
+        }
+    }
+}

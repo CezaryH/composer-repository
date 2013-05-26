@@ -1,0 +1,57 @@
+{
+    "packages": {
+        "wordpress\/json-data-shortcode": {
+            "1.0": {
+                "name": "wordpress\/json-data-shortcode",
+                "version": "1.0",
+                "version_normalized": "1.0.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/json-data-shortcode.1.0.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>This shortcode lets you pull data into your pages via JSON. Supports unlimited levels of nesting!\nBuilt-in caching of results keeps your data providers happy, but can be tailored to your needs with a configurable lifetime.<\/p>\n\n<p>You can use it one of two ways (but not necessarily on the same page - see <a href=\"http:\/\/codex.wordpress.org\/Shortcode_API#Unclosed_Shortcodes\">this article<\/a>!)<\/p>\n\n<pre><code>[json src=&#34;http:\/\/example.com\/my_data_src?format=json&#34; key=&#34;Data.mykey&#34;]<\/code><\/pre>\n\n<p>--&#62; outputs contents of <code>mykey<\/code> in the <code>Data<\/code> object<\/p>\n\n<pre><code>[json src=&#34;http:\/\/example.com\/my_data_src?format=json&#34;]I want my value to appear right here {Data.mysubdata.otherKey} in the middle of my content.[\/json]<\/code><\/pre>\n\n<p>--&#62; replaces the text in <code>{}<\/code> with contents of <code>otherKey<\/code> in the <code>mysubdata<\/code> object in the <code>Data<\/code> object<\/p>\n\n<p><em>Note:<\/em> this plugin allows you to bri",
+                "uid": "30789"
+            },
+            "1.1": {
+                "name": "wordpress\/json-data-shortcode",
+                "version": "1.1",
+                "version_normalized": "1.1.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/json-data-shortcode.1.1.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>This shortcode lets you pull data into your pages via JSON. Supports unlimited levels of nesting!\nBuilt-in caching of results keeps your data providers happy, but can be tailored to your needs with a configurable lifetime.<\/p>\n\n<p>You can use it one of two ways (but not necessarily on the same page - see <a href=\"http:\/\/codex.wordpress.org\/Shortcode_API#Unclosed_Shortcodes\">this article<\/a>!)<\/p>\n\n<pre><code>[json src=&#34;http:\/\/example.com\/my_data_src?format=json&#34; key=&#34;Data.mykey&#34;]<\/code><\/pre>\n\n<p>--&#62; outputs contents of <code>mykey<\/code> in the <code>Data<\/code> object<\/p>\n\n<pre><code>[json src=&#34;http:\/\/example.com\/my_data_src?format=json&#34;]I want my value to appear right here {Data.mysubdata.otherKey} in the middle of my content.[\/json]<\/code><\/pre>\n\n<p>--&#62; replaces the text in <code>{}<\/code> with contents of <code>otherKey<\/code> in the <code>mysubdata<\/code> object in the <code>Data<\/code> object<\/p>\n\n<p><em>Note:<\/em> this plugin allows you to bri",
+                "uid": "30788"
+            },
+            "1.2": {
+                "name": "wordpress\/json-data-shortcode",
+                "version": "1.2",
+                "version_normalized": "1.2.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/json-data-shortcode.1.2.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>This shortcode lets you pull data into your pages via JSON. Supports unlimited levels of nesting!\nBuilt-in caching of results keeps your data providers happy, but can be tailored to your needs with a configurable lifetime.<\/p>\n\n<p>You can use it one of two ways (but not necessarily on the same page - see <a href=\"http:\/\/codex.wordpress.org\/Shortcode_API#Unclosed_Shortcodes\">this article<\/a>!)<\/p>\n\n<pre><code>[json src=&#34;http:\/\/example.com\/my_data_src?format=json&#34; key=&#34;Data.mykey&#34;]<\/code><\/pre>\n\n<p>--&#62; outputs contents of <code>mykey<\/code> in the <code>Data<\/code> object<\/p>\n\n<pre><code>[json src=&#34;http:\/\/example.com\/my_data_src?format=json&#34;]I want my value to appear right here {Data.mysubdata.otherKey} in the middle of my content.[\/json]<\/code><\/pre>\n\n<p>--&#62; replaces the text in <code>{}<\/code> with contents of <code>otherKey<\/code> in the <code>mysubdata<\/code> object in the <code>Data<\/code> object<\/p>\n\n<p><em>Note:<\/em> this plugin allows you to bri",
+                "uid": "30787"
+            }
+        }
+    }
+}

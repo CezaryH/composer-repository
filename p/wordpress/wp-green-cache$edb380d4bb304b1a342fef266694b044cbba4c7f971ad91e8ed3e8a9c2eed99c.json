@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/wp-green-cache": {
+            "0.1.6": {
+                "name": "wordpress\/wp-green-cache",
+                "version": "0.1.6",
+                "version_normalized": "0.1.6.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/wp-green-cache.0.1.6.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>WP Green Cache is a <code>powerfull caching plugin<\/code> for WordPress blogs. It's higly minimize (%95) the usage of server's resources and <code>provides very fast blog pages<\/code>. If you care about the speed of your site, WP Green Cache is one of those plugins that you <code>absolutely MUST have installed<\/code>.<\/p>\n\n<p>To explain some tecnical; WP infrastructure has tens of thousands of lines PHP codes which executing on <code>every request<\/code>. To generate requested page WordPress <code>executes the all of PHP codes<\/code>. At this stage, WP Green Cache redirects the requests to own cache system and answers the request fastest as much as possible because the cached pages are not generated again.<\/p>\n\n<p><\/p>\n\n<p>Also WP Green Cache Plugin highly reduce unnecessary usage of server resources so reduces electricity consumption and carbon emmisions. You think that there are hundreds of pages on blog and there are tens of millions blogs and visitors who waiting for pages... Us",
+                "uid": "40681"
+            }
+        }
+    }
+}

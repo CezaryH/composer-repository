@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/my-social-network-page": {
+            "1.1.1": {
+                "name": "wordpress\/my-social-network-page",
+                "version": "1.1.1",
+                "version_normalized": "1.1.1.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/my-social-network-page.1.1.1.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>This plugin allowed you to integrate your twitter and last.fm account into a page, or an article on your blog. It prints on the page \/ article your X lasts tweet. Links, hashtags and @username are converted into links. There is a cache system, which refresh every 60 seconds.<\/p>\n\n<p>To use it on one of your page \/ article, you need to write : <em>[twitter username=YOURUSERNAME limit=LIMIT]<\/em> or *[lastfm username=YOURUSERNAME limit=LIMIT]<\/p>\n\n<p>ex : your username is MagicMicky, and you want to show up 5 tweets so, in your page you write :* \"[twitter username=MagicMicky limit=5]\"*<\/p>\n\n<p>If you want to personalize the results, there is a css file into the folder. The css contains predefined class. You should edit it for a better integration in your theme.<\/p>\n\n<p>In the next few weeks, I want this plugin to display your youtube, dailymotion, flickr facebook, and other social networks informations.<\/p>",
+                "uid": "74302"
+            }
+        }
+    }
+}

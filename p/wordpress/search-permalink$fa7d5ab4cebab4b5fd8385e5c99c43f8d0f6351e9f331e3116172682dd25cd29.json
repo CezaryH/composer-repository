@@ -1,0 +1,40 @@
+{
+    "packages": {
+        "wordpress\/search-permalink": {
+            "1.0.1": {
+                "name": "wordpress\/search-permalink",
+                "version": "1.0.1",
+                "version_normalized": "1.0.1.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/search-permalink.1.0.1.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>The Search Permalink plugin redirects HTTP <code>GET<\/code> requests in the form of <code><a href=\"http:\/\/example.com\/blog\/?s=foo\" rel=\"nofollow\">http:\/\/example.com\/blog\/?s=foo<\/a><\/code> to <code><a href=\"http:\/\/example.com\/blog\/search\/foo\/\" rel=\"nofollow\">http:\/\/example.com\/blog\/search\/foo\/<\/a><\/code> may it be from <code>&#60;form&#62;<\/code> submissions, manually entered URIs, or even old links pointing to search results. It uses WordPress 2.2's built-in internal permalink interpreter.<\/p>",
+                "uid": "109398"
+            },
+            "1.1": {
+                "name": "wordpress\/search-permalink",
+                "version": "1.1",
+                "version_normalized": "1.1.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/search-permalink.1.1.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>The Search Permalink plugin redirects HTTP <code>GET<\/code> requests in the form of <code><a href=\"http:\/\/example.com\/blog\/?s=foo\" rel=\"nofollow\">http:\/\/example.com\/blog\/?s=foo<\/a><\/code> to <code><a href=\"http:\/\/example.com\/blog\/search\/foo\/\" rel=\"nofollow\">http:\/\/example.com\/blog\/search\/foo\/<\/a><\/code> may it be from <code>&#60;form&#62;<\/code> submissions, manually entered URIs, or even old links pointing to search results. It uses WordPress 2.2's built-in internal permalink interpreter.<\/p>",
+                "uid": "109397"
+            }
+        }
+    }
+}

@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/zoho-invoice": {
+            "2.6": {
+                "name": "wordpress\/zoho-invoice",
+                "version": "2.6",
+                "version_normalized": "2.6.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/zoho-invoice.2.6.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p><strong>Zoho Invoice contains:<\/strong><\/p>\n\n<ul>\n<li>Ability to view customer invoices<\/li>\n<li>Shortcodes to view invoices<\/li>\n\n<li>Example: [invoice customer=\"CUSTOMERIDHERE\"]<\/li>\n\n<\/ul>",
+                "uid": "15077"
+            }
+        }
+    }
+}

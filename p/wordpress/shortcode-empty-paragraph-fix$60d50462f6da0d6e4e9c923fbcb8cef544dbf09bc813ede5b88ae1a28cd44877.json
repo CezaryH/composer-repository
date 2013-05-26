@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/shortcode-empty-paragraph-fix": {
+            "0.1": {
+                "name": "wordpress\/shortcode-empty-paragraph-fix",
+                "version": "0.1",
+                "version_normalized": "0.1.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/shortcode-empty-paragraph-fix.0.1.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>Fix <a href=\"http:\/\/core.trac.wordpress.org\/ticket\/12061\">known issues<\/a> when shortcodes are embedded in a block of content that is filtered by wpautop.<\/p>",
+                "uid": "43629"
+            }
+        }
+    }
+}

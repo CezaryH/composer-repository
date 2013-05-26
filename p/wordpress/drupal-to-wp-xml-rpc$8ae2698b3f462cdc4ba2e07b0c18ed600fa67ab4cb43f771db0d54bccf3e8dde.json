@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/drupal-to-wp-xml-rpc": {
+            "1.0": {
+                "name": "wordpress\/drupal-to-wp-xml-rpc",
+                "version": "1.0",
+                "version_normalized": "1.0.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/drupal-to-wp-xml-rpc.1.0.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>Adds some Multisite-specific functions to WordPress XML-RPC interface (<a href=\"http:\/\/yourdomain.com\/xmlrpc.php\" rel=\"nofollow\">http:\/\/yourdomain.com\/xmlrpc.php<\/a>).\nThis plugin is required for the correct work of a Drupal module named Drupal to WP.<\/p>\n\n<p><strong>Functions availables<\/strong><\/p>\n\n<ul>\n<li>drupal.newBlog - Create a new blog<\/li>\n<li>drupal.getUsers - Get all users of your installation<\/li>\n<li>drupal.getUsersBlogs - Get blogs of a user<\/li>\n<li>drupal.getBlogId - Get a blog ID<\/li>\n<li>drupal.getCategories - Get a list of categories on a given blog<\/li>\n<li>drupal.newUser - Create a new user<\/li>\n<li>drupal.deleteUser - Delete a user<\/li>\n<\/ul>\n\n<p>Functions return error code 700 or 403 if there are problems with authetication and error code 500 if there are other problem.<\/p>",
+                "uid": "54470"
+            }
+        }
+    }
+}

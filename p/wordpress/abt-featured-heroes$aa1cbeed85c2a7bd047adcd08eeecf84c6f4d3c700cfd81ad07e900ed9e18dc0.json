@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/abt-featured-heroes": {
+            "0.2.2": {
+                "name": "wordpress\/abt-featured-heroes",
+                "version": "0.2.2",
+                "version_normalized": "0.2.2.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/abt-featured-heroes.0.2.2.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>Provides a new content type \"Heroes\" to manage your featured slides.  You can then add a slideshow to any page using the shortcode <code>abt_slider_hero<\/code>.  The slideshow is automatically configured using <a href=\"http:\/\/jquery.malsup.com\/cycle\/\" title=\"Cycle Homepage with option reference\">jQuery Cycle<\/a> and the options you specify in the shortcode.<\/p>\n\n<p>One of the options <code>postType<\/code> allows you to use other content than the provided \"Heroes\", effectively allowing a slideshow of almost anything in Wordpress.<\/p>",
+                "uid": "30781"
+            }
+        }
+    }
+}

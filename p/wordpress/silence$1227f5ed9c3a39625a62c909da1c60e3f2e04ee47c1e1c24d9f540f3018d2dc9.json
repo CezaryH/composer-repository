@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/silence": {
+            "1.5": {
+                "name": "wordpress\/silence",
+                "version": "1.5",
+                "version_normalized": "1.5.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/silence.1.5.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>This plugin disables the WordPress update notifications, as well as update notifications of different plugins. It is ideal to deliver a complete WordPress and not bother the user with alerts. Silence!<\/p>\n\n<h4>Please note!<\/h4>\n\n<p>It's <em>very<\/em> important that you keep your WordPress plugins up to date. If you don't, your blog or website could be susceptible to security vulnerabilities or performance issues. If you use this plugin, you must make sure you keep yourself up to date with new releases of your active plugins and update them as new versions are released.<\/p>",
+                "uid": "26010"
+            }
+        }
+    }
+}

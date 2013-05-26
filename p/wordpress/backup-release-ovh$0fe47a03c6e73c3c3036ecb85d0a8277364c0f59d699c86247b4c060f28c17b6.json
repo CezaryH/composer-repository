@@ -1,0 +1,40 @@
+{
+    "packages": {
+        "wordpress\/backup-release-ovh": {
+            "0.1": {
+                "name": "wordpress\/backup-release-ovh",
+                "version": "0.1",
+                "version_normalized": "0.1.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/backup-release-ovh.0.1.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>Avant de pouvoir utiliser le plugin vous devrez effectuer les r&#233;glages, une fois ces r&#233;glages effectu&#233;s vous pourrez g&#233;n&#233;rer les fichiers \"sh\" permettant d'effectuer les sauvegardes. Vous devrez envoyer ces fichiers dans les dossiers que vous aurez d&#233;finis, puis d&#233;finir une tache cron qui permettra d'automatiser le lancement des sauvegardes (la commande &#224; lancer est indiqu&#233;e dans la page des options)<\/p>",
+                "uid": "30857"
+            },
+            "0.2": {
+                "name": "wordpress\/backup-release-ovh",
+                "version": "0.2",
+                "version_normalized": "0.2.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/backup-release-ovh.0.2.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>Avant de pouvoir utiliser le plugin vous devrez effectuer les r&#233;glages, une fois ces r&#233;glages effectu&#233;s vous pourrez g&#233;n&#233;rer les fichiers \"sh\" permettant d'effectuer les sauvegardes. Vous devrez envoyer ces fichiers dans les dossiers que vous aurez d&#233;finis, puis d&#233;finir une tache cron qui permettra d'automatiser le lancement des sauvegardes (la commande &#224; lancer est indiqu&#233;e dans la page des options)<\/p>",
+                "uid": "30856"
+            }
+        }
+    }
+}

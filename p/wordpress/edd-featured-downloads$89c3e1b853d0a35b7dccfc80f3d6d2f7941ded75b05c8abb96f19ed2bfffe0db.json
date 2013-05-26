@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/edd-featured-downloads": {
+            "1.0": {
+                "name": "wordpress\/edd-featured-downloads",
+                "version": "1.0",
+                "version_normalized": "1.0.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/edd-featured-downloads.1.0.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>This plugin requires <a href=\"http:\/\/wordpress.org\/extend\/plugins\/easy-digital-downloads\/\" title=\"Easy Digital Downloads\">Easy Digital Downloads<\/a>. It's aimed at developers\/clients who need to show a list of featured downloads.<\/p>\n\n<ol>\n<li>Provides a template tag so finely-tuned placement of featured downloads in your theme is possible. <\/li>\n<li>Provides a shortcode which will simply list all the featured downloads, without the need to enter any IDs.<\/li>\n<li>Provides a simple interface for managing featured downloads in the WordPress admin. A \"feature download\" checkbox will be added to each download edit\/publish screen as well as the quick edit boxes. At a glance you'll also be able to see which downloads have been featured on your website from the main download listing.<\/li>\n<\/ol>\n\n<p>In true EDD fashion, hooks are provided for developers to fine tune the HTML if needed.<\/p>\n\n<h4>Shortcode Usage<\/h4>\n\n<p>The following shortcode is available to display your featured images. M",
+                "uid": "9122"
+            }
+        }
+    }
+}

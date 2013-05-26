@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/product-websites-showcase": {
+            "1.0": {
+                "name": "wordpress\/product-websites-showcase",
+                "version": "1.0",
+                "version_normalized": "1.0.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/product-websites-showcase.1.0.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>PWS allows your registered users\/guests\/customers to submit their websites on which they used\/embed\n your product\/etc via modified native comment form, which are then displayed on your predefined\n blog page. The fields that can be posted are author's name, website's title, URL, description and\n a screenshot. All submitted websites are subject to review of one of the registered users. This\n plugin uses custom post type functionality, for providing clean and simple interface for editing\n information. For displaying submitted data, a new page with a custom page template must be created;\n an example is enclosed. The theme you'd like to use should support post thumbnail functionality.\n Additionally, for spam deterrence, all guest sent data are verified by Akismet and reCaptcha, if\n present. Should you wan't to use your own submit form, a sample how to do so is provided.<\/p>",
+                "uid": "61141"
+            }
+        }
+    }
+}

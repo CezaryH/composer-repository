@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/full-circle": {
+            "0.5.7": {
+                "name": "wordpress\/full-circle",
+                "version": "0.5.7",
+                "version_normalized": "0.5.7.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/full-circle.0.5.7.8.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>Full Circle's primary purpose is to allow you to automate notifying your different social networks of new blog posts.  Currently the only social networks that it connects to is Facebook and twitter.  After simple configuration, any blog posts made on your blog will automatically posted as a link in your feed, and\/or update your twitter status.<\/p>\n\n<p>Also added are the ability to have links to facebook, twitter, digg, technorati and delicious all to the bottom of your blog posts.  Allowing your blog readers to share your blog with their social networks.<\/p>\n\n<p>Note: This version changes the database structure so that it can record better for more networks without changing the dbstructure in the future. Before upgrading please backup the fullcircle_posttracker database table in case upgrade fails as deactivating the previous version destroys this table.  Newer versions will not, so that we can use old tables to move data around to new tables if needed<\/p>",
+                "uid": "90285"
+            }
+        }
+    }
+}

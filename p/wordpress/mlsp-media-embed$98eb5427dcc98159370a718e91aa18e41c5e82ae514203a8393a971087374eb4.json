@@ -1,0 +1,40 @@
+{
+    "packages": {
+        "wordpress\/mlsp-media-embed": {
+            "1.0": {
+                "name": "wordpress\/mlsp-media-embed",
+                "version": "1.0",
+                "version_normalized": "1.0.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/mlsp-media-embed.1.0.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>This plugin will add MyLeadSystemPRO media embed support to wordpress. With this installed, you simply need to just past the link of your media from MLSP right in to the editor and WordPress will embed it for you, be it video or audio.<\/p>\n\n<p>As an added bonus, for those with responsive themes, we add the option of activating a script that will resize your media on the fly based the the user's browser size. The standard way of doing this is with some simple CSS. However, our script takes it a step forward. We dynamically calculate the height and width of your embedded media, and the resize it accordingly. We found this necessary because at MLSP, we allow embed of audio, which have a rather small player, and video at multiple aspect ratios. Again, this is an optional addition, but it can be extremely helpful for those with responsive themes. This option can be found right in your WordPress media options page.<\/p>",
+                "uid": "28351"
+            },
+            "1.0.1": {
+                "name": "wordpress\/mlsp-media-embed",
+                "version": "1.0.1",
+                "version_normalized": "1.0.1.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/mlsp-media-embed.1.0.1.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>This plugin will add MyLeadSystemPRO media embed support to wordpress. With this installed, you simply need to just past the link of your media from MLSP right in to the editor and WordPress will embed it for you, be it video or audio.<\/p>\n\n<p>As an added bonus, for those with responsive themes, we add the option of activating a script that will resize your media on the fly based the the user's browser size. The standard way of doing this is with some simple CSS. However, our script takes it a step forward. We dynamically calculate the height and width of your embedded media, and the resize it accordingly. We found this necessary because at MLSP, we allow embed of audio, which have a rather small player, and video at multiple aspect ratios. Again, this is an optional addition, but it can be extremely helpful for those with responsive themes. This option can be found right in your WordPress media options page.<\/p>",
+                "uid": "28350"
+            }
+        }
+    }
+}

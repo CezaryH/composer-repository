@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/french-word-of-the-day": {
+            "1.0": {
+                "name": "wordpress\/french-word-of-the-day",
+                "version": "1.0",
+                "version_normalized": "1.0.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/french-word-of-the-day.1.0.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>Adds an daily French Word of the Day (with audio) widget to the WordPress sidebar. The word of the day comes from the Declan Software archives.<\/p>",
+                "uid": "95006"
+            }
+        }
+    }
+}

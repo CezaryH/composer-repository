@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/feed-anonymizer": {
+            "1.0": {
+                "name": "wordpress\/feed-anonymizer",
+                "version": "1.0",
+                "version_normalized": "1.0.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/feed-anonymizer.1.0.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>This plugin performs the simple task of replacing individual author names in feeds with the site name.<\/p>\n\n<p>This is useful for blogs that are written by multiple authors that have the \"authoritative voice\" of the blog itself,\nrather than attributing each post to its individual author.  This plugin makes the posts in the feeds (all feeds: rss,\nrss2, atom, rdf, etc) appear to be written anonymously, instead using the name of the site as the publishing author,\nrather than the name of the author.  This prevents admins from having to edit core files to make posts in the feed anonymous.<\/p>",
+                "uid": "10687"
+            }
+        }
+    }
+}

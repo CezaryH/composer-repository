@@ -1,0 +1,57 @@
+{
+    "packages": {
+        "wordpress\/portico": {
+            "1.0.0": {
+                "name": "wordpress\/portico",
+                "version": "1.0.0",
+                "version_normalized": "1.0.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/portico.1.0.0.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<h4>Overview<\/h4>\n\n<p>There are just two steps to implementing a custom post-type with Portico.  Here's a quick overview before we get down\nto the coding required.<\/p>\n\n<ul>\n<li>Declare a class that defines your custom post type.<\/li>\n<li>Create a display template for the new post type.  <\/li>\n<\/ul>\n\n<p>That's it!  Portico handles the rest for you, and that includes building an admin interface for working with posts of\nthe new type.<\/p>\n\n<h4>Coding<\/h4>\n\n<p>Let's take a look at a simple example, the implementation of a Podcast post-type.<\/p>\n\n<p>Here's what the custom post-type's definition looks like:<\/p>\n\n<pre><code>&#60;?php\n\n\/**\n * Podcast custom post-type implemented using the Portico plugin\n *\/\nclass Podcast extends \\portico\\CustomPostType\n{\n    protected function setUp()\n    {\n        \/\/At present, &#34;mandatory&#34; simply marks the field as mandatory in the admin interface\n        $this-&#62;addCustomField(&#039;artist&#039;, &#039;Artist&#039;, array(\n            &#039;manda",
+                "uid": "56533"
+            },
+            "1.0.1": {
+                "name": "wordpress\/portico",
+                "version": "1.0.1",
+                "version_normalized": "1.0.1.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/portico.1.0.1.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<h4>Overview<\/h4>\n\n<p>There are just two steps to implementing a custom post-type with Portico.  Here's a quick overview before we get down\nto the coding required.<\/p>\n\n<ul>\n<li>Declare a class that defines your custom post type.<\/li>\n<li>Create a display template for the new post type.  <\/li>\n<\/ul>\n\n<p>That's it!  Portico handles the rest for you, and that includes building an admin interface for working with posts of\nthe new type.<\/p>\n\n<h4>Coding<\/h4>\n\n<p>Let's take a look at a simple example, the implementation of a Podcast post-type.<\/p>\n\n<p>Here's what the custom post-type's definition looks like:<\/p>\n\n<pre><code>&#60;?php\n\n\/**\n * Podcast custom post-type implemented using the Portico plugin\n *\/\nclass Podcast extends \\portico\\CustomPostType\n{\n    protected function setUp()\n    {\n        \/\/At present, &#34;mandatory&#34; simply marks the field as mandatory in the admin interface\n        $this-&#62;addCustomField(&#039;artist&#039;, &#039;Artist&#039;, array(\n            &#039;manda",
+                "uid": "56532"
+            },
+            "1.0.2": {
+                "name": "wordpress\/portico",
+                "version": "1.0.2",
+                "version_normalized": "1.0.2.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/portico.1.0.2.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<h4>Overview<\/h4>\n\n<p>There are just two steps to implementing a custom post-type with Portico.  Here's a quick overview before we get down\nto the coding required.<\/p>\n\n<ul>\n<li>Declare a class that defines your custom post type.<\/li>\n<li>Create a display template for the new post type.  <\/li>\n<\/ul>\n\n<p>That's it!  Portico handles the rest for you, and that includes building an admin interface for working with posts of\nthe new type.<\/p>\n\n<h4>Coding<\/h4>\n\n<p>Let's take a look at a simple example, the implementation of a Podcast post-type.<\/p>\n\n<p>Here's what the custom post-type's definition looks like:<\/p>\n\n<pre><code>&#60;?php\n\n\/**\n * Podcast custom post-type implemented using the Portico plugin\n *\/\nclass Podcast extends \\portico\\CustomPostType\n{\n    protected function setUp()\n    {\n        \/\/At present, &#34;mandatory&#34; simply marks the field as mandatory in the admin interface\n        $this-&#62;addCustomField(&#039;artist&#039;, &#039;Artist&#039;, array(\n            &#039;manda",
+                "uid": "56530"
+            }
+        }
+    }
+}

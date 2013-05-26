@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/terms-of-use": {
+            "0.1": {
+                "name": "wordpress\/terms-of-use",
+                "version": "0.1",
+                "version_normalized": "0.1.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/terms-of-use.0.1.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>The Wordpress Terms of Use plugin, yes I know there are many other options out there to do this however this plugin takes a slightly different approach. Instead of making the user agree to the Terms of Use when they join the site this plugin makes them agree to the terms and conditions the first time they login. The reason for doing this is that you can be installed Wordpress Terms of Use plugin on a mature blog and existing members will be able to agree to the Terms of Use the next time they log in. In addition the new users are presented with a nice fully customisable welcome message after they agree to your Terms to help them get started using Wordpress.<\/p>\n\n<p>Features:<\/p>\n\n<p>1)      Customizable Open Source Terms of Use agreement.\n2)      Customizable Open Source Privacy Policy.\n3)      Customizable welcome message.\n4)      Can be integrated into a mature blog.\n5)      Support for both Wordpress and Wordpress MU.\n6)      No changes need to be made to the Sign up process.<\/p>",
+                "uid": "99358"
+            }
+        }
+    }
+}

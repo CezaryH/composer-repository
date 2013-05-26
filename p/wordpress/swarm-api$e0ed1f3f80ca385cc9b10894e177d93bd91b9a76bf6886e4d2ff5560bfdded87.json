@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/swarm-api": {
+            "1.0": {
+                "name": "wordpress\/swarm-api",
+                "version": "1.0",
+                "version_normalized": "1.0.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/swarm-api.1.0.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>Allows for developers to easily pull swarm data from a designated swarm. Swarm data can currently be defined as tweets, photos, members, and links. For examples of what swarm data looks like, and how to use it see <a href=\"http:\/\/swarmapi.pbworks.com\/Swarm-API-Examples\" rel=\"nofollow\">http:\/\/swarmapi.pbworks.com\/Swarm-API-Examples<\/a><\/p>",
+                "uid": "81653"
+            }
+        }
+    }
+}

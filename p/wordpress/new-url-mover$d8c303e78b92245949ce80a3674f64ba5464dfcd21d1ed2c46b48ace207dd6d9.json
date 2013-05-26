@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/new-url-mover": {
+            "1.0": {
+                "name": "wordpress\/new-url-mover",
+                "version": "1.0",
+                "version_normalized": "1.0.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/new-url-mover.1.0.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>Sometimes you have to build a blog separately from the ain site, and then have to move the blog onto the main server. When you do, you have to update the database, which can be a pain. With this plugin, any time you navigate to the home page of your WordPress site, it will automatically check the location of your installation, and update the database for you if needed. It also adds a widget to your Dashboard to specify the url of your main site. We recommend, at the top of your functions.php file, that you add the following line: <code>&#60;?php define('ROOT_URL',get_option('ROOT_URL')); ?&#62;<\/code> You can then echo out the 'ROOT_URL' constant anywhere you need to link to the main site. For example: <code>&#60;a href=\"&#60;?php echo ROOT_URL; ?&#62;\/about\"&#62;About Us&#60;\/a&#62;<\/code><\/p>",
+                "uid": "47337"
+            }
+        }
+    }
+}

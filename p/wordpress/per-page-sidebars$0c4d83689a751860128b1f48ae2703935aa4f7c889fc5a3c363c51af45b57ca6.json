@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/per-page-sidebars": {
+            "2.0.0": {
+                "name": "wordpress\/per-page-sidebars",
+                "version": "2.0.0",
+                "version_normalized": "2.0.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/per-page-sidebars.2.0.0.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>This plugin allows the creation and display of custom sidebars for any page (or post) on your site. On each page, you can choose which of your current theme's sidebars will be replaced. The replacement works for all descendants of a replaced page.<\/p>\n\n<p>In this fashion you can:\n1. Easily create a CMS like site with unique sidebars for every page, even if your theme doesn't support it.\n2. Create a sidebar with a Cart widget that displays on store pages created by the WP-E-Commerce page, but not anywhere else on the site.\n3. Use parent pages to create themed areas of your site, without creating custom page templates.<\/p>\n\n<p>This plugin is compatible with every theme and all widgets because it hijacks your theme's sidebars instead of replacing them.<\/p>",
+                "uid": "63119"
+            }
+        }
+    }
+}

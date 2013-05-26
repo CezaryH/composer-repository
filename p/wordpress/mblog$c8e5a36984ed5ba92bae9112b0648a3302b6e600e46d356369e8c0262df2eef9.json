@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/mblog": {
+            "0.37": {
+                "name": "wordpress\/mblog",
+                "version": "0.37",
+                "version_normalized": "0.37.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/mblog.0.37.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>Puts a \"wall\" into a blog, where blog authors can chat. Wall can be hidden from unregistered users. \nIntended to use in community\/corporate blogs, for coordination between authors.<\/p>",
+                "uid": "48499"
+            }
+        }
+    }
+}

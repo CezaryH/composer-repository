@@ -1,0 +1,57 @@
+{
+    "packages": {
+        "wordpress\/toggle-wpautop": {
+            "1.0": {
+                "name": "wordpress\/toggle-wpautop",
+                "version": "1.0",
+                "version_normalized": "1.0.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/toggle-wpautop.1.0.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>Before WordPress displays a post's content, the content gets passed through multiple filters to ensure that it safely appears how you enter it within the editor.<\/p>\n\n<p>One of these filters is <a href=\"http:\/\/codex.wordpress.org\/Function_Reference\/wpautop\" title=\"wpautop\">wpautop<\/a>, which replaces double line breaks with <code>&#60;p&#62;<\/code> tags, and single line breaks with <code>&#60;br \/&#62;<\/code> tags. However, this filter sometimes causes issues when you are inputting a lot of HTML markup in the post editor.<\/p>\n\n<p>This plugin displays a checkbox in the publish meta box of the post edit screen that disables the <a href=\"http:\/\/codex.wordpress.org\/Function_Reference\/wpautop\" title=\"wpautop\">wpautop<\/a> filter for that post.<\/p>\n\n<p>Also adds a 'wpautop', or 'no-wpautop' class to the post_class filter to help with CSS styling.<\/p>",
+                "uid": "11004"
+            },
+            "1.1": {
+                "name": "wordpress\/toggle-wpautop",
+                "version": "1.1",
+                "version_normalized": "1.1.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/toggle-wpautop.1.1.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>Before WordPress displays a post's content, the content gets passed through multiple filters to ensure that it safely appears how you enter it within the editor.<\/p>\n\n<p>One of these filters is <a href=\"http:\/\/codex.wordpress.org\/Function_Reference\/wpautop\" title=\"wpautop\">wpautop<\/a>, which replaces double line breaks with <code>&#60;p&#62;<\/code> tags, and single line breaks with <code>&#60;br \/&#62;<\/code> tags. However, this filter sometimes causes issues when you are inputting a lot of HTML markup in the post editor.<\/p>\n\n<p>This plugin displays a checkbox in the publish meta box of the post edit screen that disables the <a href=\"http:\/\/codex.wordpress.org\/Function_Reference\/wpautop\" title=\"wpautop\">wpautop<\/a> filter for that post.<\/p>\n\n<p>Also adds a 'wpautop', or 'no-wpautop' class to the post_class filter to help with CSS styling.<\/p>",
+                "uid": "11003"
+            },
+            "1.1.1": {
+                "name": "wordpress\/toggle-wpautop",
+                "version": "1.1.1",
+                "version_normalized": "1.1.1.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/toggle-wpautop.1.1.1.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>Before WordPress displays a post's content, the content gets passed through multiple filters to ensure that it safely appears how you enter it within the editor.<\/p>\n\n<p>One of these filters is <a href=\"http:\/\/codex.wordpress.org\/Function_Reference\/wpautop\" title=\"wpautop\">wpautop<\/a>, which replaces double line breaks with <code>&#60;p&#62;<\/code> tags, and single line breaks with <code>&#60;br \/&#62;<\/code> tags. However, this filter sometimes causes issues when you are inputting a lot of HTML markup in the post editor.<\/p>\n\n<p>This plugin displays a checkbox in the publish meta box of the post edit screen that disables the <a href=\"http:\/\/codex.wordpress.org\/Function_Reference\/wpautop\" title=\"wpautop\">wpautop<\/a> filter for that post.<\/p>\n\n<p>Also adds a 'wpautop', or 'no-wpautop' class to the post_class filter to help with CSS styling.<\/p>",
+                "uid": "11002"
+            }
+        }
+    }
+}

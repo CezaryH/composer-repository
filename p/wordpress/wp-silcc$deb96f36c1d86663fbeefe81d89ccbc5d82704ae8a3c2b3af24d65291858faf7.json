@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/wp-silcc": {
+            "1.6": {
+                "name": "wordpress\/wp-silcc",
+                "version": "1.6",
+                "version_normalized": "1.6.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/wp-silcc.1.6.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>WP-SiLCC auto-generates tags for blog content.  It uses a natural language processing API called OpenSiLCC (<a href=\"http:\/\/opensilcc.com\" rel=\"nofollow\">http:\/\/opensilcc.com<\/a>) from Swiftly.org.  WP-SiLCC differs from similar auto-tagging plugins because it utilizes active learning techniques to improve it's tagging ability over time.  If you are a developer interested in improving this code use the following links.<\/p>\n\n<p>Source Code - <a href=\"http:\/\/github.com\/ushahidi\/wp-silcc\" rel=\"nofollow\">http:\/\/github.com\/ushahidi\/wp-silcc<\/a>\nIssue Tracker - <a href=\"http:\/\/github.com\/ushahidi\/wp-silcc\/issues\" rel=\"nofollow\">http:\/\/github.com\/ushahidi\/wp-silcc\/issues<\/a><\/p>",
+                "uid": "68059"
+            }
+        }
+    }
+}

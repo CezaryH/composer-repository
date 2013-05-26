@@ -1,0 +1,40 @@
+{
+    "packages": {
+        "wordpress\/wp-obscure": {
+            "1.1": {
+                "name": "wordpress\/wp-obscure",
+                "version": "1.1",
+                "version_normalized": "1.1.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/wp-obscure.1.1.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>WP-Obscure will change the content of a post in the eyes of a search engine spider, but\nnot the eyes of the reader. It will replace various characters with ascii values and\nadd hidden html tags inside the post to change the structure.<\/p>",
+                "uid": "89637"
+            },
+            "1.1.1": {
+                "name": "wordpress\/wp-obscure",
+                "version": "1.1.1",
+                "version_normalized": "1.1.1.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/wp-obscure.1.1.1.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>WP-Obscure will change the content of a post in the eyes of a search engine spider, but\nnot the eyes of the reader. It will replace various characters with ascii values and\nadd hidden html tags inside the post to change the structure.<\/p>",
+                "uid": "89636"
+            }
+        }
+    }
+}

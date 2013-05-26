@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/weather-widget": {
+            "1.6": {
+                "name": "wordpress\/weather-widget",
+                "version": "1.6",
+                "version_normalized": "1.6.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/weather-widget.1.6.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<h4>Requirements<\/h4>\n\n<ul>\n<li>WordPress 2.2 or 2.0.x\/2.1.x with WordPress Widgets<\/li>\n<li>PHP 4.3.0 or greater (needed for function file&#095;get&#095;contents)<\/li>\n<\/ul>\n\n<h4>Location<\/h4>\n\n<p>The location can either be a zip code for US users or the locid. To find the locid, you can do a search using <a href=\"http:\/\/xoap.weather.com\/search\/search?where=search\" rel=\"nofollow\">http:\/\/xoap.weather.com\/search\/search?where=search<\/a> parameters].This will return an XML file with search results and their corresponding locid&#8217;s.<\/p>\n\n<p>You can also find it using the Weather.com website. After searching for and selecting your city, you will be sent to a url that will look something like, <a href=\"http:\/\/www.weather.com\/outlook\/driving\/interstate\/local\/USTX0617?from=search_city\" rel=\"nofollow\">http:\/\/www.weather.com\/outlook\/driving\/interstate\/local\/USTX0617?from=search_city<\/a>, where USTX0617 is the locid.<\/p>\n\n<h4>Image Hosting<\/h4>\n\n<p>I&#8217;ve provided the images used and prov",
+                "uid": "105577"
+            }
+        }
+    }
+}

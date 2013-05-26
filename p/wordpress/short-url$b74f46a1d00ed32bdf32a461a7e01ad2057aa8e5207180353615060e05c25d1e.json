@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/short-url": {
+            "1.0": {
+                "name": "wordpress\/short-url",
+                "version": "1.0",
+                "version_normalized": "1.0.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/short-url.1.0.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>It helps make email-friendly links. This plugin shorten every link present in the post to a very small\/tiny url which is always easy to remember. With the help of this plugin you can watch how many people clicked your URL through stats. To view the stats just add \"-\" sign (minus) to the end of your shortened url.<\/p>",
+                "uid": "69190"
+            }
+        }
+    }
+}

@@ -1,0 +1,40 @@
+{
+    "packages": {
+        "wordpress\/unwanted-plugins-remover": {
+            "0.1": {
+                "name": "wordpress\/unwanted-plugins-remover",
+                "version": "0.1",
+                "version_normalized": "0.1.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/unwanted-plugins-remover.0.1.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>With this plugin you can remove unwanted plugins on a WordPress core upgrade process. Unwanted plugins are for example <a href=\"http:\/\/wordpress.org\/extend\/plugins\/akismet\/\">Akismet<\/a> or <a href=\"http:\/\/wordpress.org\/extend\/plugins\/hello-dolly\/\">Hello Dolly<\/a>. Both plugins are default values and will be removed on each core upgrade process. You can extend the list with a filter named <code>unwanted_plugins_list<\/code>.<\/p>",
+                "uid": "53128"
+            },
+            "0.1.1": {
+                "name": "wordpress\/unwanted-plugins-remover",
+                "version": "0.1.1",
+                "version_normalized": "0.1.1.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/unwanted-plugins-remover.0.1.1.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>With this plugin you can remove unwanted plugins on a WordPress core upgrade process. Unwanted plugins are for example <a href=\"http:\/\/wordpress.org\/extend\/plugins\/akismet\/\">Akismet<\/a> or <a href=\"http:\/\/wordpress.org\/extend\/plugins\/hello-dolly\/\">Hello Dolly<\/a>. Both plugins are default values and will be removed on each core upgrade process. You can extend the list with a filter named <code>unwanted_plugins_list<\/code>.<\/p>",
+                "uid": "53127"
+            }
+        }
+    }
+}

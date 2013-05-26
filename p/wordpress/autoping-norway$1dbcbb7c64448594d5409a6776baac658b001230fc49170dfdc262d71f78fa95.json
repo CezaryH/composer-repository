@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/autoping-norway": {
+            "2.6.3": {
+                "name": "wordpress\/autoping-norway",
+                "version": "2.6.3",
+                "version_normalized": "2.6.3.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/autoping-norway.2.6.3.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>This plugin is dying. Update to disable functions and services no longer avaiable.<\/p>\n\n<p>BUT: This plugin may add a few ordninary XML-RPC pingback services. Currently included:<\/p>\n\n<ul>\n<li>Twingly<\/li>\n<li>Bloggoversikten<\/li>\n<li>Bloggurat<\/li>\n<li>Technorati<\/li>\n<li>Google BlogSearch<\/li>\n<\/ul>\n\n<p><strong>NOTES:<\/strong><\/p>\n\n<ul>\n<li>The Twingly services is a special services which <em>re-pings<\/em> your posts to several affiliated newspaper web editions.\nHence, if you link to a newspaper article published online, your blog post will be listed and linked from that article.<\/li>\n<li>Bloggoversikten and Bloggurat are other Norwegian blog search, list and aggregating sites.<\/li>\n<li>Technorati and Google BlogSearch are blog search and overview sites.<\/li>\n<\/ul>\n\n<p>This plugin lets you easily add or remove these services without copying and pasting their ping-URL into the 'Ping services'\nfield onthe 'Options - Writing' page.<\/p>",
+                "uid": "91942"
+            }
+        }
+    }
+}

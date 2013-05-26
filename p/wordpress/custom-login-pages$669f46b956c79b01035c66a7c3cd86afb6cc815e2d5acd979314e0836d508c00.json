@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/custom-login-pages": {
+            "0.8": {
+                "name": "wordpress\/custom-login-pages",
+                "version": "0.8",
+                "version_normalized": "0.8.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/custom-login-pages.0.8.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>Allows you to define custom header and footer templates to be used in the login\/logout\/lost password\/register pages\nto match the theme of your site. In the custom templates you can include custom CSS styles to set the background image,\nthe size and colors of the login form, etc...<\/p>",
+                "uid": "75893"
+            }
+        }
+    }
+}

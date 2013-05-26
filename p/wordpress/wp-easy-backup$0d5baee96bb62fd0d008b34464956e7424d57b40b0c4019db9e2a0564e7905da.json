@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/wp-easy-backup": {
+            "1.0.2": {
+                "name": "wordpress\/wp-easy-backup",
+                "version": "1.0.2",
+                "version_normalized": "1.0.2.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/wp-easy-backup.1.0.2.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>It will create a database dump and zip all your media, theme and plugin files.<\/p>\n\n<p>When moving from one to another hosting company this plugin can quickly zip everything you need in one click.<\/p>\n\n<p>After installation, look under the Tools tab and open \"WP Backup\". Click on \u0093Generate WP Easy Backup Zip\u0094. Use the link to save the file.<\/p>",
+                "uid": "30879"
+            }
+        }
+    }
+}

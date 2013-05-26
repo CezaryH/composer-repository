@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/old-post-date": {
+            "1.0.3": {
+                "name": "wordpress\/old-post-date",
+                "version": "1.0.3",
+                "version_normalized": "1.0.3.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/old-post-date.1.0.3.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p><em>Notice: This plugin is not being actively maintained. Other priorities have arisen which have forced development to discontinue. Being open source and free, you are of course free to take the code and improve upon it; if you are a developer and would like to be added as a commiter to this plugin, please <a href=\"http:\/\/weston.ruter.net\/contact\/\">contact me<\/a>.<\/em><\/p>\n\n<p>Just as the core WordPress functionality now keeps track of old post slugs and redirects visitors to proper permalink,\nthis plugin does the same thing for the <code>post_date<\/code>. Whenever a post is saved and the <code>post_date<\/code>\nis changed, a new post meta entry with the key '<code>old_post_date<\/code>' is inserted with the value of the new <code>post_date<\/code>. \nWhen a visitor gets a 404 from a permalink that contains chronology, this plugin looks up the post meta for an <code>old_post_date<\/code>\nthat matches their request; if multiple matches are found, then it narrows down the results by looki",
+                "uid": "106305"
+            }
+        }
+    }
+}

@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/ip-ban": {
+            "0.7": {
+                "name": "wordpress\/ip-ban",
+                "version": "0.7",
+                "version_normalized": "0.7.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/ip-ban.0.7.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "Returns &#039;Page Not Found&#039; 404 error message for IP&#039;s visiting your blog specified in the IP Ban option on the Discussion Options page.",
+                "uid": "63352"
+            }
+        }
+    }
+}

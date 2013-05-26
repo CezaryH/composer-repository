@@ -1,0 +1,40 @@
+{
+    "packages": {
+        "wordpress\/wp-email-invisibliser": {
+            "0.1.1": {
+                "name": "wordpress\/wp-email-invisibliser",
+                "version": "0.1.1",
+                "version_normalized": "0.1.1.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/wp-email-invisibliser.0.1.1.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>A simple plugin to hide emails from spambots. Simply use the shortcode [hide_email <a href=\"mailto:myemail@mydomain.com\">myemail@mydomain.com<\/a>] to hide <a href=\"mailto:myemail@mydomain.com\">myemail@mydomain.com<\/a> from harvesters but create a clickable email link.<\/p>\n\n<p>There is no complex encryption, that isn't the purpose of this plugin. It simply removes readable emails from the html outpout, replaces them with a span element that uses the hex converted email address in a class and then replaces that span element with javascript on the fly to create a clickable link. If the viewers browser is not javascript enabled they will see a short message explaining why they can't see the email.<\/p>",
+                "uid": "28254"
+            },
+            "0.1.2": {
+                "name": "wordpress\/wp-email-invisibliser",
+                "version": "0.1.2",
+                "version_normalized": "0.1.2.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/wp-email-invisibliser.0.1.2.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>A simple plugin to hide emails from spambots. Simply use the shortcode [hide_email <a href=\"mailto:myemail@mydomain.com\">myemail@mydomain.com<\/a>] to hide <a href=\"mailto:myemail@mydomain.com\">myemail@mydomain.com<\/a> from harvesters but create a clickable email link.<\/p>\n\n<p>There is no complex encryption, that isn't the purpose of this plugin. It simply removes readable emails from the html outpout, replaces them with a span element that uses the hex converted email address in a class and then replaces that span element with javascript on the fly to create a clickable link. If the viewers browser is not javascript enabled they will see a short message explaining why they can't see the email.<\/p>",
+                "uid": "28253"
+            }
+        }
+    }
+}

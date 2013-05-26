@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/big-middle-and-little-endians": {
+            "0.1": {
+                "name": "wordpress\/big-middle-and-little-endians",
+                "version": "0.1",
+                "version_normalized": "0.1.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/big-middle-and-little-endians.0.1.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "DATES BY ENDIANNESS\n\n<p>(http:\/\/{SITE}\/{DATE}\/hello-world\/)<\/p>\n\n<p>Regardless of your post permastruct, date archives are generated. \nPost rewrites completely clobber date rewrites. Date rewrites are broken already, but even when fixed, \nthey can be overwritten by post rewrites. This plugin fixes date archives and persists them past post overwrites - \nsupporting every possible flavor of endian, and every logical combination of %year%, %monthnum%, %day% within them. \nBelow is a matrix of what is possible, the things which do not work in core are marked.<\/p>\n\n<p>!!! = Doesn't work without this plugin<\/p>\n\n<h3>Big Endian in both directions<\/h3>\n\n<p>2012\/09\/12 yyyy\/mm\/dd<br \/>\n2012\/09 yyyy\/mm<br \/>\n2012 yyyy<br \/>\n12 dd !!!<br \/>\n09\/12 mm\/dd !!!<\/p>\n\n<h3>Reverse of Middle Endian in both directions<\/h3>\n\n<p>2012\/12\/09 yyyy\/dd\/mm<br \/>\n2012\/09 yyyy\/mm !!! ~ matches day<br \/>\n2012 yyyyy<br \/>\n09 mm !!!<br \/>\n12\/09 dd\/mm !!!<\/p>\n\n<h3>Middle Endian in both directions<\/h3>\n\n<p>09\/12\/2012 mm\/dd\/",
+                "uid": "18297"
+            }
+        }
+    }
+}

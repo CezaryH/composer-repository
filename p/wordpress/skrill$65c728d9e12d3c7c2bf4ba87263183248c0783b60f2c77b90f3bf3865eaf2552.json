@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/skrill": {
+            "1.0.0": {
+                "name": "wordpress\/skrill",
+                "version": "1.0.0",
+                "version_normalized": "1.0.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/skrill.1.0.0.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>It is a Wordpress plugin that displays a pay by Skrill button on your Wordpress page or post. Skrill was previously known as moneybookers.com. It integrates skrill with wordpress in a simple way. It uses shortcode API and stores common information in settings. You can create as many buttons on your site as you like. Here is the shortcode<\/p>\n\n<p>[skrill_simple amount=\"2.00\" label=\"Book\" description=\"Romeo and Juliet\" ]<\/p>\n\n<p>It has the following parameters<\/p>\n\n<p>amount The total amount that you need to charge from customer. It includes shipping etc \nlabel  This is a short label for the item like book, cd etc. See Skrill documentation for details\ndescription This is description of the item being sold.<\/p>\n\n<p>You can also control the appearance of button by using css. Div class is \"skrill\" that you need to define<\/p>",
+                "uid": "14039"
+            }
+        }
+    }
+}

@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/wp-custom-google-search": {
+            "1.0": {
+                "name": "wordpress\/wp-custom-google-search",
+                "version": "1.0",
+                "version_normalized": "1.0.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/wp-custom-google-search.1.0.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>This plugin allows to customize the Custom Google Search inside your posts.<\/p>\n\n<p>You can change language, theme, a search field for every post.<\/p>\n\n<p>Requires PHP 5.3.x<\/p>",
+                "uid": "23650"
+            }
+        }
+    }
+}

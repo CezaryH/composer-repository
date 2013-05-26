@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/personal-newsletter": {
+            "0.0.1": {
+                "name": "wordpress\/personal-newsletter",
+                "version": "0.0.1",
+                "version_normalized": "0.0.1.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/personal-newsletter.0.0.1.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p><strong>Features:<\/strong><\/p>\n\n<ol>\n<li>Setup multiple newsletters.<\/li>\n<li>Different send modes include manual, diary, weekly and monthly.<\/li>\n<li>Custom newsletter content, template using php directly and all wp functions.<\/li>\n<li>$user (newsletter receiver) object available in template.<\/li>\n<li>User can configure to receive newsletter in it's profile edit page.<\/li>\n<li>Uses wp_cron and wp_mail, no extra configuration on the server is needed.<\/li>\n<\/ol>",
+                "uid": "12102"
+            }
+        }
+    }
+}

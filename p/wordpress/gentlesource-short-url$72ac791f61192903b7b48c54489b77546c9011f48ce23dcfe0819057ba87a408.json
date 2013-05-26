@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/gentlesource-short-url": {
+            "1.2.0": {
+                "name": "wordpress\/gentlesource-short-url",
+                "version": "1.2.0",
+                "version_normalized": "1.2.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/gentlesource-short-url.1.2.0.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>This plugin creates a short URL from the blog post permalink and stores it\nin the database. The URL is displayed below the blog post along with a link\nto twitter that passes the short URL on.<\/p>\n\n<p>You can use all short URL services that offer an API. Here are a few:<\/p>\n\n<ul>\n<li><a href=\"http:\/\/melt.li\/\" rel=\"nofollow\">http:\/\/melt.li\/<\/a><\/li>\n<li><a href=\"http:\/\/lin.io\/\" rel=\"nofollow\">http:\/\/lin.io\/<\/a><\/li>\n<li><a href=\"http:\/\/unrelo.com\/\" rel=\"nofollow\">http:\/\/unrelo.com\/<\/a><\/li>\n<li><a href=\"http:\/\/bit.ly\/\" rel=\"nofollow\">http:\/\/bit.ly\/<\/a><\/li>\n<li><a href=\"http:\/\/u.nu\/\" rel=\"nofollow\">http:\/\/u.nu\/<\/a><\/li>\n<li><a href=\"http:\/\/tinyurl.com\/\" rel=\"nofollow\">http:\/\/tinyurl.com\/<\/a><\/li>\n<\/ul>",
+                "uid": "77460"
+            }
+        }
+    }
+}

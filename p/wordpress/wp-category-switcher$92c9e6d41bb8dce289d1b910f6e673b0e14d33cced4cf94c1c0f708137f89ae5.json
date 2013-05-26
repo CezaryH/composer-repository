@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/wp-category-switcher": {
+            "0.1.0": {
+                "name": "wordpress\/wp-category-switcher",
+                "version": "0.1.0",
+                "version_normalized": "0.1.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/wp-category-switcher.0.1.0.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>This plugin allows you to re-order categories by switching\/swapping theirs ID's. Once it's done, the plugin can be uninstalled: it is clean and straighforward.<\/p>\n\n<p>If you do it on a long-time running blog and running many plugins, please do a backup of your database. This plugin updates the WPML databases as well, but it might cause troubles for other plugins (please let me know if it is the case and I will support them).<\/p>\n\n<p>Thanks to Roman <a href='http:\/\/www.roman-kaeppeler.de\/wordpress\/change-category-id'>for his ideas<\/a> from which this plugin is inspired from :)<\/p>\n\n<p>Languages: English, French.<\/p>",
+                "uid": "10424"
+            }
+        }
+    }
+}

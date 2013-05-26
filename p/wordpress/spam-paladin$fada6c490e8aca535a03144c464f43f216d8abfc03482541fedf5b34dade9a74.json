@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/spam-paladin": {
+            "0.1": {
+                "name": "wordpress\/spam-paladin",
+                "version": "0.1",
+                "version_normalized": "0.1.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/spam-paladin.0.1.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>Spam-paladin helps you to remove smap comment from your blog. \nIt simple deletes comment marked as SPAM from your comment database table.\nJust log in and all spam comments will be clearned.<\/p>",
+                "uid": "96381"
+            }
+        }
+    }
+}

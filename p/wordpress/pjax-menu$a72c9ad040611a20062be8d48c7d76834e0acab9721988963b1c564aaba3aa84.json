@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/pjax-menu": {
+            "0.1": {
+                "name": "wordpress\/pjax-menu",
+                "version": "0.1",
+                "version_normalized": "0.1.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/pjax-menu.0.1.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>This plugin adds ajax requests to your nav menu so you can navigate your site without full page refreshes. Only the content data needs to be loaded. It uses jquery-pjax (<a href=\"https:\/\/github.com\/defunkt\/jquery-pjax\" rel=\"nofollow\">https:\/\/github.com\/defunkt\/jquery-pjax<\/a>).<\/p>",
+                "uid": "35642"
+            }
+        }
+    }
+}

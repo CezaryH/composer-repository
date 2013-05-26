@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/wp-http-digest": {
+            "0.1": {
+                "name": "wordpress\/wp-http-digest",
+                "version": "0.1",
+                "version_normalized": "0.1.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/wp-http-digest.0.1.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>wp-http-digest is a Wordpress plugin that enables you to store the Wordpress passwords in a format that is compatible with HTTP digest authentication. The advantages of this approach is that it enables you to build and integrate services using HTTP digest authentication on top of standard wordpress accounts. The passwords are stored in the database as md5(username:realm:password), which is called the HA1 hash.<\/p>",
+                "uid": "44830"
+            }
+        }
+    }
+}

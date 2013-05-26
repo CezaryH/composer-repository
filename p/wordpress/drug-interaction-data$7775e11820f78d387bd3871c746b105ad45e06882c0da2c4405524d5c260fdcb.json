@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/drug-interaction-data": {
+            "1.0.0": {
+                "name": "wordpress\/drug-interaction-data",
+                "version": "1.0.0",
+                "version_normalized": "1.0.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/drug-interaction-data.1.0.0.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>Drug Interaction Data plugin for WordPress will retrieve and display a given drug's information including what the drug is used to treat and what other medications the drug is known to interact with. The data is provided by the U.S. National Library of Medicine and the U.S. National Institutes of Health.<\/p>\n\n<p>The plugin loads the drug and pharmaceutical data through AJAX and converts common names of drugs to the standardized RxNorm name as defined by the U.S. National Library of Medicine.<\/p>\n\n<ul>\n<li><a href=\"http:\/\/labs.saidigital.co\/products\/drug-interaction-data-plugin\/\">Project Homepage<\/a><\/li>\n<li><a href=\"http:\/\/labs.saidigital.co\/products\/drug-interaction-data-plugin\/drug-interaction-data-extended-version\/\">Exended Version<\/a><\/li>\n<li><a href=\"http:\/\/labs.saidigital.co\/products\/drug-interaction-data-plugin\/drug-interaction-data-plugin-support\/\">Plugin Support<\/a><\/li>\n<\/ul>",
+                "uid": "15828"
+            }
+        }
+    }
+}

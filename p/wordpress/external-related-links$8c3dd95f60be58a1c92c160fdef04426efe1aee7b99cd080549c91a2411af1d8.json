@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/external-related-links": {
+            "1.1": {
+                "name": "wordpress\/external-related-links",
+                "version": "1.1",
+                "version_normalized": "1.1.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/external-related-links.1.1.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>This plugin is used for those who want to show some related links in posts\/pages, and those related links is external (outside the blog site).<\/p>\n\n<p>For example, your blog site is <a href=\"http:\/\/blog.your.com\" rel=\"nofollow\">http:\/\/blog.your.com<\/a>, and you want to show the link <a href=\"http:\/\/www.abcd.com\" rel=\"nofollow\">http:\/\/www.abcd.com<\/a> as a related link in your blog. You can use this plugin to get this done.<\/p>\n\n<p>This plugin is based on the \"keyword matching\", when you add a external link, you need to specify a keyword for it. And if your post\/page have the keyword, the link will be displayed, if not, it won't be displayed.<\/p>",
+                "uid": "97998"
+            }
+        }
+    }
+}

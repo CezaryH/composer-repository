@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/always-remember-me": {
+            "1.0": {
+                "name": "wordpress\/always-remember-me",
+                "version": "1.0",
+                "version_normalized": "1.0.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/always-remember-me.1.0.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>Tired of regularly logging in and clicking the \"Remember me\" checkbox? No more. With this plugin, once\nyou have logged in and until you voluntarily log out, your blog will remember you.<\/p>\n\n<p>The 'Remember Me' checkbox on the login form will be always checked, and instead of logging you in for 14 days, the expiration is set to one year.<\/p>\n\n<p>Related: for your <em>localhost<\/em> hacking, see plugin <a href=\"http:\/\/wordpress.org\/extend\/plugins\/no-login\/\">No Login<\/a><\/p>",
+                "uid": "13458"
+            }
+        }
+    }
+}

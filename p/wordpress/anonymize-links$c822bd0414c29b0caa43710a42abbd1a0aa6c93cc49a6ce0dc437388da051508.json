@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/anonymize-links": {
+            "1.0": {
+                "name": "wordpress\/anonymize-links",
+                "version": "1.0",
+                "version_normalized": "1.0.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/anonymize-links.1.0.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>You can use this plugin to prevent your site from appearing in the server logs of referred pages as a referrer. The operators of the referred pages cannot see where their visitors come from any more.<\/p>\n\n<p>For example, this plugin will automatically convert all external links to this format <a href=\"http:\/\/anonym.to\/?http:\/\/example.com\" rel=\"nofollow\">http:\/\/anonym.to\/?http:\/\/example.com<\/a>.<\/p>\n\n<p>This is an anonymous link to example.com which prevents the original site from appearing as a referrer in the log files of the referred page.<\/p>\n\n<p>(Based on the WP Blank Referer by blackhatzen)<\/p>",
+                "uid": "28202"
+            }
+        }
+    }
+}

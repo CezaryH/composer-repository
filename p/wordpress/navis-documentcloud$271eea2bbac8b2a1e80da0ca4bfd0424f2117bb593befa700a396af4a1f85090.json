@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/navis-documentcloud": {
+            "0.1": {
+                "name": "wordpress\/navis-documentcloud",
+                "version": "0.1",
+                "version_normalized": "0.1.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/navis-documentcloud.0.1.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p><a href=\"http:\/\/www.documentcloud.org\/home\">DocumentCloud<\/a> is a free service allowing journalists to analyze, annotate and publish documents, funded by the Knight Foundation. Initial development supported by <a href=\"http:\/\/www.npr.org\">NPR<\/a> as part of <a href=\"http:\/\/stateimpact.npr.org\">StateImpact<\/a> project.<\/p>\n\n<p>DocumentCloud's normal embed code looks like this:<\/p>\n\n<pre><code>&#60;div id=\"DV-viewer-265231-11-07-2011-letter-to-idaho-congressional\" class=\"DV-container\"&#62;&#60;\/div&#62;\n&#60;script src=\"http:\/\/s3.documentcloud.org\/viewer\/loader.js\"&#62;&#60;\/script&#62;\n&#60;script&#62;\n DV.load('http:\/\/www.documentcloud.org\/documents\/265231-11-07-2011-letter-to-idaho-congressional.js', {\n    width: 600,\n    height: 450,\n    sidebar: false,\n    container: \"#DV-viewer-265231-11-07-2011-letter-to-idaho-congressional\"\n  });\n&#60;\/script&#62;\n<\/code><\/pre>\n\n<p>That works great as long as you edit in HTML mode. Switch to the visual editor, and your container <code>div<\/co",
+                "uid": "26486"
+            }
+        }
+    }
+}

@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/wp-specific-comment": {
+            "1.0": {
+                "name": "wordpress\/wp-specific-comment",
+                "version": "1.0",
+                "version_normalized": "1.0.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/wp-specific-comment.1.0.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>WP Specific Comment provides a template tag for use anywhere in your theme, inside or outside <strong>The Loop<\/strong>. This template tag will return a specific comment as an object, from which you can retrieve any standard comment data.<\/p>\n\n<h4>Template Tag<\/h4>\n\n<p>To initiate the plugin, place <code>&#60;?php wp_specific_comment($ID); ?&#62;<\/code> into your theme, where <code>$ID<\/code> will be the ID number for the comment you want returned.<\/p>\n\n<p><strong>Example:<\/strong><\/p>\n\n<pre><code>&#60;?php wp_specific_comment(44); ?&#62; will return the comment with the ID of 44. Pretty simple, right?\n<\/code><\/pre>\n\n<p>Note: This template tag will not actually display anything. It only sets up a comment to be displayed. You'll have to add in some other standard WordPress Template Tags to get anything to show up on your blog. List of available Comment Tags can be found <a href=\"http:\/\/codex.wordpress.org\/Template_Tags\">here<\/a>.<\/p>\n\n<p><strong>Example:<\/strong><\/p>\n\n<pre><code>&#60",
+                "uid": "88658"
+            }
+        }
+    }
+}

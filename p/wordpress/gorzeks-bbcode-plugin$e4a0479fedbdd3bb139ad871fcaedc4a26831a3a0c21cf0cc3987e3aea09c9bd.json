@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/gorzeks-bbcode-plugin": {
+            "0.0.4": {
+                "name": "wordpress\/gorzeks-bbcode-plugin",
+                "version": "0.0.4",
+                "version_normalized": "0.0.4.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/gorzeks-bbcode-plugin.0.0.4.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>After using the other BBCode plugins available for WordPress and finding all of them lacking, I decided to create my own. It supports the following tags:<\/p>\n\n<ul>\n<li>[b] -- Bold (replaced with \"strong\" tag)<\/li>\n<li>[i] -- Italics (replaced with \"em\" tag)<\/li>\n<li>[u] -- Underline<\/li>\n<li>[s] -- Strikeout<\/li>\n<li>[url] -- Creates a link. Both [url=http...]text[\/url] and [url]http...[\/url] styles are supported<\/li>\n<li>[quote] -- Quoted text (replaced with \"blockquote\" tag)<\/li>\n<li>[code] -- Code (replaced with \"pre\" tag)<\/li>\n<li>[size=n] -- Font size<\/li>\n<li>[color=#nnnnnn] -- Font color<\/li>\n<li>[img] -- Inline image<\/li>\n<li>[ol][li]...[\/li][\/ol] -- Ordered list<\/li>\n<li>[ul][li]...[\/li][\/ul] -- Unordered list<\/li>\n<\/ul>",
+                "uid": "80801"
+            }
+        }
+    }
+}

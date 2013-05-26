@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/ajax-archives": {
+            "1.0": {
+                "name": "wordpress\/ajax-archives",
+                "version": "1.0",
+                "version_normalized": "1.0.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/ajax-archives.1.0.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>Display your archives in collapsible mode using ajax and jQuery.<\/p>\n\n<p>Each subnode is loaded via ajax as per user request, so not whole archive is loaded each time your archives page is displayed. If you have performance problems or server issues with other archive plugins, try this one and enjoy.<\/p>\n\n<p>It also displays the post count for each year and for each month and the comment count for each post. And uses your current wordpress date_format to format the dates.<\/p>",
+                "uid": "88589"
+            }
+        }
+    }
+}

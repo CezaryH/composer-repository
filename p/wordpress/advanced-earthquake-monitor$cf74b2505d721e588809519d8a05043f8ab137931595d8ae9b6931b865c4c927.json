@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/advanced-earthquake-monitor": {
+            "1.2": {
+                "name": "wordpress\/advanced-earthquake-monitor",
+                "version": "1.2",
+                "version_normalized": "1.2.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/advanced-earthquake-monitor.1.2.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>The plugin creates a highly customizable list of current earthquakes using multi-source data from publicly available seismic data all over the world.\nThe plugin is used as widget that can be placed in a sidebar of the layout.\nEach quake with additional details can be shown in an overlay google map.\nThe list can be configured (layout, css style) and filtered (regional, magnitude) in many ways.\nThe plugin can be perfectly combined with the \"volcano widget\" plugin to show the quakes on a small, enlargeable interactive map.<\/p>",
+                "uid": "13442"
+            }
+        }
+    }
+}

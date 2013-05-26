@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/google-analytics-injector": {
+            "1.1": {
+                "name": "wordpress\/google-analytics-injector",
+                "version": "1.1",
+                "version_normalized": "1.1.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/google-analytics-injector.1.1.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>Google Analytics Injector is a plugin which makes it easy for you to start collecting stats with Google Analytics on your WordPress blog. \nAfter the installation of the plugin you just click on the \"Google Analytics Injector Settings\" in the \"Settings\" menu and add your Google Tracking code (eg. UA-1111111-1) in the admin form.<\/p>\n\n<p>To be sure the tracking code is not used on the wrong site you could restrict the useage by specifying the site url. This plugin also exclude the visits from the Administrator if he\/she is currently logged in.<\/p>",
+                "uid": "52290"
+            }
+        }
+    }
+}

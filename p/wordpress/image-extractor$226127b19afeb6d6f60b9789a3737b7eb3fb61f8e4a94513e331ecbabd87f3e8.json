@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/image-extractor": {
+            "1.1": {
+                "name": "wordpress\/image-extractor",
+                "version": "1.1",
+                "version_normalized": "1.1.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/image-extractor.1.1.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>Image Extractor is a WordPress plugin that extract the first image from the post and display it. \nThe plugin main feature is the capability to resize the image found to a destination size. \nThe final image is cached in a folder, so you can obtain better performances.<\/p>\n\n<p>Image Extractor will enable a new template function. It output a complete IMG tag to be inserted into your HTML code. \nThe image source is retrieved from the first image found in the current post.<\/p>",
+                "uid": "112428"
+            }
+        }
+    }
+}

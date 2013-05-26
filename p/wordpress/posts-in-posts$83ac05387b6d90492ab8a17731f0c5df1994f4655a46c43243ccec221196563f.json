@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/posts-in-posts": {
+            "0.6": {
+                "name": "wordpress\/posts-in-posts",
+                "version": "0.6",
+                "version_normalized": "0.6.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/posts-in-posts.0.6.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>Posts in Posts will allow you to grab recent posts based on category, tag or just recent posts. Then it will display thoses posts in a list in the post or page you have called the Posts in Posts on. It's as easy as all you need to do is write a HTML-esq bit of code.<\/p>\n\n<p>[posts type=\"category\" name=\"Lipsum\" limit=\"4\" date=\"d-m-Y\"]<\/p>\n\n<p>This will then output 4 posts from the category 'Lipsum'.<\/p>",
+                "uid": "39092"
+            }
+        }
+    }
+}

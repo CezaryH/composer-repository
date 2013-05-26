@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/wp4labs": {
+            "1.6": {
+                "name": "wordpress\/wp4labs",
+                "version": "1.6",
+                "version_normalized": "1.6.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/wp4labs.1.6.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<ul>\n<li>Use Wordpress 3.1 - Older Versions will cause trouble<\/li>\n<\/ul>\n\n<p>WP4Labs is a small Plugin, wich provides some functions to manange a lab or a scientific group. I designed it for the websites of two Biolabs. It's far away from being my first WP-Plugin, but it's the first one I want to publish. I tested it in four or five WP-installtions on dofferent servers, and it seems to all OK.<\/p>\n\n<p>It provides the following parts:\n- An advanced User Profile, containing some fields for academic career dates\n- in connection with that a connection to the ariw.org-database of scientific institutions wordl wide, to make it easer finding a specific institution and it's URL\n- the possibility to manage users in academic groups, such as Alumni, Post-Doc, P.I. and such (customizable)\n- a local-avatar function which maintains the possibility for users to use a Gravatar (maybe someday I should take this one out and make a own plugin out of it)\n- a post-type called 'project', to which you can c",
+                "uid": "49287"
+            }
+        }
+    }
+}

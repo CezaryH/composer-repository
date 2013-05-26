@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/print-array": {
+            "0.2": {
+                "name": "wordpress\/print-array",
+                "version": "0.2",
+                "version_normalized": "0.2.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/print-array.0.2.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>This plugin allows the use of the function <code>echo_array<\/code> to print out array data within a custom template, most often used for debugging complex code. Within the 'Settings' in the Wordpress admin, you can set font face, size, and color so as to easily distinguish debugging information from regular content.<\/p>",
+                "uid": "47806"
+            }
+        }
+    }
+}

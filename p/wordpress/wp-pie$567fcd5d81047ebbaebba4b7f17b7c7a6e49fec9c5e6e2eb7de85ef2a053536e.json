@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/wp-pie": {
+            "1.2": {
+                "name": "wordpress\/wp-pie",
+                "version": "1.2",
+                "version_normalized": "1.2.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/wp-pie.1.2.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>Enables support of certain CSS3 styles in IE by automatically searching the primary stylesheet and applying the PIE (<a href=\"http:\/\/css3pie.com\/\" rel=\"nofollow\">http:\/\/css3pie.com\/<\/a>) behaviour to the appropriate styles. This results in the enqueuing of a seperate stylesheet.<\/p>\n\n<p>WP PIE is a very quick, very simple implementation for Wordpress of PIE. It automatically searches the primary stylsheet of the active theme for any rule set containing properties to which PIE can apply. Currently it applies to 'border-radius,' 'box-shadow,' and '-pie-background.' It retrieves these styles and generates and enqueues it's own stylesheet to apply the PIE behaviour. All you need to do to make this work is view the settings page. When that page loads it will automatically apply the fix and you're styles will work in IE.At this time, it will search and apply the style to items with -pie-background but will not generate the style itself. you will need to manually enter these styles. The pl",
+                "uid": "25468"
+            }
+        }
+    }
+}

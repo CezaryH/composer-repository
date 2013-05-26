@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/memory-bump": {
+            "0.1": {
+                "name": "wordpress\/memory-bump",
+                "version": "0.1",
+                "version_normalized": "0.1.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/memory-bump.0.1.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>If you are trying to update to WordPress 3.0 and you are frozen on \"Downloading...\" or seeing \"Fatal error: Allowed memory size exhausted\" errors, don't fear! Simply activate this plugin and try again.<\/p>\n\n<p>You can remove this plugin once you have updated. You'll never need it again!<\/p>",
+                "uid": "67269"
+            }
+        }
+    }
+}

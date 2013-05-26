@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/zprelativefeed": {
+            "0.1": {
+                "name": "wordpress\/zprelativefeed",
+                "version": "0.1",
+                "version_normalized": "0.1.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/zprelativefeed.0.1.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>WP instances converted to use relative links make RSS feeds unusable becase they too contain relative links. This plugin registers a converter function in several filters to solve this issue. These filters apply to links before printing it to the feed output. The plugin's converter function adds scheme, domain name and port (getting the values from PHP's server environment variable) to links in feeds.<\/p>\n\n<p>This plugin was developed by <a href=\"http:\/\/www.zetaprints.com\">ZetaPrints<\/a> as an open source project and is hosted in <a href=\"http:\/\/wordpress.org\/extend\/plugins\/zprelativefeed\/\">Wordpress Plugin Directory<\/a>. You are welcome to poke around and generally do as you please, as it's under MIT license.<\/p>",
+                "uid": "67211"
+            }
+        }
+    }
+}

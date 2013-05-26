@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/bbp-topic-views": {
+            "0.2": {
+                "name": "wordpress\/bbp-topic-views",
+                "version": "0.2",
+                "version_normalized": "0.2.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/bbp-topic-views.0.2.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>bbP Topic Views keeps track of how many times each bbPress topic has been viewed, and then displays the count alongside the title or meta  of the topic on forums pages, topic archive pages, tag pages and view pages.<\/p>\n\n<p>The plugin is written in such a way that it does not double-count views when a visitor browses to a different page in the same topic. If no view count record exists for a specific topic, the plugin will create a record for it. Rather than setting the initial view count to zero, the plugin sets it to the number of posts in the topic, because it has obviously been viewed at least as many times as people have posted in it!  This is especially nice for adding the plugin to existing bbPress forums so the view count isn't zero for every single topic.<\/p>\n\n<p>The plugin also offers you some functions, which you can call in your template to output the topic view count and some shortcodes which you can place in your posts to generate a topic table for most viewed topics (",
+                "uid": "40682"
+            }
+        }
+    }
+}

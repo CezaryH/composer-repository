@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/create-new-blog-notice": {
+            "1.0": {
+                "name": "wordpress\/create-new-blog-notice",
+                "version": "1.0",
+                "version_normalized": "1.0.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/create-new-blog-notice.1.0.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>New users often do not know where to start when it with Wordpress. This plugin places a bright yellow button at the top of the dashboard to guide the user to the place to create their first blog. After the user has made a blog the button dissapears. This plugin is configured to run in Wordpress network. Plugin may need modification to run on standalone install of wordpress.<\/p>",
+                "uid": "45467"
+            }
+        }
+    }
+}

@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/wp-countdown-to": {
+            "0.1": {
+                "name": "wordpress\/wp-countdown-to",
+                "version": "0.1",
+                "version_normalized": "0.1.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/wp-countdown-to.0.1.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>When running wordpress for short term projects it can be useful to be able to count down to \nthe end point of the project. And often you'll want to close comments after that point.<\/p>\n\n<p>This plugin will allow you to do that, providing a hook to close comments and a helper to\nshow the countdown (in days) on your site.<\/p>\n\n<p>To show the countdown add the following to your theme:<\/p>\n\n\n\n<p>Please Note: This plugin is only tested on PHP5 and may not work on earlier versions.<\/p>",
+                "uid": "73156"
+            }
+        }
+    }
+}

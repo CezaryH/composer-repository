@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/tip-of-the-day": {
+            "0.1": {
+                "name": "wordpress\/tip-of-the-day",
+                "version": "0.1",
+                "version_normalized": "0.1.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/tip-of-the-day.0.1.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>Tip of The Day is a plugin that display random tips, quotes, polls... for your users, in a widget.<\/p>\n\n<p>=Features=\n* Widgetized\n* You can make a poll of your tip.  The logged users will be able to answer to it and you'll see the results in the dashboard.  You can set custom answers.\n* Uses custom post types and taxonomies, very easy to admin the tips.\n* Ability for a logged user to hide a tip definitely.  It will no more appear to him.  When creating your tip, you can choose if it is hidable or not.\n* Ajaxed.  You can refresh the tip, close it, answer to a poll or hide it definitely without leaving the page.<\/p>",
+                "uid": "58473"
+            }
+        }
+    }
+}

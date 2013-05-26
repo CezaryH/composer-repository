@@ -1,0 +1,40 @@
+{
+    "packages": {
+        "wordpress\/extended-super-admins": {
+            "0.1": {
+                "name": "wordpress\/extended-super-admins",
+                "version": "0.1",
+                "version_normalized": "0.1.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/extended-super-admins.0.1.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>The way that WordPress roles and capabilities are set up, there is only level of Super Admin available. Without this plugin, the only way to grant a user control over certain aspects of the network, you have to grant that user control over all aspects.<\/p>\n\n<p>This plugin allows you to revoke specific privileges from any Super Admin on the network. You can create new roles within the site, then assign any Super Admin to that role; effectively removing the appropriate privileges.<\/p>\n\n<p>This plugin does not grant any new privileges (with the possible exception of the ability to manage the settings for this plugin itself) to any users. It is only capable of removing privileges.<\/p>\n\n<p>This plugin is also built to be compatible with the <a href=\"http:\/\/wordpress.org\/extend\/plugins\/wp-multi-network\/\">WordPress Multi Network<\/a> plugin and the <a href=\"http:\/\/wordpress.org\/extend\/plugins\/networks-for-wordpress\/\">Networks for WordPress<\/a> plugin. If either of those plugins is active, t",
+                "uid": "53790"
+            },
+            "0.6.1": {
+                "name": "wordpress\/extended-super-admins",
+                "version": "0.6.1",
+                "version_normalized": "0.6.1.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/extended-super-admins.0.6.1.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>The way that WordPress roles and capabilities are set up, there is only level of Super Admin available. Without this plugin, the only way to grant a user control over certain aspects of the network, you have to grant that user control over all aspects.<\/p>\n\n<p>This plugin allows you to revoke specific privileges from any Super Admin on the network. You can create new roles within the site, then assign any Super Admin to that role; effectively removing the appropriate privileges.<\/p>\n\n<p>This plugin does not grant any new privileges (with the possible exception of the ability to manage the settings for this plugin itself) to any users. It is only capable of removing privileges.<\/p>\n\n<p>This plugin is also built to be compatible with the <a href=\"http:\/\/wordpress.org\/extend\/plugins\/wp-multi-network\/\">WordPress Multi Network<\/a> plugin and the <a href=\"http:\/\/wordpress.org\/extend\/plugins\/networks-for-wordpress\/\">Networks for WordPress<\/a> plugin. If either of those plugins is active, t",
+                "uid": "53789"
+            }
+        }
+    }
+}

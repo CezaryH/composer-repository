@@ -1,0 +1,40 @@
+{
+    "packages": {
+        "wordpress\/wp-mfen": {
+            "0.4": {
+                "name": "wordpress\/wp-mfen",
+                "version": "0.4",
+                "version_normalized": "0.4.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/wp-mfen.0.4.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>This plugin will convert FEN (Forsyth&#8211;Edwards Notation) strings contained in your blog's posts and comments and turn them into images. This makes it very easy to show and explain various chess board positions simply by typing, for example: <code>[fen caption=\"The board after 1.e4.\"]rnbqkbnr\/pppppppp\/8\/8\/4P3\/8\/PPPP1PPP\/RNBQKBNR b KQkq e3 0 1[\/fen]<\/code>.<\/p>\n\n<p>The script is very simple in concept but supports some minor customization (changing the board colors and piece images). It utilizes its own image cache, and the portion that actually generates the images is platform agnostic (can be used outside of WordPress too). Setup is done in a config file (an admin setup page is planned, though).<\/p>",
+                "uid": "87626"
+            },
+            "0.4.1": {
+                "name": "wordpress\/wp-mfen",
+                "version": "0.4.1",
+                "version_normalized": "0.4.1.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/wp-mfen.0.4.1.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>This plugin will convert FEN (Forsyth&#8211;Edwards Notation) strings contained in your blog's posts and comments and turn them into images. This makes it very easy to show and explain various chess board positions simply by typing, for example: <code>[fen caption=\"The board after 1.e4.\"]rnbqkbnr\/pppppppp\/8\/8\/4P3\/8\/PPPP1PPP\/RNBQKBNR b KQkq e3 0 1[\/fen]<\/code>.<\/p>\n\n<p>The script is very simple in concept but supports some minor customization (changing the board colors and piece images). It utilizes its own image cache, and the portion that actually generates the images is platform agnostic (can be used outside of WordPress too). Setup is done in a config file (an admin setup page is planned, though).<\/p>",
+                "uid": "87625"
+            }
+        }
+    }
+}

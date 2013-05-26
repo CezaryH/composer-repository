@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/results-count-remix": {
+            "1.0": {
+                "name": "wordpress\/results-count-remix",
+                "version": "1.0",
+                "version_normalized": "1.0.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/results-count-remix.1.0.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>Adds to search results and archive pages the total number of posts available as well as an indicator as to which batch of posts are currently being displayed, for example \"11-20 of 124.\" This plugin is a remix of <a href=\"http:\/\/wordpress.org\/extend\/plugins\/results-count\">Results Count<\/a> by Matthew Taylor, and it is optimized for <a href=\"http:\/\/get-thesis.com\/\">the Thesis theme framework<\/a>.<\/p>\n\n<p>Say you have a category named \"Videos\" with 432 posts; visiting the third page of that archive would show you posts 21-30 (assuming 10 posts per page); with this plugin, this information would be available to your users at a glance:<\/p>\n\n<pre><code>&#60;p&#62;21&#8211;30 of 432 entries categorized:&#60;\/p&#62;\n&#60;h1&#62;Videos&#60;\/h1&#62;\n<\/code><\/pre>\n\n<p>Search results and the following archive types are taken into account by this plugin: day, month, year, author, category, and tag.<\/p>",
+                "uid": "97271"
+            }
+        }
+    }
+}

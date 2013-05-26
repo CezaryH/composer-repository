@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/ajax-comments": {
+            "2.08": {
+                "name": "wordpress\/ajax-comments",
+                "version": "2.08",
+                "version_normalized": "2.08.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/ajax-comments.2.08.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>More than that, it checks if all fields filled correctly, and also makes sure to avoid comment duplication, and has flood protection capabilities as well.<\/p>\n\n<p>Probably one of the best ways you could spice up your WordPress Blog with AJAX; readers love it! Must see for yourself.<\/p>\n\n<p>This plugin works well in all major Web browsers, and uses discrete AJAX.\nThat means if JavaScript disabled, it's using the original comment posting method.<\/p>\n\n<p>Ajax Comments known to work well, with Authimage plugin, but I rather suggest Akismet, as it is free for personal use.<\/p>\n\n<p>Features:<\/p>\n\n<pre><code>* comment form validation happens server-side without refreshing or leaving the page\n* Script.aculo.us Fade In\/Out Effects make readers happy\n* works with AuthImage captcha word verification plug-in to prevent comment spam\n* still works traditionally if browsers don't support JavaScript (or have it disabled)\n* uses existing theme code to match styled comment threads when producing new ",
+                "uid": "108725"
+            }
+        }
+    }
+}

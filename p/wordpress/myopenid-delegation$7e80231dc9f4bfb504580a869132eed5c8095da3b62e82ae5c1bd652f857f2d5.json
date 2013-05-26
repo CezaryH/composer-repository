@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/myopenid-delegation": {
+            "0.0.1": {
+                "name": "wordpress\/myopenid-delegation",
+                "version": "0.0.1",
+                "version_normalized": "0.0.1.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/myopenid-delegation.0.0.1.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>This plugin adds the required meta tags to delegate OpenID to a <a href=\"http:\/\/myopenid.com\/\" rel=\"nofollow\">http:\/\/myopenid.com\/<\/a> account.<\/p>",
+                "uid": "39684"
+            }
+        }
+    }
+}

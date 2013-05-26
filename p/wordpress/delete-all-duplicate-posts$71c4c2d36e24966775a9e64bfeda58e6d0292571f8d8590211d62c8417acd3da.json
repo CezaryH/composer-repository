@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/delete-all-duplicate-posts": {
+            "2.0": {
+                "name": "wordpress\/delete-all-duplicate-posts",
+                "version": "2.0",
+                "version_normalized": "2.0.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/delete-all-duplicate-posts.2.0.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>This plugin prevents duplicate posts to be published, especially when running autoblogs.<\/p>\n\n<p>It has a double use :<\/p>\n\n<ul>\n<li>clear duplicate posts<\/li>\n<li>save database space by getting rid of previous versions<\/li>\n<\/ul>\n\n<p>The plugin will search for duplicate titles upon post publication and remove duplicate entries from the database.\nThere is no admin panel, just activate the plugin and let it do the rest ;)\nRead the source code ;)<\/p>",
+                "uid": "21620"
+            }
+        }
+    }
+}

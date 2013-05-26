@@ -1,0 +1,40 @@
+{
+    "packages": {
+        "wordpress\/sort-query-posts": {
+            "1.0": {
+                "name": "wordpress\/sort-query-posts",
+                "version": "1.0",
+                "version_normalized": "1.0.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/sort-query-posts.1.0.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>A really simple and lightweight plugin (73 lines of code - comments included) to sort posts on-the-fly without making a new query to the database (improves performance).<\/p>\n\n<h4>Features:<\/h4>\n\n<ul>\n<li>Supports <strong>all <code>order_by<\/code> and <code>order<\/code> values of the <a href=\"http:\/\/codex.wordpress.org\/Function_Reference\/query_posts#Orderby_Parameters\">query_posts function<\/a><\/strong> except <code>meta_value<\/code> and <code>meta_value_num<\/code> (which require a database query).<\/li>\n<li>Supports <strong>changing the order of all types of posts<\/strong>, including custom post type posts and custom post type \"archive\" posts.<\/li>\n<\/ul>\n\n<h4>Documentation<\/h4>\n\n<p>This plugin adds the function <code>sort_query_posts_by(string $order_by [, string $order])<\/code> to the global context.\nThe second <code>$order<\/code> parameter is optional. Its default value is <code>asc<\/code> (ascending order).<\/p>\n\n<p><strong>Call this function before <a href=\"http:\/\/codex.wordpress.o",
+                "uid": "54985"
+            },
+            "1.1": {
+                "name": "wordpress\/sort-query-posts",
+                "version": "1.1",
+                "version_normalized": "1.1.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/sort-query-posts.1.1.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>A really simple and lightweight plugin (73 lines of code - comments included) to sort posts on-the-fly without making a new query to the database (improves performance).<\/p>\n\n<h4>Features:<\/h4>\n\n<ul>\n<li>Supports <strong>all <code>order_by<\/code> and <code>order<\/code> values of the <a href=\"http:\/\/codex.wordpress.org\/Function_Reference\/query_posts#Orderby_Parameters\">query_posts function<\/a><\/strong> except <code>meta_value<\/code> and <code>meta_value_num<\/code> (which require a database query).<\/li>\n<li>Supports <strong>changing the order of all types of posts<\/strong>, including custom post type posts and custom post type \"archive\" posts.<\/li>\n<\/ul>\n\n<h4>Documentation<\/h4>\n\n<p>This plugin adds the function <code>sort_query_posts_by(string $order_by [, string $order])<\/code> to the global context.\nThe second <code>$order<\/code> parameter is optional. Its default value is <code>asc<\/code> (ascending order).<\/p>\n\n<p><strong>Call this function before <a href=\"http:\/\/codex.wordpress.o",
+                "uid": "54982"
+            }
+        }
+    }
+}

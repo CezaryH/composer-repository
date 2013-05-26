@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/content-commander": {
+            "1.0": {
+                "name": "wordpress\/content-commander",
+                "version": "1.0",
+                "version_normalized": "1.0.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/content-commander.1.0.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>Push any content you want to your users, in real-time, powered by <a href=\"http:\/\/www.pubnub.com\">PubNub<\/a>.  <a href=\"http:\/\/www.pubnub.com\/blog\/content-commander-wordpress\">Tutorial.<\/a>  --&#62; 1.) Sign up for an account <a href=\"https:\/\/pubnub-prod.appspot.com\/register\">here<\/a>.  --&#62; 2.) Copy and paste your publish and subscribe keys from <a href=\"https:\/\/pubnub-prod.appspot.com\/account\">here<\/a> to <a href=\"plugins.php?page=cc-config\">here<\/a>.  --&#62; 3.) Now you're ready to <a href=\"plugins.php?page=commander\">push content<\/a>!<\/p>",
+                "uid": "26097"
+            }
+        }
+    }
+}

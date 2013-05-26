@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/page-shortcodes": {
+            "0.1": {
+                "name": "wordpress\/page-shortcodes",
+                "version": "0.1",
+                "version_normalized": "0.1.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/page-shortcodes.0.1.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>Follow here: <a href=\"http:\/\/dflydev.com\/d2code\/wordpress\/page-shortcodes-plugin\/\">Page Shortcodes<\/a><\/p>\n\n<p>Embed page lists and other page information in pages and posts by way of\nseveral shortcodes.<\/p>\n\n<pre><code>&#60;h3&#62;[page_title name=my-page-slug]&#60;\/h3&#62;\n[page_list name=my-page-slug]\n<\/code><\/pre>\n\n<h4>Shortcodes<\/h4>\n\n<p>The available shortcodes are:<\/p>\n\n<ol>\n<li>[page_list]<\/li>\n<li>[page_title]<\/li>\n<li>[page_content]<\/li>\n<li>[page_meta]<\/li>\n<li>[page_permalink]<\/li>\n<\/ol>\n\n<h4>Common attributes<\/h4>\n\n<p>For all shortcodes, the \"name\" or \"id\" attributes must be specified.<\/p>\n\n<ul>\n<li>\"name\" is the slug name for the pathed page. If your page is \/foo\/bar\/baz,\nthen specify name as 'foo\/bar\/baz'.<\/li>\n<li>\"id\" is the ID for the page.<\/li>\n<\/ul>\n\n<h4>[page_list] attributes<\/h4>\n\n<ol>\n<li>\"template\" attribute\n\n<ul>\n<li>The name of the template to use for this page list.<\/li>\n<\/ul><\/li>\n<\/ol>\n\n<h4>[page_meta] attributes<\/h4>\n\n<ol>\n<li>\"template\" attribute\n\n<ul>",
+                "uid": "62224"
+            }
+        }
+    }
+}

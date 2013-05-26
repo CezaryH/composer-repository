@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/android-badge": {
+            "1.5": {
+                "name": "wordpress\/android-badge",
+                "version": "1.5",
+                "version_normalized": "1.5.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/android-badge.1.5.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p><em>Dieses Plugin erm&#246;glicht dir die Darstellung von Informationen einer Android App von Google Play.<\/em><\/p>\n\n<p>Nachdem du dieses Plugin installiert hast, kannst du den folgenden Code in einen Artikel oder eine Seite einf&#252;gen:<\/p>\n\n<p>[appbadge id=\"com.google.android.apps.maps\"]<\/p>\n\n<p>Ersetze dabei die id com.google.android.apps.maps durch die id der gew&#252;nschten App (in der URL bei Google Play enthalten).<\/p>\n\n<p>Die wichtigsten Funktionen im &#220;berblick:<\/p>\n\n<ul>\n<li>Badge enth&#228;lt allgemeine Informationen wie Entwickler, -url, Kategorie und die Beschreibung<\/li>\n<li>Screenshots, YouTube-Videos und Icons werden angezeigt<\/li>\n<li>Informationen zum Download: Ben&#246;tigte Android Version, Download-Links, QR-Codes und Kommentare<\/li>\n<li>Breite wird automatisch angepasst<\/li>\n<li>Kompatibilit&#228;tsmodus (siehe FAQ)<\/li>\n<\/ul>\n\n<p>Beispiel:\nWeitere Informationen und ein Beispiel finden sich unter <a href=\"http:\/\/de.merq.org\/android-appbadge-example\/\" rel",
+                "uid": "17579"
+            }
+        }
+    }
+}

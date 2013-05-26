@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/wp-simple-contact-form": {
+            "0.9.2": {
+                "name": "wordpress\/wp-simple-contact-form",
+                "version": "0.9.2",
+                "version_normalized": "0.9.2.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/wp-simple-contact-form.0.9.2.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>WP Simple Contact Form is a basic contact form with neat css styling, detailed form validation and error feedback as well as a robust captcha spam check.<\/p>\n\n<p><em>Features<\/em>\n    * Form validation and detailed UI feedback on error\n    * Captcha that should work on most setups with GD library installed\n    * Language file for easy localization\n    * Admin option page where some basic options can be set\n    * Simple to install and use<\/p>\n\n<p><em>Localization<\/em>\nIf you wish to localize the contact form, open the original language file in the plugin folder (sv_SE.php), add your translations and save the file as language_code.php, as defined by WPLANG in wp-config.php .<\/p>\n\n<p>If you create your own language file, please consider posting it as comments here for others to user.<\/p>",
+                "uid": "76598"
+            }
+        }
+    }
+}

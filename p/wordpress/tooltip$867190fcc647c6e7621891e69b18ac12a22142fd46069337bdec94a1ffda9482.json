@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/tooltip": {
+            "1.0": {
+                "name": "wordpress\/tooltip",
+                "version": "1.0",
+                "version_normalized": "1.0.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/tooltip.1.0.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>This plugin displays a small preview image of the target site whenever you hover over a link.<\/p>\n\n<p>Tooltips are fully customizable via css, and can either be displayed for all links, or only links to external sites.<\/p>\n\n<p>It is very simple, all the work is done automatically for you, you only have to install and set you preferences.<\/p>",
+                "uid": "62280"
+            }
+        }
+    }
+}

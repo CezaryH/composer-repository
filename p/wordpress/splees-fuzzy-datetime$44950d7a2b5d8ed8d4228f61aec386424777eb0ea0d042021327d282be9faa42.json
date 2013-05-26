@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/splees-fuzzy-datetime": {
+            "0.6": {
+                "name": "wordpress\/splees-fuzzy-datetime",
+                "version": "0.6",
+                "version_normalized": "0.6.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/splees-fuzzy-datetime.0.6.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>This plugin takes the time and date of a post and makes it 'fuzzy', i.e. more human.  For example, if a post was made three days ago, instead of simply displaying the date the plugin can output '3 days ago'.<\/p>\n\n<p>The structure of the output is completely customisable by the user from the admin panel using the replacement strings, which are documented on the options page itself.<\/p>",
+                "uid": "114982"
+            }
+        }
+    }
+}

@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/github-gist-shortcode": {
+            "0.2": {
+                "name": "wordpress\/github-gist-shortcode",
+                "version": "0.2",
+                "version_normalized": "0.2.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/github-gist-shortcode.0.2.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>Instead of embedding a <a href=\"http:\/\/gist.github.com\">GitHub Gist<\/a> (a <a href=\"http:\/\/pastie.org\/\">pastie<\/a> like service on steroids) by copying and pasting HTML you can simple embed it with a [gist] shortcode.<\/p>\n\n<p>For example, to embed the <a href=\"http:\/\/gist.github.com\/30948\">gist: 30948<\/a> enter this in a post or page:<\/p>\n\n<pre><code>[gist id=30948]\n<\/code><\/pre>\n\n<p>It is that simple.<\/p>\n\n<p>One problem with gists is that a search engine spiders (and users with javascript disabled) will not see your code in a blog entry. This plugin allows you to get around this by including text, such as content of the gist inside the shortcode. The text is wrapped inside these tags:<\/p>\n\n<pre><code>&#60;noscript&#62;&#60;code class=\"gist\"&#62;&#60;pre&#62;\n<\/code><\/pre>\n\n<p>You would use it like this:<\/p>\n\n<pre><code>[gist id=30948]\nputs hello_world_test;\ni = 0\n5.times do\n    i = i + 1\n    puts i\nend\n[\/gist]\n<\/code><\/pre>\n\n<p>The content inside a gist shortcode is optional.<\/p>\n",
+                "uid": "96670"
+            }
+        }
+    }
+}

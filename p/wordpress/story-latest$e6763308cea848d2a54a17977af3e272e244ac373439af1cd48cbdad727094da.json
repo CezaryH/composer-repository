@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/story-latest": {
+            "0.2": {
+                "name": "wordpress\/story-latest",
+                "version": "0.2",
+                "version_normalized": "0.2.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/story-latest.0.2.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>Easily place links to the latest posts on a story below each post<\/p>\n\n<p>Simply add the shortcode into the post or page of your choice, specifying a tag that groups all the related posts together. E.g.;\n[story-latest tag=\"london2012\"]<\/p>",
+                "uid": "25459"
+            }
+        }
+    }
+}

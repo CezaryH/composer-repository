@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/nicer-permalinks-for-korean": {
+            "1.0": {
+                "name": "wordpress\/nicer-permalinks-for-korean",
+                "version": "1.0",
+                "version_normalized": "1.0.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/nicer-permalinks-for-korean.1.0.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>Internal WordPress engine simply creates permalink based on title. Non-latin characters are encoded based on RFC 1738(or its PHP implementation as urlencode function) and it produces long, non-readable URL look a like <a href=\"http:\/\/ko.wikipedia.org\/wiki\/%EB%AC%BC%EB%A6%AC_%EC%A3%BC%EC%86%8C_%ED%99%95%EC%9E%A5\" rel=\"nofollow\">http:\/\/ko.wikipedia.org\/wiki\/%EB%AC%BC%EB%A6%AC_%EC%A3%BC%EC%86%8C_%ED%99%95%EC%9E%A5<\/a> . This encoded URL still works and can be decoded by browsers. It is very hard to read specially all the stats uses URL as a key. To prevent this, simply change the suggested permalink all the time or uses digit form like \/?p=123.\nBut if you want not to be bothered, this plugin can be a solution for Roman presentation as Korean pronounciation.<\/p>\n\n<p>Based on code of the np4v(Vietnameses version of this plugin) from Quang Anh Do. Korean-Roman presentation table is adopted from <a href=\"http:\/\/xpg.in\/tcm\/thread.php?topic_id=771\" rel=\"nofollow\">http:\/\/xpg.in\/tcm\/thread.php",
+                "uid": "64946"
+            }
+        }
+    }
+}

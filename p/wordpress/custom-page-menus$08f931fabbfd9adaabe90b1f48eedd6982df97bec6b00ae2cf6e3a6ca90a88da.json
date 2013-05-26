@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/custom-page-menus": {
+            "1.0": {
+                "name": "wordpress\/custom-page-menus",
+                "version": "1.0",
+                "version_normalized": "1.0.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/custom-page-menus.1.0.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>The included pages can be defined using the 'Custom Page Menus' admin panel on the page-edit screen ( see screenshots ).<\/p>\n\n<p>The widget allows you to select whether to display the page's featured image next to the link. (I would recommend using icon sized images for this feature)<\/p>\n\n<p>On the page-edit screen a custom title for that specific page can also be defined. This title will be used should that page appear anywhere on one of the menus created with the plugin.<\/p>\n\n<p>The menu can be added to any dynamic sidebar using the Custom Page Menus widget or alternatively coded into themes using the custom template tag:<\/p>\n\n<p>cpMenu()<\/p>\n\n<p>$args = array( <br \/> \n'show_date' =&#62; , <br \/> \n'date_format' =&#62; get_option('date_format'), <br \/> \n'child_of' =&#62; 0, <br \/> \n'exclude' =&#62; , <br \/> \n'title_li' =&#62; __('Pages'), <br \/> \n'echo' =&#62; 1, <br \/> \n'authors' =&#62; , <br \/> \n'sort_column' =&#62; 'menu_order, post_title', <br \/> \n'link_before' =&#62; , <br \/> ",
+                "uid": "48405"
+            }
+        }
+    }
+}

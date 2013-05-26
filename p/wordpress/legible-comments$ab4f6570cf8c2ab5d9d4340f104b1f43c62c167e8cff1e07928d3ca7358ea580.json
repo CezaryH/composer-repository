@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/legible-comments": {
+            "0.5.5": {
+                "name": "wordpress\/legible-comments",
+                "version": "0.5.5",
+                "version_normalized": "0.5.5.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/legible-comments.0.5.5.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>The plugin <strong>capitalize<\/strong> firsts words in paragraphs, strip <strong>unnecesary spaces between words<\/strong> and puntuaction marks.<\/p>\n\n<p>Also have the option to envolve between em html tags the text that are between double quotes in order to increase the readability. It doesn't break <strong>html code<\/strong> in your comments, but other kind of special language will be probably broken, we keep this in mind for later versions.<\/p>\n\n<p>It respects proper names if the text is in lower cases. In case that the text is entirely in upper cases, it leaves all in lower cases without putting the first character of the proper names in upper case.<\/p>",
+                "uid": "64276"
+            }
+        }
+    }
+}

@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/old-ie-alert": {
+            "0.7": {
+                "name": "wordpress\/old-ie-alert",
+                "version": "0.7",
+                "version_normalized": "0.7.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/old-ie-alert.0.7.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>Display an upgrade nag for people who are still using Internet Explorer 7 or lower. The nag also provides links to download Chrome, Firefox, Safari and Internet Explorer.<\/p>",
+                "uid": "26221"
+            }
+        }
+    }
+}

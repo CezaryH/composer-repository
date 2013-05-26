@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/vote-links": {
+            "0.1": {
+                "name": "wordpress\/vote-links",
+                "version": "0.1",
+                "version_normalized": "0.1.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/vote-links.0.1.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>Plugin In Development. DO NOT DOWNLOAD<\/p>\n\n<p>DO NOT DOWNLOAD<\/p>\n\n<p>You have now been told<\/p>\n\n<p>This is a very basic plugin (but not quite as basic as the previous one)<\/p>\n\n<p>It aims to provide a way to vote \"for', \"against\" or \"Abstain\" on a particular subject \/ statement.<\/p>\n\n<p>It revolves around a table in the database that has 6 Fields: Id, Title, For, Against, Abstain, Is_Active<\/p>\n\n<p>The basic functionality is that you press a link in the post\/page, and then it registers your vote in the table, and re-graphs the results using the google charts API, as well as setting a cookie so you can't vote again.<\/p>\n\n<p>On the backend is a table like the posts table, that shows all the content of the table. You can edit only the fields \"title\" and \"is_active\" but not the votes count. you can also view the results from the backend, and delete the votes<\/p>\n\n<p>Any help would be appreciated. please may you reply here if you would like to. my main problem is lack of php knowledge",
+                "uid": "104957"
+            }
+        }
+    }
+}

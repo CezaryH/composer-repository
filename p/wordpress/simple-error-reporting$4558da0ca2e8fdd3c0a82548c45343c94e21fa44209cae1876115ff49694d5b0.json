@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/simple-error-reporting": {
+            "1.0": {
+                "name": "wordpress\/simple-error-reporting",
+                "version": "1.0",
+                "version_normalized": "1.0.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/simple-error-reporting.1.0.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>This plugin will allow users at the admin level to see any errors in the production environment while they are logged in. The plugin simulates turning error_reporting on in your production environment.<\/p>",
+                "uid": "49314"
+            }
+        }
+    }
+}

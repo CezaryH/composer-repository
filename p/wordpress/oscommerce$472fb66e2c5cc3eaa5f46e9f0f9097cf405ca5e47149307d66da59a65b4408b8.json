@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/oscommerce": {
+            "1.0": {
+                "name": "wordpress\/oscommerce",
+                "version": "1.0",
+                "version_normalized": "1.0.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/oscommerce.1.0.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>This pulgin\/widget enable you to pull the category and product listing from you osCommerce site.\nOnce activated (follow instructions on installation tab) you get a new menu item in your administration section called 'osCommerce'. You'll\nthen be able to add multiple 'shops', edit and delete them. After you add at least one shop the front end widget uses that information to display\nthe categories from your osCommerce shop. Once you click the shop name that you've provided it'll display the categories available.\nOnce any category is clicked on it'll display the products in that category in the product page that you've created (see installation instructions).\nOn the product page when you click the 'buy now' button itll open your osCommerce shop in the checkout_shipping.php page with\nthe product already added in your shpping cart. If you leave that window open and continue to click 'buy now' on other products on your\nWordpress site you'll be able to see them adding on your cart in the os",
+                "uid": "97234"
+            }
+        }
+    }
+}

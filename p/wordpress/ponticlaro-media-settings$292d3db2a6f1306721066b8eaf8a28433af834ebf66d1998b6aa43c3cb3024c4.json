@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/ponticlaro-media-settings": {
+            "1.4": {
+                "name": "wordpress\/ponticlaro-media-settings",
+                "version": "1.4",
+                "version_normalized": "1.4.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/ponticlaro-media-settings.1.4.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>Keep your media insert code consistent site-wide.<\/p>\n\n<ul>\n<li>Customize image and media HTML code site-wide<\/li>\n<li>Use the [media] shortcode to display images from the gallery at particular sizes<\/li>\n<li>Remove overbearing WordPress auto-code like class=\"\"<\/li>\n<li>Force WordPress to insert relative URLs to make testing on a dev server easier<\/li>\n<\/ul>",
+                "uid": "79592"
+            }
+        }
+    }
+}

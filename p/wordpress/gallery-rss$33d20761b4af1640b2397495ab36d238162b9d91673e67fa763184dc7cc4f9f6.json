@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/gallery-rss": {
+            "0.31": {
+                "name": "wordpress\/gallery-rss",
+                "version": "0.31",
+                "version_normalized": "0.31.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/gallery-rss.0.31.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>A simple Gallery RSS thumbnail generator. Uses <a href=\"http:\/\/magpierss.sourceforge.net\/\">magpie RSS<\/a>.<\/p>",
+                "uid": "115033"
+            }
+        }
+    }
+}

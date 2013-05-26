@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/automatic-subdomains": {
+            "1.2": {
+                "name": "wordpress\/automatic-subdomains",
+                "version": "1.2",
+                "version_normalized": "1.2.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/automatic-subdomains.1.2.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>The purpose of this plugin is to facilitate deployment of subdomain links to \nlanding pages on a WordPress website. The plugin automatically maps subdomains \nto page and post permalinks based on the post_name field in the database. \nThere are no administrative settings.<\/p>\n\n<p>This plugin DOES NOT edit DNS zone files. Subdomain DNS records themselves \neither need to be set up individually or as a wildcard record in the DNS zone \nfile to map to the website directory. Once the request reaches the WordPress \nsystem, the plugin will automatically check to see if the subdomain matches a \npage or post name. If so, the WordPress query is edited to get that page\/post \nat its permalink. The WordPress siteurl is excluded, as is the naked \nsecond-level domain.<\/p>\n\n<p>Example mappings:<\/p>\n\n<p>URL &#8594; Mapping<br \/>\n<a href=\"http:\/\/example.com\" rel=\"nofollow\">http:\/\/example.com<\/a> &#8594; default homepage (no remapping)<br \/>\n<a href=\"http:\/\/www.example.com\" rel=\"nofollow\">http:\/\/www.exam",
+                "uid": "30324"
+            }
+        }
+    }
+}

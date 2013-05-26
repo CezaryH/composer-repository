@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/bbaggregate": {
+            "1.0": {
+                "name": "wordpress\/bbaggregate",
+                "version": "1.0",
+                "version_normalized": "1.0.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/bbaggregate.1.0.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>Create streams of sitewide aggregated content from your multisite WordPress installation with bbAggregate.<\/p>\n\n<p>A stream contains posts from those blogs allowed to participate in the stream. Anyone writing posts can add his\/her post to one or more streams. \nThe streams are shown by using a specific page template. (see also the examples directory). It offers functionality similar \nto the sitewide categories \/ global terms, but with more control and (hopefully) less buggy behaviour.<\/p>\n\n<p>This plugin adds two database tables to your installation:<\/p>\n\n<ul>\n<li>$prefix_bbAggregate_item (links an item to a stream)<\/li>\n<li>$prefix_bbAggregate_stream (contains the stream info)   <\/li>\n<\/ul>\n\n<p>NB: This plugin is only useful for a WordPress Multisite installation in which multiple\nblogs are being used.<\/p>\n\n<h4>How does it work?<\/h4>\n\n<p>First, you create a stream (neccessary user capabillity: 'manage_options',admin role works perfectly). (See screenshot-4.png)\nIt is recommended to ",
+                "uid": "63575"
+            }
+        }
+    }
+}

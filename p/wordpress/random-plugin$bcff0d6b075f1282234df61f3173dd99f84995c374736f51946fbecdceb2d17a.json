@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/random-plugin": {
+            "1.0.0": {
+                "name": "wordpress\/random-plugin",
+                "version": "1.0.0",
+                "version_normalized": "1.0.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/random-plugin.1.0.0.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>(Based on the now famous \"Hello Dolly\" plugin created by Matt Mullenweg.)\nIn the admin panel, in the upper right corner will show random plugins and a link to this plugin, where you can download it and read the detailed description of this plugin. The database has 360 plugins, they will be constantly replenished, within one month of planning to add all the plugins.<\/p>",
+                "uid": "76278"
+            }
+        }
+    }
+}

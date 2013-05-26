@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/hotncold": {
+            "1.0": {
+                "name": "wordpress\/hotncold",
+                "version": "1.0",
+                "version_normalized": "1.0.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/hotncold.1.0.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<h4>Hot'n'Cold shows a different colored badge for every post, depending if the post is \"hot\", \"medium\" or \"cold\", based on Jetpack post views<\/h4>\n\n<ul>\n<li>The plugin requires Jetpack to be installed, activated and connected to your Wordpress.com account.<\/li>\n<\/ul>\n\n<p>The typical\/full code that you need to add to your theme, wherever you want the badge to display is <code>&#60;?php shambix_hotposts(200,100,50,true,true,false); ?&#62;<\/code><\/p>\n\n<p>The code MUST be used inside the Loop.<\/p>\n\n<p>You can customize the code with these parameters, in order:<\/p>\n\n<ul>\n<li>n. of views for the post to be \"hot\" (default: 200)<\/li>\n<li>n. of views for the post to be \"medium\" (default: 100)<\/li>\n<li>n. of views for the post to be \"cold\" (default: 50)<\/li>\n<li>if \"hot\", display badge? (default: true)<\/li>\n<li>if \"medium\", display badge? (default: true)<\/li>\n<li>if \"cold\", display badge? (default: false)<\/li>\n<\/ul>\n\n<p>We use a css file to style the badges, as they are fully made out of CSS3, ",
+                "uid": "11576"
+            }
+        }
+    }
+}

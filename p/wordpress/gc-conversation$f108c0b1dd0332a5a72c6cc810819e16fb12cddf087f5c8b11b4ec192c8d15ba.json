@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/gc-conversation": {
+            "0.2": {
+                "name": "wordpress\/gc-conversation",
+                "version": "0.2",
+                "version_normalized": "0.2.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/gc-conversation.0.2.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>When someone uses \"@pete\", \"@21\" or \"#pete\", \"#21\" in a comment, GC-Conversation converts that reference to a link that opens a \nsmall pop-up containing the text of the referenced comment. For example: the Nth comment, or the last comment of the referenced author before the reference.<\/p>\n\n<p>As this is a javascript-only plugin, it will not tamper with your comments.<\/p>\n\n<p>Will only work on non-threaded, non-paginated comments!!!!<\/p>\n\n<p>Features:<\/p>\n\n<ul>\n<li>customizable to your theme (css-knowledge required)<\/li>\n<li>switch to use own css for popup design (standard design included)<\/li>\n<li>javascript only. Does not change the comments.<\/li>\n<\/ul>\n\n<p>Note: This is quite an advanced plugin to configure. If you do not know what css is and how it works, don't even bother, or ask someone who does have the knowledge.<\/p>",
+                "uid": "82249"
+            }
+        }
+    }
+}

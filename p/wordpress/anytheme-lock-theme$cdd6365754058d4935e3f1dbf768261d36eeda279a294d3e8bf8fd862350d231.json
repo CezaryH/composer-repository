@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/anytheme-lock-theme": {
+            "1.1": {
+                "name": "wordpress\/anytheme-lock-theme",
+                "version": "1.1",
+                "version_normalized": "1.1.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/anytheme-lock-theme.1.1.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>This plugin lock the site at specific theme. You can activate any theme you want, the site will look like the locked theme.<\/p>\n\n<p>Into the code of plugin there are 3 php variables.<\/p>\n\n<pre><code>&#60;?php\n$anytheme_lock_theme = &#039;Twenty Ten&#039;;\n$anytheme_lock_stylesheet = &#039;twentyten&#039;;\n$anytheme_lock_template = &#039;twentyten&#039;;\n?&#62;<\/code><\/pre>\n\n<ul>\n<li>Those vars set the lock theme.<\/li>\n<li>Once installed as a WordPress plugin, the lock theme is the only active theme that your site see.<\/li>\n<\/ul>",
+                "uid": "49871"
+            }
+        }
+    }
+}

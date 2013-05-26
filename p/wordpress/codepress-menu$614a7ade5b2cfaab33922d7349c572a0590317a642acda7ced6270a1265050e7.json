@@ -1,0 +1,125 @@
+{
+    "packages": {
+        "wordpress\/codepress-menu": {
+            "2.0": {
+                "name": "wordpress\/codepress-menu",
+                "version": "2.0",
+                "version_normalized": "2.0.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/codepress-menu.2.0.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>Uses the native <a href=\"http:\/\/codex.wordpress.org\/Function_Reference\/wp_nav_menu\">wp_nav_menu()<\/a> but adds some flexibility.<\/p>\n\n<p>No configuration required, just adds runtime parameters that can be used to tweak your menu.<\/p>\n\n<p>This will get the first sub-menu from the active branch and 2 levels beyond (menu + sub-menu + sub-menu):<\/p>\n\n<pre><code>wp_nav_menu( array(\n    &#039;level&#039; =&#62; 2,\n    &#039;depth&#039; =&#62; 3\n));<\/code><\/pre>\n\n<p>Show the whole current branch only:<\/p>\n\n<pre><code>wp_nav_menu( array(\n    &#039;level&#039; =&#62; 1\n));<\/code><\/pre>\n\n<p>Aimed on simple use on various use cases:<\/p>\n\n<pre><code>\/\/ display first level in the header\nwp_nav_menu( array(\n    &#039;depth&#039; =&#62; 1\n));\n\n\/\/ display first sub-menu from the current branch somewhere else\nwp_nav_menu( array(\n    &#039;depth&#039; =&#62; 2,\n    &#039;level&#039; =&#62; 2\n));<\/code><\/pre>\n\n<p>Another feature is it's controll over the css classes that are assigned. You might be fac",
+                "uid": "19883"
+            },
+            "2.1": {
+                "name": "wordpress\/codepress-menu",
+                "version": "2.1",
+                "version_normalized": "2.1.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/codepress-menu.2.1.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>Uses the native <a href=\"http:\/\/codex.wordpress.org\/Function_Reference\/wp_nav_menu\">wp_nav_menu()<\/a> but adds some flexibility.<\/p>\n\n<p>No configuration required, just adds runtime parameters that can be used to tweak your menu.<\/p>\n\n<p>This will get the first sub-menu from the active branch and 2 levels beyond (menu + sub-menu + sub-menu):<\/p>\n\n<pre><code>wp_nav_menu( array(\n    &#039;level&#039; =&#62; 2,\n    &#039;depth&#039; =&#62; 3\n));<\/code><\/pre>\n\n<p>Show the whole current branch only:<\/p>\n\n<pre><code>wp_nav_menu( array(\n    &#039;level&#039; =&#62; 1\n));<\/code><\/pre>\n\n<p>Aimed on simple use on various use cases:<\/p>\n\n<pre><code>\/\/ display first level in the header\nwp_nav_menu( array(\n    &#039;depth&#039; =&#62; 1\n));\n\n\/\/ display first sub-menu from the current branch somewhere else\nwp_nav_menu( array(\n    &#039;depth&#039; =&#62; 2,\n    &#039;level&#039; =&#62; 2\n));<\/code><\/pre>\n\n<p>Another feature is it's controll over the css classes that are assigned. You might be fac",
+                "uid": "19882"
+            },
+            "2.1.1": {
+                "name": "wordpress\/codepress-menu",
+                "version": "2.1.1",
+                "version_normalized": "2.1.1.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/codepress-menu.2.1.1.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>Uses the native <a href=\"http:\/\/codex.wordpress.org\/Function_Reference\/wp_nav_menu\">wp_nav_menu()<\/a> but adds some flexibility.<\/p>\n\n<p>No configuration required, just adds runtime parameters that can be used to tweak your menu.<\/p>\n\n<p>This will get the first sub-menu from the active branch and 2 levels beyond (menu + sub-menu + sub-menu):<\/p>\n\n<pre><code>wp_nav_menu( array(\n    &#039;level&#039; =&#62; 2,\n    &#039;depth&#039; =&#62; 3\n));<\/code><\/pre>\n\n<p>Show the whole current branch only:<\/p>\n\n<pre><code>wp_nav_menu( array(\n    &#039;level&#039; =&#62; 1\n));<\/code><\/pre>\n\n<p>Aimed on simple use on various use cases:<\/p>\n\n<pre><code>\/\/ display first level in the header\nwp_nav_menu( array(\n    &#039;depth&#039; =&#62; 1\n));\n\n\/\/ display first sub-menu from the current branch somewhere else\nwp_nav_menu( array(\n    &#039;depth&#039; =&#62; 2,\n    &#039;level&#039; =&#62; 2\n));<\/code><\/pre>\n\n<p>Another feature is it's controll over the css classes that are assigned. You might be fac",
+                "uid": "19881"
+            },
+            "2.1.2": {
+                "name": "wordpress\/codepress-menu",
+                "version": "2.1.2",
+                "version_normalized": "2.1.2.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/codepress-menu.2.1.2.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>Uses the native <a href=\"http:\/\/codex.wordpress.org\/Function_Reference\/wp_nav_menu\">wp_nav_menu()<\/a> but adds some flexibility.<\/p>\n\n<p>No configuration required, just adds runtime parameters that can be used to tweak your menu.<\/p>\n\n<p>This will get the first sub-menu from the active branch and 2 levels beyond (menu + sub-menu + sub-menu):<\/p>\n\n<pre><code>wp_nav_menu( array(\n    &#039;level&#039; =&#62; 2,\n    &#039;depth&#039; =&#62; 3\n));<\/code><\/pre>\n\n<p>Show the whole current branch only:<\/p>\n\n<pre><code>wp_nav_menu( array(\n    &#039;level&#039; =&#62; 1\n));<\/code><\/pre>\n\n<p>Aimed on simple use on various use cases:<\/p>\n\n<pre><code>\/\/ display first level in the header\nwp_nav_menu( array(\n    &#039;depth&#039; =&#62; 1\n));\n\n\/\/ display first sub-menu from the current branch somewhere else\nwp_nav_menu( array(\n    &#039;depth&#039; =&#62; 2,\n    &#039;level&#039; =&#62; 2\n));<\/code><\/pre>\n\n<p>Another feature is it's controll over the css classes that are assigned. You might be fac",
+                "uid": "19880"
+            },
+            "2.2": {
+                "name": "wordpress\/codepress-menu",
+                "version": "2.2",
+                "version_normalized": "2.2.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/codepress-menu.2.2.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>Uses the native <a href=\"http:\/\/codex.wordpress.org\/Function_Reference\/wp_nav_menu\">wp_nav_menu()<\/a> but adds some flexibility.<\/p>\n\n<p>No configuration required, just adds runtime parameters that can be used to tweak your menu.<\/p>\n\n<p>This will get the first sub-menu from the active branch and 2 levels beyond (menu + sub-menu + sub-menu):<\/p>\n\n<pre><code>wp_nav_menu( array(\n    &#039;level&#039; =&#62; 2,\n    &#039;depth&#039; =&#62; 3\n));<\/code><\/pre>\n\n<p>Show the whole current branch only:<\/p>\n\n<pre><code>wp_nav_menu( array(\n    &#039;level&#039; =&#62; 1\n));<\/code><\/pre>\n\n<p>Aimed on simple use on various use cases:<\/p>\n\n<pre><code>\/\/ display first level in the header\nwp_nav_menu( array(\n    &#039;depth&#039; =&#62; 1\n));\n\n\/\/ display first sub-menu from the current branch somewhere else\nwp_nav_menu( array(\n    &#039;depth&#039; =&#62; 2,\n    &#039;level&#039; =&#62; 2\n));<\/code><\/pre>\n\n<p>Another feature is it's controll over the css classes that are assigned. You might be fac",
+                "uid": "19879"
+            },
+            "2.2.1": {
+                "name": "wordpress\/codepress-menu",
+                "version": "2.2.1",
+                "version_normalized": "2.2.1.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/codepress-menu.2.2.1.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>Uses the native <a href=\"http:\/\/codex.wordpress.org\/Function_Reference\/wp_nav_menu\">wp_nav_menu()<\/a> but adds some flexibility.<\/p>\n\n<p>No configuration required, just adds runtime parameters that can be used to tweak your menu.<\/p>\n\n<p>This will get the first sub-menu from the active branch and 2 levels beyond (menu + sub-menu + sub-menu):<\/p>\n\n<pre><code>wp_nav_menu( array(\n    &#039;level&#039; =&#62; 2,\n    &#039;depth&#039; =&#62; 3\n));<\/code><\/pre>\n\n<p>Show the whole current branch only:<\/p>\n\n<pre><code>wp_nav_menu( array(\n    &#039;level&#039; =&#62; 1\n));<\/code><\/pre>\n\n<p>Aimed on simple use on various use cases:<\/p>\n\n<pre><code>\/\/ display first level in the header\nwp_nav_menu( array(\n    &#039;depth&#039; =&#62; 1\n));\n\n\/\/ display first sub-menu from the current branch somewhere else\nwp_nav_menu( array(\n    &#039;depth&#039; =&#62; 2,\n    &#039;level&#039; =&#62; 2\n));<\/code><\/pre>\n\n<p>Another feature is it's controll over the css classes that are assigned. You might be fac",
+                "uid": "19878"
+            },
+            "2.2.2": {
+                "name": "wordpress\/codepress-menu",
+                "version": "2.2.2",
+                "version_normalized": "2.2.2.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/codepress-menu.2.2.2.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>Uses the native <a href=\"http:\/\/codex.wordpress.org\/Function_Reference\/wp_nav_menu\">wp_nav_menu()<\/a> but adds some flexibility.<\/p>\n\n<p>No configuration required, just adds runtime parameters that can be used to tweak your menu.<\/p>\n\n<p>This will get the first sub-menu from the active branch and 2 levels beyond (menu + sub-menu + sub-menu):<\/p>\n\n<pre><code>wp_nav_menu( array(\n    &#039;level&#039; =&#62; 2,\n    &#039;depth&#039; =&#62; 3\n));<\/code><\/pre>\n\n<p>Show the whole current branch only:<\/p>\n\n<pre><code>wp_nav_menu( array(\n    &#039;level&#039; =&#62; 1\n));<\/code><\/pre>\n\n<p>Aimed on simple use on various use cases:<\/p>\n\n<pre><code>\/\/ display first level in the header\nwp_nav_menu( array(\n    &#039;depth&#039; =&#62; 1\n));\n\n\/\/ display first sub-menu from the current branch somewhere else\nwp_nav_menu( array(\n    &#039;depth&#039; =&#62; 2,\n    &#039;level&#039; =&#62; 2\n));<\/code><\/pre>\n\n<p>Another feature is it's controll over the css classes that are assigned. You might be fac",
+                "uid": "19877"
+            }
+        }
+    }
+}

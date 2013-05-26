@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/vm-backups": {
+            "1.0": {
+                "name": "wordpress\/vm-backups",
+                "version": "1.0",
+                "version_normalized": "1.0.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/vm-backups.1.0.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>This helps you take your wordpress total backup just with a single click.\nyou can take db,plugins,theme backup, and we can send mail with these attachments.\nthis is very usefull plugin from vinmatrix team.<\/p>",
+                "uid": "28899"
+            }
+        }
+    }
+}

@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/select-category-to-post": {
+            "2.3": {
+                "name": "wordpress\/select-category-to-post",
+                "version": "2.3",
+                "version_normalized": "2.3.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/select-category-to-post.2.3.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>This plugin shows the list of the categories of your blog. When you click one of the categories, you will jump to post-new.php, where the category you clicked is selected.<\/p>\n\n<p>Usually you go to post-new.php and write a post, then you select the category of the new post. This flow may result in publishing without selecting any category. In such cases, the post is categorized as 'Uncategorized' and you have to select a category after publishing.<\/p>\n\n<p>This plugin solves this problem. You can select one category before writing a post, no more unwanted Uncategorized.<\/p>\n\n<p><a href=\"http:\/\/plugin.php-web.net\/wp\/category-select\">Japanese description<\/a> is also available.<\/p>",
+                "uid": "58703"
+            }
+        }
+    }
+}

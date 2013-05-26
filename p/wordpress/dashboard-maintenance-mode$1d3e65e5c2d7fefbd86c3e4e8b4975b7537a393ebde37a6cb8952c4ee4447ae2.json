@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/dashboard-maintenance-mode": {
+            "0.1": {
+                "name": "wordpress\/dashboard-maintenance-mode",
+                "version": "0.1",
+                "version_normalized": "0.1.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/dashboard-maintenance-mode.0.1.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>If, for example, your clients want to be able to \"turn off\" their website for a while, so they can work on new\ncontent or features of their website, but you don't want them rummaging through the Wordpress Settings pages to do so, this plugin might be something for you.<\/p>\n\n<p>This plugin creates a very simple little widget for your WP Dashboard, from which the website can turned to \/ out of maintenance mode.<\/p>\n\n<p>Activating maintenance mode will display a maintenance mode page with explanatory text for your visitors. Logged in users will be able to view the website as they normally would.<\/p>\n\n<p>The plugin will automatically create a <code>maintenance.php<\/code> file and add it to your <code>\/wp-content\/<\/code> directory. Customize this page to change the appearance and text of the maintenance mode page.<\/p>\n\n<p>Known bugs\n* Right now, this plugin will not work on certain servers (like Antagonist.nl) because of a permissions issue.<\/p>",
+                "uid": "19244"
+            }
+        }
+    }
+}

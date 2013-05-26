@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/sensitive-tag-cloud": {
+            "1.4.1": {
+                "name": "wordpress\/sensitive-tag-cloud",
+                "version": "1.4.1",
+                "version_normalized": "1.4.1.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/sensitive-tag-cloud.1.4.1.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>This wordpress plugin provides a configurable tagcloud that shows tags depending of the current context only. For example the tagcloud shows only tags that really occur in the current category, or within the current date-, author-, tag- archive or even only the tags that occur in the search results. \nIt is also possible to restrict the links of the tag cloud to the current viewing tag archive or category: If you click on the tag \"test1\" within the tag cloud of the tag archive of \"test2\" the target page will only contain posts that have both tags, like a drill down navigation. It is possible to exclude the tag of the tag-archive itself from the tagcloud.\nFor the single post pages you can configure the tagcloud to show also related tags of the current posts, not only the direct tags of the post. And you can configure the tagcloud to exclude the tag of the current post, to show only the related tags.\nThe style and sizes of the tagcloud can be configured, and the widget can be configure",
+                "uid": "108742"
+            }
+        }
+    }
+}

@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/commentmailer": {
+            "0.1": {
+                "name": "wordpress\/commentmailer",
+                "version": "0.1",
+                "version_normalized": "0.1.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/commentmailer.0.1.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>CommentMailer is a WordPress plugin that generates and sends e-mail to your blog's commenters to tell them that you\nhave replied his\/her comment on your blog's comment system. It adds extra options on your blog's comment form to select\nwhich commenters you are replying to. Submitting the reply comment will trigger the e-mail generation function thus \nsend them automatically. You can customize your own notification e-mail or use the default one.<\/p>",
+                "uid": "110898"
+            }
+        }
+    }
+}

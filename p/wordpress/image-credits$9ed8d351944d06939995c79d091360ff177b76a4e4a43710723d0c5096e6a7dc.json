@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/image-credits": {
+            "1.0": {
+                "name": "wordpress\/image-credits",
+                "version": "1.0",
+                "version_normalized": "1.0.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/image-credits.1.0.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>Adds source name and URL fields for media uploads along with a shortcode for displaying image credits for all images within an entry, including its featured image. WordPress natively doesn't provide the ability to manage where you've pulled different media from, so this can be helpful in making sure you provide links back to the content creators.<\/p>",
+                "uid": "13206"
+            }
+        }
+    }
+}

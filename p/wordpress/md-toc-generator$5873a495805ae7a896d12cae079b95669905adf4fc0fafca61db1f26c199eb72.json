@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/md-toc-generator": {
+            "0.1": {
+                "name": "wordpress\/md-toc-generator",
+                "version": "0.1",
+                "version_normalized": "0.1.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/md-toc-generator.0.1.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>Plugin to automatically generate a table of contents based on Headings tags. Also generates links to the headings on the page. User can choose which headings\ntags to include in Settings.<\/p>",
+                "uid": "52810"
+            }
+        }
+    }
+}

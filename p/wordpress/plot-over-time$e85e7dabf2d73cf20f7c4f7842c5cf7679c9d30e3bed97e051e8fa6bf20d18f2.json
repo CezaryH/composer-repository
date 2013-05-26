@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/plot-over-time": {
+            "1.0.0": {
+                "name": "wordpress\/plot-over-time",
+                "version": "1.0.0",
+                "version_normalized": "1.0.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/plot-over-time.1.0.0.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>I ran across Tom Fotherby's Fotherplot when I was looking for a slick way to set up graphs for a workout log.  Being the type that can't stand to leave things alone, I had to hack on it a bit to change a few things&#8230; upgrade it to the most modern version of Google Chart Tools, add multiple data points, etc&#8230; until finally, well&#8230; I think the only thing left of the original plugin is the GNU license.<\/p>\n\n<p>Want to see it in action?  I'm using it in <a href=\"http:\/\/www.midnightryder.org\/category\/workout-log\/\" rel=\"nofollow\">http:\/\/www.midnightryder.org\/category\/workout-log\/<\/a><\/p>\n\n<p>To get it up and running: first, you'll need to put data in your posts.  So, in a post, go to the section under your post called \"Custom Fields\".  Create a field you want to track (for instance, \"Heart Rate\") and give it a value.<\/p>\n\n<p>You'll need at lest two posts with data in them before Plot Over Time can do it's thing - so add data to another post.<\/p>\n\n<p>Now that you have at lea",
+                "uid": "34867"
+            }
+        }
+    }
+}

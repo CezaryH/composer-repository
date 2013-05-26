@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/social-icons-widget": {
+            "0.1": {
+                "name": "wordpress\/social-icons-widget",
+                "version": "0.1",
+                "version_normalized": "0.1.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/social-icons-widget.0.1.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>Adds an available widget to list various social media profiles. The following social media sites are included by default:<\/p>\n\n<ul>\n<li>Facebook<\/li>\n<li>Twitter<\/li>\n<li>YouTube<\/li>\n<li>LinkedIn<\/li>\n<li>Google+<\/li>\n<li>FriendFeed<\/li>\n<li>Flickr<\/li>\n<\/ul>\n\n<p>This plugin also includes a filter hook allowing you to extend the available services.<\/p>\n\n<p>By default, this plugin outputs an unordered list (ul) with a class of <code>social-icons-list<\/code>. Each service is output as a list item (li) with the service name used as the HTML class attribute. Filters are available to allow you to change those HTML elements.<\/p>",
+                "uid": "40533"
+            }
+        }
+    }
+}

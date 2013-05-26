@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/dx-shortcode-freezer": {
+            "0.8": {
+                "name": "wordpress\/dx-shortcode-freezer",
+                "version": "0.8",
+                "version_normalized": "0.8.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/dx-shortcode-freezer.0.8.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p><strong>WARNING: This script alters the database content so use at your own responsibility! Backup your database first.<\/strong><\/p>\n\n<p>Shortcode Freezer. If you have a website with content based on shortcodes \nand this content generates some static data (i.e. authors, pricing, buttons\n and other listing that just provides html markup with a 'short code'), \nthen feel free to convert that to the static values before switching themes. This would evaluate the shortcodes and generate the HTML markup and replace the database posts with the evaluated content.<\/p>\n\n<p>Keep in mind that it would not work with dynamic listings that generate dynamic content - they would 'freeze' and will not be dynamic anymore.<\/p>\n\n<p>You can switch themes without worrying about shortcode compatibility. Once the markup is generated and embedded into posts, your data would be visible and you can style the markup in the new theme.<\/p>",
+                "uid": "29723"
+            }
+        }
+    }
+}

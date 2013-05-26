@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/tyntcom-for-wordpress": {
+            "1.0.0": {
+                "name": "wordpress\/tyntcom-for-wordpress",
+                "version": "1.0.0",
+                "version_normalized": "1.0.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/tyntcom-for-wordpress.1.0.0.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>Basic idea behind tynt.com is to keep track of what people copy\/paste on your page and automatically link back copied content to original page. As many analytic tools it uses JavaScript that has to update on the blog every time tracking is changed. Tynt.com For WordPress tries to solve this problem by bringing configuration option to WordPress admin panel.<\/p>\n\n<p>Once installed you control:<\/p>\n\n<ul>\n<li>If script is active or not<\/li>\n<li>Place of invocation of the script (header, footer, custom placement)<\/li>\n<li>Prefix and suffix to the link<\/li>\n<li>Link formatting<\/li>\n<li>Link sponsors and sponsors url<\/li>\n<\/ul>",
+                "uid": "56073"
+            }
+        }
+    }
+}

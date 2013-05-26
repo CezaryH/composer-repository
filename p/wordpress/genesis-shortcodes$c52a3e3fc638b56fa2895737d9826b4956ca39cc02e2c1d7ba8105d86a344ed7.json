@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/genesis-shortcodes": {
+            "0.5.1": {
+                "name": "wordpress\/genesis-shortcodes",
+                "version": "0.5.1",
+                "version_normalized": "0.5.1.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/genesis-shortcodes.0.5.1.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>This file creates all the shortcodes used throughout a site. While there is an array of shortcodes that are packaged with Genesis, this plugin provides a few more shortcodes that are used for the purpose of developing sites and migrating sites. It also enables code to execute shortcodes in the text widget. Contains the following shortcodes: [post_field], [child_url], [wpurl], [url], [site_url], [uploads], [genesis_comments], [genesis_email], [genesis_modified_date] &#38; content columns shortcodes.<\/p>\n\n<p>MultiSite Shortcode:<\/p>\n\n<ul>\n<li>e.g. [site_url]<\/li>\n<li>e.g. [site_url site=\"1\"]<\/li>\n<li>e.g. [site_url site=\"1\" scheme=\"admin\"]<\/li>\n<li>e.g. [site_url site=\"1\" path=\"\/sample\/\"]<\/li>\n<li>e.g. [site_url site=\"{optional_ID}\" path=\"\/path\/relative\/to\/site\/url\" scheme=\"http&#124;login&#124;login_post&#124;admin\"]<\/li>\n<\/ul>\n\n<p>Content Columns Shortcodes<\/p>\n\n<ul>\n<li>e.g. [one_half_first]CONTENT[\/one_half_first][one_half]CONTENT[\/one_half]<\/li>\n<li>e.g. [one_third_first]CONTENT[",
+                "uid": "28588"
+            }
+        }
+    }
+}

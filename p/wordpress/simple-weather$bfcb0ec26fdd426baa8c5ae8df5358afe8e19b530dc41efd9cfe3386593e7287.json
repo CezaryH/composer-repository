@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/simple-weather": {
+            "0.39": {
+                "name": "wordpress\/simple-weather",
+                "version": "0.39",
+                "version_normalized": "0.39.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/simple-weather.0.39.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>Shows current weather for specified location. Makes use of \"secret\" Google Weather API, which is\nunofficial, yet XML-based and lightweight, and is used by developers quite often. \nThe plugin uses cURL, so works even on hosts with some security restricions, like url-disabled file_get_contents.<br \/>\nIf you've downloaded it, consider leaving feedback in my <a href=\"http:\/\/recon-by-fire.eu\/guestbook1.php\">guestbook<\/a>, it's\nrather important for me. Thanks.<\/p>",
+                "uid": "53143"
+            }
+        }
+    }
+}

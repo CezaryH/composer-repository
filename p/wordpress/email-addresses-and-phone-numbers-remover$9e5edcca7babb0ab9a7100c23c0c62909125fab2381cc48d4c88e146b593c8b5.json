@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/email-addresses-and-phone-numbers-remover": {
+            "1.2": {
+                "name": "wordpress\/email-addresses-and-phone-numbers-remover",
+                "version": "1.2",
+                "version_normalized": "1.2.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/email-addresses-and-phone-numbers-remover.1.2.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>Phone numbers and email addresses will be removed and the privacy will be protected!<\/p>\n\n<p>This plugin sits snugly inside your WordPress installation and silently but effectively makes it very difficult for spambots to harvest email addresses from your WordPress-powered blog. This is accomplished with a combination of WordPress filter hooks and a little bit of JavaScript.<\/p>\n\n<p>After installation, visitors to the site will see email addresses and phone numbers \nas a fake email\/phone number;<\/p>\n\n<p>The plugin is active in both the content section <em>and<\/em> the comments section: if a visitor inadvertently (or intentionally) posts a valid email address in a comment, it will be protected by this plugin as well.<\/p>",
+                "uid": "89498"
+            }
+        }
+    }
+}

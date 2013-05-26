@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/youtube-media": {
+            "1.0": {
+                "name": "wordpress\/youtube-media",
+                "version": "1.0",
+                "version_normalized": "1.0.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/youtube-media.1.0.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>This plugin adds a \"YouTube Media\" tab to your video upload options.  This allows you to view your YouTube video options and insert the selected video into your posts or pages without having to leave your blog to find the \"id\" of your video on youtube.<\/p>\n\n<p>This plugin depends on the Zend Gdata Framework plugin as the Zend GData Api is required as an external dependency.  You can find the Zend Gdata Framework plugin <a href=\"http:\/\/wordpress.org\/extend\/plugins\/zend-gdata-interfaces\/\" title=\"Zend Gdata Framework\">here<\/a>.<\/p>\n\n<p>The current version has been tested with the Zend Gdata Framework plugin version 1.10.5.<\/p>",
+                "uid": "66943"
+            }
+        }
+    }
+}

@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/log-user-access": {
+            "0.1": {
+                "name": "wordpress\/log-user-access",
+                "version": "0.1",
+                "version_normalized": "0.1.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/log-user-access.0.1.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>This plugin logs the username and the date\/time of every WordPress login. Records are displayed in the 'Users' menu item.\nThe plugin is released as a minimal project and will require user feedback for future development \/ added functionality.<\/p>",
+                "uid": "93593"
+            }
+        }
+    }
+}

@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/pelepay-integration-for-wpecommerce": {
+            "1.0": {
+                "name": "wordpress\/pelepay-integration-for-wpecommerce",
+                "version": "1.0",
+                "version_normalized": "1.0.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/pelepay-integration-for-wpecommerce.1.0.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>This plugin will allow you to integrate Pelepay credit card processing into your checkout process with Wp-Ecommerce store.<\/p>\n\n<p>Management and initial setup through:<\/p>\n\n<p>settings -&#62; store -&#62; payments -&#62; pelepay<\/p>\n\n<p>Insert your Pelepay account email is mandatory, all the rest comes preconfigured<\/p>",
+                "uid": "11249"
+            }
+        }
+    }
+}

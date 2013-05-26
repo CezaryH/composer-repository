@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/mindnode-foundation-builder": {
+            "0.5": {
+                "name": "wordpress\/mindnode-foundation-builder",
+                "version": "0.5",
+                "version_normalized": "0.5.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/mindnode-foundation-builder.0.5.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>Imports a MindMap .opml file, and creates pages based on the structure.  Helpful for setting up brand new sites. WARNING it will nuke ALL pages\/posts (drops the wp_posts table) on your site, so only use this in the beginning! See <a href=\"http:\/\/www.mindnode.com\" rel=\"nofollow\">http:\/\/www.mindnode.com<\/a> for the Mind Node software.  Check out the screencast demo at <a href=\"http:\/\/studio2108.com\/mindnode-wordpress-plugin\/\" rel=\"nofollow\">http:\/\/studio2108.com\/mindnode-wordpress-plugin\/<\/a><\/p>",
+                "uid": "55093"
+            }
+        }
+    }
+}

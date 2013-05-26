@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/tag-cloud-shortcode": {
+            "0.1": {
+                "name": "wordpress\/tag-cloud-shortcode",
+                "version": "0.1",
+                "version_normalized": "0.1.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/tag-cloud-shortcode.0.1.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>The plugin gives users the oportunity to embed a tag cloud for a site within any page.\nWhen using the shortcode [tagcloud] when \nwriting in the content of any page, the user includes in the page, a \ntag cloud for posts on that site.<\/p>\n\n<p>I am working on adding the ability to set options, such as sizes, etc...<\/p>",
+                "uid": "81560"
+            }
+        }
+    }
+}

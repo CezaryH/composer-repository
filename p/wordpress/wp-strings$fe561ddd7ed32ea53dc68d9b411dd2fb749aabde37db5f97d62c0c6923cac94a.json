@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/wp-strings": {
+            "0.2": {
+                "name": "wordpress\/wp-strings",
+                "version": "0.2",
+                "version_normalized": "0.2.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/wp-strings.0.2.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>Have you ever wanted to have string input fields where you can input any string, and then call this from your templates? If so this is the plugin for you!\nWP-Strings allows you to input strings, that you can then call as many times as you want within your wordpress template.<\/p>\n\n<p>If you update one of these strings from within the admin section, the string will change accross all of your templates.<\/p>\n\n<p>For example, if you had a phone number that you used in multipe locations across your theme, but knew it might change,\nyou can put this into the WP-Strings admin panel. You can then reference the telephone number from your template in the required\nlocations and know in confidence that when you change the number in the backend, the telephone number will change across the site.<\/p>",
+                "uid": "21625"
+            }
+        }
+    }
+}

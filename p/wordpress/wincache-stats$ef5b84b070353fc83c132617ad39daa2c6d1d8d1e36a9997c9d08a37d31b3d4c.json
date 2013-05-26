@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/wincache-stats": {
+            "1.0": {
+                "name": "wordpress\/wincache-stats",
+                "version": "1.0",
+                "version_normalized": "1.0.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/wincache-stats.1.0.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>This widget lets you display wincache (<a href=\"http:\/\/www.iis.net\/expand\/wincacheforphp\" rel=\"nofollow\">http:\/\/www.iis.net\/expand\/wincacheforphp<\/a>) statistics on your wordpress site. Statistics shown are total number of entries in cache, hit count and hit ratio, miss count and miss ratio. You can configure widget to show opcode cache, file cache, object cache and session cache statistics.<\/p>",
+                "uid": "67762"
+            }
+        }
+    }
+}

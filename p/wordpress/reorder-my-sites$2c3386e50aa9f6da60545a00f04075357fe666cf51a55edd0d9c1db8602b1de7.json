@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/reorder-my-sites": {
+            "1.0": {
+                "name": "wordpress\/reorder-my-sites",
+                "version": "1.0",
+                "version_normalized": "1.0.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/reorder-my-sites.1.0.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>For WordPress Multisite. Reorders the My Sites dropdown menu in the Admin Bar alphabetically. It keeps the main blog at the top.<\/p>",
+                "uid": "30974"
+            }
+        }
+    }
+}

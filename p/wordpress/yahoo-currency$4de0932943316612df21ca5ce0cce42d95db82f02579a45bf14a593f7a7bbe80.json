@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/yahoo-currency": {
+            "1.10": {
+                "name": "wordpress\/yahoo-currency",
+                "version": "1.10",
+                "version_normalized": "1.10.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/yahoo-currency.1.10.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>With the yahoo currency plugin you can display and embed Yahoo Currency Feeds in your Wordpress posts and pages using the following shortcode:<\/p>\n\n<pre><code>[ycurrency base=\"Currency Code\" currencies=\"Currency Code,Currency Code,Currency Code etc\"]\n<\/code><\/pre>\n\n<p>FILTER USAGE<\/p>\n\n<ul>\n<li>Simple:<\/li>\n<\/ul>\n\n<p>Just put a <code>[ycurrency base=\"Currency Code\" xcur=\"Currency Code,Currency Code,Currency Code etc\"]<\/code> in your post, and the rates will show up.<\/p>\n\n<ul>\n<li>NAMED PARAMETERS<\/li>\n<\/ul>\n\n<p>For some customisation there are some options you can use.<\/p>\n\n<ul>\n<li>base : The Base Currency in international format (USD)<\/li>\n<li>xcur : The other currencies you want to display the rate compared to the base currency seperated by a comma (GBP,EUR)<\/li>\n<\/ul>\n\n<p>Examples:<\/p>\n\n<pre><code>[ycurrency base=\"USD\" xcur=\"GBP,EUR,ZAR\"] (display the buy and sell rate of the US Dollar against the British Pound,Euro,South African Rand)\n<\/code><\/pre>\n\n<p>Finally note the whole th",
+                "uid": "72020"
+            }
+        }
+    }
+}

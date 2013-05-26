@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/wordpress-phpbb-last-topics-plugin": {
+            "1.1": {
+                "name": "wordpress\/wordpress-phpbb-last-topics-plugin",
+                "version": "1.1",
+                "version_normalized": "1.1.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/wordpress-phpbb-last-topics-plugin.1.1.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>Plugin used to display the most recent topics of your phpBB forum(it works with phpbb 2.* and also phpbb 3.*)\nYou can set the number of topics to display, wrap long words or exclude a category of the forum.\n<a href=\"http:\/\/www.4mj.it\/wordpress-phpbb-last-topics-plugin\/\" title=\"Phpbb Last Topics\">Plugin Homepage<\/a><\/p>",
+                "uid": "113039"
+            }
+        }
+    }
+}

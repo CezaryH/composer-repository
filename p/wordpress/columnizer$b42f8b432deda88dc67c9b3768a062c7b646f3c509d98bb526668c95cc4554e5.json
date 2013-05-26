@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/columnizer": {
+            "3.3.1": {
+                "name": "wordpress\/columnizer",
+                "version": "3.3.1",
+                "version_normalized": "3.3.1.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/columnizer.3.3.1.150.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>Columnizer is a jQuery based Wordpress plugin that formats your content into columns. All you need to do is embrace your content in a single set of shortcodes denoting the number of columns you'd like. Like this:<\/p>\n\n<pre><code>[threecolumns]\nLorem ipsum...vitae nunc.\nCurabitur fringilla...consectetur arcu.\nProin id...pretium eros.\netc...\n[\/threecolumns]<\/code><\/pre>\n\n<p>The rest is taken care of for you. Just write out the number of columns (up to twelve) followed by the word 'columns' with no space (as above) and your column formatting needs will be satisfied most splendidly. Other column plugins need you to divvy up the content between sets of tags. Columnizer does it for you!<\/p>\n\n<p>To customize the margins between columns edit <em>columnizer.css<\/em>. Alternatively you could override the rules in your own css file by adding an extra level of hierarchy. Something like this:<\/p>\n\n<pre><code>#main #columnizer .first div {\n    margin-right: 8px; \/*changed spacing to 8px*\/\n    mar",
+                "uid": "18977"
+            }
+        }
+    }
+}

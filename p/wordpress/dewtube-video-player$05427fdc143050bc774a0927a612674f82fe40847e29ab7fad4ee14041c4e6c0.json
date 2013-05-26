@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/dewtube-video-player": {
+            "1.1.0": {
+                "name": "wordpress\/dewtube-video-player",
+                "version": "1.1.0",
+                "version_normalized": "1.1.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/dewtube-video-player.1.1.0.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>DewTube Wordpress plugin allows you to insert DewTube (a free flash video Player, under Creative Commons licence) in posts or pages and lets you play your FLV video. \nThis plugin is based on the Wordpress Dewplayer MP3 Player Plugin done by Roya Khosravi (<a href=\"http:\/\/wordpress.org\/extend\/plugins\/dewplayer-flash-mp3-player\/\" rel=\"nofollow\">http:\/\/wordpress.org\/extend\/plugins\/dewplayer-flash-mp3-player\/<\/a>).<\/p>\n\n<p>Usage :<\/p>\n\n<p>Copy &#38; Past this code into your post or page:<\/p>\n\n<p>[dewtube:Path to your video file on local or remote site].<\/p>\n\n<p>Examples:<\/p>\n\n<p>[dewtube:http:\/\/www.mysite.com\/myvideo.flv]\n[dewtube:\/dir\/myvideo.flv]<\/p>\n\n<p><em>ATTENTION<\/em> The DewTube should be able to read a remote video, however, for now, this doesn't work with Internet Explorer!<\/p>\n\n<p>Configurable parameters :<\/p>\n\n<p>Width, Height and Auto start.\nThe width and height can also be defined for each video like that: [dewtube:\/dir\/myvideo.flv,width,height]<\/p>\n\n<p>Plugin Version :<\/p",
+                "uid": "97829"
+            }
+        }
+    }
+}

@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/kuerzes-twitterconnector": {
+            "1.0.1": {
+                "name": "wordpress\/kuerzes-twitterconnector",
+                "version": "1.0.1",
+                "version_normalized": "1.0.1.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/kuerzes-twitterconnector.1.0.1.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>This plugin works as an configurable url shortener and twitter connector. Your post title\nwill get posted to twitter with a custom prefix and custom suffix. The URLs used in the \ntweets are shortened through <a href=\"http:\/\/kuerz.es\/\" rel=\"nofollow\">http:\/\/kuerz.es\/<\/a> URL shortener.<\/p>\n\n<p>Attention: The plugin require PHP 5.2 or higher and PHP-Curl installed to work!<\/p>",
+                "uid": "75521"
+            }
+        }
+    }
+}

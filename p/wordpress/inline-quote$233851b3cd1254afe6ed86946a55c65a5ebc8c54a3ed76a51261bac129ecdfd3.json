@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/inline-quote": {
+            "0.1": {
+                "name": "wordpress\/inline-quote",
+                "version": "0.1",
+                "version_normalized": "0.1.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/inline-quote.0.1.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>The <a href=\"http:\/\/www.whatwg.org\/specs\/web-apps\/current-work\/multipage\/text-level-semantics.html#the-q-element\">HTML specification<\/a> defines the <code>&#60;q&#62;<\/code> tag as the semantically correct way of presenting quotes inline in HTML. This plugin adds a button to the WYSIWYG editor to allow you to use inline quotes instead of blockquotes where appropriate.<\/p>\n\n<p><strong>Important:<\/strong> Most browsers handle the <code>&#60;q&#62;<\/code> tag correctly, wrapping its contents in quotation marks when rendering it. Unfortunately, Internet Explorer is the notable exception: IE7 and below don't display quotation marks, and for some reason IE8 doesn't show them in the WYSIWIG editor (but it does when you view a post). So, note that IE7 users <strong>will not see quotations marks<\/strong> around semantically correct inline quotes. You may want to use conditional CSS and\/or Javascript to ensure cross-browser consistency.<\/p>\n\n<p>Once installed, you will see an additional butto",
+                "uid": "55791"
+            }
+        }
+    }
+}

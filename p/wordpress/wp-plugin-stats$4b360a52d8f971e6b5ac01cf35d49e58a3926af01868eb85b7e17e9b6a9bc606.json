@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/wp-plugin-stats": {
+            "0.1.2": {
+                "name": "wordpress\/wp-plugin-stats",
+                "version": "0.1.2",
+                "version_normalized": "0.1.2.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/wp-plugin-stats.0.1.2.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>This plugin is made for WP plugin developers. It parses plugin stats page and can show download stats (today, yesterday, last week, total, as well as flash chart) in your Wordpress page\/post. Just place one of the following bbcodes in your page and it'll get appropriate data: [today=plugin-name-slug] [yesterday=plugin-name-slug] [lastweek=plugin-name-slug] [total=plugin-name-slug] [stats=plugin-name-slug] or [chart=plugin-name-slug]<\/p>\n\n<p>This plugin is using AJAX to get plugin stats (all but charts), but it can't get two datums simultaneously so be careful not to use two bbcodes on same page 'cause it'll get funny results or it'll not get them at all. If you have two or more posts on your home page (as usually we do have), and these bbcode tags in them, that also counts as two (or more) bbcode tags on one page, so my personal suggestion is to use these on plugins' WP powered pages, not in posts.<\/p>\n\n<p>If ajax function can not be started (js code not loaded from external file) y",
+                "uid": "104432"
+            }
+        }
+    }
+}

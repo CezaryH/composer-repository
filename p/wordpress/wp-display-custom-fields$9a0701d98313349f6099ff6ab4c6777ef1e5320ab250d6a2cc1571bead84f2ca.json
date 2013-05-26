@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/wp-display-custom-fields": {
+            "0.1": {
+                "name": "wordpress\/wp-display-custom-fields",
+                "version": "0.1",
+                "version_normalized": "0.1.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/wp-display-custom-fields.0.1.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>This plugin will work, \"as is\", out of the box, but assumes some level of CSS and developer customization to adapt to your site's specific needs.<\/p>\n\n<p>Styles can be overridden via your theme's style.css<\/p>\n\n<p>Functionality can be overridden via your theme's functions.php<\/p>\n\n<p>''Examples''<\/p>\n\n<p>Don't display metabox on \"product\" post type:<\/p>\n\n<pre><code>add_filter( 'display_custom_fields', 'bb_no_product_metabox' );\n\nfunction bb_no_product_metabox( $true, $post ) {\n  if ( $post-&#62;post_type == 'product' )\n    return false;\n\n  return true;\n\n}\n<\/code><\/pre>\n\n<p>Don't display the product_id metakey<\/p>\n\n<pre><code>add_filter( 'dcf_postmeta', 'bb_no_product_id' );\n\nfunction bb_no_product_id( $postmeta ) {\n  unset( $postmeta['product_id'] );\n  return $postmeta;\n}\n<\/code><\/pre>\n\n<p>Don't display metabox title<\/p>\n\n<pre><code>add_filter( &#039;dcf_heading&#039;, &#039;__return_false&#039; );<\/code><\/pre>\n\n<p>Display metabox below content (rather than floated to the right)<\/p>",
+                "uid": "31926"
+            }
+        }
+    }
+}

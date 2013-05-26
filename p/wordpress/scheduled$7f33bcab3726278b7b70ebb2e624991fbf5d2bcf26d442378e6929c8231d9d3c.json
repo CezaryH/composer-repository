@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/scheduled": {
+            "1.0.0": {
+                "name": "wordpress\/scheduled",
+                "version": "1.0.0",
+                "version_normalized": "1.0.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/scheduled.1.0.0.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>Sometimes, you want to adminster something and have it show up when you want it, and disappear when you want it.  You can schedule\na post, but you can't schedule a widget...  But, not only does this widget allow itself to be scheduled both to turn on and off\nat specific dates, you can have multiple scheduled items within a single element.  That is, you can set a a hyper-linked image to\nshow from June 13th to July 2nd, and then have another element from July 3rd to August 8th.  Or, you can change the display method,\nand overlap them.  All items in the range will show.  Or, select a random item within the specified date range (which could be\nused for, say, an ad-rotator type application).  If you have any date-sensitive information, and don't want to have to babysit your\ndata, this will be useful.  Simply configure an element, set items with date ranges, and forget about the rest.<\/p>\n\n<p>Shows a small input button to edit your content while you are logged in.  Security is somewhat co",
+                "uid": "39216"
+            }
+        }
+    }
+}

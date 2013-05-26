@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/ajax-login": {
+            "1.0": {
+                "name": "wordpress\/ajax-login",
+                "version": "1.0",
+                "version_normalized": "1.0.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/ajax-login.1.0.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>AJAX Login means that the login process is executed without reloading the entire page. The user is alerted through messageboxes on errors, and the page is only reloaded when login succeeds. The same goes for registration and lost password retrieval!\nThis plugin adds a nice templated box on your Wordpress, either with a template tag or as a sidebar widget. In the default template the box contains functionality for logging in, registering as well as retrieving new passwords. If already logged in a logout link is displayed.<\/p>\n\n<p><a href=\"http:\/\/jonas.einarsson.net\/ajaxlogin\">plugin home page<\/a><\/p>\n\n<p>The plugin uses the normal wordpress 2.2 authentication process as cut'n'pasted from wp-login.php.<\/p>\n\n<h4>Features<\/h4>\n\n<ul>\n<li>Fake loading screen when switching between login, registration and lost password.<\/li>\n<li>Templating, make a copy of al_template.php to your theme directory and edit away!<\/li>\n<li>Configuration under Options\/AJAX Login in the dashboard.<\/li>\n<\/ul>\n\n<h4",
+                "uid": "110952"
+            }
+        }
+    }
+}

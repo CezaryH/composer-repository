@@ -1,0 +1,40 @@
+{
+    "packages": {
+        "wordpress\/linkpurl": {
+            "1.0": {
+                "name": "wordpress\/linkpurl",
+                "version": "1.0",
+                "version_normalized": "1.0.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/linkpurl.1.0.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>Inserts a  tag into each WordPress post and page that enables LinkPURL auto-discovery, as described on the LinkPURL website: <a href=\"http:\/\/staff.oclc.org\/~smithde\/linkpurl\/\" rel=\"nofollow\">http:\/\/staff.oclc.org\/~smithde\/linkpurl\/<\/a>.  Enables bookmarking of persistent URLs if present in the link tag's href attribute, where the rel attribute has a value of \"purl\".  Note that this plugin may be used for auto-discovery of any persistent identifer scheme as long as the identifier is a URI, rather than being limited to purl-style identifiers.<\/p>\n\n<p>There is a Firefox extension that makes use of LinkPURL which is linked from the URL above.<\/p>",
+                "uid": "113965"
+            },
+            "1.1": {
+                "name": "wordpress\/linkpurl",
+                "version": "1.1",
+                "version_normalized": "1.1.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/linkpurl.1.1.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>Inserts a  tag into each WordPress post and page that enables LinkPURL auto-discovery, as described on the LinkPURL website: <a href=\"http:\/\/staff.oclc.org\/~smithde\/linkpurl\/\" rel=\"nofollow\">http:\/\/staff.oclc.org\/~smithde\/linkpurl\/<\/a>.  Enables bookmarking of persistent URLs if present in the link tag's href attribute, where the rel attribute has a value of \"purl\".  Note that this plugin may be used for auto-discovery of any persistent identifer scheme as long as the identifier is a URI, rather than being limited to purl-style identifiers.<\/p>\n\n<p>There is a Firefox extension that makes use of LinkPURL which is linked from the URL above.<\/p>",
+                "uid": "113963"
+            }
+        }
+    }
+}

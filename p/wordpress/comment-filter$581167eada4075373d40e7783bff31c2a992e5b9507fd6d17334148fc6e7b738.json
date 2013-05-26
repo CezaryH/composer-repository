@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/comment-filter": {
+            "1.0.0": {
+                "name": "wordpress\/comment-filter",
+                "version": "1.0.0",
+                "version_normalized": "1.0.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/comment-filter.1.0.0.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>Comment Filter is a plugin that allows for filtering of bad words used during commenting. Comment filter plugin works by creating a WordPress filter for the comment contents. When the comments get displayed, WordPress gives the comment content to the comment filter plugin and the plugin returns some modified content. Replace the bad word with asterisk. It's have the following Features:<\/p>\n\n<ol>\n<li><p>Well setting of filtering keywords.<\/p><\/li>\n<li><p>Support Far East Characters (such as Chinese Characters).<\/p><\/li>\n<\/ol>",
+                "uid": "28748"
+            }
+        }
+    }
+}

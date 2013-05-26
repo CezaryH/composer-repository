@@ -1,0 +1,40 @@
+{
+    "packages": {
+        "wordpress\/superadmin-plugin": {
+            "1.0": {
+                "name": "wordpress\/superadmin-plugin",
+                "version": "1.0",
+                "version_normalized": "1.0.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/superadmin-plugin.1.0.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>This is a plugin that tries to protect the superadmin (userid 1) against attempts to edit or delete this user.\nPlease note: This plugin is not extensivly tested and might be dangerous when used in the wrong way.\nUsers can easily disable these protections if they are able to execute php in any way.<\/p>\n\n<p><strong>Do not rely on this plugin too much.<\/strong><\/p>",
+                "uid": "55181"
+            },
+            "1.1": {
+                "name": "wordpress\/superadmin-plugin",
+                "version": "1.1",
+                "version_normalized": "1.1.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/superadmin-plugin.1.1.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>This is a plugin that tries to protect the superadmin (userid 1) against attempts to edit or delete this user.\nPlease note: This plugin is not extensivly tested and might be dangerous when used in the wrong way.\nUsers can easily disable these protections if they are able to execute php in any way.<\/p>\n\n<p><strong>Do not rely on this plugin too much.<\/strong><\/p>",
+                "uid": "55182"
+            }
+        }
+    }
+}

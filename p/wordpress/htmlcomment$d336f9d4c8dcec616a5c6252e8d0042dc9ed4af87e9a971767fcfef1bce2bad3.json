@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/htmlcomment": {
+            "0.1": {
+                "name": "wordpress\/htmlcomment",
+                "version": "0.1",
+                "version_normalized": "0.1.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/htmlcomment.0.1.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>A very useful and simple plug-in that allows you to hide a part of a post (links,image...) using standard HTML comment markers &#60;!-- and --&#62;. When Wordpress converts your post text into HTML, one thing it does it converts a double-hyphen to an en-dash (&#8211; which in Unicode is &#038;&#035;8211;). This plug-in simply changed it back if it happens to be followed by a greater than symbol. Since --&#62; is a HTML end-comment marker, this allows HTML comments to work again.<\/p>\n\n<p>To hide a text,just place it between those two markers &#60;!-- and --&#62;. For example:<\/p>\n\n<p>This is an example of a post with &#60;!-- Hey, what are you looking at? --&#62; hidden text.<\/p>",
+                "uid": "71545"
+            }
+        }
+    }
+}

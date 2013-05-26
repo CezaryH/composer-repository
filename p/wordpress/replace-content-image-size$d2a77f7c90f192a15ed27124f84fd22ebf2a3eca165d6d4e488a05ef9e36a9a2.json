@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/replace-content-image-size": {
+            "1.0": {
+                "name": "wordpress\/replace-content-image-size",
+                "version": "1.0",
+                "version_normalized": "1.0.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/replace-content-image-size.1.0.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>For each image uploaded Wordpress generates several versions with different sizes. These images will be inserted\nin the post content using the visual editor selecting the right format size for the current theme, so that\nimages can be displayed correctly in the theme layout avoiding the overflow to the sidebars or another elements.<\/p>\n\n<p>These images are now part of the content, and are harcoded in posts independently to any change in the design\nor behavior of the blog.<\/p>\n\n<p>Therefore, when switching your theme to another theme smaller, or the new theme is very big respect the old\nlayout, may be these images do not fit perfectly with the new design.<\/p>\n\n<p>For these cases the purpose of this plugin is the searching in the post content of images with the old image sizes\n(that result bad sizes for the current theme) and replace it for the right image format: thumbnail, medium, large, \nfull or custom format size.<\/p>\n\n<p>The process is simple and consists of three steps. The first",
+                "uid": "24265"
+            }
+        }
+    }
+}

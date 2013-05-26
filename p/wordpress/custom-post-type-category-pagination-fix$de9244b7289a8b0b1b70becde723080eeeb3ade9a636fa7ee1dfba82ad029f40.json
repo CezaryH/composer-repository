@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/custom-post-type-category-pagination-fix": {
+            "1.0": {
+                "name": "wordpress\/custom-post-type-category-pagination-fix",
+                "version": "1.0",
+                "version_normalized": "1.0.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/custom-post-type-category-pagination-fix.1.0.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>Adapted from Rahnas 'Category pagination fix', with help from <a href=\"http:\/\/www.ballyhooblog.com\/add-custom-post-types-wordpress-main-feed\/\" rel=\"nofollow\">http:\/\/www.ballyhooblog.com\/add-custom-post-types-wordpress-main-feed\/<\/a><\/p>\n\n<p>Fixes a bug in Wordpress 3 ( possibly in lower versions ) when viewing a category listing page pagination, consisting of custom post types, when using the permalink structure %category%\/%postname%. After the first page, the URL will be something like cat-name\/page\/2 and will return a 404 error page. The problem is that the request is only checking for posts with post type 'post', within the specified category. By adding all custom post types to the request, pagination will work as expected.<\/p>",
+                "uid": "60614"
+            }
+        }
+    }
+}

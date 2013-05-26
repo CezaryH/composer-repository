@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/youtube-player": {
+            "1.0": {
+                "name": "wordpress\/youtube-player",
+                "version": "1.0",
+                "version_normalized": "1.0.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/youtube-player.1.0.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>Quickly add YouTube videos to your posts and pages by using the [youtube id=XXX ] shortcode. Here is an example... [youtube id=xwnJ5Bl4kLI width=640 height=390 ]<\/p>",
+                "uid": "42416"
+            }
+        }
+    }
+}

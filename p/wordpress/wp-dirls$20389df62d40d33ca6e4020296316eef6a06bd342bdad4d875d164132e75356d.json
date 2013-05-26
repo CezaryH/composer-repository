@@ -1,0 +1,40 @@
+{
+    "packages": {
+        "wordpress\/wp-dirls": {
+            "0.1": {
+                "name": "wordpress\/wp-dirls",
+                "version": "0.1",
+                "version_normalized": "0.1.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/wp-dirls.0.1.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>List a local directory in a post or page using shortcode: [dirls dir=\"\/var\/www\/dir\/\" url=\"http:\/\/example.com\/dir\/\"]<\/p>\n\n<p>Output HTML: &#60;ul class=&#34;dirls&#34;&#62;&#60;li class=&#34;dirls_mimetype dirls_ext_extension&#34;&#62;&#60;a href=&#34;$fileurl&#34;&#62;$file&#60;\/a&#62;&#60;\/li&#62;&#60;\/ul&#62;<\/p>\n\n<p>If $file don't have any extension class=\"dirls_ext_none\".<\/p>\n\n<p><a href=\"http:\/\/wordpress.menorcadev.com\/plugin\/wp-dirls\/\">Plugin page<\/a> at <a href=\"http:\/\/wordpress.menorcadev.com\/\">WordPress Plugins Development #menorcadev<\/a>.<\/p>",
+                "uid": "31572"
+            },
+            "0.2": {
+                "name": "wordpress\/wp-dirls",
+                "version": "0.2",
+                "version_normalized": "0.2.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/wp-dirls.0.2.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>List a local directory in a post or page using shortcode: [dirls dir=\"\/var\/www\/dir\/\" url=\"http:\/\/example.com\/dir\/\"]<\/p>\n\n<p>Output HTML: &#60;ul class=&#34;dirls&#34;&#62;&#60;li class=&#34;dirls_mimetype dirls_ext_extension&#34;&#62;&#60;a href=&#34;$fileurl&#34;&#62;$file&#60;\/a&#62;&#60;\/li&#62;&#60;\/ul&#62;<\/p>\n\n<p>If $file don't have any extension class=\"dirls_ext_none\".<\/p>\n\n<p><a href=\"http:\/\/wordpress.menorcadev.com\/plugin\/wp-dirls\/\">Plugin page<\/a> at <a href=\"http:\/\/wordpress.menorcadev.com\/\">WordPress Plugins Development #menorcadev<\/a>.<\/p>",
+                "uid": "31570"
+            }
+        }
+    }
+}

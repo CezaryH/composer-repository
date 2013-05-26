@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/import-users-to-mailchimp": {
+            "1.0": {
+                "name": "wordpress\/import-users-to-mailchimp",
+                "version": "1.0",
+                "version_normalized": "1.0.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/import-users-to-mailchimp.1.0.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>This plugin allows you to quickly and easily import wordpress existing usres to mailchimp lists,add a signup form for your MailChimp list as a widget,\nAutomatically add, remove, and update users to your  mailing lists as users subscribe and unsubscribe to your site.<\/p>\n\n<p>To use, save your MailChimp API Key on the options page then start Importing users to your slected MailChimp lists and You can configure the plugin to update your mailing list when \n1) a new user subscribes,<\/p>\n\n<p>2) a user unsubscribes, or<\/p>\n\n<p>3)a user updates his information.<\/p>\n\n<p>You may also selecting options for the Merge Fields for setup, and then add the Widget to your site<\/p>\n\n<p>Author URI:  [NoidaSoft.com] (<a href=\"http:\/\/www.noidasoft.com\" rel=\"nofollow\">http:\/\/www.noidasoft.com<\/a>)<\/p>",
+                "uid": "59638"
+            }
+        }
+    }
+}

@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/organize-user-uploads": {
+            "0.1": {
+                "name": "wordpress\/organize-user-uploads",
+                "version": "0.1",
+                "version_normalized": "0.1.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/organize-user-uploads.0.1.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>**Sorry to those of you who downloaded this plugin before I had added the files to the repo.  But now they are avaliable and ready to help you organize those uploads.<\/p>\n\n<p>A very simple plugin that organizes uploads into folders based on the current user id.<\/p>\n\n<p>Example:<\/p>\n\n<p>\"\/wp-content\/uploads\/2011\/01\/image.jpg\" becomes \"\/wp-content\/uploads\/$id\/2011\/01\/image.jpg\" where $id is the current users id.<\/p>\n\n<p>or when uploads are not sorted into month and year:<\/p>\n\n<p>\"\/wp-content\/uploads\/image.jpg\" becomes \"\/wp-content\/uploads\/$id\/image.jpg\" where $id is the current users id.<\/p>",
+                "uid": "51923"
+            }
+        }
+    }
+}

@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/envato-marketplace-search": {
+            "1.0.1": {
+                "name": "wordpress\/envato-marketplace-search",
+                "version": "1.0.1",
+                "version_normalized": "1.0.1.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/envato-marketplace-search.1.0.1.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>The <strong>Envato Marketplace Search<\/strong> plugin retrieves items from one or all Envato Marketplace's using the search API and displays the results as an unordered lists of linked 80px thumbnails. On your blogs search page add <code>&#60;?php if ( function_exists( 'envato_marketplace_search' ) ) { envato_marketplace_search(); } ?&#62;<\/code>. The function takes in 8 optional arguments ( limit, site, type, query, referral, search, cache, &#38; echo ). Query is automatically built using the <code>get_search_query()<\/code> function but you could pass in your own query if you really felt the need. Search defaults to true and means that you want results only on search pages (advanced use for those who understand the application). Cache is for situations where you plan on setting the query manually and want to limit the API calls. Use cache with CAUTION, each query will be cached in your database if set to true (default is false). Below are examples of how you would use the plugin to",
+                "uid": "50335"
+            }
+        }
+    }
+}

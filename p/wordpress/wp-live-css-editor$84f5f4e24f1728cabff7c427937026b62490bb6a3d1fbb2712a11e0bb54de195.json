@@ -1,0 +1,40 @@
+{
+    "packages": {
+        "wordpress\/wp-live-css-editor": {
+            "12.05": {
+                "name": "wordpress\/wp-live-css-editor",
+                "version": "12.05",
+                "version_normalized": "12.05.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/wp-live-css-editor.12.05.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>A CSS live Editor that allows you to preview realtime CSS changes and then save the CSS back while keeping dated backups.\nIt's a port from a Drupal module Live CSS <a href=\"http:\/\/drupal.org\/project\/live_css\" rel=\"nofollow\">http:\/\/drupal.org\/project\/live_css<\/a> by guybedford <a href=\"http:\/\/drupal.org\/user\/746802\" rel=\"nofollow\">http:\/\/drupal.org\/user\/746802<\/a>\nNow using ACE editor <a href=\"http:\/\/ace.ajax.org\/\" rel=\"nofollow\">http:\/\/ace.ajax.org\/<\/a>\nTested on WordPress 3.3.2, now you have to be an administrator to use it.<\/p>\n\n<p>=capabilities.php problem (not bug) SOLVED !=<\/p>\n\n<p>Ok, now I did the correct thing and created an action to the wp_loaded hook to init the plugin, then,\ncheck whether the user can \"erase themes\" which is an Admin capability only, so the plugin only works if you are an admin.\nNo need to modify the capabilities.php nor anything else.<\/p>\n\n<p>Some users have had problems in former 12.05 release with their site being inaccesible after installing the plug",
+                "uid": "47322"
+            },
+            "12.06": {
+                "name": "wordpress\/wp-live-css-editor",
+                "version": "12.06",
+                "version_normalized": "12.06.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/wp-live-css-editor.12.06.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>A CSS live Editor that allows you to preview realtime CSS changes and then save the CSS back while keeping dated backups.\nIt's a port from a Drupal module Live CSS <a href=\"http:\/\/drupal.org\/project\/live_css\" rel=\"nofollow\">http:\/\/drupal.org\/project\/live_css<\/a> by guybedford <a href=\"http:\/\/drupal.org\/user\/746802\" rel=\"nofollow\">http:\/\/drupal.org\/user\/746802<\/a>\nNow using ACE editor <a href=\"http:\/\/ace.ajax.org\/\" rel=\"nofollow\">http:\/\/ace.ajax.org\/<\/a>\nTested on WordPress 3.3.2, now you have to be an administrator to use it.<\/p>\n\n<p>=capabilities.php problem (not bug) SOLVED !=<\/p>\n\n<p>Ok, now I did the correct thing and created an action to the wp_loaded hook to init the plugin, then,\ncheck whether the user can \"erase themes\" which is an Admin capability only, so the plugin only works if you are an admin.\nNo need to modify the capabilities.php nor anything else.<\/p>\n\n<p>Some users have had problems in former 12.05 release with their site being inaccesible after installing the plug",
+                "uid": "47319"
+            }
+        }
+    }
+}

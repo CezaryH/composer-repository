@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/enhanced-publication": {
+            "1.0": {
+                "name": "wordpress\/enhanced-publication",
+                "version": "1.0",
+                "version_normalized": "1.0.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/enhanced-publication.1.0.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>The primary function of the Enhanced Publication plugin is to describe a WordPress site as an OAI-ORE aggregated publication (an enhanced publication).\nIn this structure, we convert WordPress pages into book chapters and use various other plugins to facilitate and describe reference lists, authors and editors, and attachments.\nThese content relationships are then exposed in RDF utilizing the WordPress syndication feed.\nYou can access the aggregation rdf at <code><a href=\"http:\/\/&#60;yoursite&#62;\/feed\/aggregation-rdf\/\" rel=\"nofollow\">http:\/\/&#60;yoursite&#62;\/feed\/aggregation-rdf\/<\/a><\/code>.<\/p>\n\n<p>For visualizing the content (object) relationships, we employ <a href=\"http:\/\/surffoundation.nl\">SURF<\/a>'s\n<a href=\"http:\/\/wiki.surffoundation.nl\/display\/vp\/4.3+'InContext'+Visualiser\">InContext Visualiser<\/a>.<\/p>\n\n<p>The content ontology utilized is based on selected relationships from among a number of standard ontologies.\nThis combination was necessary to describe the full content ",
+                "uid": "29223"
+            }
+        }
+    }
+}

@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/anon-posting": {
+            "1.3": {
+                "name": "wordpress\/anon-posting",
+                "version": "1.3",
+                "version_normalized": "1.3.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/anon-posting.1.3.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>It allows anonymous users\/readers to write their own posts, writing is protected with reCAPTCHA.\nPlugin can be used for some kind of message board or public forum, you can configure comments under anonymous posts.\nWriting is avaialbe via special page\/post.<\/p>\n\n<p>To setup page for writing anonymous posts do the following:<\/p>\n\n<ol>\n<li>Create new page\/post.<\/li>\n<li>Name it as you want, write some text to be displayed above the data form<\/li>\n<li>Add custom field to this page (it is located in the lower part of new post page):<br \/>\n    'anonPost' and set it to 'true' (no quotes)<\/li>\n<\/ol>\n\n<p>Configuration options are explained on \"Installation\" page.\n<br \/><br \/>\nAPI key for reCAPTCHA is required to use reCAPTCHA.<br \/><\/p>\n\n<p>plugin page: <a href=\"http:\/\/binary10.info\/blog\/2009\/10\/anonymous-posting-wordpress-plugin\/\">http:\/\/binary10.info\/blog\/2009\/10\/anonymous-posting-wordpress-plugin\/<\/a><\/p>\n\n<p>If you know CSS please contact me, so I'll make 'new anonymous post' page look b",
+                "uid": "80134"
+            }
+        }
+    }
+}

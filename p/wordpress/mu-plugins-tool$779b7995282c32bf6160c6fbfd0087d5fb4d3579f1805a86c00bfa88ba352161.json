@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/mu-plugins-tool": {
+            "0.2.0": {
+                "name": "wordpress\/mu-plugins-tool",
+                "version": "0.2.0",
+                "version_normalized": "0.2.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/mu-plugins-tool.0.2.0.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>When you activate MU Plugins Tool, a folder named 'mu-plugins' is created, if necessary, in your WordPress installation (default 'WordPress_Root\/wp-content\/mu-plugins') and a starter mu-plugin is created. The starter mu-plugin changes the admin footer text once you've enabled it through MU Plugins Tool. For more information, see the Codex <a href=\"http:\/\/codex.wordpress.org\/Must_Use_Plugins\">Must-Use Plugins<\/a> page.<\/p>",
+                "uid": "13225"
+            }
+        }
+    }
+}

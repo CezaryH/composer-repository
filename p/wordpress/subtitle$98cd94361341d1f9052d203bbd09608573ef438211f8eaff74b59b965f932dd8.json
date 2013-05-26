@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/subtitle": {
+            "0.1": {
+                "name": "wordpress\/subtitle",
+                "version": "0.1",
+                "version_normalized": "0.1.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/subtitle.0.1.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>Displays subtitle text field after the title in post, page and other post type edit page.<\/p>\n\n<ul>\n<li><a href=\"https:\/\/github.com\/ShinichiNishikawa\/subtitle\">GitHub<\/a><\/li>\n<li><a href=\"http:\/\/nskw-style.com\/2013\/wordpress\/plugin-downloads\/subtitle.html\">Plugin Homepage<\/a><\/li>\n<\/ul>\n\n<h4>Retriving and displaying in templates<\/h4>\n\n<p>Use <code>get_nskw_subtitle()<\/code> to retrieve and <code>nskw_subtitle()<\/code> to display.<\/p>\n\n<h4>Change label<\/h4>\n\n<pre><code>By default the label of the input field is &#34;Subtitle&#34;. There&#039;s a hook for changing it.\n\nadd_filter( &#039;nskw-fat-meta_label&#039;, &#039;nskw_changeLabel&#039; );\nfunction nskw_changeLabel() {\n    return &#039;new label&#039;;\n}<\/code><\/pre>\n\n<h4>Hide in specific post types<\/h4>\n\n<p>By default, subtitle field appears in every post type edit pages except for attachment.<\/p>\n\n<p>To hide in particular post type pages, there's a hook.<\/p>\n\n<pre><code>\/\/ hide subtitle field in posttype &#039;attachment&#039;",
+                "uid": "8299"
+            }
+        }
+    }
+}

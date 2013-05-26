@@ -1,0 +1,40 @@
+{
+    "packages": {
+        "wordpress\/gatekeeper": {
+            "0.8.1": {
+                "name": "wordpress\/gatekeeper",
+                "version": "0.8.1",
+                "version_normalized": "0.8.1.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/gatekeeper.0.8.1.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>Gatekeeper allows administrators to take a WordPress site offline quickly and easily while leaving it fully accessible to administrators and other authorized users. Site visitors will be shown or redirected to a specified offline page. An optional blacklist can be used for permanent bans.<\/p>\n\n<p>** Features **<\/p>\n\n<ul>\n<li>Visitors can either be redirected to an existing non-WordPress offline page (using http 302 temporary redirect) or WordPress pages can be temporarily replaced with the offline page.<\/li>\n<li>Logged in admins can be whitelisted<\/li>\n<li>The current admin's IP address can be automatically whitelisted<\/li>\n<li>An IP-based whitelist that can accept specific IP addresses, wildcards, and ranges<\/li>\n<li>An IP-based blacklist that redirects blacklisted IPs to a specified page<\/li>\n<li>A notifier that appears on administrator pages when the site is offline<\/li>\n<\/ul>",
+                "uid": "43733"
+            },
+            "1.0": {
+                "name": "wordpress\/gatekeeper",
+                "version": "1.0",
+                "version_normalized": "1.0.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/gatekeeper.1.0.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>Gatekeeper allows administrators to take a WordPress site offline quickly and easily while leaving it fully accessible to administrators and other authorized users. Site visitors will be shown or redirected to a specified offline page. An optional blacklist can be used for permanent bans.<\/p>\n\n<p>** Features **<\/p>\n\n<ul>\n<li>Visitors can either be redirected to an existing non-WordPress offline page (using http 302 temporary redirect) or WordPress pages can be temporarily replaced with the offline page.<\/li>\n<li>Logged in admins can be whitelisted<\/li>\n<li>The current admin's IP address can be automatically whitelisted<\/li>\n<li>An IP-based whitelist that can accept specific IP addresses, wildcards, and ranges<\/li>\n<li>An IP-based blacklist that redirects blacklisted IPs to a specified page<\/li>\n<li>A notifier that appears on administrator pages when the site is offline<\/li>\n<\/ul>",
+                "uid": "43731"
+            }
+        }
+    }
+}

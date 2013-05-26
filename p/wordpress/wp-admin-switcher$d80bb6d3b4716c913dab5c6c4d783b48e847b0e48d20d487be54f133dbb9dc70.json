@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/wp-admin-switcher": {
+            "1.1": {
+                "name": "wordpress\/wp-admin-switcher",
+                "version": "1.1",
+                "version_normalized": "1.1.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/wp-admin-switcher.1.1.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>It is probably a good idea to download from this link <a href=\"http:\/\/www.decodephp.com\" rel=\"nofollow\">http:\/\/www.decodephp.com<\/a><br \/>\nas the wordpress plugins download sections seems to miss the tempfiles directory or the file in it for some reason , \nthis directory is very important for the plugin to work.<\/p>\n\n<p>This plugin will help you quickly switch between wordpress admins by letting you select from a list of blogs you have entered in the \nWP Admin Switcher administration section. Assuming you are on the posts management page , and you select a different blog from the drop down\nyou will be immediately switched to that blogs posts management page. The plugin attempts to keep all functionality intact. When you are on the\nother blogs page , you continue to see the drop down , you can select \"Parent Site\" from the list to jump back to the parent blog.<\/p>\n\n<p>The plugin will also work with free blogs hosted at wordpress.com.<\/p>",
+                "uid": "111366"
+            }
+        }
+    }
+}

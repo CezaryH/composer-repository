@@ -1,0 +1,40 @@
+{
+    "packages": {
+        "wordpress\/count-all": {
+            "0.1": {
+                "name": "wordpress\/count-all",
+                "version": "0.1",
+                "version_normalized": "0.1.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/count-all.0.1.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>Very simple, highly customizable counter widget for showing difference in\ndays from a specified date and time.  Allows HTML in title and body.  Can\ncount up and down.  Supports multiple instances.<\/p>\n\n<p>Originally developed as a baby age counter, but can be used for any counting\njob.<\/p>\n\n<p>The options in the widget are:<\/p>\n\n<ul>\n<li><p><em>Title<\/em> is the widget's title. It can contain HTML; its value is simply embedded into the resulting HTML page.<\/p><\/li>\n<li><p><em>Content<\/em> is the widget content field. It uses the <a href=\"http:\/\/www.php.net\/manual\/en\/dateinterval.format.php\">DateInterval::format<\/a>\nfunction to format the field contents. You can use any field specifiers from\nthat function.  Its contents are also embedded into the resulting HTML page,\nso over the %-tags, you are free to use any HTML you want.<\/p><\/li>\n<li><p><em>Date<\/em> specifies the date we should count difference from. Since this\nplugin simply calculates the difference between 'now' and the specif",
+                "uid": "66873"
+            },
+            "0.2": {
+                "name": "wordpress\/count-all",
+                "version": "0.2",
+                "version_normalized": "0.2.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/count-all.0.2.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>Very simple, highly customizable counter widget for showing difference in\ndays from a specified date and time.  Allows HTML in title and body.  Can\ncount up and down.  Supports multiple instances.<\/p>\n\n<p>Originally developed as a baby age counter, but can be used for any counting\njob.<\/p>\n\n<p>The options in the widget are:<\/p>\n\n<ul>\n<li><p><em>Title<\/em> is the widget's title. It can contain HTML; its value is simply embedded into the resulting HTML page.<\/p><\/li>\n<li><p><em>Content<\/em> is the widget content field. It uses the <a href=\"http:\/\/www.php.net\/manual\/en\/dateinterval.format.php\">DateInterval::format<\/a>\nfunction to format the field contents. You can use any field specifiers from\nthat function.  Its contents are also embedded into the resulting HTML page,\nso over the %-tags, you are free to use any HTML you want.<\/p><\/li>\n<li><p><em>Date<\/em> specifies the date we should count difference from. Since this\nplugin simply calculates the difference between 'now' and the specif",
+                "uid": "66872"
+            }
+        }
+    }
+}

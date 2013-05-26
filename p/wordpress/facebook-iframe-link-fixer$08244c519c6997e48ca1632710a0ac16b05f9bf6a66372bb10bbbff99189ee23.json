@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/facebook-iframe-link-fixer": {
+            "1.0": {
+                "name": "wordpress\/facebook-iframe-link-fixer",
+                "version": "1.0",
+                "version_normalized": "1.0.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/facebook-iframe-link-fixer.1.0.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>Makes it possible for a WordPress page viewed in a Facebook iFrame to link to other Facebook content, such as the Facebook wall or a photo album. (Currently, Facebook disables an iFrame app's link to other Facebook content as Facebook will not display itself within its own iFrame.) This overrides that by adding a target property to all links to Facebook content.<\/p>\n\n<ul>\n<li>Adds a JavaScript to the header of your page<\/li>\n<li>Tests whether the page is being viewed in an iframe<\/li>\n<li>If so, adds a \"_top\" target property to each link containing a Facebook URL that is not set to open in a new window<\/li>\n<li>Causes those links to work, loading your Facebook wall or other Facebook content in the same window when clicked<\/li>\n<\/ul>",
+                "uid": "32546"
+            }
+        }
+    }
+}

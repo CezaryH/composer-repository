@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/developer-showcase": {
+            "0.4.1": {
+                "name": "wordpress\/developer-showcase",
+                "version": "0.4.1",
+                "version_normalized": "0.4.1.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/developer-showcase.0.4.1.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>This plugin let plugin and theme authors to display their work in their main WordPress.\nIt provides some helpers:<\/p>\n\n<ul>\n<li>two custom post types: plugins and themes<\/li>\n<li>SEO-friendly URLs<\/li>\n<li>fetch (and cache in transient) plugin\/theme info from the latest readme.txt file<\/li>\n<li>fetch (and cache in transient) rating \/ support \/ downloads info<\/li>\n<li>plugin info from readme file as custom post metadata<\/li>\n<\/ul>\n\n<p>Planned in the next release:<\/p>\n\n<ul>\n<li>widgets with plugin info<\/li>\n<li>shortcodes<\/li>\n<\/ul>",
+                "uid": "14849"
+            }
+        }
+    }
+}

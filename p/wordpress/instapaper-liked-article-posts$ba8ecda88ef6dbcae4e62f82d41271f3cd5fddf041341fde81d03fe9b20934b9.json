@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/instapaper-liked-article-posts": {
+            "0.3": {
+                "name": "wordpress\/instapaper-liked-article-posts",
+                "version": "0.3",
+                "version_normalized": "0.3.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/instapaper-liked-article-posts.0.3.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>Instapaper Liked Article Posts checks your Instapaper 'Liked' article RSS feed on a regular basis and creates new posts with that data under a new custom post type (or any other post type you choose). Another step in owning your data.<\/p>\n\n<p>By using this plugin, you can automatically share articles that you find interesting with readers of your blog or archive them for your own purposes. The reason I built this plugin is specifically for data ownership. I wanted a place to store the data I was creating through the awesome Instapaper service.<\/p>\n\n<p>Settings are available for:<\/p>\n\n<ul>\n<li>Instapaer RSS Feed\n\n<ul>\n<li>The RSS Feed for your 'Liked' articles through Instapaper<\/li>\n<\/ul><\/li>\n<li>Max Items To Fetch\n\n<ul>\n<li>How many items to fetch at a time.<\/li>\n<\/ul><\/li>\n<li>Post Type\n\n<ul>\n<li>By default, a custom post type for Instapaper items is added, but you have the ability to choose any post type for new items to publish under.<\/li>\n<\/ul><\/li>\n<li>Post Status\n\n<ul>\n<li>I",
+                "uid": "34042"
+            }
+        }
+    }
+}

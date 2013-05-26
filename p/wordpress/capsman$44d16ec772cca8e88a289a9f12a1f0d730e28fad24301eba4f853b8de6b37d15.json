@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/capsman": {
+            "1.3.2": {
+                "name": "wordpress\/capsman",
+                "version": "1.3.2",
+                "version_normalized": "1.3.2.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/capsman.1.3.2.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>The Capability Manager plugin provides a simple way to manage role capabilities. Using it, you will be able to change the capabilities of any role, add new roles, copy existing roles into new ones, and add new capabilities to existing roles.\nYou can also delegate capabilities management to other users. In this case, some restrictions apply to this users, as them can only set\/unset the capabilities they have.\nWith the Backup\/Restore tool, you can save your Roles and Capabilities before making changes and revert them if something goes wrong. You'll find it on the Tools menu.<\/p>\n\n<ul>\n<li>Capability manager has been tested to support only one role per user.<\/li>\n<li>Only users with 'manage_capabilities' can manage them. This capability is created at install time and assigned only to administrators.<\/li>\n<li>Administrator role cannot be deleted.<\/li>\n<li>Non-administrators can only manage roles or users with same or lower capabilities.<\/li>\n<\/ul>\n\n<p>See the <a href=\"http:\/\/wiki.alkivi",
+                "uid": "88491"
+            }
+        }
+    }
+}

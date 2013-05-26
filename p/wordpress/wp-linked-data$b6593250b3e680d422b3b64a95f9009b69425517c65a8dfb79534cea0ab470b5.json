@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/wp-linked-data": {
+            "0.2": {
+                "name": "wordpress\/wp-linked-data",
+                "version": "0.2",
+                "version_normalized": "0.2.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/wp-linked-data.0.2.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>This plugin publishes blog post metadata and data about the author according to the Linked Data Principles defined by Tim Berners-Lee. (<a href=\"http:\/\/www.w3.org\/DesignIssues\/LinkedData.html\" rel=\"nofollow\">http:\/\/www.w3.org\/DesignIssues\/LinkedData.html<\/a>)<\/p>\n\n<p>Turtle and RDF\/XML documents can be retrieved performing a HTTP GET request with an appropriate HTTP-Accept-Header set. Blog posts and pages are identified by their original document URI appended by the fragment identifier #it.<\/p>\n\n<p>E.g. if a blog post ist available at <a href=\"http:\/\/example.org\/2013\/04\/my-first-blog-post\" rel=\"nofollow\">http:\/\/example.org\/2013\/04\/my-first-blog-post<\/a>, the post itself (as an \"abstract thing\") is identified by <a href=\"http:\/\/example.org\/2013\/04\/my-first-blog-post#it\" rel=\"nofollow\">http:\/\/example.org\/2013\/04\/my-first-blog-post#it<\/a><\/p>\n\n<p>You may use curl to retrieve Linked Data, e.g.:<\/p>\n\n<p>curl -H 'Accept: text\/turtle' <a href=\"http:\/\/example.org\/2013\/04\/my-first-blog-post\"",
+                "uid": "8404"
+            }
+        }
+    }
+}

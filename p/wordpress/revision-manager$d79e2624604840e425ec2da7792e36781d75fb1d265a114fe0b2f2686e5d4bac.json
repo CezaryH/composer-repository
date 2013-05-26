@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/revision-manager": {
+            "1.0": {
+                "name": "wordpress\/revision-manager",
+                "version": "1.0",
+                "version_normalized": "1.0.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/revision-manager.1.0.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>The post-meta is duplicated and attached to the specific post-revision that is made. Registered post meta items will appear in the post-revision inspection screen. Post meta items do not show up in the post-comparison feature.<\/p>",
+                "uid": "50808"
+            }
+        }
+    }
+}

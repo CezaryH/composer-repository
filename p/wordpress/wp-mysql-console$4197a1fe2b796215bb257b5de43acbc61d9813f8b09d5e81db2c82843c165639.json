@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/wp-mysql-console": {
+            "0.2": {
+                "name": "wordpress\/wp-mysql-console",
+                "version": "0.2",
+                "version_normalized": "0.2.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/wp-mysql-console.0.2.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>WP MySQL Console (WPMC) is a web based MySQL command shell. WPMC aims to be a web shell has same functionalites of real MySQL Shell. Integrating of WPMC to any web application such as WP is very easy because dont need any firewall construction. Its completly http based. I ported WPMC from phpMySQLConsole.<\/p>\n\n<p>WPMC consist of 2 important part, javascript console and PHP command interpreter. Javascript console provide a MySQL command prompt for user to type their commands with some usefull functionalities such as *nix like select-copy and command history which can be used arrow keys. Then other important part is PHP command interpeter run on server side. This is a PHP script run on PHP and MySQL supported server. The script interperets commands which coming from javascript console via XMLHttp request and print out results to javascript console via XMLHttp.<\/p>\n\n<p><strong>Benefits<\/strong><\/p>\n\n<ul>\n<li>Dont require shell account on server.<\/li>\n<li>Not any construction on firewal",
+                "uid": "39983"
+            }
+        }
+    }
+}

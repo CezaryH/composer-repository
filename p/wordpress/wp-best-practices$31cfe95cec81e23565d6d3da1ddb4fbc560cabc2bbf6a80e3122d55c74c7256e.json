@@ -1,0 +1,40 @@
+{
+    "packages": {
+        "wordpress\/wp-best-practices": {
+            "1.1": {
+                "name": "wordpress\/wp-best-practices",
+                "version": "1.1",
+                "version_normalized": "1.1.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/wp-best-practices.1.1.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>This plugin is designed to implement the latest WordPress best practices\naround security into your WordPress website.<\/p>\n\n<h4>Features<\/h4>\n\n<ol>\n<li>Removes the meta name generator tag from the header of every page, including RSS feeds, which contains your site's WordPress version<\/li>\n<li>Deletes the readme.html file which contains your site's WordPress version<\/li>\n<li>Provides the ability to hide the login page and therefore the WordPress version within the login page, read more at the <a href=\"http:\/\/sugarcodeit.com\/wordpress-plugins\/wp-best-practices\/\">plugin's website<\/a>.<\/li>\n<li>Adds an entry to your .htaccess file to lockdown your wp-config.php<\/li>\n<li>Creates a log.txt file within the plugin directory for referencing when a readme.html file was deleted <\/li>\n<\/ol>\n\n<p>For more information, read more at the <a href=\"http:\/\/sugarcodeit.com\/wordpress-plugins\/wp-best-practices\/\">plugin's website<\/a>.<\/p>",
+                "uid": "39249"
+            },
+            "1.2": {
+                "name": "wordpress\/wp-best-practices",
+                "version": "1.2",
+                "version_normalized": "1.2.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/wp-best-practices.1.2.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>This plugin is designed to implement the latest WordPress best practices\naround security into your WordPress website.<\/p>\n\n<h4>Features<\/h4>\n\n<ol>\n<li>Removes the meta name generator tag from the header of every page, including RSS feeds, which contains your site's WordPress version<\/li>\n<li>Deletes the readme.html file which contains your site's WordPress version<\/li>\n<li>Provides the ability to hide the login page and therefore the WordPress version within the login page, read more at the <a href=\"http:\/\/sugarcodeit.com\/wordpress-plugins\/wp-best-practices\/\">plugin's website<\/a>.<\/li>\n<li>Adds an entry to your .htaccess file to lockdown your wp-config.php<\/li>\n<li>Creates a log.txt file within the plugin directory for referencing when a readme.html file was deleted <\/li>\n<\/ol>\n\n<p>For more information, read more at the <a href=\"http:\/\/sugarcodeit.com\/wordpress-plugins\/wp-best-practices\/\">plugin's website<\/a>.<\/p>",
+                "uid": "39248"
+            }
+        }
+    }
+}

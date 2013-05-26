@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/xml-sitemaps": {
+            "1.7.1": {
+                "name": "wordpress\/xml-sitemaps",
+                "version": "1.7.1",
+                "version_normalized": "1.7.1.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/xml-sitemaps.1.7.1.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>The XML Sitemaps plugin for WordPress will automatically generate XML Sitemaps for your site and notify search engines when they're updated.<\/p>\n\n<p>Contrary to other plugins that generate sitemap files, this one will add a rewrite rule and store your cached sitemaps in the wp-content\/sitemaps folder.<\/p>\n\n<p>Likewise, there are no options screen because there are set automatically. The XML Sitemaps plugin automatically assigns the rate of updates and the weight based on statistics collected on your site.<\/p>\n\n<p>Pings occur automatically, on an hourly basis, if the sitemap file is updated.<\/p>\n\n<p>Lastly, and contrary to the zillions of plugins that try to do the same as this one, this plugin will use the WP internals to determine the number of blog, category and tag pages on your site. This means it'll play well with the likes of custom query string or <a href=\"http:\/\/www.semiologic.com\/software\/sem-seo\/\">Semiologic SEO<\/a>.<\/p>\n\n<h4>Help Me!<\/h4>\n\n<p>The <a href=\"http:\/\/forum.sem",
+                "uid": "94128"
+            }
+        }
+    }
+}

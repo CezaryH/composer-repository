@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/distilled-hotlink-builder": {
+            "1.0": {
+                "name": "wordpress\/distilled-hotlink-builder",
+                "version": "1.0",
+                "version_normalized": "1.0.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/distilled-hotlink-builder.1.0.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>The message is hidden in a div layer and displays when the users right clicks the image. It works in most browsers and degrades happily in the ones is doesn't work in.<\/p>",
+                "uid": "108754"
+            }
+        }
+    }
+}

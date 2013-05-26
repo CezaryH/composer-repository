@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/wp-filler": {
+            "1.0": {
+                "name": "wordpress\/wp-filler",
+                "version": "1.0",
+                "version_normalized": "1.0.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/wp-filler.1.0.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>This plugin lets you insert filler text into any page or post. To use, simply insert the shortcode (like the example below), where paragraphs = the number of filler text paragraphs you want to include.<\/p>\n\n<p>[wp-filler paragraphs=\"1\"]<\/p>",
+                "uid": "77051"
+            }
+        }
+    }
+}

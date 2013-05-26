@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/eventflowapi": {
+            "0.1": {
+                "name": "wordpress\/eventflowapi",
+                "version": "0.1",
+                "version_normalized": "0.1.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/eventflowapi.0.1.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>This plugin performs various NLP-related tasks according to user's preferences by calling an external API.\nTasks may include Internet-wide related posts discovery, text enrichment using entities resolution and named\nentity recognition techniques, keywords extraction and so forth. The only language supported at the time of\nthis writing is Russian.<\/p>",
+                "uid": "47520"
+            }
+        }
+    }
+}

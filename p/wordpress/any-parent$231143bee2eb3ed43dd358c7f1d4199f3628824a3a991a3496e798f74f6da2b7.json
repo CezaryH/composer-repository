@@ -1,0 +1,40 @@
+{
+    "packages": {
+        "wordpress\/any-parent": {
+            "0.1": {
+                "name": "wordpress\/any-parent",
+                "version": "0.1",
+                "version_normalized": "0.1.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/any-parent.0.1.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>Allows you to select any page as a parent page (for example, draft and scheduled pages).<\/p>\n\n<p>Currently changes the settings for all post types, but future versions will allow settings to apply to specific post types, and also allow specific post types to be set as possible parents to different post types.<\/p>",
+                "uid": "27739"
+            },
+            "0.2": {
+                "name": "wordpress\/any-parent",
+                "version": "0.2",
+                "version_normalized": "0.2.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/any-parent.0.2.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>Allows you to select any page as a parent page (for example, draft and scheduled pages).<\/p>\n\n<p>Currently changes the settings for all post types, but future versions will allow settings to apply to specific post types, and also allow specific post types to be set as possible parents to different post types.<\/p>",
+                "uid": "27738"
+            }
+        }
+    }
+}

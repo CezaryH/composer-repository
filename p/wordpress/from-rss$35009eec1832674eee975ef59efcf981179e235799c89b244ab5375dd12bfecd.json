@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/from-rss": {
+            "1.0": {
+                "name": "wordpress\/from-rss",
+                "version": "1.0",
+                "version_normalized": "1.0.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/from-rss.1.0.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>Adds <code>?source=rss<\/code> to your permalinks from RSS, and 301 redirects them to the correct URL while dropping a cookie, giving you the opportunity to treat your RSS readers differently. Use <code>from_rss();<\/code> to check whether a user came from an RSS feed.<\/p>\n\n<ul>\n<li><a href=\"http:\/\/yoast.com\/wordpress\/from-rss\/\">From RSS?<\/a>.<\/li>\n<li>Other <a href=\"http:\/\/yoast.com\/wordpress\/\">Wordpress plugins<\/a> by the same author.<\/li>\n<li>Hire the author to code plugins for you: <a href=\"http:\/\/www.altha.co.uk\/wordpress\/plugins\/\">WordPress plugins<\/a>.<\/li>\n<\/ul>",
+                "uid": "108907"
+            }
+        }
+    }
+}

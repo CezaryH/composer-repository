@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/search-exclude-html-tags": {
+            "1.0": {
+                "name": "wordpress\/search-exclude-html-tags",
+                "version": "1.0",
+                "version_normalized": "1.0.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/search-exclude-html-tags.1.0.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>This plugin makes the WordPress built-in search ignore HTML tags in post content.<\/p>\n\n<p>By default, the WordPress built-in search considers HTML tags in post content to be searchable content. This behaviour often yields unexpected results. For example, a search for the keyword \"strong\" returns posts with any &#60;strong&#62; tags in them, \"title\" returns posts with any HTML tags that have a title attribute (such as all the &#60;img&#62; tags that you insert via the post editor media buttons)... and so on.<\/p>",
+                "uid": "34524"
+            }
+        }
+    }
+}

@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/pagex-qrcode": {
+            "1.0": {
+                "name": "wordpress\/pagex-qrcode",
+                "version": "1.0",
+                "version_normalized": "1.0.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/pagex-qrcode.1.0.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>Awesome QRCode Generator Plugin for WordPress<\/p>\n\n<p>Generates a QR Code for the current URL.<\/p>\n\n<p>Or supply optional attributes for custom text, URL's.<\/p>\n\n<p>Make qrcodes for anything. Affiliate links, secret messages, codes, etc<\/p>\n\n<p>Message attribute can contain any text, custom url<\/p>\n\n<p>Leave it blank and the qrcode content will contain the current URL of the page or post.<\/p>",
+                "uid": "20539"
+            }
+        }
+    }
+}

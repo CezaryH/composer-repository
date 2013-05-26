@@ -1,0 +1,57 @@
+{
+    "packages": {
+        "wordpress\/fw-post-image": {
+            "1.0": {
+                "name": "wordpress\/fw-post-image",
+                "version": "1.0",
+                "version_normalized": "1.0.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/fw-post-image.1.0.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>This plugin does not work with Wordpress version prior to 2.9 !\nSince Wordpress 2.9, you can choose which image will represent a post and will be displayed as thumbnail. This plugin allows backward compatibility for your former posts.\nIt filters on <code>the_post_thumbnail()<\/code> function. If no post thumbnail is defined, the plugin will get the first image belonging to post. If it still doesn't find any image, it will scan for the first image found post content.<\/p>\n\n<p>The image will be displayed according to the arguments (size and attributes) set when calling <code>the_post_thumbnail()<\/code>.<\/p>",
+                "uid": "77105"
+            },
+            "1.1": {
+                "name": "wordpress\/fw-post-image",
+                "version": "1.1",
+                "version_normalized": "1.1.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/fw-post-image.1.1.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>This plugin does not work with Wordpress version prior to 2.9 !\nSince Wordpress 2.9, you can choose which image will represent a post and will be displayed as thumbnail. This plugin allows backward compatibility for your former posts.\nIt filters on <code>the_post_thumbnail()<\/code> function. If no post thumbnail is defined, the plugin will get the first image belonging to post. If it still doesn't find any image, it will scan for the first image found post content.<\/p>\n\n<p>The image will be displayed according to the arguments (size and attributes) set when calling <code>the_post_thumbnail()<\/code>.<\/p>",
+                "uid": "77104"
+            },
+            "1.2": {
+                "name": "wordpress\/fw-post-image",
+                "version": "1.2",
+                "version_normalized": "1.2.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/fw-post-image.1.2.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>This plugin does not work with Wordpress version prior to 2.9 !\nSince Wordpress 2.9, you can choose which image will represent a post and will be displayed as thumbnail. This plugin allows backward compatibility for your former posts.\nIt filters on <code>the_post_thumbnail()<\/code> function. If no post thumbnail is defined, the plugin will get the first image belonging to post. If it still doesn't find any image, it will scan for the first image found post content.<\/p>\n\n<p>The image will be displayed according to the arguments (size and attributes) set when calling <code>the_post_thumbnail()<\/code>.<\/p>",
+                "uid": "77103"
+            }
+        }
+    }
+}

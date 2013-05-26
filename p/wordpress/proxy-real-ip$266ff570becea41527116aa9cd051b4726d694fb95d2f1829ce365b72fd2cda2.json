@@ -1,0 +1,40 @@
+{
+    "packages": {
+        "wordpress\/proxy-real-ip": {
+            "1.0": {
+                "name": "wordpress\/proxy-real-ip",
+                "version": "1.0",
+                "version_normalized": "1.0.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/proxy-real-ip.1.0.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>If you're running WordPress behind a proxy, chances are that the IP address of the user browsing your site won't show up, instead WordPress will see the IP address of your proxy server. Proxy Real IP sets this straight by looking at the HTTP headers that the proxy sends.<\/p>\n\n<p>Proxy Real IP looks in the following HTTP headers:\nX-FORWARDED-FOR, X-FORWARDED, FORWARDED-FOR, FORWARDED, X-REAL-IP<\/p>\n\n<p>Proxy Real IP sets the user's IP address to the first HTTP header defined that matches a simple regular expression of an IP address (123.123.123.123).<\/p>\n\n<p>Proxy Real IP also sets the $_SERVER['HTTPS'] variable correctly when running behind a proxy so that WordPress can determine whether or not the proxy connection is over HTTPS. It looks to the HTTP_X_FORWARDED_PROTO PHP server variable to determine this.<\/p>",
+                "uid": "17774"
+            },
+            "1.1": {
+                "name": "wordpress\/proxy-real-ip",
+                "version": "1.1",
+                "version_normalized": "1.1.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/proxy-real-ip.1.1.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>If you're running WordPress behind a proxy, chances are that the IP address of the user browsing your site won't show up, instead WordPress will see the IP address of your proxy server. Proxy Real IP sets this straight by looking at the HTTP headers that the proxy sends.<\/p>\n\n<p>Proxy Real IP looks in the following HTTP headers:\nX-FORWARDED-FOR, X-FORWARDED, FORWARDED-FOR, FORWARDED, X-REAL-IP<\/p>\n\n<p>Proxy Real IP sets the user's IP address to the first HTTP header defined that matches a simple regular expression of an IP address (123.123.123.123).<\/p>\n\n<p>Proxy Real IP also sets the $_SERVER['HTTPS'] variable correctly when running behind a proxy so that WordPress can determine whether or not the proxy connection is over HTTPS. It looks to the HTTP_X_FORWARDED_PROTO PHP server variable to determine this.<\/p>",
+                "uid": "17773"
+            }
+        }
+    }
+}

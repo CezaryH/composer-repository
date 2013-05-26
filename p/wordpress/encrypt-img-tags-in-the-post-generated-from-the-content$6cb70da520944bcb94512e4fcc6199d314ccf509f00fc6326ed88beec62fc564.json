@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/encrypt-img-tags-in-the-post-generated-from-the-content": {
+            "0.1": {
+                "name": "wordpress\/encrypt-img-tags-in-the-post-generated-from-the-content",
+                "version": "0.1",
+                "version_normalized": "0.1.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/encrypt-img-tags-in-the-post-generated-from-the-content.0.1.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>This will ensure that the audience of your site will not see the actual image source\/filename. This in one way will just deter an user from stealing your image. However, internet savvy people will be somehow able to still reverse engineer the scrambled script to recover the filename.\nSecurity is never 100% ;)\nHope this plugin will be of some use to others too.<\/p>",
+                "uid": "23761"
+            }
+        }
+    }
+}

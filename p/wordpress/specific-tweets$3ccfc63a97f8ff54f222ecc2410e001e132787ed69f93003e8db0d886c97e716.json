@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/specific-tweets": {
+            "0.5": {
+                "name": "wordpress\/specific-tweets",
+                "version": "0.5",
+                "version_normalized": "0.5.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/specific-tweets.0.5.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>This plugin contains a widget for showing off specific Tweets from any Twitter user. If you're like me and don't want every tweet you post showing up on your site, this is for you. I use this plugin on my about page, basically I set '#work' as the term to search my tweets for, so I can tweet using that hashtag and only those Tweets will show up.<\/p>\n\n<p>With this plugin you can choose to show your avatar, name, specify the number of tweets to show, and change the text color of the tweets. I'll be adding more options as I develop this widget.<\/p>",
+                "uid": "20903"
+            }
+        }
+    }
+}

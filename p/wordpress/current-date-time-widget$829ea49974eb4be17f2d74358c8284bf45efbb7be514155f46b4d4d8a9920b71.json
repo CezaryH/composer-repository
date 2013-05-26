@@ -1,0 +1,40 @@
+{
+    "packages": {
+        "wordpress\/current-date-time-widget": {
+            "1.0.2": {
+                "name": "wordpress\/current-date-time-widget",
+                "version": "1.0.2",
+                "version_normalized": "1.0.2.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/current-date-time-widget.1.0.2.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>This is a fairly simple plugin used to display the date and time in any widget-enabled location.<\/p>\n\n<p>There were two goals for this plugin:<\/p>\n\n<ul>\n<li>Provide a means to have the date and time produced match a specific timezone.<\/li>\n<li>Enable complete customization over how the date and time is formatted.<\/li>\n<\/ul>\n\n<p>I think that I've done a fairly good job of meeting those goals. Admittedly, setting either field is fairly user-unfriendly. The timezone specified must match <a href=\"http:\/\/us3.php.net\/timezones\">PHP's List of Supported Timezones<\/a>. The date and time format has the same requirements as the format parameter of <a href=\"http:\/\/us.php.net\/date\">PHP's date() function<\/a> (for obvious reasons since the defined format is actually passed directly to the date function in the code :) ).<\/p>\n\n<p>If this plugin gets enough attention and use, I'll find ways of easing the use. I think a series of drop-downs would make selecting the options easier, so that would be the",
+                "uid": "102635"
+            },
+            "1.0.3": {
+                "name": "wordpress\/current-date-time-widget",
+                "version": "1.0.3",
+                "version_normalized": "1.0.3.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/current-date-time-widget.1.0.3.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>This is a fairly simple plugin used to display the date and time in any widget-enabled location.<\/p>\n\n<p>There were two goals for this plugin:<\/p>\n\n<ul>\n<li>Provide a means to have the date and time produced match a specific timezone.<\/li>\n<li>Enable complete customization over how the date and time is formatted.<\/li>\n<\/ul>\n\n<p>I think that I've done a fairly good job of meeting those goals. Admittedly, setting either field is fairly user-unfriendly. The timezone specified must match <a href=\"http:\/\/us3.php.net\/timezones\">PHP's List of Supported Timezones<\/a>. The date and time format has the same requirements as the format parameter of <a href=\"http:\/\/us.php.net\/date\">PHP's date() function<\/a> (for obvious reasons since the defined format is actually passed directly to the date function in the code :) ).<\/p>\n\n<p>If this plugin gets enough attention and use, I'll find ways of easing the use. I think a series of drop-downs would make selecting the options easier, so that would be the",
+                "uid": "102634"
+            }
+        }
+    }
+}

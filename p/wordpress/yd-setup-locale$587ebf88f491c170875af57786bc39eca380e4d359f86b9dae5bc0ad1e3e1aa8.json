@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/yd-setup-locale": {
+            "0.1.0": {
+                "name": "wordpress\/yd-setup-locale",
+                "version": "0.1.0",
+                "version_normalized": "0.1.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/yd-setup-locale.0.1.0.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>This very simple Wordpress plugin automatically sets up the WP language environment based on the first part of the url of any page.<\/p>\n\n<p>It will automatically setup the right XML header lang attribute + the internal Wordpress $locale variable that is used to load the right language files for i18n and l10n (.po, .mo).<\/p>\n\n<h4>Usage:<\/h4>\n\n<p>Your blog URL structure should always begin with an official two-letter langage code, for example:<\/p>\n\n<ul>\n<li>\/en\/... for english<\/li>\n<li>\/es\/... for Spanish<\/li>\n<li>\/ja\/... for Japanese<\/li>\n<li>\/fr\/... for French<\/li>\n<li>etc.<\/li>\n<\/ul>\n\n<p>Please use only lower-case codes.<\/p>\n\n<p>Pages that don&#8217;t comply to this URL scheme will still get your blog&#8217;s default locale setting, as configured in your wp-config.php file.<\/p>\n\n<p>Sometimes you need to rename or copy some of your po\/mo files, for example French language PO files are usually named like this: <code>fr_FR.po<\/code>; \njust copy it to <code>fr.po<\/code> to make it work",
+                "uid": "87196"
+            }
+        }
+    }
+}

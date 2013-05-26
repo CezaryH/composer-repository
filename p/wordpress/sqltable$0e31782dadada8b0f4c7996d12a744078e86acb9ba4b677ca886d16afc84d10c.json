@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/sqltable": {
+            "1.0.0": {
+                "name": "wordpress\/sqltable",
+                "version": "1.0.0",
+                "version_normalized": "1.0.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/sqltable.1.0.0.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>sqltable lets you  use a short code to make a tabular representation of the data returned by a query\nYou can control the class for the table, the even and odd rows, each column or a row, the header row and the footer row.\nYou can specify functions such as min, max and sum of a column to dipaly on the footer.<\/p>",
+                "uid": "34754"
+            }
+        }
+    }
+}

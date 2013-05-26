@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/remove-stop-words": {
+            "1.1": {
+                "name": "wordpress\/remove-stop-words",
+                "version": "1.1",
+                "version_normalized": "1.1.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/remove-stop-words.1.1.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>It is a common SEO technique to remove 'stop words' from the slug URL that are considered low priority in the search algorithm. Also, it helps trim the maximum URL length by creating a summary of the post title rather than the full text.<\/p>\n\n<p>This plugin will remove the stop words from the URL from a defined list you can edit in the options.<\/p>",
+                "uid": "21386"
+            }
+        }
+    }
+}

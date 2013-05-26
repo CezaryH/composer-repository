@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/admin-alert-errors": {
+            "1.0": {
+                "name": "wordpress\/admin-alert-errors",
+                "version": "1.0",
+                "version_normalized": "1.0.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/admin-alert-errors.1.0.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>Output php errors as WordPress admin alerts.&#160;\nAll PHP error consrants are displayed except E_STRICT.<\/p>",
+                "uid": "32055"
+            }
+        }
+    }
+}

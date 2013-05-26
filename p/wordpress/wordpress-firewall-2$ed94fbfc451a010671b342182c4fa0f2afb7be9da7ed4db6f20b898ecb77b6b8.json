@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/wordpress-firewall-2": {
+            "1.3": {
+                "name": "wordpress\/wordpress-firewall-2",
+                "version": "1.3",
+                "version_normalized": "1.3.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/wordpress-firewall-2.1.3.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>This is an updated version of the popular <em>WordPress Firewall<\/em> plugin, with fixes for all known bugs and a few new features!<\/p>\n\n<p>This WordPress plugin investigates web requests with simple, WordPress-specific heuristics, to identify and stop the most obvious attacks. There are a few powerful, generic modules that do this; but they're not always installed on web servers, and usually difficult to configure.<\/p>\n\n<p>This plugin intelligently whitelists and blacklists pathological-looking phrases, based on which field they appear within, in a page request (unknown\/numeric parameters vs. known post bodies, comment bodies, etc.). Its purpose is not to replace prompt and responsible upgrading, but rather to mitigate 0-day attacks and let bloggers sleep better at night.<\/p>\n\n<p>Originally developed by SEO Egghead and released as <em>WordPress Firewall<\/em>.<\/p>",
+                "uid": "59006"
+            }
+        }
+    }
+}

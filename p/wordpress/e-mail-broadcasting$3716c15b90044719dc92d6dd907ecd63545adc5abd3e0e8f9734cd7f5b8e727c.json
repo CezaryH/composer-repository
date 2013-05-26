@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/e-mail-broadcasting": {
+            "0.2.2": {
+                "name": "wordpress\/e-mail-broadcasting",
+                "version": "0.2.2",
+                "version_normalized": "0.2.2.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/e-mail-broadcasting.0.2.2.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>Easy for use bulk email sender.\nIf you have online magazine alike blog or website and want to send users annoncments, this plugin is for you.<\/p>\n\n<p>When plugin is installed, an <strong>E-Mail Broadcasting<\/strong> menu item will apear in <strong>Tools<\/strong> <em>(requires administrator use role)<\/em><\/p>\n\n<h4>Feautures:<\/h4>\n\n<ul>\n<li>Import emails from CSV files.<\/li>\n<li>Import emails from commenters.<\/li>\n<li>Export emails to file<\/li>\n<li>Integrated visual editor.<\/li>\n<li>Split sending into potions (for example 100 mails per hour).<\/li>\n<li>Widgets and shortcodes for user subscribtion.<\/li>\n<li>Uses native wp_mail() function, which allow you to configure the mail sending function of WP with what plugin you want.<\/li>\n<\/ul>\n\n<h4>Widgets that plugin add:<\/h4>\n\n<ul>\n<li><strong>E-Mail Broadcasting<\/strong>                <em>User (un)subscribe panel<\/em><\/li>\n<\/ul>\n\n<h4>Shortcodes:<\/h4>\n\n<ul>\n<li><strong>[emailbroadcasting]<\/strong>                <em>Default for user subscrib",
+                "uid": "37474"
+            }
+        }
+    }
+}

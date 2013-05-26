@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/ical-events-for-multiple-calendars": {
+            "1.0": {
+                "name": "wordpress\/ical-events-for-multiple-calendars",
+                "version": "1.0",
+                "version_normalized": "1.0.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/ical-events-for-multiple-calendars.1.0.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>I am currently modifying this from my private version to one that is more easily extensible in the admin section.  This version may not work right.\nNot widgetized in this version.\nExample code.  I like to use the Execute PHP Widget to encapsulate this code:<\/p>\n\n<p>\nHere are the parameters to display two events:\nurl1 = url of the first iCalendar\nurl2 = url of the second iCalendar\nlink_description = 1 if you want to include the link description\nlimit = the number of events to display\nalt_open = 1 if it's not loading properly without this\ncustom_reload1 = time in milliseconds before the cached copy is reloaded for url1 \ncustom_reload2 = time in milliseconds before the cached copy is reloaded for url2\ngmt_start=' . time()  you can use this to set the start time for events being displayed<\/p>\n\n<p>and you can manually reload it by loading your page yourdomain.org\/?ical_events_reload=1 if you are logged in as admin<\/p>",
+                "uid": "86845"
+            }
+        }
+    }
+}

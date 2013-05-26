@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/wp-clippy": {
+            "1.0.0": {
+                "name": "wordpress\/wp-clippy",
+                "version": "1.0.0",
+                "version_normalized": "1.0.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/wp-clippy.1.0.0.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>Shortcode to add a button that loads either the value of a given HTML form element or a supplied string to the clipboard when clicked on. The button is Flash (as required for security reasons in Flash 10+), but it mimics the look and behavior of the default WordPress buttons fairly closely.<\/p>\n\n<p>Use the shortcode format <code>[clippy id=\"id_of_form_element\"]<\/code> or <code>[clippy value=\"string to load directly to clipboard\"]<\/code>.<\/p>",
+                "uid": "26217"
+            }
+        }
+    }
+}

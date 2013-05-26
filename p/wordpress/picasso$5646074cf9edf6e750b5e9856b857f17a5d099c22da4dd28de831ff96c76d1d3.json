@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/picasso": {
+            "1.1.4": {
+                "name": "wordpress\/picasso",
+                "version": "1.1.4",
+                "version_normalized": "1.1.4.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/picasso.1.1.4.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>WordPress already has phenomenal, built-in support for image galleries, and theme developers are starting to take full advantage of these features. However, one of the features missing is an easy to way create albums (a container for galleries). Picasso aims to solve this problem by introducing a new [album] short-code. It works by grabbing the featured image of child pages, and linking each image to its respective page. Thus, the parent page becomes the album, and each child page is a gallery.<\/p>\n\n<p>If you are having issues with this plugin please submit a comment <a href=\"http:\/\/www.johnciacia.com\/projects\/picasso\/\">here<\/a>.<\/p>",
+                "uid": "45118"
+            }
+        }
+    }
+}

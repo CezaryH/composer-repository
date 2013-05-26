@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/xml-rpc-modernization": {
+            "0.9": {
+                "name": "wordpress\/xml-rpc-modernization",
+                "version": "0.9",
+                "version_normalized": "0.9.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/xml-rpc-modernization.0.9.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>This plugin brings XML-RPC API enhancements from the WordPress 3.4 release to previous versions\nof WordPress (3.3 and earlier). It also adds new user management methods.<\/p>\n\n<p>It is derived from Prasath Nadarajah's GSoC '11 project to expand WordPress' web services,\nalthough the exposed API methods are not compatible (different parameter names\/types\/orders).<\/p>\n\n<h4>Methods<\/h4>\n\n<p>New Methods:<\/p>\n\n<ul>\n<li>wp.newUser - create a new user<\/li>\n<li>wp.editUser - edit user information<\/li>\n<li>wp.deleteUser - delete a specfic user<\/li>\n<\/ul>\n\n<p>3.5 Methods for pre-3.5 sites:<\/p>\n\n<ul>\n<li>wp.getUser - get information about a specific user<\/li>\n<li>wp.getUsers - retrieve a list of users<\/li>\n<li>wp.getProfile - retrieve information about the requesting user<\/li>\n<li>wp.editProfile - edit the profile of the requesting user<\/li>\n<li>wp.getRevisions - retrieve revisions for a specific post<\/li>\n<li>wp.restoreRevision - restore a post revision<\/li>\n<\/ul>\n\n<p>3.4 Methods for pre-3.4 si",
+                "uid": "31653"
+            }
+        }
+    }
+}

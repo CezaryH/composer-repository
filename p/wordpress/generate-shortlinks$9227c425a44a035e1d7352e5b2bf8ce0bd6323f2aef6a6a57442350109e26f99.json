@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/generate-shortlinks": {
+            "1.0": {
+                "name": "wordpress\/generate-shortlinks",
+                "version": "1.0",
+                "version_normalized": "1.0.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/generate-shortlinks.1.0.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p><strong>Background<\/strong><\/p>\n\n<p>Wordpress has created the wonderful functionality of generating shortlinks for post on your blogs. With advanced\npermalink structures a single link to your site can take up 89% of a short email or a facebok update. However,\nWordpress created a very ugly system, the shortlink system simply provides the default permalink structure with ugly\nurl variables.<\/p>\n\n<p>Here is the documentation on adding shortlinks to your themes on the <a href=\"http:\/\/codex.wordpress.org\/Function_Reference\/the_shortlink\" title=\"Wordpress.org - Shortlinks\">WordPress Codex<\/a><\/p>\n\n<p><strong>Use<\/strong><\/p>\n\n<p>Some themes use the template method to share the short url of your post. The use of this plugin would convert all of those\nlinks to trackable ones with bit.ly or shorter ones with the other services.<\/p>\n\n<p>Also, when you create a new post a button is created next the the URL of your new post. If you click the \"Get Shortlink\" button\na popup will provide a simple ",
+                "uid": "57548"
+            }
+        }
+    }
+}

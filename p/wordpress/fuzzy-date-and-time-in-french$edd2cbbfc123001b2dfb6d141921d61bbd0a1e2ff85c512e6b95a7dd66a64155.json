@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/fuzzy-date-and-time-in-french": {
+            "0.8": {
+                "name": "wordpress\/fuzzy-date-and-time-in-french",
+                "version": "0.8",
+                "version_normalized": "0.8.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/fuzzy-date-and-time-in-french.0.8.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>This plugin adds a function that prints a fuzzy date and time in french.\nFor example, <em>\"22 octobre 2012 &#224; 14:00\"<\/em> can get changed to <em>\"Il y a 3 heures\"<\/em>, or <em>\"Hier en d&#233;but d'apr&#232;s-midi\"<\/em>, or <em>\"Il y a 2 mois\"<\/em>, etc.<\/p>\n\n<p>It also provides hooks to automatically fuzzify comments dates and times, but it's pretty rough at the moment.<\/p>\n\n<p>This plugin is adapted from Splee's <a href=\"http:\/\/wordpress.org\/extend\/plugins\/splees-fuzzy-datetime\/\">Fuzzy DateTime<\/a>.<\/p>\n\n<h4>Contribute<\/h4>\n\n<p>I (mll) am not really a developer. Lots of things could be improved :\n* make this plugin really international, with a GUI to edit what's hard-coded at the moment\n* make a GUI to set the options on wich dates must be fuzzified\n* ...<\/p>\n\n<p>So, if you feel like contributing to the development of this plugin, please let me know!<\/p>",
+                "uid": "16248"
+            }
+        }
+    }
+}

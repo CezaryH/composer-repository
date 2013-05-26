@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/inbox-relief": {
+            "0.2": {
+                "name": "wordpress\/inbox-relief",
+                "version": "0.2",
+                "version_normalized": "0.2.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/inbox-relief.0.2.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>Inbox Relief will compile all administrative emails (comment\/trackback, user registration, etc.) into just one email sent out every day at midnight.  The main purpose is to relieve your inbox of lots of emails.<\/p>\n\n<p>Going on vacation? You can also tell Inbox Relief to suspend all emails until further notice.  Re-enable upon your return.<\/p>",
+                "uid": "108130"
+            }
+        }
+    }
+}

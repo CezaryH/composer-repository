@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/500px-image-showcase-lite": {
+            "1.1": {
+                "name": "wordpress\/500px-image-showcase-lite",
+                "version": "1.1",
+                "version_normalized": "1.1.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/500px-image-showcase-lite.1.1.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>Image showcase from 500px photography community. This lite version of 500px Image Showcase does not include the full set of features that are available in the premium version. To see all the features available in the premium versions, check our <a href=\"http:\/\/extend.inceptive.gr\/500px-image-showcase\/\" title=\"Inceptive Extensions\">extensions website<\/a>.<\/p>\n\n<h4>Shortcode<\/h4>\n\n<p>The shortcode must have the form [500px feature=\"popular\"]. The arguments you can use are:<\/p>\n\n<ul>\n<li>feature: popular, upcoming, editors, fresh_today, fresh_yesterday, fresh_week, user, user_favorites, user_friends, tag<\/li>\n<li>username: if you chose user, user_favorites or user_friends as feature, you must set the username<\/li>\n<li>tag: if you chose tag as feature, you must set the tag<\/li>\n<li>num: the number of photos you want to show<\/li>\n<li>caption: \"on\" for showing captions or \"off\" for not showing (default is \"on\")<\/li>\n<li>post_or_page: \"1\" for showing only in posts and pages or \"0\" for show",
+                "uid": "17258"
+            }
+        }
+    }
+}

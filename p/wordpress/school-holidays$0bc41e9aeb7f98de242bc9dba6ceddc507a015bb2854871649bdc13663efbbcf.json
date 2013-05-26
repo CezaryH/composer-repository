@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/school-holidays": {
+            "1.0": {
+                "name": "wordpress\/school-holidays",
+                "version": "1.0",
+                "version_normalized": "1.0.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/school-holidays.1.0.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>Embed a school holiday countdown or calendar widget showing school holiday and term dates in a blog post or in your sidebar.<\/p>\n\n<p>My School Holidays has most countries covered so all you will need to do is search for your school or district and drag the widget into your sidebar.<\/p>\n\n<p>Note: This plugin will make various HTTP requests to *.myschoolholidays.com as the widget is served from this location.  Searching for your school, area or district is served up from the My School Holidays search API endpoint.  With this in mind please ensure your users and you can access myschoolholidays.com.  We hope in future generations of the plugin to serve the widget from inside of Wordpress.<\/p>",
+                "uid": "21970"
+            }
+        }
+    }
+}

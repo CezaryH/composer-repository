@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/wp-redirection": {
+            "1.0.0": {
+                "name": "wordpress\/wp-redirection",
+                "version": "1.0.0",
+                "version_normalized": "1.0.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/wp-redirection.1.0.0.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>This plugin provides a solution to broken links when a site is move\/migrated to wordpress. For example, have you recently migrated your site to wordpress only find that some old urls which are still be externally linked are producting file not found errors. Are you apprehensive in modifying the htaccess to add permanent redirects or do not have access to the htaccess file. Well, WP-Redirect solves this problem, because WP-Redirect allows setting old link redirection to new wordpress pages through the plugin administrator page. You can define closely match, exact match or even regular expression matching of old urls to redirect to new wordpress pages.<\/p>",
+                "uid": "43611"
+            }
+        }
+    }
+}

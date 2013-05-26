@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/uw-cals-extend-rss2-feed": {
+            "1.0": {
+                "name": "wordpress\/uw-cals-extend-rss2-feed",
+                "version": "1.0",
+                "version_normalized": "1.0.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/uw-cals-extend-rss2-feed.1.0.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>Enables WordPress to include thumbnail and custom field data in its RSS2 feed.<\/p>\n\n<p><strong>How is works:<\/strong><\/p>\n\n<ul>\n<li>To retrieve post thumbnails: Add \"post_thumbnail=1\" to your feed's link. (e.g. \"http:\/\/www.mywpsite\/feed\/?post_thumb=1\")<\/li>\n<li>To retrieve custom fields: Add \"meta_keys=meta_name1[,meta_name2,meta_name3,...]\" to your feed's link (e.g. \"http:\/\/www.mywpsite\/feed\/?meta_keys=post_quote,post_contributor\" will retrieve the \"post_quote\" and \"post_contributor\" custom fields' value, if these fields have been added to the post.)<\/li>\n<li>To further customize your feed: use any other WP Feed options, as listed on <a href=\"http:\/\/codex.wordpress.org\/WordPress_Feeds\/\" rel=\"nofollow\">http:\/\/codex.wordpress.org\/WordPress_Feeds\/<\/a>.<\/li>\n<\/ul>\n\n<p><em>Example:<\/em>\nThe <a href=\"http:\/\/news.cals.wisc.edu\/feed\/?cat=67&#038;post_thumb=1&#038;meta_keys=academic_info\" rel=\"nofollow\">http:\/\/news.cals.wisc.edu\/feed\/?cat=67&#038;post_thumb=1&#038;meta_keys=academic_info<\/a",
+                "uid": "40266"
+            }
+        }
+    }
+}

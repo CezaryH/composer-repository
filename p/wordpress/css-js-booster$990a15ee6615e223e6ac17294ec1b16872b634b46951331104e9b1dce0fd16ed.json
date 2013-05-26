@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/css-js-booster": {
+            "0.6.2": {
+                "name": "wordpress\/css-js-booster",
+                "version": "0.6.2",
+                "version_normalized": "0.6.2.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/css-js-booster.0.6.2.179.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>CSS-JS-Booster is a PHP-script that tries to automate as many performance\noptimizing steps related to CSS and JS embedding as possible.\nDepending on the amount of CSS, CSS-images and JS, this can significantly\nincrease loading speed of your site.<\/p>\n\n<p>Note: Check by hand the htaccess-part! (see \"Installation\")<\/p>\n\n<h4>For CSS optimization steps are:<\/h4>\n\n<ul>\n<li>combine multiple CSS-files resulting in less HTTP-requests<\/li>\n<li>Optimize and minify CSS with CSSTidy<\/li>\n<li>Embed any CSS-images smaller 24KB as data-URI or MHTML (for IE &#60;= 7)<\/li>\n<li>GZIP-compress the resulting CSS<\/li>\n<li>Have browsers cache the result as long as it remains unchanged<\/li>\n<li>If IE6: Issue a JS-command to fix background image caching behaviour <\/li>\n<\/ul>\n\n<h4>For JS optimization steps are:<\/h4>\n\n<ul>\n<li>Fetch JS from external servers and cache it locally<\/li>\n<li>Combine multiple JS-files resulting in HTTP-requests going down<\/li>\n<li>GZIP-compress the resulting JS<\/li>\n<li>Have browse",
+                "uid": "74248"
+            }
+        }
+    }
+}

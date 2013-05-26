@@ -1,0 +1,125 @@
+{
+    "packages": {
+        "wordpress\/absolute-to-relative-urls": {
+            "0.1": {
+                "name": "wordpress\/absolute-to-relative-urls",
+                "version": "0.1",
+                "version_normalized": "0.1.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/absolute-to-relative-urls.0.1.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>If you were to use this on a website like <em>http;\/\/example.com\/test\/testing\/<\/em>, you would get results like these:<\/p>\n\n<ol>\n<li>\n\n<ul>\n<li><strong>Before:<\/strong> http;\/\/example.com\/test\/another-test\/#anchor<\/li>\n<li><strong>After:<\/strong> ..\/another-test\/#anchor<\/li>\n<\/ul><\/li>\n<li>\n\n<ul>\n<li><strong>Before:<\/strong> http;\/\/example.com\/wp-content\/themes\/twentyten\/style.css<\/li>\n<li><strong>After:<\/strong> \/wp-content\/themes\/twentyten\/style.css<\/li>\n<\/ul><\/li>\n<li>\n\n<ul>\n<li><strong>Before:<\/strong> http<em>s<\/em>;\/\/example.com\/wp-content\/themes\/twentyten\/style.css<\/li>\n<li><strong>After:<\/strong> http<em>s<\/em>;\/\/example.com\/wp-content\/themes\/twentyten\/style.css<\/li>\n<\/ul><\/li>\n<li>\n\n<ul>\n<li><strong>Before:<\/strong> http;\/\/google.com\/test\/<\/li>\n<li><strong>After:<\/strong> \/\/google.com\/test\/<\/li>\n<\/ul><\/li>\n<li>\n\n<ul>\n<li><strong>Before:<\/strong> ..\/..\/..\/..\/..\/..\/..\/..\/#anchor<\/li>\n<li><strong>After:<\/strong> \/#anchor<\/li>\n<li><strong>After<\/strong> (<code>$output_type=1<\/c",
+                "uid": "50481"
+            },
+            "0.2": {
+                "name": "wordpress\/absolute-to-relative-urls",
+                "version": "0.2",
+                "version_normalized": "0.2.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/absolute-to-relative-urls.0.2.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>If you were to use this on a website like <em>http;\/\/example.com\/test\/testing\/<\/em>, you would get results like these:<\/p>\n\n<ol>\n<li>\n\n<ul>\n<li><strong>Before:<\/strong> http;\/\/example.com\/test\/another-test\/#anchor<\/li>\n<li><strong>After:<\/strong> ..\/another-test\/#anchor<\/li>\n<\/ul><\/li>\n<li>\n\n<ul>\n<li><strong>Before:<\/strong> http;\/\/example.com\/wp-content\/themes\/twentyten\/style.css<\/li>\n<li><strong>After:<\/strong> \/wp-content\/themes\/twentyten\/style.css<\/li>\n<\/ul><\/li>\n<li>\n\n<ul>\n<li><strong>Before:<\/strong> http<em>s<\/em>;\/\/example.com\/wp-content\/themes\/twentyten\/style.css<\/li>\n<li><strong>After:<\/strong> http<em>s<\/em>;\/\/example.com\/wp-content\/themes\/twentyten\/style.css<\/li>\n<\/ul><\/li>\n<li>\n\n<ul>\n<li><strong>Before:<\/strong> http;\/\/google.com\/test\/<\/li>\n<li><strong>After:<\/strong> \/\/google.com\/test\/<\/li>\n<\/ul><\/li>\n<li>\n\n<ul>\n<li><strong>Before:<\/strong> ..\/..\/..\/..\/..\/..\/..\/..\/#anchor<\/li>\n<li><strong>After:<\/strong> \/#anchor<\/li>\n<li><strong>After<\/strong> (<code>$output_type=1<\/c",
+                "uid": "50480"
+            },
+            "0.3": {
+                "name": "wordpress\/absolute-to-relative-urls",
+                "version": "0.3",
+                "version_normalized": "0.3.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/absolute-to-relative-urls.0.3.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>If you were to use this on a website like <em>http;\/\/example.com\/test\/testing\/<\/em>, you would get results like these:<\/p>\n\n<ol>\n<li>\n\n<ul>\n<li><strong>Before:<\/strong> http;\/\/example.com\/test\/another-test\/#anchor<\/li>\n<li><strong>After:<\/strong> ..\/another-test\/#anchor<\/li>\n<\/ul><\/li>\n<li>\n\n<ul>\n<li><strong>Before:<\/strong> http;\/\/example.com\/wp-content\/themes\/twentyten\/style.css<\/li>\n<li><strong>After:<\/strong> \/wp-content\/themes\/twentyten\/style.css<\/li>\n<\/ul><\/li>\n<li>\n\n<ul>\n<li><strong>Before:<\/strong> http<em>s<\/em>;\/\/example.com\/wp-content\/themes\/twentyten\/style.css<\/li>\n<li><strong>After:<\/strong> http<em>s<\/em>;\/\/example.com\/wp-content\/themes\/twentyten\/style.css<\/li>\n<\/ul><\/li>\n<li>\n\n<ul>\n<li><strong>Before:<\/strong> http;\/\/google.com\/test\/<\/li>\n<li><strong>After:<\/strong> \/\/google.com\/test\/<\/li>\n<\/ul><\/li>\n<li>\n\n<ul>\n<li><strong>Before:<\/strong> ..\/..\/..\/..\/..\/..\/..\/..\/#anchor<\/li>\n<li><strong>After:<\/strong> \/#anchor<\/li>\n<li><strong>After<\/strong> (<code>$output_type=1<\/c",
+                "uid": "50479"
+            },
+            "0.3.1": {
+                "name": "wordpress\/absolute-to-relative-urls",
+                "version": "0.3.1",
+                "version_normalized": "0.3.1.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/absolute-to-relative-urls.0.3.1.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>If you were to use this on a website like <em>http;\/\/example.com\/test\/testing\/<\/em>, you would get results like these:<\/p>\n\n<ol>\n<li>\n\n<ul>\n<li><strong>Before:<\/strong> http;\/\/example.com\/test\/another-test\/#anchor<\/li>\n<li><strong>After:<\/strong> ..\/another-test\/#anchor<\/li>\n<\/ul><\/li>\n<li>\n\n<ul>\n<li><strong>Before:<\/strong> http;\/\/example.com\/wp-content\/themes\/twentyten\/style.css<\/li>\n<li><strong>After:<\/strong> \/wp-content\/themes\/twentyten\/style.css<\/li>\n<\/ul><\/li>\n<li>\n\n<ul>\n<li><strong>Before:<\/strong> http<em>s<\/em>;\/\/example.com\/wp-content\/themes\/twentyten\/style.css<\/li>\n<li><strong>After:<\/strong> http<em>s<\/em>;\/\/example.com\/wp-content\/themes\/twentyten\/style.css<\/li>\n<\/ul><\/li>\n<li>\n\n<ul>\n<li><strong>Before:<\/strong> http;\/\/google.com\/test\/<\/li>\n<li><strong>After:<\/strong> \/\/google.com\/test\/<\/li>\n<\/ul><\/li>\n<li>\n\n<ul>\n<li><strong>Before:<\/strong> ..\/..\/..\/..\/..\/..\/..\/..\/#anchor<\/li>\n<li><strong>After:<\/strong> \/#anchor<\/li>\n<li><strong>After<\/strong> (<code>$output_type=1<\/c",
+                "uid": "50478"
+            },
+            "0.3.2": {
+                "name": "wordpress\/absolute-to-relative-urls",
+                "version": "0.3.2",
+                "version_normalized": "0.3.2.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/absolute-to-relative-urls.0.3.2.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>If you were to use this on a website like <em>http;\/\/example.com\/test\/testing\/<\/em>, you would get results like these:<\/p>\n\n<ol>\n<li>\n\n<ul>\n<li><strong>Before:<\/strong> http;\/\/example.com\/test\/another-test\/#anchor<\/li>\n<li><strong>After:<\/strong> ..\/another-test\/#anchor<\/li>\n<\/ul><\/li>\n<li>\n\n<ul>\n<li><strong>Before:<\/strong> http;\/\/example.com\/wp-content\/themes\/twentyten\/style.css<\/li>\n<li><strong>After:<\/strong> \/wp-content\/themes\/twentyten\/style.css<\/li>\n<\/ul><\/li>\n<li>\n\n<ul>\n<li><strong>Before:<\/strong> http<em>s<\/em>;\/\/example.com\/wp-content\/themes\/twentyten\/style.css<\/li>\n<li><strong>After:<\/strong> http<em>s<\/em>;\/\/example.com\/wp-content\/themes\/twentyten\/style.css<\/li>\n<\/ul><\/li>\n<li>\n\n<ul>\n<li><strong>Before:<\/strong> http;\/\/google.com\/test\/<\/li>\n<li><strong>After:<\/strong> \/\/google.com\/test\/<\/li>\n<\/ul><\/li>\n<li>\n\n<ul>\n<li><strong>Before:<\/strong> ..\/..\/..\/..\/..\/..\/..\/..\/#anchor<\/li>\n<li><strong>After:<\/strong> \/#anchor<\/li>\n<li><strong>After<\/strong> (<code>$output_type=1<\/c",
+                "uid": "50476"
+            },
+            "0.3.3": {
+                "name": "wordpress\/absolute-to-relative-urls",
+                "version": "0.3.3",
+                "version_normalized": "0.3.3.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/absolute-to-relative-urls.0.3.3.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>If you were to use this on a website like <em>http;\/\/example.com\/test\/testing\/<\/em>, you would get results like these:<\/p>\n\n<ol>\n<li>\n\n<ul>\n<li><strong>Before:<\/strong> http;\/\/example.com\/test\/another-test\/#anchor<\/li>\n<li><strong>After:<\/strong> ..\/another-test\/#anchor<\/li>\n<\/ul><\/li>\n<li>\n\n<ul>\n<li><strong>Before:<\/strong> http;\/\/example.com\/wp-content\/themes\/twentyten\/style.css<\/li>\n<li><strong>After:<\/strong> \/wp-content\/themes\/twentyten\/style.css<\/li>\n<\/ul><\/li>\n<li>\n\n<ul>\n<li><strong>Before:<\/strong> http<em>s<\/em>;\/\/example.com\/wp-content\/themes\/twentyten\/style.css<\/li>\n<li><strong>After:<\/strong> http<em>s<\/em>;\/\/example.com\/wp-content\/themes\/twentyten\/style.css<\/li>\n<\/ul><\/li>\n<li>\n\n<ul>\n<li><strong>Before:<\/strong> http;\/\/google.com\/test\/<\/li>\n<li><strong>After:<\/strong> \/\/google.com\/test\/<\/li>\n<\/ul><\/li>\n<li>\n\n<ul>\n<li><strong>Before:<\/strong> ..\/..\/..\/..\/..\/..\/..\/..\/#anchor<\/li>\n<li><strong>After:<\/strong> \/#anchor<\/li>\n<li><strong>After<\/strong> (<code>$output_type=1<\/c",
+                "uid": "50474"
+            },
+            "0.3.4": {
+                "name": "wordpress\/absolute-to-relative-urls",
+                "version": "0.3.4",
+                "version_normalized": "0.3.4.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/absolute-to-relative-urls.0.3.4.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>If you were to use this on a website like <em>http;\/\/example.com\/test\/testing\/<\/em>, you would get results like these:<\/p>\n\n<ol>\n<li>\n\n<ul>\n<li><strong>Before:<\/strong> http;\/\/example.com\/test\/another-test\/#anchor<\/li>\n<li><strong>After:<\/strong> ..\/another-test\/#anchor<\/li>\n<\/ul><\/li>\n<li>\n\n<ul>\n<li><strong>Before:<\/strong> http;\/\/example.com\/wp-content\/themes\/twentyten\/style.css<\/li>\n<li><strong>After:<\/strong> \/wp-content\/themes\/twentyten\/style.css<\/li>\n<\/ul><\/li>\n<li>\n\n<ul>\n<li><strong>Before:<\/strong> http<em>s<\/em>;\/\/example.com\/wp-content\/themes\/twentyten\/style.css<\/li>\n<li><strong>After:<\/strong> http<em>s<\/em>;\/\/example.com\/wp-content\/themes\/twentyten\/style.css<\/li>\n<\/ul><\/li>\n<li>\n\n<ul>\n<li><strong>Before:<\/strong> http;\/\/google.com\/test\/<\/li>\n<li><strong>After:<\/strong> \/\/google.com\/test\/<\/li>\n<\/ul><\/li>\n<li>\n\n<ul>\n<li><strong>Before:<\/strong> ..\/..\/..\/..\/..\/..\/..\/..\/#anchor<\/li>\n<li><strong>After:<\/strong> \/#anchor<\/li>\n<li><strong>After<\/strong> (<code>$output_type=1<\/c",
+                "uid": "50473"
+            }
+        }
+    }
+}

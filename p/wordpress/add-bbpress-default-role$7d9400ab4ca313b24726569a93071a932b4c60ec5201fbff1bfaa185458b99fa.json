@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/add-bbpress-default-role": {
+            "0.1": {
+                "name": "wordpress\/add-bbpress-default-role",
+                "version": "0.1",
+                "version_normalized": "0.1.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/add-bbpress-default-role.0.1.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>When integrating bbPress and WordPress and using only the WordPress registration, no default role was assigned to the user in bbPress. This will give the user a role of <strong>member<\/strong> in bbPress. Just activate, and whenever a user signs up, they will automatically have the bbPress role assigned. <em>Note: this is not retroactive; it is only for new registrations.<\/em> Written at <a href=\"http:\/\/www.matrixgroup.net\/\">Matrix Group International<\/a>.<\/p>",
+                "uid": "94135"
+            }
+        }
+    }
+}

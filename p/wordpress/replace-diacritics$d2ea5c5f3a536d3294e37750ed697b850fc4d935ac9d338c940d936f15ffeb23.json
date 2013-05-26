@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/replace-diacritics": {
+            "1.0": {
+                "name": "wordpress\/replace-diacritics",
+                "version": "1.0",
+                "version_normalized": "1.0.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/replace-diacritics.1.0.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>This plugin has two modes of transforming romanian diacritics: in HTML codes or standard letters.\nIt works on any text encoding type(Central European, Western European, Baltic, etc.)<\/p>",
+                "uid": "42158"
+            }
+        }
+    }
+}

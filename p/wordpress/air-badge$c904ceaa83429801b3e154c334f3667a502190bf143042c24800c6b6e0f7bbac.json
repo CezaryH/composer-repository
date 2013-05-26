@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/air-badge": {
+            "0.7": {
+                "name": "wordpress\/air-badge",
+                "version": "0.7",
+                "version_normalized": "0.7.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/air-badge.0.7.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>AIR Badge allows you to easily create an install badge for your AIR applications using the [airbadge] tag in your posts.<\/p>\n\n<p><strong>Syntax:<\/strong> [airbadge] application name, full URL to .air file, application version, image.jpg [\/airbadge]<\/p>\n\n<p>You can specify whether or not to embed swfobject.js in the AIR Badge plugin options page (only disable this if you already have SWFObject included in your WordPress install). The badge image dimensions are 205 x 170 pixels.<\/p>\n\n<p>You can set the text to appear when the correct Flash Player version is not installed as well as the various badge colors and whether or not you want the badge transition effect.<\/p>",
+                "uid": "104779"
+            }
+        }
+    }
+}

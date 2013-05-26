@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/ccs-https": {
+            "1.0": {
+                "name": "wordpress\/ccs-https",
+                "version": "1.0",
+                "version_normalized": "1.0.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/ccs-https.1.0.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>CCS-HTTPS is a simple plugin that allows you to identify which pages should have HTTPS enforced. All other pages will have HTTP enforced.\nThis plug-in will <em>not<\/em> interfere with or override any of the built-in WordPress options related to forcing HTTPS for the login and admin pages.<\/p>",
+                "uid": "18637"
+            }
+        }
+    }
+}

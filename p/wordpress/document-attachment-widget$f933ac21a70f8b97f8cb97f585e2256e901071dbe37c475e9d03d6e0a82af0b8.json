@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/document-attachment-widget": {
+            "1.4": {
+                "name": "wordpress\/document-attachment-widget",
+                "version": "1.4",
+                "version_normalized": "1.4.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/document-attachment-widget.1.4.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>Document attachment is a sidebar widget, which will display a filtered, sorted and ordered list of all related items linked to current post or page. \nThis sidebar widget is not just limited to the sidebar of your site. By using the and added the [document-list-attachments] shortcode to a post or page\nthe widget will then display the list of linked attachments within the documents content area.<\/p>\n\n<p>The widget options are:\n1) Select attachment file types, which are allowed to be displayed:\n    - MS Word\n    - MS Excel\n    - Adobe PDF\n    - Images\n    - Adobe Flash<\/p>\n\n<p>2) Display the file size:\n    - Show file size<\/p>\n\n<p>3) Display the files description text:\n    - Show description text<\/p>\n\n<p>After selecting your options and saving the widget settings, the widget will then only display the attachment mime types which have been selected.<\/p>",
+                "uid": "22184"
+            }
+        }
+    }
+}

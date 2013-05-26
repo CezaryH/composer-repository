@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/silverlight-bingmap": {
+            "1.0": {
+                "name": "wordpress\/silverlight-bingmap",
+                "version": "1.0",
+                "version_normalized": "1.0.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/silverlight-bingmap.1.0.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>This BingMap plugin allows a smooth integration of an interactive map in your WordPress site. The administration section will offer you some parameters to customize the presentation.<\/p>\n\n<p>Just write use the adminpanel or write a tag like : \n[sl-bingmaps background=\"transparent\" width=\"100%\" height=\"300\" NavigationVisibility=\"1\" CopyrightVisibility=\"1\" LogoVisibility=\"1\" ScaleVisibility=\"1\" ZoomLevel=\"5\" Mode=\"Aerial\" StartLocation=\"48.8756271_2.3493838\" Pushpin=\"48.8756271_2.3493838\" Culture=\"fr_FR\"]<\/p>\n\n<p>The plugin offers the following features:<\/p>\n\n<pre><code>* Width and Height customization - percent value are possible\n   \/\/width=400 or 100%\n* Display navigation menu or not\n   \/\/NavigationVisibility=\"1\"\n* Display copyright in the map or not\n   \/\/CopyrightVisibility=\"1\"\n* Display the Bing logo or not\n   \/\/LogoVisibility=\"1\"\n* Display Scale indication\n   \/\/ScaleVisibility=\"1\" \n* Set the zoom level\n   \/\/ZoomLevel=\"5\"\n* Set the display mode\n   \/\/Mode=\"Aerial\" \/\/Aerialwithlabel",
+                "uid": "69600"
+            }
+        }
+    }
+}

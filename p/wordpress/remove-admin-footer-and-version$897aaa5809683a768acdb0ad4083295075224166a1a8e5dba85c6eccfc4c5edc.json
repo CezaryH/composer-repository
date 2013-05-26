@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/remove-admin-footer-and-version": {
+            "1.0.0": {
+                "name": "wordpress\/remove-admin-footer-and-version",
+                "version": "1.0.0",
+                "version_normalized": "1.0.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/remove-admin-footer-and-version.1.0.0.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>This plugin removes the WordPress default footer text in admin control panel. It also removes the wordpress version number in the same control panel.\nThis is very simple plugin and compatible with wordpress version 3.3 to 3.4.1<\/p>\n\n<h4>Features<\/h4>\n\n<ul>\n<li>Remove footer text<\/li>\n<li>Remove wordpress version number from admin control panel<\/li>\n<\/ul>",
+                "uid": "21086"
+            }
+        }
+    }
+}

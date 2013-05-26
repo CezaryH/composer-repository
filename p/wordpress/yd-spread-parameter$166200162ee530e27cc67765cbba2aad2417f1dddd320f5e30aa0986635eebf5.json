@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/yd-spread-parameter": {
+            "0.2.0": {
+                "name": "wordpress\/yd-spread-parameter",
+                "version": "0.2.0",
+                "version_normalized": "0.2.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/yd-spread-parameter.0.2.0.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<h4>Spread your http get parameters on all your links!<\/h4>\n\n<p>This plugin will automatically take care of \"spreading\" a parameter on all the links URL inside a WP or WP MU blog. \nIt will add the given parameter at the end of any link URL inside the site.<\/p>\n\n<p>It will also add the parameter as a hidden field to any form element contained in the page (such as the Wordress default search form);\nif the form uses GET as a submit method, the URL parameter will be maintained.<\/p>\n\n<p>This can be used to propagate identification tokens (for on-line shopping sites, etc.), \nor parameters related to the display \n(eg. used with the <a href=\"http:\/\/wordpress.org\/extend\/plugins\/wp-theme-switcher\/\">WP Theme Switcher plugin<\/a> to choose which theme should be used as a display template).<\/p>\n\n<p>The plugin works perfectly with Wordpress MU, either deployed site-wide or on a single blog.<\/p>\n\n<p>The plugin has its own settings page.<\/p>\n\n<p>It is <strong>fully internationalized<\/strong>.<\/p>\n\n<p>B",
+                "uid": "68601"
+            }
+        }
+    }
+}

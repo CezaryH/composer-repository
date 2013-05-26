@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/trackbacks-template": {
+            "1.0": {
+                "name": "wordpress\/trackbacks-template",
+                "version": "1.0",
+                "version_normalized": "1.0.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/trackbacks-template.1.0.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>Adds a template tag 'trackback_template()' that displays the list of trackbacks for a post\/page.  This is especially useful for\nsites that are displaying the comments using a seperate service (i.e. Disqus).<\/p>",
+                "uid": "102606"
+            }
+        }
+    }
+}

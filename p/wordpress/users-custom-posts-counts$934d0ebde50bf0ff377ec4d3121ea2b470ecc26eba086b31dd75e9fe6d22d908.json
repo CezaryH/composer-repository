@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/users-custom-posts-counts": {
+            "1.0": {
+                "name": "wordpress\/users-custom-posts-counts",
+                "version": "1.0",
+                "version_normalized": "1.0.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/users-custom-posts-counts.1.0.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>Simple plugin that adds a new column showing custom type posts counts on the users list. \nUsers have the option to choose the post type to use. It works just like the Posts Column. \nYou can sort and filter the new custom type column.<\/p>",
+                "uid": "51059"
+            }
+        }
+    }
+}

@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/gweather": {
+            "1.10": {
+                "name": "wordpress\/gweather",
+                "version": "1.10",
+                "version_normalized": "1.10.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/gweather.1.10.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>With the gweather plugin you can display and embed Google Weather Feeds in your Wordpress posts and pages using the following shortcode:<\/p>\n\n<pre><code>[gweather city=\"City\" country=\"Country Shortcode\" temp=\"C\" credit=\"1\"]\n<\/code><\/pre>\n\n<p>FILTER USAGE<\/p>\n\n<ul>\n<li>Simple:<\/li>\n<\/ul>\n\n<p>Just put a <code>[gweather city=\"city\" country=\"country shortcode\" temp=\"C\" credit=\"1\"]<\/code> in your post, and the weather will show up.<\/p>\n\n<ul>\n<li>NAMED PARAMETERS<\/li>\n<\/ul>\n\n<p>For some customisation there are some options you can use.<\/p>\n\n<ul>\n<li>city : Which city would you like the weather for<\/li>\n<li>country : Your Country Shortcode (e.g. US for the United States, ZA for South Africa, NL for the Netherlands)<\/li>\n<li>temp: C for celcius or F for Fahrenheit<\/li>\n<li>credit: 1 if you want to show a credit link, 0 if you don't want to show a credit link (I hope you would like to show it)<\/li>\n<\/ul>\n\n<p>Examples:<\/p>\n\n<pre><code>[gweather city=\"Pretoria\" country=\"ZA\" temp=\"C\" credit=0] ",
+                "uid": "78302"
+            }
+        }
+    }
+}

@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/nsfw": {
+            "1.0": {
+                "name": "wordpress\/nsfw",
+                "version": "1.0",
+                "version_normalized": "1.0.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/nsfw.1.0.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>When you compose a post, wrap the NSFW content in <code>[nsfw][\/nsfw]<\/code> to hide it. Readers can click on the \"Show\" link to read the hidden content.<\/p>",
+                "uid": "63635"
+            }
+        }
+    }
+}

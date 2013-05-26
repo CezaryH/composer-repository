@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/pushpress": {
+            "0.1.7": {
+                "name": "wordpress\/pushpress",
+                "version": "0.1.7",
+                "version_normalized": "0.1.7.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/pushpress.0.1.7.2.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>This plugin adds PubSubHubbub ( PuSH ) support to your WordPress powered site.  The main difference between this plugin and others is that it includes the hub features of PuSH, built right in.  This means the updates will be sent directly from WordPress to your PuSH subscribers.<\/p>",
+                "uid": "72678"
+            }
+        }
+    }
+}

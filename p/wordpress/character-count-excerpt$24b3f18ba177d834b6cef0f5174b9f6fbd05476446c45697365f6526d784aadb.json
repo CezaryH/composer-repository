@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/character-count-excerpt": {
+            "1.0": {
+                "name": "wordpress\/character-count-excerpt",
+                "version": "1.0",
+                "version_normalized": "1.0.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/character-count-excerpt.1.0.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>By default, WordPress trims excerpts by word count (55 words by default). This plug-in allows you to trim by a maximum \ncharacter count instead. All of the usual filters apply; developers can also modify the character count using a new<\/p>\n\n<pre><code>character_count_excerpt_length<\/code><\/pre>\n\n<p>filter. Non-developers can now easily change the excerpt length using a new option on \nthe Reading settings pages.<\/p>\n\n<p>The default character length is 300.<\/p>",
+                "uid": "44421"
+            }
+        }
+    }
+}

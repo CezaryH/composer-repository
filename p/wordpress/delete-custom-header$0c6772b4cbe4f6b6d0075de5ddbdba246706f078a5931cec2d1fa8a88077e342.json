@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/delete-custom-header": {
+            "1.2.0": {
+                "name": "wordpress\/delete-custom-header",
+                "version": "1.2.0",
+                "version_normalized": "1.2.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/delete-custom-header.1.2.0.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>WordPress 3.0+ is great. It shows you your uploaded header images.\nIt's too bad it doesn't let you delete them as well!\nThe answer is here with a simple yet extremely useful little plugin called Delete Custom Header.\nUnlike WP's \"Remove Header\" button, this plugin completely removes the header image data\nfrom the database and the files from the server.<\/p>\n\n<p>For themes with a header option, like Twenty Ten, Twenty Eleven, etc.<\/p>",
+                "uid": "7074"
+            }
+        }
+    }
+}

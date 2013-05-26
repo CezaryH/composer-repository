@@ -1,0 +1,40 @@
+{
+    "packages": {
+        "wordpress\/wp-post-formats": {
+            "0.1": {
+                "name": "wordpress\/wp-post-formats",
+                "version": "0.1",
+                "version_normalized": "0.1.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/wp-post-formats.0.1.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>WP Post Formats creates a visual interface for modifying and editing how your post formats are formatted.<\/p>\n\n<p>There Are A Number Of Tags Available To Use In Your Loops And You Can Add More Via A Hook.<\/p>\n\n<p><strong>Tags:<\/strong><\/p>\n\n<p>{<em>permalink<\/em>}\n{<em>content, more_link_text, stripteaser<\/em>} \n{<em>excerpt<\/em>}\n{<em>title, before, after<\/em>} \n{<em>tags, before, sep, after<\/em>} \n{<em>author<\/em>} \n{<em>category, seperator, parents<\/em>} \n{<em>time<\/em>}\n{<em>post-thumbnail, size<\/em>}\n{<em>term-list, taxonomy, before, sep, after<\/em>}\n{<em>post-class<\/em>}<\/p>\n\n<p><strong>Hooks:<\/strong><\/p>\n\n<pre><code>do_action( &#039;wppf_tags&#039; );<\/code><\/pre>\n\n<ul>\n<li>Runs Right After The Tags Are Handled, Allowing You To Add More As You Please ( Let Me Know Ill Put Them In The Next Release)<\/li>\n<\/ul>\n\n<pre><code>apply_filters( &#039;wppf_before_tag&#039; , &#039;{_&#039; );<\/code><\/pre>\n\n<ul>\n<li>Allows you to filter the Start Tag used<\/li>\n<\/ul>\n\n<pre><code>apply_fi",
+                "uid": "55085"
+            },
+            "0.2": {
+                "name": "wordpress\/wp-post-formats",
+                "version": "0.2",
+                "version_normalized": "0.2.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/wp-post-formats.0.2.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>WP Post Formats creates a visual interface for modifying and editing how your post formats are formatted.<\/p>\n\n<p>There Are A Number Of Tags Available To Use In Your Loops And You Can Add More Via A Hook.<\/p>\n\n<p><strong>Tags:<\/strong><\/p>\n\n<p>{<em>permalink<\/em>}\n{<em>content, more_link_text, stripteaser<\/em>} \n{<em>excerpt<\/em>}\n{<em>title, before, after<\/em>} \n{<em>tags, before, sep, after<\/em>} \n{<em>author<\/em>} \n{<em>category, seperator, parents<\/em>} \n{<em>time<\/em>}\n{<em>post-thumbnail, size<\/em>}\n{<em>term-list, taxonomy, before, sep, after<\/em>}\n{<em>post-class<\/em>}<\/p>\n\n<p><strong>Hooks:<\/strong><\/p>\n\n<pre><code>do_action( &#039;wppf_tags&#039; );<\/code><\/pre>\n\n<ul>\n<li>Runs Right After The Tags Are Handled, Allowing You To Add More As You Please ( Let Me Know Ill Put Them In The Next Release)<\/li>\n<\/ul>\n\n<pre><code>apply_filters( &#039;wppf_before_tag&#039; , &#039;{_&#039; );<\/code><\/pre>\n\n<ul>\n<li>Allows you to filter the Start Tag used<\/li>\n<\/ul>\n\n<pre><code>apply_fi",
+                "uid": "55082"
+            }
+        }
+    }
+}

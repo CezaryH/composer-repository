@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/bulk-comment-remove": {
+            "1.0": {
+                "name": "wordpress\/bulk-comment-remove",
+                "version": "1.0",
+                "version_normalized": "1.0.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/bulk-comment-remove.1.0.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>A plugin to remove all pending comments from your DB in one click. A useful tool if you've been heavily spammed or have not managed your blog for a while and would just like a fresh start for your comments. Note that this will not modify any previous that are not marked as unapproved.<\/p>",
+                "uid": "44437"
+            }
+        }
+    }
+}

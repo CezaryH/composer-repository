@@ -1,0 +1,40 @@
+{
+    "packages": {
+        "wordpress\/ad-logger": {
+            "0.0.0": {
+                "name": "wordpress\/ad-logger",
+                "version": "0.0.0",
+                "version_normalized": "0.0.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/ad-logger.0.0.0.9.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>Ad Logger from <a href=\"http:\/\/www.advancedhtml.co.uk\/\" title=\"advancedhtml\">advancedhtml<\/a> logs data about iframe clicks - it can log clicks from Google AdSense, Amazon Affiliates, Facebook Likes, Twitter Tweet button, and Google's +1 button. It does this without modifying your ad code - it uses other accessible events to estimate when the ad has been clicked. This method is about 80% accurate.<\/p>\n\n<p>It logs the page, IP, browser, referrer, and dimensions of the clicked iframe to your MySQL database. You can then get reports showing which pages generated the most clicks, where clicking visitors came from, and who is clicking your ads the most. The data and reports are loaded using AJAX so you can browse the data without refreshing the UI.<\/p>\n\n<h4>Logs clicks without modifying the iframe<\/h4>\n\n<p>No modifications are made to your adverts\/iframes which should (hopefully) enable you to use Ad Logger without breaking any TOS from your ad provider.<\/p>\n\n<h4>AJAX table reports<\/h4>\n",
+                "uid": "38445"
+            },
+            "0.0.1": {
+                "name": "wordpress\/ad-logger",
+                "version": "0.0.1",
+                "version_normalized": "0.0.1.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/ad-logger.0.0.1.3.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>Ad Logger from <a href=\"http:\/\/www.advancedhtml.co.uk\/\" title=\"advancedhtml\">advancedhtml<\/a> logs data about iframe clicks - it can log clicks from Google AdSense, Amazon Affiliates, Facebook Likes, Twitter Tweet button, and Google's +1 button. It does this without modifying your ad code - it uses other accessible events to estimate when the ad has been clicked. This method is about 80% accurate.<\/p>\n\n<p>It logs the page, IP, browser, referrer, and dimensions of the clicked iframe to your MySQL database. You can then get reports showing which pages generated the most clicks, where clicking visitors came from, and who is clicking your ads the most. The data and reports are loaded using AJAX so you can browse the data without refreshing the UI.<\/p>\n\n<h4>Logs clicks without modifying the iframe<\/h4>\n\n<p>No modifications are made to your adverts\/iframes which should (hopefully) enable you to use Ad Logger without breaking any TOS from your ad provider.<\/p>\n\n<h4>AJAX table reports<\/h4>\n",
+                "uid": "38441"
+            }
+        }
+    }
+}

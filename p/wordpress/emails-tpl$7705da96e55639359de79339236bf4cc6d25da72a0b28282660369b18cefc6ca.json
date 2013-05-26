@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/emails-tpl": {
+            "0.1": {
+                "name": "wordpress\/emails-tpl",
+                "version": "0.1",
+                "version_normalized": "0.1.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/emails-tpl.0.1.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>Features:\n* Ability to edit templates for emails to use in other plugins\n* Code developers can define the emails to use in their plugins and integrate it to this plugin\n* Send email funcion api to use in others plugins\n* Using variables in subject and description\n* Integreted the WYSIWYG used by Worpdress\n* Add menu on administration (Appearances-&#62;Email Templates)\n* Multi language (PO edit) support<\/p>\n\n<ol>\n<li>In admin panel, the administrator can do the follow:<\/li>\n<\/ol>\n\n<p>* List email templates (by access to Appearances-&#62;Email Templates)\n* Edit email templates\n* Change settings<\/p>\n\n<ol>\n<li>Plugins developers<\/li>\n<\/ol>\n\n<p>* Integrate this plugin by creating entries to the email templates table:\nThere are 3 different data: languages, wildcards and templates.\n- The languages are the list of available languages for the templates and the way of add it is the follow:\n 'german'\n                ));\n}\n?&#62;\nIn the example above:\n\"german\": must be replaced with the name (i",
+                "uid": "75780"
+            }
+        }
+    }
+}

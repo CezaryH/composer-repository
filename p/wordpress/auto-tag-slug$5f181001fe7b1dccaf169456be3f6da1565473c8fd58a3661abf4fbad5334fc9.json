@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/auto-tag-slug": {
+            "0.5.0": {
+                "name": "wordpress\/auto-tag-slug",
+                "version": "0.5.0",
+                "version_normalized": "0.5.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/auto-tag-slug.0.5.0.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>This plugin will convert post tags slug to Pinyin or English words.<\/p>\n\n<p>For example, you may have tag URL like this: www&#046;abc.com\/tag\/<code>%e4%bd%a0%e5%a5%bd<\/code><\/p>\n\n<p>With this plugin, you can convert all of them to the following format:<\/p>\n\n<ul>\n<li>www&#046;abc.com\/tag\/<code>ni-hao<\/code><\/li>\n<li>www&#046;abc.com\/tag\/<code>hello<\/code><\/li>\n<\/ul>\n\n<p>These URL have better looks and should be more Search Engine friendly.<\/p>\n\n<h4>Main Feature<\/h4>\n\n<ul>\n<li>One click to convert all post tags slug<\/li>\n<li>Select \"Pin Yin\" or \"English\" for slug format<\/li>\n<li>Convert post tags slug automatically when new post save or update<\/li>\n<li>Reset all tags slug to default<\/li>\n<\/ul>\n\n<h4>\u4e2d\u6587\u6307\u5357<\/h4>\n\n<ul>\n<li>\u63d2\u4ef6\u540d\u79f0\uff1aWordPress \u6807\u7b7e\u522b\u540d\u8f6c\u6362\uff08Auto Tag Slug\uff09<\/li>\n<li>\u63d2\u4ef6\u63cf\u8ff0\uff1a\u6b64\u63d2\u4ef6\u80fd\u591f\u81ea\u52a8\u4fee\u6539\u7cfb\u7edf\u6807\u7b7e\u522b\u540d\u81f3\u62fc\u97f3\u6216\u82f1\u8bed\u5355\u8bcd\u683c\u5f0f\u3002<\/li>\n<li>\u9002\u7528\u5bf9\u8c61\uff1a\u4e2d\u6587\u7248\u6216\u5176\u4ed6\u975e\u82f1\u8bed\u7cfb\u56fd\u5bb6\u7528\u6237<\/li>\n<li>\u5f53\u524d\u7248\u672c\uff1a0.5.0<",
+                "uid": "34638"
+            }
+        }
+    }
+}

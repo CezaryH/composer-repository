@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/xslt-rss": {
+            "0.3.3": {
+                "name": "wordpress\/xslt-rss",
+                "version": "0.3.3",
+                "version_normalized": "0.3.3.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/xslt-rss.0.3.3.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>This plugin is no longer supported, please use\n<a href=\"http:\/\/wordpress.org\/extend\/plugins\/advanced-rss\">Advanced RSS<\/a> instead.<\/p>\n\n<p>This plugin creates a new RSS widget. You can use this to replace the built in\nRSS widget or along side it. It is substantially more powerful than the built in\nwidget in that you have complete control over how the feed is displayed via XSL\ntemplate files. The plugin also includes an admin page for creating, editing and\ndeleting the xsl files, along with running tests to ensure your environment is\ncorrectly setup.<\/p>\n\n<p>You will need PHP 5, DOM extention and XSL extentions loaded on your server. If\nyou don't know what you have then activate the plugin and view the configuration\npage, it will test your environment.<\/p>\n\n<p>The plugin comes with a few example XSL files to get you started. You may not\neven need to edit or create your own depending on what feeds you want to\nsyndicate. XSL is not the easiest thing, however once once you understand t",
+                "uid": "98959"
+            }
+        }
+    }
+}

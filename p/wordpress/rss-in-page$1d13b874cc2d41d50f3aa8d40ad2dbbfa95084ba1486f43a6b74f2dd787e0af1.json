@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/rss-in-page": {
+            "2.8": {
+                "name": "wordpress\/rss-in-page",
+                "version": "2.8",
+                "version_normalized": "2.8.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/rss-in-page.2.8.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>Short code [rssinpage rssfeed='feedURL'] generates a list of RSS feed items with date, title, link and description.<\/p>\n\n<p>Supports multiple feed URLs separated by commas e.g. rssfeed='feedurl1, feedurl2' and displaying the feed name.<\/p>\n\n<p>Supports truncation of the feed title and description.<\/p>\n\n<p>Optional attributes:<\/p>\n\n<ul>\n<li>rssformat allows you to format the output using format parameters e.g. the default x: Y - w&#60;br&#62;z where x is the date, Y is the title with a link, y is the title, z is the description and w is the feed title<\/li>\n<li>rssitems='number' sets the number of items to return, default is 5<\/li>\n<li>rssorder='asc' returns items from oldest to newest, default is 'desc' which returns items from newest to oldest<\/li>\n<li>rsstarget='_blank' opens item link in new window, default is '_self'<\/li>\n<li>rssdateformat allows item date to be formatted using php date parameters, default is RFC 2822 formatted date<\/li>\n<li>rss description='no' suppresses defaul",
+                "uid": "70459"
+            }
+        }
+    }
+}

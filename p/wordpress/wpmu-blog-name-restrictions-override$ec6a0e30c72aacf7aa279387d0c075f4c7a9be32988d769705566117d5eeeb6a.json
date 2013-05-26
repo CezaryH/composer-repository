@@ -1,0 +1,40 @@
+{
+    "packages": {
+        "wordpress\/wpmu-blog-name-restrictions-override": {
+            "1.0": {
+                "name": "wordpress\/wpmu-blog-name-restrictions-override",
+                "version": "1.0",
+                "version_normalized": "1.0.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/wpmu-blog-name-restrictions-override.1.0.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>When non-site admins sign up for a new blog via the wp-signup.php page, they are subjected to the following restrictions on their site name (that site admins are not subjected to):<\/p>\n\n<pre><code>* No dashes are allowed.\n* No underscores are allowed.\n* The name can not be all numeric.\n* Name must be at least 4 characters long\n<\/code><\/pre>\n\n<p>This plugin allows site admins to override each of those restrictions, toggling yes\/no for the first three settings, and adding a minimum length for the name.<\/p>\n\n<p>This plugin only affects blog creation via the sign up page. It does not affect blog creation via site admin -&#62; blogs -&#62; new blog<\/p>",
+                "uid": "78005"
+            },
+            "2.0": {
+                "name": "wordpress\/wpmu-blog-name-restrictions-override",
+                "version": "2.0",
+                "version_normalized": "2.0.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/wpmu-blog-name-restrictions-override.2.0.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>When non-site admins sign up for a new blog via the wp-signup.php page, they are subjected to the following restrictions on their site name (that site admins are not subjected to):<\/p>\n\n<pre><code>* No dashes are allowed.\n* No underscores are allowed.\n* The name can not be all numeric.\n* Name must be at least 4 characters long\n<\/code><\/pre>\n\n<p>This plugin allows site admins to override each of those restrictions, toggling yes\/no for the first three settings, and adding a minimum length for the name.<\/p>\n\n<p>This plugin only affects blog creation via the sign up page. It does not affect blog creation via site admin -&#62; blogs -&#62; new blog<\/p>",
+                "uid": "78004"
+            }
+        }
+    }
+}

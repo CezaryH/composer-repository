@@ -1,0 +1,40 @@
+{
+    "packages": {
+        "wordpress\/path-access": {
+            "1.0": {
+                "name": "wordpress\/path-access",
+                "version": "1.0",
+                "version_normalized": "1.0.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/path-access.1.0.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>This plugin gives you the ability to call the 404.php template file or your own custom template file for specific paths where a user is not logged into WordPress and is not a specific role.<\/p>\n\n<p>To use Path Access look under the \"Settings\" menu.<\/p>\n\n<p>Your theme must have a 404.php file. However, if you want a more custom page you can create a file called access.php and users will be directed to that template instead, this template will set you HTTP Response to 403.<\/p>\n\n<p>In the User Interface, to restrict access to a page or child pages you must:<\/p>\n\n<ul>\n<li>Enter the path of that page<\/li>\n<li>Separate multiple paths with a return<\/li>\n<li>Include beginning and ending slashes \"\/\"<\/li>\n<li>Add * to the end of a path to restrict all child pages.<\/li>\n<\/ul>\n\n<p>You must have a 404.php template file or you can create your own template file and name it access.php. Some paths are blocked such as \/wp-admin and \/wp-login.php for your safety. You can also specify which roles may a",
+                "uid": "25294"
+            },
+            "1.0.1": {
+                "name": "wordpress\/path-access",
+                "version": "1.0.1",
+                "version_normalized": "1.0.1.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/path-access.1.0.1.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>This plugin gives you the ability to call the 404.php template file or your own custom template file for specific paths where a user is not logged into WordPress and is not a specific role.<\/p>\n\n<p>To use Path Access look under the \"Settings\" menu.<\/p>\n\n<p>Your theme must have a 404.php file. However, if you want a more custom page you can create a file called access.php and users will be directed to that template instead, this template will set you HTTP Response to 403.<\/p>\n\n<p>In the User Interface, to restrict access to a page or child pages you must:<\/p>\n\n<ul>\n<li>Enter the path of that page<\/li>\n<li>Separate multiple paths with a return<\/li>\n<li>Include beginning and ending slashes \"\/\"<\/li>\n<li>Add * to the end of a path to restrict all child pages.<\/li>\n<\/ul>\n\n<p>You must have a 404.php template file or you can create your own template file and name it access.php. Some paths are blocked such as \/wp-admin and \/wp-login.php for your safety. You can also specify which roles may a",
+                "uid": "25293"
+            }
+        }
+    }
+}

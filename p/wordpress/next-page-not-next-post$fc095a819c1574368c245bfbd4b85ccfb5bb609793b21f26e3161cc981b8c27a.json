@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/next-page-not-next-post": {
+            "0.2.0": {
+                "name": "wordpress\/next-page-not-next-post",
+                "version": "0.2.0",
+                "version_normalized": "0.2.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/next-page-not-next-post.0.2.0.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p><strong>Next Page, Not Next Post<\/strong> is a very simple plugin that creates navigation between sibling pages.<\/p>\n\n<p>This plugin gives you two new functions, <code>next_page_not_post($anchor_text, $loop, $sort)<\/code> &#38; <code>previous_page_not_post($anchor_text, $loop, $sort)<\/code>. Each function has three simple options.<\/p>\n\n<ol>\n<li><strong>Anchor Text<\/strong> - Either set the anchor text manually or use the page title. Use %title to use page title with other strings. Defaults to page title, just leave blank for that.<\/li>\n<li><strong>Looping<\/strong> - Link the first element to the last and the last to the first, or not. Defaults to not looping. Set to true for looping, cousins for cousin based navigation and cousinsloop for cousins navigation that loops.<\/li>\n<li><strong>Get Pages<\/strong> - This is used to determine how to sort your results. Use the documentation at <a href=\"http:\/\/codex.wordpress.org\/Function_Reference\/get_pages\">Get Pages<\/a> to find all available ",
+                "uid": "89050"
+            }
+        }
+    }
+}

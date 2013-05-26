@@ -1,0 +1,40 @@
+{
+    "packages": {
+        "wordpress\/selective-javascript-loader": {
+            "1.0": {
+                "name": "wordpress\/selective-javascript-loader",
+                "version": "1.0",
+                "version_normalized": "1.0.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/selective-javascript-loader.1.0.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>This plugin will try to load different Javascript files based on the blog section that is being viewed.<\/p>\n\n<p>It can be really useful if you make extensive use of Javascript in your theme and want to split the code in different files and load functions only when you need them.<\/p>\n\n<p>When activated, the plugin will do the following:<\/p>\n\n<ul>\n<li>On <em>Index page<\/em>: will try to load the <code>index.js<\/code> file<\/li>\n<li>On <em>Single post<\/em>:  will try to load the <code>single.js<\/code> file<\/li>\n<li>On <em>Category<\/em>:  will try to load the <code>category-cat_slug.js<\/code> file. If the file doesn't exists it will try to load the <code>category.js<\/code> file.<\/li>\n<li>On <em>Page<\/em>:  will try to load the <code>page-page_slug.js<\/code> file. If the file doesn't exists it will try to load the <code>page.js<\/code> file.<\/li>\n<\/ul>\n\n<p>You can define which .js files should be loaded from the plugin settings page.<\/p>",
+                "uid": "81364"
+            },
+            "1.1": {
+                "name": "wordpress\/selective-javascript-loader",
+                "version": "1.1",
+                "version_normalized": "1.1.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/selective-javascript-loader.1.1.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>This plugin will try to load different Javascript files based on the blog section that is being viewed.<\/p>\n\n<p>It can be really useful if you make extensive use of Javascript in your theme and want to split the code in different files and load functions only when you need them.<\/p>\n\n<p>When activated, the plugin will do the following:<\/p>\n\n<ul>\n<li>On <em>Index page<\/em>: will try to load the <code>index.js<\/code> file<\/li>\n<li>On <em>Single post<\/em>:  will try to load the <code>single.js<\/code> file<\/li>\n<li>On <em>Category<\/em>:  will try to load the <code>category-cat_slug.js<\/code> file. If the file doesn't exists it will try to load the <code>category.js<\/code> file.<\/li>\n<li>On <em>Page<\/em>:  will try to load the <code>page-page_slug.js<\/code> file. If the file doesn't exists it will try to load the <code>page.js<\/code> file.<\/li>\n<\/ul>\n\n<p>You can define which .js files should be loaded from the plugin settings page.<\/p>",
+                "uid": "81363"
+            }
+        }
+    }
+}

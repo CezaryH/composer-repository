@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/related-links-customized-by-page": {
+            "1.1": {
+                "name": "wordpress\/related-links-customized-by-page",
+                "version": "1.1",
+                "version_normalized": "1.1.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/related-links-customized-by-page.1.1.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>This plug-in lets you use a single line of code to display related links customized to each page on your site.<\/p>\n\n<p>It does two things: maintains a group of link category names that match your page names, and provides a code snippet to display any links with categories that match the current page.<\/p>\n\n<p>To have a link show up on a given page:<\/p>\n\n<ol>\n<li>Put <code>&#60;?php srd_make_custom_link(); ?&#62;<\/code> anywhere you want a link list to appear.<\/li>\n<li>In the Links tab, create as many links as you want. Then assign each link the category name that matches the page(s) you want it to appear on.<\/li>\n<\/ol>\n\n<p>That will display a list of links with the class \"related-link\", and an <code>&#60;h3&#62;<\/code> with the class \"related-links-title\". You can then style them with CSS. If you want them to stack vertically, give the links the CSS property \"display:block;\".<\/p>",
+                "uid": "31144"
+            }
+        }
+    }
+}

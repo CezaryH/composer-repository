@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/easy-custom-fields": {
+            "0.6": {
+                "name": "wordpress\/easy-custom-fields",
+                "version": "0.6",
+                "version_normalized": "0.6.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/easy-custom-fields.0.6.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>Features:<\/p>\n\n<ul>\n<li>simply generate post boxes with multiple fields \/ groups<\/li>\n<li>easily validate\/sanitize input and output data<\/li>\n<li>easy access to field data via $easy_cf-&#62;field_id-&#62;get() or $easy_cf-&#62;field_id-&#62;get( NULL, $raw=true );<\/li>\n<li>get error messages for validation failures via admin notices<\/li>\n<li>custom post type aware<\/li>\n<li>extendable to your needs by extending Easy_CF_Field and Easy_CF_Validator classes (see advanced usage)<\/li>\n<\/ul>\n\n<p>As this script is mainly meant as basis for developers it needs minor coding skills to add this functionality\nto your theme.<\/p>\n\n<p>In order to make use of this class simply initialize it from the functions.php file of your theme as described below.<\/p>\n\n<h4>Simple Usage<\/h4>\n\n<pre><code>require_once( WP_PLUGIN_DIR . &#039;\/easy-custom-fields\/easy-custom-fields.php&#039; );\n$field_data = array (\n    &#039;testgroup&#039; =&#62; array (             \/\/ unique group id\n        &#039;fields&#039; =&#6",
+                "uid": "69289"
+            }
+        }
+    }
+}

@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/scheduled-content-by-sizeable": {
+            "1.0.1": {
+                "name": "wordpress\/scheduled-content-by-sizeable",
+                "version": "1.0.1",
+                "version_normalized": "1.0.1.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/scheduled-content-by-sizeable.1.0.1.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>Embed scheduled content into your pages, posts and even custom post types supporting shortcodes.<\/p>\n\n<p>Use <code>[szbl_scheduled_content]<\/code> to wrap and schedule your content. To hide content until a specific date, use the <code>start<\/code> attribute. To have content expire, use the <code>end<\/code> attribute:<\/p>\n\n<pre><code>[szbl_scheduled_content start=&#34;Jan 1, 2013 12am&#34; end=&#34;Apr 14, 2013 12:00pm&#34;]This is my scheduled content[\/szbl_scheduled_content]<\/code><\/pre>\n\n<p>You can enter dates\/time in any standard format and the plugin should interpret them correctly, using the timezone set under Settings &#62; General.<\/p>",
+                "uid": "11806"
+            }
+        }
+    }
+}

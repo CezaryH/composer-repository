@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/expiring-content-shortcode": {
+            "1.0": {
+                "name": "wordpress\/expiring-content-shortcode",
+                "version": "1.0",
+                "version_normalized": "1.0.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/expiring-content-shortcode.1.0.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>Simply wrap your content in the shortcode and set the date\/time you'd like it to expire - once that time is eclipsed, it will no longer appear.<\/p>\n\n<p>The date format is anything that can be parsed by <a href=\"http:\/\/php.net\/strtotime\">PHP's strtotime function<\/a>. A few examples:<\/p>\n\n<ul>\n<li>[expires on=\"2010-10-01\"]Expires on October 1, 2010[\/expires]<\/li>\n<li>[expires on=\"Jan 3, 2011\"]Expires on January 11, 2011[\/expires]<\/li>\n<li>[expires on=\"12\/3\/2012 23:16:00\"]Expires on December 2, 2012 at 11:16pm[\/expires]<\/li>\n<li>[expires on=\"2015-01-01 + 15 days\"]Expires on January 16, 2015[\/expires]<\/li>\n<\/ul>\n\n<p>Don't use relative times like 'today' or 'tomorrow', as they will be evaluated from the current time\/date - not an anchored time\/date.<\/p>\n\n<p>A plugin by <a href=\"http:\/\/crowdfavorite.com\">Crowd Favorite<\/a>; we build Big Things with WordPress.<\/p>",
+                "uid": "58849"
+            }
+        }
+    }
+}

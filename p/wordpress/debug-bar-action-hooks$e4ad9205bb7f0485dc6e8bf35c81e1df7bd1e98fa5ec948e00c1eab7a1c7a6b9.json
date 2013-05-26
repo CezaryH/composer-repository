@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/debug-bar-action-hooks": {
+            "0.0.1": {
+                "name": "wordpress\/debug-bar-action-hooks",
+                "version": "0.0.1",
+                "version_normalized": "0.0.1.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/debug-bar-action-hooks.0.0.1.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>Displays a list of actions fired for the current request. Requires the <a href=\"http:\/\/wordpress.org\/extend\/plugins\/debug-bar\/\">debug bar<\/a> plugin.<\/p>\n\n<p>Great for finding out what actions were fired on the current page during development.<\/p>",
+                "uid": "26704"
+            }
+        }
+    }
+}

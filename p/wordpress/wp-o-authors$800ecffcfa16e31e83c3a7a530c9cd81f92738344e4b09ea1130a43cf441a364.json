@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/wp-o-authors": {
+            "1.0": {
+                "name": "wordpress\/wp-o-authors",
+                "version": "1.0",
+                "version_normalized": "1.0.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/wp-o-authors.1.0.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>\"Wp-o-matic-Authors\" is an add-on to Wp-o-Matic. It automatically creates a new author for each campaign (even if already fetched). Then, each post imported by Wp-o-Matic will have as author the name given by this plugin instead of a name already registered in the core blog. You need to install the Wp-o-Matic version included in this package instead of the official one that does not include some code about authors.<\/p>",
+                "uid": "66461"
+            }
+        }
+    }
+}

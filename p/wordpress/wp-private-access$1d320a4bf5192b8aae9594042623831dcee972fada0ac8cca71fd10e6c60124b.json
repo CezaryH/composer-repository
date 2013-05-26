@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/wp-private-access": {
+            "1.1": {
+                "name": "wordpress\/wp-private-access",
+                "version": "1.1",
+                "version_normalized": "1.1.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/wp-private-access.1.1.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>Wp Private Access adds an http authentication dialog using WordPress users database. Wp private is particularly useful for testing blogs\nand websites based on WordPress keeping them visibile only to authorized users.<\/p>\n\n<p>The plugin provides also with a template page for unauthorized access (401 error).<\/p>",
+                "uid": "78558"
+            }
+        }
+    }
+}

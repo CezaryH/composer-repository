@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/wp-atom-importer": {
+            "0.9": {
+                "name": "wordpress\/wp-atom-importer",
+                "version": "0.9",
+                "version_normalized": "0.9.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/wp-atom-importer.0.9.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>This was ripped beautifully from the standard <a href=\"http:\/\/wordpress.org\/extend\/plugins\/rss-importer\/\">Wordpress RSS importer<\/a>. A lot of the functionality was taken from there and tweaked so it could handle atom feeds so credit to them.<\/p>\n\n<p>Everything else was done by <a href=\"http:\/\/piersonthe.net\">Piers Karsenbarg<\/a>.<\/p>",
+                "uid": "19403"
+            }
+        }
+    }
+}

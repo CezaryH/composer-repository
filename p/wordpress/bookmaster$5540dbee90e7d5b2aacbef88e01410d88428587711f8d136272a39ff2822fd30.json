@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/bookmaster": {
+            "1.0": {
+                "name": "wordpress\/bookmaster",
+                "version": "1.0",
+                "version_normalized": "1.0.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/bookmaster.1.0.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<h4>Plugin URL<\/h4>\n\n<p><a href=\"http:\/\/www.doc4design.com\/plugins\/bookmaster\/\" rel=\"nofollow\">http:\/\/www.doc4design.com\/plugins\/bookmaster\/<\/a><\/p>\n\n<p>BookMaster is our answer to what we feel is an odd issue with the WordPress wp_list_bookmarks tag. For those that have exercised the use of wp_list_bookmarks, you are well aware that it is not possible to use the bookmark category title alone without calling on the bookmarks themselves. This is, of course, with the exception of excluding all bookmark categories and this can be painful if there are a lot of them.<\/p>\n\n<p>With the introduction of BookMaster, we have resolved this small issue. The plugin allows you to place a bookmark category title anywhere you want without showing the bookmark links. This presents the administrator with the option of changing the bookmarks title using the bookmarks menu which will auto change the bookmark title within the code. Using this plugin will prevent the unnecessary need to alter template files.",
+                "uid": "75195"
+            }
+        }
+    }
+}

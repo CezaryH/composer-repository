@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/manuall-dofollow": {
+            "1.6.3": {
+                "name": "wordpress\/manuall-dofollow",
+                "version": "1.6.3",
+                "version_normalized": "1.6.3.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/manuall-dofollow.1.6.3.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>This plugin will set all Trackbacks and Pingbacks automatically to DoFollow Links.<\/p>\n\n<p>The user comments will get after <code>X<\/code> comments from a unique mailaddress automatically DoFollow status. All other comments have NoFollow, except the Admin enable manually the DoFollow Status. The status which is set manual (if DoFollow or NoFollow) will overrides the automatical process. So, you have the control if someone gets sooner the DoFollow status, or never maybe. Of corse, the automatism can be disabled to do the hole work manually.<\/p>\n\n<p>You get an support automatism, that you don't need to check daily, but have the full control power.<\/p>\n\n<p>Additonal this plugin validated all DoFollow URLs and will notice if there are broken links. Broken Links are very bad the Rank in the Search Engines (SEO).<\/p>\n\n<p>Home Page of the Plugin: <a href=\"http:\/\/blog.murawski.ch\/2010\/09\/wordpress-manual-dofollow-plugin\/\" title=\"IT Bl&#246;gg - Wordpress Manual DoFollow Plugin\">IT Bl&#246;g",
+                "uid": "61469"
+            }
+        }
+    }
+}

@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/user-management-tools": {
+            "1.1": {
+                "name": "wordpress\/user-management-tools",
+                "version": "1.1",
+                "version_normalized": "1.1.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/user-management-tools.1.1.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>With the current Wordpress administration area, the only way to add existing users to a certain blog is by entering their usernames, one by one. It's very time consuming.<\/p>\n\n<p>With this plugin, you can do it in bulk, by using the familiar \"Change role to...\" dropdown:<\/p>\n\n<ol>\n<li>Go to WP Admin -&#62; Users.<\/li>\n<li>Click the \"Entire Network\" link.<\/li>\n<li>Check the users you want to add.<\/li>\n<li>Choose the new role from the dropdown.<\/li>\n<li>Press \"Change\".<\/li>\n<\/ol>\n\n<p>Note that you have to be a super-admin to be able to do this.<\/p>",
+                "uid": "37140"
+            }
+        }
+    }
+}

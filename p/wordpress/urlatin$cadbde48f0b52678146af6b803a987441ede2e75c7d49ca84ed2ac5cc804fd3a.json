@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/urlatin": {
+            "1.0": {
+                "name": "wordpress\/urlatin",
+                "version": "1.0",
+                "version_normalized": "1.0.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/urlatin.1.0.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>Link shortener and protector. Integrates urlat.in with your website. Fully compatible with any WordPress 3 version where you and your users will be able to generate urlat_in protected links by a single click, without going outside your site.<\/p>",
+                "uid": "9824"
+            }
+        }
+    }
+}

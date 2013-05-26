@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/options-inspector": {
+            "1.0.2": {
+                "name": "wordpress\/options-inspector",
+                "version": "1.0.2",
+                "version_normalized": "1.0.2.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/options-inspector.1.0.2.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>Options Inspector is a tool with which you can list all the options in your database, view a certain one in detail, even its data is serialized, and alter exactly a certain part of option value. It is mainly designed for plugin developers and theme designers.<\/p>\n\n<p>When I am debugging a plugin, I always want to konw, whether the options in this plugin are saved exactly or not. Usually, I add var_dump statement in my source code to print the options out. Everything looks good, but when I finished my job, it bothered me a lot to remove this debug statements. What annoyed me even more is that when I change my mind and changed the structure of the option, I must use additional statement to alter the option or directly use SQL in phpMyAdmin. Finally, I created this tool to assist the plugin development.<\/p>\n\n<p>Features:<\/p>\n\n<pre><code>* List all options order by option_id.\n* Search option through keyword.\n* View unsierialized value of options.\n* Modify option use PHP code.\n<\/code><\/p",
+                "uid": "89344"
+            }
+        }
+    }
+}

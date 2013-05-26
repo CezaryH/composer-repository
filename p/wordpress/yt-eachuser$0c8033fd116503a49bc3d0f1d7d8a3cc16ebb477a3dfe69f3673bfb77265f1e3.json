@@ -1,0 +1,40 @@
+{
+    "packages": {
+        "wordpress\/yt-eachuser": {
+            "1.2.0": {
+                "name": "wordpress\/yt-eachuser",
+                "version": "1.2.0",
+                "version_normalized": "1.2.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/yt-eachuser.1.2.0.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>The list of video is displayed specifying user of Youtube. \nThe display form and the display sizes such as thumbnails and players can be selected.<\/p>\n\n\n\n<p><strong>shortcode<\/strong>\n[print_yt_EachUser]\n* ytname : youtube user name\n* type : player or thumbnail\n* width : width px (integer)\n* height : height px (integer)\n* num : view count (integer)<\/p>\n\n<p>example:\n[print_yt_EachUser ytname=\"YouTube\" type=\"player\" width=\"425\" height=\"355\" num=\"3\"]<\/p>",
+                "uid": "51509"
+            },
+            "1.2.2": {
+                "name": "wordpress\/yt-eachuser",
+                "version": "1.2.2",
+                "version_normalized": "1.2.2.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/yt-eachuser.1.2.2.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>The list of video is displayed specifying user of Youtube. \nThe display form and the display sizes such as thumbnails and players can be selected.<\/p>\n\n\n\n<p><strong>shortcode<\/strong>\n[print_yt_EachUser]\n* ytname : youtube user name\n* type : player or thumbnail\n* width : width px (integer)\n* height : height px (integer)\n* num : view count (integer)<\/p>\n\n<p>example:\n[print_yt_EachUser ytname=\"YouTube\" type=\"player\" width=\"425\" height=\"355\" num=\"3\"]<\/p>",
+                "uid": "51508"
+            }
+        }
+    }
+}

@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/sort-by-comments": {
+            "0.1.1": {
+                "name": "wordpress\/sort-by-comments",
+                "version": "0.1.1",
+                "version_normalized": "0.1.1.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/sort-by-comments.0.1.1.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>Adds some forum functionality to WordPress. Changes the order of posts so that the most recently commented posts show up first. Also displays last comment with the posts. Changes affect home page only. Intended for use with the <a href=\"http:\/\/svn.automattic.com\/wpcom-themes\/prologue\/\">Prologue theme<\/a>.<\/p>",
+                "uid": "106367"
+            }
+        }
+    }
+}

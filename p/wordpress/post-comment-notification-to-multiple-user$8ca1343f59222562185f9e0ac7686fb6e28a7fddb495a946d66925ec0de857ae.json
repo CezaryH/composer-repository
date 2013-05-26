@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/post-comment-notification-to-multiple-user": {
+            "1.0": {
+                "name": "wordpress\/post-comment-notification-to-multiple-user",
+                "version": "1.0",
+                "version_normalized": "1.0.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/post-comment-notification-to-multiple-user.1.0.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>Currently WordPress only sends an email to the email address entered in the Options-&#62;General-&#62;E-mail address field when any new comment is submitted or that comment is awaiting moderation (depending on what you have selected for the comment moderation options in your installation).<\/p>\n\n<p>For those of us who need more than one email address to be notified, no solution existed.  Until now. Comments Notifier was developed to address this problem.<\/p>\n\n<p>Uses:<\/p>\n\n<ul>\n<li>If you have more than one person modding your site , they can now receive emails alerting them that new comments are awaiting moderation.<\/li>\n<li>Send general comment notifications to yourself at multiple email addresses and also if any new post or page is created or updated then <\/li>\n<li>the email will also work.<\/li>\n<\/ul>",
+                "uid": "15076"
+            }
+        }
+    }
+}

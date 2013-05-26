@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/remove-comments-are-closed": {
+            "1.2": {
+                "name": "wordpress\/remove-comments-are-closed",
+                "version": "1.2",
+                "version_normalized": "1.2.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/remove-comments-are-closed.1.2.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>On posts where comments are closed, the plugin will remove the text 'Comments are closed.' The plugin supports any languages\/text domain, and will remove the text from themes and plugins.<\/p>\n\n<p>Prerequisite: Since the plugin is <a href=\"http:\/\/codex.wordpress.org\/Plugin_API\/Filter_Reference\/gettext\">filtering gettext<\/a>, your theme\/plugin must be <a href=\"http:\/\/wp.smashingmagazine.com\/2011\/12\/29\/internationalizing-localizing-wordpress-theme\/\">localized<\/a>.<\/p>\n\n<p>View the plugin source code at the <a href=\"http:\/\/soderlind.no\/archives\/2012\/01\/11\/wordpress-plugin-remove-comments-are-closed\/\">plugin home page<\/a><\/p>",
+                "uid": "32035"
+            }
+        }
+    }
+}

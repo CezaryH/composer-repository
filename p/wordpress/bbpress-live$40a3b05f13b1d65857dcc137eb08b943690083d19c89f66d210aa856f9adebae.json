@@ -1,0 +1,40 @@
+{
+    "packages": {
+        "wordpress\/bbpress-live": {
+            "0.1.1": {
+                "name": "wordpress\/bbpress-live",
+                "version": "0.1.1",
+                "version_normalized": "0.1.1.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/bbpress-live.0.1.1.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>bbPress Live allows the display of information from a\n<a href=\"http:\/\/bbpress.org\/\">bbPress<\/a> 1.0 forum from inside a WordPress blog.<\/p>\n\n<p>Specifically, it provides two new widgets:<\/p>\n\n<ul>\n<li><strong>bbPress Forum List<\/strong> - Provides a list or table of forums<\/li>\n<li><strong>bbPress Latest Topics<\/strong> - Provides a list or table of the latest topics<\/li>\n<\/ul>\n\n<p>Each widget can be used multiple times, and configured individually.<\/p>\n\n<p>There are also two functions for use in themes. These functions return a raw\nphp array which can be manipulated inside the theme:<\/p>\n\n<ul>\n<li><code>bbpress_live_get_forums()<\/code> - Provides an array of forums<\/li>\n<li><code>bbpress_live_get_topics()<\/code> - Provides an array of the latest topics<\/li>\n<\/ul>\n\n<p>bbPress Live can only connect to a bbPress forum running bbPress with a version of\n1.0 or higher. The bbPress blog must have XML-RPC enabled in it's settings.<\/p>",
+                "uid": "98358"
+            },
+            "0.1.2": {
+                "name": "wordpress\/bbpress-live",
+                "version": "0.1.2",
+                "version_normalized": "0.1.2.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/bbpress-live.0.1.2.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>bbPress Live allows the display of information from a\n<a href=\"http:\/\/bbpress.org\/\">bbPress<\/a> 1.0 forum from inside a WordPress blog.<\/p>\n\n<p>Specifically, it provides two new widgets:<\/p>\n\n<ul>\n<li><strong>bbPress Forum List<\/strong> - Provides a list or table of forums<\/li>\n<li><strong>bbPress Latest Topics<\/strong> - Provides a list or table of the latest topics<\/li>\n<\/ul>\n\n<p>Each widget can be used multiple times, and configured individually.<\/p>\n\n<p>There are also two functions for use in themes. These functions return a raw\nphp array which can be manipulated inside the theme:<\/p>\n\n<ul>\n<li><code>bbpress_live_get_forums()<\/code> - Provides an array of forums<\/li>\n<li><code>bbpress_live_get_topics()<\/code> - Provides an array of the latest topics<\/li>\n<\/ul>\n\n<p>bbPress Live can only connect to a bbPress forum running bbPress with a version of\n1.0 or higher. The bbPress blog must have XML-RPC enabled in it's settings.<\/p>",
+                "uid": "98357"
+            }
+        }
+    }
+}

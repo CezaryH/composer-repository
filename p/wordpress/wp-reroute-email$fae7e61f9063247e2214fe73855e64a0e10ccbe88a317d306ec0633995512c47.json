@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/wp-reroute-email": {
+            "1.0.0": {
+                "name": "wordpress\/wp-reroute-email",
+                "version": "1.0.0",
+                "version_normalized": "1.0.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/wp-reroute-email.1.0.0.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>This plugin intercepts all outgoing emails from a WordPress site, sent using the wp_mail() function, and reroutes them to a predefined configurable email address. This is useful in case where you do not want email sent from a WordPress site to reach the users. For an example, to resolve an issue you downloaded production database to your development site and you want no email is sent to production users when testing. You may enable this plugin in development server and reroute emails to your given email address.<\/p>\n\n<p>Any issue? Contact me (<a href=\"http:\/\/sajjadhossain.com\/contact-me\/\" rel=\"nofollow\">http:\/\/sajjadhossain.com\/contact-me\/<\/a>).<\/p>",
+                "uid": "8326"
+            }
+        }
+    }
+}

@@ -1,0 +1,57 @@
+{
+    "packages": {
+        "wordpress\/wp-login-security-2": {
+            "1.0.0": {
+                "name": "wordpress\/wp-login-security-2",
+                "version": "1.0.0",
+                "version_normalized": "1.0.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/wp-login-security-2.1.0.0.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>WP Login Security 2 provides enhanced security by requiring users to whitelist their IP address. \nIf the IP address is not recognized, the plugin will send an email to the user with a link that contains a one-time key. Optionally the blog administrator can also be notified.<\/p>\n\n<p>If a user logs in from a known IP address no further action is required.<\/p>\n\n<p><strong>What does this Plugin do?<\/strong><\/p>\n\n<ol>\n<li>Each time a user logs in, the plugin will compare their existing IP address to the last seen IP address.<\/li>\n<li>If the IP does not match or no IP addresses have been whitelisted, an email will be sent to the users registered email address.<\/li>\n<li>The user must login to their email and click the included link, which contains the one-time password.<\/li>\n<li>The plugin can be configured to also send an email to the blog administrator as well as the user.  <\/li>\n<\/ol>\n\n<p><strong>Updates from the original plugin<\/strong><\/p>\n\n<p>This plugin is based on the original <a h",
+                "uid": "14624"
+            },
+            "1.0.1": {
+                "name": "wordpress\/wp-login-security-2",
+                "version": "1.0.1",
+                "version_normalized": "1.0.1.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/wp-login-security-2.1.0.1.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>WP Login Security 2 provides enhanced security by requiring users to whitelist their IP address. \nIf the IP address is not recognized, the plugin will send an email to the user with a link that contains a one-time key. Optionally the blog administrator can also be notified.<\/p>\n\n<p>If a user logs in from a known IP address no further action is required.<\/p>\n\n<p><strong>What does this Plugin do?<\/strong><\/p>\n\n<ol>\n<li>Each time a user logs in, the plugin will compare their existing IP address to the last seen IP address.<\/li>\n<li>If the IP does not match or no IP addresses have been whitelisted, an email will be sent to the users registered email address.<\/li>\n<li>The user must login to their email and click the included link, which contains the one-time password.<\/li>\n<li>The plugin can be configured to also send an email to the blog administrator as well as the user.  <\/li>\n<\/ol>\n\n<p><strong>Updates from the original plugin<\/strong><\/p>\n\n<p>This plugin is based on the original <a h",
+                "uid": "14623"
+            },
+            "1.0.2": {
+                "name": "wordpress\/wp-login-security-2",
+                "version": "1.0.2",
+                "version_normalized": "1.0.2.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/wp-login-security-2.1.0.2.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>WP Login Security 2 provides enhanced security by requiring users to whitelist their IP address. \nIf the IP address is not recognized, the plugin will send an email to the user with a link that contains a one-time key. Optionally the blog administrator can also be notified.<\/p>\n\n<p>If a user logs in from a known IP address no further action is required.<\/p>\n\n<p><strong>What does this Plugin do?<\/strong><\/p>\n\n<ol>\n<li>Each time a user logs in, the plugin will compare their existing IP address to the last seen IP address.<\/li>\n<li>If the IP does not match or no IP addresses have been whitelisted, an email will be sent to the users registered email address.<\/li>\n<li>The user must login to their email and click the included link, which contains the one-time password.<\/li>\n<li>The plugin can be configured to also send an email to the blog administrator as well as the user.  <\/li>\n<\/ol>\n\n<p><strong>Updates from the original plugin<\/strong><\/p>\n\n<p>This plugin is based on the original <a h",
+                "uid": "14622"
+            }
+        }
+    }
+}

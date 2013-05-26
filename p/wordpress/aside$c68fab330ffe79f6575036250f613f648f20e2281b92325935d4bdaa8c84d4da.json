@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/aside": {
+            "0.9": {
+                "name": "wordpress\/aside",
+                "version": "0.9",
+                "version_normalized": "0.9.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/aside.0.9.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>Aside widget allows a page or post to insert arbitrary content into a\nsidebar (or other dynamic widget area), supporting something similar to the\ntypographic notion of a 'pull-quote'.<\/p>\n\n<p>Aside widget is triggered by the presence, in those pages which require it,\nof one or more 'aside' custom fields with values that specify the content\nof one or more widgets.  Shifting the locus of widget content control from\nthe widget to the page makes for more natural authoring of conditional\ncontent which needs to be associated with just a small number of pages.<\/p>\n\n<p>As well as text, an 'aside' custom field may contain HTML and\/or PHP code.\nOf course, any HTML should be crafted so as not to break the containing\npage structure.  PHP parsing must be explicitly enabled in the widget\nadministration panel and any PHP in the 'aside' field value must be enclosed\nin the usual tags for it to be recognised.<\/p>\n\n<p>A little bit of short-form magic can be triggered by formatting the aside\nfield valu",
+                "uid": "56457"
+            }
+        }
+    }
+}

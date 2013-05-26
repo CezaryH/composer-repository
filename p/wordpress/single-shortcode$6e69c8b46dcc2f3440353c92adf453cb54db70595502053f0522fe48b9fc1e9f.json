@@ -1,0 +1,40 @@
+{
+    "packages": {
+        "wordpress\/single-shortcode": {
+            "0.1": {
+                "name": "wordpress\/single-shortcode",
+                "version": "0.1",
+                "version_normalized": "0.1.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/single-shortcode.0.1.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>Using single shortcode plugin, you can hide specified content from <a href=\"http:\/\/codex.wordpress.org\/Glossary#Excerpt\">excerpt<\/a> of post. The content enclosed with [single] tag is output <strong>only<\/strong> if single page is displayed. It's useful for hiding the following items from excerpt.<\/p>\n\n<ul>\n<li>table of contents<\/li>\n<li>footnotes<\/li>\n<li>relative links, etc.<\/li>\n<\/ul>\n\n<p>Installed this plugin, you can use the following shortcodes.<\/p>\n\n<ul>\n<li>[single] shortcode outputs content <strong>only<\/strong> if single page is displayed<\/li>\n<li>[excerpt] shortcode outputs content <strong>only<\/strong> if excerpt is displayed<\/li>\n<\/ul>\n\n<h4>Usage<\/h4>\n\n<p>Enclose content with [single] tag.<\/p>\n\n<pre><code>[single] ... [\/single]\n\n[single]\n ...\n[\/single]\n<\/code><\/pre>\n\n<p>You can use [excerpt] tag as necessary.<\/p>\n\n<pre><code>[excerpt] ... [\/excerpt]\n\n[excerpt]\n ...\n[\/excerpt]\n<\/code><\/pre>\n\n<h4>Example<\/h4>\n\n<p>If you write the following code,<\/p>\n\n<pre><code>&#60;p&#62",
+                "uid": "40380"
+            },
+            "0.1.1": {
+                "name": "wordpress\/single-shortcode",
+                "version": "0.1.1",
+                "version_normalized": "0.1.1.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/single-shortcode.0.1.1.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>Using single shortcode plugin, you can hide specified content from <a href=\"http:\/\/codex.wordpress.org\/Glossary#Excerpt\">excerpt<\/a> of post. The content enclosed with [single] tag is output <strong>only<\/strong> if single page is displayed. It's useful for hiding the following items from excerpt.<\/p>\n\n<ul>\n<li>table of contents<\/li>\n<li>footnotes<\/li>\n<li>relative links, etc.<\/li>\n<\/ul>\n\n<p>Installed this plugin, you can use the following shortcodes.<\/p>\n\n<ul>\n<li>[single] shortcode outputs content <strong>only<\/strong> if single page is displayed<\/li>\n<li>[excerpt] shortcode outputs content <strong>only<\/strong> if excerpt is displayed<\/li>\n<\/ul>\n\n<h4>Usage<\/h4>\n\n<p>Enclose content with [single] tag.<\/p>\n\n<pre><code>[single] ... [\/single]\n\n[single]\n ...\n[\/single]\n<\/code><\/pre>\n\n<p>You can use [excerpt] tag as necessary.<\/p>\n\n<pre><code>[excerpt] ... [\/excerpt]\n\n[excerpt]\n ...\n[\/excerpt]\n<\/code><\/pre>\n\n<h4>Example<\/h4>\n\n<p>If you write the following code,<\/p>\n\n<pre><code>&#60;p&#62",
+                "uid": "40379"
+            }
+        }
+    }
+}

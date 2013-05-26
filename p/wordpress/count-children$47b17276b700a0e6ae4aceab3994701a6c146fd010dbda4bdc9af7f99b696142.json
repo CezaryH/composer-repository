@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/count-children": {
+            "1.0.0": {
+                "name": "wordpress\/count-children",
+                "version": "1.0.0",
+                "version_normalized": "1.0.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/count-children.1.0.0.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>This plugin allows you to dynamically return the number of children for a particular page. Inserting <code>[children page=\"page-slug\"]<\/code> in a post or page, or <code>&#60;?php do_shortcode('children page=\"page-slug\" '); ?&#62;<\/code> anywhere in WordPress' code will return the number of children for that particular page.<\/p>\n\n<p>Useful for creating dynamic table of contents pages, keeping track of page stats, general bragging, or any place where keeping a running tally might be desirable.<\/p>",
+                "uid": "17913"
+            }
+        }
+    }
+}

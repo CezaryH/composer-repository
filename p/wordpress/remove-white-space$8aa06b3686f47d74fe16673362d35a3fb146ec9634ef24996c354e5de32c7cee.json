@@ -1,0 +1,40 @@
+{
+    "packages": {
+        "wordpress\/remove-white-space": {
+            "1.0": {
+                "name": "wordpress\/remove-white-space",
+                "version": "1.0",
+                "version_normalized": "1.0.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/remove-white-space.1.0.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>This function removes whitespace from the list items outputted by <code>wp_list_pages<\/code> and <code>wp_list_categories<\/code>.<\/p>\n\n<p>This white space can cause layout issues in IE6 and some other browsers such as gaps between each list item even when there is no margin or padding applied.<\/p>\n\n<p>Simply call <code>wp_list_pages<\/code> or <code>wp_list_categories<\/code> as usual:<\/p>\n\n<pre><code>&#60;?php wp_list_pages(); ?&#62;<\/code><\/pre>\n\n<p>To ensure there is no trailing white space around the first and last items, you should remove any white space between you <code>&#60;ul&#62;<\/code> tags and the PHP function:<\/p>\n\n<pre><code>&#60;ul&#62;&#60;?php wp_list_pages(); ?&#62;&#60;\/ul&#62;<\/code><\/pre>",
+                "uid": "78637"
+            },
+            "1.0.1": {
+                "name": "wordpress\/remove-white-space",
+                "version": "1.0.1",
+                "version_normalized": "1.0.1.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/remove-white-space.1.0.1.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>This function removes whitespace from the list items outputted by <code>wp_list_pages<\/code> and <code>wp_list_categories<\/code>.<\/p>\n\n<p>This white space can cause layout issues in IE6 and some other browsers such as gaps between each list item even when there is no margin or padding applied.<\/p>\n\n<p>Simply call <code>wp_list_pages<\/code> or <code>wp_list_categories<\/code> as usual:<\/p>\n\n<pre><code>&#60;?php wp_list_pages(); ?&#62;<\/code><\/pre>\n\n<p>To ensure there is no trailing white space around the first and last items, you should remove any white space between you <code>&#60;ul&#62;<\/code> tags and the PHP function:<\/p>\n\n<pre><code>&#60;ul&#62;&#60;?php wp_list_pages(); ?&#62;&#60;\/ul&#62;<\/code><\/pre>",
+                "uid": "78636"
+            }
+        }
+    }
+}

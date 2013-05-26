@@ -1,0 +1,40 @@
+{
+    "packages": {
+        "wordpress\/shared-blogroll": {
+            "0.1": {
+                "name": "wordpress\/shared-blogroll",
+                "version": "0.1",
+                "version_normalized": "0.1.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/shared-blogroll.0.1.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>This plugin adds a widget to your WPMU blog that allows the blog administrator to display a list of links from any blog on the installation. Imagine, for instance, that Josie is teaching a class in which she and each of her students have individual blogs. Josie's got a list of important links (a class blogroll, or maybe links that are relevant to the class), and she'd like to share the links with her students. Using this plugin, her students can place a widget on their blogs that automatically pulls in a certain category of links from her blog.<\/p>\n\n<p>At the moment, the plugin works like this: Drop the Shared Blogroll widget into one of your blog's sidebars. You'll need to know the blog_id of the blog from which you'll be pulling the links. (This is the big weakness in the plugin for now. For the moment, I'll probably add a line of code to the Dashboard that echoes the global $blog_id, so that blog owners will know their blog_id and be able to pass it along to other who want to sha",
+                "uid": "74665"
+            },
+            "1.0": {
+                "name": "wordpress\/shared-blogroll",
+                "version": "1.0",
+                "version_normalized": "1.0.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/shared-blogroll.1.0.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>This plugin adds a widget to your WPMU blog that allows the blog administrator to display a list of links from any blog on the installation. Imagine, for instance, that Josie is teaching a class in which she and each of her students have individual blogs. Josie's got a list of important links (a class blogroll, or maybe links that are relevant to the class), and she'd like to share the links with her students. Using this plugin, her students can place a widget on their blogs that automatically pulls in a certain category of links from her blog.<\/p>\n\n<p>At the moment, the plugin works like this: Drop the Shared Blogroll widget into one of your blog's sidebars. You'll need to know the blog_id of the blog from which you'll be pulling the links. (This is the big weakness in the plugin for now. For the moment, I'll probably add a line of code to the Dashboard that echoes the global $blog_id, so that blog owners will know their blog_id and be able to pass it along to other who want to sha",
+                "uid": "74664"
+            }
+        }
+    }
+}

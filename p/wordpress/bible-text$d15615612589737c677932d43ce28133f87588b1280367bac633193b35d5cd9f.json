@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/bible-text": {
+            "0.1": {
+                "name": "wordpress\/bible-text",
+                "version": "0.1",
+                "version_normalized": "0.1.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/bible-text.0.1.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>The Bible Text wordpress plugin allows you to very simply add the full text of any passage of the Bible with a simple shortcode like this <code>[bible passage=\"John 3\" version=\"esv\"]<\/code>.<\/p>\n\n<p>Several Bible versions are supported, including ESV (the default), NET Bible, KJV, ASV and many, many others. Dozens more are available in other languages including Spanish, Arabic, Chinese, Portugese, Russian, and German. Original languages (Greek and Hebrew) are also available. For a full list, see <a href=\"http:\/\/www.4-14.org.uk\/wordpress-plugins\/bible-text\" rel=\"nofollow\">http:\/\/www.4-14.org.uk\/wordpress-plugins\/bible-text<\/a><\/p>\n\n<p>The text you request is automatically added to your website whenever someone views your post or page. A special API service sends you only the text you need, so you don't have to store the whole Bible on your own site.<\/p>\n\n<p>The bible text is added by your server, not by Javascript. This means the text can be even seen by those who don't have javascri",
+                "uid": "80411"
+            }
+        }
+    }
+}

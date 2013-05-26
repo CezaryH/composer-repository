@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/wp-sitemap": {
+            "1.0": {
+                "name": "wordpress\/wp-sitemap",
+                "version": "1.0",
+                "version_normalized": "1.0.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/wp-sitemap.1.0.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>Place a shortcode into a post or a page (page recommended) and your sitemap will apear as a list with page numbers.<\/p>\n\n<h4>Shortcode simple example<\/h4>\n\n<p>[wp_sitemap]<\/p>\n\n<h4>Features<\/h4>\n\n<ul>\n<li>Support for both posts and pages<\/li>\n<li>Support for page numbers and option to place it on top or bottom<\/li>\n<li>Support for include and exclude pages \/ posts<\/li>\n<li>Support for disable posts \/ pages<\/li>\n<li>Support for order by and sort order<\/li>\n<li>No data added to the database<\/li>\n<li>No settings page added into admin<\/li>\n<li>Sitemap settings are added through a shortcode added in a page<\/li>\n<li>Wordpress built in functions are used to make a very small code<\/li>\n<\/ul>\n\n<h4>Shortcode advanced example<\/h4>\n\n<p>[wp_sitemap pages=\"false\" exclude=\"9,21,34\"]<\/p>\n\n<h4>Parameters<\/h4>\n\n<p>exclude<\/p>\n\n<ul>\n<li>(string) Define a comma-separated list of Page IDs to be excluded from the list (example: 'exclude=3,7,31'). There is no default value.<\/li>\n<\/ul>\n\n<p>include<\/p>\n\n<ul",
+                "uid": "74674"
+            }
+        }
+    }
+}

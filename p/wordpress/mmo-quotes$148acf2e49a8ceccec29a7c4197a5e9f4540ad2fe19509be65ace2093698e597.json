@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/mmo-quotes": {
+            "0.2": {
+                "name": "wordpress\/mmo-quotes",
+                "version": "0.2",
+                "version_normalized": "0.2.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/mmo-quotes.0.2.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>MMO Quotes, a quoting plugin.<\/p>\n\n<p>This plugin is meant to assist in quoting items from MMO developers, using WordPress&#8217;s built-in shortcode API.<\/p>\n\n<p>Usage:\n[wowquote author=&#8221;Author&#8221; title=&#8221;Title&#8221; url=&#8221;url&#8221;]Content[\/wowquote]\n[lolquote author=&#8221;Author&#8221; title=&#8221;Title&#8221; url=&#8221;url&#8221;]Content[\/lolquote]<\/p>\n\n<p>All parameters are optional.<\/p>",
+                "uid": "58522"
+            }
+        }
+    }
+}

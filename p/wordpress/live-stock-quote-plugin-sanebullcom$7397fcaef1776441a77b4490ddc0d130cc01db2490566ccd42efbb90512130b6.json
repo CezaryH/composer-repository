@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/live-stock-quote-plugin-sanebullcom": {
+            "1": {
+                "name": "wordpress\/live-stock-quote-plugin-sanebullcom",
+                "version": "1",
+                "version_normalized": "1.0.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/live-stock-quote-plugin-sanebullcom.1.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>This plugin will give you the flexibility of linking stock symbols to keywords (by default, the keywords are stock symbols).\nFor a visual example, please see this example blog post.<\/p>\n\n<p>By default, we open the Short symbol display, but upon clicking the symbol, a full view is presented.<\/p>\n\n<p>This plugin installation is no different from any other WordPress plugin. All you need to do is unzip the files and upload them to your \/wp-content\/plugins\/ directory.<\/p>\n\n<p>After uploading, activate the plugin through the WP Admin -&#62; Plugins page. To use it, you will need to define the keywords in Options -&#62; SaneBull Quote.<\/p>\n\n<p>That's it! From now on, whenever you use any of the specified keywords in your posts or pages, they will automatically convert to the SaneBull Live Stock widget.<\/p>",
+                "uid": "100602"
+            }
+        }
+    }
+}

@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/wp-pan0": {
+            "0.0.4": {
+                "name": "wordpress\/wp-pan0",
+                "version": "0.0.4",
+                "version_normalized": "0.0.4.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/wp-pan0.0.0.4.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>pan0.net integration. enter [pan0 <a href=\"http:\/\/path.to.yourimg\/name_of_image\" rel=\"nofollow\">http:\/\/path.to.yourimg\/name_of_image<\/a> into post\/page to add the image as panorama.<\/p>\n\n<p>You can use also attributes: enter [pan0 640x480 <a href=\"http:\/\/path.to.yourimg\/name_of_image\" rel=\"nofollow\">http:\/\/path.to.yourimg\/name_of_image<\/a> to set width x height.<\/p>\n\n<p>No other options supported, the panorama has in default 100% width\/height, empty title.<\/p>\n\n<p>!!! DO NOT USE SPACE IN IMAGE PATH !!!<\/p>",
+                "uid": "59425"
+            }
+        }
+    }
+}

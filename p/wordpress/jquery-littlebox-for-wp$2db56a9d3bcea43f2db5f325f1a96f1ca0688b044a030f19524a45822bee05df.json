@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/jquery-littlebox-for-wp": {
+            "1.0": {
+                "name": "wordpress\/jquery-littlebox-for-wp",
+                "version": "1.0",
+                "version_normalized": "1.0.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/jquery-littlebox-for-wp.1.0.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>Simple and small lightbox clone, Modded from Joel Vardy's lightbox, more info at <a href=\"http:\/\/blog.ilooker.tk\/\" rel=\"nofollow\">http:\/\/blog.ilooker.tk\/<\/a><\/p>\n\n<p>Download and install, that's all you need to do. And when you post articles with images, this plugin (the js script actually) will automatically lightbox those unlinked images (would not affect those images with links).<\/p>\n\n<p>For example, I posted an article, with two image unlinked to anything (let's call them image1 and image2), one image linked to another webpage (called image3). Then when someone click on these three images, image1 and image2 will be lightboxed but image3 will not.<\/p>\n\n<p>Demos:\n<a href=\"https:\/\/jquery-littlebox-for-wp.googlecode.com\/svn\/trunk\/demo.htm\" title=\"Demo on Googlecode\">Demo on Googlecode<\/a>\n<a href=\"http:\/\/blog.ilooker.tk\/\" title=\"My blog\">My blog<\/a><\/p>",
+                "uid": "44363"
+            }
+        }
+    }
+}

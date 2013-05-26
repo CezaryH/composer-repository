@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/polylang-simple-google-connect-compatibility": {
+            "0.1": {
+                "name": "wordpress\/polylang-simple-google-connect-compatibility",
+                "version": "0.1",
+                "version_normalized": "0.1.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/polylang-simple-google-connect-compatibility.0.1.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>When both Polylang and Simple Google Connect are active, there might occur a conflict when trying to log in with Google credentials. This is caused by a redirect on the home page (depending on Polylang settings) that interferes with the oauth2callback authorization process.<\/p>\n\n<p>This plugin ensures smooth operation when both Polylang and Simple Google Connect are active, no matter what Polylang settings you use. There are no options, just install and activate.<\/p>\n\n<p>This extension might also take care of compatibility between Polylang and other plugins that use oauth2callback but this is untested. Please report your findings on the Support page.<\/p>",
+                "uid": "19847"
+            }
+        }
+    }
+}

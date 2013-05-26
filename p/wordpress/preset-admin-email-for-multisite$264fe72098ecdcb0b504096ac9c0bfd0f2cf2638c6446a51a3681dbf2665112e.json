@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/preset-admin-email-for-multisite": {
+            "1.0": {
+                "name": "wordpress\/preset-admin-email-for-multisite",
+                "version": "1.0",
+                "version_normalized": "1.0.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/preset-admin-email-for-multisite.1.0.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>In a multisite, you can create child sites. When you create a new child site, you fill in the title and the slug. And, you have to fill in your e-mail address, even if you are the network administrator.<\/p>\n\n<p>If you enter an e-mail by hand, you may mistype. But, you can avoid such a risk. This code, shown below, automatically fill your e-mail address into the corresponding box, with an aid of jquery.<\/p>",
+                "uid": "42230"
+            }
+        }
+    }
+}

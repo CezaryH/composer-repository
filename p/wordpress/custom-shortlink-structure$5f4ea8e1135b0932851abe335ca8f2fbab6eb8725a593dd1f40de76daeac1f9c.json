@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/custom-shortlink-structure": {
+            "1.0": {
+                "name": "wordpress\/custom-shortlink-structure",
+                "version": "1.0",
+                "version_normalized": "1.0.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/custom-shortlink-structure.1.0.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>This plugin will add new settings to your Settings -&#62; Permalinks screen for you to\nspecify your blog's shortlink structure. By default WordPress shortlinks look like\n<a href=\"http:\/\/yrnxt.com\/?p=153\" rel=\"nofollow\">http:\/\/yrnxt.com\/?p=153<\/a>. Using this plugin you can specify every other structure\nyou like, e.g. <a href=\"http:\/\/yrnxt.com\/~153\">http:\/\/yrnxt.com\/~153<\/a>.<\/p>\n\n<p>Specifying new shortlink structures will never break WordPress' default. Also when\nchanging the shortlink structure again afterwards old structures won't break until you\nexplicitly remove them.<\/p>\n\n<p>Take a look at the <a href=\"http:\/\/wordpress.org\/extend\/plugins\/custom-shortlink-structure\/screenshots\/\">screenshots<\/a>.<\/p>",
+                "uid": "8626"
+            }
+        }
+    }
+}

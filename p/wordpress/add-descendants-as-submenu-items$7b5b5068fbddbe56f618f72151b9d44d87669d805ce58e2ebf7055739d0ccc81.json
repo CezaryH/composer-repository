@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/add-descendants-as-submenu-items": {
+            "1.2.0": {
+                "name": "wordpress\/add-descendants-as-submenu-items",
+                "version": "1.2.0",
+                "version_normalized": "1.2.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/add-descendants-as-submenu-items.1.2.0.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>When adding a page, category, or any hierarchical custom post type or taxonomy to your navigation menu (Appearance &#8594; Menus), this plugin allows you to optionally automatically add all descendants (children) of that menu item as submenu items.<\/p>\n\n<p>In short, you'll no longer have to manually maintain submenus when you add a new child page to your site.<\/p>",
+                "uid": "40046"
+            }
+        }
+    }
+}

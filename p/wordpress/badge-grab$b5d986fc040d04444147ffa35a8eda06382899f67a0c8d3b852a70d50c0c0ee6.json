@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/badge-grab": {
+            "1.1": {
+                "name": "wordpress\/badge-grab",
+                "version": "1.1",
+                "version_normalized": "1.1.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/badge-grab.1.1.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>This plugin will allow you to use the <code>[badge]<\/code> shortcode to display a helpful and valid html snippet to encourage others to link back to your website by placing a linked image on thier own site.<\/p>\n\n<p>This plugin does not have a Widget at this time but I recommend trying the <a href=\"http:\/\/wordpress.org\/extend\/plugins\/shortcode-for-sidebar\/\">Shortcode For Sidebar Plugin<\/a> to use the shortcode for plugin in a text widget.<\/p>\n\n<p>Attributes:\nurl - This will be the link added to the html to be copied.\ntitle - This will be the alt tag and title tag applied to the image and link.\nimage - URL to Image to be used to display sample of badge and included in the provided html<\/p>\n\n<p>Usage examples:<\/p>\n\n<pre><code>[badge]<\/code><\/pre>\n\n<p>(Will display default code based on options page settings<\/p>\n\n<pre><code>[badge url=&#039;http:\/\/daisyolsen.com&#039; title=&#039;DaisyOlsen.com&#039; image=&#039;http:\/\/daisyolsen.com\/images\/daisy125.png&#039;]<\/code><\/pre>\n\n<p>Default U",
+                "uid": "59735"
+            }
+        }
+    }
+}

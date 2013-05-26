@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/staticize-reloaded": {
+            "2.6": {
+                "name": "wordpress\/staticize-reloaded",
+                "version": "2.6",
+                "version_normalized": "2.6.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/staticize-reloaded.2.6.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>Staticize Reloaded is a plugin to make your site faster by caching the output of some WordPress pages. It creates a unique key based on the page variables and user and then if a request is made with identical variables it serves the request from a static file rather than building the page from the database. When a post is updated or a comment is left the cache is cleared. It is ideal for sites with a lot of anonymous reads and not too many updates. (For example, during a Slashdotting.)<\/p>",
+                "uid": "115066"
+            }
+        }
+    }
+}

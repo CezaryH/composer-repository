@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/quick-amazon-mp3-clips": {
+            "1.0": {
+                "name": "wordpress\/quick-amazon-mp3-clips",
+                "version": "1.0",
+                "version_normalized": "1.0.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/quick-amazon-mp3-clips.1.0.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>Add an Amazon MP3 Clip player to your posts. \nJust add [mp3 artist=\"ARTIST NAME\" album=\"ALBUM NAME\"] anywhere you want.<\/p>\n\n<p>The Amazon MP3 Clips widget plays 30 second previews of songs and displays the album art in the background. \nJust add [mp3 artist=\"ARTIST NAME\" album=\"ALBUM NAME\"] anywhere you want.<\/p>\n\n<p>There are many ways to create an MP3 widget. Here are some:<\/p>\n\n<ol>\n<li><p><code>[mp3 artist=\"ARTIST NAME\" album=\"ALBUM NAME\" songtitle=\"SONG NAME\"]<\/code> <br \/>\nThis creates an MP3 widget with a specific song by a specific artist off of a specific album.<\/p><\/li>\n<li><p><code>[mp3 artist=\"ARTIST NAME\" album=\"ALBUM NAME\" songtitle=\"SONG NAME\" tag=\"AMAZON ASSOCIATE ID\"]<\/code> <br \/>\nThis creates an MP3 widget with a specific song by a specific artist off of a specific album, and a specific Amazon Associate ID.\nUse this if you would like to make a commision off of sales through your site. You mush sign up at Amazon.com before using this feature.<\/p><\/li>\n<\/ol>",
+                "uid": "67725"
+            }
+        }
+    }
+}

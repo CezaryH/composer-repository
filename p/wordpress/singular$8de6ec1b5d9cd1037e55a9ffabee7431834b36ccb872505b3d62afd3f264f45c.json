@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/singular": {
+            "0.3": {
+                "name": "wordpress\/singular",
+                "version": "0.3",
+                "version_normalized": "0.3.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/singular.0.3.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>By default in Wordpress 1.5 and onwards, a post's sanitised name that appears in a permalink structure is checked for duplication and a numeral is appended if one is found. This is to prevent two posts having the same permalink, even when they have the same title. This could not be guaranteed otherwise, for instance because not all structures use a date to reference their archives.<\/p>\n\n<p>In some permalink structures, this default behaviour is not desirable. Typically, these will be those that do incorporate a date or some other unique identifier. In these cases, a site author might wish to have the sanitised name the same for each post, for example in the case of a weekly report or column. Singular is a simple plugin which removes the extra suffix that Wordpress automatically adds when a post with a similar name is published.<\/p>",
+                "uid": "115005"
+            }
+        }
+    }
+}

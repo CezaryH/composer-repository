@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/freshbooks-wordpress-widget": {
+            "1.0.2": {
+                "name": "wordpress\/freshbooks-wordpress-widget",
+                "version": "1.0.2",
+                "version_normalized": "1.0.2.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/freshbooks-wordpress-widget.1.0.2.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>As avid users of Freshbooks web-based accounting software, we are always looking for ways to integrate our project tracking and accounting in fun and useful ways. This plugin creates a simple sidebar widget that outputs the total hours billed for a FreshBooks account.<\/p>\n\n<p>Note: You will need the API URL and API token for your FreshBooks account, see <a href=\"http:\/\/developers.freshbooks.com\/\">http:\/\/developers.freshbooks.com\/<\/a><\/p>\n\n<p>Your FreshBooks API URL has a single point of entry, derived from your account URL:<\/p>\n\n<p><a href=\"https:\/\/sample.freshbooks.com\/api\/2.1\/xml-in\">https:\/\/sample.freshbooks.com\/api\/2.1\/xml-in<\/a><\/p>\n\n<p>After enabling API access for your account, you&#8217;ll be given a unique authentication token. The admin user, and each staff member, has an API token. The admin user&#8217;s authentication token can be found on the \"enable FreshBooks API\" page. The staff token can be found on each staff member&#8217;s Profile page, or on the Edit Staff page (",
+                "uid": "67693"
+            }
+        }
+    }
+}

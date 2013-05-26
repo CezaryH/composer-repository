@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/database-read-replicas": {
+            "1.0.0": {
+                "name": "wordpress\/database-read-replicas",
+                "version": "1.0.0",
+                "version_normalized": "1.0.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/database-read-replicas.1.0.0.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>BETA: Extend WordPress with MySQL database read replica support for greater speed and scalability\nThis is a first release beta, and should only be used at your own risk<\/p>",
+                "uid": "37484"
+            }
+        }
+    }
+}

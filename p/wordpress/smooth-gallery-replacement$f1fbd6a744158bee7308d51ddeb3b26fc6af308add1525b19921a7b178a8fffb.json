@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/smooth-gallery-replacement": {
+            "1.0": {
+                "name": "wordpress\/smooth-gallery-replacement",
+                "version": "1.0",
+                "version_normalized": "1.0.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/smooth-gallery-replacement.1.0.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>Smooth Gallery Replacement will replace your standard WordPress galleries (using the gallery-shortcode) with JonDesign's <a href=\"http:\/\/smoothgallery.jondesign.net\/showcase\/gallery\/\">SmoothGallery<\/a>.<\/p>\n\n<p>There are two other plugins for running SmoothGallery in Wordpress: \"SmoothGallery\", which requires manual markup to be added to your posts. And \"NextGEN Smooth Gallery\", which requires you to use the NextGEN Gallery plugin.<\/p>\n\n<p>This plugin is a self contained drop-in that requires no effort from you and no changes to your blog. It degrades gracefully for non-JavaScript browsers and removing the plugin leaves your galleries working just like they did before.<\/p>\n\n<p><strong>Be warned:<\/strong> SmoothGallery is built on <a href=\"http:\/\/mootools.net\/\">MooTools<\/a> and will not work if you run <a href=\"http:\/\/script.aculo.us\/\">Scriptaculous<\/a> on your blog.<\/p>\n\n<p><strong>Changelog 1.0 (2009-03-17)<\/strong><\/p>\n\n<ol>\n<li>Release<\/li>\n<\/ol>",
+                "uid": "91148"
+            }
+        }
+    }
+}

@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/garees-random-image": {
+            "1.1.1": {
+                "name": "wordpress\/garees-random-image",
+                "version": "1.1.1",
+                "version_normalized": "1.1.1.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/garees-random-image.1.1.1.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p><em>Garee's Random Image<\/em> shows a random image anywhere on your blog. The output is generated from template-files (html and css) or your own templates, which you can write with Mustache.<\/p>\n\n<p>Check out the <a href=\"http:\/\/www.garee.ch\/wordpress\/garees-random-image\/live-demo\/\">live-demo<\/a> on the official <a href=\"http:\/\/www.garee.ch\/wordpress\/garees-random-image\/\">plugin-site<\/a><\/p>\n\n<p>Main-advantages:<\/p>\n\n<ul>\n<li>CSS only included if shortcode found on page<\/li>\n<li>highly customizable with Mustache-templates<\/li>\n<li>only show pictures associated with a certain post-category<\/li>\n<li>only show jpg, png or gif<\/li>\n<li>choose from 6 different themes<\/li>\n<li>easily write your own theme using html, css and images<\/li>\n<\/ul>\n\n<p>Just insert the shortcode anywhere on your blog: <code>[random_image]<\/code><\/p>\n\n<p>Use shortcode-attributes to further customize the image:<\/p>\n\n<pre><code>[random_image template=&#039;polaroid&#039; category=&#039;30&#039; polaroid_font_size=&#",
+                "uid": "36034"
+            }
+        }
+    }
+}

@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/wpmu-related-blogs-and-posts": {
+            "1.1": {
+                "name": "wordpress\/wpmu-related-blogs-and-posts",
+                "version": "1.1",
+                "version_normalized": "1.1.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/wpmu-related-blogs-and-posts.1.1.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>Creates relationships between Wordpress MU blog posts based on user defined tags, relevant Open Calais tags and extracted terms.<\/p>\n\n<p>It requires an Open Calais (<a href=\"http:\/\/www.opencalais.com\/\" rel=\"nofollow\">http:\/\/www.opencalais.com\/<\/a>) API key and a Yahoo Term Extraction API key (<a href=\"http:\/\/developer.yahoo.com\/search\/content\/V1\/termExtraction.html\" rel=\"nofollow\">http:\/\/developer.yahoo.com\/search\/content\/V1\/termExtraction.html<\/a>)<\/p>\n\n<p>This plugin was created for the JISC (<a href=\"http:\/\/jisc.ac.uk\" rel=\"nofollow\">http:\/\/jisc.ac.uk<\/a>) funded JISCPress project (<a href=\"http:\/\/jiscpress.blogs.lincoln.ac.uk\" rel=\"nofollow\">http:\/\/jiscpress.blogs.lincoln.ac.uk<\/a>)<\/p>",
+                "uid": "76429"
+            }
+        }
+    }
+}

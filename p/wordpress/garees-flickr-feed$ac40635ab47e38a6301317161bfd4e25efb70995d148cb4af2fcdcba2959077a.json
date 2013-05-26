@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/garees-flickr-feed": {
+            "0.8": {
+                "name": "wordpress\/garees-flickr-feed",
+                "version": "0.8",
+                "version_normalized": "0.8.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/garees-flickr-feed.0.8.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p><em>Garee's Flickr Feed<\/em> is a highly customizable Wordpress-plugin that integrates pictures from flickr on your blog.\nThe output is generated from template-files or your own templates, which you can write with Mustache.<\/p>\n\n<p>For more information check out the official <a href=\"http:\/\/www.garee.ch\/wordpress\/garees-flickr-feed\/\">plugin-site<\/a><\/p>\n\n<p>Main-advantages:<\/p>\n\n<ul>\n<li>Flickr-requests are cached<\/li>\n<li>CSS only included if shortcode found on page<\/li>\n<li>highly customizable with Mustache-templates<\/li>\n<\/ul>\n\n<p>Just insert the shortcode anywhere on your blog: <code>[flickr_feed]<\/code><\/p>\n\n<p>Use shortcode-options to further customize which content and how they should be displayed. Check out the examples on the <a href=\"http:\/\/www.garee.ch\/wordpress\/garees-flickr-feed\/live-demo\/\">live-demo<\/a><\/p>",
+                "uid": "30562"
+            }
+        }
+    }
+}

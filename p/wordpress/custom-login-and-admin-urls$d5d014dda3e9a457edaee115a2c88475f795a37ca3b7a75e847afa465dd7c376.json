@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/custom-login-and-admin-urls": {
+            "0.1.2": {
+                "name": "wordpress\/custom-login-and-admin-urls",
+                "version": "0.1.2",
+                "version_normalized": "0.1.2.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/custom-login-and-admin-urls.0.1.2.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p><strong>This plugin is DEAD until further development.<\/strong>\n<strong>Don't use it as this can lead your WordPress instalation into problems.<\/strong><\/p>\n\n<p>With this plugin you can change wp-admin and wp-login.php to any of your choice.\nYou can have <code><a href=\"http:\/\/example.org\/login\" rel=\"nofollow\">http:\/\/example.org\/login<\/a><\/code> instead of <code><a href=\"http:\/\/example.org\/wp-login.php\" rel=\"nofollow\">http:\/\/example.org\/wp-login.php<\/a><\/code> or <code><a href=\"http:\/\/example.org\/admin\/\" rel=\"nofollow\">http:\/\/example.org\/admin\/<\/a><\/code> instead of <code><a href=\"http:\/\/example.org\/wp-admin\/\" rel=\"nofollow\">http:\/\/example.org\/wp-admin\/<\/a><\/code><\/p>\n\n<p>You just need to enter into <code>options-permalink.php<\/code>page and set the variables.\nAfter the setup wp-login.php and wp-admin path are not anymore available and you should use the newest onews you set.<\/p>\n\n<p>This works with Multisite Networks. You can set a default value in Options page of Multisite settings",
+                "uid": "43103"
+            }
+        }
+    }
+}

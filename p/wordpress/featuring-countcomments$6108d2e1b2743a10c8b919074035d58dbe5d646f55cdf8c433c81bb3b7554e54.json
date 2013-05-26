@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/featuring-countcomments": {
+            "1.33": {
+                "name": "wordpress\/featuring-countcomments",
+                "version": "1.33",
+                "version_normalized": "1.33.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/featuring-countcomments.1.33.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>Counts the number of comments for each user who has been logged in at the time of commenting.<\/p>\n\n<p><strong>starting from version 1.00 with a new API and widget functionality<\/strong><\/p>\n\n<ul>\n<li>extends information on Users page in Admin Menu with comment counts<\/li>\n<li>optionpage-configurable for standard functions<\/li>\n<li>easy to integrate (ships with multi\/sidebar- and dashboard-widget functionality)<\/li>\n<li>possible to integrate in \"Right Now\" box or to display as widget on the dashboard and on the user's profile page<\/li>\n<li>high performance because users' comment counts are re-used within a page-call<\/li>\n<li>fully compatible with <a href=\"http:\/\/codex.wordpress.org\/Administration_Over_SSL\">https\/SSL\/TLS-sites<\/a><\/li>\n<li>fully WP 3.0 multi-site network compatible<\/li>\n<li>clean uninstall<\/li>\n<\/ul>\n\n<p>Requirements for current version:<\/p>\n\n<ul>\n<li>Your users have to be registered and logged in to comment - <strong>Thus, Featuring CountComments will not work proper",
+                "uid": "112520"
+            }
+        }
+    }
+}

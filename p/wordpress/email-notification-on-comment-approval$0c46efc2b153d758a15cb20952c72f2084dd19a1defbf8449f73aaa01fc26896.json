@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/email-notification-on-comment-approval": {
+            "0.1": {
+                "name": "wordpress\/email-notification-on-comment-approval",
+                "version": "0.1",
+                "version_normalized": "0.1.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/email-notification-on-comment-approval.0.1.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>This is a WordPress Plugin for inform a comment author on the approval of author comment on WordPress site.\nThis Plugin have a admin panel setting page where you can add CC and BCC for mail.<\/p>\n\n<p>This plugin will send a HTML email content so you can send content design as you want.<\/p>\n\n<p>This Plugin have a HTML editor in its setting page section to design mail body.<\/p>\n\n<p>You can insert code for site URL, Comment page URL And Site name as dynamic mail content . You can do it by inserting [site_url], [comment_url] and [site_name].\nKey Featurs<\/p>\n\n<pre><code>HTML editor\nHTML email\nDynamic URLs in mail\nOption to add CC and BCC\nEmail Content Editor\n<\/code><\/pre>",
+                "uid": "11556"
+            }
+        }
+    }
+}

@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/joget-inbox-widget": {
+            "1.0": {
+                "name": "wordpress\/joget-inbox-widget",
+                "version": "1.0",
+                "version_normalized": "1.0.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/joget-inbox-widget.1.0.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>Joget Workflow (www.joget.org) is an open source application builder that helps you build any process-driven web application either by making\nit codeless or helping you code less. The JIW (Joget Workflow Inbox Widget) is a WordPress Widget written to connect to any Joget install.\nThe widget displays a list of pending tasks for a logged in user and\/or the list of available applications created from Joget accessible to\nthe user. Please note that if properly configured, your Joget installation should connect seamlessly to your WordPress deployment, sharing\nits users and roles.<\/p>\n\n<p>Note also that the widget comes with a piece to authenticate users using WordPress' authentication parameters. The piece accepts credential\ninformation and returns a JSON body to mark the authentication results. This function can be used in general terms by any external application\nneeding to authenticate against WordPress.<\/p>\n\n<p>For more information about Joget, please visit <a href=\"http:\/\/www.joget.o",
+                "uid": "53019"
+            }
+        }
+    }
+}

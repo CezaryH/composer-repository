@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/mylinks": {
+            "3.2": {
+                "name": "wordpress\/mylinks",
+                "version": "3.2",
+                "version_normalized": "3.2.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/mylinks.3.2.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>Displays blogroll links on a Page or Post. Insert <code>[mylinks]<\/code> to a Page or Post and it will display all your blogroll links there- with live snapshots of every page. Very nice too look!<\/p>\n\n<p>Only 1-2 Minutes and the thumbnails snapshots are generated. This takes some time, because the server has to deliver many thumbnails at one time. Once cached (1-2minutes), the thumbnails will appear.<\/p>\n\n<p>TODO:<\/p>\n\n<ol>\n<li>[new 14.01.2009] Sorting of the links<\/li>\n<li>[new 02.09.2009] Select template with shortcut [mylinks=Category,templatename]<\/li>\n<\/ol>\n\n<p>INSTALLATION:<\/p>\n\n<ol>\n<li>Upload the mylinks plugin directory, along with its contents, to your\nworpress plugins directory: <code>\/wp-content\/plugins\/<\/code>.<\/li>\n<li>Activate the plugin and follow the instructions in the description.<\/li>\n<li>Example: Use <code>[mylinks]<\/code> in your page or post to display all your links<\/li>\n<li>Example: Use <code>[mylinks=categoryname]<\/code> to display just the links of the ca",
+                "uid": "94390"
+            }
+        }
+    }
+}

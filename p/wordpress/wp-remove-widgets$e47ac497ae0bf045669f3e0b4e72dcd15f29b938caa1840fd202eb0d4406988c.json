@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/wp-remove-widgets": {
+            "1.0": {
+                "name": "wordpress\/wp-remove-widgets",
+                "version": "1.0",
+                "version_normalized": "1.0.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/wp-remove-widgets.1.0.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>This plugin allows an administrator to remove widgets from being available to add to sidebars. This plugin will also remove the widgets from any associated sidebars.<\/p>",
+                "uid": "11505"
+            }
+        }
+    }
+}

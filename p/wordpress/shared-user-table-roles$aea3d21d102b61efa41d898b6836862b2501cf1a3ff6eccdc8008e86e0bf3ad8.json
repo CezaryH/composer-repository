@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/shared-user-table-roles": {
+            "1.0": {
+                "name": "wordpress\/shared-user-table-roles",
+                "version": "1.0",
+                "version_normalized": "1.0.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/shared-user-table-roles.1.0.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>When sharing the user and usermeta table between multiple wordpress \ninstallations using the same database, any role given to the user is only valid \nfor a single wordpress installation.<\/p>\n\n<p>This plugin ensures user roles, user capabilities and user settings are \nshared between the multiple installations. This is configured using a wp-config \nconstant.<\/p>\n\n<p>Any role set in any of the installations will be reflected in all other \ninstallations.<\/p>\n\n<p>Caveats:<\/p>\n\n<ul>\n<li>Compatability with wordpress multisite is unknown<\/li>\n<\/ul>",
+                "uid": "8076"
+            }
+        }
+    }
+}

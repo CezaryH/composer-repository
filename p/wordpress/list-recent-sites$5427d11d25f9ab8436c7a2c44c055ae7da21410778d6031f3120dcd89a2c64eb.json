@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/list-recent-sites": {
+            "1.0": {
+                "name": "wordpress\/list-recent-sites",
+                "version": "1.0",
+                "version_normalized": "1.0.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/list-recent-sites.1.0.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>This plugin creates a list of all sites on a multisite network sorted by the most recently updated. It lists blogname, description, admin, admin avatar, and recent posts. It should automatically excludes blog ID 1 (main blog), and post ID 1 (first \"Hello World\" posts of new blogs). I don't want any donations for this plugin but if you put a followable link ANYWHERE on your site to <a href=\"http:\/\/hackhut.com\" rel=\"nofollow\">http:\/\/hackhut.com<\/a> I would considered that payment. It is completely based on the hard work of Ron Rennick and a modified version of Sitewide Recent Posts for WordPress MU Andrea R. uses on her personal site. They deserve ALL credit for this, I only fixed some things and changed it a little here and there. You can get amazing work done by them at <a href=\"http:\/\/ronandandrea.com\/\" rel=\"nofollow\">http:\/\/ronandandrea.com\/<\/a> .<\/p>",
+                "uid": "53675"
+            }
+        }
+    }
+}

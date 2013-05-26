@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/my-app-button": {
+            "1": {
+                "name": "wordpress\/my-app-button",
+                "version": "1",
+                "version_normalized": "1.0.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/my-app-button.1.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>I need of a simple way to insert js button\/s to my wordpress sites. So i write this plugin. You have to insert in wp-content\/plugin and decompress it. After go in admin mode then enable it and look for widget in your theme. (i use atahualpa theme) . After that you can configure: \nname is about the \"area\" name i normally leave it blank or use some simple '-' ... \ndescription is about a brief description of the button\nbutton code: here you can insert the code that show the button<\/p>",
+                "uid": "20419"
+            }
+        }
+    }
+}

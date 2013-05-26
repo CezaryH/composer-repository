@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/bushisms-for-wordpress": {
+            "1.2": {
+                "name": "wordpress\/bushisms-for-wordpress",
+                "version": "1.2",
+                "version_normalized": "1.2.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/bushisms-for-wordpress.1.2.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>This is a simple plugin that displays a wacky quote from George W. Bush.<\/p>\n\n<p>To use, copy the file into your wordpress plugins directory (wp-content\\plugins\\bushism.php). Add the text \"[bushism]\" to your blog entry, anywhere you would like. You can add formatting. A Bushism will be placed there.<\/p>\n\n<p>Example:\nHi, this is a blog entry. Obama 08!<\/p>\n\n<p>[bushism]<br \/>\n-&#62; becomes -&#62;\n\"If the Iranians were to have a nuclear weapon, they could proliferate.\" -- President Bush, showing off his grasp of the birds and the bees, March 21, 2006<\/p>",
+                "uid": "99672"
+            }
+        }
+    }
+}

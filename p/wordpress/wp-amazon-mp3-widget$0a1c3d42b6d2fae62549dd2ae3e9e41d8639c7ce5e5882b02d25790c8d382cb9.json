@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/wp-amazon-mp3-widget": {
+            "1.0": {
+                "name": "wordpress\/wp-amazon-mp3-widget",
+                "version": "1.0",
+                "version_normalized": "1.0.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/wp-amazon-mp3-widget.1.0.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>Add slick looking Amazon MP3 widgets to your blog posts in a brain-dead simple way! \nJust say [mp3] to add mp3 tracks anywhere on your blog.<\/p>\n\n<p>The MP3 Clips widget plays album previews and displays the album art in the background. It's as easy as typing [mp3] anywhere in your post and you get a beautiful Flash widget with mp3 tracks.<\/p>\n\n<p>There are many ways to create an MP3 widget. Here are some:<\/p>\n\n<ol>\n<li><p><code>[mp3]<\/code> <br \/>\nThis creates an MP3 widge containing the latest MP3 bestselling tracks.<\/p><\/li>\n<li><p><code>[mp3 list=\"Bestsellers\" browse_node=\"324527011\"]<\/code> &#60;br\/&#62;\nThis creates a MP3 widge containing the latest 'Hard Rock and Metal' bestsellers.\nYou can get the browse_node values for various music genres here: <a href=\"http:\/\/www.browsenodes.com\/node-324382011.html\" rel=\"nofollow\">http:\/\/www.browsenodes.com\/node-324382011.html<\/a><\/p><\/li>\n<\/ol>\n\n<p>Here are the most popular browse nodes:\nAlternative Rock (324384011)\nBlues (324396011)\nBro",
+                "uid": "90706"
+            }
+        }
+    }
+}

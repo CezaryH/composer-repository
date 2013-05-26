@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/attachments-list": {
+            "1.1": {
+                "name": "wordpress\/attachments-list",
+                "version": "1.1",
+                "version_normalized": "1.1.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/attachments-list.1.1.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>Display a list of the attachments that were added to a post or page by the <a href=\"http:\/\/wordpress.org\/extend\/plugins\/attachments\/\">Attachments<\/a> plugin.<\/p>\n\n<p>The Attachments plugin allows you to easily append items from the media library to posts, pages, etc, but does not directly interact with the theme.<\/p>\n\n<p>This plugin will display an list of those items, each as a link to the file.<\/p>",
+                "uid": "50664"
+            }
+        }
+    }
+}

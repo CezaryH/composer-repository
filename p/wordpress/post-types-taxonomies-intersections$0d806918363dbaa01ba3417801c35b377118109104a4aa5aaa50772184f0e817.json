@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/post-types-taxonomies-intersections": {
+            "1.0": {
+                "name": "wordpress\/post-types-taxonomies-intersections",
+                "version": "1.0",
+                "version_normalized": "1.0.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/post-types-taxonomies-intersections.1.0.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>Allow to create intersections between a post type and a taxonomy with url such as :<\/p>\n\n<p>mywebsite.com\/mypost-type\/mytaxo\/my-term<\/p>\n\n<p>Allow to use template files such as :<\/p>\n\n<p>archive-posttype-taxo-term.php\narchive-posttype-taxo.php \narchive-posttype.php \narchive.php \nindex.php<\/p>\n\n<p>Contain a widget that list all terms of a specific taxonomy linked to a post type<\/p>",
+                "uid": "44587"
+            }
+        }
+    }
+}

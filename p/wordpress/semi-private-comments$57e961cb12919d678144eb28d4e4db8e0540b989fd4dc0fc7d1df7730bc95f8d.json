@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/semi-private-comments": {
+            "1.0.1": {
+                "name": "wordpress\/semi-private-comments",
+                "version": "1.0.1",
+                "version_normalized": "1.0.1.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/semi-private-comments.1.0.1.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>This plugin masks comments so that a user can only see comments written by \nhimself or by an admin. Admins can see all comments.<\/p>\n\n<p>This was written to make my trivia contests more interesting; by masking \nthe contents of comments from everyone but the person who wrote the comment \nand admins (where \"admin\" = anyone with the ability to edit users), users \ncannot copy answers from other users. This gives everyone a fair chance at \nanswering questions before the contest ends.<\/p>\n\n<p>But, there is nothing in the plugin that is specific to trivia contests, \nthat's just what I use it for.<\/p>\n\n<p>How it works:\nThe Create Post page gets a \"Make comments Semi-Private\" option. This can be \nturned on and off at any time. When a user visits a post with Semi-Priv \nComments turned on, the plugin compares the user's current IP address with \nthat of each comment. If the IP addresses match, the comment is displayed as \nusual. If the IP address doesn't match, a substitute comment message is \n",
+                "uid": "96687"
+            }
+        }
+    }
+}

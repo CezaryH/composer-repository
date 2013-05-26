@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/wordpress-theme-demo": {
+            "1.0": {
+                "name": "wordpress\/wordpress-theme-demo",
+                "version": "1.0",
+                "version_normalized": "1.0.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/wordpress-theme-demo.1.0.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>This plugin is designed to help web designers easily demo there WordPress themes. For example, you want to demonstrate 10 themes over the same content, this plugin will allow you to do same without having to install multiple databases\/instances of WordPress.<\/p>",
+                "uid": "88246"
+            }
+        }
+    }
+}

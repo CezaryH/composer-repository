@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/lets-mix-shortcode": {
+            "1.0": {
+                "name": "wordpress\/lets-mix-shortcode",
+                "version": "1.0",
+                "version_normalized": "1.0.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/lets-mix-shortcode.1.0.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>The Let's Mix Shortcode plugin allows you to easily integrate a player widget with tracklist from Let's Mix into your Wordpress Blog by using a Wordpress shortcode.<\/p>\n\n<p>Please note: this plugin requires PHP5.<\/p>\n\n<p>Related Links:<\/p>\n\n<ul>\n<li><a href=\"http:\/\/www.installedforyou.com\/\" title=\"Jeff Rose's Website\">Jeff Rose's Website<\/a><\/li>\n<li><a href=\"http:\/\/drhousemusic.com\/\" title=\"Ralph's Website\">Dr. House Music<\/a> - Listen To The Greatest Tunes &#38; DJ Mixes!<\/li>\n<\/ul>\n\n<p>Usage in your posts:<\/p>\n\n<p>[letsmix]http:\/\/www.letsmix.com\/mix\/MIXID\/MIX_NAME[\/letsmix]<\/p>\n\n<p><em>Please Note<\/em>: If you put the URL or Mix ID within the opening tag like:<\/p>\n\n<p>[letsmix url=http:\/\/www.letsmix.com\/mix\/MIXID\/MIX_NAME]<\/p>\n\n<p>OR<\/p>\n\n<p>[letsmix mix_id=MIXID]<\/p>\n\n<p>...then you should <em>not<\/em> use the closing tag: [\/letsmix]<\/p>\n\n<p>It also supports the following optional parameters:<\/p>\n\n<ul>\n<li>size=(big (=default), tall or wide)<\/li>\n<li>autostart=(no, yes, false, t",
+                "uid": "47336"
+            }
+        }
+    }
+}

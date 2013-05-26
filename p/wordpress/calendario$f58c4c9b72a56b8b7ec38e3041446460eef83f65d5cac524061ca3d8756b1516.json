@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/calendario": {
+            "6.7.13": {
+                "name": "wordpress\/calendario",
+                "version": "6.7.13",
+                "version_normalized": "6.7.13.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/calendario.6.7.13.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>Events-Calendar is a versatile replacement for the original calendar included with WordPress adding many useful functions to keep track of your events. The plugin has an easy to use admin section that displays a big readable calendar and lets you add and delete events.<\/p>\n\n<p>The plugin is widget ready so you can easily add a small calendar to the main sidebar with the ability to roll over the highlighted event day to see a brief description of the event or click the day to get a full description of the event without ever leaving your current page.<\/p>\n\n<p>If you are not using a widget ready theme, you can still have the calendar on your sidebar.  Simply place <code>&#60;?php sidebarEventsCalendar();?&#62;<\/code> (or <code>&#60;?php sidebarEventsList($number_of_items);?&#62;<\/code> if you want a list) in the sidebar file. The widget can also show a specified number of events as a list.  You will find these options under the widget option.<\/p>\n\n<p>The ability to add a large public c",
+                "uid": "37586"
+            }
+        }
+    }
+}

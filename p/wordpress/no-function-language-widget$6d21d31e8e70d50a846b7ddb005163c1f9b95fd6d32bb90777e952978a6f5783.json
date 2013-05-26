@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/no-function-language-widget": {
+            "1.01": {
+                "name": "wordpress\/no-function-language-widget",
+                "version": "1.01",
+                "version_normalized": "1.01.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/no-function-language-widget.1.01.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>Did you ever need to connect multiple language plugins? I know this is a niche, but from my long lasting experience I know that sometimes you need such a thing.<\/p>\n\n<p>Maybe you don't like the widgets your translation plugin provides. So you maybe need something else.<\/p>\n\n<p>Try this if you are in need for a language widget which has no function except to be a widget.<\/p>\n\n<p>Here is an example:<\/p>\n\n<p>Imagine you have some people in your company providing their own translation but for some reason you also need machine translations of your content. In our specific case it was the plugin Global Translator and WPML. Of course all these plugins have their own widgets, but getting mad if you try to use them both because their widgets only work with the single plugin. So there was a need for a widget which has no function behind it to simply connect two plugins.<\/p>\n\n<p>nflw-backendYou need to configure the WPML part for the languages with your own translations and the Global Translat",
+                "uid": "8375"
+            }
+        }
+    }
+}

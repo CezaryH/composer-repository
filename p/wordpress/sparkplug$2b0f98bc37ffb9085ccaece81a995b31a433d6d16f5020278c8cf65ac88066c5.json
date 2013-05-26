@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/sparkplug": {
+            "1.1": {
+                "name": "wordpress\/sparkplug",
+                "version": "1.1",
+                "version_normalized": "1.1.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/sparkplug.1.1.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>Sparkplug gives you a neat little <a href=\"http:\/\/en.wikipedia.org\/wiki\/Sparklines\">sparkline<\/a> chart that shows you how many posts you've had on your blog per day. On any \"listing\" page other than the homepage it will switch to showing you bars for posts in the current \"section\" and a line for all posts. This allows you to see how active the current section is in comparison to the blog as a whole.<\/p>\n\n<p>Currently tested on the homepage, tags and category pages.<\/p>\n\n<p>Comes packaged as a widget, or you can use the template tag to insert it directly into a theme file.<\/p>",
+                "uid": "92113"
+            }
+        }
+    }
+}

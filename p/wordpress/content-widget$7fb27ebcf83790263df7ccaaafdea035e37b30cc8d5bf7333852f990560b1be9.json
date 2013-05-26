@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/content-widget": {
+            "0.3": {
+                "name": "wordpress\/content-widget",
+                "version": "0.3",
+                "version_normalized": "0.3.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/content-widget.0.3.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>With this plugin you can display the content of a post (of any type) in a widget area. You can also limit number of words, change the delimiter and add a read more link to it.<\/p>\n\n<p>This means, in a widgetized theme, you can move the content around and arrange it however you like, and even reuse it in multiple places. Also comes in handy if you want your client to be in charge of the content, without having access to the Widgets manager.<\/p>\n\n<p>Since 0.3 you can also query for a random post, or the latest post and limit it by category and offset.<\/p>",
+                "uid": "26135"
+            }
+        }
+    }
+}

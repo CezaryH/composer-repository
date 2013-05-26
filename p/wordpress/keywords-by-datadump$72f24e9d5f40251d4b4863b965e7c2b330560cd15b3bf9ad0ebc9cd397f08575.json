@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/keywords-by-datadump": {
+            "0.2": {
+                "name": "wordpress\/keywords-by-datadump",
+                "version": "0.2",
+                "version_normalized": "0.2.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/keywords-by-datadump.0.2.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>Adds a sensible meta keywords tag to all your pages. The goal is to produce 6-7 short keyphrases (of one or two, or possibly three keywords each) and include them in a keywords meta tag in the document header. These keyphrases should be representative of the document's focus and content. N-gram (max n=2) analysis is used on the page content after stopword removal to build the keyword list. Dirty and simple, just the way I like it!<\/p>",
+                "uid": "99780"
+            }
+        }
+    }
+}

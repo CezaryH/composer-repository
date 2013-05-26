@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/nggimages": {
+            "0.2": {
+                "name": "wordpress\/nggimages",
+                "version": "0.2",
+                "version_normalized": "0.2.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/nggimages.0.2.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>This plugin allows you to display all images from selected galleries created using the NextGen Gallery plugin. Images are displayed in full size.<\/p>\n\n<p>Use shortcode [nggimages id=gallery_id] in your post\/page. \nMore options on \"Installation\" tab.<\/p>",
+                "uid": "65526"
+            }
+        }
+    }
+}

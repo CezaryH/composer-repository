@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/oembed-styling": {
+            "1.0": {
+                "name": "wordpress\/oembed-styling",
+                "version": "1.0",
+                "version_normalized": "1.0.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/oembed-styling.1.0.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>Support for oEmbed, which was added to WordPress in version 2.9, is very nice. Unfortunately the generated oEmbed code is not easy to be centered in the text, which is a common request. This plug-in allows for centering (or even other styling), although it will not solve it by itself, just makes it possible.<\/p>\n\n<p>This plugin wraps all oEmbed code into div tags with several classes set:<\/p>\n\n<ul>\n<li>oembed<\/li>\n<li>oembed-mediatype (e.g. oembed-video)<\/li>\n<li>oembed-server (e.g. oembed-youtube-com)<\/li>\n<li>oembed-mediatype-server (e.g. oembed-video-youtube-com)<\/li>\n<\/ul>\n\n<p>Then you can specify in your theme CSS (in the file style.css) the way you want the embeds to behave. E.g. by adding the following code to style.css:<\/p>\n\n<pre>\n.oembed {\n  text-align: center;\n}\n<\/pre>\n\n<p>you will make all oembeds (videos and pictures) to be centered; anyway, if you understand CSS, you are not limited by centering, but you can add much more (like frames around pictures etc.)<\/p>",
+                "uid": "63000"
+            }
+        }
+    }
+}

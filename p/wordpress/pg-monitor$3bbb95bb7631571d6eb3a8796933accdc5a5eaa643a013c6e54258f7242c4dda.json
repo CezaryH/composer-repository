@@ -1,0 +1,40 @@
+{
+    "packages": {
+        "wordpress\/pg-monitor": {
+            "1.0.0": {
+                "name": "wordpress\/pg-monitor",
+                "version": "1.0.0",
+                "version_normalized": "1.0.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/pg-monitor.1.0.0.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>Monitoring services like <a href=\"http:\/\/www.siteuptime.com\" rel=\"nofollow\">http:\/\/www.siteuptime.com<\/a> or <a href=\"http:\/\/www.montastic.com\" rel=\"nofollow\">http:\/\/www.montastic.com<\/a> require a page on your website to monitor.<\/p>\n\n<p>This plugin provides a virtual target for your monitoring services that does not invoke other plugins (specifically avoiding the Google analytics plugins so that your statistics are not skewed by monitoring calls)\nThe two targets provided for the monitoring service are:<\/p>\n\n<ul>\n<li>monitor.htm - via .htaccess and does not use WordPress (but does use PHP)<\/li>\n<li>monitorWP.htm - via WP and so tests the Database etc is working<\/li>\n<\/ul>",
+                "uid": "29289"
+            },
+            "1.1.0": {
+                "name": "wordpress\/pg-monitor",
+                "version": "1.1.0",
+                "version_normalized": "1.1.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/pg-monitor.1.1.0.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>Monitoring services like <a href=\"http:\/\/www.siteuptime.com\" rel=\"nofollow\">http:\/\/www.siteuptime.com<\/a> or <a href=\"http:\/\/www.montastic.com\" rel=\"nofollow\">http:\/\/www.montastic.com<\/a> require a page on your website to monitor.<\/p>\n\n<p>This plugin provides a virtual target for your monitoring services that does not invoke other plugins (specifically avoiding the Google analytics plugins so that your statistics are not skewed by monitoring calls)\nThe two targets provided for the monitoring service are:<\/p>\n\n<ul>\n<li>monitor.htm - via .htaccess and does not use WordPress (but does use PHP)<\/li>\n<li>monitorWP.htm - via WP and so tests the Database etc is working<\/li>\n<\/ul>",
+                "uid": "29288"
+            }
+        }
+    }
+}

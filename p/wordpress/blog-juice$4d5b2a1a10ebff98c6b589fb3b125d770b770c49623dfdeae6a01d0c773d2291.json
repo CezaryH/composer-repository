@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/blog-juice": {
+            "0.5": {
+                "name": "wordpress\/blog-juice",
+                "version": "0.5",
+                "version_normalized": "0.5.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/blog-juice.0.5.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>Displays your site's rating as calculated by <a href=\"http:\/\/www.text-link-ads.com\/blog_juice\/\">Blog Juice Calculator<\/a>.<\/p>",
+                "uid": "111616"
+            }
+        }
+    }
+}

@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/axedit-seasons": {
+            "0.1.1": {
+                "name": "wordpress\/axedit-seasons",
+                "version": "0.1.1",
+                "version_normalized": "0.1.1.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/axedit-seasons.0.1.1.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>If you ever wished to automatically modify portions of text depending on the season, this very simple plugin will\ndo the job for you.\nJust go to 'Settings' and click on 'Seasons' menu, and define the specific text you want to show for each season.\nFinally, insert the [season] shortcode within any content to show the season's related text.<\/p>",
+                "uid": "10430"
+            }
+        }
+    }
+}

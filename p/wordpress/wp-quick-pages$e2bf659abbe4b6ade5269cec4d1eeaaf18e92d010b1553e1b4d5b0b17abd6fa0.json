@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/wp-quick-pages": {
+            "1.0": {
+                "name": "wordpress\/wp-quick-pages",
+                "version": "1.0",
+                "version_normalized": "1.0.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/wp-quick-pages.1.0.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>WordPress plugin that lets you quickly create blank pages with hierarchies. Useful if you use WordPress as a CMS for simple sites that make use of pages.<\/p>\n\n<p>This plugin will add a submenu item called \"WP Quick Pages\" underneath \"Pages\" section of your admin area. On this age you can quickly enter pages, one per line, like this:<\/p>\n\n<pre><code>About the Plugin\nFAQ\nLinks\nExamples\nContact\n<\/code><\/pre>\n\n<p>When you're finished click the Create these pages button. You will find blank, published pages with these titles now show up in your Pages section.<\/p>\n\n<p>The cool part is you can quickly show hierarchies as well:<\/p>\n\n<pre><code>About the Plugin\n- Donate\n- Open Source\n-- Github\n-- Help Develop\nFAQ\nLinks\nExamples\n- Example one\n-Example two\nContact\n<\/code><\/pre>\n\n<p>The example is probably pretty obvious, but the parent of the page is dictated by the number of hyphens in front of the title.  Assuming you have pretty permalinks enabled, the URL for the \"Help Develop\" page above ",
+                "uid": "22593"
+            }
+        }
+    }
+}

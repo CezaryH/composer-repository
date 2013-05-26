@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/mobile-client-detection-plugin": {
+            "0.9.0": {
+                "name": "wordpress\/mobile-client-detection-plugin",
+                "version": "0.9.0",
+                "version_normalized": "0.9.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/mobile-client-detection-plugin.0.9.0.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>In case the mobile version of your blog shall have a different layout\nor when it&#8217;s required to load different versions of CSS\/JS code.:<\/p>\n\n<p>This plug-in can overload template files and theme directories - by the detected platform.<\/p>\n\n<p>And it can provide query_vars 'platform' &#38; 'browser' for creating multi-device templates.<\/p>\n\n<p>Currently it can detect the following mobile platforms:\nAndroid Phones (Android 1.x &#38; 2.x), Android Tablets (Android 3.x &#38; 4.x),\nBlackberry, iPad, iPhone, iPod, IE mobile, Kindle, SymbianOS, PalmOS, webOS,\nGoogleBot mobile.<\/p>\n\n<p>It also can detect several desktop platforms (e.g. Internet Explorer)\nso it's quite handy for fixing things for specific user-agents\n(instead of using conditional CSS).<\/p>\n\n<p><em>Please be aware the this is a support plug-in, not a fully featured mobile theme.<\/em><\/p>",
+                "uid": "34675"
+            }
+        }
+    }
+}

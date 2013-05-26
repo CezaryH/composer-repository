@@ -1,0 +1,108 @@
+{
+    "packages": {
+        "wordpress\/cookies-for-comments": {
+            "0.2": {
+                "name": "wordpress\/cookies-for-comments",
+                "version": "0.2",
+                "version_normalized": "0.2.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/cookies-for-comments.0.2.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>This plugin adds a stylesheet or image to your blog's html source code. When a browser loads that stylesheet or image a cookie is dropped. If that user then leaves a comment the cookie is checked. If it doesn't exist the comment is marked as spam.\nThe plugin can also check how long it took a user to enter a comment. If it's too fast it's probably a spam bot. How fast can a legitimate user enter their name, email, web address and enter a well thought out comment?<\/p>\n\n<p>For the adventurous, add these lines to your .htaccess and it will block spam attempts before they ever get to WordPress. Replace the Xs with the cookie that was set in your browser after viewing your blog. You can also find the cookie value by examining the page source code and looking for \"css.php?k=XXXXXXXXXXXXXXXXXXX\". Make sure the lines go above the standard WordPress rules.<\/p>\n\n<pre><code>`RewriteCond %{HTTP_COOKIE} !^.*XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX.*$`\n`RewriteRule ^wp-comments-post.php - [F,L]`\n<\/code><\/",
+                "uid": "106194"
+            },
+            "0.3": {
+                "name": "wordpress\/cookies-for-comments",
+                "version": "0.3",
+                "version_normalized": "0.3.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/cookies-for-comments.0.3.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>This plugin adds a stylesheet or image to your blog's html source code. When a browser loads that stylesheet or image a cookie is dropped. If that user then leaves a comment the cookie is checked. If it doesn't exist the comment is marked as spam.\nThe plugin can also check how long it took a user to enter a comment. If it's too fast it's probably a spam bot. How fast can a legitimate user enter their name, email, web address and enter a well thought out comment?<\/p>\n\n<p>For the adventurous, add these lines to your .htaccess and it will block spam attempts before they ever get to WordPress. Replace the Xs with the cookie that was set in your browser after viewing your blog. You can also find the cookie value by examining the page source code and looking for \"css.php?k=XXXXXXXXXXXXXXXXXXX\". Make sure the lines go above the standard WordPress rules.<\/p>\n\n<pre><code>`RewriteCond %{HTTP_COOKIE} !^.*XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX.*$`\n`RewriteRule ^wp-comments-post.php - [F,L]`\n<\/code><\/",
+                "uid": "106193"
+            },
+            "0.4": {
+                "name": "wordpress\/cookies-for-comments",
+                "version": "0.4",
+                "version_normalized": "0.4.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/cookies-for-comments.0.4.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>This plugin adds a stylesheet or image to your blog's html source code. When a browser loads that stylesheet or image a cookie is dropped. If that user then leaves a comment the cookie is checked. If it doesn't exist the comment is marked as spam.\nThe plugin can also check how long it took a user to enter a comment. If it's too fast it's probably a spam bot. How fast can a legitimate user enter their name, email, web address and enter a well thought out comment?<\/p>\n\n<p>For the adventurous, add these lines to your .htaccess and it will block spam attempts before they ever get to WordPress. Replace the Xs with the cookie that was set in your browser after viewing your blog. You can also find the cookie value by examining the page source code and looking for \"css.php?k=XXXXXXXXXXXXXXXXXXX\". Make sure the lines go above the standard WordPress rules.<\/p>\n\n<pre><code>`RewriteCond %{HTTP_COOKIE} !^.*XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX.*$`\n`RewriteRule ^wp-comments-post.php - [F,L]`\n<\/code><\/",
+                "uid": "106192"
+            },
+            "0.5": {
+                "name": "wordpress\/cookies-for-comments",
+                "version": "0.5",
+                "version_normalized": "0.5.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/cookies-for-comments.0.5.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>This plugin adds a stylesheet or image to your blog's html source code. When a browser loads that stylesheet or image a cookie is dropped. If that user then leaves a comment the cookie is checked. If it doesn't exist the comment is marked as spam.\nThe plugin can also check how long it took a user to enter a comment. If it's too fast it's probably a spam bot. How fast can a legitimate user enter their name, email, web address and enter a well thought out comment?<\/p>\n\n<p>For the adventurous, add these lines to your .htaccess and it will block spam attempts before they ever get to WordPress. Replace the Xs with the cookie that was set in your browser after viewing your blog. You can also find the cookie value by examining the page source code and looking for \"css.php?k=XXXXXXXXXXXXXXXXXXX\". Make sure the lines go above the standard WordPress rules.<\/p>\n\n<pre><code>`RewriteCond %{HTTP_COOKIE} !^.*XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX.*$`\n`RewriteRule ^wp-comments-post.php - [F,L]`\n<\/code><\/",
+                "uid": "106191"
+            },
+            "0.5.1": {
+                "name": "wordpress\/cookies-for-comments",
+                "version": "0.5.1",
+                "version_normalized": "0.5.1.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/cookies-for-comments.0.5.1.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>This plugin adds a stylesheet or image to your blog's html source code. When a browser loads that stylesheet or image a cookie is dropped. If that user then leaves a comment the cookie is checked. If it doesn't exist the comment is marked as spam.\nThe plugin can also check how long it took a user to enter a comment. If it's too fast it's probably a spam bot. How fast can a legitimate user enter their name, email, web address and enter a well thought out comment?<\/p>\n\n<p>For the adventurous, add these lines to your .htaccess and it will block spam attempts before they ever get to WordPress. Replace the Xs with the cookie that was set in your browser after viewing your blog. You can also find the cookie value by examining the page source code and looking for \"css.php?k=XXXXXXXXXXXXXXXXXXX\". Make sure the lines go above the standard WordPress rules.<\/p>\n\n<pre><code>`RewriteCond %{HTTP_COOKIE} !^.*XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX.*$`\n`RewriteRule ^wp-comments-post.php - [F,L]`\n<\/code><\/",
+                "uid": "106190"
+            },
+            "0.5.4": {
+                "name": "wordpress\/cookies-for-comments",
+                "version": "0.5.4",
+                "version_normalized": "0.5.4.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/cookies-for-comments.0.5.4.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>This plugin adds a stylesheet or image to your blog's html source code. When a browser loads that stylesheet or image a cookie is dropped. If that user then leaves a comment the cookie is checked. If it doesn't exist the comment is marked as spam.\nThe plugin can also check how long it took a user to enter a comment. If it's too fast it's probably a spam bot. How fast can a legitimate user enter their name, email, web address and enter a well thought out comment?<\/p>\n\n<p>For the adventurous, add these lines to your .htaccess and it will block spam attempts before they ever get to WordPress. Replace the Xs with the cookie that was set in your browser after viewing your blog. You can also find the cookie value by examining the page source code and looking for \"css.php?k=XXXXXXXXXXXXXXXXXXX\". Make sure the lines go above the standard WordPress rules.<\/p>\n\n<pre><code>`RewriteCond %{HTTP_COOKIE} !^.*XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX.*$`\n`RewriteRule ^wp-comments-post.php - [F,L]`\n<\/code><\/",
+                "uid": "106189"
+            }
+        }
+    }
+}

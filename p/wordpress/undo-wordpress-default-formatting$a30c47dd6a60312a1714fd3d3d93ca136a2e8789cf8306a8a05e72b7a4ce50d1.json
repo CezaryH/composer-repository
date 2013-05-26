@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/undo-wordpress-default-formatting": {
+            "1.0": {
+                "name": "wordpress\/undo-wordpress-default-formatting",
+                "version": "1.0",
+                "version_normalized": "1.0.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/undo-wordpress-default-formatting.1.0.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>Wordpress applies default text formatting that replaces characters such as '-', '--', quotes, ... to pretty HTML characters. This plugin was created to revert that back. This is especially useful for tech-oriented blogs that need the original input because they may contain commands that need to be executed.<\/p>",
+                "uid": "31583"
+            }
+        }
+    }
+}

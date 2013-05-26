@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/dashboard-feed-widget": {
+            "1.0.1": {
+                "name": "wordpress\/dashboard-feed-widget",
+                "version": "1.0.1",
+                "version_normalized": "1.0.1.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/dashboard-feed-widget.1.0.1.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>On websites I develop for clients I always add this widget to their WordPress Dashboard to keep them informed on general updates regarding their websites. I thought it would be a handy tool for other developers, so I turned my widget into a plugin.<\/p>\n\n<p>The default settings are:<br \/>\n- the standard title of the widget box is \"Recent Updates\"<br \/>\n- as I needed a default feed URL I used the feed of WP TIPS, one of my own websites<br \/>\n- the default number of RSS items is 3<\/p>\n\n<p>The plugin comes localized for use on sites other than the English language and\/or on bi\/multilingual websites. In the languages folder you will find the .po, .pot and .mo files. Feel free to send me translations in other languages, I will then add them to this folder and of course I will credit you here.<\/p>\n\n<p>Current translations:<br \/>\n- Dutch (by myself)<\/p>",
+                "uid": "20247"
+            }
+        }
+    }
+}

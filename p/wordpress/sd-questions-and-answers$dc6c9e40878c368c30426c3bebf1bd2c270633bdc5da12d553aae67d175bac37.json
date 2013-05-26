@@ -1,0 +1,40 @@
+{
+    "packages": {
+        "wordpress\/sd-questions-and-answers": {
+            "1.6": {
+                "name": "wordpress\/sd-questions-and-answers",
+                "version": "1.6",
+                "version_normalized": "1.6.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/sd-questions-and-answers.1.6.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>A question &#38; answer or \"chat\" that allows site visitors to send in questions. The questions can then moderated by the admin(s) and then shown to invited guests to answer.<\/p>\n\n<p>Q&#38;A sessions are created per blog meaning that multiple blogs in the network can each have multiple simultaneous sessions. Sessions are inserted into pages by the shortcode: <code>[sd_qa session_id=\"1\"]<\/code><\/p>\n\n<p>Each session has its own guests and its own display template. The display template contains the css information, display template and invitation email text. The CSS included is jQuery UI's Cupertino theme, but can be easily replaced by downloading another and editing the CSS file locations in the display tempalte.<\/p>\n\n<p>After a session is complete a permanent log of the chat \/ session will be created and shown to future visitors. The log can be converted to static html within the post by having the plugin replace the shortcode with the log. Visit the shortcoded page and follow the in",
+                "uid": "37965"
+            },
+            "1.7": {
+                "name": "wordpress\/sd-questions-and-answers",
+                "version": "1.7",
+                "version_normalized": "1.7.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/sd-questions-and-answers.1.7.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>A question &#38; answer or \"chat\" that allows site visitors to send in questions. The questions can then moderated by the admin(s) and then shown to invited guests to answer.<\/p>\n\n<p>Q&#38;A sessions are created per blog meaning that multiple blogs in the network can each have multiple simultaneous sessions. Sessions are inserted into pages by the shortcode: <code>[sd_qa session_id=\"1\"]<\/code><\/p>\n\n<p>Each session has its own guests and its own display template. The display template contains the css information, display template and invitation email text. The CSS included is jQuery UI's Cupertino theme, but can be easily replaced by downloading another and editing the CSS file locations in the display tempalte.<\/p>\n\n<p>After a session is complete a permanent log of the chat \/ session will be created and shown to future visitors. The log can be converted to static html within the post by having the plugin replace the shortcode with the log. Visit the shortcoded page and follow the in",
+                "uid": "37964"
+            }
+        }
+    }
+}

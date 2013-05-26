@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/recapture": {
+            "0.1": {
+                "name": "wordpress\/recapture",
+                "version": "0.1",
+                "version_normalized": "0.1.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/recapture.0.1.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>Recapture attempts to fight user registration spam by placing a reCAPTCHA on the user registration form. It requires a free set of api keys from <a href=\"http:\/\/recaptcha.net\">http:\/\/recaptcha.net\/<\/a> in order to function as advertised. The keys are easy to obtain, and easy to feed into the plugin via the configuration page, conveniently located in the WordPress 'Options' menu once activated. Failed attempts to register are logged to the aforementioned configuration page as well.<\/p>",
+                "uid": "108077"
+            }
+        }
+    }
+}

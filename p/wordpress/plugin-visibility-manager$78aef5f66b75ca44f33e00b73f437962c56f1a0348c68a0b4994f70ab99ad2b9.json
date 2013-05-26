@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/plugin-visibility-manager": {
+            "3.0": {
+                "name": "wordpress\/plugin-visibility-manager",
+                "version": "3.0",
+                "version_normalized": "3.0.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/plugin-visibility-manager.3.0.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>The Plugin Visibility Manager adds granular administrative control over which plugins are visible in the plugins menu for any given site. Plugins can be made hidden or visible on a blog by blog basis (through the plugins menu). It is also possible to specify plugins that will be available for all site on the Network Admin plugins page.<\/p>\n\n<p>Plugins can be active even if they are invisible, but this can only be controlled by Super Admins. Blog administrators can only de\/activate visible plugins. (Note: plugin settings page are not affected by the plugin visibility manager.)<\/p>\n\n<p>The Plugin Visibility Manager automatically makes itself invisible.<\/p>",
+                "uid": "59156"
+            }
+        }
+    }
+}

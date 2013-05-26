@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/najdisi-osvezevalec": {
+            "1.2": {
+                "name": "wordpress\/najdisi-osvezevalec",
+                "version": "1.2",
+                "version_normalized": "1.2.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/najdisi-osvezevalec.1.2.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>Ko spremenite vsebino na strani ali jo dodate, bo ta vti\u010dnik poslal zahtevo za ponovno indeksiranje na najdi.si.\nPoleg tega bo dodal tudi ukazni niz za spremljanje prihodov na stran (link tracking) v Google Analyitcs, ki so bili opravljeni zaradi tega vti\u010dnika.<\/p>",
+                "uid": "47725"
+            }
+        }
+    }
+}

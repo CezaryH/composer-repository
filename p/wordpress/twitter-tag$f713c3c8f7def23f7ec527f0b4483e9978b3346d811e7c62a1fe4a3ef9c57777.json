@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/twitter-tag": {
+            "1.0": {
+                "name": "wordpress\/twitter-tag",
+                "version": "1.0",
+                "version_normalized": "1.0.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/twitter-tag.1.0.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>Include a Twitter @username in your blog post and Twitter Tag will automatically create a link to that users Twitter page and will send a tweet telling them that they've been tagged in one of your posts. Twitter Tag uses Tiny URL to include a URL to the blog post in the tweet.<\/p>",
+                "uid": "89571"
+            }
+        }
+    }
+}

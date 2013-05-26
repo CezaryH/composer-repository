@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/shopify": {
+            "1.0": {
+                "name": "wordpress\/shopify",
+                "version": "1.0",
+                "version_normalized": "1.0.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/shopify.1.0.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<h4>Visit the official <a href=\"http:\/\/www.seodenver.com\/shopify-importer\/\">Shopify Importer plugin page<\/a> for more support &#38; additional information<\/h4>\n\n<p>If you have a Shopify.com website, you may want to export your products from Shopify and into your WordPress blog. This would make it easy to blog about all the products in your store.<\/p>\n\n<h3>Plugin functionality:<\/h3>\n\n<ul>\n<li>Tags will be imported as tags<\/li>\n<li>All the exported product details will be added to the post or page as Custom Fields, allowing you to modify your theme to display all the details of your products.<\/li>\n<\/ul>\n\n<h3>Import options:<\/h3>\n\n<ul>\n<li>Import products as draft (Default: Import products as published)<\/li>\n<li>Import products as pages (Default: Import products as posts)<\/li>\n<li>Import Vendors as categories (For \"Import as posts\" only)<\/li>\n<\/ul>",
+                "uid": "58309"
+            }
+        }
+    }
+}

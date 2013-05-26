@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/jigoshop-basic-weight-shipping": {
+            "1.0.0": {
+                "name": "wordpress\/jigoshop-basic-weight-shipping",
+                "version": "1.0.0",
+                "version_normalized": "1.0.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/jigoshop-basic-weight-shipping.1.0.0.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>Extend the Jigoshop shipping methods by adding a basic weight method.<\/p>\n\n<p>This is a very simple plugin that allows you to set weight based shipping fees. Five levels of weights are alowed.\nExample: level1 = 2kg with next field as 10 CHF = the total weight of an order in the cart is between 0kg and 2 kg and has a fee of 10 CHF.\nExample: level2 = 5 kg with next field as 20 CHF = the total weight of an order in the cart is between 2kg and 5 kg and has a fee of 20 CHF.\netc.<\/p>\n\n<p>My thanks goes to Iain at Polevaultweb, who developed a basic bundle shipping plugin for jigoshop. You can find his plugin at <a href=\"http:\/\/jigoshop.com\/product\/basic-bundle-shipping\/\" rel=\"nofollow\">http:\/\/jigoshop.com\/product\/basic-bundle-shipping\/<\/a><\/p>\n\n<p><a href=\"http:\/\/www.intervisio.ch\/webwork\/wordpress-plugins\/\">Plugin Page<\/a> &#124; <a href=\"http:\/\/www.twitter.com\/gasserol\/\">@gasserol<\/a> &#124;<\/p>",
+                "uid": "9527"
+            }
+        }
+    }
+}

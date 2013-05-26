@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/wp-cumulus-autoupdate": {
+            "0.1": {
+                "name": "wordpress\/wp-cumulus-autoupdate",
+                "version": "0.1",
+                "version_normalized": "0.1.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/wp-cumulus-autoupdate.0.1.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>This plugin attaches itself to upgrade process of WP-Cumulus plugin, so every time you update WP-Cumulus it will automatically re-download <code>tagcloud.swf<\/code> with Serbian latin and cyrillic letters, so you don't have to worry about them being lost with each update of WP-Cumulus.<\/p>\n\n<p>Only for ex-Yugoslavian bloggers ;)<\/p>",
+                "uid": "80563"
+            }
+        }
+    }
+}

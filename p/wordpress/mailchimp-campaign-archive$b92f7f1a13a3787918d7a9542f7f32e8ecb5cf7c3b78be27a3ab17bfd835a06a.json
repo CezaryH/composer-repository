@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/mailchimp-campaign-archive": {
+            "1.0.3": {
+                "name": "wordpress\/mailchimp-campaign-archive",
+                "version": "1.0.3",
+                "version_normalized": "1.0.3.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/mailchimp-campaign-archive.1.0.3.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p><strong>MailChimp Campaign Archive<\/strong> adds a <code>[mailchimp_campaigns]<\/code> shortcode to WordPress. This shortcode lists your latest MailChimp email campaigns as an unordered list with links to view the HTML version of each email.<\/p>\n\n<h4>Usage<\/h4>\n\n<p>The only required parameter is <code>apikey<\/code> which you must generate from MailChimp: <a href=\"https:\/\/admin.mailchimp.com\/account\/api\/\" rel=\"nofollow\">https:\/\/admin.mailchimp.com\/account\/api\/<\/a><\/p>\n\n<p>Example usage: <code>[mailchimp_campaigns apikey=\"xxxxxxxxxx\" limit=\"10\" order=\"ASC\" link_text=\"title\"]<\/code><\/p>\n\n<p><strong>apikey<\/strong>\nGenerated from <a href=\"https:\/\/admin.mailchimp.com\/account\/api\/\" rel=\"nofollow\">https:\/\/admin.mailchimp.com\/account\/api\/<\/a><\/p>\n\n<p><strong>limit<\/strong>\nSpecify how many campaigns to list. Can be any integer between 1 and 1000.<\/p>\n\n<p><strong>offset<\/strong>\nIf offset is non-negative, the archive list will start at that offset in the list. If offset is negative, the archi",
+                "uid": "13585"
+            }
+        }
+    }
+}

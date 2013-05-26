@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/mediathek": {
+            "1.0": {
+                "name": "wordpress\/mediathek",
+                "version": "1.0",
+                "version_normalized": "1.0.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/mediathek.1.0.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p><em>Dieses Plugin erm&#246;glicht dir die Darstellung von Videos aus verschiedenen Mediatheken.<\/em><\/p>\n\n<p>Nachdem du dieses Plugin installiert hast, kannst du den folgenden Code in einen Artikel oder eine Seite einf&#252;gen:<\/p>\n\n<p>[mediathek id=\"11422160\" an=\"ard\"]<\/p>\n\n<p>Die Nummer 11422160 stellt dabei die Videonummer dar und das Wort ard stellt den Anbieter dar. Optional k&#246;nnen die Parameter height und width verwendet werden, um die Gr&#246;&#223;e anzupassen.\nDiese Parameter k&#246;nnen entweder manuell oder &#252;ber <a href=\"http:\/\/vavideo.de\" rel=\"nofollow\">http:\/\/vavideo.de<\/a> gesucht werden (siehe FAQ)!<\/p>\n\n<p>Eine kurze Anleitung zur manuellen Bestimmung der Parameter:<\/p>\n\n<ol>\n<li>Rufe ein Video aus einer Mediathek auf.<\/li>\n<li>Kopiere die 8-stellige Nummer am Ende der Internetadresse (ARD) bzw. die 7-stellige Nummer in der Mitte der URL (ZDF).<\/li>\n<li>Nun kannst du den Parameter 'id' eintragen. Der Parameter 'an' kann die Werte ard oder zdf annehmen!<\/li",
+                "uid": "17181"
+            }
+        }
+    }
+}

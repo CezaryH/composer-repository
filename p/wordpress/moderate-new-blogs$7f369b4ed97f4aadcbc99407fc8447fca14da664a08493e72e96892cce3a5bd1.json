@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/moderate-new-blogs": {
+            "3.3.2": {
+                "name": "wordpress\/moderate-new-blogs",
+                "version": "3.3.2",
+                "version_normalized": "3.3.2.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/moderate-new-blogs.3.3.2.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>WP3.0 multisite \"mu-plugin\". New blogs(aka sites) await a final click from a Network Admin to activate. This plugin flags new blogs in Network Admin--&#62;Sites as \"Awaiting Moderation\".<\/p>",
+                "uid": "65520"
+            }
+        }
+    }
+}

@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/sd-simple-antispam": {
+            "1.1": {
+                "name": "wordpress\/sd-simple-antispam",
+                "version": "1.1",
+                "version_normalized": "1.1.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/sd-simple-antispam.1.1.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>Prevents comment spam using various, admin-selectable techniques.<\/p>\n\n<p>Available in:<\/p>\n\n<ul>\n<li>English<\/li>\n<li>Swedish<\/li>\n<\/ul>\n\n<p>Logging is handled by <a href=\"http:\/\/wordpress.org\/extend\/plugins\/threewp-activity-monitor\/\">ThreeWP Activity Monitor<\/a>. See the list of logged activities to enable logging of caught spam.<\/p>\n\n<p>Most spam is caught using \"extra fields\". Rarely will spam require the use of \"no author website\" also. Extremely rarely will a spam bot be smart enough to include the hidden fields, leave them empty <em>and<\/em> leave the author URL empty.<\/p>\n\n<p>Catching that last kind of spambot will require other measures.<\/p>\n\n<h4>Extra fields<\/h4>\n\n<p>Two extra fields are inserted into the comment form and hidden from view using CSS. They are to be left empty, and say as much, in order for the comment to pass.<\/p>\n\n<p>Bots that spam by inserting fake POSTs will not have the required, invisible fields in the POST - rejecting the comment.<\/p>\n\n<p>Bots that fi",
+                "uid": "37657"
+            }
+        }
+    }
+}

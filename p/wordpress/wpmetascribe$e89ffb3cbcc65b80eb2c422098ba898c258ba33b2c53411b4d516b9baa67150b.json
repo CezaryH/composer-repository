@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/wpmetascribe": {
+            "1": {
+                "name": "wordpress\/wpmetascribe",
+                "version": "1",
+                "version_normalized": "1.0.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/wpmetascribe.1.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>There are two commands<\/p>\n\n<p>[ums_permission] and [usm_content]<\/p>\n\n<p>Both look at the parameters passed in the short code to determine if that user can access content.<\/p>\n\n<p>If the permission test fails - the following will not happen.<\/p>\n\n<p>With [ums_permission] the page will not fully load. The ability to return to the home page still exists.\nOften wrapping the entire content with a [usm_content] tag would be more useful<\/p>\n\n<p>with [usm_content] the content between the [ums_content] and [\/usm_content] will be displayed<\/p>\n\n<p>The parameter is called allowed - although any parameter starting with \"allow\" will work multiple \nparameters can be passed. in the paramter is a string that holds either<\/p>\n\n<p>the meta_key that if it exists permission is granted or the meta_key and meta_value conbimation seperated by an :<\/p>\n\n<p>forexample<\/p>\n\n<p>[usm_permission allowed=\"employee\"] \nAny one that does not have the meta employee will not be able to load that page. A very minima",
+                "uid": "22158"
+            }
+        }
+    }
+}

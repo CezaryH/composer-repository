@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/checkmail-validation-for-contact-form-7": {
+            "0.2": {
+                "name": "wordpress\/checkmail-validation-for-contact-form-7",
+                "version": "0.2",
+                "version_normalized": "0.2.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/checkmail-validation-for-contact-form-7.0.2.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>Checkmail Validation for Contact Form 7 add the double check email field to your form and verify email match with the CF7 Ajax validation.<\/p>\n\n<h4>Double email check<\/h4>\n\n<p>This plugin add a new field in Contact Form 7 called \"Checkmail\" that allow to do a double email check when submitting the form. The new field will ask to users to confirm their email by typing it into a second field.<\/p>\n\n<p>If you want to do this in your form, you only have to add the \"Checkmail\" field into the CF7 form and enter the email field name you want to check. The validation is done by the CF7 Ajax-powered style: when submitting form CF7 will do the double email check, if not match returns error and ask to users to verify the email addresses.<\/p>",
+                "uid": "21735"
+            }
+        }
+    }
+}

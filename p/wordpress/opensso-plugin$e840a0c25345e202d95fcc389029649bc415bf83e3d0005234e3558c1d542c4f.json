@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/opensso-plugin": {
+            "1.0": {
+                "name": "wordpress\/opensso-plugin",
+                "version": "1.0",
+                "version_normalized": "1.0.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/opensso-plugin.1.0.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>Functions:<\/p>\n\n<ul>\n<li>Simple LogIn (one click)<\/li>\n<li>Simple LogOut (one click)<\/li>\n<li>Create user automatically<\/li>\n<li>Update user's profile with the informations that came from Identity Provider<\/li>\n<li>Protect the user's profile, that the user can't modificate the informations that came from Identity Provider<\/li>\n<li>Syncronize the LogIn and LogOut actions between the WordPress and the Identity Provider    <\/li>\n<li>If the (Apache) agent have a long update period you can choose what to do the plugin: go to login URL or LogIn.<\/li>\n<li>SSL support<\/li>\n<li>Rules: If a regular expression match to the $_SERVER variable's element put the user to the group.<\/li>\n<li>Plus plugin: Simple Group Manager - Manage the user's groups and the group's roles.<\/li>\n<li>Admin page: Users \/ SSO Autentik&#225;ci&#243;<\/li>\n<\/ul>\n\n<p>For more infromation please read this: <a href=\"http:\/\/kir-dev.sch.bme.hu\/wp-opensso\" rel=\"nofollow\">http:\/\/kir-dev.sch.bme.hu\/wp-opensso<\/a><\/p>\n\n<p>If you d",
+                "uid": "82263"
+            }
+        }
+    }
+}

@@ -1,0 +1,40 @@
+{
+    "packages": {
+        "wordpress\/tisie-relativetime": {
+            "0.1": {
+                "name": "wordpress\/tisie-relativetime",
+                "version": "0.1",
+                "version_normalized": "0.1.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/tisie-relativetime.0.1.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>Adds template tags to your wordpress blog that lets you show relative time strings, \nsuch as \"3 months and 2 days\" or \"4 months, 10 hours and 2 minutes\".<\/p>\n\n<p>Unlike other algorithms used to calculate relative time, this plugin uses an algorithm based\non written substraction and therefore the calculated relative time is synchronous to the gregorian \ncalendar system.<br \/>\nExample: Let's assume todays date were \"<strong>2010-03-01<\/strong>\" and the post date were \"<strong>2010-02-01<\/strong>\". The \nresult of this plugin's calculation would be \"<strong>1 month<\/strong>\".<\/p>\n\n<p>Currently only englisch and german localizations are available. But maybe you can help me \ntranslate to other languages. I will gladly add them. (see \"FAQ\" for more details)<\/p>\n\n<p>The following template tags are available<\/p>\n\n<ul>\n<li>the_date_relative \/ get_the_date_relative<\/li>\n<li>the_modified_date_relative \/ get_the_modified_date_relative<\/li>\n<li>comment_date_relative \/ get_comment_date_relative<\/l",
+                "uid": "55143"
+            },
+            "0.2": {
+                "name": "wordpress\/tisie-relativetime",
+                "version": "0.2",
+                "version_normalized": "0.2.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/tisie-relativetime.0.2.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>Adds template tags to your wordpress blog that lets you show relative time strings, \nsuch as \"3 months and 2 days\" or \"4 months, 10 hours and 2 minutes\".<\/p>\n\n<p>Unlike other algorithms used to calculate relative time, this plugin uses an algorithm based\non written substraction and therefore the calculated relative time is synchronous to the gregorian \ncalendar system.<br \/>\nExample: Let's assume todays date were \"<strong>2010-03-01<\/strong>\" and the post date were \"<strong>2010-02-01<\/strong>\". The \nresult of this plugin's calculation would be \"<strong>1 month<\/strong>\".<\/p>\n\n<p>Currently only englisch and german localizations are available. But maybe you can help me \ntranslate to other languages. I will gladly add them. (see \"FAQ\" for more details)<\/p>\n\n<p>The following template tags are available<\/p>\n\n<ul>\n<li>the_date_relative \/ get_the_date_relative<\/li>\n<li>the_modified_date_relative \/ get_the_modified_date_relative<\/li>\n<li>comment_date_relative \/ get_comment_date_relative<\/l",
+                "uid": "55141"
+            }
+        }
+    }
+}

@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/bpdev-core": {
+            "0.3": {
+                "name": "wordpress\/bpdev-core",
+                "version": "0.3",
+                "version_normalized": "0.3.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/bpdev-core.0.3.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>Not shown in the admin area, this is key to make everything working. It contains functions, filters and actions that are used to make all the BPDEV functional, that's way it's called Core.<\/p>\n\n<p>BPDEV Core contains:<\/p>\n\n<ul>\n<li>BPDEV Framework ( a framework to write BuddyPress Plugins )<\/li>\n<li>BPDEV Admin ( to manage BPDEV Plugins )<\/li>\n<li>BPDEV SimplePie ( that loads SimplePie library in MU )<\/li>\n<\/ul>",
+                "uid": "88701"
+            }
+        }
+    }
+}

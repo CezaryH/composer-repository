@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/set-email-sender": {
+            "0.1": {
+                "name": "wordpress\/set-email-sender",
+                "version": "0.1",
+                "version_normalized": "0.1.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/set-email-sender.0.1.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>WordPress by default does not send emails with a correctly specified sending email address.\nBy default outgoing emails from a WordPress installation is sent with user id of webserver\nprocess and hostname of webserver as the email address. This isn't correct and many hosting\nproviders block such emails, mainly because of spam.<\/p>\n\n<p>So this plugin makes sure that a correct sender address is set, by setting the Sender property\nof the PHPMailer object in WordPress.<\/p>",
+                "uid": "11610"
+            }
+        }
+    }
+}

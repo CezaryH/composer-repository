@@ -1,0 +1,40 @@
+{
+    "packages": {
+        "wordpress\/title-case": {
+            "1.0": {
+                "name": "wordpress\/title-case",
+                "version": "1.0",
+                "version_normalized": "1.0.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/title-case.1.0.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>This is a PHP port\/WordPress adaptation of <a href=\"http:\/\/daringfireball.net\/\">John Gruber<\/a>'s <a href=\"http:\/\/daringfireball.net\/2008\/05\/title_case\">title case code<\/a>. Once activated, it will automatically filter post titles as they are output and put them in proper Title Case. To quote Gruber's introduction:<\/p>\n\n<blockquote>\n  <p>It&#8217;s pretty easy to write a non-clever title-casing function. The simplest way is to just capitalize the first letter of every word. That&#8217;s not right, though, because it&#8217;ll leave you with capitalized small words like if, in, of, on, etc. What you want is something that not only knows not to capitalize such words, but will un-capitalize them if they&#8217;re erroneously capitalized in the input.<\/p>\n<\/blockquote>\n\n<p>Title Case handles all edge cases the original code does. In addition, it will avoid capitalizing the i in \"-ing\" if you happen to end a word with that.<\/p>",
+                "uid": "103342"
+            },
+            "1.1": {
+                "name": "wordpress\/title-case",
+                "version": "1.1",
+                "version_normalized": "1.1.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/title-case.1.1.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>This is a PHP port\/WordPress adaptation of <a href=\"http:\/\/daringfireball.net\/\">John Gruber<\/a>'s <a href=\"http:\/\/daringfireball.net\/2008\/05\/title_case\">title case code<\/a>. Once activated, it will automatically filter post titles as they are output and put them in proper Title Case. To quote Gruber's introduction:<\/p>\n\n<blockquote>\n  <p>It&#8217;s pretty easy to write a non-clever title-casing function. The simplest way is to just capitalize the first letter of every word. That&#8217;s not right, though, because it&#8217;ll leave you with capitalized small words like if, in, of, on, etc. What you want is something that not only knows not to capitalize such words, but will un-capitalize them if they&#8217;re erroneously capitalized in the input.<\/p>\n<\/blockquote>\n\n<p>Title Case handles all edge cases the original code does. In addition, it will avoid capitalizing the i in \"-ing\" if you happen to end a word with that.<\/p>",
+                "uid": "103340"
+            }
+        }
+    }
+}

@@ -1,0 +1,40 @@
+{
+    "packages": {
+        "wordpress\/ssl-subdomain-for-multisite": {
+            "1.0": {
+                "name": "wordpress\/ssl-subdomain-for-multisite",
+                "version": "1.0",
+                "version_normalized": "1.0.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/ssl-subdomain-for-multisite.1.0.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>Ensures logins are always done via SSL on a subdomain of the master domain, but that access to custom domains are always done over HTTP, to avoid certificate errors. For WordPress Multisite.<\/p>\n\n<p>WordPress&#8217; built-in <code>FORCE_SSL_LOGIN<\/code> and <code>FORCE_SSL_ADMIN<\/code> directives in <code>wp-config.php<\/code> work great, but are too restrictive in situations where you have custom domains &#8212; custom domains for which you cannot have SSL certificates. For sites on custom domains, we need to make sure that the login and admin access happens over the subdomain, which can be properly served over HTTPS.<\/p>\n\n<h4>What this Plugin does (incorporating Foolish Assumptions)<\/h4>\n\n<p><em>or, a readme you <strong>should<\/strong> read before implementing this plugin on your site.<\/em><\/p>\n\n<p>This plugin filters the login, logout, home and admin URLs that WordPress uses to generate its internal links.<\/p>\n\n<p>Why do we do this?<\/p>\n\n<h4>The Scenario<\/h4>\n\n<p>We have a WordPre",
+                "uid": "28792"
+            },
+            "1.1": {
+                "name": "wordpress\/ssl-subdomain-for-multisite",
+                "version": "1.1",
+                "version_normalized": "1.1.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/ssl-subdomain-for-multisite.1.1.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>Ensures logins are always done via SSL on a subdomain of the master domain, but that access to custom domains are always done over HTTP, to avoid certificate errors. For WordPress Multisite.<\/p>\n\n<p>WordPress&#8217; built-in <code>FORCE_SSL_LOGIN<\/code> and <code>FORCE_SSL_ADMIN<\/code> directives in <code>wp-config.php<\/code> work great, but are too restrictive in situations where you have custom domains &#8212; custom domains for which you cannot have SSL certificates. For sites on custom domains, we need to make sure that the login and admin access happens over the subdomain, which can be properly served over HTTPS.<\/p>\n\n<h4>What this Plugin does (incorporating Foolish Assumptions)<\/h4>\n\n<p><em>or, a readme you <strong>should<\/strong> read before implementing this plugin on your site.<\/em><\/p>\n\n<p>This plugin filters the login, logout, home and admin URLs that WordPress uses to generate its internal links.<\/p>\n\n<p>Why do we do this?<\/p>\n\n<h4>The Scenario<\/h4>\n\n<p>We have a WordPre",
+                "uid": "28791"
+            }
+        }
+    }
+}

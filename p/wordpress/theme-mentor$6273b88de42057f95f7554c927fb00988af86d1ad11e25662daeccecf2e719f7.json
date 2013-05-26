@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/theme-mentor": {
+            "0.1": {
+                "name": "wordpress\/theme-mentor",
+                "version": "0.1",
+                "version_normalized": "0.1.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/theme-mentor.0.1.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>Theme Mentor is a cousin of the Theme-Check plugin getting deeper into the code analysis.<\/p>\n\n<p>It's using different approaches to monitor for common problems regarding theme reviews from the WordPress Theme Reviewers Team. It is prone to fault analysis, so use only as a reference for improving your code base even further.<\/p>\n\n<p>Currently supported validations:<\/p>\n\n<ul>\n<li>Mark all  tags in template files<\/li>\n<li>Mark all  tags in template files<\/li>\n<li>Warn about query_posts() usage<\/li>\n<li>capital_P_dangit control (disallow any WordPress spelling other than WordPress as is - that is WORDPRESS and Wordpress, ugh)<\/li>\n<li>wp_deregister_script('jquery') is forbidden<\/li>\n<li>wp_dequeue_script('jquery') is forbidden<\/li>\n<li>prevent global $data; call as a common troublemaker (props @pippinsplugins)<\/li>\n<\/ul>\n\n<p>header.php specific<\/p>\n\n<ul>\n<li>Make sure that wp_head is before <\/li>\n<li>Ensure that wp_title(...) is called within  and  tags<\/li>\n<\/ul>\n\n<p>footer.php specif",
+                "uid": "11098"
+            }
+        }
+    }
+}

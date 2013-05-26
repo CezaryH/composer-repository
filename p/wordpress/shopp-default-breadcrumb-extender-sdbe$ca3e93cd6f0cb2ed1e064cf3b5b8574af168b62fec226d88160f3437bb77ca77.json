@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/shopp-default-breadcrumb-extender-sdbe": {
+            "1.0": {
+                "name": "wordpress\/shopp-default-breadcrumb-extender-sdbe",
+                "version": "1.0",
+                "version_normalized": "1.0.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/shopp-default-breadcrumb-extender-sdbe.1.0.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>By default the Shopp breadcrumb will display \"the path you followed to get here\". And frankly, that is\nwhat breadcrumbs are meant to do. However this means when someone enters one of your product pages using\na direct link, the breadcrumb will be empty. It will just show the link back to the main Shopp page. \nWith this plugin installed you can use breadcrumbs that show \"where you are\" in the hierarchical \nstructure of categories.<\/p>",
+                "uid": "34668"
+            }
+        }
+    }
+}

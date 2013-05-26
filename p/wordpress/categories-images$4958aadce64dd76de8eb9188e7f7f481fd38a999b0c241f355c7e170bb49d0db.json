@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/categories-images": {
+            "2.2.4": {
+                "name": "wordpress\/categories-images",
+                "version": "2.2.4",
+                "version_normalized": "2.2.4.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/categories-images.2.2.4.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>The Categories Images Plugin allow you to add image with category or taxonomy.<\/p>\n\n<p>Use <code>&#60;?php if (function_exists('z_taxonomy_image_url')) echo z_taxonomy_image_url(); ?&#62;<\/code> to get the url and put it in any img tag in (category or taxonomy) template.<\/p>\n\n<h4>More documentation<\/h4>\n\n<p>Go to <a href=\"http:\/\/zahlan.net\/blog\/2012\/06\/categories-images\/\">http:\/\/zahlan.net\/blog\/2012\/06\/categories-images\/<\/a><\/p>",
+                "uid": "23362"
+            }
+        }
+    }
+}

@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/list-contributors": {
+            "1.0": {
+                "name": "wordpress\/list-contributors",
+                "version": "1.0",
+                "version_normalized": "1.0.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/list-contributors.1.0.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>List Contributors does exactly what it says; shows a list of your contributing authors and their posts. Uses jQuery to hide\/show their biographies. Allows for rich-text descriptions as well as photographs. Integrates seamlessly with the WordPress User database.<\/p>\n\n<p><em>Feature List<\/em><\/p>\n\n<ul>\n<li>Identify your contributors from a drop-down menu of all registered WordPress users on your site.<\/li>\n<li>Each contributor gets a description and an optional photograph.<\/li>\n<li>Accordion-like slides hide and show contributor biographies and photographs.<\/li>\n<li>Turn jQuery on or off from the admin panel to prevent conflicts.<\/li>\n<li>Display your contributors using template tag or shortcode.<\/li>\n<\/ul>",
+                "uid": "70458"
+            }
+        }
+    }
+}

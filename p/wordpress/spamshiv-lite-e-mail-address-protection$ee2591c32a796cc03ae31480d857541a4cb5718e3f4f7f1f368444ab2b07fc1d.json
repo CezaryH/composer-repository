@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/spamshiv-lite-e-mail-address-protection": {
+            "1.0": {
+                "name": "wordpress\/spamshiv-lite-e-mail-address-protection",
+                "version": "1.0",
+                "version_normalized": "1.0.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/spamshiv-lite-e-mail-address-protection.1.0.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>Jackals build automated bots and spiders to crawl through the world wide web looking for vulnerable email addresses to add to their spam lists. Generally, the victims are unprotected \"mailto\" links. MailTo links are incredibly useful and often necessary to our sites. So how do you protect them from being harvested and siphons by ne'er-do-wells?<\/p>\n\n<p>Commonly the bots and spiders are looking for the two tell-tale signs of an email address - the \"@\" and the following \".\" The solution lies in finding ways to mask an email addresses from harvesters, siphons and phishers, while retaining the intended functionality of the \"mailto\" link. There are options like using HTML entities or using javascript, and this plugin will take care of that for you.<\/p>",
+                "uid": "96789"
+            }
+        }
+    }
+}

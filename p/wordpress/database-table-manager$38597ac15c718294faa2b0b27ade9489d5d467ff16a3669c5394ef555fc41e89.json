@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/database-table-manager": {
+            "0.0.2": {
+                "name": "wordpress\/database-table-manager",
+                "version": "0.0.2",
+                "version_normalized": "0.0.2.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/database-table-manager.0.0.2.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>This plugin folder contains 2 suites of plugins. The Club Manager Plugin contains 4 Plugins - Programme (of Events), Stop Press, Recent Events and News. \nThe Specialists Plugin contains a more generic example of the management of a many to many link table between a number of \"specialists\" and their \"specialisms\". \nIt also demonstrates the use of left joins and lookup tables.  Code to sort data by clicking on the table head and to filter the selection set has also been added.\nThey are based upon a more generic system which allows creating and adding data to custom database tables from the wordpress control panel.\nThese plugins can be used as a template for creating different types of table and display or you can just use them as they are if they do what you want to do.<\/p>",
+                "uid": "72839"
+            }
+        }
+    }
+}

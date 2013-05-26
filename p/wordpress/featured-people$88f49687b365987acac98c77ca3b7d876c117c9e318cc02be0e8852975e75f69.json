@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/featured-people": {
+            "0.1": {
+                "name": "wordpress\/featured-people",
+                "version": "0.1",
+                "version_normalized": "0.1.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/featured-people.0.1.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>Featured People allows you to add a list of people onto your site as contributors or editors or what have you and list them on the side of your page through a widgetin a column format. To get more details on how it all works please check out:<\/p>\n\n<p><a href=\"http:\/\/cameronpreston.com\/projects\/plugins\/featured-people\/\" rel=\"nofollow\">http:\/\/cameronpreston.com\/projects\/plugins\/featured-people\/<\/a><\/p>\n\n<p>Once the length of the \u0093Bio\u0094 is longer than 120 characters, the plugin finds where there is a period and cuts it off into a paragraph. It then uses the animated collapse to do a dropdown of the rest of the bio.  Read More\/Less is then displayed to drop down the info, and if someone doesn\u0092t have a link for their name their name also starts the dropdown.<\/p>",
+                "uid": "60780"
+            }
+        }
+    }
+}

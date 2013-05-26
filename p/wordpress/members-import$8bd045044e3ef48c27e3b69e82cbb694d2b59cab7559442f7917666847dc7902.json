@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/members-import": {
+            "1.1": {
+                "name": "wordpress\/members-import",
+                "version": "1.1",
+                "version_normalized": "1.1.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/members-import.1.1.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>This allows you to batch import of users\/members taken from an uploaded CSV file.<\/p>\n\n<p>It will add users\/members with basic information, including firstname, lastname, username, password and email address.\nEach user who is added will be a 'subscriber' if value not provided in csv file, and be able to login to your site.<\/p>\n\n<p>You can also choose to send a notification to the new users and to display password nag on user login.<\/p>\n\n<p>There are no additional options available at the moment, but if you want to add a bunch of users in one go, this will do this for you quickly.<\/p>\n\n<p>Basic Fields:\n<br \/>user_login\n<br \/>user_pass\n<br \/>user_email \n<br \/>user_url \n<br \/>user_nicename\n<br \/>display_name \n<br \/>user_registered \n<br \/>first_name\n<br \/>last_name \n<br \/>nickname \n<br \/>description\n<br \/>rich_editing \n<br \/>comment_shortcuts \n<br \/>admin_color\n<br \/>use_ssl \n<br \/>show_admin_bar_front \n<br \/>show_admin_bar_admin\n<br \/>role<\/p>\n\n<p><strong>Author's Other Plugins:<\/stron",
+                "uid": "22088"
+            }
+        }
+    }
+}

@@ -1,0 +1,40 @@
+{
+    "packages": {
+        "wordpress\/search-simple-fields": {
+            "0.1": {
+                "name": "wordpress\/search-simple-fields",
+                "version": "0.1",
+                "version_normalized": "0.1.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/search-simple-fields.0.1.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>Search Simple Fields for WordPress let you add custom fields to be used during the wordpress search.<\/p>\n\n<p>Search Simple Fields is mainly, an extension for <a href='http:\/\/eskapism.se\/code-playground\/simple-fields\/'>Simple Fields<\/a> plugin, but not only.<\/p>\n\n<h4>Features and highlight<\/h4>\n\n<ul>\n<li>choose the post types to be used in search. Easy way to include registered post types<\/li>\n<li>choose the defined Simple Fields to be used in search query<\/li>\n<li>advanced option: choose from Media custom fields. It required programming knowledge: you need to include the name of the function used for the \"attachment_fields_to_edit\" filter.<\/li>\n<li>to include the set custom fields, add in the active theme function.php file the lines:\nif(!is_admin()) :\n    if(function_exists('search_simple_fields_search_posts')) :\n        search_simple_fields_search_posts();\n    endif;<\/li>\n<\/ul>\n\n<h4>Help and Support<\/h4>\n\n<p>You can find more information about this plugin here: <a href=\"http:\/\/elfd",
+                "uid": "36306"
+            },
+            "0.2": {
+                "name": "wordpress\/search-simple-fields",
+                "version": "0.2",
+                "version_normalized": "0.2.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/search-simple-fields.0.2.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>Search Simple Fields for WordPress let you add custom fields to be used during the wordpress search.<\/p>\n\n<p>Search Simple Fields is mainly, an extension for <a href='http:\/\/eskapism.se\/code-playground\/simple-fields\/'>Simple Fields<\/a> plugin, but not only.<\/p>\n\n<h4>Features and highlight<\/h4>\n\n<ul>\n<li>choose the post types to be used in search. Easy way to include registered post types<\/li>\n<li>choose the defined Simple Fields to be used in search query<\/li>\n<li>advanced option: choose from Media custom fields. It required programming knowledge: you need to include the name of the function used for the \"attachment_fields_to_edit\" filter.<\/li>\n<li>to include the set custom fields, add in the active theme function.php file the lines:\nif(!is_admin()) :\n    if(function_exists('search_simple_fields_search_posts')) :\n        search_simple_fields_search_posts();\n    endif;<\/li>\n<\/ul>\n\n<h4>Help and Support<\/h4>\n\n<p>You can find more information about this plugin here: <a href=\"http:\/\/elfd",
+                "uid": "36305"
+            }
+        }
+    }
+}

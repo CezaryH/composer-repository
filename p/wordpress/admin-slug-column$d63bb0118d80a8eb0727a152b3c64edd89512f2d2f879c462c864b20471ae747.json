@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/admin-slug-column": {
+            "0.2": {
+                "name": "wordpress\/admin-slug-column",
+                "version": "0.2",
+                "version_normalized": "0.2.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/admin-slug-column.0.2.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>Simply put, this plugin adds the page and post slug into the admin columns.\nI built this quickly out of necessity to help identify pages and posts by their slug as sometimes the titles clients give them don't match up nicely with the url slug; so here's a fast way to do that. Nothing fancy, just does what it does.<\/p>",
+                "uid": "8085"
+            }
+        }
+    }
+}

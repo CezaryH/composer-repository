@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/wpsupercountdown": {
+            "0.8.15": {
+                "name": "wordpress\/wpsupercountdown",
+                "version": "0.8.15",
+                "version_normalized": "0.8.15.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/wpsupercountdown.0.8.15.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>With WPSuperCountdown you can hide some content (like whole articles, links, graphics, or videos) for a definable period of time. When the countdown reaches 00:00:00 the hidden content will show up and replace the former counter. Also a cookie will be set so the user don't see the specific counter again but the whole article without latency.<\/p>",
+                "uid": "81391"
+            }
+        }
+    }
+}

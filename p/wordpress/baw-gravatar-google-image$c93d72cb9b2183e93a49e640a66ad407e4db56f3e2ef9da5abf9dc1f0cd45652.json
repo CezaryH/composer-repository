@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/baw-gravatar-google-image": {
+            "1.9.3": {
+                "name": "wordpress\/baw-gravatar-google-image",
+                "version": "1.9.3",
+                "version_normalized": "1.9.3.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/baw-gravatar-google-image.1.9.3.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>This plugin takes place between the gravatar picture and the default avatar return. If an email is not associated with a gravatar account, a Google Image request is sent to grab the first best relevant face picture of this member.<\/p>\n\n<p>When a google image photo have been chosen, the user will receive a mail with 3 links, 1st to delete this avatar if not relevant enought, 2nd to refresh it, if its email is not associated with a gratavar account, 3rd an invitation to create a gravatar account.<\/p>\n\n<p>Also, you can add you own avatar by uploading your picture, easily !<\/p>\n\n<p>Then, you can use a gravatar cache to keep all avatar files on your server and, limit the HTTP request on gravatar.com<\/p>\n\n<p>Here comes a (french, just watch ;p) demo video, 15mn length. (video = version 1.8 !)\n",
+                "uid": "21312"
+            }
+        }
+    }
+}

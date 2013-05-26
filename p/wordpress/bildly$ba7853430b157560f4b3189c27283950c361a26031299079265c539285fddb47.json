@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/bildly": {
+            "0.1": {
+                "name": "wordpress\/bildly",
+                "version": "0.1",
+                "version_normalized": "0.1.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/bildly.0.1.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>If you have a \"door\" at <a href=\"http:\/\/bildly.com\" title=\"Your NOW page\">bildly<\/a>, this plugin \nlets you embed the picture on your door into your own wordpress blog or website.<\/p>\n\n<p>You can insert the shortcode wherever you want the picture to appear. It will \nalways be replaced by the current picture on your door.<\/p>\n\n<p>Syntax:<\/p>\n\n<pre><code>[bildly door=\"&#60;name&#62;\" width=\"&#60;width&#62;\" height=\"&#60;height&#62;\" style=\"&#60;style&#62;\" class=\"&#60;class&#62;\"]\n<\/code><\/pre>\n\n<p>Where:<\/p>\n\n<ul>\n<li><code>&#60;name&#62;<\/code> is the door name. This is the only required parameter.<\/li>\n<li><code>&#60;width&#62;<\/code> is the image width in px. Note that the maximum width of a bildly door image is 500px.<\/li>\n<li><code>&#60;height&#62;<\/code> is the image height in px. Note that the maximum heigth of a bildly door image is 500px.<\/li>\n<li><code>&#60;style&#62;<\/code> is the image style. The above width and height parameters are ignored if style is set. <\/li>\n<li><co",
+                "uid": "9581"
+            }
+        }
+    }
+}

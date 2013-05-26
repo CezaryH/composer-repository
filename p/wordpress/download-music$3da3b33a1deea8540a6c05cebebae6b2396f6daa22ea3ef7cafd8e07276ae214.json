@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/download-music": {
+            "0.1": {
+                "name": "wordpress\/download-music",
+                "version": "0.1",
+                "version_normalized": "0.1.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/download-music.0.1.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>This plugin was created to allow readers to download music that has been uploaded to a blog from a single page.<\/p>\n\n<p>The plugin looks through the posts table in the wordpress database for all attachments that have a mime type of audio\/*. It displays this when the reader looks at a page ( not a post ) named 'Downloads'. The reader can then select the songs they wish to download, click on \"Download All Selected\" and download a zip file of all of the files selected, or they can simply download the single song they wish to listen to. The list also lets users view the attachment page for a particular song, letting them leave comments.<\/p>",
+                "uid": "103941"
+            }
+        }
+    }
+}

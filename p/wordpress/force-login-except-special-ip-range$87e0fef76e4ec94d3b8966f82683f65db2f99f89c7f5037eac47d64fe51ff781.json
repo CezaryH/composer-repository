@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/force-login-except-special-ip-range": {
+            "0.2": {
+                "name": "wordpress\/force-login-except-special-ip-range",
+                "version": "0.2",
+                "version_normalized": "0.2.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/force-login-except-special-ip-range.0.2.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>Forces all anonymous users to login except the user connects from special IPv4 ranges or a specific IPv4 address. \nThis plugin was written to use wordpress in an intranet\/internet environment. Users who are connecting from the intranet\nshould see the blog without beeing forced to login. But users connection form the internet must log in to see the blog.\nAttention: Works only with IPv4! No IPv6 support!<\/p>",
+                "uid": "75605"
+            }
+        }
+    }
+}

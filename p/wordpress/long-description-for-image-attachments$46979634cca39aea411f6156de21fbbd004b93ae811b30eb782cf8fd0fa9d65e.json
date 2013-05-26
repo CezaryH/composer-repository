@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/long-description-for-image-attachments": {
+            "1.2": {
+                "name": "wordpress\/long-description-for-image-attachments",
+                "version": "1.2",
+                "version_normalized": "1.2.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/long-description-for-image-attachments.1.2.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>Automatically adds a longdesc attribute to your images when you insert them into the post body if a description has been written. A page will be created that shows the information that you typed into the description field of your image as well as a link back to the place in the document where the reader left off.<\/p>\n\n<p>You can create a custom template in your theme's folder to further style the Long Description page. I would suggest creating a copy of the longdesc-template.php file from this plugin in your active theme (or child theme) and reworking it to fit your needs.<\/p>",
+                "uid": "61140"
+            }
+        }
+    }
+}

@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/ducks-timestamp-inserter": {
+            "1.0": {
+                "name": "wordpress\/ducks-timestamp-inserter",
+                "version": "1.0",
+                "version_normalized": "1.0.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/ducks-timestamp-inserter.1.0.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>Allows the current UNIX Timestamp to be used in Wordpress Content, without the\npossible security risks associated with PHP 'eval' plugins.  Use \nfor the current timestamp.   and \n(where value is an integer) are both supported as well, producing timestamps in\nthe future or past respectively.<\/p>",
+                "uid": "97726"
+            }
+        }
+    }
+}

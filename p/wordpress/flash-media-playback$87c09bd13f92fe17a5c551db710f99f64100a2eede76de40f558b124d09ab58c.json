@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/flash-media-playback": {
+            "0.9": {
+                "name": "wordpress\/flash-media-playback",
+                "version": "0.9",
+                "version_normalized": "0.9.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/flash-media-playback.0.9.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>The Flash Media Playback plugin allows you to easily embed a video component hosted by Adobe based on the Open Source Media Framework (<a href=\"http:\/\/www.osmf.org\">http:\/\/www.osmf.org<\/a>).<\/p>\n\n<p><strong>Syntax:<\/strong> <code>[FMP] path to video file [\/FMP]<\/code><\/p>\n\n<p>There are a number of optional arguments you can specify, these include:<\/p>\n\n<ul>\n<li><strong>width<\/strong> - width of the video component<\/li>\n<li><strong>height<\/strong> - height of the video component<\/li>\n<li><strong>controlbar<\/strong> - video controlbar style (docked\/floating\/none)<\/li>\n<li><strong>autohide<\/strong> - automatically hide the control bar (true\/false)<\/li>\n<li><strong>poster<\/strong> - full path to an image to show before video loads<\/li>\n<li><strong>playbutton<\/strong> - whether or not to show a play button overlay (true\/false)<\/li>\n<li><strong>autoplay<\/strong> - whether video should automatically start playing (true\/false)<\/li>\n<li><strong>loop<\/strong> - specify if video playback shoul",
+                "uid": "64775"
+            }
+        }
+    }
+}

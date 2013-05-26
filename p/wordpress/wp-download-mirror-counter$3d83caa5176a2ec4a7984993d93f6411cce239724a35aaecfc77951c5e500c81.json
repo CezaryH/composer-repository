@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/wp-download-mirror-counter": {
+            "1.1": {
+                "name": "wordpress\/wp-download-mirror-counter",
+                "version": "1.1",
+                "version_normalized": "1.1.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/wp-download-mirror-counter.1.1.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>This plugin shows you , hits of your download . You can add 5 mirrors server for your files.<\/p>\n\n<p>Languages:<\/p>\n\n<ul>\n<li>Persian <a href=\"http:\/\/rezaonline.net\/blog\/\" title=\"\u0631\u0636\u0627 \u0634\u06cc\u062e\u0644\u0647\">Reza-Sh<\/a><\/li>\n<li>English <a href=\"http:\/\/rezaonline.net\/blog\/\">Reza-Sh<\/a><\/li>\n<\/ul>\n\n<p>Send email to me for your language Translations pack: reza19sh[a]gmail[dot].com\n(In plugins package have .pot file)<\/p>\n\n<p>Features:<\/p>\n\n<ul>\n<li>Counts your download files<\/li>\n<li>Easy installation and use<\/li>\n<li>Settings for best viwed<\/li>\n<li>Have a simple download chart<\/li>\n<li>You can add 5 mirrors link for your file<\/li>\n<\/ul>\n\n<p>Usage:<\/p>\n\n<ol>\n<li>upload your file in max 5 servers like 4shared , ...<\/li>\n<li>go to add files in plugins menu and fill it ,<\/li>\n<li>In your post\/page for viewed list of mirrors use [dlmc id=\"1\"] <\/li>\n<li>In your post\/page for viewed hits of downloaded files use [dlmc countid=\"1\"]<\/li>\n<\/ol>",
+                "uid": "29733"
+            }
+        }
+    }
+}

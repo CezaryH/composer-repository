@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/solomail": {
+            "1.3": {
+                "name": "wordpress\/solomail",
+                "version": "1.3",
+                "version_normalized": "1.3.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/solomail.1.3.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>SoloMail is a WordPress plugin designed to email an HTML-formatted copy of a single post to site subscribers or a mailing list. There are quite a few solutions out there designed to send batch digests of recent posts to subscribers on a scheduled basis. SoloMail solves a different problem - you may want to cherry pick just certain posts to go out via email, and you may want the ability to \"send now.\"<\/p>\n\n<p>The subscriber list can EITHER be the group of all registered users on a site OR a single address, such as a mailing list. Though you can use SoloMail either way, I recommend sending through a proper mailing list, which provides advantages such as handling and unsubscribing bounced\/dead addresses, and metered sending for large lists.<\/p>\n\n<p>Please send bug reports \/ requests via \n<a href=\"http:\/\/hosting.birdhouse.org\/contact\/\" rel=\"nofollow\">http:\/\/hosting.birdhouse.org\/contact\/<\/a><\/p>",
+                "uid": "54071"
+            }
+        }
+    }
+}

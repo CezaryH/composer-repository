@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/photofade": {
+            "0.2.1": {
+                "name": "wordpress\/photofade",
+                "version": "0.2.1",
+                "version_normalized": "0.2.1.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/photofade.0.2.1.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<blockquote>\n  <p>This plugin takes the images attached to a post or page and creates a looping slideshow, just like the one above. It&#8217;s very simple right now, but I&#8217;ve got some other neat ideas for it in the future.<\/p>\n  \n  <p>Usage is simple:\n  <strong>[photofade]<\/strong> &#8211; Displays slideshow of images attached to your post\/page by Menu Order. Defaults to 4 seconds. \n  <strong>[photofade time=&#8217;5000&#8242;]<\/strong> &#8211; Displays the same slideshow with 5 second intervals, configured via milliseconds. \n  <strong>[photofade order=&#8217;random&#8242;]<\/strong> &#8211; Displays the slideshow in random order. Options are 'sequence'(default), 'random' or 'random_start'\n  <strong>[photofade height=&#8217;350&#8242;]<\/strong> &#8211; Displays the slideshow at 350px tall. Control the height in pixels with this. Can also be set to 'variable' to allow for different image heights. Defaults to smallest image height.\n  <strong>[photofade styles=&#8217;off&#8217;]<\/str",
+                "uid": "38376"
+            }
+        }
+    }
+}

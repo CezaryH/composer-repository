@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/author-name-in-rss-feed": {
+            "0.1": {
+                "name": "wordpress\/author-name-in-rss-feed",
+                "version": "0.1",
+                "version_normalized": "0.1.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/author-name-in-rss-feed.0.1.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>Do you have multiple authors creating post\/pages that would like to show up in all RSS Readers.  This simple plugin changes the title in your RSS feeds to include the Title and then the Author's name.  In the settings area, you choose what the separator is between the Title and Author name and how its spaced.<\/p>",
+                "uid": "69864"
+            }
+        }
+    }
+}

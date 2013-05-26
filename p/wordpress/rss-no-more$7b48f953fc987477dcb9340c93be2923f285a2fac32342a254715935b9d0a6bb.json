@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/rss-no-more": {
+            "1.5": {
+                "name": "wordpress\/rss-no-more",
+                "version": "1.5",
+                "version_normalized": "1.5.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/rss-no-more.1.5.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>This plugin will cut your RSS feeds at the \"more\" tag. It will enable you subscriber to see what you want them to see as on the home of your blog.<\/p>\n\n<p>It will also add a customizable link at the bottom to the complete article and optionally a fully configurable footer to avoid robots to steal your content.<\/p>\n\n<p>It will not work if you choose 'partial' feeds in the WP configuration.<\/p>",
+                "uid": "73276"
+            }
+        }
+    }
+}

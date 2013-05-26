@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/index-that": {
+            "1.1": {
+                "name": "wordpress\/index-that",
+                "version": "1.1",
+                "version_normalized": "1.1.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/index-that.1.1.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>Use this to make an index of a category on to a page. You are able to sort them either by date or title\nor other post options. Also can have them in multiple rows. The amount of posts per page is based on the amount per page\ndivided by how many rows.<\/p>\n\n<p>Options:\ncategory (cat) Ex. cat=\"Uncategorized\"  Default: Uncategorized\nsort (sort) Ex. sort=\"post_date\"  Default: post_date\norder (order) Ex. 'order' =&#62; 'DESC'  Default: ASC\ncolumns (col) Ex. col=\"2\"  Default: 1\nper page (perpg) EX. perpg=\"10\"  Default: 60<\/p>\n\n<p>Use the shortcode to add an index to a page\n[index-that cat=\"Awesome Category\" col=\"2\"  perpg=\"2\" sort=\"post_date\"]<\/p>",
+                "uid": "40775"
+            }
+        }
+    }
+}

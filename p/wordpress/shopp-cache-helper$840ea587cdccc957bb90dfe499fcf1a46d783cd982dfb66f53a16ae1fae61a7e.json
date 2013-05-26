@@ -1,0 +1,57 @@
+{
+    "packages": {
+        "wordpress\/shopp-cache-helper": {
+            "0.2": {
+                "name": "wordpress\/shopp-cache-helper",
+                "version": "0.2",
+                "version_normalized": "0.2.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/shopp-cache-helper.0.2.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>Helps Shopp integrate with caching plugins. Currently designed for W3 Total Cache, but the cookie strategy will work for any cache plugin that monitors cookies. \nOther caching plugins will require manual configuration, but W3 Total Cache is configured automatically.\n* Automatically integrates with W3 Total Cache to configure caching settings - no other configuration is required!\n* Automatically configures common Shopp paths that should not be cached (W3 Total Cache only)\n* Sets a cookie whenever the cart is updated. If the cart becomes empty the cookie is purged. \n* Sets DONOTCACHEPAGE constant on 'init' action to make sure that pages with shopping cart items are never cached.\n* Clears the cache when product, category etc. details are changed.<\/p>",
+                "uid": "58633"
+            },
+            "0.3": {
+                "name": "wordpress\/shopp-cache-helper",
+                "version": "0.3",
+                "version_normalized": "0.3.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/shopp-cache-helper.0.3.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>Helps Shopp integrate with caching plugins. Currently designed for W3 Total Cache, but the cookie strategy will work for any cache plugin that monitors cookies. \nOther caching plugins will require manual configuration, but W3 Total Cache is configured automatically.\n* Automatically integrates with W3 Total Cache to configure caching settings - no other configuration is required!\n* Automatically configures common Shopp paths that should not be cached (W3 Total Cache only)\n* Sets a cookie whenever the cart is updated. If the cart becomes empty the cookie is purged. \n* Sets DONOTCACHEPAGE constant on 'init' action to make sure that pages with shopping cart items are never cached.\n* Clears the cache when product, category etc. details are changed.<\/p>",
+                "uid": "58632"
+            },
+            "1.0": {
+                "name": "wordpress\/shopp-cache-helper",
+                "version": "1.0",
+                "version_normalized": "1.0.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/shopp-cache-helper.1.0.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>Helps Shopp integrate with caching plugins. Currently designed for W3 Total Cache, but the cookie strategy will work for any cache plugin that monitors cookies. \nOther caching plugins will require manual configuration, but W3 Total Cache is configured automatically.\n* Automatically integrates with W3 Total Cache to configure caching settings - no other configuration is required!\n* Automatically configures common Shopp paths that should not be cached (W3 Total Cache only)\n* Sets a cookie whenever the cart is updated. If the cart becomes empty the cookie is purged. \n* Sets DONOTCACHEPAGE constant on 'init' action to make sure that pages with shopping cart items are never cached.\n* Clears the cache when product, category etc. details are changed.<\/p>",
+                "uid": "58631"
+            }
+        }
+    }
+}

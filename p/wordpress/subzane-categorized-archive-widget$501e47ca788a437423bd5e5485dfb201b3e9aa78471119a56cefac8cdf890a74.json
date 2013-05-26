@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/subzane-categorized-archive-widget": {
+            "1.0": {
+                "name": "wordpress\/subzane-categorized-archive-widget",
+                "version": "1.0",
+                "version_normalized": "1.0.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/subzane-categorized-archive-widget.1.0.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>This widget that displays an archive for the current selected category. On non-category pages a standard archive is displayed.<\/p>\n\n<ul>\n<li>On a post page the widget will only display an archive for posts in that category<\/li>\n<li>On a category listing the widget will only display an archive for posts in that category<\/li>\n<li>On the front page or in a search result or any other page that doesn't reside in a category a standard archive will be displayed.<\/li>\n<\/ul>",
+                "uid": "91704"
+            }
+        }
+    }
+}

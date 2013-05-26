@@ -1,0 +1,40 @@
+{
+    "packages": {
+        "wordpress\/wp-bots-analytics": {
+            "2.0.0": {
+                "name": "wordpress\/wp-bots-analytics",
+                "version": "2.0.0",
+                "version_normalized": "2.0.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/wp-bots-analytics.2.0.0.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>This plugin enables <strong>tracking spiders and bots via Google analytics<\/strong> without harc-coding your template files. Tracking bots and spiders on your website can help you understanding if all pages are visited by search engines or some of them have crawling problems. It is also useful to conduct SEO tests, if have not access to your server logs.<\/p>\n\n<p>In order to make this plugin work, you need 2 thing:<\/p>\n\n<ol>\n<li><p>A <strong>new profile<\/strong> within your Google Analytics account. Select a \"Add a Profile for a new domain\". Name it as you like (I suggest bots.mydomain.com). Take note of the <strong>Web Property ID<\/strong> (UA-XXXXXX-YY).<\/p><\/li>\n<li><p>The Google identifier of your domain, that's the value of your <strong>_utma cookie<\/strong> on your website. Yo find this, use Mozilla Firefox (Tools&#62;&#62; Options&#62;&#62;&#62; Show Cookies). Find your site, expand and look for the cookie named \"_utma\" (look at the first screenshot).<\/p><\/li>\n<\/ol>\n\n<p>Once y",
+                "uid": "44762"
+            },
+            "2.0.1": {
+                "name": "wordpress\/wp-bots-analytics",
+                "version": "2.0.1",
+                "version_normalized": "2.0.1.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/wp-bots-analytics.2.0.1.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>This plugin enables <strong>tracking spiders and bots via Google analytics<\/strong> without harc-coding your template files. Tracking bots and spiders on your website can help you understanding if all pages are visited by search engines or some of them have crawling problems. It is also useful to conduct SEO tests, if have not access to your server logs.<\/p>\n\n<p>In order to make this plugin work, you need 2 thing:<\/p>\n\n<ol>\n<li><p>A <strong>new profile<\/strong> within your Google Analytics account. Select a \"Add a Profile for a new domain\". Name it as you like (I suggest bots.mydomain.com). Take note of the <strong>Web Property ID<\/strong> (UA-XXXXXX-YY).<\/p><\/li>\n<li><p>The Google identifier of your domain, that's the value of your <strong>_utma cookie<\/strong> on your website. Yo find this, use Mozilla Firefox (Tools&#62;&#62; Options&#62;&#62;&#62; Show Cookies). Find your site, expand and look for the cookie named \"_utma\" (look at the first screenshot).<\/p><\/li>\n<\/ol>\n\n<p>Once y",
+                "uid": "44761"
+            }
+        }
+    }
+}

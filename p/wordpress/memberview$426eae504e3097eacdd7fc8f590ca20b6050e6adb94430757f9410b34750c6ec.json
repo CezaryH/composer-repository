@@ -1,0 +1,40 @@
+{
+    "packages": {
+        "wordpress\/memberview": {
+            "1": {
+                "name": "wordpress\/memberview",
+                "version": "1",
+                "version_normalized": "1.0.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/memberview.1.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>Adds [mv]{content}[\/mv] shortcode controller to enable specific post\/page content to be displayed by logged in members only. Optional cap=\"capability\" attribute is available for assigning a specific user capability to the content.\nAlso adds [nmv]{content}[\/nmv] shortcode controller to enable specific post\/page content to be displayed by non-logged in guests only.<\/p>",
+                "uid": "64698"
+            },
+            "2": {
+                "name": "wordpress\/memberview",
+                "version": "2",
+                "version_normalized": "2.0.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/memberview.2.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>Adds [mv]{content}[\/mv] shortcode controller to enable specific post\/page content to be displayed by logged in members only. Optional cap=\"capability\" attribute is available for assigning a specific user capability to the content.\nAlso adds [nmv]{content}[\/nmv] shortcode controller to enable specific post\/page content to be displayed by non-logged in guests only.<\/p>",
+                "uid": "64697"
+            }
+        }
+    }
+}

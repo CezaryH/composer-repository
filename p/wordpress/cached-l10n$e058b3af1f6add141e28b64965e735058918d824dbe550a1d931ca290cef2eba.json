@@ -1,0 +1,40 @@
+{
+    "packages": {
+        "wordpress\/cached-l10n": {
+            "0.2.1": {
+                "name": "wordpress\/cached-l10n",
+                "version": "0.2.1",
+                "version_normalized": "0.2.1.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/cached-l10n.0.2.1.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>Upon inspection using xhProf, I realized that the PHP implementation loading the MO files is really slow.\nFrom my tests, about 25% to 40% of the time Wordpress spends rendering the page is actually spent locating, parsing and merging all the translation files.<\/p>\n\n<p>This plugin works by caching the whole $l10n variable holding all the text domains and overridding the <code>load_textdomain<\/code>.<\/p>\n\n<p>Caching is done using serialize and written to <code>wp-content\/uploads\/l10n.pson<\/code>.\nBe sure to regenerate the cache if a .mo changes.<\/p>\n\n<h4>TODO<\/h4>\n\n<ul>\n<li>Provide a better UI page<\/li>\n<\/ul>",
+                "uid": "8670"
+            },
+            "0.2.2": {
+                "name": "wordpress\/cached-l10n",
+                "version": "0.2.2",
+                "version_normalized": "0.2.2.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/cached-l10n.0.2.2.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>Upon inspection using xhProf, I realized that the PHP implementation loading the MO files is really slow.\nFrom my tests, about 25% to 40% of the time Wordpress spends rendering the page is actually spent locating, parsing and merging all the translation files.<\/p>\n\n<p>This plugin works by caching the whole $l10n variable holding all the text domains and overridding the <code>load_textdomain<\/code>.<\/p>\n\n<p>Caching is done using serialize and written to <code>wp-content\/uploads\/l10n.pson<\/code>.\nBe sure to regenerate the cache if a .mo changes.<\/p>\n\n<h4>TODO<\/h4>\n\n<ul>\n<li>Provide a better UI page<\/li>\n<\/ul>",
+                "uid": "8669"
+            }
+        }
+    }
+}

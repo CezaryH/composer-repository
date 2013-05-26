@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/svn-upgrade": {
+            "1.0": {
+                "name": "wordpress\/svn-upgrade",
+                "version": "1.0",
+                "version_normalized": "1.0.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/svn-upgrade.1.0.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>Don't have access to your hosting provider so you can do subversion update? Or your hosting doesn't have subversion installed. Well, this is where my plug-in comes in!<\/p>\n\n<p>SVN upgrade uses database (wp_svn table) in which it stores the latest repository revision. If a new revision is out, you can do the upgrade, otherwise it will tell you that it is on the latest version.<\/p>",
+                "uid": "102557"
+            }
+        }
+    }
+}

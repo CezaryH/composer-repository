@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/user-resolution-logger": {
+            "1.0": {
+                "name": "wordpress\/user-resolution-logger",
+                "version": "1.0",
+                "version_normalized": "1.0.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/user-resolution-logger.1.0.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>The User Resolution Logger Plugin for WordPress lets blog owners log the resolution depth of users who visit their WordPress blog. The logger is programmed to log visitors only once on their first visit. This ensures a level of accuracy of the data being collected. The usefulness of this plugin revolves around making decisions, which might prove to be crucial. It can be used to determine the best width to be used for the website based on the most common resolution depth used by the visitors. Until a while back when dealing with fixed layouts most websites were created taking the resolution depth of 1024X768 into consideration so the maximum width that was usually used for a design was 995px. However, that depth is now on a decline according to various sources and most users are now using a higher resolution display. Therefore, by using this plugin, a website owner can determine what the average visitor uses for resolution and make their site design decision based on that information",
+                "uid": "83091"
+            }
+        }
+    }
+}

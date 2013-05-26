@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/gravity-forms-reject-disposable-emails": {
+            "1.0": {
+                "name": "wordpress\/gravity-forms-reject-disposable-emails",
+                "version": "1.0",
+                "version_normalized": "1.0.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/gravity-forms-reject-disposable-emails.1.0.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>Install this plugin into any WordPress system with a working Gravity Forms plugin and all known disposable email address hosts will be rejected and fail validation. This only checks the field type \"email\" and does not require any configuration or special settings. Its global, if its turned on, then its working.<\/p>\n\n<p>Fork away: <a href=\"https:\/\/github.com\/ethanpil\/gravityforms-reject-disposable-emails\" rel=\"nofollow\">https:\/\/github.com\/ethanpil\/gravityforms-reject-disposable-emails<\/a><\/p>\n\n<p>Thanks to adamloving for the initial list: <a href=\"https:\/\/gist.github.com\/adamloving\/4401361\" rel=\"nofollow\">https:\/\/gist.github.com\/adamloving\/4401361<\/a><\/p>",
+                "uid": "8084"
+            }
+        }
+    }
+}

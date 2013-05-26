@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/pokemon-trainer": {
+            "1.0": {
+                "name": "wordpress\/pokemon-trainer",
+                "version": "1.0",
+                "version_normalized": "1.0.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/pokemon-trainer.1.0.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>Set up a Pokemon team through the settings page and allows you to display it wherever you want using the shortcode [pkmn_trainer].<\/p>\n\n<p><strong>Features<\/strong>\n- Display between 1 &#8211; 6 pokemon<\/p>\n\n<ul>\n<li>Display a trainer sprite!<\/li>\n<\/ul>",
+                "uid": "20357"
+            }
+        }
+    }
+}

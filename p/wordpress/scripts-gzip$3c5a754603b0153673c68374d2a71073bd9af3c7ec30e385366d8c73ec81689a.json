@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/scripts-gzip": {
+            "0.9.3": {
+                "name": "wordpress\/scripts-gzip",
+                "version": "0.9.3",
+                "version_normalized": "0.9.3.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/scripts-gzip.0.9.3.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>A Wordpress plugin to merge and compress the CSS and JS links on the page. There are several optimizer plugins available but this one was written to be generally effective (not have tons of options) and easy to install and remove (no settings are saved).<\/p>\n\n<p>It does not cache, minify, have a \"PRO\" support forum that costs money, keep any logs or have any fancy graphics. It only does one thing, merge+compress, and it does it relatively well.<\/p>\n\n<p>The plugin rewrites url() addresses in the CSS files if necessary, leaving http:\/\/ and \/ links alone. If it breaks anything, don't be afraid to email me (edward@mindreantre.se) and tell me what breaks and where (preferrably with a link so I can see for myself).<\/p>\n\n<p>For scripts_gzip to work your theme must:<\/p>\n\n<ul>\n<li>Have a get_header() command<\/li>\n<li>Have a wp_footer() command<\/li>\n<li>Use quotation marks in the @import(\"filename\") rules in the CSS files<\/li>\n<\/ul>\n\n<p>If there are extra css or js files being included that y",
+                "uid": "74505"
+            }
+        }
+    }
+}

@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/session-manager": {
+            "2.1": {
+                "name": "wordpress\/session-manager",
+                "version": "2.1",
+                "version_normalized": "2.1.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/session-manager.2.1.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>It gives you the following information:<\/p>\n\n<pre><code>* The number of visitors in the last day (configurable) (v1.0)\n* The number of pages each visitor looked at (v1.0)\n* Which pages have been looked at (v1.0)\n* The times each page was visited (v1.0)\n* The visitor count displayed per page (v1.1)\n* Recent site activity (2.0)\n* Wordpress 2.7 support and restructure (v2.0)\n* Support for user excludes by session_id, user_id or ip address (v2.0)\n* Support for page excludes (v2.0)\n* Delete data functionality (v2.0)\n<\/code><\/pre>\n\n<p>That\u0092s it, no more, no less!<\/p>\n\n<p>I find that a lot of stats plugins give a little too much information and in doing so making both the stats harder to read and analyse. Session Manager differs because what it provides is a very light weight logging implementation with a simple yet effective front end allowing you to view the data in a number of ways.<\/p>\n\n<p>I have been using it on this site and newmedias.co.uk since mid 2008 and it has been instrumenta",
+                "uid": "94832"
+            }
+        }
+    }
+}

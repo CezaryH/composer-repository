@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/debt-reduction-calculator": {
+            "1.1": {
+                "name": "wordpress\/debt-reduction-calculator",
+                "version": "1.1",
+                "version_normalized": "1.1.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/debt-reduction-calculator.1.1.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>This plugin displays functional debt reduction\/debt payoff calculator. It shows people how they can pay debt faster or how much they need to pay extra each month in order to be debt free after chosen period of time.<\/p>\n\n<p>To display the calculator simply place <code>{{debt-reduction-calculator}}<\/code> mask in the content of a page or post. Of course the plugin should be activated first.<\/p>",
+                "uid": "66500"
+            }
+        }
+    }
+}

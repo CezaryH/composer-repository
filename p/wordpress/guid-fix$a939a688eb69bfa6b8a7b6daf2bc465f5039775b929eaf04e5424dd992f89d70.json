@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/guid-fix": {
+            "0.2.0": {
+                "name": "wordpress\/guid-fix",
+                "version": "0.2.0",
+                "version_normalized": "0.2.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/guid-fix.0.2.0.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>This is no longer needed because a change took place quickly between wordpress 2.5 and 2.6 that fixed it instead<\/p>\n\n<p>This used to:\nFix the GUID in the database on save, to make sure its always the same as the permalink. Wordpress 2.5+ seems not to save a blank GUID.<\/p>",
+                "uid": "74852"
+            }
+        }
+    }
+}

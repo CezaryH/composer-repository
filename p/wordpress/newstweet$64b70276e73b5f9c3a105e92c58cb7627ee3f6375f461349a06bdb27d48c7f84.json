@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/newstweet": {
+            "1.1": {
+                "name": "wordpress\/newstweet",
+                "version": "1.1",
+                "version_normalized": "1.1.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/newstweet.1.1.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>Set a keyword or phrase and NewsTweet constantly pulls twitter posts containing that word or phrase. Useful for bands or anyone with a specific focus for their blog. NewsTweet uses AJAX and the Twitter API so your content stays fresh without the need to refresh the page.<\/p>",
+                "uid": "94388"
+            }
+        }
+    }
+}

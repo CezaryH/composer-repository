@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/wpmu-metatags": {
+            "1.0": {
+                "name": "wordpress\/wpmu-metatags",
+                "version": "1.0",
+                "version_normalized": "1.0.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/wpmu-metatags.1.0.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>Developed for WordPress MU, this plugin gives you the ability to set custom description and keywords meta tags in the head area of your site.<\/p>\n\n<p>The plugin is helpful because it gives the site admin the ability to set keywords and description for every page on every blog (site wide) and then it allows each individual blog admin to set their own description and keywords. The plugin then combines them into one before inserting the result into the head of your website.<\/p>\n\n<p>This is my first plugin for WPMU. Please let me know if you find anything that I should be doing differently.<\/p>\n\n<p>To adjust the site wide keywords and description:\n* Sign in as a site administrator\n* Navigate to the Site Admin page\n* Click on the Site MetaTags link.<\/p>\n\n<p>To adjust the keywords and description for a single blog:\n* Login as the blog administrator\n* Navigate to the settings tab in the backend.\n* Click on the MetaTags link<\/p>",
+                "uid": "99361"
+            }
+        }
+    }
+}

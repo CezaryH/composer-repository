@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/bbpress-topic-sections": {
+            "1.0.1": {
+                "name": "wordpress\/bbpress-topic-sections",
+                "version": "1.0.1",
+                "version_normalized": "1.0.1.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/bbpress-topic-sections.1.0.1.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>bbPress Topic Sections allows to split the topic content field into several sections, allowing to setup more detailled topic forums; eg. for having an ads forum.<\/p>\n\n<p>The content of the topic sections is just added to the post content (when saving a post); and extracted when editing\/displaying it.\nWhich means that it gracefully degrades if you choose at some point to disable the plugin !<\/p>\n\n<p>In the Administration Panel, there will be a new box \"Topic Sections\" on the forums pages, that works like regular post tags.\nIf you add some topics sections there, it will add new section fields when creating \/ editing a topic under this forum.<\/p>\n\n<p>Under Forums &#62; Topic Sections, you can edit each of your topic sections to add a description (that will be shown on the forms) and setup\nseveral parameters for the section :<\/p>\n\n<ul>\n<li>section required (validation not yet implemented)<\/li>\n<li>maximum characters allowed (validation not yet implemented)<\/li>\n<li>WYSIWYG editor enable",
+                "uid": "11452"
+            }
+        }
+    }
+}

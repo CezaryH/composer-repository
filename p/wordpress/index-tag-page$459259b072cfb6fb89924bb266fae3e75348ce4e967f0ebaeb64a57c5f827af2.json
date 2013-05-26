@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/index-tag-page": {
+            "1.2": {
+                "name": "wordpress\/index-tag-page",
+                "version": "1.2",
+                "version_normalized": "1.2.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/index-tag-page.1.2.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>With this plugin, you will be able to display an index with all your tags, sort alphabeticaly.\nThe shortcode is <code>[indextag nb=XX ul=YY li=ZZ letter=LL menu=1\/0]<\/code>.<\/p>\n\n<ul>\n<li>XX is the number of tag that you want to display <\/li>\n<li>YY is the class of the ul if you need it<\/li>\n<li>ZZ is the class of the il if you need it<\/li>\n<li>LL is the class of the span containing the index letters<\/li>\n<li>1 display the menu &#124; 0 hide the menu<\/li>\n<\/ul>",
+                "uid": "91887"
+            }
+        }
+    }
+}

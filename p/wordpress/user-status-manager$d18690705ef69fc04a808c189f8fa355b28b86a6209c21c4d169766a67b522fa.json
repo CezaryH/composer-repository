@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/user-status-manager": {
+            "2.1.1": {
+                "name": "wordpress\/user-status-manager",
+                "version": "2.1.1",
+                "version_normalized": "2.1.1.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/user-status-manager.2.1.1.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>User Status Manager provides admin to disable or enable user account for specific number of days.\nThe only setting the admin have to do is select the status of the user, set the \"From Date\" and \"To Date\" value and click on save.<\/p>\n\n<p>Note: Immediately after installation of plugin go to \"Status-Manager\", Select all users and click on save. Then you are ready to go :)<\/p>\n\n<p>Just in case if there is any scenario where the inactive user login and is redirected to home page then follow small edit in the code mentioned <a href=\"http:\/\/wordpress.org\/support\/topic\/resolved-home-redirect-after-failed-login-attempt\">Here<\/a><\/p>",
+                "uid": "15658"
+            }
+        }
+    }
+}

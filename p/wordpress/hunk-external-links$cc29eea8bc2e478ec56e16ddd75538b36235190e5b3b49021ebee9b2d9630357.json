@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/hunk-external-links": {
+            "3.0.5": {
+                "name": "wordpress\/hunk-external-links",
+                "version": "3.0.5",
+                "version_normalized": "3.0.5.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/hunk-external-links.3.0.5.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>Hunk external links plugin for WordPress lets you process outgoing links differently from internal links.<\/p>\n\n<p>You can configure the plugin to:<\/p>\n\n<ul>\n<li>Process all outgoing links, rather than only those within your entries' content.<\/li>\n<li>Add an external link icon to outgoing links. You can use a class=\"noicon\" attribute on links to override this.<\/li>\n<li>Open outgoing links in new windows. Note that this can damage your visitor's trust towards your site in that they can think your site used a pop-under.<\/li>\n<li>Add rel=nofollow to the links. This is not very nice for those you're linking to, but useful to avoid PR leak.<\/li>\n<li>Open outgoing links in your own page, Then you can go back.<\/li>\n<\/ul>",
+                "uid": "94565"
+            }
+        }
+    }
+}

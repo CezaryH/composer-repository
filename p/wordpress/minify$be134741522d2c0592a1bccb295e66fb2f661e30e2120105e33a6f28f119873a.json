@@ -1,0 +1,57 @@
+{
+    "packages": {
+        "wordpress\/minify": {
+            "0.1": {
+                "name": "wordpress\/minify",
+                "version": "0.1",
+                "version_normalized": "0.1.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/minify.0.1.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>Similar to what we use on eMusic - this software is still experimental, but take a look!<\/p>\n\n<p>Automagically concatenates JS and CSS files that are output in wp_head() and wp_footer() - stores \/ serves them from Memcached (if installed) or Database. In a load-balanced environment, the generation of flat files can be expensive and hard to distribute. Minify takes advantage of Memcached and Site Options \/ Transients to do the work once and share it among all servers in your cluster. File names are dynamically-generated to allow cache-busting of a CDN like Akamai that doesn't always cache-bust by query string.<\/p>\n\n<p>New .htaccess rule!<\/p>\n\n<pre><code>RewriteRule ^([_0-9a-zA-Z-]+)?\/?wp-content\/cache\/minify-(.+)-(.*).(css&#124;js)$ \/wp-content\/plugins\/minify\/make.php?hash=$2&#38;type=$4&#38;incr=$3&#38;site=$1 [L]<\/code><\/pre>",
+                "uid": "24539"
+            },
+            "0.1.1": {
+                "name": "wordpress\/minify",
+                "version": "0.1.1",
+                "version_normalized": "0.1.1.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/minify.0.1.1.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>Similar to what we use on eMusic - this software is still experimental, but take a look!<\/p>\n\n<p>Automagically concatenates JS and CSS files that are output in wp_head() and wp_footer() - stores \/ serves them from Memcached (if installed) or Database. In a load-balanced environment, the generation of flat files can be expensive and hard to distribute. Minify takes advantage of Memcached and Site Options \/ Transients to do the work once and share it among all servers in your cluster. File names are dynamically-generated to allow cache-busting of a CDN like Akamai that doesn't always cache-bust by query string.<\/p>\n\n<p>New .htaccess rule!<\/p>\n\n<pre><code>RewriteRule ^([_0-9a-zA-Z-]+)?\/?wp-content\/cache\/minify-(.+)-(.*).(css&#124;js)$ \/wp-content\/plugins\/minify\/make.php?hash=$2&#38;type=$4&#38;incr=$3&#38;site=$1 [L]<\/code><\/pre>",
+                "uid": "24538"
+            },
+            "0.2": {
+                "name": "wordpress\/minify",
+                "version": "0.2",
+                "version_normalized": "0.2.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/minify.0.2.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>Similar to what we use on eMusic - this software is still experimental, but take a look!<\/p>\n\n<p>Automagically concatenates JS and CSS files that are output in wp_head() and wp_footer() - stores \/ serves them from Memcached (if installed) or Database. In a load-balanced environment, the generation of flat files can be expensive and hard to distribute. Minify takes advantage of Memcached and Site Options \/ Transients to do the work once and share it among all servers in your cluster. File names are dynamically-generated to allow cache-busting of a CDN like Akamai that doesn't always cache-bust by query string.<\/p>\n\n<p>New .htaccess rule!<\/p>\n\n<pre><code>RewriteRule ^([_0-9a-zA-Z-]+)?\/?wp-content\/cache\/minify-(.+)-(.*).(css&#124;js)$ \/wp-content\/plugins\/minify\/make.php?hash=$2&#38;type=$4&#38;incr=$3&#38;site=$1 [L]<\/code><\/pre>",
+                "uid": "24537"
+            }
+        }
+    }
+}

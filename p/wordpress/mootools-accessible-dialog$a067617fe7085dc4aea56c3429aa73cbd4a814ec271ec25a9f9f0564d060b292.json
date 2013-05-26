@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/mootools-accessible-dialog": {
+            "1.0": {
+                "name": "wordpress\/mootools-accessible-dialog",
+                "version": "1.0",
+                "version_normalized": "1.0.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/mootools-accessible-dialog.1.0.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>MooTools Accessible Dialog is a dialog displaying the most recent tweets of a specified Twitter user and which uses the MooTools WAI-ARIA enabled dialog.<\/p>\n\n<h3>How to Use the Dialog<\/h3>\n\n<p>While the dialog contains focus, the tab order will wrap inside the dialog. If the dialog is modal, it is not possible to move focus to the main page until the dialog is closed.<\/p>\n\n<p>Tab \/ Shift+Tab: Moves the focus inside the dialog\nSpace \/ Enter: Activates button\nEsc: Closes the dialog (Same as activating the Cancel button)<\/p>",
+                "uid": "21038"
+            }
+        }
+    }
+}

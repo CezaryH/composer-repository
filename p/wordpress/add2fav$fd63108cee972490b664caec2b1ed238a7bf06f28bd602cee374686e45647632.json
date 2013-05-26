@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/add2fav": {
+            "1.0": {
+                "name": "wordpress\/add2fav",
+                "version": "1.0",
+                "version_normalized": "1.0.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/add2fav.1.0.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>Insert a shortcode into your page: [add2fav-link] or insert a widget \"Add to Favorites\" in your sidebar o somewhere else, this will show an \"Add to Favorites\" ajax link. This link will automatically show the appropiated label \"Add to Favorites\" or \"Remove from Favorites\" depending on the current logged on user, you can edit those text via widget admin panel.<\/p>\n\n<p>When the current user clicks over it then the current browser URL is saved into the user metadata, so you can show the saved URL's for this user using the \"My Favorites\" widget provided by this plugin too.<\/p>",
+                "uid": "7081"
+            }
+        }
+    }
+}

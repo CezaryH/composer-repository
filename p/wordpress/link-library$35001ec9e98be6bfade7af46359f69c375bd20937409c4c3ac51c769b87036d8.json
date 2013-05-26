@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/link-library": {
+            "5.7.9": {
+                "name": "wordpress\/link-library",
+                "version": "5.7.9",
+                "version_normalized": "5.7.9.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/link-library.5.7.9.5.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>This plugin is used to be able to create a page on your web site that will contain a list of all of the link categories that you have defined inside of the Links section of the Wordpress administration, along with all links defined in these categories. The user can select a sub-set of categories to be displayed or not displayed. Link Library also offers a mode where only one category is shown at a time, using AJAX or HTML Get queries to load other categories based on user input. It can display a search box and find results based on queries. It can also display a form to accept user submissions and allow the site administrator to moderate them before listing the new entries. Finally, it can generate an RSS feed for your link collection so that people can be aware of additions to your link library.<\/p>\n\n<p>For links that carry RSS feed information, Link Library can display a preview of the latest feed items inline with the all links or in a separate preview window.<\/p>\n\n<p>This plugin",
+                "uid": "114820"
+            }
+        }
+    }
+}

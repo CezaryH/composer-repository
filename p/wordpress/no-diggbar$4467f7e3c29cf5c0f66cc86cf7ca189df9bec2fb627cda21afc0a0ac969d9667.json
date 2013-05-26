@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/no-diggbar": {
+            "1.0": {
+                "name": "wordpress\/no-diggbar",
+                "version": "1.0",
+                "version_normalized": "1.0.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/no-diggbar.1.0.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>The DiggBar is a URL shortening service that puts your website within a frame on digg.com. As a result, the user sees Digg's URL, rather than your URL in their address bar, no matter which page they navigate to on your site. You can see an example DiggBar URL that points to google.com: <a href=\"http:\/\/digg.com\/http:\/\/google.com\">http:\/\/digg.com\/http:\/\/google.com<\/a> which is automatically converted to <a href=\"http:\/\/digg.com\/d1nYVs\">http:\/\/digg.com\/d1nYVs<\/a>.<\/p>\n\n<p>The <strong>No DiggBar<\/strong> WordPress plugin automatically redirects anyone using the DiggBar service, so that your site's URL is displayed in the address bar of the browser.<\/p>",
+                "uid": "89769"
+            }
+        }
+    }
+}

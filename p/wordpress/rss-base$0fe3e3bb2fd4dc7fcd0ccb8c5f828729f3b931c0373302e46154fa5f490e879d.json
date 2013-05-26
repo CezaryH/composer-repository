@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/rss-base": {
+            "1.1.1": {
+                "name": "wordpress\/rss-base",
+                "version": "1.1.1",
+                "version_normalized": "1.1.1.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/rss-base.1.1.1.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>RSS Base will rewrite all relative link and image tags (<code>&#60;a&#62;<\/code> and <code>&#60;img&#62;<\/code>) to include a base URL.<\/p>\n\n<p>RSS feeds require absolute URLs to both validate and function properly.<\/p>\n\n<p>Feed readers can become confused when seeing relative paths, because they won&#8217;t necessarily know what base URL to use. A suggested <a href=\"http:\/\/cyber.law.harvard.edu\/rss\/relativeURI.html\" title=\"\">update to the RSS standard<\/a> has not been widely adopted.<\/p>\n\n<p>This plugin uses code from <a href=\"http:\/\/www.gerd-riesselmann.net\/archives\/2005\/11\/rss-doesnt-know-a-base-url\/\" title=\"RSS doesn't know a base-URL\">Gerd Riesselmann<\/a><\/p>",
+                "uid": "105383"
+            }
+        }
+    }
+}

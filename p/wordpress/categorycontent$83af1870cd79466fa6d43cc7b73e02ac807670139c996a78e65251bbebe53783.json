@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/categorycontent": {
+            "2.0": {
+                "name": "wordpress\/categorycontent",
+                "version": "2.0",
+                "version_normalized": "2.0.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/categorycontent.2.0.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>This Wordpress plugin (widget) will be shown when visitors are viewing a single post, category page or both. Otherwise, it wont be there at all.\nThe widget contains a list of post titles from the same category(s) the visitor is viewing the post from, so the visitor is able to swiftly change posts by clicking on the titles shown.\nPosts published in multiple categories are taken care of just fine. I've introduced a new feature in version 1.6 which gives you the possibility to show all the categories the post has been published in or the category where the visitor has been spotted the last time(uses cookie).<\/p>\n\n<p>The widget can be controlled with the following widget options:<\/p>\n\n<ul>\n    <li>Title (before the category name(s))<\/li>\n    <li>Exclude category(s) by ID<\/li>\n    <li>Exclude categories on: Single, Category, Both, None<\/li>\n    <li>Sticky posts on top: Yes &#124; No<\/li>\n    <li>Show posts from year: a specific year or all years<\/li>\n    <li>Show widget on: categories &#",
+                "uid": "58474"
+            }
+        }
+    }
+}

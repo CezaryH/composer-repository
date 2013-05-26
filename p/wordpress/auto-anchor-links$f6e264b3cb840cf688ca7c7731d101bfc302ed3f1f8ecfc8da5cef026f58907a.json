@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/auto-anchor-links": {
+            "1.0": {
+                "name": "wordpress\/auto-anchor-links",
+                "version": "1.0",
+                "version_normalized": "1.0.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/auto-anchor-links.1.0.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>Creates anchor links to heading tags in the content and displays them automatically at the top of the content, or allows for custom placement with tags or sidebar widget.<\/p>\n\n<p>Features:\n    1. Has option to auto display anchor links to Heading tags in content.\n    2. Allows control of which content to auto display links.\n    3. Can disable plugin css to allow custom styles to be applied.\n    4. Has widget available for display\n    5. Insert custom title to display above links\n    6. Clears all traces from any excerpts displayed<\/p>",
+                "uid": "81807"
+            }
+        }
+    }
+}

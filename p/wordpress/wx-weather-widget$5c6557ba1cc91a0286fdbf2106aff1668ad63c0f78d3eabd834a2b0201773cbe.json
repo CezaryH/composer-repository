@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/wx-weather-widget": {
+            "0.8": {
+                "name": "wordpress\/wx-weather-widget",
+                "version": "0.8",
+                "version_normalized": "0.8.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/wx-weather-widget.0.8.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>WX Weather displays data from a Personal Weather Station, retrieved from the website <a href=\"www.wunderground.com\">Weather Underground<\/a>.<\/p>\n\n<p>to use this for your own Weather Station, you need to submit your data to Weather Underground, and you know your Weather Station code. to find out more about how to do this, visit <a href=\"http:\/\/www.wunderground.com\/weatherstation\/index.asp\">Weather Underground's Personal Weather Station Page<\/a>.<\/p>\n\n<p>data is cached locally in your WordPress install, so it only makes one request to Weather Underground every five minutes.<\/p>\n\n<p>this plugin requires PHP5 in order to work!<\/p>",
+                "uid": "89065"
+            }
+        }
+    }
+}

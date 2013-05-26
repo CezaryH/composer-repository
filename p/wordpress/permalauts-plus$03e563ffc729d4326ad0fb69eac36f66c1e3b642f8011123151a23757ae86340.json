@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/permalauts-plus": {
+            "1.0": {
+                "name": "wordpress\/permalauts-plus",
+                "version": "1.0",
+                "version_normalized": "1.0.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/permalauts-plus.1.0.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>Erm&#246;glicht das automatisierte Umschreiben von deutschen Umlauten und Sonderzeichen in URLs f&#252;r Artikel, Seiten, Costum Post Types, Kategorien, Schlagw&#246;rter und Dateien in einen lesbaren Permalink.<\/p>\n\n<p>Zus&#228;tzliche Funktionen:<\/p>\n\n<ul>\n<li>Alte Permalinks k&#246;nnen nachtr&#228;glich umgeschrieben werden (automatisiert\/optional)<\/li>\n<li>Unterst&#252;tzung von Costum Post Types<\/li>\n<li>Unterst&#252;tzung von Mediathek\/Dateinamen<\/li>\n<li>Stopwords: Entfernt automatisiert gew&#246;hnliche W&#246;rter (der, die, das, ein, eine usw.) aus dem Permalink (optional)<\/li>\n<li>Unterst&#252;tzung aller Buchstaben der Zeichenkodierung ISO 8859-1 (Latin-1)<\/li>\n<\/ul>",
+                "uid": "10694"
+            }
+        }
+    }
+}

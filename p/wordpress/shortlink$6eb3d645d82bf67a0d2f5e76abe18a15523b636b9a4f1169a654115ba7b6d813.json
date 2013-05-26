@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/shortlink": {
+            "1.0": {
+                "name": "wordpress\/shortlink",
+                "version": "1.0",
+                "version_normalized": "1.0.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/shortlink.1.0.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>The Short Link WordPress plugin automatically creates a link element in the\n section of the post's page with rel=\"shortlink\" attributes. The URL in \nthe href attribute defaults to the id number of the post in question but can\nbe overridden with a human-friendly slug after the post has been saved.<\/p>\n\n<p>It also creates an HTTP <code>Link<\/code> header that conveys the same information as a\nperformance optimisation (clients need only do a HTTP HEAD to resolve the URL)<\/p>\n\n<p>The link element looks like this:<\/p>\n\n<pre><code>&#60;link rel=\"shortlink\" href=\"{url}\" \/&#62;\n<\/code><\/pre>\n\n<p>The HTTP header is:<\/p>\n\n<pre><code>Link: &#60;{url}&#62;; rel=shortlink\n<\/code><\/pre>\n\n<p>Related Links:<\/p>\n\n<ul>\n<li>Google Code Site: <a href=\"http:\/\/code.google.com\/p\/shortlink\/\" rel=\"nofollow\">http:\/\/code.google.com\/p\/shortlink\/<\/a><\/li>\n<\/ul>",
+                "uid": "89840"
+            }
+        }
+    }
+}

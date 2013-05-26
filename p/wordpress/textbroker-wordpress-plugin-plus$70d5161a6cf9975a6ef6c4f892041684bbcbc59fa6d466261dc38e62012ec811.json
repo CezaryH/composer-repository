@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/textbroker-wordpress-plugin-plus": {
+            "1.0": {
+                "name": "wordpress\/textbroker-wordpress-plugin-plus",
+                "version": "1.0",
+                "version_normalized": "1.0.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/textbroker-wordpress-plugin-plus.1.0.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>This plugin modification of the Textbroker Wordpress Plugin 2.6 (<a href=\"http:\/\/www.textbroker.de\/wordpress\/\" rel=\"nofollow\">http:\/\/www.textbroker.de\/wordpress\/<\/a>) adds hooks to the original plugin<\/p>\n\n<p>The hooks are fired, when a preview of a text is shown (so you can modify the view of a text bought from Textbroker)<\/p>\n\n<p>and also when the article is published.<\/p>\n\n<p>A plugin that leverages this functionality is: <a href=\"https:\/\/github.com\/akmdrei\/Textbroker-Enhance\" rel=\"nofollow\">https:\/\/github.com\/akmdrei\/Textbroker-Enhance<\/a><\/p>\n\n<p>There you can also find screenshots where a highlight funtion on SEO-keywords was implemented<\/p>\n\n<p>Important:<\/p>\n\n<p>It is very important, that if you clone this repository OR if you upload it via FTP the resulting directory in the \/wp-content\/plugins must be named \"Textbroker-WordPress-Plugin\"<\/p>\n\n<p>The native Textbroker-Plugin on which this mod is based does not support relative paths.<\/p>\n\n<p>This plugin is Multi-Site compatib",
+                "uid": "23111"
+            }
+        }
+    }
+}

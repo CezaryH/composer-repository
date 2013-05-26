@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/bootstrap": {
+            "0.3.1": {
+                "name": "wordpress\/bootstrap",
+                "version": "0.3.1",
+                "version_normalized": "0.3.1.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/bootstrap.0.3.1.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>Bootstrap is a toolkit from Twitter designed to kickstart development of webapps and sites. Using this plugin you can easily embed Bootstrap's scripts and stylesheets to your webpage. You can also pick only the components you want, to avoid loading unnecessary files.<\/p>",
+                "uid": "40474"
+            }
+        }
+    }
+}

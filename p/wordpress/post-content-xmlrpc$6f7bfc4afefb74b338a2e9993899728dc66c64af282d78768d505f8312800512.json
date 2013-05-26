@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/post-content-xmlrpc": {
+            "1.0": {
+                "name": "wordpress\/post-content-xmlrpc",
+                "version": "1.0",
+                "version_normalized": "1.0.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/post-content-xmlrpc.1.0.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>Using Post Content XMLRPC plugin admin is allowed to post the content to remote sites from one single place. This plugin uses the cURL &#38; XMLRPC service. This plugin adds the post in default category. You can add post tags while adding the post.<\/p>\n\n<p>Plugin Requirements other than Wordpress :<\/p>\n\n<p>1.Please verify Current site &#38; remote sites has CURL enabled. \n2.Please verify remote site has XMLRPC enabled from Settings &#62;&#62; Writing.<\/p>\n\n<p>This plugin extends the functionality\/usability shown on :\n<a href=\"http:\/\/www.wprecipes.com\/post-on-your-wordpress-blog-using-php\" rel=\"nofollow\">http:\/\/www.wprecipes.com\/post-on-your-wordpress-blog-using-php<\/a><\/p>",
+                "uid": "26236"
+            }
+        }
+    }
+}

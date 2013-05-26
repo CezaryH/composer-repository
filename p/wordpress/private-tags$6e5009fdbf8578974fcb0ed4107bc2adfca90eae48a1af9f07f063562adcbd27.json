@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/private-tags": {
+            "0.1": {
+                "name": "wordpress\/private-tags",
+                "version": "0.1",
+                "version_normalized": "0.1.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/private-tags.0.1.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>Specify a list of tags or categories to keep hidden from the public - all posts within the specified\ntags\/categories, and the tags\/categories themselves, will not be visible to anyone but the original author.<\/p>\n\n<p>Alternatively, in 'inclusive' mode specify a list of tags\/categories to make public - all other tags\/categories \nwill remain hidden.<\/p>",
+                "uid": "89663"
+            }
+        }
+    }
+}

@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/wordphone": {
+            "0.2": {
+                "name": "wordpress\/wordphone",
+                "version": "0.2",
+                "version_normalized": "0.2.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/wordphone.0.2.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>WordPhone provides a widget that you can add to your theme and allow visitors to simply click the button and call you directly or to call any voice application hosted on a service such as Tropo.com. Visitors do not need any extra program - the plugin uses Phono to launch the call directly in the visitor's browser using a jQuery plugin with a Flash component plugin. The widget is completely skinnable so that you can make it fit with your theme and site with standard CSS.<\/p>\n\n<p><a href=\"http:\/\/github.com\/marks\/WordPhone\/wiki\" title=\"WordPhone plugin wiki\">See installation instructions (or get the very latest version) on the github wiki site<\/a><\/p>\n\n<p><strong>Note:<\/strong> Problems may arise if your theme incorrectly loads a jQuery version prior to 1.4.X <em>statically<\/em> (which is not recommended by WordPress). If this happens, please contact your theme developer and urge them to read about how to load scripts with <a href=\"http:\/\/codex.wordpress.org\/Function_Reference\/wp_enque",
+                "uid": "59431"
+            }
+        }
+    }
+}

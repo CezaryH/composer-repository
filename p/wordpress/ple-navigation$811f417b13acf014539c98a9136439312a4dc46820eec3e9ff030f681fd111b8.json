@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/ple-navigation": {
+            "3.0.2": {
+                "name": "wordpress\/ple-navigation",
+                "version": "3.0.2",
+                "version_normalized": "3.0.2.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/ple-navigation.3.0.2.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>With this extension for the WordPress plugin PostLists it is possible to add next-\/prev- navigation links to a PostLists list.<\/p>\n\n<p>The following placeholders can be used to create the links in the before- and after- fields of the list configuration:\n%ple_navigation_next_link% will get replaced to the next-link you defined in the \"navigation next link\" field of your list (you need to configure that field and can use %navigation_next_url% there), if the configured number of posts to display was reached.\n%ple_navigation_prev_link% will get replaced to the prev-link you defined in the \"navigation prev link\" field of your list if the prev-link is really needed (you need to configure that field and can use %navigation_prev_url% there). \n%ple_navigation_variable% will get replaced to the the name of the get-variable to overwrite the offset of this list.\n%ple_navigation_next_offset% will get replaced to the offset to get the posts after the last post of this list.\n%ple_navigation_next_u",
+                "uid": "103812"
+            }
+        }
+    }
+}

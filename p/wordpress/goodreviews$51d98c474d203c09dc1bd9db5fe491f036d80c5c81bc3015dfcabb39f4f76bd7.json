@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/goodreviews": {
+            "1.1.0": {
+                "name": "wordpress\/goodreviews",
+                "version": "1.1.0",
+                "version_normalized": "1.1.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/goodreviews.1.1.0.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>The GoodReviews plugin displays information about a specific title from Goodreads, including reader reviews. This plugin was developed mainly for authors or booksellers who want to showcase Goodreads information about specific titles on their Wordpress sites. You must obtain a Goodreads API developer key in order to use this plugin. You can obain an API key by following the instructions at goodreads.com\/api. This plugin was developed by a third party who is not affiliated with Goodreads.<\/p>\n\n<p>Features:<\/p>\n\n<ul>\n<li>Allows use of a shortcode to display Goodreads reviews and book information for a specific ISBN or Goodreads.com ID in any page or post.<\/li>\n<li>Returns book information in divs and reviews in an iframe that can be custom styled or use the default styles.<\/li>\n<\/ul>",
+                "uid": "26703"
+            }
+        }
+    }
+}

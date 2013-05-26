@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/wordpresscom-importer": {
+            "1.0": {
+                "name": "wordpress\/wordpresscom-importer",
+                "version": "1.0",
+                "version_normalized": "1.0.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/wordpresscom-importer.1.0.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>The plugin imports content from a WordPress.com blog using their new REST API.<\/p>",
+                "uid": "20166"
+            }
+        }
+    }
+}

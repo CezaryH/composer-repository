@@ -1,0 +1,40 @@
+{
+    "packages": {
+        "wordpress\/remove-buddypress-adminbar": {
+            "1.1": {
+                "name": "wordpress\/remove-buddypress-adminbar",
+                "version": "1.1",
+                "version_normalized": "1.1.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/remove-buddypress-adminbar.1.1.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>This plugin removes the admin bar completely from the public and admin areas of the website. Can be used either as a normal or MU plugin.<\/p>\n\n<p>Upon activation\/installation this works immediately. Nothing fancy, the admin bar is just not loaded anymore.<\/p>\n\n<h4>BuddyPress 1.1 Onwards<\/h4>\n\n<p>You can also add the following to your wp-config.php file and then you don't need this plugin ( sniff ;( ) :<\/p>\n\n<pre><code>define( 'BP_DISABLE_ADMIN_BAR', false );\n<\/code><\/pre>",
+                "uid": "87900"
+            },
+            "1.2": {
+                "name": "wordpress\/remove-buddypress-adminbar",
+                "version": "1.2",
+                "version_normalized": "1.2.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/remove-buddypress-adminbar.1.2.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>This plugin removes the admin bar completely from the public and admin areas of the website. Can be used either as a normal or MU plugin.<\/p>\n\n<p>Upon activation\/installation this works immediately. Nothing fancy, the admin bar is just not loaded anymore.<\/p>\n\n<h4>BuddyPress 1.1 Onwards<\/h4>\n\n<p>You can also add the following to your wp-config.php file and then you don't need this plugin ( sniff ;( ) :<\/p>\n\n<pre><code>define( 'BP_DISABLE_ADMIN_BAR', false );\n<\/code><\/pre>",
+                "uid": "87899"
+            }
+        }
+    }
+}

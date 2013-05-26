@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/ios-icon-renderer": {
+            "1.0": {
+                "name": "wordpress\/ios-icon-renderer",
+                "version": "1.0",
+                "version_normalized": "1.0.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/ios-icon-renderer.1.0.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>This plugin activates <code>[ios_icon]<\/code> shortcode allowing you to place iOS apps' icons without rendering their corner radius and shadow in Photoshop.<\/p>\n\n<p>Available attributes of shortcode:<\/p>\n\n<ul>\n<li><strong>size<\/strong> - tells how big is the icon. (e.g. 57, 72, 114, 512) Default is 57.<\/li>\n<li><strong>url<\/strong> - URL of the image<\/li>\n<li><strong>shadow_color<\/strong> - CSS-styled color of the shadow (e.g. #000, #ab67fc, rgba(0, 0, 0, 0.4)) Default is #000.<\/li>\n<li><strong>style<\/strong> - additional CSS style for element. Here you can add float, margin, border, etc.<\/li>\n<\/ul>\n\n<p>Example:<\/p>\n\n<pre><code>[ios_icon size=&#34;114&#34; url=&#34;http:\/\/yourdomain.com\/path\/to\/114-icon.png&#34; style=&#34;float:right;margin:0 0 12px 12px;border:1px solid rgba(0, 0, 0, 0.2);&#34; shadow_color=&#34;red&#34;]<\/code><\/pre>",
+                "uid": "31876"
+            }
+        }
+    }
+}

@@ -1,0 +1,40 @@
+{
+    "packages": {
+        "wordpress\/spotify-widget": {
+            "1.0": {
+                "name": "wordpress\/spotify-widget",
+                "version": "1.0",
+                "version_normalized": "1.0.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/spotify-widget.1.0.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>A Spotify play button widget.<\/p>\n\n<p>Inserts the same play button that can be found on <a href=\"https:\/\/developer.spotify.com\/technologies\/spotify-play-button\/\">https:\/\/developer.spotify.com\/technologies\/spotify-play-button\/<\/a>.<\/p>\n\n<h4>Player min\/max sizes<\/h4>\n\n<p>You can specify the height and width of the iframe in the widget options. The minimum size is 250x80 and the maximum size is 640x720. The large player is rendered if the height is 80 pixels greater than the width. For that reason, the widget will automatically make the height 80 pixels bigger than the width if you want the large player.<\/p>",
+                "uid": "21673"
+            },
+            "1.0.1": {
+                "name": "wordpress\/spotify-widget",
+                "version": "1.0.1",
+                "version_normalized": "1.0.1.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/spotify-widget.1.0.1.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>A Spotify play button widget.<\/p>\n\n<p>Inserts the same play button that can be found on <a href=\"https:\/\/developer.spotify.com\/technologies\/spotify-play-button\/\">https:\/\/developer.spotify.com\/technologies\/spotify-play-button\/<\/a>.<\/p>\n\n<h4>Player min\/max sizes<\/h4>\n\n<p>You can specify the height and width of the iframe in the widget options. The minimum size is 250x80 and the maximum size is 640x720. The large player is rendered if the height is 80 pixels greater than the width. For that reason, the widget will automatically make the height 80 pixels bigger than the width if you want the large player.<\/p>",
+                "uid": "21672"
+            }
+        }
+    }
+}

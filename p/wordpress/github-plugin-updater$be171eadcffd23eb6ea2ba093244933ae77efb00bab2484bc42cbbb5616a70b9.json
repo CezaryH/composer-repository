@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/github-plugin-updater": {
+            "1.0": {
+                "name": "wordpress\/github-plugin-updater",
+                "version": "1.0",
+                "version_normalized": "1.0.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/github-plugin-updater.1.0.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>Updates plugins that are hosted on GitHub. This is a beta release, so you might not use it production environments.<\/p>\n\n<p>Example usage:<\/p>\n\n<pre><code>function my_github_plugin_updater() {\n\n    if ( ! function_exists( &#039;github_plugin_updater_register&#039; ) )\n        return false;\n\n    github_plugin_updater_register( array(\n        &#039;owner&#039;   =&#62; &#039;codepress&#039;,\n        &#039;repo&#039;    =&#62; &#039;github-plugin-updater&#039;,\n        &#039;slug&#039;    =&#62; &#039;github-plugin-updater\/github-plugin-updater.php&#039;, \/\/ defaults to the repo value (&#039;repo\/repo.php&#039;)\n    ) );\n}\nadd_action( &#039;plugins_loaded&#039;, &#039;my_github_plugin_updater&#039; );<\/code><\/pre>\n\n<p>Currently we are working on the following features:<\/p>\n\n<ul>\n<li>Add a GUI to add plugins by their GitHub url<\/li>\n<li>Add a debug mode which forces to reset the plugin transients<\/li>\n<li>Add a description to your plugin for users to read before updating<\/li>\n<\/ul>",
+                "uid": "10128"
+            }
+        }
+    }
+}

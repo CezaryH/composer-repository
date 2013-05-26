@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/jquery-delivery-boy": {
+            "0.31": {
+                "name": "wordpress\/jquery-delivery-boy",
+                "version": "0.31",
+                "version_normalized": "0.31.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/jquery-delivery-boy.0.311032011.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>Inspired by a conversation over on <a href=\"http:\/\/forr.st\/~c6\">Forrst<\/a> I quickly put together this little plug-in. Via CURL it checks if it can access the Google API hosted jQuery library. If it can see it then it queues it up otherwise it rolls with the version of the jQuery library that came with your current WP install.<\/p>\n\n<p>Author Website: <a href=\"http:\/\/kestrelid.com\" rel=\"nofollow\">http:\/\/kestrelid.com<\/a>\nPlugin Homepage: <a href=\"http:\/\/kestrelid.com\/downloads\/jquery-delivery-boy\/\" rel=\"nofollow\">http:\/\/kestrelid.com\/downloads\/jquery-delivery-boy\/<\/a><\/p>",
+                "uid": "65683"
+            }
+        }
+    }
+}

@@ -1,0 +1,40 @@
+{
+    "packages": {
+        "wordpress\/aux": {
+            "1.0": {
+                "name": "wordpress\/aux",
+                "version": "1.0",
+                "version_normalized": "1.0.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/aux.1.0.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>AUX provides an XML-RPC function for running the built in WordPress auto-upgrade using XML-RPC.<\/p>\n\n<p>The XML-RPC method to call : aux.autoUpgradeWP<\/p>\n\n<p>Parameters to pass:<\/p>\n\n<ul>\n<li>site username<\/li>\n<li>site password<\/li>\n<li>WordPress version to upgrade to<\/li>\n<li>Locale of site (default: en_US)<\/li>\n<\/ul>\n\n<p>XML-RPC must be enabled on your WordPres site. (Dashboard &#62; Settings &#62; Writing &#62; Remote Publishing)<\/p>\n\n<p>See <a href=\"https:\/\/github.com\/karmadude\/AUX\" rel=\"nofollow\">https:\/\/github.com\/karmadude\/AUX<\/a> for an example of using node.js to auto-upgrade multiple WordPress sites using AUX plugin.<\/p>",
+                "uid": "32564"
+            },
+            "1.0.1": {
+                "name": "wordpress\/aux",
+                "version": "1.0.1",
+                "version_normalized": "1.0.1.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/aux.1.0.1.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>AUX provides an XML-RPC function for running the built in WordPress auto-upgrade using XML-RPC.<\/p>\n\n<p>The XML-RPC method to call : aux.autoUpgradeWP<\/p>\n\n<p>Parameters to pass:<\/p>\n\n<ul>\n<li>site username<\/li>\n<li>site password<\/li>\n<li>WordPress version to upgrade to<\/li>\n<li>Locale of site (default: en_US)<\/li>\n<\/ul>\n\n<p>XML-RPC must be enabled on your WordPres site. (Dashboard &#62; Settings &#62; Writing &#62; Remote Publishing)<\/p>\n\n<p>See <a href=\"https:\/\/github.com\/karmadude\/AUX\" rel=\"nofollow\">https:\/\/github.com\/karmadude\/AUX<\/a> for an example of using node.js to auto-upgrade multiple WordPress sites using AUX plugin.<\/p>",
+                "uid": "32563"
+            }
+        }
+    }
+}

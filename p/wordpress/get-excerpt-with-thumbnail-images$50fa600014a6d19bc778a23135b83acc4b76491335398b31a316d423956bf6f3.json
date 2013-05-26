@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/get-excerpt-with-thumbnail-images": {
+            "1.0": {
+                "name": "wordpress\/get-excerpt-with-thumbnail-images",
+                "version": "1.0",
+                "version_normalized": "1.0.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/get-excerpt-with-thumbnail-images.1.0.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>Inspite of having found numerous plugins to get excerpts along with thumbnail images in Wordpress plugin directory. I have written this plugin to reduce number of requests that are made to MySQL database while fetching data.<\/p>\n\n<p>Get Excerpts with Thumbnail plugin uses meta data of post, to retrieve thumbnail image. It also uses another plug-in named <a href=\"http:\/\/www.webspaceworks.com\/resources\/wordpress\/44\/\">Cotent Extract<\/a> by <a href=\"http:\/\/www.webspaceworks.com\">Rob Shumann<\/a>, to retrieve excerpt from POST. You need install Content Extract plugin before start working with this plugin.<\/p>\n\n<p>Full documentation of how to this plugin will be available at <a href=\"http:\/\/creativeslab.net\/get-excerpt-with-thumb\/\">Get Excerpt with Thumbnail<\/a> page.<\/p>",
+                "uid": "84617"
+            }
+        }
+    }
+}

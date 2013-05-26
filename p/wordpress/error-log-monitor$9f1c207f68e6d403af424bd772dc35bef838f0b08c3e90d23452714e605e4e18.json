@@ -1,0 +1,40 @@
+{
+    "packages": {
+        "wordpress\/error-log-monitor": {
+            "1.0": {
+                "name": "wordpress\/error-log-monitor",
+                "version": "1.0",
+                "version_normalized": "1.0.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/error-log-monitor.1.0.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>This plugin adds a Dashboard widget that displays the latest messages from your PHP error log. It can also send you email notifications about newly logged errors.<\/p>\n\n<p><strong>Features<\/strong><\/p>\n\n<ul>\n<li>Automatically detects error log location.<\/li>\n<li>Explains how to configure PHP error logging if it's not enabled yet.<\/li>\n<li>The number of displayed log entries is configurable.<\/li>\n<li>Sends you email notifications about logged errors (optional).<\/li>\n<li>Configurable email address and frequency.<\/li>\n<li>You can easily clear the log file.<\/li>\n<li>The dashboard widget is only visible to administrators.<\/li>\n<li>Optimized to work well even with very large log files.<\/li>\n<\/ul>\n\n<p><strong>Usage<\/strong><\/p>\n\n<p>Once you've installed the plugin, go to the Dashboard and enable the \"PHP Error Log\" widget through the \"Screen Options\" panel. The widget should automatically display the last 20 lines from your PHP error log. If you see an error message like \"Error logging is d",
+                "uid": "21081"
+            },
+            "1.1": {
+                "name": "wordpress\/error-log-monitor",
+                "version": "1.1",
+                "version_normalized": "1.1.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/error-log-monitor.1.1.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>This plugin adds a Dashboard widget that displays the latest messages from your PHP error log. It can also send you email notifications about newly logged errors.<\/p>\n\n<p><strong>Features<\/strong><\/p>\n\n<ul>\n<li>Automatically detects error log location.<\/li>\n<li>Explains how to configure PHP error logging if it's not enabled yet.<\/li>\n<li>The number of displayed log entries is configurable.<\/li>\n<li>Sends you email notifications about logged errors (optional).<\/li>\n<li>Configurable email address and frequency.<\/li>\n<li>You can easily clear the log file.<\/li>\n<li>The dashboard widget is only visible to administrators.<\/li>\n<li>Optimized to work well even with very large log files.<\/li>\n<\/ul>\n\n<p><strong>Usage<\/strong><\/p>\n\n<p>Once you've installed the plugin, go to the Dashboard and enable the \"PHP Error Log\" widget through the \"Screen Options\" panel. The widget should automatically display the last 20 lines from your PHP error log. If you see an error message like \"Error logging is d",
+                "uid": "21080"
+            }
+        }
+    }
+}

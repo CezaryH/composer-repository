@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/intranet-restriction-for-posts-and-pages": {
+            "0.1": {
+                "name": "wordpress\/intranet-restriction-for-posts-and-pages",
+                "version": "0.1",
+                "version_normalized": "0.1.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/intranet-restriction-for-posts-and-pages.0.1.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>Allows to restrict the access of specific posts and pages to intranet only.<\/p>\n\n<ul>\n<li>Adds an extra option to pages and posts in the admin panel where contents may be marked as restricted.<\/li>\n<li>Intranet can defined by domain names and IP ranges (address\/mask).<\/li>\n<\/ul>",
+                "uid": "50735"
+            }
+        }
+    }
+}

@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/email-domain-checker": {
+            "1.0": {
+                "name": "wordpress\/email-domain-checker",
+                "version": "1.0",
+                "version_normalized": "1.0.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/email-domain-checker.1.0.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>This plugin validates the existence of the domain name that is entered in the email address while checkout. This plugin strengthens your email validation by more than just the regular expression matching, thereby reducing chances of loosing an order due to incorrect email address &#38; increasing accuracy of your data.<\/p>\n\n<p>The checkout process cannot be completed till the email address is entered with the correct domain, thus eliminating any chances of a wrong email address (at least the domain can't be wrong).<\/p>\n\n<p>If the domain is not a valid domain, it will show an error and not allow the customer to checkout till the email address is entered with the correct domain.<\/p>\n\n<p>Other free plugins for WP e-Commerce:<\/p>\n\n<ul>\n<li><a href=\"http:\/\/wordpress.org\/extend\/plugins\/viral-coupon-for-wp-e-commerce-lite\" title=\"Viral Coupon Plugin\">Viral Coupon Lite for WP e-Commerce<\/a> - Social Media Promotion Tool for your store (Facebook)<\/li>\n<li><a href=\"http:\/\/wordpress.org\/extend",
+                "uid": "22929"
+            }
+        }
+    }
+}

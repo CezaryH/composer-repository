@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/svg-pentagon-rating-tool": {
+            "0.5": {
+                "name": "wordpress\/svg-pentagon-rating-tool",
+                "version": "0.5",
+                "version_normalized": "0.5.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/svg-pentagon-rating-tool.0.5.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>This plugin draws an SVG pentagon, based on the ratings that one assigns a given post. Users can choose the category for which the pentagon appears and assign names and colors to each of the quadrants.<\/p>\n\n<p>Note) Inline SVG does not work on IE versions 8 and below; therefore, the stylesheet ie8.css makes nothing appear on versions below IE 9. Will work on all other major browsers in past and current versions.<\/p>",
+                "uid": "31333"
+            }
+        }
+    }
+}

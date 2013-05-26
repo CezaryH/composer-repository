@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/frontend-cookie-sso": {
+            "0.1": {
+                "name": "wordpress\/frontend-cookie-sso",
+                "version": "0.1",
+                "version_normalized": "0.1.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/frontend-cookie-sso.0.1.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>BIG WARNING: This is still in early development and needs testing.<\/p>\n\n<p>This plugin lets you implement a cookie based front-end authorization system that can be used (for example) to allow users who are logged in via an system to comment on your site.<\/p>\n\n<p>Please see the inline documentation for the various filters this plugin provides to alter it's behaviour.<\/p>",
+                "uid": "39321"
+            }
+        }
+    }
+}

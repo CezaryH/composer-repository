@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/metaweblog-api-client": {
+            "0.1": {
+                "name": "wordpress\/metaweblog-api-client",
+                "version": "0.1",
+                "version_normalized": "0.1.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/metaweblog-api-client.0.1.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>Re-posts published posts to anything that implements the MetaWeblog API (such as <a href=\"http:\/\/www.drupal.org\/\">Drupal<\/a>) with directions back to the original Wordpress blog for updates and comments.  Also edits and deletes according to WordPress' actions.  MWAC is based on <a href=\"http:\/\/ryanlee.org\/software\/wp\/bac\/\">Blogger API Client<\/a> and the <a href=\"http:\/\/www.dentedreality.com.au\/bloggerapi\/class\/\">bloggerapi class<\/a> (made available by Beau Lebens).  This plugin was produced as part of <a href=\"http:\/\/dig.csail.mit.edu\/\" title=\"Decentralized Information Group\">DIG<\/a>'s infrastructure, a member of MIT's <a href=\"http:\/\/www.csail.mit.edu\/\" title=\"Computer Science and Artificial Intelligence Laboratory\">CSAIL<\/a>.  Licensed under BSD license in LICENSE<\/p>",
+                "uid": "108110"
+            }
+        }
+    }
+}

@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/defender-by-played": {
+            "1.0": {
+                "name": "wordpress\/defender-by-played",
+                "version": "1.0",
+                "version_normalized": "1.0.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/defender-by-played.1.0.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>Defender by Played lets you block visitors based on their country of origin.<\/p>\n\n<p>The plugin contacts the free service at freegeoip.net and sends the visitors IP adress to that service to geolocate that IP adress so that the visitors country can be pinpointed and compared to a list of blacklisted countries.<\/p>\n\n<p>Visitors entering your site from a blacklisted country can then be redirected to either the Wordpress 404 page, a custom page that you set up yourself, or it can simply just return a 403 Forbidden header.<\/p>",
+                "uid": "9410"
+            }
+        }
+    }
+}

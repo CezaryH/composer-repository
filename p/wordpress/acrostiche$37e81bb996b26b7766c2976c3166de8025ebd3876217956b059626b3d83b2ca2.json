@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/acrostiche": {
+            "1": {
+                "name": "wordpress\/acrostiche",
+                "version": "1",
+                "version_normalized": "1.0.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/acrostiche.1.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>This plugin generate an acrostic in french based on a first name.\nCe plugin fait des acrostiches en fran&#231;ais. A partir d'un pr&#233;nom il donne une liste de qualit&#233;s qui commence par chaque lettre du pr&#233;nom.<\/p>",
+                "uid": "49766"
+            }
+        }
+    }
+}

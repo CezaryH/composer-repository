@@ -1,0 +1,40 @@
+{
+    "packages": {
+        "wordpress\/link2player": {
+            "0.1": {
+                "name": "wordpress\/link2player",
+                "version": "0.1",
+                "version_normalized": "0.1.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/link2player.0.1.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<h4>Features<\/h4>\n\n<p>&#60;a href=\"http:\/\/example.com\/path\/to\/audio-or-video.mp4\"&#62;Example audio or video&#60;\/a&#62;<\/p>\n\n<p>If you write a link like above, Link2Player replaces it with jPlayer.<\/p>\n\n<h4>Supported audio<\/h4>\n\n<p>.m4a .mp3 .ogg .oga .fla .wav .webma<\/p>\n\n<h4>Supported video<\/h4>\n\n<p>.m4v .mp4 .flv .ogv .webmv .webm<\/p>\n\n<p>Playable or not belongs to browser accessing your blog. mp3, m4a, m4v, mp4 may be playable in most browsers.<\/p>\n\n<h4>How it works<\/h4>\n\n<ol>\n<li>Load javascript and css in the Plugin part(php)<\/li>\n<li>Select link for audio\/viode(jQuery)<\/li>\n<li>Replace links with jPlayer(jQuery)<\/li>\n<\/ol>\n\n<p>Selecting links by extension like $('a[href$=mp3]'). If there is a query string( ?foo=bar ) or extension not supported, Link2Player does not work.\nMost are written in JavaScript. If your theme loads old jQuery in it's own accord, Link2Player may not work. I have not tried with any old jQuery.<\/p>\n\n<h4>Notes<\/h4>\n\n<ul>\n<li>jQuery: included in the Wordpress",
+                "uid": "36043"
+            },
+            "0.2": {
+                "name": "wordpress\/link2player",
+                "version": "0.2",
+                "version_normalized": "0.2.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/link2player.0.2.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<h4>Features<\/h4>\n\n<p>&#60;a href=\"http:\/\/example.com\/path\/to\/audio-or-video.mp4\"&#62;Example audio or video&#60;\/a&#62;<\/p>\n\n<p>If you write a link like above, Link2Player replaces it with jPlayer.<\/p>\n\n<h4>Supported audio<\/h4>\n\n<p>.m4a .mp3 .ogg .oga .fla .wav .webma<\/p>\n\n<h4>Supported video<\/h4>\n\n<p>.m4v .mp4 .flv .ogv .webmv .webm<\/p>\n\n<p>Playable or not belongs to browser accessing your blog. mp3, m4a, m4v, mp4 may be playable in most browsers.<\/p>\n\n<h4>How it works<\/h4>\n\n<ol>\n<li>Load javascript and css in the Plugin part(php)<\/li>\n<li>Select link for audio\/viode(jQuery)<\/li>\n<li>Replace links with jPlayer(jQuery)<\/li>\n<\/ol>\n\n<p>Selecting links by extension like $('a[href$=mp3]'). If there is a query string( ?foo=bar ) or extension not supported, Link2Player does not work.\nMost are written in JavaScript. If your theme loads old jQuery in it's own accord, Link2Player may not work. I have not tried with any old jQuery.<\/p>\n\n<h4>Notes<\/h4>\n\n<ul>\n<li>jQuery: included in the Wordpress",
+                "uid": "36041"
+            }
+        }
+    }
+}

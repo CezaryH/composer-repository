@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/buzz-feed": {
+            "0.0.1": {
+                "name": "wordpress\/buzz-feed",
+                "version": "0.0.1",
+                "version_normalized": "0.0.1.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/buzz-feed.0.0.1.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>This plugin will show a users Google Buzz posts on a WordPress blog.<\/p>\n\n<p>The posts will be displayed in descending time order. Each item has:\n* A link to the post - the text of the link will be a configurable number of characters from the begining og the post\n* The date and time of the post<\/p>\n\n<p>The number of posts shown is configurable.<\/p>\n\n<p>This plugin should be currently be considered an alpha release.<\/p>",
+                "uid": "72986"
+            }
+        }
+    }
+}

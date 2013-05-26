@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/admin-language": {
+            "1.0": {
+                "name": "wordpress\/admin-language",
+                "version": "1.0",
+                "version_normalized": "1.0.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/admin-language.1.0.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>This plugin allows to have admin panel in different language (for example, admin's native language) from blog's home language. This is useful when you have blog in e.g. german but you want to have admin panel in english.<\/p>\n\n<p>This plugin works simply. It adds a \"Language\" form element in user profile.<\/p>\n\n<p>It works in Dashboard as well as on the blog's homepage.<\/p>",
+                "uid": "65865"
+            }
+        }
+    }
+}

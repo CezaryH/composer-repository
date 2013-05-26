@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/relative-links-for-content": {
+            "1.0": {
+                "name": "wordpress\/relative-links-for-content",
+                "version": "1.0",
+                "version_normalized": "1.0.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/relative-links-for-content.1.0.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>Makes links in NEWLY SAVED content dynamic (relaive to site directory). Allows content to survive domain or directory change. (Read warning!)<\/p>",
+                "uid": "19402"
+            }
+        }
+    }
+}

@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/no-categories": {
+            "1.0": {
+                "name": "wordpress\/no-categories",
+                "version": "1.0",
+                "version_normalized": "1.0.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/no-categories.1.0.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>Do you keep a simple blog, where you don't define specific categories for your posts but simply let them all be uncategorized and use tags instead? Do you, like me, feel that all the categorizing stuff comes in the way of your content and your blog? Do you feel that keeping only one category seems superflous, but WordPress just forces you to? Then this plugin might be for you!<\/p>\n\n<p>This plugin is mostly cosmetic, as it doesn't change or actually remove any categories, but hides any options to change them, so all posts are in fact put in the default category (usually \"Uncategorized\"). This currently includes the category section on the edit pages and the \"Manage categories\" section on the admin pages. Published posts will not mention categories, and the Category widget has been removed.<\/p>\n\n<p>As it doesn't actually remove the categories or modify any files, <em>this plugin will not affect any other plugins' usage of categories<\/em>. This means \"Uncategorized\" will show up on sta",
+                "uid": "104018"
+            }
+        }
+    }
+}

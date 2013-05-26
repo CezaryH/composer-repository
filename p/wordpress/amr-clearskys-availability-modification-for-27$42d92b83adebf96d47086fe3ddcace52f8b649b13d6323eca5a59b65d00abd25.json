@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/amr-clearskys-availability-modification-for-27": {
+            "1.2": {
+                "name": "wordpress\/amr-clearskys-availability-modification-for-27",
+                "version": "1.2",
+                "version_normalized": "1.2.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/amr-clearskys-availability-modification-for-27.1.2.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>The original Clearskys Property Availability calendar appears to be no more.\nThis version was modified for 2.7.1 with wordpress in own directory, shortcodes, multiple properties (rudimentary).\nI have done a simple update, removing deprecated calls and notices. \nIt could use a property add module (that was in clearskys 'paid' version I think), \nso has a rudimentary method to add the properties if you need more than one.\nFor more than 1 property, copy the amr_props_sample.php to amr_props.php, add\/deletes line as indicated!<\/p>\n\n<p>I altered as noted for my own purposes - I could not wait till they delivered a new version.<br \/>\nI took some extra time to offer it up to the wordpress community as it seemed there were a few folk needing it.<\/p>",
+                "uid": "90031"
+            }
+        }
+    }
+}

@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/simple-relative-date": {
+            "1.0": {
+                "name": "wordpress\/simple-relative-date",
+                "version": "1.0",
+                "version_normalized": "1.0.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/simple-relative-date.1.0.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>This was based on <a href=\"http:\/\/lesterchan.net\/wordpress\/readme\/wp-relativedate.html\" title=\"Relative Date\">Lester Chan's Relative Date plugin<\/a>.\nIt tries to simplify things a bit. This plugin can:<\/p>\n\n<ul>\n<li>Replace the_date() in the post<\/li>\n<li>Replace get_comment_date() or comment_date() in the comments<\/li>\n<\/ul>\n\n<p>Note that if your theme is writing the date in a different form, it won't work. You have to\nreplace its function call to one of the above (in the TwentyTen theme for example, replace twentyten_posted_on()\nby the_date().<\/p>\n\n<p>Also important to say that, comment replacement won't work if you are using the default wp comment renderer because\nit calls get_comment_time() as well. You have to do a customized callback function to use with\nwp_list_comments( array( 'callback' =&#62; 'your_customized_function_here' ) ). (ok, maybe things were not\nsimplified that much :\/)<\/p>\n\n<p>There is a options page (under settings in the Admin) where you can choose which dates",
+                "uid": "47643"
+            }
+        }
+    }
+}

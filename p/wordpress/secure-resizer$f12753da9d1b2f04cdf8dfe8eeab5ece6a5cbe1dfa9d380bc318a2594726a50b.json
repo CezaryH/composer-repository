@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/secure-resizer": {
+            "0.1": {
+                "name": "wordpress\/secure-resizer",
+                "version": "0.1",
+                "version_normalized": "0.1.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/secure-resizer.0.1.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>A lot of themes ship with Timthumb because it allows their users to start using the theme without rebuilding thumbnails.<\/p>\n\n<p>Secure Image Resizer offers a far more secure alternative. It allows theme developers to rely on WordPress' own image resizing functionality using <code>add_image_size<\/code> and <code>get_the_post_thumbnail<\/code>.<\/p>\n\n<p>When get_the_post_thumbnail is called, Secure Image Resizer checks if the requested image size exists. If the image doesn't exist it dynamically creates the resized version. It works in the background, with no front end functionality.<\/p>\n\n<p>Theme developers can either bundle this plugin into their themes, or suggest that their users install it.<\/p>\n\n<p>It also includes 2 functions <code>so_resize_custom<\/code> and <code>so_resize_custom_html<\/code> to do dynamic image resizing using Imagick. Great for theme developers.<\/p>\n\n<p>Please Note: This is an early release of Secure Image Resizer. Please use it, try and break it and report any",
+                "uid": "26413"
+            }
+        }
+    }
+}

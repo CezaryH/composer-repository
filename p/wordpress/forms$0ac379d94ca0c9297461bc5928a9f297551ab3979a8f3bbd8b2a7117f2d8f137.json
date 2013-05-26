@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/forms": {
+            "0.1.9": {
+                "name": "wordpress\/forms",
+                "version": "0.1.9",
+                "version_normalized": "0.1.9.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/forms.0.1.9.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p><em>This plugin is developed at\n<a href=\"http:\/\/www.shepherd-interactive.com\/\" title=\"Shepherd Interactive specializes in web design and development in Portland, Oregon\">Shepherd Interactive<\/a>\nfor the benefit of the community. No support is available. Please post any questions to the <a href=\"http:\/\/wordpress.org\/tags\/forms?forum_id=10\">support forum<\/a>.<\/em><\/p>\n\n<p>Allows forms to be written with new HTML5 input type and validation attributes, and\nthen to have them validate themselves server-side: DRY forms (don't repeat yourself).\nForms are embedded into posts via the <code>form<\/code> shortcode. Results can be automatically emailed.\nA web form is defined in a PHP function that returns an entire form element, for example:<\/p>\n\n<pre><code>function my_contact_form($attrs, $content = null){\n    ob_start();\n    ?&#62;\n    &#60;form method=\"post\"&#62;\n        &#60;p hidden=\"hidden\" class=\"form_error_message\"&#62;&#60;\/p&#62;\n        &#60;p&#62;Name: &#60;input type=\"text\" required=",
+                "uid": "80050"
+            }
+        }
+    }
+}

@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/demomentsomtres-night-and-day": {
+            "1.0": {
+                "name": "wordpress\/demomentsomtres-night-and-day",
+                "version": "1.0",
+                "version_normalized": "1.0.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/demomentsomtres-night-and-day.1.0.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>A customer of <a href=\"http:\/\/DeMomentSomTres.com\">DeMomentSomTres<\/a> required us to show a picture of its building depending of the moment of the day in its <a href=\"http:\/\/boadatecnologia.com\">web<\/a>.<\/p>\n\n<p>We build that shortcode that helps on doing this task.<\/p>\n\n<p>You only have to use [dms3nad start=\"hh:mm\" end=\"hh:mm\"]Content to show[\/dms3nad].<\/p>\n\n<p>For instance to show the sentence \"night\" from midnight until 7:00 and \"day\" the rest of the day, the code should look like:<\/p>\n\n<pre><code>[dms3nad start=&#34;00:00&#34; end=&#34;07:00&#34;]Night[\/dms3nad]\n[dms3nad start=&#34;07:00&#34; end=&#34;23:59&#34;]Day[\/dms3nad]<\/code><\/pre>\n\n<p><strong>Note: times are based on server time<\/strong><\/p>",
+                "uid": "9781"
+            }
+        }
+    }
+}

@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/ip-access-notification": {
+            "1.0": {
+                "name": "wordpress\/ip-access-notification",
+                "version": "1.0",
+                "version_normalized": "1.0.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/ip-access-notification.1.0.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p><strong>Discontinued<\/strong><\/p>\n\n<p>Sends out an email to the blog admin when a user accesses the blog with a certain IP address. The email will be sent out only once a visitor's browser session to avoid email spam to you. ;-)<\/p>\n\n<p>There's only one thing to be edited in order to make this work properly. Line 14:<\/p>\n\n<pre><code>&#60;?php $notify_ips = array(&#34;xxx.xxx.xxx.xxx&#34;); \/\/ IPs to check for ?&#62;<\/code><\/pre>\n\n<p>That's where you put the IP(s). If you want to check for more than one IP, add more like that:<\/p>\n\n<pre><code>&#60;?php $notify_ips = array(&#34;xxx.xxx.xxx.xxx&#34;, &#34;xxx.xxx.xxx.xxx&#34;, &#34;xxx.xxx.xxx.xxx&#34;); \/\/ IPs to check for ?&#62;<\/code><\/pre>\n\n<p>You may also find this plugin helpful: <a href=\"http:\/\/wordpress.org\/extend\/plugins\/cookie-access-notification\/\">Cookie Access Notification<\/a><\/p>\n\n<p><a href=\"https:\/\/plus.google.com\/118074611982254715031\" title=\"Developer on Google+\">Developer on Google+<\/a> &#124; <a href=\"http:\/\/twitter.",
+                "uid": "103644"
+            }
+        }
+    }
+}

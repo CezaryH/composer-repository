@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/simple-tag-shortcode": {
+            "1.0": {
+                "name": "wordpress\/simple-tag-shortcode",
+                "version": "1.0",
+                "version_normalized": "1.0.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/simple-tag-shortcode.1.0.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>This plugin provides a simple [tag] shortcode.<\/p>\n\n<p>Replacing patterns:<\/p>\n\n<p>[tag]tag name[\/tag]<\/p>\n\n<p>&#60;a href=\"http:\/\/yourdomain.com\/tag\/tag-name\/\" title=\"tag name\"&#62;tag name&#60;\/a&#62;<\/p>\n\n<p>[tag slug=\"tag-name\"]your text[\/tag]<\/p>\n\n<p>&#60;a href=\"http:\/\/yourdomain.com\/tag\/tag-name\/\" title=\"tag name\"&#62;your text&#60;\/a&#62;<\/p>\n\n<p>[tag name=\"tag name\"]your text[\/tag]<\/p>\n\n<p>&#60;a href=\"http:\/\/yourdomain.com\/tag\/tag-name\/\" title=\"tag name\"&#62;your text&#60;\/a&#62;<\/p>",
+                "uid": "54196"
+            }
+        }
+    }
+}

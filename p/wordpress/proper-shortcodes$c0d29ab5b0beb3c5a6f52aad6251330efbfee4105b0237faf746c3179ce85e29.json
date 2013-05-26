@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/proper-shortcodes": {
+            "0.2": {
+                "name": "wordpress\/proper-shortcodes",
+                "version": "0.2",
+                "version_normalized": "0.2.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/proper-shortcodes.0.2.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>Shortcodes are very useful little snippets that output special content in specific places using your post editor. PROPER Shortcodes adds these blocks functionality to your WordPress install. This plugin gives you 8 useful shortcodes that can be used in your content editor and everywhere else that shortcodes are parsed.<\/p>\n\n<p>This group is just the beginning; we'll be adding new shortcodes and shortcode-related functionality over time. For now, there is no settings page, just the shortcodes below that become active when the plugin is installed.<\/p>\n\n<p>This plugin will add all of the following shortcodes:<\/p>\n\n<p><strong>[p_site_url]<\/strong><\/p>\n\n<p>Displays the site url. Useful for adding links to pages on the site without hard-coding in the domain.<\/p>\n\n<p><strong>[p_tagline]<\/strong><\/p>\n\n<p>Displays the tagline for the site, changed at Settings &#62; General.<\/p>\n\n<p><strong>[p_template_url]<\/strong><\/p>\n\n<p>Displays the current URL to the theme directory. Useful for adding li",
+                "uid": "9613"
+            }
+        }
+    }
+}

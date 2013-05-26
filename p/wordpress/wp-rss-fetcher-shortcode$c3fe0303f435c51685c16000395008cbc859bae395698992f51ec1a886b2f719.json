@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/wp-rss-fetcher-shortcode": {
+            "1.0": {
+                "name": "wordpress\/wp-rss-fetcher-shortcode",
+                "version": "1.0",
+                "version_normalized": "1.0.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/wp-rss-fetcher-shortcode.1.0.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>Use a shortcode to grab RSS feeds from external sources and embed them into posts or pages. After you have activated the plugin, you can start to use the shortcode.<\/p>\n\n<p>Example shortcode usage:<\/p>\n\n<p>[wpmizerss url=\"http:\/\/feeds.feedburner.com\/Wpmize\" feeds_limit=\"5\" words_limit=\"100\" ul_class=' class=\"ordered\"']<\/p>\n\n<h4>Key Features<\/h4>\n\n<ul>\n<li>Easily embed any RSS feeds into posts or pages using a shortcode<\/li>\n<li>Limit the number of the feeds to show<\/li>\n<li>Limit the words of the title of each feeds<\/li>\n<li>Add a custom class for the UL<\/li>\n<\/ul>\n\n<h4>More Information<\/h4>\n\n<p>For more details visit <a href=\"http:\/\/www.wpmize.com\/wordpress-plugins\/wordpress-plugin-wp-rss-fetcher-shortcode\/\">the official plugin URL<\/a>.<br \/>\nFor more plugins and WordPress tips visit us at <a href=\"http:\/\/www.wpmize.com\/\">wpmize.com<\/a>.<\/p>",
+                "uid": "19427"
+            }
+        }
+    }
+}

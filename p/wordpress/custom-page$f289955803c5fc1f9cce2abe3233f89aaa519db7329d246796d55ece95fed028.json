@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/custom-page": {
+            "2.1.0": {
+                "name": "wordpress\/custom-page",
+                "version": "2.1.0",
+                "version_normalized": "2.1.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/custom-page.2.1.0.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>Custom Page plugin is use to customize page design easily and visually, just like using a simple webpage photoshop. You can display design of Custom Pages in single page or embed in the theme templates. It allow your page design think out of the box.<\/p>\n\n<p>Please check out our <a href=\"http:\/\/dev.msialink.com\/\">website<\/a> for more information.<\/p>\n\n<p>Some Features:<\/p>\n\n<ul>\n<li>Customize design of multiple pages.<\/li>\n<li>Render the layout by plugin default layout or create your own layout <code>custom-page.php<\/code> or specific <code>custom-page-post_id.php<\/code> in the theme templates.<\/li>\n<li>Render the custom page by using shortcode function <code>&#60;?php echo do_shortcode( '[custom-page id=\"post_id\"]' ); ?&#62;<\/code> in theme templates (e.g.: header.php, page.php or etc).<\/li>\n<li>Mobile device detection can switch the Custom Page to default post content.<\/li>\n<\/ul>",
+                "uid": "19400"
+            }
+        }
+    }
+}

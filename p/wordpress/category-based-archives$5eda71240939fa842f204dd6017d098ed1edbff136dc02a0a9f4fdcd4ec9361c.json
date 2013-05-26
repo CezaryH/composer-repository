@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/category-based-archives": {
+            "1.0.5": {
+                "name": "wordpress\/category-based-archives",
+                "version": "1.0.5",
+                "version_normalized": "1.0.5.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/category-based-archives.1.0.5.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>The archives within WordPress are pretty limited in a sense that they do not offer much configuration beyond what they do. Date based will be date based, like category based archives will only display categories. This plugin mitigates the issue by giving date based archives the ability to list content by categories as well.<\/p>\n\n<p>This is done via modification of the rewrite rules to allow for the ability to have permalinks like <a href=\"http:\/\/yourblog.com\/2008\/in-blog\/\" rel=\"nofollow\">http:\/\/yourblog.com\/2008\/in-blog\/<\/a>. This basically is a date based archive that shows only entries from the \"blog\" category.<\/p>\n\n<p>This plugin can also work without the usage of rewrite rules. It currently supports date based archives for years and months.<\/p>",
+                "uid": "101331"
+            }
+        }
+    }
+}

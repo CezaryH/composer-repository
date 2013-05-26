@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/collapsing-objects": {
+            "0.2": {
+                "name": "wordpress\/collapsing-objects",
+                "version": "0.2",
+                "version_normalized": "0.2.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/collapsing-objects.0.2.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>Collapsing objects wraps anything enclosed in expand tags into a collapsible div. This is a work in progress and may be a little bit messy due to me not having done much with PHP in a while and being new to wordpress.<\/p>\n\n<p>Please note that this requires javascript, if you expect visitors with javascript disabled please do NOT use this plugin!<\/p>\n\n<p>I made a couple of mistakes before when submitting such as leaving a wrong hardcoded path in the script and messing up the versioning due to not knowing how WordPress plugin indexing worked. This is now fixed and I have added a working example on my blog. Sorry for any inconvenience, please inform me if there are still issues<\/p>",
+                "uid": "103089"
+            }
+        }
+    }
+}

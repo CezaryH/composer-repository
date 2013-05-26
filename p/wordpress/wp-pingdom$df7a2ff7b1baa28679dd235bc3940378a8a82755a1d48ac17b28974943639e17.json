@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/wp-pingdom": {
+            "1.0": {
+                "name": "wordpress\/wp-pingdom",
+                "version": "1.0",
+                "version_normalized": "1.0.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/wp-pingdom.1.0.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<h4>What is WP Pingdom?<\/h4>\n\n<p>WP Pingdom brings the power of Pingdom's automatic site monitoring to your Wordpress blog, allowing you to include your uptime statistics on your blog in textual or graphical form. The remote calls to Pingdom and the graph image are cached, so the Widget should not affect your site's performance.<\/p>\n\n<p>You can read more at the <a href=\"http:\/\/wordpress-plugins.feifei.us\/pingdom\/\">WP Pingdom plugin<\/a> page.  WP Pingdom is 100% GPL compatible.<\/p>\n\n<h4>Requirements<\/h4>\n\n<ol>\n<li>Your Pingdom username, password, and api-key<\/li>\n<li>Wordpress 2.1+<\/li>\n<li>PHP-soap extension<\/li>\n<li>PHP 5.0+<\/li>\n<\/ol>",
+                "uid": "105173"
+            }
+        }
+    }
+}

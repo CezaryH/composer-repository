@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/wordspew": {
+            "1.16": {
+                "name": "wordpress\/wordspew",
+                "version": "1.16",
+                "version_normalized": "1.16.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/wordspew.1.16.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>This plugin will create a shoutbox on your wordpress blog. But it isn't any old shoutbox. It uses AJAX, a technology that allows  information to be transmitted to the server without the user refreshing the page. So what makes this special is that your users can carry out live chats from your blog without having to refresh the page. It's kind of like instant messaging!<\/p>\n\n<p>Features: It distinguishes whether a user is logged in to wordpress, and if he\/she is, then it users their nickname as their name, so that they don't have to type it in every time they refresh the page. Also, if that user is an admin, they get a special link \"Administrate\" This will take them to the admin panel for the plugin. This admin panel allows you to set colors, change timing, and edit\/delete comments.<\/p>\n\n<p>This plugin works with AJAX in IE6\/Windows, Firefox, Safari, Konqueror, and Opera 8.01. It will still work with any other browser, just sans-AJAX.<\/p>",
+                "uid": "114501"
+            }
+        }
+    }
+}

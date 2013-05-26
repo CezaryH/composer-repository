@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/picdonkey": {
+            "1.0": {
+                "name": "wordpress\/picdonkey",
+                "version": "1.0",
+                "version_normalized": "1.0.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/picdonkey.1.0.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>Show Thumbnails of webpages just with a simple ubb code: Use <code>[thumb]http:\/\/www.homepage.com[\/thumb]<\/code> in your articles and you have linked thumbnails. If you want to style your thumbnails you just have to use the css class <code>picdonkey<\/code>.<\/p>\n\n<p>Only 1-2 Minutes and the thumbnails snapshots are generated. This takes some time, because the server has to deliver many thumbnails at one time. Once cached (1-2minutes), the thumbnails will appear.<\/p>",
+                "uid": "94782"
+            }
+        }
+    }
+}

@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/interactive-hail-reports-heat-map": {
+            "1.0.1": {
+                "name": "wordpress\/interactive-hail-reports-heat-map",
+                "version": "1.0.1",
+                "version_normalized": "1.0.1.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/interactive-hail-reports-heat-map.1.0.1.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p><a href=\"http:\/\/www.interactivehailmaps.com\">Interactive Hail Maps<\/a> for Wordpress is a cool, free, and easy way to illustrate the intensity of a hail storm.  Our interactive map looks great in a blog post or a page, and is very easy to use.<\/p>\n\n<p>Heat maps let your website visitors quickly see regions where hail was reported - the bigger the hail and the more concentrated the reports, the more intense the heat on the map.  Zoom in to see individual hail report markers with mouseover details about the report.<\/p>\n\n<h3>HailMap Shortcode<\/h3>\n\n<h3>[hailmap]<\/h3>\n\n<p>When used without any parameters, this shortcode will render a map of the current day's hail reports.  Customize the map with the parameters below.  City and State parameters must always be used together, all others may be used alone or in conjuction with any other :<\/p>\n\n<ul>\n<li>date=\"m\/d\/yyyy\" - Initialize the hail map with reports from the specified date.<\/li>\n<li><p>[hailmap date=\"4\/28\/2012\"]<\/p><\/li>\n<li><p>state",
+                "uid": "16103"
+            }
+        }
+    }
+}

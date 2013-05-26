@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/old-core-files": {
+            "1.1": {
+                "name": "wordpress\/old-core-files",
+                "version": "1.1",
+                "version_normalized": "1.1.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/old-core-files.1.1.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>When core is being upgraded, usually some files are no longer used by WordPress, and they are set for removal.<\/p>\n\n<p>On some occasions, PHP has no permissions to delete these files, and they stay on the server. Old Core Files alerts you to remove old files before hackers attempt to exploit them for attacks.<\/p>\n\n<p>It's recommended to delete unused themes and plugins as hackers could exploit them for attacks. Same logic applies for deprecated code files.<\/p>",
+                "uid": "11942"
+            }
+        }
+    }
+}

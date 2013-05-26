@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/videodork": {
+            "1.0": {
+                "name": "wordpress\/videodork",
+                "version": "1.0",
+                "version_normalized": "1.0.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/videodork.1.0.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>Anybody who wants to keep their site XHTML-compatible knows that the embedding codes YouTube and Gametrailers provide you with include XHTML errors. The WordPress plugins based on these codes don't fix these errors; that's why VideoDork was developed. Now you can easily embed the videos by just posting their URL in your posts, and your site will still validate against the current Web standards.<\/p>\n\n<p>The plugin supports only YouTube and Gametrailers videos yet - if you'd like it to allow embedding videos from your favourite site, <a href=\"http:\/\/regua.biz\/contact\" title=\"contact the author\">let me know<\/a> and I'll do it ASAP. Note that the plugin will accept links with or without <code>www.<\/code>, with or without a slash <code>\/<\/code> at the end, YouTube videos from around the world (the YouTube domain doesn't matter, be it youtube.com, youtube.co.uk, or youtube.pl) and allows you to embed both the casual Gametrailers videos as well as the community-created ones.<\/p>",
+                "uid": "103882"
+            }
+        }
+    }
+}

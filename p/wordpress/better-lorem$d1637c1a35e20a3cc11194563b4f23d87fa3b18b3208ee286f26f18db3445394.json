@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/better-lorem": {
+            "0.9.3": {
+                "name": "wordpress\/better-lorem",
+                "version": "0.9.3",
+                "version_normalized": "0.9.3.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/better-lorem.0.9.3.7.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>When you create WordPress plugins and themes it is often a good thing to test them on blogs with much data. Since 3.0 I use custom post types and custom taxonomies a lot and couldn&#8217;t find a plugin that autogenerates them. Hence I wrote a new plugin.<\/p>\n\n<p>Features:<\/p>\n\n<ul>\n<li>Automatically create posts, pages, and any custom post types<\/li>\n<li>Automatically create comments for those<\/li>\n<li>Automatically add terms from post tags, categories, or any other custom taxonomy to the created posts <\/li>\n<\/ul>\n\n<p>Things the plugin can&#8217;t do (yet?):<\/p>\n\n<ul>\n<li>Create attachments<\/li>\n<li>Add images or other content to new posts<\/li>\n<li>Create post metadata like custom fields<\/li>\n<li>Create comments in chronological order<\/li>\n<\/ul>\n\n<p>Missing features:<\/p>\n\n<ul>\n<li>Comments aren't generated chronlogically<\/li>\n<li>No attachments (yet)<\/li>\n<li>No way to autogenerate post metadata<\/li>\n<\/ul>\n\n<p>Other recommended things:<\/p>\n\n<ul>\n<li><a href=\"http:\/\/wordpress.org\/ex",
+                "uid": "60344"
+            }
+        }
+    }
+}

@@ -1,0 +1,57 @@
+{
+    "packages": {
+        "wordpress\/meta-for-taxonomies": {
+            "1.0.0": {
+                "name": "wordpress\/meta-for-taxonomies",
+                "version": "1.0.0",
+                "version_normalized": "1.0.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/meta-for-taxonomies.1.0.0.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>Add meta for any taxonomies. \nMeta is attached to taxonomy context and not terms, this way allow to have metas different for the same term on 2 different taxonomies. \n<strong>It's the better implementation for this feature.<\/strong><\/p>\n\n<p>This plugin don't any interface on WordPress ! Only somes methods for developpers.<\/p>\n\n<p>This plugin propose many functions for terms :<\/p>\n\n<ul>\n<li>add_term_meta( $taxonomy = '', $term_id = 0, $meta_key = '', $meta_value = '', $unique = false )<\/li>\n<li>delete_term_meta( $taxonomy = '', $term_id = 0, $meta_key = '', $meta_value = '')<\/li>\n<li>get_term_meta( $taxonomy = '', $term_id = 0, $meta_key = '', $single = false )<\/li>\n<li>update_term_meta( $taxonomy = '', $term_id = 0, $meta_key, $meta_value, $prev_value = '' )<\/li>\n<\/ul>\n\n<p>And many others functions term taxonomy context :<\/p>\n\n<ul>\n<li>add_term_taxonomy_meta( $term_taxonomy_id = 0, $meta_key = '', $meta_value = '', $unique = false )<\/li>\n<li>delete_term_taxonomy_meta( $term_taxonomy",
+                "uid": "66975"
+            },
+            "1.1.3": {
+                "name": "wordpress\/meta-for-taxonomies",
+                "version": "1.1.3",
+                "version_normalized": "1.1.3.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/meta-for-taxonomies.1.1.3.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>Add meta for any taxonomies. \nMeta is attached to taxonomy context and not terms, this way allow to have metas different for the same term on 2 different taxonomies. \n<strong>It's the better implementation for this feature.<\/strong><\/p>\n\n<p>This plugin don't any interface on WordPress ! Only somes methods for developpers.<\/p>\n\n<p>This plugin propose many functions for terms :<\/p>\n\n<ul>\n<li>add_term_meta( $taxonomy = '', $term_id = 0, $meta_key = '', $meta_value = '', $unique = false )<\/li>\n<li>delete_term_meta( $taxonomy = '', $term_id = 0, $meta_key = '', $meta_value = '')<\/li>\n<li>get_term_meta( $taxonomy = '', $term_id = 0, $meta_key = '', $single = false )<\/li>\n<li>update_term_meta( $taxonomy = '', $term_id = 0, $meta_key, $meta_value, $prev_value = '' )<\/li>\n<\/ul>\n\n<p>And many others functions term taxonomy context :<\/p>\n\n<ul>\n<li>add_term_taxonomy_meta( $term_taxonomy_id = 0, $meta_key = '', $meta_value = '', $unique = false )<\/li>\n<li>delete_term_taxonomy_meta( $term_taxonomy",
+                "uid": "66973"
+            },
+            "1.1.5": {
+                "name": "wordpress\/meta-for-taxonomies",
+                "version": "1.1.5",
+                "version_normalized": "1.1.5.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/meta-for-taxonomies.1.1.5.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>Add meta for any taxonomies. \nMeta is attached to taxonomy context and not terms, this way allow to have metas different for the same term on 2 different taxonomies. \n<strong>It's the better implementation for this feature.<\/strong><\/p>\n\n<p>This plugin don't any interface on WordPress ! Only somes methods for developpers.<\/p>\n\n<p>This plugin propose many functions for terms :<\/p>\n\n<ul>\n<li>add_term_meta( $taxonomy = '', $term_id = 0, $meta_key = '', $meta_value = '', $unique = false )<\/li>\n<li>delete_term_meta( $taxonomy = '', $term_id = 0, $meta_key = '', $meta_value = '')<\/li>\n<li>get_term_meta( $taxonomy = '', $term_id = 0, $meta_key = '', $single = false )<\/li>\n<li>update_term_meta( $taxonomy = '', $term_id = 0, $meta_key, $meta_value, $prev_value = '' )<\/li>\n<\/ul>\n\n<p>And many others functions term taxonomy context :<\/p>\n\n<ul>\n<li>add_term_taxonomy_meta( $term_taxonomy_id = 0, $meta_key = '', $meta_value = '', $unique = false )<\/li>\n<li>delete_term_taxonomy_meta( $term_taxonomy",
+                "uid": "66972"
+            }
+        }
+    }
+}

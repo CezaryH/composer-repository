@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/multisite-plugin-manager": {
+            "3.1.2": {
+                "name": "wordpress\/multisite-plugin-manager",
+                "version": "3.1.2",
+                "version_normalized": "3.1.2.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/multisite-plugin-manager.3.1.2.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>Plugin management for Wordpress Multisite that supports the native plugins page and the WPMU DEV Pro Sites plugin! Used on thousands of multisite installs across the web.\nPreviously known as <strong>WPMU Plugin Manager<\/strong>, it uses a backend options page to adjust plugin permissions for all the sites in your network.<\/p>\n\n<ul>\n<li>Select what plugins sites have access to<\/li>\n<li>Choose plugins to Auto-Activate for all new blogs<\/li>\n<li>Mass activate\/deactivate a plugin on all sites in your network (Very Handy!)<\/li>\n<li>Assign special plugin access permissions for specific sites in your network<\/li>\n<li>And as Super Admin, you can override all these to activate specific plugins on the sites you choose!<\/li>\n<li>Removes the plugin meta row links (Version, Author, Plugin) and any update messages for blog admins<\/li>\n<\/ul>\n\n<p>Also, if you use the excellent <a href=\"http:\/\/premium.wpmudev.org\/project\/pro-sites\">Pro Sites plugin from WPMU DEV<\/a> you will be able to charge for ac",
+                "uid": "50317"
+            }
+        }
+    }
+}

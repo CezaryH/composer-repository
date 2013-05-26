@@ -1,0 +1,40 @@
+{
+    "packages": {
+        "wordpress\/protected-post-personalizer": {
+            "0.5": {
+                "name": "wordpress\/protected-post-personalizer",
+                "version": "0.5",
+                "version_normalized": "0.5.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/protected-post-personalizer.0.5.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>This plugin is a simple one, but good at what it does. It changes three elements of protected posts to make them more friendly to visitors.<\/p>\n\n<h3>Prefixes:<\/h3>\n\n<ul>\n<li>customize prefix for password-protected posts from default \"Protected: \"<\/li>\n<li>customize prefix for private posts from \"Private: \"<\/li>\n<\/ul>\n\n<h3>Custom Previews:<\/h3>\n\n<ul>\n<li>ability to use the post's excerpt (if one is saved) when no password is given<\/li>\n<li>ability to show custom text for all password-protected posts<\/li>\n<li>if no saved excerpt, show the default OR use custom site-wide text<\/li>\n<\/ul>\n\n<h3>Password Form:<\/h3>\n\n<ul>\n<li>change text before the password input box<\/li>\n<li>change text of submit button<\/li>\n<li>add custom CSS; set class or ID for theme integration<\/li>\n<\/ul>\n\n<h4>Change Log<\/h4>\n\n<p>0.6 - corrected for Wordpress 2.7, which handles protected and private posts differently.\n0.5 - initial public release<\/p>",
+                "uid": "98324"
+            },
+            "0.6": {
+                "name": "wordpress\/protected-post-personalizer",
+                "version": "0.6",
+                "version_normalized": "0.6.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/protected-post-personalizer.0.6.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>This plugin is a simple one, but good at what it does. It changes three elements of protected posts to make them more friendly to visitors.<\/p>\n\n<h3>Prefixes:<\/h3>\n\n<ul>\n<li>customize prefix for password-protected posts from default \"Protected: \"<\/li>\n<li>customize prefix for private posts from \"Private: \"<\/li>\n<\/ul>\n\n<h3>Custom Previews:<\/h3>\n\n<ul>\n<li>ability to use the post's excerpt (if one is saved) when no password is given<\/li>\n<li>ability to show custom text for all password-protected posts<\/li>\n<li>if no saved excerpt, show the default OR use custom site-wide text<\/li>\n<\/ul>\n\n<h3>Password Form:<\/h3>\n\n<ul>\n<li>change text before the password input box<\/li>\n<li>change text of submit button<\/li>\n<li>add custom CSS; set class or ID for theme integration<\/li>\n<\/ul>\n\n<h4>Change Log<\/h4>\n\n<p>0.6 - corrected for Wordpress 2.7, which handles protected and private posts differently.\n0.5 - initial public release<\/p>",
+                "uid": "98323"
+            }
+        }
+    }
+}

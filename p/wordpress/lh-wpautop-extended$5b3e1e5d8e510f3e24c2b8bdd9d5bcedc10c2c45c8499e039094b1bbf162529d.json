@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/lh-wpautop-extended": {
+            "1.0": {
+                "name": "wordpress\/lh-wpautop-extended",
+                "version": "1.0",
+                "version_normalized": "1.0.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/lh-wpautop-extended.1.0.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>This plugin basically just consists of one function, that extends the functionality of Wordpress own wpautop function.<\/p>\n\n<p>On several occasions a theme developer might feel the need, that a certain HTML Tag should not be wrapped in paragraphs. \nThis plugin deactivates the standard wpautop function and replaces it with an extended version of that plugin. Upon \nactivation of this plugin you'll have access to the 'lh_wpautop_block_elements' filter, which gives you the ability to extend,\nmodify and enhance the array of standard elements, which are per default not wrapped in <code>&#60;p&#62;<\/code> tags.<\/p>\n\n<p>With that plugin you could place this function into the theme functions.php, Images and Iframes will no longer be wrapped in paragraphs.<\/p>\n\n<pre><code>&#60;?php \nfunction add_block_elements($block_elements){\n        $block_elements[] = &#34;iframe&#34;;\n        $block_elements[] = &#34;img&#34;;\n\n        return $block_elements;\n}\nadd_filter(&#34;wpautop_block_elements&#34;",
+                "uid": "12674"
+            }
+        }
+    }
+}

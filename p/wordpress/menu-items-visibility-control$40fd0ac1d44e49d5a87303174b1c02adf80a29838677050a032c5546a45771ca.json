@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/menu-items-visibility-control": {
+            "0.3": {
+                "name": "wordpress\/menu-items-visibility-control",
+                "version": "0.3",
+                "version_normalized": "0.3.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/menu-items-visibility-control.0.3.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>Using this plugin you can use WordPress <a href=\"http:\/\/codex.wordpress.org\/Conditional_Tags\">Conditional Tags<\/a> to enable or disable menu items on the front-end. It works like 'Widget Logic' but for menu items.<\/p>\n\n<h4>Usage<\/h4>\n\n<p>You must insert conditional tags in the \"Visibility\" box in the menu item options form. You can use any PHP or WordPress functions to build crazy conditions and logics for menu items. For example, to hide the menu item on homepage you can set the visibility to:<\/p>\n\n<pre><code>! is_home()<\/code><\/pre>\n\n<p>To hide the menu item to logged in users:<\/p>\n\n<pre><code>! is_user_logged_in()<\/code><\/pre>\n\n<p>To show the menu item only to users with \"administrator\" role:<\/p>\n\n<pre><code>in_array(&#039;administrator&#039;, $GLOBALS[&#039;current_user&#039;]-&#62;roles)<\/code><\/pre>",
+                "uid": "42468"
+            }
+        }
+    }
+}

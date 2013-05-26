@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/iposts": {
+            "0.1": {
+                "name": "wordpress\/iposts",
+                "version": "0.1",
+                "version_normalized": "0.1.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/iposts.0.1.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>The plugin allows you to use an iOS app's ID to import all the app's related information into your posts.  This includes using the app's icon as the post's featured image, importing all the screenshots into the gallery, and adding custom field information (app price, description, rating, release date, related urls, etc.).<\/p>\n\n<p>You may find other plugins that allow you to create a <a href=\"http:\/\/codex.wordpress.org\/Post_Types\">WordPress Custom Post Type<\/a> for apps.  That would be useful if you wanted to store a list of apps and thier attributes.  The advantages of that method include having a separate admin section for creating apps, and the ability to have an \"app archive page\".  But, it has the disadvantage of not showing up in your normal post feed.  Custom Post Types are best used for special cases, not to replace posts.<\/p>\n\n<p>This plugin simply adds to the standard post functionality.  It's best used when you simply want to write about an app, and have your post show up ",
+                "uid": "14446"
+            }
+        }
+    }
+}

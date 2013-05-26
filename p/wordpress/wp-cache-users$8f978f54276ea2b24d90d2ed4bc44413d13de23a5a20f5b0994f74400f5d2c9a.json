@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/wp-cache-users": {
+            "0.0.4": {
+                "name": "wordpress\/wp-cache-users",
+                "version": "0.0.4",
+                "version_normalized": "0.0.4.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/wp-cache-users.0.0.4.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>Caches multiple users automatically on post and comment pages to radically reduce mysql queries for plugins that get_userdata.\nIf you find that your query count has become excessive (25+) on your post or comment pages, this plugin may help.\nTested up to WordPress 3.2 (might be compatibile with newer versions). Feedback requested.<\/p>",
+                "uid": "95363"
+            }
+        }
+    }
+}

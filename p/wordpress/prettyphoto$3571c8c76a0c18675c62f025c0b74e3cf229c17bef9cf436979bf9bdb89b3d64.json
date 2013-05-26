@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/prettyphoto": {
+            "1.0": {
+                "name": "wordpress\/prettyphoto",
+                "version": "1.0",
+                "version_normalized": "1.0.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/prettyphoto.1.0.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p><strong>WordPress prettyPhoto<\/strong> is a jQuery lightbox clone. Not only does it support images, it also support for videos, flash, YouTube, iframes and ajax. It&#8217;s a full blown media lightbox.<\/p>\n\n<p>It is very easy to setup, yet very flexible if you want to customize it a bit. Plus the script is compatible in every major browser, even IE6.<br \/>\nFor a installation guide checkout the <strong>Installation<\/strong> tab above.<\/p>\n\n<p><strong>Usage Guide:<\/strong> It's very easy to implement. Just use a rel=\"prettyPhoto\" attribute with the link tags you want to pop up and that's all. You're ready to rock.<\/p>\n\n<p>Example: <code>&#60;a href=\"images.jpg\" rel=\"prettyPhoto\" title=\"This is the description\"&#62;&#60;img src=\"thumbnail.jpg\" width=\"60\" height=\"60\" alt=\"This is the title\" \/&#62;&#60;\/a&#62;<\/code><br \/>\nA set of short codes to use with visual editor of post\/page is being cooked.<\/p>\n\n<p>Make sure that your theme is WordPress header and footer tag enabled otherwise thi",
+                "uid": "11932"
+            }
+        }
+    }
+}

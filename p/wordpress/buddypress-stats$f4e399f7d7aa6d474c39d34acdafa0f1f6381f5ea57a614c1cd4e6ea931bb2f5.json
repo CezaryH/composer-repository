@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/buddypress-stats": {
+            "1.0": {
+                "name": "wordpress\/buddypress-stats",
+                "version": "1.0",
+                "version_normalized": "1.0.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/buddypress-stats.1.0.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>This plugin adds an admin page with some bar graphs with basic statistics from your BuddyPress installation.<\/p>\n\n<p>More specifically, it fetches data from the following tables:<\/p>\n\n<ul>\n<li>wp&#095;users<\/li>\n<li>wp&#095;bp&#095;groups<\/li>\n<li>wp&#095;bp&#095;activity&#095;user&#095;activity<\/li>\n<li>wp&#095;bp&#095;xprofile&#095;fields<\/li>\n<li>wp&#095;bp&#095;xprofile&#095;data<\/li>\n<li>wp&#095;bp&#095;friends<\/li>\n<li>wp&#095;bp&#095;groups&#095;members<\/li>\n<\/ul>\n\n<p>to generate the following bar graphs:<\/p>\n\n<ul>\n<li>(all \"multiselectbox\", \"selectbox\", \"checkbox\" and \"radio\" fields have one bar graph each) <em>(Xprofile)<\/em><\/li>\n<li>Most friends <em>(Friends)<\/em><\/li>\n<li>Most group members <em>(Groups)<\/em><\/li>\n<li>Most actions <em>(Activity)<\/em><\/li>\n<li>Most popular component&#095;action <em>(Activity)<\/em><\/li>\n<\/ul>\n\n<p>Suggestions for more graphs to be created are more than welcome!<\/p>",
+                "uid": "84069"
+            }
+        }
+    }
+}

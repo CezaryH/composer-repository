@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/articles2sidebar": {
+            "1.1": {
+                "name": "wordpress\/articles2sidebar",
+                "version": "1.1",
+                "version_normalized": "1.1.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/articles2sidebar.1.1.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>Articles to Sidebar allow you to put some articles into the sidebar of pages.<\/p>\n\n<p>When you use WP as a &#8220;normal&#8221; CMS, you could want to add some custom boxes into the pages' sidebars.\nWhith &#8220;Articles to Sidebar&#8221; you can write articles, put them into :<\/p>\n\n<ul>\n<li>a special category (in order to display to all pages)<\/li>\n<li>a category called the same as the current page<\/li>\n<li>both special category and category called the same as the curent page<\/li>\n<\/ul>\n\n<p>When the article is displayed into the sidebar, the fist images it contains is used to illustrate.\nThe displayed content is the article's excerpt. If there is no excerpt, the extend (before the <code>&#60;!--more--&#62;<\/code> tag) is used and if there is no extend, one is computed (55 first words) and used.<\/p>\n\n<p>You can choose to put a link to the article or not. That behavior can be chanched for each articles by using a custom boolean var (articles2sidebar_display_link : 1 force link &#124;",
+                "uid": "88645"
+            }
+        }
+    }
+}

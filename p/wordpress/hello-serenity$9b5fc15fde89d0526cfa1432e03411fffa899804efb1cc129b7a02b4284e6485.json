@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/hello-serenity": {
+            "1.0": {
+                "name": "wordpress\/hello-serenity",
+                "version": "1.0",
+                "version_normalized": "1.0.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/hello-serenity.1.0.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>Displays quotes from Joss Whedon's Firefly TV series and Serenity film. Based on the original plugin Hello Dolly.<\/p>",
+                "uid": "45226"
+            }
+        }
+    }
+}

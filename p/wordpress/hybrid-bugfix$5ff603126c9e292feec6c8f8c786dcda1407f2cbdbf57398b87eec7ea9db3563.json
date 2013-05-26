@@ -1,0 +1,40 @@
+{
+    "packages": {
+        "wordpress\/hybrid-bugfix": {
+            "0.1": {
+                "name": "wordpress\/hybrid-bugfix",
+                "version": "0.1",
+                "version_normalized": "0.1.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/hybrid-bugfix.0.1.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>Fix Disappearing Content in Themes plugin fixes a bug found in some themes such as Hybrid based Themes where content and features added by plugins do not appear in the page's body area.<\/p>\n\n<p>If your site does not display content\/features added by plugins, this plugin may fix the problem.<\/p>\n\n<p>This plugin prevents plugins from adding content to the page until after the <code>have_posts()<\/code> call is made by the theme.<\/p>\n\n<h4>Bug Details<\/h4>\n\n<p>The problem occurs with themes that call <code>the_excerpt()<\/code>, <code>get_the_excerpt()<\/code>, <code>the_content()<\/code>, or <code>get_the_content()<\/code> functions in places such as in the HTML head area, header area of the page, or in a sidebar to display a short description of the page's content. Because the function call is made outside of the main content area, plugins will add their content prematurely and thus not appear in the page.<\/p>\n\n<h4>Technical Explanation of Fix<\/h4>\n\n<p>This plugin removes the hooks to <cod",
+                "uid": "84045"
+            },
+            "0.1.1": {
+                "name": "wordpress\/hybrid-bugfix",
+                "version": "0.1.1",
+                "version_normalized": "0.1.1.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/hybrid-bugfix.0.1.1.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>Fix Disappearing Content in Themes plugin fixes a bug found in some themes such as Hybrid based Themes where content and features added by plugins do not appear in the page's body area.<\/p>\n\n<p>If your site does not display content\/features added by plugins, this plugin may fix the problem.<\/p>\n\n<p>This plugin prevents plugins from adding content to the page until after the <code>have_posts()<\/code> call is made by the theme.<\/p>\n\n<h4>Bug Details<\/h4>\n\n<p>The problem occurs with themes that call <code>the_excerpt()<\/code>, <code>get_the_excerpt()<\/code>, <code>the_content()<\/code>, or <code>get_the_content()<\/code> functions in places such as in the HTML head area, header area of the page, or in a sidebar to display a short description of the page's content. Because the function call is made outside of the main content area, plugins will add their content prematurely and thus not appear in the page.<\/p>\n\n<h4>Technical Explanation of Fix<\/h4>\n\n<p>This plugin removes the hooks to <cod",
+                "uid": "84044"
+            }
+        }
+    }
+}

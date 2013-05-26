@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/visual-sound": {
+            "1.03": {
+                "name": "wordpress\/visual-sound",
+                "version": "1.03",
+                "version_normalized": "1.03.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/visual-sound.1.03.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>Configure Visual-Sound through your administration interface\\settings. \nChoose a provider: soundcloud, visualdreams or visualsound for combined mode.\nWhen supporting the plug-in you'll get a sample widget preview!<\/p>\n\n<p>More information can be found at <a href=\"http:\/\/visualsound.be\" rel=\"nofollow\">http:\/\/visualsound.be<\/a><\/p>\n\n<p>General Visual-Sound plug-in syntax:<\/p>\n\n<p>[provider mode username location]<\/p>\n\n<p>SoundCloud Syntax:<\/p>\n\n<p>[soundcloud command username location]<\/p>\n\n<p>examples:<\/p>\n\n<p>[soundcloud track user location] opens the user\/trackname<\/p>\n\n<p>[soundcloud playtrack user location] autoplay user\/trackname<\/p>\n\n<p>[soundcloud set user location] opens the user\/setname<\/p>\n\n<p>[soundcloud playset user location] autoplay user\/setname<\/p>\n\n<p>[soundcloud dropbox user] dropbox for user<\/p>\n\n<p>[soundcloud inbox user] inline dropbox for user<\/p>\n\n<p>VisualDreams Syntax:<\/p>\n\n<p>[visualdreams command username location\/object]<\/p>\n\n<p>examples:<\/p>\n\n<p>[visualdre",
+                "uid": "92734"
+            }
+        }
+    }
+}

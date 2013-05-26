@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/ms-slots": {
+            "1.0": {
+                "name": "wordpress\/ms-slots",
+                "version": "1.0",
+                "version_normalized": "1.0.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/ms-slots.1.0.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>Plugin to display HTML\/Javascripts\/Text anywhere in your theme in a very easy way. You can also display your contents randomly.\nYou can use MS Slots Plugin for google adsense or other ads, static banners, random banners etc<\/p>\n\n<p><\/p>\n\n<ol>\n<li><p>you can add a single slot anywhere in your template, e.g.\n&#60;?php if(function_exists(&#34;ms_slots&#34;)){ echo ms_slots(&#34;1&#34;); } ?&#62;<\/p><\/li>\n<li><p>you can also add random slots, e.g.\n&#60;?php if(function_exists(&#34;ms_random_slots&#34;)){ echo ms_random_slots(); } ?&#62;<\/p><\/li>\n<li><p>to exclude slots, use\n&#60;?php if(function_exists(&#34;ms_random_slots&#34;)){ echo ms_random_slots(&#34;1,2&#34;); } ?&#62;<\/p><\/li>\n<\/ol>",
+                "uid": "81097"
+            }
+        }
+    }
+}

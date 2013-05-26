@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/auto-link": {
+            "0.5": {
+                "name": "wordpress\/auto-link",
+                "version": "0.5",
+                "version_normalized": "0.5.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/auto-link.0.5.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>This plugin takes delimiters and replaces them with links using the GoogleAPI. Example: [movie]She's The Man[\/movie]... Will replace it with: <a href=\"http:\/\/www.imdb.com\/title\/tt0454945\/\">She's the man<\/a>.<\/p>",
+                "uid": "110051"
+            }
+        }
+    }
+}

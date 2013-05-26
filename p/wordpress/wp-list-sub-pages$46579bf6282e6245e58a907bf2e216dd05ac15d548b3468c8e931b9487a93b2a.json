@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/wp-list-sub-pages": {
+            "0.1": {
+                "name": "wordpress\/wp-list-sub-pages",
+                "version": "0.1",
+                "version_normalized": "0.1.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/wp-list-sub-pages.0.1.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>This Wordpress plugin is oly one function. It takes exactly the same parameters as wp_list_pages, except for child_of, which is used internally.\nWhen called on in template file, it will list :\n* on the homepage of the blog, every page and subpage (default, this can be overriden by parameters)\n* on every other page, only the pages with the same top-parent (parent of level 1)<\/p>",
+                "uid": "89774"
+            }
+        }
+    }
+}

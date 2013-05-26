@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/restore-bundled-jquery": {
+            "0.1": {
+                "name": "wordpress\/restore-bundled-jquery",
+                "version": "0.1",
+                "version_normalized": "0.1.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/restore-bundled-jquery.0.1.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>Restores and enforces the bundled jQuery in the admin if your theme registers a newer version which may not be compatible with WordPress yet.<\/p>\n\n<p>You can try this plugin <a href=\"http:\/\/wpdevel.wordpress.com\/2011\/02\/10\/if-your-menus-or-widgets-screens-broke\/\">if your menus or widgets screens broke<\/a>.<\/p>",
+                "uid": "53252"
+            }
+        }
+    }
+}

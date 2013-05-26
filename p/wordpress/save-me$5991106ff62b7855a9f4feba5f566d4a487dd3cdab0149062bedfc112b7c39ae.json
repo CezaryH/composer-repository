@@ -1,0 +1,40 @@
+{
+    "packages": {
+        "wordpress\/save-me": {
+            "1.0": {
+                "name": "wordpress\/save-me",
+                "version": "1.0",
+                "version_normalized": "1.0.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/save-me.1.0.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>The Save Me plugin saves JavaScript and other inline code from distortion by the WordPress rich text editor. Add code in the editor's VISUAL mode, bracketing it with the shortcode <code>[saveme][\/saveme]<\/code>.<\/p>\n\n<p>While it is possible without a plugin to switch to HTML editing mode and paste JavaScript into a post, often the code will be scrambled if you toggle back and forth between the HTML and Visual modes. For example, the TinyMCE editor sometimes eliminates what it doesn't understand -- like empty divs into which your JavaScript or AJAX widget needs to inject content. And since JavaScript code is not displayed with any representation in the visual editor, it's easy to accidentally delete.<\/p>\n\n<p>In rich tech mode, the editor will treat your code as if it were a code sample you were writing about, rather than a script to be executed. You may see distortions, like quotation marks being turned into curly quotes, but at least you can keep track of where you inserted the code",
+                "uid": "50680"
+            },
+            "1.1": {
+                "name": "wordpress\/save-me",
+                "version": "1.1",
+                "version_normalized": "1.1.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/save-me.1.1.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>The Save Me plugin saves JavaScript and other inline code from distortion by the WordPress rich text editor. Add code in the editor's VISUAL mode, bracketing it with the shortcode <code>[saveme][\/saveme]<\/code>.<\/p>\n\n<p>While it is possible without a plugin to switch to HTML editing mode and paste JavaScript into a post, often the code will be scrambled if you toggle back and forth between the HTML and Visual modes. For example, the TinyMCE editor sometimes eliminates what it doesn't understand -- like empty divs into which your JavaScript or AJAX widget needs to inject content. And since JavaScript code is not displayed with any representation in the visual editor, it's easy to accidentally delete.<\/p>\n\n<p>In rich tech mode, the editor will treat your code as if it were a code sample you were writing about, rather than a script to be executed. You may see distortions, like quotation marks being turned into curly quotes, but at least you can keep track of where you inserted the code",
+                "uid": "50678"
+            }
+        }
+    }
+}

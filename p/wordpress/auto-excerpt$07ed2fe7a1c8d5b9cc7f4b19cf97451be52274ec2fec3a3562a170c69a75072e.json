@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/auto-excerpt": {
+            "3.12": {
+                "name": "wordpress\/auto-excerpt",
+                "version": "3.12",
+                "version_normalized": "3.12.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/auto-excerpt.3.12.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>Automatically show excerpt view on each posts on your homepage and archive pages. It need no HTML editting, so do not worry and just activate it to see the_excerpt view on your homepage.<\/p>\n\n<p>Help you to display only the excerpt on your blog !!!<\/p>",
+                "uid": "81207"
+            }
+        }
+    }
+}

@@ -1,0 +1,57 @@
+{
+    "packages": {
+        "wordpress\/preload-current-images": {
+            "1.0": {
+                "name": "wordpress\/preload-current-images",
+                "version": "1.0",
+                "version_normalized": "1.0.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/preload-current-images.1.0.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>Allows you to auto preload all images on the current page. This also include background images. This is perfect for slides where not all images are visible at once on the page. Typically not all images will load at the same time making it appear the slide is not working.<\/p>\n\n<p>Please be aware that the page will initially load a little slower as it needs to load the images before running your js code. But having said that, if your code needs these images to load before hand, it will make it easier for your users to use your plugins or code.<\/p>\n\n<p>So in summary, it makes your slides run smoother, forces all images to be loaded before use and makes the images load faster.<\/p>\n\n<p>With this plugin you can use the preload_progress_bar shortcode:<\/p>\n\n<p>[preload_progress_bar complete=\"jQuery('#content').show();progressbar.hide();progressbar.remove();\" initial_text='Loading...'][\/preload_progress_bar]<\/p>",
+                "uid": "10195"
+            },
+            "1.1": {
+                "name": "wordpress\/preload-current-images",
+                "version": "1.1",
+                "version_normalized": "1.1.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/preload-current-images.1.1.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>Allows you to auto preload all images on the current page. This also include background images. This is perfect for slides where not all images are visible at once on the page. Typically not all images will load at the same time making it appear the slide is not working.<\/p>\n\n<p>Please be aware that the page will initially load a little slower as it needs to load the images before running your js code. But having said that, if your code needs these images to load before hand, it will make it easier for your users to use your plugins or code.<\/p>\n\n<p>So in summary, it makes your slides run smoother, forces all images to be loaded before use and makes the images load faster.<\/p>\n\n<p>With this plugin you can use the preload_progress_bar shortcode:<\/p>\n\n<p>[preload_progress_bar complete=\"jQuery('#content').show();progressbar.hide();progressbar.remove();\" initial_text='Loading...'][\/preload_progress_bar]<\/p>",
+                "uid": "10194"
+            },
+            "1.2": {
+                "name": "wordpress\/preload-current-images",
+                "version": "1.2",
+                "version_normalized": "1.2.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/preload-current-images.1.2.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>Allows you to auto preload all images on the current page. This also include background images. This is perfect for slides where not all images are visible at once on the page. Typically not all images will load at the same time making it appear the slide is not working.<\/p>\n\n<p>Please be aware that the page will initially load a little slower as it needs to load the images before running your js code. But having said that, if your code needs these images to load before hand, it will make it easier for your users to use your plugins or code.<\/p>\n\n<p>So in summary, it makes your slides run smoother, forces all images to be loaded before use and makes the images load faster.<\/p>\n\n<p>With this plugin you can use the preload_progress_bar shortcode:<\/p>\n\n<p>[preload_progress_bar complete=\"jQuery('#content').show();progressbar.hide();progressbar.remove();\" initial_text='Loading...'][\/preload_progress_bar]<\/p>",
+                "uid": "10193"
+            }
+        }
+    }
+}

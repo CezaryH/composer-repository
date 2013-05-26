@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/manage-pages-custom-columns": {
+            "1.0": {
+                "name": "wordpress\/manage-pages-custom-columns",
+                "version": "1.0",
+                "version_normalized": "1.0.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/manage-pages-custom-columns.1.0.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>This plugin is obsolete as of WordPress 2.4.<\/p>\n\n<p>Replicates the custom column feature of the manage posts page.  This is in response to the long-standing <a href=\"http:\/\/trac.wordpress.org\/ticket\/2284\">enhancement request<\/a>.  It provides a <code>manage_pages_custom_column<\/code> action and <code>manage_pages_columns<\/code> filter which can be used similarly to the <code>manage_posts_custom_column<\/code> action and <code>manage_posts_columns<\/code> filter provided by WordPress.<\/p>\n\n<p>A tutorial on <a href=\"http:\/\/scompt.com\/archives\/2007\/10\/20\/adding-custom-columns-to-the-wordpress-manage-posts-screen\">how to add custom columns to the manage posts screen<\/a> can be viewed on my website.<\/p>",
+                "uid": "108758"
+            }
+        }
+    }
+}

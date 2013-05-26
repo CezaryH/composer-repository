@@ -1,0 +1,57 @@
+{
+    "packages": {
+        "wordpress\/user-photo": {
+            "0.7": {
+                "name": "wordpress\/user-photo",
+                "version": "0.7",
+                "version_normalized": "0.7.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/user-photo.0.7.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p><strong><em>Make sure you upgrade to version 0.9.5.2!<\/em><\/strong><\/p>\n\n<p>Allows a user to associate a profile photo with their account through their \"Your Profile\" page. Admins may \nadd a user profile photo by accessing the \"Edit User\" page. Uploaded images are resized to fit the dimensions specified \non the options page; a thumbnail image correspondingly is also generated. \nUser photos may be displayed within a post or a comment to \nhelp identify the author. New template tags introduced are:<\/p>\n\n<ul>\n<li><code>userphoto_the_author_photo()<\/code><\/li>\n<li><code>userphoto_the_author_thumbnail()<\/code><\/li>\n<li><code>userphoto_comment_author_photo()<\/code><\/li>\n<li><code>userphoto_comment_author_thumbnail()<\/code><\/li>\n<\/ul>\n\n<p><em>Important: all of these \"template tags\" must appear inside of PHP script blocks (see examples below).<\/em>\nThe first two should be placed in the posts loop near <code>the_author()<\/code>, and the second two in the comments\nloop near <code>comment_autho",
+                "uid": "108284"
+            },
+            "0.9.4": {
+                "name": "wordpress\/user-photo",
+                "version": "0.9.4",
+                "version_normalized": "0.9.4.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/user-photo.0.9.4.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p><strong><em>Make sure you upgrade to version 0.9.5.2!<\/em><\/strong><\/p>\n\n<p>Allows a user to associate a profile photo with their account through their \"Your Profile\" page. Admins may \nadd a user profile photo by accessing the \"Edit User\" page. Uploaded images are resized to fit the dimensions specified \non the options page; a thumbnail image correspondingly is also generated. \nUser photos may be displayed within a post or a comment to \nhelp identify the author. New template tags introduced are:<\/p>\n\n<ul>\n<li><code>userphoto_the_author_photo()<\/code><\/li>\n<li><code>userphoto_the_author_thumbnail()<\/code><\/li>\n<li><code>userphoto_comment_author_photo()<\/code><\/li>\n<li><code>userphoto_comment_author_thumbnail()<\/code><\/li>\n<\/ul>\n\n<p><em>Important: all of these \"template tags\" must appear inside of PHP script blocks (see examples below).<\/em>\nThe first two should be placed in the posts loop near <code>the_author()<\/code>, and the second two in the comments\nloop near <code>comment_autho",
+                "uid": "108283"
+            },
+            "0.9.5": {
+                "name": "wordpress\/user-photo",
+                "version": "0.9.5",
+                "version_normalized": "0.9.5.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/user-photo.0.9.5.2.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p><strong><em>Make sure you upgrade to version 0.9.5.2!<\/em><\/strong><\/p>\n\n<p>Allows a user to associate a profile photo with their account through their \"Your Profile\" page. Admins may \nadd a user profile photo by accessing the \"Edit User\" page. Uploaded images are resized to fit the dimensions specified \non the options page; a thumbnail image correspondingly is also generated. \nUser photos may be displayed within a post or a comment to \nhelp identify the author. New template tags introduced are:<\/p>\n\n<ul>\n<li><code>userphoto_the_author_photo()<\/code><\/li>\n<li><code>userphoto_the_author_thumbnail()<\/code><\/li>\n<li><code>userphoto_comment_author_photo()<\/code><\/li>\n<li><code>userphoto_comment_author_thumbnail()<\/code><\/li>\n<\/ul>\n\n<p><em>Important: all of these \"template tags\" must appear inside of PHP script blocks (see examples below).<\/em>\nThe first two should be placed in the posts loop near <code>the_author()<\/code>, and the second two in the comments\nloop near <code>comment_autho",
+                "uid": "108282"
+            }
+        }
+    }
+}

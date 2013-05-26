@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/wpnsc-not-short-code": {
+            "1.0": {
+                "name": "wordpress\/wpnsc-not-short-code",
+                "version": "1.0",
+                "version_normalized": "1.0.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/wpnsc-not-short-code.1.0.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>Allows shortcodes to be escaped. Very useful for plugin authors who need to write documentation for their plugin on their blog. Very simple, very small. This is a common problem for plugin authors, and while a fix should be included by Wordpress 2.9 this plugin is so small and simple that it doesn't hurt to keep it included. Use a simple [wpNSC] [\/wpNSC] tag around your shortcodes to escape them. This plugin really couldn't be any simpler than that.<\/p>",
+                "uid": "94703"
+            }
+        }
+    }
+}

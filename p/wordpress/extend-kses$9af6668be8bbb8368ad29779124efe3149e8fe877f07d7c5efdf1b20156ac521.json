@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/extend-kses": {
+            "2.3": {
+                "name": "wordpress\/extend-kses",
+                "version": "2.3",
+                "version_normalized": "2.3.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/extend-kses.2.3.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>This is a modified version (under the MIT License) of a plugin originally developed by <strong><a href=\"http:\/\/www.tierra-innovation.com\/\">Tierra Innovation<\/a><\/strong> for <strong><a href=\"http:\/\/www.wnet.org\/\">WNET.org<\/a><\/strong>.<\/p>\n\n<p>This plugin extends the HTML functionalify of the Wordpress kses.php file, which states the allowable HTML that the post\/page content editor will accept.  It allows the site administrator to check pre-defined HTML tags that can also be allowed via the editor.  Tags include: <code>object<\/code>, <code>embed<\/code>, <code>param<\/code>, <code>iframe<\/code>, <code>map<\/code> and extensions have been added to the <code>div<\/code> and <code>img<\/code> tags.<\/p>\n\n<p>Keep in mind, that by checking a tag, you are making it acceptable to post said HTML and save it.  If your users also post content, it is important that you make sure you are not enabling any malicious HTML from wreaking havoc to your environment.  If there is a tag that is missing or tha",
+                "uid": "82228"
+            }
+        }
+    }
+}

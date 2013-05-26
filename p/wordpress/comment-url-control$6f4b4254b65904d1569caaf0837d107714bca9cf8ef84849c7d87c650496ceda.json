@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/comment-url-control": {
+            "0.5": {
+                "name": "wordpress\/comment-url-control",
+                "version": "0.5",
+                "version_normalized": "0.5.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/comment-url-control.0.5.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>This plugin is intended to make the comment-moderation for the blog-owner a little bit easier. It does not detect comment-spam on its own. To successfully prevent spam, it should be used as an addition to the spam-protection provided by Akismet and Spam Karma.<\/p>\n\n<p>This plugin adds a small button to every comment. This button will only be visibly to a logged-in blog-admin (that is a registered user with a user-level of 10).<\/p>\n\n<p>When you press this button, the URI of the commenter will be replaced by the URI you can specify at the plugin\u0092s option-page.<\/p>",
+                "uid": "107667"
+            }
+        }
+    }
+}

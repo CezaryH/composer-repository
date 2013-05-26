@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/openwallet": {
+            "0.0.1": {
+                "name": "wordpress\/openwallet",
+                "version": "0.0.1",
+                "version_normalized": "0.0.1.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/openwallet.0.0.1.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>openWallet is a login system for websites, which replaces user names and passwords with digital keys and a password.<\/p>\n\n<p>What makes openWallet so great is that you no longer have to remember what your user name for each site is (hmm\u0085 did I use JohnSmith or JohnSmith76 for my ebay login?) and your password is the same regardless of the site.<\/p>\n\n<p>For the security conscious out there, you'll be pleased to know that openWallet never sends your password over the net and is highly resilient to phishing.<\/p>",
+                "uid": "110754"
+            }
+        }
+    }
+}

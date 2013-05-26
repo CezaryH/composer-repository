@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/preview-comments-short-url": {
+            "0.8": {
+                "name": "wordpress\/preview-comments-short-url",
+                "version": "0.8",
+                "version_normalized": "0.8.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/preview-comments-short-url.0.8.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>Allows you to expand and preview short URL's in comments, useful to detect spam not caught by your antispam plugin or links to malicious sites before comment approval.<\/p>\n\n<p>Uses jQuery to retrieve the long URL from <a href=\"http:\/\/longurl.org\/\">longurl.org<\/a>.<\/p>",
+                "uid": "74705"
+            }
+        }
+    }
+}

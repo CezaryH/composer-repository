@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/google-docview-link": {
+            "1.0.1": {
+                "name": "wordpress\/google-docview-link",
+                "version": "1.0.1",
+                "version_normalized": "1.0.1.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/google-docview-link.1.0.1.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>The Google Document Viewer requires passing the URL of a document to be shown,\nand said URL must be URL-encoded. Since it is a pain to URL-encode URLs by hand,\nand since encoded URLs are hard to read, this plugin provides an easy way to \ngenerate url-encoded URLS.<\/p>\n\n<p>Two shortcodes are provided: [gdocview_url] and [gdocview_link].<\/p>\n\n<p>[gdocview_url] is passed a URL and returns it URL-encoded.<\/p>\n\n<p>This shortcode requires you to create your own HTML \"a\"; tag but allows the complete flexibility \nto do so however you want. The URL argument may be a full URL (starting with http) or a local URL\nstarting with a slash. If a local URL is passed, your WordPress site URL is automatically prepended.<\/p>\n\n<p>Examples:<\/p>\n\n<pre><code>`&#60;a href=\"[gdocview_url url=\"http:\/\/example.com\/my-document.pdf\"]\"&#62;Click here to view&#60;\/a&#62;;`\n`&#60;a href=\"[gdocview_url url=\"\/wp-content\/uploads\/2012\/05\/my-document.pdf\"]\"&#62;See the document&#60;\/a&#62;;`\n<\/code><\/pre>\n\n<p>[gdocview_li",
+                "uid": "24524"
+            }
+        }
+    }
+}

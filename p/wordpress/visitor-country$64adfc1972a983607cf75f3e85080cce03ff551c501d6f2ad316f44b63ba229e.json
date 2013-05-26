@@ -1,0 +1,57 @@
+{
+    "packages": {
+        "wordpress\/visitor-country": {
+            "0.8": {
+                "name": "wordpress\/visitor-country",
+                "version": "0.8",
+                "version_normalized": "0.8.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/visitor-country.0.8.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>This plugin adds support for displaying (using shortcodes) or enquiring (using PHP or JS) the visitor's country. See it working <a href=\"http:\/\/gefri.org\/misc\/wordpress\/visitor-country\">here<\/a>.<\/p>\n\n<p>It uses <a href=\"http:\/\/www.maxmind.com\/app\/geolitecountry\">MaxMind's GeoIP data file<\/a>, which is around 1.4 MB in size and is included with the plugin. The file is free, updated every month, and has the claimed accuracy of 99.5%;<\/p>\n\n<p>The plugin retrieves:<\/p>\n\n<ul>\n<li>The visitor's IP<\/li>\n<li>The visitor's country name<\/li>\n<li>The visitor's country code (2 letter ISO 3166)<\/li>\n<\/ul>\n\n<p>The shortcodes are:<\/p>\n\n<ul>\n<li><code>[VisitorCountry-IP]<\/code><\/li>\n<li><code>[VisitorCountry-Code]<\/code><\/li>\n<li><code>[VisitorCountry-Name]<\/code><\/li>\n<\/ul>\n\n<p>The javascript variables are:<\/p>\n\n<ul>\n<li><code>VisitorCountry.ip<\/code><\/li>\n<li><code>VisitorCountry.code<\/code><\/li>\n<li><code>VisitorCountry.name<\/code><\/li>\n<\/ul>\n\n<p>And the PHP functions:<\/p>\n\n<pre><code>global $V",
+                "uid": "27985"
+            },
+            "1.0": {
+                "name": "wordpress\/visitor-country",
+                "version": "1.0",
+                "version_normalized": "1.0.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/visitor-country.1.0.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>This plugin adds support for displaying (using shortcodes) or enquiring (using PHP or JS) the visitor's country. See it working <a href=\"http:\/\/gefri.org\/misc\/wordpress\/visitor-country\">here<\/a>.<\/p>\n\n<p>It uses <a href=\"http:\/\/www.maxmind.com\/app\/geolitecountry\">MaxMind's GeoIP data file<\/a>, which is around 1.4 MB in size and is included with the plugin. The file is free, updated every month, and has the claimed accuracy of 99.5%;<\/p>\n\n<p>The plugin retrieves:<\/p>\n\n<ul>\n<li>The visitor's IP<\/li>\n<li>The visitor's country name<\/li>\n<li>The visitor's country code (2 letter ISO 3166)<\/li>\n<\/ul>\n\n<p>The shortcodes are:<\/p>\n\n<ul>\n<li><code>[VisitorCountry-IP]<\/code><\/li>\n<li><code>[VisitorCountry-Code]<\/code><\/li>\n<li><code>[VisitorCountry-Name]<\/code><\/li>\n<\/ul>\n\n<p>The javascript variables are:<\/p>\n\n<ul>\n<li><code>VisitorCountry.ip<\/code><\/li>\n<li><code>VisitorCountry.code<\/code><\/li>\n<li><code>VisitorCountry.name<\/code><\/li>\n<\/ul>\n\n<p>And the PHP functions:<\/p>\n\n<pre><code>global $V",
+                "uid": "27984"
+            },
+            "1.0.1": {
+                "name": "wordpress\/visitor-country",
+                "version": "1.0.1",
+                "version_normalized": "1.0.1.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/visitor-country.1.0.1.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>This plugin adds support for displaying (using shortcodes) or enquiring (using PHP or JS) the visitor's country. See it working <a href=\"http:\/\/gefri.org\/misc\/wordpress\/visitor-country\">here<\/a>.<\/p>\n\n<p>It uses <a href=\"http:\/\/www.maxmind.com\/app\/geolitecountry\">MaxMind's GeoIP data file<\/a>, which is around 1.4 MB in size and is included with the plugin. The file is free, updated every month, and has the claimed accuracy of 99.5%;<\/p>\n\n<p>The plugin retrieves:<\/p>\n\n<ul>\n<li>The visitor's IP<\/li>\n<li>The visitor's country name<\/li>\n<li>The visitor's country code (2 letter ISO 3166)<\/li>\n<\/ul>\n\n<p>The shortcodes are:<\/p>\n\n<ul>\n<li><code>[VisitorCountry-IP]<\/code><\/li>\n<li><code>[VisitorCountry-Code]<\/code><\/li>\n<li><code>[VisitorCountry-Name]<\/code><\/li>\n<\/ul>\n\n<p>The javascript variables are:<\/p>\n\n<ul>\n<li><code>VisitorCountry.ip<\/code><\/li>\n<li><code>VisitorCountry.code<\/code><\/li>\n<li><code>VisitorCountry.name<\/code><\/li>\n<\/ul>\n\n<p>And the PHP functions:<\/p>\n\n<pre><code>global $V",
+                "uid": "27983"
+            }
+        }
+    }
+}

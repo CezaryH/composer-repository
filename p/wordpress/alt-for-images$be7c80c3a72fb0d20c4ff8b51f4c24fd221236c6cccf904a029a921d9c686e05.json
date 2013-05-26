@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/alt-for-images": {
+            "1.0": {
+                "name": "wordpress\/alt-for-images",
+                "version": "1.0",
+                "version_normalized": "1.0.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/alt-for-images.1.0.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>Plugin automatically fills the ALT attribute in HTML IMG tag on every insert a new image into the post, if it is not full.<\/p>\n\n<p>Note 1. \"AFI\" does not attribute alt attribute to the images added to the media library.<\/p>\n\n<p>Note 2. On the role of ALT attribute for the search engines read here:<\/p>\n\n<ul>\n<li><a href=\"http:\/\/help.yandex.com\/images\/?id=1112581\" rel=\"nofollow\">http:\/\/help.yandex.com\/images\/?id=1112581<\/a><\/li>\n<li><a href=\"http:\/\/support.google.com\/webmasters\/bin\/answer.py?hl=en&#038;answer=114016\" rel=\"nofollow\">http:\/\/support.google.com\/webmasters\/bin\/answer.py?hl=en&#038;answer=114016<\/a><\/li>\n<\/ul>",
+                "uid": "14856"
+            }
+        }
+    }
+}

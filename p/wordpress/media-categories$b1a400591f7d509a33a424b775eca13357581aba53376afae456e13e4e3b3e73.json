@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/media-categories": {
+            "0.2": {
+                "name": "wordpress\/media-categories",
+                "version": "0.2",
+                "version_normalized": "0.2.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/media-categories.0.2.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>By default, Wordpress doesn't allow for categorising attachments - just posts.  This plugin adds a category selection field to the attachment management interface.<\/p>",
+                "uid": "81865"
+            }
+        }
+    }
+}

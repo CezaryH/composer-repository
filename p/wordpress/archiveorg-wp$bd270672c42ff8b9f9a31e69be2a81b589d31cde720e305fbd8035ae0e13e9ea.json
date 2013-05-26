@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/archiveorg-wp": {
+            "1.0": {
+                "name": "wordpress\/archiveorg-wp",
+                "version": "1.0",
+                "version_normalized": "1.0.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/archiveorg-wp.1.0.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>Archive.org offers free streaming of thousands of moving image selections and even\nmore audio materials. The archive-org plugin offers a simple shortcode syntax for\nembedded video, audio, and playlists into Wordpress post\/pages.<\/p>\n\n<p>Usage:<\/p>\n\n<p>Place the shortcode [archive-org embed=embedID] into any post or page. embedID can be found on the Archive.org website at the tail end of the URL for a video or audio item or playlist. The plugin automatically recognizes playlists.<\/p>\n\n<p>Optional Parameters:<\/p>\n\n<pre><code>width = width in pixels of the embedded player\nheight = height in pixels of the embedded player\nplaylist = true\/false - determines whether a dropdown list of all the files is displayed\n<\/code><\/pre>\n\n<p>Example:<\/p>\n\n<p>An example using all the options might look like:<\/p>\n\n<pre><code>[archive-org embed=VariousBannedAndCensoredCartoons width=640 height=480 playlist=true]\n<\/code><\/pre>\n\n<p>Audio playlists include the dropdown list within the vertical dimension you'",
+                "uid": "23844"
+            }
+        }
+    }
+}

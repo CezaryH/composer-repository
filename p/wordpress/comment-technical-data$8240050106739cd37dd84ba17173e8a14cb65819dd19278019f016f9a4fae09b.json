@@ -1,0 +1,40 @@
+{
+    "packages": {
+        "wordpress\/comment-technical-data": {
+            "1.1": {
+                "name": "wordpress\/comment-technical-data",
+                "version": "1.1",
+                "version_normalized": "1.1.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/comment-technical-data.1.1.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>Adds additional technical information to comment notifications, including referrer, User-Agent, and a lot more.<\/p>\n\n<p>The default WordPress email notifications for moderation and new comments do not add very much technical data. This plugin captures an array of data, including the referrer that brought the user to the page where they commented, the referrer that brought them to the WordPress comments processing page (helps with fighting spam), User-Agent, Remote Host, Reverse DNS, Proxy Info, Browser Language, and more. In web design, there are various applications where this info can be helpful. If you are a technical type, or you just want to have additional info about a comment submitter, or to help stop spam, you might find this plugin useful. (If you are using <a href=\"http:\/\/wordpress.org\/extend\/plugins\/wp-spamfree\/\">WP-SpamFree<\/a> you don't need this plugin as it already includes this exact functionality.)<\/p>",
+                "uid": "87171"
+            },
+            "1.2": {
+                "name": "wordpress\/comment-technical-data",
+                "version": "1.2",
+                "version_normalized": "1.2.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/comment-technical-data.1.2.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>Adds additional technical information to comment notifications, including referrer, User-Agent, and a lot more.<\/p>\n\n<p>The default WordPress email notifications for moderation and new comments do not add very much technical data. This plugin captures an array of data, including the referrer that brought the user to the page where they commented, the referrer that brought them to the WordPress comments processing page (helps with fighting spam), User-Agent, Remote Host, Reverse DNS, Proxy Info, Browser Language, and more. In web design, there are various applications where this info can be helpful. If you are a technical type, or you just want to have additional info about a comment submitter, or to help stop spam, you might find this plugin useful. (If you are using <a href=\"http:\/\/wordpress.org\/extend\/plugins\/wp-spamfree\/\">WP-SpamFree<\/a> you don't need this plugin as it already includes this exact functionality.)<\/p>",
+                "uid": "87170"
+            }
+        }
+    }
+}

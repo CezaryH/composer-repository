@@ -1,0 +1,40 @@
+{
+    "packages": {
+        "wordpress\/prankzapper": {
+            "0.5": {
+                "name": "wordpress\/prankzapper",
+                "version": "0.5",
+                "version_normalized": "0.5.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/prankzapper.0.5.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<h4>PrankZapper - packer, minifier &#38; gzipper for JavaScript &#38; CSS<\/h4>\n\n<p>Some concepts borrowed from <a href=\"https:\/\/github.com\/farhadi\/SmartOptimizer\">SmartOptimizer<\/a> by <a href=\"http:\/\/farhadi.ir\/\">Ali Farhadi<\/a>.<\/p>\n\n<p>Used packers \/ minifiers are <a href=\"http:\/\/code.google.com\/p\/cssmin\/\">CssMin<\/a> and <a href=\"http:\/\/joliclic.free.fr\/php\/javascript-packer\/en\/\">JavaScriptPacker<\/a> (Nicolas\nMartins PHP port of Dean Edwards' <a href=\"http:\/\/dean.edwards.name\/packer\/\">packer<\/a>.)<\/p>\n\n<p>Some WordPress concepts borrowed from <a href=\"http:\/\/wordpress.org\/extend\/plugins\/wp-super-cache\/\">WP Super Cache<\/a>.<\/p>\n\n<h4>What is this?<\/h4>\n\n<p>This plugin, in essence, finds a specified file, packs it, creates a gzipped\nversion of it, and saves it in a cache folder.<\/p>\n\n<ul>\n<li>If you want to access the raw version of the requested file, add the nocache\nvariable to the url (configurable, defaults to \"nocache\".)<\/li>\n<li>The gzipped version of the file will only be create",
+                "uid": "14581"
+            },
+            "1.0": {
+                "name": "wordpress\/prankzapper",
+                "version": "1.0",
+                "version_normalized": "1.0.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/prankzapper.1.0.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<h4>PrankZapper - packer, minifier &#38; gzipper for JavaScript &#38; CSS<\/h4>\n\n<p>Some concepts borrowed from <a href=\"https:\/\/github.com\/farhadi\/SmartOptimizer\">SmartOptimizer<\/a> by <a href=\"http:\/\/farhadi.ir\/\">Ali Farhadi<\/a>.<\/p>\n\n<p>Used packers \/ minifiers are <a href=\"http:\/\/code.google.com\/p\/cssmin\/\">CssMin<\/a> and <a href=\"http:\/\/joliclic.free.fr\/php\/javascript-packer\/en\/\">JavaScriptPacker<\/a> (Nicolas\nMartins PHP port of Dean Edwards' <a href=\"http:\/\/dean.edwards.name\/packer\/\">packer<\/a>.)<\/p>\n\n<p>Some WordPress concepts borrowed from <a href=\"http:\/\/wordpress.org\/extend\/plugins\/wp-super-cache\/\">WP Super Cache<\/a>.<\/p>\n\n<h4>What is this?<\/h4>\n\n<p>This plugin, in essence, finds a specified file, packs it, creates a gzipped\nversion of it, and saves it in a cache folder.<\/p>\n\n<ul>\n<li>If you want to access the raw version of the requested file, add the nocache\nvariable to the url (configurable, defaults to \"nocache\".)<\/li>\n<li>The gzipped version of the file will only be create",
+                "uid": "14580"
+            }
+        }
+    }
+}

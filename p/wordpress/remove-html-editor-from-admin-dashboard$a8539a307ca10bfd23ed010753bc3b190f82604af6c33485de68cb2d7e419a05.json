@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/remove-html-editor-from-admin-dashboard": {
+            "1.0.1": {
+                "name": "wordpress\/remove-html-editor-from-admin-dashboard",
+                "version": "1.0.1",
+                "version_normalized": "1.0.1.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/remove-html-editor-from-admin-dashboard.1.0.1.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>This plugin removes the HTML editor from admin dashboard for restricted access to the theme files.<\/p>",
+                "uid": "32770"
+            }
+        }
+    }
+}

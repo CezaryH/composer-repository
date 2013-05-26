@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/offtopic-shortcode": {
+            "0.1": {
+                "name": "wordpress\/offtopic-shortcode",
+                "version": "0.1",
+                "version_normalized": "0.1.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/offtopic-shortcode.0.1.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>Allows authors to use the [offtopic] shortcode. [offtopic tag=\"div\" autop=\"false\" prepend=\"Offtopic:\"]Did you know that this is how you use the offtopic shortcode?[\/offtopic] Designers can style shortcode output using the offtopic and offtopic-prepend CSS classes.<\/p>",
+                "uid": "63121"
+            }
+        }
+    }
+}

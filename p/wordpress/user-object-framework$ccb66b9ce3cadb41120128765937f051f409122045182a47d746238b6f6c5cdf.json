@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/user-object-framework": {
+            "0.1": {
+                "name": "wordpress\/user-object-framework",
+                "version": "0.1",
+                "version_normalized": "0.1.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/user-object-framework.0.1.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>This plugin creates a user-object relationship table and a user-object relationship metadata\ntable. Relationships between a user (logged-in or IP) are created and added to the relationship\ntable; metadata (ex. votes, flags, and ratings) is attached to that particular relationship\nvia the metadata table. This is a framework; it is intended for use in voting, flagging,\nand similar user applications where a user-affiliated metadata is attached to an object.\nSupported object tables include wp_posts, wp_comments, wp_users, and wp_bp_activity.<\/p>\n\n<p>Functions are provided to add\/get\/delete relationships; metadata is added via the native WordPress\nmetadata-handling functions.<\/p>",
+                "uid": "17398"
+            }
+        }
+    }
+}

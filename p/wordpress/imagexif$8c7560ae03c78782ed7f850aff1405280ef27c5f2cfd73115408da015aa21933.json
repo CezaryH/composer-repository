@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/imagexif": {
+            "0.1": {
+                "name": "wordpress\/imagexif",
+                "version": "0.1",
+                "version_normalized": "0.1.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/imagexif.0.1.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>BETA - Populates image description with EXIF data\n (currently json formated)\nAdds EXIF data (if avaiable) to image description field json serialized\nPart of this plugin copied from <a href=\"http:\/\/wordpress.org\/extend\/plugins\/display-exif\/\" rel=\"nofollow\">http:\/\/wordpress.org\/extend\/plugins\/display-exif\/<\/a><\/p>",
+                "uid": "26865"
+            }
+        }
+    }
+}

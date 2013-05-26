@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/latest-post-date": {
+            "1.01": {
+                "name": "wordpress\/latest-post-date",
+                "version": "1.01",
+                "version_normalized": "1.01.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/latest-post-date.1.01.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>Adds two template tags, <code>latest_post_date()<\/code> and <code>latest_post_modified_date()<\/code>, the first echoes the most recent post publication date, the second echoes the modification date of the most recently modified post.<\/p>\n\n<p>Each template tag takes two params: <strong>$date_format<\/strong>, standard <a href=\"http:\/\/codex.wordpress.org\/Formatting_Date_and_Time\">WP date formatting string<\/a> (defaults to the default date formatting for your WP blog), and <strong>$echo<\/strong>, display the date, if <code>TRUE<\/code>, or return the date to be used in PHP, if <code>FALSE<\/code>, (defaults to <code>TRUE<\/code>).<\/p>\n\n<p>For example: <code>&#60;?php latest_post_date( 'l, F j, Y', TRUE ); ?&#62;<\/code> would return a date similar to <em>Friday, September 24, 2004<\/em> for use in PHP. Another example: <code>&#60;?php latest_post_date(); ?&#62;<\/code> would echo a date in the default formatting for your WP blog.<\/p>\n\n<p>Is this plugin lacking a feature you want? I'm happy to",
+                "uid": "97580"
+            }
+        }
+    }
+}

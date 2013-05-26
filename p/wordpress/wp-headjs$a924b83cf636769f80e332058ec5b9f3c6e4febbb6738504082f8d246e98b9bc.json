@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/wp-headjs": {
+            "0.1": {
+                "name": "wordpress\/wp-headjs",
+                "version": "0.1",
+                "version_normalized": "0.1.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/wp-headjs.0.1.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>This plugin uses the wp_print_scripts action hook, as opposed to output buffering and regex used by alternative implementations.<\/p>\n\n<p>The downside of this method is that only scripts loaded via wp_enqueue_script will be affected by the plugin, the upside is better\nperformance by avoiding output buffering on every page load.<\/p>\n\n<p>The plugin will preserve any localizations added via wp_localize_script, and uses the first parameter passed to wp_enqueue_script\nas the label for the script in the head.js call. For example,<\/p>\n\n<pre><code>wp_enqueue_script('jquery', 'https:\/\/ajax.googleapis.com\/ajax\/libs\/jquery\/1.7.1\/jquery.min.js');\n<\/code><\/pre>\n\n<p>would show up as<\/p>\n\n<pre><code>head.js({\"jquery\": \"https:\/\/ajax.googleapis.com\/ajax\/libs\/jquery\/1.7.1\/jquery.min.js\"});\n<\/code><\/pre>\n\n<p>This allows you to run callbacks when specific scripts are ready, such as<\/p>\n\n<pre><code>head.ready('jquery', function() {\n    \/\/do something when jquery is loaded\n});\n<\/code><\/pre>\n\n<p>For more o",
+                "uid": "23372"
+            }
+        }
+    }
+}

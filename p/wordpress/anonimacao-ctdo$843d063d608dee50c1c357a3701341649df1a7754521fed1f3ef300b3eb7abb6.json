@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/anonimacao-ctdo": {
+            "1.2": {
+                "name": "wordpress\/anonimacao-ctdo",
+                "version": "1.2",
+                "version_normalized": "1.2.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/anonimacao-ctdo.1.2.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>Como todos devem saber, &#233; poss&#237;vel detectar de onde um usu&#225;rio vem apenas clicando em um link de uma p&#225;gina.\nPois bem, com nosso sistema instalado em seu blog o sistema pucha um javascript diretamente de nosso site, e protege todos os links, subistituindo de: <a href=\"http:\/\/wordpress.com\" rel=\"nofollow\">http:\/\/wordpress.com<\/a> para <a href=\"http:\/\/anonimacao.ctdo.com.br\/?http:\/\/wordpress.com\" rel=\"nofollow\">http:\/\/anonimacao.ctdo.com.br\/?http:\/\/wordpress.com<\/a>\nCom esse novo link, &#233; contado as visitas sempre que passado por nosso sistema, e ainda exclui a ref&#234;rencia, Imposs&#237;bilitando a p&#225;gina destino detectar a p&#225;gina de origem do clique.\nMuito &#250;til para links do tipo rapidshare.. Geralmente muitos links s&#227;o excluidos autom&#225;ticamente do servidor apenas por conter a palavra \"warez\" como endere&#231;o. Como &#233; warez, eles podem possuir filtros para auto excluir todos os uploads..\nEnt&#227;o sem ref&#234;rencia, o servi",
+                "uid": "106347"
+            }
+        }
+    }
+}

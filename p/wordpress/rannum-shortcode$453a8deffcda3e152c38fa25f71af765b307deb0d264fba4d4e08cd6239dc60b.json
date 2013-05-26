@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/rannum-shortcode": {
+            "1.0": {
+                "name": "wordpress\/rannum-shortcode",
+                "version": "1.0",
+                "version_normalized": "1.0.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/rannum-shortcode.1.0.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>RanNum is a free wordpress plugin that I created in response to needing the ability to randomize certain variables for a wordpress demo.<\/p>\n\n<p>The plugin creates two shortcodes, \u0093[ RN ]\u0094 and\/or \u0093[ RanNum ]\u0093. Used as-is, these will each generate a random number from 1 to 100.<\/p>\n\n<p>For further customization, however, you can set the range of the random number by setting \u0093min\u0094 and \u0093max\u0094 attributes inside the shortcode.<\/p>\n\n<p>For instance, to generate a number between 5 and 200, use the shortcode<\/p>\n\n<p>[RN min=\"5\" max=\"200\"]<\/p>\n\n<p>-or-<\/p>\n\n<p>[RanNum min=\"5\" max=\"200\"]<\/p>",
+                "uid": "42849"
+            }
+        }
+    }
+}

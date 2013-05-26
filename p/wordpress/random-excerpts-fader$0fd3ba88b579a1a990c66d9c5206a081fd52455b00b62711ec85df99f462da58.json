@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/random-excerpts-fader": {
+            "1.4": {
+                "name": "wordpress\/random-excerpts-fader",
+                "version": "1.4",
+                "version_normalized": "1.4.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/random-excerpts-fader.1.4.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>This plugin was developed to display excerpts from random posts in a category. jQuery is used for fading the plugin in and out. It's a great way for displaying testimonials of clients or just giving a snapshot of content from your site.<\/p>\n\n<p><strong>Shortcode added as of version 1.4<\/strong><\/p>\n\n<p>The most basic use is: <code>[reFader]<\/code> this will use the default options.\nHere is an example of all the options in use<\/p>\n\n<pre><code>[reFader title=&#34;Random Excerpts&#34; cat=&#34;23&#34; amount=&#34;5&#34; length=&#34;50&#34; duration=&#34;5000&#34; linked=&#34;no&#34; url=&#34;http:\/\/www.jackreichert.com\/plugins\/random-excerpts-fader\/&#34;]<\/code><\/pre>\n\n<p>This will show 5 (amount) posts from category #23 (cat). It will show 50 (length) words from each post and fade out\/in every 5 seconds (duration). It will not link each title to the corresponding post, but it <strong>will<\/strong> link <strong>all<\/strong> the titles to this plugins page (url).<\/p>",
+                "uid": "62385"
+            }
+        }
+    }
+}

@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/buddypress-activity-stream-atgroups": {
+            "0.1.0": {
+                "name": "wordpress\/buddypress-activity-stream-atgroups",
+                "version": "0.1.0",
+                "version_normalized": "0.1.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/buddypress-activity-stream-atgroups.0.1.0.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>This plugin will link @(group_slug) syntax to group home page and\/or use =(group_slug) to post an update to group<\/p>\n\n<p>future plans:\n* own pattern matching\n* admin page to disable atmention and postto<\/p>\n\n<h4>Related Links:<\/h4>\n\n<ul>\n<li><a href=\"http:\/\/etivite.com\" title=\"Plugin Demo Site\">Author's Site<\/a><\/li>\n<li><a href=\"http:\/\/etivite.com\/wordpress-plugins\/buddypress-activity-stream-atgroups\/\">BuddyPress Activity Stream @(Groups) - About Page<\/a><\/li>\n<li><a href=\"http:\/\/etivite.com\/api-hooks\/\">BuddyPress and bbPress Developer Hook and Filter API Reference<\/a><\/li>\n<li><a href=\"http:\/\/twitter.com\/etivite\">@etivite<\/a> <a href=\"https:\/\/plus.google.com\/114440793706284941584?rel=author\">etivite+<\/a><\/li>\n<\/ul>",
+                "uid": "34489"
+            }
+        }
+    }
+}

@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/dm-user-tracking-plugin": {
+            "1.9.1": {
+                "name": "wordpress\/dm-user-tracking-plugin",
+                "version": "1.9.1",
+                "version_normalized": "1.9.1.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/dm-user-tracking-plugin.1.9.1.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>The DM User Tracking plugin is a fully featured, page by page tracking plugin for your blog. Every time a page is visited on your blog, the plugin logs a whole host of information on the person who visited the page.<\/p>\n\n<p>The plugin is totally customisable from what you decide to track to what you decide you want to see. There is an optional dashboard widget included for a quick overview of recent visitors as well as a search feature for you to accurately sift through your tracking log and find the results you are looking for.<\/p>\n\n<p><em>Data that is tracked by default:<\/em><\/p>\n\n<ul>\n<li>IP address (including an attempt to locate IP addresses from behind a proxy)<\/li>\n<li>The HTTP referrer (what page the user was viewing before they clicked)<\/li>\n<li>The time of the click<\/li>\n<li>User ID<\/li>\n<li>User Level (admin, editor, so on)<\/li>\n<li>Display Name<\/li>\n<li>Browser<\/li>\n<li>Operating System<\/li>\n<li>The page they visited<\/li>\n<\/ul>\n\n<p><em>Data that is not tracked by default",
+                "uid": "28161"
+            }
+        }
+    }
+}

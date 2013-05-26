@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/a-year-ago": {
+            "0.1": {
+                "name": "wordpress\/a-year-ago",
+                "version": "0.1",
+                "version_normalized": "0.1.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/a-year-ago.0.1.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>This plug-in will create a link to a single post that was published exactly one year prior to the post currently being viewed. For example, if the post being viewed was published 2011-01-15, the plug-in will create a link to the post published 2010-01-15.<\/p>",
+                "uid": "53729"
+            }
+        }
+    }
+}

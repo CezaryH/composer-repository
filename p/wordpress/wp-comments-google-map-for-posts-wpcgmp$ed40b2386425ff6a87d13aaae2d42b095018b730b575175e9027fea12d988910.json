@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/wp-comments-google-map-for-posts-wpcgmp": {
+            "1.0": {
+                "name": "wordpress\/wp-comments-google-map-for-posts-wpcgmp",
+                "version": "1.0",
+                "version_normalized": "1.0.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/wp-comments-google-map-for-posts-wpcgmp.1.0.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>WP Comments Google Map for Posts adds a Google map to your posts and plots a marker to the map for the location of each user that comments on that post.<\/p>\n\n<ul>\n<li>Custom map marker<\/li>\n<li>Custom map marker for multiple comments from same location<\/li>\n<li>Adjust default zoom level<\/li>\n<li>Center map based on default coordinates<\/li>\n<li>Adjust map dimensions to fit your site<\/li>\n<li>Choose which categories to display map<\/li>\n<li>Use shortcode to insert map anywhere [wpcgmp_google_map_display] or you can specify width and height as such [wpcgmp_google_map_display width=\"400\" height=\"250\"]<\/li>\n<\/ul>",
+                "uid": "26015"
+            }
+        }
+    }
+}

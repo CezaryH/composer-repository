@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/simple-relative-content": {
+            "1.0": {
+                "name": "wordpress\/simple-relative-content",
+                "version": "1.0",
+                "version_normalized": "1.0.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/simple-relative-content.1.0.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>When you use the WordPress editor to insert a media in the content field it stores a reference to the absolute path. \nSo if you change the location of your site (by switching from staging to production environment for example) all your paths will be incorrect.\nThis plugin stores relative pathes in the db instead of an absolute path.\nBeware: this plugin must be activated BEFORE inserting a media into the content field. It has no effect on the medias stored before the activation.\nIt's mostly based on the WP_SITEURL constant which should be defined in the wp_config.php file. If this constant isn't defined it uses the \"siteurl\" option value instead.\nIf the plugin detects that you access the website from another location than the \"siteurl\" defined initially it can correct most of the wrong urls in the database.<\/p>\n\n<p>Localisation of the plugin into french.<\/p>",
+                "uid": "15034"
+            }
+        }
+    }
+}

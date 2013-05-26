@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/no-ie": {
+            "0.1": {
+                "name": "wordpress\/no-ie",
+                "version": "0.1",
+                "version_normalized": "0.1.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/no-ie.0.1.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>This plugin replaces the contents of your site with a message asking your \nvisitors to use a better browser if they try to browse your site with Internet \nExplorer 7 or earlier.<\/p>",
+                "uid": "80051"
+            }
+        }
+    }
+}

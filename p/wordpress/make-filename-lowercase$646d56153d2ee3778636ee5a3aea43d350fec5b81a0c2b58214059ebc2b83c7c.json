@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/make-filename-lowercase": {
+            "1.0.1": {
+                "name": "wordpress\/make-filename-lowercase",
+                "version": "1.0.1",
+                "version_normalized": "1.0.1.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/make-filename-lowercase.1.0.1.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>Sets uploaded media filename to lowercase as filter on sanitize_file_name. Based on post at Stack Overflow asking if there is a way to \"Rename files during upload within Wordpress 3.0 backend\".<\/p>\n\n<p>Created for WordPress 3.0.1+ which saves any uploaded media filename (Image, Video, Audio) as lowercase. This effectively changes the name of the file at upload if a user were to upload a file with any uppercase characters.<\/p>\n\n<p>For instance:<\/p>\n\n<ul>\n<li>MOVIE-FILE.MOV &#62; movie-file.mov<\/li>\n<li>Movie-File.wmv &#62; movie-file.wmv<\/li>\n<li>ImAgEfILe.gif &#62; imagefile.gif<\/li>\n<li>imageFile.JPG &#62; imagefile.jpg<\/li>\n<li>ETC &#62; etc<\/li>\n<\/ul>\n\n<p><em>Note: WordPress sets file extension to lowercase. This plugin does a strtolower on the filename.<\/em><\/p>\n\n<h4>More Information<\/h4>\n\n<p>Visit the <a href=\"http:\/\/www.redbridgenet.com\/\">Red Bridge Internet<\/a> site for more information about <a href=\"http:\/\/www.redbridgenet.com\/plugins\/make-filename-lowercase\/\">Make Filename",
+                "uid": "53076"
+            }
+        }
+    }
+}

@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/mymail-sendgrid-integration": {
+            "0.2.1": {
+                "name": "wordpress\/mymail-sendgrid-integration",
+                "version": "0.2.1",
+                "version_normalized": "0.2.1.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/mymail-sendgrid-integration.0.2.1.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>Uses SendGrid to deliver emails for the <a href=\"http:\/\/rxa.li\/mymail\">MyMail Newsletter Plugin for WordPress<\/a>.<\/p>",
+                "uid": "11904"
+            }
+        }
+    }
+}

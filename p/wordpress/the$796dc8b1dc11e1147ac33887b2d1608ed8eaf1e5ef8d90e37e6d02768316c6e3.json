@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/the": {
+            "1.0": {
+                "name": "wordpress\/the",
+                "version": "1.0",
+                "version_normalized": "1.0.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/the.1.0.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>Based upon an idea developed while walking to the Afterparty at WordCamp Philly 2011 by George Stephanis (@Daljo628), John Hawkins (@VegasGeek), Dre Armeda (@DreMeda), and Ben Metcalfe (@DotBen), this plugin adds a shortcode of [the], which replaces the shortcode with either <code>the<\/code>, <code>The<\/code>, <code>teh<\/code>, or <code>Teh<\/code> depending on whether or not the <code>caps<\/code> or <code>hipster<\/code> parameters are set.<\/p>",
+                "uid": "36292"
+            }
+        }
+    }
+}

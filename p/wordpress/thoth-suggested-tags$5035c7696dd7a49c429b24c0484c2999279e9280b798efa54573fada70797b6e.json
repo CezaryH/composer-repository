@@ -1,0 +1,57 @@
+{
+    "packages": {
+        "wordpress\/thoth-suggested-tags": {
+            "1.0": {
+                "name": "wordpress\/thoth-suggested-tags",
+                "version": "1.0",
+                "version_normalized": "1.0.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/thoth-suggested-tags.1.0.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>Thoth is a plugin that creates a widget in your \"New Post\" authoring page and recommends tags for your post based on the content.<\/p>\n\n<p>Thoth scans the text for tags and associates them to a \"tag strength\", an integer that represents how appropriate the tag is to recommend based on the post content. This value is determined by the word count of the tag, its frequency in the post, and its count in the wordpress database (number of times it has been tagged in other posts).<\/p>\n\n<h4>How It Works<\/h4>\n\n<p>Every time the user saves a draft or updates a post, Thoth<\/p>\n\n<ul>\n<li><p>Splits the post content into chunks delimited by stop-characters.<\/p><\/li>\n<li><p>Uses a simple <a href=\"http:\/\/www.google.com\/search?q=k-mer+counting\" title=\"Google search\">k-mer counting<\/a> algorithm to record every possible phrase in the content and its frequency.<\/p><\/li>\n<li><p>Does post-processing on the phrase list and displays the final list as a tag cloud. For more information consult the \"Features\"",
+                "uid": "66111"
+            },
+            "1.1": {
+                "name": "wordpress\/thoth-suggested-tags",
+                "version": "1.1",
+                "version_normalized": "1.1.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/thoth-suggested-tags.1.1.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>Thoth is a plugin that creates a widget in your \"New Post\" authoring page and recommends tags for your post based on the content.<\/p>\n\n<p>Thoth scans the text for tags and associates them to a \"tag strength\", an integer that represents how appropriate the tag is to recommend based on the post content. This value is determined by the word count of the tag, its frequency in the post, and its count in the wordpress database (number of times it has been tagged in other posts).<\/p>\n\n<h4>How It Works<\/h4>\n\n<p>Every time the user saves a draft or updates a post, Thoth<\/p>\n\n<ul>\n<li><p>Splits the post content into chunks delimited by stop-characters.<\/p><\/li>\n<li><p>Uses a simple <a href=\"http:\/\/www.google.com\/search?q=k-mer+counting\" title=\"Google search\">k-mer counting<\/a> algorithm to record every possible phrase in the content and its frequency.<\/p><\/li>\n<li><p>Does post-processing on the phrase list and displays the final list as a tag cloud. For more information consult the \"Features\"",
+                "uid": "66110"
+            },
+            "1.3": {
+                "name": "wordpress\/thoth-suggested-tags",
+                "version": "1.3",
+                "version_normalized": "1.3.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/thoth-suggested-tags.1.3.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>Thoth is a plugin that creates a widget in your \"New Post\" authoring page and recommends tags for your post based on the content.<\/p>\n\n<p>Thoth scans the text for tags and associates them to a \"tag strength\", an integer that represents how appropriate the tag is to recommend based on the post content. This value is determined by the word count of the tag, its frequency in the post, and its count in the wordpress database (number of times it has been tagged in other posts).<\/p>\n\n<h4>How It Works<\/h4>\n\n<p>Every time the user saves a draft or updates a post, Thoth<\/p>\n\n<ul>\n<li><p>Splits the post content into chunks delimited by stop-characters.<\/p><\/li>\n<li><p>Uses a simple <a href=\"http:\/\/www.google.com\/search?q=k-mer+counting\" title=\"Google search\">k-mer counting<\/a> algorithm to record every possible phrase in the content and its frequency.<\/p><\/li>\n<li><p>Does post-processing on the phrase list and displays the final list as a tag cloud. For more information consult the \"Features\"",
+                "uid": "66109"
+            }
+        }
+    }
+}

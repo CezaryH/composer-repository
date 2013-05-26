@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/bbwp2utf8": {
+            "1.0": {
+                "name": "wordpress\/bbwp2utf8",
+                "version": "1.0",
+                "version_normalized": "1.0.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/bbwp2utf8.1.0.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>This plugin will attempt to convert a wordpress or wordpress mu database with content in whatever character set to utf8. It uses the information provided\nby this <a href=\"http:\/\/codex.wordpress.org\/Converting_Database_Character_Sets\/\" title=\"Converting Database Character Sets\">guide<\/a> on\nthe wordpress codex site. Before using this plugin it is <strong>mandatory to have a working and recent backup of your database<\/strong>. \nIf anything goes wrong you will need this!<\/p>\n\n<p>Keep in mind that this plugin has been tested thoroughly for wordpress mu, but only minimaly for wordpress. \nPlease contact me if you encounter any issues with Wordpress, patches are always welcome.<\/p>\n\n<p>The plugin performs the following steps. First it will show you all of the tables within the database used by wordpress or wordpress mu. Between the brackets \nit shows the current character set. The plugin allows you to uncheck tables you do <strong>not<\/strong> want to convert to UTF8. Unless you know what ",
+                "uid": "100664"
+            }
+        }
+    }
+}

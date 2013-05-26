@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/wp-plurk": {
+            "0.1": {
+                "name": "wordpress\/wp-plurk",
+                "version": "0.1",
+                "version_normalized": "0.1.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/wp-plurk.0.1.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>WP-Plurk is a plugin to put a post to your <a href=\"http:\/\/plurk.com\/\" title=\"Plurk\">Plurk<\/a> account everytime you publish a blog post.\nAll you have to do is setup this plugin, enter your username and plurk password and a post template.<\/p>\n\n<h4>About Post Template<\/h4>\n\n<p>The post template has a certain format\n1. Plurk qualifier (verbs) must be in the first of the template closed with square bracket.\nExamples:\n    [shares] or <code>[says]<\/code><\/p>\n\n<ol>\n<li>There are other tags, <code>title<\/code> and <code>url<\/code>, <code>title<\/code> will be replaced with your wordpress post title \nand <code>url<\/code> replaced with the permalink. Tags is encloded by double bracket.\nExample:\n{{title}} or <code>{{url}}<\/code><\/li>\n<\/ol>\n\n<p>So to post plurk using shares qualifier we can use template\n    [shares] {{url}} {{title}}<\/p>",
+                "uid": "87513"
+            }
+        }
+    }
+}

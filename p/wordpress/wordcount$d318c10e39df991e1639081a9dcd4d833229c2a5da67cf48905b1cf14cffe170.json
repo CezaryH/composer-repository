@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/wordcount": {
+            "1.0": {
+                "name": "wordpress\/wordcount",
+                "version": "1.0",
+                "version_normalized": "1.0.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/wordcount.1.0.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>This plugin enables you to have an overview over the amount of words you're reading on someones blog.\nIt's a simple, Drag n' Droppable, easy to install little box with following fields:<\/p>\n\n<ol>\n<li>words (words you actually selected)<\/li>\n<li>amount last words<\/li>\n<li>time needed (the amount of time needed to read)<\/li>\n<li>words per second<\/li>\n<li>average words per second<\/li>\n<\/ol>\n\n<p>to change it's position at start:\nedit wordcount.css<\/p>\n\n<p>-top: 50px;\n-right:5px;<\/p>\n\n<p>thanks a lot to Peter-Paul Koch for the Drag-Drop script!<\/p>\n\n<p>that's it - enjoy!<\/p>",
+                "uid": "90990"
+            }
+        }
+    }
+}

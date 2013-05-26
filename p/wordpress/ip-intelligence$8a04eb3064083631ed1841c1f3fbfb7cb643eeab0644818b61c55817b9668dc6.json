@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/ip-intelligence": {
+            "0.0.1": {
+                "name": "wordpress\/ip-intelligence",
+                "version": "0.0.1",
+                "version_normalized": "0.0.1.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/ip-intelligence.0.0.1.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>IP Intelligence provides the ability to retrieve information about commentators IP from within the Wordpress admin section.<\/p>\n\n<h4>Feature Summary<\/h4>\n\n<ul>\n<li>Reverse DNS\/PTR<\/li>\n<li>Long\/Proper IPv4 Format<\/li>\n<li>Country of Origin (ipinfodb.com)<\/li>\n<li>Region or State (ipinfodb.com)<\/li>\n<li>City (ipinfodb.com)<\/li>\n<li>Timezone (ipinfodb.com)<\/li>\n<li>Spamcop.net Status<\/li>\n<li>StopForumSpam.com Data<\/li>\n<li>Whois Detail (whois.net)<\/li>\n<\/ul>\n\n<h4>Further Analysis<\/h4>\n\n<p>The plugin also provides targeted\/dynamic links to the following destinations for further research:<\/p>\n\n<ul>\n<li>Google Search Query<\/li>\n<li>Google Groups Search Query<\/li>\n<li>Project HoneyPot<\/li>\n<li>Spamhaus<\/li>\n<li>OpenRBL<\/li>\n<li>Robtex (Lucky)<\/li>\n<\/ul>",
+                "uid": "77073"
+            }
+        }
+    }
+}

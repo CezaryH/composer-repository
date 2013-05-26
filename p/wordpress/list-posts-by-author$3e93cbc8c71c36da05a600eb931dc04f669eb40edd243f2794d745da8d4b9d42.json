@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/list-posts-by-author": {
+            "1.0": {
+                "name": "wordpress\/list-posts-by-author",
+                "version": "1.0",
+                "version_normalized": "1.0.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/list-posts-by-author.1.0.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>Lists all the posts or the pages (of both), grouping them by their authors.<\/p>\n\n<p>It permits to list the posts of all the authors of the blog, or only the author you choose.<\/p>\n\n<p>It can be inserted into a post or a page, used in the sidebar or wherever you want in your template.<\/p>",
+                "uid": "87210"
+            }
+        }
+    }
+}

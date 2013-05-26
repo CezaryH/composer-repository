@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/post-summarizer": {
+            "0.1": {
+                "name": "wordpress\/post-summarizer",
+                "version": "0.1",
+                "version_normalized": "0.1.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/post-summarizer.0.1.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>This plugin create an automatic excerpt of a post when it is saved or published. The excerpt created is a coherent piece of\ntext containing the most important sentences of the post.\nAfter installing this plugin, every time you write a post and press the <code>save<\/code> or <code>publish<\/code> button an excpert is created for that\npost and stored in the database. This plugin is useful also if you don't use excerpts in your blog: it's always useful\nto have a summary of your post available just to remind yourself what the post is about (it works very well with old and long posts!).\nStatistical natural language techniques are used to extract the most important sentences from a document. It's straightforward to \ntweak the plugin to give more importance to certain features in your text.\nThe code of the plugin has been optimized for extensiblity in order to make it easy for contributor developers to implement a summarizer \nin their own language. At the moment only an English language sum",
+                "uid": "94686"
+            }
+        }
+    }
+}

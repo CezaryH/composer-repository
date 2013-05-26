@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/restrict-tags": {
+            "1.0": {
+                "name": "wordpress\/restrict-tags",
+                "version": "1.0",
+                "version_normalized": "1.0.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/restrict-tags.1.0.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>Allow site admins to restrict the tags available for other users on their site.<\/p>\n\n<p>Admins can also restrict the items for custom, non-hierarchical taxonomies.<\/p>\n\n<p>This plugin changes the Post Tag UI on the Edit Post admin page to be similar to that of the Categories UI. Checkboxes for previously defined tags are presented instead of a text field.<\/p>",
+                "uid": "49972"
+            }
+        }
+    }
+}

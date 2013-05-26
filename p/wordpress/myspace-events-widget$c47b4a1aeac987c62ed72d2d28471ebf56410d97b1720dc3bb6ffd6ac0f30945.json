@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/myspace-events-widget": {
+            "0.9.9": {
+                "name": "wordpress\/myspace-events-widget",
+                "version": "0.9.9",
+                "version_normalized": "0.9.9.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/myspace-events-widget.0.9.9.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>In wordpress there are no plugin that allow to pick your myspace events and put them into a page or in sidebar!\nThis widget use simplehtmldom library to scape <a href=\"http:\/\/www.myspace.com\/\/shows\" rel=\"nofollow\">http:\/\/www.myspace.com\/\/shows<\/a> (in the current version) to get your events and date!\nAs of version 0.9, you can get your events without insert any myspace login\/key data. I hope that this could be possible in the future.\nThis plugin uses greatly the structure of the myspace page, you may need to frequently update the plugin to synchronize it with the new version of the page made \u200b\u200bby myspace.\nTested from an Italian Ip to italian myspace, it should not works for foreign country.\nTested by an Italian IP to the Italian version of myspace.\nThe policies applied by MySpace may change from country to country so maybe necessary to code a wrapper.<\/p>\n\n<p><strong><em>New cache mechanism introduced from v 0.9.8, you may have permission to write on file system to use it!<\/em><",
+                "uid": "36231"
+            }
+        }
+    }
+}

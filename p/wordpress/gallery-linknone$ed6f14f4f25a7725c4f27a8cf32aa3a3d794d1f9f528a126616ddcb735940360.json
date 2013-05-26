@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/gallery-linknone": {
+            "1.0": {
+                "name": "wordpress\/gallery-linknone",
+                "version": "1.0",
+                "version_normalized": "1.0.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/gallery-linknone.1.0.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>This plugin allows you to add link=\"none\" to your Gallery shortcodes to create a gallery where the images do not have any links associated with them.<\/p>\n\n<p>To use, simply add the shortcode as follows to your page\/post: [gallery link=\"none\"]<\/p>",
+                "uid": "32044"
+            }
+        }
+    }
+}

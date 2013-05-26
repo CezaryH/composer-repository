@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/remove-wp-head-comments": {
+            "1.0": {
+                "name": "wordpress\/remove-wp-head-comments",
+                "version": "1.0",
+                "version_normalized": "1.0.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/remove-wp-head-comments.1.0.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>Plugin authors sometimes add comments between the &#60;head&#62; tags highlighting the output from their plugin.<\/p>\n\n<p>If you don't like these comments, for whatever reason, then this plugin will remove them for you.<\/p>\n\n<p>Specifically comments are removed from the output of the wp_head function so comments in theme templates will not be affected.<\/p>",
+                "uid": "32477"
+            }
+        }
+    }
+}

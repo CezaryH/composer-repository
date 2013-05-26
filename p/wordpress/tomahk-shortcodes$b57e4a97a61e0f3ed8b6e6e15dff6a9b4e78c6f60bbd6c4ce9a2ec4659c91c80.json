@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/tomahk-shortcodes": {
+            "0.1.1": {
+                "name": "wordpress\/tomahk-shortcodes",
+                "version": "0.1.1",
+                "version_normalized": "0.1.1.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/tomahk-shortcodes.0.1.1.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>Toma.hk shortcodes allows you to embed playlists, albums and single tracks from toma.hk.<\/p>\n\n<h4>Embed a playlist<\/h4>\n\n<p>Use this code : [twk-playlist]TOMAHK_PLAYLIST_URL[\/twk-playlist] where TOMAHK_PLAYLIST_URL is the url of your playlist (eg.: <a href=\"http:\/\/toma.hk\/p\/R222222M)\" rel=\"nofollow\">http:\/\/toma.hk\/p\/R222222M)<\/a>.\nYou can also specify several arguments :<\/p>\n\n<ul>\n<li>width (the embed width) - default is 550<\/li>\n<li>height (the embed height) - default is 430<\/li>\n<\/ul>\n\n<p>Like this : [twk-playlist width=\"550\" height=\"430\"]TOMAHK_PLAYLIST_URL[\/twk-playlist]<\/p>\n\n<h4>Embed an album<\/h4>\n\n<p>Use this code : \n[twk-album artist=\"ALBUM ARTIST\" title=\"ALBUM TITLE\"][\/twk-album]<\/p>\n\n<p>Or use:\n[twk-album]TOMAHK_ALBUM_URL[\/twk-album]where TOMAHK_ALBUM_URL is the url of your album (eg.: <a href=\"http:\/\/toma.hk\/album\/The+Smashing+Pumpkins\/Oceania)\" rel=\"nofollow\">http:\/\/toma.hk\/album\/The+Smashing+Pumpkins\/Oceania)<\/a>.<\/p>\n\n<p>You can also specify several arguments :<\/p>\n\n<u",
+                "uid": "8427"
+            }
+        }
+    }
+}

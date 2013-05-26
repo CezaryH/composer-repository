@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/fd-footnotes": {
+            "1.3": {
+                "name": "wordpress\/fd-footnotes",
+                "version": "1.3",
+                "version_normalized": "1.3.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/fd-footnotes.1.3.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>This plugin provides an extremely easy way to add elegant looking footnotes to\nyour posts. The syntax is natural, simple to understand, and degrades\ngracefully if the plugin is removed. Footnotes are linked unobtrusively and the\nnote itself links back to the original text where the footnote is referenced.<\/p>\n\n<p>Adding footnotes to a post is simple. Just type them inline in your post in\nsquare brackets like this:<\/p>\n\n<pre><code> [1. This is a footnote.]\n<\/code><\/pre>\n\n<p>Each footnote must have a number followed by a period and a space and then the\nactual footnote. They don&#8217;t have to be unique but it is recommended. It doesn&#8217;t\nmatter what the numbers are since the footnotes will be automatically\nrenumbered when the post is displayed.<\/p>\n\n<p>Footnotes can contain anything you&#8217;d like including links, images, etc.\nFootnotes are automatically linked back to the spot in the text where the note\nwas made.<\/p>\n\n<h4>Settings<\/h4>\n\n<p><strong>Only show footnotes on single",
+                "uid": "105145"
+            }
+        }
+    }
+}

@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/feedwordpress-seo-fix": {
+            "1.0": {
+                "name": "wordpress\/feedwordpress-seo-fix",
+                "version": "1.0",
+                "version_normalized": "1.0.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/feedwordpress-seo-fix.1.0.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>If you aggregate content from another website using \n<a href=\"http:\/\/wordpress.org\/extend\/plugins\/feedwordpress\/\">FeedWordPress<\/a> and you\nopt for linking the aggregated post to the local copy on your website you \nmost likely run into the <a href=\"http:\/\/support.google.com\/webmasters\/bin\/answer.py?hl=en&#38;answer=66359\">duplicate content issue<\/a>.<\/p>\n\n<p>This plugin fixes this SEO relevant issue by setting the <strong>rel=\"canonical\"<\/strong> \nmeta tag to the original source.<\/p>",
+                "uid": "16269"
+            }
+        }
+    }
+}

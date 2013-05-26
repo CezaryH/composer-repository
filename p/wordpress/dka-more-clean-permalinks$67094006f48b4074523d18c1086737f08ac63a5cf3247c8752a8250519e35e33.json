@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/dka-more-clean-permalinks": {
+            "0.1": {
+                "name": "wordpress\/dka-more-clean-permalinks",
+                "version": "0.1",
+                "version_normalized": "0.1.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/dka-more-clean-permalinks.0.1.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>When creating new post (or page) the permalink is generated automatically from title. This plugin removes &#8222;leftover&#8220; characters (such as <code>&#8222;&#162;&#165;&#167;<\/code>) from created permalink.\nNB: if you edit permalink manualy the plugin does nothing &#8211; permalink will be processed with standard Wordpress procedures.<\/p>",
+                "uid": "21174"
+            }
+        }
+    }
+}

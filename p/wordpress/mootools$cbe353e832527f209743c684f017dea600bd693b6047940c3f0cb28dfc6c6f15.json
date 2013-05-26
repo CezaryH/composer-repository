@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/mootools": {
+            "1.0": {
+                "name": "wordpress\/mootools",
+                "version": "1.0",
+                "version_normalized": "1.0.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/mootools.1.0.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>This WordPress MooTools plugin simply provides you with the latest MooTools JavaScript framework on the front-end of your WordPress website. It makes use of the <code>wp_head<\/code> WordPress action hook in order to insert code into the <code>&#60;head&#62;<\/code> section of your layout. The MooTools framework will be referenced in your markup as a JavaScript file after it has been safely enqueued using the WordPress <code>wp_enqueue_script<\/code> function.<\/p>\n\n<ul>\n<li>Antonie Potgieter: <a href=\"http:\/\/tribulant.com\">Tribulant Software CC<\/a> (Author\/Developer &#38; Owner)<\/li>\n<\/ul>",
+                "uid": "82989"
+            }
+        }
+    }
+}

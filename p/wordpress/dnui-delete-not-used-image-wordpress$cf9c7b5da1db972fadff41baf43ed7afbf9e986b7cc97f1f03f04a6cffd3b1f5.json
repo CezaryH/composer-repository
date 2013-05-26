@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/dnui-delete-not-used-image-wordpress": {
+            "0.8.2": {
+                "name": "wordpress\/dnui-delete-not-used-image-wordpress",
+                "version": "0.8.2",
+                "version_normalized": "0.8.2.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/dnui-delete-not-used-image-wordpress.0.8.2.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>(Please give me some feedback, recommendation, comments because i don't know if all work fine or you want something more)<\/p>\n\n<p>DNUI will help you to identify all image not used in your wordpress post and page, and give you the option to delete them, this will delete the image from the server and update the database so that the image is no longer shown when making a post, because the problem of wordpress is, if you upload one image, wordpress can make 4 image from the same file, so this plugin help you to identify all them and delete the image what you want.<\/p>\n\n<p>This plugin make a scan of your database and find all the files you never used in a post, for defaul you are going to scan 25 files for each time(please be careful if you change this number, a big number going to take down the server),for example you are going to see 25 files parents(the original image) and maybe for every parent 4 sons(the image made aaaxbbb)<\/p>\n\n<p>Please make sure before you use this plugin see the",
+                "uid": "29515"
+            }
+        }
+    }
+}

@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/medicare-quote-widget": {
+            "1.4": {
+                "name": "wordpress\/medicare-quote-widget",
+                "version": "1.4",
+                "version_normalized": "1.4.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/medicare-quote-widget.1.4.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>Medicare Quote Widget allows site owners to display a form that sends a zip code to the eHealth Medicare census page so that visitors can get Medicare quotes.<\/p>\n\n<p>*Note: This plugin calls back to <a href=\"http:\/\/www.ehealthmedicare.com\" rel=\"nofollow\">http:\/\/www.ehealthmedicare.com<\/a> for data. It uses a \"post\" function to send the zip code entered into the widget to the eHealth Medicare census page.<\/p>",
+                "uid": "8498"
+            }
+        }
+    }
+}

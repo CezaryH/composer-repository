@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/simple-ajax-form": {
+            "1.0": {
+                "name": "wordpress\/simple-ajax-form",
+                "version": "1.0",
+                "version_normalized": "1.0.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/simple-ajax-form.1.0.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>This plugin requires is just the front end javascript library, the following two things to be done in support:\n1. Add the class 'simpleajaxform' to your form.\n2. Make sure you have the correct wp_ajax handler hook defined.<\/p>\n\n<p>It was primarily built as an example for a blog post.<\/p>",
+                "uid": "37871"
+            }
+        }
+    }
+}

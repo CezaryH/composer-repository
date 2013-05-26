@@ -1,0 +1,40 @@
+{
+    "packages": {
+        "wordpress\/wincache-object-cache-backend": {
+            "1.0": {
+                "name": "wordpress\/wincache-object-cache-backend",
+                "version": "1.0",
+                "version_normalized": "1.0.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/wincache-object-cache-backend.1.0.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>This plugin is based on the code written by markjaquith for APC Object Cache Backend (<a href=\"http:\/\/wordpress.org\/extend\/plugins\/apc\/\" rel=\"nofollow\">http:\/\/wordpress.org\/extend\/plugins\/apc\/<\/a>).<\/p>\n\n<p>WinCache Object Cache provides a persistent memory-based backend for the WordPress object cache. WinCache must be available on your PHP install.<\/p>\n\n<p>An object cache is a place for WordPress and WordPress extensions to store the results of complex operations. On subsequent loads, \nthis data can be fetched from the cache, which will be must faster than dynamically generating it on every page load.<\/p>\n\n<p>Be sure to read the installation instructions, as this is <strong>not<\/strong> a traditional plugin, and needs to be installed in a specific location.<\/p>",
+                "uid": "47722"
+            },
+            "1.1": {
+                "name": "wordpress\/wincache-object-cache-backend",
+                "version": "1.1",
+                "version_normalized": "1.1.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/wincache-object-cache-backend.1.1.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>This plugin is based on the code written by markjaquith for APC Object Cache Backend (<a href=\"http:\/\/wordpress.org\/extend\/plugins\/apc\/\" rel=\"nofollow\">http:\/\/wordpress.org\/extend\/plugins\/apc\/<\/a>).<\/p>\n\n<p>WinCache Object Cache provides a persistent memory-based backend for the WordPress object cache. WinCache must be available on your PHP install.<\/p>\n\n<p>An object cache is a place for WordPress and WordPress extensions to store the results of complex operations. On subsequent loads, \nthis data can be fetched from the cache, which will be must faster than dynamically generating it on every page load.<\/p>\n\n<p>Be sure to read the installation instructions, as this is <strong>not<\/strong> a traditional plugin, and needs to be installed in a specific location.<\/p>",
+                "uid": "47721"
+            }
+        }
+    }
+}

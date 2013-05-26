@@ -1,0 +1,40 @@
+{
+    "packages": {
+        "wordpress\/wp-subversion": {
+            "0.1": {
+                "name": "wordpress\/wp-subversion",
+                "version": "0.1",
+                "version_normalized": "0.1.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/wp-subversion.0.1.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>This is a very simple and straightforward plugin to let you automatically blog\nthe commit messages from your public Subversion repository.  For now, only one\nproject is supported.<\/p>\n\n<p>Currently, it requires that PHP have shell access to the \"svn\" command.  This\nmeans that it has to run on a *nix server with subversion installed.  If you're\nnot sure whether your server supports this, try typing \"svn info\" at your shell.\nIf it says that it cannot find the program \"svn\", you don't have it installed.<\/p>",
+                "uid": "103859"
+            },
+            "0.1.1": {
+                "name": "wordpress\/wp-subversion",
+                "version": "0.1.1",
+                "version_normalized": "0.1.1.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/wp-subversion.0.1.1.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>This is a very simple and straightforward plugin to let you automatically blog\nthe commit messages from your public Subversion repository.  For now, only one\nproject is supported.<\/p>\n\n<p>Currently, it requires that PHP have shell access to the \"svn\" command.  This\nmeans that it has to run on a *nix server with subversion installed.  If you're\nnot sure whether your server supports this, try typing \"svn info\" at your shell.\nIf it says that it cannot find the program \"svn\", you don't have it installed.<\/p>",
+                "uid": "103858"
+            }
+        }
+    }
+}

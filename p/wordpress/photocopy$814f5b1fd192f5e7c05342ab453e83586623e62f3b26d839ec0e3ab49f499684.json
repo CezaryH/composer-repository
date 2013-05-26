@@ -1,0 +1,40 @@
+{
+    "packages": {
+        "wordpress\/photocopy": {
+            "1.0": {
+                "name": "wordpress\/photocopy",
+                "version": "1.0",
+                "version_normalized": "1.0.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/photocopy.1.0.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>Creates an immediate backup of your media to Amazon S3 as soon as you upload it. Vital for when you never want to risk losing your files.<\/p>\n\n<p>Can also be useful for off-loading your uploads externally to free up disk space on your main site (additional CDN plugin required to make use of it in this fashion)<\/p>",
+                "uid": "19207"
+            },
+            "1.0.1": {
+                "name": "wordpress\/photocopy",
+                "version": "1.0.1",
+                "version_normalized": "1.0.1.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/photocopy.1.0.1.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>Creates an immediate backup of your media to Amazon S3 as soon as you upload it. Vital for when you never want to risk losing your files.<\/p>\n\n<p>Can also be useful for off-loading your uploads externally to free up disk space on your main site (additional CDN plugin required to make use of it in this fashion)<\/p>",
+                "uid": "19206"
+            }
+        }
+    }
+}

@@ -1,0 +1,57 @@
+{
+    "packages": {
+        "wordpress\/simple-login-lockdown": {
+            "0.4": {
+                "name": "wordpress\/simple-login-lockdown",
+                "version": "0.4",
+                "version_normalized": "0.4.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/simple-login-lockdown.0.4.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>Simple login lock down is a way to protect your WordPress blog from brute force login attacks.<\/p>\n\n<p>How it works:\n1. An attacker attempts to login and fails\n2. Simple Login Lockdown record that failed login\n3. After a certain number of failed attemps (defaults to five), further attemps to access the wp-login.php page are blocked for a time (defaults to one hour).<\/p>\n\n<p>If you happen to forget your password and make a failed login attemp yourself, the plugin will clear out the lockdown count data on successful login.<\/p>\n\n<p>Note: This uses $_SERVER['REMOTE_ADDR'] directly.  If you're behind a proxy (load balancer, etc), it's not going to work as expected.  Eg. Several folks could be attempting logins at once, and all fail.  As such, the plugin would pick up on all those requests coming from the same IP -- the load balancer -- and lock the login down.  No good.  If you're using a load balancer or in some other situation where you're behind a proxy, use this as an example and wri",
+                "uid": "34540"
+            },
+            "1.0": {
+                "name": "wordpress\/simple-login-lockdown",
+                "version": "1.0",
+                "version_normalized": "1.0.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/simple-login-lockdown.1.0.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>Simple login lock down is a way to protect your WordPress blog from brute force login attacks.<\/p>\n\n<p>How it works:\n1. An attacker attempts to login and fails\n2. Simple Login Lockdown record that failed login\n3. After a certain number of failed attemps (defaults to five), further attemps to access the wp-login.php page are blocked for a time (defaults to one hour).<\/p>\n\n<p>If you happen to forget your password and make a failed login attemp yourself, the plugin will clear out the lockdown count data on successful login.<\/p>\n\n<p>Note: This uses $_SERVER['REMOTE_ADDR'] directly.  If you're behind a proxy (load balancer, etc), it's not going to work as expected.  Eg. Several folks could be attempting logins at once, and all fail.  As such, the plugin would pick up on all those requests coming from the same IP -- the load balancer -- and lock the login down.  No good.  If you're using a load balancer or in some other situation where you're behind a proxy, use this as an example and wri",
+                "uid": "34539"
+            },
+            "1.1": {
+                "name": "wordpress\/simple-login-lockdown",
+                "version": "1.1",
+                "version_normalized": "1.1.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/simple-login-lockdown.1.1.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>Simple login lock down is a way to protect your WordPress blog from brute force login attacks.<\/p>\n\n<p>How it works:\n1. An attacker attempts to login and fails\n2. Simple Login Lockdown record that failed login\n3. After a certain number of failed attemps (defaults to five), further attemps to access the wp-login.php page are blocked for a time (defaults to one hour).<\/p>\n\n<p>If you happen to forget your password and make a failed login attemp yourself, the plugin will clear out the lockdown count data on successful login.<\/p>\n\n<p>Note: This uses $_SERVER['REMOTE_ADDR'] directly.  If you're behind a proxy (load balancer, etc), it's not going to work as expected.  Eg. Several folks could be attempting logins at once, and all fail.  As such, the plugin would pick up on all those requests coming from the same IP -- the load balancer -- and lock the login down.  No good.  If you're using a load balancer or in some other situation where you're behind a proxy, use this as an example and wri",
+                "uid": "34538"
+            }
+        }
+    }
+}

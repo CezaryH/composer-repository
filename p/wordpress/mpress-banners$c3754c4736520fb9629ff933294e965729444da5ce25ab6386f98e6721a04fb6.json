@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/mpress-banners": {
+            "0.1": {
+                "name": "wordpress\/mpress-banners",
+                "version": "0.1",
+                "version_normalized": "0.1.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/mpress-banners.0.1.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>The <strong>mPress Banners<\/strong> plugin allows you to easily create and customize slide-up or slide-down banners on your website with a simple shortcode.<\/p>\n\n<h4>Why?<\/h4>\n\n<p>Sometimes you want to show a persistent banner ad.  Other times you want to rotate continuously through a few different banner ads.  Maybe you just want to show a single ad for a few seconds and then have it disappear.  The mPress Banners plugin gives you the ability to tastefully catch the attention of your users by giving you control over how the ads behave.<\/p>\n\n<h4>How?<\/h4>\n\n<p>Using this plugin is simple:<\/p>\n\n<ol>\n<li>Install the plugin<\/li>\n<li>Activate the plugin<\/li>\n<li>Go to 'Banners' in the WordPress admin menu and create a new banner. Use the 'Set Featured Image' link to upload your banner image.<\/li>\n<li>Save your changes<\/li>\n<li>In your posts, just use the [mpress_banner] shortcode where you want to display your banner ad.  You will need to pass the banner id(s) to the shortcode like this:",
+                "uid": "11641"
+            }
+        }
+    }
+}

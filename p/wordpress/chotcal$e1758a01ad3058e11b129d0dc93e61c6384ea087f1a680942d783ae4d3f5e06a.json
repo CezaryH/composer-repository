@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/chotcal": {
+            "1.1": {
+                "name": "wordpress\/chotcal",
+                "version": "1.1",
+                "version_normalized": "1.1.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/chotcal.1.1.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>The plugin manage a database of bookings for up to five rooms and display the booking status of the rooms through\na graphic calendar page that is called by inserting a <strong>[chotcal]<\/strong> code in the text of a page.\nA <strong>widget<\/strong> is also available ( smaller ) to display in the sidebar. \nThis widget may be displayed on a given page only with different options thus allowing multiple use of it.<\/p>\n\n<p>The admin pages for the plugin allow you :<\/p>\n\n<ul>\n<li>to set up the rooms ( number , names ... ).<\/li>\n<li>to manage ( create , edit , delete ) the bookings.<\/li>\n<\/ul>",
+                "uid": "26929"
+            }
+        }
+    }
+}

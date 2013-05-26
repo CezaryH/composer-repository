@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/login-encryption": {
+            "0.5": {
+                "name": "wordpress\/login-encryption",
+                "version": "0.5",
+                "version_normalized": "0.5.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/login-encryption.0.5.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>Login Encrypt is a security plugin. It uses a complex combination of DES and RSA.\nIt was first developed by ELSERVER for securing login in the hosting control panel, and then released as a WordPress plugin.<\/p>\n\n<p>The way it works (fast explanation):\n*   A Javascript appended to the wp-login generates, each time a user logs in, a unique DES key. Using that key, the password of the user is encrypted.\n*   The Javascript encrypts the DES unique key using the RSA public key (generated when the plugin is activated).\n*   The encripted password and the encrypted DES unique key are sended to the server.\n*   A hook when login in checks if a encrypted DES unique key is received. If does, decrypts it using the secure RSA private key.\n*   Then, decrypts the password using the DES unique key.<\/p>",
+                "uid": "111212"
+            }
+        }
+    }
+}

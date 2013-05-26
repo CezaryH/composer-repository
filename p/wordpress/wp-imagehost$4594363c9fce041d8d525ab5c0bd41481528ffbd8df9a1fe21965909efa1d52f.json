@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/wp-imagehost": {
+            "1.0": {
+                "name": "wordpress\/wp-imagehost",
+                "version": "1.0",
+                "version_normalized": "1.0.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/wp-imagehost.1.0.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>The Wordpress Plugin <em>WP ImageHost<\/em> is a simple and easy to configurable plugin to host your images inside your blogposts on a separate subdomain to reduce the number of requests.<\/p>\n\n<p>By default, the most Web browser will create from two to four connections to the Web server, for downloading a Web page. This will results in slow Web page displaying, especially if the requested Web page contains more than one image. However, we can actually trick the Web browser, by hosting the requested images in other domains. The imageurl has not to be a real domain, we can host images on a subdomain!The Web browser will download the images in parallel with the rest of the Web pages.<\/p>\n\n<p>You can see the plugin in action on my <a href=\"http:\/\/www.milchrausch.de\/\">Weblog<\/a>. The mainsite is runnung under <a href=\"http:\/\/www.milchrausch.de\/\">http:\/\/www.milchrausch.de<\/a> and the images are served by <a href=\"http:\/\/images.milchrausch.de\/\">images.milchrausch.de<\/a><\/p>\n\n<p>I would be t",
+                "uid": "66539"
+            }
+        }
+    }
+}

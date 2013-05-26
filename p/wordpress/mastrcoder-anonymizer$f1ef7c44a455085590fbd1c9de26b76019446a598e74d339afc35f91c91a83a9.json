@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/mastrcoder-anonymizer": {
+            "1.0": {
+                "name": "wordpress\/mastrcoder-anonymizer",
+                "version": "1.0",
+                "version_normalized": "1.0.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/mastrcoder-anonymizer.1.0.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>You can use this plugin to prevent your site from appearing in the server logs of referred pages as a referrer. The operators of the referred pages cannot see where their visitors originate from.<\/p>\n\n<p>For example, this plugin will automatically convert all external links to this format <a href=\"http:\/\/anonymizer.mastrcoder.com\/index.php?q=http:\/\/k0nsl.org\/\" rel=\"nofollow\">http:\/\/anonymizer.mastrcoder.com\/index.php?q=http:\/\/k0nsl.org\/<\/a><\/p>\n\n<p>This produces an anonymous link to k0nsl.org which prevents the original site from appearing as a referrer in the log files of the referred page. This will apply to all external links - except for the ones you decide to exclude.<\/p>",
+                "uid": "8225"
+            }
+        }
+    }
+}

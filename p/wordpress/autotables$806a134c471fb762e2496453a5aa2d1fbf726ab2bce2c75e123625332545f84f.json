@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/autotables": {
+            "1.0.1": {
+                "name": "wordpress\/autotables",
+                "version": "1.0.1",
+                "version_normalized": "1.0.1.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/autotables.1.0.1.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>This plugin may work with versions older than Wordpress 2.3, but I did not test it.<\/p>\n\n<p>This plugin let you chose a CSS class for even as well as odd table rows. Every table in your posts and pages will be formatted with this plugin if it has the following structure HTML code:<\/p>\n\n\n \n\n\n<p>If you want to disable this plugin for one single table you only need to add a space:<\/p>\n\n\n \n\n\n<p>For table headers use the  tag please.<\/p>\n\n<p>Take a look at the plugin homepage to see it in action.<\/p>",
+                "uid": "101684"
+            }
+        }
+    }
+}

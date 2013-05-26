@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/cinnamon": {
+            "1.0": {
+                "name": "wordpress\/cinnamon",
+                "version": "1.0",
+                "version_normalized": "1.0.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/cinnamon.1.0.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>A visitor to your site decides to follow you on Twitter. You have a link in your footer - but their search for \"Twitter\" comes up empty and they move on. Unfortunately, you named the link \"@username\" instead.<\/p>\n\n<p>Cinnamon.js prevents just this situation, taking some of the pain out of naming things. It allows users to find links, images, and other content by their synonyms, using the browser's built-in Find function.<\/p>\n\n<p>Using it is incredibly simple - simply wrap the shortcode of <code>[cinnamon]<\/code> around with your word with each parameter being a synonym. For example..<\/p>\n\n<pre><code>[cinnamon Azure Cerulean Cobalt&#62;Blue[\/cinnamon]<\/code><\/pre>\n\n<p>This will output the word \"Blue\" but searches for azue, cerulean or cobalt in the browser will find the same word.<\/p>\n\n<p><strong>Before using this plugin it is highly recommended that you read the FAQ as there are concerns with regard to its use<\/strong><\/p>\n\n<p>Acknowledgements must go to <a href=\"http:\/\/thomaspark.m",
+                "uid": "10632"
+            }
+        }
+    }
+}

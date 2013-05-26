@@ -1,0 +1,40 @@
+{
+    "packages": {
+        "wordpress\/wpsuperfeedbox": {
+            "0.8.15": {
+                "name": "wordpress\/wpsuperfeedbox",
+                "version": "0.8.15",
+                "version_normalized": "0.8.15.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/wpsuperfeedbox.0.8.15.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>Just place <code>&#60;?php addWPSuperFeedBox(); ?&#62;<\/code> anywhere in your <code>single.php<\/code> to start boosting. That's it!<\/p>",
+                "uid": "83967"
+            },
+            "0.9": {
+                "name": "wordpress\/wpsuperfeedbox",
+                "version": "0.9",
+                "version_normalized": "0.9.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/wpsuperfeedbox.0.9.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>Just place <code>&#60;?php addWPSuperFeedBox(); ?&#62;<\/code> anywhere in your <code>single.php<\/code> to start boosting. That's it!<\/p>",
+                "uid": "83966"
+            }
+        }
+    }
+}

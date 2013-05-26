@@ -1,0 +1,57 @@
+{
+    "packages": {
+        "wordpress\/wp-responsive-data-image": {
+            "1.0": {
+                "name": "wordpress\/wp-responsive-data-image",
+                "version": "1.0",
+                "version_normalized": "1.0.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/wp-responsive-data-image.1.0.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>Plugin detects screen width and let browser render image file which is neccessary to use at the moment.<\/p>\n\n<p>Activate Plugin and upload image files using <strong>WordPress Media Uploader<\/strong>. You can use four image variants, each variant name shoud be specifically renamed:<\/p>\n\n<ul>\n<li><code>_image name_-small<\/code> - for low-res screens ( for smartphones );<\/li>\n<li><code>_image name_-med<\/code>- for med-res screens ( for tablets );<\/li>\n<li><code>_image name_<\/code> - for standart\/normal resolution screens (nothing changed) ( for desktops );<\/li>\n<li><code>_image name_-large<\/code> - for high-res screens ( for high-res screens );<\/li>\n<\/ul>\n\n<p>Define breakpoints using this script into the <code>&#60;head&#62;&#60;\/head&#62;<\/code> tag of your <code>header.php<\/code> template:<\/p>\n\n<pre><code>&#60;script&#62;\n    $(function() {\n        $(&#34;.adapted&#34;).rdi({\n            &#34;mobile&#34;: 480,\n            &#34;tablet&#34;: 1024,\n            &#34;desktop&#34;: 1920\n  ",
+                "uid": "22657"
+            },
+            "1.1": {
+                "name": "wordpress\/wp-responsive-data-image",
+                "version": "1.1",
+                "version_normalized": "1.1.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/wp-responsive-data-image.1.1.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>Plugin detects screen width and let browser render image file which is neccessary to use at the moment.<\/p>\n\n<p>Activate Plugin and upload image files using <strong>WordPress Media Uploader<\/strong>. You can use four image variants, each variant name shoud be specifically renamed:<\/p>\n\n<ul>\n<li><code>_image name_-small<\/code> - for low-res screens ( for smartphones );<\/li>\n<li><code>_image name_-med<\/code>- for med-res screens ( for tablets );<\/li>\n<li><code>_image name_<\/code> - for standart\/normal resolution screens (nothing changed) ( for desktops );<\/li>\n<li><code>_image name_-large<\/code> - for high-res screens ( for high-res screens );<\/li>\n<\/ul>\n\n<p>Define breakpoints using this script into the <code>&#60;head&#62;&#60;\/head&#62;<\/code> tag of your <code>header.php<\/code> template:<\/p>\n\n<pre><code>&#60;script&#62;\n    $(function() {\n        $(&#34;.adapted&#34;).rdi({\n            &#34;mobile&#34;: 480,\n            &#34;tablet&#34;: 1024,\n            &#34;desktop&#34;: 1920\n  ",
+                "uid": "22656"
+            },
+            "1.1.5": {
+                "name": "wordpress\/wp-responsive-data-image",
+                "version": "1.1.5",
+                "version_normalized": "1.1.5.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/wp-responsive-data-image.1.1.5.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>Plugin detects screen width and let browser render image file which is neccessary to use at the moment.<\/p>\n\n<p>Activate Plugin and upload image files using <strong>WordPress Media Uploader<\/strong>. You can use four image variants, each variant name shoud be specifically renamed:<\/p>\n\n<ul>\n<li><code>_image name_-small<\/code> - for low-res screens ( for smartphones );<\/li>\n<li><code>_image name_-med<\/code>- for med-res screens ( for tablets );<\/li>\n<li><code>_image name_<\/code> - for standart\/normal resolution screens (nothing changed) ( for desktops );<\/li>\n<li><code>_image name_-large<\/code> - for high-res screens ( for high-res screens );<\/li>\n<\/ul>\n\n<p>Define breakpoints using this script into the <code>&#60;head&#62;&#60;\/head&#62;<\/code> tag of your <code>header.php<\/code> template:<\/p>\n\n<pre><code>&#60;script&#62;\n    $(function() {\n        $(&#34;.adapted&#34;).rdi({\n            &#34;mobile&#34;: 480,\n            &#34;tablet&#34;: 1024,\n            &#34;desktop&#34;: 1920\n  ",
+                "uid": "22655"
+            }
+        }
+    }
+}

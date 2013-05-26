@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/home-url": {
+            "1.0.0": {
+                "name": "wordpress\/home-url",
+                "version": "1.0.0",
+                "version_normalized": "1.0.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/home-url.1.0.0.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>Enables you to use the home_url() function(http:\/\/codex.wordpress.org\/Function_Reference\/home_url) when HTML editing.\nThis allows you to easily manage relative urls.<\/p>\n\n<p>The home_url template tag retrieves the home url for the current site. \nReturns the 'home' option with the appropriate protocol, 'https' if is_ssl() and 'http' otherwise. \nIf scheme is 'http' or 'https', is_ssl() is overridden.<\/p>\n\n<p>How to use:<\/p>\n\n<p>[home-url path= scheme=]<\/p>\n\n<p>path\n    (string) (optional) Path relative to the home url.\n     Default: '\/'<\/p>\n\n<p>scheme\n    (string) (optional) Scheme to give the home url context. Currently 'http','https'.\n     Default: null<\/p>\n\n<p>Examples:<\/p>\n\n<p>[home-url]\n-&#62; <a href=\"http:\/\/www.mydomain.com\/\" rel=\"nofollow\">http:\/\/www.mydomain.com\/<\/a><\/p>\n\n<p>[home-url path=\"about\"]\n-&#62; <a href=\"http:\/\/www.mydomain.com\/about\" rel=\"nofollow\">http:\/\/www.mydomain.com\/about<\/a><\/p>\n\n<p>[home-url path=\"blog\/category\/news\"]\n-&#62; <a href=\"http:\/\/www.mydomain.com",
+                "uid": "55406"
+            }
+        }
+    }
+}

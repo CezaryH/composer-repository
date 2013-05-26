@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/us-cars": {
+            "1.0": {
+                "name": "wordpress\/us-cars",
+                "version": "1.0",
+                "version_normalized": "1.0.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/us-cars.1.0.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>Show used cars for sale in US on your website for free. This widget generates HTML that will show up on search engines as a part of your website.\nIt uses cacheing to improve performance. You can control the content from the admin backend by simply specifying (or not) if you want to show\nonly specific makes and models, or if you want to show cars manufactured within a certain time span. Display cars that are local, or national.<\/p>",
+                "uid": "18657"
+            }
+        }
+    }
+}

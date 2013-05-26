@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/jump-around-importer": {
+            "0.2": {
+                "name": "wordpress\/jump-around-importer",
+                "version": "0.2",
+                "version_normalized": "0.2.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/jump-around-importer.0.2.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>The Plugin is an extension to the \"WordPress Flickr Manager\" by [tgardner](http:\/\/tgardner.net\/wordpress-flickr-manager\/ to easily import\npicture from flickr by given tag. It groups the picture by geoposition and creates a draft for each group, title, description, tags and \ndate prefilled. The images are created as meta field imageX as well the geo data, so it works smothly with the \n<a href=\"http:\/\/code.google.com\/p\/wordpress-geo-mashup\">wordpress geo mashup<\/a>  Plugin.<\/p>",
+                "uid": "81031"
+            }
+        }
+    }
+}

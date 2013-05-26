@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/ocr": {
+            "0.1.0": {
+                "name": "wordpress\/ocr",
+                "version": "0.1.0",
+                "version_normalized": "0.1.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/ocr.0.1.0.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>A plugin for extracting text from attached images using <a href=\"http:\/\/en.wikipedia.org\/wiki\/Optical_character_recognition\">OCR<\/a> via <a href=\"http:\/\/code.google.com\/p\/tesseract-ocr\/\">Tesseract<\/a>.\nThis plugin adds a field to each image upload named 'OCR Text' containing the recognized text characters within the file.\nThis text can then be edited for accuracy and added to images to improve search and SEO results.<\/p>\n\n<p>The OCR plugin requires <a href=\"http:\/\/php.net\/\">PHP5<\/a> and two command line utilities: \n<a href=\"http:\/\/www.imagemagick.org\">ImageMagick<\/a> for preparing the images and <a href=\"http:\/\/code.google.com\/p\/tesseract-ocr\/\">Tesseract<\/a> for the actual OCR.\nThese utilities must be manually installed on your server and executable by PHP. <strong>This process, and consequently this plugin, is recommended only for advanced users.<\/strong><\/p>",
+                "uid": "70801"
+            }
+        }
+    }
+}

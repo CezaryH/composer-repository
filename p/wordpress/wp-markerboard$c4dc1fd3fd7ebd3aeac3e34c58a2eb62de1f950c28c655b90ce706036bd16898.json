@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/wp-markerboard": {
+            "1": {
+                "name": "wordpress\/wp-markerboard",
+                "version": "1",
+                "version_normalized": "1.0.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/wp-markerboard.1.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>Provides a \"Marker board\" widget for visitors to play with. When a user's mouse moves over the widget marker will be drawn on the surface.<\/p>\n\n<p>The widget has four options, line color, line width, box width, and box height. Unfortunately html canvas requires explicit dimensions, the default dimensions for Markerboard are 150px by 150px.<\/p>",
+                "uid": "45319"
+            }
+        }
+    }
+}

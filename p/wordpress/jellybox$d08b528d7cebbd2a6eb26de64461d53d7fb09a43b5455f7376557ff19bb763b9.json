@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/jellybox": {
+            "1.4": {
+                "name": "wordpress\/jellybox",
+                "version": "1.4",
+                "version_normalized": "1.4.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/jellybox.1.4.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>jellybox provides a simple to use shortcode that allows you to apply rotations and\/or animations to text, images and boxes. Image, box and text rotation also works on older versions of Internet Explorer.<\/p>\n\n<h4>Example Usage<\/h4>\n\n<pre><code>[jellybox class=&#34;jellyboxGreen&#34; width=&#34;200&#34; height=&#34;140&#34; angle=&#34;15&#34;]\nThis text will appear in an attractive green gradient colored box tilted to a 15 degree angle.\n[\/jellybox]<\/code><\/pre>\n\n<pre><code>[jellybox class=&#34;jellyboxBlue&#34; width=&#34;200&#34; height=&#34;140&#34; deltaheight=&#34;100&#34; deltatop=&#34;-100&#34;]\nThis text will appear in an attractive blue gradient colored box. When you click on this box, it will grow by 100px.\n[\/jellybox]<\/code><\/pre>\n\n<h4>Contact Form Example<\/h4>\n\n<pre><code>[jellybox class=&#34;jellyboxGreen&#34; width=&#34;100&#34; height=&#34;20&#34; deltawidth=&#34;350&#34; deltaheight=&#34;700&#34; deltatop=&#34;-400&#34; gospeed=&#34;500&#34; returnspeed=&#34;100&#34; t",
+                "uid": "10983"
+            }
+        }
+    }
+}

@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/searchekko": {
+            "1.0": {
+                "name": "wordpress\/searchekko",
+                "version": "1.0",
+                "version_normalized": "1.0.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/searchekko.1.0.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p><a href=\"http:\/\/www.searchekko.com\">SearchEkko<\/a> is like a \"related posts\" widget for your blog, but it's only visible to readers who arrive from a search engine. It uses each visitor's search query to find the best-matching pages on your site.<\/p>\n\n<p>For example, imagine that a user searches \"new cars\" at Google, and one of your posts shows up as a top hit.  They then click the link and arrive at your site.  The SearchEkko widget notices that the visitor arrived from a search engine, and that their query was \"new cars\".  It then finds all the best pages on your site for that query, and presents them to the user.<\/p>\n\n<p>SearchEkko helps minimize your bounce rate by presenting visitors with your best, most relevant content, helping to ensure that they'll find what they're looking for.  It also helps drive page views by finding related posts using each visitor's real-time intent.<\/p>\n\n<p>Try it out today! :)<\/p>",
+                "uid": "82507"
+            }
+        }
+    }
+}

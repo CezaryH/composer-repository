@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/wp-github-tools": {
+            "1.0": {
+                "name": "wordpress\/wp-github-tools",
+                "version": "1.0",
+                "version_normalized": "1.0.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/wp-github-tools.1.0.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>Use the custom GitHub Commit widget to display a list of the latest updates from a repository. Additionally, you can use shortcodes to add commit lists or embed any gist. \nThe plugin will cache the GitHub response for a certain time period (default: 1 day). You can change this value to half a day or 1 hour. To get more time frames you will need an additional plugin that extends the cron schedules.<\/p>\n\n<h4>Shortcodes<\/h4>\n\n<p><strong>[gist id='<em>gist_id<\/em>' ]<\/strong><\/p>\n\n<p>Embeds a gist in your post. Parameters:<\/p>\n\n<ul>\n<li><em>id<\/em> (required) The id of the gist you want to embed. <\/li>\n<\/ul>\n\n<p><strong>[commits repository='your-repository' count='max-count' title='your-title']<\/strong><\/p>\n\n<p>Displays the latest commits from your repository. Parameters:<\/p>\n\n<ul>\n<li><em>repository<\/em> (required) The name of the repository you wish to get. <\/li>\n<li><em>count<\/em> (optional) The number of commits to retrieve (order by date). Default: 5<\/li>\n<li><em>title<\/em> (option",
+                "uid": "10855"
+            }
+        }
+    }
+}

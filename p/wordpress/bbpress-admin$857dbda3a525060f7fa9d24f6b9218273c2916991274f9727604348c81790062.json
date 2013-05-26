@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/bbpress-admin": {
+            "0.1.3": {
+                "name": "wordpress\/bbpress-admin",
+                "version": "0.1.3",
+                "version_normalized": "0.1.3.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/bbpress-admin.0.1.3.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>The plugin will add bbpress admin sections to the wordpress admin section. That way the user will be able to manage both installation from a single admin section.<\/p>\n\n<p><strong>The plugin has been tested with bbpress 0.9.0.1<\/strong><\/p>\n\n<p>The sections from bbpress are moved into wordpress as follows:<\/p>\n\n<ul>\n<li><strong>bbPress Admin &#62; Design &#62; Themes<\/strong> moved to <strong>Wordpress Admin &#62; Design &#62; BBPress Theme<\/strong><\/li>\n<li><strong>bbPress Admin &#62; Manage &#62; Topics<\/strong> moved to <strong>Wordpress Admin &#62; Manage &#62; Forum Topics<\/strong><\/li>\n<li><strong>bbPress Admin &#62; Manage &#62; Posts<\/strong> moved to <strong>Wordpress Admin &#62; Manage &#62; Forum Posts<\/strong><\/li>\n<li><strong>bbPress Admin &#62; Manage &#62; Forums<\/strong> moved to <strong>Wordpress Admin &#62; Manage &#62; Forums<\/strong><\/li>\n<li><strong>bbPress Admin &#62; Settings &#62; General<\/strong> moved to <strong>Wordpress Admin &#62; Settings &#62; BBPress G",
+                "uid": "104732"
+            }
+        }
+    }
+}

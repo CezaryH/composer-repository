@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/welcome": {
+            "1.0": {
+                "name": "wordpress\/welcome",
+                "version": "1.0",
+                "version_normalized": "1.0.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/welcome.1.0.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>The plugin allows the user to display a nice welcome message to its visitors with fade out feature. The main advantage is that your visitors will see a nice welcome message while the main page is loading. It includes a WYSIWYG(what-you-see-is-what-you-get) editor for easy management, a color picker to chose a background for the welcome message and adjustable timings. \nDemo, screenshots, support: <a href=\"http:\/\/kettlerdorothea.ro\/welcome-plugin-10\" rel=\"nofollow\">http:\/\/kettlerdorothea.ro\/welcome-plugin-10<\/a><\/p>",
+                "uid": "110521"
+            }
+        }
+    }
+}

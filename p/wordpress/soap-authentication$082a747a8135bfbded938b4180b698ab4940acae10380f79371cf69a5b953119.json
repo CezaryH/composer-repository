@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/soap-authentication": {
+            "1.3": {
+                "name": "wordpress\/soap-authentication",
+                "version": "1.3",
+                "version_normalized": "1.3.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/soap-authentication.1.3.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>This plugin allows the use of an external SOAP based webservice to overwrite the default authentication of users within a Wordpress installation. Users are authenticated using the external webservice then added to the local Wordpress database based on the values in the plugin settings. This is done to allow for the role mapping of permissions from an external system to the Wordpress roles.<\/p>",
+                "uid": "65230"
+            }
+        }
+    }
+}

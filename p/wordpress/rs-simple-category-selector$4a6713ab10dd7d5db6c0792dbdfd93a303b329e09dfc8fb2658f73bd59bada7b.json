@@ -1,0 +1,57 @@
+{
+    "packages": {
+        "wordpress\/rs-simple-category-selector": {
+            "0.2": {
+                "name": "wordpress\/rs-simple-category-selector",
+                "version": "0.2",
+                "version_normalized": "0.2.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/rs-simple-category-selector.0.2.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>If you have more than one category associated with a post, how do you tell which category takes precedence? This plugin gives you the ability to promote the category to the main one on the post edit page.<\/p>\n\n<p>This gets stored in post meta for later use. Soon, I will add some simple functions that will allow you to get the main category on the front end.<\/p>\n\n<p><strong>Use<\/strong><\/p>\n\n<ul>\n<li>You can use the shortcode <em>[rs_print_main]<\/em> inside the post to print out the category title.<\/li>\n<li>In the theme, you can use <em>rs_get_main_category_id( <strong>$post_id<\/strong> )<\/em> to return (not print) the id of the main category.<\/li>\n<\/ul>",
+                "uid": "26234"
+            },
+            "0.2.1": {
+                "name": "wordpress\/rs-simple-category-selector",
+                "version": "0.2.1",
+                "version_normalized": "0.2.1.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/rs-simple-category-selector.0.2.1.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>If you have more than one category associated with a post, how do you tell which category takes precedence? This plugin gives you the ability to promote the category to the main one on the post edit page.<\/p>\n\n<p>This gets stored in post meta for later use. Soon, I will add some simple functions that will allow you to get the main category on the front end.<\/p>\n\n<p><strong>Use<\/strong><\/p>\n\n<ul>\n<li>You can use the shortcode <em>[rs_print_main]<\/em> inside the post to print out the category title.<\/li>\n<li>In the theme, you can use <em>rs_get_main_category_id( <strong>$post_id<\/strong> )<\/em> to return (not print) the id of the main category.<\/li>\n<\/ul>",
+                "uid": "26233"
+            },
+            "1.0": {
+                "name": "wordpress\/rs-simple-category-selector",
+                "version": "1.0",
+                "version_normalized": "1.0.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/rs-simple-category-selector.1.0.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>If you have more than one category associated with a post, how do you tell which category takes precedence? This plugin gives you the ability to promote the category to the main one on the post edit page.<\/p>\n\n<p>This gets stored in post meta for later use. Soon, I will add some simple functions that will allow you to get the main category on the front end.<\/p>\n\n<p><strong>Use<\/strong><\/p>\n\n<ul>\n<li>You can use the shortcode <em>[rs_print_main]<\/em> inside the post to print out the category title.<\/li>\n<li>In the theme, you can use <em>rs_get_main_category_id( <strong>$post_id<\/strong> )<\/em> to return (not print) the id of the main category.<\/li>\n<\/ul>",
+                "uid": "26232"
+            }
+        }
+    }
+}

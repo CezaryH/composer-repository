@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/clean-my-archives": {
+            "0.1": {
+                "name": "wordpress\/clean-my-archives",
+                "version": "0.1",
+                "version_normalized": "0.1.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/clean-my-archives.0.1.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>The Clean My Archives plugin was developed because so many archives plugins were overly complicated.  We wanted something extremely simple to use that simply got the job done.  Rather than make things complex, we created a simple <code>[clean-my-archives]<\/code> shortcode that you can place in any page (any shortcode-ready area) and list your post archives by month and year.<\/p>\n\n<p>This plugin also integrates with WordPress caching plugins.  So, long lists of archives can be cached for later use and loaded quickly.<\/p>",
+                "uid": "61669"
+            }
+        }
+    }
+}

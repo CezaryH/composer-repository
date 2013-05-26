@@ -1,0 +1,57 @@
+{
+    "packages": {
+        "wordpress\/my-own-theme": {
+            "1.0": {
+                "name": "wordpress\/my-own-theme",
+                "version": "1.0",
+                "version_normalized": "1.0.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/my-own-theme.1.0.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>Extreme theme customization for WordPress with jQuery.<\/p>\n\n<p>You can edit <code>My Own Theme<\/code> at will, in two clearly delimited areas, one for the ADMIN VIEW and one for the USERS VIEW.<\/p>\n\n<p>It's just a matter of adding some jQuery (JavaScript) snippets.<\/p>\n\n<h4>Examples<\/h4>\n\n<p>You can try to copy and paste the following jQuery snippets, after the installation.<\/p>\n\n<p><strong>USER VIEW: How to highlight your comments<\/strong> (supposing your display name is <code>admin<\/code>)<\/p>\n\n<pre><code>$( 'cite:contains(admin)', '.commentlist' )\n  .parent()\n  .css( {border: '1px dashed red', padding: '3px'} );\n<\/code><\/pre>\n\n<p><strong>ADMIN VIEW: How to hide the panel <code>Other WordPress News<\/code><\/strong><\/p>\n\n<pre><code>$( '#planetnews' ).hide();\n<\/code><\/pre>",
+                "uid": "105614"
+            },
+            "1.1": {
+                "name": "wordpress\/my-own-theme",
+                "version": "1.1",
+                "version_normalized": "1.1.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/my-own-theme.1.1.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>Extreme theme customization for WordPress with jQuery.<\/p>\n\n<p>You can edit <code>My Own Theme<\/code> at will, in two clearly delimited areas, one for the ADMIN VIEW and one for the USERS VIEW.<\/p>\n\n<p>It's just a matter of adding some jQuery (JavaScript) snippets.<\/p>\n\n<h4>Examples<\/h4>\n\n<p>You can try to copy and paste the following jQuery snippets, after the installation.<\/p>\n\n<p><strong>USER VIEW: How to highlight your comments<\/strong> (supposing your display name is <code>admin<\/code>)<\/p>\n\n<pre><code>$( 'cite:contains(admin)', '.commentlist' )\n  .parent()\n  .css( {border: '1px dashed red', padding: '3px'} );\n<\/code><\/pre>\n\n<p><strong>ADMIN VIEW: How to hide the panel <code>Other WordPress News<\/code><\/strong><\/p>\n\n<pre><code>$( '#planetnews' ).hide();\n<\/code><\/pre>",
+                "uid": "105613"
+            },
+            "1.2": {
+                "name": "wordpress\/my-own-theme",
+                "version": "1.2",
+                "version_normalized": "1.2.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/my-own-theme.1.2.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>Extreme theme customization for WordPress with jQuery.<\/p>\n\n<p>You can edit <code>My Own Theme<\/code> at will, in two clearly delimited areas, one for the ADMIN VIEW and one for the USERS VIEW.<\/p>\n\n<p>It's just a matter of adding some jQuery (JavaScript) snippets.<\/p>\n\n<h4>Examples<\/h4>\n\n<p>You can try to copy and paste the following jQuery snippets, after the installation.<\/p>\n\n<p><strong>USER VIEW: How to highlight your comments<\/strong> (supposing your display name is <code>admin<\/code>)<\/p>\n\n<pre><code>$( 'cite:contains(admin)', '.commentlist' )\n  .parent()\n  .css( {border: '1px dashed red', padding: '3px'} );\n<\/code><\/pre>\n\n<p><strong>ADMIN VIEW: How to hide the panel <code>Other WordPress News<\/code><\/strong><\/p>\n\n<pre><code>$( '#planetnews' ).hide();\n<\/code><\/pre>",
+                "uid": "105612"
+            }
+        }
+    }
+}

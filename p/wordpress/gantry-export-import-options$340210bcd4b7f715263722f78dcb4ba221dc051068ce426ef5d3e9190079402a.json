@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/gantry-export-import-options": {
+            "0.2": {
+                "name": "wordpress\/gantry-export-import-options",
+                "version": "0.2",
+                "version_normalized": "0.2.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/gantry-export-import-options.0.2.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>You can download a single file of all your theme options &#38; widgets and import them later on. Requires <a href=\"http:\/\/gantry-framework.org\">Gantry Template Framework<\/a>.<\/p>\n\n<p>Please note, this plugin only exports Gantry's options, overrides, and widgets. To export posts, pages, menus, etc, use the WordPress' export option (Tools -&#62; Export) and import them (Tools -&#62; Import) first, then use this plugin.<\/p>",
+                "uid": "36227"
+            }
+        }
+    }
+}

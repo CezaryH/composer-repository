@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/weekday-redirect": {
+            "1.0.0": {
+                "name": "wordpress\/weekday-redirect",
+                "version": "1.0.0",
+                "version_normalized": "1.0.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/weekday-redirect.1.0.0.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>This is a WordPress plugin created to redirect to a given page on\na particular day. Let&#8217;s say you want certain information to be\navailable on a certain day, like a list of events. Users could go\nto <a href=\"http:\/\/yoursite.com\/events\" rel=\"nofollow\">http:\/\/yoursite.com\/events<\/a>, which would then redirect to\n<a href=\"http:\/\/yoursite.com\/events\/day\" rel=\"nofollow\">http:\/\/yoursite.com\/events\/day<\/a>, where [day] is obviously &#8220;monday&#8221;,\n&#8220;tuesday&#8221; etc, depending on what day of the week it is.<\/p>\n\n<p>There may already be more elegant solutions to this problem, but I\nwanted to build a WordPress plugin from scratch, rather than adapting\nan existing one. The much more efficient shortcodes system\nimplemented in WordPres 2.5 (better than lots of plugins performing a\nfind and replace or regular expression check) makes this really easy.<\/p>",
+                "uid": "79897"
+            }
+        }
+    }
+}

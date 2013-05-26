@@ -1,0 +1,40 @@
+{
+    "packages": {
+        "wordpress\/google-org-chart": {
+            "1.0.0": {
+                "name": "wordpress\/google-org-chart",
+                "version": "1.0.0",
+                "version_normalized": "1.0.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/google-org-chart.1.0.0.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>This plugin simplifies the generation of a Google org chart through the use of two shortcakes.<\/p>\n\n<p>The shortcodes are [org_chart] and [org_chart_item].<\/p>\n\n<p>The [org_chart_item] tag is used for the generation of each node in the chart and all [org_chart_item] tags should be enclosed between the opening [org_chart] and closing [\/org_chart] tags.<\/p>\n\n<p>[org_chart] has three attributes:<\/p>\n\n<ul>\n<li>width - set the width of the org chart drawing space (in pixels)<\/li>\n<li>height - set the height of the org chart drawing space (in pixels)<\/li>\n<li>collapsible - simply adding this word in the tag enables all parent nodes in the chart to be collapsible upon double-click<\/li>\n<\/ul>\n\n<p>[org_chart_item] has four attributes:<\/p>\n\n<ul>\n<li>title - if the content attribute is not set, the title acts as a node ID and the node's content<\/li>\n<li>content - if the content attribute is set, it will be placed as the node's content while the title will simply act as the node ID<\/li>\n<li>par",
+                "uid": "35567"
+            },
+            "1.0.1": {
+                "name": "wordpress\/google-org-chart",
+                "version": "1.0.1",
+                "version_normalized": "1.0.1.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/google-org-chart.1.0.1.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>This plugin simplifies the generation of a Google org chart through the use of two shortcakes.<\/p>\n\n<p>The shortcodes are [org_chart] and [org_chart_item].<\/p>\n\n<p>The [org_chart_item] tag is used for the generation of each node in the chart and all [org_chart_item] tags should be enclosed between the opening [org_chart] and closing [\/org_chart] tags.<\/p>\n\n<p>[org_chart] has three attributes:<\/p>\n\n<ul>\n<li>width - set the width of the org chart drawing space (in pixels)<\/li>\n<li>height - set the height of the org chart drawing space (in pixels)<\/li>\n<li>collapsible - simply adding this word in the tag enables all parent nodes in the chart to be collapsible upon double-click<\/li>\n<\/ul>\n\n<p>[org_chart_item] has four attributes:<\/p>\n\n<ul>\n<li>title - if the content attribute is not set, the title acts as a node ID and the node's content<\/li>\n<li>content - if the content attribute is set, it will be placed as the node's content while the title will simply act as the node ID<\/li>\n<li>par",
+                "uid": "35566"
+            }
+        }
+    }
+}

@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/wp-comment-remix": {
+            "1.4.4": {
+                "name": "wordpress\/wp-comment-remix",
+                "version": "1.4.4",
+                "version_normalized": "1.4.4.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/wp-comment-remix.1.4.4.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p><strong>For the readers<\/strong>\nWP Comment Remix adds a number of great features that you can turn on or off, but they include:<\/p>\n\n<p><em>Reply Link<\/em>\nYou can add a Reply link to each comment, which, when clicked, adds \"@OriginalPoster\", and links it to the anchor of that comment. For instance, if Steve left comment #23, and you click the reply link for that comment, WP Comment Remix automatically adds:<\/p>\n\n<p>&#60;a href=\"#comment-23\"&#62;@Steve&#60;\/a&#62; -<\/p>\n\n<p>to the reply box.<\/p>\n\n<p><em>Quote Link<\/em>\nClicking the Quote link has a similar action to the Reply link, but it adds the entire comment in a blockquote tag, including \"&#60;a href=\"#comment-23\"&#62;Originally posted by Steve&#60;\/a&#62;\"<\/p>\n\n<p><em>Comment Ordering<\/em>\nYou can choose how you want to order the comments for your readers - By Author name or Date, and Ascending or Descending<\/p>\n\n<p><em>Separate or Remove Trackbacks<\/em>\nYou can choose to separate the Trackbacks from the comments and move the",
+                "uid": "102166"
+            }
+        }
+    }
+}

@@ -1,0 +1,40 @@
+{
+    "packages": {
+        "wordpress\/ml-raw-html": {
+            "1.0.1": {
+                "name": "wordpress\/ml-raw-html",
+                "version": "1.0.1",
+                "version_normalized": "1.0.1.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/ml-raw-html.1.0.1.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>This plugin allows you to insert raw HTML and Javascript into your post without any tampering by the fiendish\nWordPress paragraph and line break inserter.  It is based on shortcodes and avoids expensive and fragile\nparsing of the post content based on regular expressions, unlike other plugins with similar functionality.<\/p>\n\nUsing the plugin\n\n<p>Content that should be passed through unchanged by WordPress should be contained in a [ml_raw_html] shortcode\nblock.  For example:<\/p>\n\n<pre><code>Regular post content here...\n\n[ml_raw_html]\n  &#60;script type=\"text\/javascript\"&#62;\n  function foo(bar) {\n     frobozz = 'a';\n     bat = bar;\n  }\n  &#60;\/script&#62;\n[\/ml_raw_html]\n\nMore post content...\n<\/code><\/pre>\n\nMultiple raw blocks\n\n<p>If you have multiple ml_raw_html blocks on a page, there is a slight complication.  Each block needs to have\na different id attribute to allow the implementation to accurately select the correct block of text.\nFor example:<\/p>\n\n<pre><code>Regular post conten",
+                "uid": "54830"
+            },
+            "1.0.2": {
+                "name": "wordpress\/ml-raw-html",
+                "version": "1.0.2",
+                "version_normalized": "1.0.2.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/ml-raw-html.1.0.2.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>This plugin allows you to insert raw HTML and Javascript into your post without any tampering by the fiendish\nWordPress paragraph and line break inserter.  It is based on shortcodes and avoids expensive and fragile\nparsing of the post content based on regular expressions, unlike other plugins with similar functionality.<\/p>\n\nUsing the plugin\n\n<p>Content that should be passed through unchanged by WordPress should be contained in a [ml_raw_html] shortcode\nblock.  For example:<\/p>\n\n<pre><code>Regular post content here...\n\n[ml_raw_html]\n  &#60;script type=\"text\/javascript\"&#62;\n  function foo(bar) {\n     frobozz = 'a';\n     bat = bar;\n  }\n  &#60;\/script&#62;\n[\/ml_raw_html]\n\nMore post content...\n<\/code><\/pre>\n\nMultiple raw blocks\n\n<p>If you have multiple ml_raw_html blocks on a page, there is a slight complication.  Each block needs to have\na different id attribute to allow the implementation to accurately select the correct block of text.\nFor example:<\/p>\n\n<pre><code>Regular post conten",
+                "uid": "54827"
+            }
+        }
+    }
+}

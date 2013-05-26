@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/strip-non-registered-shortcodes-for-wordpress": {
+            "1.0": {
+                "name": "wordpress\/strip-non-registered-shortcodes-for-wordpress",
+                "version": "1.0",
+                "version_normalized": "1.0.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/strip-non-registered-shortcodes-for-wordpress.1.0.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>This plugin was developed for your convenience. It easily strips all of non-registered shortcodes, (! Non-registered shortcodes are non-system \nWordPress shortcodes and shortcodes which were not included by \"add_shortcode\" function in the current template.) \nYou have changed template of your web-site and all of your shortcodes from previous template now are non-registered, so\nthey will be rendered on your web-site like:<\/p>\n\n<p>\"simplecontent [nonregtag] simplecontent simplecontent simplecontent simplecontent simplecontent \n  simplecontent simplecontent simplecontent simplecontent simplecontent simplecontent \n  simplecontent simplecontent [nonregshortcode title=\"sometitle\"]scontent[\/nonregshortcode] simplecontent simplecontent\"(originally content)<\/p>\n\n<p>And you may spend a lot of time, editing every single post, but after activation of the plugin you get something like:<\/p>\n\n<p>\"simplecontent simplecontent simplecontent simplecontent simplecontent simplecontent\n  simplecontent sim",
+                "uid": "36499"
+            }
+        }
+    }
+}

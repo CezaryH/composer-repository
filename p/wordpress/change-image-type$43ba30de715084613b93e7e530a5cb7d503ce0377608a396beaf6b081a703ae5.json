@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/change-image-type": {
+            "1.0": {
+                "name": "wordpress\/change-image-type",
+                "version": "1.0",
+                "version_normalized": "1.0.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/change-image-type.1.0.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>\"Change image type\", you can change the image type.\nIn doing so, you can do to facilitate the operation of the site.<\/p>\n\n<h4>Examples of changes<\/h4>\n\n<p>*.bmp =&#62; *.jpg, *.png, *.gif .\n*.jpg =&#62; *.png, *.gif .<\/p>\n\n<h4>Notes<\/h4>\n\n<p>Change image type is used the GD library.<\/p>",
+                "uid": "63596"
+            }
+        }
+    }
+}

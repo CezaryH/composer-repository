@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/almost-users-only": {
+            "1.0": {
+                "name": "wordpress\/almost-users-only",
+                "version": "1.0",
+                "version_normalized": "1.0.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/almost-users-only.1.0.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>Almost Users Only is a plugin that limits public access to your blog. Visitors that are not logged in can only view a specific public page. If they are trying to reach other pages they will automatically be redirected to the public page.<\/p>\n\n<p>If a visitor is logged in, he can view all the pages\/posts on the blog (just like if it were a normal Wordpress installation).<\/p>\n\n<p>The public page can for example be used to display information about the site and a guide to how visitors can get an account.<\/p>\n\n<p>IMPORTANT: Wordpress still publish RSS feeds, so posts can still be read that way. Pages should be save though.<\/p>",
+                "uid": "14553"
+            }
+        }
+    }
+}

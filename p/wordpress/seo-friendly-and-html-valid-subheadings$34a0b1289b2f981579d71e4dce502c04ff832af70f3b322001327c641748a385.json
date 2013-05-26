@@ -1,0 +1,40 @@
+{
+    "packages": {
+        "wordpress\/seo-friendly-and-html-valid-subheadings": {
+            "1.0": {
+                "name": "wordpress\/seo-friendly-and-html-valid-subheadings",
+                "version": "1.0",
+                "version_normalized": "1.0.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/seo-friendly-and-html-valid-subheadings.1.0.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>When coming up with an SEO optimized theme, you should take care of the following:<\/p>\n\n<ul>\n<li>have the H1 on archive pages and the homepage set to the title of those pages, or the name of your blog<\/li>\n<li>set the H1 on single posts or pages to be the title of the post\/page<\/li>\n<\/ul>\n\n<p>This causes an issue with subheadings when composing your posts. In the category pages the articles titles will be the H2, but in the individual posts the articles titles will be the H1. Do you set your subheadings to start at H2 and please the single pages, or H3 and please the category pages?<\/p>\n\n<p>This plugin resolves the issue by replacing subheading tags with the following on pages where the plugin tag is added:<\/p>\n\n<ul>\n<li>H2 into H3<\/li>\n<li>H3 into H4<\/li>\n<li>H4 into H5<\/li>\n<li>H5 into H6<\/li>\n<li>H6 into P.headingSix<\/li>\n<\/ul>",
+                "uid": "95387"
+            },
+            "1.1": {
+                "name": "wordpress\/seo-friendly-and-html-valid-subheadings",
+                "version": "1.1",
+                "version_normalized": "1.1.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/seo-friendly-and-html-valid-subheadings.1.1.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>When coming up with an SEO optimized theme, you should take care of the following:<\/p>\n\n<ul>\n<li>have the H1 on archive pages and the homepage set to the title of those pages, or the name of your blog<\/li>\n<li>set the H1 on single posts or pages to be the title of the post\/page<\/li>\n<\/ul>\n\n<p>This causes an issue with subheadings when composing your posts. In the category pages the articles titles will be the H2, but in the individual posts the articles titles will be the H1. Do you set your subheadings to start at H2 and please the single pages, or H3 and please the category pages?<\/p>\n\n<p>This plugin resolves the issue by replacing subheading tags with the following on pages where the plugin tag is added:<\/p>\n\n<ul>\n<li>H2 into H3<\/li>\n<li>H3 into H4<\/li>\n<li>H4 into H5<\/li>\n<li>H5 into H6<\/li>\n<li>H6 into P.headingSix<\/li>\n<\/ul>",
+                "uid": "95386"
+            }
+        }
+    }
+}

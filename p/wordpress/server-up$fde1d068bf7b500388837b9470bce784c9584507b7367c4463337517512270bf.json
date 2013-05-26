@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/server-up": {
+            "1.2": {
+                "name": "wordpress\/server-up",
+                "version": "1.2",
+                "version_normalized": "1.2.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/server-up.1.2.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>Allows to show the status of a list of server as a Widget and a Shortcode. \nThe plugin tempts to connect to a specific port on a server (defined by address, or hostname).\nIf the connection fails, the plugin considers that the server is offline. Otherwise, the server is online.<\/p>\n\n<h4>Credits<\/h4>\n\n<p>Base on the work of jonesy44, aviable here : <a href=\"http:\/\/www.hawkee.com\/snippet\/5404\/\" rel=\"nofollow\">http:\/\/www.hawkee.com\/snippet\/5404\/<\/a><\/p>",
+                "uid": "23369"
+            }
+        }
+    }
+}

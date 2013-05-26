@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/customized-wysiwyg-editor-page-widths": {
+            "1.0": {
+                "name": "wordpress\/customized-wysiwyg-editor-page-widths",
+                "version": "1.0",
+                "version_normalized": "1.0.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/customized-wysiwyg-editor-page-widths.1.0.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>The current admin WYSIWYG editor will expand to the size of your monitor.  On modern monitors that can be very wide and as a result your content will stretch out beyond the normal bounds.  The current solution is to minimize your window until the editor is about the right size.  But depending on the width of other elements and sections this can create an unusable workspace in the admin section.<\/p>\n\n<p>This plugin adds the ability to enforce a maximum page width in the WYSIWYG editor for a more realistic content window that matches your blog\/site layout. Widths, in pixels, are configurable per each custom post type that supports an editor. So you can define a max width for blog posts, pages, content molecules (see: <a href=\"http:\/\/wordpress.org\/extend\/plugins\/content-molecules\/)\" rel=\"nofollow\">http:\/\/wordpress.org\/extend\/plugins\/content-molecules\/)<\/a> along with any other registered custom post type from any other plugin. Or you can leave them blank to have a full width editor in ",
+                "uid": "35809"
+            }
+        }
+    }
+}

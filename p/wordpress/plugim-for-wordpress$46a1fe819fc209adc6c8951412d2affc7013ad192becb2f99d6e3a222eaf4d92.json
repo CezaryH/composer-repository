@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/plugim-for-wordpress": {
+            "1.0.3": {
+                "name": "wordpress\/plugim-for-wordpress",
+                "version": "1.0.3",
+                "version_normalized": "1.0.3.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/plugim-for-wordpress.1.0.3.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>Adds a \"Plug This\" button to your blog posts so people can vote for you dynamically (never leaving your site) at PlugIM.com.  Allows custom configuration of votebox position on your blog.<\/p>",
+                "uid": "69693"
+            }
+        }
+    }
+}

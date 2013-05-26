@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/extended-comment-options": {
+            "2.6": {
+                "name": "wordpress\/extended-comment-options",
+                "version": "2.6",
+                "version_normalized": "2.6.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/extended-comment-options.2.6.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>WordPress allows you to close comments or pings on individual posts, but if you want to close comments and\/or pings on more than 10 posts, you're in for a long ride! Extended Comment Options allows you to close comments or pings (or both) on all your posts at once, if you want. You can also choose batches of posts based on criteria you specify:<\/p>\n\n<ol>\n<li>Posts made before or after a specific date.<\/li>\n<li>The last X posts (where X is a number you choose) or posts made in the last X days, weeks, months or years.<\/li>\n<li>Posts with a certain amount of comments. For example, you can close comments on posts once 10 comments have been left.<\/li>\n<\/ol>\n\n<p>The last two options can be set to update automatically. So you can close comments on the last 5 posts, and keep them closed as you make new posts. Or you can set it so that comments are closed on a post after the 10th one has been left.<\/p>\n\n<p>Extended Comment Options also allows you to exclude certain posts. So, for example, if",
+                "uid": "107886"
+            }
+        }
+    }
+}

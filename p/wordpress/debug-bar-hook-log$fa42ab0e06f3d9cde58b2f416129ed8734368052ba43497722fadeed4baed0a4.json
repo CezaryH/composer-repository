@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/debug-bar-hook-log": {
+            "0.3": {
+                "name": "wordpress\/debug-bar-hook-log",
+                "version": "0.3",
+                "version_normalized": "0.3.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/debug-bar-hook-log.0.3.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>Adds a new tab to Debug Bar that displays the hooks that were called during the page request.<\/p>\n\n<p>You can live-filter the hooks that are displayed to hide noisy information like translation, options, and sanitization<\/p>\n\n<p>Clicking on a hook will expand it to show the arguments that were passed to the hook<\/p>",
+                "uid": "9684"
+            }
+        }
+    }
+}

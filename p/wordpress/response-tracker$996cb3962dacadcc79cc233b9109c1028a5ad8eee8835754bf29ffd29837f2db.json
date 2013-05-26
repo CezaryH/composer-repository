@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/response-tracker": {
+            "0.90": {
+                "name": "wordpress\/response-tracker",
+                "version": "0.90",
+                "version_normalized": "0.90.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/response-tracker.0.90.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>Response Tracker is a plugin for WordPress that lets bloggers keep track of comments on their posts by marking them as todo, replied, or ignored, in Comments Administration page in the admin dashboard. On the comments administration page, the plugin paints each comment block with a colour that either indicates the status set by the author (if any) or provides a hint on what the status might be (read below for an explication).<\/p>\n\n<h3>Features \/ Details<\/h3>\n\n<ul>\n<li>Adds options to the Comments Admin page actions, for each comment, to mark it as <em>Todo<\/em>, <em>Replied<\/em>, or <em>Ignore<\/em>.<\/li>\n<li>Comment blocks are given a background colour based on their actual or guessed state (default = <em>todo<\/em>).<\/li>\n<li>Comments with a response from the post author are background coloured to indicate that.<\/li>\n<li>Comments by post authors are automatically coloured <em>ignored<\/em> (though not marked so).<\/li>\n<li>When new comments are added their parent (if any) is marked as",
+                "uid": "75938"
+            }
+        }
+    }
+}

@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/allow-html-in-category-descriptions": {
+            "1.2.1": {
+                "name": "wordpress\/allow-html-in-category-descriptions",
+                "version": "1.2.1",
+                "version_normalized": "1.2.1.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/allow-html-in-category-descriptions.1.2.1.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>When you add text to the category description textarea and save the category, WordPress runs content filters that \nstrips out all but the most basic formatting tags.<\/p>\n\n<p>This plugin disables those filters. Any html code you add to the category description will not be stripped out.<\/p>\n\n<p>This plugin does not do anything other than disable the filters. It does not protect you from entering invalid HTML, \nnor does it help you create WYSIWYG HTML. You can use the post or page composing screen to help you create the text \nand formatting. Switch to the 'code' tab and copy the HTML code into the category description field.<\/p>",
+                "uid": "102730"
+            }
+        }
+    }
+}

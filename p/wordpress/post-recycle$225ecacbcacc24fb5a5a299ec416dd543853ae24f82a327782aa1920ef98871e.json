@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/post-recycle": {
+            "0.0.1": {
+                "name": "wordpress\/post-recycle",
+                "version": "0.0.1",
+                "version_normalized": "0.0.1.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/post-recycle.0.0.1.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>To use this plugin you should have at least <a href=\"http:\/\/codecanyon.net\/item\/the-countdown-pro\/3228499\">The Countdown Pro<\/a> version 1.3. \nThe cycle functionality can easily be added to a sidebar using widget or in your content using the shortcode. This addon plugin supports all custom post type, \nand will hide your post content until it reaches the time. Your content will be displayed with a duration.\nListing all the post that have expiration can be done with widget or shortcode. All styles and scripts area pulled in the header section. \nEvery each counter have their own selector that enables you to create spesifics style or script to the selector.<\/p>\n\n\n\n\n\n<h3><strong>Using Shortcodes<\/strong><\/h3>\n\n<p>If you want to use shortcodes in the content, please drag the widget to the \"Inactive Widgets\" area \nand set the widget option there. You will find the widget ID given in the widget option and use \nit in the shortcode parameter id.<br \/>\nExample [post-recycle id=\"2\"]<\/p>\n\n<h3><s",
+                "uid": "9671"
+            }
+        }
+    }
+}

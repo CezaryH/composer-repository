@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/return-excerpt": {
+            "0.2": {
+                "name": "wordpress\/return-excerpt",
+                "version": "0.2",
+                "version_normalized": "0.2.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/return-excerpt.0.2.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>Returns the excerpt outside the loop.\nUsage:<\/p>\n\n<pre><code>&#60;?php return_excerpt($post_id, $attr);?&#62;<\/code><\/pre>\n\n<p>where <code>$attr<\/code> is an array with any of these keys:<\/p>\n\n<ul>\n<li>num_words: number of words <\/li>\n<li>more: replacement for [...]<\/li>\n<li>length: number of letters to display, userful for multibyte string<\/li>\n<\/ul>\n\n<p>Example:<\/p>\n\n<pre><code>&#60;?php echo return_excerpt($post_id, array(&#039;num_words&#039;=&#62;&#039;55&#039;, &#039;more&#039;=&#62;&#039;.. Read more&#039;));?&#62;<\/code><\/pre>",
+                "uid": "27332"
+            }
+        }
+    }
+}

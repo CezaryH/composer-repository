@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/digest-post": {
+            "0.1": {
+                "name": "wordpress\/digest-post",
+                "version": "0.1",
+                "version_normalized": "0.1.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/digest-post.0.1.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>Digest Post fetches an RSS feed on a regular basis (usually daily) and posts a\nlist of links to the newest articles as a digest post to your blog.<\/p>\n\n<p>In order to run daily, it leverages the Wordpress \"cron\" facility which was\nintroduced in Wordpress 2.1. Therefore, this plugin won't work with any versions\nolder than that.<\/p>\n\n<p>Please note that this plugin is in a very early stage of development. It\ncurrently has no Admin pages to configure it with, instead you need to go into\nthe plugin's PHP code to set it up. However it is planned to have it completely\nconfigurable through a Wordpress Admin page.<\/p>",
+                "uid": "108018"
+            }
+        }
+    }
+}

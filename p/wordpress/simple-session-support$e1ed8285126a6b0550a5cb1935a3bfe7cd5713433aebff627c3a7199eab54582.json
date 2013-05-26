@@ -1,0 +1,40 @@
+{
+    "packages": {
+        "wordpress\/simple-session-support": {
+            "1.0": {
+                "name": "wordpress\/simple-session-support",
+                "version": "1.0",
+                "version_normalized": "1.0.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/simple-session-support.1.0.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>This plugin adds PHP session support. Data can be passed from one request to the next.<\/p>\n\n<p>Functions are provided to get and set items in the PHP session.<\/p>\n\n<p><em>Features for Developers<\/em><\/p>\n\n<ul>\n<li>You can save data from one HTTP request to another.<\/li>\n<li>the simpleSessionSet($key, $value) function sets a session value<\/li>\n<li>the simpleSessionGet($key, $default) function gets a session value with a default value if the key is not found<\/li>\n<li>the session is started in the init action and destroyed in the login and logout actions<\/li>\n<\/ul>\n\n<p><em>Additional Features<\/em><\/p>\n\n<p>There are no additional features supported by Simple Session Suppoprt.  The code is simple, small and well documented, \nso you can use it as a starting point for your own plugins or themes.<\/p>",
+                "uid": "29671"
+            },
+            "1.01": {
+                "name": "wordpress\/simple-session-support",
+                "version": "1.01",
+                "version_normalized": "1.01.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/simple-session-support.1.01.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>This plugin adds PHP session support. Data can be passed from one request to the next.<\/p>\n\n<p>Functions are provided to get and set items in the PHP session.<\/p>\n\n<p><em>Features for Developers<\/em><\/p>\n\n<ul>\n<li>You can save data from one HTTP request to another.<\/li>\n<li>the simpleSessionSet($key, $value) function sets a session value<\/li>\n<li>the simpleSessionGet($key, $default) function gets a session value with a default value if the key is not found<\/li>\n<li>the session is started in the init action and destroyed in the login and logout actions<\/li>\n<\/ul>\n\n<p><em>Additional Features<\/em><\/p>\n\n<p>There are no additional features supported by Simple Session Suppoprt.  The code is simple, small and well documented, \nso you can use it as a starting point for your own plugins or themes.<\/p>",
+                "uid": "29670"
+            }
+        }
+    }
+}

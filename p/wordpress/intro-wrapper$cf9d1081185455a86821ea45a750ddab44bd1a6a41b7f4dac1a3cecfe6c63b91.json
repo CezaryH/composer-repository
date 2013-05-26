@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/intro-wrapper": {
+            "1.0": {
+                "name": "wordpress\/intro-wrapper",
+                "version": "1.0",
+                "version_normalized": "1.0.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/intro-wrapper.1.0.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>This plugin takes care of wrapping your intro text (everything before <!--more--> -- also called \"teaser content\") in a div element with the class \"intro\".<\/p>\n\n<p>This allows for easy styling of the intro text, e.g. with larger fonts, colors, etc.<\/p>",
+                "uid": "11102"
+            }
+        }
+    }
+}

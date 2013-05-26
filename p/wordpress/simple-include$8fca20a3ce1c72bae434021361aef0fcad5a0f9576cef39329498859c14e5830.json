@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/simple-include": {
+            "1.0": {
+                "name": "wordpress\/simple-include",
+                "version": "1.0",
+                "version_normalized": "1.0.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/simple-include.1.0.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>Add a simple shortcode to include a PHP file just like include(); function does.<\/p>\n\n<p>How to use<\/p>\n\n<ul>\n<li>In pages or posts , add this in the textarea [include]file.php[\/include]<\/li>\n<li>In your template , upload file.php<\/li>\n<li>You should see the content of file.php when publishing the page or post.<\/li>\n<\/ul>",
+                "uid": "29215"
+            }
+        }
+    }
+}

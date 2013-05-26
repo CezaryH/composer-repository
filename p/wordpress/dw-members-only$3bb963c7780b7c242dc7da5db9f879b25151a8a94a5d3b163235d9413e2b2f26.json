@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/dw-members-only": {
+            "1.1": {
+                "name": "wordpress\/dw-members-only",
+                "version": "1.1",
+                "version_normalized": "1.1.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/dw-members-only.1.1.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>Do you have a private blog that you only want your friends and family to read? Then this plugin is for you. It will redirect any users who aren't logged in to the site to the login form. They will know no difference as there is no message displayed. It is just a simple re-direction script for non-logged in users.<\/p>",
+                "uid": "43670"
+            }
+        }
+    }
+}

@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/wpsh-usermetaview": {
+            "0.3": {
+                "name": "wordpress\/wpsh-usermetaview",
+                "version": "0.3",
+                "version_normalized": "0.3.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/wpsh-usermetaview.0.3.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>Very simple reporting on usermeta data.<\/p>\n\n<p>Will appear in the Settings menu in the Dashboard. Will list all unique keys in the usermeta\ndatabase table and allow you to select what fields to include and the order to include them.<\/p>\n\n<p>Pressing \"Generate report\" will produce a simple table with the following rows:<\/p>\n\n<p>ID      : id of the user (not user configurable)\nnice_name   :&#160;readable username (not user configurable)\n1:n usermeta    . what ever fields you select from the usermeta table<\/p>\n\n<p>No fancy stuff here. If you want more advanced handling of the report, copy and past to Openoffice Calc\nor MS Excel or whatever spreadsheet application you normally use.<\/p>",
+                "uid": "69176"
+            }
+        }
+    }
+}

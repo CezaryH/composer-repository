@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/ip2currency": {
+            "1.1": {
+                "name": "wordpress\/ip2currency",
+                "version": "1.1",
+                "version_normalized": "1.1.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/ip2currency.1.1.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>The IP2Currency plugin allows visitor to view the currency value on the your blogsite in their localize currency (homeland currency). There are no programming works involved, but a single shortcode is all you need to produce the result. And, the best part was the result will be automatically determined by our server based on the origin of the visitors.<\/p>\n\n<p>Why I need this? Assuming that you are writing a traveling blog with food priced in SGD, a visitor from United States may find it difficult to estimate the perceived amount in USD while reading your blog. Unless they check the exchange rate from website and make the conversion themselves. Hence, wouldn't be nice if you can have a special note displaying the value in their local currency? For example,<\/p>\n\n<p>Noodle S$5.00 (approx. $3.90)\nSatay S$10.00 (approx. $7.90)<\/p>\n\n<p>As mentioned above, it requires no programming to get it work. You just need to insert the shortcode as followed inside your POST.<\/p>\n\n<p>Noodle S$5.00 (",
+                "uid": "28010"
+            }
+        }
+    }
+}

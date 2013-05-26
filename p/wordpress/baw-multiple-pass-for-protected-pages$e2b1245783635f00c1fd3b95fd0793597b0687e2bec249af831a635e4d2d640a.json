@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/baw-multiple-pass-for-protected-pages": {
+            "1.3.1": {
+                "name": "wordpress\/baw-multiple-pass-for-protected-pages",
+                "version": "1.3.1",
+                "version_normalized": "1.3.1.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/baw-multiple-pass-for-protected-pages.1.3.1.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>You can now add passwords as many as you need on every protected page.<\/p>\n\n<p>Why? Because you can protect page and give your client a personnal password, not just a random pasword or everyone.<\/p>\n\n<p>Option: If you are logged as admin or the page's author, you won't need to enter password.<\/p>\n\n<p>Option: If you set a list of child pages, just change any password (parent page or any child) and all the password for the hierarchy will be updated!<\/p>",
+                "uid": "20599"
+            }
+        }
+    }
+}

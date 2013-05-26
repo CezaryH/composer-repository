@@ -1,0 +1,40 @@
+{
+    "packages": {
+        "wordpress\/cross-post-to-friendika": {
+            "1.1": {
+                "name": "wordpress\/cross-post-to-friendika",
+                "version": "1.1",
+                "version_normalized": "1.1.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/cross-post-to-friendika.1.1.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>This plugin allows you to cross post to your Friendika account.<\/p>\n\n<p>**Note, this plugin converts the html from wordpress into bbcode that is used in 2.3 of Friendika.<br \/>\nThe bbcode conversion doesn't handle height and width of an image, so be warned that if you post a very large\nimage that is resized via height and with attributes, those attributes won't be honored in the friendika post\nWill be fixing this in 1.2<\/p>",
+                "uid": "39350"
+            },
+            "1.2": {
+                "name": "wordpress\/cross-post-to-friendika",
+                "version": "1.2",
+                "version_normalized": "1.2.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/cross-post-to-friendika.1.2.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>This plugin allows you to cross post to your Friendika account.<\/p>\n\n<p>**Note, this plugin converts the html from wordpress into bbcode that is used in 2.3 of Friendika.<br \/>\nThe bbcode conversion doesn't handle height and width of an image, so be warned that if you post a very large\nimage that is resized via height and with attributes, those attributes won't be honored in the friendika post\nWill be fixing this in 1.2<\/p>",
+                "uid": "39349"
+            }
+        }
+    }
+}

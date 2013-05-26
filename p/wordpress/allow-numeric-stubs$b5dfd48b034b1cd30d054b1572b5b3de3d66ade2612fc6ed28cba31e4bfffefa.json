@@ -1,0 +1,40 @@
+{
+    "packages": {
+        "wordpress\/allow-numeric-stubs": {
+            "1.0.0": {
+                "name": "wordpress\/allow-numeric-stubs",
+                "version": "1.0.0",
+                "version_normalized": "1.0.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/allow-numeric-stubs.1.0.0.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>It is not possible to have a page slug (the page's name in the URL) that is a number. For example this will not work: <code>yoursite.com\/about\/2\/<\/code>. That URL conflicts with paged content feature where you can posts and pages with multiple pages of content by adding <code>&#60;!--nextpage--&#62;<\/code> within your content.<\/p>\n\n<p>This plugin allows you to have  Pages with numbers as stubs by giving up the ability to have paged content pages which isn't a big deal as most people don't use paged content pages anyway.<\/p>",
+                "uid": "101522"
+            },
+            "2.1.0": {
+                "name": "wordpress\/allow-numeric-stubs",
+                "version": "2.1.0",
+                "version_normalized": "2.1.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/allow-numeric-stubs.2.1.0.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>It is not possible to have a page slug (the page's name in the URL) that is a number. For example this will not work: <code>yoursite.com\/about\/2\/<\/code>. That URL conflicts with paged content feature where you can posts and pages with multiple pages of content by adding <code>&#60;!--nextpage--&#62;<\/code> within your content.<\/p>\n\n<p>This plugin allows you to have  Pages with numbers as stubs by giving up the ability to have paged content pages which isn't a big deal as most people don't use paged content pages anyway.<\/p>",
+                "uid": "101521"
+            }
+        }
+    }
+}

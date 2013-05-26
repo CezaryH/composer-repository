@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/js-contact-form": {
+            "1.0": {
+                "name": "wordpress\/js-contact-form",
+                "version": "1.0",
+                "version_normalized": "1.0.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/js-contact-form.1.0.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>Config:- after installation then go to plugin Editor&#62;Js Contact Form.php and findout <a href=\"mailto:yourname@mail.com\">yourname@mail.com<\/a> then replace it\nNow go to addnew page&#62;Create new pages&#62; paste this code  [contact_form] \n if show Error (Mail Sending Failed): please check your contact form destination e-mail address,login to dashboard&#62;Go to plugin Editor&#62;Js Contact Form.php and findout <a href=\"mailto:yourname@mail.com\">yourname@mail.com<\/a> then replace it<\/p>\n\n<h4>Features<\/h4>\n\n<ul>\n<li>Simple Contact Systems for Your Wordpress Blog<\/li>\n<li>Java Scripts Support validation Form<\/li>\n<li>Empty Form validation <\/li>\n<li>File\/Photos Attachment<\/li>\n<\/ul>\n\n<p>Plugin by Cx Rana. Need a <a href=\"http:\/\/www.bdweblab.com\/about-us\">Web Designer<\/a>?<\/p>",
+                "uid": "27011"
+            }
+        }
+    }
+}

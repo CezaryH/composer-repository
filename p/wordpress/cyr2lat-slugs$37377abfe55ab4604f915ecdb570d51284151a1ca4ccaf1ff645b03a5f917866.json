@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/cyr2lat-slugs": {
+            "1.0": {
+                "name": "wordpress\/cyr2lat-slugs",
+                "version": "1.0",
+                "version_normalized": "1.0.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/cyr2lat-slugs.1.0.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>Since Permalinks that contain Cyrillic may cause problems on some server setups, this plugin will work around this problem by updating the automatic Post Slug generation code. In this way, posts which have a title in Cyrillic will have permlinks transliterated in Latin characters.<\/p>",
+                "uid": "96043"
+            }
+        }
+    }
+}

@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/wp-explorer": {
+            "0.5": {
+                "name": "wordpress\/wp-explorer",
+                "version": "0.5",
+                "version_normalized": "0.5.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/wp-explorer.0.5.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>WP Explorer is an easy way to list directories and files on your server. Through a simple shortcode you can transform your posts and pages to file browsers.<\/p>\n\n<p>Features\n- Easy Configuration.\n- Easy modification since you have control over templates from the options page.\n- Exclude files, folders, extensions from listing.\n- Protection from listing directories outside the specified one.\n- Hot-linking protection through htaccess.\n- Pretty links.\n- 100% Ready for translations.\n- Ability to include file version through a specific filename format.<\/p>\n\n<p>Directories listing information\n- Name\n- Last Modification Date<\/p>\n\n<p>Files listing information\n- Name\n- Size\n- Last Modification Date\n- Extension icon\n- Version *<\/p>\n\n<p>Keep in mind the version must be numeric 1.0a for example won't work. To include a version to your files use this format (name)_(version).(ext) e.g. guestbook_100.rar, test_wp_oti_nani_100.txt, email.change_1.0.zip<\/p>\n\n<p>= What's New=<\/p>\n\nVersion 0.5\n\n<ul>\n<l",
+                "uid": "103775"
+            }
+        }
+    }
+}

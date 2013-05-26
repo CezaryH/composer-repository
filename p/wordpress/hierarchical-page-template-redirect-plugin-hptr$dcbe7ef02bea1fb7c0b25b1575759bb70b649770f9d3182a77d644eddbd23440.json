@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/hierarchical-page-template-redirect-plugin-hptr": {
+            "0.1": {
+                "name": "wordpress\/hierarchical-page-template-redirect-plugin-hptr",
+                "version": "0.1",
+                "version_normalized": "0.1.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/hierarchical-page-template-redirect-plugin-hptr.0.1.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>In WordPress each page must be intentionally assigned a template (or have a template file intentionally named for it) or WordPress applies the default page.php template.  Child pages do not inherit parent page templates.  On a large website with many child pages within a hierarchy of pages this does not make for an easy or error free way to use page templates to create a sectioned CMS.  A user can assign a template to a top level page (or a \"beginning of section\" page) but its descendants (child pages) will not follow with their ancestor's template.  Each page's template must be individually assigned.  For small sites with few pages and few users this is not a significant matter.  On a site with hundreds or thousands of pages and multiple editors and multiple \"sections\" this makes WordPress less than ideal as a CMS platform<\/p>\n\n<p>This plugin solves that problem.  It investigates each page and assigns hierarchical templates to pages and their children giving precedence to page-[id]",
+                "uid": "42902"
+            }
+        }
+    }
+}

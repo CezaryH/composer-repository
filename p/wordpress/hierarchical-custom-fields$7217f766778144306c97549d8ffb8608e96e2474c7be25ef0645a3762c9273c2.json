@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/hierarchical-custom-fields": {
+            "1.0": {
+                "name": "wordpress\/hierarchical-custom-fields",
+                "version": "1.0",
+                "version_normalized": "1.0.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/hierarchical-custom-fields.1.0.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>This plugin will allow a user to add\/edit\/delete parent and child custom fields within a hierarchical structure.<\/p>\n\n<p>For example, if each post referred to a type of grant sponsor- you would have the ability to enter different\nprimary sponsors and then enter and select sub-sponsors within the parent organization.<\/p>",
+                "uid": "57227"
+            }
+        }
+    }
+}

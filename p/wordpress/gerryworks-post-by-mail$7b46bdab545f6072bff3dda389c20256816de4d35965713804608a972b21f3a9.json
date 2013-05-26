@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/gerryworks-post-by-mail": {
+            "1.0": {
+                "name": "wordpress\/gerryworks-post-by-mail",
+                "version": "1.0",
+                "version_normalized": "1.0.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/gerryworks-post-by-mail.1.0.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p><strong>English<\/strong><\/p>\n\n<p>This plugin exists in order to offset some deficiencies of the Wordpress post by mail features.\nIt would be useful for those who want to post on their blog by mail or those who want to allow people to publish post anonymously on their blog by sending emails.<\/p>\n\n<p>Here's the list of added  or modified features<\/p>\n\n<ul>\n<li>Mails from users are automaticaly published under their author name. Mails from non users are, depending on your settings, publised automaticaly or save in pending mode.<\/li>\n<li>Posibility to specify categorie for the article sent by mail. To specify this, the mail subject have to fit this format <code>Category]] The title of the post<\/code>.<\/li>\n<li>Spam filtering<\/li>\n<li>Detection of Youtube, Vimeo, Wat.tv and Dailymotion video links in the mail<\/li>\n<li>All html tags are deleted, <code>&#60;div&#62;<\/code> tags are replaces by <code>&#60;p&#62;<\/code> tags.<\/li>\n<li>All tags styles are deleted.<\/li>\n<li>YouTube and dailymo",
+                "uid": "47304"
+            }
+        }
+    }
+}

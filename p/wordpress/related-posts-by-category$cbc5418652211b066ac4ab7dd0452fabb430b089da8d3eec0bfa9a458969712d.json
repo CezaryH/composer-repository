@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/related-posts-by-category": {
+            "0.9.1": {
+                "name": "wordpress\/related-posts-by-category",
+                "version": "0.9.1",
+                "version_normalized": "0.9.1.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/related-posts-by-category.0.9.1.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p><em>Related Posts by Category<\/em> lists similar posts within any post. As a search string the plugin does not use the title of the article nor weighs the content. In fact the category, which was assigned to the post, serves as the source of accordance.<\/p>\n\n<h4>Features<\/h4>\n\n<ul>\n<li>Categories exclude<\/li>\n<li>Hook support<\/li>\n<li>Very fast execution<\/li>\n<li>No user interface required<\/li>\n<li>Post thumbnail integration (WP 2.9 or older)<\/li>\n<li>Quick query in only one sql statement<\/li>\n<li>Quantity of results and further options are adjustable<\/li>\n<\/ul>\n\n<h4>Mode of operation<\/h4>\n\n<p>Just put <code>&#60;?php do_action('related_posts_by_category', args) ?&#62;<\/code> in your <em>single.php<\/em> template for display a list of similar posts.<\/p>\n\n<h4>Example<\/h4>\n\n<pre><code>&#60;ul&#62;\n  &#60;?php do_action(\n    &#039;related_posts_by_category&#039;,\n    array(\n        &#039;orderby&#039; =&#62; &#039;RAND&#039;,\n        &#039;order&#039; =&#62; &#039;DESC&#039;,\n        &#",
+                "uid": "97130"
+            }
+        }
+    }
+}

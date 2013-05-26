@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/restore-image-title": {
+            "1.1": {
+                "name": "wordpress\/restore-image-title",
+                "version": "1.1",
+                "version_normalized": "1.1.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/restore-image-title.1.1.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>WordPress 3.5 introduced a new feature - when images are inserted into posts, the title attribute is not included in the image tag. This was done with the best of intentions relating to accessibility, as documented on <a href=\"http:\/\/core.trac.wordpress.org\/ticket\/18984\">Trac<\/a><\/p>\n\n<p>Unfortunately, this causes problems for some Lightbox plugins, quite apart from stopping image tooltips from appearing.<\/p>\n\n<p>This plugin hooks into the media_send_to_editor filter and inserts the image title into the html inserted into the post.<\/p>",
+                "uid": "13021"
+            }
+        }
+    }
+}

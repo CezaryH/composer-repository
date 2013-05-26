@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/key-shortcut-formatter": {
+            "0.1": {
+                "name": "wordpress\/key-shortcut-formatter",
+                "version": "0.1",
+                "version_normalized": "0.1.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/key-shortcut-formatter.0.1.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>The plugin adds one js-file which searches through your blog and adds extra HTML markup to <code>.key-shortcut<\/code> elements.<\/p>\n\n<p>A stylesheet is added that applies styling to the extra HTML markup.<\/p>\n\n<p>This results in <code>.key-shortcut<\/code> elements looking somewhat like keyboard buttons.<\/p>",
+                "uid": "22200"
+            }
+        }
+    }
+}

@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/polizeipresse": {
+            "0.2": {
+                "name": "wordpress\/polizeipresse",
+                "version": "0.2",
+                "version_normalized": "0.2.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/polizeipresse.0.2.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>This plugin loads the latest news from German police stations and displays them in your blog.\nThe plugin offers two ways to publish the news:<\/p>\n\n<ol>\n<li><p>You can include a widget which always displays the latest news. For performance reasons the news are cached\nfor some minutes to reduce remote calls.<\/p><\/li>\n<li><p>The plugin offers a cronjob which automatically loads the latest news and creates new posts in your blog. You\ncan choose if you want to publish them directly oder edit them first. Whatever you choose you can get notified\nby email if a new polic story is added.<\/p><\/li>\n<\/ol>",
+                "uid": "29859"
+            }
+        }
+    }
+}

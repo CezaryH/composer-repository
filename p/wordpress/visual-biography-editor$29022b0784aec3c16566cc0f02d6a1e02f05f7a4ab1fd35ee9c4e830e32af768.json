@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/visual-biography-editor": {
+            "1.4": {
+                "name": "wordpress\/visual-biography-editor",
+                "version": "1.4",
+                "version_normalized": "1.4.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/visual-biography-editor.1.4.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>Replaces the <em>Biographical Info<\/em> profile field with the WordPress visual editor, TinyMCE, allowing you to editor an author's biography using rich text.<\/p>\n\n<p>Please note that this plugins modifies the output of <code>get_the_author_meta('description')<\/code> and <code>the_author_meta('description')<\/code>, apply the same filters used to format content in the main editor.<\/p>\n\n<h4>Multisite Compatibility<\/h4>\n\n<p>The <em>Visual Editor Biography<\/em> plugin is compatibly with WordPress Multisite, just use the <a href=\"http:\/\/codex.wordpress.org\/Create_A_Network#WordPress_Plugins\">Network Activate<\/a> feature to enable a visual editor on every site. If you only want a visual editor for a specific site then activate the plugin for that site only.<\/p>",
+                "uid": "31855"
+            }
+        }
+    }
+}

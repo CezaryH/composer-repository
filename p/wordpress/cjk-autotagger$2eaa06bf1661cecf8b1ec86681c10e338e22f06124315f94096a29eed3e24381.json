@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/cjk-autotagger": {
+            "1.0": {
+                "name": "wordpress\/cjk-autotagger",
+                "version": "1.0",
+                "version_normalized": "1.0.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/cjk-autotagger.1.0.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>Do you often mix Latin letters and Chinese, Japanese or Korean (CJK) characters in the same post or in the title? Did you find it difficult to style both types of characters satisfactorily using the same CSS style?<\/p>\n\n<p>CJK-AutoTagger Automatically wraps CJK characters in your site with <code>&#60;span lang=\"\"&#62;&#60;\/span&#62;<\/code> tags, so that you can style them separately. You can choose what to &#60;span&#62;-wrap (refer to the screen shot) and what language code to use.<\/p>\n\n<p>To style CJK and non-CJK (usually Latin) characters separately, follow the example below:<\/p>\n\n<pre><code>\/\/ Style non-CJK characters\n#content {\n  font-family: Arial, Verdana; \n  font-size: 12px;\n  }\n\n\/\/ Style CJK characters\n#content:lang(zh-HK) {\n  font-family: \"Microsoft JhengHei\", \"MingLiu\"; \n  font-size: 14px;\n  }\n<\/code><\/pre>\n\n<p>For more information on styling with language codes, check out this reference from <a href=\"http:\/\/www.w3.org\/International\/questions\/qa-css-lang\">W3C<\/a>.<\/p>\n\n<p",
+                "uid": "71159"
+            }
+        }
+    }
+}

@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/smartshare": {
+            "1.1": {
+                "name": "wordpress\/smartshare",
+                "version": "1.1",
+                "version_normalized": "1.1.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/smartshare.1.1.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>Common methods to embed social sharing buttons use JavasSript or iframes and cause significant loading sizes and delays through\nadditional JavaScript, CSS, HTTP requests and DNS requests.<\/p>\n\n<p>This plugin provides three simple template tags (PHP calls) to include plain links to share your posts or pages to Twitter,\nFacebook and Google +1 without these perfomance disadvantages.<\/p>\n\n<p>The plugin provides these performance\/privacy advantages:\n1. No addional HTTP requests\n2. No addional DNS requests\n3. No external ressources required (like JavaScript or CSS from the social network sites)\n4. No addional JavaScript (just an inline eventhandler to open a popup if you want)\n5. No addional CSS\n6. No iframes (which would load a complete external site including a lot of HTTP &#38; DNS requests, external ressources, etc.)\n7. No privacy issues (iframes or JavaScript buttons read the login-cookies of the social network sites and allow them to trace the users surf behavior)\n8. Just plain HTML",
+                "uid": "39714"
+            }
+        }
+    }
+}

@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/cubeaccount": {
+            "1.0": {
+                "name": "wordpress\/cubeaccount",
+                "version": "1.0",
+                "version_normalized": "1.0.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/cubeaccount.1.0.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>CubeAccount Frontend Login lets your users login and register from the frontend of your site.<\/p>\n\n<p>The WordPress dashboard and admin bar can be hidden completely from your users.\nUsers trying to reach wp-login.php directly would be redirected to your custom login page.<\/p>\n\n<p>Installation is as easy as activating the plugin.<\/p>\n\n<p>If permalinks are enabled, login and registration URLs would be rewritten to \/login and \/registration automatically.<\/p>\n\n<p>Works well with other plugins that adds features to the login and registration form.<\/p>",
+                "uid": "35471"
+            }
+        }
+    }
+}

@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/wp-codebox": {
+            "1.4.3": {
+                "name": "wordpress\/wp-codebox",
+                "version": "1.4.3",
+                "version_normalized": "1.4.3.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/wp-codebox.1.4.3.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>WP-CodeBox provides clean syntax highlighting and AJAX advanced features for embedding source code within pages or posts. \nIt support wide range of popular languages highlighting with line numbers, code download, Copy to clipboard, \ncollapse codebox,automatic keywords link to API manual and maintains formatting while copying snippets of code from the browser.<\/p>\n\n<p>It's provide simple background configuration for highlighter style\/formatting customization.\nSince the plugin is developing, in the future it will support more options.(CSS option,Keywords display style,Auto Caps\/Nocaps,Case Sensitivity etc. )<\/p>\n\n<h4>Basic Usage<\/h4>\n\n<p>Wrap code blocks with <code>&#60;pre lang=\"LANGUAGE\" line=\"1\" file=\"download.txt\" colla=\"+\"&#62;<\/code> and <code>&#60;\/pre&#62;<\/code><\/p>\n\n<p>Possible Parameters:<\/p>\n\n<ul>\n<li><code>lang=\"LANGUAGE\"<\/code> - <code>LANGUAGE<\/code> is a <a href=\"http:\/\/qbnz.com\/highlighter\/\">GeSHi<\/a> supported language syntax.  <\/li>\n<li><code>file=\"download.txt\"<\/co",
+                "uid": "105923"
+            }
+        }
+    }
+}

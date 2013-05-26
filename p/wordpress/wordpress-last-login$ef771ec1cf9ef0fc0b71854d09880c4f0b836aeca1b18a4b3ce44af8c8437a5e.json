@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/wordpress-last-login": {
+            "1.0": {
+                "name": "wordpress\/wordpress-last-login",
+                "version": "1.0",
+                "version_normalized": "1.0.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/wordpress-last-login.1.0.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>This is very simple plugin to provides information about the last login activity on you blog account, If you're concerned about unauthorized access to your blog account, you'll be able to use this information to find out if and when someone gained access.\nThe IP address is also useful. If you always or most often sign in to your blog account using a single computer, your IP address should be the same, or start with the same two sets of numbers (for example, 125.16.xx.xx). If you're seeing an IP address that differs greatly from your usual IP address, it could either mean that you've recently accessed your account from a different location, or that someone has accessed your blog.<\/p>",
+                "uid": "73469"
+            }
+        }
+    }
+}

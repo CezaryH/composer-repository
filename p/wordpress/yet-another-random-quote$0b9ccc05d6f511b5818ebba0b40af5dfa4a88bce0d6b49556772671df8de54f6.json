@@ -1,0 +1,74 @@
+{
+    "packages": {
+        "wordpress\/yet-another-random-quote": {
+            "2.5.0": {
+                "name": "wordpress\/yet-another-random-quote",
+                "version": "2.5.0",
+                "version_normalized": "2.5.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/yet-another-random-quote.2.5.0.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>This plugin will let you display a random quote in your wordpress blog.<\/p>\n\n<p>You have to add your own assortment of quotes to choose from the admin section of your blog.<\/p>\n\n<p>You can choose where to display the quotes using the widget or the php function yarq_display() in your template.<\/p>\n\n<p>New in version 3.1, there is the <code>yarq_display_all<\/code> function:<\/p>\n\n<pre><code>yarq_display_all($order_by = &#039;id&#039;, $asc = true, $format = &#039;&#039;)<\/code><\/pre>\n\n<p>Which displays all quotes in a list. The first parameter takes id, author, source, or quote.  The second is for ascending or descending order, and the third lets you override the format specified in admin options.<\/p>\n\n<p>You might call from your theme\/template file like so, supplying the <code>&#60;ul&#62;<\/code> or <code>&#60;ol&#62;<\/code> wrapping tags yourself:<\/p>\n\n<pre><code>&#60;?php if ( function_exists(&#039;yarq_display_all&#039;) ) { \n  echo &#039;&#60;h2&#62;All Quotes&#60;\/h2&#62;&#039;;\n",
+                "uid": "101945"
+            },
+            "3.0.2": {
+                "name": "wordpress\/yet-another-random-quote",
+                "version": "3.0.2",
+                "version_normalized": "3.0.2.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/yet-another-random-quote.3.0.2.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>This plugin will let you display a random quote in your wordpress blog.<\/p>\n\n<p>You have to add your own assortment of quotes to choose from the admin section of your blog.<\/p>\n\n<p>You can choose where to display the quotes using the widget or the php function yarq_display() in your template.<\/p>\n\n<p>New in version 3.1, there is the <code>yarq_display_all<\/code> function:<\/p>\n\n<pre><code>yarq_display_all($order_by = &#039;id&#039;, $asc = true, $format = &#039;&#039;)<\/code><\/pre>\n\n<p>Which displays all quotes in a list. The first parameter takes id, author, source, or quote.  The second is for ascending or descending order, and the third lets you override the format specified in admin options.<\/p>\n\n<p>You might call from your theme\/template file like so, supplying the <code>&#60;ul&#62;<\/code> or <code>&#60;ol&#62;<\/code> wrapping tags yourself:<\/p>\n\n<pre><code>&#60;?php if ( function_exists(&#039;yarq_display_all&#039;) ) { \n  echo &#039;&#60;h2&#62;All Quotes&#60;\/h2&#62;&#039;;\n",
+                "uid": "101944"
+            },
+            "3.0.3": {
+                "name": "wordpress\/yet-another-random-quote",
+                "version": "3.0.3",
+                "version_normalized": "3.0.3.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/yet-another-random-quote.3.0.3.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>This plugin will let you display a random quote in your wordpress blog.<\/p>\n\n<p>You have to add your own assortment of quotes to choose from the admin section of your blog.<\/p>\n\n<p>You can choose where to display the quotes using the widget or the php function yarq_display() in your template.<\/p>\n\n<p>New in version 3.1, there is the <code>yarq_display_all<\/code> function:<\/p>\n\n<pre><code>yarq_display_all($order_by = &#039;id&#039;, $asc = true, $format = &#039;&#039;)<\/code><\/pre>\n\n<p>Which displays all quotes in a list. The first parameter takes id, author, source, or quote.  The second is for ascending or descending order, and the third lets you override the format specified in admin options.<\/p>\n\n<p>You might call from your theme\/template file like so, supplying the <code>&#60;ul&#62;<\/code> or <code>&#60;ol&#62;<\/code> wrapping tags yourself:<\/p>\n\n<pre><code>&#60;?php if ( function_exists(&#039;yarq_display_all&#039;) ) { \n  echo &#039;&#60;h2&#62;All Quotes&#60;\/h2&#62;&#039;;\n",
+                "uid": "101943"
+            },
+            "3.1": {
+                "name": "wordpress\/yet-another-random-quote",
+                "version": "3.1",
+                "version_normalized": "3.1.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/yet-another-random-quote.3.1.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>This plugin will let you display a random quote in your wordpress blog.<\/p>\n\n<p>You have to add your own assortment of quotes to choose from the admin section of your blog.<\/p>\n\n<p>You can choose where to display the quotes using the widget or the php function yarq_display() in your template.<\/p>\n\n<p>New in version 3.1, there is the <code>yarq_display_all<\/code> function:<\/p>\n\n<pre><code>yarq_display_all($order_by = &#039;id&#039;, $asc = true, $format = &#039;&#039;)<\/code><\/pre>\n\n<p>Which displays all quotes in a list. The first parameter takes id, author, source, or quote.  The second is for ascending or descending order, and the third lets you override the format specified in admin options.<\/p>\n\n<p>You might call from your theme\/template file like so, supplying the <code>&#60;ul&#62;<\/code> or <code>&#60;ol&#62;<\/code> wrapping tags yourself:<\/p>\n\n<pre><code>&#60;?php if ( function_exists(&#039;yarq_display_all&#039;) ) { \n  echo &#039;&#60;h2&#62;All Quotes&#60;\/h2&#62;&#039;;\n",
+                "uid": "101942"
+            }
+        }
+    }
+}

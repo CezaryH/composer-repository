@@ -1,0 +1,40 @@
+{
+    "packages": {
+        "wordpress\/simpletwitter": {
+            "1.0": {
+                "name": "wordpress\/simpletwitter",
+                "version": "1.0",
+                "version_normalized": "1.0.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/simpletwitter.1.0.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>SimpleTwitter allows Wordpress blog owners to add Twitter messages to their templates. \nOnce installed, the plug-in is used by adding the following call in a template.<\/p>\n\n<pre><code>&#60;?php get_twitter_msg(); ?&#62;\n<\/code><\/pre>\n\n<p>There's no formatting. All this returns is the plain text that is the most recent \nTwitter post found for the configured Twitter user. The message will be cached for the \nconfigured number of minutes. After this time, Twitter is checked for new messages.<\/p>\n\n<p>All configuration is done through wp-admin. No code editing is necessary.<\/p>\n\n<h4>A note about cURL<\/h4>\n\n<p>SimpleTwitter uses the cURL php libraries to make requests to twitter.com. If cURL is\nnot available this will be indicated in the wp-admin interface will, and the \n    get_twitter_msg() function will return nothing. This should degrade gracefully, so you \nshould not experience php errors.<\/p>",
+                "uid": "112775"
+            },
+            "1.1": {
+                "name": "wordpress\/simpletwitter",
+                "version": "1.1",
+                "version_normalized": "1.1.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/simpletwitter.1.1.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>SimpleTwitter allows Wordpress blog owners to add Twitter messages to their templates. \nOnce installed, the plug-in is used by adding the following call in a template.<\/p>\n\n<pre><code>&#60;?php get_twitter_msg(); ?&#62;\n<\/code><\/pre>\n\n<p>There's no formatting. All this returns is the plain text that is the most recent \nTwitter post found for the configured Twitter user. The message will be cached for the \nconfigured number of minutes. After this time, Twitter is checked for new messages.<\/p>\n\n<p>All configuration is done through wp-admin. No code editing is necessary.<\/p>\n\n<h4>A note about cURL<\/h4>\n\n<p>SimpleTwitter uses the cURL php libraries to make requests to twitter.com. If cURL is\nnot available this will be indicated in the wp-admin interface will, and the \n    get_twitter_msg() function will return nothing. This should degrade gracefully, so you \nshould not experience php errors.<\/p>",
+                "uid": "112774"
+            }
+        }
+    }
+}

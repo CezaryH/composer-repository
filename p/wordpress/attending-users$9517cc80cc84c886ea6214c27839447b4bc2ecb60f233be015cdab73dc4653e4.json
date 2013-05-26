@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/attending-users": {
+            "1.0": {
+                "name": "wordpress\/attending-users",
+                "version": "1.0",
+                "version_normalized": "1.0.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/attending-users.1.0.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>As web site owner, Attending Users will help you in adding an attending list to the bottom of your posts. Registered users can click on the Submit button of the list in order to have their names added or removed. User names act as author page links, no matter how you have set your Permalinks.<\/p>\n\n<h4>Usage:<\/h4>\n\n<p>After you install the plugin, you can go to the settings page and change them as you like. In the Settings page \nyou can add support for your custom content types, add new titles to chose from when creating attending lists or change the labels of buttons (ex. Submit, unsubscribe). A new meta-box, called Attending List, will be present (meta-box is for example is the box for tags or categories) when you go to create a new post or edit existing one. From that meta-box you can chose a title for your list. When the post is saved\/published the list will be added at the bottom of the page. To remove already created list: select the empty option for title. Any logged in user c",
+                "uid": "30019"
+            }
+        }
+    }
+}

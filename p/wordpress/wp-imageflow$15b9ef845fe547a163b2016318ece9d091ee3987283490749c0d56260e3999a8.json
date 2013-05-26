@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/wp-imageflow": {
+            "1.0": {
+                "name": "wordpress\/wp-imageflow",
+                "version": "1.0",
+                "version_normalized": "1.0.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/wp-imageflow.1.0.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>NOTE: Development is discontinued!<\/p>\n\n<p>WP-ImageFlow is an implementation for the CoverFlow-like Picture Gallery ImageFlow from Finn Rudolph.\nWith WP-ImageFlow you can display nice looking galleries within posts and pages. Just upload your Pictures in\na subfolder and call [wp-imageflow=FOLDERNAME] within your post or page.<\/p>",
+                "uid": "99522"
+            }
+        }
+    }
+}

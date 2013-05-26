@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/cart-analytics-for-wp-e-commerce": {
+            "1.0": {
+                "name": "wordpress\/cart-analytics-for-wp-e-commerce",
+                "version": "1.0",
+                "version_normalized": "1.0.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/cart-analytics-for-wp-e-commerce.1.0.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>Checks how many products added to a WPeC Cart are actually purchased and stores informations in the database.<br \/>\nIt's in very early stage and maybe a bit messy, in particular the ghart.php that outputs js, so if you find\nanything wrong let me know :)<\/p>\n\n<p>Even if you remove the plugin data remain in the DB so remember to delete the *_cart_analytics table too!<\/p>\n\n<ul>\n<li>Tested with Wordpress 3.3.1 and WP e-Commerce 3.8.7.6.2<\/li>\n<li>Uses Google Chart Tools for charts<\/li>\n<li>icons by famfamfam.com<\/li>\n<\/ul>",
+                "uid": "30419"
+            }
+        }
+    }
+}

@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/iframe-less-plugin": {
+            "1": {
+                "name": "wordpress\/iframe-less-plugin",
+                "version": "1",
+                "version_normalized": "1.0.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/iframe-less-plugin.1.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>Not everyone who uses wordpress knows PHP. Perhaps you are more familiar with ASP.NET or JSP,but you can not just put ASP.NET or JSP code in the middle of wordpress, especially if your server does not support it.<\/p>\n\n<p>Using an IFrame is a possibility, but it has some SEO (Search Engine Optimization) downsides, since, search engines will view that content as part of another page, and give your blog no extra credit for this content.<\/p>\n\n<p>This plugin allows you to specify a URL, which this plugin will fetch for you, and re-display on the page, as part of the page content. Giving you the SEO advantage that an IFrame looses.<\/p>\n\n<p>Please visit our blog at <a href=\"http:\/\/wordpressiframe.omadataobjects.com\/\" rel=\"nofollow\">http:\/\/wordpressiframe.omadataobjects.com\/<\/a><\/p>",
+                "uid": "66889"
+            }
+        }
+    }
+}

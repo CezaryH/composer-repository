@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/css-cache-buster": {
+            "1.0": {
+                "name": "wordpress\/css-cache-buster",
+                "version": "1.0",
+                "version_normalized": "1.0.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/css-cache-buster.1.0.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>CSS Cache Buster does one very simple but very powerful thing: it ensures that your \nWordpress blog delivers the very latest version of your CSS stylesheet to your \nvisitors, no matter how often or how rarely your edit for CSS.<\/p>\n\n<p>You no longer need to worry that you've made a CSS change that others won't see \nbecause of caching issues at their end.<\/p>\n\n<p>Technically, this plugin automatically appends a last-modified date\/timestamp to \nthe end of your stylesheet url.<\/p>\n\n<p>And since this feature is applied as a filter, you don't have to touch your theme \nfiles. It just works.<\/p>\n\n<p>Simple!<\/p>",
+                "uid": "99005"
+            }
+        }
+    }
+}

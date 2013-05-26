@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/limit-access": {
+            "1.0": {
+                "name": "wordpress\/limit-access",
+                "version": "1.0",
+                "version_normalized": "1.0.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/limit-access.1.0.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>The Limit Access WP Plugin is a simple plugin that limits the number of IPs that can be accessing an account at the same time.<\/p>\n\n<p>Eg. If $allowedIPs is set to 3, the account \"JohnDoe\" can be logged into from three separate IPs. When the the account is accessed the fourth time, the user will be logged out and redirected to a custom page made by you.<\/p>\n\n<p>If you have any questions or problems with the plugin, please let me know!<\/p>",
+                "uid": "32124"
+            }
+        }
+    }
+}

@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/enable-raw-html-disable-corruption": {
+            "0.3": {
+                "name": "wordpress\/enable-raw-html-disable-corruption",
+                "version": "0.3",
+                "version_normalized": "0.3.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/enable-raw-html-disable-corruption.0.3.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>Line breaks will not become P elements. Errors in HTML will not be fixed, no correction of Unicode Characters. Quotes, dashes, trademark symbols and so on will stay as they are.<\/p>\n\n<p>This simple plugin switches all of the filters for your content off. Everything you type will be sent to your visitor's browser. The filters are wp_autop, convert_chars, wptexturize. If you need the same functions not only for posts and pages but also for excerpts or something else, have a look in the source and edit what you need.<\/p>",
+                "uid": "52723"
+            }
+        }
+    }
+}

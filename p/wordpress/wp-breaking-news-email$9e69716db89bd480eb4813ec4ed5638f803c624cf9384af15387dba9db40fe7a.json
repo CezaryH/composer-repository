@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/wp-breaking-news-email": {
+            "1.03": {
+                "name": "wordpress\/wp-breaking-news-email",
+                "version": "1.03",
+                "version_normalized": "1.03.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/wp-breaking-news-email.1.03.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>In practical words, you can send an email to your subscribers each time a post is published on one or more categories.<\/p>\n\n<p>The format of the email can also be customised and you can generate emails for each of the following formats:\n* plaintext excerpt\n* HTML excerpt<\/p>\n\n<p><em>Important note:<\/em> The email alert will be sent only when you publish a post, not on updates. I recommend you create a single category destinated to this email alerts and check it in the plugin settings page, this way, when a breaking new occur you can check this category the email will be sent to your subscribers.<\/p>\n\n<p>You can edit the email templates. The messages in the public form for subscriptions are being shown with ajax<\/p>\n\n<p>Based on Subscribe2: <a href=\"http:\/\/subscribe2.wordpress.com\/\" rel=\"nofollow\">http:\/\/subscribe2.wordpress.com\/<\/a> from Matthew Robinson<\/p>\n\n<p>If you have any issue, you can tell me about it through this link: <a href=\"https:\/\/github.com\/DanielaValero\/WP-Breaking-N",
+                "uid": "26016"
+            }
+        }
+    }
+}

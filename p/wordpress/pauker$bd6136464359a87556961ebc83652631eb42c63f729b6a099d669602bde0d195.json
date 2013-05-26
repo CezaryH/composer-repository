@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/pauker": {
+            "1.1": {
+                "name": "wordpress\/pauker",
+                "version": "1.1",
+                "version_normalized": "1.1.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/pauker.1.1.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>This plugin adds a widget that displays a random flash card from a Pauker data set and a second widget to display stats. See <a href=\"http:\/\/pauker.sourceforge.net\/\" rel=\"nofollow\">http:\/\/pauker.sourceforge.net\/<\/a> for more details on Pauker.<\/p>",
+                "uid": "91978"
+            }
+        }
+    }
+}

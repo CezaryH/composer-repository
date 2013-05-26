@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/wordpress-remove-version": {
+            "1.0": {
+                "name": "wordpress\/wordpress-remove-version",
+                "version": "1.0",
+                "version_normalized": "1.0.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/wordpress-remove-version.1.0.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>Wordpress Remove Version securely removes the version\nnumber from both the site header and the rss feed using the\nthe_generator filter.<\/p>",
+                "uid": "45670"
+            }
+        }
+    }
+}

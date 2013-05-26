@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/trailer-api": {
+            "1.0": {
+                "name": "wordpress\/trailer-api",
+                "version": "1.0",
+                "version_normalized": "1.0.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/trailer-api.1.0.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>Adds to every post a movie trailer. The title of the post must be the name of the movie. The trailer will be added to the bottom of the post.\nThe trailer is only added if the post is displayed as a single post.<\/p>\n\n<p>Example: The title of the post is \"The Open Road\".<\/p>\n\n<p>The code that will be insered is based on the embed iframe function of youtube.<\/p>\n\n<p>This plugin is based on the API of <a href=\"http:\/\/www.trailerapi.com\" rel=\"nofollow\">http:\/\/www.trailerapi.com<\/a>.<\/p>",
+                "uid": "58165"
+            }
+        }
+    }
+}

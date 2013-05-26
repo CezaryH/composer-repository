@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/mandatory-authentication": {
+            "1.0.0": {
+                "name": "wordpress\/mandatory-authentication",
+                "version": "1.0.0",
+                "version_normalized": "1.0.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/mandatory-authentication.1.0.0.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>Mandatory Authentication is a plugin that put a WordPress blog behind a login form. \nIt can be usefull for a family blog whose members do not want to make their blog accessible from \nvisitor but do not really need to have a hight security. This plugin does not sweat to those who host \nconfidential informations, use a plugin like wp-sentry instead !<\/p>\n\n<p>It lets users login, and then redirects them back to the blog, it also shows error messages.<\/p>\n\n<p>NOTE: it is based on sidebar-login version 2.1.4 from jolley_small, thanks to his great job !<\/p>",
+                "uid": "96479"
+            }
+        }
+    }
+}

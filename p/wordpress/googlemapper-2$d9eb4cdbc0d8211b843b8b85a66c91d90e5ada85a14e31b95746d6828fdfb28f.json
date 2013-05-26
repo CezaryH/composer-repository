@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/googlemapper-2": {
+            "2.0.3": {
+                "name": "wordpress\/googlemapper-2",
+                "version": "2.0.3",
+                "version_normalized": "2.0.3.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/googlemapper-2.2.0.3.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>This plugin allows a Wordpress Site Admin to enter locations of stores etc into the db.  The information is then displayed on the front end\nusing the google maps interface.  The user can enter a starting location in the search field, the system will then find the closest location from \nit's starting point and display the path and steps necessary to get to that location. If many locations are available in a similar range range, \nthe plugin will request the driving distance between the two closest locations. It help to avoid the pitfall of getting an office across a river \nwhich may take a lot of driving to get to.<\/p>\n\n<p>This plugin requires a valid Google Maps API key (free) from Google.  If you do not have an API key you may get one here.\n<a href=\"http:\/\/code.google.com\/apis\/maps\/signup.html\" rel=\"nofollow\">http:\/\/code.google.com\/apis\/maps\/signup.html<\/a><\/p>\n\n<p>The actual google maps functionality is based on GoogleMapAPI - A library used for creating google maps. Which can be f",
+                "uid": "96477"
+            }
+        }
+    }
+}

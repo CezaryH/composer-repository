@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/socialboaster": {
+            "1.0": {
+                "name": "wordpress\/socialboaster",
+                "version": "1.0",
+                "version_normalized": "1.0.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/socialboaster.1.0.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>Here's a fun little script that'll aggregate your Digg, Twitter and Del.icio.us activity and post it to your Wordpress blog. It uses the Wordpress cron system and can be configured to search for updates by the hour or on a daily basis.<\/p>\n\n<p>SocialBoaster works by grabbing the contents of your Twitter Tweets, and Digg\/Del.icio.us bookmarks and creating posts for them on your blog. SocialBoaster is designed to be unobstrusive. As such, each post SocialBoaster makes will be given a metadata value in order to make SocialBoaster posts easily distinguishable from regular blog posts. You can find out more about this on the FAQ page.<\/p>\n\n<p>You can see the plugin active at: <a href=\"http:\/\/nial.me\/\" rel=\"nofollow\">http:\/\/nial.me\/<\/a>. For further information\/feature requests and updates, visit <a href=\"http:\/\/nial.me\/2008\/08\/announcing-socialboaster\/\" rel=\"nofollow\">http:\/\/nial.me\/2008\/08\/announcing-socialboaster\/<\/a>.<\/p>",
+                "uid": "100525"
+            }
+        }
+    }
+}

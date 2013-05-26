@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/bulk-change-attachment-parent": {
+            "1.0.0": {
+                "name": "wordpress\/bulk-change-attachment-parent",
+                "version": "1.0.0",
+                "version_normalized": "1.0.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/bulk-change-attachment-parent.1.0.0.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>Did you upload an image or other item and now want to change it's parent post\/page to another one? This plugin will allow you to do that. It adds a new option to the \"Bulk Actions\" dropdown on the media management page.<\/p>\n\n<p>The parent matters because the <code>[gallery]<\/code> feature simply lists out all uploads that have been attached to that post or page, so this will effectively allow you to move images between galleries.<\/p>\n\n<p><a href=\"http:\/\/lacquerhead.ca\/\">Joel Sholdice<\/a> deserves some credit for this plugin and I used his single-item changing plugin for inspiration.<\/p>",
+                "uid": "68235"
+            }
+        }
+    }
+}

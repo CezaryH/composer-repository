@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/featured-users-wordpress-plugin": {
+            "1.0": {
+                "name": "wordpress\/featured-users-wordpress-plugin",
+                "version": "1.0",
+                "version_normalized": "1.0.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/featured-users-wordpress-plugin.1.0.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>While working on a custom WordPress theme we needed the ability to feature users \/ authors. So we created this plugin which allows the administrator to easily star (featured) users. Then using a custom query in the theme we where able to get only the featured users by only retrieving users with the custom user meta &#34;jsfeatured_user&#34;. The plugin dosent make any chanages to your current theme it only does the following:<\/p>\n\n<ol>\n<li>Adds a featured column in the Users panel of the WordPress Admin<\/li>\n<li>When a user is featured the plugin adds or updates the custom filed &#34;jsfeatured_user&#34; and sets the value to yes.<\/li>\n<\/ol>\n\n<p>Feel free to use and include in your WordPress Installs, please think of us if you need a custom theme or plugin developed!!<\/p>\n\n<p>For Plugin and Theme development requets email us at <a href=\"mailto:info@reactivedevelopment.net\">info@reactivedevelopment.net<\/a> or go here <a href=\"http:\/\/www.reactivedevelopment.net\/\" rel=\"nofollow\">http:\/",
+                "uid": "23695"
+            }
+        }
+    }
+}

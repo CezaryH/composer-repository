@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/dn-wp-foldersize": {
+            "1.3": {
+                "name": "wordpress\/dn-wp-foldersize",
+                "version": "1.3",
+                "version_normalized": "1.3.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/dn-wp-foldersize.1.3.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>This plugin shows the size of the wordpress installation folder. Known issue are problems with php4 and security deactivations.<\/p>",
+                "uid": "52426"
+            }
+        }
+    }
+}

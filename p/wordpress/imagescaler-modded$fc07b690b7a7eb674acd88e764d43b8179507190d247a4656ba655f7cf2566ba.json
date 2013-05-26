@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/imagescaler-modded": {
+            "1.0": {
+                "name": "wordpress\/imagescaler-modded",
+                "version": "1.0",
+                "version_normalized": "1.0.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/imagescaler-modded.1.0.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>A plugin that automatic download and resize your images on Post when it larger than your width and height set on Option page.<\/p>\n\n<p>This plugin is base on ImageScaler by PaulButler, I only change some code for the better work.<\/p>",
+                "uid": "108076"
+            }
+        }
+    }
+}

@@ -1,0 +1,40 @@
+{
+    "packages": {
+        "wordpress\/wp-mailfrom-ii": {
+            "1.0": {
+                "name": "wordpress\/wp-mailfrom-ii",
+                "version": "1.0",
+                "version_normalized": "1.0.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/wp-mailfrom-ii.1.0.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>This plugin allows you to set the email address and name used on email sent by WordPress by setting the <em>From:<\/em> header.<\/p>\n\n<p>It is an updated and fully re-worked version of the <a href=\"http:\/\/wordpress.org\/extend\/plugins\/wp-mailfrom\/\">WP Mail From<\/a> plugin by Tristan Aston and now works with the latest versions of WordPress.<\/p>\n\n<ul>\n<li>Adds a \"Mail From\" section in the \"Settings\" menu.<\/li>\n<li>The plugin uses the filter hooks <code>wp_mail_from<\/code> and <code>wp_mail_from_name<\/code>.<\/li>\n<li>The priority for the hooks is set to 1 to allow for other plugins that may hook these with the default priority of 10 to override this plugin.<\/li>\n<\/ul>\n\n<p>Danish translation by Frederik Svarre (<a href=\"http:\/\/www.fslab.dk\/\">http:\/\/www.fslab.dk<\/a>)<\/p>",
+                "uid": "19899"
+            },
+            "1.0.1": {
+                "name": "wordpress\/wp-mailfrom-ii",
+                "version": "1.0.1",
+                "version_normalized": "1.0.1.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/wp-mailfrom-ii.1.0.1.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>This plugin allows you to set the email address and name used on email sent by WordPress by setting the <em>From:<\/em> header.<\/p>\n\n<p>It is an updated and fully re-worked version of the <a href=\"http:\/\/wordpress.org\/extend\/plugins\/wp-mailfrom\/\">WP Mail From<\/a> plugin by Tristan Aston and now works with the latest versions of WordPress.<\/p>\n\n<ul>\n<li>Adds a \"Mail From\" section in the \"Settings\" menu.<\/li>\n<li>The plugin uses the filter hooks <code>wp_mail_from<\/code> and <code>wp_mail_from_name<\/code>.<\/li>\n<li>The priority for the hooks is set to 1 to allow for other plugins that may hook these with the default priority of 10 to override this plugin.<\/li>\n<\/ul>\n\n<p>Danish translation by Frederik Svarre (<a href=\"http:\/\/www.fslab.dk\/\">http:\/\/www.fslab.dk<\/a>)<\/p>",
+                "uid": "19898"
+            }
+        }
+    }
+}

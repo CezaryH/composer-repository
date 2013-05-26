@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/wp-hashed-ids": {
+            "1.0": {
+                "name": "wordpress\/wp-hashed-ids",
+                "version": "1.0",
+                "version_normalized": "1.0.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/wp-hashed-ids.1.0.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>This plugin adds a new permalink tag %hashed_id% which represents the encrypted\nversion of your post ID.\nUses hashids library (see <a href=\"http:\/\/www.hashids.org\/php\/)\" rel=\"nofollow\">http:\/\/www.hashids.org\/php\/)<\/a>.<\/p>\n\n<p>With this plugin you can change your permalink structure into something like<\/p>\n\n<pre><code>\/%hashed_id%\/<\/code><\/pre>\n\n<p>to obtain links like<\/p>\n\n<pre><code><a href=\"http:\/\/www.example.com\/ha5b9\" rel=\"nofollow\">http:\/\/www.example.com\/ha5b9<\/a><\/code><\/pre>\n\n<p>or into something like<\/p>\n\n<pre><code>\/%year%\/%monthnum%\/%hashed_id%\/<\/code><\/pre>\n\n<p>to obtain URLs like<\/p>\n\n<pre><code><a href=\"http:\/\/www.example.com\/2012\/10\/ha5b9\" rel=\"nofollow\">http:\/\/www.example.com\/2012\/10\/ha5b9<\/a><\/code><\/pre>\n\n<p>or<\/p>\n\n<pre><code>\/%hashed_id%\/%postname%\/<\/code><\/pre>\n\n<p>to obtain<\/p>\n\n<pre><code><a href=\"http:\/\/www.example.com\/ha5b9\/my-slug\" rel=\"nofollow\">http:\/\/www.example.com\/ha5b9\/my-slug<\/a><\/code><\/pre>\n\n<p>This plugin is useful when you want to obfuscate the n",
+                "uid": "16706"
+            }
+        }
+    }
+}

@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/wplm-worrpress-link-management": {
+            "1.4": {
+                "name": "wordpress\/wplm-worrpress-link-management",
+                "version": "1.4",
+                "version_normalized": "1.4.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/wplm-worrpress-link-management.1.4.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>WPLM allows you to add the link and mumble in your WordPress blog with add and expire date, it will delete automatically the link after link expire date and it will send email notification to the clients and admin before link expired. Also you can make only homepage links with it.<\/p>",
+                "uid": "51019"
+            }
+        }
+    }
+}

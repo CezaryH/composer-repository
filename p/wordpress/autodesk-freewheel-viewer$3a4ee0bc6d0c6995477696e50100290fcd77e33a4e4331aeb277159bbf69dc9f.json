@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/autodesk-freewheel-viewer": {
+            "1.0": {
+                "name": "wordpress\/autodesk-freewheel-viewer",
+                "version": "1.0",
+                "version_normalized": "1.0.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/autodesk-freewheel-viewer.1.0.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>Use shortcode to insert model into page or post:<\/p>\n\n<p>[freewheel path=\"http:\/\/freewheel.autodesk.com\/sample\/Hotel5.dwf\" width=\"600\" height=\"800\"]<\/p>\n\n<p>Parameters: path, width, height<\/p>",
+                "uid": "16649"
+            }
+        }
+    }
+}

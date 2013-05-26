@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/gs-gomobi-redirector": {
+            "1.1": {
+                "name": "wordpress\/gs-gomobi-redirector",
+                "version": "1.1",
+                "version_normalized": "1.1.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/gs-gomobi-redirector.1.1.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>goMobi is a popular mobile website solution for businesses of all sizes. Many businesses also use Wordpress as the CMS solution for their full-size website.<\/p>\n\n<p>The \"official\" goMobi Wordpress plugin utilises a Javascript redirect mechanism which is not an optimal solution for the PHP-based Wordpress platform. \nThis plugin wraps the \"official\" goMobi PHP-based redirect code and delivers a server-side redirect solution for your Wordpress\/goMobi integration.<\/p>",
+                "uid": "12885"
+            }
+        }
+    }
+}

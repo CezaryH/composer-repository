@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/redirect2homepage": {
+            "1.0": {
+                "name": "wordpress\/redirect2homepage",
+                "version": "1.0",
+                "version_normalized": "1.0.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/redirect2homepage.1.0.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>After a user has logged in, the user will be redirected to the homepage\ninstead of the Dashboard when this plugin is activated. The plugin has no\nsettings and should work perfectly fine with Multisite installations\n(the plugin will use the blog url and <em>not<\/em> the main site url).<\/p>",
+                "uid": "24035"
+            }
+        }
+    }
+}

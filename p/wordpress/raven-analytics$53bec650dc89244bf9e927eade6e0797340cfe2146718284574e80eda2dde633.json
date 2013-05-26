@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/raven-analytics": {
+            "0.2": {
+                "name": "wordpress\/raven-analytics",
+                "version": "0.2",
+                "version_normalized": "0.2.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/raven-analytics.0.2.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>Raven Analytics is a statistics service provided by their <a title=\"Raven Internet Marketing Tools\" href=\"http:\/\/raventools.com\">Internet Marketing Tools<\/a> for SEO and Social Media. This plugin simplifies the process of including the Raven Analytics code in your blog, so you don't have to edit any PHP. If you don't have a Raven account yet, you can get one at <a href=\"http:\/\/raventools.com\">raventools.com<\/a>.<\/p>\n\n<p>In the Raven interface, when you are in the account that corresponds to your blog, click on ANALYTICS &#62; Settings. All you need is the 8-letter\/number code similar to this: {_raven._init('00000000')}. Enter that 8-letter\/number code in the box below.<\/p>\n\n<p>Once you have entered your User Account String in the box below your pages will be trackable by Raven Analytics.<\/p>\n\n<p>You can download the ZIP file below, place it in your wp-content\/plugins folder and enable the plugin in your wp-admin area.<\/p>",
+                "uid": "93418"
+            }
+        }
+    }
+}

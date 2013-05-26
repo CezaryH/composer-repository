@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/top-level-category-widget": {
+            "1.0": {
+                "name": "wordpress\/top-level-category-widget",
+                "version": "1.0",
+                "version_normalized": "1.0.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/top-level-category-widget.1.0.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>Widget listing only top level categories.<\/p>\n\n<p>Currently it is preset to following behavior:<\/p>\n\n<ul>\n<li>Show unordered list of top-level categories<\/li>\n<li>Skip category with ID 1 (usually the \"Default\" category)<\/li>\n<li>Don't hide empty categories<\/li>\n<li>Order categories by their ID (order of creation)<\/li>\n<\/ul>\n\n<p>The only customizable thing is the widget title... for now.<\/p>\n\n<p>Developed for private use, but has perspective for more extensive usage. I can't guarantee any support in the future nor further development, but it is to be expected. Kindly inform me about bugs, if you find any, or propose new features: <a href=\"mailto:zaantar@zaantar.eu\">zaantar@zaantar.eu<\/a>.<\/p>",
+                "uid": "21920"
+            }
+        }
+    }
+}

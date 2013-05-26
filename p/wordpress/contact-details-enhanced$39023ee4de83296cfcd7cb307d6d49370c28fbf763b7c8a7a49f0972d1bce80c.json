@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/contact-details-enhanced": {
+            "1.0": {
+                "name": "wordpress\/contact-details-enhanced",
+                "version": "1.0",
+                "version_normalized": "1.0.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/contact-details-enhanced.1.0.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>Adds the ability to enter contact information and output the details in your posts, pages or templates.<\/p>\n\n<p>Based on the original \"Contact Details\" by 36Flavours, but the visible text has been translated to Dutch and a bankaccount field has been added.<\/p>\n\n<p>Use the shortcode <code>[contact type=\"phone\"]<\/code> to display any of the contact details, or use the function call <code>&#60;?php if (function_exists('contact_detail')) { contact_detail('phone'); } ?&#62;<\/code>.<\/p>\n\n<p>Once you have defined a contact email address, use the shortcode <code>[contact type=\"form\"]<\/code> to output the contact form.<\/p>",
+                "uid": "19738"
+            }
+        }
+    }
+}

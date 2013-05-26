@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/wp-plugininfo": {
+            "1.0": {
+                "name": "wordpress\/wp-plugininfo",
+                "version": "1.0",
+                "version_normalized": "1.0.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/wp-plugininfo.1.0.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>WP-pluginInfo allows you to use a shortcode to list information about your activated plugins.<\/p>\n\n<p>Valid shortcode syntax (a shortcut for [plugininfo] is [pi]):<\/p>\n\n<ul>\n<li><code>[plugininfo \/]<\/code>: Lists all activated plugin using markup in WP-pluginInfo's template.php<\/li>\n<li><code>[plugininfo]&#60;p&#62;&#60;a href=\"%plugin_url%\" target=\"_blank\"&#62;%name%&#60;\/a&#62; version %version% by &#60;a href=\"%author_url%\" target=\"_blank\"&#62;%author%&#60;\/a&#62;: %description%&#60;\/p&#62;[\/pi]<\/code>: Lists all activated plugin using the markup between shortcode.<\/li>\n<li><code>[plugininfo wp-plugininfo \/]<\/code>: Lists information about specified plugin (in this case, wp-plugininfo). Separate items with space.<\/li>\n<\/ul>\n\n<p>Keep in mind there are two shortcodes that do the same thing: [pi] and [plugininfo].<\/p>\n\n<p>If you like this plugin, please consider <a href=\"http:\/\/wordpress.org\/extend\/plugins\/wp-plugininfo\/\">giving your honest rating<\/a>, blogging\/tweeting about it or ",
+                "uid": "58859"
+            }
+        }
+    }
+}

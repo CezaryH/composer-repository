@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/duplicate-comment-authors": {
+            "0.1": {
+                "name": "wordpress\/duplicate-comment-authors",
+                "version": "0.1",
+                "version_normalized": "0.1.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/duplicate-comment-authors.0.1.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>Very simple plugin, it filters comments made and checks if the commenters name is the same as a registered users display name, and then stops them from commenting.\nThis prevents users on the blog from being potentially impersonated.<\/p>",
+                "uid": "16108"
+            }
+        }
+    }
+}

@@ -1,0 +1,40 @@
+{
+    "packages": {
+        "wordpress\/wp-slider-captcha": {
+            "0.1": {
+                "name": "wordpress\/wp-slider-captcha",
+                "version": "0.1",
+                "version_normalized": "0.1.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/wp-slider-captcha.0.1.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>An anti-spam captcha using jQuery's UI slider. After the position of the slider is past 60% (default), it will enable the submit button. This will replace the input button specified as the submit button, if JavaScript is not enabled the button will show as expected.<\/p>",
+                "uid": "25328"
+            },
+            "1.2.0": {
+                "name": "wordpress\/wp-slider-captcha",
+                "version": "1.2.0",
+                "version_normalized": "1.2.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/wp-slider-captcha.1.2.0.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>An anti-spam captcha using jQuery's UI slider. After the position of the slider is past 60% (default), it will enable the submit button. This will replace the input button specified as the submit button, if JavaScript is not enabled the button will show as expected.<\/p>",
+                "uid": "25327"
+            }
+        }
+    }
+}

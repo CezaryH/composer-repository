@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/flickr-to-wp": {
+            "0.1": {
+                "name": "wordpress\/flickr-to-wp",
+                "version": "0.1",
+                "version_normalized": "0.1.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/flickr-to-wp.0.1.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>Connect to your Flickr account and import your photos and data into your WordPress site. This plugin imports the following data from Flickr:<\/p>\n\n<ul>\n<li>Photos (full-size originals including EXIF data)<\/li>\n<li>Collections<\/li>\n<li>Sets<\/li>\n<li>Tags<\/li>\n<li>Comments<\/li>\n<li>Dates and times<\/li>\n<\/ul>\n\n<p>It does not import notes, people, locations (geotags), or groups.<\/p>\n\n<p>It is highly recommended you run this importer with a Flickr Pro account. Without Flickr Pro you can only import your most recent 200 photos and will not be able to download your original photos.<\/p>\n\n<p>This plugin does not provide any features for displaying your photos and data. It is up to you to modify your theme to accomplish this. The <a href=\"http:\/\/codex.wordpress.org\/Gallery_Shortcode\">[gallery] short code<\/a> is another option.<\/p>",
+                "uid": "36237"
+            }
+        }
+    }
+}

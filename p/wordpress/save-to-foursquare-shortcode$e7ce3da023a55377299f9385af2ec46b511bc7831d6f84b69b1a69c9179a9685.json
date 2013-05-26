@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/save-to-foursquare-shortcode": {
+            "1.0": {
+                "name": "wordpress\/save-to-foursquare-shortcode",
+                "version": "1.0",
+                "version_normalized": "1.0.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/save-to-foursquare-shortcode.1.0.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>If you reference venues on <a href=\"http:\/\/foursquare.com\/\">foursquare<\/a> you may want to include the Publisher <a href=\"https:\/\/foursquare.com\/buttons\/savetofoursquare\">\"Save to foursquare\" button<\/a> inline within your WordPress posts.<\/p>\n\n<p>This plugin is a simple shortcode that accepts two parameters:<\/p>\n\n<ul>\n<li>uid = foursquare user ID (numeric) to appear as 'referred' by' on foursquare once saved to a user's list<\/li>\n<li>vid = the venue's ID (hash at the end of a venue URL)<\/li>\n<\/ul>\n\n<p>This was built for my own purposes but am happy to accept pull requests <a href=\"https:\/\/github.com\/devinreams\/wp-save-to-foursquare-shortcode\">on GitHub<\/a> for any improvements to make this more useful to the community: <a href=\"https:\/\/github.com\/devinreams\/wp-save-to-foursquare-shortcode\" rel=\"nofollow\">https:\/\/github.com\/devinreams\/wp-save-to-foursquare-shortcode<\/a><\/p>",
+                "uid": "8243"
+            }
+        }
+    }
+}

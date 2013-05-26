@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/insert-or-embed-articulate-content-into-wordpress": {
+            "2.10": {
+                "name": "wordpress\/insert-or-embed-articulate-content-into-wordpress",
+                "version": "2.10",
+                "version_normalized": "2.10.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/insert-or-embed-articulate-content-into-wordpress.2.10.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>This plugin will add a new toolbar icon (the letter 'a') next to the 'Add Media' button on the Edit Post and Edit Page pages.  Upon clicking this toolbar icon, you will have the ability to upload your published Articulate content as a ZIP file.  Once uploaded, the plugin will automatically extract the content, find the approriate .html file, and add code to your post or page that will display your Articulate content as an iframe or a lightbox.<\/p>",
+                "uid": "42986"
+            }
+        }
+    }
+}

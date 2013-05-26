@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/efont-size": {
+            "0.0.2": {
+                "name": "wordpress\/efont-size",
+                "version": "0.0.2",
+                "version_normalized": "0.0.2.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/efont-size.0.0.2.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>A font size changer, written in php. rather than loading different style sheets this changes the body font size. As such it may not work with all themes.<\/p>",
+                "uid": "102812"
+            }
+        }
+    }
+}

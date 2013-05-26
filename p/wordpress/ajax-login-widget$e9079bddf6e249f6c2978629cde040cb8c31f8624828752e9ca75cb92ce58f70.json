@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/ajax-login-widget": {
+            "1.0.1": {
+                "name": "wordpress\/ajax-login-widget",
+                "version": "1.0.1",
+                "version_normalized": "1.0.1.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/ajax-login-widget.1.0.1.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p><a href=\"http:\/\/dound.com\/projects\/word-press\/ajax-login-widget\/\">Plugin Homepage<\/a><\/p>\n\n<h4>Features<\/h4>\n\n<ul>\n<li><strong>Integrate<\/strong> login functionality into your site (rather than having it on a separate page).<\/li>\n<li>User can login, register, and retrieve a lost password <strong>without ever leaving the page<\/strong> they are on.<\/li>\n<li><strong>AJAX<\/strong>-based.<\/li>\n<li><em>XHTML 1.1 and CSS 3 compliant<\/em>.<\/li>\n<\/ul>\n\n<h4>Current Ideas for the Next Version<\/h4>\n\n<ul>\n<li>Beautify for IE7<\/li>\n<li>Minify JS and put it in the footer<\/li>\n<li>Better support for styling via CSS<\/li>\n<li>Option to include a customizeable title above the widget<\/li>\n<li>Provide an additional non-table-based template<\/li>\n<li>Internalization support<\/li>\n<li>Add login form to page\/post with [insert-login] tag<\/li>\n<li>Options<\/li>\n<li>\n<ul>\n<li>Show gravatar after user logs in<\/li>\n<\/ul><\/li>\n<li>\n<ul>\n<li>Customize welcome message<\/li>\n<\/ul><\/li>\n<li>\n<ul>\n<li>Titles for login fo",
+                "uid": "93045"
+            }
+        }
+    }
+}

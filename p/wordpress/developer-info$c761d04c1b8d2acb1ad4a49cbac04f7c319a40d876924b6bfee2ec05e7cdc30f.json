@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/developer-info": {
+            "0.2": {
+                "name": "wordpress\/developer-info",
+                "version": "0.2",
+                "version_normalized": "0.2.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/developer-info.0.2.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p><strong>NOTICE: This plugin is in the <em>painful-to-use<\/em> stage of beta. Unless you are\nextremely daring, I recommend holding off on downloading until it has made\nsome progress. You've been warned.<\/strong><\/p>\n\n<p>Unlike the other plugins floating around that achieve similar goals, this\nplugin does <strong>not<\/strong> page scrape. Instead, this plugin directly accesses the\nPlugin &#38; Theme Info API, making it put less load on your server and provide\nmuch more flexibility. Additionally, since the plugin does not depend on the\nformat of the HTML pages that page scrapers use, it is far more reliable\nlong-term.<\/p>",
+                "uid": "11927"
+            }
+        }
+    }
+}

@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/browser-shots": {
+            "1.0": {
+                "name": "wordpress\/browser-shots",
+                "version": "1.0",
+                "version_normalized": "1.0.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/browser-shots.1.0.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>Use the <code>[browser-shot]<\/code> shortcode to automate the process of taking website screenshots. An icon is also added to the TinyMCE editor to make the shortcode creation process easy.<\/p>\n\n<h4>Shortcode Preview<\/h4>\n\n<pre><code>[browser-shot url=&#34;http:\/\/link-to-website&#34; width=&#34;600&#34;]<\/code><\/pre>\n\n<h4>Multisite Compatibility<\/h4>\n\n<p>The <em>Browser Shots<\/em> plugin is compatibly with WordPress Multisite, just use the <a href=\"http:\/\/codex.wordpress.org\/Create_A_Network#WordPress_Plugins\">Network Activate<\/a> feature to enable the shortcode on every site. If you only want to enable the shortcode for a specific site, activate the plugin for that site only.<\/p>",
+                "uid": "16473"
+            }
+        }
+    }
+}

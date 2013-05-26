@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/posts-compare": {
+            "1.0": {
+                "name": "wordpress\/posts-compare",
+                "version": "1.0",
+                "version_normalized": "1.0.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/posts-compare.1.0.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>This plugin allows you to check your posts for getting copied.\nHave you ever tried to find out if someone copies your unique texts and places them on another sites? If it's so, this plugin is for you. It will help you to find your texts somewhere else in Internet by using searchengines.<\/p>\n\n<p>Plugin was checked on <a href=\"http:\/\/www.zhenskayalogika.ru\/\" rel=\"nofollow\">http:\/\/www.zhenskayalogika.ru\/<\/a> and helped us to find several plagiarists.<\/p>\n\n<p>About plugin work:\nPlugin creates 'postscompare+search+result' table. After compare-cron.php file is run, the scrip takes your post(s) and checks some sentanses in searchengines. If it finds the same text, the script will create a record in the table with the result, if there are no such texts, the script will make record about no results in the table.\nBu the way, the table should have records about sentances found from your site too, but these records will not be listed in admin area.\nIf your table 'postscompare+search+result' has",
+                "uid": "92073"
+            }
+        }
+    }
+}

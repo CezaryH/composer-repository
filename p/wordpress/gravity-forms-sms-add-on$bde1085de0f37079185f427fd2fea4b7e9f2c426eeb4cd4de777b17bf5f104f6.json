@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/gravity-forms-sms-add-on": {
+            "1.0": {
+                "name": "wordpress\/gravity-forms-sms-add-on",
+                "version": "1.0",
+                "version_normalized": "1.0.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/gravity-forms-sms-add-on.1.0.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>Receive a text message every time a visitor submits a Gravity form on your site without needing a third-party API such as Twilio, Clockwork, SendFlow, etc.  This plugin uses a PHP mail library to send text messages via the email-to-SMS gateways that many popular carriers provide.  Sending messages with Email to SMS is free (although recipients may be charged by their carrier as with normal text messages).<\/p>\n\n<p>Gravity Forms SMS provides an easy way to create form-specific SMS notifications. You may select which form fields you wish to receive in the SMS. For instance, if you want to receive a text-message when someone submits your contact form and only have their name, email and phone number sent over. You will be able to email them or even call directly from the SMS.<\/p>\n\n<p>Please be aware of a few drawbacks to consider before using: Messages you send will come from your email address, not your phone number. You may also be limited to less than 160 characters, depending on the ",
+                "uid": "8959"
+            }
+        }
+    }
+}

@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/wordpress-admin-notepad": {
+            "1.2.4": {
+                "name": "wordpress\/wordpress-admin-notepad",
+                "version": "1.2.4",
+                "version_normalized": "1.2.4.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/wordpress-admin-notepad.1.2.4.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>Wordpress Admin Notepad is a plugin for wordpress 3.0+ that allows selected user group to view or edit notes as long as they are logged into admin panel.<\/p>\n\n<p>Wordpress Admin Notepad automatically creates a show\/hide notepad toggle at top right corner (beside log out link) so that users can access their notes at anywhere.<\/p>\n\n<p>Wordpress Admin Notepad supports ONLY Wordpress 3.0 and above, that is after wordpress added Roles &#38; Capability.<\/p>\n\n<p><strong>What's New<\/strong><\/p>\n\n<ul>\n<li>You can now configure the permission to view or edit the notes for the 4 user levels (editors, author, contributor and subscriber).<\/li>\n<li>You can now save the state of notepad (visible or hidden)<\/li>\n<li>Notepad now supports cyrilic texts<\/li>\n<\/ul>\n\n<p><strong>Features<\/strong><\/p>\n\n<ul>\n<li>Allows selected user groups (roles) to edit\/view notes at anywhere in admin panel<\/li>\n<li>The toggle at top right corner can be disable<\/li>\n<li>Save the state of notepad (visible or hidden)<\/li>\n",
+                "uid": "85755"
+            }
+        }
+    }
+}

@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/woocommerce-stars-shortcode": {
+            "0.5": {
+                "name": "wordpress\/woocommerce-stars-shortcode",
+                "version": "0.5",
+                "version_normalized": "0.5.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/woocommerce-stars-shortcode.0.5.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>Creates a shortcode, <code>[woocommerce_rating id=\"n\"]<\/code>,  that displays the rating, in stars, of any WooCommerce product.  <code>[woocommerce_rating]<\/code> will show the star rating of the current product.  This plugin requires WooCommerce.<\/p>",
+                "uid": "11188"
+            }
+        }
+    }
+}

@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/twpw-stop-remote-comments": {
+            "1.0": {
+                "name": "wordpress\/twpw-stop-remote-comments",
+                "version": "1.0",
+                "version_normalized": "1.0.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/twpw-stop-remote-comments.1.0.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>Adds a \"nonce\" field to the comments form.  If the \"nonce\" is missing on submit, the comment will return an error.\nThis will stop submissions from remote sites and cut down of the comments received from comment bots<\/p>",
+                "uid": "23661"
+            }
+        }
+    }
+}

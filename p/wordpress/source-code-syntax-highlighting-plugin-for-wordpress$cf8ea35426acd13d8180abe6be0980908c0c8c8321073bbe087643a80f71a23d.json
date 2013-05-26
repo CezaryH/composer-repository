@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/source-code-syntax-highlighting-plugin-for-wordpress": {
+            "1.2": {
+                "name": "wordpress\/source-code-syntax-highlighting-plugin-for-wordpress",
+                "version": "1.2",
+                "version_normalized": "1.2.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/source-code-syntax-highlighting-plugin-for-wordpress.1.2.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>this plugin using <a href=\"http:\/\/qbnz.com\/highlighter\/\">Geshi<\/a> to highlight source code in your posts. .<\/p>",
+                "uid": "110852"
+            }
+        }
+    }
+}

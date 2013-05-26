@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/media-buttons": {
+            "1.0": {
+                "name": "wordpress\/media-buttons",
+                "version": "1.0",
+                "version_normalized": "1.0.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/media-buttons.1.0.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>This plugin was made to allow the introduction of audio streams in the wordpress. By this i mean making the life easy of those of you who\nhave a radio station and would like to allow the visitors to listen to your audio stream using media player, winamp, real player, itunes, vlc... and so on\nThis creates 4 media buttons that links to a playlist generated dinamicaly with your audio stream. So it gets no simple to change the icecast mountpoint\nor the ip address of your server. No need to do fancy code or whatever. The solution is here. As i did not found anything in the wp-plugin repo, i decided to share it. So if you think it is nice and you would like to view more developmens done to it, please donate even a single euro to cesarsilvaaraujo at gmail dot com (paypal account)<\/p>",
+                "uid": "29432"
+            }
+        }
+    }
+}

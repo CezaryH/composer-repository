@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/user-taxonomies": {
+            "1.0": {
+                "name": "wordpress\/user-taxonomies",
+                "version": "1.0",
+                "version_normalized": "1.0.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/user-taxonomies.1.0.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>This plugin extends the default taxonomy functionality and extends it to users, while automating all the boilerplate code.<\/p>\n\n<p>Once activated, you can register user taxonomies using the following code:<\/p>\n\n<pre><code>register_taxonomy(&#039;profession&#039;, &#039;user&#039;, array(\n    &#039;public&#039;      =&#62;true,\n    &#039;labels&#039;      =&#62;array(\n        &#039;name&#039;                        =&#62;&#039;Professions&#039;,\n        &#039;singular_name&#039;               =&#62;&#039;Profession&#039;,\n        &#039;menu_name&#039;                   =&#62;&#039;Professions&#039;,\n        &#039;search_items&#039;                =&#62;&#039;Search Professions&#039;,\n        &#039;popular_items&#039;               =&#62;&#039;Popular Professions&#039;,\n        &#039;all_items&#039;                   =&#62;&#039;All Professions&#039;,\n        &#039;edit_item&#039;                   =&#62;&#039;Edit Profession&#039;,\n        &#039;update_item&#039;             =&#62;&#",
+                "uid": "28970"
+            }
+        }
+    }
+}

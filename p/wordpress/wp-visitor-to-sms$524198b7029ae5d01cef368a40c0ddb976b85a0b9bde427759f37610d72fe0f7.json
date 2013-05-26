@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/wp-visitor-to-sms": {
+            "1.0.7": {
+                "name": "wordpress\/wp-visitor-to-sms",
+                "version": "1.0.7",
+                "version_normalized": "1.0.7.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/wp-visitor-to-sms.1.0.7.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>Developed by - <a href=\"http:\/\/wp-visitor-to-sms.xxw.ca\">LittleBearZ<\/a>.<\/p>\n\n<p>On Visitor (human) hit , Email is dispatched to administrator email's address.<\/p>\n\n<p>Features:\n* Send global SMS messages in the settings page\n* No registration required\n* Data deleted after 7 days. (give or take as crontab might take a couple more second.)\n* Easy Accessibility\n* CLI (command line interface) Enabled\n* Free<\/p>\n\n<p>Drawbacks:\n* Uses No CSS, Looks Plain and Ugly\n* Queue messaged one by one\n* Not AJAX yet\n* Lack connectivity between different social networks.<\/p>\n\n<p>Automatic Email is now under review as too many message, going to combine it and send a digest sort of batch.<\/p>\n\n<ul>\n<li><p>Required wp_remote_post and define your phone number in settings, please include the 011 and the country code for your phone number.<\/p><\/li>\n<li><p>Please manually update the block list so search bot's hit does not initiate a new send. By default it blocks couple of search engines. This does not af",
+                "uid": "44661"
+            }
+        }
+    }
+}

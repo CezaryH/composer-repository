@@ -1,0 +1,74 @@
+{
+    "packages": {
+        "wordpress\/summarize-posts": {
+            "0.4": {
+                "name": "wordpress\/summarize-posts",
+                "version": "0.4",
+                "version_normalized": "0.4.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/summarize-posts.0.4.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>Summarize posts offers a better-architected and more flexible alternative to the built-in WordPress <code>get_posts()<\/code>, <code>query_posts()<\/code>, and <code>WP_Query<\/code> methods for retrieving posts. The new functions are exposed both to your theme files and to your posts via shortcode tags. You can search by taxonomy terms, post title, status, or just about any other criteria you can think of. You can also paginate the results and format them in a flexible and tokenized matter. These functions are loop-agnostic: they can be used inside or outside of the loop.<\/p>\n\n<p>You can easily search by taxonomy term, you can easily sort results by custom fields, and you can paginate results.<\/p>\n\n<pre><code>\/\/ Example Usage \n$Q = new GetPostsQuery();\n$Q-&#62;set_output_type(ARRAY_A);\n$results = $Q-&#62;get_posts();\nforeach ($results as $r):\n?&#62;\n    &#60;li&#62;&#60;a href=&#34;&#60;?php print $r[&#039;permalink&#039;]; ?&#62;&#34;&#62;&#60;?php print $r[&#039;post_title&#039;]; ?",
+                "uid": "52262"
+            },
+            "0.5": {
+                "name": "wordpress\/summarize-posts",
+                "version": "0.5",
+                "version_normalized": "0.5.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/summarize-posts.0.5.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>Summarize posts offers a better-architected and more flexible alternative to the built-in WordPress <code>get_posts()<\/code>, <code>query_posts()<\/code>, and <code>WP_Query<\/code> methods for retrieving posts. The new functions are exposed both to your theme files and to your posts via shortcode tags. You can search by taxonomy terms, post title, status, or just about any other criteria you can think of. You can also paginate the results and format them in a flexible and tokenized matter. These functions are loop-agnostic: they can be used inside or outside of the loop.<\/p>\n\n<p>You can easily search by taxonomy term, you can easily sort results by custom fields, and you can paginate results.<\/p>\n\n<pre><code>\/\/ Example Usage \n$Q = new GetPostsQuery();\n$Q-&#62;set_output_type(ARRAY_A);\n$results = $Q-&#62;get_posts();\nforeach ($results as $r):\n?&#62;\n    &#60;li&#62;&#60;a href=&#34;&#60;?php print $r[&#039;permalink&#039;]; ?&#62;&#34;&#62;&#60;?php print $r[&#039;post_title&#039;]; ?",
+                "uid": "52260"
+            },
+            "0.6": {
+                "name": "wordpress\/summarize-posts",
+                "version": "0.6",
+                "version_normalized": "0.6.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/summarize-posts.0.6.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>Summarize posts offers a better-architected and more flexible alternative to the built-in WordPress <code>get_posts()<\/code>, <code>query_posts()<\/code>, and <code>WP_Query<\/code> methods for retrieving posts. The new functions are exposed both to your theme files and to your posts via shortcode tags. You can search by taxonomy terms, post title, status, or just about any other criteria you can think of. You can also paginate the results and format them in a flexible and tokenized matter. These functions are loop-agnostic: they can be used inside or outside of the loop.<\/p>\n\n<p>You can easily search by taxonomy term, you can easily sort results by custom fields, and you can paginate results.<\/p>\n\n<pre><code>\/\/ Example Usage \n$Q = new GetPostsQuery();\n$Q-&#62;set_output_type(ARRAY_A);\n$results = $Q-&#62;get_posts();\nforeach ($results as $r):\n?&#62;\n    &#60;li&#62;&#60;a href=&#34;&#60;?php print $r[&#039;permalink&#039;]; ?&#62;&#34;&#62;&#60;?php print $r[&#039;post_title&#039;]; ?",
+                "uid": "52258"
+            },
+            "0.7": {
+                "name": "wordpress\/summarize-posts",
+                "version": "0.7",
+                "version_normalized": "0.7.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/summarize-posts.0.7.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>Summarize posts offers a better-architected and more flexible alternative to the built-in WordPress <code>get_posts()<\/code>, <code>query_posts()<\/code>, and <code>WP_Query<\/code> methods for retrieving posts. The new functions are exposed both to your theme files and to your posts via shortcode tags. You can search by taxonomy terms, post title, status, or just about any other criteria you can think of. You can also paginate the results and format them in a flexible and tokenized matter. These functions are loop-agnostic: they can be used inside or outside of the loop.<\/p>\n\n<p>You can easily search by taxonomy term, you can easily sort results by custom fields, and you can paginate results.<\/p>\n\n<pre><code>\/\/ Example Usage \n$Q = new GetPostsQuery();\n$Q-&#62;set_output_type(ARRAY_A);\n$results = $Q-&#62;get_posts();\nforeach ($results as $r):\n?&#62;\n    &#60;li&#62;&#60;a href=&#34;&#60;?php print $r[&#039;permalink&#039;]; ?&#62;&#34;&#62;&#60;?php print $r[&#039;post_title&#039;]; ?",
+                "uid": "52256"
+            }
+        }
+    }
+}

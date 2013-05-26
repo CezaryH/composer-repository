@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/bitly-service": {
+            "1.1.0": {
+                "name": "wordpress\/bitly-service",
+                "version": "1.1.0",
+                "version_normalized": "1.1.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/bitly-service.1.1.0.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p><em>Bit.ly Service<\/em> replaces the default WordPress shortlinks with Bitly easily.<\/p>\n\n<p>Adds links to the Global Stats\/User's Stats page and allows you to share the link on Twitter.<\/p>\n\n<h4>QR Code<\/h4>\n\n<p>You need to give your <code>bitly-service\/library\/cache\/<\/code> folder <code>755<\/code> permissions. If <code>755<\/code> doesn't work, try <code>777<\/code>.<\/p>\n\n<pre><code>[qrcode url=&#34;http:\/\/bitly.com\/WpbIlR&#34; size=&#34;390&#34;]<\/code><\/pre>\n\n<h4>Bitly<\/h4>\n\n<ul>\n<li><a href=\"https:\/\/bitly.com\/a\/sign_up\">Create a free account<\/a><\/li>\n<li><a href=\"https:\/\/bitly.com\/a\/your_api_key\">Your bitly API Key<\/a><\/li>\n<\/ul>",
+                "uid": "52563"
+            }
+        }
+    }
+}

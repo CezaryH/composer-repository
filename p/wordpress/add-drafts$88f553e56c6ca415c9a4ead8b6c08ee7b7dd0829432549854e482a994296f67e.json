@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/add-drafts": {
+            "1.0": {
+                "name": "wordpress\/add-drafts",
+                "version": "1.0",
+                "version_normalized": "1.0.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/add-drafts.1.0.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>Since Wordpress 2.5 there aren't any links to the post drafts in the edit post section, so I've made a quick plugin that simply displays a box with the last 10 recent drafts in edit post page, as an unordered list, sorted by the last edit time.<\/p>\n\n<p>The list is populated with the drafts titles, linked to the edit post page of each. The box is shown only to users with Editor role or higher.<\/p>\n\n<p>In WordPress 2.7 or higher the box is displayed in the sidebar of edit post page, under the categories.<\/p>",
+                "uid": "91848"
+            }
+        }
+    }
+}

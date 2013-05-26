@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/nix-anti-spam-light": {
+            "0.0.4": {
+                "name": "wordpress\/nix-anti-spam-light",
+                "version": "0.0.4",
+                "version_normalized": "0.0.4.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/nix-anti-spam-light.0.0.4.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>Easy-to-use tool to get rid of spam attacking your website AntiSpamLight is developed to help you to forget about annoying spam bots! No more spam and no more capcha! Just real information.<\/p>\n\n<h4>Features<\/h4>\n\n<ul>\n<li>Protects site from spam bots.<\/li>\n<li>No need to bother with captcha.<\/li>\n<li>Provides strong protection of your site comments.<\/li>\n<li>Doesn't load your server.<\/li>\n<li>Easy to use.<\/li>\n<\/ul>\n\n<p><strong>It's important<\/strong><\/p>\n\n<p>Uses Javascript<\/p>",
+                "uid": "9091"
+            }
+        }
+    }
+}

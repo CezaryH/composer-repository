@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/wp-conditional-shortcodes": {
+            "1.1.2": {
+                "name": "wordpress\/wp-conditional-shortcodes",
+                "version": "1.1.2",
+                "version_normalized": "1.1.2.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/wp-conditional-shortcodes.1.1.2.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>This plugin gives content developers shortcode equivalents to the conditional tags that WordPress provides for theme developments.  Each shortcode only includes its contents if a certain condition is true.  This allows them to modify what content is shown in any given context on a post-by-post basis. is_page, is_single and is_category allow specific pages, posts, categories to be specified by using the \"ids\" parameter.<\/p>\n\n<p>The shortcodes and when they include contents are:<\/p>\n\n<ul>\n<li>is_single - if showing a single post. Use the optional parameter &#8220;ids&#8221; to specify specific posts.<\/li>\n<li>is_singular - if showing a single post or page.<\/li>\n<li>is_page - if showing a page. Use the optional parameter &#8220;ids&#8221; to specify specific pages.<\/li>\n<li>is_home - if showing the blog home.<\/li>\n<li>is_front_page - if showing the front page of the site.<\/li>\n<li>is_sticky - if the current post or page is 'sticky'.<\/li>\n<li>is_category - if showing a category-based ar",
+                "uid": "11469"
+            }
+        }
+    }
+}

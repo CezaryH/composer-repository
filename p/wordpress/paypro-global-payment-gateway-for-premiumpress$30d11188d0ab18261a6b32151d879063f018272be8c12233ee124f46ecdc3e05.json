@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/paypro-global-payment-gateway-for-premiumpress": {
+            "1.0.0": {
+                "name": "wordpress\/paypro-global-payment-gateway-for-premiumpress",
+                "version": "1.0.0",
+                "version_normalized": "1.0.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/paypro-global-payment-gateway-for-premiumpress.1.0.0.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>Enables the PayPro Global payment gateway for all PremiumPress themes. Allows to use\nPayPro Global as the payment method for premium WordPress shops to process orders.<\/p>\n\n<p><strong>Requirements:<\/strong><\/p>\n\n<ul>\n<li>WordPress 2.9++<\/li>\n<li>One of the PremiumPress Themes<\/li>\n<li>PHP 5.1.xx<\/li>\n<li>MySql 5.1.xx<\/li>\n<li>PHP 4.xx and MySql 4.xx not supported<\/li>\n<\/ul>\n\n<h4>Instruction<\/h4>\n\n<ol>\n<li>Logon to your PPG account<\/li>\n<li>Go to Products and select the product you want to use with dynamic settings<\/li>\n<li>Scroll down to 'Dynamic settings' options and check the Allow box<\/li>\n<li>Enable the 'Use Hash' option<\/li>\n<li>Enter the 'Secret Key' value of 8 symbols<\/li>\n<li>Point 'Instant Payment Notification URL' to the callback page of your site<\/li>\n<li>Optionally - specify the value for 'ThankYou Page Redirect URL' to clear the basket (example: <a href=\"http:\/\/yoursite.com\/index.php?emptyCart=1\" rel=\"nofollow\">http:\/\/yoursite.com\/index.php?emptyCart=1<\/a> )<\/li>\n<li>Sa",
+                "uid": "22164"
+            }
+        }
+    }
+}

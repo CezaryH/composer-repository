@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/wp-offload": {
+            "1.0": {
+                "name": "wordpress\/wp-offload",
+                "version": "1.0",
+                "version_normalized": "1.0.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/wp-offload.1.0.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>WP-Offload will boost the performance of your blog by seamlessly offloading static content like images, documents and movies. This will greatly reduce bandwidth consumption and the number of HTTP requests issued to your web server. Additional features such as remote image manipulation and thumbnail generation are provided.<\/p>\n\n<p>You need a free <a href=\"http:\/\/steadyoffload.com\/sign-up\" title=\"Obtain your account now!\">SteadyOffload account<\/a>. After signing up, enter your SteadyOffload key and enable offloading via the WP-Offload options administration menu.<\/p>",
+                "uid": "103977"
+            }
+        }
+    }
+}

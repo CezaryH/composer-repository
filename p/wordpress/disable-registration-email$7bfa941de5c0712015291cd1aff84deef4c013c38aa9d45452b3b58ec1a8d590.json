@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/disable-registration-email": {
+            "0.9.0": {
+                "name": "wordpress\/disable-registration-email",
+                "version": "0.9.0",
+                "version_normalized": "0.9.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/disable-registration-email.0.9.0.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<h4>Disable Registration Email for WordPress<\/h4>\n\n<p>Turns off the automatic \"New user registration on your blog\" email messages to the admin email address. Useful for large sites.<\/p>\n\n<h4>Usage<\/h4>\n\n<ul>\n<li>Nothing to configure. Simply activate and the emails stop coming!<\/li>\n<\/ul>",
+                "uid": "65530"
+            }
+        }
+    }
+}

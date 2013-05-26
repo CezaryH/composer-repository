@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/ep-comments-export": {
+            "0.1.0": {
+                "name": "wordpress\/ep-comments-export",
+                "version": "0.1.0",
+                "version_normalized": "0.1.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/ep-comments-export.0.1.0.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>The plugin add an extra table columns for posts, pages and custom posts types with an clickable icon for download and export a posts\/pages comments and the comments meta data. The data will be saved in an csv file for easy use in other applications. The csv file will also be saved on the server at <code>uploads\/epce\/<\/code><\/p>\n\n<p>This is a first release and there are more functionality planed to be added in the future.<\/p>",
+                "uid": "32751"
+            }
+        }
+    }
+}

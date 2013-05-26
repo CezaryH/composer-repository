@@ -1,0 +1,40 @@
+{
+    "packages": {
+        "wordpress\/o3n-html-copier": {
+            "1.0.0": {
+                "name": "wordpress\/o3n-html-copier",
+                "version": "1.0.0",
+                "version_normalized": "1.0.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/o3n-html-copier.1.0.0.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>This plugin allows you to place [o3nhtmlcopier] shortcodes in your content. \nUsing this shortcode you can get a part of a page cloned in your content. For example you can set the parameters of the shortcode so that you can get the 5th table component in a page. (Doesn't work with nested items i.e. table in table because it searches for first closing tag after it finds 5th opening tag). \nThis is especially useful for getting dynamically changing content from a structure-wise static page. Say you want to get recent interest rates as a table from a page. The page structure itself doesn't change (i.e. the table is always 5th item in it) but content changes everyday. With this tool you can get the clone of that table generated whenever you visit your content page. (Please get the permission before doing so) \nFor more information <a href=\"http:\/\/www.o3n.org\/2013\/01\/html-element-copier-plugin\/\">visit the plugin page.<\/a><\/p>",
+                "uid": "11960"
+            },
+            "1.0.1": {
+                "name": "wordpress\/o3n-html-copier",
+                "version": "1.0.1",
+                "version_normalized": "1.0.1.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/o3n-html-copier.1.0.1.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>This plugin allows you to place [o3nhtmlcopier] shortcodes in your content. \nUsing this shortcode you can get a part of a page cloned in your content. For example you can set the parameters of the shortcode so that you can get the 5th table component in a page. (Doesn't work with nested items i.e. table in table because it searches for first closing tag after it finds 5th opening tag). \nThis is especially useful for getting dynamically changing content from a structure-wise static page. Say you want to get recent interest rates as a table from a page. The page structure itself doesn't change (i.e. the table is always 5th item in it) but content changes everyday. With this tool you can get the clone of that table generated whenever you visit your content page. (Please get the permission before doing so) \nFor more information <a href=\"http:\/\/www.o3n.org\/2013\/01\/html-element-copier-plugin\/\">visit the plugin page.<\/a><\/p>",
+                "uid": "11959"
+            }
+        }
+    }
+}

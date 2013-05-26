@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/attributron-2000": {
+            "1.0.0": {
+                "name": "wordpress\/attributron-2000",
+                "version": "1.0.0",
+                "version_normalized": "1.0.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/attributron-2000.1.0.0.2.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>This plugin adds attribution inputs to the media uploader and \"edit media\" page. It includes a number of creative common license, public domain, fair use, and standard copyright. It will link back to the author's page at either the end of a post\/page and\/or the attachment page. If you have a Flickr API key, it can automatically pull information for Flickr images (copyright, author name, title, description, etc).\nIt adds a few settings to the Media settings page.  You can add a Flickr API key, or display Creative Common logos for their respective licenses.<\/p>\n\n<p>To style the attributions, I've added these CSS classes:<\/p>\n\n<ul>\n<li>a2k-container - A div that contains all of the other elements<\/li>\n<li>a2k-sources - Contains the text \"Source:\" or \"Sources:\" depending on the context<\/li>\n<li>a2k-title - The attachment title<\/li>\n<li>a2k-copyright - The copyright information.  It may or may not contain an img tag, depending on your settings<\/li>\n<li>a2k-author - The author information",
+                "uid": "26689"
+            }
+        }
+    }
+}

@@ -1,0 +1,74 @@
+{
+    "packages": {
+        "wordpress\/extend-upload": {
+            "0.0.1": {
+                "name": "wordpress\/extend-upload",
+                "version": "0.0.1",
+                "version_normalized": "0.0.1.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/extend-upload.0.0.1.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>I had a problem that most of the time I had to upload a file, and I had to use a HTML upload, and that's kind of bad, so I created something to use the Thickbox and the WordPress Uploader.<\/p>\n\n<p>To use you must enqueue in the page used both the style and the script of the plugin:<\/p>\n\n<pre><code>&#60;?php\n    wp_enqueue_script( &#039;extend-upload&#039; );\n    wp_enqueue_style( &#039;extend-upload&#039; );<\/code><\/pre>\n\n<p>Then you can use the plugin by calling the jQuery Extends:<\/p>\n\n<pre><code>(function($) {\n    $(document).ready(function () {\n        $(&#039;.uc-call&#039;).callUpload();\n    });\n})(jQuery.noConflict());<\/code><\/pre>\n\n<p>And the HTML\/PHP output should be something like that:<\/p>\n\n<pre><code>&#60;?php\n    $args = array( \n        &#039;url&#039; =&#62; admin_url( &#039;media-upload.php?post_id=0&#38;button=&#039; . rawurlencode(&#039;Use as Avatar&#039;) . &#039;&#38;TB_iframe=1&#38;width=640&#38;height=253&#039; )\n    );\n?&#62;\n&#60;p class=&#039;uc-container&#0",
+                "uid": "27657"
+            },
+            "0.0.2": {
+                "name": "wordpress\/extend-upload",
+                "version": "0.0.2",
+                "version_normalized": "0.0.2.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/extend-upload.0.0.2.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>I had a problem that most of the time I had to upload a file, and I had to use a HTML upload, and that's kind of bad, so I created something to use the Thickbox and the WordPress Uploader.<\/p>\n\n<p>To use you must enqueue in the page used both the style and the script of the plugin:<\/p>\n\n<pre><code>&#60;?php\n    wp_enqueue_script( &#039;extend-upload&#039; );\n    wp_enqueue_style( &#039;extend-upload&#039; );<\/code><\/pre>\n\n<p>Then you can use the plugin by calling the jQuery Extends:<\/p>\n\n<pre><code>(function($) {\n    $(document).ready(function () {\n        $(&#039;.uc-call&#039;).callUpload();\n    });\n})(jQuery.noConflict());<\/code><\/pre>\n\n<p>And the HTML\/PHP output should be something like that:<\/p>\n\n<pre><code>&#60;?php\n    $args = array( \n        &#039;url&#039; =&#62; admin_url( &#039;media-upload.php?post_id=0&#38;button=&#039; . rawurlencode(&#039;Use as Avatar&#039;) . &#039;&#38;TB_iframe=1&#38;width=640&#38;height=253&#039; )\n    );\n?&#62;\n&#60;p class=&#039;uc-container&#0",
+                "uid": "27656"
+            },
+            "0.0.3": {
+                "name": "wordpress\/extend-upload",
+                "version": "0.0.3",
+                "version_normalized": "0.0.3.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/extend-upload.0.0.3.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>I had a problem that most of the time I had to upload a file, and I had to use a HTML upload, and that's kind of bad, so I created something to use the Thickbox and the WordPress Uploader.<\/p>\n\n<p>To use you must enqueue in the page used both the style and the script of the plugin:<\/p>\n\n<pre><code>&#60;?php\n    wp_enqueue_script( &#039;extend-upload&#039; );\n    wp_enqueue_style( &#039;extend-upload&#039; );<\/code><\/pre>\n\n<p>Then you can use the plugin by calling the jQuery Extends:<\/p>\n\n<pre><code>(function($) {\n    $(document).ready(function () {\n        $(&#039;.uc-call&#039;).callUpload();\n    });\n})(jQuery.noConflict());<\/code><\/pre>\n\n<p>And the HTML\/PHP output should be something like that:<\/p>\n\n<pre><code>&#60;?php\n    $args = array( \n        &#039;url&#039; =&#62; admin_url( &#039;media-upload.php?post_id=0&#38;button=&#039; . rawurlencode(&#039;Use as Avatar&#039;) . &#039;&#38;TB_iframe=1&#38;width=640&#38;height=253&#039; )\n    );\n?&#62;\n&#60;p class=&#039;uc-container&#0",
+                "uid": "27655"
+            },
+            "0.0.4": {
+                "name": "wordpress\/extend-upload",
+                "version": "0.0.4",
+                "version_normalized": "0.0.4.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/extend-upload.0.0.4.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>I had a problem that most of the time I had to upload a file, and I had to use a HTML upload, and that's kind of bad, so I created something to use the Thickbox and the WordPress Uploader.<\/p>\n\n<p>To use you must enqueue in the page used both the style and the script of the plugin:<\/p>\n\n<pre><code>&#60;?php\n    wp_enqueue_script( &#039;extend-upload&#039; );\n    wp_enqueue_style( &#039;extend-upload&#039; );<\/code><\/pre>\n\n<p>Then you can use the plugin by calling the jQuery Extends:<\/p>\n\n<pre><code>(function($) {\n    $(document).ready(function () {\n        $(&#039;.uc-call&#039;).callUpload();\n    });\n})(jQuery.noConflict());<\/code><\/pre>\n\n<p>And the HTML\/PHP output should be something like that:<\/p>\n\n<pre><code>&#60;?php\n    $args = array( \n        &#039;url&#039; =&#62; admin_url( &#039;media-upload.php?post_id=0&#38;button=&#039; . rawurlencode(&#039;Use as Avatar&#039;) . &#039;&#38;TB_iframe=1&#38;width=640&#38;height=253&#039; )\n    );\n?&#62;\n&#60;p class=&#039;uc-container&#0",
+                "uid": "27654"
+            }
+        }
+    }
+}

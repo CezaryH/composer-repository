@@ -1,0 +1,40 @@
+{
+    "packages": {
+        "wordpress\/static-pages": {
+            "1.0": {
+                "name": "wordpress\/static-pages",
+                "version": "1.0",
+                "version_normalized": "1.0.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/static-pages.1.0.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>The Static Pages plugin takes any existing html file and wraps it with a WordPress theme. Legacy html files can take advantage of all of the WordPress features such as sidebars, widgets and shortcodes. It can embed Adobe PDF files, or audio and video files in a wordpress theme<\/p>\n\n<p>The plugin works with a variety of file types.<\/p>\n\n<p>For html type files it extracts the title of the page, the content and any javascript in the header and throws away the rest. It then creates a fake post which it displays in the currently active theme. The legacy web page will appear as a WordPress page using the theme formatting with the theme headers, sidebars and footers. The plugin leaves all of the original file's BODY intact. If the original static page contained headings, menus, sidebars, etc, they will remain and be wrapped in the WordPress theme. Server Side includes (SSI) will, however, be ignored by PHP.<\/p>\n\n<p>For PDF, audio and video files it displays the pdf on a web page by embeddi",
+                "uid": "20545"
+            },
+            "1.1": {
+                "name": "wordpress\/static-pages",
+                "version": "1.1",
+                "version_normalized": "1.1.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/static-pages.1.1.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>The Static Pages plugin takes any existing html file and wraps it with a WordPress theme. Legacy html files can take advantage of all of the WordPress features such as sidebars, widgets and shortcodes. It can embed Adobe PDF files, or audio and video files in a wordpress theme<\/p>\n\n<p>The plugin works with a variety of file types.<\/p>\n\n<p>For html type files it extracts the title of the page, the content and any javascript in the header and throws away the rest. It then creates a fake post which it displays in the currently active theme. The legacy web page will appear as a WordPress page using the theme formatting with the theme headers, sidebars and footers. The plugin leaves all of the original file's BODY intact. If the original static page contained headings, menus, sidebars, etc, they will remain and be wrapped in the WordPress theme. Server Side includes (SSI) will, however, be ignored by PHP.<\/p>\n\n<p>For PDF, audio and video files it displays the pdf on a web page by embeddi",
+                "uid": "20544"
+            }
+        }
+    }
+}

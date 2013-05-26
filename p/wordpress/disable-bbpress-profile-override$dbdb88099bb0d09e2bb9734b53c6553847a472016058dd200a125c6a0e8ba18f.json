@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/disable-bbpress-profile-override": {
+            "0.1": {
+                "name": "wordpress\/disable-bbpress-profile-override",
+                "version": "0.1",
+                "version_normalized": "0.1.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/disable-bbpress-profile-override.0.1.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>Links to bbPress profiles are overridden (filtered) and pointed to a members BuddyPress profile when using the bbPress plugin with BuddyPress. <strong>Disable bbPress Profile Override<\/strong>&#160;removes the BuddyPress URL override, making bbPress member profile links available.<\/p>\n\n<p><a href=\"http:\/\/domainsoil.com\/products\/disable-bbpress-profile-override\/\">Disable bbPress Profile Override Plugin Page<\/a><\/p>\n\n<p><a href=\"http:\/\/support.domainsoil.com\/disable-bbpress-profile-override\/\">Disable bbPress Profile Override Support<\/a><\/p>\n\n<p><a href=\"http:\/\/trac.domainsoil.com\/disable-bbpress-profile-override\/\">Disable bbPress Profile Override Trac<\/a><\/p>\n\n<p><a href=\"http:\/\/labs.domainsoil.com\/bbpress\/forums\/\">Demo<\/a><\/p>\n\n<p><em>Notice the link to the profile points to <code>\/forums\/users\/<\/code> and the \"Blog Authors\" link (in the buddybar) points to <code>\/buddypress\/members\/<\/code><\/em><\/p>",
+                "uid": "38207"
+            }
+        }
+    }
+}

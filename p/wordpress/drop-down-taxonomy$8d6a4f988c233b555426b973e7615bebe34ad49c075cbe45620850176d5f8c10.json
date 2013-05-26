@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/drop-down-taxonomy": {
+            "0.1": {
+                "name": "wordpress\/drop-down-taxonomy",
+                "version": "0.1",
+                "version_normalized": "0.1.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/drop-down-taxonomy.0.1.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>This plugin will help the user to add a drop-down-custom-taxonomy box with the help of small code on his desired location.<\/p>\n\n<h4>Options<\/h4>\n\n<p>just place this small code into your theme file and the drop-down box will appear on that page \ncode:\nfor example, if you want to display it on home page,\nthen navigate to index.php, the inside that put this code, if you want to display the custom taxonomies, then just replace  category with your custom taxonomy name.<\/p>",
+                "uid": "56355"
+            }
+        }
+    }
+}

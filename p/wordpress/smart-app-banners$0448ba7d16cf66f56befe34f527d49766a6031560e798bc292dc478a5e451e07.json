@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/smart-app-banners": {
+            "1.1": {
+                "name": "wordpress\/smart-app-banners",
+                "version": "1.1",
+                "version_normalized": "1.1.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/smart-app-banners.1.1.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>Automatically implement Safari's new Smart App Banner feature on your Wordpress site. The banner provides a standardized method of promoting apps on the App Store from any website. The banner by default will appear on all pages. In order for this to work you have to enter your app id in <strong>Settings &#62; Smart App Banners &#62; Your App ID<\/strong>.<\/p>\n\n<h4>New Features<\/h4>\n\n<ul>\n<li>Added the ability to disable site-wide smart app banner and assign banners to specific posts and pages.<\/li>\n<li>Added \"Download on the App Store\" and \"Download for Android\" badges. You can add the badges:<\/li>\n<li>as widgets Settings-&#62;Widgets-&#62; <strong>Motech Download on the App Store<\/strong> and <strong>Motech Download for Android<\/strong><\/li>\n<li>anywhere using shortcodes <strong>[app-store-download id=yourid]<\/strong> and <strong>[android-download id=yourid]<\/strong><\/li>\n<\/ul>",
+                "uid": "8731"
+            }
+        }
+    }
+}

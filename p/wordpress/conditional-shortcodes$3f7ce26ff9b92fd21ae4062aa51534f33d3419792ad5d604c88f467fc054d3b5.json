@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/conditional-shortcodes": {
+            "1.0.0": {
+                "name": "wordpress\/conditional-shortcodes",
+                "version": "1.0.0",
+                "version_normalized": "1.0.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/conditional-shortcodes.1.0.0.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>This plugin gives content developers shortcode equivalents to the conditional tags that WordPress provides for theme developments.  Each shortcode only includes its contents if a certain condition is true.  This allows them to modify what content is shown in any given context on a post-by-post basis.<\/p>\n\n<p>The new shortcodes and when they include contents are:<\/p>\n\n<ul>\n<li>is_single - if showing a single post.<\/li>\n<li>is_singular - if showing a single post or page.<\/li>\n<li>is_home - if showing the blog home.<\/li>\n<li>is_front_page - if showing the front page of the site.<\/li>\n<li>is_sticky - if the current post or page is 'sticky'.<\/li>\n<li>is_category - if showing a category-based archive.<\/li>\n<li>is_tag - if showing a tag-based archive.<\/li>\n<li>is_tax - if showing a tag- or category-based archive.<\/li>\n<li>is_author - if showing an author-based archive.<\/li>\n<li>is_archive - if showing any archive.<\/li>\n<li>is_year - if showing a yearly archive.<\/li>\n<li>is_month - if showi",
+                "uid": "70399"
+            }
+        }
+    }
+}

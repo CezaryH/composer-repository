@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/securio-wplogin": {
+            "0.9": {
+                "name": "wordpress\/securio-wplogin",
+                "version": "0.9",
+                "version_normalized": "0.9.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/securio-wplogin.0.9.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>Securio WP-Login allows you to secure the wordpress login by tracking brute force attempts and by allowing the enabling of Multi-Factor Authentication using Securio's enterprise platform or any TOTP capable device like Google Authenticator<\/p>",
+                "uid": "12110"
+            }
+        }
+    }
+}

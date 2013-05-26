@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/google-adwords-call-tracking": {
+            "1.2": {
+                "name": "wordpress\/google-adwords-call-tracking",
+                "version": "1.2",
+                "version_normalized": "1.2.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/google-adwords-call-tracking.1.2.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>Display a different phone number accross your website for Google Adwords visitors. The Google Adwords Call Tracking Plugin works by setting a cookie if a visitor has come to your website from an Adwords Campaign. Each time the visitor comes back to your website, your Adwords phone number will still be shown if the cookie has not expired. You can set the cookie to expire (in seconds) from when the user either first or last visited your website.<\/p>\n\n<p>To use: Simply enter the shortcode [adwords_phone] (in place of a phone number) anywhere throughout your content in wordpress pages, posts or widgets.\nNOTE: You must enable the use of shortcodes for widgets in functions.php.<\/p>\n\n<p>Developer Note: Developers can use the custom php function adwords_phone($adwords_number, $regular_number) for use in theme files.\nWhere $adwords_number and $regular_number are the contents to be displayed (or actions to be taken) if the cookie is not expired. Please note: the function returns the  value so",
+                "uid": "35384"
+            }
+        }
+    }
+}

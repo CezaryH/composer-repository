@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/referer-message": {
+            "1.0": {
+                "name": "wordpress\/referer-message",
+                "version": "1.0",
+                "version_normalized": "1.0.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/referer-message.1.0.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>Enables you to display a welcome\/welcome-back message to your visitors depending on the site they have visited from, or a defult message if they've come direct.  Uses cookies to determine whether its a new visitor or not.<\/p>",
+                "uid": "106034"
+            }
+        }
+    }
+}

@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/jquery-image-carousel": {
+            "1.0.0": {
+                "name": "wordpress\/jquery-image-carousel",
+                "version": "1.0.0",
+                "version_normalized": "1.0.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/jquery-image-carousel.1.0.0.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "jQuery Image Carousel\n\n<p>A WordPress plugin implemented as a shortcode for creating a slideshow right from the posts screen. <\/p>\n\n<p>View my project <a href=\"http:\/\/oldmill1.github.com\/jquery-image-carousel\/\">on Github<\/a><\/p>\n\nHow to use\n\n<p>Using this plugin is as easy as <\/p>\n\n<ol>\n<li>Upload a bunch of images to a post.<\/li>\n<li>Put the word <strong>[carousel]<\/strong> somewhere in the body of the post.<\/li>\n<li>Publish or preview your post.<\/li>\n<\/ol>\n\nChange the size of the carousel\n\n<p>You can change the size of the carousel display by passing a <em>size<\/em> argument.<\/p>\n\n<pre><code>[carousel size=&#34;thumbnail&#34;]<\/code><\/pre>\n\n<p>Supported sizes: <em>thumbnail<\/em>, <em>medium<\/em>, <em>large<\/em>, <em>full<\/em><\/p>\n\nAdd some effects!\n\n<p>You can change the way images transition by passing an <em>effect<\/em> argument.<\/p>\n\n<pre><code>[carousel effect=&#34;bouce&#34;]<\/code><\/pre>\n\n<p>Please visit <a href=\"http:\/\/jqueryui.com\/docs\/show\/\">this page<\/a> for a list of suppo",
+                "uid": "26385"
+            }
+        }
+    }
+}

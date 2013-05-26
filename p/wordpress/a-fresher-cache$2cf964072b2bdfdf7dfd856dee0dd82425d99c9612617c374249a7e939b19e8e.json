@@ -1,0 +1,57 @@
+{
+    "packages": {
+        "wordpress\/a-fresher-cache": {
+            "0.1": {
+                "name": "wordpress\/a-fresher-cache",
+                "version": "0.1",
+                "version_normalized": "0.1.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/a-fresher-cache.0.1.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>A Fresher Cache adds an admin bar menu that gives easy access to functions that refresh (i.e, regenerate or invalidate)\ncached items. Out of the box, the plugin provides easy access to refresh items that WordPress Core caches; however, the true\npower of the plugin is its API that allows developers to easily add items to the menu that initiate custom functions that\nrefresh cached items.<\/p>\n\n<p>For instance, imagine that you wrote a function called \"my_update_all_term_caches\" that loops through all of the terms\nin your WordPress install and updates the cache for each item. You can add this function to the \"Freshen\" admin bar\nmenu with the following API call:<\/p>\n\n<pre><code>function my_update_all_term_caches_menu_item() {\n    $args = array(\n        &#039;id&#039; =&#62; &#039;my-update-all-term-caches&#039;,\n        &#039;title&#039; =&#62; &#039;Update Term Cache&#039;,\n        &#039;function&#039; =&#62; &#039;my_update_all_term_caches&#039;\n    );\n\n    afc_add_item( $args );\n}\nadd",
+                "uid": "24326"
+            },
+            "0.1.1": {
+                "name": "wordpress\/a-fresher-cache",
+                "version": "0.1.1",
+                "version_normalized": "0.1.1.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/a-fresher-cache.0.1.1.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>A Fresher Cache adds an admin bar menu that gives easy access to functions that refresh (i.e, regenerate or invalidate)\ncached items. Out of the box, the plugin provides easy access to refresh items that WordPress Core caches; however, the true\npower of the plugin is its API that allows developers to easily add items to the menu that initiate custom functions that\nrefresh cached items.<\/p>\n\n<p>For instance, imagine that you wrote a function called \"my_update_all_term_caches\" that loops through all of the terms\nin your WordPress install and updates the cache for each item. You can add this function to the \"Freshen\" admin bar\nmenu with the following API call:<\/p>\n\n<pre><code>function my_update_all_term_caches_menu_item() {\n    $args = array(\n        &#039;id&#039; =&#62; &#039;my-update-all-term-caches&#039;,\n        &#039;title&#039; =&#62; &#039;Update Term Cache&#039;,\n        &#039;function&#039; =&#62; &#039;my_update_all_term_caches&#039;\n    );\n\n    afc_add_item( $args );\n}\nadd",
+                "uid": "24325"
+            },
+            "0.1.2": {
+                "name": "wordpress\/a-fresher-cache",
+                "version": "0.1.2",
+                "version_normalized": "0.1.2.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/a-fresher-cache.0.1.2.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>A Fresher Cache adds an admin bar menu that gives easy access to functions that refresh (i.e, regenerate or invalidate)\ncached items. Out of the box, the plugin provides easy access to refresh items that WordPress Core caches; however, the true\npower of the plugin is its API that allows developers to easily add items to the menu that initiate custom functions that\nrefresh cached items.<\/p>\n\n<p>For instance, imagine that you wrote a function called \"my_update_all_term_caches\" that loops through all of the terms\nin your WordPress install and updates the cache for each item. You can add this function to the \"Freshen\" admin bar\nmenu with the following API call:<\/p>\n\n<pre><code>function my_update_all_term_caches_menu_item() {\n    $args = array(\n        &#039;id&#039; =&#62; &#039;my-update-all-term-caches&#039;,\n        &#039;title&#039; =&#62; &#039;Update Term Cache&#039;,\n        &#039;function&#039; =&#62; &#039;my_update_all_term_caches&#039;\n    );\n\n    afc_add_item( $args );\n}\nadd",
+                "uid": "24324"
+            }
+        }
+    }
+}

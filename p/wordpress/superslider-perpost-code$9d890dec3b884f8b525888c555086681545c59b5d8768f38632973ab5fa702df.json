@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/superslider-perpost-code": {
+            "1.1": {
+                "name": "wordpress\/superslider-perpost-code",
+                "version": "1.1",
+                "version_normalized": "1.1.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/superslider-perpost-code.1.1.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>Write css and javascript code directly on your post edit screen on a per post basis. Meta boxes provide a quick and easy way to enter custom code to each post. It then loads the code into your frontend theme header if the post has custom code. You may also display your custom code directly into your post with the custom_css or custom_js shortcode.<\/p>\n\n<p><strong>Features<\/strong><\/p>\n\n<ul>\n<li>easy use meta boxes for entering custom css and javascript<\/li>\n<li>Only loads custom code for the specific post or page.<\/li>\n<li>Customize the appearence or functionality of each page or post.<\/li>\n<li>Stores the css and javascript codes into the postmeta table with hidden meta_keys.<\/li>\n<li>All entered css will be active on this post.<\/li>\n<li>All entered javascript will be active on this post.<\/li>\n<li>Short code to display your custom code directly into the post. <\/li>\n<\/ul>\n\n<p><strong>The following options are available:<\/strong><\/p>\n\n<ul>\n<li>Show custom Css metabox on edit screens o",
+                "uid": "28221"
+            }
+        }
+    }
+}

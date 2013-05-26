@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/gpc-kits": {
+            "0.1": {
+                "name": "wordpress\/gpc-kits",
+                "version": "0.1",
+                "version_normalized": "0.1.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/gpc-kits.0.1.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>Features:\n* General class to access WordPress database (tables, rows)\n* General class to retrieve WordPress users information\n* General class to retrieve WordPress categories information\n* General class to manage files\n* General class to manage images\n* General class to validate and parse I\/O data\n* Miscellaneous class with some others useful function as:\n    - function to sort an array\n* Multi language (PO edit) support<\/p>\n\n<ol>\n<li>Plugins developers<\/li>\n<\/ol>\n\n<p>* In the class folder are all the classes that this kits brings to plugins developers. Each function in classes\nare well documented and are the best place to go for helps in order to use the functions.<\/p>",
+                "uid": "75841"
+            }
+        }
+    }
+}

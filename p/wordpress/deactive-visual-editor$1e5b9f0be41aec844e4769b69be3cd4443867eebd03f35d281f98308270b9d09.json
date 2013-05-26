@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/deactive-visual-editor": {
+            "0.1": {
+                "name": "wordpress\/deactive-visual-editor",
+                "version": "0.1",
+                "version_normalized": "0.1.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/deactive-visual-editor.0.1.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>The visual editor is nice when pages and posts are simple, but when you try to add special text such as php code to a page then the visual editor oftentimes has to be deactivated to edit the page.  This plug-in allows you to set which posts should not use the visual editor by setting a custom field 'deactivate&#095;visual&#095;editor' to true.  This allows the visual editor to be deactivated for the given post\/page, but remain active for all others.<\/p>",
+                "uid": "105254"
+            }
+        }
+    }
+}

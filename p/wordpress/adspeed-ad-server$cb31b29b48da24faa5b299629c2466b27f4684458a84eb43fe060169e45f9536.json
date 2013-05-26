@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/adspeed-ad-server": {
+            "1.2.1": {
+                "name": "wordpress\/adspeed-ad-server",
+                "version": "1.2.1",
+                "version_normalized": "1.2.1.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/adspeed-ad-server.1.2.1.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>AdSpeed.com is a hosted ad server and ad manager. You enter your ads and targeting criteria into AdSpeed. We serve ads, track and report real-time statistics about ad impressions, clicks, revenue, and conversions. You manage your ad inventory through our online user-friendly interface. Ad styling can be customized via CSS class \"AdSpeedWP\".<\/p>\n\nRequirements\n\n<p>To use this plugin, you need an active account with AdSpeed Ad Server. To sign up for an ad management account, please visit this page: <a href=\"http:\/\/www.adspeed.com\/Publishers\/register.html\" rel=\"nofollow\">http:\/\/www.adspeed.com\/Publishers\/register.html<\/a><\/p>\n\nAds on the Sidebar\n\n<p>Click on menu Appearance\/Widgets and drag AdSpeed Ad Server to the sidebar. For each ad placement, you need to specify a zone identification number. You can find the zone ID from the zone listing, do NOT use the zone name. This zone must exist within your AdSpeed account.<\/p>\n\nAds in a Blog Entry\n\n<p>To use it in a post, write this macro \"{A",
+                "uid": "83125"
+            }
+        }
+    }
+}

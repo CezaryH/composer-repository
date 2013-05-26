@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/utf-8-convertor": {
+            "0.2": {
+                "name": "wordpress\/utf-8-convertor",
+                "version": "0.2",
+                "version_normalized": "0.2.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/utf-8-convertor.0.2.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>This plugin is designed to convert all the broken UTF8 characters on your WordPress powered site.\nIt will leave all your posts intact in the database and instead convert the ugly characters each time a post is loaded<\/p>",
+                "uid": "101994"
+            }
+        }
+    }
+}

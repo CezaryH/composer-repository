@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/etsy-brackets": {
+            "1.0": {
+                "name": "wordpress\/etsy-brackets",
+                "version": "1.0",
+                "version_normalized": "1.0.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/etsy-brackets.1.0.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>This plugin allows users to inserts Etsy products in posts or pages using the bracket\/shortcode method. This enables Etsy users to share their products through their blogs!<\/p>\n\n<p>NOTE: I highly recommend that you go to Etsy.com and register for your own developer API key as there are limited API calls tat can be made from any particular API key within a single day.  This is not required, but is certainly recommended. See <a href=\"http:\/\/developer.etsy.com\/apps\/register\" rel=\"nofollow\">http:\/\/developer.etsy.com\/apps\/register<\/a><\/p>\n\n<ol>\n<li>Simply go to Etsy.com<\/li>\n<li>Find the id of the item (eg. 1234)<\/li>\n<li>Enter [etsy-id=1234] in your post or page<\/li>\n<li>Enjoy!<\/li>\n<\/ol>",
+                "uid": "66977"
+            }
+        }
+    }
+}

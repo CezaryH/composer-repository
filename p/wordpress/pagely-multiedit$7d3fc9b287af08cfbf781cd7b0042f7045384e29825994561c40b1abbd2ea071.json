@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/pagely-multiedit": {
+            "0.9.8": {
+                "name": "wordpress\/pagely-multiedit",
+                "version": "0.9.8",
+                "version_normalized": "0.9.8.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/pagely-multiedit.0.9.8.3.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>One thing I always wished WP would do better is allow for multiple editable content blocks on page templates. This plugin uses custom fields to create simple tinyMCE editable regions on page templates.<\/p>\n\n<p>See Instructions and Usage Examples here: <a href=\"http:\/\/blog.page.ly\/multiedit-plugin\/\">Page.ly MultiEdit plugin<\/a><\/p>\n\n<p>NOTE: Must be used inside\/after the opening loop statement: \nwhile (have_posts()) : the_post(); \n  multieditDisplay('YourBlockName');<\/p>\n\n<p>Brought to you by: <a href=\"http:\/\/page.ly\">Page.ly WordPress Hosting<\/a><\/p>\n\n<p>Follow <a href=\"http:\/\/twitter.com\/strebel\">@strebel<\/a> and feel free to check out <a href=\"http:\/\/page.ly\">Page.ly<\/a><\/p>",
+                "uid": "73580"
+            }
+        }
+    }
+}

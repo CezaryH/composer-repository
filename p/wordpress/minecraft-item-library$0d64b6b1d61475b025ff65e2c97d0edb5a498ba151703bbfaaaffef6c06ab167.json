@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/minecraft-item-library": {
+            "1.1": {
+                "name": "wordpress\/minecraft-item-library",
+                "version": "1.1",
+                "version_normalized": "1.1.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/minecraft-item-library.1.1.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>View the <strong>Other Notes<\/strong> tab for more detailed instructions.<\/p>\n\n<p><strong>Note<\/strong> Having issues getting screenshots to load on the screenshots tab, hopefully they'll be up soon.<\/p>\n\n<p>This plugin adds the ability to create a library of Minecraft items\/blocks\/recipes\/monsters etc.<\/p>\n\n<p>Option to auto insert item information, or shortcodes are available.<\/p>\n\n<ol>\n<li>[mcitem-recipe] - Inserts a crafting table that will display what items are needed to craft the current item.<\/li>\n<li>[mcitem-stats] - Inserts a table listing the stats of the item such as Points of Protection, Health, Durability, etc...<\/li>\n<li>[mcitem-sources] - Inserts a table with mini-item images of the item\/monster that the current item comes from.<\/li>\n<\/ol>\n\n<p>On the custom post type edit page, there are 3 boxes:<\/p>\n\n<p>1) Minecraft Stats - The following fields are available:<\/p>\n\n<ul>\n<li>Block\/Item ID: Minecraft Item or Block ID <\/li>\n<li>Stack Count: If stackable, how many per st",
+                "uid": "16184"
+            }
+        }
+    }
+}

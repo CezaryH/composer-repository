@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/nevobo-feed": {
+            "1.4.0": {
+                "name": "wordpress\/nevobo-feed",
+                "version": "1.4.0",
+                "version_normalized": "1.4.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/nevobo-feed.1.4.0.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>[nevobo feed=]<\/p>\n\n<p>De plugin detecteert zelf welke feed het betreft. Plaats de shortcode ergens op de wordpress site.\nVia het admin paneel zijn algemene instellingen te wijzigen. Indien in de shortcodes ook waarden worden gespecificeerd hebben deze voorrang op de instellingen in het dashboard.<\/p>\n\n<p>De volgende extra opties zijn mogelijk:<\/p>\n\n<p>aantal=x \nsporthal=1\nplaats=1\ncache=0\nical=0\nvereniging=\"verenigingsnaam of een deel ervan\"<\/p>\n\n<p>Aantal=x: De x is een opgegeven numerieke waarde die het aantal getoonde items limiteerd tot het gewenste aantal.\nSporthal=1: geeft de sporthal waar de wedstrijd wordt gespeeld weer in het programma overzicht. (Alleen bij een programmafeed!)\nPlaats=1: geeft de plaats waar de wedstrijd wordt gespeeld weer in het programma overzicht. (Alleen bij een programmafeed!)\nCache=0: Het gebruik van RSS caching uitgeschakeld. Caching is standaard ingesteld op 1 uur. Cache = x. 1 = kwartier, 2 = 30 minuten, 3 = 45 minuten etc.\nical=0: Verberg de ica",
+                "uid": "19399"
+            }
+        }
+    }
+}

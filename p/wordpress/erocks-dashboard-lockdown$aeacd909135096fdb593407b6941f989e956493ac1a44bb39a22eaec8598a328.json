@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/erocks-dashboard-lockdown": {
+            "1.0": {
+                "name": "wordpress\/erocks-dashboard-lockdown",
+                "version": "1.0",
+                "version_normalized": "1.0.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/erocks-dashboard-lockdown.1.0.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>Lock All Subscribers Out Of The Dashboard<\/p>\n\n<p>Force Your Buddypress Users To Use The BP Profile Pages!<\/p>\n\n<p>Any subscriber attempting to access a page under \/wp-admin\/ will be redirected to \/wp-admin\/profile.php.<\/p>\n\n<p>Why?<\/p>\n\n<p>Use a subscriber site, but don't want people seeing your wordpress dashboard? Have you ever logged in as a test user and noticed that a plugins setting page is visible to non admins? What about if you ran buddypress, and you wanted your subscribers to just use the BP profile pages for everything?<\/p>\n\n..If so, then this is for you!",
+                "uid": "62121"
+            }
+        }
+    }
+}

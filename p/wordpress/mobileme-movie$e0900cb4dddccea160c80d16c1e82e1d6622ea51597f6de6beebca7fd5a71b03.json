@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/mobileme-movie": {
+            "1.1": {
+                "name": "wordpress\/mobileme-movie",
+                "version": "1.1",
+                "version_normalized": "1.1.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/mobileme-movie.1.1.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>This plugin allows you to insert a movie you have hosted on your MobileMe Gallery's website in your post or page. Use [mobileme url=\"http:\/\/gallery.me.com\/appleid#albumid\/moviename\" type=\"m4v or mov\" width=\"width\" height=\"height\"] to insert the movie. The easiest way to get the \"url\" is to copy it from your browser's address bar when viewing the movie on the Gallery's site.<\/p>\n\n<p>The \"type\" attribute is optional if the movie is an .m4v file, which it uses by default, but required for .mov files. If it doesn't work without specifying the \"type\" attribute, then try adding it with the \"mov\" value. The \"width\" and \"height\" attributes are optional and default to width=\"640\" and height=\"360\". If one is specified, the other must be also, otherwise it uses the defaults.<\/p>",
+                "uid": "43129"
+            }
+        }
+    }
+}

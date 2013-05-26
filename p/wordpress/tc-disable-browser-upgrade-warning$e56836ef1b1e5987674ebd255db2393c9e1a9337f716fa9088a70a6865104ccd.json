@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/tc-disable-browser-upgrade-warning": {
+            "1.0.1": {
+                "name": "wordpress\/tc-disable-browser-upgrade-warning",
+                "version": "1.0.1",
+                "version_normalized": "1.0.1.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/tc-disable-browser-upgrade-warning.1.0.1.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>WordPress 3.2 introduced a new dashboard widget that warns you if you're not using the latest version of your chosen browser. While some may find this useful, if your clients\/contributors\/other interested parties cannot upgrade their browser for whatever reason (or simply choose not to), you can disable this warning across the board rather than scare them with warning messages they have no power to control.<\/p>\n\n<p>Of course, by disabling this warning message you run the risk that your WordPress site may not function properly for older browser users. However, global browser usage statistics indicate that WordPress' stated support (namely, Internet Explorer &#62;= 7), will be perfectly fine for the vast majority of WordPress users out there.<\/p>",
+                "uid": "42946"
+            }
+        }
+    }
+}

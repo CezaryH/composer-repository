@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/sticky-custom-post-types": {
+            "1.2.3": {
+                "name": "wordpress\/sticky-custom-post-types",
+                "version": "1.2.3",
+                "version_normalized": "1.2.3.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/sticky-custom-post-types.1.2.3.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>This plugin adds a \"Stick this to the front page\" checkbox on the admin add\/edit entry page of selected custom post types.<\/p>\n\n<p>Set options to enable in Settings &#8594; Reading. Unless you're using custom queries to display your sticky posts, you probably want to check the option to add selected post types to the blog home.<\/p>\n\n<p>Note: Sticky custom posts are stored in the global 'sticky_posts' option field, just like regular posts.<\/p>",
+                "uid": "40689"
+            }
+        }
+    }
+}

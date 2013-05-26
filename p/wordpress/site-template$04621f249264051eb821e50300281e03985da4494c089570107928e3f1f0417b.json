@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/site-template": {
+            "1.1": {
+                "name": "wordpress\/site-template",
+                "version": "1.1",
+                "version_normalized": "1.1.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/site-template.1.1.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>Site Template is a plugin that allows site administrators to set up \"site templates\" for their WPMU or wordpress 3 (with networking enabled) sites.  When a user creates a new blog, he or she will be prompted with a list of site templates to select from.  Each template specifies the theme, theme options, widgets, plugins, pages, posts, categories, links, tags, menus, and link cateogries for the new site.<\/p>\n\n<p>Creating a site template is a two step process:<\/p>\n\n<p>First, create a site with the appropriate theme, theme options, widgets, active plugins, pages, posts, categories, tags, links, and link categories.  This site will serve as the template, and the site's name will be the name of the template.<\/p>\n\n<p>Second, an administrator needs to flag the site as a template.  To flag a site as a template the administrator needs to go to the admin blogs page (in wpmu) or the sites page (in wp3), find the site, and click on the \"Activate Template\" link in the rightmost column.<\/p>\n\n<p>O",
+                "uid": "65229"
+            }
+        }
+    }
+}

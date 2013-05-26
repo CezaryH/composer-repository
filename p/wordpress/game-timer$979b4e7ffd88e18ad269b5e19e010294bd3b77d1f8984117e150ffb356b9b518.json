@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/game-timer": {
+            "1.0": {
+                "name": "wordpress\/game-timer",
+                "version": "1.0",
+                "version_normalized": "1.0.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/game-timer.1.0.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>This plugins use <a href=\"http:\/\/www.longtailvideo.com\/players\">jw pleyer<\/a> for music\/alert play and <a href=\"http:\/\/keith-wood.name\/countdown.html\">jQuery Countdown<\/a> for countdown clock timer.<\/p>\n\n<p>Game timer with email notification and music alert.<\/p>\n\n<h4>Feature<\/h4>\n\n<ul>\n<li>Admin can add new games name for games i play<\/li>\n<li>Admin can add new sound\/music (mp3) for alert while timer ends up (if the browser is open that time)<\/li>\n<li>Registered user also can add games name \/ music\/sound for alert, will stored user wise<\/li>\n<li>You can show the games listing with timer countdown in page\/post using short code [game-timer]<\/li>\n<li>Also you can use the php template tag &#60;?php if ( function_exists('wpgt_game_timer_show') ) wpgt_game_timer_show(); ?&#62; to place the games listing anywhere in php code <\/li>\n<li>Currently there is a widget <code>Game timer<\/code> to add the game timer form in the sidebar area<\/li>\n<li>You can set custom email template, which will sen",
+                "uid": "16495"
+            }
+        }
+    }
+}

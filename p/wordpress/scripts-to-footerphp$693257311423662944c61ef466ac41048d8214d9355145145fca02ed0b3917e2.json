@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/scripts-to-footerphp": {
+            "0.1": {
+                "name": "wordpress\/scripts-to-footerphp",
+                "version": "0.1",
+                "version_normalized": "0.1.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/scripts-to-footerphp.0.1.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>This small plugin moves scripts to the footer to help speed up page load times, while keep stylesheets in the header. Note that this only works if you have plugins and a theme that utilizes wp_enqueue_scripts correctly.<\/p>",
+                "uid": "11985"
+            }
+        }
+    }
+}

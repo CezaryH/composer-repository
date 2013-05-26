@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/wp-log-in-browser": {
+            "0.1.2": {
+                "name": "wordpress\/wp-log-in-browser",
+                "version": "0.1.2",
+                "version_normalized": "0.1.2.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/wp-log-in-browser.0.1.2.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>I'm working on a nice admin screen to config auto-logging of some common things (like wp_query in pre_get_posts and wp), and some other goodies.<\/p>\n\n<p>To log things manually, you can use:<\/p>\n\n<pre><code>browser()-&#62;log  ( $var, $label );<\/code><\/pre>\n\n<pre><code>browser()-&#62;warn ( $var, $label );<\/code><\/pre>\n\n<pre><code>browser()-&#62;info ( $var, $label );<\/code><\/pre>\n\n<pre><code>browser()-&#62;error( $var, $label );<\/code><\/pre>\n\n<p>Also, commandas are chainable:<\/p>\n\n<pre><code>browser()-&#62;log( &#039;This is a log...&#039; )-&#62;error( &#039;...and this is an error&#039; );<\/code><\/pre>\n\n<p>For example, to log all your main query's query_vars:<\/p>\n\n<pre><code>add_filter( &#039;pre_get_posts&#039;, &#039;log_wp_query&#039;, 10000 );\n\nfunction log_wp_query( $query ) {\n    if ( $query-&#62;is_main_query() )\n        browser()-&#62;log( $query-&#62;query_vars, &#039;pre_get_posts&#039; );\n\n    return $query;\n}<\/code><\/pre>\n\n<h4>Filters<\/h4>\n\n<p><em>wplinb-match-wp-debug",
+                "uid": "13402"
+            }
+        }
+    }
+}

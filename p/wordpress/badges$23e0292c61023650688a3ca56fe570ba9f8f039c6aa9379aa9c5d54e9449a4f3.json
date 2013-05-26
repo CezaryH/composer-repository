@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/badges": {
+            "2.3": {
+                "name": "wordpress\/badges",
+                "version": "2.3",
+                "version_normalized": "2.3.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/badges.2.3.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>Display \"Badges\" (which are really no more than HTML snippets) from a set of files in a specified directory off the root of the blog. The directory will default to \".\/badges\" and the Zip file contains both that directory as well as a \"Sample\" badge.<\/p>\n\n<p>Using the Widget you can choose whether to:<\/p>\n\n<ol>\n<li>enable \"Display Badge in a Box\" (enabled by default, uses internal CSS)<\/li>\n<li>enable \"Display a Drop-Shadow\" (probably best used with \"Box Mode\")<\/li>\n<\/ol>\n\n<p>as well as<\/p>\n\n<ol>\n<li>decide whether you would like to use a Title<\/li>\n<li>define the directory of the badges.<\/li>\n<\/ol>",
+                "uid": "54322"
+            }
+        }
+    }
+}

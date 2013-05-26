@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/image-meta": {
+            "0.1": {
+                "name": "wordpress\/image-meta",
+                "version": "0.1",
+                "version_normalized": "0.1.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/image-meta.0.1.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>Adds a filter so that the title of images is the file name, not the caption,\nas it was in wp &#60; 3.0<\/p>",
+                "uid": "66808"
+            }
+        }
+    }
+}

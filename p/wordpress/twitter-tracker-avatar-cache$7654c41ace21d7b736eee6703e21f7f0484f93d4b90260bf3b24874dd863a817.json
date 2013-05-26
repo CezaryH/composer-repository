@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/twitter-tracker-avatar-cache": {
+            "1.0": {
+                "name": "wordpress\/twitter-tracker-avatar-cache",
+                "version": "1.0",
+                "version_normalized": "1.0.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/twitter-tracker-avatar-cache.1.0.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>Caches Twitter avatars used by the <a href=\"http:\/\/wordpress.org\/extend\/plugins\/twitter-tracker\/\">Twitter Tracker<\/a> widgets to avoid using the Twitter API, which sets cookies. This is inline with new directives from the UK government to reduce unnecessary cookie usage, following European legislation on this subject.<\/p>\n\n<p>In order to maintain site performance, the plugin does not fetch and cache the images during the rendering of the page, instead it spins off a separate operation using the built-in WordPress cache. One slight disadvantage of this approach is that the first time a new Twitter avatar is encountered it can take around a minute for it to be available.<\/p>\n\n<p>If you want to avoid the use of cookies, and don't need avatars in your widget (or are hiding the avatars with CSS) then you can use the <a href=\"http:\/\/wordpress.org\/extend\/plugins\/twitter-tracker-blank-avatars\/\">Twitter Tracker Blank Avatars<\/a> partner plugin.<\/p>",
+                "uid": "24030"
+            }
+        }
+    }
+}

@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/set-email-from-address": {
+            "1.0": {
+                "name": "wordpress\/set-email-from-address",
+                "version": "1.0",
+                "version_normalized": "1.0.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/set-email-from-address.1.0.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>This plugin allows you to set the \"From\" address used in emails sent by WordPress, \nthus overriding the default of <a href=\"mailto:wordpress@yourdomain.com\">wordpress@yourdomain.com<\/a>.<\/p>\n\n<p>The resulting \"From\" in emails sent by WordPress will still display a name that \ndepends on the context in which the email was sent (sometimes the blog name, \nsometimes the comment author&#8217;s name, sometimes nothing). Only the address itself \nwill be affected.<\/p>",
+                "uid": "107453"
+            }
+        }
+    }
+}

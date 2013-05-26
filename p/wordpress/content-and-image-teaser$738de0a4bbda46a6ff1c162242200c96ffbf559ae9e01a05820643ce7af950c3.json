@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/content-and-image-teaser": {
+            "0.1": {
+                "name": "wordpress\/content-and-image-teaser",
+                "version": "0.1",
+                "version_normalized": "0.1.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/content-and-image-teaser.0.1.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>This plugin limits content on front or archive page after set number of words, add gettexted more link to the end of it , pull out only wordpress allowed html tags, check if any xhtml tag is unclosed and close it, take and resize first image from the post.<\/p>\n\n<p>In your theme file find<\/p>\n\n<pre>&#60;?php the_content('Read more...'); ?&#62; <\/pre>\n\n<p>And replace it with<\/p>\n\n<pre>&#60;?php content(100, __('(more...)')); ?&#62;<\/pre>",
+                "uid": "80158"
+            }
+        }
+    }
+}

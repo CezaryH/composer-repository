@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/trove": {
+            "1.0.0": {
+                "name": "wordpress\/trove",
+                "version": "1.0.0",
+                "version_normalized": "1.0.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/trove.1.0.0.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>This plugin uses the <a href=\"http:\/\/trove.nla.gov.au\/general\/api\">Trove API<\/a> to embed OCR'd text from digitised newspapers in <a href=\"http:\/\/trove.nla.gov.au\/\">Trove<\/a> in your blog.<\/p>",
+                "uid": "22066"
+            }
+        }
+    }
+}

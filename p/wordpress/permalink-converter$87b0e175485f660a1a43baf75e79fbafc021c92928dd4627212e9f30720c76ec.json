@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/permalink-converter": {
+            "0.9": {
+                "name": "wordpress\/permalink-converter",
+                "version": "0.9",
+                "version_normalized": "0.9.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/permalink-converter.0.9.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>Simple plugin to automatically convert the internal links that are using the default ?p= into the permalink equivalent.<\/p>\n\n<p>You can also use the following tag within posts and pages:\n[permalink:]<\/p>\n\n<p>Examples:\n[permalink:1]\nwould substitute the permalink for post or page id 1.<\/p>\n\n<p>or<\/p>\n\n<p><a href=\"http:\/\/myblog.com\/?p=23\">My blog post<\/a>\nwould become\n<a href=\"http:\/\/myblog.com\/my-category\/my-blog-post\/\">My blog post<\/a><\/p>",
+                "uid": "85800"
+            }
+        }
+    }
+}

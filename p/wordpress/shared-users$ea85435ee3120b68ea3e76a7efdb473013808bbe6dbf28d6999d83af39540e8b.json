@@ -1,0 +1,40 @@
+{
+    "packages": {
+        "wordpress\/shared-users": {
+            "1.0": {
+                "name": "wordpress\/shared-users",
+                "version": "1.0",
+                "version_normalized": "1.0.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/shared-users.1.0.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>If you have multiple WordPress installations using the same database, this plugin makes it possible for one\ninstallation to run off the user table of another installation. Main user table selection is completely configurable\nthrough the options panel, and permissions of the users can be different from blog to blog.<\/p>\n\n<p>When you switch the user table from one blog to another, all level 10 users (administrators) of the blog you are\nswitching <strong>to<\/strong> are also made level 10 users on the blog in which you installed the plugin. Only a level 10 user can\nmake the switch.<\/p>\n\n<p>After you switch, you should visit the Users section of the Admin panel to setup permissions for all other users.\nThey will be listed as \"No role for this blog\" in WordPress 2.3, or with an empty Role column under \"All Users\" in WordPress 2.5\/2.6.<\/p>\n\n<p>Note that ideally the blog you are switching should not have more than the default admin user. Content created by all other users\nwill automaticall",
+                "uid": "105440"
+            },
+            "1.1": {
+                "name": "wordpress\/shared-users",
+                "version": "1.1",
+                "version_normalized": "1.1.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/shared-users.1.1.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>If you have multiple WordPress installations using the same database, this plugin makes it possible for one\ninstallation to run off the user table of another installation. Main user table selection is completely configurable\nthrough the options panel, and permissions of the users can be different from blog to blog.<\/p>\n\n<p>When you switch the user table from one blog to another, all level 10 users (administrators) of the blog you are\nswitching <strong>to<\/strong> are also made level 10 users on the blog in which you installed the plugin. Only a level 10 user can\nmake the switch.<\/p>\n\n<p>After you switch, you should visit the Users section of the Admin panel to setup permissions for all other users.\nThey will be listed as \"No role for this blog\" in WordPress 2.3, or with an empty Role column under \"All Users\" in WordPress 2.5\/2.6.<\/p>\n\n<p>Note that ideally the blog you are switching should not have more than the default admin user. Content created by all other users\nwill automaticall",
+                "uid": "105438"
+            }
+        }
+    }
+}

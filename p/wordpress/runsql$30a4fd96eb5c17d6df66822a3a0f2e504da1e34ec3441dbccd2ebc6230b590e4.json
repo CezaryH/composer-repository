@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/runsql": {
+            "2.3.0": {
+                "name": "wordpress\/runsql",
+                "version": "2.3.0",
+                "version_normalized": "2.3.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/runsql.2.3.0.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>Execute SQL commands via simple interface.  It has error handling and reporting as well as some elementray security.<\/p>",
+                "uid": "58992"
+            }
+        }
+    }
+}

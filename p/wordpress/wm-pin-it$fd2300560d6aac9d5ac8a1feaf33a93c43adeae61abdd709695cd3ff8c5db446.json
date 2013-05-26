@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/wm-pin-it": {
+            "1.1.1": {
+                "name": "wordpress\/wm-pin-it",
+                "version": "1.1.1",
+                "version_normalized": "1.1.1.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/wm-pin-it.1.1.1.1.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>A very simple way for adding Pin-it capability to your WP site. Just use [wmpin] [\/wmpin].<\/p>\n\n<p>It uses jquery for the Pinterest API. It is intended for one use and that is to make pinning easy.<\/p>",
+                "uid": "13189"
+            }
+        }
+    }
+}

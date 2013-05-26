@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/facetious": {
+            "1.1.4": {
+                "name": "wordpress\/facetious",
+                "version": "1.1.4",
+                "version_normalized": "1.1.4.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/facetious.1.1.4.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>Facetious lets you add a faceted - often called an 'advanced' - search form to your WordPress website. It comes with a ready-to-use sidebar widget, plus a number of implementation options for developers.<\/p>\n\n<p>A Facetious form can include dropdown lists of:<\/p>\n\n<ul>\n<li>Taxonomy terms (tags, categories, and custom taxonomies)<\/li>\n<li>Months<\/li>\n<li>Plus a conventional search input box<\/li>\n<\/ul>\n\n<p>You can also restrict searches by post type <em>(singular)<\/em>, if you so desire.<\/p>\n\n<p>Additionally, Facetious introduces an extra 'pretty permalink' structure around search queries, which may help your site performance if you're using a caching plugin like WP Super Cache. Also, they look a heck of a lot friendlier than <code>?s=polly&#38;post_type=pet&#38;category=bird<\/code>. (You don't even have to display a faceted search form on your site to benefit from these, by the way).<\/p>\n\n<p>Please note - Facetious isn't a replacement search engine; it helps you construct the search ",
+                "uid": "11463"
+            }
+        }
+    }
+}

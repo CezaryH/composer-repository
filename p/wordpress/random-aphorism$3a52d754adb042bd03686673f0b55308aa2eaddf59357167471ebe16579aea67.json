@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/random-aphorism": {
+            "1.0": {
+                "name": "wordpress\/random-aphorism",
+                "version": "1.0",
+                "version_normalized": "1.0.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/random-aphorism.1.0.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>Add your aphorisms through Options -&#62; Random Aphorism panel, using form.<\/p>\n\n<p>You can show the random aphorism using shortcode <strong>[aphorism]<\/strong> in Posts or Pages,\nor hardcode it in PHP code using <strong>&#60;?php do_shortcode('[aphorism]'); ?&#62;<\/strong>.<\/p>\n\n<p>The plugin is multi-lingual and actually translated in Russian language.\nYou can add your own translation by creating .po and .mo files named <code>random_aphorism-DOMAIN.(po&#124;mo)<\/code> in <code>lang<\/code> subfolder.<\/p>",
+                "uid": "22716"
+            }
+        }
+    }
+}

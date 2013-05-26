@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/video-comments-webcam-recorder": {
+            "1.55": {
+                "name": "wordpress\/video-comments-webcam-recorder",
+                "version": "1.55",
+                "version_normalized": "1.55.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/video-comments-webcam-recorder.1.55.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>The Video Comments Webcam Recorder allows WordPress users to record video comments as responses to posts or to other comments. If the user is not logged into WordPress he cannot access this feature.\nSupports playback with JwPlayer plugin.<\/p>\n\n<p>Special requirements: This plugin has requirements beyond regular WordPress hosting specifications: a RTMP host is needed for persistent connections to manage live interactions and streaming (Wowza recommended). More details about this, including solutions are provided on the Installation section pages.<\/p>",
+                "uid": "21065"
+            }
+        }
+    }
+}

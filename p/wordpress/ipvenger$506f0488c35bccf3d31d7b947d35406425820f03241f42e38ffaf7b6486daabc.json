@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/ipvenger": {
+            "1.0.2": {
+                "name": "wordpress\/ipvenger",
+                "version": "1.0.2",
+                "version_normalized": "1.0.2.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/ipvenger.1.0.2.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>IPVenger uses NorseCorp IPViking LIVE threat intelligence technology to evaluate each IP requesting access to your WordPress site.<\/p>\n\n<p>When a request comes in, the IP address is sent to the IPViking server, which assigns a numerical risk factor based on live data.<\/p>\n\n<p>IPs whose risk factor exceeds a user-configurable threshold are blocked before they can harm your site.<\/p>\n\n<p>Detailed analytics are provided, as is the ability to blacklist specific IP addresses and countries of origin.<\/p>\n\n<p>If you have any questions, please feel free to contact us using our <a href=\"http:\/\/support.ipvenger.com\/\">support area<\/a>.<\/p>",
+                "uid": "11594"
+            }
+        }
+    }
+}

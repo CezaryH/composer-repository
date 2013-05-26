@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/motif-wordpress-theme-switcher": {
+            "1.0": {
+                "name": "wordpress\/motif-wordpress-theme-switcher",
+                "version": "1.0",
+                "version_normalized": "1.0.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/motif-wordpress-theme-switcher.1.0.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>Motif WordPress Theme Switcher, changes the themes of your WordPress blog automatically everyday. You can control which theme to apply on which day from within the plugin.<\/p>\n\n<p>Some of the features:<\/p>\n\n<ul>\n<li>Displays all the themes you have installed in your blog in preview image<\/li>\n<li>Assign themes to each day in a week using a matrix<\/li>\n<li>Ability to add Google Analytics tracking code from the plugin, so that it automatically embeds the Google Analytics code in your switched theme if its missing.<\/li>\n<li>Turn off the plugin without deactivating the plugin or loosing your settings.<\/li>\n<\/ul>\n\n<p><em>Issues<\/em><\/p>\n\n<p>There can be few issues while using this plugin depending on your setup, that you might want to consider.<\/p>\n\n<ol>\n<li><p>The plugin simply switches the theme files when it switches the theme on a given day. Possibilities are there that you have some code embedded right in one of your current theme files (for example; the Google AdSense code, or Goog",
+                "uid": "78379"
+            }
+        }
+    }
+}

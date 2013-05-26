@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/magpierss-hotfix": {
+            "1.2": {
+                "name": "wordpress\/magpierss-hotfix",
+                "version": "1.2",
+                "version_normalized": "1.2.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/magpierss-hotfix.1.2.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>This hotfix adds support for RSS enclosures to MagpieRSS, the RSS parser behind the <code>fetch_rss()<\/code> function in WordPress. It also forces MagpieRSS to use UTF-8 character encoding, which fixes some issues with feeds that contain non-ASCII characters.<\/p>",
+                "uid": "97899"
+            }
+        }
+    }
+}

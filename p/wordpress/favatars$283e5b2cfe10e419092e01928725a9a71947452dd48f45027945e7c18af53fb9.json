@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/favatars": {
+            "2": {
+                "name": "wordpress\/favatars",
+                "version": "2",
+                "version_normalized": "2.0.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/favatars.2.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>Favatars is a plugin that enables each comment\/pingback\/trackback to be accompanied by the website favicon (if available).<\/p>\n\n<p>A little less cryptically, this means that when a user on your blog leaves a comment\/pingback\/trackback, if they supply a URL, the plugin will see if their website has a favicon - if they do have a favicon, then you will have the option of making it show up on your blog right next to their name.<\/p>",
+                "uid": "115209"
+            }
+        }
+    }
+}

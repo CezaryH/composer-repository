@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/brightcove-video-cloud": {
+            "1.0": {
+                "name": "wordpress\/brightcove-video-cloud",
+                "version": "1.0",
+                "version_normalized": "1.0.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/brightcove-video-cloud.1.0.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>This plugin allows for the easy insertion of Brightcove videos and playlists into your Wordpress site or blog. This plugin seamlessly integrates with the Wordpress Media Upload feature introduced in 3.3.1 allowing for easy insertion of video.<\/p>\n\n<p>If you do not have a API Read Token then videos can be inserted by entering Video IDs or Playlist IDs into the plugin. Options also exist to change the type of player displaying the video as well as the height and width of the player.<\/p>\n\n<p>If you do have an API read token this plugin allows you to see all of your videos, search for videos by short description, long description, name and custom fields as well as see all of your playlists. Media API users are presented with thumbnail images of the video to allow for easier selection.<\/p>\n\n<p>Both versions feature live preview of the video to make sure you have the player and video you want before inserting it into your post or page. Options also exist to set up default players, height ",
+                "uid": "26044"
+            }
+        }
+    }
+}

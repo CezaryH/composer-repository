@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/altstats": {
+            "1.0": {
+                "name": "wordpress\/altstats",
+                "version": "1.0",
+                "version_normalized": "1.0.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/altstats.1.0.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>AltStats is an embarrassingly easy to install statistics\nplugin for wordpress that shows live statistics about \nreferer data, content hit count and browser versions.<\/p>\n\n<p>AltStats is not meant to be a full featured log analyzer. \nIt does all the analysis on demand and shows them on an easily accessible single page.<\/p>",
+                "uid": "30478"
+            }
+        }
+    }
+}

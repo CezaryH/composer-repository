@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/user-activity": {
+            "0.9": {
+                "name": "wordpress\/user-activity",
+                "version": "0.9",
+                "version_normalized": "0.9.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/user-activity.0.9.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>Get an overview over how active your users has been during a specified time period. This plugin will list all the users,\nthe number of posts\/pages they have created and when their latest post was created.<\/p>\n\n<p>You can sort all the columns, filter by post type and search for a specific user name.<\/p>\n\n<p>Note: This plugin uses the WP_List_Table, even though it is marked as @access private in WordPress core.<\/p>",
+                "uid": "8310"
+            }
+        }
+    }
+}

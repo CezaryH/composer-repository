@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/daily-upload-dir": {
+            "1.0": {
+                "name": "wordpress\/daily-upload-dir",
+                "version": "1.0",
+                "version_normalized": "1.0.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/daily-upload-dir.1.0.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p><strong>Note:<\/strong> This plugin has been superseded by the <em>much improved<\/em> <a href=\"http:\/\/wordpress.org\/extend\/plugins\/custom-upload-dir\/\">Custom Upload Dir<\/a>.<\/p>\n\n<p>Daily Upload Dir will:<\/p>\n\n<ol>\n<li>add a daily subdirectory to your upload path<\/li>\n<li>use the current post's date instead of the current date. (eg: adding files to a post from 2003-03-23 will put the files in <code>\/uploads\/2003\/03\/23<\/code>)<\/li>\n<\/ol>",
+                "uid": "110595"
+            }
+        }
+    }
+}

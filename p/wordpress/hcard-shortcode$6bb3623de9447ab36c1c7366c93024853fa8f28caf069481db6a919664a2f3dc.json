@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/hcard-shortcode": {
+            "1.0.0": {
+                "name": "wordpress\/hcard-shortcode",
+                "version": "1.0.0",
+                "version_normalized": "1.0.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/hcard-shortcode.1.0.0.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>hCard ShortCode translates vCard to hCard and let's you display them using a simple [hcard] shortcode.<\/p>\n\nHow it works:\n\n<ol>\n<li>install the plugin<\/li>\n<li>upload the vCards in the Media section<\/li>\n<li>choose a <strong>no-space only-alphanumeric lowercase<\/strong> Title for the vCards<\/li>\n<li>use the [hcard vcard='vcard title' only='optional comma separated vcard fields to display'] shortcode <\/li>\n<li>style the resulting hCard using CSS<\/li>\n<\/ol>\n\nWhich fields are supported?\n\n<p>hCard ShortCode supports the following vCard fields:<\/p>\n\n<ul>\n<li><code>N<\/code> given name and family name;<\/li>\n<li>one <code>EMAIL<\/code> optionally use <code>TYPE<\/code> to specify a label to use in the &#60;a&#62; link;<\/li>\n<li>one <code>TITLE<\/code><\/li>\n<li>one <code>ORG<\/code><\/li>\n<li>one <code>PHOTO<\/code> with <code>TYPE=URL<\/code><\/li>\n<li>one or more <code>URL<\/code>, optionally use <code>TYPE<\/code> to specify a label to use in the &#60;a&#62; link;<\/li>\n<li>one <code>ADR<\/code><\/li>",
+                "uid": "26844"
+            }
+        }
+    }
+}

@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/mediacore-buddypress": {
+            "1.0": {
+                "name": "wordpress\/mediacore-buddypress",
+                "version": "1.0",
+                "version_normalized": "1.0.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/mediacore-buddypress.1.0.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>In conjunction with the standard MediaCore plugin (<a href=\"http:\/\/wordpress.org\/extend\/plugins\/mediacore\/\" rel=\"nofollow\">http:\/\/wordpress.org\/extend\/plugins\/mediacore\/<\/a>), when someone publishes a new video to your MediaCore site, the activity is noted in your site-wide activity feed. If the email address of the MediaCore publisher matches a Wordpress user, the activity is linked to the user.<\/p>\n\n<p>This plugin used to allow admins to import data from arbitrary RSS feeds into their BuddyPress site-wide activity stream. It has been forked, fixed and customized to suit the needs of MediaCore.<\/p>\n\n<p>You may find that you need to decrease your Simplepie cache time to make it work:<\/p>\n\n<pre><code>add_filter( &#039;wp_feed_cache_transient_lifetime&#039;, create_function(&#039;$a&#039;, &#039;return 600;&#039;) );<\/code><\/pre>\n\n<p>reduces the RSS cache to ten minutes, for example. Put that in your bp-custom.php file if you are having problems with the plugin.<\/p>",
+                "uid": "16518"
+            }
+        }
+    }
+}

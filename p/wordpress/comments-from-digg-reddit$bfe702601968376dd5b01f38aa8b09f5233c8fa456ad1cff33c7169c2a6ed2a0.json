@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/comments-from-digg-reddit": {
+            "0.2": {
+                "name": "wordpress\/comments-from-digg-reddit",
+                "version": "0.2",
+                "version_normalized": "0.2.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/comments-from-digg-reddit.0.2.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>This plugin imports comments about your posts from Digg and Reddit in real-time.<\/p>\n\n<p><a href=\"http:\/\/valums.com\/wordpress-comments-digg-reddit\/\">Release Post<\/a><\/p>\n\n<p>Warning! It requires PHP5 to run!<\/p>\n\n<p>Features<\/p>\n\n<pre><code>* Caches requests for 10 minutes.\n* Very simple install. No theme customizations needed.\n* Displays Digg user avatars.\n* Supports threaded comments.\n* Doesn't update comments for old posts.\n<\/code><\/pre>",
+                "uid": "89890"
+            }
+        }
+    }
+}

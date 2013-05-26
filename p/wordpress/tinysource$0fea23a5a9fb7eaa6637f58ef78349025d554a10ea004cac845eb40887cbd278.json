@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/tinysource": {
+            "0.2": {
+                "name": "wordpress\/tinysource",
+                "version": "0.2",
+                "version_normalized": "0.2.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/tinysource.0.2.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>This plugin enables users to easily note the source of republished text. It adds a custom post type 'Sources' and a metabox to choose from various sources in post editing window.<\/p>\n\n<p>ATTENTION: This is still an early development version (aka ALPHA), thus use with your own risk. It has the basic functionality, but not many configuration options and some bugs are probably present.<\/p>\n\n<p>Basic functions:<\/p>\n\n<ul>\n<li>Allows to create list of possible sources using Custom Post Types functionality;<\/li>\n<li>Creates a meta-box in post editor screen to choose from list of available sources;<\/li>\n<li>Customizable template - you can use your own html and shorttags %title%, %title_attr%, %text%, %img%, %img_h%, %img_w% and %link%;<\/li>\n<li>You can use template tag <code>&#60;?php tinysource_show(); ?&#62;<\/code> to insert plugin output;<\/li>\n<\/ul>\n\n<p>TO DO:<\/p>\n\n<ul>\n<li>More customization options<\/li>\n<li>Automatic insertion after post text<\/li>\n<li>Localization<\/li>\n<\/ul>",
+                "uid": "63861"
+            }
+        }
+    }
+}

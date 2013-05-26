@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/pubmed-publist": {
+            "0.9.1": {
+                "name": "wordpress\/pubmed-publist",
+                "version": "0.9.1",
+                "version_normalized": "0.9.1.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/pubmed-publist.0.9.1.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>This plugin will register a shortcode [recentpublications] that will display the latest publications retrived from PubMed.<\/p>\n\n<p>The shortcode accepts arguments to set how many papers are displayed, apply classes for custom styling, and choose from two layout options.<\/p>\n\n<h4>Roadmap<\/h4>\n\n<ul>\n<li>Neaten up admin - show\/hide for extra search string fields<\/li>\n<li>Make caching configurable<\/li>\n<li>Add widget version<\/li>\n<li>Add JS for show\/hide extra results on front-end<\/li>\n<\/ul>",
+                "uid": "8738"
+            }
+        }
+    }
+}

@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/add-to-digg": {
+            "1.0": {
+                "name": "wordpress\/add-to-digg",
+                "version": "1.0",
+                "version_normalized": "1.0.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/add-to-digg.1.0.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>This is a very simple plugin that adds an add to digg button (as you can see on this site). It adds a link and image of the form <a href=\"http:\/\/digg.com\/submit\/?url=$permalink\" rel=\"nofollow\">http:\/\/digg.com\/submit\/?url=$permalink<\/a>.<\/p>",
+                "uid": "85557"
+            }
+        }
+    }
+}

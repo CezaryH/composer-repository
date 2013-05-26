@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/hover": {
+            "0.7.2": {
+                "name": "wordpress\/hover",
+                "version": "0.7.2",
+                "version_normalized": "0.7.2.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/hover.0.7.2.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>Hover is a WordPress plugin that replaces keywords with links and an optional popup. It uses JavaScript and CSS to create valid XHTML code and is based on mature JavaScript libraries like domTT and behaviour.js.<\/p>\n\n<ul>\n<li>You can use any type of HTML code in the popup, even images: Gallery.<\/li>\n<li>All data is saved in a seperate table in the database<\/li>\n<li>Creates valid XHTML 1.0 markup<\/li>\n<li>Uses mature javascript libraries:\n\n<ul>\n<li>domTT v0.7.3 by Dan Allen for browser compatible popup creation<\/li>\n<li>Behaviour v1.1 by Ben Nolan to clean up HTML markup<\/li>\n<\/ul><\/li>\n<li>Options page integrated into WordPress admin menu<\/li>\n<li>support for  and <\/li>\n<li>support for conditional replacing<\/li>\n<li>support for title attribute replacing<\/li>\n<li>Documentation with examples and FAQ<\/li>\n<li>write Javascript code to file<\/li>\n<\/ul>",
+                "uid": "113685"
+            }
+        }
+    }
+}

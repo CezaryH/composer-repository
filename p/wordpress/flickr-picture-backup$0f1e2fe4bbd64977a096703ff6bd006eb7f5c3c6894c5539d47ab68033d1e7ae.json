@@ -1,0 +1,40 @@
+{
+    "packages": {
+        "wordpress\/flickr-picture-backup": {
+            "0.6": {
+                "name": "wordpress\/flickr-picture-backup",
+                "version": "0.6",
+                "version_normalized": "0.6.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/flickr-picture-backup.0.6.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>version 0.6:\nFirst version for this plugin.<\/p>\n\n<p>version 0.7:\nFixbug for flickr have new domain (staticflickr.com).\nFixbug for https for admin login.this plugin cannot download the picture.<\/p>\n\n<p>Backup flickr's picture which in page\/post External links to flickr's picture. when flickr change the privacy or stop the service,you can change the external links of flickr's picture to internal links.for example:\n &#60;img src=\"http:\/\/farm4.static.flickr.com\/3456\/3404575364_aea19a9ab3_s.jpg\" \/&#62; \n change to \n &#60;img src=\"http:\/\/yourdomain\/wp-content\/uploads\/flickr_backup\/3404575364_aea19a9ab3_s.jpg\" \/&#62;\n 0.6 version update:\n 1. add support &#60;a&#62; link href change,easy to support some lightbox plugins.\n &#60;a href=\"http:\/\/farm4.static.flickr.com\/3456\/3404575364_aea19a9ab3_s.jpg\" &#62; \n change to \n &#60;a href=\"http:\/\/yourdomain\/wp-content\/uploads\/flickr_backup\/3404575364_aea19a9ab3_s.jpg\" &#62;<\/p>",
+                "uid": "86974"
+            },
+            "0.7": {
+                "name": "wordpress\/flickr-picture-backup",
+                "version": "0.7",
+                "version_normalized": "0.7.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/flickr-picture-backup.0.7.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>version 0.6:\nFirst version for this plugin.<\/p>\n\n<p>version 0.7:\nFixbug for flickr have new domain (staticflickr.com).\nFixbug for https for admin login.this plugin cannot download the picture.<\/p>\n\n<p>Backup flickr's picture which in page\/post External links to flickr's picture. when flickr change the privacy or stop the service,you can change the external links of flickr's picture to internal links.for example:\n &#60;img src=\"http:\/\/farm4.static.flickr.com\/3456\/3404575364_aea19a9ab3_s.jpg\" \/&#62; \n change to \n &#60;img src=\"http:\/\/yourdomain\/wp-content\/uploads\/flickr_backup\/3404575364_aea19a9ab3_s.jpg\" \/&#62;\n 0.6 version update:\n 1. add support &#60;a&#62; link href change,easy to support some lightbox plugins.\n &#60;a href=\"http:\/\/farm4.static.flickr.com\/3456\/3404575364_aea19a9ab3_s.jpg\" &#62; \n change to \n &#60;a href=\"http:\/\/yourdomain\/wp-content\/uploads\/flickr_backup\/3404575364_aea19a9ab3_s.jpg\" &#62;<\/p>",
+                "uid": "86973"
+            }
+        }
+    }
+}

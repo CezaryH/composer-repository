@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/notices": {
+            "6.1": {
+                "name": "wordpress\/notices",
+                "version": "6.1",
+                "version_normalized": "6.1.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/notices.6.1.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>This plug-in allows short notices to be scrolled (ticker-tape style) or faded (in and out) on your blog.  Each message is valid for a set number of days (0 = no expiry) from its creation (or update) date and can also be de-activated to keep it from being displayed until you are ready to let the world see it.<\/p>\n\n<p>There are two ways to display the notices:\n- Using a simple sidebar widget.\n- Embed the ticker into one (or more) of your theme&#213;s template files.<\/p>",
+                "uid": "102772"
+            }
+        }
+    }
+}

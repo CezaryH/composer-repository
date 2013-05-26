@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/google-analytics-stats": {
+            "1.1": {
+                "name": "wordpress\/google-analytics-stats",
+                "version": "1.1",
+                "version_normalized": "1.1.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/google-analytics-stats.1.1.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>The Google Analytics Stats plugin shows a graph of 3 metrics from google analytics on the dashboard. The metrics are Page Views, Visits, and New Visits. It's very easy to setup, comes with its own admin section. Future planned releases will include more metrics and more configurable options.<\/p>",
+                "uid": "87797"
+            }
+        }
+    }
+}

@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/windows-azure-auto-scaling-plugin": {
+            "0.1": {
+                "name": "wordpress\/windows-azure-auto-scaling-plugin",
+                "version": "0.1",
+                "version_normalized": "0.1.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/windows-azure-auto-scaling-plugin.0.1.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p><strong>NOTE:<\/strong> The wp-admin interface for this plugin still needs some sprucing up. \nI (blobaugh) no longer have access to Windows Azure to continue improvement. If\nyou need this plugin consider contributing to it, or getting me another Windows\nAzure subscription to continue development.<\/p>\n\n<p>The Windows Azure cloud platform provides some very powerful scaling ability, \nhowever natively Windows Azure does not know how to scale applications. \nThis plugin teaches WordPress how to scale your website on the Windows Azure \nplatform and take advantage of the full power of the cloud.<\/p>",
+                "uid": "23835"
+            }
+        }
+    }
+}

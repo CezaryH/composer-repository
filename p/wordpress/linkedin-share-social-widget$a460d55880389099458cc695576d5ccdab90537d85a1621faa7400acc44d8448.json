@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/linkedin-share-social-widget": {
+            "1.0": {
+                "name": "wordpress\/linkedin-share-social-widget",
+                "version": "1.0",
+                "version_normalized": "1.0.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/linkedin-share-social-widget.1.0.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>To use the widget just drag it to a sidebar and choose one of three button styles. You can also specify a url to share. If you leave the url empty, the active page will be shared.<\/p>\n\n<p>Using shortcode:\nThe simplest version is [share\/] which will add a button without counter using the permalink of the page or post.<\/p>\n\n<p>To further customize the button you can use the following attributes:\n* mode: none (default), top or right to set the counter style\n* url: Any url you would like visitors to share instead of the current page or post permalink<\/p>\n\n<p>Some examples of correct usage of this shortcode are:\n[share\/]\n[share mode=\"right\"\/]\n[share mode=\"top\" url=\"http:\/\/www.wordpress.org\"\/]<\/p>",
+                "uid": "44616"
+            }
+        }
+    }
+}

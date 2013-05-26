@@ -1,0 +1,125 @@
+{
+    "packages": {
+        "wordpress\/buddypress-smf-import": {
+            "0.8.4": {
+                "name": "wordpress\/buddypress-smf-import",
+                "version": "0.8.4",
+                "version_normalized": "0.8.4.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/buddypress-smf-import.0.8.4.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>This plugin imports boards and users from SMF 1.1x forums to BuddyPress (forums) \/ WordPress (users)<\/p>\n\n<h3>Features:<\/h3>\n\n<ul>\n<li>\nPreserves current WordPress users if name exists\n<\/li>\n<li>\nCreate groups for forums after import (optional)\n<\/li>\n<li>\nMain plugin adds admin panel for all functions\n<\/li>\n<li>\nSeparate plugin successively converts the sha-1 encoded passwords from SMF on user login\n<\/li>\n<li>\nIncludes php script that can be put into old forum directory for redirection to new topic locations\n<\/li>\n<\/ul>\n\n<h3>Known issues:<\/h3>\n\n<ul>\n<li>\nOnly intended for initial forum imports, it clears all current forums before importing due to the initial 0.7.3 db format requirement (users\/groups etc. are kept intact)\n<\/li>\n<li>\nDepending on forum size, the PHP memory and exec time requirements can be a bit high\n<\/li>\n<\/ul>\n\n<p>The plugin is based on a modified phpbb import PHP script for bbpress 0.7.3.\nIt uses its own version of bbpress to convert from the initial 0.7.3 bbpress ",
+                "uid": "66494"
+            },
+            "0.9": {
+                "name": "wordpress\/buddypress-smf-import",
+                "version": "0.9",
+                "version_normalized": "0.9.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/buddypress-smf-import.0.9.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>This plugin imports boards and users from SMF 1.1x forums to BuddyPress (forums) \/ WordPress (users)<\/p>\n\n<h3>Features:<\/h3>\n\n<ul>\n<li>\nPreserves current WordPress users if name exists\n<\/li>\n<li>\nCreate groups for forums after import (optional)\n<\/li>\n<li>\nMain plugin adds admin panel for all functions\n<\/li>\n<li>\nSeparate plugin successively converts the sha-1 encoded passwords from SMF on user login\n<\/li>\n<li>\nIncludes php script that can be put into old forum directory for redirection to new topic locations\n<\/li>\n<\/ul>\n\n<h3>Known issues:<\/h3>\n\n<ul>\n<li>\nOnly intended for initial forum imports, it clears all current forums before importing due to the initial 0.7.3 db format requirement (users\/groups etc. are kept intact)\n<\/li>\n<li>\nDepending on forum size, the PHP memory and exec time requirements can be a bit high\n<\/li>\n<\/ul>\n\n<p>The plugin is based on a modified phpbb import PHP script for bbpress 0.7.3.\nIt uses its own version of bbpress to convert from the initial 0.7.3 bbpress ",
+                "uid": "66493"
+            },
+            "0.9.1": {
+                "name": "wordpress\/buddypress-smf-import",
+                "version": "0.9.1",
+                "version_normalized": "0.9.1.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/buddypress-smf-import.0.9.1.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>This plugin imports boards and users from SMF 1.1x forums to BuddyPress (forums) \/ WordPress (users)<\/p>\n\n<h3>Features:<\/h3>\n\n<ul>\n<li>\nPreserves current WordPress users if name exists\n<\/li>\n<li>\nCreate groups for forums after import (optional)\n<\/li>\n<li>\nMain plugin adds admin panel for all functions\n<\/li>\n<li>\nSeparate plugin successively converts the sha-1 encoded passwords from SMF on user login\n<\/li>\n<li>\nIncludes php script that can be put into old forum directory for redirection to new topic locations\n<\/li>\n<\/ul>\n\n<h3>Known issues:<\/h3>\n\n<ul>\n<li>\nOnly intended for initial forum imports, it clears all current forums before importing due to the initial 0.7.3 db format requirement (users\/groups etc. are kept intact)\n<\/li>\n<li>\nDepending on forum size, the PHP memory and exec time requirements can be a bit high\n<\/li>\n<\/ul>\n\n<p>The plugin is based on a modified phpbb import PHP script for bbpress 0.7.3.\nIt uses its own version of bbpress to convert from the initial 0.7.3 bbpress ",
+                "uid": "66492"
+            },
+            "0.9.2": {
+                "name": "wordpress\/buddypress-smf-import",
+                "version": "0.9.2",
+                "version_normalized": "0.9.2.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/buddypress-smf-import.0.9.2.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>This plugin imports boards and users from SMF 1.1x forums to BuddyPress (forums) \/ WordPress (users)<\/p>\n\n<h3>Features:<\/h3>\n\n<ul>\n<li>\nPreserves current WordPress users if name exists\n<\/li>\n<li>\nCreate groups for forums after import (optional)\n<\/li>\n<li>\nMain plugin adds admin panel for all functions\n<\/li>\n<li>\nSeparate plugin successively converts the sha-1 encoded passwords from SMF on user login\n<\/li>\n<li>\nIncludes php script that can be put into old forum directory for redirection to new topic locations\n<\/li>\n<\/ul>\n\n<h3>Known issues:<\/h3>\n\n<ul>\n<li>\nOnly intended for initial forum imports, it clears all current forums before importing due to the initial 0.7.3 db format requirement (users\/groups etc. are kept intact)\n<\/li>\n<li>\nDepending on forum size, the PHP memory and exec time requirements can be a bit high\n<\/li>\n<\/ul>\n\n<p>The plugin is based on a modified phpbb import PHP script for bbpress 0.7.3.\nIt uses its own version of bbpress to convert from the initial 0.7.3 bbpress ",
+                "uid": "66491"
+            },
+            "0.9.3": {
+                "name": "wordpress\/buddypress-smf-import",
+                "version": "0.9.3",
+                "version_normalized": "0.9.3.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/buddypress-smf-import.0.9.3.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>This plugin imports boards and users from SMF 1.1x forums to BuddyPress (forums) \/ WordPress (users)<\/p>\n\n<h3>Features:<\/h3>\n\n<ul>\n<li>\nPreserves current WordPress users if name exists\n<\/li>\n<li>\nCreate groups for forums after import (optional)\n<\/li>\n<li>\nMain plugin adds admin panel for all functions\n<\/li>\n<li>\nSeparate plugin successively converts the sha-1 encoded passwords from SMF on user login\n<\/li>\n<li>\nIncludes php script that can be put into old forum directory for redirection to new topic locations\n<\/li>\n<\/ul>\n\n<h3>Known issues:<\/h3>\n\n<ul>\n<li>\nOnly intended for initial forum imports, it clears all current forums before importing due to the initial 0.7.3 db format requirement (users\/groups etc. are kept intact)\n<\/li>\n<li>\nDepending on forum size, the PHP memory and exec time requirements can be a bit high\n<\/li>\n<\/ul>\n\n<p>The plugin is based on a modified phpbb import PHP script for bbpress 0.7.3.\nIt uses its own version of bbpress to convert from the initial 0.7.3 bbpress ",
+                "uid": "66490"
+            },
+            "0.9.4": {
+                "name": "wordpress\/buddypress-smf-import",
+                "version": "0.9.4",
+                "version_normalized": "0.9.4.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/buddypress-smf-import.0.9.4.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>This plugin imports boards and users from SMF 1.1x forums to BuddyPress (forums) \/ WordPress (users)<\/p>\n\n<h3>Features:<\/h3>\n\n<ul>\n<li>\nPreserves current WordPress users if name exists\n<\/li>\n<li>\nCreate groups for forums after import (optional)\n<\/li>\n<li>\nMain plugin adds admin panel for all functions\n<\/li>\n<li>\nSeparate plugin successively converts the sha-1 encoded passwords from SMF on user login\n<\/li>\n<li>\nIncludes php script that can be put into old forum directory for redirection to new topic locations\n<\/li>\n<\/ul>\n\n<h3>Known issues:<\/h3>\n\n<ul>\n<li>\nOnly intended for initial forum imports, it clears all current forums before importing due to the initial 0.7.3 db format requirement (users\/groups etc. are kept intact)\n<\/li>\n<li>\nDepending on forum size, the PHP memory and exec time requirements can be a bit high\n<\/li>\n<\/ul>\n\n<p>The plugin is based on a modified phpbb import PHP script for bbpress 0.7.3.\nIt uses its own version of bbpress to convert from the initial 0.7.3 bbpress ",
+                "uid": "66489"
+            },
+            "0.9.7": {
+                "name": "wordpress\/buddypress-smf-import",
+                "version": "0.9.7",
+                "version_normalized": "0.9.7.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/buddypress-smf-import.0.9.7.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>This plugin imports boards and users from SMF 1.1x forums to BuddyPress (forums) \/ WordPress (users)<\/p>\n\n<h3>Features:<\/h3>\n\n<ul>\n<li>\nPreserves current WordPress users if name exists\n<\/li>\n<li>\nCreate groups for forums after import (optional)\n<\/li>\n<li>\nMain plugin adds admin panel for all functions\n<\/li>\n<li>\nSeparate plugin successively converts the sha-1 encoded passwords from SMF on user login\n<\/li>\n<li>\nIncludes php script that can be put into old forum directory for redirection to new topic locations\n<\/li>\n<\/ul>\n\n<h3>Known issues:<\/h3>\n\n<ul>\n<li>\nOnly intended for initial forum imports, it clears all current forums before importing due to the initial 0.7.3 db format requirement (users\/groups etc. are kept intact)\n<\/li>\n<li>\nDepending on forum size, the PHP memory and exec time requirements can be a bit high\n<\/li>\n<\/ul>\n\n<p>The plugin is based on a modified phpbb import PHP script for bbpress 0.7.3.\nIt uses its own version of bbpress to convert from the initial 0.7.3 bbpress ",
+                "uid": "66488"
+            }
+        }
+    }
+}

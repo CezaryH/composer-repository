@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/xm-backup": {
+            "0.9.1": {
+                "name": "wordpress\/xm-backup",
+                "version": "0.9.1",
+                "version_normalized": "0.9.1.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/xm-backup.0.9.1.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>This plugin will do a backup of your Wordpress database and, or your files in wp-content\/uploads and saves\nit somewhere safe. You can have the backup saved in your <a href=\"http:\/\/db.tt\/9Jo39Xy\">Dropbox account<\/a>, a FTP account of your choise, your\naccount with <a href=\"http:\/\/www.securepaynet.net\/email\/online-file-storage.aspx?ci=1796&#38;prog_id=xaviermedia&#38;isc=xmbackup\">Online File Folder<\/a>, or have the backup emailed to you (not recommended for large files). You can \nselect to have the backups named the same every day or to have a date added to each file name.<\/p>\n\n<p>This plugin requires PHP, cURL, PHP compiled with ZIP support, and Oauth (for Dropbox).<\/p>\n\n<p>** NO WARRANTY SUPPLIED! **<\/p>\n\n<p>** Make sure you test your Backups! **<\/p>",
+                "uid": "29692"
+            }
+        }
+    }
+}

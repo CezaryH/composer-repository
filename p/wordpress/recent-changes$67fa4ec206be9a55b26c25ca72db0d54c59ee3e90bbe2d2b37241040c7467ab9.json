@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/recent-changes": {
+            "1.5": {
+                "name": "wordpress\/recent-changes",
+                "version": "1.5",
+                "version_normalized": "1.5.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/recent-changes.1.5.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>A widget and short code to show the most recently modified pages, posts or both allowing visitors to review recent changes as they would on a wiki. Options to select number of items returned up to 15 and exclude items by ID.<\/p>\n\n<p>Use shortcode [recentchanges] with options content, exclude and number e.g. [recentchanges content='pages' number='10' exclude='5,8'] in post\/pages.<\/p>\n\n<p>content = 'pages', 'posts' or 'both'\nnumber = '1' to '15'\nexclude = any number of pages\/post by ID separated by commas<\/p>\n\n<p>NB this plugin supersedes Recent Pages<\/p>",
+                "uid": "86660"
+            }
+        }
+    }
+}

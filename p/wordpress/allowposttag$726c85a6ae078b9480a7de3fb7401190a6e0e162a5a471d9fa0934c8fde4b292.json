@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/allowposttag": {
+            "0.1": {
+                "name": "wordpress\/allowposttag",
+                "version": "0.1",
+                "version_normalized": "0.1.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/allowposttag.0.1.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>Wordpress doesn't allow some tag in post. If you want to use class in img tag, you will lost class attributes when you publish (only admin not lost). So, allowposttags plugin can allow attributes and new tags in wordpress. You just edit in allowposttags.php file.<\/p>\n\n<p>A few notes about the sections above:<\/p>\n\n<ul>\n<li>\"Contributors\" saturngod<\/li>\n<li>\"Tags\" posts<\/li>\n<li>Stable tag should indicate the Subversion \"tag\" of the latest stable version, or \"trunk,\" if you use <code>\/trunk\/<\/code> for\nstable.<\/li>\n<\/ul>",
+                "uid": "73877"
+            }
+        }
+    }
+}

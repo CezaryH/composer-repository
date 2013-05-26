@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/only-new-posts": {
+            "1.0.0": {
+                "name": "wordpress\/only-new-posts",
+                "version": "1.0.0",
+                "version_normalized": "1.0.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/only-new-posts.1.0.0.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>Shows only posts, that are newer, than the day the current logged in user was created.\nThis plugin is only useful if you have an other plugin installed forcing any visitor to login first.\nIn that combination you get a blog in which the posts of older users are invisible for new users.\nNone of the old users must therefor worry about statements made in older posts becomming available to users he don't want.\nIn the moment a user publishes a post, the amount of authorized readers for this post stays the same.<\/p>",
+                "uid": "20174"
+            }
+        }
+    }
+}

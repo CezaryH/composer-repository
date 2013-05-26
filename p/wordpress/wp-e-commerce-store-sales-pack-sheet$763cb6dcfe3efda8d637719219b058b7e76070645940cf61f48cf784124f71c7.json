@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/wp-e-commerce-store-sales-pack-sheet": {
+            "0.6.1": {
+                "name": "wordpress\/wp-e-commerce-store-sales-pack-sheet",
+                "version": "0.6.1",
+                "version_normalized": "0.6.1.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/wp-e-commerce-store-sales-pack-sheet.0.6.1.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>Generates a Pack Sheet for orders in the WP e-Commerce database.<\/p>\n\n<p>Developed for a business that needs to generate weekly pack sheets to determine item quantity totals, and also detailed iten quantity pack sheets grouped into delivery areas (set by a group of zip codes).<\/p>\n\n<p>Reports can be filtered by date, shows the last week by default. A jQuery library helps with clean prints, try the print button!<\/p>\n\n<p>Two reports are available, one report is a quantity total of each item ordered, grouped into areas. The second reports the quantity totals without grouping them by area.<\/p>\n\n<p>Areas are designated by a single zip code or list of zip codes. Areas can be added, zip codes can be added to existing areas, and areas can be removed.<\/p>\n\n<p>Deleting this plugin will also delete all its stored area data.<\/p>",
+                "uid": "13305"
+            }
+        }
+    }
+}

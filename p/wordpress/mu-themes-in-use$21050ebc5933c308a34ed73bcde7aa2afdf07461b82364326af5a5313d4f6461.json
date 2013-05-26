@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/mu-themes-in-use": {
+            "0.1": {
+                "name": "wordpress\/mu-themes-in-use",
+                "version": "0.1",
+                "version_normalized": "0.1.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/mu-themes-in-use.0.1.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>Adds a page under the site admin to display a listing of all non-archived, non-deleted, and non-spam blogs and the theme they are currently using.  Also displays a listing of all themes in use and by how many blogs they are being used.<\/p>",
+                "uid": "74260"
+            }
+        }
+    }
+}

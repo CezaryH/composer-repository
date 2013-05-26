@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/google-visualization-charts": {
+            "0.1": {
+                "name": "wordpress\/google-visualization-charts",
+                "version": "0.1",
+                "version_normalized": "0.1.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/google-visualization-charts.0.1.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>Google Visualization Charts is a simple plugin that enables to embed charts\nusing the Google Visualization API. These charts are dynamically rendered \nusing HTML5 \/ SVG.<\/p>\n\n<p>For now, two graphs are available: line chart and column chart. The graphs \nare usable using short codes. The data of the graph is directly entered \nin the content of the short code. For example, here is a short code \nfor a bar chart:<\/p>\n\n<pre><code>[line_chart title=&#34;Fill (8 bytes)&#34; v_title=&#34;Milliseconds&#34; width=&#34;600px&#34; height=&#34;400px&#34; scale_button=&#34;true&#34;]\n[&#039;x&#039;,&#039;vector_pre&#039;,&#039;vector&#039;,&#039;list&#039;],\n[&#039;1000&#039;,0,0,1],\n[&#039;10000&#039;,0,1,10],\n[&#039;100000&#039;,4,11,100],\n[&#039;1000000&#039;,7,234,1023]\n[\/line_chart]<\/code><\/pre>\n\n<p>After installation of this plugin, the post pages will load the Google \nVisualization API JavaScript in the head.<\/p>\n\n<p>This plugin can be very handy to display results of benchmarks, analysis,",
+                "uid": "13995"
+            }
+        }
+    }
+}

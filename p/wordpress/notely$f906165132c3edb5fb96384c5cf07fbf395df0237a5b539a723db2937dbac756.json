@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/notely": {
+            "1.0": {
+                "name": "wordpress\/notely",
+                "version": "1.0",
+                "version_normalized": "1.0.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/notely.1.0.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>Sometimes you might want to make some notes against a page or a post, this plugin simply allows that. By default notes are only visible in the right sidebar when editing a page or post, but you can also show notes on the front end (see the readme file).<\/p>",
+                "uid": "20017"
+            }
+        }
+    }
+}

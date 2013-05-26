@@ -1,0 +1,142 @@
+{
+    "packages": {
+        "wordpress\/nginx-compatibility": {
+            "0.1": {
+                "name": "wordpress\/nginx-compatibility",
+                "version": "0.1",
+                "version_normalized": "0.1.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/nginx-compatibility.0.1.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>The plugin solves two problems:<\/p>\n\n<ol>\n<li>When WordPress detects that FastCGI PHP SAPI is in use, it\n<a href=\"http:\/\/blog.sjinks.pro\/wordpress\/510-wordpress-fastcgi-and-301-redirect\/\">disregards the redirect status code<\/a>\npassed to <code>wp_redirect<\/code>. Thus, all 301 redrects become 302 redirects\nwhich may not be good for SEO. The plugin overrides <code>wp_redirect<\/code> when it detects\nthat nginx is used.<\/li>\n<li>When WordPress detects that <code>mod_rewrite<\/code> is not loaded (which is the case for nginx as\nit does not load any Apache modules) it falls back to <a href=\"http:\/\/codex.wordpress.org\/Using_Permalinks#PATHINFO:_.22Almost_Pretty.22\">PATHINFO permalinks<\/a>\nin Permalink Settings page. nginx itself has built-in support for URL rewriting and does not need\nPATHINFO permalinks. Thus, when the plugin detects that nginx is used, it makes WordPress think\nthat <code>mod_rewrite<\/code> is loaded and it is OK to use pretty permalinks.<\/li>\n<\/ol>\n\n<p>The plugin does no",
+                "uid": "89343"
+            },
+            "0.1.1": {
+                "name": "wordpress\/nginx-compatibility",
+                "version": "0.1.1",
+                "version_normalized": "0.1.1.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/nginx-compatibility.0.1.1.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>The plugin solves two problems:<\/p>\n\n<ol>\n<li>When WordPress detects that FastCGI PHP SAPI is in use, it\n<a href=\"http:\/\/blog.sjinks.pro\/wordpress\/510-wordpress-fastcgi-and-301-redirect\/\">disregards the redirect status code<\/a>\npassed to <code>wp_redirect<\/code>. Thus, all 301 redrects become 302 redirects\nwhich may not be good for SEO. The plugin overrides <code>wp_redirect<\/code> when it detects\nthat nginx is used.<\/li>\n<li>When WordPress detects that <code>mod_rewrite<\/code> is not loaded (which is the case for nginx as\nit does not load any Apache modules) it falls back to <a href=\"http:\/\/codex.wordpress.org\/Using_Permalinks#PATHINFO:_.22Almost_Pretty.22\">PATHINFO permalinks<\/a>\nin Permalink Settings page. nginx itself has built-in support for URL rewriting and does not need\nPATHINFO permalinks. Thus, when the plugin detects that nginx is used, it makes WordPress think\nthat <code>mod_rewrite<\/code> is loaded and it is OK to use pretty permalinks.<\/li>\n<\/ol>\n\n<p>The plugin does no",
+                "uid": "89342"
+            },
+            "0.2": {
+                "name": "wordpress\/nginx-compatibility",
+                "version": "0.2",
+                "version_normalized": "0.2.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/nginx-compatibility.0.2.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>The plugin solves two problems:<\/p>\n\n<ol>\n<li>When WordPress detects that FastCGI PHP SAPI is in use, it\n<a href=\"http:\/\/blog.sjinks.pro\/wordpress\/510-wordpress-fastcgi-and-301-redirect\/\">disregards the redirect status code<\/a>\npassed to <code>wp_redirect<\/code>. Thus, all 301 redrects become 302 redirects\nwhich may not be good for SEO. The plugin overrides <code>wp_redirect<\/code> when it detects\nthat nginx is used.<\/li>\n<li>When WordPress detects that <code>mod_rewrite<\/code> is not loaded (which is the case for nginx as\nit does not load any Apache modules) it falls back to <a href=\"http:\/\/codex.wordpress.org\/Using_Permalinks#PATHINFO:_.22Almost_Pretty.22\">PATHINFO permalinks<\/a>\nin Permalink Settings page. nginx itself has built-in support for URL rewriting and does not need\nPATHINFO permalinks. Thus, when the plugin detects that nginx is used, it makes WordPress think\nthat <code>mod_rewrite<\/code> is loaded and it is OK to use pretty permalinks.<\/li>\n<\/ol>\n\n<p>The plugin does no",
+                "uid": "89341"
+            },
+            "0.2.1": {
+                "name": "wordpress\/nginx-compatibility",
+                "version": "0.2.1",
+                "version_normalized": "0.2.1.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/nginx-compatibility.0.2.1.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>The plugin solves two problems:<\/p>\n\n<ol>\n<li>When WordPress detects that FastCGI PHP SAPI is in use, it\n<a href=\"http:\/\/blog.sjinks.pro\/wordpress\/510-wordpress-fastcgi-and-301-redirect\/\">disregards the redirect status code<\/a>\npassed to <code>wp_redirect<\/code>. Thus, all 301 redrects become 302 redirects\nwhich may not be good for SEO. The plugin overrides <code>wp_redirect<\/code> when it detects\nthat nginx is used.<\/li>\n<li>When WordPress detects that <code>mod_rewrite<\/code> is not loaded (which is the case for nginx as\nit does not load any Apache modules) it falls back to <a href=\"http:\/\/codex.wordpress.org\/Using_Permalinks#PATHINFO:_.22Almost_Pretty.22\">PATHINFO permalinks<\/a>\nin Permalink Settings page. nginx itself has built-in support for URL rewriting and does not need\nPATHINFO permalinks. Thus, when the plugin detects that nginx is used, it makes WordPress think\nthat <code>mod_rewrite<\/code> is loaded and it is OK to use pretty permalinks.<\/li>\n<\/ol>\n\n<p>The plugin does no",
+                "uid": "89340"
+            },
+            "0.2.2": {
+                "name": "wordpress\/nginx-compatibility",
+                "version": "0.2.2",
+                "version_normalized": "0.2.2.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/nginx-compatibility.0.2.2.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>The plugin solves two problems:<\/p>\n\n<ol>\n<li>When WordPress detects that FastCGI PHP SAPI is in use, it\n<a href=\"http:\/\/blog.sjinks.pro\/wordpress\/510-wordpress-fastcgi-and-301-redirect\/\">disregards the redirect status code<\/a>\npassed to <code>wp_redirect<\/code>. Thus, all 301 redrects become 302 redirects\nwhich may not be good for SEO. The plugin overrides <code>wp_redirect<\/code> when it detects\nthat nginx is used.<\/li>\n<li>When WordPress detects that <code>mod_rewrite<\/code> is not loaded (which is the case for nginx as\nit does not load any Apache modules) it falls back to <a href=\"http:\/\/codex.wordpress.org\/Using_Permalinks#PATHINFO:_.22Almost_Pretty.22\">PATHINFO permalinks<\/a>\nin Permalink Settings page. nginx itself has built-in support for URL rewriting and does not need\nPATHINFO permalinks. Thus, when the plugin detects that nginx is used, it makes WordPress think\nthat <code>mod_rewrite<\/code> is loaded and it is OK to use pretty permalinks.<\/li>\n<\/ol>\n\n<p>The plugin does no",
+                "uid": "89339"
+            },
+            "0.2.3": {
+                "name": "wordpress\/nginx-compatibility",
+                "version": "0.2.3",
+                "version_normalized": "0.2.3.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/nginx-compatibility.0.2.3.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>The plugin solves two problems:<\/p>\n\n<ol>\n<li>When WordPress detects that FastCGI PHP SAPI is in use, it\n<a href=\"http:\/\/blog.sjinks.pro\/wordpress\/510-wordpress-fastcgi-and-301-redirect\/\">disregards the redirect status code<\/a>\npassed to <code>wp_redirect<\/code>. Thus, all 301 redrects become 302 redirects\nwhich may not be good for SEO. The plugin overrides <code>wp_redirect<\/code> when it detects\nthat nginx is used.<\/li>\n<li>When WordPress detects that <code>mod_rewrite<\/code> is not loaded (which is the case for nginx as\nit does not load any Apache modules) it falls back to <a href=\"http:\/\/codex.wordpress.org\/Using_Permalinks#PATHINFO:_.22Almost_Pretty.22\">PATHINFO permalinks<\/a>\nin Permalink Settings page. nginx itself has built-in support for URL rewriting and does not need\nPATHINFO permalinks. Thus, when the plugin detects that nginx is used, it makes WordPress think\nthat <code>mod_rewrite<\/code> is loaded and it is OK to use pretty permalinks.<\/li>\n<\/ol>\n\n<p>The plugin does no",
+                "uid": "89338"
+            },
+            "0.2.4": {
+                "name": "wordpress\/nginx-compatibility",
+                "version": "0.2.4",
+                "version_normalized": "0.2.4.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/nginx-compatibility.0.2.4.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>The plugin solves two problems:<\/p>\n\n<ol>\n<li>When WordPress detects that FastCGI PHP SAPI is in use, it\n<a href=\"http:\/\/blog.sjinks.pro\/wordpress\/510-wordpress-fastcgi-and-301-redirect\/\">disregards the redirect status code<\/a>\npassed to <code>wp_redirect<\/code>. Thus, all 301 redrects become 302 redirects\nwhich may not be good for SEO. The plugin overrides <code>wp_redirect<\/code> when it detects\nthat nginx is used.<\/li>\n<li>When WordPress detects that <code>mod_rewrite<\/code> is not loaded (which is the case for nginx as\nit does not load any Apache modules) it falls back to <a href=\"http:\/\/codex.wordpress.org\/Using_Permalinks#PATHINFO:_.22Almost_Pretty.22\">PATHINFO permalinks<\/a>\nin Permalink Settings page. nginx itself has built-in support for URL rewriting and does not need\nPATHINFO permalinks. Thus, when the plugin detects that nginx is used, it makes WordPress think\nthat <code>mod_rewrite<\/code> is loaded and it is OK to use pretty permalinks.<\/li>\n<\/ol>\n\n<p>The plugin does no",
+                "uid": "89337"
+            },
+            "0.2.5": {
+                "name": "wordpress\/nginx-compatibility",
+                "version": "0.2.5",
+                "version_normalized": "0.2.5.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/nginx-compatibility.0.2.5.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>The plugin solves two problems:<\/p>\n\n<ol>\n<li>When WordPress detects that FastCGI PHP SAPI is in use, it\n<a href=\"http:\/\/blog.sjinks.pro\/wordpress\/510-wordpress-fastcgi-and-301-redirect\/\">disregards the redirect status code<\/a>\npassed to <code>wp_redirect<\/code>. Thus, all 301 redrects become 302 redirects\nwhich may not be good for SEO. The plugin overrides <code>wp_redirect<\/code> when it detects\nthat nginx is used.<\/li>\n<li>When WordPress detects that <code>mod_rewrite<\/code> is not loaded (which is the case for nginx as\nit does not load any Apache modules) it falls back to <a href=\"http:\/\/codex.wordpress.org\/Using_Permalinks#PATHINFO:_.22Almost_Pretty.22\">PATHINFO permalinks<\/a>\nin Permalink Settings page. nginx itself has built-in support for URL rewriting and does not need\nPATHINFO permalinks. Thus, when the plugin detects that nginx is used, it makes WordPress think\nthat <code>mod_rewrite<\/code> is loaded and it is OK to use pretty permalinks.<\/li>\n<\/ol>\n\n<p>The plugin does no",
+                "uid": "89336"
+            }
+        }
+    }
+}

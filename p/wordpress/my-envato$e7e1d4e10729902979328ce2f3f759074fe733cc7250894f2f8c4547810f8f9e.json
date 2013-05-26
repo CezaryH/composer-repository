@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/my-envato": {
+            "1.0.0": {
+                "name": "wordpress\/my-envato",
+                "version": "1.0.0",
+                "version_normalized": "1.0.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/my-envato.1.0.0.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>This is a very simple plugin to display the last 25 items from an Envato marketplace such as ThemeForest or CodeCanyon for a particular user.<\/p>\n\n<p>Each item's thumbnail is wrapped in a link to the item with the user's username added at the end as a referral link.<\/p>\n\n<p>The items can be served up via a shortcode or a widget. The plugin uses the WordPress HTTP API and makes use of the Transients API to cache data from Envato for quicker pageloads.<\/p>\n\n<p>The output of the plugin can be changed using the following filters:<\/p>\n\n<ul>\n<li><em>my_envato_items_start<\/em> - before the items list, default: <\/li>\n<\/ul>\n\n<pre><code>&#60;ul&#62;<\/code><\/pre>\n\n<ul>\n<li><em>my_envato_item_start<\/em> - before the item link, default: <\/li>\n<\/ul>\n\n<pre><code>&#60;li style=&#34;padding: 0 10px 10px 0; float:left;&#34;&#62;<\/code><\/pre>\n\n<ul>\n<li><em>my_envato_item_anchor_class<\/em> - class of item link, default:<\/li>\n<li><em>my_envato_item_image_class<\/em> - class of item image, default:<\/li>\n<",
+                "uid": "10370"
+            }
+        }
+    }
+}

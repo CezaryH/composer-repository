@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/wp-tag-cloud": {
+            "1.00": {
+                "name": "wordpress\/wp-tag-cloud",
+                "version": "1.00",
+                "version_normalized": "1.00.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/wp-tag-cloud.1.00.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>wp-tag-cloud plugin create and displays the jquery based tag cloud. It is fully javascript and seo friendly and is not dependent on flash. The user can control the witdth,height,background color and text color.\nThe canvas element is not supporting on some browsers specially in ie although there are some hacks to run canvas element on them but it is very slow so i didnt used them. So on the non canvas supporting browser it will display text based tag cloud.<\/p>\n\n<p><strong>Follow Installation or Upgrade guidelines<\/strong><\/p>\n\n<p><strong>Never use WordPress automatic upgrade :<\/strong> you will loose the customized settings of tag cloud plugin.<\/p>",
+                "uid": "59190"
+            }
+        }
+    }
+}

@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/sgwhatsplaying": {
+            "1.1": {
+                "name": "wordpress\/sgwhatsplaying",
+                "version": "1.1",
+                "version_normalized": "1.1.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/sgwhatsplaying.1.1.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>Yes, it's yet another \"currently playing\" plugin. What makes this one\nbetter (or, at least, different)?<\/p>\n\n<ul>\n<li><p>Support for <a href=\"http:\/\/www.musicpd.org\/\" title=\"Music Player Daemon\">MPD<\/a><\/p><\/li>\n<li><p>Support for others is possible and possibly easy - see below.<\/p><\/li>\n<li><p>No file transfer -- WordPress is updated via HTTP POST.<\/p><\/li>\n<li><p>Updater should work on Linux\/BSD, OSX, and Windows.<\/p><\/li>\n<\/ul>\n\n<p>SG What's Playing (SGWP from now on) is comes in two components: the\nWordPress plugin, and a <a href=\"http:\/\/www.python.org\">Python<\/a> program\n(<code>sgwpupdate.py<\/code>) that reads data from the player and POSTs it to the\nblog.<\/p>\n\n<p>The <code>sgwpupdate.py<\/code> program can be run as a one-shot or, on Unix-like\nsystems, as a daemon. In one-shot mode, you can specify song details\nrather than reading them from the player. Thus, if your player can\ntrigger a program on song or status change (e.g. Audacious, WinAMP (I\nthink!)), you can probably use ",
+                "uid": "111169"
+            }
+        }
+    }
+}

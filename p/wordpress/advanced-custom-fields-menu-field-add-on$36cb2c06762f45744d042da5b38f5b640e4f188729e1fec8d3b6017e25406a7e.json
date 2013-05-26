@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/advanced-custom-fields-menu-field-add-on": {
+            "1.0.0": {
+                "name": "wordpress\/advanced-custom-fields-menu-field-add-on",
+                "version": "1.0.0",
+                "version_normalized": "1.0.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/advanced-custom-fields-menu-field-add-on.1.0.0.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>This is an add-on for the <a href=\"http:\/\/www.advancedcustomfields.com\/\">Advanced Custom Fields<\/a> WordPress plugin and will not provide any functionality to WordPress unless Advanced Custom Fields is installed and activated.<\/p>\n\n<p>This add-on creates an Advanced Custom Fields field type that, when associated with a WordPress Menu, renders a single or optionally, a multi select element, containing the items in the menu.<\/p>\n\n<p>The user selection is returned as a plain text string, or, if the field is configured as a multi select, as an array.<\/p>",
+                "uid": "14552"
+            }
+        }
+    }
+}

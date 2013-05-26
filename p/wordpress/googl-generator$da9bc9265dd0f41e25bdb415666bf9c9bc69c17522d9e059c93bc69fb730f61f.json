@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/googl-generator": {
+            "0.6": {
+                "name": "wordpress\/googl-generator",
+                "version": "0.6",
+                "version_normalized": "0.6.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/googl-generator.0.6.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>Returns short URL based on Goo.gl using Matthew Flaschen web service.<\/p>\n\n<p>Just activate the plugin and visit settings panel to configure the output.<\/p>\n\n<p>Yoy can use this call too in your theme:<\/p>\n\n<pre><code>&#60;?php googl_generator('URL'); ?&#62;\n<\/code><\/pre>\n\n<p>Replacing URL string by the URL you want to became short. For example:<\/p>\n\n<pre><code>&#60;?php googl_generator(get_permalink()); ?&#62;\n<\/code><\/pre>\n\n<p>Or use the meta option:<\/p>\n\n<pre><code>&#60;?php get_post_meta($post-&#62;ID, 'googl_short_url', true); ?&#62;\n<\/code><\/pre>",
+                "uid": "75137"
+            }
+        }
+    }
+}

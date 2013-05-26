@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/tweeu": {
+            "1.2": {
+                "name": "wordpress\/tweeu",
+                "version": "1.2",
+                "version_normalized": "1.2.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/tweeu.1.2.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>TweeU is a Wordpress plugin that updates Twitter when you create or edit a blog entry, it uses the buh.bz service for short urls based on Tweetly Updater.\nIt can use your tags and categories to add hashtags to your tweet.<\/p>",
+                "uid": "74168"
+            }
+        }
+    }
+}

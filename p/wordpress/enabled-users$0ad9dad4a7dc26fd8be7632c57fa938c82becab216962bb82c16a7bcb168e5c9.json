@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/enabled-users": {
+            "0.1": {
+                "name": "wordpress\/enabled-users",
+                "version": "0.1",
+                "version_normalized": "0.1.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/enabled-users.0.1.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>This plugin add a new metabox in posts, pages and custom post type. In this metabox you can insert name of users (comma-separed) enabled to view it. If a post haven't users enabled and it have a parent, it is enabled for users enabled for parent.<\/p>",
+                "uid": "24208"
+            }
+        }
+    }
+}

@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/post-sorter": {
+            "1.0": {
+                "name": "wordpress\/post-sorter",
+                "version": "1.0",
+                "version_normalized": "1.0.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/post-sorter.1.0.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>Plugin for easy sorting of posts or pages (both called <em>posts<\/em> below) by user-selected integer numeric factor. The plugin allows easily to switch direction or to \nenable\/disable it. After activation you will be able to manage post position in a loop directly by the new column - Sort or when adding\/editing post to fulfill the \ndesired number in the new metabox, that will appear for you - <em>Post Sorter<\/em>.<\/p>\n\n<p>There are two arrows in the admin post list, which could be used for fast switching of posts positions, i.e. if you click up it will set post order <em>numeric factor<\/em> with 1 \nmore or less (depending on sorting direction) than the one above.<\/p>\n\n<p>In the options page of the plugin you will see several basic settings, whether to enable it and the sorting direction - ascending or descending.\nIf the plugin is enabled it will sort the posts on the front end for you by the numeric values you have previously entered, in the direction selected on the plugin options",
+                "uid": "15558"
+            }
+        }
+    }
+}

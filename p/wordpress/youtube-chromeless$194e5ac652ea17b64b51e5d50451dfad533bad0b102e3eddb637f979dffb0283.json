@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/youtube-chromeless": {
+            "1.1": {
+                "name": "wordpress\/youtube-chromeless",
+                "version": "1.1",
+                "version_normalized": "1.1.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/youtube-chromeless.1.1.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>The YouTube Chromeless plugin (developed by <a href=\"http:\/\/www.cyberseo.net\/\" title=\"CyberSEO.net\">CyberSEO.net<\/a> and based on the <a href=\"http:\/\/tutorialzine.com\/2010\/07\/youtube-api-custom-player-jquery-css\/\" title=\"Custom YouTube Video Player\">Custom YouTube Video Player<\/a> tutorial by TutorialZine.com) allows one to play YouTube videos in the Chromless player. Use the following tag style to insert the YouTube videos into your posts:<\/p>\n\n<pre><code>    [youtube :url width ]\n<\/code><\/pre>\n\n<p>where:<\/p>\n\n<ul>\n<li>url - URL of the YouTube video you want to embed;<\/li>\n<li>width - width of the chromeless player (height is being calculated automatically).<\/li>\n<\/ul>",
+                "uid": "36900"
+            }
+        }
+    }
+}

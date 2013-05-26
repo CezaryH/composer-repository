@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/press9-ab-testing": {
+            "0.1": {
+                "name": "wordpress\/press9-ab-testing",
+                "version": "0.1",
+                "version_normalized": "0.1.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/press9-ab-testing.0.1.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>press9-ab-testing makes calls to press9's API in order to collect data for a running test. No new tables are necessary within Wordpress. \nData is tracked in real-time, so you can log into <a href=\"http:\/\/press9formoreoptions.com\">press9<\/a> and check the status of a test at any time.<\/p>\n\n<p>To run a test:<\/p>\n\n<ol>\n<li>Install and activate the press9-ab-testing plugin<\/li>\n<li>Log into press9formoreoptions.com and click 'Create a test'<\/li>\n<li>Enter the URL of the page you want to test into the Test Designer<\/li>\n<li>Make a HTML or CSS edit and click \"Next\" when you are done<\/li>\n<li>Copy and paste the generated javascript into the \"Test Script\" area of the press9-ab-testing administrative panel in wordpress.<\/li>\n<li>Update the \"Goal Script\" by replacing \"GROUP-TOKEN\" and \"TEST-TOKEN\" with the proper tokens.<\/li>\n<li>Select the Test Page(which pages you want to swap the content on) and the Goal Page(which pages you consider a goal)<\/li>\n<\/ol>\n\n<p>That's it. To check on a test and",
+                "uid": "67741"
+            }
+        }
+    }
+}

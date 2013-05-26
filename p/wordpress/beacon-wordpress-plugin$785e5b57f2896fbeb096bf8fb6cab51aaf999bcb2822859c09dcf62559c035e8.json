@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/beacon-wordpress-plugin": {
+            "0.92": {
+                "name": "wordpress\/beacon-wordpress-plugin",
+                "version": "0.92",
+                "version_normalized": "0.92.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/beacon-wordpress-plugin.0.92.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>Provides real-time notifications of comments through the real-time cloud service Beacon (<a href=\"http:\/\/beaconpush.com\/\" rel=\"nofollow\">http:\/\/beaconpush.com\/<\/a>).\nVisitors will get real-time notifications when comments are posted to blog posts that they are reading.<\/p>",
+                "uid": "59863"
+            }
+        }
+    }
+}

@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/monthchunks": {
+            "2.4": {
+                "name": "wordpress\/monthchunks",
+                "version": "2.4",
+                "version_normalized": "2.4.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/monthchunks.2.4.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>Display monthly archives by year with links to each month in the following compact format:<\/p>\n\n<pre><code>2012\n1 2 3 4 5 6 7 8 9\n\n2011\n1 2 3 4 5 6 7 8 9 10 11 12\n\n2010\n6 7 8 9 10 11 12\n<\/code><\/pre>\n\n<p>Serves as a drop in replacement for <a href=\"http:\/\/codex.wordpress.org\/Function_Reference\/wp_get_archives\"><code>wp_get_archives( array( 'type' =&#62; 'monthly' ) );<\/code><\/a>.<\/p>\n\n<p>If you're interested in contributing to the code behind this plugin, it's also hosted on GitHub:\n<a href=\"https:\/\/github.com\/justincwatt\/wp-monthchunks\" rel=\"nofollow\">https:\/\/github.com\/justincwatt\/wp-monthchunks<\/a><\/p>",
+                "uid": "17247"
+            }
+        }
+    }
+}

@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/general-headers": {
+            "0.5": {
+                "name": "wordpress\/general-headers",
+                "version": "0.5",
+                "version_normalized": "0.5.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/general-headers.0.5.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>This plugin will give you the ability to add generalized headers &#38; footer HTML\nto all the pages in your blog.<\/p>\n\n<p>Note: The headers are added between the  and  tags, so they\ncannot be used to add text to the page.  It's intended to allow you to add\nmeta data to the pages.<\/p>\n\n<p>The footer entry is inserted into your blog just before the  tag, \nas long as the theme you are using uses the correct Wordpress function\ncalls.<\/p>",
+                "uid": "108060"
+            }
+        }
+    }
+}

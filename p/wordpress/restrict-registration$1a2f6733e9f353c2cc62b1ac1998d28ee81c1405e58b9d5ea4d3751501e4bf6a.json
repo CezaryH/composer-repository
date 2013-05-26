@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/restrict-registration": {
+            "2.3": {
+                "name": "wordpress\/restrict-registration",
+                "version": "2.3",
+                "version_normalized": "2.3.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/restrict-registration.2.3.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>\"Restrict Registration\" is a plugin for WordPress that allows you to control \nwho is registering on your blog. This plugin uses simple blacklists and \nwhitelists to define who can register for your blog, and who is restricted. Use \nsimple literal matching, flexible asterisk wildcard matching, or powerful \nregular expression matching: it's your choice! The options page is clear and \neasy to use. Set your lists, and you're done!<\/p>\n\n<p>This plugin was inspired by WP-Deadbolt, but has been completely rewritten and \nredesigned, and several new features have been added.<\/p>",
+                "uid": "80420"
+            }
+        }
+    }
+}

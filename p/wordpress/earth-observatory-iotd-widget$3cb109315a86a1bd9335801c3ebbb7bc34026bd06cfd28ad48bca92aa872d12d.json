@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/earth-observatory-iotd-widget": {
+            "1.0": {
+                "name": "wordpress\/earth-observatory-iotd-widget",
+                "version": "1.0",
+                "version_normalized": "1.0.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/earth-observatory-iotd-widget.1.0.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>Provides a simple sidebar widget to display NASA&#8217;s Earth Observatory Image of the Day and\/or the RSS feed. Numerous options are available to display the content the way you want, including control on the image width and description.<\/p>\n\n<p>The widget can also output just the RSS feed, providing links to previous images for up to the last 10 days (maximum available in feed).<\/p>\n\n<p>Thumbnail images are cached to the plugin folder daily if needed, and the RSS feed is updated hourly.<\/p>",
+                "uid": "27042"
+            }
+        }
+    }
+}

@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/smime": {
+            "0.03": {
+                "name": "wordpress\/smime",
+                "version": "0.03",
+                "version_normalized": "0.03.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/smime.0.03.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>The S\/MIME plugin adds S\/MIME functionality to outgoing e-mails.  This allows \nnotifications to be securely encrypted to recipients using x509\ncertificates.  This would be useful in a \"closed\" blog system where\ncontributors and commentors all all registered, but the web server on\nwhich the blog is hosted is only available via insecure channels (web\nhosting provider).<\/p>",
+                "uid": "114991"
+            }
+        }
+    }
+}

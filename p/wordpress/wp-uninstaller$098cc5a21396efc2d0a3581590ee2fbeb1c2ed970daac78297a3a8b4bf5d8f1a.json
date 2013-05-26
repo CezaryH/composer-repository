@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/wp-uninstaller": {
+            "1.00": {
+                "name": "wordpress\/wp-uninstaller",
+                "version": "1.00",
+                "version_normalized": "1.00.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/wp-uninstaller.1.00.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>Sometimes, wouldn't it be nice to uninstall or 'reset' your WordPress site?<\/p>\n\n<p>That's where WP Uninstaller comes into play. Once activated, you can choose from the following options:<\/p>\n\n<ul>\n<li>delete (or keep) WordPress database tables<\/li>\n<li>delete (or keep) WordPress 'wp-config.php' file<\/li>\n<li>delete (or keep) all files and folders in your WordPress directory (yes, that means everything!)<\/li>\n<\/ul>",
+                "uid": "59911"
+            }
+        }
+    }
+}

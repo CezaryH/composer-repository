@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/external-markup": {
+            "2.1": {
+                "name": "wordpress\/external-markup",
+                "version": "2.1",
+                "version_normalized": "2.1.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/external-markup.2.1.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>Retrieve markup from external websites based on html-comments.\nThe plugin creates htmlfiles that are inserted into the templates\nwhere the function call is made. Uses CURL or fOPEN to retrive the\nexternal content. Also checks the age of the htmlfile using filemtime\nand compares it to the option \"em_external_src_cache\".<\/p>",
+                "uid": "78403"
+            }
+        }
+    }
+}

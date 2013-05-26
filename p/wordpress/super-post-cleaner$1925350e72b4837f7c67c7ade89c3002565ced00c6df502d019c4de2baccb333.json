@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/super-post-cleaner": {
+            "0.1": {
+                "name": "wordpress\/super-post-cleaner",
+                "version": "0.1",
+                "version_normalized": "0.1.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/super-post-cleaner.0.1.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>This plugin deletes duplicate posts from the database, without affecting menus, each time a new post is published. This is an improvement over other similar plugins that would constantly delete custom menus. This plugin works automatically in the background once it is enabled.<\/p>\n\n<p>The plugin will automatically delete posts with the exact same post title as a previous post, leaving the original post undisturbed. This is particularly useful for when you have syndicated content or auto-posts that result in erroneous duplicates. The original will remain, and all the duplicates will be deleted, allowing you to preserve your page views on the original.<\/p>",
+                "uid": "31259"
+            }
+        }
+    }
+}

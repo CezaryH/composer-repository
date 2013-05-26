@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/infopopup": {
+            "1.0": {
+                "name": "wordpress\/infopopup",
+                "version": "1.0",
+                "version_normalized": "1.0.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/infopopup.1.0.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>This is a simple plugin designed to allow styled info-popups (or tooltips) to appear in response to a user mouse-over or click of a target element, using WordPress shortcodes. The shortcode for this plugin's operation is 'infopopup'.<\/p>\n\n<p>You may create as many popups and associated targets as you like, each distinguished by a unique 'tag'. A popup with the tag 'firstpopup' can be included in any page by using the plugin's shortcode followed by a colon (:) and the tag, so:<\/p>\n\n<p>[infopopup:firstpopup]<\/p>\n\n<p>INSTRUCTIONS:<\/p>\n\n<p>To get started, enable the plugin and go to Settings &#62; InfoPopup.<\/p>\n\n<p>You will see an empty table, where popups you create will be listed. Begin by clicking the 'Add new' button.<\/p>\n\n<p>Use the 'Create new InfoPopup' page to specify how your popup will work:<\/p>\n\n<ol>\n<li>Shortcode tag\nThis is how your popup is uniquely identified, and as the field label suggests, the tag will be appended to the shortcode 'infopopup' within your page. This al",
+                "uid": "8601"
+            }
+        }
+    }
+}

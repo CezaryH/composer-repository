@@ -1,0 +1,40 @@
+{
+    "packages": {
+        "wordpress\/seo-url-pages": {
+            "0.4.2": {
+                "name": "wordpress\/seo-url-pages",
+                "version": "0.4.2",
+                "version_normalized": "0.4.2.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/seo-url-pages.0.4.2.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>Change the pattern permalink of pages for best seo results, and delete the \"category\" prefix.<\/p>\n\n<p>If page contains childs, its permalink pattern will be %pagename%\/\nIf not, it will be %pagename%.html<\/p>\n\n<p>If you haven't change the categories prefix, seo url pages delete the default value (category). Otherwise, it does nothing.<\/p>",
+                "uid": "87645"
+            },
+            "0.4.3": {
+                "name": "wordpress\/seo-url-pages",
+                "version": "0.4.3",
+                "version_normalized": "0.4.3.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/seo-url-pages.0.4.3.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>Change the pattern permalink of pages for best seo results, and delete the \"category\" prefix.<\/p>\n\n<p>If page contains childs, its permalink pattern will be %pagename%\/\nIf not, it will be %pagename%.html<\/p>\n\n<p>If you haven't change the categories prefix, seo url pages delete the default value (category). Otherwise, it does nothing.<\/p>",
+                "uid": "87643"
+            }
+        }
+    }
+}

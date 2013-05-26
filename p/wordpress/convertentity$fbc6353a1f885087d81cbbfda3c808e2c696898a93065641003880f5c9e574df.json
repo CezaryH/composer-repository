@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/convertentity": {
+            "1.0.0": {
+                "name": "wordpress\/convertentity",
+                "version": "1.0.0",
+                "version_normalized": "1.0.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/convertentity.1.0.0.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>Some WordPress functions outputs character entity references. The most of these are not allowed in XHTML. So if your WordPress installation uses the mime type 'application\/xhtml+xml', the generated sites could have invalid xhtml code and the browser would display the syntax error page.<\/p>\n\n<p>Convertentity converts all entity references into their corresponding characters with the exception of the references for the following characters: '&#60;&#62;&#38;\"<\/p>\n\n<p>Theses references are the only ones which are allowed in XHTML.<\/p>",
+                "uid": "23653"
+            }
+        }
+    }
+}

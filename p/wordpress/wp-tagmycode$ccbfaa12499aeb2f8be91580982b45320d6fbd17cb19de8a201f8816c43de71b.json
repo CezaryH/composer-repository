@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/wp-tagmycode": {
+            "0.1.2": {
+                "name": "wordpress\/wp-tagmycode",
+                "version": "0.1.2",
+                "version_normalized": "0.1.2.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/wp-tagmycode.0.1.2.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>WP-TagMyCode plugin enables you to insert embedded <a href=\"http:\/\/tagmycode.com\/\" title=\"TagMyCode\">TagMyCode<\/a> snippets on your WordPress blog.<\/p>\n\n<p>This plugin insert an iframe that shows the content of the snippet.<\/p>\n\n<h4>How to use<\/h4>\n\n<p>You can embed your snippet simply using this shortcode:<\/p>\n\n<ul>\n<li><code>[tagmycode SNIPPET_ID WIDTH HEIGHT]<\/code><\/li>\n<\/ul>\n\n<h4>Parameters<\/h4>\n\n<ul>\n<li><code>SNIPPET_ID<\/code> (required) - is the snippet id, e.g. 36<\/li>\n<li><code>WIDTH<\/code> (optional) - width in pixel or percent, default value is 100%.<\/li>\n<li><code>HEIGHT<\/code> (optional) - height in pixel or percent, default value is 500px;<\/li>\n<\/ul>\n\n<h4>Examples<\/h4>\n\n<ul>\n<li><code>[tagmycode 36]<\/code><\/li>\n<li><code>[tagmycode 36 100%]<\/code><\/li>\n<li><code>[tagmycode 36 600px]<\/code><\/li>\n<li><code>[tagmycode 36 100% 400px]<\/code><\/li>\n<\/ul>",
+                "uid": "44658"
+            }
+        }
+    }
+}

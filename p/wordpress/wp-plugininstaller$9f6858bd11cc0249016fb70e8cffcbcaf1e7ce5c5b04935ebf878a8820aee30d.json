@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/wp-plugininstaller": {
+            "1.1": {
+                "name": "wordpress\/wp-plugininstaller",
+                "version": "1.1",
+                "version_normalized": "1.1.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/wp-plugininstaller.1.1.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>wp-PluginInstaller is a plugin designed to allow plugin writers help their site visitors automatically install plugins in their WordPress installations without the need to download and upload the plugin zip file.<\/p>\n\n<p>By using the built in WordPress plugin installation scripts, this wp-PluginInstaller will come handy for every user regardless of his\/her technical background.<\/p>\n\n<p>wp-PluginInstaller was designed to support multiple widgets on the same page just in case multiple plugins are to be showcased on the same page.<\/p>\n\n<h4>How wp-PluginInstaller works<\/h4>\n\n<p>wp-PluginInstaller is designed to use the built in installation mechanism of WordPress. Therefore, after proper configuration, wp-PluginInstaller will display a form requesting the user to input his or her Blog Root URL.<\/p>\n\n<p>wp-PluginInstaller will redirect the user to his\/her wordPress admin area where the user will have to properly login for the default installation screen to be displayed allowing the user ",
+                "uid": "72413"
+            }
+        }
+    }
+}

@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/bbpress-unread-posts": {
+            "1.0": {
+                "name": "wordpress\/bbpress-unread-posts",
+                "version": "1.0",
+                "version_normalized": "1.0.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/bbpress-unread-posts.1.0.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>Shows a read\/unread icon next to threads (Marks topic as read when the user visits it).\nA \"Mark all topic as read\" button on each page allows to set the topics on that page as read.\nDeveloped for: <a href=\"http:\/\/jmonkeyengine.org\" rel=\"nofollow\">http:\/\/jmonkeyengine.org<\/a><\/p>",
+                "uid": "12300"
+            }
+        }
+    }
+}

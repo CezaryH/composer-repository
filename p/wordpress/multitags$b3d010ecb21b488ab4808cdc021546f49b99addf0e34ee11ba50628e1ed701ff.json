@@ -1,0 +1,74 @@
+{
+    "packages": {
+        "wordpress\/multitags": {
+            "0.2": {
+                "name": "wordpress\/multitags",
+                "version": "0.2",
+                "version_normalized": "0.2.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/multitags.0.2.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>Ever noticed that on tag-pages multiple tags are possible? E.g. if you want to show all\nposts having \"tag1\" AND \"tag2\", just go to\n<a href=\"http:\/\/yourwordpressblog\/tag\/tag1+tag2\" rel=\"nofollow\">http:\/\/yourwordpressblog\/tag\/tag1+tag2<\/a><\/p>\n\n<p>But only \"tag1\" is correctly displayed (see screenshots). \nWith this plugin you can use more than one tag correctly. This is especially interesting if\nyou want to optimize some key phrases (like \"tag1 tag2\") for searchengines.<\/p>\n\n<p>Moreover this plugin can add the description of the tags to your tag-pages, simply put<\/p>\n\n<pre><code>&#60;?php echo multi_tags_get_description(&#039;&#60;p&#62;&#039;, &#039;&#60;\/p&#62;&#039;); ?&#62;<\/code><\/pre>\n\n<p>into your theme-file \"tag.php\".\nTo display the correct tags, just replace the call to<\/p>\n\n<pre><code>single_tag_title( &#039;&#039;, false )<\/code><\/pre>\n\n<p>with<\/p>\n\n<pre><code>if (function_exists(&#039;multi_tags_get_title&#039;))\n    echo multi_tags_get_title(&#039;and&#039;, &#039;or&#039",
+                "uid": "62210"
+            },
+            "0.3": {
+                "name": "wordpress\/multitags",
+                "version": "0.3",
+                "version_normalized": "0.3.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/multitags.0.3.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>Ever noticed that on tag-pages multiple tags are possible? E.g. if you want to show all\nposts having \"tag1\" AND \"tag2\", just go to\n<a href=\"http:\/\/yourwordpressblog\/tag\/tag1+tag2\" rel=\"nofollow\">http:\/\/yourwordpressblog\/tag\/tag1+tag2<\/a><\/p>\n\n<p>But only \"tag1\" is correctly displayed (see screenshots). \nWith this plugin you can use more than one tag correctly. This is especially interesting if\nyou want to optimize some key phrases (like \"tag1 tag2\") for searchengines.<\/p>\n\n<p>Moreover this plugin can add the description of the tags to your tag-pages, simply put<\/p>\n\n<pre><code>&#60;?php echo multi_tags_get_description(&#039;&#60;p&#62;&#039;, &#039;&#60;\/p&#62;&#039;); ?&#62;<\/code><\/pre>\n\n<p>into your theme-file \"tag.php\".\nTo display the correct tags, just replace the call to<\/p>\n\n<pre><code>single_tag_title( &#039;&#039;, false )<\/code><\/pre>\n\n<p>with<\/p>\n\n<pre><code>if (function_exists(&#039;multi_tags_get_title&#039;))\n    echo multi_tags_get_title(&#039;and&#039;, &#039;or&#039",
+                "uid": "62209"
+            },
+            "0.4": {
+                "name": "wordpress\/multitags",
+                "version": "0.4",
+                "version_normalized": "0.4.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/multitags.0.4.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>Ever noticed that on tag-pages multiple tags are possible? E.g. if you want to show all\nposts having \"tag1\" AND \"tag2\", just go to\n<a href=\"http:\/\/yourwordpressblog\/tag\/tag1+tag2\" rel=\"nofollow\">http:\/\/yourwordpressblog\/tag\/tag1+tag2<\/a><\/p>\n\n<p>But only \"tag1\" is correctly displayed (see screenshots). \nWith this plugin you can use more than one tag correctly. This is especially interesting if\nyou want to optimize some key phrases (like \"tag1 tag2\") for searchengines.<\/p>\n\n<p>Moreover this plugin can add the description of the tags to your tag-pages, simply put<\/p>\n\n<pre><code>&#60;?php echo multi_tags_get_description(&#039;&#60;p&#62;&#039;, &#039;&#60;\/p&#62;&#039;); ?&#62;<\/code><\/pre>\n\n<p>into your theme-file \"tag.php\".\nTo display the correct tags, just replace the call to<\/p>\n\n<pre><code>single_tag_title( &#039;&#039;, false )<\/code><\/pre>\n\n<p>with<\/p>\n\n<pre><code>if (function_exists(&#039;multi_tags_get_title&#039;))\n    echo multi_tags_get_title(&#039;and&#039;, &#039;or&#039",
+                "uid": "62208"
+            },
+            "0.5": {
+                "name": "wordpress\/multitags",
+                "version": "0.5",
+                "version_normalized": "0.5.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/multitags.0.5.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>Ever noticed that on tag-pages multiple tags are possible? E.g. if you want to show all\nposts having \"tag1\" AND \"tag2\", just go to\n<a href=\"http:\/\/yourwordpressblog\/tag\/tag1+tag2\" rel=\"nofollow\">http:\/\/yourwordpressblog\/tag\/tag1+tag2<\/a><\/p>\n\n<p>But only \"tag1\" is correctly displayed (see screenshots). \nWith this plugin you can use more than one tag correctly. This is especially interesting if\nyou want to optimize some key phrases (like \"tag1 tag2\") for searchengines.<\/p>\n\n<p>Moreover this plugin can add the description of the tags to your tag-pages, simply put<\/p>\n\n<pre><code>&#60;?php echo multi_tags_get_description(&#039;&#60;p&#62;&#039;, &#039;&#60;\/p&#62;&#039;); ?&#62;<\/code><\/pre>\n\n<p>into your theme-file \"tag.php\".\nTo display the correct tags, just replace the call to<\/p>\n\n<pre><code>single_tag_title( &#039;&#039;, false )<\/code><\/pre>\n\n<p>with<\/p>\n\n<pre><code>if (function_exists(&#039;multi_tags_get_title&#039;))\n    echo multi_tags_get_title(&#039;and&#039;, &#039;or&#039",
+                "uid": "62207"
+            }
+        }
+    }
+}

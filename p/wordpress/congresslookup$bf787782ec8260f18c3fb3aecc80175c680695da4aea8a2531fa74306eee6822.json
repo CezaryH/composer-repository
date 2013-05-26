@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/congresslookup": {
+            "1.0": {
+                "name": "wordpress\/congresslookup",
+                "version": "1.0",
+                "version_normalized": "1.0.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/congresslookup.1.0.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>CongressLookup is a free WordPress plugin giving your site visitor an easy way to find United States congressional representatives.  CongressLookup makes it easier to launch a grassroots campaign for your favorite cause and will keep your visitors on your site instead of sending them to elsewhere to find their legislators.<\/p>\n\n<p><strong>Where The Data Comes From<\/strong><br \/>\nCongressLookup uses data provided by Google Maps GeoCoding API and Sunlight Foundation APIs.  For more information and how to obtain your API key see the FAQs.<\/p>\n\n<p><em>Google Maps GeoCoding API<\/em><br \/>\nBy using this plugin you are bound by the <a title=\"Google Maps Terms of Use\" href=\"http:\/\/www.google.com\/intl\/en-US_US\/help\/terms_maps.html\">Google Maps terms of use<\/a>.  Google GeoCoding API limits use to 2,500 requests per IP address per day.  We have added a cache feature (default setting is 30 minutes) you can set to reduce the number of requests made to the API.  If you anticipate 2,500 is not en",
+                "uid": "20724"
+            }
+        }
+    }
+}

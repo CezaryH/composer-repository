@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/indigestion-plus": {
+            "0.5": {
+                "name": "wordpress\/indigestion-plus",
+                "version": "0.5",
+                "version_normalized": "0.5.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/indigestion-plus.0.5.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>Indigestion+ periodically collects a number of public RSS or Atom feeds and posts a list containing all new items.  Each feed may provide additional display and metadata options, such as the ability to import comments or tags.<\/p>\n\n<p>Indigestion+ began as a fork of the <a href=\"http:\/\/wordpress.org\/extend\/plugins\/indigestion\/\">Indigestion<\/a> plugin by <a href=\"http:\/\/wordpress.org\/extend\/plugins\/profile\/evelio\">Evelio Tarazona C&#225;ceres<\/a>, but eventually required a complete rewrite.  It uses Wordpress's \"cron\" function for scheduling and Simplepie to download, cache and manipulate feeds.<\/p>",
+                "uid": "81557"
+            }
+        }
+    }
+}

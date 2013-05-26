@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/mw-ip-denied": {
+            "0.3": {
+                "name": "wordpress\/mw-ip-denied",
+                "version": "0.3",
+                "version_normalized": "0.3.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/mw-ip-denied.0.3.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>MW IP Denied allows you to set access restrictions by IP address for each article. When access is restricted and there is template-access-denied.php, MW IP Denied load it.<\/p>\n\n<p>You can also use short code for controlling the access on a part of the article.<\/p>\n\n<p>Only the IP address that you specify can access.\n[mw-ip-allow allow=\"IPAddress,&#8230;\"]text[\/mw-ip-allow]<\/p>\n\n<p>Only the IP address that you specify can not access.\n[mw-ip-deny deny=\"IPAddress,&#8230;\"]text[\/mw-ip-deny]<\/p>",
+                "uid": "11511"
+            }
+        }
+    }
+}

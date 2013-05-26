@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/jquery-font-resizer": {
+            "1.0": {
+                "name": "wordpress\/jquery-font-resizer",
+                "version": "1.0",
+                "version_normalized": "1.0.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/jquery-font-resizer.1.0.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>The plugin offers three links to change the font-size of your blog. They can be inserted anywhere on your website by including a simple php-function (s. \"Installation\"). These links change the font-size value of the most outward html element of the page: the body element. All values of the elements inside the html body must therefore have relative font-size values. Only text that you want not to change its font-size at all must have an absolute value. \nHere is an example for better understanding: The default font-size-value of the body element must be set to \"10px\" (s. \"Installation\"). By clicking the \"A+\"-link this value will be set to \"11px\". All elements with RELATIVE font-size values (like \"p {font-size: 100%;}\") will then be automatically adjusted to the new top-level font-size. In this case the font-size of a \"p\"-element will switch from 10px (100% of 10px = 10px) to 11px (100% of 11px = 11px). Font-size values of other elements will change likewise (a value of 120% will resul",
+                "uid": "80896"
+            }
+        }
+    }
+}

@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/wp-codeshield": {
+            "0.4": {
+                "name": "wordpress\/wp-codeshield",
+                "version": "0.4",
+                "version_normalized": "0.4.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/wp-codeshield.0.4.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>This plugin escapes all text inside code tags so you don't have to worry about converting code to HTML characters (e.g. <code>&#62;<\/code>'s to <code>&#38;gt;<\/code>'s). The contents of code tags inside posts and comments are run through php's htmlspecialchars.<\/p>",
+                "uid": "106887"
+            }
+        }
+    }
+}

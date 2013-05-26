@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/category-excluder": {
+            "1.1": {
+                "name": "wordpress\/category-excluder",
+                "version": "1.1",
+                "version_normalized": "1.1.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/category-excluder.1.1.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>A simplistic plugin that allows for the furthur customization of your category list. This will allow you to create a custom category list which will show the categories you want, and will hide the categories you do not want. For example, say you have a particular category you don't want to be displayed named \"Announcements\". You can use this plugin to display all of your other categories, except the category \"Announcements\". You are not limited to just excluding one category; you can exclude multiple categories. Essentially, this plugin provides more functionality to your category list.<\/p>",
+                "uid": "28212"
+            }
+        }
+    }
+}

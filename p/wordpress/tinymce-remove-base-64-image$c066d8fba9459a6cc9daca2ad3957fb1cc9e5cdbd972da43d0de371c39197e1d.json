@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/tinymce-remove-base-64-image": {
+            "1.0.0": {
+                "name": "wordpress\/tinymce-remove-base-64-image",
+                "version": "1.0.0",
+                "version_normalized": "1.0.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/tinymce-remove-base-64-image.1.0.0.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>Firefox allows a user to drag and drop an image from their desktop into the TinyMCE editor (Visual), where it is immediately converted to base64 code, which is undesirable as the image file size is much larger than the equivalent added by the standard WordPress method because...<\/p>\n\n<ul>\n<li>base64 images are larger than binary images<\/li>\n<li>WordPress would normally have 'crunched'  the image to give various different sizes, including a thumbnail, all smaller than the original<\/li>\n<\/ul>\n\n<p>To prevent this, \"TinyMCE remove-base-64-image\" contains a small piece of javascript that checks the TinyMCE editor every 1.5 seconds and immediately removes any base64 image found, also displaying an alert message:<\/p>\n\n<p>'Sorry, dragging images into the editor is blocked as it will cause your webpages to load slowly, please use the \"Add Media\" button!'.<\/p>\n\n<p>If you manage multiple WordPress sites this plugin will save you time checking if your clients are unwittingly crippling their pag",
+                "uid": "9737"
+            }
+        }
+    }
+}

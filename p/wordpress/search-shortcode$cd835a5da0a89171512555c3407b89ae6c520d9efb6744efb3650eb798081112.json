@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/search-shortcode": {
+            "1.0": {
+                "name": "wordpress\/search-shortcode",
+                "version": "1.0",
+                "version_normalized": "1.0.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/search-shortcode.1.0.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>Provides a [search] shortcode to insert search form in content.<\/p>\n\n<p>Works with all bundled themes (2010,2011,2012). Should work with any other decently coded theme<\/p>",
+                "uid": "11240"
+            }
+        }
+    }
+}

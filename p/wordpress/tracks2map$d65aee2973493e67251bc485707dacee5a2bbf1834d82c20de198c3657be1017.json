@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/tracks2map": {
+            "1.0": {
+                "name": "wordpress\/tracks2map",
+                "version": "1.0",
+                "version_normalized": "1.0.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/tracks2map.1.0.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>DE:<\/p>\n\n<h4>Technisches<\/h4>\n\n<p>Das Plugin sucht bei Aktivierung alle GPX Dateien, die mit einem Artikel verkn&#252;pft sind, speichert sie im Ordner \"wp-content\/uploads\/cachegpx\",  reduziert die Punkte der Tracks und speichert auch die reduzierten GPX Dateien im JSON Format im Ordner \"wp-content\/uploads\/cachegpx\". Dieser Prozess kann auch manuell &#252;ber die Optionsseite des Plugins mit Update Cache (sucht nach neuen verkn&#252;pften GPX Dateien) bzw. Rebuild Cache (l&#246;scht zuerst Cache und sucht dann nach verkn&#252;pften GPS Dateien) ausgef&#252;hrt werden. Zus&#228;tzlich wird dieser Prozess beim Publizieren eines Post automatisch ausgef&#252;hrt, sodass er nicht bei jedem Post manuell gemacht werden muss. Eine manuelle Ausf&#252;hrung ist also nur selten, z.B. wenn GPX Dateien gel&#246;scht werden oder der Cache aus einem anderen Grund manuell aktualisiert oder neu erstellt werden soll, vonn&#246;ten.<\/p>\n\n<p>Beispielseite: <a href=\"http:\/\/www.diewanderer.it\/wanderungen",
+                "uid": "23071"
+            }
+        }
+    }
+}

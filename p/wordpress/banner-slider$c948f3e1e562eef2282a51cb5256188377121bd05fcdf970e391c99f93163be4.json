@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/banner-slider": {
+            "1.0": {
+                "name": "wordpress\/banner-slider",
+                "version": "1.0",
+                "version_normalized": "1.0.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/banner-slider.1.0.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>A banner  management component. Support multi banner transition and ajax file upload feature. Can be resized the slider at any height and with using plugin option\nVersion 1.0 includes:\n1. Set slider height and width from plugin option.\n2. Autmatic and ajax enabled image upload and also resize image acoording to given width and height.\n3. Banner can include some excerpt which will be shown at bottom of the banner in faded bar.\n4. Can put links to banner<\/p>",
+                "uid": "55394"
+            }
+        }
+    }
+}

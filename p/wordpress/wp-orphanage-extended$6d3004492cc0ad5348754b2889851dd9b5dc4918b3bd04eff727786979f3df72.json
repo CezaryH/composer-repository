@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/wp-orphanage-extended": {
+            "1.0": {
+                "name": "wordpress\/wp-orphanage-extended",
+                "version": "1.0",
+                "version_normalized": "1.0.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/wp-orphanage-extended.1.0.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>Users who have not been assigned any Roles or Capabilities are called 'orphans'. When using the <a href=\"http:\/\/xentek.net\/articles\/528\/implementing-the-wordpress-shared-users-table-trick\/\">shared users table trick<\/a> to link up multiple WordPress installations, users who register on one of your blogs, are not given any privileges on the other blogs in the network. WP-Orphanage is a plugin that automatically adopts your orphan users by promoting them to the role of your choosing. By default it is the same as the default role set in the WP Options.<\/p>\n\n<p>It does it in two ways:<\/p>\n\n<ol>\n<li>Users who try to login to a different blog in the network than the one they signed up on, will be promoted at the time of login. The user won't even know that it happened.<\/li>\n<li>When the admin logs into the blog and views the users page, all orphan users &#8211; for that blog &#8211; are promoted automatically.<\/li>\n<\/ol>\n\n<p>By taking a just in time approach, this plugin will not add any n",
+                "uid": "31394"
+            }
+        }
+    }
+}

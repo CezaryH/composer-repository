@@ -1,0 +1,40 @@
+{
+    "packages": {
+        "wordpress\/wp-dev-library": {
+            "0.3": {
+                "name": "wordpress\/wp-dev-library",
+                "version": "0.3",
+                "version_normalized": "0.3.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/wp-dev-library.0.3.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>Provides a foundation and extensions for\/to common Wordpress developer functions or tasks, such as creating and installing plugins, making complex database queries, etc.<\/p>\n\n<h4>Includes - MVC<\/h4>\n\n<ul>\n<li>common helpful functions:\n** v (if isset use value else default)\n** kv (non-destructive version of v)\n** h (htmlspecialchars)\n** str (check if string)\n** post\/get (wrapper for $_GET, $_POST or default),\n** server ($_SERVER wrapper)\n** url (returns current url path, optionally parsed by segment)\n** mvc_filepath (get include path to mvc file)<\/li>\n<li>error handling + debugging template<\/li>\n<li>html wrapper functions<\/li>\n<li>language functions (more like loading reusable labels)<\/li>\n<li>form + validation<\/li>\n<li>the mvc stack itself<\/li>\n<\/ul>\n\n<h4>Includes - Etc<\/h4>\n\n<ul>\n<li>custom exception class - extend this for easier catching<\/li>\n<li>HtmlRenderer - not actually sure this is used anywhere, it allows for the plugin-pattern to render html<\/li>\n<li>inflector - for singul",
+                "uid": "32126"
+            },
+            "0.3.2": {
+                "name": "wordpress\/wp-dev-library",
+                "version": "0.3.2",
+                "version_normalized": "0.3.2.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/wp-dev-library.0.3.2.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>Provides a foundation and extensions for\/to common Wordpress developer functions or tasks, such as creating and installing plugins, making complex database queries, etc.<\/p>\n\n<h4>Includes - MVC<\/h4>\n\n<ul>\n<li>common helpful functions:\n** v (if isset use value else default)\n** kv (non-destructive version of v)\n** h (htmlspecialchars)\n** str (check if string)\n** post\/get (wrapper for $_GET, $_POST or default),\n** server ($_SERVER wrapper)\n** url (returns current url path, optionally parsed by segment)\n** mvc_filepath (get include path to mvc file)<\/li>\n<li>error handling + debugging template<\/li>\n<li>html wrapper functions<\/li>\n<li>language functions (more like loading reusable labels)<\/li>\n<li>form + validation<\/li>\n<li>the mvc stack itself<\/li>\n<\/ul>\n\n<h4>Includes - Etc<\/h4>\n\n<ul>\n<li>custom exception class - extend this for easier catching<\/li>\n<li>HtmlRenderer - not actually sure this is used anywhere, it allows for the plugin-pattern to render html<\/li>\n<li>inflector - for singul",
+                "uid": "32125"
+            }
+        }
+    }
+}

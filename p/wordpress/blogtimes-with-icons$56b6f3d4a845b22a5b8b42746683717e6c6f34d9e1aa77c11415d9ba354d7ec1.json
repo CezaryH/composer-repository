@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/blogtimes-with-icons": {
+            "0.9": {
+                "name": "wordpress\/blogtimes-with-icons",
+                "version": "0.9",
+                "version_normalized": "0.9.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/blogtimes-with-icons.0.9.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>This plugin generates a iconic diagram showing when posts are made during a period of time. For this to work <code>wp-images\/blogtimes.png<\/code> must be writable by the web server.<\/p>",
+                "uid": "111524"
+            }
+        }
+    }
+}

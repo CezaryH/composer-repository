@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/wp-subtitle": {
+            "1.0": {
+                "name": "wordpress\/wp-subtitle",
+                "version": "1.0",
+                "version_normalized": "1.0.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/wp-subtitle.1.0.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>The WP Subtitle plugin allows your pages and posts to contain a subtitle.  Also called a sub-heading, this this short line of text is meant to appear beneath a post's (or page's) title, but can be inserted in your template wherever you choose.<\/p>\n\n<p>&#60;?the<em>subtitle()?&#62; is used for inside The Loop -- if you wish to get a page\/post's subtitle outside The Loop, use &#60;?get<\/em>the_subtitle($id)?&#62;, where $id is the page or post's ID ($post-&#62;ID).<\/p>\n\n<p>Just like WP's built-in &#60;?the<em>title()?&#62; method, &#60;?the<\/em>subtitle()?&#62; tag accepts three parameters:<\/p>\n\n<p>$before\n(string) Text to place before the subtitle, defaults to \"\".<\/p>\n\n<p>$after\n(string) Text to place after the subtitle, defaults to \"\".<\/p>\n\n<p>$display\n(boolean) If true, display the subtitle in XHTML; if false, return the subtitle for use in PHP.  Defaults to true.<\/p>\n\n<p>Things are slightly different in &#60;?get<em>the<\/em>subtitle()?&#62;:<\/p>\n\n<p>$id\n(integer) Post (or page) ID",
+                "uid": "84762"
+            }
+        }
+    }
+}

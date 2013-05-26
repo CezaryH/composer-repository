@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/airbrake": {
+            "0.1": {
+                "name": "wordpress\/airbrake",
+                "version": "0.1",
+                "version_normalized": "0.1.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/airbrake.0.1.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>This plugin collects and aggregates all errors created by Wordpress and it's plugins. It de-dupes and lets developers know how to fix issues fast.<\/p>\n\n<p>It requires an API key from <a href=\"http:\/\/airbrake.io\">http:\/\/airbrake.io<\/a>.  It collects errors from staging and production so you identiy bugs and exceptions and fix them fast, with full backtrace data.<\/p>",
+                "uid": "10212"
+            }
+        }
+    }
+}

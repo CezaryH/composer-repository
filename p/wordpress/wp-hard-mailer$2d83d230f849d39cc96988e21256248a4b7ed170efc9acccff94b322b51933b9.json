@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/wp-hard-mailer": {
+            "1.1.2": {
+                "name": "wordpress\/wp-hard-mailer",
+                "version": "1.1.2",
+                "version_normalized": "1.1.2.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/wp-hard-mailer.1.1.2.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>Create two textareas, one for create a form template and other for a mail template.<\/p>\n\n<p>The first one can be included on any page(s)\/post(s)\/sidebar. The advantage of this methos is have all control on your form. PHP tags will be scaped.<\/p>\n\n<p>The second textarea determines a template mail that the form. On the template you can use [names] to put your content anywhere.<\/p>\n\n<pre><code>Sample:\n\nThis email was send by [name]\n\n---\n\n[message]\n<\/code><\/pre>",
+                "uid": "86562"
+            }
+        }
+    }
+}

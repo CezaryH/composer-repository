@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/single-menu-active": {
+            "1.0.0": {
+                "name": "wordpress\/single-menu-active",
+                "version": "1.0.0",
+                "version_normalized": "1.0.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/single-menu-active.1.0.0.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>With this plugin, you can add easily 2 styles on your single page for highlight the active category where wp_list_categories was activated.\n2 textarea are available for background and link's styles.<\/p>\n\n<p>Informations were in table wp_options with option_name like 'singlemenuactiveAdminOptions'<\/p>",
+                "uid": "25686"
+            }
+        }
+    }
+}

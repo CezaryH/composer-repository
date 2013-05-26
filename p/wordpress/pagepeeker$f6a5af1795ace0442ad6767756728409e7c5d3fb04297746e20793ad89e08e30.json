@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/pagepeeker": {
+            "1.1": {
+                "name": "wordpress\/pagepeeker",
+                "version": "1.1",
+                "version_normalized": "1.1.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/pagepeeker.1.1.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>Put website thumbnails on your site. Use this shortcode<\/p>\n\n<pre>[pagepeeker size=\"t\" url=\"google.com\" alt=\"Google\"]<\/pre>\n\n<p>Supported parameters<\/p>\n\n<ul>\n  <li>url - URL of the site to take snapshot<\/li>\n  <li>size - The size of the thumbnail. Available sizes:\n    <ul>\n      <li>t - Tiny, 90 x 68 pixels<\/li>\n      <li>s - Small, 120 x 90 pixels<\/li>\n      <li>m - Medium, 200 x 150 pixels<\/li>\n      <li>l - Large, 400 x 300 pixels<\/li>\n      <li>x - Extra large, 480 x 360 pixels<\/li>\n    <\/ul>\n  <\/li>\n  <li>alt - For image alt<\/li>\n<\/ul>",
+                "uid": "10930"
+            }
+        }
+    }
+}

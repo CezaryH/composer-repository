@@ -1,0 +1,57 @@
+{
+    "packages": {
+        "wordpress\/ez-post-archives": {
+            "1.1": {
+                "name": "wordpress\/ez-post-archives",
+                "version": "1.1",
+                "version_normalized": "1.1.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/ez-post-archives.1.1.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<h3>Features<\/h3>\n\n<ul>\n<li>Allows you to easily generate an archive list by year or month - very similar to the wp_get_archives() function<\/li>\n<li>Generates necessary rewrite rules<\/li>\n<li>Generates SEO friendly title tags for archive templates<\/li>\n<li>Allows use of archive templates (archive.php or archive-{post-type}.php)<\/li>\n<li>Allows easy generation of necessary template headings<\/li>\n<\/ul>\n\n<h3>Generate archive list<\/h3>\n\n<pre><code>EZ_Post_Archives::get($args);\n\n$args = array(\n    'post_type' =&#62; '',\n    \/\/ the slug(s) of the custom post type.\n    \/\/ must use an array if using multiple post types\n\n    'limit' =&#62; 12,\n    \/\/ sets the number of archives pulled in\n\n    'type' =&#62; 'yearly',\n    \/\/ either yearly or monthly\n\n    'taxonomy' =&#62; null,\n    \/\/ optional taxonomy\n\n    'term' =&#62; null,\n    \/\/ optional term\n\n    'month_format' =&#62; '&#60;a href=\"{{link}}\"&#62;{{month}} {{year}}&#60;\/a&#62;',\n    \/\/ format for monthly links\n\n    'year_format' =&#62; '&#60",
+                "uid": "36397"
+            },
+            "1.2": {
+                "name": "wordpress\/ez-post-archives",
+                "version": "1.2",
+                "version_normalized": "1.2.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/ez-post-archives.1.2.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<h3>Features<\/h3>\n\n<ul>\n<li>Allows you to easily generate an archive list by year or month - very similar to the wp_get_archives() function<\/li>\n<li>Generates necessary rewrite rules<\/li>\n<li>Generates SEO friendly title tags for archive templates<\/li>\n<li>Allows use of archive templates (archive.php or archive-{post-type}.php)<\/li>\n<li>Allows easy generation of necessary template headings<\/li>\n<\/ul>\n\n<h3>Generate archive list<\/h3>\n\n<pre><code>EZ_Post_Archives::get($args);\n\n$args = array(\n    'post_type' =&#62; '',\n    \/\/ the slug(s) of the custom post type.\n    \/\/ must use an array if using multiple post types\n\n    'limit' =&#62; 12,\n    \/\/ sets the number of archives pulled in\n\n    'type' =&#62; 'yearly',\n    \/\/ either yearly or monthly\n\n    'taxonomy' =&#62; null,\n    \/\/ optional taxonomy\n\n    'term' =&#62; null,\n    \/\/ optional term\n\n    'month_format' =&#62; '&#60;a href=\"{{link}}\"&#62;{{month}} {{year}}&#60;\/a&#62;',\n    \/\/ format for monthly links\n\n    'year_format' =&#62; '&#60",
+                "uid": "36396"
+            },
+            "1.3": {
+                "name": "wordpress\/ez-post-archives",
+                "version": "1.3",
+                "version_normalized": "1.3.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/ez-post-archives.1.3.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<h3>Features<\/h3>\n\n<ul>\n<li>Allows you to easily generate an archive list by year or month - very similar to the wp_get_archives() function<\/li>\n<li>Generates necessary rewrite rules<\/li>\n<li>Generates SEO friendly title tags for archive templates<\/li>\n<li>Allows use of archive templates (archive.php or archive-{post-type}.php)<\/li>\n<li>Allows easy generation of necessary template headings<\/li>\n<\/ul>\n\n<h3>Generate archive list<\/h3>\n\n<pre><code>EZ_Post_Archives::get($args);\n\n$args = array(\n    'post_type' =&#62; '',\n    \/\/ the slug(s) of the custom post type.\n    \/\/ must use an array if using multiple post types\n\n    'limit' =&#62; 12,\n    \/\/ sets the number of archives pulled in\n\n    'type' =&#62; 'yearly',\n    \/\/ either yearly or monthly\n\n    'taxonomy' =&#62; null,\n    \/\/ optional taxonomy\n\n    'term' =&#62; null,\n    \/\/ optional term\n\n    'month_format' =&#62; '&#60;a href=\"{{link}}\"&#62;{{month}} {{year}}&#60;\/a&#62;',\n    \/\/ format for monthly links\n\n    'year_format' =&#62; '&#60",
+                "uid": "36395"
+            }
+        }
+    }
+}

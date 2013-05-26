@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/best-html-sitemap": {
+            "1.0": {
+                "name": "wordpress\/best-html-sitemap",
+                "version": "1.0",
+                "version_normalized": "1.0.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/best-html-sitemap.1.0.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>Best HTML Sitemap gives you the ability to generate an HTML sitemap of the pages on your blog.  30 second installation.<\/p>\n\n<p>Simply insert the following shortcode onto a page or a post:<\/p>\n\n<pre><code>[best-html-sitemap-pages]<\/code><\/pre>\n\n<p>The plugin adds wrapper functions around the Wordpress wp_list_pages function.  You can configure the plugin via shortcode.  Settings included are:<\/p>\n\n<pre><code>sort_column<\/code><\/pre>\n\n<pre><code>sort_order<\/code><\/pre>\n\n<pre><code>exclude<\/code><\/pre>\n\n<pre><code>include<\/code><\/pre>\n\n<pre><code>depth<\/code><\/pre>\n\n<pre><code>child_of<\/code><\/pre>\n\n<pre><code>meta_key<\/code><\/pre>\n\n<pre><code>meta_value<\/code><\/pre>\n\n<pre><code>authors<\/code><\/pre>\n\n<pre><code>number<\/code><\/pre>\n\n<pre><code>offset<\/code><\/pre>\n\n<p>For more information on how to use the settings, see the <code>wp_list_pages<\/code> function (<a href=\"http:\/\/codex.wordpress.org\/Template_Tags\/wp_list_pages\" rel=\"nofollow\">http:\/\/codex.wordpress.org\/Template_Tags\/wp_list",
+                "uid": "51135"
+            }
+        }
+    }
+}

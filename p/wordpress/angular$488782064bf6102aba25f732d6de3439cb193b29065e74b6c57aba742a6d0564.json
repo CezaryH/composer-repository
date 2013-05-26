@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/angular": {
+            "0.1": {
+                "name": "wordpress\/angular",
+                "version": "0.1",
+                "version_normalized": "0.1.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/angular.0.1.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>Automatically include the &#60;angular\/&#62; javascript tag on your wordpress site. This will allow you to build simple web-applications inline with your post. Click <a href=\"http:\/\/blog.getangular.com\/2009\/12\/06\/plugin-for-wordpress\">here<\/a> for an example.<\/p>",
+                "uid": "77269"
+            }
+        }
+    }
+}

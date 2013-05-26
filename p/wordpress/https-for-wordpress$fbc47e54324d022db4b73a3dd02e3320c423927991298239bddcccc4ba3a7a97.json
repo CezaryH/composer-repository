@@ -1,0 +1,40 @@
+{
+    "packages": {
+        "wordpress\/https-for-wordpress": {
+            "0.1": {
+                "name": "wordpress\/https-for-wordpress",
+                "version": "0.1",
+                "version_normalized": "0.1.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/https-for-wordpress.0.1.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>This plugin will make sure that all elements on a page are SSL if the page is being accessed via HTTPS. For this to happen you must have used correct programming practices and use siteurl, wpurl, url etc where all the locations are supposed to be.<\/p>\n\n<p>Some plugins do not correctly use this, I have already notified a few of them, but you may find some other issues, if you do, please contact me and I will research and attempt to notify the developers of the other plugins.<\/p>",
+                "uid": "103685"
+            },
+            "0.2": {
+                "name": "wordpress\/https-for-wordpress",
+                "version": "0.2",
+                "version_normalized": "0.2.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/https-for-wordpress.0.2.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>This plugin will make sure that all elements on a page are SSL if the page is being accessed via HTTPS. For this to happen you must have used correct programming practices and use siteurl, wpurl, url etc where all the locations are supposed to be.<\/p>\n\n<p>Some plugins do not correctly use this, I have already notified a few of them, but you may find some other issues, if you do, please contact me and I will research and attempt to notify the developers of the other plugins.<\/p>",
+                "uid": "103684"
+            }
+        }
+    }
+}

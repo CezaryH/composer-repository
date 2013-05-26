@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/wordpress-countdown-plugin": {
+            "1.3": {
+                "name": "wordpress\/wordpress-countdown-plugin",
+                "version": "1.3",
+                "version_normalized": "1.3.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/wordpress-countdown-plugin.1.3.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>With this plugin you can set up a countdown timer - or even multiple - on a page. The timer will count down until the given date and show the alternative content.<\/p>\n\n<p>This plugin is great for use on sales pages and product launches or discounts, it gives a sense of tension to the visitor.<\/p>\n\n<p>This plugin does not use an admin page, everything is done with a few simple shortcodes.<\/p>\n\n<p><em>Usage:<\/em><\/p>\n\n<pre><code>[countdown date=\"18:00:00 08\/30\/2009\"]\nThis page goes live in about: [counter]\n[after]\nEnter your secret content here\n[\/countdown]\n<\/code><\/pre>\n\n<p>Note that dates are UTC and that alternative content is not send to the browser until the date passed.<\/p>",
+                "uid": "80432"
+            }
+        }
+    }
+}

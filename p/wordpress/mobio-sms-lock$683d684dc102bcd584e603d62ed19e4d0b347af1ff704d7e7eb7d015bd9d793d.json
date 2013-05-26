@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/mobio-sms-lock": {
+            "1.3": {
+                "name": "wordpress\/mobio-sms-lock",
+                "version": "1.3",
+                "version_normalized": "1.3.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/mobio-sms-lock.1.3.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>Locks posts and requires sms payment for unlocking it. This way you can have post with paid access<\/p>",
+                "uid": "29974"
+            }
+        }
+    }
+}

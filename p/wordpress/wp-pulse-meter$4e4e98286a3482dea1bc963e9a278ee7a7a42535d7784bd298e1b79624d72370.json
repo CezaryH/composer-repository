@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/wp-pulse-meter": {
+            "1.0": {
+                "name": "wordpress\/wp-pulse-meter",
+                "version": "1.0",
+                "version_normalized": "1.0.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/wp-pulse-meter.1.0.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>The plugin gets active on every site visit looking, if there is already a picture for the current day drawn. If not (there is no properly named picture in the directory) a new one is drawn. This will happen the first time the blog is accessed after midnight. Now, all posts and comments within the pulse scope are fetched. For every day in the scope, the posts and comments will be summed up and shown as a up-down peak on the graph. In the end, the graph image will be saved and the html img-tag will be returned. The graph is always scaled, so that the day with the highest peak uses the maximum height.<\/p>\n\n<p>You are able to modify the looks of the pulse meter:<\/p>\n\n<p>echo showPulseMeterImg($alwaysCreateNew = 'false', $pulseScope = 30, $width = 200, $height = 50, $bgcolor = 'FFFFFF', $linecolor = '000000', $paddingx = 5, $paddingy = 5, $fade = 1, $id = 'wppulsemeter', $path = 'wp-imageswp-pulse-meter');<\/p>\n\n<ul>\n<li>$alwaysCreateNew &#124; If 'true', the image will be always redrawn ",
+                "uid": "89456"
+            }
+        }
+    }
+}

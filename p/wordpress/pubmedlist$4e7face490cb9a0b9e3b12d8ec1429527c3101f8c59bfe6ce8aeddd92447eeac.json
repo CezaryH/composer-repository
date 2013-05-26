@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/pubmedlist": {
+            "1.0": {
+                "name": "wordpress\/pubmedlist",
+                "version": "1.0",
+                "version_normalized": "1.0.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/pubmedlist.1.0.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>Given a search term this plugin lists the results<\/p>\n\n<p>The Plugin works only in templates or with a PHP-Plugin in site and posts.<\/p>\n\n<p>You can style the output completely using plugins\/pubmedlist\/css\/pubmed.css<\/p>\n\n<p>Use following code with a PHP-Plugin or in a template, example sidebar.php or single.php, for WordPress:<\/p>\n\n<p><em>Example:<\/em>\n    &#60;?php PubmedList(); ?&#62;<\/p>",
+                "uid": "93089"
+            }
+        }
+    }
+}

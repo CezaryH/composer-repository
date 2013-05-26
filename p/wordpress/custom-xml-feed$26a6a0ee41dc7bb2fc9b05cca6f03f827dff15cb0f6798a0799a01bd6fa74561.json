@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/custom-xml-feed": {
+            "1.0": {
+                "name": "wordpress\/custom-xml-feed",
+                "version": "1.0",
+                "version_normalized": "1.0.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/custom-xml-feed.1.0.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>This plugin creates a custom xml feed, designed to work with the emerald full iPhone app.<\/p>\n\n<p>The feed generated can work with special readers like a specific mobile app or your own reader, you may modify the feed-template.php to fit your needs.<\/p>\n\n<p>It works as the built-in feeds, it works with the home page, categories, tags, authors... to call the feed just add \/?feed=myxml to your URL.<\/p>\n\n<p>Example: yourdomain.com\/?feed=myxml or yourdomain.com\/category\/mycategory\/?feed=myxml<\/p>",
+                "uid": "8409"
+            }
+        }
+    }
+}

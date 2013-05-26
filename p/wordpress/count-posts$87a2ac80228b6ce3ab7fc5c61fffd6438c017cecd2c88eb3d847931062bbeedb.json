@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/count-posts": {
+            "1.0": {
+                "name": "wordpress\/count-posts",
+                "version": "1.0",
+                "version_normalized": "1.0.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/count-posts.1.0.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p><em>Count Posts<\/em> is a simple plugin that provides a template function to count posts, as well as filtering by category and over time in days. The function can either return or display the result.<\/p>\n\n<p><em>Based off Clint Howarth's <code>count_posts<\/code><\/em><\/p>",
+                "uid": "97830"
+            }
+        }
+    }
+}

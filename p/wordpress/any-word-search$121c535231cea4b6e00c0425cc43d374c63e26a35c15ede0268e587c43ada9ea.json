@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/any-word-search": {
+            "1.0": {
+                "name": "wordpress\/any-word-search",
+                "version": "1.0",
+                "version_normalized": "1.0.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/any-word-search.1.0.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>This is a very simple WordPress plugin that makes the WordPress search box find posts that contain ANY of the words\nentered instead of only posts that contain ALL of the words; that is, it makes the search use the OR operator instead of\nthe default AND operator.<\/p>\n\n<p>It doesn't have any settings or configuration - just place the plugin in your <code>\/wp-content\/plugins\/<\/code> folder, activate\nthe plugin through the 'Plugins' menu, and searches that have more than one word will start returning posts that contain\none (or more) of the words instead of just posts that contain every one of the words.<\/p>\n\n<p>Easy.<\/p>",
+                "uid": "9351"
+            }
+        }
+    }
+}

@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/risalelerden-secmeler": {
+            "1.3": {
+                "name": "wordpress\/risalelerden-secmeler",
+                "version": "1.3",
+                "version_normalized": "1.3.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/risalelerden-secmeler.1.3.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>\/\/ENGLISH\nIn order to make this plugin show english aphorisms use\nif ( function_exists( 'show_aphorism' ) ) { show_aphorism(); }\nThis plugin creates a database table consisting of favorite aphorisms from all over the world.\nfor now there 700 english aphorisms and 1400 turkish aphorisms.\nThis number is growing day by day.\nif you want to show multiple aphorisms on the different parts of page just use\nif ( function_exists( 'show_aphorism' ) ) { show_aphorism(); }\nwhereever you like.\na live demo can be seen on\n<a href=\"http:\/\/hasansarman.net\" rel=\"nofollow\">http:\/\/hasansarman.net<\/a>\nif you have any suggestions &#38; offerings &#38; questions contact me via e-mail: <a href=\"mailto:hasansarman@gmail.com\">hasansarman@gmail.com<\/a><\/p>\n\n<p>\/\/TURKISH<\/p>\n\n<p>Bu plugin Risale-i Nur'dan 1400 adet ozenle secilmis guzel sozu ekranda gorsel bir ziyafetle rastgele olarak gosterir. ileriki surumlerde bu plugine bir slider da eklenecektir. akliniza takilan soru\/gorusleriniz icin lutfen <a href=\"mai",
+                "uid": "12092"
+            }
+        }
+    }
+}

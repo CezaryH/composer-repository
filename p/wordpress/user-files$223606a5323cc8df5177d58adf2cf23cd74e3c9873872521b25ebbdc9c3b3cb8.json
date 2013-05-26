@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/user-files": {
+            "2.3.2": {
+                "name": "wordpress\/user-files",
+                "version": "2.3.2",
+                "version_normalized": "2.3.2.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/user-files.2.3.2.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>The user files plugin allows you to add upload files for a specific user to download or view.  The file upload is limited to the post max of your server.  Files are uploaded to a user and can be accesses via an access page, dashboard widget, or both.  The user files options page will allow you to turn on page menu and dashboard widget. Other options to allow user to delete their files and add to them. Also adds a file manager page to view all files and which user they belong to. You can delete files individually or delete the users folder.<\/p>\n\n<p>Files can have icons and category, both are customizable.  Users and admins can search file names or parts and admins can filter files by category and\/or by user.<\/p>",
+                "uid": "53890"
+            }
+        }
+    }
+}

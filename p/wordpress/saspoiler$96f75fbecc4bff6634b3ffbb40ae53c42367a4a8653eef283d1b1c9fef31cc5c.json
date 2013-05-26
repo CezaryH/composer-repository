@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/saspoiler": {
+            "1.0": {
+                "name": "wordpress\/saspoiler",
+                "version": "1.0",
+                "version_normalized": "1.0.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/saspoiler.1.0.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>Hides text behind a black text\/black background tile. Holding the mouse over the text reveals it. Insipred by Something Awful's spoiler system.<\/p>\n\n<p>Usage: Simply put a [SPOILER]tag around your text[\/SPOILER] that you wish to become \"spoilered.\" Works in both comments and posts.<\/p>\n\n<p><a href=\"http:\/\/www.thedailyblitz.org\/saspoiler-a-wordpress-plugin\">See a sample of it in use here.<\/a><\/p>",
+                "uid": "108129"
+            }
+        }
+    }
+}

@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/trollguard": {
+            "0.9": {
+                "name": "wordpress\/trollguard",
+                "version": "0.9",
+                "version_normalized": "0.9.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/trollguard.0.9.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>TrollGuard is a free WordPress plugin that protects your blog from spam comments.\nIt learns to filter out spam from your training. After a short while it has\nadapted to your personal blog and will accurately detect incoming spam. \nTrollGuard is developed on top of <a href=\"http:\/\/www.uclassify.com\/\">uClassify<\/a> which is a free web service\nfor text classification.<\/p>",
+                "uid": "55295"
+            }
+        }
+    }
+}

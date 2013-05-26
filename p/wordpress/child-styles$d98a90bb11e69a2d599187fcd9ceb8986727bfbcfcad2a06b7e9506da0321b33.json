@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/child-styles": {
+            "1.0": {
+                "name": "wordpress\/child-styles",
+                "version": "1.0",
+                "version_normalized": "1.0.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/child-styles.1.0.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>This plugin delivers a different stylesheet in the header of each page type, which allows the site administrator to manage their styles even more original, but also easier. Child Styles is particularly suitable for large sites, such as those managed with BuddyPress, or supporting many graphic plugins, the other advantage is speed up page loading by reducing considerably the size of each style sheet. The gain for each style sheet can be up to three quarters of the original file size!<\/p>",
+                "uid": "20409"
+            }
+        }
+    }
+}

@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/frontend-signup-site-clone": {
+            "0.1": {
+                "name": "wordpress\/frontend-signup-site-clone",
+                "version": "0.1",
+                "version_normalized": "0.1.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/frontend-signup-site-clone.0.1.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>This plugin has to be installed in a multi-site WP deployment. \n Administrator need to choose which existing site will be used as template. \n This pluging works with both existing user or new user when signup through wp-signup.php.<\/p>",
+                "uid": "16842"
+            }
+        }
+    }
+}

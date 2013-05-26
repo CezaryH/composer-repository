@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/everytrail-shortcode-simple-embed": {
+            "0.8": {
+                "name": "wordpress\/everytrail-shortcode-simple-embed",
+                "version": "0.8",
+                "version_normalized": "0.8.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/everytrail-shortcode-simple-embed.0.8.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>With this shortcode, you're able to embed a google map from the website <strong>everytrail.com<\/strong>. Just enter the url or the trip_id and it's done.<\/p>\n\n<p><strong>Shortcodename<\/strong><\/p>\n\n<p>Use: wi_everytrail<\/p>\n\n<p><strong>Example<\/strong><\/p>\n\n<ol>\n<li>[wi_everytrail url=\"123456\"]<\/li>\n<li>[wi_everytrail url=\"http:\/\/www.everytrail.com\/view_trip.php?trip_id=xxxx\"]<\/li>\n<li>[wi_everytrail]123456[\/wi_everytrail]<\/li>\n<li>[wi_everytrail]http:\/\/www.everytrail.com\/view_trip.php?trip_id=123456[\/wi_everytrail]<\/li>\n<\/ol>\n\n<p><strong>Custom Parameters:<\/strong><\/p>\n\n<ul>\n<li><code>width<\/code>: Default:400. You can chosse the width of your iframe<\/li>\n<li><code>title<\/code>: Defaut: short take title from everytrail website. You can overwrite that with title=\"WhatYouWant\"<\/li>\n<\/ul>",
+                "uid": "45152"
+            }
+        }
+    }
+}

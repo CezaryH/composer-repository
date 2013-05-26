@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/advanced-tag-search": {
+            "1.2": {
+                "name": "wordpress\/advanced-tag-search",
+                "version": "1.2",
+                "version_normalized": "1.2.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/advanced-tag-search.1.2.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>This plugin offers your visitors the possibility search on post tags.\nAll you have to do is install this plugin and create a page and add the following shortcode: [tagsarchive]<\/p>\n\n<p>The following CSS classes and divisions are added to this plugin so you are able to customize the look in your own stylesheet.\nThis because when i update the plugin, no work will be lost on your side.<\/p>\n\n<p>form#form-search-tags, span.error, form#form-search-tags legend, form#form-search-tags fieldset, span.headings, form#form-search-tags h3<\/p>",
+                "uid": "42417"
+            }
+        }
+    }
+}

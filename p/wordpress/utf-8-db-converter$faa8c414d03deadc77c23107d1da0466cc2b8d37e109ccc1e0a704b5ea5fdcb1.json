@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/utf-8-db-converter": {
+            "1.0.2": {
+                "name": "wordpress\/utf-8-db-converter",
+                "version": "1.0.2",
+                "version_normalized": "1.0.2.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/utf-8-db-converter.1.0.2.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>This plugin can convert your WordPress database (both tables and columns) to UTF-8 character set. It will be especially useful when you move your database from one server to another where the default CHARSET is not UTF-8.<\/p>",
+                "uid": "85803"
+            }
+        }
+    }
+}

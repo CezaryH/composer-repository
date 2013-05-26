@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/latest-issue-table-of-contents": {
+            "1.0": {
+                "name": "wordpress\/latest-issue-table-of-contents",
+                "version": "1.0",
+                "version_normalized": "1.0.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/latest-issue-table-of-contents.1.0.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>Displays a 'table of contents' in your sidebar containing the post titles in your latest issue.\nPosts are grouped by and can be ordered by category.<\/p>\n\n<p>Post Tags are used to define which issue a post belongs to,\ni.e a tag of 'Issue 10' denotes the 10th issue, easy eh?<\/p>\n\n<p>The tag prefix can be any word you like as long as it is consistently used across issues\nand contains a numeric identifier which is incremented for each new publication. A tag suffix\ncan also be used, e.g. a tag named '100 MyDomainName' is the 100th issue of suffix 'MyDomainName'<\/p>\n\n<p>The table of contents will automatically show the contents of a previous issue\nwhen a post or tag archive from that issue is accessed,\ni.e. The current issue is 5 but when a visitor accesses my tag archive for issue 3\nthe table of contents for issue 3 is displayed.\nIf I view a post in issue 2 (say from a direct link that was e-mailed to me) I will see the\ntable of contents for issue 2.<\/p>\n\n<h4>Example<\/h4>\n\n<p>I have 100 ",
+                "uid": "62120"
+            }
+        }
+    }
+}

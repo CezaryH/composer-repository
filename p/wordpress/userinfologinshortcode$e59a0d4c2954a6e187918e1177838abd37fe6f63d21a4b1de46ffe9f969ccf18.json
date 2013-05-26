@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/userinfologinshortcode": {
+            "0.1": {
+                "name": "wordpress\/userinfologinshortcode",
+                "version": "0.1",
+                "version_normalized": "0.1.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/userinfologinshortcode.0.1.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>I needed a way to display login form on the front page of a WPMU network if a person wasn't already logged in, and a bit of info about the user, a list of their sites, a link to create a new one, and a link to logout. I could have done it by hacking the theme's templates, but that locks you into a specific theme. With the shortcode, any theme can display this, on any page (or post, but why would you do that? whatever. it's your site...)<\/p>",
+                "uid": "74564"
+            }
+        }
+    }
+}

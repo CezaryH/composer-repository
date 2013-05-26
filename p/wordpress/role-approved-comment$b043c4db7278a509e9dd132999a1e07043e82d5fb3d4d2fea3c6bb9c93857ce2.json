@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/role-approved-comment": {
+            "1.0": {
+                "name": "wordpress\/role-approved-comment",
+                "version": "1.0",
+                "version_normalized": "1.0.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/role-approved-comment.1.0.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>This plugin was developed to meet a specific need: an organisation had members and non-members logging into\nthe blogs. The requirement called for members to be able to comment without needing administrator approval.\nNon-members needed to get their comments approved before they were displayed.<\/p>\n\n<p>So long as users are created with the correct role (e.g. \"members\" and \"nonmembers\" in this case) this\nplugin allows you to add the \"Role Approved Comments\" capability to any of those roles. If the role a\nuser is in has that capability, then their comments will automatically be approved.<\/p>\n\n<p>There is no administration screen for this plugin. You must use the \n<a href=\"http:\/\/wordpress.org\/extend\/plugins\/capsman\/\">capsman<\/a> plugin to manage the capability. The capability\nwill appear as \"Role approved comment\".<\/p>\n\n<p>This plugin does not affect any other rules you have set for approvals. For example, if comments are set\nto be auto-approved once a user has already got one approved ",
+                "uid": "77383"
+            }
+        }
+    }
+}

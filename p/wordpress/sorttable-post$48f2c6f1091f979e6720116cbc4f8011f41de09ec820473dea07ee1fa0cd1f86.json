@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/sorttable-post": {
+            "4.2": {
+                "name": "wordpress\/sorttable-post",
+                "version": "4.2",
+                "version_normalized": "4.2.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/sorttable-post.4.2.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>Ever want to list your WordPress posts in an easy-to-read, sortable data table? This plugin makes it easy to do just that. It supports post thumbnails, custom post types, custom taxonomies, and (as of v4.0) custom fields.<\/p>\n\n<p>By default, the plugin outputs the following columns:<\/p>\n\n<ol>\n<li>Post Thumbnail (if enabled)<\/li>\n<li>Post Title<\/li>\n<li>Post Date<\/li>\n<li>Post Categories<\/li>\n<li>Post Tags<\/li>\n<\/ol>\n\n<p>Options include:<\/p>\n\n<ul>\n<li>Omit any of the default columns<\/li>\n<li>Replace <code>Post<\/code> with a custom post type<\/li>\n<li>Replace <code>Categories<\/code> and <code>Tags<\/code> with custom taxonomies<\/li>\n<li>As of version 4.0 you can insert any number of custom field columns<\/li>\n<\/ul>\n\n<p><strong>How To Use<\/strong><\/p>\n\n<pre><code>[sorttablepost]<\/code><\/pre>\n\n<p>Place this shortcode into a post or page to insert a sortable table of all posts.<\/p>\n\n<p><strong>Hide Standard Columns<\/strong><\/p>\n\n<pre><code>[sorttablepost nothumb=&#34;true&#34; notitle=&#34;",
+                "uid": "35880"
+            }
+        }
+    }
+}

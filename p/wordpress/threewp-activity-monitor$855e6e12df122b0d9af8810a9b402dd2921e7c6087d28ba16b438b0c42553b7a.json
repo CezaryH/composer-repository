@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/threewp-activity-monitor": {
+            "2.11": {
+                "name": "wordpress\/threewp-activity-monitor",
+                "version": "2.11",
+                "version_normalized": "2.11.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/threewp-activity-monitor.2.11.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>Displays a multitude of user actions to keep the site administrator informed that all is well and that the blog or network is not being abused. Displays:<\/p>\n\n<ul>\n<li>Logins (successful and failed)<\/li>\n<li>Retrieved and reset passwords<\/li>\n<li>Posts\/pages created, updated, trashed, untrashed and deleted<\/li>\n<li>Comments approved, trashed, spammed, unspammed, trashed, untrashed and deleted<\/li>\n<li>Changed passwords<\/li>\n<li>Changed user info<\/li>\n<li>User registrations<\/li>\n<li>User deletions<\/li>\n<li>Custom activities from other plugins<\/li>\n<\/ul>\n\n<p>Keeps track of latest login times and displays a column in the user overview(s).<\/p>\n\n<p>Since this plugin allows you to monitor all activity sitewide, it will be very easy to quickly locate spam blogs and their activities.<\/p>\n\n<p>Unlike the wpmu.org \"premium\" plugins, Blog Activity and User Activity, this plugin displays information about <em>what<\/em> is happening, not just that there is <em>something<\/em> happening.<\/p>\n\n<p>Ha",
+                "uid": "73137"
+            }
+        }
+    }
+}

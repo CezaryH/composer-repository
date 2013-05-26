@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/wordbench": {
+            "0.9": {
+                "name": "wordpress\/wordbench",
+                "version": "0.9",
+                "version_normalized": "0.9.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/wordbench.0.9.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>WordBench provides admin user interfaces for advanced WordPress features:<\/p>\n\n<ul>\n<li>Custom post types<\/li>\n<li>Custom post formats<\/li>\n<li>Custom taxonomies<\/li>\n<li>Custom roles &#38; capabilities\n\n<ul>\n<li>User-defined roles<\/li>\n<li>User-selected capabilities<\/li>\n<li>Multiple roles per user<\/li>\n<\/ul><\/li>\n<\/ul>\n\n<p>WordBench is useful if you need to:<\/p>\n\n<ul>\n<li>preserve custom post types and taxonomies when switching themes<\/li>\n<li>add extra post formats to the fixed list provied by WordPress<\/li>\n<li>assign users to multiple working groups for different data types<\/li>\n<\/ul>",
+                "uid": "19323"
+            }
+        }
+    }
+}

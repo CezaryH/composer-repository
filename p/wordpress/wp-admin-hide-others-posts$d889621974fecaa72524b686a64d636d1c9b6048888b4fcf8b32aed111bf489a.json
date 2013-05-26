@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/wp-admin-hide-others-posts": {
+            "1.1": {
+                "name": "wordpress\/wp-admin-hide-others-posts",
+                "version": "1.1",
+                "version_normalized": "1.1.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/wp-admin-hide-others-posts.1.1.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>This plugin creates a new permission, \"view_others_posts\". When viewing the posts lists in the admin area, users\nwithout the \"view_other_posts\" permission will only see there own posts, not the posts of other users. Additionally\nthe counts at the top of the post list (All, Published, Drafts, Trash, etc.) will only count posts which belong to the\ncurrent author.<\/p>",
+                "uid": "11569"
+            }
+        }
+    }
+}

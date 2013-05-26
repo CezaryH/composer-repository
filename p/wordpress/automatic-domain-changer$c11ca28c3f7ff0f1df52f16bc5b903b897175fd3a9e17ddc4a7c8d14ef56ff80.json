@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/automatic-domain-changer": {
+            "0.0.1": {
+                "name": "wordpress\/automatic-domain-changer",
+                "version": "0.0.1",
+                "version_normalized": "0.0.1.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/automatic-domain-changer.0.0.1.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>This plugin automatically detects a domain name change, and updates all the WordPress tables in the database to reflect this change.<\/p>\n\n<h4>Features<\/h4>\n\n<ul>\n<li>Easily migrate a WordPress site from one domain to another<\/li>\n<\/ul>\n\n<p>Note: NuageLab collects usage information about this plugin so that we can better serve our customers and know what features to add. By installing and activating this plugin, you agree to these terms.<\/p>",
+                "uid": "9355"
+            }
+        }
+    }
+}

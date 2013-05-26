@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/wp-mobile-redirection": {
+            "1.0": {
+                "name": "wordpress\/wp-mobile-redirection",
+                "version": "1.0",
+                "version_normalized": "1.0.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/wp-mobile-redirection.1.0.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>This plugin allows you to specify a different website for mobile users. When a mobile user loads up the WordPress website they will automatically be forwarded\nto that address.<\/p>\n\n<p>You can also specify if you want to forward mobile users using JavaScript or PHP.<\/p>",
+                "uid": "38392"
+            }
+        }
+    }
+}

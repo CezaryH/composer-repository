@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/reflect": {
+            "0.2.0": {
+                "name": "wordpress\/reflect",
+                "version": "0.2.0",
+                "version_normalized": "0.2.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/reflect.0.2.0.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>Crowdsourced comment summarization. Helps people listen. Helps everyone find the useful points.<\/p>\n\n<p>Reflect changes your comments section. It adds a space next to every comment where other readers can succinctly restate points they hear the commenter making. This design encourages people to explicitly <strong>listen<\/strong>, rather than just speaking. Commenters can come back and verify the accuracy of the restatement, and, if necessary, clarify their message. Other readers are then able to read the original comment, interpretations of that comment, and clarifications. Reflect thus creates a richer commenting environment by balancing speaking and listening.<\/p>\n\n<p><strong>Check out the screenshots<\/strong>. It makes more sense just looking at those :-)<\/p>\n\n<p>It can sometimes take some elbow grease to get Reflect to work on your blog. Here's why:<\/p>\n\n<ol>\n<li>Reflect works by wrapping html around certain HTML elements related to your comment section. Reflect assumes the defa",
+                "uid": "64148"
+            }
+        }
+    }
+}

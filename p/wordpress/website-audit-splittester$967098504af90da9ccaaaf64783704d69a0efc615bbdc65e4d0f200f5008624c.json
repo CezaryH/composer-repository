@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/website-audit-splittester": {
+            "0.1": {
+                "name": "wordpress\/website-audit-splittester",
+                "version": "0.1",
+                "version_normalized": "0.1.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/website-audit-splittester.0.1.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>This plugin is being developed to make splittesting elements of your wordpress blog very easy. At the moment there is basic functionality: you are provided with a conditional function. A random number is generated, depending on the number a condition is true or false, if true the code wrapped within the code will be executed, otherwise it won't.<\/p>\n\n<p>This plugin was created because I wanted an easy way to splittest widgets and page layouts.<\/p>\n\n<p>Extended functionality is on it's way (but not there yet). An analytics version is being tested and developed that will make tracking splittesting results with google analytics very easy. No need for google weboptimizer.<\/p>\n\n<p>Eventually I want to make split testing very easy to do without the need for coding. This is a great start. Enjoy!<\/p>",
+                "uid": "73750"
+            }
+        }
+    }
+}

@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/tubematic": {
+            "1.0": {
+                "name": "wordpress\/tubematic",
+                "version": "1.0",
+                "version_normalized": "1.0.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/tubematic.1.0.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>TubeMatic is a WordPress plugin that allows you to easily insert Youtube videos into your post or page. The plugin is designed to be small and fast.\nWhat you need is to specify keywords and\/or a channel name. The plugin gets the RSS feed available form YouTube, parses it and makes a video gallery with thumbnails, statistics and links to videos and yt users.\nYou don't need to update videos on your posts or pages, TubeMatic automatically makes that for you.\nYou also do not need a YouTube API developers ID.\nRequired PHP 5 or greater.<\/p>",
+                "uid": "90544"
+            }
+        }
+    }
+}

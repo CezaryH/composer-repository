@@ -1,0 +1,40 @@
+{
+    "packages": {
+        "wordpress\/buddypress-profile-progression": {
+            "0.1": {
+                "name": "wordpress\/buddypress-profile-progression",
+                "version": "0.1",
+                "version_normalized": "0.1.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/buddypress-profile-progression.0.1.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>Simple plugin that adds a progress bar on members pages, which displays the percentage of profile completed by a user.<\/p>\n\n<p>By default, each field of the profile, except the base field (Name), worth 1 point.\nIf you have setup 10 fields and that your user has filled 4 fields, his progress bar will be at 40%.<\/p>\n\n<p>If you want to customize how points are calculated (some fields can worth more than others); or add custom functions which must be taken\ninto consideration (eg. you can give points if the user has an avatar), you can do it using hooks.  Check the FAQ !<\/p>",
+                "uid": "58455"
+            },
+            "0.3.2": {
+                "name": "wordpress\/buddypress-profile-progression",
+                "version": "0.3.2",
+                "version_normalized": "0.3.2.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/buddypress-profile-progression.0.3.2.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>Simple plugin that adds a progress bar on members pages, which displays the percentage of profile completed by a user.<\/p>\n\n<p>By default, each field of the profile, except the base field (Name), worth 1 point.\nIf you have setup 10 fields and that your user has filled 4 fields, his progress bar will be at 40%.<\/p>\n\n<p>If you want to customize how points are calculated (some fields can worth more than others); or add custom functions which must be taken\ninto consideration (eg. you can give points if the user has an avatar), you can do it using hooks.  Check the FAQ !<\/p>",
+                "uid": "58454"
+            }
+        }
+    }
+}

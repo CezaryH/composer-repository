@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/moodle-course-list-widget": {
+            "1.0": {
+                "name": "wordpress\/moodle-course-list-widget",
+                "version": "1.0",
+                "version_normalized": "1.0.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/moodle-course-list-widget.1.0.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>This plugin will allow you to display a list of Moodle courses for a specific user of Moodle. This is ideal for teachers who use WordPress for public communication and Moodle for private classroom activities. This widget will allow the teacher to display a list of their courses so that parents and students can quickly navigate between WordPress and Moodle.<\/p>\n\n<p>This plugin is designed for use in larger institutions and must be configured by a web administrator. There are 3 places in the code where you must make changes to get this plugin working properly. Each place is clearly commented with \/\/CHANGE and an explanation of what needs to be changed.  Please see Installation for additional information on how to configure and install.<\/p>\n\n<p>To see the plugin in action please view <a href=\"http:\/\/iblog.dearbornschools.org\/webmaster\" rel=\"nofollow\">http:\/\/iblog.dearbornschools.org\/webmaster<\/a><\/p>",
+                "uid": "10595"
+            }
+        }
+    }
+}

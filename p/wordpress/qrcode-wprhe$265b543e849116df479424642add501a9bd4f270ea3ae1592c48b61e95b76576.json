@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/qrcode-wprhe": {
+            "1.2.5": {
+                "name": "wordpress\/qrcode-wprhe",
+                "version": "1.2.5",
+                "version_normalized": "1.2.5.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/qrcode-wprhe.1.2.5.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>Use this qr code wordpress plugin to create a qr code on any site of your Wordpress installation. Content can be any text or the current URL of the site where it is embeded.<\/p>\n\n<p>How to use it:<\/p>\n\n<ul>\n<li><p>Use the shortcode [qrcode] within your site to generate a qr code including the URL of the current site<\/p><\/li>\n<li><p>Use the fullowing short code to generate a indivdual qr code with any text content:<\/p>\n\n<p>[qrcode content=\"CONTENT\" size=\"120\" alt=\"ALT_TEXT\" class=\"CLASS_NAME\"]<\/p>\n\n<ul>\n<li><p>It`s not neccessary to give any parameters!<\/p><\/li>\n<li><p>Possible parameters are: alt, size, class, credit, shadow<\/p><\/li>\n<li><p>If you don`t give any parameter like 'alt' or 'size', the standard parameters are:\nalt = \"Scan the QR Code\"\nsize = 120\nclass=\"\"\ncredit = true\nshadow = true<\/p><\/li>\n<\/ul><\/li>\n<li><p>The credit option gives a really small but nice looking image link on bottom of the qrcode. If you don&#180;t like it or don&#180;t want to give me any credits you c",
+                "uid": "23188"
+            }
+        }
+    }
+}

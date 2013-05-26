@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/paypal-shortcodes": {
+            "0.3": {
+                "name": "wordpress\/paypal-shortcodes",
+                "version": "0.3",
+                "version_normalized": "0.3.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/paypal-shortcodes.0.3.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>This plugin allow to insert Paypal buttons in your posts or pages, just using a shortcode.\nYou can define your email and currency in the Settings &#8250; Writing admin panel.<\/p>\n\n<h4>[paypal type=\"add\" name=\"Item Name vol. 1\" amount=\"12.99\"]<\/h4>\n\n<p>This shortcode will print the \"Add to cart\" button: it will add \"Item Name vol. 1\" (priced 12.99[currency]) in your paypal cart.<\/p>\n\n<h4>[paypal type=\"view\"]<\/h4>\n\n<p>This shortcode will print the \"View cart\" button.<\/p>",
+                "uid": "103598"
+            }
+        }
+    }
+}

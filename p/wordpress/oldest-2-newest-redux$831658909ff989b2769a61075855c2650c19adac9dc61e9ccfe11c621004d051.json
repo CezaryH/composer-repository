@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/oldest-2-newest-redux": {
+            "1.2": {
+                "name": "wordpress\/oldest-2-newest-redux",
+                "version": "1.2",
+                "version_normalized": "1.2.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/oldest-2-newest-redux.1.2.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>Take the oldest post and make it the newest post if there has not been a new post in 24 hours, thereby changing the order on home page and other lists. The number of hours may be adjusted with a simple edit. This should only be activated after you have multiple posts on the website. Updated for wordpress 2.7. Original at <a href=\"http:\/\/ryowebsite.com\/?cat=11\">Rich Hamilton Original Oldest2Newest<\/a><\/p>",
+                "uid": "87354"
+            }
+        }
+    }
+}

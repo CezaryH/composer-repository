@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/tdplugin-pt": {
+            "1.0": {
+                "name": "wordpress\/tdplugin-pt",
+                "version": "1.0",
+                "version_normalized": "1.0.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/tdplugin-pt.1.0.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>O plugin servir&#225; para a publica&#231;&#227;o autom&#225;tica de pools com an&#250;ncios. Funciona realizando uma busca mediante determinadas palavras chave<\/p>\n\n<p>de produtos em quais o afiliado est&#225; inscrito, publicando-os autom&#225;ticamente com dois estilos diferentes, mantendo o tracking de afiliado.<\/p>\n\n<p>No campo de texto para publicar deveremos introduzir:<\/p>\n\n<p>[td tdquery=\"a tua password\" tdno=\"20\" tdpg=\"0\" tdmid=\"12345,234,189\" tdcat=\"68\" tdprice=\"20_200\" td_estilo=\"1 o 2\" prodfila=\"2\"]<\/p>\n\n<p>Onde:<\/p>\n\n<ul>\n<li>Tdquery: palavras chave sobre as quais faremos a busca<\/li>\n<li>Tdno: n&#250;mero de resultados que queremos mostrar<\/li>\n<li>Tdpg:o n&#250;mero sobre o qual gostar&#237;amos que se comece a mostrar<\/li>\n<li>Tdmid: a identifica&#231;&#227;o do comerciante, se s&#227;o v&#225;rios separados por v&#237;rgulas. <\/li>\n<li>Tdcat: a categoria sobre a qual realizar a busca<\/li>\n<li>Td_estilo:de momento existem 2 estilos de apresenta&#231;&#227;o:\no   1: ",
+                "uid": "75199"
+            }
+        }
+    }
+}

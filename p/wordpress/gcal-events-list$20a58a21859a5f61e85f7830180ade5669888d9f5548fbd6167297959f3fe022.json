@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/gcal-events-list": {
+            "0.1": {
+                "name": "wordpress\/gcal-events-list",
+                "version": "0.1",
+                "version_normalized": "0.1.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/gcal-events-list.0.1.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>GCal Events List retrieve events from Google Calendar and shows data in a widget.<\/p>\n\n<p>To make GCal Events List work properly, you have to activate the plugin and paste a public calendar ID in the widget admin panel.<\/p>\n\n<p>It requires some other options. Here is the full list of params:<\/p>\n\n<ol>\n<li>Title (widget title)<\/li>\n<li>Calendar ID (you can find it in the option panel of your Google Calendar)<\/li>\n<li>Order by (possible values are starttime and lastmodified)<\/li>\n<li>Sort order (ascending or descending)<\/li>\n<li>Max results<\/li>\n<li>Start min (a valid date in YYYY-MM-DD)<\/li>\n<li>Start max (a valid date in YYYY-MM-DD)<\/li>\n<\/ol>\n\n<p>For a detailed description of calendar settings, read the <a href=\"http:\/\/code.google.com\/intl\/it-IT\/apis\/calendar\/data\/2.0\/reference.html\">Google Calendar Data API reference<\/a><\/p>\n\n<p><strong>REMEMBER<\/strong>: your Google Calendar must be public, otherwise the widget won't show any event!<\/p>",
+                "uid": "58476"
+            }
+        }
+    }
+}

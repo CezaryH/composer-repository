@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/cop-css-custom-post-type-lite": {
+            "0.2.0": {
+                "name": "wordpress\/cop-css-custom-post-type-lite",
+                "version": "0.2.0",
+                "version_normalized": "0.2.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/cop-css-custom-post-type-lite.0.2.0.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>Adds a custom post type of css that will compile all entries into a single minified css file that will automatically be enqueued to your site.<\/p>\n\n<p>Minified CSS is stored in a transient for caching.<\/p>\n\n<p>User now needs 'edit_themes' permission to see the css editor. By default this is only the administrator.<\/p>\n\n<h4>Shortcodes<\/h4>\n\n<p>Shortcodes are now processed during compilation of your css.<\/p>\n\n<p>An new shortcode has been added called:<\/p>\n\n<p>[meta key=\"(name of arbitrary custom field)\" post_id=\"(optional)\"]<\/p>\n\n<p>This allows you to define a whatever custom fields you like on an individual css post and use them in your css.<\/p>\n\n<p>Ex. a { color: [meta key=\"my_color\"]; }<\/p>\n\n<p>So you can define common elements and use them throughout your css.<\/p>\n\n<p>If you like you can use the option post_id to put those values from another post. So you can have one master css post with your primary colors and such and referance it in other posts.<\/p>\n\n<h4>Credits<\/h4>\n\n<p>Minif",
+                "uid": "39906"
+            }
+        }
+    }
+}

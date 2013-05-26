@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/dynauthor": {
+            "1.2": {
+                "name": "wordpress\/dynauthor",
+                "version": "1.2",
+                "version_normalized": "1.2.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/dynauthor.1.2.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>The Dynauthor plugin replaces the standard dropdown list selection method for authors with a search box, as the user begins the type a list appears of the authors matching that criteria. the list will update with each new character typed.\nThis is designed for sites with a large selection of authors.<\/p>",
+                "uid": "9888"
+            }
+        }
+    }
+}

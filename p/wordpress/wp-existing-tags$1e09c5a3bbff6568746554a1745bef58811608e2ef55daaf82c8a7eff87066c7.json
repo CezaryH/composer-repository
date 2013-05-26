@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/wp-existing-tags": {
+            "1.14": {
+                "name": "wordpress\/wp-existing-tags",
+                "version": "1.14",
+                "version_normalized": "1.14.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/wp-existing-tags.1.14.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>This simple jQuery-based plugin adds a list of existing (already used) tags with posts count for each tag into \"Tags\" box on new\/edit post form. No more hard time remembering your hundreds of tags - simply click the one you need to add it to the post. Clicked tags are removed from tags list after they inserted into a post - so no worries about inserting one tag several times. No tuning and customizing needed - it just works as it is. Also, you now can hover a tag with mouse pointer to get a short list of five last posts tagged by it.<\/p>\n\n<h4>Changelog<\/h4>\n\n<p><em>v.1.14<\/em> - Made some changes in paths, cause automatic plugin update feature seems to move updated plugin from <code>\/wp-content\/plugins\/<\/code> to <code>\/wp-content\/plugins\/wp-existing-tags\/<\/code>. Now installation require you to put <code>wp-extags.php<\/code> into <code>\/wp-content\/plugins\/wp-existing-tags\/<\/code> directory or manually edit paths after update to point to your custom directory.<\/p>\n\n<p><em>v.1.12<\/em",
+                "uid": "103444"
+            }
+        }
+    }
+}

@@ -1,0 +1,40 @@
+{
+    "packages": {
+        "wordpress\/wp-pagesnav": {
+            "0.0.1": {
+                "name": "wordpress\/wp-pagesnav",
+                "version": "0.0.1",
+                "version_normalized": "0.0.1.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/wp-pagesnav.0.0.1.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>WP-PagesNav is a plugin which can be used to display a navigation bar using the \nstatic pages in your blog. When the plugin is activated, the function \nwp_pages_nav() is available in the Themes. To change the behaviour of the plugin\nyou can pass the function a query string. The following parameters are \nrecognized:\n- show_all_parents\n  If show_all_parents is set then the navigation will get larger and larger \n  the further down the page hierarchy you navigate.\n- show_root\n  If show_root is set then also the top most pages are displayed.\n- current\n  If current is set then wp_pages_nav doesn't choose the currently viewwed page.\n  It uses what is passed in current as the currently viewed page ID.<\/p>\n\n<p>Also all of the parameters of the get_pages function are supported. Which are:\n- child_of\n  Only select pages which are a child of child_of. Default: 0\n- sort_column\n  Database column by which to sort the pages. Default: post_title\n- sort_order\n  Wether to sort ascending or descending.",
+                "uid": "114838"
+            },
+            "0.0.2": {
+                "name": "wordpress\/wp-pagesnav",
+                "version": "0.0.2",
+                "version_normalized": "0.0.2.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/wp-pagesnav.0.0.2.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>WP-PagesNav is a plugin which can be used to display a navigation bar using the \nstatic pages in your blog. When the plugin is activated, the function \nwp_pages_nav() is available in the Themes. To change the behaviour of the plugin\nyou can pass the function a query string. The following parameters are \nrecognized:\n- show_all_parents\n  If show_all_parents is set then the navigation will get larger and larger \n  the further down the page hierarchy you navigate.\n- show_root\n  If show_root is set then also the top most pages are displayed.\n- current\n  If current is set then wp_pages_nav doesn't choose the currently viewwed page.\n  It uses what is passed in current as the currently viewed page ID.<\/p>\n\n<p>Also all of the parameters of the get_pages function are supported. Which are:\n- child_of\n  Only select pages which are a child of child_of. Default: 0\n- sort_column\n  Database column by which to sort the pages. Default: post_title\n- sort_order\n  Wether to sort ascending or descending.",
+                "uid": "114839"
+            }
+        }
+    }
+}

@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/clicky-statistics": {
+            "1.0": {
+                "name": "wordpress\/clicky-statistics",
+                "version": "1.0",
+                "version_normalized": "1.0.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/clicky-statistics.1.0.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>This plug-in retrieves Clicky statistics of your website via Clicky API 2.0 with cache supported.<\/p>\n\n<p>You may define:<\/p>\n\n<ol>\n<li>Types of statistics to be displayed<\/li>\n<li>Statistics date range<\/li>\n<li>The maximum number of results that will be returned<\/li>\n<li>Cache timeout duration<\/li>\n<li>Multiple string replacements<\/li>\n<\/ol>\n\n<p>Before using this plugin, you need to register a Clicky account, and setup Clicky WordPress Plugin.<\/p>",
+                "uid": "102558"
+            }
+        }
+    }
+}

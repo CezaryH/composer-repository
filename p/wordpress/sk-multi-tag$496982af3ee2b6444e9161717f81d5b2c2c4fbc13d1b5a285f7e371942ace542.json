@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/sk-multi-tag": {
+            "1.0.2": {
+                "name": "wordpress\/sk-multi-tag",
+                "version": "1.0.2",
+                "version_normalized": "1.0.2.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/sk-multi-tag.1.0.2.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>This plugin adds a tag cloud widget where you can select multiple tags at once.<\/p>\n\n<p>ATTENTION! This is a totally different plugin so if you're updating from the version 0.6.x you'll have to configure it again.\nVisit the plugin homepage to download the old version if you want to downgrade.<\/p>\n\n<h4>Update<\/h4>\n\n<p>1.0.2\n*   Bug fix for utf8 slugs thanks to Alexandros\n*       Bug fix + template functions, check comments on plugin homepage<\/p>\n\n<p>1.0.1\n*   Bug fix about random order<\/p>\n\n<p>1.0\n*   Now is a multi instance widget\n*   Supports modules\n*   Added wp cumulus module (flash file courtesy of weefselkweekje and LukeMorton)\n*   Any tag size has it's own css class allowing a better customization\n*   Added several options<\/p>\n\n<p>0.6.2\n*   Removed bug causing some tags not to be displayed, thanks to Felipe from turismocoquimbo.com<\/p>\n\n<p>0.6.1\n*   This version removes the tags that will lead to no articles in the add tag list.\nYou might want to install wp-cache to avoid perf",
+                "uid": "86922"
+            }
+        }
+    }
+}

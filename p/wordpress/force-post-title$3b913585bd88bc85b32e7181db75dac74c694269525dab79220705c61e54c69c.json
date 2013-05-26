@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/force-post-title": {
+            "0.1": {
+                "name": "wordpress\/force-post-title",
+                "version": "0.1",
+                "version_normalized": "0.1.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/force-post-title.0.1.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>This is a simple plugin which is designed to help the posters who some times forget to write the post title. Once activated, this plugin will force the users to give post title while adding new post to wordpress site. Whenever User tries to publish a post without giving title, it will give an alert to the user and also highlight the title area so that user can see where to write the post title.I have tested this plugin with wordpress 3.3.1 and it works fine. It should work with older versions of wordpress also.<\/p>",
+                "uid": "27410"
+            }
+        }
+    }
+}

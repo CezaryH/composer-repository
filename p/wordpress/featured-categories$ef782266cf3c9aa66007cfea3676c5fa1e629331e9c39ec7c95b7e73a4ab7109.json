@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/featured-categories": {
+            "1.0": {
+                "name": "wordpress\/featured-categories",
+                "version": "1.0",
+                "version_normalized": "1.0.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/featured-categories.1.0.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>Creates a widget that displays posts and thumbnails in a selected category. Thumbnails will display 100px square. Author name links to author page (if in use) or list of posts. Posts are sorted in descending order by date. This is a fork of <a href=\"http:\/\/wordpress.org\/extend\/plugins\/category-posts\/\">James Lao's Category Posts plugin<\/a>, with less options.<\/p>\n\n<p>Style \"thumbcol\" and \"contentcol\" classes to make it look pretty (make the thumb appear to the left of the excerpt, for example).<\/p>",
+                "uid": "43315"
+            }
+        }
+    }
+}

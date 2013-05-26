@@ -1,0 +1,40 @@
+{
+    "packages": {
+        "wordpress\/wp-notcaptcha": {
+            "1.2": {
+                "name": "wordpress\/wp-notcaptcha",
+                "version": "1.2",
+                "version_normalized": "1.2.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/wp-notcaptcha.1.2.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>Adds CAPTCHA anti-spam methods to WordPress on the comment form, registration form, or both.\nIn order to post comments, users will have to range icons in right (upright) place.\nThis can help prevent spam from automated bots (100%). This will also increase the quantity of comments because of funny icons.<\/p>\n\nRequirements\/Restrictions:\n\n<ul>\n<li>Works with Wordpress 2.x, 3.x.<\/li>\n<li>PHP 4.3.0 or above with GD2 library support.<\/li>\n<li>Your theme must have a <code>&#60;?php do_action('comment_form', $post-&#62;ID); ?&#62;<\/code> tag inside your comments.php form. Most themes do.\nThe best place to locate the tag is before the comment textarea, you may want to move it if it is below the comment textarea.<\/li>\n<\/ul>\n\nFeatures:\n\n<ul>\n<li>Configure from Admin panel<\/li>\n<li>JavaScript is not required (but desirable)<\/li>\n<li>Allows Trackbacks and Pingbacks<\/li>\n<li>Setting to hide the CAPTCHA from logged in users and or admins<\/li>\n<li>Setting to show the CAPTCHA on the comment form, re",
+                "uid": "84990"
+            },
+            "1.3.1": {
+                "name": "wordpress\/wp-notcaptcha",
+                "version": "1.3.1",
+                "version_normalized": "1.3.1.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/wp-notcaptcha.1.3.1.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>Adds CAPTCHA anti-spam methods to WordPress on the comment form, registration form, or both.\nIn order to post comments, users will have to range icons in right (upright) place.\nThis can help prevent spam from automated bots (100%). This will also increase the quantity of comments because of funny icons.<\/p>\n\nRequirements\/Restrictions:\n\n<ul>\n<li>Works with Wordpress 2.x, 3.x.<\/li>\n<li>PHP 4.3.0 or above with GD2 library support.<\/li>\n<li>Your theme must have a <code>&#60;?php do_action('comment_form', $post-&#62;ID); ?&#62;<\/code> tag inside your comments.php form. Most themes do.\nThe best place to locate the tag is before the comment textarea, you may want to move it if it is below the comment textarea.<\/li>\n<\/ul>\n\nFeatures:\n\n<ul>\n<li>Configure from Admin panel<\/li>\n<li>JavaScript is not required (but desirable)<\/li>\n<li>Allows Trackbacks and Pingbacks<\/li>\n<li>Setting to hide the CAPTCHA from logged in users and or admins<\/li>\n<li>Setting to show the CAPTCHA on the comment form, re",
+                "uid": "84989"
+            }
+        }
+    }
+}

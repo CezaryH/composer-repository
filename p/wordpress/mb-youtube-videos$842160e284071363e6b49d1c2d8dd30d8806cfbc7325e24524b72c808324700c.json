@@ -1,0 +1,57 @@
+{
+    "packages": {
+        "wordpress\/mb-youtube-videos": {
+            "1.0": {
+                "name": "wordpress\/mb-youtube-videos",
+                "version": "1.0",
+                "version_normalized": "1.0.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/mb-youtube-videos.1.0.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>The YouTube videos widget lets you quickly and easily display your most recent YouTube videos in your blog's sidebar.<\/p>\n\n<h3>Features<\/h3>\n\n<ul>\n<li>The YouTube videos widget is fully-based on the WordPress <a href=\"http:\/\/codex.wordpress.org\/Plugin_API\">Plugin API<\/a>.<\/li>\n<li>Uses hooks and filters to allow for maximum hackability by theme designers and developers.<\/li>\n<li>Organized straightforwardly so that it's easy to modify and style.<\/li>\n<\/ul>\n\n<h3>Usage<\/h3>\n\n<p>The YouTube videos widget is ready to use as-is, although you can easily customize it to your liking with a bit of code.<\/p>\n\n<h3>Custom Styles<\/h3>\n\n<p>The YouTube videos widget loads it styles by hooking into Wordpress' <code>wp_enqueue_scripts<\/code> action. To remove the default styling you need to remove the our <code>enqueue_scripts<\/code> function from the hook.<\/p>\n\n<pre><code>    remove_action( 'wp_enqueue_scripts', array( 'mechabyteYouTube', 'enqueue_scripts' ) );\n<\/code><\/pre>\n\n<h3>Custom Output<\/h3>\n",
+                "uid": "13316"
+            },
+            "1.01": {
+                "name": "wordpress\/mb-youtube-videos",
+                "version": "1.01",
+                "version_normalized": "1.01.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/mb-youtube-videos.1.01.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>The YouTube videos widget lets you quickly and easily display your most recent YouTube videos in your blog's sidebar.<\/p>\n\n<h3>Features<\/h3>\n\n<ul>\n<li>The YouTube videos widget is fully-based on the WordPress <a href=\"http:\/\/codex.wordpress.org\/Plugin_API\">Plugin API<\/a>.<\/li>\n<li>Uses hooks and filters to allow for maximum hackability by theme designers and developers.<\/li>\n<li>Organized straightforwardly so that it's easy to modify and style.<\/li>\n<\/ul>\n\n<h3>Usage<\/h3>\n\n<p>The YouTube videos widget is ready to use as-is, although you can easily customize it to your liking with a bit of code.<\/p>\n\n<h3>Custom Styles<\/h3>\n\n<p>The YouTube videos widget loads it styles by hooking into Wordpress' <code>wp_enqueue_scripts<\/code> action. To remove the default styling you need to remove the our <code>enqueue_scripts<\/code> function from the hook.<\/p>\n\n<pre><code>    remove_action( 'wp_enqueue_scripts', array( 'mechabyteYouTube', 'enqueue_scripts' ) );\n<\/code><\/pre>\n\n<h3>Custom Output<\/h3>\n",
+                "uid": "13314"
+            },
+            "1.02": {
+                "name": "wordpress\/mb-youtube-videos",
+                "version": "1.02",
+                "version_normalized": "1.02.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/mb-youtube-videos.1.02.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>The YouTube videos widget lets you quickly and easily display your most recent YouTube videos in your blog's sidebar.<\/p>\n\n<h3>Features<\/h3>\n\n<ul>\n<li>The YouTube videos widget is fully-based on the WordPress <a href=\"http:\/\/codex.wordpress.org\/Plugin_API\">Plugin API<\/a>.<\/li>\n<li>Uses hooks and filters to allow for maximum hackability by theme designers and developers.<\/li>\n<li>Organized straightforwardly so that it's easy to modify and style.<\/li>\n<\/ul>\n\n<h3>Usage<\/h3>\n\n<p>The YouTube videos widget is ready to use as-is, although you can easily customize it to your liking with a bit of code.<\/p>\n\n<h3>Custom Styles<\/h3>\n\n<p>The YouTube videos widget loads it styles by hooking into Wordpress' <code>wp_enqueue_scripts<\/code> action. To remove the default styling you need to remove the our <code>enqueue_scripts<\/code> function from the hook.<\/p>\n\n<pre><code>    remove_action( 'wp_enqueue_scripts', array( 'mechabyteYouTube', 'enqueue_scripts' ) );\n<\/code><\/pre>\n\n<h3>Custom Output<\/h3>\n",
+                "uid": "13315"
+            }
+        }
+    }
+}

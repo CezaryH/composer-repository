@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/silver-player": {
+            "1.0": {
+                "name": "wordpress\/silver-player",
+                "version": "1.0",
+                "version_normalized": "1.0.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/silver-player.1.0.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<ol>\n<li>Require Silverlight  install from here <a href=\"http:\/\/www.microsoft.com\/silverlight\/\" rel=\"nofollow\">http:\/\/www.microsoft.com\/silverlight\/<\/a><\/li>\n<li>Use the built-in Wordpress   shortcode [SilverPlayer url=\"http:\/\/youvideo\"] <\/li>\n<li>for test  sample folder can test video and see screenshot<\/li>\n<\/ol>",
+                "uid": "15320"
+            }
+        }
+    }
+}

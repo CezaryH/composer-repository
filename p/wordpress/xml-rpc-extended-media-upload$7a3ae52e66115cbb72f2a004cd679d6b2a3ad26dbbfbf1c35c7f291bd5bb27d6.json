@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/xml-rpc-extended-media-upload": {
+            "0.1": {
+                "name": "wordpress\/xml-rpc-extended-media-upload",
+                "version": "0.1",
+                "version_normalized": "0.1.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/xml-rpc-extended-media-upload.0.1.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>This plugin extends the default XML-RPC server API with one new method for specifying author and parent post of remotely uploaded attachment files.<\/p>\n\n<ol>\n<li>preserved backward compatibility with the basic method wp.uploadFile<\/li>\n<li>simple usage, just replace with wp_extended.uploadFile and add 2 OPTIONAL parameters to the data struct: author (string, user_id of author) and parent (string, post_id of parent post)<\/li>\n<li>without the optional parameters the new method is identical in behaviour with the basic method found in Wordpress API of XML-RPC<\/li>\n<\/ol>",
+                "uid": "24279"
+            }
+        }
+    }
+}

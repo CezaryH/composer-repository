@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/poppop": {
+            "0.4": {
+                "name": "wordpress\/poppop",
+                "version": "0.4",
+                "version_normalized": "0.4.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/poppop.0.4.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>This plugin enables you to quickly add beautiful modals by adding widgets to the Popup area. You can choose to trigger the popup automatically on page load, or manually, which the plugin generates the required code for you.<\/p>\n\n<p>Since 0.4, the plugin can be extended to support any popup script library (beta stage). Now the plugin supports <a href=\"http:\/\/www.rockettheme.com\/wordpress-downloads\/plugins\/free\/2625-rokbox\">RokBox plugin<\/a> as well. To enable it, you must add this bit to your wp-config.php file:<\/p>\n\n<pre><code>define( &#039;POPPOP_SCRIPT&#039;, &#039;RokBox_PopPop_Script&#039; );<\/code><\/pre>\n\n<p>You can use <a href=\"http:\/\/wordpress.org\/extend\/plugins\/widget-logic\/\">Widget Logic<\/a> plugin to completely take control of in which parts of your website the popups are displayed.<\/p>",
+                "uid": "22663"
+            }
+        }
+    }
+}

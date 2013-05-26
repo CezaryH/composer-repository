@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/woocommerce-table-rate-currency-converter": {
+            "1.0.1": {
+                "name": "wordpress\/woocommerce-table-rate-currency-converter",
+                "version": "1.0.1",
+                "version_normalized": "1.0.1.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/woocommerce-table-rate-currency-converter.1.0.1.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<h3>Allows the use of a local currency for table rate shippings.<\/h3>\n\n<p>This plugin enables the use of a local currency for table rate shippings. This does not affect the currency in which you take payment. Conversions are estimated based on data from the Open Source Exchange Rates API with no guarantee whatsoever of accuracy.<\/p>\n\n<p>Please notice that WooCommerce, WooCommerce Currency Converter and WooCommerce Table Rate Shipping must be installed and active.<\/p>",
+                "uid": "9011"
+            }
+        }
+    }
+}

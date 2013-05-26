@@ -1,0 +1,40 @@
+{
+    "packages": {
+        "wordpress\/media2layout": {
+            "0.1": {
+                "name": "wordpress\/media2layout",
+                "version": "0.1",
+                "version_normalized": "0.1.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/media2layout.0.1.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>Media2Layout facilitates the dynamic inclusion of media library artwork into\npredefined places in your site's theme.  It creates named positions (by\ndefault \"campaign\" and \"header\") which can be assigned a media item per each\nPage.<\/p>\n\n<ul>\n<li>Adds an admin menu item under Themes to edit your Position names<\/li>\n<li>Adds a dropdown control when editing Pages to select the images for each Position in that Page<\/li>\n<\/ul>\n\n<p>To insert the images into your theme, just add a bit of PHP code to your\ntheme in the appropriate spot, for example:<\/p>\n\n<pre><code>&#60;?php Media2Layout::banner('foo');?&#62;\n<\/code><\/pre>\n\n<p>For the position named \"foo\" this would print an  tag for the media\nassigned to the Foo position of the current page (or print nothing if no\nmedia is assigned to that position).  Currently it wraps the  in a<\/p>\n\n<p>&#60;<\/p>\n\n<p>div&#62; with class \"media2layout_[position-name]\".<\/p>",
+                "uid": "86355"
+            },
+            "0.1.1": {
+                "name": "wordpress\/media2layout",
+                "version": "0.1.1",
+                "version_normalized": "0.1.1.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/media2layout.0.1.1.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>Media2Layout facilitates the dynamic inclusion of media library artwork into\npredefined places in your site's theme.  It creates named positions (by\ndefault \"campaign\" and \"header\") which can be assigned a media item per each\nPage.<\/p>\n\n<ul>\n<li>Adds an admin menu item under Themes to edit your Position names<\/li>\n<li>Adds a dropdown control when editing Pages to select the images for each Position in that Page<\/li>\n<\/ul>\n\n<p>To insert the images into your theme, just add a bit of PHP code to your\ntheme in the appropriate spot, for example:<\/p>\n\n<pre><code>&#60;?php Media2Layout::banner('foo');?&#62;\n<\/code><\/pre>\n\n<p>For the position named \"foo\" this would print an  tag for the media\nassigned to the Foo position of the current page (or print nothing if no\nmedia is assigned to that position).  Currently it wraps the  in a<\/p>\n\n<p>&#60;<\/p>\n\n<p>div&#62; with class \"media2layout_[position-name]\".<\/p>",
+                "uid": "86354"
+            }
+        }
+    }
+}

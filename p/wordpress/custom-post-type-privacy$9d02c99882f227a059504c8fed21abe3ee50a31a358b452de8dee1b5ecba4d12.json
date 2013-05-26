@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/custom-post-type-privacy": {
+            "0.3": {
+                "name": "wordpress\/custom-post-type-privacy",
+                "version": "0.3",
+                "version_normalized": "0.3.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/custom-post-type-privacy.0.3.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>This is a simple plugin to allow for restricting access to content.<\/p>\n\n<p>Users may be members of multiple groups. Multiple groups and multiple individual users may be allowed to view each\npost. Overlaps are ignored -- if the user is a member of any group that is allowed to view the post, that user will\nbe able to view it.<\/p>",
+                "uid": "32354"
+            }
+        }
+    }
+}

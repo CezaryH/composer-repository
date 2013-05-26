@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/bulk-resize-media": {
+            "1.0": {
+                "name": "wordpress\/bulk-resize-media",
+                "version": "1.0",
+                "version_normalized": "1.0.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/bulk-resize-media.1.0.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>WordPress creates multiple image sizes, but keeps the original image, no matter how big it is. So you still get the massive image on your server and can include it in posts, which can drastically slow down your site.<\/p>\n\n<p>Works with Multisite to allow site admins to control the image uploads.<\/p>\n\n<p>Can be run before exporting to help images make the trip during import.<\/p>\n\n<p>Based on work in the \"Imsanity\" plugin by Jason Hinkle\n<a href=\"http:\/\/verysimple.com\/products\/imsanity\/\" rel=\"nofollow\">http:\/\/verysimple.com\/products\/imsanity\/<\/a>\n<a href=\"http:\/\/verysimple.com\/\" rel=\"nofollow\">http:\/\/verysimple.com\/<\/a><\/p>\n\n<h4>Features<\/h4>\n\n<ul>\n<li>Automatically resizes large image uploads, keeping the maximum size and removing the original huge image.<\/li>\n<li>Bulk-resize feature to selectively resize all existing attachments. <\/li>\n<li>Allows configuration of max width\/height and jpg quality<\/li>\n<li>In MultiSite, network admins can control image sizes for entire network.<\/li>\n<",
+                "uid": "19618"
+            }
+        }
+    }
+}

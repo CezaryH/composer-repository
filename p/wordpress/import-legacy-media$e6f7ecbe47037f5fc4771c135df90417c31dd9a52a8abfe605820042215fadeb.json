@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/import-legacy-media": {
+            "0.1": {
+                "name": "wordpress\/import-legacy-media",
+                "version": "0.1",
+                "version_normalized": "0.1.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/import-legacy-media.0.1.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>The import lists all the files and folders in your web-site home directory.<\/p>\n\n<p>Navigate to sub-folders by clicking on 'folder' links.<\/p>\n\n<p>Files already in the Media Library are shown without a tickbox. Filters at the top of the file listing allow you to tick all the files, or just editable files. You can then also choose to untick 'old thumbnail' files.<\/p>\n\n<p>If there are other filters on file selection you would like to see, let me know on the <a href=\"http:\/\/wordpress.org\/tags\/import-legacy-media?forum_id=10#postform\">WP Forums<\/a>.<\/p>\n\n<p>Files are imported with Title and Description data taken from (in order of precedence) ID3 tags, EXIF data, or the filename.<\/p>\n\n<p>Once you have selected the files you want imported click the 'Import Files' button.<\/p>\n\n<p>(This plugin comes complete with the getID3 PHP library in a sub-folder. The library can be found at <a href=\"http:\/\/www.getid3.org\/.)\" rel=\"nofollow\">http:\/\/www.getid3.org\/.)<\/a><\/p>\n\n<h4>Version History<\/h4>\n\n<",
+                "uid": "97768"
+            }
+        }
+    }
+}

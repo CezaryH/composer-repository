@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/xazure-code-demo": {
+            "0.9": {
+                "name": "wordpress\/xazure-code-demo",
+                "version": "0.9",
+                "version_normalized": "0.9.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/xazure-code-demo.0.9.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>This is a programming and web development blog. That means lots of example pages. I often write away from my home computer, so I wanted a way that I can create those examples through my browser, without having to find a text editor and FTP client. Thus the idea for this plugin is born.<\/p>\n\n<p>Basically, it adds a new custom post type, Code Demo, to your blog. There you can go and specify the code for the head and body, as well as specify a DOCTYPE. Then you can have a nice pretty link to it, like so: <a href=\"http:\/\/xazure.net\/demo\/three-column-layout-with-dividers\/\" rel=\"nofollow\">http:\/\/xazure.net\/demo\/three-column-layout-with-dividers\/<\/a><\/p>\n\n<p>It allows you to then view the source code of the page from within the page. Nice.<\/p>\n\n<p>Features\n* Easily create code examples directly from the WordPress back-end.\n* Use pretty permalinks to your demos.\n* View the source of your demos directly within the page.\n* Allows you to create your own template to show your demos.\n* Adds a li",
+                "uid": "44604"
+            }
+        }
+    }
+}

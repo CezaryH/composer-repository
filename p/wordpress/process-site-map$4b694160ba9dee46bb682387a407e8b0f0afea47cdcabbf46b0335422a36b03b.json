@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/process-site-map": {
+            "0.3": {
+                "name": "wordpress\/process-site-map",
+                "version": "0.3",
+                "version_normalized": "0.3.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/process-site-map.0.3.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>My intention with this plugin was to create a site that could hold notes about the site map in a snap.<\/p>\n\n<p>Takes the following format:<\/p>\n\n<pre><code>Home\n    About Us\n        Mission Statement\n        The Team\n        Location\n    Projects\n        Client 1\n        Client 2\n        Client 3\n            Design\n            Development\n            Conclusion\n            Contact Us\n<\/code><\/pre>\n\n<p>&#8230;and turns it into nested pages.<\/p>",
+                "uid": "27474"
+            }
+        }
+    }
+}

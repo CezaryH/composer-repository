@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/imageshack-migration": {
+            "1.1": {
+                "name": "wordpress\/imageshack-migration",
+                "version": "1.1",
+                "version_normalized": "1.1.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/imageshack-migration.1.1.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>ImageShack Migration will help you copy all photos and pictures on your posts to the free images<br \/>\nHost imageshack.us, everything will be done remotely and automatically 10 files at a time. It's<br \/>\nAlso safe, your original files WILL NOT be deleted, you never<br \/> Just follow the simple steps<br \/>\nbelow to get started:<br \/><br \/><\/p>\n\n<ol>\n<li> First you need an <a href=\"http:\/\/stream.imageshack.us\/xmlapi\/\"> API key from  \nimageshack.us<\/a> It's free and instant don't worry!<\/li>\n<li> Paste the key in the Key box below the files list.<br \/><\/li>\n<li> To avoid putting much pressure on your server and imageshack servers, you need to send 10  \nimages at a time. Click \"send 10 pictures\" and wait for a while until the page is  \nrefreshed.<br \/><\/li>\n<li> Don't be alarmed if you get one or two errors on the top of the page once in a while when  \nyou submit, it is a sign that imageshack server timed out for a file or two, don't worry it is a  \ncommon thing, unless you receive err",
+                "uid": "59159"
+            }
+        }
+    }
+}

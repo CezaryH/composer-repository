@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/wordpress-scheduled-time": {
+            "0.9": {
+                "name": "wordpress\/wordpress-scheduled-time",
+                "version": "0.9",
+                "version_normalized": "0.9.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/wordpress-scheduled-time.0.9.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>When you're having a large blog and post mulitple blogposts per day with multiple authors it can be very interesting to see the actual time a post is scheduled.\nStandard WordPress behaviour is that you only see the scheduled date when a post is scheduled.\nThis plugin's main feature is that is displays also the WordPress Scheduled Post TIME.<\/p>\n\n<p>Other features:<\/p>\n\n<ul>\n<li>Sorable Column on Post Status<\/li>\n<li>Gives a clear overview if a post is published\/scheduled\/draft\/pending review or Trashed with different colors.<\/li>\n<\/ul>",
+                "uid": "43991"
+            }
+        }
+    }
+}

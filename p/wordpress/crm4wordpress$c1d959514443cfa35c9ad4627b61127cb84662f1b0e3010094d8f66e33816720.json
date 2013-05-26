@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/crm4wordpress": {
+            "1.2": {
+                "name": "wordpress\/crm4wordpress",
+                "version": "1.2",
+                "version_normalized": "1.2.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/crm4wordpress.1.2.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>When someone posts a comment on your blog his\/her details will be captured in the BatchBook CRM system. This is done by using the BatchBook API's (<a href=\"http:\/\/developer.batchblue.com\">http:\/\/developer.batchblue.com<\/a>). Currently the users name, email, website, date of comment and link\/url of comment is passed to the BatchBook system.<\/p>",
+                "uid": "66618"
+            }
+        }
+    }
+}

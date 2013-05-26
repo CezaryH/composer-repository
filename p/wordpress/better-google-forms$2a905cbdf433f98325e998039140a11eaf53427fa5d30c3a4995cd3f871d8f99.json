@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/better-google-forms": {
+            "0.6": {
+                "name": "wordpress\/better-google-forms",
+                "version": "0.6",
+                "version_normalized": "0.6.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/better-google-forms.0.6.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>Simply add Google forms to your posts and pages. But wait (you're probably asking yourself) isn't this really easy thanks to that iFrame code that google gives us?<\/p>\n\n<p>Well sure, yes, you can do that. Except it looks really shitty! My plugin let's you style and fit the form to your theme, making it blend in seamlessly.<\/p>\n\n<p>Will auto-populate get variables into a form based off the label name (substituting \"_\" for spaces). So yourwebsite.com\/myform?First_Name=Bob&#38;Last_Name=Smith will fill in \"Bob\" and \"Smith\" for the inputs preceded by the labels \"First Name\" and \"Last Name\". Try THAT with your iFrame.<\/p>\n\n<ul>\n<li><a href=\"https:\/\/github.com\/mojowen\/Better-Google-Forms\">Source code on GitHub<\/a><\/li>\n<li><a href=\"https:\/\/github.com\/mojowen\/Better-Google-Forms\/issues\">Report Issues to Github<\/a><\/li>\n<\/ul>",
+                "uid": "27462"
+            }
+        }
+    }
+}

@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/login-email-sync": {
+            "1.0": {
+                "name": "wordpress\/login-email-sync",
+                "version": "1.0",
+                "version_normalized": "1.0.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/login-email-sync.1.0.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>In some cases you want your wordpress users to login with their email address instead of the username. To do this, you can use a good plugin like 'WP Email Login' or you can activate a 'Register Plus Redux' plugin's option, but when the users will ask for lost password, the old \/ original username will be emailed to them, and this can cause confusion. To avoid this situation, just install and activate Login Email Sync, and it will sync the username ( user_login database field ) with the email ( user_email database field ) every time a user updates her\/his profile.<\/p>\n\n<p>If you find this plugin useful, please rate it.<\/p>",
+                "uid": "35509"
+            }
+        }
+    }
+}

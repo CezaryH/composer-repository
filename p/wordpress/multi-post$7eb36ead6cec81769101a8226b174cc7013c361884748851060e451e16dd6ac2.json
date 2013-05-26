@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/multi-post": {
+            "1.1": {
+                "name": "wordpress\/multi-post",
+                "version": "1.1",
+                "version_normalized": "1.1.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/multi-post.1.1.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>Multi Post allows you to post to other sites withing a single multi-site Wordpress environment. As an other, you can post to other sites that a) you can post to and b) has the Multi Post plugin turned on.<\/p>\n\n<p>The plugin adds a new metabox to the post authoring page. It is a list of sites (blogs) that can be cross posted to. Simply select the site(s) you wish to also post to and when you publish your new post, it will automatically be added to the other sites as well. Your post's tags will exist on all of the sites it goes to. Categories will be added if they exist in the other sites.<\/p>\n\n<p>The Multi Post plugin also respects post updates. When a post is updated in one site, the updates go to all other sites selected in the metabox (the sites it is already posted to are preselected). If one of the sites is deslected, you have the option of deleting the post in that site or orphan it.<\/p>\n\n<p>If someone other than the author edits a cross posted post, changes only occur in that ",
+                "uid": "59007"
+            }
+        }
+    }
+}

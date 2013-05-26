@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/spam-karma-blacklist-ban": {
+            "1.0.1": {
+                "name": "wordpress\/spam-karma-blacklist-ban",
+                "version": "1.0.1",
+                "version_normalized": "1.0.1.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/spam-karma-blacklist-ban.1.0.1.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>Once an IP address is knee-deep in Spam Karma's blacklist, Spam Karma will never approve a comment from this IP, no matter how often it tries.<\/p>\n\n<p>Unfortunately, many of these IPs don't stop trying, thus wasting your bandwidth and server resources.<\/p>\n\n<p>This small plugin bans them.<\/p>\n\n<p>Note: this is not a Spam Karma 2 plugin; that's different.<\/p>",
+                "uid": "75854"
+            }
+        }
+    }
+}

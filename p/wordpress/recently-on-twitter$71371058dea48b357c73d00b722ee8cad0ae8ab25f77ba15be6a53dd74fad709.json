@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/recently-on-twitter": {
+            "0.0.1": {
+                "name": "wordpress\/recently-on-twitter",
+                "version": "0.0.1",
+                "version_normalized": "0.0.1.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/recently-on-twitter.0.0.1.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>The Twitter Recent Tweets Plugin \/ Widget let's you display your tweets in the sidebar of your blog, useful if you use WP-Cache \/ Super Cache and want the feed to be fresh. It leverages jQuery and JSONP to provide a never-stale, asynchronous connection to Twitter.<\/p>",
+                "uid": "72482"
+            }
+        }
+    }
+}

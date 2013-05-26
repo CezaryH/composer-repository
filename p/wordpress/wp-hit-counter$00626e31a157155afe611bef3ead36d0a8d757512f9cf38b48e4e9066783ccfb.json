@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/wp-hit-counter": {
+            "1.0": {
+                "name": "wordpress\/wp-hit-counter",
+                "version": "1.0",
+                "version_normalized": "1.0.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/wp-hit-counter.1.0.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>WP Hit Counter is a simple wordpress plugin that embeds a rotating counter in your blog and shows the number of visits your website has.\nBy default the web counter will be displayed in your footer, to change the location of the counter simply navigate to your widgets page and embed it anywhere you want in your blog.\nYou can also change the hit counter style so it can fit with the design of your blog. Navigate to -&#62; Settings -&#62; WP Hit Counter and select your preffered style.<\/p>\n\n<h4>Plugin Settings<\/h4>\n\n<ul>\n<li>Count unique visitors - checkbox<\/li>\n<li>Exclude ip dddresses - one per line<\/li>\n<li>Display in footer - checkbox<\/li>\n<li>Counter Alignment - left,center,right<\/li>\n<li>Set hit counter to - a specified number<\/li>\n<li>Credits - enable or disable<\/li>\n<li>Check for updates automatically - enable or disable<\/li>\n<\/ul>",
+                "uid": "8946"
+            }
+        }
+    }
+}

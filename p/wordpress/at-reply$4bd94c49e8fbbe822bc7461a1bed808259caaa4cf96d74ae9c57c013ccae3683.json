@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/at-reply": {
+            "1.1": {
+                "name": "wordpress\/at-reply",
+                "version": "1.1",
+                "version_normalized": "1.1.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/at-reply.1.1.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>Automagically link Twitterish \"@name:\" replies in comments.<\/p>\n\n<p>Note: It hasn't been tested on versions earlier than 2.1, but may very well work.<\/p>",
+                "uid": "106035"
+            }
+        }
+    }
+}

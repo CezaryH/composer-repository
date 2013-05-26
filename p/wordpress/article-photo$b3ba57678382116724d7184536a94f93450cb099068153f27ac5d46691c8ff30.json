@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/article-photo": {
+            "1.0": {
+                "name": "wordpress\/article-photo",
+                "version": "1.0",
+                "version_normalized": "1.0.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/article-photo.1.0.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>This plugin adds a form to your post screen that allows you to upload an image to go with your blog post. You can then use <code>the_article_image()<\/code> function in your theme to show the image whereever you want on your theme, at whatever size (dynamically rescaled and cached using ImageMagick so no dodgy browser rescaling or sending huge photos out).<\/p>\n\n<p>An example of it in use is on <a href=\"http:\/\/www.nouse.co.uk\/\" rel=\"nofollow\">http:\/\/www.nouse.co.uk\/<\/a>, where the photo alongside each post is attached, and then shown on the front page, and on the single page itself in the theme.<\/p>",
+                "uid": "88309"
+            }
+        }
+    }
+}

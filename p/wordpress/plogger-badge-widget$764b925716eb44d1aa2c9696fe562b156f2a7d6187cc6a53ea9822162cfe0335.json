@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/plogger-badge-widget": {
+            "0.1": {
+                "name": "wordpress\/plogger-badge-widget",
+                "version": "0.1",
+                "version_normalized": "0.1.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/plogger-badge-widget.0.1.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>This was based initially on the Flickr Badge Widget, but it is a lot \nmore basic, and uses a <a href=\"http:\/\/www.plogger.org\/\">Plogger<\/a> library feed \nfor its source.<\/p>\n\n<p>I wrote it because Flickr started wanting to charge me for hosting photos.\nI pay a few bucks a month on web hosting, and didn't see the point in \nalso paying Flickr, given that uploading via SCP is no harder than using \njUploadr or whatever. I installed Plogger, which seems to be a \ndecent bare-bones replacement.<\/p>\n\n<p>However, the one thing I missed about Flickr was the nice Wordpress \nwidget that showed my photos in the sidebar of my blog. So, I scratched \nmy own itch and wrote this widget. Presto - thumbnail images in the \nsidebar.<\/p>\n\n<p>You just assign it a Plogger feed URL and it does its thing. (The GPL \nPHP RSS library lastRSS is included - which makes this widget GPL too.)<\/p>\n\n<p>It is still very basic and needs some developer TLC to give it the \nfeatures that Plogger deserves. Hit me up if you c",
+                "uid": "106472"
+            }
+        }
+    }
+}

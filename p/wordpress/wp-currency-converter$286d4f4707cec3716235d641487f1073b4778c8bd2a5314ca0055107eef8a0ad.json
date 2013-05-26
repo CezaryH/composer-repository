@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/wp-currency-converter": {
+            "1.2": {
+                "name": "wordpress\/wp-currency-converter",
+                "version": "1.2",
+                "version_normalized": "1.2.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/wp-currency-converter.1.2.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>This plugin adds a currency converter widget to provide your visitors with a convenient on the spot currency conversions powered by Google.<\/p>\n\n<p>You can add as many currencies as you like. It uses Google's API to get up to date foreign exchange information.<\/p>\n\n<p>It doesn't require refreshing the page, everything is done via Ajax to provide a seemless user experience.<\/p>\n\n<p>This is the perfect addition to your shopping cart page.<\/p>",
+                "uid": "20961"
+            }
+        }
+    }
+}

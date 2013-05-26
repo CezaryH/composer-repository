@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/pocket": {
+            "1.0": {
+                "name": "wordpress\/pocket",
+                "version": "1.0",
+                "version_normalized": "1.0.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/pocket.1.0.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>This plugin allows you to display <a href=\"http:\/\/getpocket.com\/\">Pocket<\/a> 'Read It Later' links next to each post on your blog. You can see an example on <a href=\"http:\/\/getpocket.com\/blog\/\">the Pocket blog<\/a>. You can automatically insert the links adjacent to your blog posts or you can use the template tag to insert the links wherever you like.<\/p>",
+                "uid": "23324"
+            }
+        }
+    }
+}

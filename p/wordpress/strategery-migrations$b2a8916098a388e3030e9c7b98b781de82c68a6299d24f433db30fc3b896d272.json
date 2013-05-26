@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/strategery-migrations": {
+            "1.0": {
+                "name": "wordpress\/strategery-migrations",
+                "version": "1.0",
+                "version_normalized": "1.0.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/strategery-migrations.1.0.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>This plugins was designed to speed up and manage the process of creating a running migrations scripts. Migrations scripts are used to edit content on a blog to blog basis by running php files which manipulate your Wordpress database. This could be adding or removing a page or post to certain blogs. Strategery Migrations also provides an interface to manage your migrations scripts. You can view a list of all migrations files and see a timestamp indicating when a migration file was created. You can see individual blogs' migration state so that you can tell what files have been run or if a certain blog has been migrated. You can look at a list of all your blogs and see what their migration states are compared to each other.<\/p>\n\n<p>This plugin was made for Wordpress implementations using a multisite network with sub-directories.<\/p>",
+                "uid": "40107"
+            }
+        }
+    }
+}

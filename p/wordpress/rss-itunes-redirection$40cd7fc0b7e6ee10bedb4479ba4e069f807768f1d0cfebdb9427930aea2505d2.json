@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/rss-itunes-redirection": {
+            "0.1": {
+                "name": "wordpress\/rss-itunes-redirection",
+                "version": "0.1",
+                "version_normalized": "0.1.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/rss-itunes-redirection.0.1.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>If you are a podcaster and you already submitted a podcast to iTunes you will notice that Apple does not provide a form where you can change your feed- or podcast url. Instead you have to use a special tag in your feed to change the url.<\/p>\n\n<p>The RSS iTunes Redirection Plugin will add the necessary namespace (if needed) and the special redirect-tag to your RSS 2.0 feed on Wordpress.<\/p>\n\n<p>The namespace is: xmlns:itunes=\"http:\/\/www.itunes.com\/dtds\/podcast-1.0.dtd\nThe redirect-tag is:  [your new feed url] <\/p>\n\n<p>Please read the FAQ for more information.<\/p>\n\n<p>If you have any further questions, please<\/p>\n\n<ul>\n<li>add a comment on the plugins page <a href=\"http:\/\/social2business.com\/wordpress-plugins\/itunes-rss-redirection\/\">RSS iTunes Redirection<\/a><\/li>\n<li>ask on <a href=\"http:\/\/twitter.com\/floriansimeth\">my Twitter Profile<\/a><\/li>\n<li>or visit my german <a href=\"http:\/\/hangout-lifestyle.de\">Lifestyle Design<\/a> Page<\/li>\n<\/ul>",
+                "uid": "28834"
+            }
+        }
+    }
+}

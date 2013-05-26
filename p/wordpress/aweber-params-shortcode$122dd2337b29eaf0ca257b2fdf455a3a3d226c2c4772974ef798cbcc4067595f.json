@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/aweber-params-shortcode": {
+            "1.4": {
+                "name": "wordpress\/aweber-params-shortcode",
+                "version": "1.4",
+                "version_normalized": "1.4.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/aweber-params-shortcode.1.4.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>Allows to display parameters returned by Aweber using shortcodes.<\/p>\n\n<p>You can use these shortcodes:<\/p>\n\n<p>[awber_params] will embed the name parameter\n[awber_params email=\"1\"] will embed the email parameter<\/p>",
+                "uid": "9791"
+            }
+        }
+    }
+}

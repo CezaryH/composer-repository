@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/xtechnos-redirect": {
+            "1.0": {
+                "name": "wordpress\/xtechnos-redirect",
+                "version": "1.0",
+                "version_normalized": "1.0.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/xtechnos-redirect.1.0.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>Based on Redirect plugin, xTechnos Redirect plugin Simply redirect using Custom Fields with Homepage redirect bug fix. (How it works?: On the page or post you wish to redirect from, open up the Custom Fields section,Type in 'redirect' for the key, and then any URL for the value,Press Add Field, save the post, and you're done!<\/p>",
+                "uid": "19334"
+            }
+        }
+    }
+}

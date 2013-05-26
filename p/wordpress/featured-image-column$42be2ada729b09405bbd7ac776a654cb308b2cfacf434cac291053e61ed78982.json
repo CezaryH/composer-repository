@@ -1,0 +1,57 @@
+{
+    "packages": {
+        "wordpress\/featured-image-column": {
+            "0.1.5": {
+                "name": "wordpress\/featured-image-column",
+                "version": "0.1.5",
+                "version_normalized": "0.1.5.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/featured-image-column.0.1.5.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>This plugin has no options. It simply adds a column before the title (far left) the show's the posts featured image if it's supported and\/or exists.<\/p>\n\n<p>Add a defualt image simply by filtering you own image in. Use <code>featured_image_column_default_image<\/code> or filter your own CSS by using <code>featured_image_column_css<\/code>.<\/p>\n\n<p><strong>Add support for a custom default image<\/strong><\/p>\n\n<pre><code>function my_custom_featured_image_column_image( $image ) {\n    if ( !has_post_thumbnail() )\n        return trailingslashit( get_stylesheet_directory_uri() ) . &#039;images\/featured-image.png&#039;;\n}\nadd_filter( &#039;featured_image_column_default_image&#039;, &#039;my_custom_featured_image_column_image&#039; );<\/code><\/pre>\n\n<p><strong>Add your own CSS to change the size of the image.<\/strong><\/p>\n\n<pre><code>\/**\n * @use &#039;.featured-image.column-featured-image img {}&#039;\n *\/\nfunction my_custom_featured_image_css() {\n    return trailingslashit( get_stylesheet_direc",
+                "uid": "39373"
+            },
+            "0.1.6": {
+                "name": "wordpress\/featured-image-column",
+                "version": "0.1.6",
+                "version_normalized": "0.1.6.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/featured-image-column.0.1.6.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>This plugin has no options. It simply adds a column before the title (far left) the show's the posts featured image if it's supported and\/or exists.<\/p>\n\n<p>Add a defualt image simply by filtering you own image in. Use <code>featured_image_column_default_image<\/code> or filter your own CSS by using <code>featured_image_column_css<\/code>.<\/p>\n\n<p><strong>Add support for a custom default image<\/strong><\/p>\n\n<pre><code>function my_custom_featured_image_column_image( $image ) {\n    if ( !has_post_thumbnail() )\n        return trailingslashit( get_stylesheet_directory_uri() ) . &#039;images\/featured-image.png&#039;;\n}\nadd_filter( &#039;featured_image_column_default_image&#039;, &#039;my_custom_featured_image_column_image&#039; );<\/code><\/pre>\n\n<p><strong>Add your own CSS to change the size of the image.<\/strong><\/p>\n\n<pre><code>\/**\n * @use &#039;.featured-image.column-featured-image img {}&#039;\n *\/\nfunction my_custom_featured_image_css() {\n    return trailingslashit( get_stylesheet_direc",
+                "uid": "39372"
+            },
+            "0.1.9": {
+                "name": "wordpress\/featured-image-column",
+                "version": "0.1.9",
+                "version_normalized": "0.1.9.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/featured-image-column.0.1.9.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>This plugin has no options. It simply adds a column before the title (far left) the show's the posts featured image if it's supported and\/or exists.<\/p>\n\n<p>Add a defualt image simply by filtering you own image in. Use <code>featured_image_column_default_image<\/code> or filter your own CSS by using <code>featured_image_column_css<\/code>.<\/p>\n\n<p><strong>Add support for a custom default image<\/strong><\/p>\n\n<pre><code>function my_custom_featured_image_column_image( $image ) {\n    if ( !has_post_thumbnail() )\n        return trailingslashit( get_stylesheet_directory_uri() ) . &#039;images\/featured-image.png&#039;;\n}\nadd_filter( &#039;featured_image_column_default_image&#039;, &#039;my_custom_featured_image_column_image&#039; );<\/code><\/pre>\n\n<p><strong>Add your own CSS to change the size of the image.<\/strong><\/p>\n\n<pre><code>\/**\n * @use &#039;.featured-image.column-featured-image img {}&#039;\n *\/\nfunction my_custom_featured_image_css() {\n    return trailingslashit( get_stylesheet_direc",
+                "uid": "39371"
+            }
+        }
+    }
+}

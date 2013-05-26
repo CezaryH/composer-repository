@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/ls-gmap-route": {
+            "1.1": {
+                "name": "wordpress\/ls-gmap-route",
+                "version": "1.1",
+                "version_normalized": "1.1.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/ls-gmap-route.1.1.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>You can set up ONE address to display on map. User can insert his \/ her location and route calculated via Google maps API will be shown on map with instructions on the left side of map. User's location can be determined via HTML5 geolocation services.<\/p>\n\n<p>If no route is calculated, map will span over the route info panel, so map will fill the whole area. However, you should set up info window width.<\/p>\n\n<p>All non-Google texts are translatable via WordPress native translate features.<\/p>\n\n<h4>Usage example:<\/h4>\n\n<p>[gmap-route addr=\"Vodi&#232;kova 2, Praha\" zoom=15 geo=\"true\" map_type=\"ROADMAP\" map_width=\"500\" info_width=\"200\" height=\"400\" lang=\"en\"]<\/p>\n\n<h4>Parameters:<\/h4>\n\n<ul>\n<li>addr : address to display on map (single location)<\/li>\n<li>zoom : default zoom level<\/li>\n<li>geo : try to use HTML5 geolocation<\/li>\n<li>map_type : type of map [ ROADMAP \/ SATELLITE \/ HYBRID \/ TERRAIN ]<\/li>\n<li>map_width : width of map<\/li>\n<li>info_width : width of route information (when no",
+                "uid": "12142"
+            }
+        }
+    }
+}

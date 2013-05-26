@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/show-theme-file": {
+            "0.0.1": {
+                "name": "wordpress\/show-theme-file",
+                "version": "0.0.1",
+                "version_normalized": "0.0.1.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/show-theme-file.0.0.1.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>This is a simple plugin that uses wordpress' hierarchy to determine what theme file the current page used to render it!<\/p>",
+                "uid": "46035"
+            }
+        }
+    }
+}

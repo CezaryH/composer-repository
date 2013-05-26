@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/ted-in-bed": {
+            "1.0": {
+                "name": "wordpress\/ted-in-bed",
+                "version": "1.0",
+                "version_normalized": "1.0.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/ted-in-bed.1.0.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>Curl up with your TEDdy bear and laptop and watch TED talks directly from your WordPress blog<\/p>\n\n<p>Enable use of either TED talk URLs or [ted] short code.<\/p>\n\n<p>Format for shortcode is [ted id=X height=Y width=Z]\n * id     [required] - Can be found by clicking the 'Embed' button on the TED talks page\n * height [optional] - Desired height in pixels\n * width  [optional] - Desired width in pixels<\/p>",
+                "uid": "9347"
+            }
+        }
+    }
+}

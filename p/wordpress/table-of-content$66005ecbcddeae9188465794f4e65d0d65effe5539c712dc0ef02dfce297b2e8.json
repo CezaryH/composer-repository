@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/table-of-content": {
+            "0.6.5": {
+                "name": "wordpress\/table-of-content",
+                "version": "0.6.5",
+                "version_normalized": "0.6.5.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/table-of-content.0.6.5.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>The Plugin generates a TOC for a page or an article or just a part of either. The TOC is a Multi-Level List with links to \"anchors\" on the page. Therefore it parses the given page (or the part of page you want it to parse) and looks for headlines (h1, h2, h3, ...) in it. From the found it buils the TOC. It also upgrades your page contents with a top-navigation after each found headline ..<\/p>\n\n<p>The most likely usecase for this Plugin is a huge page or article which you dont want to put into multiple pages.<\/p>",
+                "uid": "89477"
+            }
+        }
+    }
+}

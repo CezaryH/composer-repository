@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/taglets-feeder": {
+            "1.0": {
+                "name": "wordpress\/taglets-feeder",
+                "version": "1.0",
+                "version_normalized": "1.0.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/taglets-feeder.1.0.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>Taglets Feeder is a Wordpress plug-in that announces your blog postings on Taglets.org when you publish a post.<\/p>\n\n<p>For each tag you specify for the post in Wordpress during post creation, when you publish the post, Taglets Feeder sends a comment to those tags with a comment of the form: [post title] [short url]<\/p>\n\n<p>For example:<\/p>\n\n<pre><code>tag:  mrblog\ncomment: Taglets Feeder WP plugin now available on Wordpress.org <a href=\"http:\/\/is.gd\/d79fb\" rel=\"nofollow\">http:\/\/is.gd\/d79fb<\/a>\n<\/code><\/pre>\n\n<p>You can optionally specify a tag that Taglets Feeder always sends to, for every post you publish (e.g. a tag for the name of your blog), in addition to the tags specified for the post.<\/p>\n\n<p>You can also specify a excluded category such that for posts assigned to that category, Taglets Feeder will not notify Taglets.org.<\/p>\n\n<p>The normal behavior of Taglets Feeder is to attempt to post to all tags (send notifications for all tags) and ignore errors for tags that do not e",
+                "uid": "94190"
+            }
+        }
+    }
+}

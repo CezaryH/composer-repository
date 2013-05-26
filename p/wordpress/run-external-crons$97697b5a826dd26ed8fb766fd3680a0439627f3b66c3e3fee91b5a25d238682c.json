@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/run-external-crons": {
+            "1.0": {
+                "name": "wordpress\/run-external-crons",
+                "version": "1.0",
+                "version_normalized": "1.0.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/run-external-crons.1.0.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p><a href=\"http:\/\/blog.milandinic.com\/wordpress\/plugins\/run-external-crons\/\">Plugin homepage<\/a> &#124; <a href=\"http:\/\/blog.milandinic.com\/\">Plugin author<\/a> &#124; <a href=\"http:\/\/blog.milandinic.com\/donate\/\">Donate<\/a><\/p>\n\n<p>This plugin enables using WordPress as a cron system that would hit external URLs (ie. any URL) on a scheduled basis. User can submit URL and interval in which that URL should be opened by WordPress.<\/p>\n\n<p>This can be used, for example, for other WordPress sites that are on hosts that don't have native cron system or where it's complicated to set it up. For that cases, URL should be in format <code><a href=\"http:\/\/example.com\/wp-cron.php\" rel=\"nofollow\">http:\/\/example.com\/wp-cron.php<\/a><\/code> and there should be constant <code>DISABLE_WP_CRON<\/code> in <code>wp-config.php<\/code> file to avoid running WordPress own pseudo cron:<\/p>\n\n<pre><code>define(&#039;DISABLE_WP_CRON&#039;, true);<\/code><\/pre>\n\n<p>It's recommended to setup a real cron for the site wh",
+                "uid": "20083"
+            }
+        }
+    }
+}

@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/head-meta-date": {
+            "20": {
+                "name": "wordpress\/head-meta-date",
+                "version": "20",
+                "version_normalized": "20.0.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/head-meta-date.20130412.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>Head Meta Date (formerly \"Head Metadate\") improves the definition and semantic quality of your web pages by adding a set of date <code>&#60;meta&#62;<\/code> tags to the <code>&#60;head&#62;<\/code> section of your web pages.<\/p>\n\n<p><strong>Example<\/strong><\/p>\n\n<pre><code>&#60;head&#62;\n  ...\n&#60;!-- META Tags added by Head Meta Date WordPress plugin. Get it at: <a href=\"http:\/\/wordpress.org\/extend\/plugins\/head-meta-date\/\" rel=\"nofollow\">http:\/\/wordpress.org\/extend\/plugins\/head-meta-date\/<\/a> --&#62;\n    &#60;meta http-equiv=\"Date\" content=\"Wed, 16 Feb 2011 22:34:13 GMT\"&#62;\n    &#60;meta http-equiv=\"Last-Modified\" content=\"Wed, 17 Feb 2011 12:34:13 GMT\"&#62;\n    &#60;meta name=\"CreateDate\" content=\"Wed, 16 Feb 2011 22:34:13 GMT\"&#62;\n    &#60;meta name=\"Last-Update\" content=\"Wed, 17 Feb 2011 12:34:13 GMT\"&#62;\n    ...\n&#60;\/head&#62;\n<\/code><\/pre>\n\n<p><strong>Features<\/strong><\/p>\n\n<ul>\n<li>Plug-n-play functionality<\/li>\n<li>Easy to configure from the WP Admin<\/li>\n<li>Adds set o",
+                "uid": "9012"
+            }
+        }
+    }
+}

@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/descriptions-as-captions-in-galleries": {
+            "1.0": {
+                "name": "wordpress\/descriptions-as-captions-in-galleries",
+                "version": "1.0",
+                "version_normalized": "1.0.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/descriptions-as-captions-in-galleries.1.0.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p><a href=\"http:\/\/blog.milandinic.com\/wordpress\/plugins\/descriptions-as-captions-in-galleries\/\">Plugin homepage<\/a> &#124; <a href=\"http:\/\/blog.milandinic.com\/\">Plugin author<\/a> &#124; <a href=\"http:\/\/blog.milandinic.com\/donate\/\">Donate<\/a><\/p>\n\n<p>Image descriptions are stored as content (field <code>post_content<\/code>) while captions are stored as excerpt (field <code>post_excerpt<\/code>). This means that descriptions are shown on single attachment pages, while captions are shown in <a href=\"http:\/\/codex.wordpress.org\/Gallery_Shortcode\">galleries<\/a> and if image is embedded in a post content with a <code>[caption]<\/code> shortcode.<\/p>\n\n<p>If you use images just in galleries, in order to have text below image in both places, you need to fill both fields.<\/p>\n\n<p>This plugin changes that. You only fill description field and that text is used as caption of image in galleries.<\/p>\n\n<p>There are no options or settings, just enable plugin and everything works automatically.<\/p>",
+                "uid": "21128"
+            }
+        }
+    }
+}

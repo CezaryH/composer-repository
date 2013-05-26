@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/google-analytics-tracking-for-forms": {
+            "1.5.2": {
+                "name": "wordpress\/google-analytics-tracking-for-forms",
+                "version": "1.5.2",
+                "version_normalized": "1.5.2.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/google-analytics-tracking-for-forms.1.5.2.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>This plugin requires that you are already tracking your site visitors with Google Analytics.<\/p>\n\n<p>This plugin grabs that data and allows you to add it to a form in your site using hidden fields. The information includes:<\/p>\n\n<ul>\n<li><p>Source: where the visitor was referred from (search engine, email list, CPC ad, banner ad etc),<\/p><\/li>\n<li><p>Search term - what they actually typed into the search engine<\/p><\/li>\n<li><p>Type: Whether the visitor is considered Paid or Organic<\/p><\/li>\n<li><p>Campaign: you can identify specific campaigns and referring URL (use the Google URL builder)<\/p><\/li>\n<\/ul>\n\n<p>This is specific information attached to each lead, and provides valuable insights for your marketing or online sales. Google Analytics is fine for telling you aggregate, big picture information. But with this plugin, you can drill into the detail and find out which search terms are leading to the biggest sales, and which campaigns are generating the most enquiries.<\/p>",
+                "uid": "25283"
+            }
+        }
+    }
+}

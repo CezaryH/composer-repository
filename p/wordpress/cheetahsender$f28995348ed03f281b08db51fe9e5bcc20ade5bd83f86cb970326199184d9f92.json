@@ -1,0 +1,40 @@
+{
+    "packages": {
+        "wordpress\/cheetahsender": {
+            "1.0.0": {
+                "name": "wordpress\/cheetahsender",
+                "version": "1.0.0",
+                "version_normalized": "1.0.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/cheetahsender.1.0.0.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>This plugin Override the wp_mail() function to use CheetahSender SMTP instead of wp_mail() function.<\/p>\n\n<p>You should be a CheetahSender customer for using this plugin, you can't define your own SMTP, for this you might use another plugin\nie. wp-mail-smtp<\/p>\n\n<p>You can set the following options:<\/p>\n\n<ul>\n<li>Specify the from name and email address for outgoing email.<\/li>\n<li>Choose to send mail by SMTP or PHP's mail() function.<\/li>\n<li>Specify an CheetahSender port (defaults to 25).<\/li>\n<li>Choose SSL \/ TLS encryption<\/li>\n<li>Specify CheetahSender username and password linked to your inbound point.<\/li>\n<\/ul>",
+                "uid": "11825"
+            },
+            "1.0.1": {
+                "name": "wordpress\/cheetahsender",
+                "version": "1.0.1",
+                "version_normalized": "1.0.1.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/cheetahsender.1.0.1.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>This plugin Override the wp_mail() function to use CheetahSender SMTP instead of wp_mail() function.<\/p>\n\n<p>You should be a CheetahSender customer for using this plugin, you can't define your own SMTP, for this you might use another plugin\nie. wp-mail-smtp<\/p>\n\n<p>You can set the following options:<\/p>\n\n<ul>\n<li>Specify the from name and email address for outgoing email.<\/li>\n<li>Choose to send mail by SMTP or PHP's mail() function.<\/li>\n<li>Specify an CheetahSender port (defaults to 25).<\/li>\n<li>Choose SSL \/ TLS encryption<\/li>\n<li>Specify CheetahSender username and password linked to your inbound point.<\/li>\n<\/ul>",
+                "uid": "11824"
+            }
+        }
+    }
+}

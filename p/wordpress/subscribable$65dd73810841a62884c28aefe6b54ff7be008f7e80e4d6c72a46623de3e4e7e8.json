@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/subscribable": {
+            "0.1": {
+                "name": "wordpress\/subscribable",
+                "version": "0.1",
+                "version_normalized": "0.1.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/subscribable.0.1.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>This plugin enables <a href=\"http:\/\/subscribable.com\">subscribable.com<\/a> users to subscribe to your blog and receive immediate updates each time you publish a new post. It also adds a menu item to the WordPress administration dashboard that you can use to manage your subscribers and a sidepanel widget so that you can display them on your blog. It works with WordPress classic but has not been tested on WordPress MU.<\/p>",
+                "uid": "108163"
+            }
+        }
+    }
+}

@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/sp-video": {
+            "0.1": {
+                "name": "wordpress\/sp-video",
+                "version": "0.1",
+                "version_normalized": "0.1.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/sp-video.0.1.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>SP-Video Plugin is a plugin that alow user to post a video from youtube without using embed code. \nIt`s very easy to use: \n1 - Copy link of your youtube video \n2 - Insert \"[video] Youtube link [\/video]\" in your post.<\/p>",
+                "uid": "57996"
+            }
+        }
+    }
+}

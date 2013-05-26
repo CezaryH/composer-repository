@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/redirect-editor": {
+            "1.1": {
+                "name": "wordpress\/redirect-editor",
+                "version": "1.1",
+                "version_normalized": "1.1.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/redirect-editor.1.1.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>Unlike more complex plugins for managing redirects, the Redirect Editor gives \nyou a simple textarea to edit and manage <code>.htaccess<\/code>-style 301 redirects, one per line.<\/p>\n\n<p>Enter each redirect rule in the following format, starting with the \nrelative path of the URL to match, followed by the absolute URL of the \ndestination to redirect to, separated by a space. Each redirect should \nbe on its own line. Blank lines and lines that start with # (hash) are \nignored and can be used for spacing and comments.<\/p>\n\n<pre><code>\/2012\/09\/old-post\/ <a href=\"http:\/\/www.example.com\/2012\/09\/new-post\/\" rel=\"nofollow\">http:\/\/www.example.com\/2012\/09\/new-post\/<\/a>\n<\/code><\/pre>\n\n<p>After installing, go to Settings &#62; Redirect Editor to configure.<\/p>\n\n<p>If you're interested in contributing to the code behind this plugin, it's also hosted on GitHub:\n<a href=\"https:\/\/github.com\/justincwatt\/wp-redirect-editor\" rel=\"nofollow\">https:\/\/github.com\/justincwatt\/wp-redirect-editor<\/a><\/p>",
+                "uid": "17759"
+            }
+        }
+    }
+}

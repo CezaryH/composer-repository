@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/easygals": {
+            "1.1": {
+                "name": "wordpress\/easygals",
+                "version": "1.1",
+                "version_normalized": "1.1.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/easygals.1.1.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>EasyGals is a plugin that automatically adds a thumbnail gallery to a post if the post has images attached to it and \nhas a &#60;!\u0096easygals\u0096&#62; marker in it. The marker is replaced by the gallery. It can be used together with lightbox and \ncauses no problems with galleries in previous posts that were made by hand.<\/p>",
+                "uid": "107057"
+            }
+        }
+    }
+}

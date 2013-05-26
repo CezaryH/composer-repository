@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/gallerypress": {
+            "2.0": {
+                "name": "wordpress\/gallerypress",
+                "version": "2.0",
+                "version_normalized": "2.0.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/gallerypress.2.0.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>Gallery Press is a gallery plugin that utilizes Wordpress's [gallery] shortcode and integrates itself into Wordpress's attachment architecture. Galleries are constructed from any attachment type either by selecting and ordering attachments from the Media Library or by selecting a combination of Categories and Tags to display. When displayed, through Gallery Press, each attachment can also include custom metadata values.<\/p>\n\n<p>Using Gallery Press, you can upload new media files via a ZIP file. Each recognized file is added to the blog as a new attachment. If a tab delimited TXT file named metavalues.txt is included, it will populate each attachment's metadata values.<\/p>",
+                "uid": "73367"
+            }
+        }
+    }
+}

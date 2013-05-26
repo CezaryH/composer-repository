@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/dp-excerpt": {
+            "1.0": {
+                "name": "wordpress\/dp-excerpt",
+                "version": "1.0",
+                "version_normalized": "1.0.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/dp-excerpt.1.0.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>DP Excerpt is a WordPress plugin, it can generate a better excerpt from content.<\/p>\n\n<ol>\n<li>Keep HTML markup in the excerpt(Optional)<\/li>\n<li>Keep Shortcode output in the excerpt(Optional).<\/li>\n<li>Cut off the excerpt to a given length using either character count or word count.<\/li>\n<li>Customize the excerpt length and the ellipsis character.<\/li>\n<li>Automatically add a \"read more\" link after your excerpt, linking to the full post.<\/li>\n<li>Can ignore <code>&#60;!--more--&#62;<\/code> tag was used before the summary of a specified length.<\/li>\n<li>Can ignore manual excerpt.<\/li>\n<li>The real excerpt length, HTML markup and shortcode output is not counted.<\/li>\n<\/ol>\n\n<p>TODO: Better description and usage.<\/p>",
+                "uid": "50798"
+            }
+        }
+    }
+}

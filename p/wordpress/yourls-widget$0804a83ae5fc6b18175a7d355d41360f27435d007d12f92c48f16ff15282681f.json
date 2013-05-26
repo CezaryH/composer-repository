@@ -1,0 +1,40 @@
+{
+    "packages": {
+        "wordpress\/yourls-widget": {
+            "0.3": {
+                "name": "wordpress\/yourls-widget",
+                "version": "0.3",
+                "version_normalized": "0.3.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/yourls-widget.0.3.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>This widget lets you embed your YOURLS installation (or someone else's through API) to have a short URL service into your sidebar.\nIt's pretty simple as for now and it does its work.<\/p>\n\n<p>I will implement more options as inserting the password directly into the widget options menu (instead of via text-editor) in a few days. If you are using a passworded admin menu you have to edit yourls-widget-config.php. Further info in FAQ section.<\/p>",
+                "uid": "81811"
+            },
+            "0.4": {
+                "name": "wordpress\/yourls-widget",
+                "version": "0.4",
+                "version_normalized": "0.4.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/yourls-widget.0.4.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>This widget lets you embed your YOURLS installation (or someone else's through API) to have a short URL service into your sidebar.\nIt's pretty simple as for now and it does its work.<\/p>\n\n<p>I will implement more options as inserting the password directly into the widget options menu (instead of via text-editor) in a few days. If you are using a passworded admin menu you have to edit yourls-widget-config.php. Further info in FAQ section.<\/p>",
+                "uid": "81810"
+            }
+        }
+    }
+}

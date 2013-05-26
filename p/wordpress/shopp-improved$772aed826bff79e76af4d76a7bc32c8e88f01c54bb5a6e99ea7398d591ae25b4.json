@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/shopp-improved": {
+            "1.0.3": {
+                "name": "wordpress\/shopp-improved",
+                "version": "1.0.3",
+                "version_normalized": "1.0.3.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/shopp-improved.1.0.3.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>Shopp Improved is a plugin that extends the popular\n<a href=\"http:\/\/shopplugin.net\/\">Shopp eCommerce solution for WordPress<\/a>.\nYou <strong>must<\/strong> have the <a href=\"https:\/\/shopplugin.net\/store\/\">Shopp\nPlugin<\/a> in order to use this plugin.<\/p>\n\n<p>I recently worked on a site where I used the Shopp WordPress plugin to set up\nE-Commerce.  The first big issue that I ran across was allowing for user\ncustomizations of products.  For example, if a product can be engraved with a\nname, includes the person's initials, can include a message, etc.  Shopp does\ninclude the ability to add these kinds of user input fields, but it's done\nthrough a template tag.  This means that you either have to apply it to all\nitems, or you need a developer to set it up on a per-product basis.  My client\nhas quite a few products that are custom-made, and they really needed to be able\nto set up these fields themselves.<\/p>\n\n<p>In comes Shopp Improved.  It creates a user interface to allow you to easily a",
+                "uid": "68426"
+            }
+        }
+    }
+}

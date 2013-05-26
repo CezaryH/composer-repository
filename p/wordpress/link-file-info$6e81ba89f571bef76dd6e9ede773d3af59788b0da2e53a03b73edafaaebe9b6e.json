@@ -1,0 +1,57 @@
+{
+    "packages": {
+        "wordpress\/link-file-info": {
+            "0.3": {
+                "name": "wordpress\/link-file-info",
+                "version": "0.3",
+                "version_normalized": "0.3.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/link-file-info.0.3.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>For posts, any links to local media (images, documents, etc.) will\nautomatically have the file type and size appended in parentheses, so\nvisitors to your blog will know what they're about to download when\nthey click links to media.<\/p>\n\n<p>Notes:<\/p>\n\n<ul>\n<li>Requires PHP 5+<\/li>\n<li>Only applies for full posts, not comments or post excerpts.<\/li>\n<li>Specifically only works for media files uploaded using WordPress'\nmedia upload function (i.e. files in the wp-uploads directory).<\/li>\n<li>Parses every post through DOMDocument on view, so unlikely to be\nwildly efficient.<\/li>\n<li>Link parsing might be a bit rough - needs more extensive testing.<\/li>\n<li>Invokes the 'file' program to figure out file types, which gives\nvery pretty and accurate output, but again probably isn't very\nefficient.<\/li>\n<\/ul>",
+                "uid": "80203"
+            },
+            "0.4": {
+                "name": "wordpress\/link-file-info",
+                "version": "0.4",
+                "version_normalized": "0.4.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/link-file-info.0.4.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>For posts, any links to local media (images, documents, etc.) will\nautomatically have the file type and size appended in parentheses, so\nvisitors to your blog will know what they're about to download when\nthey click links to media.<\/p>\n\n<p>Notes:<\/p>\n\n<ul>\n<li>Requires PHP 5+<\/li>\n<li>Only applies for full posts, not comments or post excerpts.<\/li>\n<li>Specifically only works for media files uploaded using WordPress'\nmedia upload function (i.e. files in the wp-uploads directory).<\/li>\n<li>Parses every post through DOMDocument on view, so unlikely to be\nwildly efficient.<\/li>\n<li>Link parsing might be a bit rough - needs more extensive testing.<\/li>\n<li>Invokes the 'file' program to figure out file types, which gives\nvery pretty and accurate output, but again probably isn't very\nefficient.<\/li>\n<\/ul>",
+                "uid": "80202"
+            },
+            "0.5": {
+                "name": "wordpress\/link-file-info",
+                "version": "0.5",
+                "version_normalized": "0.5.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/link-file-info.0.5.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>For posts, any links to local media (images, documents, etc.) will\nautomatically have the file type and size appended in parentheses, so\nvisitors to your blog will know what they're about to download when\nthey click links to media.<\/p>\n\n<p>Notes:<\/p>\n\n<ul>\n<li>Requires PHP 5+<\/li>\n<li>Only applies for full posts, not comments or post excerpts.<\/li>\n<li>Specifically only works for media files uploaded using WordPress'\nmedia upload function (i.e. files in the wp-uploads directory).<\/li>\n<li>Parses every post through DOMDocument on view, so unlikely to be\nwildly efficient.<\/li>\n<li>Link parsing might be a bit rough - needs more extensive testing.<\/li>\n<li>Invokes the 'file' program to figure out file types, which gives\nvery pretty and accurate output, but again probably isn't very\nefficient.<\/li>\n<\/ul>",
+                "uid": "80201"
+            }
+        }
+    }
+}

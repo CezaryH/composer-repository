@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/css3-buttons": {
+            "0.1": {
+                "name": "wordpress\/css3-buttons",
+                "version": "0.1",
+                "version_normalized": "0.1.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/css3-buttons.0.1.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>You will be able to configure the color, size, link and link's target of each button and even add a defaut button for many posts.\nTo use it, just take a look on the plugin's configuration page which contains all the informations and settings for the default button.\nAdd the button by using <code>[button color= size= link= target=]text that will be shown as button's value[\/button]<\/code><\/p>\n\n<p>Attributes that can be used:<br \/>\n* color: There is 7 different colors: pink, magenta, green, red, orange, blue and yellow\n* size: There is 4 different sizes: small, medium, large and super\n* link: The link of the button. Example: Your site's URL <a href=\"http:\/\/mysite.com\" rel=\"nofollow\">http:\/\/mysite.com<\/a>\n* target: The link's targeted window, can be: blank, new, parent, self or top\nExemple: <code>[button color=blue size=super link=http:\/\/twitter.com\/tunilame]Follow me![\/button]<\/code><\/p>\n\n<p>Simply add <code>[button]<\/code> in you posts when you want to use the defaut settings.<\/p>",
+                "uid": "63418"
+            }
+        }
+    }
+}

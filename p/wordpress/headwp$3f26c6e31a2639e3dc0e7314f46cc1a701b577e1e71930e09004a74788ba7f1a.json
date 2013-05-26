@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/headwp": {
+            "1.0": {
+                "name": "wordpress\/headwp",
+                "version": "1.0",
+                "version_normalized": "1.0.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/headwp.1.0.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>Head.js is a script to asynchronously load and optionally asynchronously execute javascript assets.<\/p>\n\n<p>This plugin loads the scripts enqueued in footer with the head.js loader. All of the footer scripts are loaded asynchronously and any scripts that do not share dependencies are executed asynchronously while scripts that share dependencies are executed in order.<\/p>\n\n<p>Head.WP assumes that scripts are loaded via <code>wp_enqueue_script()<\/code> and that any script enqueued in the <code>&#60;head&#62;<\/code> intends to be loaded before the rest of the page.<\/p>",
+                "uid": "8602"
+            }
+        }
+    }
+}

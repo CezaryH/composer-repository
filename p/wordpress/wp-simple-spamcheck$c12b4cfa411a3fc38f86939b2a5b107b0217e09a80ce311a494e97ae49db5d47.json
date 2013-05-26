@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/wp-simple-spamcheck": {
+            "1.2": {
+                "name": "wordpress\/wp-simple-spamcheck",
+                "version": "1.2",
+                "version_normalized": "1.2.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/wp-simple-spamcheck.1.2.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>This plugin allows WordPress to block over 95% of spam comments using a time-based hash.<\/p>\n\n<p>This allows for a minimum sanity check and yet should remove almost all spam comments\nwithout the need to sign up to any third party APIs.<\/p>\n\n<p>The plugin has been tested in real world conditions for around 12 months. It will not block\nreal comments and it is pretty effective against spam, however it only uses a very simple\nalgorithm and for that reason some spam comments may still make it through.<\/p>",
+                "uid": "25766"
+            }
+        }
+    }
+}

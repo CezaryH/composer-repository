@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/config-constants": {
+            "0.1": {
+                "name": "wordpress\/config-constants",
+                "version": "0.1",
+                "version_normalized": "0.1.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/config-constants.0.1.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>NOTE: This Plugin is still in beta. Therefore it is not advisable to run this Plugin on a production site yet, and don't forget to backup your wp-config.php file.<\/p>\n\n<p>WordPress constants such as WP_DEBUG can be defined in wp-config.php but have to be edited manually everytime you need to make a change. But no longer! You can now edit several common wp-config.php constants directly from within the WordPress admin!<\/p>\n\n<p>The current list of WordPress constants you can modify with Config Constants are:<\/p>\n\n<ul>\n<li>WP_DEBUG<\/li>\n<li>WP_DEBUG_LOG<\/li>\n<li>WP_DEBUG_DISPLAY<\/li>\n<li>SCRIPT_DEBUG<\/li>\n<li>CONCATENATE_SCRIPTS<\/li>\n<li>SAVEQUERIES<\/li>\n<li>DISALLOW_FILE_MODS<\/li>\n<li>DISALLOW_FILE_EDIT<\/li>\n<li>WP_ALLOW_REPAIR<\/li>\n<\/ul>\n\n<p>More constants will be supported in future versions.<\/p>\n\n<p>This Plugin allows you to control WordPress constants in an organic way as it won't seek to insert any constants not already found in wp-config.php. So YOU still remain in control of wha",
+                "uid": "25030"
+            }
+        }
+    }
+}

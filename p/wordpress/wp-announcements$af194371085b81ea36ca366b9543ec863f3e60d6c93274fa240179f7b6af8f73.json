@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/wp-announcements": {
+            "1.8": {
+                "name": "wordpress\/wp-announcements",
+                "version": "1.8",
+                "version_normalized": "1.8.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/wp-announcements.1.8.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>The WP-Announcements plugin is ideal for websites or blogs that would like to display a site wide announcement, featured post, important message, community notice, advertisement, survey form, email subscription form, emergency alert or anything you can publish in a post as a marquee or popup window using ShadowBox-JS or ThickBox.<\/p>\n\n<p>WP-Announcements provides two announcement options:<\/p>\n\n<ol>\n<li><p>A customizable marquee that displays an assigned post title linked to that actual post. The marquee can be displayed by calling the php function wp&#095;announce&#095;marquee('') anywhere in your theme, using the WP-Announce-Marquee Widget or using the Shortcode [wp&#095;announce&#095;marquee] anywhere in your post or page content. <\/p><\/li>\n<li><p>A popup window using ShadowBox-JS or ThickBox that displays the title and content of an assigned announcement post. The popup will only show up once for each website visitor per active popup post as a cookie is created. You can also set ",
+                "uid": "84699"
+            }
+        }
+    }
+}

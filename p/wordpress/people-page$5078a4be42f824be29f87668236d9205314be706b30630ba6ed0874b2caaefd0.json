@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/people-page": {
+            "1.0": {
+                "name": "wordpress\/people-page",
+                "version": "1.0",
+                "version_normalized": "1.0.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/people-page.1.0.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>This plugin allows editors to create a \"People Page\" that displays a list of selected site users with photos, bios, titles, profile and website links and more.<\/p>\n\n<p>When activated via a page template, the plugin creates a drag and drop meta box which editors can use to select users and create headers. These users are listed on the people page template, along with links to their full profile when applicable.<\/p>\n\n<p>The plugin also creates custom \"Title\" and \"Photo\" fields on the \"User Edit\" admin screen, which are used in theme pages. The plugin also supports \"User Photo\" plugin images and gravatars.<\/p>\n\n<p>Two theme templates, based on the Twenty Twelve them are included with the plugin: \"people-page.php\" and \"author.php\". A basic CSS stylesheet, which can be customized, is also included.<\/p>\n\n<p>See \"Other Notes\" for more details and usage instructions.<\/p>",
+                "uid": "10185"
+            }
+        }
+    }
+}

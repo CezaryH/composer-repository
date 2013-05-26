@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/excerpts-from-children": {
+            "1.2": {
+                "name": "wordpress\/excerpts-from-children",
+                "version": "1.2",
+                "version_normalized": "1.2.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/excerpts-from-children.1.2.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>This plugin dynamically generates html paragraphs with excerpts from child pages. Put <code>[excerpts-from-children]<\/code> on any page\nand it will insert the excerpts from its child pages.<\/p>\n\n<p>In the subpages you want to extract the excerpts from, define the end of the excerpt by putting <code>&#60;!--excerpt-end--&#62;<\/code> in the text.<\/p>\n\n<p>Use the custom field key \"excerpts-from-children-thumb\" with the value of an uploaded image ID to output thumbnail images for your excerpts. Add this custom field to your child page, and make sure you crop or resize it the way you want it before you upload.<\/p>",
+                "uid": "89431"
+            }
+        }
+    }
+}

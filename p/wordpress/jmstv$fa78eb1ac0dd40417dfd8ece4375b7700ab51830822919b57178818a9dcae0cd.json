@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/jmstv": {
+            "0.2": {
+                "name": "wordpress\/jmstv",
+                "version": "0.2",
+                "version_normalized": "0.2.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/jmstv.0.2.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<h4>Eingeschr&#228;nkte Zug&#228;nglichkeit<\/h4>\n\n<p>Den kompletten Blog nach zeitlichen Vorgaben auf eine beliebige Blogseite umleiten. Optionale Beschr&#228;nkung auf bestimmte Artikel mit FSK-Vorgaben.<\/p>\n\n<p>Nach der Aktivierung der Option <em>Stilllegung der \"Sendezeit\"<\/em> kann die Uhrzeit eingestellt und die interne ID der Zielseite w&#228;hrend der Umleitung vergeben werden. Ab diesem Zeitpunkt werden jegliche Seitenaufrufe des Blogs auf die Zielseite umgeleitet.<\/p>\n\n<p>Alternativ k&#246;nnen nur bestimmte Artikel von der Zeitsteuerung ber&#252;cksichtigt werden. Dazu muss die Option <em>Nur auf markierte Seiten anwenden<\/em> aktiviert und die betroffenen Beitr&#228;ge mit benutzerdefiniertem Feld <em>jmstv<\/em> und dem Wert <em>1<\/em> versehen werden.<\/p>\n\n<h4>Funktionen<\/h4>\n\n<ul>\n<li>Zeitangabe (von\/bis)<\/li>\n<li>Definition der Umleitungsseite als interne ID<\/li>\n<li>Optionale Ausnahme f&#252;r Administratoren<\/li>\n<li>Behandlung der einzelnen Seiten durch benutzerdefinie",
+                "uid": "57509"
+            }
+        }
+    }
+}

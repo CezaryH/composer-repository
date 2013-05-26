@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/predict-the-post-id": {
+            "1.1": {
+                "name": "wordpress\/predict-the-post-id",
+                "version": "1.1",
+                "version_normalized": "1.1.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/predict-the-post-id.1.1.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>The predict the post ID plugin does just that, it predicts the post ID wordpress will use for the next entry you submit. This gives you an easy way to access the post ID for a post that has not yet been published, i.e. is still being written (P2 theme anyone?).<\/p>",
+                "uid": "74932"
+            }
+        }
+    }
+}

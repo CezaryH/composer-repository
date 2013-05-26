@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/tag-suggest-thing": {
+            "1": {
+                "name": "wordpress\/tag-suggest-thing",
+                "version": "1",
+                "version_normalized": "1.0.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/tag-suggest-thing.1.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>Tag Suggest Thing adds a box to the sidebar, that when expanded, has a button that will send a request to the Yahoo! term extraction API to get a collection of (possibly) related terms.  Clicking the name of a term will add it as a tag; and there's also an option to add all of the terms.<\/p>",
+                "uid": "110396"
+            }
+        }
+    }
+}

@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/apple-passbook-gateway": {
+            "1.0": {
+                "name": "wordpress\/apple-passbook-gateway",
+                "version": "1.0",
+                "version_normalized": "1.0.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/apple-passbook-gateway.1.0.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>The plugin provides integration with <a href=\"http:\/\/www.passgate.com\" title=\"Apple passbook server\">Apple passbook server<\/a> hosted by Rush Project, Inc.<\/p>\n\n<p>The <em>Apple Passbook Gateway<\/em> employs Rest API to generate and retrieve membership cards from the server. The cards are\nbuilt using information (email, name etc) of currently logged in user. The plugin also calculates email hash, which is\nsuitable for retrieving user photo from Gravatar site. The photo may be used for the pass thumbnail image.<\/p>\n\n<p>The plugin requires account with the Pass Gate server - free trial is available for you to evaluate the technology.<\/p>\n\n<p>Demo site is available <a href=\"http:\/\/demo.passgate.com\/wordpress\/?page_id=11\" title=\"demo site\">here<\/a>.<\/p>",
+                "uid": "17341"
+            }
+        }
+    }
+}

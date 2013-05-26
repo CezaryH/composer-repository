@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/twitter-name-replacer": {
+            "0.2": {
+                "name": "wordpress\/twitter-name-replacer",
+                "version": "0.2",
+                "version_normalized": "0.2.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/twitter-name-replacer.0.2.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>Whenever you wanted to refer to another Twitter user, you had to write his\/her username and manually link to the corresponding twitterpage.<\/p>\n\n<p>Now let the Twitter Name Replacer do that for you.<\/p>\n\n<ul>\n<li>@larsreineke will be displayed as <a href=\"https:\/\/twitter.com\/larsreineke\">@larsreineke<\/a><\/li>\n<li>!@larsreineke will be displayed as @larsreineke (without link)<\/li>\n<li>mail addresses will be recognized and skipped<\/li>\n<\/ul>",
+                "uid": "86798"
+            }
+        }
+    }
+}

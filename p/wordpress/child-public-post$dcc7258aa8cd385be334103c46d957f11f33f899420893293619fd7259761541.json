@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/child-public-post": {
+            "1.0": {
+                "name": "wordpress\/child-public-post",
+                "version": "1.0",
+                "version_normalized": "1.0.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/child-public-post.1.0.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>This plugin is totally depends on \"Forpublicpost\" plugin (parent). The functionality of this plugin is if you wants to show a parent site post on another site to simple install this plugin and add your cridentials on parent plugin. So your parent site post is showing on your site but in parent site when admin approved the post means if admin want show this post to child site then showing your site other wise not showing.<\/p>",
+                "uid": "16881"
+            }
+        }
+    }
+}

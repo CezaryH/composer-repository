@@ -1,0 +1,40 @@
+{
+    "packages": {
+        "wordpress\/poemformatter": {
+            "0.0.6": {
+                "name": "wordpress\/poemformatter",
+                "version": "0.0.6",
+                "version_normalized": "0.0.6.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/poemformatter.0.0.6.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>This plugin allows to format poems in a nice way. The content of the poem is capsuled by the &#091;poem&#093;-tag.<\/p>\n\n<p>It loads a template from the template-directory if specified, else the default template is choosen.<\/p>\n\n<h4>Poem Syntax<\/h4>\n\n<p>The plugin supports a simple formatting syntax. All formatting information has to be put at the line-start<\/p>\n\n<ul>\n<li>#c# &#045;&#062; Center all lines starting with this line<\/li>\n<li>#l# &#045;&#062; Align left all lines starting with this line<\/li>\n<li>#r# &#045;&#062; Align right all lines starting with this line<\/li>\n<li>\n<ul>\n<li>&#045;&#062; Indent the line by count(+) times &#60;indent&#062; pixels<\/li>\n<\/ul><\/li>\n<li>#1#,#2#,#3# &#045;&#062; the following text will be put to the text-box number 1, 2, 3.... Text-Box 1 is default text-box<\/li>\n<\/ul>\n\n<h4>Template syntax<\/h4>\n\n<p>has to be explained and written. Job is on my ToDo-list.<\/p>",
+                "uid": "40827"
+            },
+            "0.1.0": {
+                "name": "wordpress\/poemformatter",
+                "version": "0.1.0",
+                "version_normalized": "0.1.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/poemformatter.0.1.0.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>This plugin allows to format poems in a nice way. The content of the poem is capsuled by the &#091;poem&#093;-tag.<\/p>\n\n<p>It loads a template from the template-directory if specified, else the default template is choosen.<\/p>\n\n<h4>Poem Syntax<\/h4>\n\n<p>The plugin supports a simple formatting syntax. All formatting information has to be put at the line-start<\/p>\n\n<ul>\n<li>#c# &#045;&#062; Center all lines starting with this line<\/li>\n<li>#l# &#045;&#062; Align left all lines starting with this line<\/li>\n<li>#r# &#045;&#062; Align right all lines starting with this line<\/li>\n<li>\n<ul>\n<li>&#045;&#062; Indent the line by count(+) times &#60;indent&#062; pixels<\/li>\n<\/ul><\/li>\n<li>#1#,#2#,#3# &#045;&#062; the following text will be put to the text-box number 1, 2, 3.... Text-Box 1 is default text-box<\/li>\n<\/ul>\n\n<h4>Template syntax<\/h4>\n\n<p>has to be explained and written. Job is on my ToDo-list.<\/p>",
+                "uid": "40825"
+            }
+        }
+    }
+}

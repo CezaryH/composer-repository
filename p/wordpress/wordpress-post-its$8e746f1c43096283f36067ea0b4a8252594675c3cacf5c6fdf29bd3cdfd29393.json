@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/wordpress-post-its": {
+            "1.0": {
+                "name": "wordpress\/wordpress-post-its",
+                "version": "1.0",
+                "version_normalized": "1.0.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/wordpress-post-its.1.0.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>Widget that let you put messages in a post-it style. You can add many messages as you want,\nand the messages will appear one after another in a period of time. The time interval\nis defined by you, and, you can set a expires date to disable the message or messages automatically<\/p>",
+                "uid": "94444"
+            }
+        }
+    }
+}

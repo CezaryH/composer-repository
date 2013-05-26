@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/hw-feed-cleaner": {
+            "1.0": {
+                "name": "wordpress\/hw-feed-cleaner",
+                "version": "1.0",
+                "version_normalized": "1.0.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/hw-feed-cleaner.1.0.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>This is a very simple, yet effective plugin that strips away non standard UTF-8 characters from your various RSS and Atom feeds. A typical symptom that you need this plugin is if WordPress is generating non-valid XML for your feeds.<\/p>",
+                "uid": "9428"
+            }
+        }
+    }
+}

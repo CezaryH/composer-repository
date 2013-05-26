@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/bp-trailingslashit": {
+            "1.0": {
+                "name": "wordpress\/bp-trailingslashit",
+                "version": "1.0",
+                "version_normalized": "1.0.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/bp-trailingslashit.1.0.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>Look at the end of any buddypress URI if a slash is displayed and if it is not, redirect permanently non loggedin users to one with. Better for share and especialy done for crawlers.<\/p>",
+                "uid": "39230"
+            }
+        }
+    }
+}

@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/mpress-fix-url-references": {
+            "0.1": {
+                "name": "wordpress\/mpress-fix-url-references",
+                "version": "0.1",
+                "version_normalized": "0.1.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/mpress-fix-url-references.0.1.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>The <strong>mPress Fix URL References<\/strong> plugin allows you to easily fix URL references in your WordPress database.<\/p>\n\n<h4>Why?<\/h4>\n\n<p>When you move your site from one domain to another, there is no built-in process for updating URL references in the database. For example, if you have internal links in your post content that point to the full URL of other pages on your site, these URL references will become invalid when you migrate your site to a new domain. If you aren't a developer who knows how to write MySQL queries, replacing potentially thousands of instances of incorrect URLs is a real pain.  No worries.  I'm a developer and I've done all the work for you.<\/p>\n\n<h4>How?<\/h4>\n\n<p>Using this plugin is simple:<\/p>\n\n<ol>\n<li>Ensure that you define the <a href=\"http:\/\/codex.wordpress.org\/Editing_wp-config.php#Blog_address_.28URL.29\">WP_HOME<\/a> and <a href=\"http:\/\/codex.wordpress.org\/Editing_wp-config.php#WordPress_address_.28URL.29\">WP_SITEURL<\/a> constants in your wp-c",
+                "uid": "13925"
+            }
+        }
+    }
+}

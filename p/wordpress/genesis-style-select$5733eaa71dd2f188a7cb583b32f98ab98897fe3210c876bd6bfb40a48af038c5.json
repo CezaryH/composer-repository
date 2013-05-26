@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/genesis-style-select": {
+            "1.0": {
+                "name": "wordpress\/genesis-style-select",
+                "version": "1.0",
+                "version_normalized": "1.0.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/genesis-style-select.1.0.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>This plugin adds a new menu box to the Genesis theme settings. This menu box allows users to easily select from any Genesis style sheets within the child theme folder.<\/p>\n\n<p>This is useful for child themes that come with multiple style sheets, such as the Agent Press Child theme 1.0, or in a multisite environment using WPMU, or WP 3.0+ with networking enabled.  In such an environment each child theme could have multiple style sheets allowing multiple sites to use the child theme with significantly different appearances, while not affecting the other sites.<\/p>\n\n<p>This plugin requires the <a href=\"http:\/\/www.studiopress.com\/\">Genesis Theme Framework<\/a><\/p>",
+                "uid": "67289"
+            }
+        }
+    }
+}

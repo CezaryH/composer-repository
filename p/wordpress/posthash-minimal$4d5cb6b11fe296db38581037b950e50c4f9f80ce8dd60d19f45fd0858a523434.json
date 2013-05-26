@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/posthash-minimal": {
+            "0.1": {
+                "name": "wordpress\/posthash-minimal",
+                "version": "0.1",
+                "version_normalized": "0.1.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/posthash-minimal.0.1.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>Posthash minimal shows the md5\/sha1\/crc32-hash of the post.<\/p>",
+                "uid": "111216"
+            }
+        }
+    }
+}

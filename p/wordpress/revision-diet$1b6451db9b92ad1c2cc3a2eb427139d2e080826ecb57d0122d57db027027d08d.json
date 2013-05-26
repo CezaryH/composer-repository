@@ -1,0 +1,40 @@
+{
+    "packages": {
+        "wordpress\/revision-diet": {
+            "1.0": {
+                "name": "wordpress\/revision-diet",
+                "version": "1.0",
+                "version_normalized": "1.0.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/revision-diet.1.0.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>Revision Diet is a plugin to limit the number of post revisions that are saved. It does exactly what you expect - it allows you to set a number of revisions to keep for each post and deletes any revisions beyond that number. This number will not include the autosave revisions.<\/p>\n\n<p>The options page is extremely simple - enter the number of revisions to keep and save your options. There is also a button to \u0093Trim Excess Revisions.\u0094 This button will trim all the extra revisions from every post in your Wordpress installation. (Using it is optional.) As for regular use, each time you save a post the oldest revisions on that post will be deleted from the database down to the limit that is currently set.<\/p>",
+                "uid": "87878"
+            },
+            "1.0.1": {
+                "name": "wordpress\/revision-diet",
+                "version": "1.0.1",
+                "version_normalized": "1.0.1.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/revision-diet.1.0.1.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>Revision Diet is a plugin to limit the number of post revisions that are saved. It does exactly what you expect - it allows you to set a number of revisions to keep for each post and deletes any revisions beyond that number. This number will not include the autosave revisions.<\/p>\n\n<p>The options page is extremely simple - enter the number of revisions to keep and save your options. There is also a button to \u0093Trim Excess Revisions.\u0094 This button will trim all the extra revisions from every post in your Wordpress installation. (Using it is optional.) As for regular use, each time you save a post the oldest revisions on that post will be deleted from the database down to the limit that is currently set.<\/p>",
+                "uid": "87876"
+            }
+        }
+    }
+}

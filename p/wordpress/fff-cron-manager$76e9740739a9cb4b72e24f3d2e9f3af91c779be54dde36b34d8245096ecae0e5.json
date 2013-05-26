@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/fff-cron-manager": {
+            "0.7": {
+                "name": "wordpress\/fff-cron-manager",
+                "version": "0.7",
+                "version_normalized": "0.7.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/fff-cron-manager.0.7.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>WP Plugin URL: <a href=\"http:\/\/wordpress.org\/extend\/plugins\/fff-cron-manager\/\" rel=\"nofollow\">http:\/\/wordpress.org\/extend\/plugins\/fff-cron-manager\/<\/a><\/p>\n\n<p>This plugin will add an option to list, delete and restore cronjobs in WP Cron. It's loosely based on Simon Wheatley's <a href=\"http:\/\/wordpress.org\/extend\/plugins\/cron-view\/\" rel=\"nofollow\">http:\/\/wordpress.org\/extend\/plugins\/cron-view\/<\/a><\/p>\n\n<p>Compatible up to version 3.4.1<\/p>\n\n<p>It will create a backup of your crons when you install it, in order to be able to restore anything that may get broken.<\/p>\n\n<p>Future releases may include the capability of creating new cronjobs.<\/p>",
+                "uid": "23773"
+            }
+        }
+    }
+}

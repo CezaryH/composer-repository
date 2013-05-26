@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/modal-register": {
+            "1.0": {
+                "name": "wordpress\/modal-register",
+                "version": "1.0",
+                "version_normalized": "1.0.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/modal-register.1.0.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>Register Modal provides a modal Ajax-ify box to register for WordPress! Pretty thing about it is\nit alow you to set custom password, and it have built-in captcha as well! It's fully Ajax! User\nclick register link, pop-up open! User fill in, waiting and voila, he can login instantly (if you turn off \nactive feature for new user)<\/p>",
+                "uid": "60104"
+            }
+        }
+    }
+}

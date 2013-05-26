@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/v-voting": {
+            "1.0": {
+                "name": "wordpress\/v-voting",
+                "version": "1.0",
+                "version_normalized": "1.0.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/v-voting.1.0.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>these plugin create a custom post type voting which is uses to store the event information it also create database for storing the voting details of every user for particular event<\/p>",
+                "uid": "19529"
+            }
+        }
+    }
+}

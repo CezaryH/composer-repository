@@ -1,0 +1,40 @@
+{
+    "packages": {
+        "wordpress\/302-moved-temporarily": {
+            "1.0": {
+                "name": "wordpress\/302-moved-temporarily",
+                "version": "1.0",
+                "version_normalized": "1.0.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/302-moved-temporarily.1.0.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>Redirects any unauthenticated users to another url and sends them a '302 Moved Temporarily' status.\nIdeal for sites that are under development especially if the site is being moved or currently has an older version.\nAdds an item to the 'Options' menu on the admin panel where you can enter the site you want to redirect users to.<\/p>",
+                "uid": "81220"
+            },
+            "1.2": {
+                "name": "wordpress\/302-moved-temporarily",
+                "version": "1.2",
+                "version_normalized": "1.2.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/302-moved-temporarily.1.2.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>Redirects any unauthenticated users to another url and sends them a '302 Moved Temporarily' status.\nIdeal for sites that are under development especially if the site is being moved or currently has an older version.\nAdds an item to the 'Options' menu on the admin panel where you can enter the site you want to redirect users to.<\/p>",
+                "uid": "81219"
+            }
+        }
+    }
+}

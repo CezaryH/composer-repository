@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/twfeed": {
+            "1.1": {
+                "name": "wordpress\/twfeed",
+                "version": "1.1",
+                "version_normalized": "1.1.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/twfeed.1.1.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<ul>\n<li>Displays tweets in a unordered list so output can be styled with CSS.<\/li>\n<li>Tweet links are opened in a new window or tab.<\/li>\n<li>Defaults to 5 posts from my twitter account.<\/li>\n<li>Links @mentions.<\/li>\n<\/ul>",
+                "uid": "52045"
+            }
+        }
+    }
+}

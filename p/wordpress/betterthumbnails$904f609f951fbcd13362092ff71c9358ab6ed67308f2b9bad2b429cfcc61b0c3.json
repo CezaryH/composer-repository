@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/betterthumbnails": {
+            "1.0.0": {
+                "name": "wordpress\/betterthumbnails",
+                "version": "1.0.0",
+                "version_normalized": "1.0.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/betterthumbnails.1.0.0.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>This plugin do two simple things.\n* Auto-resize the thumbnail.\n* Fix the thumbnail names. change imgname_100x100.jpb by imagename_thumb.jpg<\/p>",
+                "uid": "88245"
+            }
+        }
+    }
+}

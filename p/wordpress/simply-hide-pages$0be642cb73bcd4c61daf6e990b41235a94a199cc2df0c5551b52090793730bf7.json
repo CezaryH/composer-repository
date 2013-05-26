@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/simply-hide-pages": {
+            "1.0": {
+                "name": "wordpress\/simply-hide-pages",
+                "version": "1.0",
+                "version_normalized": "1.0.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/simply-hide-pages.1.0.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>Easy way to hide some pages from wp_list_pages output.\nSimply add the custom field 'hide' with any value to your page, and this page will no longer appear on the page list.\nYou could already do this on the 'Pages' widget or by adding the <code>exclude<\/code> parameter to all your <code>wp_list_pages<\/code> template tags. But now you can do it directly form the page editor which is, I believe, the best place to do so.<\/p>\n\n<p>You might want to hide pages if you need some pages to exist but don't want them to appear on your page list. For instance as <a href=\"http:\/\/www.w3.org\/Provider\/Style\/URI\" title=\"Cool URIs don't change\">Cool URIs don't change<\/a>, but some services have been removed from your site, so you write a page explaining where to go to get the equivalent service now. (not a real redirect, but still useful sometimes). Of course you don't want this page on your page list, you prefer to only have the new services listed ;)<\/p>\n\n<p>Unlike other more complex plugins, it uses",
+                "uid": "63982"
+            }
+        }
+    }
+}

@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/side-content": {
+            "0.91": {
+                "name": "wordpress\/side-content",
+                "version": "0.91",
+                "version_normalized": "0.91.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/side-content.0.91.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>This plugin provides similar functionality to the <a href=\"http:\/\/drupal.org\/project\/sidecontent\">Drupal Side Content module<\/a>.<\/p>\n\n<p>It enables you to define a set of widgets which are effectively placeholders. Each one is empty until you assign content\nto it when editing a page.\nThis enables you to extend the content of the page into the sidebar.<\/p>\n\n<p>Suppose, for example, you have a set of pages about people in your company. You could use a side content\nwidget to add a biography for each of them, or a photo, or to list their favourite pizza toppings.<\/p>\n\n<p>You can use the plugin without any template changes at all, but it does provide a simple API so you can test for the presence of side content widgets and adjust your templates accordingly.<\/p>\n\n<p>As of release 0.7 of the plugin, it supports the <a href=\"http:\/\/codex.wordpress.org\/Shortcode_API\">WP shortcode API<\/a>. There is also an extra add-on plugin which provides the same support for <a href=\"http:\/\/alexrabe.boeli",
+                "uid": "101721"
+            }
+        }
+    }
+}

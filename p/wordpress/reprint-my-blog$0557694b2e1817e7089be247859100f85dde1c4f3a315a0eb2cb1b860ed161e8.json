@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/reprint-my-blog": {
+            "1.0": {
+                "name": "wordpress\/reprint-my-blog",
+                "version": "1.0",
+                "version_normalized": "1.0.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/reprint-my-blog.1.0.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>This plugin help you to get the updates of writers' other blogs by checking feeds.\nEach writer has a particular configuration.\nWhen updates are detected, the writer can decide how to show the posts.\nWriters can also decide whether to redirect to the original post.\nDetailed configurations are provided.\nThis plugin is compatible with Configure SMTP.\nWARNING: use this plugin ONLY when you are sure it is used LEGALLY.<\/p>",
+                "uid": "33562"
+            }
+        }
+    }
+}

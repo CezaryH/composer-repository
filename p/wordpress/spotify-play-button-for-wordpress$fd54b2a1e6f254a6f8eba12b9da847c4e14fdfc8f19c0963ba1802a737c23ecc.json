@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/spotify-play-button-for-wordpress": {
+            "1.0": {
+                "name": "wordpress\/spotify-play-button-for-wordpress",
+                "version": "1.0",
+                "version_normalized": "1.0.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/spotify-play-button-for-wordpress.1.0.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>Spotify Play Button easily added to post or page for instant play of album, playlist or song.<\/p>\n\n<p>Album example: [spotifyplaybutton play=\"spotify:album:7JggdVIipgSShK1uk7N1hP\"]<\/p>\n\n<p>Playlist example: [spotifyplaybutton play=\"spotify:user:jonk:playlist:2CFFIqapZ8VqBcB0YTapGF\"]<\/p>\n\n<p>Song example: [spotifyplaybutton play=\"spotify:track:2qntSA2cwerjTduHPuKnW5\"]<\/p>\n\n<p>Simply right click on album, playlist or song in Spotify and click \"Copy Spotify URI\" and use that as the value for \"play\".<\/p>\n\n<p>You can set the style for your Spotify Play Buttons on the \"Spotify Play Button Settings\" page under the \"Settings\" menu (<a href=\"http:\/\/YOURBLOG\/wp-admin\/options-general.php?page=spotifyplaybutton_settings\" rel=\"nofollow\">http:\/\/YOURBLOG\/wp-admin\/options-general.php?page=spotifyplaybutton_settings<\/a>).<\/p>\n\n<p>You can also add attributes to customize a single Spotify Play Button:<\/p>\n\n<ol>\n<li><p>view<\/p><\/li>\n<li><p>size<\/p><\/li>\n<li><p>sizetype<\/p><\/li>\n<li><p>type<\/p><\/li>\n<\/o",
+                "uid": "26925"
+            }
+        }
+    }
+}

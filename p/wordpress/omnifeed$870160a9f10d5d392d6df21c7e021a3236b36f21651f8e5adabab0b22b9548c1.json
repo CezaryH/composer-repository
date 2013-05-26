@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/omnifeed": {
+            "1.1": {
+                "name": "wordpress\/omnifeed",
+                "version": "1.1",
+                "version_normalized": "1.1.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/omnifeed.1.1.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>OmniFeed was inspired by InlineFeed made by Dennis Kruyt\nWe loved that plugin but when it broke and it didn't look like it was being supported anymore, we built our own. \nInstead of holding it just for our company, we thought it would be great to share it - please feel free to use, modify, abuse, disassemble, and generally make this your own according to open source etiquette ofcourse ;-) We think we've added everything you need but if not, please feel free to contact us! \n<a href=\"http:\/\/www.OmnisourceTech.com\/omnifeed\" rel=\"nofollow\">http:\/\/www.OmnisourceTech.com\/omnifeed<\/a><\/p>\n\n<p>Use the following shortcode inside your post:<\/p>\n\n<pre><code>[omnifeed rss_feed_url=\"http:\/\/feed.xml\"]\n<\/code><\/pre>\n\n<p>VERSION 1.1 UPDATE:<\/p>\n\n<ul>\n<li>removed caching<\/li>\n<li>gave the option to add target=\"_blank\" to the Channel URL (thanks to Olivier for reporting this bug)<\/li>\n<li>added spacing between feeds<\/li>\n<\/ul>\n\n<p>FILTER USAGE<\/p>\n\n<ul>\n<li>Simple:<\/li>\n<\/ul>\n\n<p>Just put a <code>[om",
+                "uid": "71940"
+            }
+        }
+    }
+}

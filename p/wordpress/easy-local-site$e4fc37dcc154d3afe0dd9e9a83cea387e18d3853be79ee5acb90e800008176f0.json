@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/easy-local-site": {
+            "0.3": {
+                "name": "wordpress\/easy-local-site",
+                "version": "0.3",
+                "version_normalized": "0.3.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/easy-local-site.0.3.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>When working on a local site and a production site at the same time, things can easily get confusing and you forget which site you're looking at. This plugin adds a hard-to-miss, bright orange reminder to the toolbar and prepends [LOCAL] to the title tag on your local site.<\/p>\n\n<p>If you've imported a database from a production site, you may also want to avoid sending emails out to real users. This plugin overrides the 'to' address of all outgoing emails, sending them instead to an address specified by you. This enables you to test contact forms, notifications or any other outgoing email communications. All emails will have the original recipient's email address prepended to the subject line so you can see at a glance who they were originally intended for.<\/p>\n\n<h4>The WP_LOCAL_DEV constant method<\/h4>\n\n<p>You must use the WP_LOCAL_DEV constant method as outlined by Mark Jaquith: <a href=\"http:\/\/markjaquith.wordpress.com\/2011\/06\/24\/wordpress-local-dev-tips\/\">markjaquith.wordpress.c",
+                "uid": "14767"
+            }
+        }
+    }
+}

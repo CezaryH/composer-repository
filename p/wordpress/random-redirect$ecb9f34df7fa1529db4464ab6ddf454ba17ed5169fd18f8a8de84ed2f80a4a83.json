@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/random-redirect": {
+            "1.1": {
+                "name": "wordpress\/random-redirect",
+                "version": "1.1",
+                "version_normalized": "1.1.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/random-redirect.1.1.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>Allows you to create a link to yourblog.example.com\/?random which will redirect someone to a random post on your blog, in a StumbleUpon-like fashion. You can also specific in the URL <code>random_post_type<\/code> or <code>random_cat_id<\/code>.<\/p>",
+                "uid": "111929"
+            }
+        }
+    }
+}

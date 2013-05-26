@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/bitatags": {
+            "0.7": {
+                "name": "wordpress\/bitatags",
+                "version": "0.7",
+                "version_normalized": "0.7.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/bitatags.0.7.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>Con este plugin podr&#225;s generar r&#225;pidamente etiquetas para que tus post puedan ser indexados por Bitacoras.com\nsin necesidad de pegar el c&#243;digo HTML necesario para cada una de tus anotaciones<\/p>\n\n<p>&#191;C&#243;mo integrar a tu blog? S&#243;lo inserta este pedazo de c&#243;digo en tu plantilla donde quieres que sea visualizado \nlos tags <code>&#60;?php the_bita_tags(); ?&#62;<\/code><\/p>\n\n<p>PS: M&#225;s instrucciones <a href=\"http:\/\/diavolo.us\/bitatags\/\">Bitatags<\/a> .<\/p>",
+                "uid": "70697"
+            }
+        }
+    }
+}

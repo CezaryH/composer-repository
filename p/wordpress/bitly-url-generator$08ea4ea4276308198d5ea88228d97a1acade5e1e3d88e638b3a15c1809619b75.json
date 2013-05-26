@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/bitly-url-generator": {
+            "1.0": {
+                "name": "wordpress\/bitly-url-generator",
+                "version": "1.0",
+                "version_normalized": "1.0.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/bitly-url-generator.1.0.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>Automatically creates a <a href=\"http:\/\/bit.ly\">bit.ly<\/a> url for each of your posts when they get published. To display the shortened url, simple use <a href=\"http:\/\/codex.wordpress.org\/Function_Reference\/wp_get_shortlink\">wp_get_shortlink<\/a> in your template file.<\/p>",
+                "uid": "13608"
+            }
+        }
+    }
+}

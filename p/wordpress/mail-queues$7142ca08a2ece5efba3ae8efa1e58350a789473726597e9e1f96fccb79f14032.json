@@ -1,0 +1,40 @@
+{
+    "packages": {
+        "wordpress\/mail-queues": {
+            "1.0.7": {
+                "name": "wordpress\/mail-queues",
+                "version": "1.0.7",
+                "version_normalized": "1.0.7.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/mail-queues.1.0.7.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>Send mail using SMTP without exceeding the the rate allowed by your mail provider(s). Mail can be sent using multiple \nuser logins\/passwords to give fault tolerance and make each mail message somewhat unique so that it is less likely to \nbe flagged as SPAM\/UCE by either your or the downstream mail providers.  Messages can be automatically resent when \nthe plugin detects Non-delivery messages (NDRs) returned from mail sent by the plugin.<\/p>\n\n<p>Email can be throttled per outbound SMTP account.  Limits can be set for maximum number of recipients per hour and per day.<\/p>\n\n<h4>Features<\/h4>\n\n<ul>\n<li>Sends mail via SMTP <\/li>\n<li>Send mail no faster than the configured number of recipients per hour and day.  Keeps you in complience with your providers email sending limits.<\/li>\n<li>Configure multiple SMTP accounts to use for sending messages (Gmail, MSN, Go-daddy, etc)<\/li>\n<li>Process non-delivery messages and automatically resend messages<\/li>\n<li>Keep record of sent mail messages s",
+                "uid": "29309"
+            },
+            "1.0.8": {
+                "name": "wordpress\/mail-queues",
+                "version": "1.0.8",
+                "version_normalized": "1.0.8.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/mail-queues.1.0.8.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>Send mail using SMTP without exceeding the the rate allowed by your mail provider(s). Mail can be sent using multiple \nuser logins\/passwords to give fault tolerance and make each mail message somewhat unique so that it is less likely to \nbe flagged as SPAM\/UCE by either your or the downstream mail providers.  Messages can be automatically resent when \nthe plugin detects Non-delivery messages (NDRs) returned from mail sent by the plugin.<\/p>\n\n<p>Email can be throttled per outbound SMTP account.  Limits can be set for maximum number of recipients per hour and per day.<\/p>\n\n<h4>Features<\/h4>\n\n<ul>\n<li>Sends mail via SMTP <\/li>\n<li>Send mail no faster than the configured number of recipients per hour and day.  Keeps you in complience with your providers email sending limits.<\/li>\n<li>Configure multiple SMTP accounts to use for sending messages (Gmail, MSN, Go-daddy, etc)<\/li>\n<li>Process non-delivery messages and automatically resend messages<\/li>\n<li>Keep record of sent mail messages s",
+                "uid": "29308"
+            }
+        }
+    }
+}

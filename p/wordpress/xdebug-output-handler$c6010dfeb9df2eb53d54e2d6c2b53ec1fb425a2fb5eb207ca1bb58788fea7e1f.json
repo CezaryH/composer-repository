@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/xdebug-output-handler": {
+            "1.0": {
+                "name": "wordpress\/xdebug-output-handler",
+                "version": "1.0",
+                "version_normalized": "1.0.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/xdebug-output-handler.1.0.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>This WordPress Plugin collects the Xdebug output and displays it in the footer. It both works in the front end and in the administrator interface of WordPress<\/p>\n\n<p>Please make sure that you comply to the following dependencies:\n*   have the Xdebug extension for PHP activated (zend_extension=\/[path to libraries]\/xdebug.so)\n*   have defined your 'WP_DEBUG' as true (in wp_config.php) to see also Notices<\/p>\n\n<p>This plugin does nothing with the profiler output of Xdebug. When Xdebug is enabled on your webserver, outputted errors will be expanded with a Call Stack which shows which calls led to the error. This plugin takes care of displaying these errors in a nice way.<\/p>",
+                "uid": "18952"
+            }
+        }
+    }
+}

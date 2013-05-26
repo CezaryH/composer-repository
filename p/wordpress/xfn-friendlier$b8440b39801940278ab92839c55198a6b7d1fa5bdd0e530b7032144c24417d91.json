@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/xfn-friendlier": {
+            "0.1": {
+                "name": "wordpress\/xfn-friendlier",
+                "version": "0.1",
+                "version_normalized": "0.1.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/xfn-friendlier.0.1.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>Makes Wordpress fully XFN-friendly.  Normally, XFN relationships are only published for visible links.  This plugin also publishes XFN \"rels\" for your invisible links.<\/p>",
+                "uid": "114724"
+            }
+        }
+    }
+}

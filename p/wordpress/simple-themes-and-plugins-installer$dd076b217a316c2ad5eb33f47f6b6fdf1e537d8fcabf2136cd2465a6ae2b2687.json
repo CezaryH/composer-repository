@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/simple-themes-and-plugins-installer": {
+            "1.2.0": {
+                "name": "wordpress\/simple-themes-and-plugins-installer",
+                "version": "1.2.0",
+                "version_normalized": "1.2.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/simple-themes-and-plugins-installer.1.2.0.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>This plugin allows you to install all of your favorite themes and plugins in one go whenever you want.\nMany WP site creators and developers have a \"set\" of favorite plugins, and\/or themes, which they like to install on every new WP installation they do (or add to every existing WP site they acquire).\nWith this plugin, you do not need to upload and install each of your favorite plugins one at a time. \nInstead, you can add all your favorite plugins (or themes), to a single zip archive you create on your local computer, and then just use this plugin to upload that single file, extract it, and install all the plugins you included in it, all seamlessly from your WP Dashboard.<\/p>\n\n<p>For example, I like to add 6 different plugins to any site I create. So, I have made a zip archive containing all 6 plugins, and named it pluginpack.zip.\nEvery time I install WP, I install and activate this Simple Installer plugin, and then, in my dashboard, I navigate to pluginpack.zip on my local computer,",
+                "uid": "21890"
+            }
+        }
+    }
+}

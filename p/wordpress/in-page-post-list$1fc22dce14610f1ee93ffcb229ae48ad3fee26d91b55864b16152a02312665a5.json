@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/in-page-post-list": {
+            "1.0": {
+                "name": "wordpress\/in-page-post-list",
+                "version": "1.0",
+                "version_normalized": "1.0.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/in-page-post-list.1.0.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>Show a list of posts inside of a page or a post. For example, you might\nwrite a page about dogs, and you want the page to display all your\nrecent posts about dogs. Simple! Just put this in your page:\n[inpagepostlist_search dogs]\nCurrently you can search by term, by tag, and by\ncategory. Also, each method of search has an optional \"count=number_of_posts\".\nBy default 10 items are shown. You can show a larger or smaller number of posts\nby changing that option.\n[inpagepostlist_search dogs count=3] (shows 3 posts that contain the search term dog)\n[inpagepostlist_tag animals] (shows 10 posts tagged as animals)\n[inpagepostlist_category Dog Stories count=30] (shows 30 posts in the category Dog Stories)<\/p>\n\n<p>By default, if you use this plugin, it will display a small link at the\nbottom of your post to my website. This can be removed by editing the plugin\nand commenting out the line at the bottom of the plugin that contains the link.\nI do appreciate any credit, but I understand that if you",
+                "uid": "40764"
+            }
+        }
+    }
+}

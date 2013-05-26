@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/ubiety": {
+            "0.0.1": {
+                "name": "wordpress\/ubiety",
+                "version": "0.0.1",
+                "version_normalized": "0.0.1.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/ubiety.0.0.1.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>This plugin provides a simple chat system for your blog.  It utilizes the <a href=\"http:\/\/pusher.com\" title=\"Pusher\">Pusher<\/a> service to provide real time communications using web sockets.\nYou must sign up for a free account at <a href=\"http:\/\/pusher.com\" title=\"Pusher\">pusher.com<\/a> and configure Ubiety under the WordPress administration panel to use this plugin.<\/p>",
+                "uid": "21100"
+            }
+        }
+    }
+}

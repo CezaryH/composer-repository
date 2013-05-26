@@ -1,0 +1,40 @@
+{
+    "packages": {
+        "wordpress\/wp-mail-log": {
+            "0.1": {
+                "name": "wordpress\/wp-mail-log",
+                "version": "0.1",
+                "version_normalized": "0.1.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/wp-mail-log.0.1.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>Log all calls to wp_mail() to a file wp-content\/plugins\/wp-mail-log\/wp-mail-log.txt for debugging. Delete this file afterwards.<\/p>\n\n<p>Please be advised, this file is probably publicly accessible on your server, and could well contain private information. This plugin is for debugging purposes only, I encourage you to delete the log file and deactivate the plugin once you&#8217;re finished with it.<\/p>\n\n<p>You can view the file using the WordPress plugin editor. It will appear in the same folder as this plugin.<\/p>",
+                "uid": "82174"
+            },
+            "0.2": {
+                "name": "wordpress\/wp-mail-log",
+                "version": "0.2",
+                "version_normalized": "0.2.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/wp-mail-log.0.2.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>Log all calls to wp_mail() to a file wp-content\/plugins\/wp-mail-log\/wp-mail-log.txt for debugging. Delete this file afterwards.<\/p>\n\n<p>Please be advised, this file is probably publicly accessible on your server, and could well contain private information. This plugin is for debugging purposes only, I encourage you to delete the log file and deactivate the plugin once you&#8217;re finished with it.<\/p>\n\n<p>You can view the file using the WordPress plugin editor. It will appear in the same folder as this plugin.<\/p>",
+                "uid": "82172"
+            }
+        }
+    }
+}

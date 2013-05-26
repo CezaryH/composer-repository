@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/where-am-i": {
+            "1.4": {
+                "name": "wordpress\/where-am-i",
+                "version": "1.4",
+                "version_normalized": "1.4.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/where-am-i.1.4.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>This plugin will enable you to enter your address, it will then attempt to identify the location (coordinates) of the property.\nThese coordinates can then be used to show your location on a google map. The marker location can also be adjusted if it is not\nquite right.<\/p>",
+                "uid": "61202"
+            }
+        }
+    }
+}

@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/twitter-posts": {
+            "1.0.2": {
+                "name": "wordpress\/twitter-posts",
+                "version": "1.0.2",
+                "version_normalized": "1.0.2.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/twitter-posts.1.0.2.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>This WordPress plugin automatically sends new posts of your blog to twitter as soon as they get published. This also works with posts that are automatically published in the future. It is also possible to send all your old posts to twitter. You can define conditions which posts exactly should be send to twitter: For example you can define that all posts of a certain category or tag should be send to twitter or you can exclude them and let TwitterPosts send all others. TwitterPosts also recognizes if you update the timestamp of a post (for example I use this if a new version is available here: than I just update the version number in the posts title and the timestamp), and twitters this post again. \nThe text that will be sent to twitter of course can be customized. You can use placeholders for the title (%title%) and the link (%url%). Additionally you can use a placeholder to include the tags of your post (%tags%). Because Twitter allows only 140 characters per update, the text will ",
+                "uid": "93423"
+            }
+        }
+    }
+}

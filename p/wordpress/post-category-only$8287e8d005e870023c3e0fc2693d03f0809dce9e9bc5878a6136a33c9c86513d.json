@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/post-category-only": {
+            "1.1": {
+                "name": "wordpress\/post-category-only",
+                "version": "1.1",
+                "version_normalized": "1.1.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/post-category-only.1.1.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>When you are viewing a category in WordPress, by default it displays posts that are associated to that category and to it's child categories. For example, if you have a category named \"WordPress\" which has a child category named \"Themes\" and you create a post and associate it to the child category \"Themes\" and not to the parent category \"WordPress\", you'll still see that post displayed under the WordPress category. This is where the Post Category Only plugin comes into play. It displays only those posts that are associated to a category directly and does not display posts that are associated to it's child categories.<\/p>\n\n<p>Check out some of the other <a href=\"http:\/\/www.spunkyjones.com\/\">WordPress plugins<\/a> by the same author.<\/p>",
+                "uid": "50907"
+            }
+        }
+    }
+}

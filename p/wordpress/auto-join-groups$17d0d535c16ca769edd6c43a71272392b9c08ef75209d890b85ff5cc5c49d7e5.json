@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/auto-join-groups": {
+            "1.0": {
+                "name": "wordpress\/auto-join-groups",
+                "version": "1.0",
+                "version_normalized": "1.0.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/auto-join-groups.1.0.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>Automatically join a member to a group based on a profile field. For example, say you have a profile field where the person selects his state from a drop down list. If he selects, New York, he'll be automatically added to the group New York. Or, if you have a profile field for \"Favorite Animal\" and the member selects \"Dog\", you could automatically have him become a member of the group \"Dog's Rule\" and \"Best Dog Food\".<\/p>",
+                "uid": "80133"
+            }
+        }
+    }
+}

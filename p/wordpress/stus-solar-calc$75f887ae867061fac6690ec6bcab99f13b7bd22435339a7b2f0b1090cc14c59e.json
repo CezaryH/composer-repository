@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/stus-solar-calc": {
+            "0.2": {
+                "name": "wordpress\/stus-solar-calc",
+                "version": "0.2",
+                "version_normalized": "0.2.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/stus-solar-calc.0.2.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<ul>\n<li><p>This is pretty straight forward plugin that takes your locally infor-\nmation and produces a set of sunrise, sunset and twilight data.<\/p>\n\n<ul>\n<li>You need to know how many hours your time zone is from Greenwich Mean Time.\nThere is a feature for selecting Daylight Savings Time (DST), but this must\nbe done manually when your location makes the shift. Because of different \nDST practices and occassional changes made by the governments, I did not\ntry to code DST changes. This can be found at many time zone sites, like\n<a href=\"http:\/\/www.worldtimezone.com\/\" rel=\"nofollow\">http:\/\/www.worldtimezone.com\/<\/a> and <a href=\"http:\/\/www.time.gov\" rel=\"nofollow\">http:\/\/www.time.gov<\/a>.<\/li>\n<li>Also, you have to be able to input your decimal degrees latitude and long-\nitude. Google Earth can be set up to get this.      <\/li>\n<li><p>I am using this widget on my own blog and intend to for the long-term. So, I\nthink it is reasonably safe. There is very little error trapping for \nentering",
+                "uid": "71928"
+            }
+        }
+    }
+}

@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/strictly-content-cleaner": {
+            "1.0.0": {
+                "name": "wordpress\/strictly-content-cleaner",
+                "version": "1.0.0",
+                "version_normalized": "1.0.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/strictly-content-cleaner.1.0.0.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>Strictly Content Cleaner is a simple plugin that runs when a post is saved and changes any text links like <code><a href=\"http:\/\/www.strictly-software.com\" rel=\"nofollow\">http:\/\/www.strictly-software.com<\/a><\/code> into proper anchor\ntags like `<a href=\"http:\/\/www.strictly-software.com\">http:\/\/www.strictly-software.com<\/a> which is useful for people who copy and paste content from the web\nand don't have the time or skills to use the editor properly! I also convert youtube.com links into videos 500px wide by 350px high. There is no\nadmin interface or configuration for this plugin.<\/p>",
+                "uid": "30410"
+            }
+        }
+    }
+}

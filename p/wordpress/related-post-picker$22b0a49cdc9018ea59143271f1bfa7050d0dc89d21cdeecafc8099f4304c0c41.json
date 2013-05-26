@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/related-post-picker": {
+            "1.1": {
+                "name": "wordpress\/related-post-picker",
+                "version": "1.1",
+                "version_normalized": "1.1.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/related-post-picker.1.1.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>Choose your related posts! Most related posts plugins and widgets generate a list of related posts by fetching some posts from the database that have the same or similar tags or categories. Some use both. These related posts can be very innacurate. Related Posts Picker will give you a list of posts that it thinks are related, and you can select only those which you agree are related. You must tag your posts and save them before the Related Posts Picker will be able to get a list for you.<\/p>\n\n<p>To include in your theme, use the function: <code>&#60;?php rpp_related_posts(); ?&#62;<\/code><\/p>\n\n<p>If you don't select any posts, the auto generated list will show instead. You are able to configure the number of posts that will show.<\/p>",
+                "uid": "51142"
+            }
+        }
+    }
+}

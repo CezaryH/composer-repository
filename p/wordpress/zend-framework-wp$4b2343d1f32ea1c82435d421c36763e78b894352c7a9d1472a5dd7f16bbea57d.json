@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/zend-framework-wp": {
+            "1.0": {
+                "name": "wordpress\/zend-framework-wp",
+                "version": "1.0",
+                "version_normalized": "1.0.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/zend-framework-wp.1.0.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>This plugin embed and load the Zend Framework libraries so that they can be shared by different Wordpress plugins.<\/p>\n\n<p>Zend Framework is an open source, object-oriented web application framework implemented in PHP 5 and licensed under the New BSD License.<\/p>\n\n<p>The current version use Zend Framework 2.1.4<\/p>",
+                "uid": "9189"
+            }
+        }
+    }
+}

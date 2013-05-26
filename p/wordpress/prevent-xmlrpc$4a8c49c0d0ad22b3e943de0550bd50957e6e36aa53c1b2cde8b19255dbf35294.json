@@ -1,0 +1,40 @@
+{
+    "packages": {
+        "wordpress\/prevent-xmlrpc": {
+            "0.1": {
+                "name": "wordpress\/prevent-xmlrpc",
+                "version": "0.1",
+                "version_normalized": "0.1.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/prevent-xmlrpc.0.1.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>There's a vulnerability in WordPress's XMLRPC implementation, that permits trackback spam - even when you disable trackbacks.<\/p>\n\n<p>The only way to prevent this spam is to disable XMLRPC entirely. Some people have suggested renaming or deleting the xmlrpc.php file, but this is not a good idea, because it's altering core code and not trivial for novice users to undo.<\/p>\n\n<p>This plugin completely disables WordPress's XMLRPC functions, and doesn't alter or rename any core files. You can enable XMLRPC again by simply disabling this plugin.<\/p>\n\n<p>See <a href=\"http:\/\/www.acunetix.com\/blog\/web-security-zone\/wordpress-pingback-vulnerability\/\" rel=\"nofollow\">http:\/\/www.acunetix.com\/blog\/web-security-zone\/wordpress-pingback-vulnerability\/<\/a> for detailed information about the vulnerability in WordPress's XMLRPC handler.<\/p>",
+                "uid": "13145"
+            },
+            "1.0": {
+                "name": "wordpress\/prevent-xmlrpc",
+                "version": "1.0",
+                "version_normalized": "1.0.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/prevent-xmlrpc.1.0.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>There's a vulnerability in WordPress's XMLRPC implementation, that permits trackback spam - even when you disable trackbacks.<\/p>\n\n<p>The only way to prevent this spam is to disable XMLRPC entirely. Some people have suggested renaming or deleting the xmlrpc.php file, but this is not a good idea, because it's altering core code and not trivial for novice users to undo.<\/p>\n\n<p>This plugin completely disables WordPress's XMLRPC functions, and doesn't alter or rename any core files. You can enable XMLRPC again by simply disabling this plugin.<\/p>\n\n<p>See <a href=\"http:\/\/www.acunetix.com\/blog\/web-security-zone\/wordpress-pingback-vulnerability\/\" rel=\"nofollow\">http:\/\/www.acunetix.com\/blog\/web-security-zone\/wordpress-pingback-vulnerability\/<\/a> for detailed information about the vulnerability in WordPress's XMLRPC handler.<\/p>",
+                "uid": "13146"
+            }
+        }
+    }
+}

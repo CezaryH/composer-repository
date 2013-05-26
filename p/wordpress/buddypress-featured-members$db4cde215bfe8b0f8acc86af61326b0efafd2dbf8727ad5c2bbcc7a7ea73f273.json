@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/buddypress-featured-members": {
+            "1.0": {
+                "name": "wordpress\/buddypress-featured-members",
+                "version": "1.0",
+                "version_normalized": "1.0.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/buddypress-featured-members.1.0.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>BuddyPress Featured members plugin allows you to make fetured members in you BuddyPress community and show them using shortcodes<\/p>\n\n<p>Site admin can make any users as featured from that users profile page. And featured members can be shown using shortcodes.\nThere's a shortcode generator in admin page\nShortcdes parameters:\n= [bfm] ( without parameters )\n<br \/>\n1.  view: options: normal, slider (default: normal) \n<br \/>\n2.  max:  Number of members you want to show ( default 5 ) \n<br \/>\n3.  filter:  member filter by buddypress filters ( default: active ) \n<br \/>\n4.  astyle:  avatar style code ( default: round_0 ) \n<br \/>\n5.  asize:  avatar size ( default: 150px ) \n<br \/>\n6.  user_type:  <a href=\"http:\/\/wpbpshop.com\/buddypress-user-account-type-pro\">BuddyPress User Account Type PRO<\/a> integration.( default: none )<\/p>\n\n<h4>Shortcode Example:<\/h4>\n\n<p>[bfm view=\"slider\" max=\"15\" filter=\"alphabetical\"  astyle=\"round_0\" asize=\"100\" ]<\/p>\n\n<p>For more info, <a href=\"http:\/\/rimonhabib.co",
+                "uid": "8161"
+            }
+        }
+    }
+}

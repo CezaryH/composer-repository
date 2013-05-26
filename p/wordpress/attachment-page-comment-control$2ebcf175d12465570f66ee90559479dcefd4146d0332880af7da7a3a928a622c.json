@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/attachment-page-comment-control": {
+            "1.0.2": {
+                "name": "wordpress\/attachment-page-comment-control",
+                "version": "1.0.2",
+                "version_normalized": "1.0.2.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/attachment-page-comment-control.1.0.2.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>Just like regular posts and pages, attachments have their own <a href=\"http:\/\/codex.wordpress.org\/Using_Image_and_File_Attachments#Inserting_Images\">pages<\/a> where guests can leave comments (and can also accept trackbacks\/pingbacks).  Unlike regular posts and pages, attachment pages don't offer any UI controls that let you choose (on an individual basis) which attachment pages should allow comments and pings.<\/p>\n\n<p>This plugin corrects this issue by giving you the ability to turn comments and pings on or off for individual attachment pages within your media library.<\/p>\n\n<p>The global setting to allow comments or pings by default already applies to attachment pages.<\/p>",
+                "uid": "71043"
+            }
+        }
+    }
+}

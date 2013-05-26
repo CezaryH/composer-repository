@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/travel-gmap3": {
+            "1": {
+                "name": "wordpress\/travel-gmap3",
+                "version": "1",
+                "version_normalized": "1.0.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/travel-gmap3.1.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>travel-gmap3 is an open source a solution built for Wordpress to display your Google Maps with the JQuery plugin Gmap3 \non your Wordpress as a Widget or in a post. (You have to draw your map on Google Maps (like a road trip)\nand copy the link on the plugin administration)\nFormat : <a href=\"http:\/\/maps.google.co.nz\/maps\/ms?msid=...fbd972e&#038;msa=0&#038;output=kml\" rel=\"nofollow\">http:\/\/maps.google.co.nz\/maps\/ms?msid=...fbd972e&#038;msa=0&#038;output=kml<\/a>\nHow? <a href=\"http:\/\/maps.google.co.nz\" rel=\"nofollow\">http:\/\/maps.google.co.nz<\/a> &#62; My places &#62; Create new map &#62; (draw lines of your trip) &#62; Copy the link here (icon link on top right)<\/p>\n\n<p>Major features include:<\/p>\n\n<ul>\n<li>Manage a list of map (add, edit, delete a Google map in Wordpress)<\/li>\n<li>Add a map on a widget (and create several widget map) on selecting a map and configure width and height<\/li>\n<li>Add a map on a post with this syntax [travelGmap3 id=\"2\" width=\"250\" height=\"350\"]<\/li>\n<\/ul>\n\n<",
+                "uid": "42256"
+            }
+        }
+    }
+}

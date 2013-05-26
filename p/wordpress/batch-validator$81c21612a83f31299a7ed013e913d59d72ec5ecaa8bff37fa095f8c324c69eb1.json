@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/batch-validator": {
+            "1.2": {
+                "name": "wordpress\/batch-validator",
+                "version": "1.2",
+                "version_normalized": "1.2.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/batch-validator.1.2.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>It functions as a frontend for the Markup Validator Web Service API on <a href=\"http:\/\/validator.w3.org\" rel=\"nofollow\">http:\/\/validator.w3.org<\/a>. Stylesheets are checked as well.<\/p>\n\n<p>Languages available:\n+ english\n+ deutsch(german)<\/p>",
+                "uid": "110868"
+            }
+        }
+    }
+}

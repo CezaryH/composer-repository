@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/simple-custom-posts-per-page": {
+            "1.0": {
+                "name": "wordpress\/simple-custom-posts-per-page",
+                "version": "1.0",
+                "version_normalized": "1.0.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/simple-custom-posts-per-page.1.0.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>Simple Custom Posts per Page (SCPP) allows to configure the number of posts displayed for every custom post registered in Wordpress.<\/p>\n\n<p>See <a href=\"http:\/\/wordpress.org\/extend\/plugins\/simple-custom-posts-per-page\/screenshots\/\">Screenshots<\/a> to known why it is called \"Simple\".<\/p>\n\n<p>In your <em>Readme<\/em> page in <em>Setting<\/em> tab of Wordpress, it adds an option for every post type.<\/p>\n\n<p><strong>Disable Plugin in Template<\/strong>:\nYou can disable plugin filters in your template whenever you want. Maybe you need a query with a different number of custom posts per page for a specific post type.\nUsing this code before your query, the filter plugin will be disabled for a specific post type:<\/p>\n\n<pre><code>&#60;?php $GLOBALS[&#039;ado_cspp_disable&#039;]=&#34;YOUR_TYPE&#34;; ?&#62;<\/code><\/pre>\n\n<p>With this code, you can use your personalized query for your loop.<\/p>\n\n<p><strong>More<\/strong>:\nYou can find more informations in the official <a href=\"http:\/\/www.adostudio",
+                "uid": "30349"
+            }
+        }
+    }
+}

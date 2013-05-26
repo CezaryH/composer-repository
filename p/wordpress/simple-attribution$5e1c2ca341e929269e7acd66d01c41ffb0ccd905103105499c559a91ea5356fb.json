@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/simple-attribution": {
+            "1.0": {
+                "name": "wordpress\/simple-attribution",
+                "version": "1.0",
+                "version_normalized": "1.0.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/simple-attribution.1.0.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>Simple Attribution is just that... simple! It adds a meta box on post pages which allows bloggers to specify the name and url of the site a sourced article originated from. Assuming both these fields are filled out, it appends the attribution link to the bottom of the post.<\/p>\n\n<p>Simple Attribution allows links to be generated in both text and image form, allowing you to customize it to the feel of your website. Natively, it includes 10 icons which can be used to identify the attribution link instead of the standard caption (which is editable through the options panel), and custom icons can be used as well.<\/p>\n\n<p>Don't like where we put the link? You have the option to disable auto-attribution and put the link wherever you want it to display simply by adding &#60;?php simple_attribution(); ?&#62; to your template!<\/p>",
+                "uid": "21867"
+            }
+        }
+    }
+}

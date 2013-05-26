@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/ada-wpms-sitewide-feed": {
+            "0.5.2": {
+                "name": "wordpress\/ada-wpms-sitewide-feed",
+                "version": "0.5.2",
+                "version_normalized": "0.5.2.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/ada-wpms-sitewide-feed.0.5.2.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>This plugin creates four (4) seperate RSS 2.0 feeds from posts, comments, pages, and one combined [posts &#38; pages] across all blogs on your site.<\/p>\n\n<p>Works both on WPMS 3.0 &#38; up, and WPMU 2.9.2.<\/p>\n\n<p>This will skip the first comment and page of a blog; also will not include private, spam, mature and deleted blogs.<\/p>\n\n<p>Both Subdirectory and VHOST installations are now supported. Thanks to DaryL.<\/p>\n\n<p>Features:<\/p>\n\n<ul>\n<li>Generates sitewide combined [posts &#38; pages] feed<\/li>\n<li>Generates sitewide posts feed<\/li>\n<li>Generates sitewide comments feed<\/li>\n<li>Generates sitewide pages feed<\/li>\n<li>Client-side caching via ETag headers<\/li>\n<li>Admin screen to configure options<\/li>\n<li>Compliance with xhtml and xml standards &#38; many more<\/li>\n<\/ul>\n\n<p>For more explanation and to leave any suggestions to improve or bugs, please visit on my blog : <a href=\"http:\/\/1uthavi.adadaa.com\/ada-wpmu-sitewide-feed-plugin\/\">Ada WPMS Sitewide Feed<\/a><\/p>",
+                "uid": "29921"
+            }
+        }
+    }
+}

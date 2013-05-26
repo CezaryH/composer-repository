@@ -1,0 +1,40 @@
+{
+    "packages": {
+        "wordpress\/recurring-timer-widget": {
+            "1.1": {
+                "name": "wordpress\/recurring-timer-widget",
+                "version": "1.1",
+                "version_normalized": "1.1.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/recurring-timer-widget.1.1.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>Displays a countdown timer in a widget for a recurring event.<\/p>\n\n<p>It uses string-to-time (strtotime) formats which can simple or very\ncomplex (and confusing).<\/p>\n\n<p>The widget has many CSS classes and IDs to style it with, but it's\nbeen left purposely unstyled so you can format it in whatever way you\nwant.  The included recurring-style.css-example file shows how you can\nmove the time and time labels around for a custom look.  You can\ncustomize recurring-style.css to your liking without worry that it will\nbe overwritten when you upgrade (only recurring-style.css-example\nwould updated).<\/p>\n\n<p>Known issues:<\/p>\n\n<ul>\n<li>It requires a browser refresh before the \"next next\" event.  i.e.  If\nyou're viewing the widget and the timer is set for a daily event, the\ntimer will countdown to today's event, then countdown to tomorrow's\nevent.  But it will not countdown to the day after tomorrow's event\nunless the browser is refreshed.<\/li>\n<li>Events that occur more than once in a 24-hour",
+                "uid": "48785"
+            },
+            "1.2": {
+                "name": "wordpress\/recurring-timer-widget",
+                "version": "1.2",
+                "version_normalized": "1.2.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/recurring-timer-widget.1.2.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>Displays a countdown timer in a widget for a recurring event.<\/p>\n\n<p>It uses string-to-time (strtotime) formats which can simple or very\ncomplex (and confusing).<\/p>\n\n<p>The widget has many CSS classes and IDs to style it with, but it's\nbeen left purposely unstyled so you can format it in whatever way you\nwant.  The included recurring-style.css-example file shows how you can\nmove the time and time labels around for a custom look.  You can\ncustomize recurring-style.css to your liking without worry that it will\nbe overwritten when you upgrade (only recurring-style.css-example\nwould updated).<\/p>\n\n<p>Known issues:<\/p>\n\n<ul>\n<li>It requires a browser refresh before the \"next next\" event.  i.e.  If\nyou're viewing the widget and the timer is set for a daily event, the\ntimer will countdown to today's event, then countdown to tomorrow's\nevent.  But it will not countdown to the day after tomorrow's event\nunless the browser is refreshed.<\/li>\n<li>Events that occur more than once in a 24-hour",
+                "uid": "48784"
+            }
+        }
+    }
+}

@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/ergo": {
+            "1.0": {
+                "name": "wordpress\/ergo",
+                "version": "1.0",
+                "version_normalized": "1.0.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/ergo.1.0.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>Being justified is being able to defend one's position. Based on this principle, the Ergo plugin enhances the discussion system of your blog. It allows users to mark their comments as \"objections\", and when they do, the comment or post to which they are replying is marked as having an unanswered objection. If later on, someone answers to your objection, it will become marked as having an unanswered objection, and so the original post or comment will return to having no unanswered objections.<\/p>\n\n<p>This process may continue indefinitely: a post may have two objections, and each objection may have two objections, and each of those may have two more, and so on. The Ergo plugin keeps track of the discussion and displays the number of unanswered objections next to each post or comment.<\/p>\n\n<p>In future versions, visual and statistical information about the discussions will be available.<\/p>",
+                "uid": "14980"
+            }
+        }
+    }
+}

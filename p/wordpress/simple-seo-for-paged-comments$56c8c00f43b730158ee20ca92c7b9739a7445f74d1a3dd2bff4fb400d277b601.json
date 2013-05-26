@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/simple-seo-for-paged-comments": {
+            "1.1": {
+                "name": "wordpress\/simple-seo-for-paged-comments",
+                "version": "1.1",
+                "version_normalized": "1.1.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/simple-seo-for-paged-comments.1.1.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>By default, WordPress generate duplicate content with the paged comments.\nThis plugin try to fix this effect with 2 actions.<\/p>\n\n<ul>\n<li>Replace content by an excerpt with a link on paged comments.<\/li>\n<li>Set an unique title for each page of comments.<\/li>\n<\/ul>\n\n<p>Thanks to:<\/p>\n\n<ul>\n<li><p>Improved title method\nAuthor: Christian Schenk\nAuthor URI: <a href=\"http:\/\/www.christianschenk.org\" rel=\"nofollow\">http:\/\/www.christianschenk.org<\/a><\/p><\/li>\n<li><p>Replace content by excerpt method\nAuthor: Austin Matzko\nAuthor URI: <a href=\"http:\/\/www.pressedwords.com\" rel=\"nofollow\">http:\/\/www.pressedwords.com<\/a><\/p><\/li>\n<\/ul>",
+                "uid": "90196"
+            }
+        }
+    }
+}

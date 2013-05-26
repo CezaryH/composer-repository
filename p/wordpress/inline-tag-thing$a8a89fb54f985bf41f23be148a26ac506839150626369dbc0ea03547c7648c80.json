@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/inline-tag-thing": {
+            "1.2": {
+                "name": "wordpress\/inline-tag-thing",
+                "version": "1.2",
+                "version_normalized": "1.2.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/inline-tag-thing.1.2.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>Inline Tag Thing allows you to easily remove tags from posts,  and add new tags to a post.  It provides a text box and button which allows adding one or more tags (For multiple tags, enter a comma separated list),  and existing tags have a - link which will remove a tag from a post.<\/p>\n\n<p>To perform these manipulations, you need to have the permissions to edit the underlying post.  If you don't have edit permissions,  the box will not display.<\/p>",
+                "uid": "109127"
+            }
+        }
+    }
+}

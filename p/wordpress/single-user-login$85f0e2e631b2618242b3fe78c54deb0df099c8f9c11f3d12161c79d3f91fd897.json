@@ -1,0 +1,40 @@
+{
+    "packages": {
+        "wordpress\/single-user-login": {
+            "1.0": {
+                "name": "wordpress\/single-user-login",
+                "version": "1.0",
+                "version_normalized": "1.0.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/single-user-login.1.0.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>force user login into wordpress only from one browser at the same time\nthe last login action will kick out the already logged  user\nthis is a security plugin for wordpress,install this plugin to  avoid simultaneously login<\/p>",
+                "uid": "51697"
+            },
+            "2.0": {
+                "name": "wordpress\/single-user-login",
+                "version": "2.0",
+                "version_normalized": "2.0.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/single-user-login.2.0.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>force user login into wordpress only from one browser at the same time\nthe last login action will kick out the already logged  user\nthis is a security plugin for wordpress,install this plugin to  avoid simultaneously login<\/p>",
+                "uid": "51698"
+            }
+        }
+    }
+}

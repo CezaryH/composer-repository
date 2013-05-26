@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/gmapsmania": {
+            "1.1": {
+                "name": "wordpress\/gmapsmania",
+                "version": "1.1",
+                "version_normalized": "1.1.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/gmapsmania.1.1.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>This plugin allows you to directly embed Gmaps code in your posts or pages using the [gmap] shortcode.<\/p>\n\n<p>HOW TO USE IT:\nWhen you are in the Write Post or Write Page screen, find the \"Custom Fields\" area.\nIf isn't already there, add a custom field named exactly \"gmap\" (without quotes) and copy and paste \nin the value field the whole code you obtained from Google Maps.\nWrite anywhere in your post or page the \"shortcode\" [gmap]: when displayed on the blog it will be \nrepalced with your Google Map.\nSave and publish. You are done!<\/p>\n\n<p>UPDATE and NEWS at: <a href=\"http:\/\/www.wpmania.it\/google-maps-mania-plugin\/\" rel=\"nofollow\">http:\/\/www.wpmania.it\/google-maps-mania-plugin\/<\/a><\/p>",
+                "uid": "90179"
+            }
+        }
+    }
+}

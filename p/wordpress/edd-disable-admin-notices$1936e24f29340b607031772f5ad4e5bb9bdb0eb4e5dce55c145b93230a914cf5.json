@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/edd-disable-admin-notices": {
+            "1.0": {
+                "name": "wordpress\/edd-disable-admin-notices",
+                "version": "1.0",
+                "version_normalized": "1.0.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/edd-disable-admin-notices.1.0.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>This plugin is an extension for <a href=\"https:\/\/easydigitaldownloads.com\">Easy Digital Downloads<\/a> and simply disables the sale notice emails that get sent to admin users whenever a sale is processed through Easy Digital Downloads.<\/p>\n\n<p>If you do not like receiving emails each time a new sale is made, install this simple extension to get rid of them.<\/p>",
+                "uid": "10661"
+            }
+        }
+    }
+}

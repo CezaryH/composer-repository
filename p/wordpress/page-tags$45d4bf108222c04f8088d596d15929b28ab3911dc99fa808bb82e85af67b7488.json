@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/page-tags": {
+            "0.2": {
+                "name": "wordpress\/page-tags",
+                "version": "0.2",
+                "version_normalized": "0.2.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/page-tags.0.2.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>This plugin adds the function <code>get_page_tags<\/code> which allows you to get an array of tag objects for any page or post you want.<\/p>\n\n<p>Usage:<\/p>\n\n<pre><code>&#60;?php\n$tags = get_page_tags($post-&#62;ID);\nforeach($tags as $tag)\n{\n    echo '&#60;li id=\"tag-'.$tag-&#62;term_id.'\"&#62;&#60;a href=\"\/'.$tag-&#62;slug.'\"&#62;'.$tag-&#62;name.' ('.$tag-&#62;count.')&#60;\/a&#62;&#60;\/li&#62;';\n}\n?&#62;\n<\/code><\/pre>\n\n<p>The array contains tag objects identical to the tag objects returned by the <code>get_the_tags()<\/code> <a href=\"http:\/\/codex.wordpress.org\/Template_Tags\/get_the_tags\" title=\"get_the_tags\">Template Function<\/a>.<\/p>",
+                "uid": "104594"
+            }
+        }
+    }
+}

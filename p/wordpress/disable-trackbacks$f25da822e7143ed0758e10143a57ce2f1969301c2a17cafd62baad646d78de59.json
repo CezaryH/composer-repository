@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/disable-trackbacks": {
+            "1.0.0": {
+                "name": "wordpress\/disable-trackbacks",
+                "version": "1.0.0",
+                "version_normalized": "1.0.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/disable-trackbacks.1.0.0.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>When it comes to spam and <a href=\"http:\/\/codex.wordpress.org\/Introduction_to_Blogging#Pingbacks\">pingbacks<\/a>\/<a href=\"http:\/\/codex.wordpress.org\/Introduction_to_Blogging#Trackbacks\">trackbacks<\/a>, the vast majority by far is via trackbacks rather than pingbacks. Very, very few people use trackbacks for legitimate uses anymore (I've gotten less than 5 in the last 8 months) as WordPress, etc. all use pingbacks now as their primary ping method.<\/p>\n\n<p>I had already installed <a href=\"http:\/\/ocaoimh.ie\/cookies-for-comments\/\">Cookies For Comments<\/a> which successfully stops most spam comments but I still had to deal with the tons of trackback spam. So, I wrote this plugin.<\/p>\n\n<p>It will disable new trackbacks across your site, both legitimate and spam. However since very few people use trackbacks legitimately, this combined with Cookies For Comments should cut your spam down to next to zero.<\/p>\n\n<p><strong>Why should I use this plugin over one of those trackback validator plugin",
+                "uid": "99616"
+            }
+        }
+    }
+}

@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/list-tags": {
+            "0.1": {
+                "name": "wordpress\/list-tags",
+                "version": "0.1",
+                "version_normalized": "0.1.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/list-tags.0.1.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>List Tags adds the <code>list_tags()<\/code> template tag.  It is essentially the same function as <code>wp_list_categories()<\/code>,\nbut for tags, and as such takes the <a href=\"http:\/\/codex.wordpress.org\/Template_Tags\/wp_list_categories\">same arguments<\/a>.<\/p>\n\n<p>This is in beta, please <a href=\"http:\/\/wordpress.org\/extend\/plugins\/list-tags\/other_notes\">let me know<\/a> if there are any problems.<\/p>",
+                "uid": "99679"
+            }
+        }
+    }
+}

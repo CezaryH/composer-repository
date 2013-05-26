@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/wpanalytics": {
+            "3.0.1": {
+                "name": "wordpress\/wpanalytics",
+                "version": "3.0.1",
+                "version_normalized": "3.0.1.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/wpanalytics.3.0.1.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>Integrate the google analytics code into the word press, so the changes will live through update of wordpress and also provide an setting page to easy setup and update the analytics code.<\/p>",
+                "uid": "39642"
+            }
+        }
+    }
+}

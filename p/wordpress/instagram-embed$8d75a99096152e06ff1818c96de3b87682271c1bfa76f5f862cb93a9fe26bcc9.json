@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/instagram-embed": {
+            "0.2": {
+                "name": "wordpress\/instagram-embed",
+                "version": "0.2",
+                "version_normalized": "0.2.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/instagram-embed.0.2.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>Easily embed your Instagram photos into WordPress posts (or pages) by placing the instagram url on its own line. For more control, wrap the url in the embed shortcode and pass it one of three values via the size attribute.<\/p>\n\n<p>Shortcode Examples:<\/p>\n\n<pre><code>[embed size=t]http:\/\/instagr.am\/p\/BsUh5\/[\/embed]<\/code><\/pre>\n\n<pre><code>[embed size=m]http:\/\/instagr.am\/p\/BsUh5\/[\/embed]<\/code><\/pre>\n\n<pre><code>[embed size=l]http:\/\/instagr.am\/p\/BsUh5\/[\/embed]<\/code><\/pre>\n\n<p>The values t, m, or l correspond to the thumbnail, medium, and large sizes of the images. Medium is the default size.<\/p>",
+                "uid": "52254"
+            }
+        }
+    }
+}

@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/zaccordion": {
+            "1.0": {
+                "name": "wordpress\/zaccordion",
+                "version": "1.0",
+                "version_normalized": "1.0.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/zaccordion.1.0.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>zAccordion was originally made by Nate Armagost, and can be found at : <a href=\"http:\/\/www.armagost.com\/zaccordion\" rel=\"nofollow\">http:\/\/www.armagost.com\/zaccordion<\/a> or <a href=\"https:\/\/github.com\/natearmagost\/zAccordion\" rel=\"nofollow\">https:\/\/github.com\/natearmagost\/zAccordion<\/a><\/p>\n\n<p>Your HTML markup should look like this:<\/p>\n\n<pre><code><\/code><\/pre>\n\n<p><code>&#60;ul id=\"featured\"&#62;\n    &#60;li&#62;\n        &#60;image src=\"\/images\/1.jpg\" width=\"600\" height=\"310\" alt=\"\" \/&#62;\n    &#60;\/li&#62;\n    &#60;li&#62;\n        &#60;image src=\"\/images\/2.jpg\" width=\"600\" height=\"310\" alt=\"\" \/&#62;\n    &#60;\/li&#62;\n    &#60;li&#62;\n        &#60;image src=\"\/images\/3.jpg\" width=\"600\" height=\"310\" alt=\"\" \/&#62;\n    &#60;\/li&#62;\n    &#60;li&#62;\n        &#60;image src=\"\/images\/4.jpg\" width=\"600\" height=\"310\" alt=\"\" \/&#62;\n    &#60;\/li&#62;\n&#60;\/ul&#62;&#60;pre&#62;&#60;code&#62;&#60;\/code&#62;&#60;\/pre&#62;<\/code><\/p>",
+                "uid": "24019"
+            }
+        }
+    }
+}

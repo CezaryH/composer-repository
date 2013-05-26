@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/ads-by-country": {
+            "0.1": {
+                "name": "wordpress\/ads-by-country",
+                "version": "0.1",
+                "version_normalized": "0.1.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/ads-by-country.0.1.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>This plugin creates a javascript widget that shows ads in your sidebar based on what country each visitor is from.  It uses the MaxMind GeoIP JS Web Service to do this.<\/p>\n\n<p>MaxMind's API is extremely fast, lightweight, and most of all, free.<\/p>\n\n<p>Since it's all Javascript, it <em>should<\/em> be compatible with caching plugins like W3 Total Cache and WP Super Cache (needs testing).<\/p>\n\n<p>DISCLAIMER: The author of this plugin is in no way associated with MaxMind, and this plugin is not sanctioned or supported by MaxMind in any way. This plugin is offered with no warranties or guarantees, expressed or implied. The author of this plugin is in no way responsible for any results associated with the use of this plugin.<\/p>",
+                "uid": "50318"
+            }
+        }
+    }
+}

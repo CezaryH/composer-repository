@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/holder": {
+            "1.1": {
+                "name": "wordpress\/holder",
+                "version": "1.1",
+                "version_normalized": "1.1.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/holder.1.1.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>This is WordPress plugin for convenient use of <a href=\"http:\/\/imsky.github.com\/holder\/\">holder.js<\/a> library by <a href=\"http:\/\/imsky.co\/\">Ivan Malopinsky<\/a>.<\/p>\n\n<p>Holder generates customizable placeholder images right in browser, using JavaScript. You can use it both in templates (via template tag) and content (via shortcode).<\/p>\n\n<p>Example usage:<\/p>\n\n<ul>\n<li><code>holder( array( 'height' =&#62; '50', 'width' =&#62; '50', 'theme' =&#62; 'industrial' ) );<\/code><\/li>\n<li><code>Image [holder height=\"50\" width=\"100\" text=\"thumbnail\"] in content<\/code><\/li>\n<li><code>holder_add_theme( 'wordpress', 'd54e21', '464646' );<\/code><\/li>\n<\/ul>\n\n<p><a href=\"https:\/\/bitbucket.org\/Rarst\/holder\/\">Development repository and issue tracker<\/a>.<\/p>",
+                "uid": "14545"
+            }
+        }
+    }
+}

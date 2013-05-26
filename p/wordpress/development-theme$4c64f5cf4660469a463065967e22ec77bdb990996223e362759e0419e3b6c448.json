@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/development-theme": {
+            "0.1": {
+                "name": "wordpress\/development-theme",
+                "version": "0.1",
+                "version_normalized": "0.1.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/development-theme.0.1.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>Load a Theme for Administrator capability and some other theme for rest of users\/visitors.<\/p>\n\n<p>You can set which theme will be use visible for Administrator Role users while logged, and which theme will be use by rest of users or visitors.<\/p>\n\n<p>It&#180;s very easy, just install it, go to Development Themes Options page, choose your themes and save.<\/p>\n\n<p>You can use this plugin basicly for two things:<\/p>\n\n<pre><code>- Put your site under maintenance, but let the Administrator be able to see and work the instaled theme.\n- Test some new theme while rest of visitors still see the current one.\n<\/code><\/pre>",
+                "uid": "15246"
+            }
+        }
+    }
+}

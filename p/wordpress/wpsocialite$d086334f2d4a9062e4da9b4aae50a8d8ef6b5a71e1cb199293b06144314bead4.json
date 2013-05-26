@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/wpsocialite": {
+            "2.3": {
+                "name": "wordpress\/wpsocialite",
+                "version": "2.3",
+                "version_normalized": "2.3.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/wpsocialite.2.3.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>No one likes long load times, but we all want to be able to share our content via Facebook, Twitter, and other social networks. These take a long time to load. Paradox? Not anymore! With WPSocialite (utilizing David Bushell's amazing SocialiteJS plugin [http:\/\/www.socialitejs.com\/]) we can manage the loading process of our social sharing links. Load them on hover, on page scroll, and more!<\/p>\n\n<h4>Template Tag<\/h4>\n\n<pre><code>&#60;?php\n$args = array(\n    &#039;size&#039; =&#62; &#039;large&#039;, \/\/choose which size buttons to display.\n    &#039;url&#039; =&#62; &#039;http:\/\/google.com&#039;, \/\/use this to override the url that is sent to WPSocialite. Not recommended to use in loop.\n    &#039;button_override&#039; =&#62; &#039;facebook,twitter-share,twitter-follow,pinterest,linkedin,gplus,stumbleupon&#039; \/\/used to override buttons that are displayed. Add and remove as needed.\n);\nwpsocialite_markup( $args ); ?&#62;<\/code><\/pre>\n\n<h4>Shortcode<\/h4>\n\n<pre><code>[wpsocialite size=&#",
+                "uid": "25008"
+            }
+        }
+    }
+}

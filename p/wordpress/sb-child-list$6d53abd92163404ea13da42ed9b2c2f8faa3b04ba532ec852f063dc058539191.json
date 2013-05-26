@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/sb-child-list": {
+            "3.4": {
+                "name": "wordpress\/sb-child-list",
+                "version": "3.4",
+                "version_normalized": "3.4.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/sb-child-list.3.4.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>This plugin lets you turn Wordpress into a proper easily navigable CMS. Having a site made up mostly of pages in the form of a tree (an information site for example) was always a pain until I wrote this to help me out. I have had lots of feedback about it over the last few months and more and more people are finding ways they can use it to improve the navigation and usability of their sites<\/p>\n\n<p>I wanted to show some sort of hierarchy in the pages inside Wordpress. I decided to call one of my pages \"articles\" and have my articles use it as their parent.<\/p>\n\n<p>Logically you would expect to see a list of the child pages on the articles page along with a pretty picture and some intro text. This doesn't seem possible natively with Wordpress so I decided to make it happen.<\/p>\n\n<p>Adding the hook [sb_child_list] to any post or page will by default show an unordered list showing the children and links to them. If you prefer to style it yourself then don't worry because you can do tha",
+                "uid": "94830"
+            }
+        }
+    }
+}

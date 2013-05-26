@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/wplyrics": {
+            "0.4.1": {
+                "name": "wordpress\/wplyrics",
+                "version": "0.4.1",
+                "version_normalized": "0.4.1.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/wplyrics.0.4.1.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>Simple plugin to hide the lyrics of the songs you publish (they will be between [lyrics] and [\/lyrics]). You can also use it for spoilers or any text you want to make viwable with a click.<\/p>\n\n<p>It is SEO friendly and gracefully degrades in environments without javascript because firstly all the text is shown, and only when the page is fully loaded the text enclosed by the [wplyrics] text will be hidden, adding a link to make it visible.<\/p>",
+                "uid": "83582"
+            }
+        }
+    }
+}

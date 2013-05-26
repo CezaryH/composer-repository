@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/display-avatars": {
+            "0.1": {
+                "name": "wordpress\/display-avatars",
+                "version": "0.1",
+                "version_normalized": "0.1.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/display-avatars.0.1.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>A simple plugin to display the avatar of a post author, without having to modify the theme to do so. Useful for a multisite installation, where users can&#8217;t edit themes and you want to be able to update themes without having to re-hack support for post avatars into place. Handy for educational class-blog sites, etc...<\/p>",
+                "uid": "60040"
+            }
+        }
+    }
+}

@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/communityapi-single-signon": {
+            "0.98": {
+                "name": "wordpress\/communityapi-single-signon",
+                "version": "0.98",
+                "version_normalized": "0.98.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/communityapi-single-signon.0.98.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>CommunityAPI is a lightweight Single Sign On and directory service. The following capabilities are supported:<\/p>\n\n<ul>\n<li>Single Sign On via a known identity provider supporting CommunityAPI calls.<\/li>\n<li>Password proxy support, verifying a submitted user\/pass by sending them to the identity provider.<\/li>\n<li>Auto provisioning of users, should they not exist in the Wordpress database. <\/li>\n<li>Authorization set by group membership in the identity provider. <\/li>\n<\/ul>\n\n<p>The provider and consumer (wordpress) does not have to reside on the same host.<\/p>\n\n<p>To examplify: If you have a phpBB3 forum with the CommuntiyAPI phpBB3 plugin, installing this plugin will allow you to \nlogin to wordpress using the phpBB3 credentials, will log you in automatically as long as you have a phpBB3 session going \nand will create the user automatically if it doesn't already exist locally in Wordpress. Group memberships in phpBB can be \ntied to access levels in Wordpress, in which case the acces",
+                "uid": "67325"
+            }
+        }
+    }
+}

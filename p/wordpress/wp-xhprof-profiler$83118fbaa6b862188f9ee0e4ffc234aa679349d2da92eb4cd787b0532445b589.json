@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/wp-xhprof-profiler": {
+            "0.9": {
+                "name": "wordpress\/wp-xhprof-profiler",
+                "version": "0.9",
+                "version_normalized": "0.9.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/wp-xhprof-profiler.0.9.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>WP XHProf Profiler plugin is an easy way to profile your plugins and themes when you are coding or debugging. To get it done it uses XHProf, a PHP profiler made by the Facebook Dev Team (you must install it before activating the plugin).<\/p>\n\n<h4>Usage<\/h4>\n\n<p>By default the profiling is disabled, activate <code>WP_DEBUG<\/code> on your <code>wp-config.php<\/code> to enable it. After doing it, all your wordpress pages will have a link at bottom with the profiling data.<\/p>\n\n<h4>&#191;What is XHProf?<\/h4>\n\n<p>From <a href=\"\" title=\"From PHP documentation\">http:\/\/www.php.net\/manual\/en\/intro.xhprof.php<\/a><\/p>\n\n<p>XHProf is a light-weight hierarchical and instrumentation based profiler. During the data collection phase, it keeps track of call counts and inclusive metrics for arcs in the dynamic callgraph of a program. It computes exclusive metrics in the reporting\/post processing phase, such as wall (elapsed) time, CPU time and memory usage. A functions profile can be broken down by cal",
+                "uid": "32261"
+            }
+        }
+    }
+}

@@ -1,0 +1,40 @@
+{
+    "packages": {
+        "wordpress\/domain-mirror": {
+            "1.0": {
+                "name": "wordpress\/domain-mirror",
+                "version": "1.0",
+                "version_normalized": "1.0.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/domain-mirror.1.0.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>If you have more than one domain and want to point both of them at the same Wordpress installation, you'll find that it doesn't really work very well. Wordpress creates its own internal URLs based on the settings in General Options. This Plugin allows multiple domains to be configured within Wordpress and updates the Weblog Title, Wordpress Address URL and Blog Address URL on-the-fly based on the value of $_SERVER['SERVER_NAME']<\/p>\n\n<p>This allows one installation to show different URL paths and a different blog title for each domain.<\/p>\n\n<p>v1.1 changes: Now allows a different Tagline for each domain.<\/p>",
+                "uid": "112018"
+            },
+            "1.1": {
+                "name": "wordpress\/domain-mirror",
+                "version": "1.1",
+                "version_normalized": "1.1.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/domain-mirror.1.1.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>If you have more than one domain and want to point both of them at the same Wordpress installation, you'll find that it doesn't really work very well. Wordpress creates its own internal URLs based on the settings in General Options. This Plugin allows multiple domains to be configured within Wordpress and updates the Weblog Title, Wordpress Address URL and Blog Address URL on-the-fly based on the value of $_SERVER['SERVER_NAME']<\/p>\n\n<p>This allows one installation to show different URL paths and a different blog title for each domain.<\/p>\n\n<p>v1.1 changes: Now allows a different Tagline for each domain.<\/p>",
+                "uid": "112017"
+            }
+        }
+    }
+}

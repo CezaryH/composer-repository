@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/id-archives": {
+            "0.4.2": {
+                "name": "wordpress\/id-archives",
+                "version": "0.4.2",
+                "version_normalized": "0.4.2.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/id-archives.0.4.2.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>ID Archives displays WordPress post archives in a simple year and month based list that is easy to peruse, and style.<\/p>\n\n<p>Use <code>&#60;?php echo id_archives(); ?&#62;<\/code> in the templates or <code>[id-archives]<\/code> shortcode within the post.<\/p>\n\n<p>The HTML structure the plugin puts out is <a href=\"https:\/\/github.com\/indranil\/ID-Archives\/wiki#structure--styling\">available here<\/a>. Go ahead and style it with CSS as necessary.<\/p>\n\n<p>For feature requests, please email <a href=\"mailto:indranild@gmail.com\">indranild@gmail.com<\/a>.\nI can be found (hardly) blogging at <a href=\"http:\/\/paperbo.at\">Paperboat<\/a><\/p>\n\nTODO\n\n<ul>\n<li>Expand archive listing to custom post types.<\/li>\n<li>Maybe an admin page for markup editing.<\/li>\n<li>Options - date based filters etc.<\/li>\n<\/ul>",
+                "uid": "7676"
+            }
+        }
+    }
+}

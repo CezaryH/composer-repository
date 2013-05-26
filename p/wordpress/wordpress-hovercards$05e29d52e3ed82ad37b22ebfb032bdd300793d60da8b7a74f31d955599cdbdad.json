@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/wordpress-hovercards": {
+            "1.0.1": {
+                "name": "wordpress\/wordpress-hovercards",
+                "version": "1.0.1",
+                "version_normalized": "1.0.1.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/wordpress-hovercards.1.0.1.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p><strong>WordPress Hovercards<\/strong> is a open source WordPress plugin that instantly integrates hovercards inside of your WordPress blog without any configuration. It only weighs <strong>4 KB!<\/strong> which is incredibly lightweight!<\/p>\n\n<p>Hovercards have been used for many years by Facebook, Twitter and plenty of other websites as a mean of engagement. It helps encourage people to view other pages on your site, and it is an excellent way to boost the clickthroughs and page views of your blog.<\/p>\n\n<p>Hovercards will provide a JSON endpoint to your WordPress blog to make Hovercard-related data available to use through the frontend. Then we use our JavaScript plugin to call the same endpoint, and if it finds data, it displays a gorgeous hovercard as you see above!<\/p>\n\n<p>It's intelligent enough to detect which links don't need a request, and it caches in-browser within all browsers. This saves HTTP requests to your server which aren't needed and therefore being efficient!<\/p>",
+                "uid": "22899"
+            }
+        }
+    }
+}

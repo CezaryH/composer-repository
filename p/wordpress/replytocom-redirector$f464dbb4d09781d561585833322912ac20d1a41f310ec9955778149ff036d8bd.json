@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/replytocom-redirector": {
+            "1.0": {
+                "name": "wordpress\/replytocom-redirector",
+                "version": "1.0",
+                "version_normalized": "1.0.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/replytocom-redirector.1.0.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>The Replytocom redirector is a really simple plugin coming to solve the problem of silly bots that scan the replytocom urls in a wordpress blog\nthose urls have no value whatsoever for a bot as they contain duplicate content. even so - the bots keep scanning and scanning.\nIn just under 9 months on our site we have had over 200,000 such requests, and it is not even a big site.Duplicate this by a minimal size of 10k\nof html code sent to the bot, and it seems like at least 2Gbyte of traffic was wasted for this nonsense.<\/p>\n\n<p>This plugin solves the problem by simply redirecting such bots to the correct url, saving cpu, network resources and little bunnies.<\/p>\n\n<p>If you ever encountered this and wanted to solve this, invest two minutes of your life and install this.<\/p>",
+                "uid": "76430"
+            }
+        }
+    }
+}

@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/wpcas": {
+            "1.07": {
+                "name": "wordpress\/wpcas",
+                "version": "1.07",
+                "version_normalized": "1.07.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/wpcas.1.07.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>wpCAS integrates WordPress into an established CAS architecture, allowing centralized management and authentication of user credentials in a heterogeneous environment.<\/p>\n\n<p><a href=\"http:\/\/en.wikipedia.org\/wiki\/Central_Authentication_Service\">From Wikipedia<\/a>:<\/p>\n\n<blockquote>The Central Authentication Service (CAS) is a single sign-on protocol for the web. Its purpose is to permit a user to log into multiple applications simultaneously and automatically. It also allows untrusted web applications to authenticate users without gaining access to a user's security credentials, such as a password. The name CAS also refers to a software package that implements this protocol.<\/blockquote>\n\n<p>Users who attempt to login to WordPress are redirected to the central CAS sign-on screen. After the user's credentials are verified, s\/he is then redirected back to the WordPress site. If the CAS username matches the WordPress username, the user is recognized as valid and allowed access.<\/p>\n\n<",
+                "uid": "99483"
+            }
+        }
+    }
+}

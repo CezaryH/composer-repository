@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/html-classified-recent-posts-comments-widgets": {
+            "1.0": {
+                "name": "wordpress\/html-classified-recent-posts-comments-widgets",
+                "version": "1.0",
+                "version_normalized": "1.0.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/html-classified-recent-posts-comments-widgets.1.0.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>This plugins adds two widgets: Classified Recent Posts and Classified Recent Comments. They differ from the default widgets only in one thing - each listed link contains HTML <code>class<\/code> attribute describing which post it is related to. For recent comments the whole <code>li<\/code> tag also contains this attribute.<\/p>\n\n<p>Listed classes are similar to the output from <code>get_post_class<\/code> (see <a href=\"http:\/\/codex.wordpress.org\/Function_Reference\/get_post_class\">WordPress Codex<\/a>), each class has a prefix to prevent problems with CSS styling<\/p>\n\n<ul>\n<li><code>crpw-<\/code> for Custom Recent Posts Widget<\/li>\n<li><code>crcw-<\/code> for Custom Recent Comments Widgets<\/li>\n<\/ul>\n\n<p>You can use this for example to highlight links to posts from chosen categories or witch chosen tags (or a particular post) via CSS.<\/p>",
+                "uid": "19875"
+            }
+        }
+    }
+}

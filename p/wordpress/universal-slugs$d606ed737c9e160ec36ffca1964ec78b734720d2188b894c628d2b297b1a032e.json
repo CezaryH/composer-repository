@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/universal-slugs": {
+            "0.6": {
+                "name": "wordpress\/universal-slugs",
+                "version": "0.6",
+                "version_normalized": "0.6.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/universal-slugs.0.6.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>Wordpress is brilliantly designed for SEO but, if you happen to speak a language that uses characted that are not included on the English alphabet, then you either have to bear with massive, odd looking permalinks, or manually update each one whenever you write a post or a page.<\/p>\n\n<p>Universal Slugs fixes this problem by hooking into your normal workflow and fixing the auto-generated urls behind the scenes.<\/p>\n\n<p>The plugin will also remove common words such as \"and\", \"&#954;&#945;&#953;\", \"&#964;&#959;\", \"the\" etc. from the URLs, as they do simply contribute to the URL length without adding anything to the meaning or the SEO value.<\/p>",
+                "uid": "65268"
+            }
+        }
+    }
+}

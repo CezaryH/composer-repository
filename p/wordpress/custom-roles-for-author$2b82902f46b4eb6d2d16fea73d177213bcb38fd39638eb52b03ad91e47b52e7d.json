@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/custom-roles-for-author": {
+            "1.0": {
+                "name": "wordpress\/custom-roles-for-author",
+                "version": "1.0",
+                "version_normalized": "1.0.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/custom-roles-for-author.1.0.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>This plugin allows you to set users with <a href=\"http:\/\/codex.wordpress.org\/Function_Reference\/add_role\">custom role<\/a> as post, page or custom post type author.<\/p>\n\n<p>In addition, this plugin allows you to set what <a href=\"http:\/\/codex.wordpress.org\/Roles_and_Capabilities\">default roles<\/a> (even subscriber, contributor) shoud appear in author dropdown list.<\/p>\n\n<p>Plugin developed with WP_DEBUG set true on WordPress 3.3.1 =&#62; No notices, warnings or errors<\/p>",
+                "uid": "28673"
+            }
+        }
+    }
+}

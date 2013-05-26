@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/buddypress-topic-mover": {
+            "2.5.1": {
+                "name": "wordpress\/buddypress-topic-mover",
+                "version": "2.5.1",
+                "version_normalized": "2.5.1.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/buddypress-topic-mover.2.5.1.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>This is an improved version of the now-outdated BuddyPress Forum Topic Mover plugin by twodeuces. Thanks!<\/p>\n\n<p>Sometimes your users may inadvertently place a forum topic under the incorrect group in BuddyPress. This plugin helps moderators and administrators move those topics to the correct groups. The list of groups to move to is loaded dynamically via ajax to cut down on page load times for large BuddyPress installs. The plugin also plays nicely with the Anncounce Group plugin, so users can only move a topic to an announcement group if they are a moderator or admin of that announce group.<\/p>\n\n<p>A few notes about BuddyPress Forum Topic Mover:<\/p>\n\n<ul>\n<li>Creates a simple drop down menu and move topic button.<\/li>\n<li>uses ajax to generate drop down menu<\/li>\n<li>Only shows for those users with admin or moderator privileges.<\/li>\n<li>plays nice with non-standard bbpress installs<\/li>\n<li>secure - uses nonce protection<\/li>\n<li>works great with default BP theme (or any theme t",
+                "uid": "56429"
+            }
+        }
+    }
+}

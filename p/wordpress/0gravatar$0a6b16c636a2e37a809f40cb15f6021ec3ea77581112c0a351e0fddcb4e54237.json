@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/0gravatar": {
+            "1.2.11": {
+                "name": "wordpress\/0gravatar",
+                "version": "1.2.11",
+                "version_normalized": "1.2.11.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/0gravatar.1.2.11.17.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>This Plugin replaces the get_avatar function in pluggable.php to pass an alternate image to gravatar.com that generates the user's display_name if they do not yet have a gravatar.<\/p>\n\n<p>More features coming soon...<\/p>\n\n<p>Plugin Updated Nov-17th<\/p>",
+                "uid": "14853"
+            }
+        }
+    }
+}

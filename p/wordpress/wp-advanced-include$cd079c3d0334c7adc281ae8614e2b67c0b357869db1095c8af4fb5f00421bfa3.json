@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/wp-advanced-include": {
+            "1.0": {
+                "name": "wordpress\/wp-advanced-include",
+                "version": "1.0",
+                "version_normalized": "1.0.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/wp-advanced-include.1.0.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>WP Advanced Include creates an [include] shortcode which can be used to add content from any Post or Page on your site including Post Content, Post Excerpt and Post Meta<\/p>\n\n<p>Shortcode Attributes:<\/p>\n\n<p><em>content_id<\/em> = [int] The id of the post or page you wish to include content from.\n<em>content_limit<\/em> = [int] Limits the content if required, set to a value less than 1 to remove limiting - Default 0\n<em>content_limit_type<\/em> [\"words\"&#124;\"chars\"] Sets the content limit to be words or characters - Default \"words\"\n<em>content_limit_append<\/em> [string&#124;empty string] Text to be appended to the end of the content if limited - Default \"&#38;hellip\"\n<em>content_type<\/em> [post_content&#124;post_excerpt&#124;post_title&#124;\"meta name\"] The content type to be included, if meta name, specify meta name. - Default \"post_content\"\n<em>do_shortcode<\/em> [true&#124;false] Specify whether to parse shortcodes of not - Default \"true\"<\/p>\n\n<h4>Caution<\/h4>\n\n<p>The use of [includ",
+                "uid": "15164"
+            }
+        }
+    }
+}

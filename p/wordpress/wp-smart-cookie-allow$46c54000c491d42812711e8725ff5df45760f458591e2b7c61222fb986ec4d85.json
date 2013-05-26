@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/wp-smart-cookie-allow": {
+            "1.3": {
+                "name": "wordpress\/wp-smart-cookie-allow",
+                "version": "1.3",
+                "version_normalized": "1.3.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/wp-smart-cookie-allow.1.3.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>This plugin makes it easy to apply the new EU cookie law to your website.\nWhen a visitor enter your site for the first time, it opens an popup that always stays in the top of the browser, even when scolling.\nIf a user does not accept, he\/she will be redirected to the previously url, if none, you can chooce the redirection url.<\/p>",
+                "uid": "7997"
+            }
+        }
+    }
+}

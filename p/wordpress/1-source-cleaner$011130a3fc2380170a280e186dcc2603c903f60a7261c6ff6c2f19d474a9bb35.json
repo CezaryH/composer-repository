@@ -1,0 +1,40 @@
+{
+    "packages": {
+        "wordpress\/1-source-cleaner": {
+            "0.1.1": {
+                "name": "wordpress\/1-source-cleaner",
+                "version": "0.1.1",
+                "version_normalized": "0.1.1.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/1-source-cleaner.0.1.1.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>Reduce size of the source code by removing  line blake and white space.;Note: Don't use html tag \"pre\" , please use \"div\" and \"code\" and CSS.Include Escape HTML function,if the tag does not appear,try to re-update the entry.<\/p>",
+                "uid": "31766"
+            },
+            "1.1.1": {
+                "name": "wordpress\/1-source-cleaner",
+                "version": "1.1.1",
+                "version_normalized": "1.1.1.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/1-source-cleaner.1.1.1.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>Reduce size of the source code by removing  line blake and white space.;Note: Don't use html tag \"pre\" , please use \"div\" and \"code\" and CSS.Include Escape HTML function,if the tag does not appear,try to re-update the entry.<\/p>",
+                "uid": "31765"
+            }
+        }
+    }
+}

@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/wordprest": {
+            "1.0": {
+                "name": "wordpress\/wordprest",
+                "version": "1.0",
+                "version_normalized": "1.0.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/wordprest.1.0.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>WordPreSt adds a reStructuredText input mode to the WordPress post\/page \neditor. Once installed, reStructuredText may be input directly into the\neditor and converted to HTML with the click of a mouse. The reSt source \nis saved with each post\/page for future edits. The rendered HTML output \nis stored as the actual post content to allow modification after \nrendering if desired. Plugin settings control the features of the reSt \nconvertor and include automatic table of contents links, post title \ngeneration from reSt, header level customization, and others. A \"View \ndocument source\" link is also (optionally) available for each post.<\/p>\n\n<p>WordPreSt requires no template modifications and every effort has been \nmade to ensure a truly seamless integration into WordPress.<\/p>",
+                "uid": "74822"
+            }
+        }
+    }
+}

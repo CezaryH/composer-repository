@@ -1,0 +1,40 @@
+{
+    "packages": {
+        "wordpress\/tinymce-tabfocus-patch": {
+            "1.0": {
+                "name": "wordpress\/tinymce-tabfocus-patch",
+                "version": "1.0",
+                "version_normalized": "1.0.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/tinymce-tabfocus-patch.1.0.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>The TinyMCE Tabfocus Patch is a WordPress plugin which disables TinyMCE plugin Tabfocus thereby allowing tab characters to be typed into posts.<\/p>\n\n<p>While attempting to write several posts including blocks of code I realized that TinyMCE was stripping out all the tab characters I attempted to type. Although I could type tab characters in HTML mode, switching between HTML and Visual removed the tab characters, infuriating me. I use CodeColorer for code coloring, and as the plugin also converts tabs to non-blocking spaces automatically I don't want tab characters that I paste in to get stripped.<\/p>\n\n<p>After searching for the cause of this issue I realized that the cause was the tabfocus TinyMCE plugin. Rather than going into post.php and manually removing the TinyMCE plugin from the list of plugins to be automatically loaded, I wrote this WordPress to handle it for me.<\/p>\n\n<p>This plugin should work with TinyMCE, TinyMCE Advanced, and most other TinyMCE mods out there.<\/p>\n\n<p>S",
+                "uid": "73468"
+            },
+            "1.1": {
+                "name": "wordpress\/tinymce-tabfocus-patch",
+                "version": "1.1",
+                "version_normalized": "1.1.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/tinymce-tabfocus-patch.1.1.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>The TinyMCE Tabfocus Patch is a WordPress plugin which disables TinyMCE plugin Tabfocus thereby allowing tab characters to be typed into posts.<\/p>\n\n<p>While attempting to write several posts including blocks of code I realized that TinyMCE was stripping out all the tab characters I attempted to type. Although I could type tab characters in HTML mode, switching between HTML and Visual removed the tab characters, infuriating me. I use CodeColorer for code coloring, and as the plugin also converts tabs to non-blocking spaces automatically I don't want tab characters that I paste in to get stripped.<\/p>\n\n<p>After searching for the cause of this issue I realized that the cause was the tabfocus TinyMCE plugin. Rather than going into post.php and manually removing the TinyMCE plugin from the list of plugins to be automatically loaded, I wrote this WordPress to handle it for me.<\/p>\n\n<p>This plugin should work with TinyMCE, TinyMCE Advanced, and most other TinyMCE mods out there.<\/p>\n\n<p>S",
+                "uid": "73466"
+            }
+        }
+    }
+}

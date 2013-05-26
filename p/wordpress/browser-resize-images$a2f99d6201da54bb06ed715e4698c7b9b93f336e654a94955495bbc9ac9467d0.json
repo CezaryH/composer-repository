@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/browser-resize-images": {
+            "1.0": {
+                "name": "wordpress\/browser-resize-images",
+                "version": "1.0",
+                "version_normalized": "1.0.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/browser-resize-images.1.0.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>Very useful WordPress plugin to resize images before they are being uploaded. Just drag and drop big images and don't worry about your bandwidth or server space usage.<\/p>\n\n<p>Everything is configured in \"Settings\" &#62; \"Media\".<\/p>\n\n<p>It is using power of modern browsers to do the job - Chrome and Firefox would use HTML5 method and other browsers - Flash.\nGenerally it looks like Chrome is the best for the job (<a href=\"http:\/\/www.plupload.com\/\" title=\"plupload.com\">plupload.com<\/a>)<\/p>",
+                "uid": "13425"
+            }
+        }
+    }
+}

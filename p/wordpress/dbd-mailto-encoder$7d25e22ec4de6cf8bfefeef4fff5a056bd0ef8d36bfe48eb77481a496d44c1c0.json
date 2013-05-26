@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/dbd-mailto-encoder": {
+            "1.1": {
+                "name": "wordpress\/dbd-mailto-encoder",
+                "version": "1.1",
+                "version_normalized": "1.1.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/dbd-mailto-encoder.1.1.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>Spam is one of the most frustrating things about the internet.\nAnd, even more frustrating is how spiders scrape blogs and other sites for email addresses to spam.\nWouldn't it be nice if you could put mailto links just how you were taught, without fear of spiders?\nWell now you can! With this plugin, all mailto links will be filtered on display and converted to their unicode counterparts.<\/p>",
+                "uid": "110874"
+            }
+        }
+    }
+}

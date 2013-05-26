@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/ssh2-users-sync": {
+            "0.01": {
+                "name": "wordpress\/ssh2-users-sync",
+                "version": "0.01",
+                "version_normalized": "0.01.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/ssh2-users-sync.0.01.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>This plugin syncronizes the users of a Wordpress installation with a SSH2 server users in a simple manner like:\nIf the user exists in the SSH2 server, then it can be created in the installation.\nYou can also choose the group the user must be in the SSH2 server to be able to register.<\/p>\n\n<p>That's useful to automatically allow registrations of users in a lab, company, departament, etc, without adding them manually.<\/p>\n\n<p>You must have PHP-SSH2 modules installed in your server for this plugin to work properly. Reffer to the installation tab for instructions.<\/p>",
+                "uid": "69751"
+            }
+        }
+    }
+}

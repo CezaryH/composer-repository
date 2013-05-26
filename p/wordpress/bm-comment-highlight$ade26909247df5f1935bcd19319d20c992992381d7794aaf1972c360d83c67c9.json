@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/bm-comment-highlight": {
+            "1.2": {
+                "name": "wordpress\/bm-comment-highlight",
+                "version": "1.2",
+                "version_normalized": "1.2.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/bm-comment-highlight.1.2.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>I've spent a lot of time searching for a decent comment highlighting plugin but have fond none. Most work fine for a single user but use on a multi author blog and things start to go wrong - so I decided to bite the bullet and develop my own system.<\/p>\n\n<p>Comment highlight generates css classes that you can add to your comments. These classes will tell you...<\/p>\n\n<ol>\n<li>If the commenter is a registered user or a reader\/ commenter<\/li>\n<li>If the commenter is the post author<\/li>\n<li>The commenters user id (assuming they are a registered member)<\/li>\n<li>If the comment is a pingback or trackback<\/li>\n<\/ol>",
+                "uid": "107702"
+            }
+        }
+    }
+}

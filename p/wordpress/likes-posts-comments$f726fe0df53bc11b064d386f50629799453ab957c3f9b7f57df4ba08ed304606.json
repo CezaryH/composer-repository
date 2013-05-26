@@ -1,0 +1,40 @@
+{
+    "packages": {
+        "wordpress\/likes-posts-comments": {
+            "1.0": {
+                "name": "wordpress\/likes-posts-comments",
+                "version": "1.0",
+                "version_normalized": "1.0.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/likes-posts-comments.1.0.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>This plugin provides 4 new template tags to display some informations\/actions about posts and comments. This template tags have to be called within the loop : \nwp_postlike(); : Return a link to like or unlike a post\nwp_commentlike(); : Return a link to like or unlike a comment\nwp_nb_postlike(); : Return a text to display the number of like for the current post\nwp_nb_commentlike(); : Return a text to display the number of like for the current comment<\/p>",
+                "uid": "11210"
+            },
+            "1.1": {
+                "name": "wordpress\/likes-posts-comments",
+                "version": "1.1",
+                "version_normalized": "1.1.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/likes-posts-comments.1.1.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>This plugin provides 4 new template tags to display some informations\/actions about posts and comments. This template tags have to be called within the loop : \nwp_postlike(); : Return a link to like or unlike a post\nwp_commentlike(); : Return a link to like or unlike a comment\nwp_nb_postlike(); : Return a text to display the number of like for the current post\nwp_nb_commentlike(); : Return a text to display the number of like for the current comment<\/p>",
+                "uid": "11209"
+            }
+        }
+    }
+}

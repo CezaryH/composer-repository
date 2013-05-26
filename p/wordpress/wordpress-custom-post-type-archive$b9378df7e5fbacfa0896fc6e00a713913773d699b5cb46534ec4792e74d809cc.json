@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/wordpress-custom-post-type-archive": {
+            "1.0": {
+                "name": "wordpress\/wordpress-custom-post-type-archive",
+                "version": "1.0",
+                "version_normalized": "1.0.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/wordpress-custom-post-type-archive.1.0.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>The WordPress Custom Post Type Archive Widget Plugin displays a monthly or yearly archive of posts for one specific post-type. It is very similar to the WordPress Archive except that it just displays one specific custom post-type's posts, not all categories. It can be configured to either show a listing or a pulldown by month or year with or without post counts.<\/p>",
+                "uid": "47117"
+            }
+        }
+    }
+}

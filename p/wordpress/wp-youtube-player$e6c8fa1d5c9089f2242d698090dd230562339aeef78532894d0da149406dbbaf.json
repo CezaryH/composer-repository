@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/wp-youtube-player": {
+            "1.7": {
+                "name": "wordpress\/wp-youtube-player",
+                "version": "1.7",
+                "version_normalized": "1.7.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/wp-youtube-player.1.7.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>WP Youtube Player allow insert Youtube videos on Wordpress using a single quicktag <code>[tube][\/tube]<\/code><\/p>\n\n<p><strong>Features<\/strong><\/p>\n\n<ul>\n<li>Easy install<\/li>\n<li>Embed Youtube movies with simple code<\/li>\n<li>Panel for easy configuration<\/li>\n<li>Config Player version (AS2 &#38; AS3)<\/li>\n<li>Support config themes for player<\/li>\n<li>Support HTML5 Player<\/li>\n<li>Support tubePlayer (<a href=\"http:\/\/blog.unijimpe.net\/tubeplayer\/\" rel=\"nofollow\">http:\/\/blog.unijimpe.net\/tubeplayer\/<\/a>) for play videos.<\/li>\n<li>Generate <code>&#60;object&#62;<\/code> code for Feed compatibility <\/li>\n<li>Generate <code>&#60;object&#62;<\/code> code optimized for iPhone<\/li>\n<\/ul>\n\n<p>For insert single youtube video on <strong>Post Content<\/strong> or <strong>Text Widget<\/strong>  you can use 'Youtube URL', 'Youtube Embed URL' or 'Youtube Video ID':<\/p>\n\n<pre><code>[tube]http:\/\/www.youtube.com\/watch?v=AFVlJAi3Cso[\/tube]<\/code><\/pre>\n\n<pre><code>[tube]http:\/\/www.youtube.com\/v\/AFVlJAi3Cs",
+                "uid": "62726"
+            }
+        }
+    }
+}

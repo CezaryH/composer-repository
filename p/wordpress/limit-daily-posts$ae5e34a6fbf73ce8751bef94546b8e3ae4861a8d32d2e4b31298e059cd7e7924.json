@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/limit-daily-posts": {
+            "1.0.2": {
+                "name": "wordpress\/limit-daily-posts",
+                "version": "1.0.2",
+                "version_normalized": "1.0.2.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/limit-daily-posts.1.0.2.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>This plugin is useful in conjuction with any auto blogging plugin which automatically posts content to your blog but you don't have total control on number of daily posts. Basically you can set maximum daily posts allowed on your blog.<\/p>\n\n<p>Most of the autoblogging plugins use wordpress cron so their frequency is not so accurate.<\/p>\n\n<p>To post X posts on your blog regularly, you can enter number of posts allowed daily and all other exceeding posts will be moved to trash (or directly deleted depending on your configuration and wordpress installation version).<\/p>\n\n<p>If you have selected skip trash option, it won't be possible to recover that post so please make a note of that.<\/p>\n\n<p>You can suggest new features at <a href=\"http:\/\/www.mihir.info\/limit-daily-posts\" rel=\"nofollow\">http:\/\/www.mihir.info\/limit-daily-posts<\/a><\/p>\n\n<p>UPDATE: Added most requested \"Limit per user\" feature.<\/p>",
+                "uid": "70313"
+            }
+        }
+    }
+}

@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/mu-central-taxonomies": {
+            "1.0": {
+                "name": "wordpress\/mu-central-taxonomies",
+                "version": "1.0",
+                "version_normalized": "1.0.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/mu-central-taxonomies.1.0.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>Sometimes you want the different sites on a multisite network to share their taxonomies.\nThis plugin forces a child site to use its parent's taxonomies instead of its own.<\/p>",
+                "uid": "37082"
+            }
+        }
+    }
+}

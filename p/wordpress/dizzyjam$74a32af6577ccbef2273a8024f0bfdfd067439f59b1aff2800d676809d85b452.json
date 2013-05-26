@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/dizzyjam": {
+            "1.0": {
+                "name": "wordpress\/dizzyjam",
+                "version": "1.0",
+                "version_normalized": "1.0.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/dizzyjam.1.0.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>Plugin for integrating your <a href=\"http:\/\/DizzyJam.com\/\">DizzyJam<\/a> shop into your WordPress website by taking advantage of the public Dizzyjam API (documented <a href=\"http:\/\/www.dizzyjam.com\/apidoc\/\">here<\/a>).\nThis plugin displays your <a href=\"http:\/\/DizzyJam.com\/\">DizzyJam<\/a>  merchandise on your WordPress blog, and enables the visitors to make purchases directly via the blog pages. \nYou can also use this plugin to manage your shop (settings and products) directly via the WordPress administration pages.<\/p>\n\n<h4>Plugin Settings<\/h4>\n\n<p>After a successful installation, you should see a <em>Dizzyjam<\/em> entry in the WP Admin navigation menu. This link will take you to the plugin administrative settings. Initially, the settings consist of two fields - <em>Auth ID<\/em> and <em>API Key<\/em>. You need to fill in your DizzyJam API <em>ID<\/em> and <em>Key<\/em> values, and then press the <em>Get Shop Data<\/em> button. If your credentials are valid, the plugin will load the inform",
+                "uid": "11045"
+            }
+        }
+    }
+}

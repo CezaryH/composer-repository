@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/header-last-modified": {
+            "1.00": {
+                "name": "wordpress\/header-last-modified",
+                "version": "1.00",
+                "version_normalized": "1.00.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/header-last-modified.1.00.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>Add post last modified to HTTP header to enable squid or cdn to cache your wordpress web page.\nSquid will not cache the page without http header field Last-Modified.<\/p>",
+                "uid": "22717"
+            }
+        }
+    }
+}

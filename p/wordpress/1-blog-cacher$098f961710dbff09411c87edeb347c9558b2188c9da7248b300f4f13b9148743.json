@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/1-blog-cacher": {
+            "2.0.2": {
+                "name": "wordpress\/1-blog-cacher",
+                "version": "2.0.2",
+                "version_normalized": "2.0.2.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/1-blog-cacher.2.0.2.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>1 Blog Cacher is a WordPress plugin that caches your pages in order to increase the response speed and minimize the server load.<\/p>\n\n<ul>\n<li>Quick and easy installation\/configuration.<\/li>\n<li>Portable: edit the file for your convenience and use it anywhere.<\/li>\n<li>Cached files are stored in HTML files, and organized in directories emulating the urls (if \"safe_mode\" isn't enabled), so it's easy displaying the content of the files and organize them (for instance deleting the cache for a given entry, for all categories, for all searches, for all posts from a given date, etc.)<\/li>\n<li>If \"safe_mode\" is enabled, the plugin will still work, creating all the files in the cache directory.<\/li>\n<li>Option to remove all cache files (or just the expired ones) from the WordPress panel.<\/li>\n<li>Expiration time for cached files.<\/li>\n<li>Rejected and accepted strings in order to control exactly the urls to cache.<\/li>\n<li>Rejected User Agents in order to avoid over-caching from search engi",
+                "uid": "108971"
+            }
+        }
+    }
+}

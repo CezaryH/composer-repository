@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/wp-css-button": {
+            "1.6": {
+                "name": "wordpress\/wp-css-button",
+                "version": "1.6",
+                "version_normalized": "1.6.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/wp-css-button.1.6.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>The Wordpress Plugin <em>WP CSS BUTTON<\/em> is a simple and easy to configurable Wordpress plugin which allows to create CSS based CTA Buttons inside your blog.<\/p>\n\n<p>I would be the happiest guy in the world if you write a little blogpost about my plugin :-)<\/p>\n\n<p>Just add the following line inside your blogpost<\/p>\n\n<pre><code>[CSSBUTTON target=&#34;http:\/\/www.linktarget.com&#34; color=&#34;000000&#34; textcolor=&#34;ffffff&#34; float=&#34;left&#34; newwindow=&#34;true&#34;]Button Caption[\/CSSBUTTON]<\/code><\/pre>\n\n<ul>\n<li><strong>target<\/strong> = The target the button will link to. Like the href tag in a hyperlink<\/li>\n<li><strong>color<\/strong> = The color property is optional. This is the background color of the button<\/li>\n<li><strong>textcolor<\/strong> = The color property is optional. This is te textcolor of the caption text.<\/li>\n<li><strong>float<\/strong> = position of the button inside your post<\/li>\n<li><strong>newwindow<\/strong> = Use true or false to open link in a",
+                "uid": "87232"
+            }
+        }
+    }
+}

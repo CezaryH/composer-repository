@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/wp-responsive-images": {
+            "1.0": {
+                "name": "wordpress\/wp-responsive-images",
+                "version": "1.0",
+                "version_normalized": "1.0.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/wp-responsive-images.1.0.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>WP Responsive Images once activated automatically detects mobile devices viewing your website and serves up images of appropriate size\nby dynamically resizing images and caching them for improved performance.<\/p>",
+                "uid": "21603"
+            }
+        }
+    }
+}

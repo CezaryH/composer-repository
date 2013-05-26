@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/rss-post-editor": {
+            "0.1": {
+                "name": "wordpress\/rss-post-editor",
+                "version": "0.1",
+                "version_normalized": "0.1.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/rss-post-editor.0.1.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>This plugin allows you to add content RSS feed articles so that users have to subscribe to your feeds to view such content. helping you increase your RSS Reader base.<\/p>\n\n<p>Usage<\/p>\n\n<ul>\n<li>While writing\/editing your post<\/li>\n<li>Wrap any html between [rss][\/rss] tags to make it visible only on your feed (please note that [rss][\/rss] are case sensitive)<\/li>\n<li>Anything between [rss][\/rss] will not be visible directly on your blog.<\/li>\n<li>Example : This is the normal post content [rss]this content is to be shown inside the rss feed[\/rss]<\/li>\n<\/ul>",
+                "uid": "99226"
+            }
+        }
+    }
+}

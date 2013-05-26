@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/smooth-streaming-player": {
+            "1.0": {
+                "name": "wordpress\/smooth-streaming-player",
+                "version": "1.0",
+                "version_normalized": "1.0.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/smooth-streaming-player.1.0.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>This Smooth streaming plugin allows a cool integration of a video player in your WordPress site. It can accept many video formats like ism and isml (for Smooth Streaming) or progressive download formats like wmv, mov and mp4 (if encoded in H264).\nThe administration section will offer you some parameters to customize the presentation and skin of the Video player.<\/p>\n\n<p>Just use the adminpanel or write a tag like : \n[sl-playerss background=\"transparent\" width=\"100%\" height=\"400px\" videoUrl=\"http:\/\/www.tweened.org\/wp-content\/files\/toystory3_720p.mp4\" autoPlay=\"1\" themeColorOne=\"726A5D\" themeColorTwo=\"999285\"]<\/p>\n\n<p>The plugin offers the following features:<\/p>\n\n<p>1-component settings Silverlight<\/p>\n\n<pre><code>  * Transparent Background\n     By checking this box, the reader will have a transparent background.\n\n  * Background Color\n     Sets the background color of the Silverlight component.\n\n  * Width\n     Sets the width of the Silverlight component (pixel or percent value).\n\n  *",
+                "uid": "68293"
+            }
+        }
+    }
+}

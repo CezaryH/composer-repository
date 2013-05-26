@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/buddypress-registration-groups-1": {
+            "0.8": {
+                "name": "wordpress\/buddypress-registration-groups-1",
+                "version": "0.8",
+                "version_normalized": "0.8.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/buddypress-registration-groups-1.0.8.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>This plugin is built to display BuddyPress groups on the new user registration page in a list where the user can\nselect, via checkbox, which groups they would like to join immediately. Only Public groups are shown;\nno Private or Hidden groups will be available. The selected group's IDs are stored in the following locations:<\/p>\n\n<ul>\n<li>usermeta table - for WordPress\/BuddyPress installations<\/li>\n<li>meta field of signups table - for WP3\/BuddyPress or WPMU\/BuddyPress installations<\/li>\n<\/ul>",
+                "uid": "63959"
+            }
+        }
+    }
+}

@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/page-peel": {
+            "0.3": {
+                "name": "wordpress\/page-peel",
+                "version": "0.3",
+                "version_normalized": "0.3.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/page-peel.0.3.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>This plugin adds a Web 2.0 flash Page Peel to your WP powered blog.\nIt preloads big image so you won't get delay before displaying image when you hover ad like in ordinary Page Peel scripts.<\/p>\n\n<h4>BEFORE you update from a previous version, if you put your custom images in the plugin folder instead of your template folder, make sure you save them first, or they will be overwritten with the update<\/h4>",
+                "uid": "105174"
+            }
+        }
+    }
+}

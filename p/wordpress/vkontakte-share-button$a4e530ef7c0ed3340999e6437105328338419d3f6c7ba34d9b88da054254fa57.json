@@ -1,0 +1,40 @@
+{
+    "packages": {
+        "wordpress\/vkontakte-share-button": {
+            "1.0.0": {
+                "name": "wordpress\/vkontakte-share-button",
+                "version": "1.0.0",
+                "version_normalized": "1.0.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/vkontakte-share-button.1.0.0.43.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>VKontakte Share Button plugin brings powerful way to add VKontakte share button for you posts and pages.<\/p>\n\n<p>It supports all functions of VKontakte API and easy customizable:<\/p>\n\n<ul>\n<li>You can choose one of seven button appearance types include <strong>custom<\/strong><\/li>\n<li>Place button on posts, pages and frontpage at will<\/li>\n<li>Select location of button: before or after content, on the left or right<\/li>\n<li>Exclude pages and posts by ID which should stay without buttons<\/li>\n<li>Choose description of content: forepart of post\/page or global description for all site<\/li>\n<li>Can be used description from meta tag <code>description<\/code><\/li>\n<li>Use your own site logo image specifying link or with meta tag <code>image-src<\/code><\/li>\n<\/ul>\n\n<p>You can use the shortcode <code>[vk-share-button]<\/code>.<\/p>\n\n<p>Also can be used PHP code in your template:<\/p>\n\n<pre><code>&#60;?php if (class_exists('VKShareButton'))\n          if(!isset($VKShareButton)\n              $VKSha",
+                "uid": "68914"
+            },
+            "1.0.1": {
+                "name": "wordpress\/vkontakte-share-button",
+                "version": "1.0.1",
+                "version_normalized": "1.0.1.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/vkontakte-share-button.1.0.1.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>VKontakte Share Button plugin brings powerful way to add VKontakte share button for you posts and pages.<\/p>\n\n<p>It supports all functions of VKontakte API and easy customizable:<\/p>\n\n<ul>\n<li>You can choose one of seven button appearance types include <strong>custom<\/strong><\/li>\n<li>Place button on posts, pages and frontpage at will<\/li>\n<li>Select location of button: before or after content, on the left or right<\/li>\n<li>Exclude pages and posts by ID which should stay without buttons<\/li>\n<li>Choose description of content: forepart of post\/page or global description for all site<\/li>\n<li>Can be used description from meta tag <code>description<\/code><\/li>\n<li>Use your own site logo image specifying link or with meta tag <code>image-src<\/code><\/li>\n<\/ul>\n\n<p>You can use the shortcode <code>[vk-share-button]<\/code>.<\/p>\n\n<p>Also can be used PHP code in your template:<\/p>\n\n<pre><code>&#60;?php if (class_exists('VKShareButton'))\n          if(!isset($VKShareButton)\n              $VKSha",
+                "uid": "68902"
+            }
+        }
+    }
+}

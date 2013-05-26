@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/wp-nofollowpost": {
+            "1.0": {
+                "name": "wordpress\/wp-nofollowpost",
+                "version": "1.0",
+                "version_normalized": "1.0.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/wp-nofollowpost.1.0.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>WP-NofollowPost adds nofollow tags to links in a post. This is done at the content-display level, \nmeaning you don't have to go back and apply this plugin to old posts. All posts will \nautomatically display all links with nofollow tags in them after enabling this plugin.<\/p>",
+                "uid": "89089"
+            }
+        }
+    }
+}

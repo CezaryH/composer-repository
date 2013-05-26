@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/pimp-my-snippet": {
+            "1.0": {
+                "name": "wordpress\/pimp-my-snippet",
+                "version": "1.0",
+                "version_normalized": "1.0.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/pimp-my-snippet.1.0.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>Simple and lightweight syntax highlighting for WordPress.<\/p>\n\n<ul>\n<li><strong>uses CSS classes instead of inline styles<\/strong><\/li>\n<li><strong>includes required styles only once!<\/strong><\/li>\n<li>syntax highlighting using (<a href=\"http:\/\/qbnz.com\/highlighter\/\" title=\"Generic Syntax Highlighter (GeSHi)\">Generic Syntax Highlighter (GeSHi)<\/a>)<\/li>\n<li>no overhead, less than 100 lines of code (without GeSHi)<\/li>\n<\/ul>",
+                "uid": "47736"
+            }
+        }
+    }
+}

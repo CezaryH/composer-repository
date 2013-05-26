@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/grader": {
+            "1.0": {
+                "name": "wordpress\/grader",
+                "version": "1.0",
+                "version_normalized": "1.0.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/grader.1.0.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>Grader allows site administrator's to grade user posts.  Grades are only visible to administrators, editors, and the post's author.  Administrators and editors can grade a post by adding a comment that starts with a token.  The default token is @grade, but this can be changed through the plugin's option page.  Administrator's can also add a comment to a grade.  Comments and grades are seperated by a delimieter.  The default delimeter is \".\", but this can also be changed through the plugin's option page.  Grades are visible to admins and the post's authors (but not to anyone else) when viewing the post or in the post admin panel.<\/p>",
+                "uid": "65231"
+            }
+        }
+    }
+}

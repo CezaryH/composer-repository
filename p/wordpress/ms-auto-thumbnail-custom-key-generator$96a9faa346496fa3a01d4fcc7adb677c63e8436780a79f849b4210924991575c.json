@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/ms-auto-thumbnail-custom-key-generator": {
+            "1.0": {
+                "name": "wordpress\/ms-auto-thumbnail-custom-key-generator",
+                "version": "1.0",
+                "version_normalized": "1.0.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/ms-auto-thumbnail-custom-key-generator.1.0.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>This plugin can create automaically custom key of url and alt of the post image.<\/p>\n\n<p>::usage::<\/p>\n\n<p>use below code to show thumbnail in your template<\/p>\n\n<p>$thumb = get_post_meta($post-&#62;ID, \"Thumbnail\", $single = true);\n$thumb_alt = get_post_meta($post-&#62;ID, \"Thumbnail-alt\", $single = true);<\/p>\n\n<p>(note: \"Thumbnail\" will be replaced by your own custom key)<\/p>",
+                "uid": "81559"
+            }
+        }
+    }
+}

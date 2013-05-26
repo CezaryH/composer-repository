@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/wow-recruitment": {
+            "1.0": {
+                "name": "wordpress\/wow-recruitment",
+                "version": "1.0",
+                "version_normalized": "1.0.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/wow-recruitment.1.0.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>As above. WOW Recruitment is intended for use in widgetized sidebars. It provides an options page under the Settings menu to change recruitment status for each class and spec. If all specs of a given class are up for recruitment, WOW Recruitment will simply list \"[Class] (All)\".<\/p>\n\n<p>In the sidebar widget, the name of each class is given the color that Blizzard uses in-game to denote the class. The title is an H2 tag and can be styled accordingly.<\/p>\n\n<p>WOW Recruitment can be localized. No localizations are distributed with the default version of the plugin, but users may feel free to write their own. Place localization files in the \/wp-content\/plugins\/wowrecruitment\/intl\/ directory.<\/p>\n\n<p>WOW Recruitment is provided as-is and no warranty is made as to its function or effectiveness. WOW Recruitment will not do your recruiting for you. It just provides the ad in your sidebar.<\/p>",
+                "uid": "68842"
+            }
+        }
+    }
+}

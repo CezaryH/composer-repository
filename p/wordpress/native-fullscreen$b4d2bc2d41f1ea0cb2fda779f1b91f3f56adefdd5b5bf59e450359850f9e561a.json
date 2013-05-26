@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/native-fullscreen": {
+            "1.0": {
+                "name": "wordpress\/native-fullscreen",
+                "version": "1.0",
+                "version_normalized": "1.0.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/native-fullscreen.1.0.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>I found <a href=\"http:\/\/johndyer.name\/native-fullscreen-javascript-api-plus-jquery-plugin\/\">John Dyer's Native Fullscreen JavaScript API<\/a> the other day, and I thought it was pretty awesome.<\/p>\n\n<p>A true fullscreen mode ! Without Flash !<\/p>\n\n<p>It's quite experimental so far, but \"support is coming to most browsers in the next few months\". You should read <a href=\"http:\/\/johndyer.name\/native-fullscreen-javascript-api-plus-jquery-plugin\/\">John Dyer's post<\/a> about that.<\/p>\n\n<p>The plugin come with a widget and a shortcode to generate the button. Use a CSS selector to target the element you want to display in fullscreen... and that's it !<\/p>\n\n<p>[fullscreen target=\"THE-CSS-SELECTOR\" text=\"The button's text\"]<\/p>\n\n<p>Enjoy folks !<\/p>",
+                "uid": "24645"
+            }
+        }
+    }
+}

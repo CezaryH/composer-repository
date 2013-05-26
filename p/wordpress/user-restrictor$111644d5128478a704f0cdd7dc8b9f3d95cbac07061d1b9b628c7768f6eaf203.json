@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/user-restrictor": {
+            "1": {
+                "name": "wordpress\/user-restrictor",
+                "version": "1",
+                "version_normalized": "1.0.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/user-restrictor.1.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>Sometimes you have users with admin rights that you do not want clicking on certain menu items such as pages, posts, settings etc.<\/p>\n\n<p>Plugin Features:<\/p>\n\n<ul>\n<li>View a list of users and what menus they will have hid from them.<\/li>\n<li>You can also hide items from yourself<\/li>\n<li><p>There is even an option to hide this plugin from all users so they can't change their own \"permissions\".<\/p>\n\n<p>Please note that if the user is savvy enough to enter in the url such as (<a href=\"http:\/\/yoursite.com\/wp-admin\/edit.php?post_type=page\" rel=\"nofollow\">http:\/\/yoursite.com\/wp-admin\/edit.php?post_type=page<\/a> for pages)\nThen they will be able to go there. This plugin is mainly to hide the menu items form inexperienced users that you do not want in certain menus\neither because it will confuse them or because you just do not want them there.<\/p><\/li>\n<\/ul>",
+                "uid": "37091"
+            }
+        }
+    }
+}

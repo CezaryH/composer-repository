@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/include-me-in-that-html": {
+            "1.0": {
+                "name": "wordpress\/include-me-in-that-html",
+                "version": "1.0",
+                "version_normalized": "1.0.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/include-me-in-that-html.1.0.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>This is a embedded file plugin that will include any file into the body of any Wordpress Post or Page. \nBe careful what you place into any included file as its content will be transferred directly into the html of your Wordpress Blog Site.<\/p>",
+                "uid": "110954"
+            }
+        }
+    }
+}

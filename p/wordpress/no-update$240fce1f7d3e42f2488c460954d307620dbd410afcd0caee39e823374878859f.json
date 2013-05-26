@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/no-update": {
+            "1.1.7": {
+                "name": "wordpress\/no-update",
+                "version": "1.1.7",
+                "version_normalized": "1.1.7.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/no-update.1.1.7.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>Disable plugin upgrade options for selected plugins. Because sometimes you just don't want to upgrade.<\/p>",
+                "uid": "95079"
+            }
+        }
+    }
+}

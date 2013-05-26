@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/buddypress-recaptcha": {
+            "0.1": {
+                "name": "wordpress\/buddypress-recaptcha",
+                "version": "0.1",
+                "version_normalized": "0.1.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/buddypress-recaptcha.0.1.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>This Plugin integrates the Google reCAPTCHA Service Modul in the BuddyPress Template Page 'register.php'. The file is located in '\/wp-content\/themes\/{name}\/registration\/register.php'. The plugin adds the new feature by adding an action on 'bp_before_registration_submit_buttons'. Therefore the 'register.php' must contain the line 'do_action( 'bp_before_registration_submit_buttons' )'. My one was generated with the famous plugin <a href=\"http:\/\/wordpress.org\/extend\/plugins\/bp-template-pack\/\">BuddyPress Template Pack<\/a>. It makes a normal WordPress-Template ready for use with <a href=\"http:\/\/wordpress.org\/extend\/plugins\/buddypress\/\">BuddyPress<\/a>. The missing files in the template will be added.<\/p>\n\n<h4>Some Features<\/h4>\n\n<ul>\n<li>not yet, the plugin has no admin-page, but it will follow<\/li>\n<li>at the beginning of the 'bp-recaptcha.php' are some variables to add\/change the <a href=\"https:\/\/www.google.com\/recaptcha\/admin\/create\">reCAPTCHA Api keys<\/a>, style of reCAPTCHA, language",
+                "uid": "40948"
+            }
+        }
+    }
+}

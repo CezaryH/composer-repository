@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/mobile-first-content-images": {
+            "0.1": {
+                "name": "wordpress\/mobile-first-content-images",
+                "version": "0.1",
+                "version_normalized": "0.1.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/mobile-first-content-images.0.1.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>The plugin tries to detect what device the user is on. If it's detected as a mobile device or unknown the content images can be swapped with a smaller Post Thumbnail size of choice to save bandwidth.<\/p>\n\n<h4>Requriements<\/h4>\n\n<ul>\n<li>PHP5<\/li>\n<li>Tested and works with Worpress version 3.0, 3.1, 3.2 and 3.3<\/li>\n<li>NOT working in Wordpress 2.9 and all version older than that<\/li>\n<li>Will probably cause some issues with other plugins trying to modify content images<\/li>\n<\/ul>\n\n<h4>Test the plugin<\/h4>\n\n<p>When testing if the plugin swapped your images use a real device or the iphone simulator. Changing the useragent to mobile on you desktop browser will not work.<\/p>\n\n<h4>Make it better<\/h4>\n\n<p>You can find the code on <a href=\"http:\/\/github.com\/erikportin\/Mobile-Images\/\" title=\"Github\">Github<\/a> and do whatever you like with it<\/p>\n\n<h4>Thank you<\/h4>\n\n<p><a href=\"http:\/\/code.google.com\/p\/phpquery\/\" title=\"phpQuery\">phpQuery<\/a> for making it easy to parse the html and <a hre",
+                "uid": "29140"
+            }
+        }
+    }
+}

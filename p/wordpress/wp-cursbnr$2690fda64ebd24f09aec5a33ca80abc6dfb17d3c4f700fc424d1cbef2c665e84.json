@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/wp-cursbnr": {
+            "1.1": {
+                "name": "wordpress\/wp-cursbnr",
+                "version": "1.1",
+                "version_normalized": "1.1.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/wp-cursbnr.1.1.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>EN: This plugin generates a small exchange rate panel for RON (Romanian\nLeu) that you can put anywhere you like on your Wordpress powered\nwebsite. To use, just insert the <strong>[curs_bnr]<\/strong> shortcode in your\nposts\/pages\/textwidgets or use the widget that comes with this plugin.\nThe shortcode accepts as attributes currency codes (EUR, USD, GBP etc.),\nallowing you to specify what currencies to display exchange rates for.\nIf you do not specify any attributes, the plugin displays all available\ncurrency exchange rates from BNR (Banca Na\u021bional\u0103 a Rom&#226;niei). If you\nwant to use custom styling, you can add the <strong>nocss<\/strong> attribute to the\nshortcode and define your own CSS layout for the exchange rate panel.<\/p>\n\n<p>RO: Acest modul genereaz\u0103 un mic panou ce con\u021bine cursul valutar pentru\nRON, pe care &#238;l po\u021bi pune oriunde pe site-ul t\u0103u bazat pe Wordpress.\nPentru a-l folosi, insereaz\u0103 shortcode-ul <strong>[curs_bnr]<\/strong> &#238;n\npost\u0103ri\/pagini\/widgeturi",
+                "uid": "33563"
+            }
+        }
+    }
+}

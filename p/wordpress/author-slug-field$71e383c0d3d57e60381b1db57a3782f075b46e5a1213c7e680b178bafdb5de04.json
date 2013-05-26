@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/author-slug-field": {
+            "1.0": {
+                "name": "wordpress\/author-slug-field",
+                "version": "1.0",
+                "version_normalized": "1.0.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/author-slug-field.1.0.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>This plugin will add a new field in the profile page to enable you to edit the user_nicename field which controls the URL of authors home page.<\/p>\n\n<p>Example of author's default home URL (with permalink):<\/p>\n\n<p><a href=\"http:\/\/www.example.com\/blog\/authors\/author-default-name\/\" rel=\"nofollow\">http:\/\/www.example.com\/blog\/authors\/author-default-name\/<\/a><\/p>\n\n<p>Can be changed to this:<\/p>\n\n<p><a href=\"http:\/\/www.example.com\/blog\/authors\/author-new-name\/\" rel=\"nofollow\">http:\/\/www.example.com\/blog\/authors\/author-new-name\/<\/a><\/p>",
+                "uid": "79625"
+            }
+        }
+    }
+}

@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/site-creation-wizard": {
+            "2.4.1": {
+                "name": "wordpress\/site-creation-wizard",
+                "version": "2.4.1",
+                "version_normalized": "2.4.1.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/site-creation-wizard.2.4.1.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>The Site Creation Wizard builds upon the site creation page available in WordPress multi-site when it is configured to allow users to create new sites.<\/p>\n\n<p>Users are presented a list of site templates to chose from. Each template gives the user preconfigured content, theme, set of plugins and set of options. This helps users get started without having to know how to configure their sites.<\/p>\n\n<p>Furthermore, users are given a set of features they can turn on. Each feature is essentially a set of related plugins that are preconfigured.<\/p>\n\n<p>Users can get the site creation form by click on the '<strong>Create New Site<\/strong>' link under the Dashboard Menu. (this is added by the plugin.)<\/p>\n\n<h4>Templates<\/h4>\n\n<p>Templates are controlled by sites within your Multi-site environment. A template site should be configured exactly as you want new sites to be. When a new site is created, all content, options, turned on plugins and plugin options are copied from the template site ",
+                "uid": "58867"
+            }
+        }
+    }
+}

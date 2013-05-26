@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/playgamelah-embedder": {
+            "1.0": {
+                "name": "wordpress\/playgamelah-embedder",
+                "version": "1.0",
+                "version_normalized": "1.0.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/playgamelah-embedder.1.0.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>Playgamelah Embedder is a plugin to help integrate playgamelah games with your blog.\n<a href=\"http:\/\/www.playgamelah.com\">Play game lah<\/a> is a website that allows you to <a href=\"http:\/\/www.playgamelah.com\">play free online games<\/a><\/p>\n\n<p>Shortcode to use:\n[playgamelah game=\"\" width=\"\" height=\"\"]<\/p>\n\n<p>If the URL of the game page is:\n<a href=\"http:\/\/playgamelah.com\/flash-arcade-game.php?gameid=13954&#038;gamename=Happy%20Tree%20Friends%20Fire%20Escape\" rel=\"nofollow\">http:\/\/playgamelah.com\/flash-arcade-game.php?gameid=13954&#038;gamename=Happy%20Tree%20Friends%20Fire%20Escape<\/a><\/p>\n\n<p>You copy the strings after \"gamename=\": Happy%20Tree%20Friends%20Fire%20Escape<\/p>\n\n<p>Use the shortcode:\n*[playgamelah game=\"Happy%20Tree%20Friends%20Fire%20Escape\"]<\/p>\n\n<p>To customize the width:\n*[playgamelah game=\"Happy%20Tree%20Friends%20Fire%20Escape\" width=\"450\"]<\/p>\n\n<p>To customize the height:\n*[playgamelah game=\"Happy%20Tree%20Friends%20Fire%20Escape\" width=\"450\" height=\"350\"]<\/p>\n",
+                "uid": "68012"
+            }
+        }
+    }
+}
