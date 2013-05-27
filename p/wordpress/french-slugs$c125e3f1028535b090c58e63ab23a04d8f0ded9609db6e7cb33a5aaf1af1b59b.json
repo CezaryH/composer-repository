@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/french-slugs": {
+            "1.0": {
+                "name": "wordpress\/french-slugs",
+                "version": "1.0",
+                "version_normalized": "1.0.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/french-slugs.1.0.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>Useful in french, with this plugin simple quotes (apostrophes) will be changed to dashes (-) to keep slugs readable and SEO friendly.<\/p>\n\n<p>Before :<\/p>\n\n<ul>\n<li>\"L'&#233;quipe\" &#62; lequipe<\/li>\n<li>\"L'histoire de France\" &#62; lhistoire-de-france<\/li>\n<li>\"Suzy's Place\" &#62; suzys-place<\/li>\n<\/ul>\n\n<p>With this plugin :<\/p>\n\n<ul>\n<li>\"L'&#233;quipe\" &#62; l-equipe<\/li>\n<li>\"L'histoire de France\" &#62; l-histoire-de-france<\/li>\n<li>\"Suzy's Place\" &#62; suzy-s-place<\/li>\n<\/ul>",
+                "uid": "115449"
+            }
+        }
+    }
+}

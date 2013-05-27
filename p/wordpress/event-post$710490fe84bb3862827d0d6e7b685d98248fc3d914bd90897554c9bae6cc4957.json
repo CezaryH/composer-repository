@@ -1,0 +1,40 @@
+{
+    "packages": {
+        "wordpress\/event-post": {
+            "2.0.0": {
+                "name": "wordpress\/event-post",
+                "version": "2.0.0",
+                "version_normalized": "2.0.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/event-post.2.0.0.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>Add some meta-datas to posts to convert them into full calendar events.\nEach event can be exported into ical(.ics), outlook(vcs), or Google Calendar.\nLocalization works thanks to openstreetmap.<\/p>\n\n<h4>Date options<\/h4>\n\n<ul>\n<li>Begin date-time<\/li>\n<li>End date-time<\/li>\n<li>Color<\/li>\n<\/ul>\n\n<h4>Location options<\/h4>\n\n<ul>\n<li>Address<\/li>\n<li>GPS coordinates<\/li>\n<\/ul>\n\n<h4>Shortcodes<\/h4>\n\n<p>The plugin comes with two shortcodes wich allows to :<\/p>\n\n\n<pre>[events_list]<\/pre>\n\n<p>display a list of events<\/p>\n\n\n<pre>[events_map]<\/pre>\n\n<p>display a map of events<\/p>\n\n\n\n<p>some options are available, such as :<\/p>\n\n<ul>\n<li>nb=$nb (number of post, 0 is all, default: 5)<\/li>\n<li>future=$future (boolean, retreive, or not, events in the future, default = 1)<\/li>\n<li>past=$past (boolean, retreive, or not, events in the past, default = 0)<\/li>\n<li>type=$type (string, possible values are : div, ul, ol default=div &#124; only for [events_list])<\/li>\n<li>geo=$geo (boolean, retreives or ",
+                "uid": "9498"
+            },
+            "2.1.0": {
+                "name": "wordpress\/event-post",
+                "version": "2.1.0",
+                "version_normalized": "2.1.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/event-post.2.1.0.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>Add some meta-datas to posts to convert them into full calendar events.\nEach event can be exported into ical(.ics), outlook(vcs), or Google Calendar.\nLocalization works thanks to openstreetmap.<\/p>\n\n<h4>Date options<\/h4>\n\n<ul>\n<li>Begin date-time<\/li>\n<li>End date-time<\/li>\n<li>Color<\/li>\n<\/ul>\n\n<h4>Location options<\/h4>\n\n<ul>\n<li>Address<\/li>\n<li>GPS coordinates<\/li>\n<\/ul>\n\n<h4>Shortcodes<\/h4>\n\n<p>The plugin comes with two shortcodes wich allows to :<\/p>\n\n\n<pre>[events_list]<\/pre>\n\n<p>display a list of events<\/p>\n\n\n<pre>[events_map]<\/pre>\n\n<p>display a map of events<\/p>\n\n\n\n<p>some options are available, such as :<\/p>\n\n<ul>\n<li>nb=$nb (number of post, 0 is all, default: 5)<\/li>\n<li>future=$future (boolean, retreive, or not, events in the future, default = 1)<\/li>\n<li>past=$past (boolean, retreive, or not, events in the past, default = 0)<\/li>\n<li>type=$type (string, possible values are : div, ul, ol default=div &#124; only for [events_list])<\/li>\n<li>geo=$geo (boolean, retreives or ",
+                "uid": "115548"
+            }
+        }
+    }
+}

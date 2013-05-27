@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/news-cpt": {
+            "1.0.0": {
+                "name": "wordpress\/news-cpt",
+                "version": "1.0.0",
+                "version_normalized": "1.0.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/news-cpt.1.0.0.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>This plugin add a News custom post type to your Wordpress site. Now you can keep your press releases or time-sensitive announcements in a separate list, without having to juggle categories or tags.<\/p>\n\n<p>The plugin adds a News tab to your admin menu, which allows you to enter news items just as you would regular posts. The archive list of your news items will appear at <code>\/news<\/code>, and individual news items will appear at <code>\/news\/&#60;permalink&#62;<\/code>.<\/p>\n\n<p>Default single item and archive page templates for news items are also provided. These templates have abundant IDs and classes, so that you can style them with your own CSS.\nYou may also customize them by putting copies in your theme folder, and changing the markup. When you update the plugin, you will get new features and bug fixes, while keeping any customizations you made in your copies of these templates.<\/p>\n\n<p>Finally, the plugin adds a Recent News Items widget, which can be placed on any sidebar avail",
+                "uid": "115400"
+            }
+        }
+    }
+}

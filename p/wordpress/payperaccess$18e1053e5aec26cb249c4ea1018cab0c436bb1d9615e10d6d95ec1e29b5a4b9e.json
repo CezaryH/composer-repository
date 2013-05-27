@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/payperaccess": {
+            "1.0": {
+                "name": "wordpress\/payperaccess",
+                "version": "1.0",
+                "version_normalized": "1.0.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/payperaccess.1.0.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>If you need to grant access to your website only to those peaople that had paid \na fee or have done something you need before they access: this plugin allow you\nto setup an \"access URL\" that permit you to access all website contents.<\/p>\n\n<p>If users don't access through this URL, they'll be redirected to another page\n(for eg. a payment page) and then redirected back by that page to the \"access URL\"\nif they pay or do something you want.<\/p>",
+                "uid": "115440"
+            }
+        }
+    }
+}

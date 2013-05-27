@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/app-generator": {
+            "1.0": {
+                "name": "wordpress\/app-generator",
+                "version": "1.0",
+                "version_normalized": "1.0.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/app-generator.1.0.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>With this plugin you could generate an application for android devices.<br \/>\nYou could use the generator for free. More information: <a href=\"http:\/\/app-generator.net\" rel=\"nofollow\">http:\/\/app-generator.net<\/a>.\n<\/p>",
+                "uid": "115481"
+            }
+        }
+    }
+}

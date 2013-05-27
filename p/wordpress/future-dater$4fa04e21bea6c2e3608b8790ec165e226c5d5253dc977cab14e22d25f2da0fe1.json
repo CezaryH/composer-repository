@@ -1,0 +1,40 @@
+{
+    "packages": {
+        "wordpress\/future-dater": {
+            "0.9": {
+                "name": "wordpress\/future-dater",
+                "version": "0.9",
+                "version_normalized": "0.9.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/future-dater.0.9.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>Future Dater is a simple plugin to provide a shortcode to include\ncertain types of future (or past) dates in your posts or pages. The\ntype of dates supported are \"beginning of next quarter\", \"last day\nof this quarter\", \"first day of next month\", etc.<\/p>\n\n<p><em>Features<\/em><\/p>\n\n<p>There are 4 arguments to the [futuredate] shortcode:<\/p>\n\n<ul>\n<li><p>unit - Required.  Which part of the current date you want to\nmodify. Valid values: \"month\" and \"quarter\".<\/p><\/li>\n<li><p>relunit - Optional.  Whether you want reference the first day or\nlast day of the unit, or the same day as the current date.  Valid\nvalues: \"first\", \"last\", or none.<\/p><\/li>\n<li><p>count - Required.  How much to modify the current date, in units\nspecified by the unit argument.  Most commonly 1 (for next month\nor next quarter) or 0 (for the current month or quarter).  Also\naccepts negative values.<\/p><\/li>\n<li><p>format - Optional.  PHP date-formatting string to specify how the\ndate should be printed.  Most common v",
+                "uid": "115431"
+            },
+            "0.9.1": {
+                "name": "wordpress\/future-dater",
+                "version": "0.9.1",
+                "version_normalized": "0.9.1.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/future-dater.0.9.1.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>Future Dater is a simple plugin to provide a shortcode to include\ncertain types of future (or past) dates in your posts or pages. The\ntype of dates supported are \"beginning of next quarter\", \"last day\nof this quarter\", \"first day of next month\", etc.<\/p>\n\n<p><em>Features<\/em><\/p>\n\n<p>There are 4 arguments to the [futuredate] shortcode:<\/p>\n\n<ul>\n<li><p>unit - Required.  Which part of the current date you want to\nmodify. Valid values: \"month\" and \"quarter\".<\/p><\/li>\n<li><p>relunit - Optional.  Whether you want reference the first day or\nlast day of the unit, or the same day as the current date.  Valid\nvalues: \"first\", \"last\", or none.<\/p><\/li>\n<li><p>count - Required.  How much to modify the current date, in units\nspecified by the unit argument.  Most commonly 1 (for next month\nor next quarter) or 0 (for the current month or quarter).  Also\naccepts negative values.<\/p><\/li>\n<li><p>format - Optional.  PHP date-formatting string to specify how the\ndate should be printed.  Most common v",
+                "uid": "115430"
+            }
+        }
+    }
+}

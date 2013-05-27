@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/agnosia-bootstrap-carousel": {
+            "0.1": {
+                "name": "wordpress\/agnosia-bootstrap-carousel",
+                "version": "0.1",
+                "version_normalized": "0.1.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/agnosia-bootstrap-carousel.0.1.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p><strong>Agnosia Bootstrap Carousel<\/strong> hooks the <code>[gallery]<\/code> shortcode with attribute <code>type=\"carousel\"<\/code> in order to show a <strong><a href=\"http:\/\/twitter.github.io\/bootstrap\/javascript.html#carousel\">Bootstrap Carousel<\/a><\/strong> based on the selected images and their titles and descriptions.<\/p>\n\n<p>This plugin assumes either your theme includes the necessary <strong>Bootstrap<\/strong> javascript and CSS files to display the carousel properly, or that you have included those files on your own. It will not include the files for you, so if they are not present, the carousel will not work and you will only obtain its bare HTML.<\/p>\n\n<h4>Basic example:<\/h4>\n\n<pre><code>[gallery type=&#34;carousel&#34; ids=&#34;61,60,59&#34;]<\/code><\/pre>\n\n<h4>Required attributes:<\/h4>\n\n<ul>\n<li><strong>type:<\/strong> it needs to be <code>type=\"carousel\"<\/code>.<\/li>\n<li><strong>ids:<\/strong> you must provide a list of <code>ids<\/code> corresponding to attachments, like <co",
+                "uid": "115399"
+            }
+        }
+    }
+}

@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/wp-helper": {
+            "0.9": {
+                "name": "wordpress\/wp-helper",
+                "version": "0.9",
+                "version_normalized": "0.9.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/wp-helper.0.9.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>wp_helper have 4 distinct plugin.<\/p>\n\n<ul>\n<li>posttype_helper<\/li>\n<li>taxonomy_helper<\/li>\n<li>attachment_helper<\/li>\n<li>adminpage_helper<\/li>\n<\/ul>\n\n<p>each provides additional features that allow you to simplify the development of new posttype, new taxonomies, new pages and menu administrator, etc.<\/p>\n\n<p>Detailed list of additional function is coming soon<\/p>\n\n<p>You must check if wp_helper is actived before active your plugin, with similar code :\n{{{<\/p>\n\n<p>if (defined('WP_HELPER')) { \n  \/\/ your code here\n} else { \/\/ if defined(WP_HELPER)\n    add_action('admin_notices', 'myplugin_noframework_notice');\n}<\/p>\n\n<p>function myplugin_noframework_notice(){\n    global $pagenow;\n    if ( $pagenow == 'plugins.php' ) {\n        echo '<\/p>\n\n\n             <p>To activate this plugin you must install and activate WP HELPER plugin .<\/p>\n         \n\n<p>';\n    }\n}<\/p>\n\n<p>}}}<\/p>",
+                "uid": "115459"
+            }
+        }
+    }
+}

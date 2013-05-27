@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/aspen-extras": {
+            "1.0": {
+                "name": "wordpress\/aspen-extras",
+                "version": "1.0",
+                "version_normalized": "1.0.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/aspen-extras.1.0.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>This plugin provides several enhancements for the Aspen WordPress theme.<\/p>\n\n<h4>Add-on Themes<\/h4>\n\n<p>This plugin also allows you to upload and install new, add-on subthemes. There are free add-on subthemes available\nat <a href=\"http:\/\/aspentheme.com\" rel=\"nofollow\">http:\/\/aspentheme.com<\/a>.<\/p>\n\n<h4>Theme Updating<\/h4>\n\n<p>Normally, you will be able to update your version of the Aspen theme directly from WordPress.org.\nBut sometimes there is a considerable delay between the time a new version of the theme is submitted\nto WordPress.org, and when it becomes available there. This option lets you easily update Aspen after\ndownloading it from the Aspen website.<\/p>\n\n<h4>Per Page Theme Switching<\/h4>\n\n<p>You can save your subthemes in the WordPress database. This allows Per Page Theme setting by specifying\n'aspen_per_page_theme' as a Custom Field.<\/p>",
+                "uid": "115419"
+            }
+        }
+    }
+}

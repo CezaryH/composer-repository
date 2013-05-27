@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/wp-really-simple-discovery-link-remover": {
+            "0.1": {
+                "name": "wordpress\/wp-really-simple-discovery-link-remover",
+                "version": "0.1",
+                "version_normalized": "0.1.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/wp-really-simple-discovery-link-remover.0.1.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>This plugin will remove the Really Simple Discovery links that gets appended to the header (eg. ). Having the link in the header is not a security threat. However if you are not using any Really Simple Discovery services (eg. pingbacks) then you can remove the link to hide the fact that you are using WordPress.<\/p>",
+                "uid": "115411"
+            }
+        }
+    }
+}

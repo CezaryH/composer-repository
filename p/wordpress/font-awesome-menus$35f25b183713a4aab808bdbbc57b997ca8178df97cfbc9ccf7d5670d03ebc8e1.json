@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/font-awesome-menus": {
+            "3.1.1": {
+                "name": "wordpress\/font-awesome-menus",
+                "version": "3.1.1",
+                "version_normalized": "3.1.1.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/font-awesome-menus.3.1.1.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>Add Font Awesome icons to your WordPress menus without touching a single line of code! With this plugin, just add icon-(icon name) as a class to your menu and the plugin will put that icon into your menu before the text!<\/p>\n\n<p>With Font Awesome Menus, you have access to <a href=\"http:\/\/fortawesome.github.io\/Font-Awesome\/icons\/\" title=\"the entire Font Awesome 3.1.1 library\">the entire Font Awesome 3.1.1 library<\/a> throughout your site. With the included shortcode, you can also add icons to pages, posts, custom post types, widgets - anywhere you want them!<\/p>\n\n<p><strong>In your menus...<\/strong><\/p>\n\n<p>Want to add a home icon to the \"home\" link on your menu? Just add:<\/p>\n\n<pre><code>icon-home<\/code><\/pre>\n\n<p>as a class in your menu and the icon will be inserted before the text.<\/p>\n\n<p><strong>In your posts\/pages<\/strong><\/p>\n\n<p>Want that home icon to show up in a post or page or custom post type? Use the shortcode:<\/p>\n\n<pre><code>[icon name=icon-home]<\/code><\/pre>\n\n<p>and v",
+                "uid": "115450"
+            }
+        }
+    }
+}

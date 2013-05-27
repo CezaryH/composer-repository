@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/fyrebox-shortcode": {
+            "1.0": {
+                "name": "wordpress\/fyrebox-shortcode",
+                "version": "1.0",
+                "version_normalized": "1.0.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/fyrebox-shortcode.1.0.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>The Fyrebox Shortcode plugin allows you to easily integrate a html5 game widget that you have built on Fyrebox.co into your Wordpress Blog by using a Wordpress shortcode.\nUse it like that in your blog post: <code>[fyrebox gid=GAME_ID gt=GAME_TYPE \/]<\/code>. The shortcode for your game is located in the \"publish\" page of your page that you can access on the dashboard<\/p>\n\n<p>Examples:<\/p>\n\n<pre><code>[fyrebox gid=&#34;i6WOeUCiUl&#34; gt=&#34;8&#34; \/]<\/code><\/pre>\n\n<p>Embed the  SoundCloud trivia shown on fyrebox.co<\/p>\n\n<p>`[fyrebox gid=\"mlEZhG7KpF\" gt=\"5\" \/]'\nEmbed the word search puzzle shown on fyrebox.co<\/p>",
+                "uid": "115492"
+            }
+        }
+    }
+}

@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/conditional-shortcode": {
+            "0.1": {
+                "name": "wordpress\/conditional-shortcode",
+                "version": "0.1",
+                "version_normalized": "0.1.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/conditional-shortcode.0.1.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>Conditional Shortcode. Adds a shortcode gracias_por_donar that retrieves a text depending on an integer parameter passed as a request<\/p>\n\n<p>Shortcode attributes: \n- text0, text1, text2, text3 are texts to print\n- range1, range2, range3 are integers (default values 0)\n- get is the name of the request parameter that can be passed as post or get (default value is \"amt\")<\/p>\n\n<p>usage \n[gracias_por_donar text0=\"this text is printed if amt value is lower than range1\" text1=\"this text is printed if value amt is between range1 and range2\"\n text2=\"this text is printed if value amt is between range2 and range3\"\n text3=\"this text is printed if value amt is greater or equal than range3\"\n range1=\"20\" range2=\"50\" range3=\"80\" get=\"amt\"]<\/p>\n\n<p>for example:<\/p>\n\n<p><a href=\"http:\/\/mywordpresssite.org\/page?amt=30\" rel=\"nofollow\">http:\/\/mywordpresssite.org\/page?amt=30<\/a> would print text1 as amt value is between range1 and range2 (based on usage sample)<\/p>",
+                "uid": "115387"
+            }
+        }
+    }
+}
