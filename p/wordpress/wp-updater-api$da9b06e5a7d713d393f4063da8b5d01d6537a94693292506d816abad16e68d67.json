@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/wp-updater-api": {
+            "1.1": {
+                "name": "wordpress\/wp-updater-api",
+                "version": "1.1",
+                "version_normalized": "1.1.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/wp-updater-api.1.1.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>All methods expect an generated API key as parameter, see usage for more information<\/p>\n\n<pre><code>method                     result\ngetCoreVersion             'version' =&#62; $wp_version\ngetCoreUpdatesAvailable    'installed': version, 'current': version\ngetPluginUpdatesAvailable  [{'plugin': name, 'installed': version, 'current': version}]\n<\/code><\/pre>",
+                "uid": "115886"
+            }
+        }
+    }
+}

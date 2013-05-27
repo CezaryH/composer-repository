@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/single-sign-on": {
+            "1.0.0": {
+                "name": "wordpress\/single-sign-on",
+                "version": "1.0.0",
+                "version_normalized": "1.0.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/single-sign-on.1.0.0.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>Single Sign On allows a user to only sign in once and be signed in automatically across different systems.\nCurrently supported systems include:\n* Wordpress\n* WHMCS<\/p>\n\n<p>The plugin works over multiple instances of the same system, for example multiple Wordpress installations as well as between systems, for example between WHMCS and Wordpress.<\/p>\n\n<p>Coming soon:\n* MyBB<\/p>",
+                "uid": "115871"
+            }
+        }
+    }
+}

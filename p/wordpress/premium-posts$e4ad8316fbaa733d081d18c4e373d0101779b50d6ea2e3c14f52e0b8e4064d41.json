@@ -1,0 +1,40 @@
+{
+    "packages": {
+        "wordpress\/premium-posts": {
+            "2.0": {
+                "name": "wordpress\/premium-posts",
+                "version": "2.0",
+                "version_normalized": "2.0.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/premium-posts.2.0.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>This simple plugin allows publishers to mark posts as \"Premium\". It also adds the conditional tag <code>is_premium_post()<\/code> for use in your theme template files.<\/p>\n\n<p>A typical use case would be to display a unique message or ad code when viewing a premium post. For example:<\/p>\n\n<pre><code>&#60;?php if ( is_premium_post() ) { ?&#62;\n\n    This is a premium post!\n\n&#60;?php } else { ?&#62;\n\n    This is NOT a premium post!\n\n&#60;?php } ?&#62;<\/code><\/pre>\n\n<p>You can also test a specific post by passing the post ID or post object as a parameter. For example:<\/p>\n\n<pre><code>&#60;?php if ( is_premium_post( 23 ) ) { ?&#62;\n\n    The post: &#60;?php get_the_title( 23 ); ?&#62; is a premium post!\n\n&#60;?php } ?&#62;<\/code><\/pre>\n\n<p><strong>NOTE:<\/strong> You must use the conditional tag somewhere in your theme, or this plugin will do nothing.<\/p>",
+                "uid": "115406"
+            },
+            "2.0.1": {
+                "name": "wordpress\/premium-posts",
+                "version": "2.0.1",
+                "version_normalized": "2.0.1.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/premium-posts.2.0.1.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>This simple plugin allows publishers to mark posts as \"Premium\". It also adds the conditional tag <code>is_premium_post()<\/code> for use in your theme template files.<\/p>\n\n<p>A typical use case would be to display a unique message or ad code when viewing a premium post. For example:<\/p>\n\n<pre><code>&#60;?php if ( is_premium_post() ) { ?&#62;\n\n    This is a premium post!\n\n&#60;?php } else { ?&#62;\n\n    This is NOT a premium post!\n\n&#60;?php } ?&#62;<\/code><\/pre>\n\n<p>You can also test a specific post by passing the post ID or post object as a parameter. For example:<\/p>\n\n<pre><code>&#60;?php if ( is_premium_post( 23 ) ) { ?&#62;\n\n    The post: &#60;?php get_the_title( 23 ); ?&#62; is a premium post!\n\n&#60;?php } ?&#62;<\/code><\/pre>\n\n<p><strong>NOTE:<\/strong> You must use the conditional tag somewhere in your theme, or this plugin will do nothing.<\/p>",
+                "uid": "115866"
+            }
+        }
+    }
+}
