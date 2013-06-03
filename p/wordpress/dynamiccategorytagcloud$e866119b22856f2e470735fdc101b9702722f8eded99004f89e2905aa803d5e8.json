@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/dynamiccategorytagcloud": {
+            "0.1.0": {
+                "name": "wordpress\/dynamiccategorytagcloud",
+                "version": "0.1.0",
+                "version_normalized": "0.1.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/dynamiccategorytagcloud.0.1.0.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>You are using a tag cloud of the standard, and you do not want to display tags that belong to the category not related to the article.\nTry this widget.\nBased on the category of the display article, this widget gets the tag from the article categories of related range.\nFor the article there is no category of post page, etc., or by setting <code>all category<\/code>, <code>internal link article<\/code>, it displays the tag by examining the related category.\nIf you check the 'internal link article', get a category from the internal links to articles.<\/p>\n\n<p>Select Category related range<\/p>\n\n<ul>\n<li>All Category (unrelated article)<\/li>\n<li>Current article Category<\/li>\n<li>Include child category tree<\/li>\n<li>Include parent category tree<\/li>\n<li>Include internal linked article Category<\/li>\n<li>Exclude Category<\/li>\n<\/ul>\n\n<p>Other parameters : Display format, Sort by, Order, Font size, Number of tags to display, ...<\/p>\n\n<p><a href=\"http:\/\/celtislab.net\/wp_plugin_DCTagCloud\/\" title=",
+                "uid": "116082"
+            }
+        }
+    }
+}

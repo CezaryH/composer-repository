@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/easy-captcha": {
+            "1.0": {
+                "name": "wordpress\/easy-captcha",
+                "version": "1.0",
+                "version_normalized": "1.0.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/easy-captcha.1.0.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>Easy Captcha is an ideal solution for those who want to try different types of captcha to achieve an optimal site usability and captcha protection ratio. It allows a Wordpress site owner to choose which captcha should be used on a particular page.<\/p>\n\n<p>Currently the plugin supports 3 types of captcha:<\/p>\n\n<ul>\n<li>Hidden captcha, <\/li>\n<li>Simple image captcha,<\/li>\n<li>Google reCaptcha<\/li>\n<\/ul>\n\n<p><strong>Hidden Captcha<\/strong> is invisible to site visitors and does not assume any specific user actions. It just checks that a visitor behaves like a human. Although it might seem that Hidden Captcha does not fully correspond to the definition of CAPTCHA (found at the end of the FAQ), it still distinguishes a human from a bot based on natural human behavior. Hidden Captcha also allows checking whether a visitor's browser has JavaScript and Cookies enabled.<\/p>\n\n<p><strong>Simple Captcha<\/strong> works in a traditional manner: it shows an image and requires a user to enter a cap",
+                "uid": "116007"
+            }
+        }
+    }
+}

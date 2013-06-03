@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/iba-storelinks": {
+            "1.3": {
+                "name": "wordpress\/iba-storelinks",
+                "version": "1.3",
+                "version_normalized": "1.3.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/iba-storelinks.1.3.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>This plugin allows mobile app developers to quickly post links to their products on multiple app stores.It supports iPhone, iPad, Universal Apps, Mac Apps, Amazon, Nook, Win8 and Droid.<\/p>\n\n<p>Usage:<\/p>\n\n<p>[storelinks amazon=\"http:\/\/www.linktostore\/\" android=\"http:\/\/www.linktostore\/\" ipad=\"http:\/\/www.linktostore\/\" iphone=\"http:\/\/www.linktostore\/\" mac=\"http:\/\/www.linktostore\/\" nook=\"http:\/\/www.linktostore\/\" universal=\"http:\/\/www.linktostore\/\" win8=\"http:\/\/www.linktostore\/\"]<\/p>\n\n<p>it also allows you to use a subset of those<\/p>\n\n<p>[storelinks ipad=\"http:\/\/www.linktostore\/\" win8=\"http:\/\/www.linktostore\/\"]<\/p>\n\n<p>When viewing the page it displays a 45px square icon for each store that links directly to the developers app.<\/p>",
+                "uid": "116063"
+            }
+        }
+    }
+}

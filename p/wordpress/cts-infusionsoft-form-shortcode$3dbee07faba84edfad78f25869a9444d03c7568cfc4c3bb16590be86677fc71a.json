@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/cts-infusionsoft-form-shortcode": {
+            "1.1": {
+                "name": "wordpress\/cts-infusionsoft-form-shortcode",
+                "version": "1.1",
+                "version_normalized": "1.1.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/cts-infusionsoft-form-shortcode.1.1.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>One of the issues with stock WordPress is that it tends to not like having Javascript in general and linking to an external Javascript file in specific inside of posts or pages.  This is problematic for people who are integrating InfusionSoft and WordPress.  We tried to find a good solution for this, but failed to find any good plugins which would be suited for the task.<\/p>\n\n<p>So, we wrote our own.<\/p>\n\n<p>It is a standard WordPress Plugin.  All you need to do is unzip the file to your plugins directory, or use the zip file upload feature.  Once you've installed it, simply activate.  There are no special settings or anything else you need to do.<\/p>\n\n<p>To embed an InfusionSoft web form into a post or page, use the following short code:<\/p>\n\n<pre><code>[infusionsoft_form src=&#34;&#60;Your form&#039;s url&#62;&#34;]<\/code><\/pre>",
+                "uid": "116089"
+            }
+        }
+    }
+}

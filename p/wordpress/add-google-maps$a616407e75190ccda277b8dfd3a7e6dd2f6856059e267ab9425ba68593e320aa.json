@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/add-google-maps": {
+            "1.10": {
+                "name": "wordpress\/add-google-maps",
+                "version": "1.10",
+                "version_normalized": "1.10.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/add-google-maps.1.10.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>The map is embedded into pages or posts using a shortcode, and there are settings to affect how it's displayed. Then you can create markers that will show up on the map using the featured image as the map icon.<\/p>\n\n<p><strong>Features<\/strong><\/p>\n\n<ul>\n<li>Each map marker can have a unique custom icon, share a common custom icon, or use the default icon.<\/li>\n<li>Options to set the map type (street, satellite, etc), center location, size, zoom level, navigation controls, etc.<\/li>\n<li>Setup unique maps on different pages with their own placemarks, map types, center locations, etc.<\/li>\n<li>Placemarks can be assigned to categories, and you can control which categories are displayed on a individual map.<\/li>\n<li>Marker clustering for large numbers of placemarks<\/li>\n<li>Extra shortcode to output a text-based list of markers for mobile devices, search engines, etc.<\/li>\n<li>Use HTML, images, etc inside the information window.<\/li>\n<li>Compatible with WordPress MultiSite.<\/li>\n<\/ul>",
+                "uid": "116140"
+            }
+        }
+    }
+}

@@ -1,0 +1,57 @@
+{
+    "packages": {
+        "wordpress\/premium-posts": {
+            "2.0": {
+                "name": "wordpress\/premium-posts",
+                "version": "2.0",
+                "version_normalized": "2.0.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/premium-posts.2.0.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>Want to add a special message or ad code to your most popular blog posts? This plugin enables you to do just that!<\/p>\n\n<ol>\n<li>Install and activate the plugin via <code>WP-Admin &#62; Plugins<\/code>.<\/li>\n<li>Mark your top posts as \"Premium\" using a checkbox in the Post Editor.<\/li>\n<li>Go to <code>WP-Admin &#62; Settings &#62; Reading<\/code> and edit your premium post message.<\/li>\n<li>Choose to place your message above or below the post content, or place it manually using the <code>&#60;?php premium_posts(); ?&#62;<\/code> template tag inside <a href=\"http:\/\/codex.wordpress.org\/The_Loop\" title=\"WordPress Codex: The Loop\">The Loop<\/a>.<\/li>\n<\/ol>\n\n<p>This plugin also adds the conditional tag <code>is_premium_post()<\/code> for use in your theme template files. You can use it to test if a specific post is marked as premium by passing the post ID (or post object) as a parameter.<\/p>\n\n<p>Example:<\/p>\n\n<pre><code>&#60;?php if ( is_premium_post( $post_id ) ) { ?&#62;\n\n    &#60;?php echo",
+                "uid": "115406"
+            },
+            "2.0.1": {
+                "name": "wordpress\/premium-posts",
+                "version": "2.0.1",
+                "version_normalized": "2.0.1.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/premium-posts.2.0.1.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>Want to add a special message or ad code to your most popular blog posts? This plugin enables you to do just that!<\/p>\n\n<ol>\n<li>Install and activate the plugin via <code>WP-Admin &#62; Plugins<\/code>.<\/li>\n<li>Mark your top posts as \"Premium\" using a checkbox in the Post Editor.<\/li>\n<li>Go to <code>WP-Admin &#62; Settings &#62; Reading<\/code> and edit your premium post message.<\/li>\n<li>Choose to place your message above or below the post content, or place it manually using the <code>&#60;?php premium_posts(); ?&#62;<\/code> template tag inside <a href=\"http:\/\/codex.wordpress.org\/The_Loop\" title=\"WordPress Codex: The Loop\">The Loop<\/a>.<\/li>\n<\/ol>\n\n<p>This plugin also adds the conditional tag <code>is_premium_post()<\/code> for use in your theme template files. You can use it to test if a specific post is marked as premium by passing the post ID (or post object) as a parameter.<\/p>\n\n<p>Example:<\/p>\n\n<pre><code>&#60;?php if ( is_premium_post( $post_id ) ) { ?&#62;\n\n    &#60;?php echo",
+                "uid": "115866"
+            },
+            "2.3": {
+                "name": "wordpress\/premium-posts",
+                "version": "2.3",
+                "version_normalized": "2.3.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/premium-posts.2.3.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>Want to add a special message or ad code to your most popular blog posts? This plugin enables you to do just that!<\/p>\n\n<ol>\n<li>Install and activate the plugin via <code>WP-Admin &#62; Plugins<\/code>.<\/li>\n<li>Mark your top posts as \"Premium\" using a checkbox in the Post Editor.<\/li>\n<li>Go to <code>WP-Admin &#62; Settings &#62; Reading<\/code> and edit your premium post message.<\/li>\n<li>Choose to place your message above or below the post content, or place it manually using the <code>&#60;?php premium_posts(); ?&#62;<\/code> template tag inside <a href=\"http:\/\/codex.wordpress.org\/The_Loop\" title=\"WordPress Codex: The Loop\">The Loop<\/a>.<\/li>\n<\/ol>\n\n<p>This plugin also adds the conditional tag <code>is_premium_post()<\/code> for use in your theme template files. You can use it to test if a specific post is marked as premium by passing the post ID (or post object) as a parameter.<\/p>\n\n<p>Example:<\/p>\n\n<pre><code>&#60;?php if ( is_premium_post( $post_id ) ) { ?&#62;\n\n    &#60;?php echo",
+                "uid": "116117"
+            }
+        }
+    }
+}

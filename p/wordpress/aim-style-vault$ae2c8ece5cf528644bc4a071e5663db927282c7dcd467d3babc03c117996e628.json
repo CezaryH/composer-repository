@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/aim-style-vault": {
+            "1.0.0": {
+                "name": "wordpress\/aim-style-vault",
+                "version": "1.0.0",
+                "version_normalized": "1.0.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/aim-style-vault.1.0.0.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>AIM Style Vault lets you add persistent CSS to your WordPress theme that can be organized into stylesheets and published\njust like a post. You'll never again have to worry about losing changes made to the style.css file of your theme. In fact, you \ncan switch back and forth between themes and use AIM Style Vault stylesheets to preserve special styles for each. The AIM Style \nVault stylesheets are generated using a custom post type, then compressed and served to the document header, \nresulting in the fast application of custom CSS. Stylesheets are applied using the top-to-bottom cascade so that recent stylesheet \nentries will override earlier entries.<\/p>\n\n<p><strong>Requirements:<\/strong>\nAIM Style Vault requires that the wp_head() tag is included in the theme header.php file. If it is not present, contact your theme's \nauthor and request that it be included.<\/p>\n\n<p><strong>AIM Style Vault Features:<\/strong><\/p>\n\n<ul>\n<li>Unlimited Custom CSS Stylesheets <\/li>\n<li>Name each stylesh",
+                "uid": "116028"
+            }
+        }
+    }
+}

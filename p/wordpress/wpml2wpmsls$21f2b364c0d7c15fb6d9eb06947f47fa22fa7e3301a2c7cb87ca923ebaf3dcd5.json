@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/wpml2wpmsls": {
+            "0.1": {
+                "name": "wordpress\/wpml2wpmsls",
+                "version": "0.1",
+                "version_normalized": "0.1.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/wpml2wpmsls.0.1.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>See <a href=\"http:\/\/wordpress.org\/extend\/plugins\/wpml2wpmsls\/\">http:\/\/wordpress.org\/extend\/plugins\/wpml2wpmsls\/<\/a><\/p>\n\n<p><a href=\"http:\/\/wpml.org\">WPML<\/a> stores each entry as a separate post and uses some custom tables to connect the translations. \nIf you de-activate the plugin or have issues with functionality related to version updates, you get one site with multi-lingual confusion. \nSee <a href=\"http:\/\/www.slideshare.net\/r3df\/getting-word-press-to-speak-your-langauge\/\">Getting WordPress to speak your language<\/a> for more details how \/ \nwhy using a WordPress MultiSite \/ Network is becomming the recommended strategy for multilingual sites. At least until it is fully supported in core.<\/p>\n\n<p>This plugin:<\/p>\n\n<ul>\n<li>Converts the WPML translation records into meta fields on actual posts or post types<\/li>\n<li>Helps with the export\/import to your new WPMS site the data.<\/li>\n<li>Restores the meta data back to options so that <a href=\"http:\/\/wordpress.org\/plugins\/multisite-la",
+                "uid": "116045"
+            }
+        }
+    }
+}

@@ -1,0 +1,40 @@
+{
+    "packages": {
+        "wordpress\/konvent": {
+            "1.0.0": {
+                "name": "wordpress\/konvent",
+                "version": "1.0.0",
+                "version_normalized": "1.0.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/konvent.1.0.0.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>The official plugin for interaction with the free swedish ticket service for events and conventions, konvent.se.<\/p>\n\n<p>The plugin will add a widet that displays a list of upcoming events and their featured banners. These images not stored locally by the wordpress application.<\/p>\n\n<p>More features will be included in future releases.<\/p>\n\n<h4>Shortcodes<\/h4>\n\n<p>If you dont like widgets you can use the shortcodes instead.<\/p>\n\n<p>[konvent-eventlist]\nLists 10 events.<\/p>\n\n<p>[konvent-eventlist limit=999] \nLists all the upcoming events.<\/p>\n\n<p>[konvent-ticketTypes uri=testcon02]\nLists the different tickets that can be bought.<\/p>\n\n<p>Warning! Don't use different settings on shortcodes or widgets of the same type. Their settings are global and will interfere.<\/p>",
+                "uid": "115884"
+            },
+            "1.2.0": {
+                "name": "wordpress\/konvent",
+                "version": "1.2.0",
+                "version_normalized": "1.2.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/konvent.1.2.0.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>The official plugin for interaction with the free swedish ticket service for events and conventions, konvent.se.<\/p>\n\n<p>The plugin will add a widet that displays a list of upcoming events and their featured banners. These images not stored locally by the wordpress application.<\/p>\n\n<p>More features will be included in future releases.<\/p>\n\n<h4>Shortcodes<\/h4>\n\n<p>If you dont like widgets you can use the shortcodes instead.<\/p>\n\n<p>[konvent-eventlist]\nLists 10 events.<\/p>\n\n<p>[konvent-eventlist limit=999] \nLists all the upcoming events.<\/p>\n\n<p>[konvent-ticketTypes uri=testcon02]\nLists the different tickets that can be bought.<\/p>\n\n<p>Warning! Don't use different settings on shortcodes or widgets of the same type. Their settings are global and will interfere.<\/p>",
+                "uid": "116141"
+            }
+        }
+    }
+}

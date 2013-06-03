@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/pleasant-viewer": {
+            "1.0": {
+                "name": "wordpress\/pleasant-viewer",
+                "version": "1.0",
+                "version_normalized": "1.0.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/pleasant-viewer.1.0.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>Provides the ability to enter Bible and Science and Health citations and publish and share the referenced text.  Uses <a href=\"https:\/\/github.com\/camertron\/cskit-rb\">cskit-rb<\/a> written by Cameron.  We built this plugin as part of the \"Hack Your Church\" hackathon at the U.C. Berkeley CSO.  Participants \/ contributors include Gabriel, Julian, Cameron and James.<\/p>\n\n<p>Demonstration site here: <a href=\"http:\/\/pleasantviewer.org\">PleasantViewer.org<\/a><\/p>\n\n<p>Allows zero-signup (anonymous) posting of citations.<\/p>\n\n<h4>Shortcodes:<\/h4>\n\n<p>Insert <code>[pleasantviewer]<\/code> on a page to display a form to add citations.  Note that this will enable anonymous publishing of citations to your site.  Citations are published as WordPress posts.<\/p>",
+                "uid": "116111"
+            }
+        }
+    }
+}

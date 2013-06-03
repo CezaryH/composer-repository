@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/edd-ipaymu-payment-gateway": {
+            "1.0.0": {
+                "name": "wordpress\/edd-ipaymu-payment-gateway",
+                "version": "1.0.0",
+                "version_normalized": "1.0.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/edd-ipaymu-payment-gateway.1.0.0.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>Once you've downloaded the plugin, head over to <a href=\"https:\/\/my.ipaymu.com?rid=Syaiful6\" title=\"Ipaymu Api Key\">Ipaymu.com<\/a> to sign up for an account and get your Api Key.<\/p>\n\n<p>If you have an Api Key, you can copy and paste that on Downloads &#62; Settings &#62; Gateways, find \"Ipaymu Gateway Settings\", paste on API Key fields. Save it. You also can choose Indonesian currency, on General Tab.<\/p>\n\n<p>Keep in mind, Ipaymu don't care about your currency yet. You should set up your price on Indonesian currency, because if you set up your price $50\/item, Ipaymu going to process that as Rp50\/item or IDR50\/item.<\/p>",
+                "uid": "116086"
+            }
+        }
+    }
+}

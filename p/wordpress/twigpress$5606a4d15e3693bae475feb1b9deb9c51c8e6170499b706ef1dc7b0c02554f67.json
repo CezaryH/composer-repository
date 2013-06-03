@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/twigpress": {
+            "1.0.0": {
+                "name": "wordpress\/twigpress",
+                "version": "1.0.0",
+                "version_normalized": "1.0.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/twigpress.1.0.0.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>This plugin provides a simple way for you to use the <a href=\"http:\/\/twig.sensiolabs.org\/\">Twig templating engine<\/a> with <a href=\"http:\/\/wordpress.org\/\">WordPress<\/a> themes. A problem with WordPress themes is that it is very easy to create templates that are a mess of PHP and HTML. This isn't good for working with neither does it provide a separation of concerns. The <a href=\"http:\/\/twig.sensiolabs.org\/\">Twig templating engine<\/a> is a great engine that allows you to separate out getting &#38; manipulating your data and rendering it out. You create your themes in the same way as before, only you render a template instead of using PHP within your page structure.<\/p>\n\n<p>The Installation section provides the steps to using this plugin with your theme.<\/p>\n\n<p>In the Other Notes section, there is an easy reference for the different functions\/filters and what they can be used for.<\/p>\n\n<p>For Twig, the <a href=\"http:\/\/twig.sensiolabs.org\/documentation\">Twig documentation<\/a> is the b",
+                "uid": "116021"
+            }
+        }
+    }
+}

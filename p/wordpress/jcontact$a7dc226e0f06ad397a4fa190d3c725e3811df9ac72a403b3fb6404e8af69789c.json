@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/jcontact": {
+            "1.0": {
+                "name": "wordpress\/jcontact",
+                "version": "1.0",
+                "version_normalized": "1.0.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/jcontact.1.0.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>This is Ajax based contact form plugin. This plugin has the following features:<\/p>\n\n<p>a) A confirmation email will be sent to the user on contact form submission.\nb) User details will be listed in plugin sub-menu (admin interface)\nc) Admin can choose to approve or reject a user request and a confirmation mail will be sent to the user on each case.\nd) Admin can delete a user recode from the database.\ne) Email templates for initial contact, approval and rejection is easily customizable with legends (like user name, email, url, etc.)<\/p>",
+                "uid": "116249"
+            }
+        }
+    }
+}

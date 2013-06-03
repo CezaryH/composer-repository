@@ -1,0 +1,40 @@
+{
+    "packages": {
+        "wordpress\/flightlog": {
+            "1.0.0": {
+                "name": "wordpress\/flightlog",
+                "version": "1.0.0",
+                "version_normalized": "1.0.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/flightlog.1.0.0.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<h4>Configuration<\/h4>\n\n<p>Log on with Admin privileges and go to Plugins-&#62;FlightLog to configure the plugin:<\/p>\n\n<ul>\n<li>Airlines: enter a name for each airline you used<\/li>\n<li>Aircrafts: enter a name for each type of aircraft you used (hint: it is better to group them by families, i.e. use 'Boeing 737' for the whole family of B737-100 to B737-NG, or 'Airbus A320' for all variants of A318, A319, A320, A321).<\/li>\n<li>Airports: for each airport you used, enter a city and IATA code (a link to Wikipedia's list of IATA codes is provided). FlightLog will automatically figure out the latitude and longitude of the airport. If they are not fetched (seeing question marks instead of numbers), or if they are incorrect, click the name of the entry to edit them manually. Note: if you change the coordinates, FlighLog will automatically recalculate all flight distances and duration which use this airport.<\/li>\n<\/ul>\n\n<p>To edit an entry, click its name (hit the \"Update\" button when ready). N",
+                "uid": "13423"
+            },
+            "1.0.1": {
+                "name": "wordpress\/flightlog",
+                "version": "1.0.1",
+                "version_normalized": "1.0.1.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/flightlog.1.0.1.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<h4>Configuration<\/h4>\n\n<p>Log on with Admin privileges and go to Plugins-&#62;FlightLog to configure the plugin:<\/p>\n\n<ul>\n<li>Airlines: enter a name for each airline you used<\/li>\n<li>Aircrafts: enter a name for each type of aircraft you used (hint: it is better to group them by families, i.e. use 'Boeing 737' for the whole family of B737-100 to B737-NG, or 'Airbus A320' for all variants of A318, A319, A320, A321).<\/li>\n<li>Airports: for each airport you used, enter a city and IATA code (a link to Wikipedia's list of IATA codes is provided). FlightLog will automatically figure out the latitude and longitude of the airport. If they are not fetched (seeing question marks instead of numbers), or if they are incorrect, click the name of the entry to edit them manually. Note: if you change the coordinates, FlighLog will automatically recalculate all flight distances and duration which use this airport.<\/li>\n<\/ul>\n\n<p>To edit an entry, click its name (hit the \"Update\" button when ready). N",
+                "uid": "116342"
+            }
+        }
+    }
+}

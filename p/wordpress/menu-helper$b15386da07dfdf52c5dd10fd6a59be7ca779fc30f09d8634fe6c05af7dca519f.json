@@ -1,0 +1,40 @@
+{
+    "packages": {
+        "wordpress\/menu-helper": {
+            "1.0": {
+                "name": "wordpress\/menu-helper",
+                "version": "1.0",
+                "version_normalized": "1.0.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/menu-helper.1.0.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>Menu Helper can be used in 2 forms: as short code ( as described in section A) or, for more advanced programmatic use, as function which returns an array (as described in section B). For both usage styles the options are the same. You will find a detailed description with examples in Settings -&#62; Menu Helper Info after the plugin's activation.<\/p>\n\n<ol>\n<li><strong>submenu_slug<\/strong> - Allows to define a custom id for the submenu element<\/li>\n<li><strong>parent_id<\/strong> - If not null, will provide the children of the parent_id option. If set to 0 will get level 1 items (and their children, if submenu_depth set to a number greater than 1)<\/li>\n<li><strong>menu_id<\/strong> - If integer, will be used the menu ID, otherwise will be the menu's slug\/name. If not defined the plugin will check if the parent_id is used in any menu definition and pick the first it finds<\/li>\n<li><strong>include_parent<\/strong> - If set to true will include the parent element<\/li>\n<li><strong>containe",
+                "uid": "116092"
+            },
+            "1.1": {
+                "name": "wordpress\/menu-helper",
+                "version": "1.1",
+                "version_normalized": "1.1.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/menu-helper.1.1.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>Menu Helper can be used in 2 forms: as short code ( as described in section A) or, for more advanced programmatic use, as function which returns an array (as described in section B). For both usage styles the options are the same. You will find a detailed description with examples in Settings -&#62; Menu Helper Info after the plugin's activation.<\/p>\n\n<ol>\n<li><strong>submenu_slug<\/strong> - Allows to define a custom id for the submenu element<\/li>\n<li><strong>parent_id<\/strong> - If not null, will provide the children of the parent_id option. If set to 0 will get level 1 items (and their children, if submenu_depth set to a number greater than 1)<\/li>\n<li><strong>menu_id<\/strong> - If integer, will be used the menu ID, otherwise will be the menu's slug\/name. If not defined the plugin will check if the parent_id is used in any menu definition and pick the first it finds<\/li>\n<li><strong>include_parent<\/strong> - If set to true will include the parent element<\/li>\n<li><strong>containe",
+                "uid": "116091"
+            }
+        }
+    }
+}
