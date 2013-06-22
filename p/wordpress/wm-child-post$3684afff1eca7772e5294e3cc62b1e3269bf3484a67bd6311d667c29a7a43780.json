@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/wm-child-post": {
+            "1.01": {
+                "name": "wordpress\/wm-child-post",
+                "version": "1.01",
+                "version_normalized": "1.01.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/wm-child-post.1.01.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>WM Child Post wordpress plugins use for showing child post inside Post, Page or Widget area. If you want to active FAQ feature please check FAQ checkbox.<\/p>\n\n<ul>\n<li>Show Child Post inside Page or Post page.<\/li>\n<li>Display Posts or FAQ inside the widget area from specific group.<\/li>\n<li>FAQ feature enable with \"Slide Down\" animation.<\/li>\n<li>Fully Featured image supported<\/li>\n<\/ul>\n\n<p>You can use shortcode using wm-shortcode option without typing.<\/p>\n\n<p>WM Shortcode: [wmpost title=\"Child Post Title\" groups=\"html,lorem\" excerpt=true showposts=10 faq=true]<\/p>\n\n<p>Use WM Shortcode option:<\/p>\n\n<ul>\n<li><p>Fill \"Post Title\" box for title or leave it blanks if you don't want to show child post title.<\/p><\/li>\n<li><p>Select group from \"Post Groups\" Select options and click \"Add\" button from right. Leave it for showing posts from all groups. Click on the group name button for removing selected group.<\/p><\/li>\n<li><p>Default: Content. If you want to show excerpt, Please enable \"S",
+                "uid": "117275"
+            }
+        }
+    }
+}

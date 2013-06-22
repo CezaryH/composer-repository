@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/custom-pingback-email": {
+            "0.1.0": {
+                "name": "wordpress\/custom-pingback-email",
+                "version": "0.1.0",
+                "version_normalized": "0.1.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/custom-pingback-email.0.1.0.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>Custom Pingback Email adds a new field to the General Settings page to specify a custom email address to send pingbacks and trackbacks to. This disables notifications for the default site admin and the post authors for Pingbacks and Trackbacks.<\/p>",
+                "uid": "117347"
+            }
+        }
+    }
+}

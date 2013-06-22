@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/reloadr-for-wp": {
+            "0.2.1": {
+                "name": "wordpress\/reloadr-for-wp",
+                "version": "0.2.1",
+                "version_normalized": "0.2.1.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/reloadr-for-wp.0.2.1.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>This plugin is based on \"Reloadr\" which watches web project files for change, and refreshes their page automatically. This is good for client-side assets(e.g. *.css, *.js etc... ) and server-side assets(e.g. *.php).<\/p>\n\n<p>Thank you for awesome scripts \"Reloadr\" made by Daniel Bergey(https:\/\/github.com\/dbergey). Please see also the \"Reloadr\" site(https:\/\/github.com\/dbergey\/Reloadr).<\/p>",
+                "uid": "117169"
+            }
+        }
+    }
+}

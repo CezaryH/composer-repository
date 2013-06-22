@@ -1,0 +1,40 @@
+{
+    "packages": {
+        "wordpress\/post-meta-manager": {
+            "1.0": {
+                "name": "wordpress\/post-meta-manager",
+                "version": "1.0",
+                "version_normalized": "1.0.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/post-meta-manager.1.0.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>Creates a panel to change or delete post meta keys in bulk. Useful for when you are switching plugins or themes that use specific postmeta keys for functionality, or for general cleanup for older sites that may have older meta data that is no longer in use.<\/p>",
+                "uid": "18750"
+            },
+            "1.0.1": {
+                "name": "wordpress\/post-meta-manager",
+                "version": "1.0.1",
+                "version_normalized": "1.0.1.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/post-meta-manager.1.0.1.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>Creates a panel to change or delete post meta keys in bulk. Useful for when you are switching plugins or themes that use specific postmeta keys for functionality, or for general cleanup for older sites that may have older meta data that is no longer in use.<\/p>",
+                "uid": "118161"
+            }
+        }
+    }
+}

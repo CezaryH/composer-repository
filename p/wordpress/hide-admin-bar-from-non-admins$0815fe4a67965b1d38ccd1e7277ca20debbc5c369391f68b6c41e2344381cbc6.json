@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/hide-admin-bar-from-non-admins": {
+            "1.0": {
+                "name": "wordpress\/hide-admin-bar-from-non-admins",
+                "version": "1.0",
+                "version_normalized": "1.0.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/hide-admin-bar-from-non-admins.1.0.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>Perfect for sites where there is only one admin who needs access to the dashboard and the admin bar.<\/p>\n\n<p>When activated only administrators will see the admin bar.<\/p>\n\n<p>This plugin is just a few lines of code. Specifically the line <code>if(!current_user_can('administrator'))<\/code> determines who the admin bar is hidden for. Feel free to edit this to your needs. E.g. using<\/p>\n\n<pre><code>if(!current_user_can(&#039;edit_posts&#039;))<\/code><\/pre>\n\n<p>will allow authors to view the admin bar as well.<\/p>\n\n<p>This plugin has no settings and will not be updated often, so feel free to edit to your needs.<\/p>",
+                "uid": "117140"
+            }
+        }
+    }
+}

@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/fussballde-widget-includer": {
+            "0.1": {
+                "name": "wordpress\/fussballde-widget-includer",
+                "version": "0.1",
+                "version_normalized": "0.1.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/fussballde-widget-includer.0.1.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>This plugin was born because there was no easy way of including the Fussball.de Widget (german website, which provides soccer tables for amateur leagues).\nWith this plugin you only have to commit your API-key and use shortcode (example below) on pages\/posts.<\/p>\n\n<p>Shortcode example:\n[fbdeWINC_widget show=\"Tabelle\" saison=\"1213\" id=\"12345\"]\n    Parameter:\n                * show: which kind of widget will be displayed (currently only 'Tabelle' and 'Wettbewerb' is supported)\n                * saison &#38; id: this information is provided by fussball.de, just copy&#38;paste<\/p>",
+                "uid": "117133"
+            }
+        }
+    }
+}

@@ -1,0 +1,40 @@
+{
+    "packages": {
+        "wordpress\/composer": {
+            "0.1": {
+                "name": "wordpress\/composer",
+                "version": "0.1",
+                "version_normalized": "0.1.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/composer.0.1.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>Adding Composer dependency management to WP CLI. Allows you to recursivly install\/update composer packages inside of all of your WordPress plugins and themes.<\/p>\n\n<h3>What is this using?<\/h3>\n\n<p>This package uses a great piece of software called <a href=\"http:\/\/wp-cli.org\/\">WP-CLI<\/a>. It provides a command line interface for WordPress management. We are a plugin providing Composer management inside of WP CLI.<\/p>\n\n<h3>What's Composer?<\/h3>\n\n<p>It's the greatest thing to happen to the web since GIFs, Drop Shadows and dancing cats. Composer is a dead simple JSON-based dependency manager for PHP. For more information, check out <a href=\"http:\/\/getcomposer.org\/\">http:\/\/getcomposer.org\/<\/a>.<\/p>\n\n<h3>So this is complete Composer support?<\/h3>\n\n<p>No, not exactly! Sadly, I'm building this out and I'm trying to make some sweet WP-CLI and Composer integration. But for now, we only support a few command:<\/p>\n\n<ul>\n<li>install<\/li>\n<li>update<\/li>\n<li>diagnose<\/li>\n<li>help<\/li>\n<li>status",
+                "uid": "117176"
+            },
+            "0.1.1": {
+                "name": "wordpress\/composer",
+                "version": "0.1.1",
+                "version_normalized": "0.1.1.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/composer.0.1.1.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>Adding Composer dependency management to WP CLI. Allows you to recursivly install\/update composer packages inside of all of your WordPress plugins and themes.<\/p>\n\n<h3>What is this using?<\/h3>\n\n<p>This package uses a great piece of software called <a href=\"http:\/\/wp-cli.org\/\">WP-CLI<\/a>. It provides a command line interface for WordPress management. We are a plugin providing Composer management inside of WP CLI.<\/p>\n\n<h3>What's Composer?<\/h3>\n\n<p>It's the greatest thing to happen to the web since GIFs, Drop Shadows and dancing cats. Composer is a dead simple JSON-based dependency manager for PHP. For more information, check out <a href=\"http:\/\/getcomposer.org\/\">http:\/\/getcomposer.org\/<\/a>.<\/p>\n\n<h3>So this is complete Composer support?<\/h3>\n\n<p>No, not exactly! Sadly, I'm building this out and I'm trying to make some sweet WP-CLI and Composer integration. But for now, we only support a few command:<\/p>\n\n<ul>\n<li>install<\/li>\n<li>update<\/li>\n<li>diagnose<\/li>\n<li>help<\/li>\n<li>status",
+                "uid": "117175"
+            }
+        }
+    }
+}

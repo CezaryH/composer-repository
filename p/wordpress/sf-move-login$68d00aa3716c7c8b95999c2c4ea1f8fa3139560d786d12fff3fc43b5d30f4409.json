@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/sf-move-login": {
+            "0.1.1": {
+                "name": "wordpress\/sf-move-login",
+                "version": "0.1.1",
+                "version_normalized": "0.1.1.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/sf-move-login.0.1.1.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>This plugin forbids access to <strong><a href=\"http:\/\/example.com\/wp-login.php\" rel=\"nofollow\">http:\/\/example.com\/wp-login.php<\/a><\/strong> and creates new urls, like <strong><a href=\"http:\/\/example.com\/login\" rel=\"nofollow\">http:\/\/example.com\/login<\/a><\/strong> or <strong><a href=\"http:\/\/example.com\/logout\" rel=\"nofollow\">http:\/\/example.com\/logout<\/a><\/strong>.<\/p>\n\n<p>This is a great way to limit bots trying to brute-forcing your login (trying to guess your login and password). Of course, the new urls are easier to remember too.\nThe plugin is small, fast, and does not create new security vulnerabilities like some other plugins I've seen.<\/p>\n\n<p>No settings: activate, it works.<\/p>\n\n<p>Also remember: using this plugin does NOT exempt you to use a strong password. Moreover, never use \"admin\" as login, this is the first attempt for bots.<\/p>\n\n<p><strong>Please note that even if the plugin works properly so far, it still is a beta.<\/strong>\nPlease use the forum to report bugs, the pl",
+                "uid": "117342"
+            }
+        }
+    }
+}

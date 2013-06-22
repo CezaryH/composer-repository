@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/site-user": {
+            "1.0": {
+                "name": "wordpress\/site-user",
+                "version": "1.0",
+                "version_normalized": "1.0.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/site-user.1.0.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>This plugin allows you to create users which are not default wp_users by generating a Registration\/Login functionality on frontend,\nPlugin is helpfull when we need to create and manage users irrespective of wordpress default users.\nthis plugin generate a Session ($_SESSION['user']) which can be used throughout the site to perform different actions regarding the logged in Site Users, so devlopers can use this session to enhance the functionality of session.<\/p>",
+                "uid": "117185"
+            }
+        }
+    }
+}

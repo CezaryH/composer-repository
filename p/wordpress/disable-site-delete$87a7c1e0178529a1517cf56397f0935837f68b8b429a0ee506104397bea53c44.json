@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/disable-site-delete": {
+            "1.0": {
+                "name": "wordpress\/disable-site-delete",
+                "version": "1.0",
+                "version_normalized": "1.0.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/disable-site-delete.1.0.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>Disable Site Delete plugin only allows network administrators to delete a blog\/site on a WordPress Multisite network. It does not allow blog owners to delete their blogs.<\/p>\n\n<p>It works by doing that in 3 steps:-<\/p>\n\n<ul>\n<li>Removes the delete Site link from tools menu for non network admins<\/li>\n<li>Breaks out of wpmu_delete_blog function to avoid deletion of blog<\/li>\n<li>hacks around option to avoid sending the delete confirmation mail to blog owner<\/li>\n<\/ul>\n\n<p>Need more details, please visit this post on <a href=\"http:\/\/buddydev.com\/wordpress-multisite\/introducing-disable-site-delete-plugin-for-wordpress-multisite-based-networks\/\" title=\"Introducing Disable Site Delete plugin\">BuddyDev<\/a><\/p>",
+                "uid": "117241"
+            }
+        }
+    }
+}

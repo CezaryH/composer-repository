@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/camptix-network-tools": {
+            "0.1": {
+                "name": "wordpress\/camptix-network-tools",
+                "version": "0.1",
+                "version_normalized": "0.1.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/camptix-network-tools.0.1.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p><strong>Features<\/strong><\/p>\n\n<ul>\n<li>Network Dashboard\n\n<ul>\n<li>Overview of CampTix statistics for each site in the network<\/li>\n<li>View and search log entries<\/li>\n<li>Lookup transactions details<\/li>\n<li>Lookup attendee details<\/li>\n<\/ul><\/li>\n<li>Log events are captured and stored in a global database table instead of individual site postmeta tables<\/li>\n<li>Receive e-mail notifications when log events match your custom patterns<\/li>\n<\/ul>\n\n<p><em>Note: This plugin requires a <a href=\"http:\/\/codex.wordpress.org\/Glossary#Multisite\">WordPress Multisite<\/a> installation in order to work.<\/em><\/p>\n\n<p>Feel free to post your feature requests, issues and pull requests to <a href=\"https:\/\/github.com\/automattic\/camptix-network-tools\" title=\"CampTix on GitHub\">CampTix Network Tools on GitHub<\/a>.<\/p>",
+                "uid": "117117"
+            }
+        }
+    }
+}

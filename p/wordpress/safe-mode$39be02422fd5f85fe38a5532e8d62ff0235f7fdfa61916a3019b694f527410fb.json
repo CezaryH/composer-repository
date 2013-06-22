@@ -1,0 +1,40 @@
+{
+    "packages": {
+        "wordpress\/safe-mode": {
+            "1.0": {
+                "name": "wordpress\/safe-mode",
+                "version": "1.0",
+                "version_normalized": "1.0.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/safe-mode.1.0.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>This plugin enables safe mode for WordPress. This means:<\/p>\n\n<ul>\n<li>No plugins will be loaded.<\/li>\n<li>A default theme will be temporarily activated (if it is installed).<\/li>\n<\/ul>\n\n<h4>Why is this useful?<\/h4>\n\n<p>Whenever something's wrong with a WordPress site, the first rule of thumb is to disable plugins and possibly revert to the default theme. Depending on the nature of the error, that is not always an option. The back end (dashboard) may also be down, you may not have FTP access to manually disable plugins or themes and so on.<\/p>\n\n<p>Enter Safe Mode. Safe Mode will completely disable all plugins and the active theme temporarily for a single page view - ultimately enabling you to log in and remove the offending plugin. (This is not guaranteed to work in all scenarios, please read the disclaimer)<\/p>\n\n<h4>How does it work?<\/h4>\n\n<p>If your site crashes due to an upsetting plugin or theme, all you have to do is add a querystring parameter to the URL. That will temporarily",
+                "uid": "16370"
+            },
+            "1.1": {
+                "name": "wordpress\/safe-mode",
+                "version": "1.1",
+                "version_normalized": "1.1.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/safe-mode.1.1.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>This plugin enables safe mode for WordPress. This means:<\/p>\n\n<ul>\n<li>No plugins will be loaded.<\/li>\n<li>A default theme will be temporarily activated (if it is installed).<\/li>\n<\/ul>\n\n<h4>Why is this useful?<\/h4>\n\n<p>Whenever something's wrong with a WordPress site, the first rule of thumb is to disable plugins and possibly revert to the default theme. Depending on the nature of the error, that is not always an option. The back end (dashboard) may also be down, you may not have FTP access to manually disable plugins or themes and so on.<\/p>\n\n<p>Enter Safe Mode. Safe Mode will completely disable all plugins and the active theme temporarily for a single page view - ultimately enabling you to log in and remove the offending plugin. (This is not guaranteed to work in all scenarios, please read the disclaimer)<\/p>\n\n<h4>How does it work?<\/h4>\n\n<p>If your site crashes due to an upsetting plugin or theme, all you have to do is add a querystring parameter to the URL. That will temporarily",
+                "uid": "118107"
+            }
+        }
+    }
+}

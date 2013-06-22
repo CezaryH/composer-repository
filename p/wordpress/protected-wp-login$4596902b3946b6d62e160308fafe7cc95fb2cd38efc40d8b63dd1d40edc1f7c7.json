@@ -1,0 +1,40 @@
+{
+    "packages": {
+        "wordpress\/protected-wp-login": {
+            "1.0": {
+                "name": "wordpress\/protected-wp-login",
+                "version": "1.0",
+                "version_normalized": "1.0.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/protected-wp-login.1.0.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>Simple and easy WordPress plugin for protecting your login form.<\/p>\n\n<p>Plugin implements setting the security key for the login form.<\/p>\n\n<p>Thereby significantly reducing the likelihood of automatic brute force.<\/p>\n\n<p>The security key is transmitted manually as GET parameter for login form.<\/p>\n\n<p>For example: <a href=\"http:\/\/example.com\/wp-login.php?sk=my_secure_key\" rel=\"nofollow\">http:\/\/example.com\/wp-login.php?sk=my_secure_key<\/a><\/p>\n\n<p>Warning: Be careful if <code>sk<\/code> parameter is not specified, the login will not be possible, even if specifying the correct username and password.<\/p>",
+                "uid": "8644"
+            },
+            "2.1": {
+                "name": "wordpress\/protected-wp-login",
+                "version": "2.1",
+                "version_normalized": "2.1.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/protected-wp-login.2.1.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>Simple and easy WordPress plugin for protecting your login form.<\/p>\n\n<p>Plugin implements setting the security key for the login form.<\/p>\n\n<p>Thereby significantly reducing the likelihood of automatic brute force.<\/p>\n\n<p>The security key is transmitted manually as GET parameter for login form.<\/p>\n\n<p>For example: <a href=\"http:\/\/example.com\/wp-login.php?sk=my_secure_key\" rel=\"nofollow\">http:\/\/example.com\/wp-login.php?sk=my_secure_key<\/a><\/p>\n\n<p>Warning: Be careful if <code>sk<\/code> parameter is not specified, the login will not be possible, even if specifying the correct username and password.<\/p>",
+                "uid": "117663"
+            }
+        }
+    }
+}

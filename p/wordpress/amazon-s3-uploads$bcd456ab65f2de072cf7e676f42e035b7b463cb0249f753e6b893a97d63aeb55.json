@@ -1,0 +1,40 @@
+{
+    "packages": {
+        "wordpress\/amazon-s3-uploads": {
+            "1.09": {
+                "name": "wordpress\/amazon-s3-uploads",
+                "version": "1.09",
+                "version_normalized": "1.09.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/amazon-s3-uploads.1.09.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>Hello,\nAmazon S3 Uploads does exactly what you ask, it moves all your uploads to Amazon S3, deletes the uploaded files from your server and every time that a file is requested, it automatically redirects to the file that is on Amazon S3.<\/p>\n\n<p>Be aware that files from your server are uploaded to the Amazon S3 via cron job and not immediately. So you will have to wait some minutes (half hour) to see results.<\/p>\n\n<p>Cheers!<\/p>\n\n<p>REQUIREMENTS<\/p>\n\n<ul>\n<li>Wordpress 3.5.1+<\/li>\n<li>PHP 5.3.3+ compiled with the cURL extension<\/li>\n<li>A recent version of cURL 7.16.2+ compiled with OpenSSL and zlib<\/li>\n<li>\"AllowOverride All\" in your apache configuration<\/li>\n<\/ul>\n\n<p>TERMS OF USE<\/p>\n\n<ul>\n<li>The developer of this plugin is not held responsible for any file loss or and damage due to this plugin.<\/li>\n<li>It may so happen that this plugin may be discontinued at any point. The developer of the plugin will not be held responsible for that.<\/li>\n<\/ul>",
+                "uid": "33551"
+            },
+            "1.9.3": {
+                "name": "wordpress\/amazon-s3-uploads",
+                "version": "1.9.3",
+                "version_normalized": "1.9.3.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/amazon-s3-uploads.1.9.3.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>Hello,\nAmazon S3 Uploads does exactly what you ask, it moves all your uploads to Amazon S3, deletes the uploaded files from your server and every time that a file is requested, it automatically redirects to the file that is on Amazon S3.<\/p>\n\n<p>Be aware that files from your server are uploaded to the Amazon S3 via cron job and not immediately. So you will have to wait some minutes (half hour) to see results.<\/p>\n\n<p>Cheers!<\/p>\n\n<p>REQUIREMENTS<\/p>\n\n<ul>\n<li>Wordpress 3.5.1+<\/li>\n<li>PHP 5.3.3+ compiled with the cURL extension<\/li>\n<li>A recent version of cURL 7.16.2+ compiled with OpenSSL and zlib<\/li>\n<li>\"AllowOverride All\" in your apache configuration<\/li>\n<\/ul>\n\n<p>TERMS OF USE<\/p>\n\n<ul>\n<li>The developer of this plugin is not held responsible for any file loss or and damage due to this plugin.<\/li>\n<li>It may so happen that this plugin may be discontinued at any point. The developer of the plugin will not be held responsible for that.<\/li>\n<\/ul>",
+                "uid": "118433"
+            }
+        }
+    }
+}

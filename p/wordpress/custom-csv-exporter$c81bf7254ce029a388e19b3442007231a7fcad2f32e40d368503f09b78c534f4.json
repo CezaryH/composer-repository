@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/custom-csv-exporter": {
+            "0.1": {
+                "name": "wordpress\/custom-csv-exporter",
+                "version": "0.1",
+                "version_normalized": "0.1.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/custom-csv-exporter.0.1.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>This plugin allows you to export the values of custom fields into a CSV file. You can choose a post type (including defaults posts or pages)\nas well as a list of custom field keys you wish to export. The plugin pulls the values for those fields from all instances of your chosen custom post type and provides a link to export them as a CSV file.<\/p>",
+                "uid": "117356"
+            }
+        }
+    }
+}

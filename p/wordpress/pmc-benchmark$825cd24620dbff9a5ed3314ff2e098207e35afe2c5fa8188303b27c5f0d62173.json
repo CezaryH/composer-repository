@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/pmc-benchmark": {
+            "1.1": {
+                "name": "wordpress\/pmc-benchmark",
+                "version": "1.1",
+                "version_normalized": "1.1.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/pmc-benchmark.1.1.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>This plugin is to lookup which hooks are slow in execution in plugins and current theme.<\/p>\n\n<p>This plugin needs <a href=\"http:\/\/wordpress.org\/plugins\/debug-bar\/\">Debug Bar<\/a> plugin to be installed and activated. It adds a panel labelled \"PMC Benchmark\" in it.<\/p>\n\n<p>This plugin is for use in development environment only and not meant for use in a production environment.<\/p>\n\n<p>Github: <a href=\"https:\/\/github.com\/Penske-Media-Corp\/pmc-benchmark\" rel=\"nofollow\">https:\/\/github.com\/Penske-Media-Corp\/pmc-benchmark<\/a><\/p>",
+                "uid": "117374"
+            }
+        }
+    }
+}

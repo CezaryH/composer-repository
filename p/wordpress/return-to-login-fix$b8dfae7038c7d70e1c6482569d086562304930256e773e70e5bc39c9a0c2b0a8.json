@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/return-to-login-fix": {
+            "1.0": {
+                "name": "wordpress\/return-to-login-fix",
+                "version": "1.0",
+                "version_normalized": "1.0.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/return-to-login-fix.1.0.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>This plugin is for all who got problems logging in from time to time, and in log files can see this error (Cannot allocate memory Error). THe error comes from Wordpress creating a child process in the login and because of changes in WP 3.2 some sites got problems with this, the result is that you cannot login without trying again and again. \nThis plugin checks if the return_to POST is set when loggin in, if it is set, the plugin will overwrite the normal procedure for redirecting and redirect before Wordpress uses the normal redirect.\nThis way as admin or user, does not get problems when logging in because of return_to and memory errors.\nIt is not a permanent fix, but works 9 out of 10 times.<\/p>",
+                "uid": "117111"
+            }
+        }
+    }
+}

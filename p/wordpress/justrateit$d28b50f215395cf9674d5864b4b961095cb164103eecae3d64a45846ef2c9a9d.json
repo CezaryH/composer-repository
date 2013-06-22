@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/justrateit": {
+            "1.0": {
+                "name": "wordpress\/justrateit",
+                "version": "1.0",
+                "version_normalized": "1.0.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/justrateit.1.0.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>A nice and simple way of adding ratings in your posts and pages. Simply add [justrateit-button id=\"some-unique-id\"] some were in your post and five \"*\" and a counter will appear instead.<\/p>",
+                "uid": "117365"
+            }
+        }
+    }
+}

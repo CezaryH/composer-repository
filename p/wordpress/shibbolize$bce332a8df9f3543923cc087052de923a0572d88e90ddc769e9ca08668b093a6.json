@@ -1,0 +1,40 @@
+{
+    "packages": {
+        "wordpress\/shibbolize": {
+            "1.0.5": {
+                "name": "wordpress\/shibbolize",
+                "version": "1.0.5",
+                "version_normalized": "1.0.5.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/shibbolize.1.0.5.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>This plugin is designed to support integrating Wordpress sites into your existing\nidentity management infrastructure using a <a href=\"http:\/\/shibboleth.internet2.edu\/\">Shibboleth<\/a> Service Provider \/ Identity \nProvider.<\/p>\n\n<p>This plugin was initially based off of the <a href=\"http:\/\/wordpress.org\/plugins\/shibboleth\/\">Shibboleth Plugin<\/a> by Will Norris, but\nupdated to support network-based installations of WordPress, as well as the ability\nto update permissions on a per-site basis.<\/p>\n\n<p>WordPress can be configured so that all standard login requests will be sent to\nyour configured Identity Provider. Once authenticated, a WordPress account will be\ncreated if one does not exist. User attributes can be synchronized with your enterprise's\nsystem.<\/p>\n\n<p>In addition, the user's role within each WordPress site, as well as the role of Super Admin,\n can be set and updated based on any attribute Shibboleth provides.<\/p>",
+                "uid": "117298"
+            },
+            "1.0.6": {
+                "name": "wordpress\/shibbolize",
+                "version": "1.0.6",
+                "version_normalized": "1.0.6.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/shibbolize.1.0.6.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>This plugin is designed to support integrating Wordpress sites into your existing\nidentity management infrastructure using a <a href=\"http:\/\/shibboleth.internet2.edu\/\">Shibboleth<\/a> Service Provider \/ Identity \nProvider.<\/p>\n\n<p>This plugin was initially based off of the <a href=\"http:\/\/wordpress.org\/plugins\/shibboleth\/\">Shibboleth Plugin<\/a> by Will Norris, but\nupdated to support network-based installations of WordPress, as well as the ability\nto update permissions on a per-site basis.<\/p>\n\n<p>WordPress can be configured so that all standard login requests will be sent to\nyour configured Identity Provider. Once authenticated, a WordPress account will be\ncreated if one does not exist. User attributes can be synchronized with your enterprise's\nsystem.<\/p>\n\n<p>In addition, the user's role within each WordPress site, as well as the role of Super Admin,\n can be set and updated based on any attribute Shibboleth provides.<\/p>",
+                "uid": "117297"
+            }
+        }
+    }
+}

@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/listnerd-shortcodes": {
+            "0.0.1": {
+                "name": "wordpress\/listnerd-shortcodes",
+                "version": "0.0.1",
+                "version_normalized": "0.0.1.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/listnerd-shortcodes.0.0.1.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>This plugin adds shortcode that allow you to display the content of a Lists from <a href=\"http:\/\/www.listnerd.com\" rel=\"nofollow\">http:\/\/www.listnerd.com<\/a> website(Listnerd is a list blogging platform. Users can create, share and discover interesting lists about the stuff in their life they care about).<\/p>\n\n<p>You may embed your own lists from <a href=\"http:\/\/www.listnerd.com\" rel=\"nofollow\">http:\/\/www.listnerd.com<\/a> or lists created by somebody else by copying Lists URL, then paste this URL to shortcode, e.g.:<\/p>\n\n<p>[list <a href=\"http:\/\/www.listnerd.com\/list\/top-10-video-games\" rel=\"nofollow\">http:\/\/www.listnerd.com\/list\/top-10-video-games<\/a><\/p>\n\n<p>If you need to change size of embed lists frame you may use optional params width and height. You can use integer values e.g.:<\/p>\n\n<p>[list <a href=\"http:\/\/www.listnerd.com\/list\/top-10-video-games\" rel=\"nofollow\">http:\/\/www.listnerd.com\/list\/top-10-video-games<\/a> width=\"400\" height=\"600\"]<\/p>\n\n<p>Or you can use per cent valu",
+                "uid": "117027"
+            }
+        }
+    }
+}

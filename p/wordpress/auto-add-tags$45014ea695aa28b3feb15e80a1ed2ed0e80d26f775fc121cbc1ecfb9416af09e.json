@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/auto-add-tags": {
+            "1.0": {
+                "name": "wordpress\/auto-add-tags",
+                "version": "1.0",
+                "version_normalized": "1.0.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/auto-add-tags.1.0.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>Find existing tags in your new post content. If found, automatically add those tags to the post whenever you save the post. For more information, visit <a href=\"http:\/\/dekisugi.net\/wpplugins\/auto-add-tags\">Support<\/a> page.<\/p>",
+                "uid": "117343"
+            }
+        }
+    }
+}

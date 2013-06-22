@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/accessible-dropdown-menus": {
+            "0.4": {
+                "name": "wordpress\/accessible-dropdown-menus",
+                "version": "0.4",
+                "version_normalized": "0.4.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/accessible-dropdown-menus.0.4.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<h4>Purpose:<\/h4>\n\n<p>Many sites have dropdown menus where the expanding of the links can only be triggered by a mouse hover. This means that for keyboard only users parts of the site are harder or sometimes impossible to reach.<\/p>\n\n<p>This plugin makes these dropdown menus keyboard accessible. When tabbing through the primary navigation the sub level menus will become visible and users will be able to tab to the lower level links.<\/p>\n\n<p>The current version has been tested by both sighted keyboard-only users and screen reader users. If it doesn't work for your reader, please let us know!<\/p>\n\n<h4>How it Works:<\/h4>\n\n<p>The plugin uses a combination of CSS and javascript to enable the dropdown menus to be keyboard controlled.<\/p>\n\n<p>Using the script, whenever a link in the menu gets focus its containing list item (<li>) is given the necessary class. This enables the new CSS definitions to open any hidden submenus and bring those links into the tabbing order.<\/li><\/p>\n\n<p>In the abse",
+                "uid": "117057"
+            }
+        }
+    }
+}

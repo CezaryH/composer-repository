@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/item-reservation": {
+            "1.0": {
+                "name": "wordpress\/item-reservation",
+                "version": "1.0",
+                "version_normalized": "1.0.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/item-reservation.1.0.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>Manage reservation of items by users. Originally designed as a wedding gift list but can be used as a general gift list\/wish list reservation plugin. \nUses shortcode to display lists on a page. Only allows logged in users to reserve items and edit item reservations. \nAdmin settings determine the type of the item e.g Gift, whether to display users associated with items or remain anonymous and the currency.<\/p>",
+                "uid": "117074"
+            }
+        }
+    }
+}

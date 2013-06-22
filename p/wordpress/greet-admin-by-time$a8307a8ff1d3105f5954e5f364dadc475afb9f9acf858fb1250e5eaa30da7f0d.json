@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/greet-admin-by-time": {
+            "1.0": {
+                "name": "wordpress\/greet-admin-by-time",
+                "version": "1.0",
+                "version_normalized": "1.0.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/greet-admin-by-time.1.0.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>Replaces default Howdy message with new Greeting depending on time of day.\nGood Morning, Good Afternoon, and Good Evening are the messages used.<\/p>",
+                "uid": "117143"
+            }
+        }
+    }
+}

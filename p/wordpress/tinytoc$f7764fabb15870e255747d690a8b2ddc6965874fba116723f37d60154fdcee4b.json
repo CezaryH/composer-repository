@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/tinytoc": {
+            "0.1": {
+                "name": "wordpress\/tinytoc",
+                "version": "0.1",
+                "version_normalized": "0.1.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/tinytoc.0.1.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>This plugin is meant to help with navigation in long texts by forming an automatic Wikipedia-like table of contents.<\/p>\n\n<p>It works by scannig the text for headings (<code>&#60;h1&#62;-&#60;h5&#62;<\/code> HTML tags). If more than a certain amount of headings (3 by default) are found - a table of contents with bookmarks is formed and inserted to the post content. Location (above or below) the text can be chosen in settings page.<\/p>\n\n<p>TOC is formed as HTML5 <code>&#60;nav&#62;<\/code> element with nested ordered list inside. No specific styling is provided, so that it fits organicaly into the text. If you need specific styling, include it to your theme's CSS.<\/p>",
+                "uid": "117276"
+            }
+        }
+    }
+}

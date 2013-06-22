@@ -1,0 +1,40 @@
+{
+    "packages": {
+        "wordpress\/wp-waf": {
+            "1.0": {
+                "name": "wordpress\/wp-waf",
+                "version": "1.0",
+                "version_normalized": "1.0.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/wp-waf.1.0.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>WordPress Application Firewall. Protects against current attacks. Email notification is disabled by default, notification can be activated and configured in <strong>Settings &#62; WP WAF<\/strong>. Go to your WP WAF configuration page.<\/p>",
+                "uid": "22934"
+            },
+            "2.0": {
+                "name": "wordpress\/wp-waf",
+                "version": "2.0",
+                "version_normalized": "2.0.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/wp-waf.2.0.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>WordPress Application Firewall. Protects against current attacks. Email notification is disabled by default, notification can be activated and configured in <strong>Settings &#62; WP WAF<\/strong>. Go to your WP WAF configuration page.<\/p>",
+                "uid": "118249"
+            }
+        }
+    }
+}

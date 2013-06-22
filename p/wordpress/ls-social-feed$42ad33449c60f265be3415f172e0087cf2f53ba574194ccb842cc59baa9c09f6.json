@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/ls-social-feed": {
+            "0.6.1": {
+                "name": "wordpress\/ls-social-feed",
+                "version": "0.6.1",
+                "version_normalized": "0.6.1.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/ls-social-feed.0.6.1.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>This plugin will fetch feed from social network and display it using simple shortcode. There is also aggregated feed from several social networks.\nYou can build your own feed template using several template variables and shortcodes in admin panel.<\/p>\n\n<p>Please note... This plugin is still \"work in progress\". I'm using it on several projects, but it is still not 100% ready.\nAlso, there is one \"starting\" template, but without CSS styles... You will need to customize it before use. On the other hand, you have full control over template a display style.<\/p>\n\n<h4>shortcodes<\/h4>\n\n<h4>aggregated<\/h4>\n\n<p>[lssf facebook=\"DobryAndel\" twitter=\"LadaSoukup\" gplus=\"101145411178741720361\" items=6]<\/p>\n\n<h4>twitter<\/h4>\n\n<p>[lssf_twitter id=\"LadaSoukup\" items=4]<\/p>\n\n<h4>facebook<\/h4>\n\n<p>[lssf_facebook id=\"DobryAndel\" items=2]<\/p>\n\n<h4>Google+<\/h4>\n\n<p>[lssf_gplus id=\"101145411178741720361\" items=2]<\/p>\n\n<h4>Translatable<\/h4>\n\n<p>All text can be translated using standart language files, text d",
+                "uid": "8889"
+            }
+        }
+    }
+}

@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/trac-ticket-shortcode": {
+            "0.1": {
+                "name": "wordpress\/trac-ticket-shortcode",
+                "version": "0.1",
+                "version_normalized": "0.1.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/trac-ticket-shortcode.0.1.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>Links directly to a ticket (\"bug\") on a Trac site using simple notation such as <code>[bug 12345]<\/code>. By default, this plugin is coded to link to the WordPress core Trac.<\/p>\n\n<p>Generates output such as<\/p>\n\n<pre><code>&#60;a href=&#34;http:\/\/core.trac.wordpress.org\/ticket\/100&#34; title=&#34;WordPress Trac: Ticket #100: Support for a &#38;quot;keywords&#38;quot; field&#34;&#62;#100&#60;\/a&#62;<\/code><\/pre>\n\n<p>The plugin will fetch the ticket title when a shortcode is first displayed; the ticket title is displayed in the <code>title<\/code> attribute of the link. The plugin caches titles in custom fields with the posts in which shortcodes are used, to minimize unnecessary computation.<\/p>\n\n<p>Constants can also be set in <code>wp-config.php<\/code> to change the shortcode name and to switch to a different Trac site. See <em>Installation<\/em>.<\/p>",
+                "uid": "117325"
+            }
+        }
+    }
+}

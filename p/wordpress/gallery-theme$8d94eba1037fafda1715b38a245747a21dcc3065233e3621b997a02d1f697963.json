@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/gallery-theme": {
+            "1.1": {
+                "name": "wordpress\/gallery-theme",
+                "version": "1.1",
+                "version_normalized": "1.1.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/gallery-theme.1.1.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>You will be able to deeply style wordpress galleries using this plugin.<br \/>\nYou can design your own gallery theme file and place it in your main template folder (only in the root) or plugin's 'themes' folder (wp-content\\plugins\\gallery-theme\\themes).<\/p>\n\n<p>There is a simple theme file 'gallery-theme-default.php' in the plugin's 'themes' folder. You can use it as an example and try to design your own theme files.<br \/>\nRemember when you install this plugin all of your wordpress galleries will use this simple theme instead of the wordpress's internal gallery theme.<\/p>\n\n<p>You can also have multiply theme files and edit your galleries to use one of those themes.<br \/>\nFor example:<\/p>\n\n<p>*** If you choose your gallery theme file name like this: 'gallery-theme-default.php' and place it in your main template folder (in the root) or plugin's 'themes' folder, wordpress galleries will use this theme as default theme instead of wordpress's internal gallery theme.<br \/>\n*** If you choos",
+                "uid": "117242"
+            }
+        }
+    }
+}

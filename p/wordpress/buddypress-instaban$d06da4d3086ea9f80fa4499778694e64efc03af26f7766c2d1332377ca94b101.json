@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/buddypress-instaban": {
+            "1.0": {
+                "name": "wordpress\/buddypress-instaban",
+                "version": "1.0",
+                "version_normalized": "1.0.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/buddypress-instaban.1.0.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>The BuddyPress Instaban plugin allows site administrators to quickly remove problem members with a single click from the front-end. A confirmation dialog prevents accidental removals. If your site uses OneAll's Social Login plugin to allow members to create new accounts, Instaban will add their unique token to a list of 'unsafe' tokens. Integration options with OneAll are included.<\/p>\n\n<p><strong>Features:<\/strong><\/p>\n\n<ul>\n<li>Eliminates additional steps of searching user accounts in the WordPress admin panel.<\/li>\n<li>Integrates with member profiles on activation with predefined hooks.<\/li>\n<li>Optionally bans members if they've created an account with OneAll social login.<\/li>\n<li>Confirmation dialog with AJAX handler is fast, safe and efficient.<\/li>\n<li>Ability to customize button placement in your theme with a template tag.<\/li>\n<\/ul>",
+                "uid": "117128"
+            }
+        }
+    }
+}

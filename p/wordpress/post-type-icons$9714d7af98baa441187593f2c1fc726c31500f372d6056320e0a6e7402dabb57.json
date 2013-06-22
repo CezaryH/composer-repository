@@ -1,0 +1,40 @@
+{
+    "packages": {
+        "wordpress\/post-type-icons": {
+            "0.1": {
+                "name": "wordpress\/post-type-icons",
+                "version": "0.1",
+                "version_normalized": "0.1.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/post-type-icons.0.1.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>Does the pushpin not describe your custom post type? Here are 361 more icons to choose from. Icons are the GPL-compatible <a href=\"http:\/\/fontawesome.io\/\">Font Awesome Icons<\/a>. This is built for the new admin design that should debut with 3.7 (you can use the <a href=\"http:\/\/wordpress.org\/plugins\/mp6\/\">MP6 Plugin<\/a> until then).<\/p>\n\n<p>This is the same icon features that comes with <a href=\"http:\/\/wordpress.org\/plugins\/super-cpt\/\">SuperCPT<\/a> 0.2+, but pulled out of the plugin for those crazy birds who don't use it.<\/p>\n\n<p>This adds a function you can use, <code>pti_set_post_type_icon( $post_type, $icon );<\/code> to set your post type's icon. For instance, <code>pti_set_post_type_icon( 'event', 'calendar' );<\/code>. You can also set the global variable $pti_icons as an array of post type =&#62; icon names. Using the global variable is safer, since it doesn't rely on a function (you could of course call <code>if ( function_exists( 'pti_set_post_type_icons' ) )<\/code> to be equa",
+                "uid": "117047"
+            },
+            "0.1.1": {
+                "name": "wordpress\/post-type-icons",
+                "version": "0.1.1",
+                "version_normalized": "0.1.1.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/post-type-icons.0.1.1.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>Does the pushpin not describe your custom post type? Here are 361 more icons to choose from. Icons are the GPL-compatible <a href=\"http:\/\/fontawesome.io\/\">Font Awesome Icons<\/a>. This is built for the new admin design that should debut with 3.7 (you can use the <a href=\"http:\/\/wordpress.org\/plugins\/mp6\/\">MP6 Plugin<\/a> until then).<\/p>\n\n<p>This is the same icon features that comes with <a href=\"http:\/\/wordpress.org\/plugins\/super-cpt\/\">SuperCPT<\/a> 0.2+, but pulled out of the plugin for those crazy birds who don't use it.<\/p>\n\n<p>This adds a function you can use, <code>pti_set_post_type_icon( $post_type, $icon );<\/code> to set your post type's icon. For instance, <code>pti_set_post_type_icon( 'event', 'calendar' );<\/code>. You can also set the global variable $pti_icons as an array of post type =&#62; icon names. Using the global variable is safer, since it doesn't rely on a function (you could of course call <code>if ( function_exists( 'pti_set_post_type_icons' ) )<\/code> to be equa",
+                "uid": "117046"
+            }
+        }
+    }
+}

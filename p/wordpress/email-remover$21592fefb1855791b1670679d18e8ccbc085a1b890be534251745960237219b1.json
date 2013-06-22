@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/email-remover": {
+            "0.1": {
+                "name": "wordpress\/email-remover",
+                "version": "0.1",
+                "version_normalized": "0.1.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/email-remover.0.1.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>This plugin captures entire wordpress page and removes all email links from it. It also replaces the email address @ and . with at and dot.<\/p>",
+                "uid": "117146"
+            }
+        }
+    }
+}

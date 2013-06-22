@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/orbisius-member-only-downloads-for-s2member": {
+            "1.0.0": {
+                "name": "wordpress\/orbisius-member-only-downloads-for-s2member",
+                "version": "1.0.0",
+                "version_normalized": "1.0.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/orbisius-member-only-downloads-for-s2member.1.0.0.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<h4>Support<\/h4>\n\n<blockquote>\n  <p>Support is handled on our site: <a href=\"http:\/\/club.orbisius.com\/\" title=\"[new window]\">http:\/\/club.orbisius.com\/<\/a>\n  Please do NOT use the WordPress forums or other places to seek support.<\/p>\n<\/blockquote>\n\n<p>This is an S2Member extension plugin which allows you to display member only download links.\nYou can also set a minimum level required in order for the download link to be displayed.<\/p>\n\n<h4>Features<\/h4>\n\n<ul>\n<li>Restrict downloads to logged in users or those who have certain membership level<\/li>\n<li>Easy to use<\/li>\n<\/ul>\n\n<h4>Usage<\/h4>\n\n<p>Paste links to your downloads. They could be links to Amazon S3.<\/p>\n\n<ol>\n<li><p>Requires the user to be logged in order to see the download link\nExample: [orb_s2member_dl url=\"http:\/\/file.zip\"]<\/p><\/li>\n<li><p>Requires (explicitely) the user to be logged in order to see the download link. Can be turned off too by setting req_login=0\nExample: [orb_s2member_dl req_login=1 url=\"http:\/\/file.zip\"]<\/p",
+                "uid": "117106"
+            }
+        }
+    }
+}

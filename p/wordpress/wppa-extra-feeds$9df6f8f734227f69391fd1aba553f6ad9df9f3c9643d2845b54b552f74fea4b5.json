@@ -1,0 +1,40 @@
+{
+    "packages": {
+        "wordpress\/wppa-extra-feeds": {
+            "0.0.1": {
+                "name": "wordpress\/wppa-extra-feeds",
+                "version": "0.0.1",
+                "version_normalized": "0.0.1.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/wppa-extra-feeds.0.0.1.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>This plugin add the extra RSS feeds feature at plugin <a href=\"http:\/\/wordpress.org\/plugins\/wp-photo-album-plus\/\" title=\"WP Photo Album Plus\">WP Photo Album Plus<\/a>.<\/p>\n\n<p>The default activity of this plugin is add a new RSS feed at link <a href=\"http:\/\/www.your-wp-site.lan\/?feed=last_photo\" rel=\"nofollow\">http:\/\/www.your-wp-site.lan\/?feed=last_photo<\/a> with the last 10 photos of all albums of WP Photo Album Plus.\nBut you can add the a new feed on your forum or on your page with this shortcode:<\/p>\n\n<pre><code>[wppaef]<\/code><\/pre>\n\n<p>You can control the link and you can add these attributes on shortcode<\/p>\n\n<ul>\n<li><code>max-num<\/code> Max number of feed(default is 10)<\/li>\n<li><code>icon_url<\/code> Url to custom icon<\/li>\n<li><code>text_url<\/code> Text to show as url of feed<\/li>\n<li><code>album_id<\/code> Filter for album id (you can add multiple albumId, it separated by comma)<\/li>\n<\/ul>\n\n<p>example:<\/p>\n\n<ul>\n<li><code>[wppaef max-num=5]<\/code> show only 5 photos<\/li>\n<li",
+                "uid": "117364"
+            },
+            "0.0.2": {
+                "name": "wordpress\/wppa-extra-feeds",
+                "version": "0.0.2",
+                "version_normalized": "0.0.2.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/wppa-extra-feeds.0.0.2.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>This plugin add the extra RSS feeds feature at plugin <a href=\"http:\/\/wordpress.org\/plugins\/wp-photo-album-plus\/\" title=\"WP Photo Album Plus\">WP Photo Album Plus<\/a>.<\/p>\n\n<p>The default activity of this plugin is add a new RSS feed at link <a href=\"http:\/\/www.your-wp-site.lan\/?feed=last_photo\" rel=\"nofollow\">http:\/\/www.your-wp-site.lan\/?feed=last_photo<\/a> with the last 10 photos of all albums of WP Photo Album Plus.\nBut you can add the a new feed on your forum or on your page with this shortcode:<\/p>\n\n<pre><code>[wppaef]<\/code><\/pre>\n\n<p>You can control the link and you can add these attributes on shortcode<\/p>\n\n<ul>\n<li><code>max-num<\/code> Max number of feed(default is 10)<\/li>\n<li><code>icon_url<\/code> Url to custom icon<\/li>\n<li><code>text_url<\/code> Text to show as url of feed<\/li>\n<li><code>album_id<\/code> Filter for album id (you can add multiple albumId, it separated by comma)<\/li>\n<\/ul>\n\n<p>example:<\/p>\n\n<ul>\n<li><code>[wppaef max-num=5]<\/code> show only 5 photos<\/li>\n<li",
+                "uid": "117363"
+            }
+        }
+    }
+}

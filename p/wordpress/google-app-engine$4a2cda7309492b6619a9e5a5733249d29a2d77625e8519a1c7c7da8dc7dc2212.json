@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/google-app-engine": {
+            "1.0": {
+                "name": "wordpress\/google-app-engine",
+                "version": "1.0",
+                "version_normalized": "1.0.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/google-app-engine.1.0.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>Google App Engine for WordPress enables seamless operation of your\nWordPress-powered site on the App Engine PHP runtime.<\/p>\n\n<p>This plugin adds overrides to core functionality in WordPress to use App Engine\ninfrastructure, such as the Mail functionality, and uploading media to Google\nCloud Storage<\/p>",
+                "uid": "117180"
+            }
+        }
+    }
+}

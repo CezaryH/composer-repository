@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/em-object-cache": {
+            "2.0": {
+                "name": "wordpress\/em-object-cache",
+                "version": "2.0",
+                "version_normalized": "2.0.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/em-object-cache.2.0.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>The plugin implements object level persistent caching and can be used instead of the built in WordPress <code>WP_Object_Cache<\/code>.\nUnlike WP Super Cache, Hyper Cache and other plugins, EM Object Cache does not cache the entire page; instead, it caches the data WordPress explicitly asks it to cache (using <code>wp_cache_xxx()<\/code> API functions).\nAlthough this means that the performance will be less than with, say, WP Super Cache, all your pages remain dynamic.<\/p>\n\n<p>EM Object Cache won't help you much if the plugins or theme you are using do not use <a href=\"http:\/\/codex.wordpress.org\/Class_Reference\/WP_Object_Cache\">WordPress Cache API<\/a>.\nThis is by design, since the plugin tries to play nice. However, for most WordPress installations this will not be critical.<\/p>\n\n<p>EM Object Cache significantly reduces the load from your database. Say, my blog's home page without the plugin\nexecutes 24 queries (0.02403 sec); with the plugin enabled, only 4 queries (0.00188 sec).\nUnlike",
+                "uid": "117296"
+            }
+        }
+    }
+}

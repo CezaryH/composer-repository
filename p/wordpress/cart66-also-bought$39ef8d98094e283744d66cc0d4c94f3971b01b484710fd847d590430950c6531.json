@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/cart66-also-bought": {
+            "1.0.0": {
+                "name": "wordpress\/cart66-also-bought",
+                "version": "1.0.0",
+                "version_normalized": "1.0.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/cart66-also-bought.1.0.0.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>Help increase sales by showing relevant items that were also bought by previous customers. This plugin will lookup previous orders that contain the item and return the other items that were included with the order. Including relevant items like this will help increase sales as well as adding more link depth to your site.<\/p>\n\n<p>Obviously, you will need the Cart66 Shop plugin to use this. If you try to use it without it then good luck with that. You can change the amount of items shown in the settings page that is a sub-menu of the Cart66 settings. Also, you can edit you loop template in the views\/template.php file.<\/p>",
+                "uid": "117072"
+            }
+        }
+    }
+}

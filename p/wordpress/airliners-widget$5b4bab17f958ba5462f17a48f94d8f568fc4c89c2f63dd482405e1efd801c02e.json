@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/airliners-widget": {
+            "1.0": {
+                "name": "wordpress\/airliners-widget",
+                "version": "1.0",
+                "version_normalized": "1.0.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/airliners-widget.1.0.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>This widget allows you to display an Airliners.net aviation picture on your website. You can easily choose between a random picture, the \"Top Of Yesterday\" picture, or a specific picture by specifying the picture ID in the widget's parameters.<\/p>\n\n<p>The widget uses a class called \"widget_airliners_widget\" allowing you to enforce some rendering, as the default block provided by Airliners.net is black with white writing.<\/p>\n\n<p>Included is airliners-widget.css style sheet that shows how to get the block with gray writing and transparent background. Feel free to edit this file to suit your needs !<\/p>\n\n<p>This widget also supports shortcodes !<\/p>\n\n<p>Just add a [airliners] shortcode to any of you posts and you'll get a random Airliners.net picture by default !\nThe shortcode supports two parameters : imgtype and imgid.\n* imgtype indicates what type of picture you want to show, it can take one of these values : random, yesterday, picture\n* imgid sets the id of the specific picture yo",
+                "uid": "117322"
+            }
+        }
+    }
+}

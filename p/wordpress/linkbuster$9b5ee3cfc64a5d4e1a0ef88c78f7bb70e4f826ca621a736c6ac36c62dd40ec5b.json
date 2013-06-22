@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/linkbuster": {
+            "0.1": {
+                "name": "wordpress\/linkbuster",
+                "version": "0.1",
+                "version_normalized": "0.1.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/linkbuster.0.1.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>There are plenty of occasions where I'd love to use a plugin from another developer, but I need to disable links that the plugin creates. For instance, Genesis Responsive Slider is awesome, but sometimes I don't want the links to be active. I just want to show the slider content. LinkBuster will allow you to specify a CSS Path (a div class or ID, etc) and will replace all the hrefs with # so they links are effectively disabled.<\/p>\n\n<p>The plugin creates a widget. That widget can be placed in any widget area. Multiple LinkBuster widgets can be used to disable links in separate CSS paths.<\/p>",
+                "uid": "117326"
+            }
+        }
+    }
+}

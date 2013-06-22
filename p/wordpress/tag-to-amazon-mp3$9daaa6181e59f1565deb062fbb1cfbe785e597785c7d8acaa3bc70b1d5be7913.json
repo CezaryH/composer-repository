@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/tag-to-amazon-mp3": {
+            "1.0": {
+                "name": "wordpress\/tag-to-amazon-mp3",
+                "version": "1.0",
+                "version_normalized": "1.0.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/tag-to-amazon-mp3.1.0.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>This plugin produces a shortcode that will take your tags and look for related music tracks on the Amazon.co.uk download store. You can add your amazon affiliate id and set a default node for music genre.<\/p>\n\n<p>It is limited to the UK version of Amazon at the moment. I'm sure osmeone will be able to fork this plugin off for other amazon stores.<\/p>\n\n<p>Just fill in the settings page and then place the shortcode where you want, it will pull the tags of the post to use as keyword seach. I use this on my music video sharing site where I only use tags for the names of the artists. If there is no music by the artist it will try and pull in tracks from your default node.<\/p>\n\n<p>Demo site: <a href=\"http:\/\/ypraise.com\" rel=\"nofollow\">http:\/\/ypraise.com<\/a> - the MP3 player is about half way down the right sidebar. Go to one of the artists and you'll see the mp&#163;  change according to the tag which I have set as artist name. When it is a category with no tag then the plugin will try re",
+                "uid": "117032"
+            }
+        }
+    }
+}

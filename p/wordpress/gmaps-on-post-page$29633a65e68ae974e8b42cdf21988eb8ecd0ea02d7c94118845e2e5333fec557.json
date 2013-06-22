@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/gmaps-on-post-page": {
+            "0.5": {
+                "name": "wordpress\/gmaps-on-post-page",
+                "version": "0.5",
+                "version_normalized": "0.5.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/gmaps-on-post-page.0.5.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>GMaps_on_Post_Page is a wordpress plugin that allows you to embed a google map in a page or post and let the width and height scale with a responsive design.<\/p>\n\n<p>Available Params:\n* flex: boolean - specify if the map object should scale\n* width: int - width of the static map\n* height: int - height of the static map\n* src: string - source of the google map to embed<\/p>\n\n<p>Insert the following shortcode into a post or page:\n* Flexible Example: <code>[GMaps_on_Post_Page src=\"https:\/\/maps.google.com\/maps?q=London,+UK\" ]<\/code>\n* Static Example: <code>[GMaps_on_Post_Page src=\"https:\/\/maps.google.com\/maps?q=London,+UK\" flex=\"false\" width=\"640\" height=\"480\" ]<\/code><\/p>\n\n<p>Documentation is available via <a href=\"http:\/\/konfeldt.com\/\">Konfeldt.com<\/a><\/p>",
+                "uid": "117118"
+            }
+        }
+    }
+}

@@ -1,0 +1,40 @@
+{
+    "packages": {
+        "wordpress\/disable-insecure-features": {
+            "0.3": {
+                "name": "wordpress\/disable-insecure-features",
+                "version": "0.3",
+                "version_normalized": "0.3.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/disable-insecure-features.0.3.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>This disables pingbacks on previously published posts and pages,hides the readme.html, license.txt and fixes wp-config.php and .htaccess permissions so hackers can't modify them.<\/p>",
+                "uid": "8178"
+            },
+            "0.4": {
+                "name": "wordpress\/disable-insecure-features",
+                "version": "0.4",
+                "version_normalized": "0.4.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/disable-insecure-features.0.4.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>This disables pingbacks on previously published posts and pages,hides the readme.html, license.txt and fixes wp-config.php and .htaccess permissions so hackers can't modify them.<\/p>",
+                "uid": "117575"
+            }
+        }
+    }
+}

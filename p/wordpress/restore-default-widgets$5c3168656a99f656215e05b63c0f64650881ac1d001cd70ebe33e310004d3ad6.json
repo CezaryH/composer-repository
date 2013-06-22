@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/restore-default-widgets": {
+            "1.0": {
+                "name": "wordpress\/restore-default-widgets",
+                "version": "1.0",
+                "version_normalized": "1.0.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/restore-default-widgets.1.0.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>Some themes and plugins unregister WordPress's default widgets, usually to replace them with enhanced versions. However, there are cases in which you may want to use the original widgets. This plugin simply re-registers all default widgets.<\/p>\n\n<p>You can follow on <a href=\"https:\/\/github.com\/stevengliebe\/restore-default-widgets\">GitHub<\/a>.<\/p>",
+                "uid": "117167"
+            }
+        }
+    }
+}

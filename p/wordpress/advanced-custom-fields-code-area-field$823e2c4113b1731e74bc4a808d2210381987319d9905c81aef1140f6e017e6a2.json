@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/advanced-custom-fields-code-area-field": {
+            "1.0.0": {
+                "name": "wordpress\/advanced-custom-fields-code-area-field",
+                "version": "1.0.0",
+                "version_normalized": "1.0.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/advanced-custom-fields-code-area-field.1.0.0.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>The 'Code Area' field allows you to add custom CSS, Javascript, HTML and PHP to an advanced custom field, whcih can be use anywhere in your wordpress template files.<\/p>\n\n<p>The code area uses <a href=\"http:\/\/codemirror.net\">Code Mirror<\/a> and has various themes to suit.<\/p>\n\n<p><strong>CSS<\/strong>\nType your css, no  tags needed<\/p>\n\n<p><strong>Javascript<\/strong>\nType your Javascript, no  tags needed<\/p>\n\n<p><strong>PHP<\/strong>\nType your PHP, no  tags needed (Note, you can not open and close php tags anywhere in your code)<\/p>\n\n<p>Output all types of code in the usual fashion the_field('code_area_field');<\/p>\n\n<p><strong>Compatible with both ACF V3 &#38; V4<\/strong><\/p>",
+                "uid": "117122"
+            }
+        }
+    }
+}

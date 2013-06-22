@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/feedbacq-ad-hook": {
+            "1.0": {
+                "name": "wordpress\/feedbacq-ad-hook",
+                "version": "1.0",
+                "version_normalized": "1.0.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/feedbacq-ad-hook.1.0.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>The 'feedbacq ad hook' plug-in provides the facility to pin an image link in your sidebar or in a post. After installing this plug-in you can find a feedbacq Ad Hook widget in your widgets area drag and drop the widget in sidebar. You can then configure this plugin by uploading the image, setting the dimension, etc. You can also use the following short code in a post to display this image.<\/p>\n\n<p>USE<\/p>\n\n<p>short code syntax: [feedbacq_AH title=\"title\"]\noptional :  width=\"number\" height=\"number\" url=\"url\"<\/p>\n\n<p>short code eg:- [feedbacq_AH title=\"New Ad\" width=\"200\" height=\"300\" url=\"http:\/\/www.feedbacq.com\" ]<\/p>",
+                "uid": "117091"
+            }
+        }
+    }
+}

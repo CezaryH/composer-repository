@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/umanit-update-urls": {
+            "1.0": {
+                "name": "wordpress\/umanit-update-urls",
+                "version": "1.0",
+                "version_normalized": "1.0.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/umanit-update-urls.1.0.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>This plugin updates all URLs in the database after moving your site from one domain to another. It is useful for switching between development, testing and production stages.<\/p>\n\n<p>Why this plugin ? WordPress stores absolute URLs in :<\/p>\n\n<ul>\n<li>posts (including pages and custom post types), drafts<\/li>\n<li>excerpts<\/li>\n<li>medias<\/li>\n<li>custom fields<\/li>\n<li>options (including 'siteurl' and 'home', in wp_options table)<\/li>\n<li>GUIDs (only for development)<\/li>\n<\/ul>\n\n<p>When moving your website to a new domain, all these links will point to your old domain name and become outdated.<\/p>",
+                "uid": "117200"
+            }
+        }
+    }
+}

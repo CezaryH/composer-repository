@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/bc-responsive-images": {
+            "1.0.0": {
+                "name": "wordpress\/bc-responsive-images",
+                "version": "1.0.0",
+                "version_normalized": "1.0.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/bc-responsive-images.1.0.0.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>BC Responsive Images is a WordPress shortcode plugin to enable editors and developers to automatically generate and manage <a href=\"http:\/\/responsiveimages.org\/\">Responsive Images<\/a> via the WP Editor and within template files.<\/p>\n\n<p>Originally created by Burfield's team of <a href=\"http:\/\/www.burfieldcreative.co.uk\">Bath WordPress Designers<\/a> for internal use, we have subsequently released it as a Plugin with the following features<\/p>\n\n<ul>\n<li>Mobile first - utilizes the excellent <a href=\"http:\/\/jquerypicture.com\/\">jQuery Picture Plugin<\/a> to serve appropriately sized images only when required.<\/li>\n<li>Resizes images on-the-fly - powered by the superb <a href=\"https:\/\/github.com\/humanmade\/WPThumb\">WPThumb Plugin<\/a> (where available) to avoid the dreaded \"Regenerate Thumbnails\" issue. Falls-back to WP Core images.<\/li>\n<li>Fully featured shortcode <code>[brimg]<\/code> to allow editors to create Responsive Images within posts.<\/li>\n<li>Powerful and customisable template fu",
+                "uid": "117055"
+            }
+        }
+    }
+}
