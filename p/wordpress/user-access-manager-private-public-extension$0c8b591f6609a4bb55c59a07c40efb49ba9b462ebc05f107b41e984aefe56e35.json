@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/user-access-manager-private-public-extension": {
+            "0.2": {
+                "name": "wordpress\/user-access-manager-private-public-extension",
+                "version": "0.2",
+                "version_normalized": "0.2.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/user-access-manager-private-public-extension.0.2.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>User Access Manager Private &#38; Public Extension (UAMPPE) protects parts of the content of your posts from the view of unauthorized users. Unregistered users can't read the information that you mark as private, but you can show them an anternative message to require for register to access the information.\nAlso you can block parts of your posts to some groups or allow some groups to view it, this plugin works connected with User Access Manager plugin and uses groups defined in UAM to block posts. When a user can't access the private part of a post a message an anternative may be displayed.\nIn addition, this \"Public Extension\" is a fork of the original UAMPE by eberzosa to allow displaying of content only meant for not logged-in\/guest users.<\/p>\n\n<p><strong>Feature list<\/strong><\/p>\n\n<ul>\n<li>Display content for guests only.<\/li>\n<li>Multiple protected parts in each post<\/li>\n<li>Allow \/ Deny view of the protected parts to one\/multiple groups of users<\/li>\n<li>Use ID or Name to spec",
+                "uid": "118884"
+            }
+        }
+    }
+}

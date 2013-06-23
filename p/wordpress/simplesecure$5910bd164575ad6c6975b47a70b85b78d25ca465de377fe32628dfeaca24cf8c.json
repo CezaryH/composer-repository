@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/simplesecure": {
+            "0.0.2": {
+                "name": "wordpress\/simplesecure",
+                "version": "0.0.2",
+                "version_normalized": "0.0.2.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/simplesecure.0.0.2.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>SimpleSecure is a plugin that allows you to insert a secure contact form on any page or post.\nThe email message submitted by your visitor is securely encrypted using GPG\/PGP, however no binaries are\nrequired nor are any shell calls necessary.  SimpleSecure includes a pure PHP port of the GPG encryption functions\nwhich allows it to run on any server that supports PHP.  In other words, you do not need to install GPG or allow shell \naccess to PHP on your server.<\/p>\n\n<p>The reason for implementing PGP in pure PHP is to make installation and configuration of the plugin\nsimple and easy.  You do not need admin access nor do you need to modify file permissions on your server.\nIf you have struggled with encrypted form processors in the past you'll be surprised at how SimpleSecure\n\"just works\" out of the box with almost zero configuration.<\/p>\n\n<p>PGP is a data encryption and decryption computer program that provides cryptographic privacy and \nauthentication for data communication.  PGP can ",
+                "uid": "117045"
+            }
+        }
+    }
+}
