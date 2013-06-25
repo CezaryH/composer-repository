@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/github-gist-files-shortcode": {
+            "1.1": {
+                "name": "wordpress\/github-gist-files-shortcode",
+                "version": "1.1",
+                "version_normalized": "1.1.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/github-gist-files-shortcode.1.1.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>Three ways are provided to insert the shortcode. The value \"xxxxxx\" represents your Gist ID, and \"name\" is the filename of the file within the Gist.<\/p>\n\n<ul>\n<li>Insert [gist id=\"xxxxxx\" file=\"name\"] manually.<\/li>\n<li>By using the HTML Editor shortcode button.<\/li>\n<li>By pressing ctrl+alt+g.\n*You can place these shortcodes in pages, posts or any custom content.<\/li>\n<\/ul>",
+                "uid": "119007"
+            }
+        }
+    }
+}

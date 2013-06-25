@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/smarts3": {
+            "0.0.1": {
+                "name": "wordpress\/smarts3",
+                "version": "0.0.1",
+                "version_normalized": "0.0.1.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/smarts3.0.0.1.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>SmartS3 is a simple video plugin that lets you easily embed Amazon S3 videos into your WordPress blog. The current version\nsupports:<\/p>\n\n<ul>\n<li>Signed, expiring URLs<\/li>\n<li>Flowplayer video player<\/li>\n<li>Flowplayer commercial license<\/li>\n<li>HTML5 video support (via FlowPlayer)<\/li>\n<li>Responsive video display<\/li>\n<li>Flash fallback<\/li>\n<li>MP4, OGG, and WebM video formats<\/li>\n<li>Shortcode generator for easy embedding<\/li>\n<li>Hooks for custom JavaScript variables<\/li>\n<\/ul>\n\n<p>Keep in mind, this is an initial beta version meant for development and testing. This version is not yet suitable\nfor production sites. Please send any bug reports or feature requests to @jpmorris on Twitter.<\/p>",
+                "uid": "119018"
+            }
+        }
+    }
+}

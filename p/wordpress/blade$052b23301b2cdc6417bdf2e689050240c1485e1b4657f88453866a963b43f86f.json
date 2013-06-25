@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/blade": {
+            "0.1.0": {
+                "name": "wordpress\/blade",
+                "version": "0.1.0",
+                "version_normalized": "0.1.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/blade.0.1.0.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>Note that the plugin is in beta and changes made in the future could result in your current code no longer working.<\/p>\n\n<p>Blade is the templae engine for Laravel, a very popular php framework, developed by Taylor Otwell. This plugin brings the same template engine to wordpress.\nUsing a template engine will result in much cleaner template files and quicker development. Normal php can still be used in the template files.\nThe plugin also adds a wordpress specific snippet to blade. Check out the examples for more info.<\/p>\n\n<h4>echo\/print<\/h4>\n\n<pre><code>&#60;?php echo $foo ?&#62;<\/code><\/pre>\n\n<p>can be replaced with...<\/p>\n\n<pre><code>{{$foo}}<\/code><\/pre>\n\n<h4>post data<\/h4>\n\n<pre><code>&#60;?php the_title() ?&#62;<\/code><\/pre>\n\n<p>can be replaced with...<\/p>\n\n<pre><code>{{the_title()}}<\/code><\/pre>\n\n<h4>if()<\/h4>\n\n<pre><code>&#60;?php if(has_post_thumbnail()) : ?&#62;\n    &#60;?php the_post_thumbnail() ?&#62;\n&#60;?php else: ?&#62;\n    &#60;img src=&#34;&#60;?php get_bloginfo( &#",
+                "uid": "118938"
+            }
+        }
+    }
+}

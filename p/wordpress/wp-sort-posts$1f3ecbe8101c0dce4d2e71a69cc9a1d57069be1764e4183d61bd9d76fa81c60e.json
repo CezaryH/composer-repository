@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/wp-sort-posts": {
+            "1.0": {
+                "name": "wordpress\/wp-sort-posts",
+                "version": "1.0",
+                "version_normalized": "1.0.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/wp-sort-posts.1.0.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>This plugin adds a drop-down list with the ability to sort your blog posts:\n*   sort by title;\n*   sort by date (newest first);\n*   sort by date (oldest first);\n*   sort by date last modified.<\/p>\n\n<p>Paste the following code in the templates 'index.php', 'archive.php', 'category.php' or\/and 'author.php'  etc.:<\/p>\n\n<pre><code>&#60;?php\nif (function_exists(&#039;wpsp_orderby_posts_form&#039;)):\n  wpsp_orderby_posts_form();\nendif;\n?&#62;<\/code><\/pre>\n\n<p>This tag must be before The Loop. For more information go to the \"Installation\".<\/p>",
+                "uid": "119038"
+            }
+        }
+    }
+}

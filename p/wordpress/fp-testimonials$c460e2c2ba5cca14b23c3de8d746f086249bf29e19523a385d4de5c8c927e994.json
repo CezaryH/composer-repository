@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/fp-testimonials": {
+            "1.0.0": {
+                "name": "wordpress\/fp-testimonials",
+                "version": "1.0.0",
+                "version_normalized": "1.0.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/fp-testimonials.1.0.0.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>FP Testimonials allows you to create testimonials and display the associated testimonials on your sidebar using widgets. The sliding options are managable from wordpress admin area. You can use shortcode ([textimonial limit=5]) for showing in page, here 5 is for example, you can place yours, if you don't want to place limit then just place [testimonial], it will display 10 posts by default.<\/p>\n\n<p>You can control over your testimonial sliding transion effect, time, direction etc.<\/p>\n\n<h4>Plugin Settings<\/h4>\n\n<ul>\n<li>Div ID - textbox (by default it is - testimonial, you can use anything but no space between words)<\/li>\n<li>Speed - textbox (You can use 300, 400, 500 etc, Remember they are in Milisecond)<\/li>\n<li>Delay Time - textbox (You can use 3000, 4000, 5000 etc, Remember they are in Milisecond)<\/li>\n<li>Direction - Options<\/li>\n<li>Slide Limit - Options<\/li>\n<li>Pagination - Options<\/li>\n<li>Hover Control - Options<\/li>\n<li>Control Buttons - Options<\/li>\n<li>Pagination - Opti",
+                "uid": "119025"
+            }
+        }
+    }
+}

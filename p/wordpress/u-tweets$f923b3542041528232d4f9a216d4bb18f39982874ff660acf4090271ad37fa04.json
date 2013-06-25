@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/u-tweets": {
+            "1.0": {
+                "name": "wordpress\/u-tweets",
+                "version": "1.0",
+                "version_normalized": "1.0.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/u-tweets.1.0.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<h4>U-Tweets<\/h4>\n\n<p>U-Tweets is a very easy to use plugin to display your needed tweets feeds on your web site. It is powered with Twitter's OAuth \nprotocol and ajax.<\/p>\n\n<h4>Features<\/h4>\n\n<ul>\n<li>Works with Twitter API v1.1.<\/li>\n<li>Easily configurable.<\/li>\n<li>Supports OAuth Token Authentication (via Twitter App)<\/li>\n<li>Ajax powered (Tweets refresh live)<\/li>\n<\/ul>\n\n<h4>Contribute<\/h4>\n\n<p>You may also contribute to the plugin yourself on Github. <a href=\"https:\/\/github.com\/ultimatumtheme\/utweets\">Get involved!<\/a><\/p>\n\n<h4>Support<\/h4>\n\n<p>If you are having issues, set $debug = true; in lib\/tweets.php. Errors <em>should<\/em> be logged to the JS console on execution.<\/p>\n\n<p>If you still can't figure it out, feel free to submit an issue on <a href=\"https:\/\/github.com\/ultimatumtheme\/utweets\">github page of the plugin<\/a><\/p>\n\n<p>Unfortunately, We can not guarantee any support for this. We will, however, provide help and support within the constraints of our schedule.<\/p>",
+                "uid": "118928"
+            }
+        }
+    }
+}

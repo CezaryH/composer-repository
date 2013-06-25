@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/gumroad": {
+            "1.0.0": {
+                "name": "wordpress\/gumroad",
+                "version": "1.0.0",
+                "version_normalized": "1.0.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/gumroad.1.0.0.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>The Gumroad overlay lets you bring in the Gumroad purchase pages right onto your site, so that transactions can happen inline &#8212; in a pretty Gumroad lightbox &#8212; without ruining the browsing experience for your customers (taken from the official <a href=\"https:\/\/gumroad.com\/overlay\">Gumroad overlay documentation<\/a>).<\/p>\n\n<p>This plugin simply embeds the Gumroad JavaScript snippet on the posts or pages you specify. Just check the box in the sidebar when editing a post or page.<\/p>\n\n<p>You can also enable Gumroad on pages with multiple posts such as home or archive pages.<\/p>\n\n<p>Then just add the links to your Gumroad products on your posts and pages (i.e. <code><a href=\"http:\/\/gum.co\/demo\" rel=\"nofollow\">http:\/\/gum.co\/demo<\/a><\/code>).<\/p>",
+                "uid": "119013"
+            }
+        }
+    }
+}

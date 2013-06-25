@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/vk-image": {
+            "1.1": {
+                "name": "wordpress\/vk-image",
+                "version": "1.1",
+                "version_normalized": "1.1.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/vk-image.1.1.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>This plugin forces vk.com to use the first image from post while sharing a link. If there is no image in post or if it is front page, the defaut image will be used, which can be set up on plugin's settings page.<\/p>",
+                "uid": "118940"
+            }
+        }
+    }
+}

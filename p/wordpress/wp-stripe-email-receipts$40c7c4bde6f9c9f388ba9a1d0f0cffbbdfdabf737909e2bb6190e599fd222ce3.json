@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/wp-stripe-email-receipts": {
+            "1.0": {
+                "name": "wordpress\/wp-stripe-email-receipts",
+                "version": "1.0",
+                "version_normalized": "1.0.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/wp-stripe-email-receipts.1.0.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p><em>WP Stripe Email Receipts<\/em> is an add-on for the <a href=\"http:\/\/wordpress.org\/plugins\/wp-stripe\/\">WP Stripe<\/a> plugin, which sends an email receipt to the user after a successful Stripe transaction.<\/p>\n\n<p>It provides a settings page where you can customize the \"from\" name, \"from\" email address, message subject, and message body text of the email that is sent to the user.<\/p>",
+                "uid": "119015"
+            }
+        }
+    }
+}

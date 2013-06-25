@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/mysqli": {
+            "1.0": {
+                "name": "wordpress\/mysqli",
+                "version": "1.0",
+                "version_normalized": "1.0.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/mysqli.1.0.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>MySQL is deprecated and this plugin creates a layer to use MySQLi instead. So you don't get notices when using PHP 5.5<\/p>\n\n<p>Be sure to read the installation instructions, as this is <strong>not<\/strong> a traditional plugin, and needs to be installed in a specific location.<\/p>",
+                "uid": "118942"
+            }
+        }
+    }
+}

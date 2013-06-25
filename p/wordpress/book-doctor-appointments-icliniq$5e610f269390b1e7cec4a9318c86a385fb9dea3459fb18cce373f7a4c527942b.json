@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/book-doctor-appointments-icliniq": {
+            "1.0": {
+                "name": "wordpress\/book-doctor-appointments-icliniq",
+                "version": "1.0",
+                "version_normalized": "1.0.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/book-doctor-appointments-icliniq.1.0.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>This plugin uses <a href=\"https:\/\/www.icliniq.com\" rel=\"nofollow\">https:\/\/www.icliniq.com<\/a> 's doctor search API to list doctors in your website. Users can book doctor appointments directly from your website. The plugin is very <strong>flexible<\/strong> and you can configure location and speciality for the doctors to be listed on your website.<\/p>\n\n<p>To display the doctor listing anywhere in the code, the following method should be used<\/p>\n\n<pre><code>&#60;?php display_search_result_body($page, $results_per_page){ ?&#62;<\/code><\/pre>\n\n<p>where $page and $results_per_page are:<\/p>\n\n<ul>\n<li><strong>$page<\/strong>           - page number of the search result; put 1 for the first page<\/li>\n<li><strong>$results_per_page<\/strong> - number of listing per page<\/li>\n<\/ul>\n\n<p>e.g: <code>&#60;?php display_search_result_body(1, 10); ?&#62;<\/code><\/p>\n\n<p>Find out more at <a href=\"http:\/\/icliniq.com\/pages\/display\/page\/wordpress-plugin\" rel=\"nofollow\">http:\/\/icliniq.com\/pages\/display\/page\/w",
+                "uid": "119017"
+            }
+        }
+    }
+}

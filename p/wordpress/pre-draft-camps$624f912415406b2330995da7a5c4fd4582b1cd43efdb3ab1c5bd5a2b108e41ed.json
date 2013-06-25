@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/pre-draft-camps": {
+            "1.0": {
+                "name": "wordpress\/pre-draft-camps",
+                "version": "1.0",
+                "version_normalized": "1.0.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/pre-draft-camps.1.0.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>This plugin create Pre Draft Camp environment on your website.<\/p>\n\n<p>You can create\/manage Camp, Venue, Coach and Players within your website.\nPlayer can register for any camp by filling form and do payment of camp fees mentioned in admin panel.\nI used Paypa PRO for payment and admn can change the credentials from admin panel under Settings Tab.<\/p>\n\n<p>Shortcodes are available for upcoming camp listing and detail page for any camp by id and camp listing.<\/p>\n\n<p>Upcoming camp listing: [upcoming_camps]<\/p>\n\n<p>Camp Detail Page: [pdc_camp campid=CAMPID]<\/p>\n\n<p>Camp Listing Page: [pdc_camp_listing]<\/p>\n\n<p>Plugin contain its own template for camp detail page.<\/p>\n\n<p>Widget is also here to show up-coming camp in slide show way.<\/p>\n\n<p>I have tested it and 100% working.<\/p>",
+                "uid": "8269"
+            }
+        }
+    }
+}

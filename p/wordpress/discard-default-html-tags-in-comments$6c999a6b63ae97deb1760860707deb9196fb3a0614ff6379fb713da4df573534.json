@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/discard-default-html-tags-in-comments": {
+            "1.0": {
+                "name": "wordpress\/discard-default-html-tags-in-comments",
+                "version": "1.0",
+                "version_normalized": "1.0.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/discard-default-html-tags-in-comments.1.0.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>This plugin removes all the basic html tags in the comments section like \"You may use these HTML tags and attributes: <a href=\"\" title=\"\"><br \/><\/a><\/p>\n\n<p>&#60;<\/p>\n\n<p>blockquote cite=\"\"&#62; <cite> <code>  <em>    <strong>\"...<\/strong><\/em><\/code><\/cite><\/p>",
+                "uid": "118941"
+            }
+        }
+    }
+}
