@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/automatic-video-page": {
+            "1.0": {
+                "name": "wordpress\/automatic-video-page",
+                "version": "1.0",
+                "version_normalized": "1.0.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/automatic-video-page.1.0.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>Este plugin permite crear contenido automatico y relevante para tu pagina. Hace llamadas a la API de GoodFidelity.com la cual devuelve informacion relacionada con tu busqueda. Bastara con poner el titulo de tu post y el plugin se encargara de buscar el contenido relacionado poniendo un shortcode en tus post o pages. Por ej. [videos buscar=\"Adele\" num=\"10\"]. Este plugin es responsive. Contribuira con el posicionamiento SEO de tu pagina, ampliando su contenido en pocos segundos. Puedes crear cientos de paginas rapidamente. Por ej. Rihanna, Adele, Paul Simon, Eminem, etc, etc. [videos buscar=\"Rihanna\" num=\"50\"]. (num = max 50).<\/p>\n\n<h4>Features<\/h4>\n\n<ul>\n<li>Crea contenido relevante automaticamente en html.<\/li>\n<li>Es indexable por los robots de los buscadores.<\/li>\n<li>Ayuda en el SEO.<\/li>\n<\/ul>",
+                "uid": "117085"
+            }
+        }
+    }
+}

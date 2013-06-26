@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/converter": {
+            "1.0": {
+                "name": "wordpress\/converter",
+                "version": "1.0",
+                "version_normalized": "1.0.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/converter.1.0.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>This plugin adds a widget that allows your users to convert different ingredients to different measurements. The data is taken from two csv files: data\/ingredients.csv and data\/measurements.csv. You can add as much more ingredients or measurements as you like.<\/p>",
+                "uid": "119221"
+            }
+        }
+    }
+}

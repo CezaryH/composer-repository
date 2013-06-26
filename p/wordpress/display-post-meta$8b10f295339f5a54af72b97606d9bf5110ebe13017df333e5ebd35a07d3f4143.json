@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/display-post-meta": {
+            "1.0": {
+                "name": "wordpress\/display-post-meta",
+                "version": "1.0",
+                "version_normalized": "1.0.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/display-post-meta.1.0.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>This plugin was designed for the purpose of outputting the meta data associated with a WP post or page so developers and site designers can verify what information is available.<\/p>\n\n<p>To use this plugin, simply activate then either:\n1. Place the shortcode [show_meta] in the body of the post or page you wish to view meta data for.\n1. Navigate to any page on your site and simply add ?show_meta to the end of your URL string.<\/p>",
+                "uid": "119231"
+            }
+        }
+    }
+}

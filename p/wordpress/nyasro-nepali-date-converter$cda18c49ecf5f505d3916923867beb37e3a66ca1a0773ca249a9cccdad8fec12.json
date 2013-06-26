@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/nyasro-nepali-date-converter": {
+            "1.0": {
+                "name": "wordpress\/nyasro-nepali-date-converter",
+                "version": "1.0",
+                "version_normalized": "1.0.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/nyasro-nepali-date-converter.1.0.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>Nyasro Nepali Date Converter is plugin with widget which convert Nepali Date to English Date and English Date to Nepali Date.\nYou can use following shortcode either to display today's nepali date or to convert english-nepali date, anywhere in the post or pages.<\/p>\n\n<ul>\n<li>Use <code>[ny_dateconvert]<\/code> to show today nepali date.<\/li>\n<li>Use <code>[ny_dateconvert date='{date}']<\/code> to convert nepali date to english date.<\/li>\n<li>Use <code>[ny_dateconvert date='{date}' convert='{type}']<\/code> to convert nepali to english date or english to nepali date.<\/li>\n<\/ul>\n\n<p>Where,<\/p>\n\n<ul>\n<li>{date} format is <code>YYYY-MM-DD<\/code> [<code>YYYY<\/code> : four digit year, <code>MM<\/code> : one or tow digits month, <code>DD<\/code> : one or digits day]<\/li>\n<li>{type} format is <code>eng_to_nep<\/code> or <code>nep_to_eng<\/code><\/li>\n<\/ul>\n\n<p>This plugin have special widget which allows user interface to convert english-nepali date or vice versa.\nYou can use following shortcode to ",
+                "uid": "119211"
+            }
+        }
+    }
+}
