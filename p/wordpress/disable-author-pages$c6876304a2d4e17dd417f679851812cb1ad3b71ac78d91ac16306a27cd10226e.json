@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/disable-author-pages": {
+            "0.1": {
+                "name": "wordpress\/disable-author-pages",
+                "version": "0.1",
+                "version_normalized": "0.1.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/disable-author-pages.0.1.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>Disable the author pages ( \/author=? ) in wordpress and redirect the user to another page.<\/p>\n\n<p>Entrys in the changelog with numbers means the ticket id on <a href=\"http:\/\/bugs.staude.net\" rel=\"nofollow\">http:\/\/bugs.staude.net<\/a><\/p>",
+                "uid": "119420"
+            }
+        }
+    }
+}

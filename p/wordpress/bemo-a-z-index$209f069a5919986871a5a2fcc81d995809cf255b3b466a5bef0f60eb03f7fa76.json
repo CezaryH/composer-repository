@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/bemo-a-z-index": {
+            "0.0.3": {
+                "name": "wordpress\/bemo-a-z-index",
+                "version": "0.0.3",
+                "version_normalized": "0.0.3.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/bemo-a-z-index.0.0.3.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>This is a simple plugin that provides an A-Z index of the posts displayed on a particular page based on the post title.\nTo use this plugin just put the shortcode [azindex] on the page you want to display an A-Z index on.<\/p>\n\n<p>This is very beta at the moment, it has only been tested on query_posts() so don't go mad if it doesn't work for you. Let me know though.<\/p>\n\n<p>There are css styles that you can override in your own template.<\/p>\n\n<p>I'm available for paid support should you need any. By all means submit any bugs you find or feature requests to the Support area.<\/p>",
+                "uid": "119399"
+            }
+        }
+    }
+}

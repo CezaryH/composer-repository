@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/galleria": {
+            "1.0.0": {
+                "name": "wordpress\/galleria",
+                "version": "1.0.0",
+                "version_normalized": "1.0.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/galleria.1.0.0.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>Displays a beautiful image gallery in pages or posts.\nJust insert the <code>[gallery]<\/code> shortcode into your page or post, and any attached images will appear in the gallery.\nIt uses the awesome Galleria JavaScript image gallery framework, and it's easy to customize the display if you have JavaScript and CSS skills.\nIt's mobile- and touch-ready so you can easily swipe through your photos on supported devices.<\/p>\n\n<p>This plugin relies on the built-in gallery functionality of WordPress.\nAny images that are uploaded to (AKA attached) to a post or page will be pulled into this gallery.\nIn newer versions of WordPress you're able to add and remove images from a gallery, and even put them in a certain order.\nFor older versions of WP, you can specify the <code>ids<\/code> option in the shortcode in order to exclude and sort your images.\nHere's an example of a shortcode with specified image IDs:<\/p>\n\n<pre><code>[gallery ids=&#34;5,4,6,7&#34;]<\/code><\/pre>",
+                "uid": "119415"
+            }
+        }
+    }
+}

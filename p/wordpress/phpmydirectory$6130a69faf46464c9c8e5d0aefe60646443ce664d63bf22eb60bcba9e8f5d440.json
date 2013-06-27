@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/phpmydirectory": {
+            "1.0": {
+                "name": "wordpress\/phpmydirectory",
+                "version": "1.0",
+                "version_normalized": "1.0.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/phpmydirectory.1.0.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>The phpMyDirectory Wordpress plugin allows wordpress users to log into phpMyDirectory.  The plugin is configured in the Wordpress admin area.<\/p>\n\n<p>Users only need to log in once and they will be automatically logged into phpMyDirectory.  This allows phpMyDirectory to be used alongside Wordpress and for a directory to be easily created for Wordpress.<\/p>",
+                "uid": "119403"
+            }
+        }
+    }
+}

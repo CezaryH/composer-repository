@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/seo-nofollow-external": {
+            "0.1": {
+                "name": "wordpress\/seo-nofollow-external",
+                "version": "0.1",
+                "version_normalized": "0.1.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/seo-nofollow-external.0.1.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>This plugin will add rel=\"nofollow\" and target=\"_blank\" to all external links automatically.<\/p>\n\n<h4>Feature<\/h4>\n\n<ul>\n<li>Automatically Add rel=nofollow for all the external links of your blog\/websit.<\/li>\n<li>Automatically Add target=_blank for all the external link of your blog\/website.<\/li>\n<li>If you already added rel=dofollow to any post manually, this plugins will not add rel=nofollow for that post.<\/li>\n<li>If you already added target=_blank to any post manually, this plugins will not add target=_blank for that post.<\/li>\n<li>SEO Nofollow External will not add rel=nofollow and target=_blank any of the internal link of your blog\/website.<\/li>\n<\/ul>\n\n<p>Visit our website codeilike.com<\/p>\n\n<p>Thanks for your interest.<\/p>",
+                "uid": "119418"
+            }
+        }
+    }
+}
