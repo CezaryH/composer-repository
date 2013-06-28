@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/edd-changelog": {
+            "1.0": {
+                "name": "wordpress\/edd-changelog",
+                "version": "1.0",
+                "version_normalized": "1.0.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/edd-changelog.1.0.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>This plugin requires &#160;1.6 or greater.<\/p>\n\n<p>When using the&#160;<a href=\"http:\/\/wordpress.org\/extend\/plugins\/easy-digital-downloads\/\">Easy Digital Downloads<\/a>&#160;plugin to sell digital downloads, this plugin will allow you to optionally add a change log and version number to each of your downloads.<\/p>\n\n<p><strong>What does EDD Changelog do?<\/strong><\/p>\n\n<p>It does a few things...<\/p>\n\n<ul>\n<li>It adds a metabox to the download post page that allows you to enter the change log and the current version number.<\/li>\n<li>It'll automatically append the change log at the end of the download's product page in a collapsible container. If you do not want to automatically append the change log, there is an option to turn this feature off per download.<\/li>\n<li>It also adds a new shortcode, <code>[edd_changelog]<\/code>. This shortcode when used on a download page will automatically show the current downloads change log. The shortcode has 4 options, <code>id<\/code>, <code>toggle<\/co",
+                "uid": "119578"
+            }
+        }
+    }
+}

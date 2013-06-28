@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/attachment-files-importer": {
+            "0.0.1": {
+                "name": "wordpress\/attachment-files-importer",
+                "version": "0.0.1",
+                "version_normalized": "0.0.1.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/attachment-files-importer.0.0.1.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>Scan your Wordpress installation for all missing attachment files and download them from another Wordpress installation.<\/p>\n\n<p>Know that the plugin will not create new media on your installation, it'll just use the existings entries of medias in your database to retrieve the physical files on another Wordpress installation.<\/p>\n\n<p><strong>E.g.<\/strong>: <em><a href=\"http:\/\/serverA.com\" rel=\"nofollow\">http:\/\/serverA.com<\/a><\/em> have an entry for the <em>mediaX<\/em> in his database. The path for the physical file is supposed to be <em><a href=\"http:\/\/serverA.com\/wp-content\/uploads\/2013\/06\/mediaX.jpg\" rel=\"nofollow\">http:\/\/serverA.com\/wp-content\/uploads\/2013\/06\/mediaX.jpg<\/a><\/em> but it's not here. If you know that this same media exists on <em><a href=\"http:\/\/serverB.com\" rel=\"nofollow\">http:\/\/serverB.com<\/a><\/em> + the physical file, you can use this plugin on <em><a href=\"http:\/\/serverA.com\" rel=\"nofollow\">http:\/\/serverA.com<\/a><\/em>, specifying <em><a href=\"http:\/\/serverB.com\"",
+                "uid": "119581"
+            }
+        }
+    }
+}

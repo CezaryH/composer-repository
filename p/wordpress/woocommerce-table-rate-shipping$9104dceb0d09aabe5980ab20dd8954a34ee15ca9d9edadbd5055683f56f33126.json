@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/woocommerce-table-rate-shipping": {
+            "1.0": {
+                "name": "wordpress\/woocommerce-table-rate-shipping",
+                "version": "1.0",
+                "version_normalized": "1.0.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/woocommerce-table-rate-shipping.1.0.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>This plugin allows provide you the option to set the shipping rate based up on the cart price. You can set the cart price range and set the shipping cost corresponding to each range. If any of the range is not availabe then shipping cost will be free for that plugin. Admin can also change the title for the same.<\/p>",
+                "uid": "119569"
+            }
+        }
+    }
+}

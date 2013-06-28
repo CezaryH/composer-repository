@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/features": {
+            "0.0.1": {
+                "name": "wordpress\/features",
+                "version": "0.0.1",
+                "version_normalized": "0.0.1.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/features.0.0.1.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>A plugin inspired by Drupal's modules (<a href=\"https:\/\/drupal.org\/project\/features\">Features<\/a> and <a href=\"https:\/\/drupal.org\/project\/strongarm\">Strongarm<\/a>) that enable the versioning of options in Wordpress.<\/p>\n\n<p>The general idea is to export a maximum amount of settings and structural content of the database to files to be able to deploy them through <a href=\"https:\/\/en.wikipedia.org\/wiki\/Revision_control\">VCS<\/a> (like SVN, GIT, Mercurial).<\/p>\n\n<p>For now, the only exportable settings are the entries of the \"wp-options\" table.<\/p>\n\n<h4>Do you need this?<\/h4>\n\n<p>If you're the only developer working on you're website, you're having only one development environment (production server) and you do not use <a href=\"https:\/\/en.wikipedia.org\/wiki\/Revision_control\">VCS<\/a>: no, the only things you need is to close your eyes, cross your fingers and hope that everything go fine.<\/p>\n\n<h4>How to use it?<\/h4>\n\n<p>In the admin, a new page called <em>Features<\/em> is accessible unde",
+                "uid": "119571"
+            }
+        }
+    }
+}

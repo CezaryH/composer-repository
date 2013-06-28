@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/extended-table-of-contents-with-nextpage-support": {
+            "0.6.4": {
+                "name": "wordpress\/extended-table-of-contents-with-nextpage-support",
+                "version": "0.6.4",
+                "version_normalized": "0.6.4.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/extended-table-of-contents-with-nextpage-support.0.6.4.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>This plugin automatically generates and inserts a table of contents (ToC) to your pages and posts, based on tags h1-h6. Whenever the plugin discovers more than a certain amount of headings (default: 3) the ToC is inserted at the top of the page. This plugin also can handle posts that are divided into pages by the nextpage-wordpress-tag. Any feedback or suggestions are welcome.\n<\/p>",
+                "uid": "119566"
+            }
+        }
+    }
+}
