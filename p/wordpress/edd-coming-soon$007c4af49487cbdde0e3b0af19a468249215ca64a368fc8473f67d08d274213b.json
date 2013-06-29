@@ -1,0 +1,40 @@
+{
+    "packages": {
+        "wordpress\/edd-coming-soon": {
+            "1.1": {
+                "name": "wordpress\/edd-coming-soon",
+                "version": "1.1",
+                "version_normalized": "1.1.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/edd-coming-soon.1.1.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>This plugin requires <a href=\"http:\/\/wordpress.org\/extend\/plugins\/easy-digital-downloads\/\" title=\"Easy Digital Downloads\">Easy Digital Downloads<\/a>. It allows downloads to be \"Coming Soon\" or have Custom Status text, and prevents them from being added to the cart. It does a few things:<\/p>\n\n<ol>\n<li>Adds a checkbox to the download configuration so you can set the download to Coming Soon \/ Custom Status.<\/li>\n<li>Adds a text field to the download configuration so you can set the text to show (default \"Coming Soon\").<\/li>\n<li>Adds \"Coming Soon\" or your custom status text underneath the price on the admin pricing column<\/li>\n<li>Displays \"Coming Soon\" or the Custom Status text instead of the price when using the [downloads] shortcode, and anywhere else where the edd_price() function has been called.<\/li>\n<li>Prevents the coming soon download from being purchased. The plugin will remove the purchase button and stop the download from being added to cart via the edd_action. Eg ?edd_actio",
+                "uid": "8608"
+            },
+            "1.2": {
+                "name": "wordpress\/edd-coming-soon",
+                "version": "1.2",
+                "version_normalized": "1.2.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/edd-coming-soon.1.2.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>This plugin requires <a href=\"http:\/\/wordpress.org\/extend\/plugins\/easy-digital-downloads\/\" title=\"Easy Digital Downloads\">Easy Digital Downloads<\/a>. It allows downloads to be \"Coming Soon\" or have Custom Status text, and prevents them from being added to the cart. It does a few things:<\/p>\n\n<ol>\n<li>Adds a checkbox to the download configuration so you can set the download to Coming Soon \/ Custom Status.<\/li>\n<li>Adds a text field to the download configuration so you can set the text to show (default \"Coming Soon\").<\/li>\n<li>Adds \"Coming Soon\" or your custom status text underneath the price on the admin pricing column<\/li>\n<li>Displays \"Coming Soon\" or the Custom Status text instead of the price when using the [downloads] shortcode, and anywhere else where the edd_price() function has been called.<\/li>\n<li>Prevents the coming soon download from being purchased. The plugin will remove the purchase button and stop the download from being added to cart via the edd_action. Eg ?edd_actio",
+                "uid": "119807"
+            }
+        }
+    }
+}

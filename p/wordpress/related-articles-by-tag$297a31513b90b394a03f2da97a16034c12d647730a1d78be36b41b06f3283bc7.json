@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/related-articles-by-tag": {
+            "1.0.0": {
+                "name": "wordpress\/related-articles-by-tag",
+                "version": "1.0.0",
+                "version_normalized": "1.0.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/related-articles-by-tag.1.0.0.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>Related articles by tag is a plugin that will display, after the post content, a list of links to posts that have the same tag. It is a great way to have the search engine index all your pages.\nYou can tag pages as well so they can be part of the related articles. The plugin comes with a handy widget if you don't want to use the shortcode.\nUse the shortcode [related-articles-by-tag] where you want the related articles to appear.<\/p>",
+                "uid": "119760"
+            }
+        }
+    }
+}

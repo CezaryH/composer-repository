@@ -1,0 +1,40 @@
+{
+    "packages": {
+        "wordpress\/download-monitor-legacy-importer": {
+            "1.0.0": {
+                "name": "wordpress\/download-monitor-legacy-importer",
+                "version": "1.0.0",
+                "version_normalized": "1.0.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/download-monitor-legacy-importer.1.0.0.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>Provides an importer to convert your old 3.0.x downloads to the new download monitor custom post types. Simply go to Tools &#62; Import, click \"Download Monitor Legacy Importer\" and follow the on-screen instructions.<\/p>\n\n<p>Note on shortcodes: Download shortcodes containing IDs will mismatch the new Download IDs after import. Whilst active, the legacy plugin will try to step in if a legacy ID is called, however it is recommended that you update your content with new IDs to prevent errors. Some legacy shortcodes may no longer function - see the docs for the new shortcodes.<\/p>\n\n<p>Note on data: After import, the old tables will not be deleted. When you are happy that the import has been completed successfully, delete the old DLM tables manually.<\/p>\n\n<p>Backups: Please backup your database first. We are not responsible for any harm or wrong doing this plugin may cause. Users are fully responsible for their own use and data. This plugin is to be used WITHOUT warranty.<\/p>",
+                "uid": "118937"
+            },
+            "1.0.1": {
+                "name": "wordpress\/download-monitor-legacy-importer",
+                "version": "1.0.1",
+                "version_normalized": "1.0.1.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/download-monitor-legacy-importer.1.0.1.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>Provides an importer to convert your old 3.0.x downloads to the new download monitor custom post types. Simply go to Tools &#62; Import, click \"Download Monitor Legacy Importer\" and follow the on-screen instructions.<\/p>\n\n<p>Note on shortcodes: Download shortcodes containing IDs will mismatch the new Download IDs after import. Whilst active, the legacy plugin will try to step in if a legacy ID is called, however it is recommended that you update your content with new IDs to prevent errors. Some legacy shortcodes may no longer function - see the docs for the new shortcodes.<\/p>\n\n<p>Note on data: After import, the old tables will not be deleted. When you are happy that the import has been completed successfully, delete the old DLM tables manually.<\/p>\n\n<p>Backups: Please backup your database first. We are not responsible for any harm or wrong doing this plugin may cause. Users are fully responsible for their own use and data. This plugin is to be used WITHOUT warranty.<\/p>",
+                "uid": "119785"
+            }
+        }
+    }
+}

@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/animated-gif-resize": {
+            "1.0": {
+                "name": "wordpress\/animated-gif-resize",
+                "version": "1.0",
+                "version_normalized": "1.0.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/animated-gif-resize.1.0.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>This small plugin enables WordPress to properly resize animated GIFs. On many installations, WordPress will resize animated GIFs by taking the first frame only. This plugin fixes this problem.<\/p>\n\n<p>Thanks to Cl&#233;ment Guillemain for <a href=\"https:\/\/github.com\/Sybio\/GifCreator\">GifCreator<\/a> and <a href=\"https:\/\/github.com\/Sybio\/GifFrameExtractor\">GifFrameExtractor<\/a>.<\/p>\n\n<p>Note that this plugin can only resize animated GIFs at the moment. I will work on supporting rotations, reflections, etc when I have enough time.<\/p>",
+                "uid": "119778"
+            }
+        }
+    }
+}
