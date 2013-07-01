@@ -1,0 +1,40 @@
+{
+    "packages": {
+        "wordpress\/moderate-categories": {
+            "1.0": {
+                "name": "wordpress\/moderate-categories",
+                "version": "1.0",
+                "version_normalized": "1.0.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/moderate-categories.1.0.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<h4>Moderate Categories<\/h4>\n\n<p>Gives the WordPress admin the ability to give visibility access to roles and users for posts in a by-category way.<\/p>\n\n<p>This plugin does NOT modify the roles capabilities, your users will be able to do whatever their role says they can do, this tool just limits the back-end interface.<\/p>\n\n<p>This plug-in was written mainly because of the lack of intuitive category-moderation plug-ins, and because most of the plug-ins have \"restrict access\" logic rather than the more intuitive \"give access\" logic.<\/p>\n\n<h4>Features<\/h4>\n\n<ul>\n<li>By default, all categories are accessible (WP default)<\/li>\n<li>Role-Category rules define permissions for the entire role.<\/li>\n<li>User-Category rules define permissions for particular users and have higher priority.<\/li>\n<li>Adding a Rule for a single category, gives permission for this category ancestors (the whole parent branch in the category tree).\n\n<ul>\n<li>Adding a rule also removes permission to edit under other ca",
+                "uid": "8194"
+            },
+            "1.0.1": {
+                "name": "wordpress\/moderate-categories",
+                "version": "1.0.1",
+                "version_normalized": "1.0.1.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/moderate-categories.1.0.1.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<h4>Moderate Categories<\/h4>\n\n<p>Gives the WordPress admin the ability to give visibility access to roles and users for posts in a by-category way.<\/p>\n\n<p>This plugin does NOT modify the roles capabilities, your users will be able to do whatever their role says they can do, this tool just limits the back-end interface.<\/p>\n\n<p>This plug-in was written mainly because of the lack of intuitive category-moderation plug-ins, and because most of the plug-ins have \"restrict access\" logic rather than the more intuitive \"give access\" logic.<\/p>\n\n<h4>Features<\/h4>\n\n<ul>\n<li>By default, all categories are accessible (WP default)<\/li>\n<li>Role-Category rules define permissions for the entire role.<\/li>\n<li>User-Category rules define permissions for particular users and have higher priority.<\/li>\n<li>Adding a Rule for a single category, gives permission for this category ancestors (the whole parent branch in the category tree).\n\n<ul>\n<li>Adding a rule also removes permission to edit under other ca",
+                "uid": "119984"
+            }
+        }
+    }
+}
