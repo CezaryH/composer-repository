@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/wp-revisions-control": {
+            "1.0": {
+                "name": "wordpress\/wp-revisions-control",
+                "version": "1.0",
+                "version_normalized": "1.0.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/wp-revisions-control.1.0.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>WordPress 3.6 allows users to control how many revisions are stored for each supported post type. No longer must you rely on the <code>WP_POST_REVISIONS<\/code> constant, which applied universally. This plugin provides an interface for this new functionality.<\/p>\n\n<p>With this plugin enabled, simply visit <strong>Settings &#62; Writing<\/strong> to specify the number of revisions retained for each post type.<\/p>\n\n<p>Why is this helpful? Revisions are stored in the database, and if many are stored, can cause bloat. This bloat may lead to slower queries, which can have a noticeable performance impact. The value of these revisions also depends on what is being tracked. For example, I may want to store every revision of the posts I write, but only desire to keep the latest five versions of each page on my site. Starting in WordPress 3.6, this control is available. WordPress doesn&#8217;t provide a native interface to specify revisions quantities, so I wrote this quick plugin to do so.<\/p>",
+                "uid": "120216"
+            }
+        }
+    }
+}

@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/nyasro-world-day": {
+            "1.0": {
+                "name": "wordpress\/nyasro-world-day",
+                "version": "1.0",
+                "version_normalized": "1.0.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/nyasro-world-day.1.0.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>Nyasro World Day is the plugin which shows today's or upcoming world event or international day.<\/p>\n\n<ul>\n<li>Use <code>[nyday]<\/code> to show today's or upcoming day.<\/li>\n<\/ul>\n\n<p>If you are a developer then use following <em>PHP<\/em> code for date converter.<\/p>\n\n<ul>\n<li>To show today's or upcoming day or event :<\/li>\n<\/ul>\n\n<pre><code>&#60;?php\n            \n        if(function_exists(&#039;_eNyasro_WorldDayEvent&#039;))\n            _eNyasro_WorldDayEvent();\n            \n    ?&#62;<\/code><\/pre>",
+                "uid": "120217"
+            }
+        }
+    }
+}
