@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/remember-my-template": {
+            "0.1": {
+                "name": "wordpress\/remember-my-template",
+                "version": "0.1",
+                "version_normalized": "0.1.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/remember-my-template.0.1.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p><strong>This plug-in requires 3.4+<\/strong><\/p>\n\n<p>WordPress only stores the page template for the theme which was activated when the page was last saved. Effectively, if you switch back and forth between themes WordPress forgets which template it is suppose to use for any particular page. This is problematic if you are showcasing a plug-in and wish to allow the end user to switch between a selection of thems (via <a href=\"http:\/\/wordpress.org\/plugins\/theme-switcher\/\">Theme Switcher<\/a>, for example), and don't want the page templates being reset to 'default'.<\/p>\n\n<p>This plug-in resolves that problem. Whenever you save a page, the plug-in stores the theme-template pair. If you switch themes and save the page, it also stores that theme-template pair too. On switching between the two themes the appropriate template is 'remembered'.<\/p>\n\n<p>Obviously for the plug-in to work you'll need to save the appropriate template for the page for each theme you'll be switching between. Currentl",
+                "uid": "120463"
+            }
+        }
+    }
+}

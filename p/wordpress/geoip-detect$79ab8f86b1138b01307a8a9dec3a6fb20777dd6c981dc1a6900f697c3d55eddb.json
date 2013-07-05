@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/geoip-detect": {
+            "1.0": {
+                "name": "wordpress\/geoip-detect",
+                "version": "1.0",
+                "version_normalized": "1.0.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/geoip-detect.1.0.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>Provide GeoIP information for use in themes or other plugins.<\/p>\n\n<p><strong>Features:<\/strong><\/p>\n\n<ul>\n<li>Provide 2 functions to lookup Geo-Information: \n\n<ul>\n<li>geoip_detect_get_info_from_ip($ip)<\/li>\n<li>geoip_detect_get_info_from_current_ip()<\/li>\n<\/ul><\/li>\n<li>Auto-Update the GeoIP database once a week<\/li>\n<li>See results of a specific IP in the wordpress backend.<\/li>\n<\/ul>\n\n<p>This product includes GeoLite data created by MaxMind, available from <a href=\"http:\/\/www.maxmind.com\" rel=\"nofollow\">http:\/\/www.maxmind.com<\/a>.<\/p>",
+                "uid": "120461"
+            }
+        }
+    }
+}

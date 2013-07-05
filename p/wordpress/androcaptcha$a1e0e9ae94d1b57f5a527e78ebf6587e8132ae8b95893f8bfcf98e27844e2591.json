@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/androcaptcha": {
+            "1.0": {
+                "name": "wordpress\/androcaptcha",
+                "version": "1.0",
+                "version_normalized": "1.0.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/androcaptcha.1.0.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>AndroCaptcha is a plugin that makes your admin page secure and it does it with style. It uses a captcha like an android lock screen where you have to match the pattern from an image.<\/p>\n\n<p><strong>Some features are<\/strong> -<\/p>\n\n<ul>\n<li>An extra level of security is added in your admin page login form.<\/li>\n<li>The captcha is just like the android lock screen.<\/li>\n<li>You need to replicate the pattern from an image in order to set the right captcha<\/li>\n<li>There is no content on the image, so its difficult for a bot to login in place of a human.<\/li>\n<li>You can change the colors of the elements of the captcha from the admin menu.<\/li>\n<li>When you want to remove the captcha, just deactivate the plugin.<\/li>\n<li>When deleted, no residue is left in the database or anywhere else.<\/li>\n<\/ul>",
+                "uid": "120466"
+            }
+        }
+    }
+}

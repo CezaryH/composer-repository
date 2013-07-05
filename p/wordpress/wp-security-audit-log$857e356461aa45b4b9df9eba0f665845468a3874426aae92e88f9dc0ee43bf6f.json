@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/wp-security-audit-log": {
+            "0.1": {
+                "name": "wordpress\/wp-security-audit-log",
+                "version": "0.1",
+                "version_normalized": "0.1.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/wp-security-audit-log.0.1.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>Identify WordPress security issues before they become a problem by keeping an audit log of what is happening under the hood of your WordPress blog or website. This plugin is developed by WordPress Security Consultants and Specialists <a href=\"http:\/\/www.wpwhitesecurity.com\/wordpress-security-services\/\">WP White Security<\/a>.<\/p>\n\n<h4>Keep A WordPress Security Audit Log &#38; Identify WordPress Security Issues<\/h4>\n\n<p>WP Security Audit Log keeps track of everything that is happening on your WordPress blog or website. By using this WordPress security plugin it is very easy to track suspicious user activity before it becomes a problem. A security event is generated in each of the below cases:<\/p>\n\n<ul>\n<li>New user is created via registration<\/li>\n<li>New user is created by another user<\/li>\n<li>Existing user changes the role of another user<\/li>\n<li>Existing user changes the password of another user<\/li>\n<li>User uploads a file<\/li>\n<li>User changes the password<\/li>\n<li>A user chang",
+                "uid": "115475"
+            }
+        }
+    }
+}

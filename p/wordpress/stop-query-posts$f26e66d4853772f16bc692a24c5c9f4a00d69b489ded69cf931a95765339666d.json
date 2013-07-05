@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/stop-query-posts": {
+            "0.9": {
+                "name": "wordpress\/stop-query-posts",
+                "version": "0.9",
+                "version_normalized": "0.9.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/stop-query-posts.0.9.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>The query_posts() function is often misused by theme and plugin developers. This little plugin will call WordPress' built-in _doing_it_wrong() function, whenever query_posts() is used within a theme or plugin. It doesn't stop the query itself, but simply issues a notice if running in debug mode.<\/p>\n\n<p>If you have a friend who uses query_posts(), use this plugin to help your friend out.<\/p>",
+                "uid": "120458"
+            }
+        }
+    }
+}
