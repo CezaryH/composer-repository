@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/bit-migrate-wp": {
+            "0.9": {
+                "name": "wordpress\/bit-migrate-wp",
+                "version": "0.9",
+                "version_normalized": "0.9.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/bit-migrate-wp.0.9.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>This plugin updates automatically all the links to match the new domain after migration.\n<\/p>",
+                "uid": "120593"
+            }
+        }
+    }
+}

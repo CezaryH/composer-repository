@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/oomph-wp-inline-image-resizer": {
+            "0.1": {
+                "name": "wordpress\/oomph-wp-inline-image-resizer",
+                "version": "0.1",
+                "version_normalized": "0.1.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/oomph-wp-inline-image-resizer.0.1.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>Resize images on the fly! Great for theme developers who add image sizes to their theme after image assets have already been added to the image library - images come out the right size, every time.<\/p>\n\n<p>Works great for both single-site and multi-site installations. Multi-site installation requires SUNRISE to be set and wp-content\/sunrise.php to be populated - Instructions are given within the plugin.<\/p>",
+                "uid": "120581"
+            }
+        }
+    }
+}

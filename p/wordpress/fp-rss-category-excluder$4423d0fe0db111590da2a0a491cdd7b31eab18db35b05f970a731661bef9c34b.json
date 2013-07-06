@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/fp-rss-category-excluder": {
+            "1.0.0": {
+                "name": "wordpress\/fp-rss-category-excluder",
+                "version": "1.0.0",
+                "version_normalized": "1.0.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/fp-rss-category-excluder.1.0.0.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>Remove\/Exclude specific categories from site RSS Feed. You just need to install this, then place your category id in it's option page and save. That's all. If you want to exclude more than one category, then place them one by one and separate them by comma.<\/p>\n\n<p>For Example: -1,-2<\/p>\n\n<p>**Note: you must need to use minus sign (-) before category id.<\/p>",
+                "uid": "120590"
+            }
+        }
+    }
+}
