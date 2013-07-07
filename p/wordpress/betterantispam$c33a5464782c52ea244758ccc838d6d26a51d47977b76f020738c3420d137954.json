@@ -1,0 +1,40 @@
+{
+    "packages": {
+        "wordpress\/betterantispam": {
+            "1.0.0": {
+                "name": "wordpress\/betterantispam",
+                "version": "1.0.0",
+                "version_normalized": "1.0.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/betterantispam.1.0.0.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>BetterAntiSpamBot encrypts your email addresses with a dynamically generated JavaScript function.\nWe combine simplicity with obfuscation: Simplicity for you and complexity for bots.<\/p>\n\n<h4>Simply integrated<\/h4>\n\n<p>Protect yourself in just three steps:\n1. First, select the text to link with your email address.\n2. Then click the \"@\" button in the editor's toolbar.\n3. Finally, type your email address.\nAlternatively, you may use the shortcode <code>[bspam email=\"nospam@protected.com\"]Email me[\/bspam]<\/code>.<\/p>\n\n<h4>Dynamically generated<\/h4>\n\n<p>When encrypted email addresses are present on a page, BetterAntiSpamBot automatically adds a single, uniquely generated JavaScript function to the footer.\nAt first, it generates a key and splits it into variables. Secondly, it randomly generates all variable-, function- and parameter names using similar UTF-8 characters. The code finally gets compressed and reduced to one line.\nThat's why BetterAntiSpamBot makes automated email harvesting ",
+                "uid": "7641"
+            },
+            "1.0.1": {
+                "name": "wordpress\/betterantispam",
+                "version": "1.0.1",
+                "version_normalized": "1.0.1.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/betterantispam.1.0.1.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>BetterAntiSpamBot encrypts your email addresses with a dynamically generated JavaScript function.\nWe combine simplicity with obfuscation: Simplicity for you and complexity for bots.<\/p>\n\n<h4>Simply integrated<\/h4>\n\n<p>Protect yourself in just three steps:\n1. First, select the text to link with your email address.\n2. Then click the \"@\" button in the editor's toolbar.\n3. Finally, type your email address.\nAlternatively, you may use the shortcode <code>[bspam email=\"nospam@protected.com\"]Email me[\/bspam]<\/code>.<\/p>\n\n<h4>Dynamically generated<\/h4>\n\n<p>When encrypted email addresses are present on a page, BetterAntiSpamBot automatically adds a single, uniquely generated JavaScript function to the footer.\nAt first, it generates a key and splits it into variables. Secondly, it randomly generates all variable-, function- and parameter names using similar UTF-8 characters. The code finally gets compressed and reduced to one line.\nThat's why BetterAntiSpamBot makes automated email harvesting ",
+                "uid": "120728"
+            }
+        }
+    }
+}
