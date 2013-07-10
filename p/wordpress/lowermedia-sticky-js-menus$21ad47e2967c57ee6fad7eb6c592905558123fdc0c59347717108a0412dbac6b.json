@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/lowermedia-sticky-js-menus": {
+            "1.0.0": {
+                "name": "wordpress\/lowermedia-sticky-js-menus",
+                "version": "1.0.0",
+                "version_normalized": "1.0.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/lowermedia-sticky-js-menus.1.0.0.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "LowerMedia_sticky_js_menus\n\n<p>Activate and make your primary menu sticky!<br \/>\nSticky means having your navigation always visible, the nav fixes itself to the top of the page.<\/p>\n\n<p>This plugin uses the <a href='http:\/\/stickyjs.com'>Sticky.js<\/a> script, props and credit for creating that go to \n<a href=\"http:\/\/anthonygarand.com\">Anthony Garand<\/a>, Thanks Anthony!<\/p>\n\n<p><a href='http:\/\/lowermedia.net'>LowerMedia.Net<\/a><\/p>\n\n<p>More info:<\/p>\n\n<p>This plugin was design to work out of the box with any theme by adding a class to<\/p>\n\nthe menu container and then manipulating the HTML tag w\/ said class by way of JS\n\n \n\n<p>#<\/p>\n\nPlugins tested to work with this theme work a tad bit differently.  Instead of\n\nadding a class it uses custom js files that have the main navigational selectors\n\nalready defined.  JS manipulates the menus by using the already defined tags.\n\n<p>#<\/p>\n\nThis plugin has been tested on a growing number of themes including:\n\ntwentytwelve, twentyeleven, responsive,",
+                "uid": "120970"
+            }
+        }
+    }
+}

@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/sendgrid-mailing-list": {
+            "1.1.2": {
+                "name": "wordpress\/sendgrid-mailing-list",
+                "version": "1.1.2",
+                "version_normalized": "1.1.2.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/sendgrid-mailing-list.1.1.2.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>This plugin is a very basic simple plugin that utilizes the SendGrid.com API to \nbe able to have users enter their email to a particular recipient list.<\/p>\n\n<p>Currently SendGrid.com does not have a html web form widget to allow users to \nembed a subscription form on their website.  This plugin provides a simple form \nwith just Email Address and a go button.  You specify your List Name, and your \nAPI Username \/ Password in the settings file.<\/p>\n\n<h3>Usage<\/h3>\n\n<h4>Shortcode<\/h4>\n\n<pre><code>[sg-subscription-form]<\/code><\/pre>\n\n<p>By default the short code will take options set in the plugin options<\/p>\n\n<h4>Options<\/h4>\n\n<ul>\n<li>Specify List: <code>[sg-subscription-form list='Mailing List']<\/code><\/li>\n<li>Redirect to URL After Success: <code>[sg-subscription-form redirect='http:\/\/www.google.com']<\/code><\/li>\n<\/ul>",
+                "uid": "121142"
+            }
+        }
+    }
+}

@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/advanced-dewplayer": {
+            "1.0.0": {
+                "name": "wordpress\/advanced-dewplayer",
+                "version": "1.0.0",
+                "version_normalized": "1.0.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/advanced-dewplayer.1.0.0.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>Upload MP3 files to any folder on your server. Add the shortcode to your page\/post with path of your MP3 folder from which you want to fetch all MP3 files and you have a beautiful playable list of MP3's with much more options.<\/p>\n\n<p>If you want to display only single MP3 file then give full path of that MP3 file from local or remote server.<\/p>\n\n<p>**How to Use : **<\/p>\n\n<p><em>For directory fetching:<\/em><\/p>\n\n<p>Copy below shortcode into your page\/post<\/p>\n\n<p>[musicdirectory path=\"Path of folder from which you want to get all MP3 files\"].<\/p>\n\n<p><strong>Remember:<\/strong> Don't forget to Include trailing slash (\/) at the end of path and use relative path.<\/p>\n\n<p>*Examples: *<\/p>\n\n<p>[musicdirectory path=\"playlist\/]<\/p>\n\n<p><em>For Single MP3 fetching:<\/em><\/p>\n\n<p>Copy below shortcode into your page\/post<\/p>\n\n<p>[musicsingle file=\"Full path of MP3 file\"].<\/p>\n\n<p>You can use local as well as remote MP3 file path<\/p>\n\n<p><em>Examples:<\/em><\/p>\n\n<p>[musicsingle file=\"http:\/\/www",
+                "uid": "121145"
+            }
+        }
+    }
+}

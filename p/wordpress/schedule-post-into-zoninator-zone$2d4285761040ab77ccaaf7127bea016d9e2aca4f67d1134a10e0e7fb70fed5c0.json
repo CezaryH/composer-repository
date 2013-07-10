@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/schedule-post-into-zoninator-zone": {
+            "0.1": {
+                "name": "wordpress\/schedule-post-into-zoninator-zone",
+                "version": "0.1",
+                "version_normalized": "0.1.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/schedule-post-into-zoninator-zone.0.1.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>A Wordpress plugin to schedule posts into the Zoninator zones on publication.<\/p>\n\n<p>This plugin depends on the <a href=\"http:\/\/wordpress.org\/plugins\/zoninator\/\">Zone Manager (Zoninator)<\/a> plugin and extends it's functionality by allowing you to specify the zone and position upon creating scheduled post. After the post goes live it'll be automatically put in the selected zone at selected position.<\/p>",
+                "uid": "121140"
+            }
+        }
+    }
+}

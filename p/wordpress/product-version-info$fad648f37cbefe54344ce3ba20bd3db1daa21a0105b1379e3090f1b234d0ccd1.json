@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/product-version-info": {
+            "1.0": {
+                "name": "wordpress\/product-version-info",
+                "version": "1.0",
+                "version_normalized": "1.0.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/product-version-info.1.0.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>A simple plugin that helps you to manage and publish your product version, when you are using wordpress as product website CMS. This is particularly useful if your product is still in active development phase. To retrieve the version simply visit to <a>http:\/\/&#60;your.wordpress.site&#62;\/?versioninfo<\/a> and result will be returned as JSON<\/p>",
+                "uid": "120955"
+            }
+        }
+    }
+}

@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/wh-debug": {
+            "1.0": {
+                "name": "wordpress\/wh-debug",
+                "version": "1.0",
+                "version_normalized": "1.0.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/wh-debug.1.0.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>This plugin is for developers.  Wherever you need to find out what is happening in your code place wh_debug('name', $value) in there.  Where 'name' describes what you are trying to debug and $value is the value you want to see.  Run your code and see the value(s) in a table on the admin side under Tools-&#62;WH Debug.<\/p>\n\n<p>Development for this plugin is based on my needs and free time.<\/p>",
+                "uid": "120817"
+            }
+        }
+    }
+}

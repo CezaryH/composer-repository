@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/secured-users-front": {
+            "1": {
+                "name": "wordpress\/secured-users-front",
+                "version": "1",
+                "version_normalized": "1.0.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/secured-users-front.1.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>Secures the backend AND the frontend with ssl when you are logged in. If a user logs in and calls a http site you will be redirected to the equivalent https site. You do not have to manually define <code>FORCE_SSL_ADMIN<\/code> in the <code>wp-config.php<\/code>. The authentication cookies will be ssl secured.<\/p>\n\n<h4>Warning<\/h4>\n\n<p>There is no protection against ssl leaks. If you follow a http link, a <a href=\"https:\/\/en.wikipedia.org\/wiki\/Man-in-the-middle_attack\">men in the middle<\/a> could, for example, see which site you enter.<\/p>\n\n<p>But he cannot steal your login session! :D<\/p>",
+                "uid": "120827"
+            }
+        }
+    }
+}

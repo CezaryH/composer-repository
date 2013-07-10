@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/woocommerce-epdq-payment-gateway": {
+            "1.0": {
+                "name": "wordpress\/woocommerce-epdq-payment-gateway",
+                "version": "1.0",
+                "version_normalized": "1.0.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/woocommerce-epdq-payment-gateway.1.0.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>This plugin will add a barclay epdq payment gateway in the default list of woocommerce and will allows you to take payment directly \nin your barclay account.  This plugin allows you to take payments directly in your barclay epdq account. But before you need to \nconfigure the plugin accordingly. It is crucial that parameters match both in the back office and in your plugin setting.<\/p>\n\n<p>Please read the instruction manual in the <a href=\"http:\/\/www.barclaycard.co.uk\/business\/accepting-payments\/epdq-ecomm\/\">Barclay ePDQ ecommerce site<\/a>\ncarefully to set the parameters and configure the back office and how to go live in the back office. You should have good idea about\nthe SHA-IN and SHA-OUT parameters.<\/p>\n\n<p>Note that, if something unexpected happens while processing the payment and if the payment processor returns the customer without recieving\nany payment regarding to the order then the order will be marked as failed. Customer can process the order again by going to the account",
+                "uid": "121150"
+            }
+        }
+    }
+}

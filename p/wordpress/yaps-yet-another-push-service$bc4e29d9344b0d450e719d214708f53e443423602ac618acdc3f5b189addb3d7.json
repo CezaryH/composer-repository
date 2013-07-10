@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/yaps-yet-another-push-service": {
+            "0.1.22": {
+                "name": "wordpress\/yaps-yet-another-push-service",
+                "version": "0.1.22",
+                "version_normalized": "0.1.22.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/yaps-yet-another-push-service.0.1.22.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>This plugin makes integration in Push-Apps simple and easy. It creates a simple API to register devices.\nAnd sends a push message when a post is published.<\/p>\n\n<p>Settings:\n- Default message\n- Push-Sound of the Device\n- Send Post-ID or not<\/p>\n\n<p>View Link for demo-Code:\n<a href=\"https:\/\/github.com\/visualartdesign\/YAPS-iOS-Sample\" title=\"iOS Code Example\">iOS<\/a><\/p>",
+                "uid": "120816"
+            }
+        }
+    }
+}

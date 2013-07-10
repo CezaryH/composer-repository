@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/also-in-this-series": {
+            "1.0.1": {
+                "name": "wordpress\/also-in-this-series",
+                "version": "1.0.1",
+                "version_normalized": "1.0.1.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/also-in-this-series.1.0.1.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>Group related posts in a series with a custom Series taxonomy. Automatically insert a list of all posts in the series in your content,\nor use the [alsointhisseries] shortcode to manually insert as needed. To manually insert an arbitraty series, use the series parameter in the shortcode\n[alsointhisseries series=\"series name or slug\"]<\/p>",
+                "uid": "120969"
+            }
+        }
+    }
+}

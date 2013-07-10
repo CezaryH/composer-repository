@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/oik-css": {
+            "0.2": {
+                "name": "wordpress\/oik-css",
+                "version": "0.2",
+                "version_normalized": "0.2.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/oik-css.0.2.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>Allows internal CSS styling to be included in the content of the page.<\/p>\n\n<p>Use the [bw_css] shortcode to add custom CSS as and when you need it.<\/p>\n\n<p>For designers, developers and documentors [bw_css] supports echoing of the custom CSS, allowing you to document the CSS you are using.\nFor readability, the CSS is processed using the Generic Syntax Highlighter (GeSHi) processing.<\/p>\n\n<p>Use the [bw_geshi] shortcode for syntax highlighting of: CSS, HTML(5), JavaScript and jQuery, and PHP.<\/p>\n\n<p>Implemented as a lazy smart shortcode this code is dependent upon the oik base plugin.<\/p>",
+                "uid": "121149"
+            }
+        }
+    }
+}
