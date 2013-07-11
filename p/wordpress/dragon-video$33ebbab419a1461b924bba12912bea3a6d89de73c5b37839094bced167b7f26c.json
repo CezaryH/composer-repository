@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/dragon-video": {
+            "1.0.1": {
+                "name": "wordpress\/dragon-video",
+                "version": "1.0.1",
+                "version_normalized": "1.0.1.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/dragon-video.1.0.1.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>A WordPress plugin for converting uploaded videos to HTML5 format (h264,\nwebm, ogv) and displaying them with the  tag.<\/p>\n\n<p>Dragon Video consists of 3 plugins:<\/p>\n\n<ul>\n<li>Dragon Video<\/li>\n<li>Dragon Video - Zencoder encoder<\/li>\n<li>Dragon Video - VideoJS Player<\/li>\n<\/ul>\n\n<p>Dragon Video is the core plugin. It handles interfacing with videos\nuploaded through WordPress, passing them off to an encoder, providing a\nshortcode to display the video, and enabling videos to be shown in the\nWordPress gallery. Dragon Video itself does not handle video encoding.\nWordPress actions are called for video encoding and display of the HTML5\ntag allowing any desired encoder or player to be used.<\/p>\n\n<p>Dragon Video - Zencoder encoder is a bundled encoder. It uses\n<a href=\"http:\/\/zencoder.com\" rel=\"nofollow\">http:\/\/zencoder.com<\/a> to encode uploaded videos to HTML5 media types. An\nAPI key is required to use.<\/p>\n\n<p>Dragon Video - VideoJS Player is a bundled player using the\n<a href=\"http:\/\/",
+                "uid": "121269"
+            }
+        }
+    }
+}

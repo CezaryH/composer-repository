@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/woocommerce-gopay-payment-gateway": {
+            "0.3": {
+                "name": "wordpress\/woocommerce-gopay-payment-gateway",
+                "version": "0.3",
+                "version_normalized": "0.3.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/woocommerce-gopay-payment-gateway.0.3.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>Tento plugin p\u0159id&#225; do <strong>WooCommerce<\/strong> platebn&#237; br&#225;nu <strong>GoPay<\/strong>.<\/p>\n\n<h4>Funkce:<\/h4>\n\n<ul>\n<li>testovac&#237;\/produk\u010dn&#237; prost\u0159ed&#237; GoPay<\/li>\n<li>automatick&#233; platby<\/li>\n<li>HTTP notifikace<\/li>\n<li>zm\u011bna popisu\/n&#225;zvu platby<\/li>\n<li>automatick&#225; zm\u011bna stavu objedn&#225;vky<\/li>\n<li>paymentSessinID v pozn&#225;mk&#225;ch p\u0159i zm\u011bn\u011b stavu objedn&#225;vky<\/li>\n<\/ul>\n\n<h4>Stavy objedn&#225;vek:<\/h4>\n\n<ul>\n<li>\u010cek&#225; na vy\u0159&#237;zen&#237; - nebyla vybr&#225;na platebn&#237; metoda<\/li>\n<li>Selhalo - platba byla zru&#353;ena\/chyba b\u011bhem platby<\/li>\n<li>\u010cek&#225; na vy\u0159&#237;zen&#237; - platba \u010dek&#225; na proveden&#237;<\/li>\n<li>Zpracov&#225;v&#225; se - platba prob\u011bhla<\/li>\n<\/ul>",
+                "uid": "121255"
+            }
+        }
+    }
+}

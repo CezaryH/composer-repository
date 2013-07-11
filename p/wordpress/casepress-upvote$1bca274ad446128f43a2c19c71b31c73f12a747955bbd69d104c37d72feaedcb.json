@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/casepress-upvote": {
+            "0.1": {
+                "name": "wordpress\/casepress-upvote",
+                "version": "0.1",
+                "version_normalized": "0.1.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/casepress-upvote.0.1.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>CasePress UpVote - posts and comments rating system.\n[upvote] - shows the ranking of the current post or post which ID is specified\nand takes one argument - 'post' = post ID. ([upvote post=56])\n[upvote_favs] - shows the favorite posts and comments of current user\ntakes 2 arguments - 'user' - USER_ID and 'type' - all&#124;comment&#124;post ([upvote_favs user=56 type=post])<\/p>",
+                "uid": "121262"
+            }
+        }
+    }
+}
