@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/space-api": {
+            "0.1.1": {
+                "name": "wordpress\/space-api",
+                "version": "0.1.1",
+                "version_normalized": "0.1.1.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/space-api.0.1.1.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>This Plugin provides a <a href=\"http:\/\/spaceapi.net\">Space Api<\/a> Json file. This plugin is right now pretty much a proof of concept. It doesnt validate anything and is far from being a nice and maintainable source. It should work however.<\/p>\n\n<p>With Permalinks enabled, you can access the file with <a href=\"http:\/\/yourdomain.tld\/spaceapi.json\" rel=\"nofollow\">http:\/\/yourdomain.tld\/spaceapi.json<\/a>, otherwise <a href=\"http:\/\/yourdomain.tld\/?spaceapi=show\" rel=\"nofollow\">http:\/\/yourdomain.tld\/?spaceapi=show<\/a><\/p>",
+                "uid": "121424"
+            }
+        }
+    }
+}

@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/trinay-zencoder": {
+            "1.1": {
+                "name": "wordpress\/trinay-zencoder",
+                "version": "1.1",
+                "version_normalized": "1.1.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/trinay-zencoder.1.1.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>Trinay Zencoder plugin can be used to transcode videos in amazon S3 using Zencoder.<\/p>\n<p>You need to provide amazon s3 access key, zencoder access key and jwplayer license key in the settings.<\/p>\n<p>Trinay Zencoder plugin provides a page for starting the process of transcoding videos from amazon s3. You can see the filenames of transcoded videos in Wordpress.<br \/>\nThe Plugin avoids duplicate transcoding. Trinay Zencoder has implemented notification, so you can see the video conversion status on plugin home page. <\/p>\n<p>Option to play videos.<\/p>\n<p>Example Short Code:<br \/>\n[TTS_Video id=25]<br \/>\nid - video id showing on home screen of the Trinay Zencoder Plugin.\n<\/p>",
+                "uid": "121426"
+            }
+        }
+    }
+}

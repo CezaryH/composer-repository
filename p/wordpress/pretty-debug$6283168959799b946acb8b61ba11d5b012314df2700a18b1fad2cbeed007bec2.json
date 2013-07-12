@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/pretty-debug": {
+            "1.0": {
+                "name": "wordpress\/pretty-debug",
+                "version": "1.0",
+                "version_normalized": "1.0.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/pretty-debug.1.0.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>Make var_dump's and print_r's more readable<\/p>\n\n<p>Function output references with <a href=\"http:\/\/queryposts.com\">http:\/\/queryposts.com<\/a> API when possible.<\/p>\n\n<ul>\n<li>Use <code>r<\/code> instead of <code>var_dump<\/code><\/li>\n<li>Use <code>rt<\/code> for text mode.<\/li>\n<\/ul>\n\n<p>For example:<\/p>\n\n<pre><code>r($GLOBALS[&#039;wp_query&#039;]-&#62;get_posts());<\/code><\/pre>\n\n<pre><code>rt($GLOBALS[&#039;wp_query&#039;]-&#62;get_posts());<\/code><\/pre>\n\n<p>Notes :<\/p>\n\n<ul>\n<li>Probably doesn't work in ie<\/li>\n<li>Don't use this on a production site but you probably already know that<\/li>\n<li>More usage <a href=\"https:\/\/github.com\/digitalnature\/php-ref\">https:\/\/github.com\/digitalnature\/php-ref<\/a><\/li>\n<\/ul>\n\n<p>All the work was done by <a href=\"https:\/\/github.com\/digitalnature\">digitalnature<\/a> I just wrapped it into a WordPress plugin and changed the look for inline debugging.<\/p>\n\n<p>Please report issues to:  <a href=\"https:\/\/github.com\/wycks\/WP-Pretty-Debug\">https:\/\/github.com",
+                "uid": "121436"
+            }
+        }
+    }
+}
