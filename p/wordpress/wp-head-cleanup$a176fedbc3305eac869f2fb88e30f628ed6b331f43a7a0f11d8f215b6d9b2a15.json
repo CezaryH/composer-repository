@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/wp-head-cleanup": {
+            "1.0": {
+                "name": "wordpress\/wp-head-cleanup",
+                "version": "1.0",
+                "version_normalized": "1.0.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/wp-head-cleanup.1.0.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>WP Head Cleanup helps you to remove unnecessary extra links from the page header.<\/p>\n\n<p>The Plugin will remove following links:<\/p>\n\n<ol>\n<li><p><strong>rsd_link<\/strong>\nThis will remove Really Simple Discovery link from the header.<\/p><\/li>\n<li><p><strong>wp_generator<\/strong>\nThis will remove the Wordpress generator tag.<\/p><\/li>\n<li><p><strong>feed_links<\/strong>\nThis will remove the standard feed links.<\/p><\/li>\n<li><p><strong>feed_links_extra<\/strong>\nThis will remove the extra feed links.<\/p><\/li>\n<li><p><strong>index_rel_link<\/strong>\nThis will remove index link.<\/p><\/li>\n<li><p><strong>wlwmanifest_link<\/strong>\nThis will remove wlwmanifest<\/p><\/li>\n<li><p><strong>parent_post_rel_link<\/strong>\nThis will remove parent post link<\/p><\/li>\n<li><p><strong>start_post_rel_link<\/strong>\nThis will remove start post link<\/p><\/li>\n<li><p><strong>adjacent_posts_rel_link_wp_head<\/strong>\nThis will remove the prev and next post link<\/p><\/li>\n<li><p><strong>wp_shortlink_wp_head<\/strong>\n",
+                "uid": "121567"
+            }
+        }
+    }
+}

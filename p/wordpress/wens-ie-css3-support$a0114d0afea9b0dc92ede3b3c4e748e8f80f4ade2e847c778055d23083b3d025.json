@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/wens-ie-css3-support": {
+            "1.0": {
+                "name": "wordpress\/wens-ie-css3-support",
+                "version": "1.0",
+                "version_normalized": "1.0.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/wens-ie-css3-support.1.0.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>CSS3 is probably the hottest trend in web design right now but Unfortunately, it&#8217;s not a surprise that Internet Explorer, \nImplement css markup that support CSS3 \"border-radius( Rounded box corners )\", \"box-shadow( Dropdown\/Inner Shadow )\" and \n\"linear-gradient( Gradient background color )\" in IE versions 7 to 10<\/p>\n\n<p>This plugin add a IE support markup on main style of your theme. This markup is an IE attached behavior, when applied to an element, allows IE to recognize and display a number of CSS3 properties. This is developed by \"Jason Johnston\" \nhe called it PIE(Progressive Internet Explorer).<\/p>\n\n<p>The markup support numbers or CSS3 properties but this plugin can only support specific properties:\n* CSS3 Transitions\nSupport on Safari, Chrome, Firefox, IE9 +\nEffect of transitions are between .2 and .3 seconds in duration, so they shouldn't cross the line between nice and distracting; however, depending on the colors used in your WP theme.<\/p>\n\n<ul>\n<li>box-shadow<\/li>\n",
+                "uid": "121675"
+            }
+        }
+    }
+}

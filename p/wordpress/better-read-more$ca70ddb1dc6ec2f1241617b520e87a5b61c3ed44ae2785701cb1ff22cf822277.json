@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/better-read-more": {
+            "1.0": {
+                "name": "wordpress\/better-read-more",
+                "version": "1.0",
+                "version_normalized": "1.0.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/better-read-more.1.0.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>Use WordPress built-in <!--more--> tag to hide text on pages.<\/p>\n\n<p>This is particularly handy for a mobile site using pages with extrememly large content. This content will let you put a \"more\" link in the page and will then insert a javascript more button in the page itself which will show and hide the remainder of the content on the page.<\/p>\n\n<p>Can be used with any theme, including sites that use multiple themes for mobile\/desktop.<\/p>",
+                "uid": "121572"
+            }
+        }
+    }
+}

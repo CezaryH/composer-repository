@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/xtrim-url-shorter": {
+            "1.0": {
+                "name": "wordpress\/xtrim-url-shorter",
+                "version": "1.0",
+                "version_normalized": "1.0.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/xtrim-url-shorter.1.0.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>Make your Long post or page URL's very short using <a href=\"http:\/\/xtr.im\">xTrim Tool<\/a>.\nThis plugin displays short url for each and every post.\nThis plugin has option to choose whether to make automatic url request or \nuse shortcode to display short url.<\/p>\n\n<ul>\n<li>Use shortcode tag <code>[xtrim]<\/code> to short url for your current post or page.<\/li>\n<\/ul>\n\n<p>If you are a developer then use following <em>PHP<\/em> code to display xTrim urls.<\/p>\n\n<ul>\n<li>To show xtrim url :<\/li>\n<\/ul>\n\n<pre><code>&#60;?php\n            \n        if(function_exists(&#039;_xTrim_URLShorter(&#039;))\n            _xTrim_URLShorter(();       \n            \n    ?&#62;<\/code><\/pre>\n\n<ul>\n<li>To return xtrim url as a variable:<\/li>\n<\/ul>\n\n<pre><code>&#60;?php\n        if(function_exists(&#039;xTrim_URLShorter&#039;))\n            echo xTrim_URLShorter( );\n    ?&#62;<\/code><\/pre>",
+                "uid": "121693"
+            }
+        }
+    }
+}

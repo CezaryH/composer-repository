@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/woocommerce-direct-checkout": {
+            "1.0.0": {
+                "name": "wordpress\/woocommerce-direct-checkout",
+                "version": "1.0.0",
+                "version_normalized": "1.0.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/woocommerce-direct-checkout.1.0.0.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>A WooCommerce plugin that aims to simplify the checkout process, leading to an immediate increase in sales.<\/p>\n\n<p>In WooCommerce Settings Panel, there will be a new submenu link called 'Direct Checkout' where you can:<\/p>\n\n<ul>\n<li>Enabled \/ Disabled the direct checkout option<\/li>\n<li>Change \"Add to cart\" to any text<\/li>\n<\/ul>\n\n<h4>Features<\/h4>\n\n<ul>\n<li>Implement add to cart button redirect to checkout page pattern<\/li>\n<li>2 languages available : English UK (en_GB) and Chinese (zh_CN)<\/li>\n<\/ul>\n\n<h4>IMPORTANT NOTES<\/h4>\n\n<ul>\n<li>This plugin requires the WooCommerce Extension.<\/li>\n<li>Do use POEdit and open 'wc-direct-checkout.pot' file and save the file as wc-direct-checkout-[language code].po, then put that into languages folder for this plugin.<\/li>\n<\/ul>\n\n<h4>Additional Plugins by Terry Tsang<\/h4>\n\n<ul>\n<li>[Custom Checkout Options] (<a href=\"http:\/\/terrytsang.com\/shop\/shop\/woocommerce-custom-checkout-options\/\" rel=\"nofollow\">http:\/\/terrytsang.com\/shop\/shop\/woocommerce-",
+                "uid": "121571"
+            }
+        }
+    }
+}

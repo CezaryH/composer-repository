@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/environment-indicator": {
+            "1.0": {
+                "name": "wordpress\/environment-indicator",
+                "version": "1.0",
+                "version_normalized": "1.0.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/environment-indicator.1.0.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>This plugin provides a simple visual cue that you are currently viewing a particular environment in your arrangement of server tiers. Currently, the only available indicator is a green admin bar.<\/p>",
+                "uid": "121565"
+            }
+        }
+    }
+}
