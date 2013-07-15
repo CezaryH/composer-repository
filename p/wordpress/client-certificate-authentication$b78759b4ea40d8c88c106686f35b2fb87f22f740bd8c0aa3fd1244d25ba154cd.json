@@ -1,0 +1,40 @@
+{
+    "packages": {
+        "wordpress\/client-certificate-authentication": {
+            "1.0": {
+                "name": "wordpress\/client-certificate-authentication",
+                "version": "1.0",
+                "version_normalized": "1.0.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/client-certificate-authentication.1.0.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>The Client Certificate Authentication plugin enables Wordpress to login a user with a SSL client certificate. The plugin uses the email address from the subject field to identify the user with the email address of his wordpress account. Optionally, new accounts can be created on the fly by using email address and name from the certificate. By limiting login and registration to users providing a client certificate, bots are locked out and spam is eliminated.<\/p>\n\n<p>Acknowledgements:  This plugin is based on the <a href=\"http:\/\/wordpress.org\/plugins\/http-authentication\/\" title=\"HTTP Authentication plugin\">HTTP Authentication plugin<\/a> by Daniel Westermann-Clark. Ideas taken from Dan B.'s implementation for client certificate authentication.<\/p>",
+                "uid": "121748"
+            },
+            "1.0.1": {
+                "name": "wordpress\/client-certificate-authentication",
+                "version": "1.0.1",
+                "version_normalized": "1.0.1.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/client-certificate-authentication.1.0.1.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>The Client Certificate Authentication plugin enables Wordpress to login a user with a SSL client certificate. The plugin uses the email address from the subject field to identify the user with the email address of his wordpress account. Optionally, new accounts can be created on the fly by using email address and name from the certificate. By limiting login and registration to users providing a client certificate, bots are locked out and spam is eliminated.<\/p>\n\n<p>Acknowledgements:  This plugin is based on the <a href=\"http:\/\/wordpress.org\/plugins\/http-authentication\/\" title=\"HTTP Authentication plugin\">HTTP Authentication plugin<\/a> by Daniel Westermann-Clark. Ideas taken from Dan B.'s implementation for client certificate authentication.<\/p>",
+                "uid": "121747"
+            }
+        }
+    }
+}

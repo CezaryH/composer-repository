@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/embed-documents-shortcode": {
+            "1.0.0": {
+                "name": "wordpress\/embed-documents-shortcode",
+                "version": "1.0.0",
+                "version_normalized": "1.0.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/embed-documents-shortcode.1.0.0.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>This plugin embeds documents using Google Docs (PDF, DOC, XLS, PPT, PPS).<\/p>\n\n<p>Example:<\/p>\n\n<p>[bld_embed_docs href=\"http:\/\/mydomain.com\/filename.ext\"]<\/p>",
+                "uid": "121767"
+            }
+        }
+    }
+}

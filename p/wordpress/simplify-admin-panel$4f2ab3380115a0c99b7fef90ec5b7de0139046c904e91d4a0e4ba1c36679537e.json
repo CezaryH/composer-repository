@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/simplify-admin-panel": {
+            "1.0": {
+                "name": "wordpress\/simplify-admin-panel",
+                "version": "1.0",
+                "version_normalized": "1.0.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/simplify-admin-panel.1.0.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>This plugin allows the website administrator to remove the following from the WordPress Administration Panel:<\/p>\n\n<ul>\n<li>menu links (like \"Tools\", \"Appearance\", or annoying menus from third-party plugin)<\/li>\n<li>submenu links (like \"Users &#62; Your Profile\", \"Tools &#62; Available Tools\", or annoying menus from third-party plugins)<\/li>\n<li>and dashboard meta boxes (like \"QuickPress\", \"Other WordPress News\", or annoying meta boxes from third-party plugins)<\/li>\n<\/ul>\n\n<p>It relies on hardcoded settings in wp-config.php (instead of having yet another admin settings page to deal with). Since the settings are all hardcoded, it can be easily set up by a website administrator and left in place without any users messing with it. It works on both single and multisite installations.<\/p>",
+                "uid": "121753"
+            }
+        }
+    }
+}
