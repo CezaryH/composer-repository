@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/commentcava": {
+            "1.0": {
+                "name": "wordpress\/commentcava",
+                "version": "1.0",
+                "version_normalized": "1.0.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/commentcava.1.0.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>First read, then comment: CommentCaVa disables the comment field for a certain amount of time. This time is calculated from the length of the blog post. Reading speed is set to 30 characters per second. Previous comments are not counted.<\/p>\n\n<p>CommentCaVa is only a small JavaScript file that also runs outside of WordPress with minor modifications. The waiting message is currently displayed in English (default) or German, according to the browser settings.<\/p>\n\n<p>This project was subject of my story about blog comments in c't Magazin 17\/2013.<\/p>\n\n<p>Wishlist:\n*  add more languages, maybe via WordPress plugin i18n\n*  use WordPress options for settings (reading speed, waiting messages, locked comment styling)<\/p>",
+                "uid": "122228"
+            }
+        }
+    }
+}

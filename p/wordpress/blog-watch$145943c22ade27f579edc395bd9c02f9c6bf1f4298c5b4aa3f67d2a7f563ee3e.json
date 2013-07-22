@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/blog-watch": {
+            "1.0.0": {
+                "name": "wordpress\/blog-watch",
+                "version": "1.0.0",
+                "version_normalized": "1.0.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/blog-watch.1.0.0.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>Do you want to keep an eye on what your competitors are blogging about? Or maybe watch other similar blogs for ideas on what to write? With this plugin you can keep an eye on what your competitors, similar sites and favourite blogs are writing about, without having to visit each one individually. This plugin adds a new widget to your Dashboard giving you a live update on other site's blog posts.<\/p>\n\n<ul>\n<li>Supports RSS, RSS2 and ATOM feeds.<\/li>\n<li>Don't know the websites RSS\/ATOM feed URL? Simply enter the site's normal web address and the plugin will attempt to find a valid feed URL for you.<\/li>\n<li>Blog posts are shown in a clear stream on your dashboard, with the posts from each site combined and shown with the latest one first.<\/li>\n<li>Choose how many posts you want to display in the stream (defaults to 5).<\/li>\n<\/ul>\n\n<p>Note: The blogs being watched must have a valid RSS or ATOM feed available.<\/p>",
+                "uid": "122872"
+            }
+        }
+    }
+}

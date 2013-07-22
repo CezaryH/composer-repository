@@ -1,0 +1,57 @@
+{
+    "packages": {
+        "wordpress\/wp-over-network": {
+            "0.3.1": {
+                "name": "wordpress\/wp-over-network",
+                "version": "0.3.1",
+                "version_normalized": "0.3.1.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/wp-over-network.0.3.1.4.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>Add ability to get posts from over your network sites. Supports widget, shortcode, and customizable original function.<\/p>\n\n<p>Use the following:<\/p>\n\n<h4>In template<\/h4>\n\n<pre><code>&#60;?php \n\nget_header();\nthe_post();\n\n?&#62;\n&#60;section id=\"content-primary\"&#62;\n        &#60;header id=\"page-header\"&#62;\n                &#60;h1&#62;&#60;?php the_title() ?&#62;&#60;\/h1&#62;\n        &#60;\/header&#62;\n&#60;?php\n\n\/\/ Getting recent posts the page and post, minus the host blog.\n\/\/ Specify the \"affect_wp_query = true\", for using the wp_pagenavi.\n$posts = wponw::get_posts('exclude_blog_ids=1&#38;post_type=post,page&#38;affect_wp_query=true');\n\nwp_pagenavi();\n\n?&#62;\n&#60;?php if ( ! empty ( $posts ) ) : ?&#62;\n        &#60;section class=\"post-list\"&#62;\n&#60;?php\n        foreach ( $posts as $post ) :\n                wponw::setup_blog_and_postdata( $post );\n?&#62;\n                &#60;section id=\"post-&#60;?php the_ID() ?&#62;\" &#60;?php post_class() ?&#62;&#62;\n                        ",
+                "uid": "120836"
+            },
+            "0.4.2": {
+                "name": "wordpress\/wp-over-network",
+                "version": "0.4.2",
+                "version_normalized": "0.4.2.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/wp-over-network.0.4.2.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>Add ability to get posts from over your network sites. Supports widget, shortcode, and customizable original function.<\/p>\n\n<p>Use the following:<\/p>\n\n<h4>In template<\/h4>\n\n<pre><code>&#60;?php \n\nget_header();\nthe_post();\n\n?&#62;\n&#60;section id=\"content-primary\"&#62;\n        &#60;header id=\"page-header\"&#62;\n                &#60;h1&#62;&#60;?php the_title() ?&#62;&#60;\/h1&#62;\n        &#60;\/header&#62;\n&#60;?php\n\n\/\/ Getting recent posts the page and post, minus the host blog.\n\/\/ Specify the \"affect_wp_query = true\", for using the wp_pagenavi.\n$posts = wponw::get_posts('exclude_blog_ids=1&#38;post_type=post,page&#38;affect_wp_query=true');\n\nwp_pagenavi();\n\n?&#62;\n&#60;?php if ( ! empty ( $posts ) ) : ?&#62;\n        &#60;section class=\"post-list\"&#62;\n&#60;?php\n        foreach ( $posts as $post ) :\n                wponw::setup_blog_and_postdata( $post );\n?&#62;\n                &#60;section id=\"post-&#60;?php the_ID() ?&#62;\" &#60;?php post_class() ?&#62;&#62;\n                        ",
+                "uid": "121444"
+            },
+            "0.4.3": {
+                "name": "wordpress\/wp-over-network",
+                "version": "0.4.3",
+                "version_normalized": "0.4.3.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/wp-over-network.0.4.3.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>Add ability to get posts from over your network sites. Supports widget, shortcode, and customizable original function.<\/p>\n\n<p>Use the following:<\/p>\n\n<h4>In template<\/h4>\n\n<pre><code>&#60;?php \n\nget_header();\nthe_post();\n\n?&#62;\n&#60;section id=\"content-primary\"&#62;\n        &#60;header id=\"page-header\"&#62;\n                &#60;h1&#62;&#60;?php the_title() ?&#62;&#60;\/h1&#62;\n        &#60;\/header&#62;\n&#60;?php\n\n\/\/ Getting recent posts the page and post, minus the host blog.\n\/\/ Specify the \"affect_wp_query = true\", for using the wp_pagenavi.\n$posts = wponw::get_posts('exclude_blog_ids=1&#38;post_type=post,page&#38;affect_wp_query=true');\n\nwp_pagenavi();\n\n?&#62;\n&#60;?php if ( ! empty ( $posts ) ) : ?&#62;\n        &#60;section class=\"post-list\"&#62;\n&#60;?php\n        foreach ( $posts as $post ) :\n                wponw::setup_blog_and_postdata( $post );\n?&#62;\n                &#60;section id=\"post-&#60;?php the_ID() ?&#62;\" &#60;?php post_class() ?&#62;&#62;\n                        ",
+                "uid": "121934"
+            }
+        }
+    }
+}

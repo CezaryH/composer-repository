@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/form2go": {
+            "1.0": {
+                "name": "wordpress\/form2go",
+                "version": "1.0",
+                "version_normalized": "1.0.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/form2go.1.0.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>Allows the use of a special short code [form2go] for embedding Form2go forms. It's best to grab the shortcode from the Form2go \"Get Form Code\" page.<\/p>\n\n<p><strong>Example:<\/strong><\/p>\n\n<pre><code>[form2go formid=&#34;123456&#34; autoresize=&#34;true&#34; height=&#34;800&#34;]<\/code><\/pre>",
+                "uid": "122575"
+            }
+        }
+    }
+}

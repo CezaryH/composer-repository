@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/time-difference": {
+            "1.0": {
+                "name": "wordpress\/time-difference",
+                "version": "1.0",
+                "version_normalized": "1.0.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/time-difference.1.0.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>This simple plugin will help you embed time differences your posts, pages and text widgets.\nJust follow this simple syntax and type it into your post, page or widget content:<\/p>\n\n<p>[time]timestamp,units[\/time]<\/p>\n\n<p>Replace \"timestamp\" with the date you wish to calculate the difference with. Then replace \"units\" \nwith an appropriate time difference unit (minutes, hours, days, months, years). That's it!<\/p>\n\n<p>Example:<\/p>\n\n<p>[time]2012-12-01,months[\/time]<\/p>\n\n<p>You can also use full timestamps:<\/p>\n\n<p>[time]2013-05-01 08:00,hours[\/time]<\/p>\n\n<h4>Author<\/h4>\n\n<p><a href=\"http:\/\/milos.djekic.net\">Milo&#353; \u0110eki\u0107<\/a> is a software enthusiast from Belgrade,\nSerbia. He loves to create useful software.<\/p>",
+                "uid": "122719"
+            }
+        }
+    }
+}

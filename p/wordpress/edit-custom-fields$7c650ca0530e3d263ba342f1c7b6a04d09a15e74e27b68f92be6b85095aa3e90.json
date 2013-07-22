@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/edit-custom-fields": {
+            "0.1.1": {
+                "name": "wordpress\/edit-custom-fields",
+                "version": "0.1.1",
+                "version_normalized": "0.1.1.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/edit-custom-fields.0.1.1.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>This plugin offers a simple interface to edit or delete any Custom Field names\/keys you may have created in the post\/page editor.<\/p>\n\n<p>Deleting a Custom Field <em>also<\/em> deletes the associated content, so use with caution!<\/p>\n\n<p>This is not meant to be a powerful plugin in the vein of <a href=\"http:\/\/www.advancedcustomfields.com\/\">Advanced Custom Fields<\/a>.<\/p>\n\n<p>I have only tested this in WordPress 3.5.1, but it may work with older\/new releases.<\/p>\n\n<p>Only users with role Editor and above have access to this plugin.<\/p>",
+                "uid": "122056"
+            }
+        }
+    }
+}

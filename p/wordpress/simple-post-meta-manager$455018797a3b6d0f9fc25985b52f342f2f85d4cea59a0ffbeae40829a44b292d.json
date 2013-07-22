@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/simple-post-meta-manager": {
+            "1.0.0": {
+                "name": "wordpress\/simple-post-meta-manager",
+                "version": "1.0.0",
+                "version_normalized": "1.0.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/simple-post-meta-manager.1.0.0.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>This plugin is for advanced WP editors \/ developers. It should increase the productivity when your post custom field's values are messed.<\/p>\n\n<p>Case 1: Let's say you have a city custom field - input text - , where an user can enter his location. Some of the users\nwill enter correctly the name of the city, some of them not.<\/p>\n\n<p>With the help of this plugin you can select the city custom field , the mistyped city name and you have the possibility to \nrename it.<\/p>\n\n<p>Case 2: Let's say you have 2 custom fields:<\/p>\n\n<ul>\n<li>cpt_city1 for custom post type1<\/li>\n<li>cpt_city2 for custom post type2<\/li>\n<\/ul>\n\n<p>Rename cpt_city1 to city and cpt_city2 to city will merge all the values from cpt_city1, cpt_city2 to city.<\/p>\n\n<p>PS: Always create database backup before renaming or replacing meta keys \/ values.<\/p>",
+                "uid": "122241"
+            }
+        }
+    }
+}

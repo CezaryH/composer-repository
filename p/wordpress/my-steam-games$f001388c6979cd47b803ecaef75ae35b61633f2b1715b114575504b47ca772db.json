@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/my-steam-games": {
+            "0.1": {
+                "name": "wordpress\/my-steam-games",
+                "version": "0.1",
+                "version_normalized": "0.1.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/my-steam-games.0.1.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>This plugin allows you to view your visitors a list of the <a href=\"http:\/\/store.steampowered.com\/\">Steam<\/a> games you own.\nYou need an API key from Steam, available <a href=\"http:\/\/steamcommunity.com\/dev\/apikey\">here<\/a> that is bound to your\ndomain and allows Steam to identify your requests.<\/p>\n\n<p>You can decide which games you don't want to show, if an icon should be shown and if you want to display the time\nyou have spent in each game.<\/p>",
+                "uid": "122070"
+            }
+        }
+    }
+}

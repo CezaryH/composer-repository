@@ -1,0 +1,40 @@
+{
+    "packages": {
+        "wordpress\/ip-tools": {
+            "0.1.0": {
+                "name": "wordpress\/ip-tools",
+                "version": "0.1.0",
+                "version_normalized": "0.1.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/ip-tools.0.1.0.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>The IP Tools plugin provides a number of ways to control the content displayed \nto the visitor depending on whether they have connected to the server\nvia IPv4 or IPv6.<\/p>\n\n<p>IPv6 is slowly being adopted, and will eventually replace IPv4.\nThere is plenty of information on this topic on the internet -- \non <a href=\"https:\/\/en.wikipedia.org\/wiki\/IPv6\">Wikipedia<\/a>, for example.<\/p>\n\n<p>Suggestions for more things to add to this tool box will be welcome.<\/p>\n\n<h4>Shortcodes<\/h4>\n\n<p>Place these shortcodes in your posts and pages.<\/p>\n\n<ul>\n<li><code>[ipt_address]<\/code> is replaced by the visitor's IP address.<\/li>\n<li><code>[ipt_ipv6logo width=80px]<\/code> is replaced by an IPv6 logo (from the \n<a href=\"http:\/\/www.worldipv6launch.org\/\">World IPv6 Launch<\/a> website)\ndisplayed with the given width.  The default width is 64 pixels: the width can be\nspecified in any <a href=\"http:\/\/www.w3.org\/TR\/css3-values\/#lengths\">CSS length unit<\/a>.<\/li>\n<li><code>[ipt_ipv6only]...text...[\/ipt_ipv",
+                "uid": "122395"
+            },
+            "0.1.1": {
+                "name": "wordpress\/ip-tools",
+                "version": "0.1.1",
+                "version_normalized": "0.1.1.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/ip-tools.0.1.1.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>The IP Tools plugin provides a number of ways to control the content displayed \nto the visitor depending on whether they have connected to the server\nvia IPv4 or IPv6.<\/p>\n\n<p>IPv6 is slowly being adopted, and will eventually replace IPv4.\nThere is plenty of information on this topic on the internet -- \non <a href=\"https:\/\/en.wikipedia.org\/wiki\/IPv6\">Wikipedia<\/a>, for example.<\/p>\n\n<p>Suggestions for more things to add to this tool box will be welcome.<\/p>\n\n<h4>Shortcodes<\/h4>\n\n<p>Place these shortcodes in your posts and pages.<\/p>\n\n<ul>\n<li><code>[ipt_address]<\/code> is replaced by the visitor's IP address.<\/li>\n<li><code>[ipt_ipv6logo width=80px]<\/code> is replaced by an IPv6 logo (from the \n<a href=\"http:\/\/www.worldipv6launch.org\/\">World IPv6 Launch<\/a> website)\ndisplayed with the given width.  The default width is 64 pixels: the width can be\nspecified in any <a href=\"http:\/\/www.w3.org\/TR\/css3-values\/#lengths\">CSS length unit<\/a>.<\/li>\n<li><code>[ipt_ipv6only]...text...[\/ipt_ipv",
+                "uid": "122586"
+            }
+        }
+    }
+}

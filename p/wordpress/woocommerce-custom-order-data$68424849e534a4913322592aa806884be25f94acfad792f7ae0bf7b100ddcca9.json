@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/woocommerce-custom-order-data": {
+            "1.0": {
+                "name": "wordpress\/woocommerce-custom-order-data",
+                "version": "1.0",
+                "version_normalized": "1.0.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/woocommerce-custom-order-data.1.0.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>If you are extending WooCommerce by creating themes or developing plugins you will find this plugin to be priceless!<\/p>\n\n<p>WooCommerce uses WordPress logic and database tables to store data on store items, orders, checkouts&#8230;\nIf you are integrating a payment gateway or any 3rd party app with your store, you sometimes need to\nstore some extra data for specific orders. It tends to be very hard or even impossible to extend orders\nwith custom data.<\/p>\n\n<h4>Extend WC Orders<\/h4>\n\n<p>Here&#8217;s how easy it is to extend a WooCommerce order in your code:<\/p>\n\n<p>&#124; WC_CustomOrderData::extend($order);<\/p>\n\n<p>To set a custom property to an order, just type:<\/p>\n\n<p>&#124; $order-&#62;custom-&#62;your_custom_property = 'some value';<\/p>\n\n<p>After that you can use your custom order property by referring the &#8220;custom&#8221; order property:<\/p>\n\n<p>&#124; $custom_property = $order-&#62;custom-&#62;your_custom_property;<\/p>\n\n<p>You can allways check if a custom order property e",
+                "uid": "122850"
+            }
+        }
+    }
+}

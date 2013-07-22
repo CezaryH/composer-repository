@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/another-simple-xml-sitemap": {
+            "0.1.1": {
+                "name": "wordpress\/another-simple-xml-sitemap",
+                "version": "0.1.1",
+                "version_normalized": "0.1.1.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/another-simple-xml-sitemap.0.1.1.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>After activation, it automatically adds the sitemap to your site (can be accessed at yoursite.com\/sitemap.xml), also, this plugin writes the sitemap url in your robots.txt file, which is a good for search engines.<\/p>",
+                "uid": "122393"
+            }
+        }
+    }
+}

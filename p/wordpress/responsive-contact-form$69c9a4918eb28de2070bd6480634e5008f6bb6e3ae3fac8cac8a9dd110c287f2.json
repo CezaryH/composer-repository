@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/responsive-contact-form": {
+            "1.0": {
+                "name": "wordpress\/responsive-contact-form",
+                "version": "1.0",
+                "version_normalized": "1.0.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/responsive-contact-form.1.0.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>Contact Us Form is a simple WordPress plugin that generates a responsive contact form on your website or blog.simply insert [ai_contact_form] in any page or post content and the form will appear or paste this php code &#60; ? php do_shortcode(\"[ai_contact_form]\"); ? &#62; in any template.<\/p>\n\n<p>Features:<\/p>\n\n<ul>\n<li>Easy to install.<\/li>\n<li>It is responsive form.<\/li>\n<li>Easy jQuery validations.<\/li>\n<li>Easy to understand coding standard.<\/li>\n<li>Easy to enable\/disable alpha numeric captcha.<\/li>\n<li>Easy to add subject text for mail to be sent to the users.<\/li>\n<li>You can choose where to send the messages - this can be any email address.<\/li>\n<li>You can choose the message to be displayed after successful submission of form Ex.-Your details are submitted successfully!.<\/li>\n<li>Easy to call using two method one is using shortcode [ai_contact_form] and other using paste this php code \n&#60; ? php do_shortcode(\"[ai_contact_form]\"); ? &#62;<\/li>\n<\/ul>",
+                "uid": "122049"
+            }
+        }
+    }
+}

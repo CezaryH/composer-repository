@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/spdm-shortcode-slider-multisite": {
+            "0.1": {
+                "name": "wordpress\/spdm-shortcode-slider-multisite",
+                "version": "0.1",
+                "version_normalized": "0.1.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/spdm-shortcode-slider-multisite.0.1.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>SPDM Shortcode Slider Multisite is a plugin based on the plugin SPD Shortcode Slider. This plugin has 2 new freatures: [sites__in] and [sites__not_in] to show posts\/pages from other sites of your multisite in your Slideshows. This is a first version, more features for multisite are coming soon. Patches are welcome ;)<\/p>\n\n<p>Slider uses featured image for slides and thumbs. Multiple instances supported (although not on same page). Since content, slider layouts, image sizes and animations are controlled by attributes with multiple possible values you can create unlimited unique configurations with every instance.<\/p>\n\n<p>Specify layouts (plain, thumbnail-top, thumbnail-bottom, numbers-top, numbers-bottom and buttons) along with slide content by custom taxonomy term, post type, category id, tag id, or just their post and page ids. You can also define the amount of slides, order, effect, speed between transitions, speed of transition and whether the slide title, slide excerpt, thumb ti",
+                "uid": "122577"
+            }
+        }
+    }
+}

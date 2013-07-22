@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/which-template": {
+            "1.0": {
+                "name": "wordpress\/which-template",
+                "version": "1.0",
+                "version_normalized": "1.0.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/which-template.1.0.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>A wordpress plugin that helps you work out which template your page is currently using. If you login to wordpress, visit your site, in the admin bar you will see a link to the template your page is using. It should say something like \"Template: ...\". Click on it and you will navigate to the actual template in a new tab.<\/p>",
+                "uid": "122588"
+            }
+        }
+    }
+}

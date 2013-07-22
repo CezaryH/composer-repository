@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/better-user-profile-fields": {
+            "1.0": {
+                "name": "wordpress\/better-user-profile-fields",
+                "version": "1.0",
+                "version_normalized": "1.0.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/better-user-profile-fields.1.0.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>Adds new user profile fields, including Facebook, Twitter, Google+, Deviant Art and Tumblr. These new fields can be used in your template with get_author_meta('')<\/p>\n\n<p>For example, to add the Google+ URL you would use get_author_meta('googleplus').<\/p>",
+                "uid": "122066"
+            }
+        }
+    }
+}

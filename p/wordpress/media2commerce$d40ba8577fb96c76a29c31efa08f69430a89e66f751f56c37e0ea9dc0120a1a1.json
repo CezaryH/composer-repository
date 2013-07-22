@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/media2commerce": {
+            "0.1": {
+                "name": "wordpress\/media2commerce",
+                "version": "0.1",
+                "version_normalized": "0.1.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/media2commerce.0.1.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p><strong>Plugin currently in beta - please submit feedback in the support forum, thank you<\/strong><\/p>\n\n<p>Media2Commerce is a plugin that enables you to sell uploaded media directly from WordPress.<\/p>\n\n<p>It requires the WooCommerce shop plugin, when media is uploaded an associated product is created and a meta tag, product_link, appended to the media post meta.<\/p>\n\n<p>Products are created as downloadable media items.<\/p>",
+                "uid": "122055"
+            }
+        }
+    }
+}

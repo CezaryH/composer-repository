@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/hosting-bandwidth-calculator": {
+            "1.0": {
+                "name": "wordpress\/hosting-bandwidth-calculator",
+                "version": "1.0",
+                "version_normalized": "1.0.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/hosting-bandwidth-calculator.1.0.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<h4>What does this plugin do?<\/h4>\n\n<p>This plugin calculates the amount of monthly hosting bandwidth you'll need for your site.<\/p>\n\n<h4>How does it work?<\/h4>\n\n<p>It takes the web page size (read from the URL given by the user), and with the user input for monthly page views, it then calculates the monthly hosting bandwidth needed. This is will be displayed as a sidebar widget.<\/p>\n\n<h4>What is bandwidth?<\/h4>\n\n<p>Every host offers you bandwidth, but what exactly is it? Not only that, but how much do you really need? Can you get away with 5GB, or should you upgrade to a larger plan that offers 20GB+?<\/p>\n\n<p>Bandwidth refers to several things. It can refer to the speed at which data moves from a server to a computer (or vice-versa), but that measurement is often used more by ISPs than hosts. Hosting bandwidth is about how much data can be moved from the servers to a computer, regardless of time or speed.<\/p>\n\n<p>For example, let's say that someone visited your website. Each page is 1",
+                "uid": "117304"
+            }
+        }
+    }
+}

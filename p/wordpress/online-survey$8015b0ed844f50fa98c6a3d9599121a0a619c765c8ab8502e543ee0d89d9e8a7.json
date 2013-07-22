@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/online-survey": {
+            "1.0": {
+                "name": "wordpress\/online-survey",
+                "version": "1.0",
+                "version_normalized": "1.0.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/online-survey.1.0.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>Client will get the form in email with the answers and there will be a link in the admin panel to view the survey.<\/p>\n\n<p>Survey Form display by [ONLINE_SURVEY]<\/p>\n\n<p>The form will be a page on the site.<\/p>\n\n<p>list of survey look like that:<\/p>\n\n<p>Name, Email, View Survey<\/p>\n\n<p>Admin panel:\ncan create\/edit Categories (category have name and desc)<\/p>\n\n<p>can create\/edit questions. question can have 4 types:\nqty\nscale\nyes\/no\ntext box (one line)<\/p>\n\n<p>form with details in the bottom (all mandatory except the message field)<\/p>\n\n<p>you can order the categories.<\/p>",
+                "uid": "122050"
+            }
+        }
+    }
+}

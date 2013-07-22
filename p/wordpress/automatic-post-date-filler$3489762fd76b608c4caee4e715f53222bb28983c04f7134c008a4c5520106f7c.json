@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/automatic-post-date-filler": {
+            "1.0": {
+                "name": "wordpress\/automatic-post-date-filler",
+                "version": "1.0",
+                "version_normalized": "1.0.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/automatic-post-date-filler.1.0.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>With APDF you won't have to change the date and time of scheduled posts ever again. You just have to create simple rules and you are done. This plugin will <strong>set the date and time automatically<\/strong> when scheduling a post.<\/p>\n\n<p>The customized date and time of scheduled posts will be automatically filled after clicking the \"Edit\" link next to \"Publish immediately\" in the Publish module. Users are still free to modify the value to whatever they want afterwards.<\/p>\n\n<h4>Features<\/h4>\n\n<ul>\n<li>You can set a certain time of day when posts should be published<\/li>\n<li>Time inserted by APDF can be based on the current date\/time or the date\/time of the furthest schedulest post + specified number of days\/minutes<\/li>\n<li>Default values provided by WordPress will be overroden only when scheduling posts with posts statuses set by the user<\/li>\n<\/ul>\n\n<p><em>Follow <a href=\"http:\/\/twitter.com\/devtard_com\">@devtard_com<\/a> on Twitter or subscribe to my blog <a href=\"http:\/\/devtard",
+                "uid": "122068"
+            }
+        }
+    }
+}

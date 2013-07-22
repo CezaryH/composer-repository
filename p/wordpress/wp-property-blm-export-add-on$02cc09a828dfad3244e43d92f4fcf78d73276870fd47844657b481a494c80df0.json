@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/wp-property-blm-export-add-on": {
+            "1.0.0": {
+                "name": "wordpress\/wp-property-blm-export-add-on",
+                "version": "1.0.0",
+                "version_normalized": "1.0.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/wp-property-blm-export-add-on.1.0.0.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>An add-on for the WP-Property WordPress plugin that allows you to send a BLM feed to property portals automatically at regular intervals. Contains the following features:<\/p>\n\n<ul>\n<li>Automatic scheduling of feed creation; either twice a day, once a day, or every other day.<\/li>\n<li>Test mode and live mode to allow you to test the feed first before sending it.<\/li>\n<li>FTP upload - Feeds are automatically uploaded via FTP to the portals.<\/li>\n<li>Compression. Specify if you want to send all the files separately, or compress them into a single zip for quicker processing.<\/li>\n<li>Support for multiple branch codes per portal in the event you are dealing with a multi-office agency.<\/li>\n<li>Incremental feeds. The plugin only includes the media that is new or has recently changed to massively reduce sending times and filesize. Can be overwritten if required<\/li>\n<li>Archiving. Store files for a configurable amount of days to act as a temporary backup. These are then automatically clean",
+                "uid": "122587"
+            }
+        }
+    }
+}

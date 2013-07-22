@@ -1,0 +1,244 @@
+{
+    "packages": {
+        "wordpress\/nginx-champuru": {
+            "0.2.0": {
+                "name": "wordpress\/nginx-champuru",
+                "version": "0.2.0",
+                "version_normalized": "0.2.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/nginx-champuru.0.2.0.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>This plugin provides some functions of controlling Nginx proxy server cache.<\/p>\n\n<p>= Security<\/p>\n\n<ul>\n<li>Making comment authors' information ajaxed to prevent the information from caching.<\/li>\n<li>Send no-cache header on password protected posts to prevent the posts from caching.<\/li>\n<li>When a scheduled post is published, it will delete the cache through Ajax.<\/li>\n<\/ul>\n\n<p>= Controlling cache<\/p>\n\n<ul>\n<li>Sending X-ACCEL-EXPIRES, you can specify the available period of the cache.<\/li>\n<li>When you save your post and someone post comments, the cache is deleted automatically.<\/li>\n<li>Add a menu on the admin bar to delete the cache.<\/li>\n<\/ul>\n\n<p>= Memo<\/p>\n\n<ul>\n<li>Gets comment poster's IP address by HTTP_X_FORWARDED_FOR header.<\/li>\n<li>Fixes the issue that the permanent link setting includes index.php.<\/li>\n<li>When the cache's expiration period is more than 86400 sec, change the value of wp_verify_nonce() same as the period.<\/li>\n<\/ul>\n\n<h4>Translator<\/h4>\n\n<ul>\n<li>E",
+                "uid": "37155"
+            },
+            "0.4.0": {
+                "name": "wordpress\/nginx-champuru",
+                "version": "0.4.0",
+                "version_normalized": "0.4.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/nginx-champuru.0.4.0.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>This plugin provides some functions of controlling Nginx proxy server cache.<\/p>\n\n<p>= Security<\/p>\n\n<ul>\n<li>Making comment authors' information ajaxed to prevent the information from caching.<\/li>\n<li>Send no-cache header on password protected posts to prevent the posts from caching.<\/li>\n<li>When a scheduled post is published, it will delete the cache through Ajax.<\/li>\n<\/ul>\n\n<p>= Controlling cache<\/p>\n\n<ul>\n<li>Sending X-ACCEL-EXPIRES, you can specify the available period of the cache.<\/li>\n<li>When you save your post and someone post comments, the cache is deleted automatically.<\/li>\n<li>Add a menu on the admin bar to delete the cache.<\/li>\n<\/ul>\n\n<p>= Memo<\/p>\n\n<ul>\n<li>Gets comment poster's IP address by HTTP_X_FORWARDED_FOR header.<\/li>\n<li>Fixes the issue that the permanent link setting includes index.php.<\/li>\n<li>When the cache's expiration period is more than 86400 sec, change the value of wp_verify_nonce() same as the period.<\/li>\n<\/ul>\n\n<h4>Translator<\/h4>\n\n<ul>\n<li>E",
+                "uid": "37154"
+            },
+            "1.1.0": {
+                "name": "wordpress\/nginx-champuru",
+                "version": "1.1.0",
+                "version_normalized": "1.1.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/nginx-champuru.1.1.0.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>This plugin provides some functions of controlling Nginx proxy server cache.<\/p>\n\n<p>= Security<\/p>\n\n<ul>\n<li>Making comment authors' information ajaxed to prevent the information from caching.<\/li>\n<li>Send no-cache header on password protected posts to prevent the posts from caching.<\/li>\n<li>When a scheduled post is published, it will delete the cache through Ajax.<\/li>\n<\/ul>\n\n<p>= Controlling cache<\/p>\n\n<ul>\n<li>Sending X-ACCEL-EXPIRES, you can specify the available period of the cache.<\/li>\n<li>When you save your post and someone post comments, the cache is deleted automatically.<\/li>\n<li>Add a menu on the admin bar to delete the cache.<\/li>\n<\/ul>\n\n<p>= Memo<\/p>\n\n<ul>\n<li>Gets comment poster's IP address by HTTP_X_FORWARDED_FOR header.<\/li>\n<li>Fixes the issue that the permanent link setting includes index.php.<\/li>\n<li>When the cache's expiration period is more than 86400 sec, change the value of wp_verify_nonce() same as the period.<\/li>\n<\/ul>\n\n<h4>Translator<\/h4>\n\n<ul>\n<li>E",
+                "uid": "37153"
+            },
+            "1.1.1": {
+                "name": "wordpress\/nginx-champuru",
+                "version": "1.1.1",
+                "version_normalized": "1.1.1.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/nginx-champuru.1.1.1.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>This plugin provides some functions of controlling Nginx proxy server cache.<\/p>\n\n<p>= Security<\/p>\n\n<ul>\n<li>Making comment authors' information ajaxed to prevent the information from caching.<\/li>\n<li>Send no-cache header on password protected posts to prevent the posts from caching.<\/li>\n<li>When a scheduled post is published, it will delete the cache through Ajax.<\/li>\n<\/ul>\n\n<p>= Controlling cache<\/p>\n\n<ul>\n<li>Sending X-ACCEL-EXPIRES, you can specify the available period of the cache.<\/li>\n<li>When you save your post and someone post comments, the cache is deleted automatically.<\/li>\n<li>Add a menu on the admin bar to delete the cache.<\/li>\n<\/ul>\n\n<p>= Memo<\/p>\n\n<ul>\n<li>Gets comment poster's IP address by HTTP_X_FORWARDED_FOR header.<\/li>\n<li>Fixes the issue that the permanent link setting includes index.php.<\/li>\n<li>When the cache's expiration period is more than 86400 sec, change the value of wp_verify_nonce() same as the period.<\/li>\n<\/ul>\n\n<h4>Translator<\/h4>\n\n<ul>\n<li>E",
+                "uid": "37152"
+            },
+            "1.1.2": {
+                "name": "wordpress\/nginx-champuru",
+                "version": "1.1.2",
+                "version_normalized": "1.1.2.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/nginx-champuru.1.1.2.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>This plugin provides some functions of controlling Nginx proxy server cache.<\/p>\n\n<p>= Security<\/p>\n\n<ul>\n<li>Making comment authors' information ajaxed to prevent the information from caching.<\/li>\n<li>Send no-cache header on password protected posts to prevent the posts from caching.<\/li>\n<li>When a scheduled post is published, it will delete the cache through Ajax.<\/li>\n<\/ul>\n\n<p>= Controlling cache<\/p>\n\n<ul>\n<li>Sending X-ACCEL-EXPIRES, you can specify the available period of the cache.<\/li>\n<li>When you save your post and someone post comments, the cache is deleted automatically.<\/li>\n<li>Add a menu on the admin bar to delete the cache.<\/li>\n<\/ul>\n\n<p>= Memo<\/p>\n\n<ul>\n<li>Gets comment poster's IP address by HTTP_X_FORWARDED_FOR header.<\/li>\n<li>Fixes the issue that the permanent link setting includes index.php.<\/li>\n<li>When the cache's expiration period is more than 86400 sec, change the value of wp_verify_nonce() same as the period.<\/li>\n<\/ul>\n\n<h4>Translator<\/h4>\n\n<ul>\n<li>E",
+                "uid": "37151"
+            },
+            "1.1.3": {
+                "name": "wordpress\/nginx-champuru",
+                "version": "1.1.3",
+                "version_normalized": "1.1.3.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/nginx-champuru.1.1.3.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>This plugin provides some functions of controlling Nginx proxy server cache.<\/p>\n\n<p>= Security<\/p>\n\n<ul>\n<li>Making comment authors' information ajaxed to prevent the information from caching.<\/li>\n<li>Send no-cache header on password protected posts to prevent the posts from caching.<\/li>\n<li>When a scheduled post is published, it will delete the cache through Ajax.<\/li>\n<\/ul>\n\n<p>= Controlling cache<\/p>\n\n<ul>\n<li>Sending X-ACCEL-EXPIRES, you can specify the available period of the cache.<\/li>\n<li>When you save your post and someone post comments, the cache is deleted automatically.<\/li>\n<li>Add a menu on the admin bar to delete the cache.<\/li>\n<\/ul>\n\n<p>= Memo<\/p>\n\n<ul>\n<li>Gets comment poster's IP address by HTTP_X_FORWARDED_FOR header.<\/li>\n<li>Fixes the issue that the permanent link setting includes index.php.<\/li>\n<li>When the cache's expiration period is more than 86400 sec, change the value of wp_verify_nonce() same as the period.<\/li>\n<\/ul>\n\n<h4>Translator<\/h4>\n\n<ul>\n<li>E",
+                "uid": "37150"
+            },
+            "1.1.4": {
+                "name": "wordpress\/nginx-champuru",
+                "version": "1.1.4",
+                "version_normalized": "1.1.4.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/nginx-champuru.1.1.4.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>This plugin provides some functions of controlling Nginx proxy server cache.<\/p>\n\n<p>= Security<\/p>\n\n<ul>\n<li>Making comment authors' information ajaxed to prevent the information from caching.<\/li>\n<li>Send no-cache header on password protected posts to prevent the posts from caching.<\/li>\n<li>When a scheduled post is published, it will delete the cache through Ajax.<\/li>\n<\/ul>\n\n<p>= Controlling cache<\/p>\n\n<ul>\n<li>Sending X-ACCEL-EXPIRES, you can specify the available period of the cache.<\/li>\n<li>When you save your post and someone post comments, the cache is deleted automatically.<\/li>\n<li>Add a menu on the admin bar to delete the cache.<\/li>\n<\/ul>\n\n<p>= Memo<\/p>\n\n<ul>\n<li>Gets comment poster's IP address by HTTP_X_FORWARDED_FOR header.<\/li>\n<li>Fixes the issue that the permanent link setting includes index.php.<\/li>\n<li>When the cache's expiration period is more than 86400 sec, change the value of wp_verify_nonce() same as the period.<\/li>\n<\/ul>\n\n<h4>Translator<\/h4>\n\n<ul>\n<li>E",
+                "uid": "37149"
+            },
+            "1.1.5": {
+                "name": "wordpress\/nginx-champuru",
+                "version": "1.1.5",
+                "version_normalized": "1.1.5.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/nginx-champuru.1.1.5.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>This plugin provides some functions of controlling Nginx proxy server cache.<\/p>\n\n<p>= Security<\/p>\n\n<ul>\n<li>Making comment authors' information ajaxed to prevent the information from caching.<\/li>\n<li>Send no-cache header on password protected posts to prevent the posts from caching.<\/li>\n<li>When a scheduled post is published, it will delete the cache through Ajax.<\/li>\n<\/ul>\n\n<p>= Controlling cache<\/p>\n\n<ul>\n<li>Sending X-ACCEL-EXPIRES, you can specify the available period of the cache.<\/li>\n<li>When you save your post and someone post comments, the cache is deleted automatically.<\/li>\n<li>Add a menu on the admin bar to delete the cache.<\/li>\n<\/ul>\n\n<p>= Memo<\/p>\n\n<ul>\n<li>Gets comment poster's IP address by HTTP_X_FORWARDED_FOR header.<\/li>\n<li>Fixes the issue that the permanent link setting includes index.php.<\/li>\n<li>When the cache's expiration period is more than 86400 sec, change the value of wp_verify_nonce() same as the period.<\/li>\n<\/ul>\n\n<h4>Translator<\/h4>\n\n<ul>\n<li>E",
+                "uid": "37148"
+            },
+            "1.2.1": {
+                "name": "wordpress\/nginx-champuru",
+                "version": "1.2.1",
+                "version_normalized": "1.2.1.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/nginx-champuru.1.2.1.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>This plugin provides some functions of controlling Nginx proxy server cache.<\/p>\n\n<p>= Security<\/p>\n\n<ul>\n<li>Making comment authors' information ajaxed to prevent the information from caching.<\/li>\n<li>Send no-cache header on password protected posts to prevent the posts from caching.<\/li>\n<li>When a scheduled post is published, it will delete the cache through Ajax.<\/li>\n<\/ul>\n\n<p>= Controlling cache<\/p>\n\n<ul>\n<li>Sending X-ACCEL-EXPIRES, you can specify the available period of the cache.<\/li>\n<li>When you save your post and someone post comments, the cache is deleted automatically.<\/li>\n<li>Add a menu on the admin bar to delete the cache.<\/li>\n<\/ul>\n\n<p>= Memo<\/p>\n\n<ul>\n<li>Gets comment poster's IP address by HTTP_X_FORWARDED_FOR header.<\/li>\n<li>Fixes the issue that the permanent link setting includes index.php.<\/li>\n<li>When the cache's expiration period is more than 86400 sec, change the value of wp_verify_nonce() same as the period.<\/li>\n<\/ul>\n\n<h4>Translator<\/h4>\n\n<ul>\n<li>E",
+                "uid": "37147"
+            },
+            "1.2.2": {
+                "name": "wordpress\/nginx-champuru",
+                "version": "1.2.2",
+                "version_normalized": "1.2.2.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/nginx-champuru.1.2.2.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>This plugin provides some functions of controlling Nginx proxy server cache.<\/p>\n\n<p>= Security<\/p>\n\n<ul>\n<li>Making comment authors' information ajaxed to prevent the information from caching.<\/li>\n<li>Send no-cache header on password protected posts to prevent the posts from caching.<\/li>\n<li>When a scheduled post is published, it will delete the cache through Ajax.<\/li>\n<\/ul>\n\n<p>= Controlling cache<\/p>\n\n<ul>\n<li>Sending X-ACCEL-EXPIRES, you can specify the available period of the cache.<\/li>\n<li>When you save your post and someone post comments, the cache is deleted automatically.<\/li>\n<li>Add a menu on the admin bar to delete the cache.<\/li>\n<\/ul>\n\n<p>= Memo<\/p>\n\n<ul>\n<li>Gets comment poster's IP address by HTTP_X_FORWARDED_FOR header.<\/li>\n<li>Fixes the issue that the permanent link setting includes index.php.<\/li>\n<li>When the cache's expiration period is more than 86400 sec, change the value of wp_verify_nonce() same as the period.<\/li>\n<\/ul>\n\n<h4>Translator<\/h4>\n\n<ul>\n<li>E",
+                "uid": "37146"
+            },
+            "1.3.0": {
+                "name": "wordpress\/nginx-champuru",
+                "version": "1.3.0",
+                "version_normalized": "1.3.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/nginx-champuru.1.3.0.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>This plugin provides some functions of controlling Nginx proxy server cache.<\/p>\n\n<p>= Security<\/p>\n\n<ul>\n<li>Making comment authors' information ajaxed to prevent the information from caching.<\/li>\n<li>Send no-cache header on password protected posts to prevent the posts from caching.<\/li>\n<li>When a scheduled post is published, it will delete the cache through Ajax.<\/li>\n<\/ul>\n\n<p>= Controlling cache<\/p>\n\n<ul>\n<li>Sending X-ACCEL-EXPIRES, you can specify the available period of the cache.<\/li>\n<li>When you save your post and someone post comments, the cache is deleted automatically.<\/li>\n<li>Add a menu on the admin bar to delete the cache.<\/li>\n<\/ul>\n\n<p>= Memo<\/p>\n\n<ul>\n<li>Gets comment poster's IP address by HTTP_X_FORWARDED_FOR header.<\/li>\n<li>Fixes the issue that the permanent link setting includes index.php.<\/li>\n<li>When the cache's expiration period is more than 86400 sec, change the value of wp_verify_nonce() same as the period.<\/li>\n<\/ul>\n\n<h4>Translator<\/h4>\n\n<ul>\n<li>E",
+                "uid": "37145"
+            },
+            "1.4.2": {
+                "name": "wordpress\/nginx-champuru",
+                "version": "1.4.2",
+                "version_normalized": "1.4.2.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/nginx-champuru.1.4.2.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>This plugin provides some functions of controlling Nginx proxy server cache.<\/p>\n\n<p>= Security<\/p>\n\n<ul>\n<li>Making comment authors' information ajaxed to prevent the information from caching.<\/li>\n<li>Send no-cache header on password protected posts to prevent the posts from caching.<\/li>\n<li>When a scheduled post is published, it will delete the cache through Ajax.<\/li>\n<\/ul>\n\n<p>= Controlling cache<\/p>\n\n<ul>\n<li>Sending X-ACCEL-EXPIRES, you can specify the available period of the cache.<\/li>\n<li>When you save your post and someone post comments, the cache is deleted automatically.<\/li>\n<li>Add a menu on the admin bar to delete the cache.<\/li>\n<\/ul>\n\n<p>= Memo<\/p>\n\n<ul>\n<li>Gets comment poster's IP address by HTTP_X_FORWARDED_FOR header.<\/li>\n<li>Fixes the issue that the permanent link setting includes index.php.<\/li>\n<li>When the cache's expiration period is more than 86400 sec, change the value of wp_verify_nonce() same as the period.<\/li>\n<\/ul>\n\n<h4>Translator<\/h4>\n\n<ul>\n<li>E",
+                "uid": "37144"
+            },
+            "1.5.0": {
+                "name": "wordpress\/nginx-champuru",
+                "version": "1.5.0",
+                "version_normalized": "1.5.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/nginx-champuru.1.5.0.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>This plugin provides some functions of controlling Nginx proxy server cache.<\/p>\n\n<p>= Security<\/p>\n\n<ul>\n<li>Making comment authors' information ajaxed to prevent the information from caching.<\/li>\n<li>Send no-cache header on password protected posts to prevent the posts from caching.<\/li>\n<li>When a scheduled post is published, it will delete the cache through Ajax.<\/li>\n<\/ul>\n\n<p>= Controlling cache<\/p>\n\n<ul>\n<li>Sending X-ACCEL-EXPIRES, you can specify the available period of the cache.<\/li>\n<li>When you save your post and someone post comments, the cache is deleted automatically.<\/li>\n<li>Add a menu on the admin bar to delete the cache.<\/li>\n<\/ul>\n\n<p>= Memo<\/p>\n\n<ul>\n<li>Gets comment poster's IP address by HTTP_X_FORWARDED_FOR header.<\/li>\n<li>Fixes the issue that the permanent link setting includes index.php.<\/li>\n<li>When the cache's expiration period is more than 86400 sec, change the value of wp_verify_nonce() same as the period.<\/li>\n<\/ul>\n\n<h4>Translator<\/h4>\n\n<ul>\n<li>E",
+                "uid": "37143"
+            },
+            "1.6.0": {
+                "name": "wordpress\/nginx-champuru",
+                "version": "1.6.0",
+                "version_normalized": "1.6.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/nginx-champuru.1.6.0.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>This plugin provides some functions of controlling Nginx proxy server cache.<\/p>\n\n<p>= Security<\/p>\n\n<ul>\n<li>Making comment authors' information ajaxed to prevent the information from caching.<\/li>\n<li>Send no-cache header on password protected posts to prevent the posts from caching.<\/li>\n<li>When a scheduled post is published, it will delete the cache through Ajax.<\/li>\n<\/ul>\n\n<p>= Controlling cache<\/p>\n\n<ul>\n<li>Sending X-ACCEL-EXPIRES, you can specify the available period of the cache.<\/li>\n<li>When you save your post and someone post comments, the cache is deleted automatically.<\/li>\n<li>Add a menu on the admin bar to delete the cache.<\/li>\n<\/ul>\n\n<p>= Memo<\/p>\n\n<ul>\n<li>Gets comment poster's IP address by HTTP_X_FORWARDED_FOR header.<\/li>\n<li>Fixes the issue that the permanent link setting includes index.php.<\/li>\n<li>When the cache's expiration period is more than 86400 sec, change the value of wp_verify_nonce() same as the period.<\/li>\n<\/ul>\n\n<h4>Translator<\/h4>\n\n<ul>\n<li>E",
+                "uid": "122305"
+            }
+        }
+    }
+}
