@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/fetch-tweets": {
+            "1.0.0": {
+                "name": "wordpress\/fetch-tweets",
+                "version": "1.0.0",
+                "version_normalized": "1.0.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/fetch-tweets.1.0.0.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<h4>Features<\/h4>\n\n<ul>\n<li><strong>User Timeline<\/strong> - by specifying the user name, the timeline can be fetched and displayed.<\/li>\n<li><strong>Search Results<\/strong> - by specifying the search keyword, the results can be fetched and displayed.<\/li>\n<li><strong>Mashups<\/strong> - you can display the combined results from multiple rule sets of your choosing.<\/li>\n<li><strong>Widget<\/strong> - tweets can be displayed in the widgets that the plugin provides.<\/li>\n<li><strong>Shortcode<\/strong> - with the shortcode, the fetched tweets can be displayed in posts and pages.<\/li>\n<li><strong>PHP Code<\/strong> - with the PHP function, the fetched tweets can be embeded in the templates.<\/li>\n<li><strong>Custom Templates<\/strong> - you can change the design by modifying\/creating the template file.<\/li>\n<li><strong>Background Cache Renewal<\/strong> - it renews the caches in the background so it will prevent the page load from suddenly getting stuck for fetching external sources.<\/li>\n<\/ul>",
+                "uid": "123022"
+            }
+        }
+    }
+}
