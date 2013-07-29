@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/wens-responsive-column-layout-shortcodes": {
+            "1.0": {
+                "name": "wordpress\/wens-responsive-column-layout-shortcodes",
+                "version": "1.0",
+                "version_normalized": "1.0.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/wens-responsive-column-layout-shortcodes.1.0.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>This Plugin easily adds responsive ( BootStrap ) columns layout into posts and pages by wrapping content with a shortcode. \nUse the Plugin's button on the editor to add columns or simply copy and paste the beneath codes. Use the shortcode in the text widget or posts\/pages like this:<\/p>\n\n<ul>\n<li><p>2 column layout: - \n[bscolumns class=\"one_half\"]Your Content Goes here[\/bscolumns]\n[bscolumns class=\"one_half_last\"]Your Content Goes here[\/bscolumns]<\/p><\/li>\n<li><p>3 column layout: -\n[bscolumns class=\"one_third\"]Your Content Goes here[\/bscolumns]\n[bscolumns class=\"one_third\"]Your Content Goes here[\/bscolumns]\n[bscolumns class=\"one_third_last\"]Your Content Goes here[\/bscolumns]<\/p><\/li>\n<li><p>4 column layout: -\n[bscolumns class=\"one_fourth\"]Your Content Goes here[\/bscolumns]\n[bscolumns class=\"one_fourth\"]Your Content Goes here[\/bscolumns]\n[bscolumns class=\"one_fourth\"]Your Content Goes here[\/bscolumns]\n[bscolumns class=\"one_fourth_last\"]Your Content Goes here[\/bscolumns]<\/p><\/li>\n<li>",
+                "uid": "123507"
+            }
+        }
+    }
+}

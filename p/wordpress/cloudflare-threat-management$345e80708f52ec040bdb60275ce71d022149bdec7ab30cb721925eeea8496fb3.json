@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/cloudflare-threat-management": {
+            "0.5": {
+                "name": "wordpress\/cloudflare-threat-management",
+                "version": "0.5",
+                "version_normalized": "0.5.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/cloudflare-threat-management.0.5.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>CloudFlare Threat Management allows you to manage all banning, unbanning, and clearing of IP addresses at a CloudFlare level. CloudFlare Threat Management also intergrates with popular WordPress security plugins such as <a href=\"http:\/\/wordpress.org\/plugins\/wordfence\/\">WordFence<\/a>.<\/p>\n\n<p>Set up is easy. Enter the email which you use to login to <a href=\"https:\/\/www.cloudflare.com\/login\">CloudFlare.com<\/a> &#38; your <a href=\"https:\/\/www.cloudflare.com\/my-account\">API key found here<\/a>. Once you save that information into CloudFlare Threat Management, you'll be able to specify a list of IP address to blacklist (ban), whitelist (never ban) and clear (remove from CloudFlare completely).<\/p>\n\n<p>It's <strong>important to note<\/strong> that any changes you do while using CloudFlare Threat Management populate <strong>across your entire CloudFlare account<\/strong>. This means that if you have 50 domains registered under your CloudFlare account, and you ban a single IP address, that ad",
+                "uid": "123719"
+            }
+        }
+    }
+}

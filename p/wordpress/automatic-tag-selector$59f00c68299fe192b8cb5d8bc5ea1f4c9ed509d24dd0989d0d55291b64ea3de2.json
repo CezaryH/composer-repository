@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/automatic-tag-selector": {
+            "1.0.0": {
+                "name": "wordpress\/automatic-tag-selector",
+                "version": "1.0.0",
+                "version_normalized": "1.0.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/automatic-tag-selector.1.0.0.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>Selecting tags each time you post can be tedious. You also have to have an awareness of all the tags you've added in the past.<\/p>\n\n<p>This plugin adds tags for you as you type. It looks at all the tags you've used in the past and, if it finds the same word(s) in your content, adds the tag automatically.<\/p>",
+                "uid": "123195"
+            }
+        }
+    }
+}

@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/dofollow-case-by-case": {
+            "1.0": {
+                "name": "wordpress\/dofollow-case-by-case",
+                "version": "1.0",
+                "version_normalized": "1.0.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/dofollow-case-by-case.1.0.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>This WordPress plugin gives you the possibility to remove the \"nofollow\" attribute from your wordpress blog's comments: from the author's links and\/or from the comments text links. This can be done either case by case (editing each comment) or through a white-list of commenters emails, whose comments will allways be dofollow.<\/p>\n\n<p>It also adds a checkbox in the insert link popup box for including rel=\"nofollow\" in links as you create them, so that you can significantly increase the control of the rel=\"nofollow\" tag on every link on your blog. It is designed to give you fine-grained control of linking for SEO purposes.<\/p>\n\n<p>And it also adds a shortcode for making a link no follow in posts and pages. The usage is as follows: [nofollow] LINK [\/nofollow]<\/p>\n\n<h4>What can I do with this plugin?<\/h4>\n\n<p>This plugin allows you to set links in comments to be dofollow instead of nofollow. When editing a comment, now you have the option to remove the rel=\"nofollow\" attributes from the",
+                "uid": "123203"
+            }
+        }
+    }
+}

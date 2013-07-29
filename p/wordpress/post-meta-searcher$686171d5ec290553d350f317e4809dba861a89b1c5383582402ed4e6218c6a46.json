@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/post-meta-searcher": {
+            "1.0": {
+                "name": "wordpress\/post-meta-searcher",
+                "version": "1.0",
+                "version_normalized": "1.0.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/post-meta-searcher.1.0.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>When activated, forces any WordPress Search Query to query against post meta data as part of the search criteria. This also enables you to search against custom fields without the need of specifying any meta keys.<\/p>\n\n<p>For example, if you have a custom field named \"Colour\" or something similar on your posts, running a search for \"Blue\" will return any posts with \"Colour\" set to \"Blue\". This is just one example. The plugin will work with any field.<\/p>",
+                "uid": "123502"
+            }
+        }
+    }
+}

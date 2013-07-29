@@ -1,0 +1,40 @@
+{
+    "packages": {
+        "wordpress\/multisite-posts": {
+            "2.0.1": {
+                "name": "wordpress\/multisite-posts",
+                "version": "2.0.1",
+                "version_normalized": "2.0.1.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/multisite-posts.2.0.1.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>Get posts from any site in a multisite setup. Internationalization ready. You can access via<\/p>\n\n<ul>\n<li>shortcode<\/li>\n<li>widget<\/li>\n<li>editor button<\/li>\n<\/ul>\n\n<p>Usage options:<\/p>\n\n<ul>\n<li>Post No: Number of Posts to display<\/li>\n<li>Category: Name or ID of the category to grab post from<\/li>\n<li>Blog ID: Domain of the site that you would like to fetch posts from. If using shortcode directly, you need to find your Blog manually, follow <a href=\"http:\/\/blogat.centilin.com\/everything_it\/web-design\/wordpress\/how-to-find-your-blog-id\/\" title=\"How to find your blog ID\">this tutorial<\/a><\/li>\n<li>Custom Query: For Advanced users only. Complete query (in array fashion) that's going to be applied to WP Query. For example: 'offset' =&#62; 0, 'category' =&#62; 'unknown', 'orderby' =&#62; 'post_date'<\/li>\n<li>Excerpt: check to show excepts<\/li>\n<li>Thumbnail: check to show thumbnails<\/li>\n<\/ul>",
+                "uid": "123991"
+            },
+            "20": {
+                "name": "wordpress\/multisite-posts",
+                "version": "20",
+                "version_normalized": "20.0.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/multisite-posts.20120724.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>Get posts from any site in a multisite setup. Internationalization ready. You can access via<\/p>\n\n<ul>\n<li>shortcode<\/li>\n<li>widget<\/li>\n<li>editor button<\/li>\n<\/ul>\n\n<p>Usage options:<\/p>\n\n<ul>\n<li>Post No: Number of Posts to display<\/li>\n<li>Category: Name or ID of the category to grab post from<\/li>\n<li>Blog ID: Domain of the site that you would like to fetch posts from. If using shortcode directly, you need to find your Blog manually, follow <a href=\"http:\/\/blogat.centilin.com\/everything_it\/web-design\/wordpress\/how-to-find-your-blog-id\/\" title=\"How to find your blog ID\">this tutorial<\/a><\/li>\n<li>Custom Query: For Advanced users only. Complete query (in array fashion) that's going to be applied to WP Query. For example: 'offset' =&#62; 0, 'category' =&#62; 'unknown', 'orderby' =&#62; 'post_date'<\/li>\n<li>Excerpt: check to show excepts<\/li>\n<li>Thumbnail: check to show thumbnails<\/li>\n<\/ul>",
+                "uid": "21197"
+            }
+        }
+    }
+}

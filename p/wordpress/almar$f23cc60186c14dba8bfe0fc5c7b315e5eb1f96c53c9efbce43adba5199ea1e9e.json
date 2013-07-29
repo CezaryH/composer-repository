@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/almar": {
+            "1.0": {
+                "name": "wordpress\/almar",
+                "version": "1.0",
+                "version_normalized": "1.0.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/almar.1.0.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>The best way to design an administration theme for Wordpress is to make a plugin. As a plugin, Almar includes a function that will instruct WordPress to use a new stylesheet for displaying the Admin Panel. A distinct advantage to making a plugin is that if you ever want to revert back to the default style, all you have to do is deactivate the plugin.\nAlmar is a very clean metro style Wordpress admin theme with two color variations (Grey and Blue). To activate Almar upload Almar files to the wordpress plugins directory and then activate the plugin through the Plugins menu in WordPress.<\/p>",
+                "uid": "123207"
+            }
+        }
+    }
+}

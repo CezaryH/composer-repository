@@ -1,0 +1,40 @@
+{
+    "packages": {
+        "wordpress\/hierarchical-urls": {
+            "0.01": {
+                "name": "wordpress\/hierarchical-urls",
+                "version": "0.01",
+                "version_normalized": "0.01.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/hierarchical-urls.0.01.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>Enables hierarchical URLs, making posts follow categories and parent categories\nto define their permalink. Assume a blog with the following category structure\nfor posts:<\/p>\n\n<ul>\n<li>Music\n\n<ul>\n<li>Rock<\/li>\n<li>Pop<\/li>\n<\/ul><\/li>\n<li>Food\n\n<ul>\n<li>Indian<\/li>\n<li>Italian<\/li>\n<\/ul><\/li>\n<\/ul>\n\n<p>By default, their URLs will be <code>category\/%category-name%<\/code>. Activating this\nplugin will end up in URLs like:<\/p>\n\n<ul>\n<li>Music: <code>music<\/code>\n\n<ul>\n<li>Rock: <code>music\/rock<\/code><\/li>\n<li>Pop: <code>music\/pop<\/code><\/li>\n<\/ul><\/li>\n<li>Food <code>food<\/code>\n\n<ul>\n<li>Indian: <code>food\/indian<\/code><\/li>\n<li>Italian: <code>food\/italian<\/code><\/li>\n<\/ul><\/li>\n<\/ul>\n\n<p>For posts inside the Italian food category, for example, the URL will be<\/p>\n\n<pre><code>food\/italian\/%postname%<\/code><\/pre>\n\n<p>.<\/p>",
+                "uid": "18894"
+            },
+            "0.02": {
+                "name": "wordpress\/hierarchical-urls",
+                "version": "0.02",
+                "version_normalized": "0.02.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/hierarchical-urls.0.02.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>Enables hierarchical URLs, making posts follow categories and parent categories\nto define their permalink. Assume a blog with the following category structure\nfor posts:<\/p>\n\n<ul>\n<li>Music\n\n<ul>\n<li>Rock<\/li>\n<li>Pop<\/li>\n<\/ul><\/li>\n<li>Food\n\n<ul>\n<li>Indian<\/li>\n<li>Italian<\/li>\n<\/ul><\/li>\n<\/ul>\n\n<p>By default, their URLs will be <code>category\/%category-name%<\/code>. Activating this\nplugin will end up in URLs like:<\/p>\n\n<ul>\n<li>Music: <code>music<\/code>\n\n<ul>\n<li>Rock: <code>music\/rock<\/code><\/li>\n<li>Pop: <code>music\/pop<\/code><\/li>\n<\/ul><\/li>\n<li>Food <code>food<\/code>\n\n<ul>\n<li>Indian: <code>food\/indian<\/code><\/li>\n<li>Italian: <code>food\/italian<\/code><\/li>\n<\/ul><\/li>\n<\/ul>\n\n<p>For posts inside the Italian food category, for example, the URL will be<\/p>\n\n<pre><code>food\/italian\/%postname%<\/code><\/pre>\n\n<p>.<\/p>",
+                "uid": "123566"
+            }
+        }
+    }
+}

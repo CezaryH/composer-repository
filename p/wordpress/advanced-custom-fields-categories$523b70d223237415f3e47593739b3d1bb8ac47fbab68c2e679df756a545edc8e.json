@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/advanced-custom-fields-categories": {
+            "2.0.0": {
+                "name": "wordpress\/advanced-custom-fields-categories",
+                "version": "2.0.0",
+                "version_normalized": "2.0.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/advanced-custom-fields-categories.2.0.0.1.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>Categories\/Taxonomies addon for the AFC Wordpress plugin <a href=\"http:\/\/www.advancedcustomfields.com\" rel=\"nofollow\">http:\/\/www.advancedcustomfields.com<\/a><\/p>\n\n<p><strong>Please back up first, this addon is still in Beta<\/strong><\/p>\n\n<h4>Options<\/h4>\n\n<ul>\n<li>Post Type<\/li>\n<li>Child Of<\/li>\n<li>Parent<\/li>\n<li>Order By<\/li>\n<li>Order<\/li>\n<li>Hide Empty<\/li>\n<li>Hierarchical<\/li>\n<li>Taxonomy<\/li>\n<li>Include Categories<\/li>\n<li>Exclude Categories<\/li>\n<li>Multiple Values<\/li>\n<li>Start State<\/li>\n<\/ul>\n\n<h4>Upgrade notice<\/h4>\n\n<p><strong>Requires ACF 4.0 and above<\/strong><\/p>\n\n<h4>Usage<\/h4>\n\n<p>Use get_field function or get_sub_field function if inside a repeater field. Returns taxonomy object.<\/p>",
+                "uid": "123194"
+            }
+        }
+    }
+}

@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/lexiqueagency": {
+            "1.0": {
+                "name": "wordpress\/lexiqueagency",
+                "version": "1.0",
+                "version_normalized": "1.0.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/lexiqueagency.1.0.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>Plugin that adds a new type post named 'lexique_agency', a LEXIQUE shortcode in a page is added to the implement the search words by letters or by word.\nThe administration will be able to choose the type of search (normal or ajax).<\/p>\n\n<p>This plugin requires jquery, we use the default library jquery includes in wordpress<\/p>\n\n<ol>\n<li>New custom post type 'lexique_agency'.<\/li>\n<li>ShortCode 'LEXIQUE' to add a page.<\/li>\n<li>Ability to set the number of letters in search of a word.<\/li>\n<li>Change colors of the button to search and the background of the list of letters.<\/li>\n<li>Change colors of the current lette<\/li>\n<\/ol>",
+                "uid": "121686"
+            }
+        }
+    }
+}

@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/multisite-maintenance-mode": {
+            "0.1": {
+                "name": "wordpress\/multisite-maintenance-mode",
+                "version": "0.1",
+                "version_normalized": "0.1.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/multisite-maintenance-mode.0.1.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>Multisite Maintenance Mode solves the problem of site users making content\/database changes while performing maintenance on large multisite networks. It works by directing every user (except network admins) to their homepage when they attempt to log in. A message is displayed in the admin bar to direct them on where to find more information. Anonymous users can still view the site normally.<\/p>",
+                "uid": "123505"
+            }
+        }
+    }
+}

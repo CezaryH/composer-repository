@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/delete-expired-transients": {
+            "1.0.0": {
+                "name": "wordpress\/delete-expired-transients",
+                "version": "1.0.0",
+                "version_normalized": "1.0.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/delete-expired-transients.1.0.0.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>Delete old, expired transients from the WordPress options table (<code>wp_options<\/code>), to prevent them from bloating your database and even slowing down your website.<\/p>\n\n<p>Unless you are using an object cache (like memcached), WordPress stores transient records in the options table. Many transients are given an expiration time, so in theory they should disappear after some time. In practise, because old transients are only deleted when requested again after they've expired, many transients stay in the database long after they've expired. After a while, there can be thousands or even millions of expired transients needlessly taking up space in your options table.<\/p>\n\n<p>Delete Expired Transients schedules a daily task to delete any expired transients from the options table. It performs this operation with a single SQL query, and then runs a second query to find any orphaned expiration records and deletes them too.<\/p>\n\n<p>There are a few other plugins around that clean up exp",
+                "uid": "123854"
+            }
+        }
+    }
+}

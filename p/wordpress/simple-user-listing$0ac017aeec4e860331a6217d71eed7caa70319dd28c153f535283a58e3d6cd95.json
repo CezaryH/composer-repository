@@ -1,0 +1,159 @@
+{
+    "packages": {
+        "wordpress\/simple-user-listing": {
+            "1.0": {
+                "name": "wordpress\/simple-user-listing",
+                "version": "1.0",
+                "version_normalized": "1.0.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/simple-user-listing.1.0.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>Other plugins output paginated lists of users, but I needed to be able to customize and style this list to fit my theme.  So I created this plugin to use templates that can be overridden and customized by theme developers.<\/p>\n\n<h4>Usage<\/h4>\n\n<p>Place this shortcode anywhere you'd like to display a full list of all your blog's users.<\/p>\n\n<pre><code>[userlist]<\/code><\/pre>\n\n<p>By default the plugin will split the users up based on the \"Posts per Page\" setting under Settings-&#62;Reading.<\/p>\n\n<h4>Parameters<\/h4>\n\n<p>Simple User Listing uses <code>WP_User_Query<\/code>, so you can pass it a role defining which type of users you'd like to list.  You can also adjust the number of users displayed per page.<\/p>\n\n<pre><code>[userlist role=&#34;author&#34; number=&#34;5&#34;]<\/code><\/pre>\n\n<p>As of version 1.2 you can now sort the user list by and of the sort parameters supported by <code>WP_User_Query()<\/code>.  For example, the following would list your users based on number of posts wri",
+                "uid": "11667"
+            },
+            "1.1": {
+                "name": "wordpress\/simple-user-listing",
+                "version": "1.1",
+                "version_normalized": "1.1.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/simple-user-listing.1.1.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>Other plugins output paginated lists of users, but I needed to be able to customize and style this list to fit my theme.  So I created this plugin to use templates that can be overridden and customized by theme developers.<\/p>\n\n<h4>Usage<\/h4>\n\n<p>Place this shortcode anywhere you'd like to display a full list of all your blog's users.<\/p>\n\n<pre><code>[userlist]<\/code><\/pre>\n\n<p>By default the plugin will split the users up based on the \"Posts per Page\" setting under Settings-&#62;Reading.<\/p>\n\n<h4>Parameters<\/h4>\n\n<p>Simple User Listing uses <code>WP_User_Query<\/code>, so you can pass it a role defining which type of users you'd like to list.  You can also adjust the number of users displayed per page.<\/p>\n\n<pre><code>[userlist role=&#34;author&#34; number=&#34;5&#34;]<\/code><\/pre>\n\n<p>As of version 1.2 you can now sort the user list by and of the sort parameters supported by <code>WP_User_Query()<\/code>.  For example, the following would list your users based on number of posts wri",
+                "uid": "11666"
+            },
+            "1.1.1": {
+                "name": "wordpress\/simple-user-listing",
+                "version": "1.1.1",
+                "version_normalized": "1.1.1.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/simple-user-listing.1.1.1.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>Other plugins output paginated lists of users, but I needed to be able to customize and style this list to fit my theme.  So I created this plugin to use templates that can be overridden and customized by theme developers.<\/p>\n\n<h4>Usage<\/h4>\n\n<p>Place this shortcode anywhere you'd like to display a full list of all your blog's users.<\/p>\n\n<pre><code>[userlist]<\/code><\/pre>\n\n<p>By default the plugin will split the users up based on the \"Posts per Page\" setting under Settings-&#62;Reading.<\/p>\n\n<h4>Parameters<\/h4>\n\n<p>Simple User Listing uses <code>WP_User_Query<\/code>, so you can pass it a role defining which type of users you'd like to list.  You can also adjust the number of users displayed per page.<\/p>\n\n<pre><code>[userlist role=&#34;author&#34; number=&#34;5&#34;]<\/code><\/pre>\n\n<p>As of version 1.2 you can now sort the user list by and of the sort parameters supported by <code>WP_User_Query()<\/code>.  For example, the following would list your users based on number of posts wri",
+                "uid": "11665"
+            },
+            "1.2.1": {
+                "name": "wordpress\/simple-user-listing",
+                "version": "1.2.1",
+                "version_normalized": "1.2.1.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/simple-user-listing.1.2.1.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>Other plugins output paginated lists of users, but I needed to be able to customize and style this list to fit my theme.  So I created this plugin to use templates that can be overridden and customized by theme developers.<\/p>\n\n<h4>Usage<\/h4>\n\n<p>Place this shortcode anywhere you'd like to display a full list of all your blog's users.<\/p>\n\n<pre><code>[userlist]<\/code><\/pre>\n\n<p>By default the plugin will split the users up based on the \"Posts per Page\" setting under Settings-&#62;Reading.<\/p>\n\n<h4>Parameters<\/h4>\n\n<p>Simple User Listing uses <code>WP_User_Query<\/code>, so you can pass it a role defining which type of users you'd like to list.  You can also adjust the number of users displayed per page.<\/p>\n\n<pre><code>[userlist role=&#34;author&#34; number=&#34;5&#34;]<\/code><\/pre>\n\n<p>As of version 1.2 you can now sort the user list by and of the sort parameters supported by <code>WP_User_Query()<\/code>.  For example, the following would list your users based on number of posts wri",
+                "uid": "11664"
+            },
+            "1.2.2": {
+                "name": "wordpress\/simple-user-listing",
+                "version": "1.2.2",
+                "version_normalized": "1.2.2.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/simple-user-listing.1.2.2.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>Other plugins output paginated lists of users, but I needed to be able to customize and style this list to fit my theme.  So I created this plugin to use templates that can be overridden and customized by theme developers.<\/p>\n\n<h4>Usage<\/h4>\n\n<p>Place this shortcode anywhere you'd like to display a full list of all your blog's users.<\/p>\n\n<pre><code>[userlist]<\/code><\/pre>\n\n<p>By default the plugin will split the users up based on the \"Posts per Page\" setting under Settings-&#62;Reading.<\/p>\n\n<h4>Parameters<\/h4>\n\n<p>Simple User Listing uses <code>WP_User_Query<\/code>, so you can pass it a role defining which type of users you'd like to list.  You can also adjust the number of users displayed per page.<\/p>\n\n<pre><code>[userlist role=&#34;author&#34; number=&#34;5&#34;]<\/code><\/pre>\n\n<p>As of version 1.2 you can now sort the user list by and of the sort parameters supported by <code>WP_User_Query()<\/code>.  For example, the following would list your users based on number of posts wri",
+                "uid": "11663"
+            },
+            "1.3": {
+                "name": "wordpress\/simple-user-listing",
+                "version": "1.3",
+                "version_normalized": "1.3.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/simple-user-listing.1.3.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>Other plugins output paginated lists of users, but I needed to be able to customize and style this list to fit my theme.  So I created this plugin to use templates that can be overridden and customized by theme developers.<\/p>\n\n<h4>Usage<\/h4>\n\n<p>Place this shortcode anywhere you'd like to display a full list of all your blog's users.<\/p>\n\n<pre><code>[userlist]<\/code><\/pre>\n\n<p>By default the plugin will split the users up based on the \"Posts per Page\" setting under Settings-&#62;Reading.<\/p>\n\n<h4>Parameters<\/h4>\n\n<p>Simple User Listing uses <code>WP_User_Query<\/code>, so you can pass it a role defining which type of users you'd like to list.  You can also adjust the number of users displayed per page.<\/p>\n\n<pre><code>[userlist role=&#34;author&#34; number=&#34;5&#34;]<\/code><\/pre>\n\n<p>As of version 1.2 you can now sort the user list by and of the sort parameters supported by <code>WP_User_Query()<\/code>.  For example, the following would list your users based on number of posts wri",
+                "uid": "121012"
+            },
+            "1.3.1": {
+                "name": "wordpress\/simple-user-listing",
+                "version": "1.3.1",
+                "version_normalized": "1.3.1.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/simple-user-listing.1.3.1.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>Other plugins output paginated lists of users, but I needed to be able to customize and style this list to fit my theme.  So I created this plugin to use templates that can be overridden and customized by theme developers.<\/p>\n\n<h4>Usage<\/h4>\n\n<p>Place this shortcode anywhere you'd like to display a full list of all your blog's users.<\/p>\n\n<pre><code>[userlist]<\/code><\/pre>\n\n<p>By default the plugin will split the users up based on the \"Posts per Page\" setting under Settings-&#62;Reading.<\/p>\n\n<h4>Parameters<\/h4>\n\n<p>Simple User Listing uses <code>WP_User_Query<\/code>, so you can pass it a role defining which type of users you'd like to list.  You can also adjust the number of users displayed per page.<\/p>\n\n<pre><code>[userlist role=&#34;author&#34; number=&#34;5&#34;]<\/code><\/pre>\n\n<p>As of version 1.2 you can now sort the user list by and of the sort parameters supported by <code>WP_User_Query()<\/code>.  For example, the following would list your users based on number of posts wri",
+                "uid": "121975"
+            },
+            "1.3.2": {
+                "name": "wordpress\/simple-user-listing",
+                "version": "1.3.2",
+                "version_normalized": "1.3.2.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/simple-user-listing.1.3.2.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>Other plugins output paginated lists of users, but I needed to be able to customize and style this list to fit my theme.  So I created this plugin to use templates that can be overridden and customized by theme developers.<\/p>\n\n<h4>Usage<\/h4>\n\n<p>Place this shortcode anywhere you'd like to display a full list of all your blog's users.<\/p>\n\n<pre><code>[userlist]<\/code><\/pre>\n\n<p>By default the plugin will split the users up based on the \"Posts per Page\" setting under Settings-&#62;Reading.<\/p>\n\n<h4>Parameters<\/h4>\n\n<p>Simple User Listing uses <code>WP_User_Query<\/code>, so you can pass it a role defining which type of users you'd like to list.  You can also adjust the number of users displayed per page.<\/p>\n\n<pre><code>[userlist role=&#34;author&#34; number=&#34;5&#34;]<\/code><\/pre>\n\n<p>As of version 1.2 you can now sort the user list by and of the sort parameters supported by <code>WP_User_Query()<\/code>.  For example, the following would list your users based on number of posts wri",
+                "uid": "123553"
+            },
+            "1.3.3": {
+                "name": "wordpress\/simple-user-listing",
+                "version": "1.3.3",
+                "version_normalized": "1.3.3.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/simple-user-listing.1.3.3.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>Other plugins output paginated lists of users, but I needed to be able to customize and style this list to fit my theme.  So I created this plugin to use templates that can be overridden and customized by theme developers.<\/p>\n\n<h4>Usage<\/h4>\n\n<p>Place this shortcode anywhere you'd like to display a full list of all your blog's users.<\/p>\n\n<pre><code>[userlist]<\/code><\/pre>\n\n<p>By default the plugin will split the users up based on the \"Posts per Page\" setting under Settings-&#62;Reading.<\/p>\n\n<h4>Parameters<\/h4>\n\n<p>Simple User Listing uses <code>WP_User_Query<\/code>, so you can pass it a role defining which type of users you'd like to list.  You can also adjust the number of users displayed per page.<\/p>\n\n<pre><code>[userlist role=&#34;author&#34; number=&#34;5&#34;]<\/code><\/pre>\n\n<p>As of version 1.2 you can now sort the user list by and of the sort parameters supported by <code>WP_User_Query()<\/code>.  For example, the following would list your users based on number of posts wri",
+                "uid": "123552"
+            }
+        }
+    }
+}

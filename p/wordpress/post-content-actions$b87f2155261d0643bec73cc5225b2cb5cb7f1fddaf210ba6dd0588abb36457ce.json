@@ -1,0 +1,40 @@
+{
+    "packages": {
+        "wordpress\/post-content-actions": {
+            "0.01": {
+                "name": "wordpress\/post-content-actions",
+                "version": "0.01",
+                "version_normalized": "0.01.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/post-content-actions.0.01.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>Enable a set of shortcodes in the post content to set the post title, slug, categories, tags, custom fields and others. Useful for updating WordPress from platforms that don't fully support it, like e-mail and XMLRPC compatible apps.<\/p>\n\n<h4>Supported Shortcodes<\/h4>\n\n<ul>\n<li><code>[title Some Post Title]<\/code><\/li>\n<li><code>[slug some-post-slug]<\/code><\/li>\n<li><code>[excerpt]Some Post Excerpt[\\excerpt]<\/code><\/li>\n<li><code>[delay +1 hour]<\/code><\/li>\n<li><code>[status publish &#124; pending &#124; draft &#124; private]<\/code><\/li>\n<li><code>[password somepassword]<\/code><\/li>\n<li><code>[category Some Category, Another Category, One More Category]<\/code><\/li>\n<li><code>[tag some tag, another tag, one more tag]<\/code><\/li>\n<li><code>[custom_field field name, field value]<\/code><\/li>\n<li><code>[add custom_field field name, field value]<\/code><\/li>\n<li><code>[comments on &#124; off]<\/code><\/li>\n<li><code>[pingbacks on &#124; off]<\/code><\/li>\n<\/ul>\n\n<p>Please visit the <a href=\"ht",
+                "uid": "20591"
+            },
+            "0.02": {
+                "name": "wordpress\/post-content-actions",
+                "version": "0.02",
+                "version_normalized": "0.02.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/post-content-actions.0.02.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>Enable a set of shortcodes in the post content to set the post title, slug, categories, tags, custom fields and others. Useful for updating WordPress from platforms that don't fully support it, like e-mail and XMLRPC compatible apps.<\/p>\n\n<h4>Supported Shortcodes<\/h4>\n\n<ul>\n<li><code>[title Some Post Title]<\/code><\/li>\n<li><code>[slug some-post-slug]<\/code><\/li>\n<li><code>[excerpt]Some Post Excerpt[\\excerpt]<\/code><\/li>\n<li><code>[delay +1 hour]<\/code><\/li>\n<li><code>[status publish &#124; pending &#124; draft &#124; private]<\/code><\/li>\n<li><code>[password somepassword]<\/code><\/li>\n<li><code>[category Some Category, Another Category, One More Category]<\/code><\/li>\n<li><code>[tag some tag, another tag, one more tag]<\/code><\/li>\n<li><code>[custom_field field name, field value]<\/code><\/li>\n<li><code>[add custom_field field name, field value]<\/code><\/li>\n<li><code>[comments on &#124; off]<\/code><\/li>\n<li><code>[pingbacks on &#124; off]<\/code><\/li>\n<\/ul>\n\n<p>Please visit the <a href=\"ht",
+                "uid": "123568"
+            }
+        }
+    }
+}

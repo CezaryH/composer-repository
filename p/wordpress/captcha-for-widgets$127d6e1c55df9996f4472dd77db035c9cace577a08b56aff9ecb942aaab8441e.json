@@ -1,0 +1,40 @@
+{
+    "packages": {
+        "wordpress\/captcha-for-widgets": {
+            "0.1": {
+                "name": "wordpress\/captcha-for-widgets",
+                "version": "0.1",
+                "version_normalized": "0.1.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/captcha-for-widgets.0.1.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>This plugin allows you to add captcha for forms in your site. You can choose between (<a href=\"http:\/\/www.google.com\/recaptcha\" rel=\"nofollow\">http:\/\/www.google.com\/recaptcha<\/a> \"reCAPTCHA\") and (<a href=\"http:\/\/keith-wood.name\/realPerson.html\" rel=\"nofollow\">http:\/\/keith-wood.name\/realPerson.html<\/a> \"Realperson jQuery plugin\") (only one will be available at a time).<\/p>\n\n<p>The captcha can be visible on: \n*   <strong>all site's pages<\/strong> - excluding the default search form and the admin bar search.\n*   <strong>certain pages<\/strong> - you can choose from a pages' list\n*   <strong>certain forms<\/strong> - if you know how to, you can introduce the jQuery selector for the form (e.g. <code>#myform<\/code>, <code>.myform<\/code>)<\/p>\n\n<p>Note: the plugin replaces DOM elements with name and\/or id <code>submit<\/code>. If there is any CSS formatting on the id <em>#submit<\/em> you need to replace it.<\/p>",
+                "uid": "123357"
+            },
+            "1.0": {
+                "name": "wordpress\/captcha-for-widgets",
+                "version": "1.0",
+                "version_normalized": "1.0.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/captcha-for-widgets.1.0.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>This plugin allows you to add captcha for forms in your site. You can choose between (<a href=\"http:\/\/www.google.com\/recaptcha\" rel=\"nofollow\">http:\/\/www.google.com\/recaptcha<\/a> \"reCAPTCHA\") and (<a href=\"http:\/\/keith-wood.name\/realPerson.html\" rel=\"nofollow\">http:\/\/keith-wood.name\/realPerson.html<\/a> \"Realperson jQuery plugin\") (only one will be available at a time).<\/p>\n\n<p>The captcha can be visible on: \n*   <strong>all site's pages<\/strong> - excluding the default search form and the admin bar search.\n*   <strong>certain pages<\/strong> - you can choose from a pages' list\n*   <strong>certain forms<\/strong> - if you know how to, you can introduce the jQuery selector for the form (e.g. <code>#myform<\/code>, <code>.myform<\/code>)<\/p>\n\n<p>Note: the plugin replaces DOM elements with name and\/or id <code>submit<\/code>. If there is any CSS formatting on the id <em>#submit<\/em> you need to replace it.<\/p>",
+                "uid": "123356"
+            }
+        }
+    }
+}
