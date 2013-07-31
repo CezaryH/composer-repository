@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/pmpro-mailchimp": {
+            "0.3.1": {
+                "name": "wordpress\/pmpro-mailchimp",
+                "version": "0.3.1",
+                "version_normalized": "0.3.1.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/pmpro-mailchimp.0.3.1.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>Sync your WordPress users and members with MailChimp lists.<\/p>\n\n<p>If Paid Memberships Pro is installed you can sync users by membership level, otherwise all users can be synced to one or more lists.<\/p>",
+                "uid": "123943"
+            }
+        }
+    }
+}

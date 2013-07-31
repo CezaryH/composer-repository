@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/domain-redirect": {
+            "1.0.0": {
+                "name": "wordpress\/domain-redirect",
+                "version": "1.0.0",
+                "version_normalized": "1.0.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/domain-redirect.1.0.0.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>Redirects users to specific URL based on the domain name they used to enter the website.  My band's name (Harmony Glen) ends with one N, while many people type it with two (Harmony Glenn). I registered that faulty domain and made sure that when someone entered the wrong name, they got redirected to the right domain and a page that explains how to spell the name correctly.<\/p>\n\n<p>Perhaps this plugin is of some use for you. I intend to add the option to enter more domain names, currently it supports only one redirect.<\/p>",
+                "uid": "119230"
+            }
+        }
+    }
+}

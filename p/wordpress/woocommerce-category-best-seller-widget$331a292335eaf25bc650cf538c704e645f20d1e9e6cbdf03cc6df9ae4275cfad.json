@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/woocommerce-category-best-seller-widget": {
+            "1.0": {
+                "name": "wordpress\/woocommerce-category-best-seller-widget",
+                "version": "1.0",
+                "version_normalized": "1.0.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/woocommerce-category-best-seller-widget.1.0.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>This widget only works on a Woocommerce single product page. When it is placed there, it will parse the <code>Category location<\/code> (set in the widget's settings) for the any subcategories of the parent category. It will then list the best sellers, by subcategory, in widget form.<\/p>\n\n<p>Here is an example case: We have mutliple authors that each have tons of products. Product categories are as follows:\n- Books\n  - fiction\n  - nonfiction\n- Authors\n - Author 1\n - Author 2\n - Author 3<\/p>\n\n<p>In our case, our widget's <code>Category location<\/code> is <code>Authors<\/code> (the category). When you go to a product filed in <code>Author 1<\/code>, in the sidebar, all of Author 1's other products are listed in order of best selling.<\/p>\n\n<p>If there is more than one category that it falls under, it will list them all. It ignores the current product. It also hide itself if this is the only product in that subcategory.<\/p>",
+                "uid": "124250"
+            }
+        }
+    }
+}

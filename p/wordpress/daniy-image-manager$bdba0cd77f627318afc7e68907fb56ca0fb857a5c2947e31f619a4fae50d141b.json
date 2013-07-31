@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/daniy-image-manager": {
+            "1.3": {
+                "name": "wordpress\/daniy-image-manager",
+                "version": "1.3",
+                "version_normalized": "1.3.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/daniy-image-manager.1.3.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>--------- WARNING! -----------\nThis plugin may cause conflict if you also use some plugins for Markdown. They might utilize the same table field with this plugin, causing the data to be overwritten each other. You must choose: this plugin or that markdown plugin gets activated.<\/p>\n\n<p>Getting attachments with get_posts() function is one query, extracting its size and file location is another call to wp_postmeta where all data about an attachment is stored. So if you have 20 images in a post, you&#8217;ll end up with additional 21 queries. More queries means more load time for your server to response a request from browser.<\/p>\n\n<p>Daniy Image Manager pull a post attachments from the wp_posts and wp_postmeta ONCE when the single page is requested, then the result is cached and stored in the vacant post_content_filtered field in wp_posts table. This means, on the next call to the same single page will also pull the attachments saved data in post_content_filtered field. All we have to",
+                "uid": "121254"
+            }
+        }
+    }
+}

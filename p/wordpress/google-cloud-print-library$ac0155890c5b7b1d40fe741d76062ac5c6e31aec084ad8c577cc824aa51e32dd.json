@@ -1,0 +1,40 @@
+{
+    "packages": {
+        "wordpress\/google-cloud-print-library": {
+            "0.1.4": {
+                "name": "wordpress\/google-cloud-print-library",
+                "version": "0.1.4",
+                "version_normalized": "0.1.4.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/google-cloud-print-library.0.1.4.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>This plugin is mainly for programmers to use. It contains an options page to set up a connection to a Google account, and allows you to choose a Google Cloud Print printer from your account and to test printing to it.<\/p>\n\n<p>The main use of this plugin is for developers of other plugins to deploy, and integrate with their plugins. For example, I have developed a plugin that can send orders from a web shop automatically to Google Cloud Print.<\/p>\n\n<p>If you find it useful in your project, then please do consider a donation: <a href=\"http:\/\/david.dw-perspective.org.uk\/donate\" rel=\"nofollow\">http:\/\/david.dw-perspective.org.uk\/donate<\/a><\/p>\n\n<h4>How can a developer use it?<\/h4>\n\n<p>Here's some example code:<\/p>\n\n<pre><code>\/\/ Ensure that we&#039;ve got the Google Cloud Print Library Object\nglobal $googlecloudprintlibrary_gcpl;\nif (isset($googlecloudprintlibrary_gcpl) &#38;&#38; is_a($googlecloudprintlibrary_gcpl, &#039;GoogleCloudPrintLibrary_GCPL&#039;)) {\n\n    \/\/ The first parameter",
+                "uid": "7982"
+            },
+            "0.1.5": {
+                "name": "wordpress\/google-cloud-print-library",
+                "version": "0.1.5",
+                "version_normalized": "0.1.5.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/google-cloud-print-library.0.1.5.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>This plugin is mainly for programmers to use. It contains an options page to set up a connection to a Google account, and allows you to choose a Google Cloud Print printer from your account and to test printing to it.<\/p>\n\n<p>The main use of this plugin is for developers of other plugins to deploy, and integrate with their plugins. For example, I have developed a plugin that can send orders from a web shop automatically to Google Cloud Print.<\/p>\n\n<p>If you find it useful in your project, then please do consider a donation: <a href=\"http:\/\/david.dw-perspective.org.uk\/donate\" rel=\"nofollow\">http:\/\/david.dw-perspective.org.uk\/donate<\/a><\/p>\n\n<h4>How can a developer use it?<\/h4>\n\n<p>Here's some example code:<\/p>\n\n<pre><code>\/\/ Ensure that we&#039;ve got the Google Cloud Print Library Object\nglobal $googlecloudprintlibrary_gcpl;\nif (isset($googlecloudprintlibrary_gcpl) &#38;&#38; is_a($googlecloudprintlibrary_gcpl, &#039;GoogleCloudPrintLibrary_GCPL&#039;)) {\n\n    \/\/ The first parameter",
+                "uid": "124139"
+            }
+        }
+    }
+}

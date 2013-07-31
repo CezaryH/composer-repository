@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/dummy-hit": {
+            "1.0": {
+                "name": "wordpress\/dummy-hit",
+                "version": "1.0",
+                "version_normalized": "1.0.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/dummy-hit.1.0.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>This plugin defines a widget, that shows the number of hits, well a simulated \nnumber of hits, on your blog.<\/p>\n\n<p>It is quite simple. Drag the widget to the widget area where you want to show it\nBe aware it shows at least 5 digits, with a total width off 100px and height of 25px<\/p>\n\n<p>Customazible fields:\n1. Widget Title, sets the widget title in the display on your site. Default: emtpy\n2. Explanatory text before counter, you might want to explain the counter Default: empty\n3. Number of hits to start from, if you do not want to start at 0. Default: none\n4. Number of seconds after last hit before random hits will be added. It is also the mean time between two simulated hits. Default: 900\n5. The minmal user level to ignore for the counter, users, logged in, with this role, or above will not be counted, and will not influence the counter\n6. Count robot and spider hits, widget will be loaded on robot and spider hits. Since loading is the counting mechanism, you can exclude them her",
+                "uid": "119379"
+            }
+        }
+    }
+}

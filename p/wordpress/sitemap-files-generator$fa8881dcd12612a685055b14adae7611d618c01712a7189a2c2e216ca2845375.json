@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/sitemap-files-generator": {
+            "0.01": {
+                "name": "wordpress\/sitemap-files-generator",
+                "version": "0.01",
+                "version_normalized": "0.01.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/sitemap-files-generator.0.01.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>When you have a large number os posts it's impossible to create sitemaps by\nusing <em>pseudocron<\/em> or hooks like <code>save_post<\/code>. This plugin will\nrequire a system cron schedule to visit a secret URL and trigger the sitemap\ndump procedure.<\/p>\n\n<p>It splits the sitemaps into 50,000 URLs each, and also tries to stabilize the\nmemory usage during the run, doing small queries and using a limited buffer\nto write the files.<\/p>\n\n<p>If you don't have administration privileges over your server, you can use a\n<a href=\"http:\/\/www.google.com\/search?q=cron+job+service\">cron job provider<\/a> on the\nInternet. If you do, please report your experience for the other users.<\/p>",
+                "uid": "124083"
+            }
+        }
+    }
+}
