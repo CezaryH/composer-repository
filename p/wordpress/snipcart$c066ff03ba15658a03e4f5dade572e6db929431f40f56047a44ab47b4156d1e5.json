@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/snipcart": {
+            "0.1": {
+                "name": "wordpress\/snipcart",
+                "version": "0.1",
+                "version_normalized": "0.1.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/snipcart.0.1.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>Snipcart allows payment processing, shipping estimates and order management without ever letting your customers leave your website.<\/p>\n\n<p>This plugin adds a new post <code>Product<\/code> type (like <code>Post<\/code> and <code>Page<\/code>) and a setting page.<\/p>\n\n<p>The <code>Product<\/code> type contains additional fields used by Snipcart, like the price and product ID. Also, the title is used as the name of the product and the featured image as the product image.<\/p>\n\n<p>The setting page is where you set you API key. You can also decide if you use shipping or not.<\/p>\n\n<p>On the public side, the plugin adds an <em>Add to Cart<\/em> button.<\/p>\n\n<p>Note that you have to create an accout on <a href=\"http:\/\/snipcart.com\">Snipcart<\/a> to use this plugin. Also, when your customers are buying on your website, order information is sent to Snipcart. You can manage your orders on <a href=\"http:\/\/snipcart.com\">http:\/\/snipcart.com<\/a>.<\/p>\n\n<p>For theme development, the type that is added is",
+                "uid": "124386"
+            }
+        }
+    }
+}

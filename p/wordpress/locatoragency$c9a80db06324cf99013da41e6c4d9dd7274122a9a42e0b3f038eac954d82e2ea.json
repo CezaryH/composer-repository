@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/locatoragency": {
+            "1.0": {
+                "name": "wordpress\/locatoragency",
+                "version": "1.0",
+                "version_normalized": "1.0.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/locatoragency.1.0.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>Plugin provides a management system of physical locations, adding a new type of publication 'locator_agency', a LOCATOR shortcode is added to a page to display the map and related information.\nThe administration has set up a form for the configuration to display the map.<\/p>\n\n<h4>Features<\/h4>\n\n<ol>\n<li>New custom post type 'locator_agency'.<\/li>\n<li>ShortCode 'LOCATOR' to add a page.<\/li>\n<li>Configuration form to display the map.<\/li>\n<\/ol>",
+                "uid": "124372"
+            }
+        }
+    }
+}
