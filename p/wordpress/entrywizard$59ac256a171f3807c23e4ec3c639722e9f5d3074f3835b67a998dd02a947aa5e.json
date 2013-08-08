@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/entrywizard": {
+            "0.9": {
+                "name": "wordpress\/entrywizard",
+                "version": "0.9",
+                "version_normalized": "0.9.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/entrywizard.0.9.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>EntryWizard was developed to cater to the needs of camera club competitions.  In these competitions members may submit multiple images with titles and other data attached.<\/p>\n\n<ul>\n<li><p>Administrators use the software to design web forms, asking for information as text inputs and\/or drop-down menu items as well as image files.<\/p><\/li>\n<li><p>An example of the sort of rules the form is able to enforce might be something like this:<\/p>\n\n<ul>\n<li>Each image must have: a short title; a category which must be one of \"Nature\", \"Photojournalism\" or \"Portrait\"; a type which must be one of \"Digital\", \"Slide\" or \"Print\" <\/li>\n<li>Up to 6 entries may be submitted, each with or without a digital version <\/li>\n<li>At most 2 of the 6 images may be in the \"Nature\" category. <\/li>\n<li>Any image of type \"Digital\" must have an uploaded digital version<\/li>\n<li>The images must be in jpeg format, with maximum dimensions of 1280 x 1024 pixels and maximum size of 1M.<\/li>\n<\/ul><\/li>\n<li><p>The admini",
+                "uid": "124735"
+            }
+        }
+    }
+}

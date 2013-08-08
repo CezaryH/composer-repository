@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/auto-thumbnailer": {
+            "1.0": {
+                "name": "wordpress\/auto-thumbnailer",
+                "version": "1.0",
+                "version_normalized": "1.0.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/auto-thumbnailer.1.0.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>Automatically create thumbnails for posts when images are uploaded and the post is saved. Includes support for Oembed.<\/p>\n\n<p>When a post is saved, if no featured image has been selected, attachments are scanned and the first one is used. If there are no attachments, the post content is scanned. If an image is found in the content then it is used otherwise if there are video oembeds, they are used.<\/p>\n\n<p>Note, we're also on github in case you want to add some pull requests or a fork!<\/p>\n\n<p><a href=\"https:\/\/github.com\/moderntribe\/auto-thumbnailer\" rel=\"nofollow\">https:\/\/github.com\/moderntribe\/auto-thumbnailer<\/a><\/p>",
+                "uid": "124757"
+            }
+        }
+    }
+}

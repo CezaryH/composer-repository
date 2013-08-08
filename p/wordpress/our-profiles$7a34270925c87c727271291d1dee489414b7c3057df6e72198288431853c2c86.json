@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/our-profiles": {
+            "1.0.9": {
+                "name": "wordpress\/our-profiles",
+                "version": "1.0.9",
+                "version_normalized": "1.0.9.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/our-profiles.1.0.9.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>This plugin lets the user fill in their profile URLs in the admin, then use a shortcode on a page or post to display the logos and links for 23 different services. If the review service allows it, like Yelp, you can copy \/ paste that URL to link people directly to \"Leave a Review\".<\/p>\n\n<p>Two sizes of logos are available, and a widget is also included. Yeah we know it needs more sizes...<\/p>\n\n<p>The services supported are:<\/p>\n\n<ul>\n<li>Google+ <\/li>\n<li>Yelp <\/li>\n<li>Bing <\/li>\n<li>Judy's Book <\/li>\n<li>Yahoo Local <\/li>\n<li>Facebook (why not?)<\/li>\n<li>Citysearch <\/li>\n<li>DexKnows <\/li>\n<li>Foursquare <\/li>\n<li>InsiderPages <\/li>\n<li>Best of the Web <\/li>\n<li>CustomerLobby <\/li>\n<li>Kudzu <\/li>\n<li>Merchant Circle <\/li>\n<li>LinkedIn <\/li>\n<li>Local.com <\/li>\n<li>Manta <\/li>\n<li>SuperPages <\/li>\n<li>Yellowee.com <\/li>\n<li>YellowBot <\/li>\n<li>YP.com <\/li>\n<li>DemandForce <\/li>\n<li>Twitter (@whynot?)<\/li>\n<\/ul>",
+                "uid": "125589"
+            }
+        }
+    }
+}

@@ -1,0 +1,40 @@
+{
+    "packages": {
+        "wordpress\/groups-blog-protect": {
+            "1.0.0": {
+                "name": "wordpress\/groups-blog-protect",
+                "version": "1.0.0",
+                "version_normalized": "1.0.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/groups-blog-protect.1.0.0.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>This plugin allows to redirect visitors to a blog who do not belong to the blog's <em>Registered<\/em> group.<\/p>\n\n<p>The plugin is an extension to and <strong>requires<\/strong> <a href=\"http:\/\/wordpress.org\/extend\/plugins\/groups\/\">Groups<\/a>.<\/p>\n\n<p>Note that the current version does <strong>not<\/strong> allow to specify a particular group - at least in that sense, the status of the plugin can be considered somewhat <em>experimental<\/em>.<\/p>\n\n<p>The redirection settings can be adjusted in Settings &#62; Groups Blog Protect :<\/p>\n\n<p>Redirection options can be set for the blog - or for each blog in a multisite setup:<\/p>\n\n<ul>\n<li>no redirection<\/li>\n<li>redirect to a specific post, note that with this option the blog is shown to the visitor but only that page can be visited<\/li>\n<li>redirect to the WordPress login<\/li>\n<\/ul>\n\n<p>The redirect status code can be selected among:<\/p>\n\n<ul>\n<li>Moved Permanently (301)<\/li>\n<li>Found (302)<\/li>\n<li>See other (303)<\/li>\n<li>Temporary Red",
+                "uid": "11669"
+            },
+            "1.0.1": {
+                "name": "wordpress\/groups-blog-protect",
+                "version": "1.0.1",
+                "version_normalized": "1.0.1.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/groups-blog-protect.1.0.1.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>This plugin allows to redirect visitors to a blog who do not belong to the blog's <em>Registered<\/em> group.<\/p>\n\n<p>The plugin is an extension to and <strong>requires<\/strong> <a href=\"http:\/\/wordpress.org\/extend\/plugins\/groups\/\">Groups<\/a>.<\/p>\n\n<p>Note that the current version does <strong>not<\/strong> allow to specify a particular group - at least in that sense, the status of the plugin can be considered somewhat <em>experimental<\/em>.<\/p>\n\n<p>The redirection settings can be adjusted in Settings &#62; Groups Blog Protect :<\/p>\n\n<p>Redirection options can be set for the blog - or for each blog in a multisite setup:<\/p>\n\n<ul>\n<li>no redirection<\/li>\n<li>redirect to a specific post, note that with this option the blog is shown to the visitor but only that page can be visited<\/li>\n<li>redirect to the WordPress login<\/li>\n<\/ul>\n\n<p>The redirect status code can be selected among:<\/p>\n\n<ul>\n<li>Moved Permanently (301)<\/li>\n<li>Found (302)<\/li>\n<li>See other (303)<\/li>\n<li>Temporary Red",
+                "uid": "124954"
+            }
+        }
+    }
+}

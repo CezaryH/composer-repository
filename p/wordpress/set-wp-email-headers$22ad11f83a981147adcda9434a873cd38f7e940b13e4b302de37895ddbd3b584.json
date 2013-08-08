@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/set-wp-email-headers": {
+            "1.0": {
+                "name": "wordpress\/set-wp-email-headers",
+                "version": "1.0",
+                "version_normalized": "1.0.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/set-wp-email-headers.1.0.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>Sets the correct headers for the email from address (uses the admin settings)<\/p>",
+                "uid": "125594"
+            }
+        }
+    }
+}

@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/gambit-arrow-custom-front-end-translator": {
+            "1.0": {
+                "name": "wordpress\/gambit-arrow-custom-front-end-translator",
+                "version": "1.0",
+                "version_normalized": "1.0.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/gambit-arrow-custom-front-end-translator.1.0.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>A supplement to the qTranslate(http:\/\/wordpress.org\/plugins\/qtranslate) plugin which also works independently, Translate words written directly on HTML source code, Custom Words Translator for Front End Words on HTML(portuguese, english, spanish), can be customized for other languages on demand<\/p>\n\n<p>This plugin uses the global variable from qtranslate to work, but may also work using $_GET[\"lang\"]<\/p>\n\n<p>It was designed thinking ok portuguese, english and spanish, but I can customize it on demand for you to other languages<\/p>\n\n<p>It uses jQuery to perform replacement of words written directly on HTML source code<\/p>\n\n<p>More info about the plugin: <a href=\"http:\/\/www.wpworking.com\/\" rel=\"nofollow\">http:\/\/www.wpworking.com\/<\/a><\/p>\n\n<p>Ask for support on <a href=\"mailto:wpworking@wpworking.com\">wpworking@wpworking.com<\/a><\/p>",
+                "uid": "124731"
+            }
+        }
+    }
+}

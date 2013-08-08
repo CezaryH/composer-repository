@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/buzzword-generator-shortcode": {
+            "1.0": {
+                "name": "wordpress\/buzzword-generator-shortcode",
+                "version": "1.0",
+                "version_normalized": "1.0.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/buzzword-generator-shortcode.1.0.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<ul>\n<li><p>Makes a random phrase of marketing buzzwords anywhere you insert the <code>[makebullshit]<\/code> shortcode. Just insert the <code>[makebullshit]<\/code> short code anywhere you'd like magic marketing words to appear.<\/p><\/li>\n<li><p>It uses three arrays; the first contains a verb, the second contains an adjective, and the third contains a noun.<\/p><\/li>\n<\/ul>",
+                "uid": "125319"
+            }
+        }
+    }
+}

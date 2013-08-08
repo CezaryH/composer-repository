@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/wp-enviroment-beacon": {
+            "1.1": {
+                "name": "wordpress\/wp-enviroment-beacon",
+                "version": "1.1",
+                "version_normalized": "1.1.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/wp-enviroment-beacon.1.1.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>It is a plugin intended for developers:<\/p>\n\n<p>The goal of this plugin is to display information about the Environment in which wordpress is installed as well as all global variables from php.<\/p>\n\n<p>By enabling this plugin some new options will be coupled to the main menu wordpress namely:<\/p>\n\n<p>Host Infos:<\/p>\n\n<ul>\n<li><p>Here you will be able to see a number of important settings of the Environment where wordpress is installed.<\/p><\/li>\n<li><p>If you want, you can save this configuration and if necessary, you can change the Environment (server) and verify the changes by saving them to a new record containing the new settings.<\/p><\/li>\n<li><p>If you are a developer (just as I) it's always good to have access to information from the Environment to which you are writingby this link is possible to have access to it.<\/p><\/li>\n<li><p>You can also categorize the settings.<\/p><\/li>\n<li><p>All settings, if saved, are saved in post_meta where you can search and change later.<\/p><\/li>\n",
+                "uid": "125167"
+            }
+        }
+    }
+}

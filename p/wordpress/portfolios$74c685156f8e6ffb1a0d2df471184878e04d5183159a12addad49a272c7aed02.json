@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/portfolios": {
+            "1.0.0": {
+                "name": "wordpress\/portfolios",
+                "version": "1.0.0",
+                "version_normalized": "1.0.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/portfolios.1.0.0.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>This plugin adds a \"Portfolio Item\" custom post type with associated \"Portfolio\" and \"Porfolio Tag\" taxonomies.<\/p>\n\n<p>Any instances of <code>the_tags()<\/code> by your theme when on a portfolio item post are filtered to use Portfolio Tags.<\/p>\n\n<h4>Theme Blvd Integration<\/h4>\n\n<p>If you're using a theme with <a href=\"http:\/\/www.themeblvd.com\">Theme Blvd<\/a> framework v2.3+, this plugin has some cool integration features.<\/p>\n\n<ul>\n<li>Breadcrumb integration for Portfolio Items and associated taxonomy archives.<\/li>\n<li>When meta information is displayed on a portfolio item post, the category is replaced with the portfolio.<\/li>\n<li>Portfolio and Portfolio Tag WordPress archives automatically display posts in a grid format.<\/li>\n<li>Post List and Post Grid page templates can accept \"portfolio\" and \"portfolio_tag\" custom fields to filter posts.<\/li>\n<li>Standard \"Post Options\" meta box is integrated into the portfolio item custom post type.<\/li>\n<li>With our <a href=\"\">Layout Builder",
+                "uid": "124568"
+            }
+        }
+    }
+}

@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/impactpubs": {
+            "2.0": {
+                "name": "wordpress\/impactpubs",
+                "version": "2.0",
+                "version_normalized": "2.0.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/impactpubs.2.0.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>This is a WordPress plugin to automatically display a publication profile on a website.<\/p>\n\n<p>Results can be pulled from PubMed or ORCiD, and will be automatically updated once a week.<\/p>\n\n<p>One profile can be created per blog user.<\/p>\n\n<p>Altmetrics badges can be appended to each result by obtaining an API key from ImpactStory (www.impactstory.org)\nThe Pubmed query and API information can be entered into a special Settings page created in the dashboard. \nThe publications can be listed on a particular page (or post!) by entering the shortcode:<\/p>\n\n<p>[publications]<\/p>\n\n<p>If your site has multiple users, each user can create their own publications list on the dashboard. The\nshortcode is then changed into:<\/p>\n\n<p>[publications name=login_name]<\/p>\n\n<p>To retrieve results from PubMed:\nBecause PubMed does not use unique identifiers for a authors,\nyou must come up with a way to search for yourself that distinguishes\nyou from other people in the database.<\/p>\n\n<p>For example:\n* \"",
+                "uid": "125036"
+            }
+        }
+    }
+}

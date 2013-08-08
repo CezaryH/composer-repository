@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/music-request-manager": {
+            "1.3": {
+                "name": "wordpress\/music-request-manager",
+                "version": "1.3",
+                "version_normalized": "1.3.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/music-request-manager.1.3.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>This is a simple plugin that builds a song request page on your site. Users can request songs listing title and artist, duplicates simply add another request count to the previously requested song.  Auto-refresh list every 30 seconds in admin view sorts songs by most requested and give you the option to set the song as played or remove it from the list.  Setting the song as played notifies users that request it afterwards that is was already played.  You can also remove the song from the list allowing it to be requested again.<\/p>\n\n<p>Use shortcode [music-requests] to generate user and admin pages, page will adjust automatically using custom permission manage_requests.<\/p>",
+                "uid": "124919"
+            }
+        }
+    }
+}

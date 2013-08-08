@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/theme-blvd-prettyphoto": {
+            "1.0.0": {
+                "name": "wordpress\/theme-blvd-prettyphoto",
+                "version": "1.0.0",
+                "version_normalized": "1.0.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/theme-blvd-prettyphoto.1.0.0.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>This plugin incorporates a version of prettyPhoto that we've made some slight modification to, in order for it perform better in responsive environments. We've also modified the default prettyPhoto skin to look a bit nicer on HiDPI devices like the MacBook Pro Retina.<\/p>\n\n<h4>Theme Blvd Integration<\/h4>\n\n<p>If you're using a theme with Theme Blvd framework v2.3+, this plugin will replace all default lightbox integration with prettyPhoto.<\/p>",
+                "uid": "124558"
+            }
+        }
+    }
+}

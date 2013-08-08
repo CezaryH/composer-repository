@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/sendgrid-email-delivery-simplified": {
+            "1.0": {
+                "name": "wordpress\/sendgrid-email-delivery-simplified",
+                "version": "1.0",
+                "version_normalized": "1.0.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/sendgrid-email-delivery-simplified.1.0.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>SendGrid's cloud-based email infrastructure relieves businesses of the cost and complexity of maintaining custom email systems. SendGrid provides reliable delivery, scalability and real-time analytics along with flexible APIs that make custom integration a breeze.<\/p>\n\n<p>The SendGrid plugin uses SMTP or API integration to send outgoing emails from your WordPress installation. It replaces the wp_mail function included with WordPress.<\/p>\n\n<p>To have the SendGrid plugin running after you have activated it, go to the plugin's settings page and set the SendGrid credentials, and how your email will be sent - either through SMTP or API.<\/p>\n\n<p>You can also set default values for the \"Name\", \"Sending Address\" and the \"Reply Address\", so that you don't need to set these headers every time you want to send an email from your application.<\/p>\n\n<p>Emails are tracked and automatically tagged for statistics within the SendGrid Dashboard. You can also add general tags to every email sent, as we",
+                "uid": "125154"
+            }
+        }
+    }
+}

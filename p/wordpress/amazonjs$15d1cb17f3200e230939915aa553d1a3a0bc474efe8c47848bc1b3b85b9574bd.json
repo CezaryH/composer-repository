@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/amazonjs": {
+            "0.2.1": {
+                "name": "wordpress\/amazonjs",
+                "version": "0.2.1",
+                "version_normalized": "0.2.1.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/amazonjs.0.2.1.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>AmazonJS is used to quickly add Amazon products to your WordPress posts and pages. The plugin added a search form to post form. You can search Amazon products by keyword, ASIN or URL.<\/p>\n\n<p>The plugin use `amazonjs' shortcode and jQuery template to show Amazon products. View the work data at runtime, Javascript allows various representations. AmazonJS has some template to Amazon products for each group, it can how to display the different Amazon products, such as books and music.<\/p>\n\n<ul>\n<li>Requires WorPress 2.8 and PHP5<\/li>\n<li>Requires your Amazon Product Advertising API<\/li>\n<li>Plugin Uses file cache (Plugin does not touch database)<\/li>\n<li>Customize template by using jQuery template<\/li>\n<\/ul>\n\n<h4>Using Product Advertising API<\/h4>\n\n<p>This plugin uses <a href=\"https:\/\/affiliate-program.amazon.com\/gp\/advertising\/api\/detail\/main.html\">Amazon Product Advertising API<\/a> \nin order to get product information from ASIN or keyword. \nThus, you have to sign up Product Advertisi",
+                "uid": "125003"
+            }
+        }
+    }
+}

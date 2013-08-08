@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/authors-page": {
+            "1.2": {
+                "name": "wordpress\/authors-page",
+                "version": "1.2",
+                "version_normalized": "1.2.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/authors-page.1.2.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>This plugin <strong>allows you to display a table of users with specific roles on a separate page by simply calling the shortcode <code>[authors_page]<\/code><\/strong>.\nThe table will consist of avatars and usernames. By means of the <em>\"role\"<\/em> attribute you can choose to display only users with a certain role.\nExample: <code>[authors_page role=\"editor\"]<\/code>\nThe users are ordered by post number, from highest to lowest.<\/p>\n\n<p>In order to view more details about one of the users in the table, you just have to click on the corresponding username and all available information will be displayed.\nThis feature is enabled by the WP Biographia plugin which should already be installed.<\/p>\n\n<p>When activated, the plugin creates an <em>\"Authors Page\"<\/em> containing all shortcode options available, so you can check how it works right away.\n<em>The \"Authors Page\" plugin is useful for displaying an interactive list of users\/ authors on one page.<\/em><\/p>",
+                "uid": "124716"
+            }
+        }
+    }
+}

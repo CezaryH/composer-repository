@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/datalistit": {
+            "0.0.1": {
+                "name": "wordpress\/datalistit",
+                "version": "0.0.1",
+                "version_normalized": "0.0.1.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/datalistit.0.0.1.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>The Datalist it plugin lets the user create and display tables on their WP page or blog using data stored in an Excel ( *.xls, *.xlsx) or csv file.<\/p>\n\n<p>In order to create an HTML table, the user uploads an Excel or csv file using the plugin interface. The data is sent to the datalistit.com server where the files are processed. Datalistit.com is a service and the plugin is required to access this service. Having processed the data, the server returns an HTML table and short code. The user can display the table on their WP site or blog by copying and pasting the short code that is returned by the server.<\/p>\n\n<p>Anybody with \"Edit post\" capability can insert the short code onto a WP site or blog, thus creating a table. No user data is held on the server - any uploaded data is deleted automatically when the server sends the HTML file to the user.<\/p>",
+                "uid": "125577"
+            }
+        }
+    }
+}

@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/redirect-emails-on-staging": {
+            "1.0": {
+                "name": "wordpress\/redirect-emails-on-staging",
+                "version": "1.0",
+                "version_normalized": "1.0.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/redirect-emails-on-staging.1.0.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>When using the <a href=\"http:\/\/support.wpengine.com\/staging\/\">Staging site<\/a> on WP Engine, you may want to prevent the staging version of your site from sending emails to your site users. This plugin redirects all emails to the site admin.<\/p>\n\n<p>This plugin should be activated on your Production site. Don't worry &#8212; it won't do anything <em>unless<\/em> it is active on Staging site. Once you create a new copy of your Staging site, the plugin will start taking effect there.<\/p>\n\n<p>This plugin is compatible with WordPress Multisite. If you're using it in a Multisite environment, it is recommended to either Network Activate the plugin, or follow the instructions for installing it to the <code>mu-plugins<\/code> directory.<\/p>",
+                "uid": "124564"
+            }
+        }
+    }
+}

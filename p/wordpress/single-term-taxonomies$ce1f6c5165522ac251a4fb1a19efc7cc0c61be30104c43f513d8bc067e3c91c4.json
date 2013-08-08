@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/single-term-taxonomies": {
+            "1.0": {
+                "name": "wordpress\/single-term-taxonomies",
+                "version": "1.0",
+                "version_normalized": "1.0.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/single-term-taxonomies.1.0.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>Limit the taxonomy terms chosen for a post to maximum one. Very helpful for taxonomies (like \"brand\" for example) where it is not appropriate to have more than one term picked. \nWorks for both hierarchical and non-hierarchical taxonomies and uses the WordPress stock interface.<\/p>",
+                "uid": "125153"
+            }
+        }
+    }
+}

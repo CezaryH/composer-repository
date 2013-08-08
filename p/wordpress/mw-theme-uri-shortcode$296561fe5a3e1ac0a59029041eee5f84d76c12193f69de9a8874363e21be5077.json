@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/mw-theme-uri-shortcode": {
+            "0.1": {
+                "name": "wordpress\/mw-theme-uri-shortcode",
+                "version": "0.1",
+                "version_normalized": "0.1.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/mw-theme-uri-shortcode.0.1.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>MW Theme URI Shortcode to make a shortcord outputting theme directory uri.\nshortcode : [template_directory_uri], [stylesheet_directory_uri]<\/p>\n\n<p>When you switches Visual to Text,  replaced into shortcode.\nWhen you switches Text to Visual, shortcode replaced into theme uri.\nIF you don't use child theme, there are cases where [stylesheet_directory_uri] replaces [template_directory_uri]<\/p>",
+                "uid": "125147"
+            }
+        }
+    }
+}

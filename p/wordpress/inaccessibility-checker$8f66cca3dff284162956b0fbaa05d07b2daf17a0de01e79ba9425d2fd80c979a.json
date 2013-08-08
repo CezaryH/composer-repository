@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/inaccessibility-checker": {
+            "0.0.2": {
+                "name": "wordpress\/inaccessibility-checker",
+                "version": "0.0.2",
+                "version_normalized": "0.0.2.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/inaccessibility-checker.0.0.2.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>Check your privilege and your tags.<\/p>\n\n<p>When previewing a post, images with no alt text or caption will be highlighted red, and a warning will be shown.<\/p>\n\n<p>Screen reader software relies on alt text to describe images for visually impaired users.<\/p>",
+                "uid": "125048"
+            }
+        }
+    }
+}

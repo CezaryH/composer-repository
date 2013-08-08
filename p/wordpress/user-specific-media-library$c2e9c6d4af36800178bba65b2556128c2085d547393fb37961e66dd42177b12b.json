@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/user-specific-media-library": {
+            "0.1": {
+                "name": "wordpress\/user-specific-media-library",
+                "version": "0.1",
+                "version_normalized": "0.1.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/user-specific-media-library.0.1.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>Limit users' media library to media they have uploaded. Users with the edit_others_posts capability (generally editors and administrators) have access to all media.<\/p>",
+                "uid": "124733"
+            }
+        }
+    }
+}

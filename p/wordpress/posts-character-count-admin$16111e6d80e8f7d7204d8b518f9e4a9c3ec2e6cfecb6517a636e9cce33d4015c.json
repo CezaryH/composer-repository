@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/posts-character-count-admin": {
+            "1.1": {
+                "name": "wordpress\/posts-character-count-admin",
+                "version": "1.1",
+                "version_normalized": "1.1.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/posts-character-count-admin.1.1.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>This plugin adds a column with the character count for each post to the posts overview in the Manage Posts SubPanel. \nAdditionally it informs about the character count for each post in the Edit Posts Subpanel (near the Word Count). So you \nare up to date with the word and the character count while writing oder editing your posts (after safing).<\/p>",
+                "uid": "70277"
+            }
+        }
+    }
+}
