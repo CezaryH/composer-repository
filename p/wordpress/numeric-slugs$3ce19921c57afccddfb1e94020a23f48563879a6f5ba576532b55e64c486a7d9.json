@@ -1,0 +1,40 @@
+{
+    "packages": {
+        "wordpress\/numeric-slugs": {
+            "1.0.0": {
+                "name": "wordpress\/numeric-slugs",
+                "version": "1.0.0",
+                "version_normalized": "1.0.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/numeric-slugs.1.0.0.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>When using \/%postname%\/ permalinks and a slug consisting of only numeric characters, WordPress incorrectly interprets this as pagination and doesn't handle things correctly. This plug-in will send users to the correct post.<\/p>",
+                "uid": "125054"
+            },
+            "1.0.1": {
+                "name": "wordpress\/numeric-slugs",
+                "version": "1.0.1",
+                "version_normalized": "1.0.1.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/numeric-slugs.1.0.1.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>When using \/%postname%\/ permalinks and a slug consisting of only numeric characters, WordPress incorrectly interprets this as pagination and doesn't handle things correctly. This plug-in will send users to the correct post.<\/p>",
+                "uid": "125751"
+            }
+        }
+    }
+}

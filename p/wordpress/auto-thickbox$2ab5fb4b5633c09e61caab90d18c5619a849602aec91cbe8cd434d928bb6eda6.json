@@ -1,0 +1,40 @@
+{
+    "packages": {
+        "wordpress\/auto-thickbox": {
+            "2.1.1": {
+                "name": "wordpress\/auto-thickbox",
+                "version": "2.1.1",
+                "version_normalized": "2.1.1.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/auto-thickbox.2.1.1.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>The Auto Thickbox plugin for WordPress automatically enables thickbox on thumbnail images (i.e. opens the images in a fancy pop-up), through the use of WordPress' built-in thickbox library.<\/p>\n\n<p>In the event you'd like to override this for an individual image, you can disable the behavior by adding the 'nothickbox' class to its anchor tag.<\/p>\n\n<h4>Thickbox Galleries<\/h4>\n\n<p>By default, the auto thickbox plugin will bind all images within a post into a single thickbox gallery. That is, next image and previous image links will appear so you can navigate from an image to the next.<\/p>\n\n<p>The behavior is particularly interesting when you create galleries using WordPress' image uploader. Have the images link to the image file rather than the attachment's post, and you're done.<\/p>\n\n<p>On occasion, you'll want to split a subset of images into a separate gallery. Auto Thickbox lets you do this as well: add an identical rel attribute to each anchor you'd like to group, and you're done",
+                "uid": "95303"
+            },
+            "2.2": {
+                "name": "wordpress\/auto-thickbox",
+                "version": "2.2",
+                "version_normalized": "2.2.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/auto-thickbox.2.2.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>The Auto Thickbox plugin for WordPress automatically enables thickbox on thumbnail images (i.e. opens the images in a fancy pop-up), through the use of WordPress' built-in thickbox library.<\/p>\n\n<p>In the event you'd like to override this for an individual image, you can disable the behavior by adding the 'nothickbox' class to its anchor tag.<\/p>\n\n<h4>Thickbox Galleries<\/h4>\n\n<p>By default, the auto thickbox plugin will bind all images within a post into a single thickbox gallery. That is, next image and previous image links will appear so you can navigate from an image to the next.<\/p>\n\n<p>The behavior is particularly interesting when you create galleries using WordPress' image uploader. Have the images link to the image file rather than the attachment's post, and you're done.<\/p>\n\n<p>On occasion, you'll want to split a subset of images into a separate gallery. Auto Thickbox lets you do this as well: add an identical rel attribute to each anchor you'd like to group, and you're done",
+                "uid": "126093"
+            }
+        }
+    }
+}

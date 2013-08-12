@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/post-presentations": {
+            "0.1": {
+                "name": "wordpress\/post-presentations",
+                "version": "0.1",
+                "version_normalized": "0.1.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/post-presentations.0.1.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>This plugin is intended to create simple slideshow presentations from the WordPress posts. It is inspired from the <a href=\"ottopress.com\/2013\/slides-a-presentation-theme\/\">Slides theme be Otto<\/a> but rather than turning your whole blog into one slideshow this plugin simply adds an alternative display mode for each posts.<\/p>\n\n<p>Place <code>&#60;!--nextslide--&#62;<\/code> in your posts to split your posts into individual slides.<\/p>\n\n<p>This plugin is still in its early version. Don't expect this to not break in extreme cases. It should support common HTML though including images, video and audio.<\/p>\n\n<p>Future updates may include:<\/p>\n\n<ul>\n<li>Adding a first slide that contains the post title, author, date and more info.<\/li>\n<li>A button directly in the the TinyMCE editor similar to the more tag to add the <code>&#60;!--nextslide--&#62;<\/code> tag.<\/li>\n<li>More options to the settings page.<\/li>\n<li>Individual settings for each post.<\/li>\n<li>More support for reveal.jus featu",
+                "uid": "125738"
+            }
+        }
+    }
+}

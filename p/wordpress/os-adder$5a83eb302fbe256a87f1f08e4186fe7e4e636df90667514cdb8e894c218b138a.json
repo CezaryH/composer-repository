@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/os-adder": {
+            "0.1": {
+                "name": "wordpress\/os-adder",
+                "version": "0.1",
+                "version_normalized": "0.1.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/os-adder.0.1.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>This plugin adds a abbreviation of the operating system (win, mac, linux) to the body-tag.\nSo if there's a OS-specific difference, you can easily react to it by using the css-selector (e.g. \".mac\").<\/p>\n\n<p>Next steps of this plugin:\n* adding a settings page \n* add the class to specified elements\n* add user-language-abbreviation to specified elements<\/p>\n\n<p>let me know, if you wish something helpful.<\/p>",
+                "uid": "125744"
+            }
+        }
+    }
+}

@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/logout-button": {
+            "1.0": {
+                "name": "wordpress\/logout-button",
+                "version": "1.0",
+                "version_normalized": "1.0.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/logout-button.1.0.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>This plugin can be thought of as a front-end logout solution. It allows a WordPress administrator to embed a link on \nany page (or post if you want) that gives other WordPress users the ability to easily logout without having to fuss \nwith the WordPress Dashboard. There are three shortcodes that can be used, and each one has a different redirect \noption: Redirect to Home, Current Page, or the WordPress Default wp-login.php page.<\/p>\n\n<p>The Logout Button plugin uses the default log out functionality provided by WP through wp_loginout(). It checks to\nsee if the user is logged in. If the user is logged in, a Log Out link will be displayed to them. If the user is not\nlogged in, nothing will be shown to the user.<\/p>\n\n<p>Future releases will include the ability to choose \"Themes\". Right now, a simple link is displayed and the CSS from\nthe currently activated theme is used on that link. Of course, there is always the ability to dive directly into \ndisplay_button.php to edit the CSS yours",
+                "uid": "125735"
+            }
+        }
+    }
+}

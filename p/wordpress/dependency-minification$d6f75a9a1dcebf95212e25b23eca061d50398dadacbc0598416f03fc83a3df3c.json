@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/dependency-minification": {
+            "0.9.1": {
+                "name": "wordpress\/dependency-minification",
+                "version": "0.9.1",
+                "version_normalized": "0.9.1.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/dependency-minification.0.9.1.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>This plugin takes all scripts and stylesheets that have been added via <code>wp_enqueue_script<\/code> and <code>wp_enqueue_style<\/code>\nand <em>automatically<\/em> concatenates and minifies them into logical groups. For example, scripts in the footer get grouped\ntogether and styles with the same media (e.g. <code>print<\/code>) get minified together. Minification is done via WP-Cron in order\nto prevent race conditions and to ensure that the minification process does not slow down page responses.<\/p>\n\n<p>This is a reincarnation and rewrite of the <a href=\"http:\/\/wordpress.org\/plugins\/optimize-scripts\/\">Optimize Scripts<\/a> plugin,\nwhich this plugin now supersedes.<\/p>\n\n<p>Features:<\/p>\n\n<ul>\n<li>Minified sources are stored in the WP Options table so no special filesystem access is required.<\/li>\n<li>Endpoint for minified requests is at <code>\/_minified<\/code>, which can be configured.<\/li>\n<li>Admin page for taking inventory of minified scripts and stylesheets, with methods for expirin",
+                "uid": "126017"
+            }
+        }
+    }
+}
