@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/media-placeholders": {
+            "0.9.1": {
+                "name": "wordpress\/media-placeholders",
+                "version": "0.9.1",
+                "version_normalized": "0.9.1.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/media-placeholders.0.9.1.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>Activate this plugin to redirect all requests for missing uploaded images on your blog to your favorite placeholder image service, such as <a href=\"http:\/\/placehold.it\">placehold.it<\/a> or <a href=\"http:\/\/placekitten.com\/\">placekitten.com<\/a>. Note that although kittens are cute, the placehold.it service is actually more useful because the background and foreground color can remain consistant across all image sizes (e.g. full size vs thumbnail in a gallery), and so it is easier to see which images in a page are related to each other. (You can change the default placehold.it service to placekitten.com by defining <code>MISSING_UPLOADED_IMAGE_PLACEHOLDER_BUILTIN<\/code> to be <code>placekitten_color<\/code> or <code>placekitten_grayscale<\/code>, or supplying those same values via the <code>missing_uploaded_image_placeholder_builtin<\/code> filter).<\/p>\n\n<p><strong>This plugin is for use during development only.<\/strong> It is expected that this plugin will be activated on your local deve",
+                "uid": "126245"
+            }
+        }
+    }
+}

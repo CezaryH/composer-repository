@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/logintodownload": {
+            "0.1": {
+                "name": "wordpress\/logintodownload",
+                "version": "0.1",
+                "version_normalized": "0.1.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/logintodownload.0.1.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>User must be registered or Logged in before you can start to download the file. It will add a Meta Box on your Post\/Page editor and let's you enter the link where the file to be downloaded.<\/p>",
+                "uid": "126248"
+            }
+        }
+    }
+}

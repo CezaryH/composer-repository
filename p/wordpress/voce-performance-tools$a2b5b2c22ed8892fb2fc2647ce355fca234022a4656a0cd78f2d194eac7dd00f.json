@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/voce-performance-tools": {
+            "1.0": {
+                "name": "wordpress\/voce-performance-tools",
+                "version": "1.0",
+                "version_normalized": "1.0.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/voce-performance-tools.1.0.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>This plugin provides numerous performance tools and functionalities to assist in developing high performance WordPress themes<\/p>\n\n<h4>Includes<\/h4>\n\n<ul>\n<li><a href=\"https:\/\/github.com\/markjaquith\/WP-TLC-Transients\">WP TLC Transients<\/a> - A WordPress transients interface with support for soft-expiration, background updating of the transients, and a chainable syntax that allows for one liners.<\/li>\n<li><a href=\"https:\/\/github.com\/voceconnect\/wp-cache-bucket\">WP Cache Bucket<\/a> - A wrapper to WordPress' wp_cache to that allows tying multiple object cache entries to a single group that allows easy cache invalidation<\/li>\n<li><a href=\"https:\/\/github.com\/voceconnect\/voce-widget-cache\">Voce Widget Cache<\/a> - Adds ability to easily cache widget output for better performance.<\/li>\n<li><a href=\"https:\/\/github.com\/voceconnect\/voce-cached-nav\">Voce Cached Nav<\/a> - Serve cached copies of WordPress navigation menus by replacing your template calls to <code>wp_nav_menu<\/code> with <code>voc",
+                "uid": "125169"
+            }
+        }
+    }
+}

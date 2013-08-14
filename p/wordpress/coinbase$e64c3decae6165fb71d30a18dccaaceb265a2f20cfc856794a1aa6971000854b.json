@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/coinbase": {
+            "0.2": {
+                "name": "wordpress\/coinbase",
+                "version": "0.2",
+                "version_normalized": "0.2.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/coinbase.0.2.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>A Wordpress plugin and widget that lets you accept bitcoin on your site! Use the <code>[coinbase_button]<\/code> shortcode along with the parameters on <a href=\"https:\/\/coinbase.com\/api\/doc\/1.0\/buttons\/create.html\">this page<\/a>. Example:<\/p>\n\n<pre><code>[coinbase_button name=&#34;Socks&#34; price_string=&#34;10.00&#34; price_currency_iso=&#34;CAD&#34;]<\/code><\/pre>\n\n<p>A menu widget is also included.<\/p>",
+                "uid": "126247"
+            }
+        }
+    }
+}
