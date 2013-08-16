@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/better-my-sites-menu": {
+            "1.0": {
+                "name": "wordpress\/better-my-sites-menu",
+                "version": "1.0",
+                "version_normalized": "1.0.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/better-my-sites-menu.1.0.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>When using WordPress multisite, the \"My Sites\" menu item will be added to the admin bar. Out of the box, this menu has a few limitations:\n1. It is as wide as the longest title of one of your sites. Lame.\n1. If your list of sites is too long, it will not fit on your screen and you can't reach the bottom ones. Also lame.\nThis plugin is an attempt to remedy these and other issues and make the My Sites menu as useful as possible for multiple-site admins.<\/p>\n\n<p>What it does:\n1. If a user's list of sites grows past a certain number, scrolling is enabled on the list. This way you can always reach every site.\n1. Site titles are truncated if they get too long so your menu isn't crazy wide.<\/p>\n\n<p>All in all, this is a very light plugin. How it works is it removes the existing My Sites menu and adds in this one plus the previously described functionality.<\/p>",
+                "uid": "126732"
+            }
+        }
+    }
+}

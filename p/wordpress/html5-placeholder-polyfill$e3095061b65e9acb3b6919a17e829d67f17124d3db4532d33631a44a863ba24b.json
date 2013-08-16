@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/html5-placeholder-polyfill": {
+            "0.1.0": {
+                "name": "wordpress\/html5-placeholder-polyfill",
+                "version": "0.1.0",
+                "version_normalized": "0.1.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/html5-placeholder-polyfill.0.1.0.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>The HTML5 Placeholder Plugin simulates placeholder functionality for inputs and textareas, which is particularly handy in <a href=\"http:\/\/caniuse.com\/#search=placeholder\">browsers that still need some work<\/a>.<\/p>\n\n<h4>Features<\/h4>\n\n<ul>\n<li>No setup necessary, works immediately after installing<\/li>\n<li>Super lightweight, less than 3kb minified jQuery<\/li>\n<li>Automatically detects for placeholder support - no need for extra feature detection like Modernizr<\/li>\n<li>Based on Mathias Bynens' widely popular and well tested polyfill - thanks Mathias!<\/li>\n<\/ul>\n\n<h4>How to use<\/h4>\n\n<p>This plugin creates and uses a placeholder() jQuery function, and invokes it for inputs and textareas. This happens automatically as soon as you install it. If for some crazy reason you would like to invoke it on other elements aside from inputs and textareas, you can do so with you own jQuery, like so:<\/p>\n\n<pre><code>jQuery('yourElement').placeholder()\n<\/code><\/pre>",
+                "uid": "126737"
+            }
+        }
+    }
+}

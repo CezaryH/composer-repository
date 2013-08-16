@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/string-locator": {
+            "1.0.0": {
+                "name": "wordpress\/string-locator",
+                "version": "1.0.0",
+                "version_normalized": "1.0.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/string-locator.1.0.0.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>When working on themes and plugins you often notice a piece of text that appears hardcoded into the files, you need to modify it, but you can't find it.<\/p>\n\n<p>Search through themes or plugins to identify where the string is used, showing both file names and line numbers of the matched results.<\/p>",
+                "uid": "126720"
+            }
+        }
+    }
+}
