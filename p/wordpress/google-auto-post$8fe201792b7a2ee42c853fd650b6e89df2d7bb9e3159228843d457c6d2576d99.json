@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/google-auto-post": {
+            "0.1.1": {
+                "name": "wordpress\/google-auto-post",
+                "version": "0.1.1",
+                "version_normalized": "0.1.1.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/google-auto-post.0.1.1.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>This plugin works around the Google Plus block for auto-publishing by linking in through Google Voice. It gives you a way to automatically share your posts to Google Plus from the WordPress post-editing screen. It works by firing off an email to the Google Voice email address, which is then posted to Google Plus.<\/p>\n\n<p>IMPORTANT: Setup Information<\/p>\n\n<p>Notes: Setup requires taking advantage of a loophole in Google Voice which allows you to post to Google+ via email. To start, make sure you have a Google Plus account and a Google Voice account under the same email address.<\/p>\n\n<ol>\n<li><p>Log in to Google Voice. Click on the Settings \"Gear\" icon in the upper-right corner.<\/p><\/li>\n<li><p>Verify you have a Google Voice phone number. If you don't, select one.<\/p><\/li>\n<li><p>Click on the \"Voicemail &#38; Text\" tab. Check the box next to \"Forward text messages to my email.\"<\/p><\/li>\n<li><p>Click on \"Text,\" and compose a message to 33669 (in the USA) or 9222222222 (in India).<\/p><\/",
+                "uid": "126878"
+            }
+        }
+    }
+}

@@ -1,0 +1,40 @@
+{
+    "packages": {
+        "wordpress\/zxcvbn": {
+            "1.0": {
+                "name": "wordpress\/zxcvbn",
+                "version": "1.0",
+                "version_normalized": "1.0.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/zxcvbn.1.0.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>WordPress has a built-in indicator of \"password strength\". This indicator is limited in its ability to properly show what is a \"good\" vs. a \"bad\" password.<\/p>\n\n<p>In 2012, Dropbox came up with a library called \"zxcvbn\", which is a password strength indicator that takes a lot more possible attacks into account, including dictionary attacks. This is an implementation of that library as a WordPress plugin.<\/p>\n\n<p>There is no interface or options screen for this plugin. Simply activate it and the normal password strength indicators in WordPress will now use the Zxcvbn library instead. You'll notice that it is much more difficult to get a \"green\" color in those indicators now, since dictionary based words will get recognized by the underlying checks.<\/p>\n\n<p>More information on the Zxcvbn library can be found here:<\/p>\n\n<ul>\n<li><a href=\"https:\/\/tech.dropbox.com\/2012\/04\/zxcvbn-realistic-password-strength-estimation\/\" rel=\"nofollow\">https:\/\/tech.dropbox.com\/2012\/04\/zxcvbn-realistic-pass",
+                "uid": "8935"
+            },
+            "1.1": {
+                "name": "wordpress\/zxcvbn",
+                "version": "1.1",
+                "version_normalized": "1.1.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/zxcvbn.1.1.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>WordPress has a built-in indicator of \"password strength\". This indicator is limited in its ability to properly show what is a \"good\" vs. a \"bad\" password.<\/p>\n\n<p>In 2012, Dropbox came up with a library called \"zxcvbn\", which is a password strength indicator that takes a lot more possible attacks into account, including dictionary attacks. This is an implementation of that library as a WordPress plugin.<\/p>\n\n<p>There is no interface or options screen for this plugin. Simply activate it and the normal password strength indicators in WordPress will now use the Zxcvbn library instead. You'll notice that it is much more difficult to get a \"green\" color in those indicators now, since dictionary based words will get recognized by the underlying checks.<\/p>\n\n<p>More information on the Zxcvbn library can be found here:<\/p>\n\n<ul>\n<li><a href=\"https:\/\/tech.dropbox.com\/2012\/04\/zxcvbn-realistic-password-strength-estimation\/\" rel=\"nofollow\">https:\/\/tech.dropbox.com\/2012\/04\/zxcvbn-realistic-pass",
+                "uid": "126908"
+            }
+        }
+    }
+}
