@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/imdb-post-rating": {
+            "0.1": {
+                "name": "wordpress\/imdb-post-rating",
+                "version": "0.1",
+                "version_normalized": "0.1.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/imdb-post-rating.0.1.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>This is a simple yet another rating plugin for WordPress.<\/p>\n\n<h4>Features<\/h4>\n\n<ol>\n<li>Creates a table <code>{wpprefix}_imdb_rating<\/code><\/li>\n<li>Using <code>IMDB_Post_Ratings::init()-&#62;rating_input();<\/code> inside a post, provides a <strong>10 star<\/strong> rating. Change the number using the filter <code>ip_base_rating<\/code>. Cool huh?<\/li>\n<li>You can give a rating, also then can remove the rating, give again, remove again, give again&#8230;<\/li>\n<\/ol>\n\n<h4>Functions<\/h4>\n\n<ol>\n<li><code>IMDB_Post_Ratings::init()-&#62;rating_input( $post_id )<\/code> Inserts the rating star bars.<\/li>\n<li><code>IMDB_Post_Ratings::init()-&#62;get_top_rated()<\/code> - get top rated posts. Supports <strong>3<\/strong> parameters, <code>post_type<\/code>, <code>limit<\/code>, <code>offset<\/code><\/li>\n<li><code>IMDB_Post_Ratings::init()-&#62;get_rating( $post_id )<\/code> - returns rating for single post.<\/li>\n<\/ol>\n\n<h4>Contribute<\/h4>\n\n<p>This may have bugs and lack of many features. If you wa",
+                "uid": "127021"
+            }
+        }
+    }
+}

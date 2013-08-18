@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/qstring-parameter": {
+            "1.0": {
+                "name": "wordpress\/qstring-parameter",
+                "version": "1.0",
+                "version_normalized": "1.0.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/qstring-parameter.1.0.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>Sometimes wordpress developers need to pass values through PHP&#8217;s GET method. For example, you need to pass your name to another page by GET method like<\/p>\n\n<p><a href=\"http:\/\/yoursite.com\/some-page\/?myname=john&#038;age=23\" rel=\"nofollow\">http:\/\/yoursite.com\/some-page\/?myname=john&#038;age=23<\/a><\/p>\n\n<p>Now you need to retrieve myname and age variables, but wordpress is designed to ignore such things in URL. You get surprised when you don&#8217;t seen anything&#160; with<\/p>\n\n<pre>&#60;?php print_r($_GET); ?&#62;<\/pre>\n\n<p>Hence, i decided to make a simple plugin that does this functionality. Qstring is a plugin to allow to access get parameters from query string or URL easily.<\/p>",
+                "uid": "127006"
+            }
+        }
+    }
+}

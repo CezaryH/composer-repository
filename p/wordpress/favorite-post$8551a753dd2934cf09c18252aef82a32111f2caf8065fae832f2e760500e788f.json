@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/favorite-post": {
+            "0.1": {
+                "name": "wordpress\/favorite-post",
+                "version": "0.1",
+                "version_normalized": "0.1.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/favorite-post.0.1.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>This is a simple yet another favorite post plugin for WordPress.<\/p>\n\n<h4>Features<\/h4>\n\n<ol>\n<li>Gives a button to favorite a post.<\/li>\n<li>Works only for logged in users.<\/li>\n<li>Has a favorite post widget<\/li>\n<li>Custom post type support<\/li>\n<\/ol>\n\n<h4>Usage<\/h4>\n\n<ol>\n<li>Insert <code>&#60;?php if ( function_exists( 'wfp_button' ) ) wfp_button(); ?&#62;<\/code> this code in your post page to show a favorite post link.<\/li>\n<li><code>$favorites = WeDevs_Favorite_Posts::init()-&#62;get_favorites();<\/code> - get favorite posts. Supports <strong>3<\/strong> parameters, <code>post_type<\/code>, <code>limit<\/code>, <code>offset<\/code>. The default <code>post_type<\/code> is <code>all<\/code>, for getting all post types.<\/li>\n<li>Show favorite posts in a widget.<\/li>\n<li>Use the shortcode <code>[favorite-post-btn]<\/code> for inserting the favorite post link. You can also pass a post id as a parameter. <code>[favorite-post-btn post_id=\"938\"]<\/code>.<\/li>\n<li>Use the shortcode <code>[favo",
+                "uid": "127014"
+            }
+        }
+    }
+}
