@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/unsafe-mimetypes": {
+            "0.1": {
+                "name": "wordpress\/unsafe-mimetypes",
+                "version": "0.1",
+                "version_normalized": "0.1.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/unsafe-mimetypes.0.1.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>Unsafe Mimetypes allows users to define extra media types not allowed by the standard WordPress installation.  Users will often encounter the message 'Sorry, this file type is not permitted for security reasons.'<\/p>\n\n<p>This plugin allows the site admin to upload and distribute files other than the basic set WordPress allows by default.  This plugin allows the user to define a list of extensions they wish to allow.  Administrators can choose to allow only Administrators or all Media Uploaders to be able to add the defined types to the library.<\/p>\n\n<p>Note: This plugin does not permit the user to change the maximum upload size, which may be needed for large multimedia files.<\/p>",
+                "uid": "127242"
+            }
+        }
+    }
+}

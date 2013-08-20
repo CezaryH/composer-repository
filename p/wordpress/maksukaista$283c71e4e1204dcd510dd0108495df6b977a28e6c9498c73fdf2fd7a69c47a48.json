@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/maksukaista": {
+            "1.0": {
+                "name": "wordpress\/maksukaista",
+                "version": "1.0",
+                "version_normalized": "1.0.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/maksukaista.1.0.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>This is a plugin for integrating Maksukaista payment gateway with your Woocommerce store. Accept payments with this plugin, you need to have an active contract with <a href=\"https:\/\/www.paybyway.com\/fi\/\">Maksukaista<\/a>.<\/p>\n\n<h4>Supported features<\/h4>\n\n<ul>\n<li>Accept payments securely<\/li>\n<li>Optional separate authorize and capture(settle) for credit card payments <\/li>\n<\/ul>\n\n<h4>Supported payment methods<\/h4>\n\n<p>Nordea, Osuuspankki, Danskebank, Aktia, S&#228;&#228;st&#246;pankki, Paikallisosuuspankki, Handelsbanken, S-Pankki, Visa, Visa Electron, Mastercard, Everyday.fi, Joustoraha.<\/p>\n\n<p>Notice: Plugin uses libcurl for capture requests.<\/p>",
+                "uid": "127214"
+            }
+        }
+    }
+}

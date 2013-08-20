@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/infusionsoft-google-analytics": {
+            "0.1": {
+                "name": "wordpress\/infusionsoft-google-analytics",
+                "version": "0.1",
+                "version_normalized": "0.1.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/infusionsoft-google-analytics.0.1.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>This plugin provides a shortcode which you can place on any page on your Wordpress site. When you make a sale through Infusionsoft, you can redirect users back to a \"Thank You\" page with the shortcode, and the plugin will connect to your Infusionsoft account, get the details of the sale, and submit them to Google Analytics' ecommerce tracking.<\/p>\n\n<ul>\n<li>Uses the latest version (1.8.3) of the Infusionsoft SDK.<\/li>\n<li>All connections to your Infusionsoft application are RSA encrypted and secured using Infusionsoft's security certificates.<\/li>\n<li>Easy setup, see the \"Installation\" tab.<\/li>\n<li>Requires the Google Analytics tracking code to be installed on your site.<\/li>\n<\/ul>",
+                "uid": "127251"
+            }
+        }
+    }
+}

@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/crop-from-top": {
+            "1.0": {
+                "name": "wordpress\/crop-from-top",
+                "version": "1.0",
+                "version_normalized": "1.0.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/crop-from-top.1.0.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>Forces image resizing and cropping to occur from the top of an image instead of the center whenever an image is uploaded and resized by WordPress.<\/p>",
+                "uid": "127219"
+            }
+        }
+    }
+}

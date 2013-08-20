@@ -1,0 +1,40 @@
+{
+    "packages": {
+        "wordpress\/folder-slider": {
+            "0.9": {
+                "name": "wordpress\/folder-slider",
+                "version": "0.9",
+                "version_normalized": "0.9.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/folder-slider.0.9.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>This plugin creates picture sliders (slideshows) from a folder.\nThe pictures folder must be uploaded (using FTP) somewhere on the server (e.g. wp-content\/upload).<\/p>\n\n<p>To include a slider in a post or a page, you have to use the following shortcode :<\/p>\n\n<pre><code>[folderslider folder=\"local_path_to_folder\"]\n<\/code><\/pre>\n\n<p>An Options page allow to set the default paramaters of the sliders :<\/p>\n\n<ul>\n<li>Transition Mode (mode): horizontal, vertical, fade<\/li>\n<li>Caption Format (captions): none, filename, filenamewithoutextension, smartfilename (filename with underscores, extension and front numbers removed)<\/li>\n<li>Width and Height of the slider (width and height)<\/li>\n<li>Speed (speed):  time between slides in seconds<\/li>\n<li>Previous\/Next Buttons (controls): true or false<\/li>\n<li>Play\/Pause Button (playcontrol): true or false<\/li>\n<li>Start Slider Automatically (autostart): true or false<\/li>\n<li>Pager (pager): true or false<\/li>\n<li>CSS\/Show box with shadow: global op",
+                "uid": "127218"
+            },
+            "0.91": {
+                "name": "wordpress\/folder-slider",
+                "version": "0.91",
+                "version_normalized": "0.91.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/folder-slider.0.91.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>This plugin creates picture sliders (slideshows) from a folder.\nThe pictures folder must be uploaded (using FTP) somewhere on the server (e.g. wp-content\/upload).<\/p>\n\n<p>To include a slider in a post or a page, you have to use the following shortcode :<\/p>\n\n<pre><code>[folderslider folder=\"local_path_to_folder\"]\n<\/code><\/pre>\n\n<p>An Options page allow to set the default paramaters of the sliders :<\/p>\n\n<ul>\n<li>Transition Mode (mode): horizontal, vertical, fade<\/li>\n<li>Caption Format (captions): none, filename, filenamewithoutextension, smartfilename (filename with underscores, extension and front numbers removed)<\/li>\n<li>Width and Height of the slider (width and height)<\/li>\n<li>Speed (speed):  time between slides in seconds<\/li>\n<li>Previous\/Next Buttons (controls): true or false<\/li>\n<li>Play\/Pause Button (playcontrol): true or false<\/li>\n<li>Start Slider Automatically (autostart): true or false<\/li>\n<li>Pager (pager): true or false<\/li>\n<li>CSS\/Show box with shadow: global op",
+                "uid": "127217"
+            }
+        }
+    }
+}

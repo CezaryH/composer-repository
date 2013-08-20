@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/flush-cache-login": {
+            "0.9": {
+                "name": "wordpress\/flush-cache-login",
+                "version": "0.9",
+                "version_normalized": "0.9.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/flush-cache-login.0.9.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>Having problems when users see a cached page after login? This plugin patches that behavior!<\/p>\n\n<p>Tested with:<\/p>\n\n<ul>\n<li>W3TC (browser cache)<\/li>\n<li>Sidebar Login<\/li>\n<\/ul>",
+                "uid": "127080"
+            }
+        }
+    }
+}

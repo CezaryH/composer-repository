@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/ai-responsive-gallery-album": {
+            "1.0": {
+                "name": "wordpress\/ai-responsive-gallery-album",
+                "version": "1.0",
+                "version_normalized": "1.0.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/ai-responsive-gallery-album.1.0.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>AI Responsive Gallery Album is a state of the art WordPress Gallery Plugin , you can use it to create, manage and handle image galleries easily in your WordPress backend and present images to your website visitors. \nIt migrates the Fancy Image Box to your WordPress. All links pointing to an image will automatically open in the FancyBox.<\/p>\n\n<p>Features:<\/p>\n\n<ul>\n<li>There is no limitation to the number of albums and photos.<\/li>\n<li>Upload any number of photos to each album in the gallery.<\/li>\n<li>Add Single Gallery to your page or post using a shortcode. Ex. [Album ID=1]<\/li>\n<li>Add Multiple Gallery to your page or post using a shortcode. Ex.[Album ID=1,2]<\/li>\n<li>Add Gallery to your page or post using a shortcode. Ex. [Album]<\/li>\n<li>Add shortcode in any template file. Ex. &#60; ? php echo do_shortcode(\"[Album ID=1]\"); ? &#62;<\/li>\n<li>It provides a powerful engine for uploading and managing image galleries, with the ability to add\/delete\/disable\/enable, and much more.<\/li>\n",
+                "uid": "127243"
+            }
+        }
+    }
+}

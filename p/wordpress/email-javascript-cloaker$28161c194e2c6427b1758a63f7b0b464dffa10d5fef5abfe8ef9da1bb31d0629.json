@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/email-javascript-cloaker": {
+            "1.0": {
+                "name": "wordpress\/email-javascript-cloaker",
+                "version": "1.0",
+                "version_normalized": "1.0.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/email-javascript-cloaker.1.0.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>This plugin lets you use a shortcode to automatically generate 'cloaked' email addresses in your content.<\/p>\n\n<p><em>What is cloaking?<\/em>\nTake an email address like <a href=\"mailto:barack@whitehouse.gov\">barack@whitehouse.gov<\/a>. If that was to appear on one of your posts\/pages, it could easily be 'scraped' or 'harvested' automatically to add that email address to a spam list of some sort. Cloaking is all about making that harder to do.<\/p>\n\n<p><em>How does this plugin do its cloaking?<\/em>\nFor any email address you include in your content, using the custom shortcode of [email <a href=\"mailto:barack@whitehouse.gov\">barack@whitehouse.gov<\/a>], that email address will appear as \"barack -at- whitehouse -dot- gov\" in your content initially. JavaScript running in the browser will then convert that email address to a regular, clickable, email link. Whilst it may seem pointless to convert a regular email address to a strange format only to convert it back again, the idea is that most a",
+                "uid": "127228"
+            }
+        }
+    }
+}

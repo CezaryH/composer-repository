@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/update-shaming": {
+            "0.3": {
+                "name": "wordpress\/update-shaming",
+                "version": "0.3",
+                "version_normalized": "0.3.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/update-shaming.0.3.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>The purpose of this plugin is to shame content editors into updating page content that has not been touched in a long time, while simultaneously providing an overview of the oldest pages on a site. Also: gifs.<\/p>\n\n<p>The plugin adds an <strong>Out of Date Pages<\/strong> subpage under the Pages menu, which breaks all the pages on the site down by last modified date, grouped by years since it's been modified. Each page listed has a link to edit the page. All images on the Out of Date Pages subpage are sourced from <a href=\"http:\/\/reactiongifs.com\">reactiongifs.com<\/a>.<\/p>",
+                "uid": "127252"
+            }
+        }
+    }
+}

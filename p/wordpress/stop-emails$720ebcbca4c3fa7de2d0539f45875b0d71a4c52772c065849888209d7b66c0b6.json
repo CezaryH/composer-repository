@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/stop-emails": {
+            "0.1.0": {
+                "name": "wordpress\/stop-emails",
+                "version": "0.1.0",
+                "version_normalized": "0.1.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/stop-emails.0.1.0.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>Stops outgoing emails. Any outgoing emails will fail silently (i.e. WordPress\nwill operate as if the email were sent successfully but no email will actually be sent).<\/p>",
+                "uid": "127255"
+            }
+        }
+    }
+}

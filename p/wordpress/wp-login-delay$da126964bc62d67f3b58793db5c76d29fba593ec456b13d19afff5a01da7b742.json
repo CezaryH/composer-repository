@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/wp-login-delay": {
+            "1.0": {
+                "name": "wordpress\/wp-login-delay",
+                "version": "1.0",
+                "version_normalized": "1.0.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/wp-login-delay.1.0.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>Wordpress is one of the most used CMS on the internet, and because of this, one of the most targeted systems by bots and hackers.<\/p>\n\n<p>A brute-force attack consists of systematically checking all possible keys or passwords until the correct one is found. WP Login Delay is a small plugin that offers a simple help against this.\nFor each login attempt on the system, the plugin will add a delay of one second. Although the users will not feel any difference when logging into the system, this can help again a bot that is sending thousands of requests and waits for their results.<\/p>\n\n<p><em>This plugin will not make your system highly secure, there are other security plugins that do the job better than WP Login Delay.<\/em> But installing this plugin will add one more defense to your website, and this defense should not conflict with any other defense already installed.<\/p>",
+                "uid": "127090"
+            }
+        }
+    }
+}

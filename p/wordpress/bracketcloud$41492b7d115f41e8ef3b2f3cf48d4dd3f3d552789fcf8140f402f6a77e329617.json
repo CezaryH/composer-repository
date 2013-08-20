@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/bracketcloud": {
+            "1.0.0": {
+                "name": "wordpress\/bracketcloud",
+                "version": "1.0.0",
+                "version_normalized": "1.0.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/bracketcloud.1.0.0.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>BracketCloud is an online tournament management platform. This plugin replaces any [bracketcloud] shortcodes with the an embedded tournament from BracketCloud.\nThe shortcode syntax is [bracketcloud tid=123] where tid is the unique tournament ID found in the URL of your tournament page.<\/p>\n\n<p>This plugin only lets you embed previously created tournaments. To create tournaments, visit <a href=\"http:\/\/bracketcloud.com\" rel=\"nofollow\">http:\/\/bracketcloud.com<\/a> and make an account.<\/p>",
+                "uid": "127081"
+            }
+        }
+    }
+}

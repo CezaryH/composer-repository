@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/faster-appearance-menus": {
+            "0.1": {
+                "name": "wordpress\/faster-appearance-menus",
+                "version": "0.1",
+                "version_normalized": "0.1.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/faster-appearance-menus.0.1.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>The new accessibility javascript in the Appearance &#62; Menus panel in WordPress 3.6 can significantly slow the page load speed when using a large number of menu items (&#62; 50).  This plugin defers the accessibility processing to eliminate the scripting bottleneck and allow the Appearance &#62; Menus screen to run much faster and more responsively.<\/p>\n\n<p><a href=\"http:\/\/sevenspark.com\/wordpress\/speeding-up-the-appearance-menus-screen-in-wordpress-3-6\">Full details<\/a><\/p>\n\n<p>This solution is fairly rough.  Hopefully we can develop a robust solution that can eventually become part of the core.  Pull requests through GitHub are welcome.<\/p>",
+                "uid": "127213"
+            }
+        }
+    }
+}

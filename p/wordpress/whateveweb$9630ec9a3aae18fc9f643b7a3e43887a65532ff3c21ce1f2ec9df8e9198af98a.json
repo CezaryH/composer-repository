@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/whateveweb": {
+            "1.0": {
+                "name": "wordpress\/whateveweb",
+                "version": "1.0",
+                "version_normalized": "1.0.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/whateveweb.1.0.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>Whateverweb services provides a various amount of optimisations for the web applications, like Image optimisations (reducing the size according to the device, you're looking site at, etc.), stylesheets optimisations (removing the styles, that would not work on the current device, like removing mobile-specific CSS rules from desktop site stylesheet) and device detection API to check the capabilities for specific device, based on huge WURFL database.<\/p>\n\n<p>This plugin provides a basic integration to the Image Optimisation and CSS optimisation services. All you need is to install the plugin and provide the Whateverweb application name (set up in Wordpress settings).<\/p>",
+                "uid": "127084"
+            }
+        }
+    }
+}

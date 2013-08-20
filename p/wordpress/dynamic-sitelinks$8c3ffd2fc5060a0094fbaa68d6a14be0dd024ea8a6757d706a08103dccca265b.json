@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/dynamic-sitelinks": {
+            "1.0": {
+                "name": "wordpress\/dynamic-sitelinks",
+                "version": "1.0",
+                "version_normalized": "1.0.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/dynamic-sitelinks.1.0.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>Dynamic Sitelinks will convert all existing Site URL links in your posts and pages into a format that will change with the Site Address (URL) field in Settings &#62; General. When you need to move your blog, all you'll have to do is change the Site Address option in Wordpress and all your links will automatically be updated.<\/p>\n\n<p>Note: Dynamic Links will not find your links if you activate the plugin after you have already changed your Site Address since you added the links with Wordpress's editor.<\/p>",
+                "uid": "127092"
+            }
+        }
+    }
+}
