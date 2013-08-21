@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/searchrelevance": {
+            "1.0.0": {
+                "name": "wordpress\/searchrelevance",
+                "version": "1.0.0",
+                "version_normalized": "1.0.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/searchrelevance.1.0.0.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>Adjust WordPress search results to order by relevance, not by date.<\/p>\n\n<p>Just install in the typical WordPress plugin way and it will adjust searches automatically, no settings required.<\/p>\n\n<p>Also adds a relevance score to the title of search results, which you can style via css.<\/p>\n\n<p>Try<\/p>\n\n<pre><code>span.ssrch_relevance { float:right; }<\/code><\/pre>\n\n<p>or<\/p>\n\n<pre><code>span.ssrch_relevance { display: none; }<\/code><\/pre>\n\n<p>to hide it.<\/p>",
+                "uid": "127256"
+            }
+        }
+    }
+}

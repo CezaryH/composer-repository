@@ -1,0 +1,57 @@
+{
+    "packages": {
+        "wordpress\/wp-s3": {
+            "1.0": {
+                "name": "wordpress\/wp-s3",
+                "version": "1.0",
+                "version_normalized": "1.0.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/wp-s3.1.0.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>WP-S3 copies media files used in your blog post to Amazon S3 cloud. Uses only filters to replace the media urls in the post if media is available in the S3 cloud. Wordpress cron functionality is used for batching media upload to  S3. This plugin is very safe and will not modify anything in your database.<\/p>",
+                "uid": "66682"
+            },
+            "1.1": {
+                "name": "wordpress\/wp-s3",
+                "version": "1.1",
+                "version_normalized": "1.1.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/wp-s3.1.1.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>WP-S3 copies media files used in your blog post to Amazon S3 cloud. Uses only filters to replace the media urls in the post if media is available in the S3 cloud. Wordpress cron functionality is used for batching media upload to  S3. This plugin is very safe and will not modify anything in your database.<\/p>",
+                "uid": "127581"
+            },
+            "1.2": {
+                "name": "wordpress\/wp-s3",
+                "version": "1.2",
+                "version_normalized": "1.2.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/wp-s3.1.2.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>WP-S3 copies media files used in your blog post to Amazon S3 cloud. Uses only filters to replace the media urls in the post if media is available in the S3 cloud. Wordpress cron functionality is used for batching media upload to  S3. This plugin is very safe and will not modify anything in your database.<\/p>",
+                "uid": "127580"
+            }
+        }
+    }
+}

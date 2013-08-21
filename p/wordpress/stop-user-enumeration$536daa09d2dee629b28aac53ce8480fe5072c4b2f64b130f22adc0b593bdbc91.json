@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/stop-user-enumeration": {
+            "1.0": {
+                "name": "wordpress\/stop-user-enumeration",
+                "version": "1.0",
+                "version_normalized": "1.0.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/stop-user-enumeration.1.0.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>Even if you are careful and set your blogging nickname differently from your login id, if you are using permalinks it only takes a few seconds\nto discover your real user name. This plugin stops user enumeration dead (like in use by WPSCAN), and additionally it will log an event\nin your system log so you can use (optionally) fail2ban to block the probing IP.<\/p>",
+                "uid": "127447"
+            }
+        }
+    }
+}

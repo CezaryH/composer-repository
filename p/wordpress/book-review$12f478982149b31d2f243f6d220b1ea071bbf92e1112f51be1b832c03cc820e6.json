@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/book-review": {
+            "1.0": {
+                "name": "wordpress\/book-review",
+                "version": "1.0",
+                "version_normalized": "1.0.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/book-review.1.0.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>The WordPress Book Review Plugin adds a <em>Book Info<\/em> section to the <em>Add New Post<\/em> and <em>Edit Post<\/em> pages. Fill this out whenever you would like to show more information about a particular book. Note that, at a minimum, <em>Title<\/em> must be specified in order for the information to show at the top of the post, and any fields that you leave blank will not appear. These fields include:<\/p>\n\n<ul>\n<li>Title<\/li>\n<li>Series<\/li>\n<li>Author<\/li>\n<li>Publisher<\/li>\n<li>Release Date<\/li>\n<li>Source<\/li>\n<li>Up to five customized URLS (as configured in the settings)<\/li>\n<li>Cover URL<\/li>\n<li>Summary<\/li>\n<li>Rating<\/li>\n<\/ul>\n\n<p>If the <em>Book Info<\/em> section has been filled out, these details will appear above the post's content.<\/p>\n\n<h4>Features<\/h4>\n\n<ul>\n<li>Customizable background and border colors.<\/li>\n<li>Ability to optionally show ratings on the home page.<\/li>\n<li>Use the built-in star rating images or specify your own.<\/li>\n<li>Configure up to five link",
+                "uid": "127446"
+            }
+        }
+    }
+}
