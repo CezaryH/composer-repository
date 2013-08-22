@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/tradervue-wp-embed-trades": {
+            "1.0.0": {
+                "name": "wordpress\/tradervue-wp-embed-trades",
+                "version": "1.0.0",
+                "version_normalized": "1.0.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/tradervue-wp-embed-trades.1.0.0.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>This plugin will embed <a href=\"http:\/\/www.tradervue.com\/shared\">shared trades<\/a> from Tradervue into Wordpress using a shortcode.<\/p>\n\n<p>On Tradervue, shared trades have a URL like<\/p>\n\n<p><a href=\"http:\/\/www.tradervue.com\/shared\/trades\/421249\" rel=\"nofollow\">http:\/\/www.tradervue.com\/shared\/trades\/421249<\/a><\/p>\n\n<p>To embed that trade into Wordpress, enter the following:<\/p>\n\n<p>[trade id=421249]<\/p>",
+                "uid": "127650"
+            }
+        }
+    }
+}

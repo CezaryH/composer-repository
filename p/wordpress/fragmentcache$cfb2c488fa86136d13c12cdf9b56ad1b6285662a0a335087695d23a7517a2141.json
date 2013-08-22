@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/fragmentcache": {
+            "0.5": {
+                "name": "wordpress\/fragmentcache",
+                "version": "0.5",
+                "version_normalized": "0.5.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/fragmentcache.0.5.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>There are a lot of great caching plugins out there, but this one solves a very particular need that none of the rest are doing. It allows you to cache particular sections of your page, using a technique known as \"fragment caching\", which is readily available in other frameworks such as Ruby on Rails. The key benefit here: you can cache content for logged-in users! This is the main limitation of most other caching plugins, which is where the need for this solution came about. There are a couple of reasons this works:<\/p>\n\n<ul>\n<li>You will only be caching certain sections of the page. Some sections of the page may be the same whether you're logged in or out, so you can cache those universally.<\/li>\n<li>You can use a flag to determine whether you'd like to cache the content for logged-in users or anonymous users (the default). Note, just like any caching solution, this will <em>never<\/em> work for customized content that is particular to each user! But, if your page has a section that",
+                "uid": "127684"
+            }
+        }
+    }
+}

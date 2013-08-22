@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/auphonic-importer": {
+            "1.2": {
+                "name": "wordpress\/auphonic-importer",
+                "version": "1.2",
+                "version_normalized": "1.2.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/auphonic-importer.1.2.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>This plugin for WordPress will read your productions from the Auphonic service (via API) and pull the last 10 productions \ninto WordPress automatically. It will create a post with enclosure, with the category you choose, and you have the option \nto put them in Published, or Draft mode to allow edits and add pictures, etc&#8230;and then publish.<\/p>\n\n<ul>\n<li>Title of the production from Auphonic will be the Title of your post in WordPress.<\/li>\n<li>The Summary (Description) of the Production in Auphonic will be the body of your WordPress post.<\/li>\n<li>Any Tags you put in your Auphonic preset or production will come over to WordPress as Tags.<\/li>\n<li>This plugin only recognizes Productions from Auphonic that produce an url with a file type of mp3, mp4, and m4a.<\/li>\n<li>If you are using Dropbox as a service in Auphonic to place your file for example, you may not get an url directly to your file and it therefore will not be imported.<\/li>\n<\/ul>",
+                "uid": "127669"
+            }
+        }
+    }
+}

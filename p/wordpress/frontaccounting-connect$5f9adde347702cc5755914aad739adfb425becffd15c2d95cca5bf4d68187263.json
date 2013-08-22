@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/frontaccounting-connect": {
+            "0.1": {
+                "name": "wordpress\/frontaccounting-connect",
+                "version": "0.1",
+                "version_normalized": "0.1.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/frontaccounting-connect.0.1.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>A simple plugin for importing Frontaccounting items into wordpress posts. \nSupport widget to display imported items in sidebar\nShortcode support.<\/p>\n\n<p>Shortcode: [ fac-display-items stock_id = \"value\" ]<\/p>\n\n<p>Note:\nWidgets, and shortcode html can be overridden by common templates located in \/plugins\/frontaccounting_connect\/templates\/ directory\nTemplates copied to theme root folder will override default html used for shortcodes, widget and append to content.<\/p>\n\nFaC has only been tested in a localhost environment. Remote DB connections not tested.\n\nimport option\n\n<p>Import\/sync product information into a wordpress posts.<\/p>\n\n<p>NOTE:\nimported items initial status is \"draft\".\nImported data will be located in \"post_meta\". \nCustomize templates if needed.<\/p>",
+                "uid": "127658"
+            }
+        }
+    }
+}

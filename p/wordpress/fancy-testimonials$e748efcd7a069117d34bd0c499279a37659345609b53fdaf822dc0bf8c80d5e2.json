@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/fancy-testimonials": {
+            "1.0": {
+                "name": "wordpress\/fancy-testimonials",
+                "version": "1.0",
+                "version_normalized": "1.0.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/fancy-testimonials.1.0.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>Fancy Testimonials is a plugin for displaying testimonials via a shortcode for use on posts and pages made by Dijitul - the UK <a href=\"http:\/\/dijitul.com\/wordpress-web-design\/\">wordpress web design<\/a> experts<\/p>\n\n<p>The plugin comes with very minimal basic styling. Please feel free to change this as you wish.<\/p>\n\n<p>There are instructions for the slider part of this plugin in the slider.js file included in the plugin folder.<\/p>\n\n<p>To use the shortcodes for the Dijitul Testimonials use the following structure.<\/p>\n\n<pre><code>[testimonial-group]\n\n[testimonial author=&#34;Insert Author Name, Company etc here&#34;]\n\nLorem ipsum dolor sit amet, consectetur adipisicing elit. Non, fugiat, deleniti, mollitia ipsam blanditiis commodi nihil tempora nulla quod rerum temporibus inventore molestias recusandae cum consequatur nobis sapiente tempore quia.\n\n[\/testimonial]\n\n[\/testimonial-group]<\/code><\/pre>",
+                "uid": "127668"
+            }
+        }
+    }
+}

@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/disable-users": {
+            "1.0.0": {
+                "name": "wordpress\/disable-users",
+                "version": "1.0.0",
+                "version_normalized": "1.0.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/disable-users.1.0.0.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>This plugin gives you the ability to disable specific user accounts via a profile setting.<\/p>\n\n<p>Once installed and activated, a checkbox appears on the user profile settings (only for admins). When checked, the users account will be disabled and they will be unable to login with the account. If they try to login, they are instantly logged out and redirected to the login page with a message that notifies them their account is disabled.<\/p>\n\n<p>This can be useful in a few situations.<\/p>\n\n<ul>\n<li>You are working on a site for a client who has an account, but do not want him to login and\/or make changes during development.<\/li>\n<li>You have a client who has an unpaid invoice.<\/li>\n<\/ul>",
+                "uid": "127678"
+            }
+        }
+    }
+}
