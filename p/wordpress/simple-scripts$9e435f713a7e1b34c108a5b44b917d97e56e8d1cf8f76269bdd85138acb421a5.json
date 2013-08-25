@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/simple-scripts": {
+            "1.0": {
+                "name": "wordpress\/simple-scripts",
+                "version": "1.0",
+                "version_normalized": "1.0.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/simple-scripts.1.0.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>An easy-to-use WordPress Plugin to add custom scripts (like Google Analytics) to your website's header and\/or footer.  Great for Administrators who don't want to store their custom scripts in a theme's options.  These fields will remain even if the theme is changed.<\/p>\n\n<p><strong>Features<\/strong><\/p>\n\n<ul>\n<li>No configuration needed, just enter your JavaScript(s).<\/li>\n<li>Scripts print after enqueued scripts (like jQuery) are rendered<\/li>\n<li>Simple interface built on WordPress UI<\/li>\n<li>Virtually no impact on site performance<\/li>\n<li>Uses no JavaScript files or complicated database queries<\/li>\n<li>Generates no files<\/li>\n<li>Extremely lightweight (~8KB)<\/li>\n<li>Thorough Documentation<\/li>\n<\/ul>",
+                "uid": "128030"
+            }
+        }
+    }
+}

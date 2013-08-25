@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/jameels-dev-tools": {
+            "1.0.0": {
+                "name": "wordpress\/jameels-dev-tools",
+                "version": "1.0.0",
+                "version_normalized": "1.0.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/jameels-dev-tools.1.0.0.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>This plugin adds a few useful features for when you are developing a website on Wordpress. It is intended to be installed on a development server, or local installation when setting up a website and left installed, although it doesn&#039;t have to be if used properly.<\/p>\n<p>The features of this plugin include:<\/p>\n<p>- A find and replace feature to ensure an easy transition from your development site(s) to your live website. Using this function, replace all instances of your website&#039;s url in image tags and links with shortcode for your site&#039;s home url. The find and replace option isn&#039;t just for links and images, replace any text with something else. As a precaution, after searching for a string, you are shown the # of instances and # of posts affected. Advanced users can even check the database table created by this plugin to find out what was affected (an easier way to do this will be available in later versions).<\/p>\n<p>- Live preview of &#091;homeurl&#093; shortco",
+                "uid": "128188"
+            }
+        }
+    }
+}

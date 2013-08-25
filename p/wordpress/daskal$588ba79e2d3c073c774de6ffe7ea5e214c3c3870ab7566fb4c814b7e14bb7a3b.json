@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/daskal": {
+            "0.6.1": {
+                "name": "wordpress\/daskal",
+                "version": "0.6.1",
+                "version_normalized": "0.6.1.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/daskal.0.6.1.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>Run a tutorials site with Wordpress. This plugin lets you publish step-by-step tutorials, get them rated etc. \nPlease go to Settings -&#62; Daskal Options page in your administration menu to get started.<\/p>\n\n<p>What it currently does?<\/p>\n\n<ul>\n<li>Adds \"Tutorial\" post type<\/li>\n<li>Adds a shortcode for labeling steps<\/li>\n<li>Steps can be paginated<\/li>\n<li>Optionally enter tutorial URL to other site and publish just an excerpt<\/li>\n<li>You can track the hits to the remotely hosted tutorials (coming soon!)<\/li>\n<li>Set a difficulty level for each tutorial<\/li>\n<li>Built-in rating functionality<\/li>\n<li>Manage design templates<\/li>\n<li>Search tutorials by difficulty levels<\/li>\n<\/ul>",
+                "uid": "128015"
+            }
+        }
+    }
+}

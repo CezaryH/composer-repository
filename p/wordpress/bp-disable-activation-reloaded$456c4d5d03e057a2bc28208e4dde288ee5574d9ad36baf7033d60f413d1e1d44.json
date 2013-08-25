@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/bp-disable-activation-reloaded": {
+            "1.0": {
+                "name": "wordpress\/bp-disable-activation-reloaded",
+                "version": "1.0",
+                "version_normalized": "1.0.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/bp-disable-activation-reloaded.1.0.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>Based on crashutah, apeatling <a href=\"http:\/\/wordpress.org\/plugins\/bp-disable-activation\/\" rel=\"nofollow\">http:\/\/wordpress.org\/plugins\/bp-disable-activation\/<\/a> Disables the activation email and automatically activates new users in BuddyPress under a standard WP install and WPMU (multisite).  Also, automatically logs in the new user since the account is already active.<\/p>\n\n<p>THIS IS BETA , please test it carefully as this plugin was created for a client and i haven't tested it deeply. So again, test this on a production site before making it live<\/p>\n\n<p>Basically i updated the plugin and added some features like:<\/p>\n\n<p>-Option to turn off automatic login\n-Redirect options after account creation<\/p>\n\n<p>Known Bugs:\n-Doesn't do the automatic login if you allow blog creation during the user creation in WPMU (multisite)<\/p>",
+                "uid": "128032"
+            }
+        }
+    }
+}

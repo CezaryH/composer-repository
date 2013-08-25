@@ -1,0 +1,57 @@
+{
+    "packages": {
+        "wordpress\/tieexpire-automated-post-expiry": {
+            "1.0": {
+                "name": "wordpress\/tieexpire-automated-post-expiry",
+                "version": "1.0",
+                "version_normalized": "1.0.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/tieexpire-automated-post-expiry.1.0.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>Simple post expiration plugin. Expires published posts based on a variety of criteria (see below).<\/p>\n\n<ul>\n<li>Expires only published posts<\/li>\n<li>Moves all expired posts to the Trash<\/li>\n<li>Permanent deletion is handled by WP's built-in Trash removal<\/li>\n<\/ul>\n\n<p>Currently, the plugin offers four cumulative expiration methods:<\/p>\n\n<ol>\n<li>Expire posts based on their age (e.g. expire posts published more than 90 days ago)<\/li>\n<li>Retain a given number of posts and expire all others (e.g. keep the latest 1,500 posts)<\/li>\n<li>Detect the BAW Post Views Count plugin and expire posts based on a combination of post age and number of views (e.g. expire all posts over 45 days old which have fewer than 100 views)<\/li>\n<li>Detect the WTI Like Post plugin and expire posts based on a combination of post age and total number of likes (e.g. expire all posts over 90 days old which have fewer than 10 likes)<\/li>\n<\/ol>\n\n<p>Each expiration check is run separately and in the order listed a",
+                "uid": "127673"
+            },
+            "1.0.1": {
+                "name": "wordpress\/tieexpire-automated-post-expiry",
+                "version": "1.0.1",
+                "version_normalized": "1.0.1.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/tieexpire-automated-post-expiry.1.0.1.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>Simple post expiration plugin. Expires published posts based on a variety of criteria (see below).<\/p>\n\n<ul>\n<li>Expires only published posts<\/li>\n<li>Moves all expired posts to the Trash<\/li>\n<li>Permanent deletion is handled by WP's built-in Trash removal<\/li>\n<\/ul>\n\n<p>Currently, the plugin offers four cumulative expiration methods:<\/p>\n\n<ol>\n<li>Expire posts based on their age (e.g. expire posts published more than 90 days ago)<\/li>\n<li>Retain a given number of posts and expire all others (e.g. keep the latest 1,500 posts)<\/li>\n<li>Detect the BAW Post Views Count plugin and expire posts based on a combination of post age and number of views (e.g. expire all posts over 45 days old which have fewer than 100 views)<\/li>\n<li>Detect the WTI Like Post plugin and expire posts based on a combination of post age and total number of likes (e.g. expire all posts over 90 days old which have fewer than 10 likes)<\/li>\n<\/ol>\n\n<p>Each expiration check is run separately and in the order listed a",
+                "uid": "127672"
+            },
+            "1.0.2": {
+                "name": "wordpress\/tieexpire-automated-post-expiry",
+                "version": "1.0.2",
+                "version_normalized": "1.0.2.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/tieexpire-automated-post-expiry.1.0.2.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>Simple post expiration plugin. Expires published posts based on a variety of criteria (see below).<\/p>\n\n<ul>\n<li>Expires only published posts<\/li>\n<li>Moves all expired posts to the Trash<\/li>\n<li>Permanent deletion is handled by WP's built-in Trash removal<\/li>\n<\/ul>\n\n<p>Currently, the plugin offers four cumulative expiration methods:<\/p>\n\n<ol>\n<li>Expire posts based on their age (e.g. expire posts published more than 90 days ago)<\/li>\n<li>Retain a given number of posts and expire all others (e.g. keep the latest 1,500 posts)<\/li>\n<li>Detect the BAW Post Views Count plugin and expire posts based on a combination of post age and number of views (e.g. expire all posts over 45 days old which have fewer than 100 views)<\/li>\n<li>Detect the WTI Like Post plugin and expire posts based on a combination of post age and total number of likes (e.g. expire all posts over 90 days old which have fewer than 10 likes)<\/li>\n<\/ol>\n\n<p>Each expiration check is run separately and in the order listed a",
+                "uid": "128038"
+            }
+        }
+    }
+}
