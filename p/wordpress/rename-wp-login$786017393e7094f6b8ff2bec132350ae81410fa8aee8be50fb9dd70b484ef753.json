@@ -1,0 +1,57 @@
+{
+    "packages": {
+        "wordpress\/rename-wp-login": {
+            "1.0": {
+                "name": "wordpress\/rename-wp-login",
+                "version": "1.0",
+                "version_normalized": "1.0.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/rename-wp-login.1.0.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<h4>What it does<\/h4>\n\n<p>This plugin renames wp-login.php to whatever you want. The default is example.com\/<strong>login<\/strong>\/ if no such page already exists. Otherwise it will append a number, e.g. login-1.\nYou can change this under Settings &#8250; Permalinks &#8250; Login.\nPlease remember what you changed your login page to, accessing wp-login.php or wp-admin\/ will not work and will return a 404 not found status.<\/p>\n\n<h4>Compatibility<\/h4>\n\n<p>Works with <strong>BuddyPress<\/strong>, <strong>Limit Login Attempts<\/strong> and most other plugins that customise the login page.\nThis plugin doesn't break the registration form, lost password form, expired sessions or any of wp-login.php&#8217;s functionality. Plugins that hook into the standard login form will keep working.\nIt doesn&#8217;t break <code>wp_login_form()<\/code>, so login forms in widgets will work too.<\/p>\n\n<p>While it might work with earlier versions of WordPress, you should always update WordPress to the latest versio",
+                "uid": "126725"
+            },
+            "1.1": {
+                "name": "wordpress\/rename-wp-login",
+                "version": "1.1",
+                "version_normalized": "1.1.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/rename-wp-login.1.1.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<h4>What it does<\/h4>\n\n<p>This plugin renames wp-login.php to whatever you want. The default is example.com\/<strong>login<\/strong>\/ if no such page already exists. Otherwise it will append a number, e.g. login-1.\nYou can change this under Settings &#8250; Permalinks &#8250; Login.\nPlease remember what you changed your login page to, accessing wp-login.php or wp-admin\/ will not work and will return a 404 not found status.<\/p>\n\n<h4>Compatibility<\/h4>\n\n<p>Works with <strong>BuddyPress<\/strong>, <strong>Limit Login Attempts<\/strong> and most other plugins that customise the login page.\nThis plugin doesn't break the registration form, lost password form, expired sessions or any of wp-login.php&#8217;s functionality. Plugins that hook into the standard login form will keep working.\nIt doesn&#8217;t break <code>wp_login_form()<\/code>, so login forms in widgets will work too.<\/p>\n\n<p>While it might work with earlier versions of WordPress, you should always update WordPress to the latest versio",
+                "uid": "126724"
+            },
+            "1.2": {
+                "name": "wordpress\/rename-wp-login",
+                "version": "1.2",
+                "version_normalized": "1.2.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/rename-wp-login.1.2.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<h4>What it does<\/h4>\n\n<p>This plugin renames wp-login.php to whatever you want. The default is example.com\/<strong>login<\/strong>\/ if no such page already exists. Otherwise it will append a number, e.g. login-1.\nYou can change this under Settings &#8250; Permalinks &#8250; Login.\nPlease remember what you changed your login page to, accessing wp-login.php or wp-admin\/ will not work and will return a 404 not found status.<\/p>\n\n<h4>Compatibility<\/h4>\n\n<p>Works with <strong>BuddyPress<\/strong>, <strong>Limit Login Attempts<\/strong> and most other plugins that customise the login page.\nThis plugin doesn't break the registration form, lost password form, expired sessions or any of wp-login.php&#8217;s functionality. Plugins that hook into the standard login form will keep working.\nIt doesn&#8217;t break <code>wp_login_form()<\/code>, so login forms in widgets will work too.<\/p>\n\n<p>While it might work with earlier versions of WordPress, you should always update WordPress to the latest versio",
+                "uid": "128424"
+            }
+        }
+    }
+}

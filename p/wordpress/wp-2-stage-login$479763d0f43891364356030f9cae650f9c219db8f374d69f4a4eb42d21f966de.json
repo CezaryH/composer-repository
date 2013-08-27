@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/wp-2-stage-login": {
+            "1.0": {
+                "name": "wordpress\/wp-2-stage-login",
+                "version": "1.0",
+                "version_normalized": "1.0.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/wp-2-stage-login.1.0.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>WP 2 Stage Login adds more seurity to your wordpress site by adding an extra authentication for login.\nIt will give the user an additional username\/password for a generic login to have a better\nauthentication system. Passwords are encrypted with SHA512 hash. Users can update their username\/password\nanytime.<\/p>\n\n<p>Features in WP 2-Stage Login 1.0 include:<\/p>\n\n<ul>\n<li>Adds an additional login before login into wp-admin.<\/li>\n<li>Generic Login details can be changed by admin\/user from their profile.<\/li>\n<li>Password reset option. New passwords will be emailed to the user's registered email id.<\/li>\n<li>2-Stage Login turn on\/off option from Generic Login Settings.<\/li>\n<\/ul>\n\n<p>Getting started:<\/p>\n\n<ul>\n<li>Default credentials for admin (when activated) will be,\nUsername: demo\nPassword: demo<\/li>\n<li>Other users will get an email with auto-generated username \/ password for 2stage login after plugin activation.<\/li>\n<li>Password reset: New password will be sent to the user's regis",
+                "uid": "128284"
+            }
+        }
+    }
+}

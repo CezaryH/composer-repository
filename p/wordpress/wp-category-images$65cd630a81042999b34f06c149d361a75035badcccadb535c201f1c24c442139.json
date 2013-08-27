@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/wp-category-images": {
+            "3.0": {
+                "name": "wordpress\/wp-category-images",
+                "version": "3.0",
+                "version_normalized": "3.0.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/wp-category-images.3.0.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>This simple plugin permits you to upload images to categories, tags and custom taxonomies just like to posts.\nThis feature is very useful when you want to show unique image in header tor every category or even some slideshow of images.\nAlso you can show a list of categories\/subcategories with a little thumbnail am much more.<\/p>\n\n<p>By the way, this plugin just uses wordpress native functionality - no aditional tables and nothing like that.\nAlso it uses wordpress images so all sizes are generated automatically (custom sizes included).<\/p>",
+                "uid": "128280"
+            }
+        }
+    }
+}

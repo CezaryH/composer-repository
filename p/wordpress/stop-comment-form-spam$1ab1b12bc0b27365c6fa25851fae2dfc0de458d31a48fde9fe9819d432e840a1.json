@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/stop-comment-form-spam": {
+            "1.0": {
+                "name": "wordpress\/stop-comment-form-spam",
+                "version": "1.0",
+                "version_normalized": "1.0.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/stop-comment-form-spam.1.0.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>This plugin simply removes:<\/p>\n\n<ol>\n<li>The Website URL Field From All Comment Forms.<\/li>\n<li>ALL Comment Form Allowed Tags Which Attract Automated Comment Form Spam.<\/li>\n<li>The 'Your email address will not be published' text which also attracts comment form bots because it includes the text 'email'.<\/li>\n<\/ol>\n\n<p>Follow WP Sites on Facebook!<\/p>\n\n<p><a href=\"http:\/\/www.facebook.com\/wpsites.net\" rel=\"nofollow\">http:\/\/www.facebook.com\/wpsites.net<\/a><\/p>",
+                "uid": "128389"
+            }
+        }
+    }
+}

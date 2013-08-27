@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/jsonpress": {
+            "0.1": {
+                "name": "wordpress\/jsonpress",
+                "version": "0.1",
+                "version_normalized": "0.1.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/jsonpress.0.1.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>JSONPress - Allows you to request WordPress site via JSON\/JSONP output using standard WordPress query.<\/p>\n<p>= Features =<br \/>\n* Access JSON via sub domain, ex. <code>api.example.com<\/code> (sub domain must be configured separately)<br \/>\n* Supports <code>JSONP<\/code> callback.<br \/>\n* Easy to debug output using <code>JSON pretty print<\/code> or <code>print_r<\/code>.<br \/>\n* You can <code>exclude columns\/data<\/code> to be displayed in JSON output.<br \/>\n* You can include <code>custom fields<\/code> too.<br \/>\n* This plugin uses <code>standard WordPress query<\/code>, no SQL hack etc.<br \/>\n* Use <code>standard WordPress URL<\/code>, no need to remember new annoying URL.\n<\/p>",
+                "uid": "128402"
+            }
+        }
+    }
+}

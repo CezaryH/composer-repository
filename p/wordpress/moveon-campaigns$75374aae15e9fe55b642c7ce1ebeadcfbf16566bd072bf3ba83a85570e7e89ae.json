@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/moveon-campaigns": {
+            "1.0.0": {
+                "name": "wordpress\/moveon-campaigns",
+                "version": "1.0.0",
+                "version_normalized": "1.0.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/moveon-campaigns.1.0.0.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>A great way to promote a MoveOn petition campaign is to feature it on your blog or site.  This plugin embeds petitions into your content and theme.  Your readers will be able to view and sign these petitions in place.  For more on MoveOn's campaign tools and petitions, please visit <a href=\"http:\/\/moveon.org\" rel=\"nofollow\">http:\/\/moveon.org<\/a>.<\/p>\n\n<p>This plugin provides <em>three ways<\/em> to integrate a campaign into your site:<\/p>\n\n<ul>\n<li>A sidebar widget:  a new MoveOn Campaign widget type will appear, and be eligible for placement in your widget areas.<\/li>\n<li>A shortcode:  use the <code>[moveon-campaigns-petition]<\/code> shortcode in your content to embed a petition directly in a post.<\/li>\n<li>A template function: you can call the function <code>moveon_campaigns_petition<\/code> from anywhere in your theme.<\/li>\n<\/ul>",
+                "uid": "128403"
+            }
+        }
+    }
+}

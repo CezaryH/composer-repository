@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/twitter-card-generator": {
+            "1.0.1": {
+                "name": "wordpress\/twitter-card-generator",
+                "version": "1.0.1",
+                "version_normalized": "1.0.1.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/twitter-card-generator.1.0.1.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>Generate Twitter meta tags for your standard WordPress posts automatically.\nTo configure which type of twitter card the plugin will generate, visit the plugin settings page.\nMore information about Twitter Cards can be Found <a href=\"https:\/\/dev.twitter.com\/docs\/cards\">Here<\/a>.<\/p>\n\n<p>The current supported types of twitter cards are:\n* Summary Card\n* Large Image Summary Card\n* Photo Card\n* Gallery Card\n* App Card<\/p>",
+                "uid": "128404"
+            }
+        }
+    }
+}

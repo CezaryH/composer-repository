@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/async-js-and-css": {
+            "1.3": {
+                "name": "wordpress\/async-js-and-css",
+                "version": "1.3",
+                "version_normalized": "1.3.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/async-js-and-css.1.3.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>I was inspired to create this small plugin by Asynchronous Javascript but it works in completely different way.<\/p>\n\n<p>When your page is loaded by browser - all that stuff placed in HEAD tag is loaded before the page content - in blocking way. So the content is delivered to user in the last moment, after all javascript and css files are loaded.<\/p>\n\n<p>If you are a webmaster or just want to make your web to make better your positions on search engines (yes, they preffer faster webs), just take a look on Google PageSpeed Insights - you'll see that one of the mos important things is fastenes and one of the reason why your page is not so fast - is \"Render-blocking JavaScript and CSS\".<\/p>\n\n<p>This plugin makes ALL scripts loaded by other plugins to be loaded in asyncronous way just like Google PageSpeed Insights recomends.\nAll CSS files will be moved from document beginning to the end, just before closing BODY tag (or just where you placed wp_foot() function).<\/p>\n\n<p>This plugin has ",
+                "uid": "128283"
+            }
+        }
+    }
+}
