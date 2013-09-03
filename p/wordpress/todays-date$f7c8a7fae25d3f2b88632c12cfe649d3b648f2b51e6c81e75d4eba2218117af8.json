@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/todays-date": {
+            "1.0": {
+                "name": "wordpress\/todays-date",
+                "version": "1.0",
+                "version_normalized": "1.0.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/todays-date.1.0.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>This plugin allows a user to display the current date to the user via a shortcode in any place that a shortcode is usable.<\/p>\n\n<p>Styling of the date will be the result of styling the shortcode itself. For example if the shortcode is written in bold, blue text,\nthen the date will show up as bold, blue text<\/p>\n\n<p>The formatting of the date is accomplished by changing the date format in the WordPress Admin Dashboard under Settings-&#62;General. Future\nreleases of this plugin will allow formatting via the shortcode.<\/p>\n\n<p>[date today]<\/p>",
+                "uid": "128578"
+            }
+        }
+    }
+}

@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/wp-einsatz": {
+            "0.6.3": {
+                "name": "wordpress\/wp-einsatz",
+                "version": "0.6.3",
+                "version_normalized": "0.6.3.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/wp-einsatz.0.6.3.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>Bei WP-Einsatz handelt es sich um ein spezielles WordPress-Plugin f&#252;r Feuerwehren.\nMit Hilfe dieses Plugins kann der letzte Einsatz als Widget angezeigt werden und eine Einsatzliste auf einer beliebigen Seite angezeigt werden.<\/p>\n\n<p>Verwendung:\nMit Hilfe des Platzhalters &#8220;&#60;!&#8722;&#8722;einsatzliste&#8722;&#8722;&#62;&#8221; oder \"wpeinsatzlistewp\" kann an einer beliebigen Stelle eine Einsatzliste eingef&#252;gt werden. Dazu muss noch ein benutzerdefiniertes Feld &#8220;jahr&#8221; erzeugt werden, dass das gew&#252;nschte Berichtsjahr enth&#228;lt. Zur Anzeige von Eins&#228;tze eines einzelnen Monats muss ein Feld &#8220;monat&#8221; hinzugef&#252;gt werden. G&#252;ltige Werte in diesem Feld sind 1-12.\nErzeugt man statt dem Feld &#8220;jahr&#8221; ein Feld &#8220;letzte&#8221; mit einem Wert x, dann werden die letzten x Eins&#228;tze angezeigt. Wird beides nicht angegeben werden alle Eins&#228;tze in der Tabelle angezeigt.<\/p>\n\n<p>Versionen &#60; 0.6.3 sind unter <",
+                "uid": "129037"
+            }
+        }
+    }
+}

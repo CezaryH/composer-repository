@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/restore-admin-menu": {
+            "0.1": {
+                "name": "wordpress\/restore-admin-menu",
+                "version": "0.1",
+                "version_normalized": "0.1.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/restore-admin-menu.0.1.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>Up to 3.3.x, Russian WordPress packages had some CSS fixes to make room for translated strings in the admin menu and other UI elements.<\/p>\n\n<p>In 3.4 and 3.5, those fixes were merged into core (see <a href=\"http:\/\/core.trac.wordpress.org\/ticket\/19603\">#19603<\/a> and <a href=\"http:\/\/core.trac.wordpress.org\/ticket\/20975\">#20975<\/a>). However, obsolete language files are not deleted during an automatic update (see <a href=\"http:\/\/core.trac.wordpress.org\/ticket\/20974\">#20974<\/a>). Unfortunately, this causes the admin menu to disappear when directly updating from 3.1.x or an older version to the latest releases from <a href=\"http:\/\/ru.wordpress.org\/\">ru.wordpress.org<\/a>.<\/p>\n\n<p>The list of obsolete files:<\/p>\n\n<pre><code>wp-content\/languages\/ru_RU.php\nwp-content\/languages\/ru_RU.css\nwp-content\/languages\/ru_RU-ie.css\nwp-content\/languages\/ms-ru_RU.css<\/code><\/pre>\n\n<p>The best option is just to remove them manually via FTP. If for some reason you can't do that, you can try this plugin, w",
+                "uid": "129480"
+            }
+        }
+    }
+}

@@ -1,0 +1,40 @@
+{
+    "packages": {
+        "wordpress\/tk-shortcode-link": {
+            "1.0.20": {
+                "name": "wordpress\/tk-shortcode-link",
+                "version": "1.0.20",
+                "version_normalized": "1.0.20.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/tk-shortcode-link.1.0.20130816.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>Create links with a shortcode. Comes in handy in places where HTML tags aren't allowed and\/or keep getting encoded or something.<\/p>\n\n<p>Basically, just a utility plugin.<\/p>\n\n<h4>Accepts 3 parameters:<\/h4>\n\n<ul>\n<li>url<\/li>\n<li>target (automatically adds the leading underscore)<\/li>\n<li>class<\/li>\n<\/ul>\n\n<h4>Examples:<\/h4>\n\n<ul>\n<li>[tklink url=\"http:\/\/www.nike.com\/\"]Just do it[\/tklink]\n\n<ul>\n<li>Outputs: <code>&#60;a class=\"tklink\" href=\"http:\/\/www.nike.com\/\"&#62;Just do it&#60;\/a&#62;<\/code><\/li>\n<\/ul><\/li>\n<li>[tklink url=\"http:\/\/www.pagelinestheme.com\/\" target=\"blank\"]Open PageLinesTheme.com in a new window[\/tklink]\n\n<ul>\n<li>Outputs: <code>&#60;a class=\"tklink\" href=\"http:\/\/www.pagelinestheme.com\/\" target=\"_blank\"&#62;Open PageLinesTheme.com in a new window&#60;\/a&#62;<\/code><\/li>\n<\/ul><\/li>\n<li>[tklink url=\"http:\/\/www.google.com\/\" class=\"googlie\" target=\"parent\"]A googglie Google link with parent target[\/tklink]\n\n<ul>\n<li>Outputs: <code>&#60;a class=\"googlie\" href=\"http:\/\/ww",
+                "uid": "127229"
+            },
+            "1.1": {
+                "name": "wordpress\/tk-shortcode-link",
+                "version": "1.1",
+                "version_normalized": "1.1.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/tk-shortcode-link.1.1.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>Create links with a shortcode. Comes in handy in places where HTML tags aren't allowed and\/or keep getting encoded or something.<\/p>\n\n<p>Basically, just a utility plugin.<\/p>\n\n<h4>Accepts 3 parameters:<\/h4>\n\n<ul>\n<li>url<\/li>\n<li>target (automatically adds the leading underscore)<\/li>\n<li>class<\/li>\n<\/ul>\n\n<h4>Examples:<\/h4>\n\n<ul>\n<li>[tklink url=\"http:\/\/www.nike.com\/\"]Just do it[\/tklink]\n\n<ul>\n<li>Outputs: <code>&#60;a class=\"tklink\" href=\"http:\/\/www.nike.com\/\"&#62;Just do it&#60;\/a&#62;<\/code><\/li>\n<\/ul><\/li>\n<li>[tklink url=\"http:\/\/www.pagelinestheme.com\/\" target=\"blank\"]Open PageLinesTheme.com in a new window[\/tklink]\n\n<ul>\n<li>Outputs: <code>&#60;a class=\"tklink\" href=\"http:\/\/www.pagelinestheme.com\/\" target=\"_blank\"&#62;Open PageLinesTheme.com in a new window&#60;\/a&#62;<\/code><\/li>\n<\/ul><\/li>\n<li>[tklink url=\"http:\/\/www.google.com\/\" class=\"googlie\" target=\"parent\"]A googglie Google link with parent target[\/tklink]\n\n<ul>\n<li>Outputs: <code>&#60;a class=\"googlie\" href=\"http:\/\/ww",
+                "uid": "129273"
+            }
+        }
+    }
+}

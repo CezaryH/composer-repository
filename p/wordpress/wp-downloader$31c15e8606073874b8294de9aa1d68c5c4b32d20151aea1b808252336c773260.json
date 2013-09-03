@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/wp-downloader": {
+            "1.0": {
+                "name": "wordpress\/wp-downloader",
+                "version": "1.0",
+                "version_normalized": "1.0.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/wp-downloader.1.0.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<h4>Features<\/h4>\n\n<ul>\n<li>displays a 'Download' link for\n\n<ul>\n<li>all installed plugins (in action links on 'Plugins' page)<\/li>\n<li>themes which are currently not in use (on 'Appearance' page)<\/li>\n<\/ul><\/li>\n<\/ul>\n\n<h4>Idea<\/h4>\n\n<p>I wrote this plugin to simplify and improve code downloading when developing on a playground with contributors. With this plugin you can get complete package with other plugin or theme you are working on in one click. You can also use it to share your code with someone without downloading it via ftp, manually zipping and then sending it in e-mail or uploading the package back to your server or anything else... just tell him to click the link!<\/p>\n\n<p>There are some other methods for this, there are advanced plugins which has such a feature to download other plugins, but I hope someone will find my code usefull as it is very simple in action and the simplest in use.<\/p>\n\n<p>This plugin uses PclZip class integrated with WordPress.<\/p>\n\n<h4>TODO<\/h4>\n\n<ul",
+                "uid": "129045"
+            }
+        }
+    }
+}

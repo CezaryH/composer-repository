@@ -1,0 +1,40 @@
+{
+    "packages": {
+        "wordpress\/kocuj-sitemap": {
+            "1.0.0": {
+                "name": "wordpress\/kocuj-sitemap",
+                "version": "1.0.0",
+                "version_normalized": "1.0.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/kocuj-sitemap.1.0.0.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>This plugin adds shortcode <code>[KocujSitemap]<\/code> which will place a sitemap.\nThis is automatically generated into cache to avoid any delay during the website loading.<\/p>\n\n<p>This shortcode has some optional parameters:\n* class - this class will be added to block element which contains the entire sitemap\n* title - this value will be placed as title of the main site<\/p>\n\n<p>For example, if you will add:<\/p>\n\n<pre><code>[KocujSitemap class=&#34;new_class&#34; title=&#34;NEW TITLE&#34;]<\/code><\/pre>\n\n<p>then sitemap will be in block element with class <code>new_class<\/code> and the title of the link to the main site will be <code>NEW TITLE<\/code>.<\/p>\n\n<p>You can also use global function anywhere in your PHP code. This function is defined as:\nfunction kocujsitemap_show_sitemap($title = '', $class = '')\nwhere <code>title<\/code> and <code>class<\/code> are the same parameters as in the shortcode.\nFor example, if you will add:\nkocujsitemap_show_sitemap('NEW TITLE', 'new_class')\nthen ",
+                "uid": "128785"
+            },
+            "1.1.0": {
+                "name": "wordpress\/kocuj-sitemap",
+                "version": "1.1.0",
+                "version_normalized": "1.1.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/kocuj-sitemap.1.1.0.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>This plugin adds shortcode <code>[KocujSitemap]<\/code> which will place a sitemap.\nThis is automatically generated into cache to avoid any delay during the website loading.<\/p>\n\n<p>This shortcode has some optional parameters:\n* class - this class will be added to block element which contains the entire sitemap\n* title - this value will be placed as title of the main site<\/p>\n\n<p>For example, if you will add:<\/p>\n\n<pre><code>[KocujSitemap class=&#34;new_class&#34; title=&#34;NEW TITLE&#34;]<\/code><\/pre>\n\n<p>then sitemap will be in block element with class <code>new_class<\/code> and the title of the link to the main site will be <code>NEW TITLE<\/code>.<\/p>\n\n<p>You can also use global function anywhere in your PHP code. This function is defined as:\nfunction kocujsitemap_show_sitemap($title = '', $class = '')\nwhere <code>title<\/code> and <code>class<\/code> are the same parameters as in the shortcode.\nFor example, if you will add:\nkocujsitemap_show_sitemap('NEW TITLE', 'new_class')\nthen ",
+                "uid": "128784"
+            }
+        }
+    }
+}

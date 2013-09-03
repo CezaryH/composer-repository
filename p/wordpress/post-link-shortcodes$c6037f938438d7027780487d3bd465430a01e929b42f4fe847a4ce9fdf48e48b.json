@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/post-link-shortcodes": {
+            "0.2": {
+                "name": "wordpress\/post-link-shortcodes",
+                "version": "0.2",
+                "version_normalized": "0.2.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/post-link-shortcodes.0.2.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>Aptly titled <em>Post Link Shortcodes<\/em>, the plugin dynamically creates shortcodes for each registered post type.  These shortcodes can be used to create an html anchor to the post, post type archive or just return the URL for either.<\/p>\n\n<p>Each post type will have 4 shortcodes created for it where <code>posttype<\/code> is the name of the post type. Eg: <code>post<\/code> or <code>page<\/code><\/p>\n\n<pre><code>[posttype_url]\n[posttype_link]\n[posttype_archive_url]\n[posttype_archive_link]<\/code><\/pre>\n\n<h4>Attributes &#38; Usage<\/h4>\n\n<p>Depending on what kind of returned information is desired, the right shortcode will need to be used and some attributes may be required.<\/p>\n\n<h4>URL<\/h4>\n\n<p><strong>Using Post ID<\/strong><\/p>\n\n<pre><code>[post_url post_id=1]<\/code><\/pre>\n\n<pre><code>[page_url post_id=2]<\/code><\/pre>\n\n<p><strong>Using Post \"slug\"<\/strong> (<code>post_name<\/code> - does not require pretty permalinks)<\/p>\n\n<pre><code>[post_url slug=&#34;hello-world&#34;]<\/code><\/pre>",
+                "uid": "128390"
+            }
+        }
+    }
+}

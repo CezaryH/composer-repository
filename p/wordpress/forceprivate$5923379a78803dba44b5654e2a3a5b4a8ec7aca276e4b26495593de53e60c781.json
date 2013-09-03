@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/forceprivate": {
+            "1.0": {
+                "name": "wordpress\/forceprivate",
+                "version": "1.0",
+                "version_normalized": "1.0.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/forceprivate.1.0.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>Force all posts by users without Editor or higher role to be private.<\/p>\n\n<p>This plugin allows you to give your post writers the ability to create and publish posts on your site that are only visible to\nthe author, and to editors\/admins, by forcing all their posts to be private.<\/p>\n\n<p>Features:<\/p>\n\n<ul>\n<li>Anyone who does not have the 'edit_private_posts' capability can only post private posts<\/li>\n<li>Editors, admins and Super admins (who do have the 'edit_private_posts') can see all posts, and switch them from private to public if required.<\/li>\n<li>No Configuration!<\/li>\n<li>Just Activate!<\/li>\n<\/ul>\n\n<p>This is my first publicly released plugin... so I hope you like it. Let me know if you find any bugs!<\/p>",
+                "uid": "128794"
+            }
+        }
+    }
+}

@@ -1,0 +1,40 @@
+{
+    "packages": {
+        "wordpress\/incapsula": {
+            "1.2": {
+                "name": "wordpress\/incapsula",
+                "version": "1.2",
+                "version_normalized": "1.2.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/incapsula.1.2.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>By using this plugin you will have no change to your originating IPs when using Incapsula. Incapsula acts as a reverse proxy and all incoming connections to your website first pass through one of Incapsula's servers. This plugin will ensure that you continue to see the real originating IP of your website visitors.<\/p>\n\n<p>The plugin is <strong>highly recommended<\/strong> for WordPress users using the Incapsula service.<\/p>\n\n<p>HOW IT WORKS:<\/p>\n\n<ul>\n<li>The plugin sets the value of $_SERVER['REMOTE_ADDR'] according to the client IP value reported by the Incapsula proxy.<\/li>\n<li>The plugin will automatically position itself to execute first so that all other plugins that require the originating IP, continue to operate as usual.<\/li>\n<\/ul>\n\n<p>ABOUT INCAPSULA:<\/p>\n\n<p>Incapsula gives any website the security and performance previously only available to the website elite. Through a simple DNS settings change, website traffic is seamlessly routed through Incapsula's global network of ",
+                "uid": "43101"
+            },
+            "1.3": {
+                "name": "wordpress\/incapsula",
+                "version": "1.3",
+                "version_normalized": "1.3.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/incapsula.1.3.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>By using this plugin you will have no change to your originating IPs when using Incapsula. Incapsula acts as a reverse proxy and all incoming connections to your website first pass through one of Incapsula's servers. This plugin will ensure that you continue to see the real originating IP of your website visitors.<\/p>\n\n<p>The plugin is <strong>highly recommended<\/strong> for WordPress users using the Incapsula service.<\/p>\n\n<p>HOW IT WORKS:<\/p>\n\n<ul>\n<li>The plugin sets the value of $_SERVER['REMOTE_ADDR'] according to the client IP value reported by the Incapsula proxy.<\/li>\n<li>The plugin will automatically position itself to execute first so that all other plugins that require the originating IP, continue to operate as usual.<\/li>\n<\/ul>\n\n<p>ABOUT INCAPSULA:<\/p>\n\n<p>Incapsula gives any website the security and performance previously only available to the website elite. Through a simple DNS settings change, website traffic is seamlessly routed through Incapsula's global network of ",
+                "uid": "129616"
+            }
+        }
+    }
+}

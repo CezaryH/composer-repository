@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/regione-provincia-comune": {
+            "1.0": {
+                "name": "wordpress\/regione-provincia-comune",
+                "version": "1.0",
+                "version_normalized": "1.0.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/regione-provincia-comune.1.0.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>Con questo plugin &#232; possibile inserire all'interno del proprio sito o blog la classica e richiestissima cascata regione\/provincia\/comune`.<\/p>\n\n<p>Il plugin si basa sul concatemanento di select detto anche select a cascata e consiste nel fornire all&#180;utente la possibilit&#224; di trovare un comune specifico attraverso alcuni passaggi: in pratica scegliendo una regione nella prima select, la seconda verr&#224; popolata con i dati relativi alle province della regione scelta e cos&#236; via.<\/p>\n\n<p><strong>Come si usa?<\/strong> L'uso &#232; molto semplice:\n*Potete utilizzare lo shortcode:<\/p>\n\n<pre><code>[paky_regioneprovinciacomune]<\/code><\/pre>\n\n<p>nel form che state costruendo nell'articolo o nella pagina;<\/p>\n\n<p>*potete utilizzare il codice:<\/p>\n\n<pre><code>&#60;?php echo do_shortcode(&#34;[paky_regioneprovinciacomune]&#34;);<\/code><\/pre>\n\n<p>nel vostro template file;<\/p>\n\n<p>*oppure, ancora pi&#249; comodo e funzionale, nel plugin Contact Form 7:<\/p>\n\n<p>nel form che st",
+                "uid": "128553"
+            }
+        }
+    }
+}

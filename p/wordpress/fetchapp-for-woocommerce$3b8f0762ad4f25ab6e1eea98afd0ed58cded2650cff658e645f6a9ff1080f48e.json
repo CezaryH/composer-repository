@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/fetchapp-for-woocommerce": {
+            "1.0": {
+                "name": "wordpress\/fetchapp-for-woocommerce",
+                "version": "1.0",
+                "version_normalized": "1.0.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/fetchapp-for-woocommerce.1.0.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>This plugin provides integration between FetchApp and WooCommerce.<\/p>\n\n<h3>Features:<\/h3>\n\n<ul>\n<li>Pull products and orders from FetchApp into WooCommerce<\/li>\n<li>Push products and orders from WooCommerce up to FetchApp<\/li>\n<li>Automatic synchronization of new orders placed through your store, including the email of product download links<\/li>\n<li>Period synchronization using a scheduled WordPress task.<\/li>\n<\/ul>",
+                "uid": "129040"
+            }
+        }
+    }
+}

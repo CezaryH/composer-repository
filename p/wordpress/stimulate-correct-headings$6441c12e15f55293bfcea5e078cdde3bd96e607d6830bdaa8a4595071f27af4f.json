@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/stimulate-correct-headings": {
+            "1.0": {
+                "name": "wordpress\/stimulate-correct-headings",
+                "version": "1.0",
+                "version_normalized": "1.0.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/stimulate-correct-headings.1.0.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>This plugin stimulates WordPress editors to use correct headings for accessibility and seo. The heading tags are on the second row and hidden in the WYSIWYG editor in WordPress by default. The (non visual) text edit screen has no heading tag buttons at all.\nEditors will make heading bold instead of using the correct heading while the use of correct (nested) heading is important for accessibility and seo.\nThis plugin add the format menu with heading tags in the first row of the WYSIWYG editor and add heading tags to the text editor.<\/p>\n\nAccessibility\n\n<p>[Section 508](&#60;a href=\"http:\/\/squizlabs.github.io\/HTML_CodeSniffer\/Standards\/Section508\/) states that your largest header must be an <code>&#60;h1&#62;<\/code> followed by an other <code>&#60;h1&#62;<\/code> or a subordinate heading element (h2 to h6). The structure of the headers should reflex the structure of your document. So the heading structure should be logically nested. Screen readers read this semantic heading structure t",
+                "uid": "128550"
+            }
+        }
+    }
+}

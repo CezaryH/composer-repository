@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/tilecrop": {
+            "1.0.0": {
+                "name": "wordpress\/tilecrop",
+                "version": "1.0.0",
+                "version_normalized": "1.0.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/tilecrop.1.0.0.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>The traditional wordpress image resizing engine will resize images to fit within the specified size but not preserve the destination pixel dimensions OR will crop the image. This plugin gives a third alternative - the image will be reduced to fit within the specified size and then the canvas extended to preserve the destination pixel dimensions. The canvas will then be filled in based on a sampling of the colors in the four corners of the image.<\/p>",
+                "uid": "128791"
+            }
+        }
+    }
+}

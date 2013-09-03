@@ -1,0 +1,40 @@
+{
+    "packages": {
+        "wordpress\/cleanup-images": {
+            "0.11": {
+                "name": "wordpress\/cleanup-images",
+                "version": "0.11",
+                "version_normalized": "0.11.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/cleanup-images.0.11.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>A plugin to help in deciding which images in the Media Library you want to delete and then\ndeleting them from both the DB and the directory if you decide to do so. This plugin will\nsearch the database for all images in the Media Library and determine whether or not they\nare in use. They will then be listed. If not used, you will be able to select them in order\nto delete them.<\/p>\n\n<p>This plugin finds all standard (out of the box) image usage as well as images used by the\nPods plugin and images referenced in the WordPress options table.<\/p>\n\n<p>This plugin is based on a partial rewrite and major extension of Delete Not Used Images (DNUI).\nIn addition to the functionality of that plugin, this plugin:<\/p>\n\n<ul>\n<li>accounts for images used by Pods (Pods 2.1+)<\/li>\n<li>accounts for any images specified in the WP options table<\/li>\n<li>provides for an image preview on hovering over the image names<\/li>\n<li>formats the screens in a nicer manner and starts to use standard WP CSS for forma",
+                "uid": "128580"
+            },
+            "1.0": {
+                "name": "wordpress\/cleanup-images",
+                "version": "1.0",
+                "version_normalized": "1.0.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/cleanup-images.1.0.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>A plugin to help in deciding which images in the Media Library you want to delete and then\ndeleting them from both the DB and the directory if you decide to do so. This plugin will\nsearch the database for all images in the Media Library and determine whether or not they\nare in use. They will then be listed. If not used, you will be able to select them in order\nto delete them.<\/p>\n\n<p>This plugin finds all standard (out of the box) image usage as well as images used by the\nPods plugin and images referenced in the WordPress options table.<\/p>\n\n<p>This plugin is based on a partial rewrite and major extension of Delete Not Used Images (DNUI).\nIn addition to the functionality of that plugin, this plugin:<\/p>\n\n<ul>\n<li>accounts for images used by Pods (Pods 2.1+)<\/li>\n<li>accounts for any images specified in the WP options table<\/li>\n<li>provides for an image preview on hovering over the image names<\/li>\n<li>formats the screens in a nicer manner and starts to use standard WP CSS for forma",
+                "uid": "128579"
+            }
+        }
+    }
+}

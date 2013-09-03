@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/woocommerce-oscommerce-import": {
+            "1.0": {
+                "name": "wordpress\/woocommerce-oscommerce-import",
+                "version": "1.0",
+                "version_normalized": "1.0.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/woocommerce-oscommerce-import.1.0.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>NOTES:<\/p>\n\n<ol>\n<li>You must install the main \"WooCommerce - excelling eCommerce\" plugin in order to use this plugin<\/li>\n<li>You must have MySQL remote access to the osCommerce database (most hosting providers will allow you to setup remote access)<\/li>\n<\/ol>\n\n<p>After installing the plugin go to Woocommerce -&#62; osCommerce Import and enter the osCommerce database info, and the URL to the osCommerce store.<\/p>\n\n<p>All products and categories will be imported at once (import is not staggered yet).  If you have a lot of products to import and it is timing out just run the importer several times until all products are imported (products that have already been imported are skipped over).<\/p>\n\n<p>If there is enough demand I may added a staggering system to avoid timeouts.<\/p>",
+                "uid": "129245"
+            }
+        }
+    }
+}

@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/bang-syslog": {
+            "1.2": {
+                "name": "wordpress\/bang-syslog",
+                "version": "1.2",
+                "version_normalized": "1.2.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/bang-syslog.1.2.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>Enable system logging for WordPress plugin and theme development. This can make it easier to know what your code is doing.<\/p>\n\n<p>Features include:<\/p>\n\n<ul>\n<li>Log to the system log or to a file<\/li>\n<li>Easily append or embed any value in log messages<\/li>\n<li>Coloured logs indicating strings, numbers, arrays, objects, null values etc.<\/li>\n<li>Extract values from arrays of objects<\/li>\n<li>Optionally exclude AJAX, Javascripts, CSS and any other pattern of URLs.<\/li>\n<li>Intercept PHP errors and log strict warnings<\/li>\n<li>Measure memory usage between two points, or the time taken by various parts of your code<\/li>\n<li>Easy to switch off for production sites<\/li>\n<\/ul>\n\n<h4>How to use<\/h4>\n\n<p>Using it is as simple as calling the <code>'log'<\/code> action in your templates or plugin.<\/p>\n\n<pre><code>&#60;?php do_action(&#039;log&#039;, &#039;Some log message&#039;); ?&#62;<\/code><\/pre>\n\n<p>This will produce a line in your system log:<\/p>\n\n<pre><code>Jun  4 11:23:08 myserver php",
+                "uid": "129250"
+            }
+        }
+    }
+}

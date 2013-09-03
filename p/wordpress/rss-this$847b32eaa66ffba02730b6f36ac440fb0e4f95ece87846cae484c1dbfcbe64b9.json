@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/rss-this": {
+            "1.0": {
+                "name": "wordpress\/rss-this",
+                "version": "1.0",
+                "version_normalized": "1.0.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/rss-this.1.0.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>RSS This Plugin will turn your normal WordPress page into a blog roll from an RSS feed.<\/p>\n\n<a href=\"#\">Demo<\/a>\n\n<p>How To Use:\n- Install the plugin\n- Place this shortcode where you want the feed to show: [rss-this uri=\"feed URL here\" maxitems=\"99\"] \n- If you want to get a feed from a wordpress site, simply use the domain name and add \/feed at the end, for example:\n[rss-this uri=\"http:\/\/smartcatdesign.net\/feed\" maxitems=\"99\"]<\/p>",
+                "uid": "129032"
+            }
+        }
+    }
+}

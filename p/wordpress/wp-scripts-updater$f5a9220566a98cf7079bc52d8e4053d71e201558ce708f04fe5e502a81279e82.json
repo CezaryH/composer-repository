@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/wp-scripts-updater": {
+            "0.1.0": {
+                "name": "wordpress\/wp-scripts-updater",
+                "version": "0.1.0",
+                "version_normalized": "0.1.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/wp-scripts-updater.0.1.0.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>This plugin updates the following scripts to the latest stable versions:\n- jQuery + jQuery-Migrate\n- jQuery UI\n- jQuery Color\n- jQuery Form\n- jQuery Masonry\n- and so on<\/p>\n\n<p>And adds some new scripts to WP:\n- Genericons Font (not script, but still awesome - integrated)\n- Classie - class helper functions\n- Prefix Free\n- Modernizr\n- jQuery Mobile\n- Sizzle\n- jQuery Cookie\n- jQuery Lazy Load (auto)<\/p>\n\n<p>For IE:\n- Selectivizr\n- PIE\n- html5shiv<\/p>\n\n<p>So now you shouldn't download and connect manually these plugins separately for all your best themes.\nJust type, for example, 'wp_enqueue_script('modernizr')' or 'wp_enqueue_style('genericons')' and it will be enough!<\/p>",
+                "uid": "128792"
+            }
+        }
+    }
+}

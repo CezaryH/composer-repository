@@ -1,0 +1,40 @@
+{
+    "packages": {
+        "wordpress\/appio": {
+            "1.0": {
+                "name": "wordpress\/appio",
+                "version": "1.0",
+                "version_normalized": "1.0.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/appio.1.0.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>The App.io plugin lets you use shortcodes to embed playable iOS app demos from <a href=\"http:\/\/app.io\">App.io<\/a> in WordPress posts.<\/p>\n\n<p>For example, the shortcode <code>[app.io url=\"https:\/\/app.io\/BJF03g\"]<\/code> will embed a playable app demo in your post, with the default configuration.<\/p>\n\n<p>You will need an App.io account to upload apps. You can sign up for a free trial account <a href=\"https:\/\/app.io\/signup\">here<\/a>.<\/p>\n\n<p>This is the shortcode format:<\/p>\n\n<pre><code>[app.io url=&#34;{App.io app URL, e.g. <a href=\"https:\/\/app.io\/BJF03g\" rel=\"nofollow\">https:\/\/app.io\/BJF03g<\/a>}&#34;\n    autoplay=&#34;true&#124;false&#34;\n    chrome=&#34;true&#124;false&#34;\n    device=&#34;iphone&#124;iphone5&#124;ipad&#124;ipadmini&#34;\n    language=&#34;{ISO-639-1 language code}&#34;\n    location=&#34;{latitude and longitude in the form &#039;37.7859, -122.406509&#039;}&#34;\n    orientation=&#34;portrait&#124;landscape&#34;\n    params=&#34;{URI-encoded JSON dictionary}&#34;\n]<\/cod",
+                "uid": "116079"
+            },
+            "1.1": {
+                "name": "wordpress\/appio",
+                "version": "1.1",
+                "version_normalized": "1.1.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/appio.1.1.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>The App.io plugin lets you use shortcodes to embed playable iOS app demos from <a href=\"http:\/\/app.io\">App.io<\/a> in WordPress posts.<\/p>\n\n<p>For example, the shortcode <code>[app.io url=\"https:\/\/app.io\/BJF03g\"]<\/code> will embed a playable app demo in your post, with the default configuration.<\/p>\n\n<p>You will need an App.io account to upload apps. You can sign up for a free trial account <a href=\"https:\/\/app.io\/signup\">here<\/a>.<\/p>\n\n<p>This is the shortcode format:<\/p>\n\n<pre><code>[app.io url=&#34;{App.io app URL, e.g. <a href=\"https:\/\/app.io\/BJF03g\" rel=\"nofollow\">https:\/\/app.io\/BJF03g<\/a>}&#34;\n    autoplay=&#34;true&#124;false&#34;\n    chrome=&#34;true&#124;false&#34;\n    device=&#34;iphone&#124;iphone5&#124;ipad&#124;ipadmini&#34;\n    language=&#34;{ISO-639-1 language code}&#34;\n    location=&#34;{latitude and longitude in the form &#039;37.7859, -122.406509&#039;}&#34;\n    orientation=&#34;portrait&#124;landscape&#34;\n    params=&#34;{URI-encoded JSON dictionary}&#34;\n]<\/cod",
+                "uid": "129088"
+            }
+        }
+    }
+}

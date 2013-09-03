@@ -1,0 +1,40 @@
+{
+    "packages": {
+        "wordpress\/excerpts-everywhere": {
+            "1.0.0": {
+                "name": "wordpress\/excerpts-everywhere",
+                "version": "1.0.0",
+                "version_normalized": "1.0.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/excerpts-everywhere.1.0.0.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>This plugin will allow you to add post\/page\/custom post type excerpt anywhere on your page using shortcode. Just specify the id. There are number of layouts available. You can use the featured image or specify another image to be used.<\/p>\n\n<p>[excerpt-everywhere id=23]<\/p>\n\n<ul>\n<li>word_count= 30 (integer)<\/li>\n<li>t= 4 (1-4) - the excerpt layout<\/li>\n<li>thumb_size = 300200 (300200\/200\/100\/10050\/50)<\/li>\n<li>src = full image url (if you want to use image other than the featured image)<\/li>\n<li>is_icon = 1 (1\/0) whether use the image as  or as background<\/li>\n<li>type = page\/post\/custom post type<\/li>\n<li>hide_title = 1\/0 - do not show title<\/li>\n<li>content = custom content<\/li>\n<\/ul>",
+                "uid": "128549"
+            },
+            "1.0.1": {
+                "name": "wordpress\/excerpts-everywhere",
+                "version": "1.0.1",
+                "version_normalized": "1.0.1.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/excerpts-everywhere.1.0.1.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>This plugin will allow you to add post\/page\/custom post type excerpt anywhere on your page using shortcode. Just specify the id. There are number of layouts available. You can use the featured image or specify another image to be used.<\/p>\n\n<p>[excerpt-everywhere id=23]<\/p>\n\n<ul>\n<li>word_count= 30 (integer)<\/li>\n<li>t= 4 (1-4) - the excerpt layout<\/li>\n<li>thumb_size = 300200 (300200\/200\/100\/10050\/50)<\/li>\n<li>src = full image url (if you want to use image other than the featured image)<\/li>\n<li>is_icon = 1 (1\/0) whether use the image as  or as background<\/li>\n<li>type = page\/post\/custom post type<\/li>\n<li>hide_title = 1\/0 - do not show title<\/li>\n<li>content = custom content<\/li>\n<\/ul>",
+                "uid": "128779"
+            }
+        }
+    }
+}

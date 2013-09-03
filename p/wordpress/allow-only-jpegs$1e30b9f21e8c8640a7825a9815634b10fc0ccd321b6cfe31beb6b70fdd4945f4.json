@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "wordpress\/allow-only-jpegs": {
+            "1.0": {
+                "name": "wordpress\/allow-only-jpegs",
+                "version": "1.0",
+                "version_normalized": "1.0.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "http:\/\/downloads.wordpress.org\/plugin\/allow-only-jpegs.1.0.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "wordpress\/installer": "0.1.*"
+                },
+                "type": "wordpress-plugin",
+                "description": "<p>This is a lightweight plugin which prevents users from uploading any file that is not in JPEG format. There are no options and nothing to configure. Simply activate the plugin and users will no longer be able to upload PNG, GIF, or BMP files. This plugin could be used to restrict editorial staff from contributing to high page load times by publishing inefficient formats. WordPress high-volume tested.<\/p>",
+                "uid": "129255"
+            }
+        }
+    }
+}
